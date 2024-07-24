@@ -3,7 +3,7 @@ title: Créer des groupes d’achat
 description: Découvrez comment créer des groupes d’achat.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Créer des groupes d’achat
 
-Lorsque le groupe d’achat est créé, il peut être utilisé dans un Parcours de compte par le biais de l’ [intérêt de la solution](./solution-interests.md).
+Une fois le groupe d’achat créé, il peut être utilisé dans un parcours de compte par le biais de l’ [intérêt de la solution](./solution-interests.md).
 
 1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B Edition.
 
@@ -41,7 +41,7 @@ La première page fournit des conseils sur les conditions préalables/composants
 
    ![Cliquez sur Créer des groupes d’achat](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
-1. Une fois que vous avez sélectionné l’intérêt de la solution et l’audience du compte, cliquez sur **[!UICONTROL Créer]**.
+1. Après avoir sélectionné l’intérêt de la solution et l’audience du compte, cliquez sur **[!UICONTROL Créer]**.
 
 ## Confirmation
 

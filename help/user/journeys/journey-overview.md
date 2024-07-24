@@ -3,9 +3,9 @@ title: Parcours de compte
 description: Découvrez les parcours de compte et comment les créer et les gérer.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Définissez un engagement piloté par les ventes qui comprend des e-mails, des S
 
 Ce tableau permet de rechercher par nom et Créé par. Le tri n’est actuellement pas disponible.
 
-Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône de colonnes dans le coin supérieur droit et en cochant ou en désélectionnant les cases.
+Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Colonnes_ dans le coin supérieur droit et en sélectionnant ou en désélectionnant les cases à cocher.
 
 ![Choisissez les colonnes à afficher dans la liste des parcours de compte](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Cliquez sur le nom (affiché sous forme de lien) dans la liste _[!UICONTROL parc
 
 ![Espace de travail du parcours de compte](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-L’en-tête de l’éditeur de chaque parcours comprend :
+L’en-tête de l’éditeur de chaque parcours de compte comprend :
 
 * Nom du parcours
 * Possibilité de modifier le nom (_Icône Edit_)

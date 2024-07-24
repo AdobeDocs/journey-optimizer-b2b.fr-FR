@@ -3,10 +3,10 @@ title: Groupes d’achat
 description: Découvrez comment acheter des groupes et leurs composants.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: bb14b15ae41f795f4e9adf0bb564770e152539fd
+source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '1004'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ Pour les activités de vente et de marketing B2B, les comptes sont essentiels à
 
 ![ Diagramme de rôles de compte ](assets/account-roles-diagram.png){width="800"}
 
-Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achats_. Il s’agit de personnes appartenant à un compte qui finiront par prendre la décision d’achat. Elles ont donc besoin d’une attention particulière de la part du marketeur et peuvent avoir besoin d’informations différentes de celles des autres personnes associées au compte. Les groupes d’achats peuvent comprendre un groupe de personnes différent pour différentes lignes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter une offre d’informations en chef ou un agent de sécurité en chef, ainsi qu’un représentant du service juridique pour approuver un achat, mais un produit de suivi des bogues peut généralement avoir un vice-président en ingénierie et un Director informatique en tant que membre du groupe d’achats.
+Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achats_. Ces personnes sont celles qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part du marketeur et peuvent avoir besoin d’informations différentes de celles des autres personnes associées au compte. Les groupes d’achats peuvent comprendre un groupe de personnes différent pour différentes lignes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter l’approbation d’un achat par un directeur de l’information ou un directeur de la sécurité, ainsi qu’un représentant du service juridique. Cependant, un produit de suivi des bogues peut généralement avoir un vice-président en ingénierie et un Director informatique en tant que membres du groupe d’achats.
 
 ## Composants clés
 
@@ -34,7 +34,7 @@ Vous pouvez accroître l’efficacité marketing en établissant des groupes d�
 1. Créez des groupes d’achat.
 
    Options :
-   * Utiliser le modèle Centre d’intérêt et rôle de la solution
+   * Utilisation de [l’intérêt de la solution](./solution-interests.md) et [ modèle de rôle](./buying-groups-role-templates.md)
    * Utilisation de l’importation tierce
    * Génération à partir d’AI/ML
 
@@ -45,19 +45,70 @@ Vous pouvez accroître l’efficacité marketing en établissant des groupes d�
    **_Exemple :_** Le rôle du décideur est manquant et le score d’exhaustivité est &lt; 50
 
 1. Renseignez les définitions des groupes d’achat.
+<!--
+   * Acquire missing people
+   * Send to LinkedIn Destination
+   * Enrich with Zoominfo -->
 
-   * Acquérir les disparus
-   * Envoi à la destination LinkedIn
-   * Enrichir avec Zoominfo
-
-1. Ajoutez à des parcours de compte.
+1. Utilisation dans un parcours de compte par l’intermédiaire des centres d’intérêt de solution associés.
 
 ## Accès aux groupes d’achat et aux composants
 
-1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B Edition.
+Dans le volet de navigation de gauche, développez **[!UICONTROL Comptes]** et cliquez sur **[!UICONTROL Groupes d’achats]**.
 
-1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Groupes d’achats]**.
+La page _[!UICONTROL Groupes d&#39;achats]_ est organisée sous la forme d&#39;onglets :
 
-1. Utilisez la variable
+| Onglet | Description |
+| --- | ----------- |
+| [!UICONTROL Présentation] | Cet onglet est la valeur par défaut et affiche le [tableau de bord des groupes d’achats](../dashboards/buying-groups-dashboard.md). |
+| [!UICONTROL Naviguer] | Cet onglet prend en charge les activités suivantes : <ul><li>Affichez la liste des groupes d’achats existants. </li><li>Effectuez une recherche en achetant le nom du groupe. </li><li>Filtrez par intérêt de solution. </li><li>Découvrez comment acheter les détails du groupe. </li><li>Créez un groupe d’achats. Supprimez un groupe d’achats.</li></ul> |
+| [!UICONTROL  Centres d’intérêt de solution] | Cet onglet prend en charge les activités suivantes : <ul><li>Affichez la liste des groupes d’achats existants. </li><li>Effectuez une recherche en achetant le nom du groupe. </li><li>Accédez aux propriétés d’intérêt de la solution et modifiez-les. </li><li>Créez un intérêt pour la solution. </li><li>Supprimez les centres d’intérêt d’une solution. </li><li>Affichez et supprimez les tâches de groupe d’achat. </li></ul> |
+| [!UICONTROL Modèles de rôles] | Cet onglet prend en charge les activités suivantes : <ul><li>Affichez la liste des modèles de rôles existants. </li><li>Recherche par nom de modèle de rôles. </li><li>Accédez aux propriétés et aux conditions du modèle de rôles et modifiez-les. </li><li>Créez un modèle de rôles. </li><li>Supprimez un modèle de rôles. </li></ul> |
+
+## Recherche et filtrage de groupes d’achat
+
+Utilisez l’onglet _[!UICONTROL Parcourir]_ pour afficher la liste des groupes d’achats. Vous pouvez effectuer une recherche par nom et filtrer la liste par intérêt de solution.
 
 ![Page de navigation du groupe d’achats](assets/buying-groups-browse.png){width="800" zoomable="yes"}
+
+## Détails du groupe d’achat
+
+Pour accéder aux détails d’un groupe d’achats, cliquez sur le nom du groupe d’achats dans l’onglet _[!UICONTROL Parcourir]_ .
+
+![Détails du groupe d’achat](assets/buying-group-details.png){width="600" zoomable="yes"}
+
+### Score d’achèvement du groupe d’achat
+
+Le score d’exhaustivité permet de déterminer si le groupe d’achats est terminé, ce qui signifie qu’il dispose des membres appropriés affectés aux rôles et qu’il est prêt à être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d’achat et le nombre de rôles attribués avec au moins une piste.
+
+Par exemple, s’il existe quatre rôles au sein d’un groupe d’achat et que trois des quatre rôles sont attribués à au moins un prospect, le groupe d’achat est complet à 75 %.
+
+Le score d’exhaustivité du groupe d’achat est recalculé chaque fois qu’un groupe d’achat est créé ou mis à jour.
+
+### Score d’engagement du groupe d’achat
+
+Le score d’engagement est utilisé pour évaluer l’efficacité de vos programmes marketing en fonction des activités comportementales de groupe d’achat suivies sur plusieurs parcours. Ce score est dérivé de l’activité au cours des 30 derniers jours. Tout changement de rôle apporté à un modèle nécessite un recalcul du score d’engagement pour tous les groupes d’achats créés à l’aide de ce modèle. Seules les activités entrantes sont évaluées dans le calcul d’un score d’engagement.
+
+Le score affiché est arrondi (par exemple, un score de 75.89999 est affiché comme 76), il n’existe aucune limite supérieure pour le score de disponibilité générale et un plafond de fréquence quotidienne de 20.
+
+Les exemples suivants illustrent le calcul du score d’engagement :
+
+**Groupe d’achat 1** - score d’engagement = 22,15
+
+| Utilisateur | Rôle | Pondération de rôle | Action | Aujourd&#39;hui | Hier | Poids de l’action | Évaluation |
+| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
+| Adam | Décisionnaire | 80 % | Site Web visité | 1000 | 2 | 1 | 22 |
+| | | | E-mail cliqué | 1 | 0 | 1 | 1 |
+| | | | Pub téléchargé | 1 | 3 | 1 | 4 |
+| Bob | Personne influente | 15 % | Site Web visité | 1 | 2 | 1 | 3 |
+| Calvin | Praticien | 5 % | Site Web visité | 1 | 1 | 1 | 2 |
+
+**Groupe d’achats 2** - Score d’engagement = 8,55
+
+| Utilisateur | Rôle | Pondération de rôle | Action | Aujourd&#39;hui | Hier | Poids de l’action | Évaluation |
+| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
+| Alvin | Décisionnaire | 80 % | Site Web visité | 3 | 2 | 1 | 5 |
+| | | | E-mail cliqué | 1 | 0 | 1 | 1 |
+| | | | Pub téléchargé | 1 | 3 | 1 | 4 |
+| Bret | Personne influente | 15 % | Site Web visité | 1 | 2 | 1 | 3 |
+| Cam | Praticien | 5 % | Site Web visité | 1 | 1 | 1 | 2 |

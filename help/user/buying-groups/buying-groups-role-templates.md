@@ -3,9 +3,9 @@ title: Modèles de rôle de groupe d’achat
 description: Découvrez comment définir un modèle de rôle à utiliser comme composant de groupe d’achats.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
 1. Ajoutez une règle pour chaque rôle que vous souhaitez définir pour le modèle.
 
-   Pour la version actuelle, il existe six rôles : `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` et `Other`.
+* Sélectionnez le **[!UICONTROL rôle de groupe d’achat]** dans la liste.
 
-   ![Liste des rôles de groupe d’achat](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  Pour la version actuelle, il existe six rôles : `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` et `Other`.
 
-   * Sélectionnez un rôle dans la liste.
+![Liste des rôles de groupe d’achat](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * Cliquez sur **[!UICONTROL Ajouter une condition]**.
+* Définissez la **[!UICONTROL pondération]** pour le rôle, qui est utilisé pour calculer le score d’engagement.
+
+  La valeur de chaque option est traduite en pourcentage pour le calcul du score : [!UICONTROL Trivial] = 20, [!UICONTROL Mineur] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80, et [!UICONTROL Vital] = 100.
+
+  Par exemple, un modèle de rôle avec des rôles utilisant des rôles Vital, Important et Normal, est ensuite converti en 100/240, 80/240, 60/240.
+
+* **[!UICONTROL Ajouter des conditions pour l’affectation automatique]** - Cochez cette case pour ajouter des conditions pour l’affectation automatique de membres au groupe d’achats qui correspondent à la condition. Si la case à cocher n’est pas cochée, l’ajout de conditions n’est PAS obligatoire.
+
+* **[!UICONTROL Obligatoire pour le score d’exhaustivité]** - Cochez cette case pour le rôle si vous souhaitez qu’il soit nécessaire pour calculer un score d’exhaustivité. —>
+
+* Cliquez sur **[!UICONTROL Ajouter une condition]**.
 
    * Dans la boîte de dialogue de condition, développez la liste des **[!UICONTROL attributs de personne]** et recherchez un attribut que vous souhaitez utiliser pour correspondre au rôle. Faites-la glisser à droite et déposez-la dans l’espace de filtrage.
 
@@ -77,19 +87,15 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
    * Cliquez sur **[!UICONTROL Terminé]**.
 
-   Pour chaque rôle supplémentaire que vous souhaitez inclure pour le modèle, cliquez sur **[!UICONTROL Ajouter un autre rôle]** et définissez une ou plusieurs conditions correspondant au rôle.
+Pour chaque rôle supplémentaire que vous souhaitez inclure pour le modèle, cliquez sur **[!UICONTROL Ajouter un autre rôle]** et définissez une ou plusieurs conditions correspondant au rôle.
 
-   ![ Modèle de rôles avec plusieurs rôles définis](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![ Modèle de rôles avec plusieurs rôles définis](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Si le modèle est prêt à l’emploi, cliquez sur **[!UICONTROL Publish]** en haut à droite.
 
    La publication du modèle le définit sur un état _Live_ et le rend disponible pour être associé à un intérêt de solution. Il doit y avoir au moins un rôle défini pour publier le modèle de rôles.
 
    Vos modifications sont automatiquement enregistrées à l’état _Brouillon_ . Si vous n’êtes pas prêt à publier le modèle de rôles, cliquez sur la flèche vers la gauche (arrière) en haut de la page et revenez à la liste Modèles de rôles .
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Modification d’un modèle de rôles de brouillon
 

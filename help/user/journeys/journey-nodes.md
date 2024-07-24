@@ -3,52 +3,22 @@ title: Noeuds de Parcours de compte
 description: Découvrez les types de noeuds que vous pouvez utiliser pour créer vos parcours de compte.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1748'
 ht-degree: 2%
 
 ---
 
 # Noeuds de Parcours de compte
 
-Après avoir [créé un parcours de compte](journey-overview.md#create-an-account-journey) et [ajouté l’audience](journey-overview.md#add-the-account-audience-for-your-journey), construisez le parcours à l’aide de noeuds.
+Après avoir [créé un parcours de compte](journey-overview.md#create-an-account-journey) et [ajouté l’audience](journey-overview.md#add-the-account-audience-for-your-journey), construisez le parcours à l’aide de noeuds. La carte de parcours fournit un canevas, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes.
 
-## Types de noeuds
+Créez votre parcours de compte en combinant les différents noeuds d’action, d’événement et d’orchestration sous la forme d’un scénario cross-canal à plusieurs étapes. Chaque noeud d’un parcours représente une étape le long d’un chemin logique.
 
-| Type de noeud | Fonction |
-| --------- | ------- |
-| [Audience du compte](journey-overview.md#add-the-account-audience-for-your-journey) | Audience du compte d’entrée pour le parcours. Ce noeud est toujours le premier et est automatiquement créé par défaut. |
-| [Action sur les personnes](#add-a-people-action) | Envoyer un e-mail |
-| | Modifier évaluation |
-| | Affecter une personne à un groupe d’achat |
-| | Supprimer une personne du groupe d’achat |
-| | Ajouter à la campagne Marketo |
-| | Créer un moment intéressant pour les pistes |
-| [Action sur les comptes](#add-an-account-action) | Modifier la valeur des données |
-| | Supprimer le compte du Parcours (actuel) |
-| | Ajouter un compte à (autre) Parcours |
-| | Créer un moment intéressant pour le compte |
-| | Ajouter à la liste des comptes Marketo (implicite) |
-| [Événements pour les personnes](#add-a-people-event) | Modifications valeur des données |
-| | Modification de l&#39;évaluation |
-| | Ouvre l&#39;e-mail |
-| | Clique sur un lien dans un e-mail |
-| | Clique sur le lien de la page Web |
-| | Affecté à un groupe d’achat |
-| | Supprimé du groupe d’achat |
-| [Événements pour les comptes](#add-an-account-event) | Modification de la valeur des données du compte |
-| | Un moment intéressant |
-| [Partage par personnes](#add-a-split-path-by-people-node) | Attributs de lead |
-| | Valeur de données modifiée (par exemple, filtre sur l’historique des activités) |
-| | E-mail ouvert |
-| | Lien cliqué dans l&#39;e-mail |
-| | Lien ayant fait l’objet d’un clic sur page web |
-| | A eu un moment intéressant |
-| | Membre du groupe d’achat |
-| [Partage par comptes](#add-a-split-path-by-account-node) | Modification de la valeur des données du compte (par exemple, filtrage par historique des activités) |
-| [Wait](#wait) | Disponible au niveau du compte |
-| [Merge paths](#merge-paths) | |
+## Noeud Audience du compte
+
+Le noeud [Audience du compte](journey-overview.md#add-the-account-audience-for-your-journey) définit l’audience du compte d’entrée (créée et gérée dans Adobe Experience Platform) pour le parcours. Ce noeud est toujours le premier noeud et est automatiquement créé par défaut.
 
 ## Agir
 
@@ -57,6 +27,23 @@ Exécutez une action telle que l’envoi d’un email, la modification d’un sc
 **Action sur les comptes** : l’action est appliquée à toutes les personnes qui font partie de comptes sur ce chemin.
 
 **Action sur les personnes** : l’action est appliquée à toutes les personnes sur ce chemin. Une action sur les personnes peut être utilisée dans le chemin partagé par les personnes ou le chemin partagé par les comptes.
+
+| Contexte du noeud | Fonction | Contraintes |
+| ------------ | -------- | ----------- |
+| [Personnes](#add-a-people-action) | Attribuer au groupe d’achat | Sélectionner un rôle dans l’intérêt de la solution<br/>Sélectionner un rôle |
+| | Supprimer du groupe d’achat | Sélectionner l’intérêt de la solution |
+| | Envoyer un SMS | Créer un SMS |
+| | Ajouter à la campagne de demande de Marketo Engage | Sélectionnez l’espace de travail Marketo Engage<br/>Sélectionner une campagne de requête |
+| | Modification de la partition du peuple en Marketo Engage | Nouvelle répartition |
+| | Moment intéressant pour la personne | Type<br/>Description |
+| | Modifier évaluation | Nom de la note<br/>Modifier |
+| | Envoyer un e-mail | Créer un email<br/>Sélectionner un email à partir du Marketo Engage |
+| [Comptes](#add-an-account-action) | Envoyer une alerte de ventes | Sélectionner l’intérêt de la solution<br/>Envoyer un courrier électronique à |
+| | Ajouter un compte à (autre) Parcours | Sélectionner le Parcours de compte en direct |
+| | Mise à jour de l’état du groupe d’achat | Solution Interest<br/>Status (obligatoire, 50 caractères max.) |
+| | Supprimer le compte du Parcours (actuel) | Sélectionner le Parcours de compte en direct |
+| | Moment intéressant du compte | Type (email, jalon ou web)<br/>Description (facultatif) |
+| | Valeur des données de changement de compte | Sélectionnez attribute<br/>Nouvelle valeur |
 
 ### Ajouter une action de compte
 
@@ -94,6 +81,20 @@ Déplacez votre audience vers l’étape suivante du parcours lorsqu’un évén
 **Écouter les événements sur les comptes** : si au moins une personne d’un compte déclenche un événement, le compte passe à l’étape suivante du parcours.
 
 **Écouter les événements sur les personnes** : les événements sur les personnes ne peuvent être appliqués que sur un chemin d’accès au compte ; il n’est pas disponible pour un noeud partagé par les personnes.
+
+| Contexte du noeud | Fonction | Contraintes |
+| ------------ | -------- | ----------- |
+| [Personnes](#add-a-people-event) | Modifications valeur des données | Attribut<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Clique sur un lien dans un e-mail | Email<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Affecté à un groupe d’achat | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Ouvre l&#39;e-mail | Email<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Modification du score | Nom de la note<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Supprimé du groupe d’achat | Centre d’intérêt de la solution<br/>Date d’activité (facultatif)<br/>Délai d’expiration (facultatif) |
+| [Comptes](#add-an-account-event) | Modification de l’état du groupe d’achat | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Modification du score d’exhaustivité | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Le compte a eu un moment intéressant | Type<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Changement du score d’engagement | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
+| | Modification de la valeur des données du compte | Attribut<br/>Contraintes supplémentaires (facultatif)<br/>Délai d’expiration (facultatif) |
 
 ### Ajout d’un événement de compte
 
@@ -137,9 +138,13 @@ Si nécessaire, définissez la durée pendant laquelle le parcours attend l’é
 
    ![Noeud d’événement de Parcours - définir le chemin d’accès au délai d’expiration](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Fractionner les chemins
+## Diviser les chemins
 
 Divisez votre audience en fonction des conditions de filtrage.
+
+>[!NOTE]
+>
+>25 chemins au maximum sont pris en charge.
 
 **Partage des chemins par comptes** : les chemins fractionnés par comptes peuvent inclure à la fois des actions et des événements de compte et de personne, et ces chemins peuvent être fractionnés plus loin.
 
@@ -162,9 +167,16 @@ _Comment fonctionne un chemin de division par noeud de personnes ?_
 
 ![Noeud de Parcours - division des chemins par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
->[!NOTE]
->
->25 chemins au maximum sont pris en charge.
+| Contexte du noeud | Conditions de chemin | Description |
+| ------------ | -------- | ----------- |
+| [Personnes](#add-a-split-path-by-people-node) | Attributs de la personne | |
+| | Valeur de données modifiée (par exemple, filtre sur l’historique des activités) | |
+| | E-mail ouvert | |
+| | Lien cliqué dans l&#39;e-mail | |
+| | Lien ayant fait l’objet d’un clic sur page web | |
+| | A eu un moment intéressant | |
+| | Membre du groupe d’achat | |
+| [Comptes](#add-a-split-path-by-account-node) | Modification de la valeur des données du compte (par exemple, filtrage par historique des activités) | |
 
 ### Ajout d’un chemin de division par noeud de compte
 
@@ -267,4 +279,3 @@ Différents chemins d’accès de votre parcours peuvent être fusionnés et non
    Vous devriez maintenant constater que les chemins sont fusionnés afin que les comptes des chemins sélectionnés se combinent en un seul chemin et puissent continuer à progresser dans le parcours.
 
 1. Si nécessaire, vous pouvez annuler la fusion des chemins en revenant aux propriétés du noeud de fusion et en désélectionnant la case correspondant aux chemins que vous souhaitez supprimer.
-

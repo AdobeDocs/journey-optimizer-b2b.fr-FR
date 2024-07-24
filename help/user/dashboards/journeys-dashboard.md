@@ -3,16 +3,16 @@ title: Tableau de bord Aperçu du parcours
 description: Découvrez les informations fournies par le tableau de bord Aperçu du Parcours et comment il peut vous aider à surveiller et gérer votre stratégie de Parcours de compte.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Tableau de bord Aperçu du parcours
 
-Ce tableau de bord fournit une vue d’ensemble exhaustive de l’engagement et présente les mesures en temps réel des interactions entre les comptes et les individus au moyen de graphiques en anneau instantanés et de graphiques en courbes qui révèlent les tendances au fil du temps. Il vous aide à contrôler et à configurer efficacement vos efforts d’engagement.
+Ce tableau de bord présente un aperçu complet d’un parcours de compte sélectionné, et détaille l’avancement du compte à l’aide de graphiques en anneau et en courbes qui catégorisent et quantifient les performances, les activités en cours et les abandons au fil du temps. Il permet aux marketeurs d’évaluer l’efficacité des canaux email et SMS par le biais de mesures de diffusion et d’engagement clés.
 
 ## État du parcours
 
@@ -85,7 +85,3 @@ Cliquez sur le bouton situé dans le coin supérieur droit pour masquer ou affic
 * [!UICONTROL Date d’entrée]
 * [!UICONTROL Date de sortie]
 * [!UICONTROL Nombre de jours dans le Parcours]
-
-Filtre global :
-
-Filtre de date

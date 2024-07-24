@@ -1,0 +1,65 @@
+---
+title: Prise en main de Journey Optimizer B2B Edition
+description: En tant que nouvel utilisateur de l’édition B2B de Journey Optimizer, découvrez les principaux domaines de prise en main.
+source-git-commit: f38dc43681d7c12f6ae5e69978e5950fd9526f4c
+workflow-type: tm+mt
+source-wordcount: '627'
+ht-degree: 3%
+
+---
+
+# Prise en main de Journey Optimizer B2B Edition
+
+Les fonctionnalités et outils que vous souhaitez aborder dans l’édition B2B de Adobe Journey Optimizer dépendent de votre rôle au sein de votre équipe.
+
+En fonction de votre organisation, les administrateurs peuvent définir plusieurs types d’utilisateurs et leur accorder l’accès à certaines fonctionnalités en fonction de leurs autorisations.
+
+>[!BEGINTABS]
+
+>[!TAB Démarrage rapide pour un administrateur]
+
+Avant que votre équipe puisse commencer à utiliser les fonctionnalités de l’édition B2B de Adobe Journey Optimizer, plusieurs étapes sont nécessaires pour préparer votre environnement. Procédez comme suit pour que l’ingénieur de données et le spécialiste du marketing puissent commencer à utiliser Adobe Journey Optimizer B2B Edition.
+
+En tant qu’administrateur système, vous devez comprendre les profils de produit et attribuer des autorisations pour l’administration des environnements de test et la configuration des canaux. Vous devez également configurer des environnements de test et les gérer pour les profils de produit disponibles. Vous pouvez ensuite affecter des membres de l’équipe aux profils de produit. Ces fonctionnalités peuvent être gérées par les administrateurs de produit qui ont accès à Adobe Admin Console. [En savoir plus sur Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
+
+Découvrez la gestion des accès dans les pages suivantes :
+
+1. **Créez des environnements de test** pour partitionner vos instances en environnements virtuels distincts et isolés. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
+
+1. **Configurez le profil de produit**. Un profil de produit est un ensemble de droits unitaires dans Adobe Experience Platform qui permet aux utilisateurs d’accéder à certaines fonctionnalités ou à certains objets dans l’interface. [En savoir plus](../admin/user-management.md#create-the-marketo-engage-product-profile)
+
+1. **Configurez les autorisations d’utilisateur** pour les profils de produit, y compris les environnements de test, et donnez accès aux membres de votre équipe en les affectant à différents profils de produit. Cette tâche est effectuée dans l’Admin Console. [En savoir plus](../admin/user-management.md#create-a-user-group)
+
+1. **Configurez la diffusion email** en Marketo Engage, ce qui permet à votre équipe d&#39;envoyer du contenu d&#39;email à partir des parcours du compte. [En savoir plus](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+
+1. **Configurer les services SMS**. Configurez l’un des fournisseurs de SMS tiers pris en charge qui offre des services de messagerie texte indépendamment et configurez les informations d’identification du compte dans Adobe Journey Optimizer B2B Edition. [En savoir plus](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+
+1. **Configurez et activez l’utilisation d’Adobe Experience Manager Assets** pour les équipes qui utilisent Assets comme Cloud Service pour la gestion centralisée des ressources numériques. [En savoir plus](../admin/configure-aem-repositories.md)
+
+>[!TAB Démarrage rapide pour un marketeur]
+
+En tant que spécialiste du marketing ou _praticien de Parcours de compte_, vous êtes responsable de la conception de parcours et de la conception de contenu. Vous pouvez commencer à utiliser Adobe Journey Optimizer B2B Edition après que l’administrateur système et l’ingénieur des données ont préparé votre environnement et vous ont accordé l’accès.
+
+Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des ressources et envoyer du contenu :
+
+1. **Ajouter des audiences de compte**. L’édition B2B de Journey Optimizer vous permet de créer des audiences de compte par le biais de définitions de segment directement à partir de l’application et de les exploiter dans vos parcours de compte. [En savoir plus](../audiences/account-audience-overview.md)
+
+1. **Créez des groupes d’achat**. Définissez les composants clés permettant d’atteindre vos objectifs et objectifs professionnels, puis créez des groupes d’achat qui identifient les membres de vos listes de comptes cibles. [En savoir plus](../buying-groups/buying-groups-overview.md)
+
+1. **Créez et gérez des ressources**. Adobe Experience Manager Assets fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour remplir vos messages. [En savoir plus](../content/assets-overview.md)
+
+1. **Ajoutez des modèles d&#39;email personnalisés et dynamiques**. Tirez parti des fonctionnalités de personnalisation et de contenu dynamique de l’édition B2B de Journey Optimizer pour adapter votre message à votre audience. [En savoir plus](../content/email-templates.md)
+
+1. **Concevez des parcours de compte pour offrir des expériences contextuelles personnalisées**. L’édition B2B de Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes, optimisés par les fonctionnalités suivantes :
+
+   * Envoyez une diffusion unitaire en temps réel déclenchée lors de la réception d’un événement ou par lots à l’aide des audiences Adobe Experience Platform.
+
+   * Utilisez les données contextuelles issues d’événements, des informations provenant de Adobe Experience Platform ou des données issues de services d’API tiers.
+
+   * Utilisez les actions de canal intégrées (email et SMS) pour envoyer des messages conçus dans Journey Optimizer B2B Edition.
+
+   * Dans le concepteur de parcours, créez vos cas d’utilisation à plusieurs étapes, ajoutez des conditions et envoyez des messages personnalisés.
+
+[En savoir plus](../journeys/journey-overview.md)
+
+>[!ENDTABS]
