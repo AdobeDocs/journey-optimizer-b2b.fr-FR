@@ -3,10 +3,10 @@ title: Modèles de rôle de groupe d’achat
 description: Découvrez comment définir un modèle de rôle à utiliser comme composant de groupe d’achats.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
    Cet onglet contient un inventaire de tous les modèles de rôles existants, avec les colonnes suivantes :
 
    * [!UICONTROL Nom]
-   * [!UICONTROL Status]
+   * [!UICONTROL Statut]
    * [!UICONTROL Date de création]
    * [!UICONTROL Créé par]
    * [!UICONTROL Dernière mise à jour]
@@ -55,41 +55,41 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
 1. Ajoutez une règle pour chaque rôle que vous souhaitez définir pour le modèle.
 
-* Sélectionnez le **[!UICONTROL rôle de groupe d’achat]** dans la liste.
+   * Sélectionnez le **[!UICONTROL rôle de groupe d’achat]** dans la liste.
 
-  Pour la version actuelle, il existe six rôles : `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` et `Other`.
+     Pour la version actuelle, il existe six rôles : `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` et `Other`.
 
-![Liste des rôles de groupe d’achat](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![Liste des rôles de groupe d’achat](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* Définissez la **[!UICONTROL pondération]** pour le rôle, qui est utilisé pour calculer le score d’engagement.
+   * Définissez la **[!UICONTROL pondération]** pour le rôle, qui est utilisé pour calculer le score d’engagement.
 
-  La valeur de chaque option est traduite en pourcentage pour le calcul du score : [!UICONTROL Trivial] = 20, [!UICONTROL Mineur] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80, et [!UICONTROL Vital] = 100.
+     La valeur de chaque option est traduite en pourcentage pour le calcul du score : [!UICONTROL Trivial] = 20, [!UICONTROL Mineur] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80, et [!UICONTROL Vital] = 100.
 
-  Par exemple, un modèle de rôle avec des rôles utilisant des rôles Vital, Important et Normal, est ensuite converti en 100/240, 80/240, 60/240.
+     Par exemple, un modèle de rôle avec des rôles utilisant des rôles Vital, Important et Normal, est ensuite converti en 100/240, 80/240, 60/240.
 
-* **[!UICONTROL Ajouter des conditions pour l’affectation automatique]** - Cochez cette case pour ajouter des conditions pour l’affectation automatique de membres au groupe d’achats qui correspondent à la condition. Si la case à cocher n’est pas cochée, l’ajout de conditions n’est PAS obligatoire.
+   * **[!UICONTROL Ajouter des conditions pour l’affectation automatique]** - Cochez cette case pour ajouter des conditions pour l’affectation automatique de membres au groupe d’achats qui correspondent à la condition. Si la case à cocher n’est pas cochée, l’ajout de conditions n’est PAS obligatoire.
 
-* **[!UICONTROL Obligatoire pour le score d’exhaustivité]** - Cochez cette case pour le rôle si vous souhaitez qu’il soit nécessaire pour calculer un score d’exhaustivité. —>
+   * **[!UICONTROL Obligatoire pour le score d’exhaustivité]** - Cochez cette case pour le rôle si vous souhaitez qu’il soit nécessaire pour calculer un score d’exhaustivité. —>
 
-* Cliquez sur **[!UICONTROL Ajouter une condition]**.
+   * Cliquez sur **[!UICONTROL Ajouter une condition]**.
 
-   * Dans la boîte de dialogue de condition, développez la liste des **[!UICONTROL attributs de personne]** et recherchez un attribut que vous souhaitez utiliser pour correspondre au rôle. Faites-la glisser à droite et déposez-la dans l’espace de filtrage.
+      * Dans la boîte de dialogue de condition, développez la liste des **[!UICONTROL attributs de personne]** et recherchez un attribut que vous souhaitez utiliser pour correspondre au rôle. Faites-la glisser à droite et déposez-la dans l’espace de filtrage.
 
-     ![ Le modèle de rôles ajoute l’attribut de glisser-déposer de condition ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![ Le modèle de rôles ajoute l’attribut de glisser-déposer de condition ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * Utilisez l’attribut pour créer un filtre correspondant utilisant une ou plusieurs valeurs.
+      * Utilisez l’attribut pour créer un filtre correspondant utilisant une ou plusieurs valeurs.
 
-     Dans l’exemple suivant, l’attribut Job title est utilisé pour identifier une correspondance pour Decision Maker. Toute valeur pour le titre commençant par `Director` ou `Sr Director` est évaluée comme true pour la condition.
+        Dans l’exemple suivant, l’attribut Job title est utilisé pour identifier une correspondance pour Decision Maker. Toute valeur pour le titre commençant par `Director` ou `Sr Director` est évaluée comme true pour la condition.
 
-     ![Exemple de condition de modèle de rôles utilisant le titre de la tâche](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+        ![Exemple de condition de modèle de rôles utilisant le titre de la tâche](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * Si nécessaire, ajoutez un autre attribut et une condition qui affine davantage les critères pour qu’une correspondance soit établie avec le rôle.
+      * Si nécessaire, ajoutez un autre attribut et une condition qui affine davantage les critères pour qu’une correspondance soit établie avec le rôle.
 
-   * Cliquez sur **[!UICONTROL Terminé]**.
+      * Cliquez sur **[!UICONTROL Terminé]**.
 
-Pour chaque rôle supplémentaire que vous souhaitez inclure pour le modèle, cliquez sur **[!UICONTROL Ajouter un autre rôle]** et définissez une ou plusieurs conditions correspondant au rôle.
+   Pour chaque rôle supplémentaire que vous souhaitez inclure pour le modèle, cliquez sur **[!UICONTROL Ajouter un autre rôle]** et définissez une ou plusieurs conditions correspondant au rôle.
 
-![ Modèle de rôles avec plusieurs rôles définis](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![ Modèle de rôles avec plusieurs rôles définis](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Si le modèle est prêt à l’emploi, cliquez sur **[!UICONTROL Publish]** en haut à droite.
 

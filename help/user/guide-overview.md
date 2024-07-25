@@ -1,11 +1,11 @@
 ---
 title: Documentation de Adobe Journey Optimizer B2B Edition
-description: Découvrez comment utiliser les fonctionnalités de Adobe Journey Optimizer B2B Edition.
+description: Découvrez comment utiliser les fonctionnalités de l’édition B2B de Adobe Journey Optimizer pour orchestrer des parcours de compte et d’achat de groupes à l’aide d’une IA intégrée et d’une automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -19,21 +19,25 @@ Voici un échantillon des dernières améliorations apportées à la documentati
 
 >[!BEGINTABS]
 
->[!TAB La version de Beta est disponible]
+>[!TAB Assistant IA]
 
-Rejoignez le programme Beta pour découvrir les nombreuses fonctionnalités incluses dans la version Beta de Adobe Journey Optimizer B2B Edition.
+Familiarisez-vous rapidement avec les concepts marketing basés sur les comptes et découvrez les fonctionnalités de l’édition B2B de Journey Optimizer conçues pour optimiser les stratégies de votre équipe.
 
-[!BADGE En savoir plus]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Version Beta de Journey Optimizer B2B Edition"}
+[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="En savoir plus sur l’assistant IA"}
 
->[!TAB Assistant IA pour le contenu des emails]
-
-Élevez votre contenu au niveau supérieur à l’aide de l’assistant d’IA dans l’édition B2B de Adobe Journey Optimizer, optimisée par l’IA générative. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des emails entiers, du contenu texte ciblé et même des images spécifiquement adaptées à votre audience.
+Remplacez votre contenu par un niveau supérieur grâce à l’assistant d’IA pour le contenu des emails dans l’édition B2B de Adobe Journey Optimizer, optimisé par l’IA générative. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des emails entiers, du contenu texte ciblé et même des images spécifiquement adaptées à votre audience.
 
 [!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="En savoir plus sur l’assistant d’IA pour les courriers électroniques"}
 
+>[!TAB Fragments visuels]
+
+Créez des composants réutilisables en tant que blocs de contenu personnalisés que les membres de l’équipe marketing pourront utiliser pour assembler les contenus d’email afin d’améliorer le processus de conception.
+
+[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Découvrez les fragments visuels"}
+
 >[!TAB  Groupes d’achats]
 
-Créez des groupes d’achat à partir de données B2B unifiées issues de l’ensemble de votre entreprise, alignez-les aux offres de votre entreprise et automatisez la manière dont vous définissez, identifiez et ciblez les membres appropriés pour chaque rôle afin d’adapter le ciblage le plus précis pour vos parcours clients.
+Créez des groupes d’achat à partir de données B2B unifiées à partir de l’ensemble de votre entreprise. Alignez-les sur les offres de votre entreprise et automatisez la manière dont vous définissez, identifiez et ciblez les bons membres pour chaque rôle afin d’adapter le ciblage le plus précis pour vos parcours clients.
 
 [!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="En savoir plus sur l’achat de groupes"}
 
@@ -45,7 +49,7 @@ Créez des parcours personnalisés pour les groupes d’achat au sein de comptes
 
 >[!ENDTABS]
 
-## Commencer par les principes de base
+## Commencer avec les principes de base
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -76,7 +80,7 @@ Créez des parcours personnalisés pour les groupes d’achat au sein de comptes
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Connexion et page d’accueil</strong><br/><a href="home-page.md#marketer---new-user">Marketer - nouvel utilisateur</a><br/><a href="home-page.md#marketer---advanced-user">Marketer - advanced</a> <br/><a href="home-page.md#administrator---new-user">Administrator - nouvel utilisateur</a> <br/><a href="home-page.md#administrator---advanced-user">Administrator - advanced</a>
+      <strong>Prise en main</strong><br/><a href="home-page.md">Connexion et page d’accueil</a><br/><a href="./start/get-started.md">Guide de démarrage rapide</a> <br/><a href="./start/ai-assistant.md">Assistant d’IA</a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ Créez des parcours personnalisés pour les groupes d’achat au sein de comptes
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>Assets</strong><br/><a href="./content/assets-overview.md">Aperçu</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>Gestion de contenu</strong><br/><a href="./content/assets-overview.md">Présentation d’Assets</a><br/><a href="./content/email-templates.md">Modèles d’email</a><br/><a href="./content/fragments.md">Fragments visuels</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
