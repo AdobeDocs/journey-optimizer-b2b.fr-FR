@@ -3,16 +3,16 @@ title: Création d’emails
 description: Découvrez comment créer du contenu d’email personnalisé utilisé dans les Parcours de compte.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 0%
+source-wordcount: '1314'
+ht-degree: 11%
 
 ---
 
 # Création d’emails
 
-Utilisez Adobe Journey Optimizer B2B Edition pour envoyer des messages électroniques à vos clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le Designer d’email.
+Utilisez Adobe Journey Optimizer B2B Edition pour envoyer des messages électroniques à vos clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail.
 
 ## Ajout d’une action de courrier électronique dans un parcours de compte
 
@@ -22,7 +22,7 @@ Vous pouvez configurer des diffusions email dans un Parcours de compte lorsque v
 1. Pour l’ _[!UICONTROL action sur les personnes]_, choisissez **[!UICONTROL Envoyer un email]**.
 1. Pour la _[!UICONTROL source d&#39;email]_, choisissez **[!UICONTROL Créer un email]**.
 
-   Vous pouvez également sélectionner l’option `Select email from Adobe Marketo Engage` pour utiliser l’un des emails précréés en Marketo Engage et l’envoyer dans le cadre du Parcours de compte.
+   Vous pouvez également sélectionner l’option _[!UICONTROL Sélectionner un email dans Adobe Marketo Engage]_ pour utiliser l’un des emails précréés dans Marketo Engage et l’envoyer dans le cadre du Parcours de compte.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Cette action lance le Designer d&#39;email, dans lequel vous pouvez choisir la m
 
 * [Concevez entièrement votre email](#design-your-email-from-scratch) à l’aide de l’interface Designer des emails.
 
-* [Importez le contenu d’HTML existant](#import-existing-html-content) à partir d’un fichier ou d’un dossier .zip.
+* [Importez du contenu HTML existant](#import-existing-html-content) à partir d’un fichier ou d’un dossier .zip.
 
 * [Sélectionnez un modèle existant](#select-a-template) dans une liste de modèles d’email intégrés ou personnalisés.
 
@@ -64,7 +64,7 @@ Après avoir créé et personnalisé le contenu de l’email, vous pouvez l’ex
 
 ### Concevoir entièrement votre email
 
-1. Sur la page d’accueil de Designer, sélectionnez l’option **[!UICONTROL Concevoir à partir de zéro]** .
+1. Sur la page d’accueil du Concepteur, cliquez sur l’option **[!UICONTROL Créer en partant de zéro]**.
 
 1. Pour commencer la conception de contenu, faites glisser un élément de l’élément **[!UICONTROL Structures]** et déposez-le sur la zone de travail.
 
@@ -92,15 +92,15 @@ Après avoir créé et personnalisé le contenu de l’email, vous pouvez l’ex
 
 1. Sélectionnez l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL de votre contenu qui font l’objet d’un suivi.
 
-   Vous pouvez modifier le Type de suivi ou le Libellé et ajouter des balises si nécessaire.
+   Vous pouvez modifier le _Type de suivi_ ou le _Libellé_ et ajouter des balises si nécessaire.
 
-Si nécessaire, vous pouvez personnaliser davantage votre email en cliquant sur **[!UICONTROL Passer à l’éditeur de code]** dans le menu avancé. L’éditeur de code vous permet de modifier le code source de l’email, tel que l’ajout de balises de suivi ou d’HTML personnalisées.
+Au besoin, vous pouvez personnaliser davantage votre e-mail en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. L’éditeur de code vous permet de modifier le code source de l’email, tel que l’ajout de balises de suivi ou d’HTML personnalisées.
 
 >[!CAUTION]
 >
 >Vous ne pouvez pas revenir au concepteur visuel de cet email après avoir basculé vers l’éditeur de code.
 
-Une fois le contenu terminé, cliquez sur **[!UICONTROL Simuler le contenu]** dans la partie supérieure pour vérifier le rendu. Vous pouvez choisir la vue de bureau ou mobile.
+Une fois le contenu terminé, cliquez sur **[!UICONTROL Simuler le contenu]** dans la partie supérieure pour vérifier le rendu. Vous pouvez choisir la vue bureau ou la vue mobile.
 
 Une fois prêt, cliquez sur Enregistrer.
 
@@ -113,19 +113,19 @@ Le contenu importé peut être :
 
 >[!NOTE]
 >
->Il n’existe aucune contrainte sur la structure de fichier .zip. Toutefois, les références doivent être relatives et s’adapter à l’arborescence du dossier .zip.
+>Il n’existe aucune contrainte sur la structure des fichiers .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip.
 
 _Pour importer un fichier contenant du contenu HTML :_
 
-1. Sur la page d&#39;accueil du Designer par e-mail, sélectionnez **[!UICONTROL Importer l&#39;HTML]**.
+1. Dans la page d’accueil du concepteur d’e-mail, sélectionnez **[!UICONTROL Importer du contenu HTML]**.
 
-1. Faites glisser et déposez le fichier d’HTML ou .zip contenant le contenu de votre HTML et cliquez sur [!UICONTROL Importer].
+1. Faites glisser et déposez le fichier HTML ou .zip contenant le contenu HTML, puis cliquez sur [!UICONTROL Importer].
 
    Une fois le chargement du contenu de l’HTML terminé, votre contenu est en _mode de compatibilité_. Dans ce mode, vous pouvez uniquement personnaliser votre texte, ajouter des liens ou inclure des ressources à votre contenu.
 
 ### Sélectionner un modèle
 
-Vous pouvez choisir parmi les options suivantes :
+Vous pouvez choisir parmi les options suivantes :
 
 * Exemples de modèles. L’interface de Journey Optimizer propose 20 modèles d’email d’usine que vous pouvez choisir.
 

@@ -3,9 +3,9 @@ title: Tableau de bord Aperçu des groupes d’achat
 description: Découvrez le tableau de bord Aperçu des groupes d’achat et comment il active la passation des pouvoirs par l’équipe marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Obtenez des informations sur la progression de vos groupes d’achats avec la vu
 
 Pour interagir avec les données, utilisez le menu d’actions dans le coin supérieur droit.
 
-![Cliquez sur l’icône pour accéder au menu d’actions](./assets/buying-group-more-menu.png){width="400"}
+![Cliquez sur l’icône pour accéder au menu d’actions](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL Exploration ]
 
@@ -58,7 +58,7 @@ Sélectionnez **[!UICONTROL Exploration]** pour une analyse approfondie des stat
 
 ![Exploration des données graphiques](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-Les filtres globaux appliqués au tableau de bord sont reportés et ne peuvent pas être modifiés à partir de cette page.
+Les filtres globaux appliqués au tableau de bord sont reportés.
 
 Cliquez sur l’icône du menu d’actions en haut à droite et choisissez **[!UICONTROL Afficher plus]** pour [afficher les données étendues et les insights](#view-more).
 
@@ -86,4 +86,4 @@ Sélectionnez **[!UICONTROL Afficher plus]** pour les données étendues et les 
 
 ![Afficher les données étendues](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** dans le coin supérieur droit.
+Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite.

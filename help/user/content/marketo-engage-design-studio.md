@@ -2,7 +2,8 @@
 title: Utilisation de ressources Marketo Engage
 description: Découvrez comment utiliser l’intégration de la gestion des ressources de Marketo Engage Design Studio dans Journey Optimizer Édition B2B.
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -95,7 +96,7 @@ Vous pouvez remplacer une ressource à l’aide de l’une des méthodes suivant
 
 Dans la boîte de dialogue _[!UICONTROL Remplacer la ressource]_, faites glisser le fichier de remplacement de votre système vers la zone de fichier. Vous pouvez également cliquer sur le lien _[!UICONTROL Select a file from your computer]_ (Sélectionner un fichier sur votre ordinateur) pour utiliser votre système de fichiers local pour sélectionner un fichier. (Si vous sélectionnez plusieurs fichiers dans votre système local, le premier fichier sélectionné est utilisé pour le remplacement.)
 
-![Boîte de dialogue Remplacer une ressource](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![Boîte de dialogue Remplacer une ressource](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 Pour continuer, cliquez sur **[!UICONTROL Remplacer]**. Vous pouvez interrompre le processus en cliquant sur **[!UICONTROL Annuler]**.
 

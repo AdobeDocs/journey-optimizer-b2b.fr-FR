@@ -3,7 +3,7 @@ title: Créer des groupes d’achat
 description: Découvrez comment créer des groupes d’achat.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -47,7 +47,7 @@ La première page fournit des conseils sur les conditions préalables/composants
 
 La boîte de dialogue de confirmation fournit un résumé du processus de groupes d’achat et une estimation du temps d’achèvement. Pour confirmer et lancer le processus, cliquez sur **[!UICONTROL Créer]**.
 
-![ Boîte de dialogue de confirmation de création de groupes d’achats ](./assets/buying-groups-create-confirm.png){width="425" zoomable="no"}
+![ Boîte de dialogue de confirmation de création de groupes d’achats ](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
 Vous pouvez accéder à l’onglet Intérêt de la solution et afficher le nombre de tâches créées pour l’intérêt de la solution.
 
