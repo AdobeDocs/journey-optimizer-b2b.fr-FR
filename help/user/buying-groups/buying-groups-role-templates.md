@@ -3,7 +3,7 @@ title: Modèles de rôle de groupe d’achat
 description: Découvrez comment définir un modèle de rôle à utiliser comme composant de groupe d’achats.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
    * **[!UICONTROL Ajouter des conditions pour l’affectation automatique]** - Cochez cette case pour ajouter des conditions pour l’affectation automatique de membres au groupe d’achats qui correspondent à la condition. Si la case à cocher n’est pas cochée, l’ajout de conditions n’est PAS obligatoire.
 
-   * **[!UICONTROL Obligatoire pour le score d’exhaustivité]** - Cochez cette case pour le rôle si vous souhaitez qu’il soit nécessaire pour calculer un score d’exhaustivité. —>
+   * **[!UICONTROL Obligatoire pour le score d’exhaustivité]** - Cochez cette case pour le rôle si vous souhaitez qu’il soit nécessaire pour calculer un score d’exhaustivité.
 
    * Cliquez sur **[!UICONTROL Ajouter une condition]**.
 

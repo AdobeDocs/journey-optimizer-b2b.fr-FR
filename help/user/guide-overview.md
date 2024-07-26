@@ -2,10 +2,10 @@
 title: Documentation de Adobe Journey Optimizer B2B Edition
 description: Découvrez comment utiliser les fonctionnalités de l’édition B2B de Adobe Journey Optimizer pour orchestrer des parcours de compte et d’achat de groupes à l’aide d’une IA intégrée et d’une automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
+source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -73,6 +73,12 @@ Créez des parcours personnalisés pour les groupes d’achat au sein de comptes
     <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
     </tr>
 </table>
+
+## Démonstration d’aperçu
+
+Découvrez les composants d’un groupe d’achat et comprenez les principes de base de la création d’un parcours de compte.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
 ## Explorer la documentation
 
