@@ -3,10 +3,10 @@ title: Ressources
 description: Découvrez la gestion des ressources dans Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Formats de fichiers pris en charge : JPEG, GIF, PNG, EPS, SVG, RGB
 
 Rassemblez les workflows marketing et créatifs à l’aide d’Adobe Experience Manager Assets. Il est nativement intégré à Adobe Journey Optimizer B2B Edition, ce qui vous permet d’accéder facilement à Assets as a Cloud Service pour découvrir et utiliser des ressources numériques. Il permet d’accéder au référentiel Assets pour les ressources que vous pouvez utiliser pour remplir vos messages.
 
-Adobe Experience Manager Assets peut se connecter à Adobe Experience Manager Assets as a Cloud Service pour des espaces de travail de ressources centralisés qui étendent votre système de création et unifient les ressources numériques en vue de la diffusion de l’expérience. Adobe Experience Manager Assets as a Cloud Service offre une solution cloud conviviale pour une gestion efficace des actifs numériques et des opérations Dynamic Media. Elle intègre de manière transparente des fonctionnalités avancées, notamment l’intelligence artificielle et l’apprentissage automatique.
+Adobe Experience Manager Assets peut se connecter à Adobe Experience Manager Assets as a Cloud Service pour des espaces de travail de ressources centralisés qui étendent votre système de création et unifient les ressources numériques en vue de la diffusion de l’expérience. Adobe Experience Manager Assets as a Cloud Service offre une solution cloud conviviale pour une gestion efficace des actifs numériques et des opérations Dynamic Media. Il intègre de manière transparente des fonctionnalités avancées, notamment l’intelligence artificielle et le machine learning.
 
 Pour en savoir plus, consultez la [documentation Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview).
 
@@ -49,11 +49,11 @@ Utilisez des ressources lorsque vous créez vos emails, modèles de courrier él
 
 ### Choix d’une source de ressources
 
-Si vous disposez d’un abonnement Experience Manager Assets as a Cloud Service ainsi que de Adobe Marketo Engage Design Studio par défaut, vous pouvez choisir des ressources d’image à partir de l’une des sources. Pour ce faire, vous devez sélectionner la source de l’image au moment de la création pour un nouvel email, un modèle d’email ou un fragment visuel. Vous pouvez également sélectionner la source de l’image lorsque vous modifiez le contenu. La sélection s’applique uniquement à l’expérience de modification. Vous pouvez modifier la source de l’image pour accéder aux ressources d’une autre bibliothèque, le cas échéant.
+Si vous disposez d’un abonnement pour Experience Manager Assets as a Cloud Service ainsi que de Adobe Marketo Engage Design Studio par défaut, vous pouvez sélectionner des ressources d’image à partir de l’une des sources. Pour ce faire, vous devez sélectionner la source de l’image au moment de la création pour un nouvel email, un modèle d’email ou un fragment visuel. Vous pouvez également sélectionner la source de l’image lorsque vous modifiez le contenu. La sélection s’applique uniquement à l’expérience de modification. Vous pouvez modifier la source de l’image pour accéder aux ressources d’une autre bibliothèque, le cas échéant.
 
-Créer un email
+_**Création d&#39;une ressource de contenu**_ - Pour choisir une source d&#39;image lors de la création d&#39;un email, d&#39;un modèle d&#39;email ou d&#39;un fragment, définissez la **[!UICONTROL source d&#39;image]** dans la boîte de dialogue lorsque vous la créez.
 
-Modification d’un email : pour choisir une source de ressources d’image dans l’éditeur visuel, utilisez le sélecteur **[!UICONTROL Sélectionner la source d’image]** situé en haut de la zone de travail.
+_**Modification d’une ressource de contenu**_ - Pour choisir une source de ressource d’image dans l’éditeur visuel, utilisez le sélecteur **[!UICONTROL Sélectionner la source d’image]** situé en haut de la zone de travail.
 
 ### Ajout de ressources à votre contenu
 
