@@ -3,9 +3,9 @@ title: Création d’emails
 description: Découvrez comment créer du contenu d’email personnalisé utilisé dans les Parcours de compte.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1294'
 ht-degree: 11%
 
 ---
@@ -88,8 +88,8 @@ Après avoir créé et personnalisé le contenu de l’email, vous pouvez l’ex
 
 1. Insérez des champs de personnalisation pour personnaliser votre contenu à partir des attributs de profil, des appartenances à l’audience, des attributs contextuels, etc.
 
-1. Cliquez sur **[!UICONTROL Activer le contenu de condition]** pour ajouter du contenu dynamique et adapter le contenu aux profils ciblés selon des règles conditionnelles.
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. Sélectionnez l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL de votre contenu qui font l’objet d’un suivi.
 
    Vous pouvez modifier le _Type de suivi_ ou le _Libellé_ et ajouter des balises si nécessaire.
