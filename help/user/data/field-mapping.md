@@ -2,7 +2,7 @@
 title: Mappage des champs XDM
 description: Examinez le mappage des champs entre le schéma XDM AEP, Marketo Engage et Journey Optimizer B2B Edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 838308621a27bcfc6425b8683f642a66f1fa6a7b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 27%

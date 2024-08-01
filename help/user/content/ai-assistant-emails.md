@@ -3,7 +3,7 @@ title: Assistant IA pour la création d’emails
 description: Découvrez comment utiliser l’assistant d’IA pour optimiser le contenu d’email utilisé dans les Parcours de compte.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -215,7 +215,7 @@ Dans le Concepteur d’email, l’assistant d’IA peut vous aider à optimiser 
 
 >[!BEGINTABS]
 
->[!TAB Génération complète de courriers électroniques]
+>[!TAB Génération d’e-mail complet]
 
 Les étapes suivantes décrivent l’ordre des tâches pour l’utilisation de l’assistant AI afin d’affiner un modèle de courrier électronique existant :
 

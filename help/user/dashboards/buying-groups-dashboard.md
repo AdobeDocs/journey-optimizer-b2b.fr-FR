@@ -3,7 +3,7 @@ title: Tableau de bord Aperçu des groupes d’achat
 description: Découvrez le tableau de bord Aperçu des groupes d’achat et comment il active la passation des pouvoirs par l’équipe marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 1%

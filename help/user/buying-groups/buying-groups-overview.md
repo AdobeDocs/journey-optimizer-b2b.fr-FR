@@ -3,7 +3,7 @@ title: Groupes d’achat
 description: Découvrez comment acheter des groupes et leurs composants.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 7%
@@ -58,10 +58,10 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Comptes]** et c
 
 La page _[!UICONTROL Groupes d&#39;achats]_ est organisée sous la forme d&#39;onglets :
 
-| Onglet | Description |
+| Tabulation | Description |
 | --- | ----------- |
-| [!UICONTROL Présentation] | Cet onglet est la valeur par défaut et affiche le [tableau de bord des groupes d’achats](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Naviguer] | Cet onglet prend en charge les activités suivantes : <ul><li>Affichez la liste des groupes d’achats existants. </li><li>Effectuez une recherche en achetant le nom du groupe. </li><li>Filtrez par intérêt de solution. </li><li>Découvrez comment acheter les détails du groupe. </li><li>Créez un groupe d’achats. Supprimez un groupe d’achats.</li></ul> |
+| [!UICONTROL Vue d’ensemble] | Cet onglet est la valeur par défaut et affiche le [tableau de bord des groupes d’achats](../dashboards/buying-groups-dashboard.md). |
+| [!UICONTROL Parcourir] | Cet onglet prend en charge les activités suivantes : <ul><li>Affichez la liste des groupes d’achats existants. </li><li>Effectuez une recherche en achetant le nom du groupe. </li><li>Filtrez par intérêt de solution. </li><li>Découvrez comment acheter les détails du groupe. </li><li>Créez un groupe d’achats. Supprimez un groupe d’achats.</li></ul> |
 | [!UICONTROL  Centres d’intérêt de solution] | Cet onglet prend en charge les activités suivantes : <ul><li>Affichez la liste des groupes d’achats existants. </li><li>Effectuez une recherche en achetant le nom du groupe. </li><li>Accédez aux propriétés d’intérêt de la solution et modifiez-les. </li><li>Créez un intérêt pour la solution. </li><li>Supprimez les centres d’intérêt d’une solution. </li><li>Affichez et supprimez les tâches de groupe d’achat. </li></ul> |
 | [!UICONTROL Modèles de rôles] | Cet onglet prend en charge les activités suivantes : <ul><li>Affichez la liste des modèles de rôles existants. </li><li>Recherche par nom de modèle de rôles. </li><li>Accédez aux propriétés et aux conditions du modèle de rôles et modifiez-les. </li><li>Créez un modèle de rôles. </li><li>Supprimez un modèle de rôles. </li></ul> |
 
@@ -95,7 +95,7 @@ Les exemples suivants illustrent le calcul du score d’engagement :
 
 **Groupe d’achat 1** - score d’engagement = 22,15
 
-| Utilisateur | Rôle | Pondération de rôle | Action | Aujourd&#39;hui | Hier | Poids de l’action | Évaluation |
+| Utilisateur | Rôle | Pondération de rôle | Action | Today | Hier | Poids de l’action | Score |
 | ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
 | Adam | Décisionnaire | 80 % | Site Web visité | 1000 | 2 | 1 | 22 |
 | | | | E-mail cliqué | 1 | 0 | 1 | 1 |
@@ -105,7 +105,7 @@ Les exemples suivants illustrent le calcul du score d’engagement :
 
 **Groupe d’achats 2** - Score d’engagement = 8,55
 
-| Utilisateur | Rôle | Pondération de rôle | Action | Aujourd&#39;hui | Hier | Poids de l’action | Évaluation |
+| Utilisateur | Rôle | Pondération de rôle | Action | Today | Hier | Poids de l’action | Score |
 | ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
 | Alvin | Décisionnaire | 80 % | Site Web visité | 3 | 2 | 1 | 5 |
 | | | | E-mail cliqué | 1 | 0 | 1 | 1 |

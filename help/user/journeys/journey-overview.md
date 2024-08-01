@@ -3,10 +3,10 @@ title: Parcours de compte
 description: Découvrez les parcours de compte et comment les créer et les gérer.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Définissez un engagement piloté par les ventes qui comprend des e-mails, des S
    La page parcours affichée comprend les colonnes suivantes :
 
    * [!UICONTROL Nom] (cliquez sur le nom pour ouvrir le parcours de compte à modifier)
-   * [!UICONTROL Status]
+   * [!UICONTROL Statut]
    * [!UICONTROL Description]
    * [!UICONTROL Créé par]
    * [!UICONTROL  Dernière mise à jour à ]

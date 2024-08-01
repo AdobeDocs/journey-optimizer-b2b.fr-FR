@@ -1,10 +1,11 @@
 ---
 title: Fonctionnalités de gouvernance
 description: Découvrez les fonctionnalités de gouvernance actuellement disponibles dans Journey Optimizer B2B Edition.
-source-git-commit: 1353defe804947617a4d7489592d380bf372c7df
+exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +21,7 @@ Journey Optimizer Édition B2B utilise les fonctionnalités de gouvernance du RG
 
 Avec Journey Optimizer Édition B2B et l’accès à Adobe Admin Console, les administrateurs peuvent accorder à un utilisateur des autorisations sur un type d’entité (segments d’affichage, segments de gestion, parcours de gestion, etc.). Cette fonctionnalité fait partie de l’Unified Permissions Framework (UPF) qui permet à tous les clients Adobe Experience Platform de définir et de gérer des rôles et des autorisations pour leur organisation.
 
-## Cryptage des données
+## Chiffrement des données
 
 **_Chiffrement des données au repos_** - Toutes les données de comptes et de profils de personnes transférées de Adobe Experience Platform vers Journey Optimizer B2B Edition sont chiffrées afin de maintenir la conformité existante de l’Experience Platform. Toutes les entités provenant de Journey Optimizer B2B Edition, telles que les parcours et les groupes d’achat, sont également chiffrées.
 
@@ -37,9 +38,9 @@ Avec Journey Optimizer B2B Edition, vous pouvez créer et gérer des cas d’uti
 Les fonctionnalités de gouvernance suivantes ne sont pas encore disponibles, mais sont incluses dans la feuille de route du produit :
 
 * Application des étiquettes d’utilisation des données (DULE) / stratégies d’utilisation
-* Assurance des données
+* Hygiène des données
 * Réinitialisation du sandbox
-* Règles de consentement
+* Politiques de consentement
 * Contrôle d’accès au niveau du champ (FLAC)
 * Contrôle d’accès de niveau objet (OLAC)
 * Cryptage CMK des données au repos

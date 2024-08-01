@@ -3,16 +3,16 @@ title: Création de SMS
 description: Découvrez comment envoyer des SMS à vos clients sur leurs appareils mobiles, ainsi que comment personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1879'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # Création de SMS
 
-Utilisez Adobe Journey Optimizer B2B Edition pour envoyer des SMS à vos clients sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l&#39;éditeur de SMS.
+Utilisez Adobe Journey Optimizer B2B Edition pour envoyer des SMS à vos clients sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 
 ## Paramétrages des SMS
 
@@ -26,7 +26,7 @@ Avant de configurer un canal SMS dans Adobe Journey Optimizer B2B Edition, vous 
 
 >[!IMPORTANT]
 >
->Votre utilisation des services de messagerie texte est soumise à des conditions supplémentaires de la part du fournisseur concerné. En tant que solutions tierces, Sinch, Twilio et Infobip sont disponibles pour les utilisateurs de Adobe Journey Optimizer B2B Edition via une intégration. Adobe ne contrôle pas et n’est pas responsable des produits tiers. Pour tout problème ou toute demande d&#39;assistance relative aux services de messagerie texte (SMS), contactez votre fournisseur.
+>Votre utilisation des services de messages texte sera soumise aux conditions générales supplémentaires de la part du fournisseur concerné. En tant que solutions tierces, Sinch, Twilio et Infobip sont disponibles pour les utilisateurs de Adobe Journey Optimizer B2B Edition via une intégration. Adobe ne contrôle pas et n’est pas responsable des produits tiers. Pour tout problème ou toute demande d&#39;assistance relative aux services de messagerie texte (SMS), contactez votre fournisseur.
 
 ### Vérification d’une configuration d’API SMS existante
 
@@ -54,7 +54,7 @@ _Pour configurer Sinch en tant que fournisseur de SMS avec Adobe Journey Optimiz
 
 1. Cliquez sur le bouton **[!UICONTROL Créer de nouvelles informations d’identification d’API]** en haut à droite de la liste _[!UICONTROL informations d’identification d’API]_.
 
-1. Configurez vos informations d’identification d’API SMS :
+1. Configurez vos informations dʼidentification pour lʼAPI SMS :
 
    ![Configuration des informations d’identification de l’API SMS Sinch](./assets/config-sms-api-sinch.png){width="500"}
 
@@ -76,7 +76,7 @@ _Pour configurer Twilio en tant que fournisseur de SMS avec Adobe Journey Optimi
 
 1. Cliquez sur le bouton **[!UICONTROL Créer de nouvelles informations d’identification d’API]** en haut à droite de la liste _[!UICONTROL informations d’identification d’API]_.
 
-1. Configurez vos informations d’identification d’API SMS :
+1. Configurez vos informations dʼidentification pour lʼAPI SMS :
 
    ![Configuration des informations d’identification de l’API SMS Twilio](./assets/config-sms-api-twilio.png){width="500"}
 
@@ -98,7 +98,7 @@ _Pour configurer Infobip en tant que fournisseur de SMS avec Adobe Journey Optim
 
 1. Cliquez sur le bouton **[!UICONTROL Créer de nouvelles informations d’identification d’API]** en haut à droite de la liste _[!UICONTROL informations d’identification d’API]_.
 
-1. Configurez vos informations d’identification d’API SMS :
+1. Configurez vos informations dʼidentification pour lʼAPI SMS :
 
    ![Configuration des informations d’identification de l’API SMS Infobip](./assets/config-sms-api-infobip.png){width="500"}
 
@@ -138,7 +138,7 @@ Vous pouvez configurer des diffusions de messages texte dans un Parcours de comp
 >
 >**Gestion du consentement SMS**<br/>
 ><br/>
->Conformément aux normes et réglementations du secteur, tous les messages de marketing SMS doivent contenir un moyen pour que les destinataires puissent se désabonner facilement. Pour ce faire, les destinataires SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. Tous les mots-clés d’opt-in et d’opt-out standard sont pris en charge et respectés. En outre, tous les mots-clés personnalisés configurés pour votre compte de fournisseur de services SMS sont pris en charge et honorés.
+>Conformément aux normes et réglementations du secteur, tous les messages de marketing SMS doivent contenir un moyen pour que les destinataires puissent se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. Tous les mots-clés d’opt-in et d’opt-out standard sont pris en charge et respectés. En outre, tous les mots-clés personnalisés configurés pour votre compte de fournisseur de services SMS sont pris en charge et honorés.
 
 1. Saisissez le texte que vous souhaitez envoyer dans le champ **[!UICONTROL Message]** .
 

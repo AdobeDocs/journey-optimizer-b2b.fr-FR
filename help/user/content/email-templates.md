@@ -3,7 +3,7 @@ title: Modèles d'e-mail
 description: Découvrez comment créer et modifier des modèles d’email qui peuvent être utilisés pour créer facilement et efficacement des emails de parcours de compte.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '2622'
 ht-degree: 6%
@@ -179,7 +179,7 @@ Dans l’éditeur visuel de contenu, l’icône _Fragments_ s’affiche sur la g
 
 1. Pour ouvrir la liste des fragments, cliquez sur l’icône _Fragments_ .
 
-   Vous pouvez :
+   Vous pouvez effectuer les actions suivantes :
 
    * Triez la liste.
    * Parcourir, rechercher ou filtrer la liste.

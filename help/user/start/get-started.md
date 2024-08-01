@@ -2,7 +2,7 @@
 title: Prise en main de Journey Optimizer B2B Edition
 description: En tant que nouvel utilisateur de l’édition B2B de Journey Optimizer, découvrez les principaux domaines de prise en main.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 8%
