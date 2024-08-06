@@ -3,10 +3,10 @@ title: Groupes d’achat
 description: Découvrez comment acheter des groupes et leurs composants.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 7%
+source-wordcount: '1186'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Pour les activités de vente et de marketing B2B, les comptes sont essentiels à
 
 ![ Diagramme de rôles de compte ](assets/account-roles-diagram.png){width="800"}
 
-Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achats_. Ces personnes sont celles qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part du marketeur et peuvent avoir besoin d’informations différentes de celles des autres personnes associées au compte. Les groupes d’achats peuvent comprendre un groupe de personnes différent pour différentes lignes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter l’approbation d’un achat par un directeur de l’information ou un directeur de la sécurité, ainsi qu’un représentant du service juridique. Cependant, un produit de suivi des bogues peut généralement avoir un vice-président en ingénierie et un Director informatique en tant que membres du groupe d’achats.
+Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achats_. Il s’agit des personnes qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part du marketeur et peuvent avoir besoin d’informations différentes de celles des autres personnes associées au compte. Les groupes d’achats peuvent comprendre un groupe de personnes différent pour différentes lignes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter l’approbation d’un achat par un directeur de l’information ou un directeur de la sécurité, ainsi qu’un représentant du service juridique. Cependant, un produit de suivi des bogues peut généralement avoir un vice-président en ingénierie et un Director informatique en tant que membres du groupe d’achats.
 
 ## Composants clés
 
@@ -52,7 +52,7 @@ Vous pouvez accroître l’efficacité marketing en établissant des groupes d�
 
 1. Utilisation dans un parcours de compte par l’intermédiaire des centres d’intérêt de solution associés.
 
-## Accès aux groupes d’achat et aux composants
+## Affichage des groupes d’achat et des composants
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Comptes]** et cliquez sur **[!UICONTROL Groupes d’achats]**.
 
@@ -87,28 +87,68 @@ Le score d’exhaustivité du groupe d’achat est recalculé chaque fois qu’u
 
 ### Score d’engagement du groupe d’achat
 
-Le score d’engagement est utilisé pour évaluer l’efficacité de vos programmes marketing en fonction des activités comportementales de groupe d’achat suivies sur plusieurs parcours. Ce score est dérivé de l’activité au cours des 30 derniers jours. Tout changement de rôle apporté à un modèle nécessite un recalcul du score d’engagement pour tous les groupes d’achats créés à l’aide de ce modèle. Seules les activités entrantes sont évaluées dans le calcul d’un score d’engagement.
+Le score d’engagement d’un groupe d’achat est un nombre permettant de déterminer l’engagement des membres d’un groupe d’achat en fonction des activités qu’ils effectuent. Toute activité entrante effectuée par les membres du groupe d&#39;achat au cours des 30 derniers jours est utilisée pour calculer le score.
 
-Le score affiché est arrondi (par exemple, un score de 75.89999 est affiché comme 76), il n’existe aucune limite supérieure pour le score de disponibilité générale et un plafond de fréquence quotidienne de 20.
+Chaque activité est limitée à 20 fréquences par jour. Si un membre d’un groupe d’achat exécute la même activité plus de 20 fois par jour, le nombre de l’activité est plafonné à 20 et n’est pas supérieur au nombre.
 
-Les exemples suivants illustrent le calcul du score d’engagement :
+Le score affiché est arrondi. Par exemple, un score de 75,89999 s’affiche comme 76.
 
-**Groupe d’achat 1** - score d’engagement = 22,15
+#### Pondération
 
-| Utilisateur | Rôle | Pondération de rôle | Action | Today | Hier | Poids de l’action | Score |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Décisionnaire | 80 % | Site Web visité | 1000 | 2 | 1 | 22 |
-| | | | E-mail cliqué | 1 | 0 | 1 | 1 |
-| | | | Pub téléchargé | 1 | 3 | 1 | 4 |
-| Bob | Personne influente | 15 % | Site Web visité | 1 | 2 | 1 | 3 |
-| Calvin | Praticien | 5 % | Site Web visité | 1 | 1 | 1 | 2 |
+Les utilisateurs peuvent affecter une _pondération_ à chaque rôle dans le modèle de rôles afin d’allouer différents poids pour un rôle afin de calculer le score d’engagement.
 
-**Groupe d’achats 2** - Score d’engagement = 8,55
+![Définir la pondération pour chaque rôle dans le modèle de rôles](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-| Utilisateur | Rôle | Pondération de rôle | Action | Today | Hier | Poids de l’action | Score |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Décisionnaire | 80 % | Site Web visité | 3 | 2 | 1 | 5 |
-| | | | E-mail cliqué | 1 | 0 | 1 | 1 |
-| | | | Pub téléchargé | 1 | 3 | 1 | 4 |
-| Bret | Personne influente | 15 % | Site Web visité | 1 | 2 | 1 | 3 |
-| Cam | Praticien | 5 % | Site Web visité | 1 | 1 | 1 | 2 |
+Chaque niveau de pondération correspond à une valeur utilisée pour calculer le score d’engagement :
+
+* [!UICONTROL Trivial] = 20
+* [!UICONTROL Mineur] = 40
+* [!UICONTROL Normal] = 60
+* [!UICONTROL Important] = 80
+* [!UICONTROL Vital] = 100
+
+Un modèle de rôles avec trois rôles pondérés sous la forme _[!UICONTROL Vital]_, _[!UICONTROL Important]_ et _[!UICONTROL Normal]_ sont convertis en pourcentages pondérés suivants :
+
+| Rôle | Pondération | Valeur du serveur principal | Calcul de la valeur | Pourcentage |
+|-------------- |--------- |------------- |------------------ |---------- |
+|               |          |              |                   |           |
+| Décisionnaire | Vital | 100 | 100/240 | 41,67 % |
+| Personne influente | Important | 80 | 80/240 | 33,33 % |
+| Praticien | Normal | 60 | 60/240 | 25 % |
+|               | Total | 240 |                   |           |
+
+#### Exemple de calcul
+
+L’exemple suivant illustre le calcul du score d’engagement à l’aide du pourcentage de poids du rôle indiqué, du nombre d’activités entrantes pour chaque membre du groupe d’achats et d’une limite quotidienne de 20 pour chaque événement (s’il s’est produit à plusieurs reprises).
+
+| Rôle | Membre | Type d’activité | Décompte d&#39;hier | Le comptage d&#39;aujourd&#39;hui | Calcul | Score total |
+|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
+|               |          |             |                 |             |      |           |
+| Décisionnaire | Adam | Site Web visité | 37 | 15 | 20 + 15 | 35 |
+|               |          | Courriel cliqué | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Marquer | Site Web visité | 5 | 3 | 5 + 3 | 8 |
+|               |          | Courriel cliqué | 1 | 1 | 1 + 1 | 2 |
+|               |          | Pub téléchargé | 3 | 2 | 3 + 2 | 5 |
+| **Score total des décideurs** |         |             |                 |             |      | **52** |
+|               |          |             |                 |             |      |           |
+| Personne influente | John | Site Web visité | 19 | 9 | 19 + 9 | 28 |
+| **Score total des influenceurs** |         |             |                 |             |      | **28** |
+|               |          |             |                 |             |      |           |
+| Praticien | Bob | Courriel cliqué | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Paul | Courriel cliqué | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Calvin | Courriel cliqué | 1 | 1 | 1 + 1 | 2 |
+|               |          | Site Web visité | 1 | 7 | 1 + 7 | 8 |
+|               |          | Pub téléchargé | 1 | 2 | 1 + 2 | 3 |
+| **Score total des praticiens** |         |             |                 |             |      | **17** |
+
+Le score final de l’engagement est calculé en appliquant la pondération pour chacun des scores de rôle :
+
+| Rôle | Score total du rôle | Poids du rôle % | Score X weight % |
+|-------------- |---------------- |------------- |---------------- |
+| Décisionnaire | 52 | 41,67 % | 21,67 |
+| Les plus influents | 28 | 33,33 % | 9,33 |
+| Praticiens | 17 | 25 % | 4,25 |
+| **Score final d’engagement** |                |             | **35.25** |
