@@ -1,11 +1,11 @@
 ---
 title: Prise en main de Journey Optimizer B2B Edition
-description: En tant que nouvel utilisateur de l’édition B2B de Journey Optimizer, découvrez les principaux domaines de prise en main.
+description: En tant que nouvel utilisateur ou nouvelle utilisatrice de l’édition B2B d’Adobe Journey Optimizer, découvrez les principaux domaines pour bien commencer.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
