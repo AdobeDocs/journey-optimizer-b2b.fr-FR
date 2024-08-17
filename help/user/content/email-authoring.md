@@ -3,9 +3,9 @@ title: Création d’emails
 description: Découvrez comment créer du contenu d’email personnalisé utilisé dans les Parcours de compte.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1323'
 ht-degree: 11%
 
 ---
@@ -179,7 +179,12 @@ Deux types d’alertes peuvent être détectés :
 
    * `The email version of the message is empty` : cette erreur s&#39;affiche lorsque le contenu de l&#39;email n&#39;a pas été configuré.
 
-## Vérifier et tester l&#39;email
+## Vérifier et tester l&#39;email {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="Vérifier le rendu de votre contenu"
+>abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct pour le canal que vous utilisez."
 
 Lorsque le contenu de votre message est défini, vous pouvez utiliser des profils de test pour le prévisualiser, envoyer des bons à tirer et contrôler son rendu sur les clients courants de bureau, de mobile et web. Si vous avez inséré du contenu personnalisé, vous pouvez prévisualiser l&#39;affichage de ce contenu dans le message à l&#39;aide des données de profil de test.
 
