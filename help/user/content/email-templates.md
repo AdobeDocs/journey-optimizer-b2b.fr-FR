@@ -3,10 +3,10 @@ title: Modèles d'e-mail
 description: Découvrez comment créer et modifier des modèles d’email qui peuvent être utilisés pour créer facilement et efficacement des emails de parcours de compte.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 6%
+source-wordcount: '2670'
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,17 @@ La page _[!UICONTROL Concevez votre modèle]_ s’ouvre et fournit plusieurs opt
 
 ![Choisissez comment commencer avec votre conception de modèle d&#39;email](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Créer en partant de zéro
+### Créer en partant de zéro {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Ajout de composants de structure"
+>abstract="Les composants de structure définissent la disposition du modèle. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre modèle."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un modèle."
 
 Utilisez le concepteur d&#39;email pour définir la structure de votre contenu d&#39;email. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme du contenu d’email réutilisable en quelques secondes.
 

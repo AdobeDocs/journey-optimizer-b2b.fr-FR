@@ -3,9 +3,9 @@ title: Création de SMS
 description: Découvrez comment envoyer des SMS à vos clients sur leurs appareils mobiles, ainsi que comment personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1908'
 ht-degree: 3%
 
 ---
@@ -200,7 +200,12 @@ Vous pouvez configurer des diffusions de messages texte dans un Parcours de comp
 
    Le numéro de destinataire est toujours mappé au champ `Lead.mobilePhone` dans Marketo Engage.
 
-## Simulation du contenu du message texte
+## Simulation du contenu du message texte {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_sms_preview_simulate"
+>title="Vérifier le rendu de votre contenu"
+>abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct pour le canal que vous utilisez."
 
 Lorsque le contenu de votre message est défini, vous pouvez utiliser des profils de test pour simuler (prévisualiser) son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu dans le message à l’aide des données de profil de test.
 

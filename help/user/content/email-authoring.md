@@ -3,10 +3,10 @@ title: Création d’emails
 description: Découvrez comment créer du contenu d’email personnalisé utilisé dans les Parcours de compte.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 11%
+source-wordcount: '1468'
+ht-degree: 20%
 
 ---
 
@@ -62,7 +62,37 @@ Après avoir créé et personnalisé le contenu de l’email, vous pouvez l’ex
 >
 >Utilisez l’assistant d’IA dans l’édition B2B de Adobe Journey Optimizer, optimisé par l’IA générative, pour élever le contenu au niveau suivant. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des emails complets, du contenu texte ciblé et en obtenant des recommandations d’assistant d’IA pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
 
-### Concevoir entièrement votre email
+### Concevoir entièrement votre email {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Ajout de composants de structure"
+>abstract="Les composants de structure définissent la disposition de votre e-mail. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre e-mail."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="Ajout de composants de structure"
+>abstract="Les composants de structure définissent la disposition de la page de destination. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre page de destination."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Ajout de composants de structure"
+>abstract="Les composants de structure définissent la disposition du fragment. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre fragment."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un e-mail."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un fragment."
 
 1. Sur la page d’accueil du Concepteur, cliquez sur l’option **[!UICONTROL Créer en partant de zéro]**.
 
@@ -182,7 +212,7 @@ Deux types d’alertes peuvent être détectés :
 ## Vérifier et tester l&#39;email {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="Vérifier le rendu de votre contenu"
 >abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct pour le canal que vous utilisez."
 
