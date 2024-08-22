@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -62,7 +62,7 @@ Après avoir créé et personnalisé le contenu de l’email, vous pouvez l’ex
 >
 >Utilisez l’assistant d’IA dans l’édition B2B de Adobe Journey Optimizer, optimisé par l’IA générative, pour élever le contenu au niveau suivant. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des emails complets, du contenu texte ciblé et en obtenant des recommandations d’assistant d’IA pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
 
-### Concevoir entièrement votre email {#design-from-scratch}
+### Concevoir votre e-mail à partir de zéro {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -209,12 +209,12 @@ Deux types d’alertes peuvent être détectés :
 
    * `The email version of the message is empty` : cette erreur s&#39;affiche lorsque le contenu de l&#39;email n&#39;a pas été configuré.
 
-## Vérifier et tester l&#39;email {#preview-test}
+## Vérifier et tester l’e-mail {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Vérifier le rendu de votre contenu"
->abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct pour le canal que vous utilisez."
+>abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct en fonction du canal que vous utilisez."
 
 Lorsque le contenu de votre message est défini, vous pouvez utiliser des profils de test pour le prévisualiser, envoyer des bons à tirer et contrôler son rendu sur les clients courants de bureau, de mobile et web. Si vous avez inséré du contenu personnalisé, vous pouvez prévisualiser l&#39;affichage de ce contenu dans le message à l&#39;aide des données de profil de test.
 
