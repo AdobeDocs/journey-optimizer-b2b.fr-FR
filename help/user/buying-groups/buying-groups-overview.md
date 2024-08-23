@@ -3,7 +3,7 @@ title: Groupes d’achat
 description: Découvrez comment acheter des groupes et leurs composants.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 6%
@@ -109,7 +109,7 @@ Chaque niveau de pondération correspond à une valeur utilisée pour calculer l
 
 Un modèle de rôles avec trois rôles pondérés sous la forme _[!UICONTROL Vital]_, _[!UICONTROL Important]_ et _[!UICONTROL Normal]_ sont convertis en pourcentages pondérés suivants :
 
-| Rôle | Pondération | Valeur du serveur principal | Calcul de la valeur | Pourcentage |
+| Rôle | Pondération | Valeur système | Calcul de la valeur | Pourcentage |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | Décisionnaire | Vital | 100 | 100/240 | 41,67 % |

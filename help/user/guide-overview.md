@@ -2,9 +2,9 @@
 title: Documentation de Adobe Journey Optimizer B2B Edition
 description: Découvrez comment utiliser les fonctionnalités de l’édition B2B de Adobe Journey Optimizer pour orchestrer des parcours de compte et d’achat de groupes à l’aide d’une IA intégrée et d’une automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,12 @@ Voici un échantillon des dernières améliorations apportées à la documentati
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
+
+>[!TAB Audiences mises en correspondance du compte LinkedIn]
+
+Générez des audiences LinkedIn Ad par le biais des audiences mises en correspondance de compte pour vous aider à remplir les rôles vides dans vos groupes d’achats. En définissant un ensemble de filtres de groupe d’achats, vous pouvez gérer une audience mise en correspondance LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d’achats. Cette fonctionnalité exploite les destinations Experience Platform pour gérer certains aspects de l’intégration.
+
+[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="En savoir plus sur les audiences mises en correspondance de comptes LinkedIn"}
 
 >[!TAB Assistant IA]
 

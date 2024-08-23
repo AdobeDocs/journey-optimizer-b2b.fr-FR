@@ -1,11 +1,9 @@
 ---
 title: Audiences mises en correspondance de comptes linkedIn
 description: Découvrez comment connecter un compte LinkedIn et activer un flux de données pour acheter des groupes.
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '682'
 ht-degree: 8%
 
 ---
@@ -25,15 +23,29 @@ Avant de lancer un flux de données à partir de Journey Optimizer B2B Edition, 
 
 1. Dans Experience Platform, accédez à **[!UICONTROL Connexions]** > **[!UICONTROL Destinations]** dans le volet de navigation de gauche et sélectionnez l’onglet **[!UICONTROL Catalogue]** .
 
-1. Dans le catalogue, recherchez le connecteur **[!UICONTROL (Entreprises) LinkedIn Matched Audience]** et cliquez sur **[!UICONTROL Configurer]**.
+1. Dans le catalogue, recherchez le connecteur **[!UICONTROL (Entreprises) Audience mappée LinkedIn]** .
+
+   >[!TIP]
+   >
+   >Vous pouvez rapidement trouver le connecteur en entrant `LinkedIn` dans la zone de recherche.
+
+1. Dans la carte du connecteur, cliquez sur l&#39;icône _Plus_ (**...**) et sélectionnez **[!UICONTROL Configurer une nouvelle destination]**.
 
    ![Accès au connecteur d’audience mappée LinkedIn (entreprises)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. Sélectionnez **[!UICONTROL Nouveau compte]** > **[!UICONTROL Se connecter à LinkedIn]**.
+1. Sélectionnez **[!UICONTROL Nouveau compte]** et cliquez sur **[!UICONTROL Se connecter à la destination]**.
+
+   ![Connecter un nouveau compte LinkedIn](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. Indiquez vos informations d’identification LinkedIn et connectez-vous.
 
-   Le compte LinkedIn est connecté en tant que destination.
+   Après l’authentification, le compte LinkedIn est connecté en tant que destination dans Experience Platform.
+
+   ![ La confirmation de connexion au compte s&#39;affiche](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >À ce stade, **ne saisissez pas** dans les _[!UICONTROL détails de la destination]_. Seule la connexion est nécessaire.
 
 ## Mise à jour des détails du compte
 
