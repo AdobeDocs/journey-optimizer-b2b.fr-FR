@@ -1,12 +1,11 @@
 ---
 title: Notes de mise à jour
 description: Dernières notes de mise à jour pour l’édition B2B de Adobe Journey Optimizer
-hidefromtoc: true
-hide: true
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
+source-git-commit: b034c96da0b00f4976a832a6b01858180e189c8d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 12%
+source-wordcount: '152'
+ht-degree: 11%
 
 ---
 
@@ -16,9 +15,11 @@ L’édition B2B de Adobe Journey Optimizer offre en permanence de nouvelles fon
 
 L’édition B2B de Journey Optimizer est construite en mode natif sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour obtenir des informations sur les droits, les barrières de performance et les limites.
+
 ## Notes de mise à jour d’août 2024 {#Aug-2024}
 
-**Date de publication** : 22 août 2024
+**Date de publication** : 29 août 2024
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
