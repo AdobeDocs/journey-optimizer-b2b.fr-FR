@@ -3,10 +3,10 @@ title: Modèles d'e-mail
 description: Découvrez comment créer et modifier des modèles d’email qui peuvent être utilisés pour créer facilement et efficacement des emails de parcours de compte.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 8%
+source-wordcount: '1817'
+ht-degree: 5%
 
 ---
 
@@ -48,46 +48,25 @@ La page _[!UICONTROL Concevez votre modèle]_ s’ouvre et fournit plusieurs opt
 
 ![Choisissez comment commencer avec votre conception de modèle d&#39;email](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Créer en partant de zéro {#design-from-scratch}
+### Créer en partant de zéro
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Ajout de composants de structure"
->abstract="Les composants de structure définissent la disposition du modèle. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre modèle."
+Utilisez l&#39;éditeur visuel de contenu pour définir la structure du contenu de l&#39;email. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme du contenu d’email réutilisable en quelques secondes.
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un modèle."
-
-Utilisez le concepteur d&#39;email pour définir la structure de votre contenu d&#39;email. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme du contenu d’email réutilisable en quelques secondes.
+>[!NOTE]
+>
+>Les outils de conception disponibles sont équivalents aux outils utilisés pour la [création d’email](./email-authoring.md). La différence est que ce contenu est ensuite enregistré comme un modèle qui peut être réutilisé sur plusieurs noeuds d’e-mail d’envoi dans les parcours de compte.
 
 1. Sur la page d&#39;accueil _[!UICONTROL Concevez votre modèle]_ , sélectionnez l&#39;option **[!UICONTROL Concevoir à partir de zéro]** .
 
-1. Commencez à concevoir votre contenu en faisant glisser des composants dans la zone de travail afin de définir la disposition structurelle de l&#39;email.
-
-   Les outils de conception disponibles sont équivalents aux outils utilisés pour la [création d’email](./email-authoring.md). La différence est que ce contenu est ensuite enregistré comme un modèle qui peut être réutilisé sur plusieurs noeuds d’e-mail d’envoi dans les parcours de compte.
+1. [Ajoutez la structure et le contenu](#add-structure-and-content) au modèle.
 
 ### Importer du contenu HTML
 
-L’édition B2B de Adobe Journey Optimizer vous permet d’importer du contenu d’HTML existant pour concevoir vos modèles d’email. Ce contenu peut être :
+L’édition B2B de Adobe Journey Optimizer vous permet d’importer du contenu d’HTML existant pour concevoir vos modèles d’email.
 
-* Un fichier d’HTML avec une feuille de style intégrée.
-* Fichier .zip contenant un fichier d’HTML, la feuille de style (.css) et les images
+{{$include /help/_includes/content-design-import.md}}
 
-  >[!NOTE]
-  >
-  >Il n’existe aucune contrainte sur la structure des fichiers .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip.
-
-_Pour importer un fichier contenant du contenu HTML :_
-
-1. Sur la page d&#39;accueil _[!UICONTROL Concevez votre modèle]_ , sélectionnez l&#39;option **[!UICONTROL Importer l&#39;HTML]** .
-
-1. Faites glisser et déposez le fichier HTML ou .zip contenant le contenu HTML, puis cliquez sur **[!UICONTROL Importer]**.
-
-   Une fois le contenu de l’HTML téléchargé, votre contenu est en _mode de compatibilité_. Dans ce mode, vous pouvez uniquement personnaliser votre texte, ajouter des liens ou inclure des ressources à votre contenu.
-
-1. Pour utiliser les composants de contenu du Concepteur d&#39;email, cliquez sur l&#39;onglet **[!UICONTROL Convertisseur d&#39;HTMLS]** et cliquez sur **[!UICONTROL Convertir]**.
+![importer du contenu html dans un fichier zip](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -97,91 +76,21 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 
 ### Sélection d’un modèle de conception
 
-Sur la page d’accueil _[!UICONTROL Concevez votre modèle]_ , utilisez la section Sélectionner un modèle de conception pour commencer à créer votre contenu à partir d’un modèle. Vous pouvez utiliser un exemple de modèle ou un modèle de courrier électronique enregistré à partir de votre instance Journey Optimizer B2B Edition.
+{{$include /help/_includes/content-design-select-template.md}}
 
->[!BEGINTABS]
+## Ajouter la structure et le contenu {#structure-content}
 
->[!TAB Modèles enregistrés]
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Ajout de composants de structure"
+>abstract="Les composants de structure définissent la disposition du modèle. Faites glisser et déposez un composant **Structure** dans la zone de travail pour commencer à concevoir le contenu de votre modèle."
 
-Sur la page d&#39;accueil _Concevez votre modèle_, l&#39;onglet _Modèles d&#39;exemple_ est sélectionné par défaut. Pour utiliser un modèle personnalisé, sélectionnez l’onglet **[!UICONTROL Modèles enregistrés]** .
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un modèle."
 
-La liste de tous les modèles de courrier électronique créés sur l’environnement de test actuel s’affiche. Vous pouvez les trier par _[!UICONTROL Nom]_, _[!UICONTROL Dernière modification]_ et _[!UICONTROL Dernière création]_.
-
-![Choisir un modèle enregistré](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-Sélectionnez le modèle de votre choix dans la liste.
-
-Une fois la sélection effectuée, un aperçu du modèle s’affiche. En mode Aperçu, vous pouvez naviguer entre tous les modèles d’une catégorie (échantillon ou enregistré, selon votre sélection) à l’aide des flèches droite et gauche.
-
-![Aperçu du modèle enregistré](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-Lorsque l’affichage correspond à ce que vous souhaitez utiliser, cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de la fenêtre d’aperçu.
-
-Cette action copie le contenu dans le concepteur de contenu visuel, où vous pouvez modifier le contenu selon vos besoins.
-
->[!TAB Exemple de modèle]
-
-L’édition B2B de Adobe Journey Optimizer offre une sélection de modèles d’email _prêts à l’emploi_, qui peuvent être utilisés pour créer des emails et des modèles d’email.
-
-![ Choisissez un modèle fourni par Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
-
->[!ENDTABS]
-
-## Ajouter la structure et le contenu
-
-Commencez à concevoir votre contenu en faisant glisser des structures du menu **[!UICONTROL Composants]** vers la zone de travail pour définir la mise en page de votre email.
-
-Ajoutez autant de structures que nécessaire et modifiez leurs paramètres dans les propriétés de l’élément sur la droite.
-
-Sélectionnez le composant _[!UICONTROL n:n column]_ pour définir le nombre de colonnes de votre choix (entre trois et dix). Définissez la largeur de chaque colonne en déplaçant les flèches vers le bas.
-
->[!NOTE]
->
->La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous pouvez uniquement supprimer les colonnes vides.
-
-Développez la section **[!UICONTROL Contenu]** et ajoutez autant d’éléments que nécessaire dans un ou plusieurs composants de structure.
-
-
-
-Chaque composant peut être personnalisé à l’aide des onglets _[!UICONTROL Paramètres]_ ou _[!UICONTROL Style]_ dans le panneau de droite. Par exemple, vous pouvez modifier le style de texte, la marge ou la marge intérieure de chaque composant.
-
-### Navigation dans les calques, les paramètres et le style
-
-L&#39;exemple suivant décrit les étapes à suivre pour ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes.
-
-1. Sélectionnez le composant de structure directement dans l&#39;email ou à l&#39;aide de l&#39;arborescence de navigation disponible dans le menu de gauche.
-
-1. Dans la barre d&#39;outils, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle que vous souhaitez modifier.
-
-   ![n:n composant de colonne affiché dans la zone de travail](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"}
-
-   Vous pouvez également la sélectionner dans l&#39;arborescence. Les paramètres modifiables de cette colonne sont affichés dans l’onglet _[!UICONTROL Styles]_.
-
-1. Sous **[!UICONTROL Alignement]**, sélectionnez l’icône _Haut_, _Milieu_ ou _Bas_ .
-
-1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure de tous les côtés.
-
-   Sélectionner **[!UICONTROL Marge intérieure différente pour chaque côté]** si vous souhaitez mieux définir la marge intérieure. Cliquez sur l’icône représentant un verrou pour interrompre la synchronisation.
-
-1. Si nécessaire, ajustez l&#39;alignement et la marge intérieure des autres colonnes.
-
-1. Enregistrez vos modifications.
-
-### Personnaliser le contenu
-
-L’exemple suivant décrit les étapes de personnalisation du contenu du modèle à l’aide des attributs de prospect/compte et des jetons système.
-
-1. Sélectionnez le composant de texte et cliquez sur l’icône _Ajouter la personnalisation_ de la barre d’outils.
-
-   ![Cliquez sur l’icône Personnaliser](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   Cette action ouvre la boîte de dialogue _Modifier Personalization_.
-
-1. Cliquez sur **+** ou **...** pour ajouter un jeton à l’espace vide.
-
-   ![Créer du texte personnalisé à l’aide de jetons](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+{{$include /help/_includes/content-design-components.md}}
 
 ### Ajouter des fragments
 
@@ -198,43 +107,33 @@ Dans l’éditeur visuel de contenu, l’icône _Fragments_ s’affiche sur la g
 
    ![Sélectionner un fragment dans la liste](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Faites glisser l’un des fragments dans l’espace réservé du composant de structure.
+1. Faites glisser et déposez l’un des fragments dans l’espace réservé du composant structurel.
 
    L’éditeur effectue le rendu du fragment dans la section/l’élément de la structure de l’email.
 
-Le contenu du fragment est mis à jour de manière dynamique dans la structure afin d’afficher un visuel sur l’affichage du contenu dans l’email.
+Le contenu du fragment est mis à jour dynamiquement dans la structure afin d’afficher la manière dont le contenu apparaît dans l’email.
 
-Si vous souhaitez ajouter le fragment afin qu&#39;il occupe l&#39;intégralité de la disposition horizontale dans l&#39;email, ajoutez une structure de colonnes 1:1, puis faites glisser et déposez le fragment dans celui-ci.
+>[!TIP]
+>
+>Si vous souhaitez ajouter le fragment afin qu&#39;il occupe l&#39;intégralité de la disposition horizontale dans l&#39;email, ajoutez une structure de colonnes 1:1, puis faites glisser et déposez le fragment dans celui-ci.
 
 Une fois l’email enregistré, il apparaît dans la page des détails du fragment lorsque vous sélectionnez l’onglet _[!UICONTROL Utilisé par]_ dans le résumé. Les fragments ajoutés à un modèle de courrier électronique ne sont pas modifiables dans le modèle ; le contenu est défini par le fragment source.
 
 ### Ajout de ressources
 
-Dans l’éditeur visuel de contenu, sélectionnez l’icône _Assets_ qui s’affiche à gauche.
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->Si vous disposez d’un abonnement pour Experience Manager Assets as a Cloud Service ainsi que pour Adobe Marketo Engage Design Studio par défaut, vous pouvez sélectionner des ressources d’image à partir de la source sélectionnée dans la page de détails du modèle.
+### Navigation dans les calques, paramètres et styles
 
-L’exemple suivant décrit les étapes à suivre pour ajouter des ressources au contenu du modèle :
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. Pour ouvrir la bibliothèque de ressources, cliquez sur l’icône _Assets_ .
+### Personnaliser le contenu
 
-   À partir du sélecteur de ressources, vous pouvez sélectionner directement des ressources stockées dans la bibliothèque source.
+{{$include /help/_includes/content-design-personalization.md}}
 
-1. Ajoutez une nouvelle ressource en la faisant glisser dans un composant de structure.
+### Modification du suivi des URL liées
 
-1. Remplacez une ressource image en la sélectionnant sur la zone de travail, puis en cliquant sur **[!UICONTROL Sélectionner une ressource]** dans les outils de source d’image.
-
-   ![Sélectionner une ressource dans la bibliothèque source](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
-
-### Prévisualisation et modification des URL
-
-1. Cliquez sur l&#39;icône _[!UICONTROL Liens]_ à gauche pour afficher toutes les URL de votre contenu à suivre.
-
-1. Si nécessaire, cliquez sur l&#39;icône _Modifier_ (crayon) et modifiez le _Type de suivi_ ou le _Libellé_ et ajoutez _Balises_ pour un lien.
-
-![Cliquez sur Plus pour accéder aux actions de modèle](./assets/visual-designer-links.png){width="500"}
+{{$include /help/_includes/content-design-links.md}}
 
 ### Options d’affichage
 
