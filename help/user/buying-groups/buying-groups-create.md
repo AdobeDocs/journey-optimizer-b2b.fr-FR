@@ -3,10 +3,10 @@ title: Création de groupes d’achat
 description: Découvrez comment créer des groupes d’achat.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,8 @@ Une fois le groupe d’achat créé, il peut être utilisé dans un parcours de 
    ![Cliquez sur Créer des groupes d’achat](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
 1. Suivez les invites sur chaque page et cliquez sur **[!UICONTROL Suivant]** pour continuer.
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo pratique](#how-to-video)
 
 ## Page d’orientation
 
@@ -58,3 +60,7 @@ Vous pouvez accéder à l’onglet Intérêt de la solution et afficher le nombr
 Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
+
+## Vidéo pratique
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

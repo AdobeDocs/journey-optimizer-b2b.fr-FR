@@ -3,9 +3,9 @@ title: Modèles de rôle de groupe d’achat
 description: Découvrez comment définir un modèle de rôle à utiliser comme composant de groupe d’achats.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 1%
 # Modèles de rôle de groupe d’achat
 
 Dans un marché B2B, les décisions d’achat sont généralement prises par plusieurs individus. Ces personnes participent au processus décisionnel en fonction de leur rôle au sein de l’organisation. Créez des modèles de rôle Groupe d’achat qui contiennent ces définitions de rôle en fonction de chaque cas d’utilisation de type d’offre de produit ou de compte.
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
 
 ## Accès et navigation dans les modèles de rôle
 
@@ -130,3 +132,7 @@ Vous pouvez supprimer un modèle de rôles s’il se trouve dans l’état _Brou
    ![Modification de la priorité du rôle](./assets/roles-template-delete.png){width="700"}
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Supprimer]** pour confirmer.
+
+## Vidéo Aperçu
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

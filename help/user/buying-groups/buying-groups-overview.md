@@ -3,9 +3,9 @@ title: Groupes d’achat
 description: Découvrez comment acheter des groupes et leurs composants.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1193'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,8 @@ Pour les activités de vente et de marketing B2B, les comptes sont essentiels à
 ![ Diagramme de rôles de compte ](assets/account-roles-diagram.png){width="800"}
 
 Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achats_. Il s’agit des personnes qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part du marketeur et peuvent avoir besoin d’informations différentes de celles des autres personnes associées au compte. Les groupes d’achats peuvent comprendre un groupe de personnes différent pour différentes lignes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter l’approbation d’un achat par un directeur de l’information ou un directeur de la sécurité, ainsi qu’un représentant du service juridique. Cependant, un produit de suivi des bogues peut généralement avoir un vice-président en ingénierie et un Director informatique en tant que membres du groupe d’achats.
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](#overview-video)
 
 ## Composants clés
 
@@ -152,3 +154,7 @@ Le score final de l’engagement est calculé en appliquant la pondération pour
 | Les plus influents | 28 | 33,33 % | 9,33 |
 | Praticiens | 17 | 25 % | 4,25 |
 | **Score final d’engagement** |                |             | **35.25** |
+
+## Vidéo Aperçu
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

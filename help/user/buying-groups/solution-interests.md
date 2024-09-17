@@ -3,9 +3,9 @@ title: Centres d’intérêt des solutions
 description: Découvrez les intérêts des solutions et comment les définir pour les utiliser dans vos groupes d’achats.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Intérêts des solutions
 
 Avant de créer des groupes d’achat, vous devez savoir ce que vous vendez et qui vous souhaitez cibler. Votre stratégie de marketing et de vente doit être alignée afin que vous puissiez ajouter l’ intérêt de solution pour les groupes d’achat.
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
 
 ## Accès et navigation dans les centres d’intérêt des solutions
 
@@ -84,3 +86,7 @@ Les intérêts de solution actuellement utilisés par une tâche de groupe d’a
    Si l’intérêt de la solution est actuellement utilisé par un parcours de compte ou une tâche de groupe d’achat, l’action ouvre une boîte de dialogue d’information vous informant qu’il ne peut pas être supprimé. Cliquez sur [!UICONTROL OK] pour abandonner la suppression.
 
 1. Cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression ou vous pouvez interrompre le processus en cliquant sur _[!UICONTROL Annuler]_.
+
+## Vidéo Aperçu
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
