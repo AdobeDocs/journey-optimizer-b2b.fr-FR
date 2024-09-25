@@ -2,9 +2,9 @@
 title: Fonctionnalités de gouvernance
 description: Découvrez les fonctionnalités de gouvernance actuellement disponibles dans Journey Optimizer B2B Edition.
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8c191cd86a9aa9e7094b7d3464b3179cfdb4789e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Avec Journey Optimizer B2B Edition, vous pouvez créer et gérer des cas d’uti
 
 ## Pas encore disponible
 
-Les fonctionnalités de gouvernance suivantes ne sont pas encore disponibles, mais sont incluses dans la feuille de route du produit :
+Les fonctionnalités de gouvernance suivantes ne sont pas encore disponibles :
 
 * Application des étiquettes d’utilisation des données (DULE) / stratégies d’utilisation
 * Hygiène des données
