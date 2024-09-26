@@ -6,7 +6,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -83,7 +83,7 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="Ajout de composants de structure"
->abstract="Les composants de structure définissent la disposition du modèle. Faites glisser et déposez un composant **Structure** dans la zone de travail pour commencer à concevoir le contenu de votre modèle."
+>abstract="Les composants de structure définissent la disposition du modèle. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre modèle."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
