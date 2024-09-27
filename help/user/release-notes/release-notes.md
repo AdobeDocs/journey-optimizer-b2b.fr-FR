@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Dernières notes de mise à jour pour l’édition B2B d’Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 192080e0cea6eb3deaea24ac89ec17113bc75af5
+source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 10%
+source-wordcount: '205'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 <tbody>
 <tr>
 <td>
-<p>Générez des audiences LinkedIn Ad par le biais des audiences mises en correspondance de compte pour vous aider à remplir les rôles vides dans vos groupes d’achats. En définissant un ensemble de filtres de groupe d’achats, vous pouvez gérer une audience mise en correspondance LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d’achats. Cette fonctionnalité exploite les destinations Experience Platform pour gérer certains aspects de l’intégration. [En savoir plus](../data/linkedin-account-matched-audiences.md)</p>
+<p>Générez des audiences LinkedIn Ad par le biais des audiences mises en correspondance de compte pour vous aider à remplir les rôles vides dans vos groupes d’achats. En définissant un ensemble de filtres de groupe d’achats, vous pouvez gérer une audience mise en correspondance LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d’achats. Cette fonctionnalité exploite les destinations Experience Platform pour gérer certains aspects de l’intégration. <a href="../data/linkedin-account-matched-audiences.md">En savoir plus</a>
 </td>
 </tr>
 </tbody>
@@ -47,22 +47,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 <tbody>
 <tr>
 <td>
-<p>Les fragments visuels sont gérés à l’aide d’un cycle de vie d’état, où l’état du fragment détermine sa disponibilité à utiliser dans un email ou un modèle de courrier électronique, ainsi que les modifications que vous pouvez y apporter. Cela facilite la gestion du contenu réutilisé en fonction de votre calendrier de promotion et de communication. [En savoir plus](../content/fragments.md#fragment-status-and-lifecycle)</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Cycle de vie de l’état pour les fragments visuels</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les fragments visuels sont gérés à l’aide d’un cycle de vie d’état, où l’état du fragment détermine sa disponibilité à utiliser dans un email ou un modèle de courrier électronique, ainsi que les modifications que vous pouvez y apporter. Cela facilite la gestion du contenu réutilisé en fonction de votre calendrier de promotion et de communication. [En savoir plus](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments#fragment-status-and-lifecycle)</p>
+<p>Les fragments visuels sont gérés à l’aide d’un cycle de vie d’état, où l’état du fragment détermine sa disponibilité à utiliser dans un email ou un modèle de courrier électronique, ainsi que les modifications que vous pouvez y apporter. Cela facilite la gestion du contenu réutilisé en fonction de votre calendrier de promotion et de communication. <a href="../content/fragments#fragment-status-and-lifecycle">En savoir plus</a>
 </td>
 </tr>
 </tbody>
