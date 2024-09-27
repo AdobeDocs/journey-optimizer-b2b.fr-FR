@@ -3,9 +3,9 @@ title: Fragments
 description: Découvrez comment créer et utiliser des fragments de contenu visuel comme composants réutilisables pour les emails et les modèles d’email dans Adobe Journey Optimizer B2B Edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '2687'
 ht-degree: 3%
 
 ---
@@ -31,11 +31,35 @@ Pour accéder aux fragments visuels dans Adobe Journey Optimizer B2B Edition, ac
 
 Le tableau est trié par colonne _[!UICONTROL Modifié]_, avec par défaut les fragments mis à jour le plus récemment dans la partie supérieure. Cliquez sur le titre de la colonne pour passer d’un titre croissant à un titre décroissant.
 
-Pour rechercher un fragment par nom, saisissez une chaîne de texte dans la barre de recherche pour une correspondance. Cliquez sur l’icône _Filtrer_ pour filtrer les éléments affichés en fonction des critères que vous avez spécifiés.
+### État et cycle de vie du fragment
+
+L’état du fragment détermine sa disponibilité à utiliser dans un email ou un modèle de courrier électronique, ainsi que les modifications que vous pouvez y apporter.
+
+| Statut | Description |
+| -------------------- | ----------- |
+| Brouillon | Lorsque vous créez un fragment, il est à l’état de brouillon. Il reste dans cet état lorsque vous définissez ou modifiez le contenu visuel jusqu’à ce que vous le publiiez pour l’utiliser dans un email ou un modèle d’email. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Modifier dans le concepteur visuel<li>Publier<li>Dupliquer<li>Supprimer |
+| Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un email ou un modèle de courrier électronique. Le contenu d’un fragment publié ne peut pas être modifié dans le concepteur visuel. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un email ou à un modèle<li>Création d’une version préliminaire<li>Dupliquer<li>Supprimer (si ce n’est pas le cas) |
+| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible dans un courrier électronique ou un modèle de courrier électronique, et le contenu du brouillon peut être modifié dans le concepteur visuel. Si vous publiez la version préliminaire, elle remplace la version publiée actuelle et le contenu est mis à jour dans les emails et les modèles d’email où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un email ou à un modèle<li>Modifier la version préliminaire dans le concepteur visuel<li>Version préliminaire de Publish<li>Dupliquer<li>Supprimer (si ce n’est pas le cas) |
+
+![Cycle de vie de l’état du fragment](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>L’état du fragment a été introduit dans la version d’août de l’édition B2B de Journey Optimizer. Tous les fragments créés avant cette version ont l’état _Brouillon_, même s’ils sont utilisés dans un email ou un modèle. Si vous apportez des modifications à ces fragments, vous devez les publier pour propager les modifications.
+
+### Filtrage de la liste des fragments
+
+Pour rechercher un fragment par nom, saisissez une chaîne de texte dans la barre de recherche pour une correspondance. Cliquez sur l’icône _Filtrer_ ( ![Icône Afficher ou masquer les filtres](../assets/do-not-localize/icon-filter.svg) ) pour afficher les options de filtre disponibles et modifier les paramètres pour filtrer les éléments affichés en fonction des critères que vous avez spécifiés.
 
 ![Filtrer les fragments affichés](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-Personnalisez les colonnes que vous souhaitez afficher dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ en haut à droite. Sélectionnez les colonnes à afficher et cliquez sur **[!UICONTROL Appliquer]**.
+### Personnalisation de l’affichage des colonnes
+
+Personnalisez les colonnes que vous souhaitez afficher dans le tableau en cliquant sur l’icône _Personnaliser la table_ ( ![Icône Personnaliser la table](../assets/do-not-localize/icon-column-settings.svg) ) en haut à droite.
+
+Dans la boîte de dialogue, sélectionnez les colonnes à afficher et cliquez sur **[!UICONTROL Appliquer]**.
+
+![Sélectionnez les colonnes à afficher](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## Créer des fragments
 
@@ -57,16 +81,19 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B Edition en c
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   L’éditeur de contenu visuel s’ouvre avec une zone de travail vide.
+   Le concepteur visuel s’ouvre avec une zone de travail vide.
 
-<!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
+1. Utilisez les outils de conception de contenu pour créer le contenu du fragment visuel :
 
-Adding structure and content
-Adding assets
-Navigating the layers
-Previewing & editing URLs
-View options
-More options -->
+   * [Ajouter la structure et le contenu](#add-structure-and-content)
+   * [Ajout d’Assets](#add-assets)
+   * [Navigation dans les calques, paramètres et styles](#navigate-the-layers-settings-and-styles)
+   * [Personnaliser le contenu](#personalize-content)
+   * [Modification du suivi des URL liées](#edit-linked-url-tracking)
+
+1. Cliquez à tout moment sur **[!UICONTROL Enregistrer]** pour enregistrer le fragment de brouillon.
+
+1. Lorsque vous êtes prêt à rendre le fragment disponible pour une utilisation dans un email ou un modèle de courrier électronique, cliquez sur **[!UICONTROL Publish]**.
 
 ### Ajouter la structure et le contenu {#design-fragment}
 
@@ -145,12 +172,97 @@ Si le fragment est en cours d’utilisation, l’action ouvre une boîte de dial
 
 ## Modifier des fragments
 
-Vous pouvez modifier un fragment à l’aide de l’une des méthodes suivantes :
+Les modifications apportées à un fragment dépendent de son état actuel :
 
-* Dans les détails du fragment sur la droite, cliquez sur **[!UICONTROL Modifier]**.
-* Sur la page de liste _[!UICONTROL Fragments]_, cliquez sur les points de suspension en regard du fragment et choisissez **[!UICONTROL Modifier]**.
+* Lorsqu’un fragment est à l’état _Brouillon_ , vous pouvez modifier n’importe lequel de ses détails et le contenu visuel.
+* Lorsqu’un fragment est à l’état _Publié_, vous pouvez modifier la description du fragment, mais pas son nom. Vous ne pouvez pas modifier le contenu visuel.
+* Lorsqu’un fragment est à l’état _Publié avec le statut version préliminaire_, la modification des détails est limitée à la description. Vous pouvez également modifier le contenu visuel de la version préliminaire.
 
-Cette action ouvre le fragment dans un éditeur de contenu visuel, où vous pouvez modifier le fragment à l’aide de l’une des fonctionnalités de [création d’un fragment](#create-fragments).
+>[!BEGINTABS]
+
+>[!TAB Version préliminaire]
+
+1. Sur la page de liste _[!UICONTROL Fragments]_, cliquez sur le nom du fragment pour l’ouvrir.
+
+   Un aperçu du contenu visuel s’affiche, avec les détails du fragment à droite.
+
+1. Modifiez les détails, tels que le nom et la description.
+
+   ![Détails du fragment avec le statut En création](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+
+1. Pour apporter des modifications au contenu dans le concepteur visuel, cliquez sur **[!UICONTROL Modifier le fragment]**.
+
+   Utilisez les outils de conception visuelle suivant les besoins :
+
+   * [Ajouter la structure et le contenu](#add-structure-and-content)
+   * [Ajout d’Assets](#add-assets)
+   * [Navigation dans les calques, paramètres et styles](#navigate-the-layers-settings-and-styles)
+   * [Personnaliser le contenu](#personalize-content)
+   * [Modification du suivi des URL liées](#edit-linked-url-tracking)
+
+   Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
+
+1. Lorsque le fragment répond à vos critères et que vous souhaitez le rendre disponible pour une utilisation dans un email ou un modèle de courrier électronique, cliquez sur **[!UICONTROL Publish]**.
+
+>[!TAB Publié]
+
+1. Sur la page de liste _[!UICONTROL Fragments]_, cliquez sur le nom du fragment pour l’ouvrir.
+
+   Un aperçu du contenu visuel s’affiche, avec les détails du fragment à droite.
+
+1. Modifiez la description, si nécessaire.
+
+   Pour un fragment publié, tous les autres détails ne peuvent pas être modifiés.
+
+1. Si vous souhaitez mettre à jour le contenu, cliquez sur **[!UICONTROL Créer une version préliminaire]** en haut à droite.
+
+   Cliquez sur **[!UICONTROL OK]** dans la boîte de dialogue pour ouvrir la version préliminaire dans le concepteur visuel. Vous pouvez modifier la [source d&#39;image](./assets-overview.md#choose-an-asset-source) si nécessaire.
+
+   ![Boîte de dialogue Créer une version préliminaire](./assets/fragments-create-draft-version.png){width="300"}
+
+   Utilisez les outils de conception visuelle suivant les besoins :
+
+   * [Ajouter la structure et le contenu](#add-structure-and-content)
+   * [Ajout d’Assets](#add-assets)
+   * [Navigation dans les calques, paramètres et styles](#navigate-the-layers-settings-and-styles)
+   * [Personnaliser le contenu](#personalize-content)
+   * [Modification du suivi des URL liées](#edit-linked-url-tracking)
+
+   Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
+
+1. Lorsque le fragment de brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un email ou un modèle de courrier électronique, cliquez sur **[!UICONTROL Publish]**.
+
+   Lorsque vous publiez la version préliminaire, elle remplace la version publiée actuelle et le contenu est mis à jour dans les emails et les modèles d’email où il est déjà utilisé.
+
+>[!TAB Publié avec version préliminaire]
+
+Il existe deux façons d’ouvrir la version préliminaire à modifier à partir de la page de liste _[!UICONTROL Fragments]_ :
+
+* Cliquez sur l’icône _Plus_ (**...**) en regard du nom du fragment et sélectionnez **[!UICONTROL Ouvrir le brouillon de version]**.
+
+  ![Ouvrir la version préliminaire](./assets/fragments-create-draft-version.png){width="300"}
+
+* Cliquez sur le nom du fragment pour l’ouvrir. Cliquez ensuite sur **[!UICONTROL Ouvrir la version préliminaire]** en haut à droite.
+
+  Un aperçu du contenu visuel pour la version préliminaire s’affiche, avec les détails du fragment à droite.
+
+Pour mettre à jour le contenu :
+
+1. Cliquez sur **[!UICONTROL Modifier le fragment]** en haut à droite. Utilisez les outils de conception visuelle suivant les besoins :
+
+   * [Ajouter la structure et le contenu](#add-structure-and-content)
+   * [Ajout d’Assets](#add-assets)
+   * [Navigation dans les calques, paramètres et styles](#navigate-the-layers-settings-and-styles)
+   * [Personnaliser le contenu](#personalize-content)
+   * [Modification du suivi des URL liées](#edit-linked-url-tracking)
+
+   Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
+
+1. Lorsque le fragment de brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un email ou un modèle de courrier électronique, cliquez sur **[!UICONTROL Publish]**.
+
+   Lorsque vous publiez la version préliminaire, elle remplace la version publiée actuelle et le contenu est mis à jour dans les emails et les modèles d’email où il est déjà utilisé.
+
+>[!ENDTABS]
 
 ## Dupliquer des fragments
 
@@ -167,7 +279,7 @@ Dans la boîte de dialogue, saisissez un nom (unique) et une description utiles.
 
 Le fragment dupliqué (nouveau) apparaît ensuite dans la liste _Fragments_.
 
-## Enregistrer un fragment à partir d’un email ou d’un contenu de modèle
+## Enregistrer un nouveau fragment à partir du contenu d’un email ou d’un modèle
 
 Lorsque vous créez/modifiez un email ou un modèle d&#39;email dans l&#39;éditeur visuel de contenu, vous pouvez choisir d&#39;enregistrer tout ou partie du contenu en tant que fragment afin qu&#39;il puisse être réutilisé.
 
