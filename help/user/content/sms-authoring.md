@@ -3,20 +3,20 @@ title: Création de SMS
 description: Découvrez comment envoyer des SMS à vos clients sur leurs appareils mobiles, ainsi que comment personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
+source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 5%
+source-wordcount: '2041'
+ht-degree: 4%
 
 ---
 
 # Création de SMS
 
-Utilisez Adobe Journey Optimizer B2B Edition pour envoyer des SMS à vos clients sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
+Utilisez Adobe Journey Optimizer B2B edition pour envoyer des SMS à vos clients sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 
 ## Paramétrages des SMS
 
-L’édition B2B de Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs de services SMS (ou fournisseurs de passerelle SMS). Avant de créer votre SMS, configurez votre fournisseur de services à partir des paramètres _Administrator_.
+Adobe Journey Optimizer B2B edition envoie des SMS par le biais des fournisseurs de services SMS (ou fournisseurs de passerelle SMS). Avant de créer votre SMS, configurez votre fournisseur de services à partir des paramètres _Administrator_.
 
 ### Fournisseurs de services de passerelle SMS
 
@@ -26,7 +26,7 @@ Avant de configurer un canal SMS dans Adobe Journey Optimizer B2B Edition, vous 
 
 >[!IMPORTANT]
 >
->Votre utilisation des services de messages texte sera soumise aux conditions générales supplémentaires de la part du fournisseur concerné. En tant que solutions tierces, Sinch, Twilio et Infobip sont disponibles pour les utilisateurs de Adobe Journey Optimizer B2B Edition via une intégration. Adobe ne contrôle pas et n’est pas responsable des produits tiers. Pour tout problème ou toute demande d&#39;assistance relative aux services de messagerie texte (SMS), contactez votre fournisseur.
+>Votre utilisation des services de messages texte sera soumise aux conditions générales supplémentaires de la part du fournisseur concerné. En tant que solutions tierces, Sinch, Twilio et Infobip sont disponibles pour les utilisateurs de Adobe Journey Optimizer B2B edition par le biais d’une intégration. Adobe ne contrôle pas et n’est pas responsable des produits tiers. Pour tout problème ou toute demande d&#39;assistance relative aux services de messagerie texte (SMS), contactez votre fournisseur.
 
 ### Vérification d’une configuration d’API SMS existante
 
@@ -34,13 +34,17 @@ Avant de configurer un canal SMS dans Adobe Journey Optimizer B2B Edition, vous 
 >
 >Les paramètres décrits sont accessibles uniquement aux utilisateurs disposant de droits d’administrateur SMS.
 
-Dans le volet de navigation de gauche, développez la section **[!UICONTROL Administrator]** et cliquez sur **[!UICONTROL Configuration]**.
+1. Dans le volet de navigation de gauche, développez la section **[!UICONTROL Administrator]** et cliquez sur **[!UICONTROL Channels]** (Canaux).
 
-![Accès à la configuration des informations d’identification de l’API AMA](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![Accéder à la configuration des informations d’identification de l’API SMS](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-La page répertorie les configurations d’API disponibles pour votre instance. Vous pouvez filtrer les informations d’identification de l’API affichées par le fournisseur ou le créateur de services SMS.
+1. Dans le panneau de navigation, sélectionnez **[!UICONTROL Informations d’identification de l’API]**.
 
-![Cliquez sur l’icône de filtre pour filtrer la liste des informations d’identification de l’API](./assets/config-sms-api-filter.png){width="500"}
+   La page répertorie les configurations d’API disponibles pour votre instance.
+
+1. Si nécessaire, cliquez sur l&#39;icône _Filtrer_ ( ![Icône Afficher ou masquer les filtres](../assets/do-not-localize/icon-filter.svg) ) et sélectionnez des options pour afficher la liste des informations d&#39;identification d&#39;API configurées par le fournisseur de services SMS ou le créateur.
+
+   ![Cliquez sur l’icône Filtrer pour affiner la liste des informations d’identification de l’API](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ### Création d’informations d’identification API pour un fournisseur de service SMS
 
@@ -48,7 +52,7 @@ La page répertorie les configurations d’API disponibles pour votre instance. 
 
 >[!TAB Sinch]
 
-_Pour configurer Sinch en tant que fournisseur de SMS avec Adobe Journey Optimizer B2B Edition :_
+_Pour configurer Sinch en tant que fournisseur de SMS avec Adobe Journey Optimizer B2B edition :_
 
 1. Dans le volet de navigation de gauche, développez la section **[!UICONTROL Administrator]** et cliquez sur **[!UICONTROL Configuration]**.
 
@@ -92,7 +96,7 @@ _Pour configurer Twilio en tant que fournisseur de SMS avec Adobe Journey Optimi
 
 >[!TAB Infobip]
 
-_Pour configurer Infobip en tant que fournisseur de SMS avec Adobe Journey Optimizer B2B Edition :_
+_Pour configurer Infobip en tant que fournisseur de SMS avec Adobe Journey Optimizer B2B edition :_
 
 1. Dans le volet de navigation de gauche, développez la section **[!UICONTROL Administrator]** et cliquez sur **[!UICONTROL Configuration]**.
 
@@ -128,58 +132,76 @@ Vous pouvez configurer des diffusions de messages texte dans un Parcours de comp
 
 1. Au bas du panneau _[!UICONTROL Agir sur une action]_, cliquez sur **[!UICONTROL Créer un SMS]**.
 
-1. Dans la boîte de dialogue, saisissez un **[!UICONTROL nom]** unique pour l’email et une **[!UICONTROL ligne Objet]**.
+1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique pour le message SMS.
 
-   ![Créer une boîte de dialogue SMS](assets/create-new-sms.png){width="500"}
+   ![Créer une boîte de dialogue SMS](assets/create-new-sms.png){width="400"}
 
-## Créer le SMS
+1. Cliquez sur **[!UICONTROL Créer]**.
+
+   Le _concepteur de contenu de Parcours_ s’ouvre et vous pouvez créer le message et définir les propriétés SMS pour envoyer le message.
+
+### Créer le SMS
 
 >[!IMPORTANT]
 >
 >**Gestion du consentement SMS**<br/>
-><br/>
+>
 >Conformément aux normes et réglementations du secteur, tous les messages de marketing SMS doivent contenir un moyen pour que les destinataires puissent se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. Tous les mots-clés d’opt-in et d’opt-out standard sont pris en charge et respectés. En outre, tous les mots-clés personnalisés configurés pour votre compte de fournisseur de services SMS sont pris en charge et honorés.
 
-1. Saisissez le texte que vous souhaitez envoyer dans le champ **[!UICONTROL Message]** .
+Saisissez le texte que vous souhaitez envoyer dans le champ **[!UICONTROL Message]** .
 
-   Vous pouvez créer un message de 1 600 caractères maximum, pour chaque 160 caractères considérés comme un SMS unique.
+Vous pouvez créer un message de 1 600 caractères maximum, pour chaque 160 caractères considérés comme un SMS unique.
 
-1. **Personnalisez le message texte**.
+![Cliquez sur l&#39;icône Personnaliser pour ajouter des jetons au message](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-   À tout moment lors de la création du message texte, cliquez sur l’icône _Personnaliser_ située à droite de la zone de message texte.
+#### Personnaliser le message texte
 
-   ![Cliquez sur l&#39;icône Personnaliser pour ajouter des jetons au message](./assets/sms-message-personalize-icon.png){width="800" zoomable="yes"}
+1. À tout moment lors de la création du message texte, cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) à droite de la zone de message texte.
 
-   La page affichée permet d’accéder à votre piste Adobe Marketo Engage et à vos jetons système. Les jetons standard et personnalisés sont inclus. Vous pouvez utiliser la barre de recherche pour localiser le jeton dont vous avez besoin ou parcourir l’arborescence de dossiers pour rechercher et sélectionner l’un des jetons de piste/système.
+   La page affichée permet d’accéder à votre piste Adobe Marketo Engage et à vos jetons système. Les jetons standard et personnalisés sont inclus. Vous pouvez utiliser la barre _Recherche_ pour localiser le jeton dont vous avez besoin, ou parcourir l’arborescence de dossiers pour rechercher et sélectionner l’un des jetons de piste/système.
 
-   Placez le curseur à l’emplacement du message où vous souhaitez ajouter le jeton. Ajoutez un jeton en cliquant sur le symbole plus ( **+** ) situé à côté. Si vous souhaitez ajouter le jeton avec une version de secours (valeur par défaut qui s’affiche si ce champ n’est pas disponible pour une piste), cliquez sur les points de suspension ( **...** ) et choisissez **[!UICONTROL Insérer avec le texte de remplacement]**.
+1. Placez le curseur à l’emplacement du message où vous souhaitez ajouter le jeton.
+
+1. Ajoutez un jeton en cliquant sur le symbole plus ( **+** ) situé à côté.
+
+   Si vous souhaitez ajouter le jeton avec une version de secours (valeur par défaut qui s’affiche si ce champ n’est pas disponible pour une piste), cliquez sur l’icône _Plus_ ( **...** ) et sélectionnez **[!UICONTROL Insérer avec le texte de remplacement]**.
 
    ![Cliquez sur les ellipses pour utiliser un secours pour le jeton](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
-   Dans la boîte de dialogue _[!UICONTROL Entrer la valeur de secours]_, saisissez le texte qui s’affiche comme valeur de secours, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Dans la boîte de dialogue _[!UICONTROL Entrer la valeur de secours]_, saisissez le texte qui s’affiche comme valeur de secours, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    ![Entrez le texte de remplacement du jeton](./assets/sms-message-personalize-fallback-text.png){width="400"}
 
-   Lorsque vos jetons de personnalisation sont placés, cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications et revenir à l’espace de travail principal de création de SMS. Vous pouvez continuer à éditer le message avec les jetons si nécessaire.
+1. Lorsque vos jetons de personnalisation sont placés, cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications et revenir à l’espace de travail principal de création de SMS.
 
-1. **Ajoutez des URL au message texte**.
+   Vous pouvez continuer à éditer le message avec les jetons si nécessaire.
 
-   Après avoir défini votre contenu, vous pouvez ajouter des URL à votre message en cliquant sur l’icône _Lien_ .
+#### Ajouter des liens (URL) au message texte
 
-   Cette action ouvre une boîte de dialogue dans laquelle vous pouvez choisir l’un des deux types d’URL à lier :
+1. Après avoir saisi le texte de votre message, cliquez sur l’icône _Lien_ ( ![Icône Lien](../assets/do-not-localize/icon-link.svg) ) à droite de la zone de message texte.
+
+1. Dans la boîte de dialogue, choisissez le type d’URL à lier :
+
+   * **[!UICONTROL Landing Page]** - Sélectionnez cette option pour sélectionner l’une des pages d’entrée Adobe Marketo Engage Design Studio approuvées dans votre instance de Marketo Engage. Sélectionnez l&#39;espace de travail, puis la landing page.
 
    * **[!UICONTROL URL externe]** - Ce type est une URL externe que vous saisissez dans la zone de texte.
-   * **[!UICONTROL Landing Page]** - Sélectionnez cette option pour sélectionner l’une des pages d’entrée Adobe Marketo Engage Design Studio approuvées dans votre instance de Marketo Engage.
 
-   La boîte de dialogue comprend également des options pour les liens URL :
+1. Si vous choisissez d&#39;utiliser une landing page, définissez les options de tracking.
 
-   * **[!UICONTROL Réduire l’URL]** - Cochez cette case pour _raccourcir_ l’URL, ce qui est nécessaire pour le suivi. Pour une page d’entrée, il utilise le sous-domaine du Marketo Engage pour l’URL abrégée. Un exemple de format d’URL raccourci s’affiche. L&#39;URL réelle est créée lorsque le SMS est envoyé au destinataire.
+   * **[!UICONTROL Activer le suivi]** - Cochez cette case pour activer le suivi, qui nécessite _le raccourcissement_ de l’URL. Pour une page d’entrée, il utilise le sous-domaine du Marketo Engage pour l’URL abrégée. Un exemple de format d’URL raccourci s’affiche. L&#39;URL réelle est créée lorsque le SMS est envoyé au destinataire.
 
    * **[!UICONTROL Include mkt_tok]** - Cochez cette case pour effectuer le suivi de l’activité par rapport à un utilisateur.
 
-   Une fois les options de lien terminées, cliquez sur **[!UICONTROL Ajouter]** pour enregistrer les modifications et ajouter le lien URL au message SMS.
+     >[!NOTE]
+     >
+     >Lorsque vous autorisez le suivi, mais désactivez _[!UICONTROL Include mkt_tok]_, l’URL de destination n’inclut pas le paramètre de chaîne de requête `mkt_tok` après la redirection. Ce paramètre est utilisé par les landing pages Marketo Engage et Munchkin pour garantir le suivi des activités des personnes (par exemple lorsqu’une personne se désabonne d’un email). Ne désactivez pas cette option à moins que le paramètre ne provoque des problèmes sur votre site web.<br/>
+     >Pour plus d&#39;informations sur l&#39;utilisation des codes de suivi Munchkin sur votre site web, consultez la [documentation du Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
-## Définir les propriétés du SMS
+   ![Boîte de dialogue Ajouter un lien pour SMS](./assets/sms-add-link-dialog.png){width="470"}
+
+1. Une fois les options de lien terminées, cliquez sur **[!UICONTROL Ajouter]** pour enregistrer les modifications et ajouter le lien URL au message SMS.
+
+### Définir les propriétés du SMS
 
 1. Dans la section _[!UICONTROL Propriétés SMS]_ , saisissez un **[!UICONTROL Nom]** (obligatoire, 100 caractères maximum) et une **[!UICONTROL Description]** (facultatif, 300 caractères maximum) pour votre message.
 
@@ -200,12 +222,12 @@ Vous pouvez configurer des diffusions de messages texte dans un Parcours de comp
 
    Le numéro de destinataire est toujours mappé au champ `Lead.mobilePhone` dans Marketo Engage.
 
-## Simuler le contenu du message texte {#preview-test}
+### Simuler le contenu du message texte {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Vérifier le rendu de votre contenu"
->abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct en fonction du canal que vous utilisez."
+>abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier le rendu du canal que vous utilisez."
 
 Lorsque le contenu de votre message est défini, vous pouvez utiliser des profils de test pour simuler (prévisualiser) son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu dans le message à l’aide des données de profil de test.
 
@@ -231,7 +253,7 @@ Lorsque le contenu de votre message est défini, vous pouvez utiliser des profil
 
 1. Simuler le contenu d’une piste sélectionnée.
 
-   Sélectionnez l’un des pistes répertoriées à gauche et l’aperçu SMS sur les mises à jour de la page pour la piste correspondante.
+   Sélectionnez l’une des pistes répertoriées à gauche. L’aperçu SMS sur la page met à jour la piste sélectionnée.
 
    Vous pouvez également sélectionner une piste à partir du sélecteur situé au-dessus de l&#39;espace de prévisualisation pour mettre à jour l&#39;aperçu SMS sur la page pour la piste correspondante.
 
@@ -243,8 +265,8 @@ La possibilité de se désabonner des destinataires de recevoir des communicatio
 
 Lorsque vous fournissez cette option, les destinataires SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. Tous les mots-clés d&#39;opt-in et d&#39;opt-out standard sont pris en charge et respectés, ainsi que tous les mots-clés personnalisés configurés sur le fournisseur de services SMS. Lors du désabonnement, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
 
-L’édition B2B de Journey Optimizer permet de gérer l’exclusion dans les messages SMS en suivant la logique suivante :
+Journey Optimizer B2B edition permet de gérer l’exclusion dans les SMS à l’aide de la logique suivante :
 
 * Par défaut, si un prospect a choisi de ne pas recevoir de communications de votre part, le profil correspondant est exclu des prochaines diffusions SMS.
 
-* Ce consentement de piste provenant de différentes sources (telles qu’AEP ou le fournisseur de services SMS) est synchronisé avec Journey Optimizer B2B Edition. Actuellement, il ne prend en charge qu’un seul état de consentement par prospect au niveau de l’instance (un &quot;John Doe&quot; de prospect est abonné ou désabonné à tous les SMS promotionnels de l’instance). Actuellement, il ne prend pas en charge le double opt-in au niveau de la marque ou de la liste d’abonnements individuelle.
+* Ce consentement de piste provenant de différentes sources (telles qu’AEP ou le fournisseur de services SMS) est synchronisé avec Journey Optimizer B2B edition. Actuellement, il ne prend en charge qu’un seul état de consentement par prospect au niveau de l’instance (un &quot;John Doe&quot; de prospect est abonné ou désabonné à tous les SMS promotionnels de l’instance). Actuellement, il ne prend pas en charge le double opt-in au niveau de la marque ou de la liste d’abonnements individuelle.
