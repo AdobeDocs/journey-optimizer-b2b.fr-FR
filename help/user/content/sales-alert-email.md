@@ -3,7 +3,7 @@ title: Courriel d’alerte de ventes
 description: Découvrez comment inclure un email d’alerte de vente automatisé dans vos parcours de compte.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
+source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 3%
@@ -60,4 +60,4 @@ Vous pouvez configurer des diffusions par email d’alerte commerciale dans un p
 
    ![Créer une boîte de dialogue de courrier électronique](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Une fois le parcours du compte publié, l’alerte de vente est diffusée en fonction de ces paramètres.
+   Une fois le parcours du compte publié, l’alerte commerciale est diffusée en fonction de ces paramètres.
