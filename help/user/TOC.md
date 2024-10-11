@@ -4,17 +4,17 @@ user-guide-description: Découvrez l’édition B2B d’Adobe Journey Optimize
 source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 40%
+ht-degree: 45%
 
 ---
 
 
-# Guide de l’utilisateur de Journey Optimizer B2B {#user}
+# Guide de l’utilisateur de Journey Optimizer B2B edition {#user}
 
-+ [Documentation de Adobe Journey Optimizer B2B Edition](guide-overview.md)
++ [Documentation de l’édition B2B d’Adobe Journey Optimizer](guide-overview.md)
 + [Notes de mise à jour](./release-notes/release-notes.md)
 + Prise en main {#get-started}
-   + [Présentation de Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
+   + [Présentation de Journey Optimizer B2B edition](about-journey-optimizer-b2b-edition.md)
    + [Connexion et page d’accueil](home-page.md)
    + [Guide de démarrage rapide](./start/get-started.md)
    + [Utilisation de l’assistant AI](./start/ai-assistant.md)
