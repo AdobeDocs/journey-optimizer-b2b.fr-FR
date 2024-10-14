@@ -1,19 +1,23 @@
 ---
 title: Champs XDM
-description: Examinez les champs d’attribut par défaut synchronisés entre Adobe Experience Platform et Journey Optimizer Édition B2B.
+description: Examinez les champs d’attribut par défaut synchronisés entre Adobe Experience Platform et Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 25%
+source-wordcount: '965'
+ht-degree: 24%
 
 ---
 
 # Champs XDM
 
-Les données d’audience de compte sont stockées en tant qu’attributs dans les classes XDM Business Account et XDM Business Person. Les données sont régulièrement synchronisées entre Adobe Experience Platform et Journey Optimizer Édition B2B. Les sections suivantes répertorient les jeux d’attributs par défaut.
+Les données d’audience de compte sont stockées en tant qu’attributs dans les classes XDM Business Account et XDM Business Person. Les données sont régulièrement synchronisées entre Adobe Experience Platform et Journey Optimizer B2B edition. Les sections suivantes répertorient les jeux d’attributs par défaut.
 
 ## Attributs de personne active XDM
+
+>[!IMPORTANT]
+>
+>L’attribut `workEmail.Address` est requis. S’il est vide pour un membre de l’audience de compte, cette personne n’est pas ingérée et est omise des parcours de compte et des groupes d’achat qui référencent l’audience.
 
 | [Propriété](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nom d’affichage | Nom d’affichage Journey Optimizer B2B | Type de données | Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ Les données d’audience de compte sont stockées en tant qu’attributs dans l
 | `workAddress.postalCode` | Code postal | Code postal | Chaîne | Code postal de l’emplacement. Les codes postaux ne sont pas disponibles pour tous les pays. Dans certains pays, il ne contient qu’une partie du code postal. |
 | `workAddress.state` | État | État | Chaîne | Nom de l’état de l’adresse. C&#39;est un champ de forme libre. |
 | `workAddress.street1` | Rue 1 | Adresse | Chaîne | Informations au niveau de la rue par Principal, numéro d’appartement, numéro de rue et nom de rue. |
-| `workEmail.address` | Adresse | Adresse e-mail | Chaîne | Adresse technique, par exemple, `<name@domain.com>` telle que généralement définie dans la norme RFC2822 et les normes ultérieures. |
+| `workEmail.address` | Adresse | Adresse e-mail | Chaîne | **Champ obligatoire** <br/>Adresse technique, par exemple, `<name@domain.com>` telle que généralement définie dans RFC2822 et les normes ultérieures. |
 | `workEmail.status` | Statut | E-mail interrompu | Chaîne | Une indication sur la possibilité d’utiliser l’adresse électronique. |
 | `workPhone.number` | Nombre | Numéro de téléphone | Chaîne | Numéro de téléphone professionnel. |
 
 ## Attributs du compte commercial XDM
+
+>[!IMPORTANT]
+>
+>L’attribut `accountName` est requis. S’il est vide pour un compte dans une audience de compte, ce compte n’est pas ingéré et est omis des parcours de compte et des groupes d’achat qui référencent l’audience.
 
 | [Propriété](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | Nom d’affichage | Nom d’affichage Journey Optimizer B2B | Type de données | Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,10 +59,10 @@ Les données d’audience de compte sont stockées en tant qu’attributs dans l
 | `accountBillingAddress.region` | Région | Région d’adresse | Chaîne | Partie de la région, du département ou du district de l’adresse de facturation. |
 | `accountBillingAddress.state` | État | État | Chaîne | Nom de l’état de l’adresse de facturation. C&#39;est un champ de forme libre. |
 | `accountBillingAddress.street1` | Rue 1 | Rue 1 | Chaîne | Informations au niveau de la rue par Principal pour l’adresse de facturation, qui comprennent généralement le numéro de l’appartement, le numéro de la rue et le nom de la rue. |
-| `accountName` | Nom | Nom | Chaîne | Nom de la société. Ce champ peut contenir jusqu’à 255 caractères. |
+| `accountName` | Nom | Nom | **Champ obligatoire** <br/>Chaîne | Nom de la société. Ce champ peut contenir jusqu’à 255 caractères. |
 | `accountOrganization.annualRevenue.amount` | Chiffre d&#39;affaires annuel | Chiffre d&#39;affaires annuel | Nombre | Montant estimé des recettes annuelles de l’organisation. |
 | `accountOrganization.industry` | Secteur industriel | Secteur industriel | Chaîne | L’industrie est attribuée à l’organisation. Il s’agit d’un champ de forme libre, et il est conseillé d’utiliser une valeur structurée pour les requêtes ou d’utiliser la propriété `xdm:classifier`. |
-| `accountOrganization.logoUrl` | Logo URL | Logo URL | Chaîne | Chemin à combiner avec l’URL d’une instance Salesforce (par exemple, `https://yourInstance.salesforce.com/`) pour générer une URL afin de demander l’image de profil de réseau social associée au compte. L’URL générée renvoie une redirection HTTP (code 302) vers l’image de profil de réseau social pour le compte. |
+| `accountOrganization.logoUrl` | Logo URL | Logo URL | Chaîne | Chemin à associer à l’URL d’une instance Salesforce (par exemple, `https://yourInstance.salesforce.com/`) pour générer une URL permettant de demander l’image de profil de réseau social associée au compte. L’URL générée renvoie une redirection HTTP (code 302) vers l’image de profil de réseau social pour le compte. |
 | `accountOrganization.numberOfEmployees` | Nombre d&#39;employés | Nombre d&#39;employés | Nombre entier | Nombre d’employés de l’organisation. |
 | `accountOrganization.SICCode` | Code SIC | Code SIC | Chaîne | Le code SIC (Standard Industrial Classification), qui est un code à quatre chiffres qui classe les secteurs auxquels appartiennent les entreprises en fonction de leurs activités commerciales. |
 | `accountOrganization.website` | URL du site Web | Nom du domaine | Chaîne | URL du site web de l’organisation. |
