@@ -2,7 +2,7 @@
 title: Champs XDM
 description: Examinez les champs d’attribut par défaut synchronisés entre Adobe Experience Platform et Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 24%
@@ -59,7 +59,7 @@ Les données d’audience de compte sont stockées en tant qu’attributs dans l
 | `accountBillingAddress.region` | Région | Région d’adresse | Chaîne | Partie de la région, du département ou du district de l’adresse de facturation. |
 | `accountBillingAddress.state` | État | État | Chaîne | Nom de l’état de l’adresse de facturation. C&#39;est un champ de forme libre. |
 | `accountBillingAddress.street1` | Rue 1 | Rue 1 | Chaîne | Informations au niveau de la rue par Principal pour l’adresse de facturation, qui comprennent généralement le numéro de l’appartement, le numéro de la rue et le nom de la rue. |
-| `accountName` | Nom | Nom | **Champ obligatoire** <br/>Chaîne | Nom de la société. Ce champ peut contenir jusqu’à 255 caractères. |
+| `accountName` | Nom | Nom | Chaîne | **Champ obligatoire** <br/>Nom de la société. Ce champ peut contenir jusqu’à 255 caractères. |
 | `accountOrganization.annualRevenue.amount` | Chiffre d&#39;affaires annuel | Chiffre d&#39;affaires annuel | Nombre | Montant estimé des recettes annuelles de l’organisation. |
 | `accountOrganization.industry` | Secteur industriel | Secteur industriel | Chaîne | L’industrie est attribuée à l’organisation. Il s’agit d’un champ de forme libre, et il est conseillé d’utiliser une valeur structurée pour les requêtes ou d’utiliser la propriété `xdm:classifier`. |
 | `accountOrganization.logoUrl` | Logo URL | Logo URL | Chaîne | Chemin à associer à l’URL d’une instance Salesforce (par exemple, `https://yourInstance.salesforce.com/`) pour générer une URL permettant de demander l’image de profil de réseau social associée au compte. L’URL générée renvoie une redirection HTTP (code 302) vers l’image de profil de réseau social pour le compte. |
