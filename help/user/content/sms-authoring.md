@@ -227,7 +227,7 @@ Vous pouvez créer un message de 1 600 caractères maximum, pour chaque 160 cara
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Vérifier le rendu de votre contenu"
->abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier le rendu du canal que vous utilisez."
+>abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier le rendu en fonction du canal que vous utilisez."
 
 Lorsque le contenu de votre message est défini, vous pouvez utiliser des profils de test pour simuler (prévisualiser) son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu dans le message à l’aide des données de profil de test.
 
