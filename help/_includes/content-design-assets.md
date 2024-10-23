@@ -1,7 +1,7 @@
 ---
 title: Création de contenu - ressources
 description: Section réutilisée sur l’utilisation de ressources pour la création de contenu
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 23fb478712f3c6df59e94432bdf16883e6acf70b
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 # Création de contenu - ressources
 
-Dans l’éditeur visuel de contenu, sélectionnez l’icône _Assets_ qui s’affiche à gauche.
+Dans l’éditeur de contenu visuel, sélectionnez l’icône _Assets_ ( ![Afficher Assets](../user/assets/do-not-localize/icon-assets-design.svg) ) qui s’affiche à gauche.
 
 >[!NOTE]
 >
->Si vous disposez d’un abonnement pour Experience Manager Assets as a Cloud Service avec Adobe Marketo Engage Design Studio par défaut, vous devez choisir la [source d’image](../user/content/assets-overview.md#choose-an-asset-source) au moment de la création pour un email, un modèle de courrier électronique ou un fragment visuel. Cependant, vous pouvez également sélectionner la source de l’image avant d’ouvrir le concepteur de contenu en vue de la modifier.
+>Si vous disposez d’un abonnement pour Experience Manager Assets as a Cloud Service avec Adobe Marketo Engage Design Studio par défaut, vous choisissez la [source d’image](../user/content/assets-overview.md#choose-an-asset-source) au moment de la création pour un email, un modèle de courrier électronique ou un fragment visuel. Vous pouvez également sélectionner la source de l’image avant d’ouvrir le concepteur visuel en vue de la modifier.
 
 L’exemple suivant décrit les étapes à suivre pour ajouter des ressources au contenu du modèle :
 
@@ -30,4 +30,4 @@ L’exemple suivant décrit les étapes à suivre pour ajouter des ressources au
 
 1. Remplacez une ressource image existante en la sélectionnant sur la zone de travail, puis en cliquant sur **[!UICONTROL Sélectionner une ressource]** dans les outils de source d’image.
 
-   ![Sélectionner une ressource dans la bibliothèque source](../assets/content-design-shared/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
+   ![Sélectionner une ressource dans la bibliothèque source](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
