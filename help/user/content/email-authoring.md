@@ -3,16 +3,16 @@ title: Création d’emails
 description: Découvrez comment créer du contenu d’email personnalisé utilisé dans un Parcours de compte.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 16%
+source-wordcount: '1428'
+ht-degree: 14%
 
 ---
 
 # Création d’emails
 
-Utilisez Adobe Journey Optimizer B2B Edition pour envoyer des messages électroniques à vos clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail.
+Utilisez Adobe Journey Optimizer B2B edition pour envoyer des emails à vos clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur visuel.
 
 ## Ajout d’une action de courrier électronique dans un parcours de compte
 
@@ -60,7 +60,7 @@ Après avoir créé et personnalisé le contenu de l’email, vous pouvez l’ex
 
 >[!TIP]
 >
->Utilisez l’assistant d’IA dans l’édition B2B de Adobe Journey Optimizer, optimisé par l’IA générative, pour élever le contenu au niveau suivant. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des emails complets, du contenu texte ciblé et en obtenant des recommandations d’assistant d’IA pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
+>Utilisez l’assistant d’IA dans Adobe Journey Optimizer B2B edition, optimisé par l’IA générative, pour élever le contenu au niveau suivant. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des emails complets, du contenu texte ciblé et en obtenant des recommandations d’assistant d’IA pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
 
 ### Concevoir votre e-mail à partir de zéro {#design-from-scratch}
 
@@ -109,6 +109,10 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> Les paramètres de gouvernance (verrouillage du contenu) peuvent être appliqués à un ou plusieurs composants des modèles enregistrés. Le concepteur visuel fournit des instructions sur les composants verrouillés lorsque vous [créez un email à partir d’un modèle régi](./email-authoring-governance.md).
+
 ## Ajouter la structure et le contenu {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -146,9 +150,9 @@ Le contenu du fragment est mis à jour dynamiquement dans la structure afin d’
 
 >[!TIP]
 >
->Si vous souhaitez ajouter le fragment afin qu&#39;il occupe l&#39;intégralité de la disposition horizontale dans l&#39;email, ajoutez une structure de colonnes 1:1, puis faites glisser et déposez le fragment dans celui-ci.
+>Pour ajouter le fragment afin qu&#39;il occupe l&#39;intégralité de la disposition horizontale dans l&#39;email, ajoutez une structure de colonnes 1:1, puis faites glisser et déposez le fragment dans celui-ci.
 
-Une fois l’email enregistré, il apparaît dans la page des détails du fragment lorsque vous sélectionnez l’onglet _[!UICONTROL Utilisé par]_ dans le résumé. Les fragments ajoutés à un modèle de courrier électronique ne sont pas modifiables dans le modèle ; le contenu est défini par le fragment source.
+Une fois l’email enregistré, il apparaît dans la page des détails du fragment lorsque vous sélectionnez l’onglet _[!UICONTROL Utilisé par]_ dans le résumé. Les fragments ajoutés à un modèle de courrier électronique ne sont pas modifiables dans le modèle ; le fragment source définit le contenu.
 
 ### Ajout de ressources
 
@@ -173,8 +177,20 @@ Tirez parti des options de vue et de validation du contenu disponibles dans l’
 * Zoom avant/arrière sur le contenu sur les options de zoom prédéfinies.
 
 * Basculez l’affichage du contenu sur Bureau, Mobile ou Texte unique/Texte brut.
-   * Cliquez sur l’icône _OEil_ pour afficher l’aperçu du contenu sur tous les appareils.
+   * Cliquez sur l’icône _Afficher_ pour l’aperçu du contenu sur tous les appareils.
    * Sélectionnez l’un des appareils prêts à l’emploi ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
+
+### Plus d’options
+
+Dans le menu _[!UICONTROL Plus...]_ situé en haut du Concepteur d&#39;email, vous pouvez effectuer les actions suivantes :
+
+![Cliquez sur Plus pour accéder aux actions de modèle](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL Réinitialiser l’email]** - Cliquez sur cette option pour effacer le canevas visuel du concepteur d’email sur une page vierge et redémarrer la création de votre contenu.
+* **[!UICONTROL Enregistrer en tant que fragment]** - Enregistrez toutes ou parties de l’email en tant que fragment à réutiliser dans plusieurs emails ou modèles de courrier électronique. Vous fournissez un nom et une description pour le fragment et vous l’enregistrez dans la liste des fragments disponibles.
+* **[!UICONTROL Modifiez votre conception]** - Revenez à la page _Concevoir votre email_ . A partir de là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception ou choisir de concevoir entièrement le contenu dans une zone de travail noire.\
+* **[!UICONTROL Enregistrer en tant que modèle de contenu]** - Enregistrez le corps de l’email en tant que modèle d’email à réutiliser dans plusieurs emails ou modèles d’email. Vous indiquez le nom et la description du modèle et enregistrez-le dans la liste des modèles d’email enregistrés.
+* **[!UICONTROL Exporter l’HTML]** - Téléchargez le contenu dans la zone de travail visuelle vers votre système local au format d’HTML présenté sous la forme d’un fichier zip.
 
 ## Vérifier les alertes
 
