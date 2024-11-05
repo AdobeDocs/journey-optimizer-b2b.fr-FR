@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: f27b0247be252a655e7fb68ee637efdabea959fc
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 3%
+ht-degree: 60%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Étapes du groupe d’achat"
->abstract="Ce graphique présente la progression du groupe d’achats au cours de différentes étapes, en fonction des règles de transition configurées dans la page d’administration. La première barre indique le nombre de groupes d’achats dans une étape spécifique à la première date de la période choisie par rapport au nombre de groupes d’achats à la dernière date de la période choisie."
+>abstract="Ce tableau fournit une vue d’ensemble de la progression des groupes d’achat à travers les différentes étapes, en fonction des règles de transition définies dans la page d’administration. La première barre indique le nombre de groupes d’achat dans une étape spécifique à la date de début de la période choisie, comparé au nombre de groupes d’achat à la date de fin de cette période."
 
 Texte d’espace réservé pour décrire des détails/exemples supplémentaires pour la section Étapes du groupe d’achat .
 
@@ -27,38 +27,38 @@ Texte d’espace réservé pour décrire des détails/exemples supplémentaires 
 
 Espace réservé pour la présentation des sections de mise en surbrillance du groupe d’achat
 
-### Les 5 principaux groupes d’achat par engagement {#top-5-by-engagement}
+### Les 5 meilleurs groupes d’achat par engagement {#top-5-by-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
->title="Les 5 principaux groupes d’achat par engagement"
+>title="Les 5 meilleurs groupes d’achat par engagement"
 >abstract="Meilleurs groupes d’achat engagés en fonction de leur score d’engagement normalisé."
 
 Texte d’espace réservé pour décrire plus de détails/exemples pour la section Les 5 premiers groupes d’achats par engagement .
 
-### 5 principaux groupes d’achat à grande vitesse {#top-5-by-velocity}
+### Les 5 groupes d’achat les plus rapides {#top-5-by-velocity}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_velocity"
->title="5 principaux groupes d’achat à grande vitesse"
->abstract="Des groupes d&#39;achat en fonction de la vitesse à laquelle ils progressent par étapes."
+>title="Les 5 groupes d’achat les plus rapides"
+>abstract="Groupes d’achat classés selon la rapidité de leur progression à travers les étapes."
 
 Texte d’espace réservé pour décrire plus de détails/exemples pour la section Les 5 premiers groupes d’achats à vitesse élevée .
 
-### 5 principaux groupes d’achats stagesés {#top-5-stagnant}
+### Les 5 groupes d’achat au progrès le plus lent {#top-5-stagnant}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_stagnant"
->title="5 principaux groupes d’achats stagesés"
->abstract="Des groupes d’achats stagnants qui ne progressent pas par étapes malgré un score d’exhaustivité élevé."
+>title="Les 5 groupes d’achat au progrès le plus lent"
+>abstract="Groupes d’achat au progrès le plus lent, ne progressant pas à travers les étapes malgré un score d’exhaustivité élevé."
 
 Texte d’espace réservé pour décrire plus de détails/exemples pour la section Les 5 premiers groupes d’achats stagnants .
 
-## Décompte {#account-surge}
+## Montée en puissance des comptes {#account-surge}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_surge"
->title="Décompte"
+>title="Montée en puissance des comptes"
 >abstract="Comptes présentant un changement significatif dans l’élan de l’engagement au cours de la période sélectionnée."
 
 Texte d’espace réservé pour décrire des détails/exemples supplémentaires pour la section Déclencheur de compte .
@@ -67,12 +67,12 @@ Texte d’espace réservé pour décrire des détails/exemples supplémentaires 
 
 Espace réservé pour la présentation des sections de mise en surbrillance du groupe d’achat
 
-### Augmentation des comptes {#surging-accounts}
+### Comptes en forte progression {#surging-accounts}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
->title="Augmentation des comptes"
->abstract="Comptes présentant une augmentation significative de l’élan d’engagement au cours de la période sélectionnée "
+>title="Comptes en forte progression"
+>abstract="Comptes présentant une augmentation significative de l’élan de l’engagement au cours de la période sélectionnée. "
 
 Texte d’espace réservé pour décrire des détails/exemples supplémentaires pour la section Surging comptes .
 
@@ -81,16 +81,16 @@ Texte d’espace réservé pour décrire des détails/exemples supplémentaires 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_at_risk"
 >title="Comptes à risque"
->abstract="Comptes présentant une diminution significative de l’élan d’engagement au cours de la période sélectionnée."
+>abstract="Comptes présentant une diminution significative de l’élan de l’engagement au cours de la période sélectionnée."
 
 Texte d’espace réservé pour décrire plus de détails/exemples pour la section Comptes à risque .
 
-## Couverture du contact {#contact-coverage}
+## Couverture des contacts {#contact-coverage}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_coverage"
->title="Couverture du contact"
->abstract="Affiche le nombre de contacts avec un rôle spécifique associé à un intérêt de solution. L’affectation des rôles et des intérêts des solutions est basée sur le modèle de groupe d’achat."
+>title="Couverture des contacts"
+>abstract="Affiche le nombre de contacts ayant un rôle spécifique associé à un intérêt pour une solution. L’affectation des rôles et de l’intérêt pour une solution est basée sur le modèle de groupe d’achat."
 
 Texte d’espace réservé pour décrire des détails/exemples supplémentaires pour la section Couverture de contact .
 
@@ -99,6 +99,6 @@ Texte d’espace réservé pour décrire des détails/exemples supplémentaires 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="Chevauchement des contacts"
->abstract="Liste des contacts qui font partie de plusieurs groupes d’achat en raison de leur association à plusieurs centres d’intérêt de solution."
+>abstract="Liste des contacts appartenant à plusieurs groupes d’achat en raison de leur association à différents intérêts pour des solutions."
 
 Texte d’espace réservé pour décrire plus de détails/exemples pour la section de chevauchement de contacts.
