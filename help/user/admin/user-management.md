@@ -1,19 +1,19 @@
 ---
 title: Gestion des utilisateurs
-description: Découvrez comment affecter des membres de l’équipe aux profils de produit de Journey Optimizer B2B Edition.
+description: Découvrez comment affecter des membres de l’équipe à des profils de produit Journey Optimizer B2B edition.
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8335e47021df16d0e423c9cc270bf8a6e23834fc
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1166'
 ht-degree: 4%
 
 ---
 
 # Gestion des utilisateurs
 
-Une fois la mise en service terminée et les environnements de test liés, procédez comme suit pour fournir à votre équipe et à vos utilisateurs l’accès à Adobe Journey Optimizer B2B Edition.
+Une fois la mise en service terminée et les environnements de test liés, procédez comme suit pour accorder l’accès à Adobe Journey Optimizer B2B edition à votre équipe et à vos utilisateurs.
 
 1. [Créez un profil de produit Marketo Engage](#marketo-engage-profile) dans l’Admin Console (nouvelle instance de Marketo Engage uniquement).
 1. [Créez un groupe d’utilisateurs](#create-user-group) dans l’Admin Console.
@@ -56,7 +56,15 @@ Avant de pouvoir utiliser l’Admin Console pour administrer les utilisateurs au
 
 Lorsque vous accordez aux utilisateurs l’accès à une solution d’Adobe, vous ne souhaitez pas nécessairement leur accorder un accès complet. Les profils de produit permettent à chaque solution d’avoir son propre jeu d’autorisations utilisateur. Utilisez l’Admin Console pour attribuer des profils de produit.
 
-Pour plus d’informations sur l’utilisation des profils de produit pour les droits des utilisateurs, voir [Gestion des profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) dans la documentation Admin Console.
+Pour plus d’informations sur l’utilisation des profils de produit pour les droits des utilisateurs, voir [Gestion des profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html){target="_blank"} dans la documentation Admin Console.
+
+>[!BEGINSHADEBOX]
+
+Lorsque vous ajoutez un utilisateur au profil de produit du Marketo Engage, il est ensuite ajouté au rôle _Utilisateur standard_ dans l’espace de travail par défaut de l’abonnement du Marketo Engage. Ce rôle leur accorde toutes les autorisations _Utilisateur standard_ pour Marketo Engage dans cet espace de travail. Actuellement, tous les utilisateurs de Journey Optimizer B2B edition doivent être des utilisateurs Marketo Engage. Un administrateur de Marketo Engage peut restreindre l’accès en mettant à jour les autorisations pour le rôle _Utilisateur standard_ ou en déplaçant l’utilisateur vers un rôle utilisateur de Marketo Engage différent avec des autorisations plus restrictives.
+
+Pour plus d’informations sur la gestion de ces autorisations dans Marketo Engage, voir [Gestion des rôles et des autorisations utilisateur](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} dans la documentation du Marketo Engage.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -78,7 +86,7 @@ Pour plus d’informations sur l’utilisation des profils de produit pour les d
 
 Un groupe d’utilisateurs est un ensemble d’utilisateurs auxquels sont attribués un ensemble partagé d’autorisations. Vous pouvez ajouter ou supprimer des utilisateurs dans votre groupe d’utilisateurs. Les autorisations de groupe restent les mêmes pendant que les utilisateurs du groupe changent.
 
-Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour gérer les autorisations, voir [Gestion des groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-groups.html) dans la documentation de l’Admin Console.
+Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour gérer les autorisations, voir [Gestion des groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-groups.html){target="_blank"} dans la documentation de l’Admin Console.
 
 >[!NOTE]
 >
@@ -102,7 +110,7 @@ Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour
 
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Collecte de données Adobe Experience Platform]
+   * [!UICONTROL Collecte de données dʼAdobe Experience Platform]
    * [!UICONTROL Accès à tous les accès à la collecte de données]
 
    ![Admin Console - user-group - add products](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
@@ -111,11 +119,11 @@ Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour
 
 ## Création d’un rôle dans les autorisations AEP {#create-role}
 
-Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations affectées à un profil de produit. Chaque autorisation est regroupée sous une fonctionnalité, telle que des parcours ou des groupes d’achat, qui représente les différentes fonctionnalités ou objets de Journey Optimizer B2B Edition.
+Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations affectées à un profil de produit. Chaque autorisation est regroupée sous une fonctionnalité, telle que des parcours ou des groupes d’achat, qui représente les différentes fonctionnalités ou objets dans Journey Optimizer B2B edition.
 
 La zone _Autorisations_ de Adobe Experience Platform permet aux administrateurs de définir des rôles utilisateur et des stratégies d’accès afin de gérer les autorisations d’accès pour les fonctionnalités et les objets au sein d’une application de produit. Dans cette application, vous pouvez créer et gérer des rôles, ainsi qu’attribuer les autorisations de ressources souhaitées pour ces rôles. Les autorisations vous permettent également de gérer les libellés, les sandbox et les utilisateurs associés à un rôle spécifique.
 
-Pour plus d’informations, voir [Gestion des autorisations pour un rôle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) dans la documentation Experience Platform.
+Pour plus d’informations, voir [Gestion des autorisations pour un rôle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} dans la documentation de l’Experience Platform.
 
 >[!NOTE]
 >
