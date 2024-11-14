@@ -3,9 +3,9 @@ title: Courriel d’alerte de ventes
 description: Découvrez comment inclure un email d’alerte de vente automatisé dans vos parcours de compte.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 Un _e-mail d’alerte commerciale_ signale la remise des groupes d’achats aux ventes. L’email contient un résumé du groupe d’achat et des informations sur les membres du groupe d’achat et leurs activités.
 
 En tant que marketeur, vous pouvez configurer un noeud d’email d’alerte commerciale dans vos parcours de compte afin d’alerter votre équipe commerciale de la fin du parcours pour des groupes d’achats spécifiques. Dans le noeud , vous pouvez spécifier les adresses électroniques de l’équipe commerciale ou un alias de distribution qui atteint un ensemble de comptes.
+
+>[!IMPORTANT]
+>
+>Assurez-vous que la liste autorisée de votre entreprise est mise à jour afin qu’un email d’alerte commerciale puisse être envoyé. Pour plus d’informations, voir [Protocoles pour le suivi et la diffusion des emails](../start/email-protocols.md).
 
 ## Contenu des emails
 

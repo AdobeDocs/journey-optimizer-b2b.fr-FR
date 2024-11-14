@@ -2,7 +2,7 @@
 title: Prise en main de Journey Optimizer B2B edition
 description: En tant que nouvel utilisateur ou nouvelle utilisatrice de l’édition B2B d’Adobe Journey Optimizer, découvrez les principaux domaines pour bien commencer.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: ed736c7366ad3fa5c4023947b1c3c4cef7097e2e
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 10%
@@ -37,9 +37,9 @@ Découvrez la gestion des accès dans les pages suivantes :
 
 1. **Configurez la diffusion email** en Marketo Engage, ce qui permet à votre équipe d&#39;envoyer du contenu d&#39;email à partir des parcours du compte. [En savoir plus](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **Configurer les services SMS**. Configurez l’un des fournisseurs de SMS tiers pris en charge qui offre des services de messagerie texte indépendamment et configurez les informations d’identification du compte dans Adobe Journey Optimizer B2B edition. [En savoir plus](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **Configurer les services SMS**. Configurez l’un des fournisseurs de SMS tiers pris en charge qui offre des services de messagerie texte indépendamment et configurez les informations d’identification du compte dans Adobe Journey Optimizer B2B edition. [En savoir plus](../admin/configure-channels-sms.md)
 
-1. **Configurez et activez l’utilisation d’Adobe Experience Manager Assets** pour les équipes qui utilisent Assets comme Cloud Service pour la gestion centralisée des ressources numériques. [En savoir plus](../admin/configure-aem-repositories.md)
+1. **Configurez et activez l’utilisation d’Adobe Experience Manager Assets** pour les équipes qui utilisent Assets as a Cloud Service pour la gestion centralisée des ressources numériques. [En savoir plus](../admin/configure-aem-repositories.md)
 
 >[!TAB Démarrage rapide du marketeur]
 
