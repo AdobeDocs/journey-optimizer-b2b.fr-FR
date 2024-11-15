@@ -4,9 +4,9 @@ description: Découvrez comment affecter des membres de l’équipe à des profi
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 8335e47021df16d0e423c9cc270bf8a6e23834fc
+source-git-commit: 97a9932a8a2a1c7a37dcc110b59cee70a61b5763
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1055'
 ht-degree: 4%
 
 ---
@@ -57,14 +57,14 @@ Avant de pouvoir utiliser l’Admin Console pour administrer les utilisateurs au
 Lorsque vous accordez aux utilisateurs l’accès à une solution d’Adobe, vous ne souhaitez pas nécessairement leur accorder un accès complet. Les profils de produit permettent à chaque solution d’avoir son propre jeu d’autorisations utilisateur. Utilisez l’Admin Console pour attribuer des profils de produit.
 
 Pour plus d’informations sur l’utilisation des profils de produit pour les droits des utilisateurs, voir [Gestion des profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html){target="_blank"} dans la documentation Admin Console.
-
+<!--
 >[!BEGINSHADEBOX]
 
-Lorsque vous ajoutez un utilisateur au profil de produit du Marketo Engage, il est ensuite ajouté au rôle _Utilisateur standard_ dans l’espace de travail par défaut de l’abonnement du Marketo Engage. Ce rôle leur accorde toutes les autorisations _Utilisateur standard_ pour Marketo Engage dans cet espace de travail. Actuellement, tous les utilisateurs de Journey Optimizer B2B edition doivent être des utilisateurs Marketo Engage. Un administrateur de Marketo Engage peut restreindre l’accès en mettant à jour les autorisations pour le rôle _Utilisateur standard_ ou en déplaçant l’utilisateur vers un rôle utilisateur de Marketo Engage différent avec des autorisations plus restrictives.
+When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
 
-Pour plus d’informations sur la gestion de ces autorisations dans Marketo Engage, voir [Gestion des rôles et des autorisations utilisateur](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} dans la documentation du Marketo Engage.
+For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
 
->[!ENDSHADEBOX]
+>[!ENDSHADEBOX]-->
 
 >[!NOTE]
 >
