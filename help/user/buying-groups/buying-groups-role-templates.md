@@ -3,9 +3,9 @@ title: Modèles de rôle de groupe d’achat
 description: Découvrez comment définir un modèle de rôle à utiliser comme composant de groupe d’achats.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
 ## Accès et navigation dans les modèles de rôle
 
-1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B Edition.
+1. Dans la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B edition.
 
 1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Groupes d’achats]**.
 
@@ -55,7 +55,13 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
    ![Boîte de dialogue Créer un modèle de rôles](assets/roles-template-create-dialog.png){width="400"}
 
-1. Ajoutez une règle pour chaque rôle que vous souhaitez définir pour le modèle.
+1. Cliquez sur **[!UICONTROL Créer]**.
+
+### Ajout des rôles de modèle
+
+Une fois le modèle créé, il s’ouvre dans l’espace de travail et vous êtes invité à définir les rôles. La première carte de rôle s’affiche par défaut.
+
+1. Pour la première carte de rôle, définissez les propriétés du rôle.
 
    * Sélectionnez le **[!UICONTROL rôle de groupe d’achat]** dans la liste.
 
@@ -73,31 +79,37 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
    * **[!UICONTROL Obligatoire pour le score d’exhaustivité]** - Cochez cette case pour le rôle si vous souhaitez qu’il soit nécessaire pour calculer un score d’exhaustivité.
 
-   * Cliquez sur **[!UICONTROL Ajouter une condition]**.
+1. Cliquez sur **[!UICONTROL Ajouter une condition]** et définissez la règle conditionnelle pour le rôle.
 
-      * Dans la boîte de dialogue de condition, développez la liste des **[!UICONTROL attributs de personne]** et recherchez un attribut que vous souhaitez utiliser pour correspondre au rôle. Faites-la glisser à droite et déposez-la dans l’espace de filtrage.
+   * Dans la boîte de dialogue _[!UICONTROL Condition]_, développez la liste des **[!UICONTROL attributs de personne]** et recherchez un attribut que vous souhaitez utiliser pour correspondre au rôle. Faites-la glisser à droite et déposez-la dans l’espace de filtrage.
 
-        ![ Le modèle de rôles ajoute l’attribut de glisser-déposer de condition ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![ Le modèle de rôles ajoute l’attribut de glisser-déposer de condition ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-      * Utilisez l’attribut pour créer un filtre correspondant utilisant une ou plusieurs valeurs.
+     >[!NOTE]
+     >
+     >Si des champs de personne personnalisés sont définis dans le schéma d’audience du compte en Experience Platform, ces champs peuvent également être utilisés comme attributs de personne dans des conditions.
 
-        Dans l’exemple suivant, l’attribut Job title est utilisé pour identifier une correspondance pour Decision Maker. Toute valeur pour le titre commençant par `Director` ou `Sr Director` est évaluée comme true pour la condition.
+   * Utilisez l’attribut pour créer un filtre correspondant utilisant une ou plusieurs valeurs.
 
-        ![Exemple de condition de modèle de rôles utilisant le titre de la tâche](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+     Dans l’exemple suivant, l’attribut Job title est utilisé pour identifier une correspondance pour Decision Maker. Toute valeur pour le titre commençant par `Director` ou `Sr Director` est évaluée comme true pour la condition.
 
-      * Si nécessaire, ajoutez un autre attribut et une condition qui affine davantage les critères pour qu’une correspondance soit établie avec le rôle.
+     ![Exemple de condition de modèle de rôles utilisant le titre de la tâche](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-      * Cliquez sur **[!UICONTROL Terminé]**.
+   * Si nécessaire, ajoutez un autre attribut et une condition qui affine davantage les critères pour qu’une correspondance soit établie avec le rôle.
 
-   Pour chaque rôle supplémentaire que vous souhaitez inclure pour le modèle, cliquez sur **[!UICONTROL Ajouter un autre rôle]** et définissez une ou plusieurs conditions correspondant au rôle.
+   * Cliquez sur **[!UICONTROL Terminé]**.
+
+1. Pour chaque rôle supplémentaire que vous souhaitez inclure pour le modèle, cliquez sur **[!UICONTROL Ajouter un autre rôle]** et répétez les étapes 1 et 2 pour définir le rôle.
 
    ![ Modèle de rôles avec plusieurs rôles définis](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
-1. Si le modèle est prêt à l’emploi, cliquez sur **[!UICONTROL Publish]** en haut à droite.
+Vos modifications sont automatiquement enregistrées à l’état _Brouillon_ . Si vous n’êtes pas prêt à publier le modèle de rôles, cliquez sur la flèche vers la gauche (arrière) en haut de la page et revenez à la liste _[!UICONTROL Modèles de rôles]_.
 
-   La publication du modèle le définit sur un état _Live_ et le rend disponible pour être associé à un intérêt de solution. Il doit y avoir au moins un rôle défini pour publier le modèle de rôles.
+### Publish du modèle de rôles
 
-   Vos modifications sont automatiquement enregistrées à l’état _Brouillon_ . Si vous n’êtes pas prêt à publier le modèle de rôles, cliquez sur la flèche vers la gauche (arrière) en haut de la page et revenez à la liste Modèles de rôles .
+Si le modèle est prêt à l’emploi, cliquez sur **[!UICONTROL Publish]** en haut à droite.
+
+La publication du modèle définit l’état sur l’état _Live_ et le rend disponible pour association avec un intérêt de solution. Il doit y avoir au moins un rôle défini pour publier le modèle de rôles.
 
 ## Modification d’un modèle de rôles de brouillon
 
@@ -107,13 +119,13 @@ Modifiez les paramètres de l’en-tête de la carte des rôles, y compris le r�
 
 ![Modification des propriétés de rôle de groupe d’achat](./assets/roles-template-role-properties.png){width="600"}
 
-### Modification des filtres pour un rôle
+### Modification des conditions d’un rôle
 
-Pour modifier la logique de filtrage de l’un des rôles, cliquez sur l’icône _Modifier_ (crayon) en haut à droite de la carte de rôle. Cette action ouvre l’espace de travail _[!UICONTROL Conditions]_ où vous pouvez modifier un filtre existant, ajouter un autre filtre, supprimer un filtre ou modifier la logique du filtre.
+Pour modifier la logique de condition/filtrage de l’un des rôles, cliquez sur l’icône _Modifier_ ( ![Icône Modifier](../assets/do-not-localize/icon-edit.svg) ) en haut à droite de la carte de rôle. Cette action ouvre l’espace de travail _[!UICONTROL Conditions]_ où vous pouvez modifier un filtre existant, ajouter ou supprimer un filtre ou modifier la logique du filtre.
 
 ### Suppression d’une carte de rôle
 
-Si vous souhaitez supprimer un rôle du modèle, cliquez sur l’icône _Supprimer_ (corbeille) dans la carte de rôle.
+Si vous souhaitez supprimer un rôle du modèle, cliquez sur l’icône _Supprimer_ ( ![Icône Supprimer](../assets/do-not-localize/icon-delete.svg) ) dans la carte de rôle.
 
 ### Définition de la priorité des rôles
 

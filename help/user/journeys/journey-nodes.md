@@ -3,10 +3,10 @@ title: Noeuds de Parcours de compte
 description: Découvrez les types de noeuds que vous pouvez utiliser pour créer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: af72f5183cb1de56804340cbc9148de82faeca35
 workflow-type: tm+mt
-source-wordcount: '2142'
-ht-degree: 10%
+source-wordcount: '2443'
+ht-degree: 9%
 
 ---
 
@@ -54,6 +54,7 @@ Exécutez une action comme envoyer un email, modifier un score, affecter à un g
 | | Ajouter un compte à (autre) Parcours | Sélectionner le Parcours de compte en direct |
 | | Supprimer le compte du Parcours | Sélectionner le Parcours de compte en direct |
 | | Envoyer une alerte de ventes | Sélectionner l’intérêt de la solution<br/>Envoyer un courrier électronique à |
+| | Mise à jour de l’étape Groupe d’achat | Sélectionner l’intérêt de la solution<br/>Sélectionner l’étape du groupe d’achat |
 | | Mise à jour de l’état du groupe d’achat | Sélectionner l’intérêt de la solution <br/>État (requis, 50 caractères max.) |
 
 ### Ajouter une action de compte
@@ -62,7 +63,7 @@ Exécutez une action comme envoyer un email, modifier un score, affecter à un g
 
 1. Cliquez sur l’icône plus ( **+** ) sur un chemin et sélectionnez **[!UICONTROL Agir sur une action]**.
 
-   ![ Ajouter un noeud de parcours - Chemins de division](./assets/add-node-action.png){width="400"}
+   ![Ajouter un noeud de parcours - effectuer une action](./assets/add-node-action.png){width="400"}
 
 1. Dans les propriétés du noeud à droite, sélectionnez **[!UICONTROL Comptes]** pour l’action.
 
@@ -97,19 +98,20 @@ Déplacez votre audience vers l’étape suivante du parcours lorsqu’un évén
 
 | Contexte du noeud | Événement | Contraintes |
 | ------------ | ----- | ----------- |
-| [Personnes](#add-a-people-event) | Affecté à un groupe d’achat | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <ul><li>Rôle</li><li>Date d’activité</li></ul><br/> Délai d’expiration (facultatif) |
-| | Clique sur un lien dans un e-mail | Email<br/>Contraintes supplémentaires (facultatif) : <ul><li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li></ul><br/> Délai d’expiration (facultatif) |
-| | Clics lien dans SMS | Email<br/>Contraintes supplémentaires (facultatif) :<ul><li>Lien</li><li>Appareil</li><li>Platform</li><li>Date d’activité</li><li>Min. nombre de fois</li></ul><br/> Délai d’expiration (facultatif) |
-| | Modifications valeur des données | Attribut Personne<br/>Contraintes supplémentaires (facultatif) :<ul><li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li></ul><br/> Délai d’expiration (facultatif) |
-| | Ouvre l’e-mail | Email<br/>Contraintes supplémentaires (facultatif) : <ul><li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li></ul><br/> Délai d’expiration (facultatif) |
+| [Personnes](#add-a-people-event) | Affecté à un groupe d’achat | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Rôle</li><li>Date d’activité</li><br/> Délai d’expiration (facultatif) |
+| | Clique sur un lien dans un e-mail | Email<br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/> Délai d’expiration (facultatif) |
+| | Clics lien dans SMS | Email<br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>Appareil</li><li>Platform</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/> Délai d’expiration (facultatif) |
+| | Modifications valeur des données | Attribut Personne<br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/> Délai d’expiration (facultatif) |
+| | Ouvre l’e-mail | Email<br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/> Délai d’expiration (facultatif) |
 | | Supprimé du groupe d’achat | Centre d’intérêt de la solution<br/>Date d’activité (facultatif)<br/>Délai d’expiration (facultatif) |
-| | Modification du score | Nom de la note<br/>Contraintes supplémentaires (facultatif) :<ul><li>Changement</li><li>Nouveau score</li><li>Urgence</li><li>Priorité</li><li>Score relatif</li><li>Urgence relative</li><li>Date d’activité</li><li>Min. nombre de fois</li></ul><br/> Délai d’expiration (facultatif) |
-| | SMS Bounces | Message SMS<br/>Contraintes supplémentaires (facultatif) :<ul><li>Date d’activité</li><li>Nombre minimum de fois</li></ul><br/> Délai d’expiration (facultatif) |
-| [Comptes](#add-an-account-event) | Le compte a eu un moment intéressant | Type (Email, Milestone ou Web)<br/>Contraintes supplémentaires (facultatif) :<ul><li>Description</li><li>Source</li><li>Date d’activité</li></ul> <br/> Délai d’expiration (facultatif) |
-| | Modification de la valeur des données du compte | Attribute<br/>Contraintes supplémentaires (facultatif) :<ul><li>Nouvelle valeur</li><li>Valeur précédente</li><li>Date d’activité</li></ul> <br/> Délai d’expiration (facultatif) |
-| | Modification de l’état du groupe d’achat | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) :<ul><li>Nouveau statut</li><li>Statut précédent</li><li>Date d’activité</li></ul><br/> Délai d’expiration (facultatif) |
-| | Modification du score d’exhaustivité | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) :<ul><li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li></ul><br/> Délai d’expiration (facultatif) |
-| | Changement du score d’engagement | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) :<ul><li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li></ul><br/> Délai d’expiration (facultatif) |
+| | Modification du score | Nom de la note<br/>Contraintes supplémentaires (facultatif) :<li>Changement</li><li>Nouveau score</li><li>Urgence</li><li>Priorité</li><li>Score relatif</li><li>Urgence relative</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/> Délai d’expiration (facultatif) |
+| | SMS Bounces | Message SMS<br/>Contraintes supplémentaires (facultatif) : <li>Date d’activité</li><li>Nombre minimum de fois</li><br/> Délai d’expiration (facultatif) |
+| [Comptes](#add-an-account-event) | Le compte a eu un moment intéressant | Type (Email, Milestone ou Web)<br/>Contraintes supplémentaires (facultatif) : <li>Description</li><li>Source</li><li>Date d’activité</li> <br/> Délai d’expiration (facultatif) |
+| | Modification de la valeur des données du compte | Attribute<br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Date d’activité</li> <br/> Délai d’expiration (facultatif) |
+| | Changement de l’étape du groupe d’achat | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle étape</li><li>Étape précédente</li><li>Date d’activité</li><br/> Délai d’expiration (facultatif) |
+| | Modification de l’état du groupe d’achat | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau statut</li><li>Statut précédent</li><li>Date d’activité</li><br/> Délai d’expiration (facultatif) |
+| | Modification du score d’exhaustivité | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li><br/> Délai d’expiration (facultatif) |
+| | Changement du score d’engagement | Centre d’intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li><br/> Délai d’expiration (facultatif) |
 
 ### Ajout d’un événement de compte
 
@@ -176,9 +178,10 @@ _Comment fonctionne un chemin de partage par noeud de comptes ?_
 
 _Comment fonctionne un chemin de division par noeud de personnes ?_
 
-* Les chemins d’accès fractionnés par les noeuds de personnes sont des noeuds regroupés. Ils fusionnent automatiquement afin que toutes les personnes de l’audience puissent passer à l’étape suivante sans perdre le contexte des comptes auxquels elles appartiennent.
+* Les chemins d’accès fractionnés par les noeuds de personnes sont des noeuds regroupés. Les chemins fusionnent automatiquement afin que toutes les personnes de l’audience puissent passer à l’étape suivante sans perdre le contexte de leur compte.
 * Le chemin de division des personnes ne peut pas être imbriqué : vous ne pouvez pas ajouter de chemin de division pour les personnes qui se trouvent dans ce noeud groupé.
-* Le chemin de division comprend une option permettant de ne pas ajouter de chemin par défaut. Les comptes/personnes qui ne remplissent pas les critères ne sont pas redirigés dans le Parcours.
+* Le chemin de division comprend une option permettant d’omettre un chemin par défaut. Les comptes/personnes sans correspondance pour un chemin défini ne sont pas transférés vers l’avant dans le Parcours.
+* La division du chemin par les personnes prend en charge l’utilisation des _relations entre comptes et personnes_, ce qui vous permet de filtrer les personnes en fonction de leur rôle (comme l’entrepreneur ou l’employé à temps plein), comme défini dans les modèles de rôles.
 
 ![Noeud de Parcours - division des chemins par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -186,13 +189,14 @@ _Comment fonctionne un chemin de division par noeud de personnes ?_
 
 | Contexte du noeud | Conditions de chemin | Description |
 | ------------ | --------------- | ----------- |
-| [Personnes](#add-a-split-path-by-people-node) | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <ul><li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Intitulé du poste</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné</li><li>Raison désabonnement</li></ul> |
-| | [!UICONTROL Historique des activités] > [!UICONTROL Email] | Activités de courrier électronique associées au parcours : <ul><li>[!UICONTROL Lien cliqué dans le courrier électronique]</li><li>E-mail ouvert</li><li>A reçu l’e-mail</li><li>A reçu un e-mail</li></ul> Ces conditions sont évaluées à l’aide d’un message électronique sélectionné plus tôt dans le parcours. |
-| | [!UICONTROL Historique des activités] > [!UICONTROL Valeur de données modifiée] | Pour un attribut de personne sélectionné, un changement de valeur s’est produit. Ces types de modification incluent : <ul><li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li></ul> |
-| | [!UICONTROL Historique Des Activités] > [!UICONTROL A Eu Un Moment Intéressant] | Activité de moment intéressant définie dans l’instance de Marketo Engage associée. Les contraintes incluent : ul><li>Étape</li><li>E-mail</li><li>Web</li></ul> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d’achats] | La personne est ou n’est pas un membre du groupe d’achat évalué selon un ou plusieurs des critères suivants : <ul><li>Intérêt pour la solution</li><li>Statut du groupe d’achat</li><li>Score de complétude</li><li>Évaluation de l’engagement</li><li>Rôle</li></ul> |
-| [Comptes](#add-a-split-path-by-account-node) | Attributs du compte | Attributs du profil du compte, notamment : <ul><li>Chiffre d’affaires annuel</li><li>Ville</li><li>Pays</li><li>Nombre d’employés</li><li>Secteur industriel</li><li>Nom</li><li>Code SIC</li><li>État</li></ul> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Avec groupe d’achat] | Les membres des groupes d’achats du compte sont évalués ou non selon un ou plusieurs des critères suivants : <ul><li>Intérêt pour la solution</li><li>Statut du groupe d’achat</li><li>Score de complétude</li><li>Évaluation de l’engagement</li></ul> |
+| [Comptes](#add-a-split-path-by-account-node) | Attributs du compte | Attributs du profil du compte, notamment : <li>Chiffre d’affaires annuel</li><li>Ville</li><li>Pays</li><li>Nombre d’employés</li><li>Secteur industriel</li><li>Nom</li><li>Code SIC</li><li>État</li> |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Avec groupe d’achat] | Les membres des groupes d’achats du compte sont évalués ou non selon un ou plusieurs des critères suivants : <li>Intérêt pour la solution</li><li>Statut du groupe d’achat</li><li>Score de complétude</li><li>Évaluation de l’engagement</li> |
+| [People](#add-a-split-path-by-people-node) > [!UICONTROL Attributs People only] | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Intitulé du poste</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné</li><li>Raison désabonnement</li> |
+| | [!UICONTROL Historique des activités] > [!UICONTROL Email] | Activités de courrier électronique associées au parcours : <li>[!UICONTROL Lien cliqué dans le courrier électronique]</li><li>E-mail ouvert</li><li>A reçu l’e-mail</li><li>A reçu un e-mail</li> Ces conditions sont évaluées à l’aide d’un message électronique sélectionné plus tôt dans le parcours. |
+| | [!UICONTROL Historique des activités] > [!UICONTROL Valeur de données modifiée] | Pour un attribut de personne sélectionné, un changement de valeur s’est produit. Ces types de modification incluent : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li> |
+| | [!UICONTROL Historique Des Activités] > [!UICONTROL A Eu Un Moment Intéressant] | Activité de moment intéressant définie dans l’instance de Marketo Engage associée. Les contraintes incluent : <li>Étape</li><li>E-mail</li><li>Web</li> |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d’achats] | La personne est ou n’est pas un membre du groupe d’achat évalué selon un ou plusieurs des critères suivants : <li>Intérêt pour la solution</li><li>Statut du groupe d’achat</li><li>Score de complétude</li><li>Évaluation de l’engagement</li><li>Rôle</li> |
+| [Personnes](#add-a-split-path-by-people-node) > [!UICONTROL Attributs de personne de compte uniquement] | Rôle dans les attributs de compte | La personne se voit attribuer ou non un rôle dans le compte. Contraintes facultatives : <li>Saisissez un nom de rôle.</li> |
 
 ### Ajout d’un chemin de division par noeud de compte
 
@@ -214,7 +218,7 @@ _Comment fonctionne un chemin de division par noeud de personnes ?_
 
    * Réglez vos conditions en appliquant la **[!UICONTROL logique de filtre]** en haut. Vous choisissez de correspondre à toutes les conditions d’attribut ou à n’importe quelle condition.
 
-     ![Noeud de chemin de division - conditions logique de filtre](./assets/node-split-conditions.png){width="700" zoomable="yes"}
+     ![Noeud de chemin de division - conditions comptes filtre la logique](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
    * Cliquez sur **[!UICONTROL Terminé]**.
 
@@ -222,9 +226,15 @@ _Comment fonctionne un chemin de division par noeud de personnes ?_
 
    Vous pouvez également libeller chaque chemin en fonction de ces conditions ou utiliser les libellés par défaut.
 
-1. (Facultatif) Ajoutez un chemin par défaut pour les comptes non qualifiés pour les autres chemins. Dans le cas contraire, le parcours se termine pour ces comptes.
+1. Si nécessaire, réorganisez les chemins en fonction de la priorité que vous souhaitez pour le partage.
 
-   ![ Diviser les propriétés du noeud de chemin d’accès - autres comptes](./assets/node-split-properties-other-accounts.png){width="700" zoomable="yes"}
+   Le filtrage de chemin est évalué de haut en bas. Chaque compte suit le premier chemin correspondant.
+
+   Cliquez sur les flèches haut et bas situées en haut à droite de chaque carte de chemin pour la déplacer vers le haut ou le bas de la liste des chemins.
+
+   ![ Diviser le noeud du chemin - réorganiser les chemins](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
+
+1. Activez l’option **[!UICONTROL Autres comptes]** pour ajouter un chemin par défaut pour les comptes qui ne correspondent pas aux chemins définis. Si ce n&#39;est pas le cas, le parcours se termine pour ces gens.
 
 ### Ajouter un chemin de partage par noeud people
 
@@ -236,13 +246,24 @@ _Comment fonctionne un chemin de division par noeud de personnes ?_
 
 1. Dans les propriétés du noeud à droite, sélectionnez **[!UICONTROL Personnes]** pour la division.
 
+1. Définissez les **[!UICONTROL attributs utilisés pour les conditions]**.
+
+   * Sélectionnez **[!UICONTROL Attributs de personne uniquement]** pour utiliser les conditions liées au profil de personne et aux événements.
+   * Sélectionnez **[!UICONTROL Attributs de personne de compte uniquement]** pour utiliser les conditions liées à l’appartenance au rôle de la personne dans un compte.
+
 1. Pour définir une condition applicable à _[!UICONTROL Path 1]_, cliquez sur **[!UICONTROL Apply condition]**.
 
 1. Dans l’éditeur de conditions, ajoutez un ou plusieurs filtres pour définir le chemin de division.
 
-   * Faites glisser et déposez les attributs de filtre depuis le volet de navigation de gauche et complétez la définition de correspondance.
+   * Glissez et déposez l’un des attributs de personnes dans le volet de navigation de gauche, puis complétez la définition de correspondance.
+
+     >[!NOTE]
+     >
+     >Si des champs de personne personnalisés sont définis dans le schéma d’audience du compte en Experience Platform, ces champs peuvent également être utilisés comme attributs de personne dans des conditions.
 
    * Réglez vos conditions en appliquant la **[!UICONTROL logique de filtre]** en haut. Vous choisissez de correspondre à toutes les conditions d’attribut ou à n’importe quelle condition.
+
+     ![Noeud de chemin de division - logique de filtre de personne de conditions](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * Cliquez sur **[!UICONTROL Terminé]**.
 
@@ -250,13 +271,21 @@ _Comment fonctionne un chemin de division par noeud de personnes ?_
 
    Vous pouvez également libeller chaque chemin en fonction de ces conditions ou utiliser les libellés par défaut.
 
-1. Enfin, vous pouvez ajouter un chemin par défaut pour les personnes non qualifiées pour les chemins ci-dessus. Si ce n&#39;est pas le cas, le parcours se termine pour ces gens.
+1. Si nécessaire, réorganisez les chemins en fonction de la priorité que vous souhaitez pour le partage.
+
+   Le filtrage de chemin est évalué de haut en bas. Chaque personne emprunte le premier chemin qui correspond.
+
+   Cliquez sur les flèches haut et bas situées en haut à droite de chaque carte de chemin pour la déplacer vers le haut ou le bas de la liste des chemins.
+
+   ![ Diviser le noeud du chemin - réorganiser les chemins](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
+
+1. Activez l’option **[!UICONTROL Autres personnes]** pour ajouter un chemin par défaut pour les personnes qui ne correspondent pas aux chemins définis. Si ce n&#39;est pas le cas, le parcours se termine pour ces gens.
 
 Lorsque des conditions sont définies pour chaque chemin de division de votre audience au niveau des personnes, vous pouvez ajouter des actions que vous souhaitez entreprendre sur les personnes.
 
 >[!NOTE]
 >
->Lorsque vous divisez l’audience par des personnes, vous ne pouvez ajouter que des actions de personnes.
+>Lorsque vous divisez l’audience par des personnes, vous ne pouvez ajouter que des actions de personnes jusqu’à ce que les chemins soient fermés ou fusionnés.
 
 ## Attente
 
@@ -288,10 +317,10 @@ Différents chemins d’accès de votre parcours peuvent être fusionnés et non
 
    ![Noeud de Parcours - Chemins de fusion](./assets/node-plus-icon-merge-paths.png){width="400"}
 
-1. Dans les propriétés du noeud de fusion, sélectionnez les chemins à fusionner.
+1. Dans les propriétés du noeud Chemins de fusion, sélectionnez les chemins à fusionner.
 
    ![Noeud de Parcours - Chemins de fusion](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
    À ce stade, les chemins sont fusionnés afin que les comptes des chemins sélectionnés se combinent en un seul chemin qui peut continuer à progresser dans le parcours.
 
-1. Si nécessaire, vous pouvez annuler la fusion des chemins en revenant aux propriétés du noeud de fusion et en désélectionnant la case correspondant aux chemins que vous souhaitez supprimer.
+1. Si nécessaire, vous pouvez annuler la fusion des chemins en revenant aux propriétés du noeud Chemins de fusion et en décochant la case correspondant aux chemins que vous souhaitez supprimer.
