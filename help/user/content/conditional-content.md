@@ -2,10 +2,11 @@
 title: Contenu conditionnel
 description: Découvrez comment créer des variations de contenu et appliquer des règles conditionnelles lors de la création de contenu d’email pour les parcours de compte.
 feature: Email Authoring, Content
-source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -15,12 +16,12 @@ Le contenu conditionnel permet d&#39;adapter le contenu d&#39;un email selon des
 
 Pour ajouter du contenu conditionnel à vos emails, Adobe Journey Optimizer vous permet d’appliquer des règles conditionnelles stockées dans la bibliothèque _Conditions_ . Appliquez des règles conditionnelles dans le concepteur d&#39;email lorsque vous [créez un email dans un parcours de compte](./email-authoring.md).
 
-## Ajout de contenu conditionnel aux emails {#email-content}
+## Ajouter du contenu conditionnel aux e-mails {#email-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="Contenu conditionnel"
->abstract="Utilisez des règles conditionnelles pour créer plusieurs variantes d’un composant de contenu. Si aucune des conditions n&#39;est remplie lors de l&#39;envoi du message, le contenu de la variante Par défaut s&#39;affiche."
+>abstract="Utilisez des règles conditionnelles pour créer plusieurs variantes d’un composant de contenu. Si aucune des conditions n’est remplie lors de l’envoi du message, le contenu de la variante par défaut s’affiche."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
@@ -105,7 +106,7 @@ Les règles conditionnelles sont stockées dans la bibliothèque de conditions, 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditions_rule_editor"
 >title="Créer une condition"
->abstract="Combinez des attributs et des événements contextuels pour créer des règles qui déterminent la variante de contenu à afficher dans les emails."
+>abstract="Combinez des attributs et des événements contextuels pour créer des règles qui déterminent la variante de contenu à afficher dans les e-mails."
 
 Vous pouvez accéder au créateur de règles conditionnelles à partir du concepteur d’email lorsque vous sélectionnez une condition pour une variante de composant.
 
