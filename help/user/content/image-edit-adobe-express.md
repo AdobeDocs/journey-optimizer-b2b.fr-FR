@@ -4,7 +4,7 @@ description: Découvrez comment utiliser Adobe Express pour modifier des images 
 feature: Assets, Content
 hide: true
 hidefromtoc: true
-source-git-commit: 34b18ccffce2cad8f11246bfc59a5ba59a954e7d
+source-git-commit: 941400fc55e418496318fe8182cd918d0643388e
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -21,5 +21,4 @@ ht-degree: 0%
 Adobe Journey Optimizer B2B edition s’intègre de manière native à Adobe Express et vous permet d’accéder à un ensemble d’outils d’édition d’images Adobes Express. Vous pouvez utiliser ces outils pour modifier les images stockées dans l’espace de travail Journey Optimizer B2B edition pour le référentiel de ressources du Marketo Engage connecté. L’intégration offre les principaux avantages suivants :
 
 * Réutilisation accrue du contenu en modifiant et en enregistrant de nouvelles ressources d’image dans Journey Optimizer B2B edition.
-
 * Réduction du temps et des efforts nécessaires pour mettre à jour les ressources d’images ou créer de nouvelles versions de ressources d’images existantes.
