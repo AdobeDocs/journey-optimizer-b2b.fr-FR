@@ -4,10 +4,11 @@ description: Découvrez comment accéder aux paramètres de la page de destinati
 feature: Setup, Content
 hide: true
 hidefromtoc: true
-source-git-commit: f599ae239b6979f766f97330b825503e70a13e50
+exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
+source-git-commit: a04e069d12f1599eb3d53840704d01ced05ba4fb
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 3%
+ht-degree: 52%
 
 ---
 
@@ -23,8 +24,8 @@ Texte d’espace réservé.
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_account_string"
->title="Chaîne de compte des landing pages"
->abstract="La chaîne de compte identifie l’instance Adobe Journey Optimizer B2B edition qui héberge les pages de destination."
+>title="Chaîne de compte des pages de destination"
+>abstract="La chaîne de compte identifie l’instance Adobe Journey Optimizer B2B Edition qui héberge les pages de destination."
 
 La chaîne de compte identifie l’instance Adobe Journey Optimizer B2B edition qui héberge les pages de destination. Assurez-vous que votre équipe Systèmes ajoute et configure l’entrée DNS.
 
@@ -32,8 +33,8 @@ La chaîne de compte identifie l’instance Adobe Journey Optimizer B2B edition 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_form_prefill"
->title="Paramètres de préremplissage des formulaires de landing page"
->abstract="Vous pouvez activer l’option de préremplissage de formulaire pour permettre aux formulaires de vos pages de destination d’utiliser des informations préremplies pour des utilisateurs et utilisatrices connus."
+>title="Paramètres de préremplissage des formulaires de page de destination"
+>abstract="Vous pouvez activer l’option de préremplissage de formulaire pour permettre aux formulaires de vos pages de destination d’utiliser des informations préremplies pour les utilisateurs et utilisatrices connus."
 
 Activez l&#39;option **[!UICONTROL Préremplissage de formulaire]** pour permettre aux formulaires de vos pages de destination d&#39;utiliser des informations préremplies pour des utilisateurs connus. Lorsque cette option est désactivée, les auteurs de page de destination ne peuvent pas inclure de champs de formulaire préremplis.
 
@@ -46,14 +47,14 @@ Texte d’espace réservé.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_add_subdomain"
 >title="Ajouter un sous-domaine de page de destination"
->abstract="Vous pouvez ajouter un maximum de 50 sous-domaines. Configurez un nouveau sous-domaine pour chaque URL de marque unique que vous souhaitez héberger sur Adobe Journey Optimizer B2B edition."
+>abstract="Vous pouvez ajouter 50 sous-domaines au maximum. Configurez un nouveau sous-domaine pour chaque URL de marque unique que vous souhaitez héberger sur Adobe Journey Optimizer B2B Edition."
 
 ### Détails du sous-domaine {#configure-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_configure_subdomain"
->title="Configuration du sous-domaine de la page de destination"
->abstract="Un sous-domaine configuré est requis pour publier des pages de destination. Vous pouvez utiliser un sous-domaine déjà délégué à l’Adobe ou en créer un nouveau."
+>title="Configurer les sous-domaines de page de destination"
+>abstract="Un sous-domaine configuré est requis pour publier des pages de destination. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un nouveau."
 
 Texte d’espace réservé.
 
