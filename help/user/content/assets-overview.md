@@ -3,93 +3,93 @@ title: Ressources
 description: Découvrez la gestion des ressources dans Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 23fb478712f3c6df59e94432bdf16883e6acf70b
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '981'
 ht-degree: 2%
 
 ---
 
 # Ressources
 
-Dans Adobe Journey Optimizer B2B edition, les ressources sont généralement les images utilisées pour créer le contenu de votre parcours. Vous pouvez utiliser ces images dans les emails, les modèles d’email et les fragments créés dans Journey Optimizer B2B edition par le biais d’un sélecteur de ressources ou d’une simple interface glisser-déposer dans l’éditeur de contenu visuel.
+Dans Adobe Journey Optimizer B2B edition, les ressources sont généralement les images utilisées lors de la conception du contenu pour prendre en charge les parcours de compte. Vous pouvez utiliser ces images dans les e-mails, les modèles d’e-mail et les fragments par le biais d’un sélecteur de ressources ou d’une simple interface glisser-déposer dans l’éditeur de contenu visuel.
 
-Adobe Journey Optimizer B2B edition offre aux marketeurs l’accès à deux types de bibliothèques de ressources : Adobe Marketo Engage Design Studio et Adobe Experience Manager Assets as a Cloud Service. Vous pouvez utiliser uniquement Adobe Marketo Engage Design Studio ou les deux bibliothèques configurées en même temps (en fonction de la licence AEM Assets que vous possédez).
+Adobe Journey Optimizer B2B edition offre aux marketeurs l’accès à deux types de bibliothèques de ressources : Adobe Marketo Engage Design Studio et Adobe Experience Manager Assets as a Cloud Service. Vous pouvez utiliser uniquement Adobe Marketo Engage Design Studio ou les deux bibliothèques configurées en même temps (en fonction de la licence AEM Assets dont vous disposez).
 
 ## Gestion des ressources
 
-Si vous disposez d’un compte de Marketo Engage et de Adobe Experience Manager en tant que Cloud Service, vous avez accès aux référentiels pour la gestion des actifs numériques des Marketo Engage et Adobe Experience Manager Assets as a Cloud Service lorsque votre compte d’utilisateur dispose des autorisations requises. Ces référentiels sont séparés et non synchronisés. Vous pouvez utiliser des images provenant d’une source ou d’une autre, mais une seule peut être activée à la fois dans l’éditeur de contenu. Un administrateur peut rendre le passage de la gestion des actifs numériques du Marketo Engage à Adobe Experience Manager Assets as a Cloud Service. L’élément _[!UICONTROL Assets]_ dans le volet de navigation de gauche affiche le référentiel actuellement défini.
+Si vous disposez de Adobe Experience Manager en tant que Cloud Service, vous avez accès aux référentiels pour Marketo Engage Design Studio et Adobe Experience Manager Assets as a Cloud Service lorsque votre compte utilisateur dispose des autorisations requises. Ces référentiels sont séparés et non synchronisés. Vous pouvez utiliser des images provenant de l’une des sources.
 
 ### Ressources Adobe Marketo Engage
 
-Le référentiel de ressources de Adobe Marketo Engage Design Studio est fourni par défaut avec chaque abonnement Journey Optimizer B2B edition. Cela signifie que vous avez accès à l’une des ressources d’image stockées dans Adobe Marketo Engage > [!UICONTROL Design Studio] > [!UICONTROL Images et fichiers]. Vous pouvez utiliser ce référentiel en tant que bibliothèque de ressources locale, notamment pour charger et télécharger des fonctions de ressources. Vous pouvez également utiliser ces ressources dans le contenu de votre parcours.
+Le référentiel de ressources Adobe Marketo Engage Design Studio est fourni par défaut avec chaque abonnement Journey Optimizer B2B edition. Cela signifie que vous avez accès à l’une des ressources d’images stockées dans Adobe Marketo Engage ([!UICONTROL Design Studio] > [!UICONTROL Images et fichiers]). Vous pouvez utiliser ce référentiel comme votre bibliothèque de ressources locale, y compris les fonctions de chargement et de téléchargement de ressources. Vous pouvez également utiliser ces ressources dans le contenu de votre parcours.
 
-Il existe des barrières de sécurité intégrées qui empêchent la modification des ressources Marketo Engage à partir de Journey Optimizer B2B edition, ainsi que la suppression et le déplacement des opérations. Ces protections garantissent que les ressources source (Marketo Engage Design Studio) sont conservées tout en permettant une lecture et une réutilisation transparentes dans Journey Optimizer B2B edition.
+Il existe des mécanismes de sécurisation intégrés qui empêchent les modifications apportées aux ressources du Marketo Engage à partir de Journey Optimizer B2B edition, ainsi que les opérations de suppression et de déplacement. Ces protections garantissent que les ressources sources (Marketo Engage Design Studio) sont conservées tout en permettant une lecture et une réutilisation transparentes dans Journey Optimizer B2B edition.
 
-Formats de fichiers pris en charge : JPEG, GIF, PNG, EPS, SVG, RGB
+Formats de fichiers pris en charge : JPG, JPEG, GIF, PNG, EPS, SVG et RGB
 
-### as a Cloud Service Adobe Experience Manager Assets
+### Adobe Experience Manager Assets as a Cloud Service
 
-Rassemblez les workflows marketing et créatifs à l’aide d’Adobe Experience Manager Assets. Il est nativement intégré à Adobe Journey Optimizer B2B edition, ce qui vous permet d’accéder facilement à Assets as a Cloud Service pour découvrir et utiliser des ressources numériques. Il permet d’accéder au référentiel Assets pour les ressources que vous pouvez utiliser pour remplir vos messages.
+Rassemblez les workflows marketing et créatifs à l’aide d’Adobe Experience Manager Assets. Il est nativement intégré à Adobe Journey Optimizer B2B edition, ce qui vous permet d’accéder facilement à Assets as a Cloud Service pour découvrir et utiliser des ressources numériques. Il permet d’accéder à votre référentiel Assets pour les ressources que vous pouvez utiliser afin de renseigner vos messages.
 
-Adobe Experience Manager Assets peut se connecter à Adobe Experience Manager Assets as a Cloud Service pour des espaces de travail de ressources centralisés qui étendent votre système de création et unifient les ressources numériques en vue de la diffusion de l’expérience. Adobe Experience Manager Assets as a Cloud Service offre une solution cloud conviviale pour une gestion efficace des actifs numériques et des opérations Dynamic Media. Il intègre de manière transparente des fonctionnalités avancées, notamment l’intelligence artificielle et le machine learning.
+Adobe Journey Optimizer B2B edition peut se connecter à Adobe Experience Manager Assets as a Cloud Service pour une gestion des ressources centralisée qui étend votre système de création et unifie les ressources numériques en vue de la diffusion de l’expérience. Adobe Experience Manager Assets as a Cloud Service offre une solution cloud facile à utiliser pour une gestion efficace des ressources numériques et des opérations Dynamic Media. Il intègre de manière transparente des fonctionnalités avancées, notamment l’intelligence artificielle et le machine learning.
 
-Pour en savoir plus, consultez la [documentation Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview).
+Pour en savoir plus, consultez la [documentation d’Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview).
 
-Adobe Experience Manager Assets est accessible directement dans Adobe Journey Optimizer B2B edition à partir de l’élément **[!UICONTROL Assets]** dans le volet de navigation de gauche. Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’email.
+{{aem-assets-licensing-note}}
 
->[!NOTE]
->
->AEM Assets en tant que Cloud Service et les licences Dynamic Media sont des conditions préalables à cette intégration.<br/>
->En fonction de votre contrat et de votre configuration, Adobe Experience Manager Assets as a Cloud Service est accessible directement depuis Adobe Journey Optimizer B2B edition via la section Assets du menu de gauche. Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’email.
+Accédez à Adobe Experience Manager Assets directement dans Journey Optimizer B2B edition à partir de l’élément **[!UICONTROL Experience Manager Assets]** dans le volet de navigation de gauche conception de contenu. Vous pouvez également accéder aux ressources et aux dossiers lors de la conception de votre e-mail, de votre modèle d’e-mail et du contenu du fragment visuel.
 
-Actuellement, vous ne pouvez utiliser que des images d’Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition.
+Actuellement, vous ne pouvez utiliser que des images provenant d’Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition.
 
 ## Utilisation de ressources pour la création de contenu
 
-Utilisez des ressources lorsque vous créez vos emails, modèles de courrier électronique et fragments visuels. L’interface utilisateur de l’éditeur de contenu visuel permet d’accéder aux images de vos référentiels de ressources connectés.
+Utilisez des ressources pour créer des e-mails, des modèles d’e-mail et des fragments visuels. L’éditeur de contenu visuel permet d’accéder aux images dans vos référentiels de ressources connectés. Si vous disposez d’un abonnement à Experience Manager Assets as a Cloud Service ainsi qu’au Adobe Marketo Engage Design Studio par défaut, vous pouvez choisir des ressources d’image à partir de l’une ou l’autre source. Vous pouvez également charger une ressource d’image, qui la place dans l’espace de travail Journey Optimizer B2B edition du référentiel Design Studio du Marketo Engage connecté.
 
-### Choix d’une source de ressources
+Vous pouvez choisir la source de l’image lorsque vous modifiez les paramètres d’un composant d’image ou directement sur la zone de travail.
 
-Si vous disposez d’un abonnement pour Experience Manager Assets as a Cloud Service ainsi que de Adobe Marketo Engage Design Studio par défaut, vous pouvez sélectionner des ressources d’image à partir de l’une des sources. Pour ce faire, vous devez sélectionner la source de l’image au moment de la création pour un nouvel email, un modèle d’email ou un fragment visuel. Vous pouvez également sélectionner la source de l’image lorsque vous modifiez le contenu. La sélection s’applique uniquement à l’expérience de modification. Vous pouvez modifier la source de l’image pour accéder aux ressources d’une autre bibliothèque, le cas échéant.
+* **_Paramètres des composants d’image_** - Lorsqu’un composant d’image est sélectionné dans le concepteur visuel, vous pouvez afficher et modifier les paramètres dans le panneau de droite. Pour ajouter ou modifier le fichier image affiché dans le composant, choisissez le type de source et sélectionnez un fichier image.
 
-_**Création d’une ressource de contenu**_ - Pour choisir une source d’image lors de la création d’un email, d’un modèle d’email ou d’un fragment, définissez la **[!UICONTROL source d’image]** dans la boîte de dialogue.
+  ![Modifiez les paramètres du composant d’image dans le panneau de droite](./assets/content-assets-image-settings.png){width="350"}
 
-_**Modification d’une ressource de contenu**_ - Pour choisir une source de ressource d’image dans l’aperçu visuel, utilisez le paramètre **[!UICONTROL Source de l’image]** dans le panneau de droite.
+* **_Composant vide_** - Lorsque vous ajoutez un composant d’image dans le concepteur visuel, il est vide et permet d’accéder facilement à une source et à sélectionner un fichier image.
 
-### Ajout de ressources à votre contenu
+  ![Choisissez une source pour sélectionner un fichier image pour le composant image vide](./assets/content-assets-image-component-empty.png){width="500"}
 
-Vous pouvez ajouter une ressource image lorsque vous créez votre contenu, en fonction de la source de la ressource d’image sélectionnée.
+* **_Barre d’outils du composant d’image_** - Lorsqu’un composant d’image est sélectionné dans le concepteur visuel, la barre d’outils permet d’accéder facilement à une source et de sélectionner le fichier image.
+
+  ![Utilisez la barre d’outils pour choisir une source et sélectionner un fichier image pour le composant d’image](./assets/content-assets-image-toolbar-settings.png){width="500"}
+
+Vous pouvez ajouter une ressource d’image au fur et à mesure que vous créez votre contenu, selon la source de la ressource d’image.
 
 >[!BEGINTABS]
 
->[!TAB  Ajout de ressources d’image de Marketo Engage]
+>[!TAB Marketo Engage Assets]
 
-Vous pouvez ajouter des ressources Marketo Engage à l’aide de l’une des méthodes suivantes :
+Cliquez sur **[!UICONTROL Marketo Engage Assets]** pour ouvrir le sélecteur de ressources, dans lequel vous pouvez choisir une image dans l’espace de travail du Marketo Engage ou de Journey Optimizer B2B edition.
 
-* Ajoutez un élément structurel, puis faites glisser des ressources depuis le volet de navigation de gauche vers le canevas visuel.
-* Ajoutez un élément structurel, puis faites glisser et déposez le type de contenu _image_ dans la structure. Dans les paramètres des propriétés à droite, il existe deux manières de spécifier l’image :
-   * Cliquez sur **[!UICONTROL Parcourir]** pour ouvrir le sélecteur de ressources, où vous pouvez choisir une image dans la bibliothèque de ressources de Adobe Marketo Engage Design Studio.
-   * Cliquez sur **[!UICONTROL Importer un média]** pour importer une ressource à partir de votre système local. La ressource importée est stockée dans le dossier racine Assets de votre bibliothèque Adobe Marketo Engage Design Studio.
+![Sélectionnez une ressource image dans l’espace de travail](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
 
-Voir [Utilisation des ressources dans votre contenu](./marketo-engage-design-studio.md#use-assets-in-your-content) pour plus d’informations.
+Vous pouvez utiliser la recherche et les filtres pour localiser la ressource d’image souhaitée. Sélectionnez la ressource et cliquez sur **[!UICONTROL Sélectionner]** pour l’utiliser pour le composant d’image.
 
-Pour modifier l’image, vous pouvez mettre à jour l’URL source de l’image dans les propriétés à droite.
+Pour plus d’informations sur l’utilisation des ressources d’image de Marketo Engage, voir [ Utilisation de ressources dans votre contenu ](./marketo-engage-design-studio.md#use-assets-in-your-content).
 
->[!TAB Ajouter des images Experience Manager Assets]
+>[!TAB Experience Manager Assets]
 
-1. Lors de la création du contenu de votre email dans le concepteur d&#39;email, faites glisser un élément image sur la zone de travail.
+Cliquez sur **[!UICONTROL Experience Manager Assets]** pour ouvrir le sélecteur de ressources, dans lequel vous pouvez choisir une image dans le référentiel Experience Manager Assets.
 
-   Les propriétés sur la droite reflètent la sélection de l’élément d’image.
+![Sélectionnez une ressource image dans le référentiel AEM Assets](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Sélectionner une ressource]** pour ouvrir le sélecteur de ressources Experience Manager.
+Vous pouvez utiliser la recherche et les filtres pour localiser la ressource d’image souhaitée. Sélectionnez la ressource et cliquez sur **[!UICONTROL Sélectionner]** pour l’utiliser pour le composant d’image.
 
-   Vous pouvez y rechercher, filtrer et accéder à la ressource de contenu souhaitée à ajouter à votre ressource marketing. Pour plus d’informations sur l’utilisation du sélecteur, reportez-vous à cette page .
+Pour plus d’informations sur l’utilisation des fichiers image de Experience Manager Assets, voir [ Accès aux images AEM Assets ](./aem-assets.md#access-aem-assets-images).
 
-   >[!NOTE]
-   >
-   >Si plusieurs référentiels sont configurés, vous pouvez utiliser le sélecteur de référentiel sur le sélecteur de ressources.
+>[!TAB Importer un média]
 
-1. Sélectionnez la ressource à insérer dans le courrier électronique.
+Cliquez sur **[!UICONTROL Importer un média]** pour sélectionner un fichier image et l’importer en tant que ressource pouvant être utilisée pour le contenu Journey Optimizer B2B edition.
+
+![Sélectionnez votre propre fichier image à importer en tant que ressource](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"}
+
+Après avoir fait un glisser-déposer du fichier ou l’avoir sélectionné dans votre système de fichiers, cliquez sur **[!UICONTROL Importer]**. La ressource importée est stockée dans l’espace de travail Journey Optimizer B2B edition du référentiel Adobe Marketo Engage Design Studio.
 
 >[!ENDTABS]

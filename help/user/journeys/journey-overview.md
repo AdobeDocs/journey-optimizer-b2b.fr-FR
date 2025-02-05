@@ -3,9 +3,9 @@ title: Parcours de compte
 description: Découvrez les parcours de compte et comment les créer et les gérer.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -13,15 +13,17 @@ ht-degree: 2%
 
 # Parcours de compte
 
-Définissez un engagement piloté par les ventes qui comprend des e-mails, des SMS, etc. à l’intérieur des parcours de compte afin de coordonner le marketing entrant avec les activités de vente sortantes pour chaque membre du groupe d’achats.
+Créez et exécutez des parcours personnalisés pour chaque groupe d’achats et membre du groupe d’achats à l’aide d’un engagement automatisé par e-mail, SMS, événement, etc. Grâce aux parcours de compte, vous pouvez rationaliser la génération de la demande et la qualification des groupes d&#39;achat et stimuler une demande plus qualifiée pour vos programmes d&#39;acquisition, de vente incitative/croisée et de rétention.
 
-## Accès et navigation dans les parcours de compte
+Définissez un engagement axé sur les ventes qui inclut des e-mails, des SMS et d’autres parcours de compte internes pour coordonner le marketing entrant avec les activités de vente sortantes pour chaque membre du groupe d’achats.
 
-1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B Edition.
+## Accéder aux parcours de compte et les parcourir
+
+1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B edition.
 
 1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL parcours de compte]**.
 
-   ![Accès aux parcours de compte](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+   ![Accéder aux parcours de compte](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
    La page parcours affichée comprend les colonnes suivantes :
 
@@ -29,50 +31,50 @@ Définissez un engagement piloté par les ventes qui comprend des e-mails, des S
    * [!UICONTROL Statut]
    * [!UICONTROL Description]
    * [!UICONTROL Créé par]
-   * [!UICONTROL  Dernière mise à jour à ]
+   * [!UICONTROL Dernière mise à jour : ]
    * [!UICONTROL Dernière mise à jour par]
-   * [!UICONTROL Publié le ]
+   * [!UICONTROL Publié le]
    * [!UICONTROL Publié par]
 
-Ce tableau permet de rechercher par nom et Créé par. Le tri n’est actuellement pas disponible.
+Ce tableau permet de rechercher des ressources par nom et par date de création. Le tri n’est actuellement pas disponible.
 
-Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Colonnes_ dans le coin supérieur droit et en sélectionnant ou en désélectionnant les cases à cocher.
+Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Colonnes_ dans le coin supérieur droit, puis en cochant ou décochant les cases.
 
 ![Choisissez les colonnes à afficher dans la liste des parcours de compte](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
-## Anatomie d&#39;un parcours de compte
+## Anatomie d’un parcours de compte
 
 Cliquez sur le nom (affiché sous forme de lien) dans la liste _[!UICONTROL parcours de compte]_ pour passer en revue les détails, apporter des modifications et prendre des mesures.
 
 ![Espace de travail du parcours de compte](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-L’en-tête de l’éditeur de chaque parcours de compte comprend :
+L’en-tête d’éditeur de chaque parcours de compte comprend :
 
 * Nom du parcours
-* Possibilité de modifier le nom (_Icône Edit_)
-* État du parcours
+* Possibilité de modifier le nom (icône _Modifier_)
+* Etat du parcours
 
 Les actions suivantes sont disponibles dans l’en-tête :
 
-* **Publish** - Vous pouvez publier un parcours en l’absence d’erreurs de blocage. Une fois publié, l’état du Parcours passe à _Live_. Si le parcours comporte des erreurs, le bouton est grisé avec les informations de contenu : `Resolve errors before publishing`.
+* **Publish** - Vous pouvez publier un parcours s&#39;il n&#39;y a aucune erreur de blocage. Une fois publié, le statut du parcours passe à _Actif_. Si le parcours comporte des erreurs, le bouton est grisé avec les informations de contenu : `Resolve errors before publishing`.
 * **Dupliquer** - Cette action est similaire à une fonction de clonage, mais le parcours dupliqué n’inclut aucune ressource.
-* **Fermer aux nouvelles entrées** - Si vous fermez un parcours, les comptes actuellement en parcours continuent leur chemin dans le parcours et aucune autre entrée de parcours ne peut se produire. Un parcours fermé ne peut pas être redémarré. Vous pouvez dupliquer un parcours fermé.
-* **Abandonner** - Si vous arrêtez un parcours, les comptes du parcours arrêtent immédiatement leur progression et aucune autre entrée de parcours ne peut se produire. Un parcours arrêté ne peut pas être redémarré. Si vous bloquez de nouvelles entrées sans arrêter le progrès des gens, envisagez plutôt de fermer le parcours.
+* **Fermer aux nouvelles entrées** - Si vous fermez un parcours, les comptes actuellement dans le parcours continuent leur chemin dans le parcours et aucune autre entrée de parcours ne peut se produire. Impossible de redémarrer un parcours fermé. Vous pouvez dupliquer un parcours fermé.
+* **Abandon** - Si vous arrêtez un parcours, les comptes du parcours arrêtent immédiatement leur progression et aucune nouvelle entrée de parcours ne peut se produire. Impossible de redémarrer un parcours arrêté. Si vous bloquez les nouvelles entrées sans arrêter la progression des gens, envisagez plutôt de fermer le parcours.
 * **Supprimer** - Cette action supprime définitivement le parcours.
 
-L’état d’un Parcours change en fonction des actions que vous appliquez. En fonction de l’état d’un parcours, certaines actions ne sont pas disponibles dans l’en-tête.
+Le statut d’un Parcours change en fonction des actions que vous appliquez. En fonction du statut d’un parcours, certaines actions sont ou ne sont pas disponibles dans l’en-tête .
 
 | Statut | Description | Actions disponibles |
 | ------ | ----------- | ----------------- |
-| _**Version préliminaire**_ | Parcours non publié modifiable. | <ul><li>Publier</li><li>Dupliquer </li><li>Supprimer </li></ul> |
-| _**Live**_ | L’état du parcours passe de Version préliminaire à En direct lorsqu’un parcours est publié. Dans cet état, il n’est plus modifiable. | <ul><li>Dupliquer </li><li>Fermer les nouvelles entrées </li><li>Abandonner </li></ul> |
-| _**Fermé aux nouvelles entrées**_ | L’état du parcours passe de _Live_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans la barre de navigation supérieure. | <ul><li>Dupliquer </li><li>Abandonner </li></ul> |
-| _**Aborted**_ | L’état du parcours passe de _Live_ ou _Fermé aux nouvelles entrées_ lorsque vous interrompez un parcours. Un parcours abandonné ne peut pas être redémarré. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
-| _**Terminé**_ | Lorsque tous les comptes d’un parcours terminent le parcours, l’état passe de En ligne ou Fermé aux nouvelles entrées à Terminé. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
+| _**Brouillon**_ | Parcours dépublié modifiable. | <ul><li>Publier</li><li>Dupliquer </li><li>Supprimer </li></ul> |
+| _**En direct**_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <ul><li>Dupliquer </li><li>Fermer aux nouvelles entrées </li><li>Abandonner </li></ul> |
+| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _En ligne_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <ul><li>Dupliquer </li><li>Abandonner </li></ul> |
+| _**Abandonné**_ | Le statut du parcours passe de _En ligne_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Impossible de redémarrer un parcours abandonné. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
+| _**Terminé**_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de Actif ou Fermé à Nouvelles entrées et passe à Terminé. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
 
-## Prise en main du parcours
+## Prise en main d’un parcours
 
-Pour commencer à utiliser un parcours de compte, créez le parcours, puis construisez les noeuds et le flux de parcours dans l’éditeur de parcours.
+Pour commencer à utiliser un parcours de compte, créez le parcours, puis construisez les nœuds et le flux de parcours dans l’éditeur de parcours.
 
 ### Création d’un parcours de compte
 
@@ -80,104 +82,92 @@ Pour commencer à utiliser un parcours de compte, créez le parcours, puis const
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours de compte]** en haut à droite de la page.
 
-1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et **[!UICONTROL Description]** (facultatif).
+1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![Boîte de dialogue Créer un Parcours de compte](./assets/account-journey-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un Parcours de compte ](./assets/account-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-### Ajout de l’audience du compte pour votre parcours
+### Blocs de construction d’un parcours
 
-Un parcours de compte commence toujours par Audience du compte où vous pouvez ajouter une entrée à votre parcours.
+La carte de parcours __ est la zone centrale du concepteur de parcours. C’est dans cette zone que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir son volet Propriétés à droite de la zone de travail et définissez-le en fonction de votre conception. Un parcours de compte commence toujours par un nœud [Audience du compte](./account-audience-nodes.md) où vous pouvez ajouter des données à votre parcours.
 
-1. Cliquez sur le noeud **[!UICONTROL Audience du compte]** pour afficher les propriétés du noeud à droite.
+Après avoir créé un parcours de compte et ajouté l’audience, créez le parcours à l’aide de nœuds . La carte de parcours fournit une zone de travail, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes à l’aide des types de nœuds suivants pour créer un parcours de compte :
 
-   ![Noeud d’audience de compte](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
+* [Effectuer une action](./action-nodes.md)
+* [Écoute d’un événement](./listen-for-event-nodes.md)
+* [Partage de chemins](./split-merge-paths-nodes.md)
+* [Attente](./wait-nodes.md)
+* [Fusionner les chemins](./split-merge-paths-nodes.md)
 
-1. Cliquez sur **[!UICONTROL Ajouter une audience de compte]**.
+### Mécanismes de sécurisation
 
-   Vous pouvez sélectionner un segment d’audience précédemment sélectionné en cliquant sur _[!UICONTROL Ajouter des audiences]_.
+Pour vous aider à créer un parcours sans rencontrer d’erreur, les barrières de sécurité suivantes sont en place :
 
-1. Pour créer un segment d’audience, sélectionnez **[!UICONTROL Audiences du compte]** dans le volet de navigation de gauche.
+* _Suppression d’un nœud de chemin de division_ : vous ne pouvez pas supprimer un nœud sans supprimer tous les nœuds suivants dans chaque chemin.
+* _Suppression d’un nœud de fusion_ : un nœud de fusion ne peut être supprimé que lorsqu’un chemin d’accès lui est connecté. Pour supprimer un nœud de fusion, ne laissez qu’un seul chemin sélectionné.
+* _Basculer entre le compte et les personnes_ : vous ne pouvez pas modifier la sélection des comptes en personnes sans supprimer tous les nœuds suivants dans chaque chemin d’accès.
 
-1. Cliquez sur **[!UICONTROL Créer une audience]** et suivez les étapes décrites dans le [guide Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
-
-### Blocs de création d’un parcours
-
-Le _canevas de parcours_ est la zone centrale du concepteur de parcours. C’est dans cette zone que vous pouvez ajouter des noeuds de parcours et les configurer. Cliquez sur un noeud pour ouvrir son volet de propriétés à droite du canevas et définissez-le en fonction de votre conception.
-
-Vous pouvez créer votre parcours à l’aide de l’un des types de noeuds suivants :
-
-* [Écoute d’un événement](journey-nodes.md#listen-for-an-event)
-* [Agir](journey-nodes.md#take-an-action)
-* [Fractionner les chemins](journey-nodes.md#split-paths)
-* [Attente](journey-nodes.md#wait)
-* [Fusion des chemins](journey-nodes.md#merge-paths)
-
-### Garde les rails
-
-Pour vous aider à créer un parcours sans rencontrer d’erreur, les rails de garde suivants sont en place :
-
-* _Suppression d’un noeud de chemin de partage_ : vous ne pouvez pas supprimer un noeud sans supprimer tous les noeuds suivants dans chaque chemin d’accès.
-* _Suppression d’un noeud de fusion_ : un noeud de fusion ne peut être supprimé que lorsqu’un chemin d’accès y est connecté. Pour supprimer un noeud de fusion, laissez un seul chemin d’accès sélectionné.
-* _Basculement entre le compte et les personnes_ : vous ne pouvez pas modifier la sélection des comptes en personnes sans supprimer tous les noeuds suivants dans chaque chemin d’accès.
-
-### Ajouter un noeud
+### Ajouter un nœud
 
 1. Accédez à l’éditeur de parcours.
 
-1. Cliquez sur l’icône plus ( **+** ) dans le chemin d’accès et sélectionnez le type de noeud.
+1. Cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et sélectionnez le type de nœud.
 
-1. Définissez les propriétés du noeud à droite.
+1. Définissez les propriétés du nœud sur la droite.
 
-### Supprimer un noeud
-
-1. Accédez à l’éditeur de parcours.
-
-1. Dans les propriétés du noeud à droite, cliquez sur l’icône _Supprimer_ (corbeille).
-
-1. Dans la boîte de dialogue de configuration, cliquez sur **[!UICONTROL Supprimer]**.
-
-### Ajout et suppression d’un chemin
+### Suppression d’un nœud
 
 1. Accédez à l’éditeur de parcours.
 
-1. Cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et ajoutez le noeud de chemin d’accès partagé.
+1. Dans les propriétés du nœud sur la droite, cliquez sur l’icône _Supprimer_ ( ![icône Supprimer](../assets/do-not-localize/icon-delete.svg) ).
 
-1. Dans les propriétés du noeud à droite, sélectionnez **[!UICONTROL Compte]**.
+1. Dans la boîte de dialogue de conformation, cliquez sur **[!UICONTROL Supprimer]**.
 
-1. Pour ajouter d’autres chemins, cliquez sur **[!UICONTROL Ajouter un chemin]**.
-
-   Avec chaque chemin créé dans le parcours, une nouvelle carte apparaît dans les propriétés.
-
-1. Accédez à l’un des chemins d’accès du parcours et ajoutez des noeuds d’action ou d’événement à ce chemin d’accès à l’aide de l’icône plus.
-
-1. Sélectionnez le noeud de chemin de division pour ouvrir les propriétés à droite.
-
-   Notez que les chemins contenant des noeuds ne peuvent pas être supprimés.
-
-1. Pour supprimer ces chemins d’accès, vous devez d’abord supprimer tous les noeuds de ce chemin d’accès.
-
-### Planification d’un parcours
-
-Lorsque vous publiez un parcours, celui-ci peut commencer immédiatement ou à une date ultérieure planifiée. La date de fin peut être de trois ans au maximum à partir de la date de début. Une fois qu’un parcours est publié (_Live_ status), vous pouvez mettre à jour la date de fin du parcours, mais pas la date de début.
+### Ajouter et supprimer un chemin d’accès
 
 1. Accédez à l’éditeur de parcours.
 
-1. Planifiez votre parcours en cliquant sur [!UICONTROL Paramètres du Parcours] dans l’en-tête.
+1. Cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et ajoutez le [nœud de chemin de fractionnement](./split-merge-paths-nodes.md#split-paths).
+
+1. Dans les propriétés du nœud sur la droite, sélectionnez **[!UICONTROL Compte]**.
+
+1. Pour ajouter d’autres chemins d’accès, cliquez sur **[!UICONTROL Ajouter un chemin]**.
+
+   Pour chaque chemin d’accès créé dans le parcours, une nouvelle carte de chemin d’accès s’affiche dans les propriétés.
+
+1. Accédez à l’un des chemins d’accès du parcours et ajoutez des nœuds [action](./action-nodes.md) ou [event](./listen-for-event-nodes.md) à ce chemin d’accès à l’aide de l’icône plus.
+
+1. Sélectionnez le nœud [chemin de partage](./split-merge-paths-nodes.md) pour ouvrir les propriétés sur la droite.
+
+   Les chemins comportant des nœuds ne peuvent pas être supprimés.
+
+1. Pour supprimer ces chemins d’accès, vous devez d’abord supprimer tous les nœuds qu’ils contiennent.
+
+### Planifier un parcours
+
+Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une date ultérieure planifiée. La date de fin peut être fixée à un maximum de trois ans à compter de la date de début. Une fois le parcours publié (statut _En ligne_), vous pouvez mettre à jour la date de fin du parcours, mais pas sa date de début.
+
+1. Accédez à l’éditeur de parcours.
+
+1. Planifiez votre parcours en cliquant sur [!UICONTROL Paramètres du Parcours ] dans l’en-tête.
 
 1. Dans la boîte de dialogue, définissez les options de planification :
 
-   * Choisissez un type de planification.
+   * Choisissez un type de planning.
 
      Pour activer le parcours au moment de la publication, choisissez **[!UICONTROL Immédiatement]**.
 
      Pour activer le parcours à une date ultérieure, choisissez **[!UICONTROL À une date spécifique]** et cliquez sur l’icône _Calendrier_ pour sélectionner la date.
 
-     ![Boîte de dialogue des paramètres de Parcours](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
+     Boîte de dialogue des paramètres du Parcours ![](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
 
-   * Spécifiez la **[!UICONTROL Date de fin]** pour le parcours. Il peut s’écouler trois ans au maximum à partir de la date de début (ce champ est obligatoire).
+   * Spécifiez la **[!UICONTROL Date de fin]** pour le parcours. Il peut s’agir d’un maximum de trois ans à compter de la date de début (ce champ est obligatoire).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Lorsque vous êtes prêt à publier votre parcours, vous pouvez consulter ces paramètres lorsque vous cliquez sur _[!UICONTROL Publish]_.
+   Lorsque vous êtes prêt à publier votre parcours, vous pouvez vérifier ces paramètres en cliquant sur _[!UICONTROL Publish]_.
+
+### Publish un parcours de compte
+
+

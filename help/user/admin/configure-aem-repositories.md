@@ -1,54 +1,56 @@
 ---
-title: Configuration des référentiels de ressources Experience Manager
-description: Découvrez comment configurer une connexion aux référentiels Experience Manager Assets pour une utilisation dans la création de contenu de l’édition B2B de Journey Optimizer.
+title: Configuration de référentiels de ressources Experience Manager
+description: Découvrez comment configurer une connexion aux référentiels Experience Manager Assets à utiliser dans la création de contenu Journey Optimizer B2B edition.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# Configuration des référentiels de ressources Experience Manager
+# Configuration de référentiels de ressources Experience Manager
 
-Adobe Journey Optimizer version B2B s’intègre à Adobe Experience Manager Assets as a Cloud Service, ce qui permet d’utiliser des ressources telles que des courriers électroniques dans un parcours de compte. Elle garantit la transparence en échangeant des informations avec Experience Manager Assets. Configurez la connexion à Adobe Experience Assets pour activer cette fonctionnalité.
+Adobe Journey Optimizer B2B edition s’intègre à Adobe Experience Manager Assets as a Cloud Service, ce qui permet de faire plus que simplement utiliser des ressources telles que des e-mails dans un parcours de compte. Elle assure la transparence en échangeant des informations avec Experience Manager Assets. Configurez la connexion à Adobe Experience Assets pour activer cette fonctionnalité.
 
-Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer Édition B2B, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
+Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([ En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
+
+{{aem-assets-licensing-note}}
 
 ## Conditions préalables
 
-* Générez les informations d’identification du service pour l’environnement souhaité sur AEM Developer Console sans affichage ([En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
-* Traitez les certificats nécessaires pour la connexion. La bonne pratique consiste à s’assurer qu’il reste au moins six mois avant l’expiration des certificats. Les certificats expirent tous les 365 jours.
-* L’édition B2B de Adobe Journey Optimizer prend en charge l’accès à une source de gestion des actifs numériques à la fois. Assurez-vous que les ressources requises sont disponibles dans Adobe Experience Manager avant de basculer.
+* Générez les informations d’identification de service pour l’environnement souhaité sur le Developer Console découplé AEM ([En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
+* Procurez-vous les certificats nécessaires à la connexion. Il est recommandé de s’assurer que les certificats ont au moins six mois restants avant leur expiration. Les certificats expirent tous les 365 jours.
+* Adobe Journey Optimizer B2B edition prend en charge l’accès à une source de gestion des ressources numériques à la fois. Assurez-vous que les ressources requises sont disponibles dans Adobe Experience Manager avant de basculer.
 
 >[!IMPORTANT]
 >
->Les informations d’identification du service sont de bonne foi et contiennent une clé privée. Ces informations d’identification doivent être stockées, gérées et accessibles en fonction de la stratégie informatique et de sécurité de votre entreprise.
+>Les informations d’identification de service sont authentiques et contiennent une clé privée. Ces informations d’identification doivent être stockées, gérées et accessibles conformément à la politique de sécurité et informatique de votre entreprise.
 
-## Ajout d’une connexion au référentiel
+## Ajouter une connexion au référentiel
 
-1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
+1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
 
 1. Cliquez sur **[!UICONTROL Assets]** dans le panneau intermédiaire.
 
-   ![Accès à l’espace de configuration Assets](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
+   ![Accéder à l’espace de configuration Assets](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
 <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
 -->
-À partir de là, vous pouvez configurer les connexions unitairement à chaque référentiel d’environnement AEM.
+À partir de là, vous pouvez configurer une par une les connexions à chaque référentiel d’environnement AEM.
 
 1. Dans la zone _[!UICONTROL Adobe Experience Manager Assets]_, cliquez sur la flèche en regard de **[!UICONTROL Configurer un référentiel]** et sélectionnez le référentiel.
 
    ![Choisir un référentiel AEM Assets](./assets/configure-assets-aem-choose-respository.png){width="500"}
 
-1. Cliquez sur **[!UICONTROL Ajouter un certificat]** et utilisez les outils de la boîte de dialogue pour télécharger le fichier.
+1. Cliquez sur **[!UICONTROL Ajouter un certificat]** et utilisez les outils de boîte de dialogue pour télécharger le fichier.
 
-   Vous pouvez charger un fichier .json en le faisant glisser sur la boîte de dialogue ou en cliquant sur le lien pour localiser et sélectionner un fichier sur votre système (assurez-vous que le fichier est un type JSON valide).
+   Vous pouvez charger un fichier .json en le faisant glisser sur la boîte de dialogue ou en cliquant sur le lien pour localiser et sélectionner un fichier sur votre système (assurez-vous que le fichier est d’un type JSON valide).
 
-   ![Télécharger le fichier de certificat JSON](./assets/configuration-assets-aem-upload-cert.png){width="500"}
+   ![Chargez le fichier JSON du certificat](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
-   Une fois le téléchargement effectué, le certificat s’affiche en bas de la page.
+   Après le chargement, le certificat s’affiche en bas.
 
    >[!NOTE]
    >
@@ -58,67 +60,67 @@ Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque pr
 
 1. Cliquez sur la flèche Précédent (←) pour revenir à la page de configuration principale.
 
-   Le référentiel configuré s’affiche dans le tableau sous le panneau de sélection. Vous pouvez ajouter un autre référentiel en répétant les étapes 3 à 4.
+   Le référentiel configuré s’affiche dans le tableau sous le panneau de sélection. Vous pouvez ajouter un autre référentiel en répétant les étapes 3 et 4.
 
-   ![Vérification des référentiels de ressources d’AEM configurés](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
+   ![Consultez les référentiels de ressources AEM configurés](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
-Une fois la configuration des référentiels terminée, les membres de l’équipe peuvent sélectionner Adobe Experience Manager Assets lors de la création de contenu.
+Une fois la configuration des référentiels terminée, les membres de l’équipe peuvent sélectionner l’Adobe Experience Manager Assets lors de la création de contenu.
 
 >[!NOTE]
 >
->L’édition B2B de Adobe Journey Optimizer prend en charge l’accès à une source de gestion des ressources numériques à la fois lors de la création de contenu. 
+>Adobe Journey Optimizer B2B edition prend en charge l’accès à une source de gestion des ressources numériques à la fois lors de la création de contenu. 
 
-## Remplacement d’un certificat
+## Remplacer un certificat
 
 Les certificats expirent tous les 365 jours à compter de la date de création. Remplacez-le avant son expiration pour vous assurer que votre équipe peut continuer à accéder aux ressources.
 
 >[!NOTE]
 >
->Adobe Journey Optimizer Édition B2B communique avec les ressources Experience Manager pour obtenir des informations d’utilisation. La connexion doit rester active pour une synchronisation des données d’utilisation fiable et pour éviter les incohérences de données. Les utilisateurs administrateurs sont informés de l’expiration des certificats par le biais des notifications in-app. Ils peuvent également noter les dates d’expiration de la sous-section Assets - Gestion des actifs numériques dans la zone d’administration.
+>Adobe Journey Optimizer B2B edition communique avec les ressources Experience Manager pour obtenir des informations d’utilisation. La connexion doit rester active pour une synchronisation fiable des données d’utilisation et pour éviter les incohérences de données. Les utilisateurs administrateurs sont avertis de l’expiration des certificats par le biais des notifications in-app. Ils peuvent également noter les dates d’expiration dans la sous-section Assets - Gestion des ressources numériques dans la zone Admin.
 
-1. Dans la page de gestion des ressources numériques, recherchez la liste des référentiels configurés.
+1. Sur la page de gestion des ressources numériques, recherchez la liste des référentiels configurés.
 
 1. Cliquez sur le référentiel de votre choix pour remplacer le certificat.
 
-1. Cliquez sur l’icône représentant des points de suspension (**...**) pour que le fichier de certificat affiche les options d’actions qu’il contient.
+1. Cliquez sur l’icône représentant des points de suspension (**...**) du fichier de certificat pour afficher les options d’actions correspondantes.
 
-   ![Accédez au menu d’options pour le certificat de référentiel de ressources AEM](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
+   ![Accédez au menu des options du certificat du référentiel de ressources AEM](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
-1. Sélectionnez **[!UICONTROL Remplacer]** pour ouvrir la boîte de dialogue de téléchargement de fichier.
+1. Choisissez **[!UICONTROL Remplacer]** pour ouvrir la boîte de dialogue de téléchargement du fichier.
 
-1. Chargez un fichier en le faisant glisser sur la boîte de dialogue ou à l’aide du lien. Assurez-vous que le fichier est de type json.
+1. Chargez un fichier en le faisant glisser dans la boîte de dialogue ou à l’aide du lien. Assurez-vous que le fichier est de type json.
 
-   ![Télécharger le fichier JSON de certificat JSON de certificat de référentiel de ressources d’AEM de remplacement](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
+   ![Chargez le fichier JSON du certificat de remplacement du référentiel des ressources AEM](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
-1. Cliquez sur **[!UICONTROL Remplacer]** pour confirmer le téléchargement.
+1. Cliquez sur **[!UICONTROL Remplacer]** pour confirmer le chargement.
 
-## Affichage d’un certificat
+## Afficher un certificat
 
-Vous pouvez afficher le fichier de certificat JSON associé à la connexion au référentiel.
+Vous pouvez afficher le fichier JSON de certificat associé à la connexion au référentiel.
 
-1. Dans la page de gestion des ressources numériques, recherchez la liste des référentiels configurés.
+1. Sur la page de gestion des ressources numériques, recherchez la liste des référentiels configurés.
 
 1. Cliquez sur le référentiel connecté.
 
-1. Cliquez sur l’icône représentant des points de suspension (**...**) pour que le fichier de certificat affiche les options d’actions qu’il contient.
+1. Cliquez sur l’icône représentant des points de suspension (**...**) du fichier de certificat pour afficher les options d’actions correspondantes.
 
-1. Sélectionnez **[!UICONTROL Affichage]**.
+1. Choisissez **[!UICONTROL Affichage]**.
 
-   ![Affichez le fichier JSON de certificat pour un référentiel de ressource AEM connecté](./assets/configuration-assets-aem-view-cert.png){width="600"}
+   ![Afficher le fichier JSON de certificat pour un référentiel de ressources AEM connecté](./assets/configuration-assets-aem-view-cert.png){width="600"}
 
-1. Cliquez sur **[!UICONTROL Fermer]** pour revenir à la page Configurer le référentiel .
+1. Cliquez sur **[!UICONTROL Fermer]** pour revenir à la page Configurer le référentiel.
 
-## Suppression d’une connexion de référentiel
+## Supprimer une connexion au référentiel
 
-La suppression d’un référentiel supprime l’accès utilisateur à l’environnement Experience Manager Assets dans Journey Optimizer B2B Edition.
+La suppression d’un référentiel supprime l’accès des utilisateurs et utilisatrices à l’environnement Experience Manager Assets dans Journey Optimizer B2B edition.
 
-1. Recherchez la liste des référentiels de ressources configurés sur la page _[!UICONTROL Gestion des actifs numériques]_.
+1. Sur la page _[!UICONTROL Gestion des ressources numériques]_, recherchez la liste des référentiels de ressources configurés.
 
 1. Cliquez sur le nom du référentiel souhaité pour modifier la connexion.
 
-1. Cliquez sur l’icône représentant des points de suspension (**...**) pour que le fichier de certificat affiche les options d’actions qu’il contient.
+1. Cliquez sur l’icône représentant des points de suspension (**...**) du fichier de certificat pour afficher les options d’actions correspondantes.
 
-1. Sélectionnez **[!UICONTROL Supprimer]**.
+1. Choisissez **[!UICONTROL Supprimer]**.
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
 <!--

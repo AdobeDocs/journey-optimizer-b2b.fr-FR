@@ -1,9 +1,9 @@
 ---
 title: Extraits
-description: Remarques réutilisées et éléments visuels pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -12,21 +12,34 @@ ht-degree: 0%
 
 <!-- Content authoring steps for reuse -->
 
-## Création de contenu - composants - étape des structures {#structures-step}
+## Configuration des données d’intention {#intent-data-note}
 
-1. Pour commencer la conception de contenu, faites glisser un élément de l’élément **[!UICONTROL Structures]** et déposez-le sur la zone de travail.
+>[!NOTE]
+>Les données d’intention peuvent également être incluses dans la page lorsqu’elle est configurée pour votre instance Journey Optimizer B2B edition. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, voir [Données d’intention](../user/admin/intent-data.md).
+>
 
-   Ajoutez autant d&#39;éléments de _[!UICONTROL Structures]_ que nécessaire et modifiez les paramètres de chacun dans le volet de droite.
+## note sur la licence des ressources AEM {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>Les licences pour AEM Assets as a Cloud Service et Dynamic Media sont des prérequis pour l’intégration. Assurez-vous que [Dynamic Media avec l’API Open](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} est activé.<br/>
+>Selon votre contrat et la configuration, Adobe Experience Manager Assets as a Cloud Service est directement accessible à partir de Adobe Journey Optimizer B2B edition lors de la conception de contenu visuel.
+
+## Étape Création de contenu - composants - structures {#structures-step}
+
+1. Pour commencer la conception de votre contenu, faites glisser un élément du **[!UICONTROL Structures]** et déposez-le sur la zone de travail.
+
+   Ajoutez autant d’éléments de _[!UICONTROL Structures]_ que nécessaire et modifiez les paramètres de chacun dans le volet de droite.
 
    >[!TIP]
    >
-   >Sélectionnez le composant _[!UICONTROL n:n column]_ pour définir le nombre de colonnes de votre choix (entre trois et dix). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches sous la colonne.
+   >Sélectionnez le composant _[!UICONTROL n:n colonne]_ pour définir le nombre de colonnes de votre choix (entre trois et 10). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches situées sous celle-ci.
 
    ![Faites glisser une structure sur la zone de travail et ajustez les paramètres](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
 
    La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Seules les colonnes vides peuvent être supprimées.
 
-## Création de contenu - composants - étape du contenu {#contents-step}
+## Création de contenu - Composants - Étape du contenu {#contents-step}
 
 1. Développez la section **[!UICONTROL Contenu]** et ajoutez autant d’éléments que nécessaire dans un ou plusieurs composants de structure.
 
@@ -34,36 +47,32 @@ ht-degree: 0%
    <!--
    reference to the contents elements--->
 
-## Création de contenu - composants - étape Paramètres {#settings-step}
+## Création de contenu - Composants - Étape des paramètres {#settings-step}
 
-1. Si nécessaire, vous pouvez effectuer des personnalisations supplémentaires pour chaque composant dans les onglets _[!UICONTROL Paramètres]_ ou _[!UICONTROL Style]_ .
+1. Si nécessaire, vous pouvez effectuer des personnalisations supplémentaires pour chaque composant dans les onglets _[!UICONTROL Paramètres]_ ou _[!UICONTROL Style]_.
 
-   Par exemple, vous pouvez modifier le style de texte, la marge ou la marge intérieure de chaque composant.
+   Par exemple, vous pouvez modifier le style de texte, la marge intérieure ou la marge de chaque composant.
 
-## Création de contenu - étape Ressources {#assets-step}
+## Création de contenu - Étape Ressources {#assets-step}
 
-1. Dans le sélecteur _Ressource_, vous pouvez sélectionner directement des ressources stockées dans la bibliothèque de ressources.
+1. Dans le sélecteur _Ressource_, vous pouvez sélectionner directement les ressources stockées dans la bibliothèque de ressources.
 
-   Double-cliquez sur le dossier contenant vos ressources. Faites glisser les éléments dans un composant de structure.
+   Double-cliquez sur le dossier contenant vos ressources. Faites glisser et déposez les éléments dans un composant de structure.
 
-   >[!NOTE]
-   >
-   >Si vous disposez d’un abonnement pour Experience Manager Assets as a Cloud Service avec Adobe Marketo Engage Design Studio par défaut, vous devez choisir la [source d’image](../user/content/assets-overview.md#choose-an-asset-source) au moment de la création pour un email, un modèle de courrier électronique ou un fragment visuel. Cependant, vous pouvez également sélectionner la source de l’image avant d’ouvrir le concepteur de contenu en vue de la modifier.
-
-   Pour plus d’informations sur l’utilisation des ressources de votre type source, voir [Ajout de ressources à votre contenu](../user/content/assets-overview.md#add-assets-to-your-content).
+   Pour plus d’informations sur l’utilisation des ressources de votre type de source, voir [ Ajouter des ressources à votre contenu ](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
    ![Faites glisser une ressource de Marketo Engage sur la zone de travail et ajustez les paramètres](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
 ## Création de contenu - étape de personnalisation {#personalization-step}
 
-1. Insérez des champs de personnalisation pour personnaliser votre contenu à partir des attributs de profil, des appartenances à l’audience, des attributs contextuels, etc.
+1. Insérez des champs de personnalisation pour personnaliser votre contenu à partir des attributs de profil, des appartenances aux audiences, des attributs contextuels, etc.
 
-## Création de contenu - étape d’activation du contenu des conditions {#dynamic-content-step}
+## Création de contenu - Activer l’étape de contenu de condition {#dynamic-content-step}
 
-1. Cliquez sur **[!UICONTROL Activer le contenu de condition]** pour ajouter du contenu dynamique et adapter le contenu aux profils ciblés selon des règles conditionnelles.
+1. Cliquez sur **[!UICONTROL Activer le contenu conditionnel]** pour ajouter du contenu dynamique et adapter le contenu aux profils ciblés selon des règles conditionnelles.
 
 ## Création de contenu - étape de suivi des liens {#links-tracking-step}
 
-1. Sélectionnez l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL de votre contenu qui font l’objet d’un suivi.
+1. Sélectionnez l’onglet **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL du contenu qui fait l’objet d’un suivi.
 
-   Vous pouvez modifier le _Type de suivi_ ou le _Libellé_ et ajouter des balises si nécessaire.
+   Vous pouvez modifier le _Type de tracking_ ou le _Libellé_ et ajouter des balises si nécessaire.
