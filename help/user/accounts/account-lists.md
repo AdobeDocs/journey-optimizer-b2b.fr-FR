@@ -1,7 +1,10 @@
 ---
 title: Listes de comptes
 description: Découvrez les listes de comptes et comment les marketeurs peuvent les utiliser pour cibler les comptes par le biais de parcours de compte.
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -232,4 +235,3 @@ Par exemple, vous pouvez avoir un chemin de parcours où vous envoyez un e-mail 
 1. Pour **[!UICONTROL Sélectionner la liste des comptes statiques actifs]**, choisissez la liste des comptes dans laquelle vous souhaitez supprimer des comptes.
 
    ![Sélectionnez Ajouter à la liste des comptes](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
