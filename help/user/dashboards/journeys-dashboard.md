@@ -1,75 +1,57 @@
 ---
-title: Tableau de bord Aperçu du parcours
-description: Découvrez les informations fournies par le tableau de bord Aperçu du Parcours et comment il peut vous aider à surveiller et gérer votre stratégie de parcours de compte.
+title: Tableau de bord de présentation des Parcours de compte
+description: Découvrez les informations fournies par le tableau de bord de présentation du Parcours et comment elles peuvent vous aider à surveiller et à gérer votre stratégie de parcours de compte.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8df1e44d5d978249ffc6e95b3a383644358d1d66
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 2%
 
 ---
 
-# Tableau de bord Aperçu du parcours
+# Tableau de bord de présentation des Parcours de compte
 
-Ce tableau de bord présente un aperçu complet d’un parcours de compte sélectionné, et détaille l’avancement du compte à l’aide de graphiques en anneau et en courbes qui catégorisent et quantifient les performances, les activités en cours et les abandons au fil du temps. Il permet aux marketeurs d’évaluer l’efficacité des canaux email et SMS par le biais de mesures de diffusion et d’engagement clés.
+Ce tableau de bord fournit un aperçu complet de vos parcours de compte actifs, détaillant la progression du compte à l’aide de graphiques à barres et en cercles qui catégorisent et quantifient les tâches terminées, ainsi que les activités d’engagement. Il permet aux spécialistes marketing d’évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures de diffusion et d’engagement clés.
 
-Cette présentation est disponible pour les parcours de compte publiés et il faut environ quatre heures pour que les données commencent à apparaître dans les graphiques et les tableaux.
+Cet aperçu est disponible pour les parcours de compte publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
 
-![Présentation des Parcours](./assets/journey-overview.png){width="700" zoomable="yes"}
+Présentation du Parcours ![](./assets/journey-overview.png){width="700" zoomable="yes"}
 
-## Statut du parcours
+## Répartition du taux d’achèvement du parcours
 
-Ce graphique en anneau présente une ventilation des états du parcours, en classant les comptes en `Completed`, `In Progress` et `Aborted`. Chaque segment est clairement libellé avec les pourcentages et les numéros de compte correspondants à l’extérieur du graphique.
+Ce graphique illustre la répartition des parcours en fonction de leur taux d’achèvement et est classé en quatre tranches de score distinctes. La figure centrale représente le nombre total de parcours et fournit un instantané rapide de la progression globale. Les couleurs segmentées indiquent la proportion de parcours dans chaque plage de notes, ce qui vous permet d’évaluer les tendances d’achèvement en un coup d’œil.
 
-## Achèvement du parcours au fil du temps
+Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-Ce graphique en courbes effectue le suivi du nombre de comptes qui ont terminé leur parcours au fil du temps. L’axe horizontal mappe la chronologie tandis que l’axe vertical quantifie les comptes, fournissant une vue directe des tendances d’achèvement.
+![distribution du taux d&#39;achèvement du Parcours ](./assets/journey-completion-rate-distribution.png){width="500"}
 
-## Widgets de performances de parcours
+## Parcours par type d’engagement
 
-Cette section présente deux mesures essentielles :
+Ce graphique à barres affiche la répartition des parcours en fonction du type d’engagement et vous aide à identifier les engagements les plus utilisés dans les parcours. Chaque barre représente un type d’engagement spécifique, sa longueur indiquant le nombre de parcours avec des activités de ce type. Cette visualisation permet de comprendre clairement et immédiatement les tendances d’engagement dans les parcours de votre compte.
 
-* **[!UICONTROL Taux d’achèvement du Parcours]** - Pourcentage de comptes ayant terminé leur parcours avec succès.
-* **[!UICONTROL Durée du Parcours]** - Durée moyenne nécessaire aux comptes pour terminer leur parcours.
+Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-## Tables de performances des emails et des SMS
+![distribution du taux d&#39;achèvement du Parcours ](./assets/journeys-by-engagement-type.png){width="500"}
 
-Les tableaux de performances fournissent un aperçu détaillé de l’efficacité des canaux Email et SMS. Chaque tableau présente des mesures, telles que les taux de diffusion et les taux de clics publicitaires, afin d’évaluer l’impact de chaque point de contact de communication.
+## Utiliser les données
 
-Colonnes de table **[!UICONTROL Email performance]** :
+Pour utiliser les données, utilisez le menu **...** en haut à droite de chaque graphique.
 
-* _[!UICONTROL Nom de la ressource]_ - nom de la ressource
-* _[!UICONTROL Envoyé]_ - Nombre d&#39;emails envoyés
-* _[!UICONTROL Taux de diffusion]_ : nombre d&#39;emails délivrés divisé par le nombre d&#39;envois
-* _[!UICONTROL Taux d’ouverture]_ : nombre d’emails ouverts divisé par le nombre de messages délivrés
-* _[!UICONTROL Taux de clics]_ : nombre de clics par courrier électronique divisé par le nombre de envois
+### [!UICONTROL Exploration amont]
 
-Colonnes de table **[!UICONTROL Performances des SMS]** :
+Pour le graphique en cercle, choisissez **[!UICONTROL Analyser en amont]** pour une analyse approfondie des données.
 
-* _[!UICONTROL Nom de la ressource]_ - nom de la ressource
-* _[!UICONTROL Envoyé]_ - Nombre de SMS envoyés
-* _[!UICONTROL Taux de diffusion]_ : nombre de SMS délivrés divisé par le nombre d&#39;envois
-* _[!UICONTROL Taux de clics]_ : nombre de SMS cliqués divisé par le nombre de messages délivrés
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+![Accéder aux données du graphique en effectuant une exploration en amont](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-## Amélioration de l’interaction
+Vous pouvez cliquer sur le menu _Plus_ (**...**) en haut à droite et choisir **[!UICONTROL Afficher plus]** pour [afficher les données étendues](#view-more).
 
-Contactez les données en utilisant l’icône d’action (**...**) en haut à droite de chaque graphique ou tableau.
+### [!UICONTROL En savoir plus]
 
-### Exploration
+Choisissez **[!UICONTROL Afficher plus]** pour afficher des données et des informations étendues.
 
-Pour le graphique _[!UICONTROL état du Parcours]_, choisissez **[!UICONTROL Parcourir]** pour une analyse approfondie des états de compte individuels.
+![Afficher les données étendues](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
-![Exploration des données graphiques](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
-<!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+Le pop-up affiché comprend un graphique et un tableau qui montrent la répartition des données du parcours.
 
-### Afficher plus
-
-Sélectionnez **[!UICONTROL Afficher plus]** pour accéder aux données et informations étendues. La fenêtre contextuelle affichée fournit une ventilation des données.
-
-Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite.
-
-![Afficher les données étendues](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}
+Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite du tableau de données. Pour revenir au tableau de bord _Présentation_, cliquez sur **[!UICONTROL Fermer]**.

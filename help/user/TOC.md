@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de l’édition B2B de Journey Optimizer
 user-guide-description: Découvrez l’édition B2B d’Adobe Journey Optimizer et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
+source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 40%
+source-wordcount: '221'
+ht-degree: 38%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 40%
    + [Utiliser l’assistant AI](./start/ai-assistant.md)
 + Parcours de compte {#account-journeys}
    + [Vue d’ensemble](./journeys/journey-overview.md)
+   + [Détails du parcours](./journeys/journey-details.md)
    + [Nœud de parcours](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
       + [Audience (comptes)](./journeys/account-audience-nodes.md)
@@ -45,15 +46,16 @@ ht-degree: 40%
       + [Détails du groupe d&#39;achat](./buying-groups/buying-group-details.md)
       + [Créer des groupes d&#39;achats](./buying-groups/buying-groups-create.md)
       + [Exporter la liste des comptes](./audiences/account-list-export.md)
-      + [Audiences correspondantes du compte linkedIn](./data/linkedin-account-matched-audiences.md)
+      + [Audiences correspondantes du compte LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtres de groupe d&#39;achat dans Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + [Listes de comptes](./accounts/account-lists.md)
+   + [Détails du compte](./accounts/account-details.md)
    + [Champs XDM](./data/field-mapping.md)
 + Gestion de contenu {#content-management}
    + Ressources {#assets}
       + [Vue d’ensemble](./content/assets-overview.md)
       + {#marketo-engage-dam} des ressources Marketo Engage
-         + [Utilisation de ressources Marketo Engage](./content/marketo-engage-design-studio.md)
+         + [Utilisation des ressources Marketo Engage](./content/marketo-engage-design-studio.md)
          + [Modifier des images à l’aide d’Adobe Express](./content/image-edit-adobe-express.md)
       + [Ressources d’image Experience Manager](./content/aem-assets.md)
    + Modèles {#templates}
@@ -70,10 +72,9 @@ ht-degree: 40%
    + [Contenu conditionnel](./content/conditional-content.md)
 + {#dashboards} des tableaux de bord Insights
    + [Tableau de bord intelligent](./dashboards/intelligent-dashboard.md)
-   + [Détails du compte](./accounts/account-details.md)
-   + [Présentation des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
    + [Vue d’ensemble de l’engagement](./dashboards/engagement-dashboard.md)
-   + [Vue d’ensemble du parcours](./dashboards/journeys-dashboard.md)
+   + [Présentation des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
+   + [Présentation des Parcours de compte](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
    + [Gestion des utilisateurs](./admin/user-management.md)
    + [Données d’intention](./admin/intent-data.md)

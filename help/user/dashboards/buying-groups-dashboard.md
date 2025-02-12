@@ -1,89 +1,96 @@
 ---
-title: Tableau de bord Aperçu des groupes d’achat
-description: Découvrez le tableau de bord Aperçu des groupes d’achat et comment il active la passation des pouvoirs par l’équipe marketing.
+title: Tableau de bord de présentation des groupes d'achat
+description: Découvrez le tableau de bord de présentation des groupes d’achats et comment il permet la remise des ventes à l’équipe marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '584'
+ht-degree: 3%
 
 ---
 
-# Tableau de bord Aperçu des groupes d’achat
+# Tableau de bord de présentation des groupes d&#39;achat
 
-Le tableau de bord Aperçu du groupe d’achats est conçu pour le processus de passation des marchés B2B. Elle permet à l’équipe marketing de partager des groupes d’achats _ready_ et leurs membres avec des données essentielles à l’équipe de vente pour exécution. Ce processus assure une transition simplifiée du marketing aux ventes.
+Le tableau de bord Aperçu pour les groupes d’achats est conçu pour le processus de remise des ventes B2B. Il permet à l’équipe marketing de partager les groupes d’achats _prêts_ et leurs membres, ainsi que les données essentielles, à l’équipe commerciale pour exécution. Ce processus simplifie la transition du marketing aux ventes.
 
-La passation des marchés comprend :
+La remise des ventes comprend :
 
-* **Transfert de données** : Marketing identifie les données cibles _ready_ et les rend accessibles aux ventes au format CSV. 
-* **Acceptation des ventes** : les ventes révisent manuellement et incorporent des cibles _ready_ dans leur pipeline.
+* **Transfert de données** : le service marketing identifie les données cibles _prêtes_ et les rend accessibles aux ventes au format CSV. 
+* **Acceptation des ventes** : les ventes examinent et incorporent manuellement les cibles _prêtes_ dans leur pipeline.
 
-## Statut du groupe d’achat
+Pour accéder à ce tableau de bord, développez **[!UICONTROL Comptes]** dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Groupes d’achats]**. Sélectionnez l’onglet **[!UICONTROL Aperçu]** s’il n’est pas affiché par défaut.
 
-Obtenez des informations sur la progression de vos groupes d’achats avec la vue État du groupe d’achat . Cette visualisation présente la distribution de vos groupes d’achat classés selon leur mise à jour d’état la plus récente au cours d’une période donnée.
+![Présentation des groupes d&#39;achat](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+<!--
+## Buying Group Status
 
-![Présentation des groupes d’achat](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+Gain insights into your buying groups' progression with the Buying Group Status view. This visualization showcases the distribution of your buying groups categorized by their most recent status update within a specified time frame.
 
-**[!UICONTROL État]** (axe y) : effectuez le suivi du parcours des groupes d’achat au cours de différentes étapes.
-**[!UICONTROL Nombre de groupes d’achats]** (axe x) : quantifiez le nombre de groupes d’achats à chaque état, fournissant une mesure claire de l’état et de l’activité de votre entonnoir.
-<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
+![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 
-### Filtrage des données
+**[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
+**[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
 
-* **Filtre de données** - Utilisez le _[!UICONTROL filtre de date]_, qui reflète la date de dernière modification de l’état du groupe d’achat. La date de début est ajustable. La date de fin correspond par défaut au jour en cours.
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-  ![Filtrage des données d’état du groupe d’achat par période](./assets//buying-group-status-filter-date.png){width="400"}
+## Distribution du score d’achèvement du groupe d’achat
 
-* **Filtre d’attributs** - Cliquez sur l’icône _Filtre_ en haut à gauche pour filtrer l’affichage des données à l’aide de l’un de ces attributs :
+Cette visualisation illustre la répartition des groupes d’achats en fonction des scores d’achèvement et est classée en quatre bandes de scores distinctes. Le chiffre central représente le nombre total de groupes d&#39;achat et fournit un instantané rapide de la progression globale. Les couleurs segmentées indiquent la proportion de groupes d&#39;achat dans chaque plage de notes, ce qui vous permet d&#39;évaluer les tendances d&#39;achèvement en un coup d&#39;œil.
 
-   * Intérêt pour la solution
-   * Statut
-   * États du groupe d’achat
-   * Région de compte
-   * Secteur du compte
-  <!-- * Account's Industry -->
+Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-  ![Filtrage des données d’état du groupe d’achat par attribut](./assets/buying-group-status-drill-through-filters.png){width="500"}
+![Visualisation du score d’achèvement du groupe d’achats](./assets/buying-group-completion-score-chart.png){width="500"}
 
-## Interagir avec les données
+## Distribution du score d’engagement du groupe d’achat
 
-Pour interagir avec les données, utilisez le menu d’actions dans le coin supérieur droit.
+Cette visualisation illustre la répartition des groupes d’achat en fonction de leurs scores d’engagement. Elle est classée en quatre bandes de scores distinctes. Le chiffre central représente le nombre total de groupes d&#39;achat et fournit un instantané rapide de la progression globale. Les couleurs segmentées indiquent la proportion de groupes d&#39;achat dans chaque plage de notes, ce qui vous permet d&#39;évaluer les tendances d&#39;achèvement en un coup d&#39;œil.
 
-![Cliquez sur l’icône pour accéder au menu d’actions](./assets/buying-group-more-menu.png){width="300"}
+Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-### [!UICONTROL Exploration ]
+![Visualisation du score d’engagement du groupe d’achats](./assets/buying-group-completion-score-chart.png){width="500"}
 
-Sélectionnez **[!UICONTROL Exploration]** pour une analyse approfondie des statuts de groupes individuels.
+## Groupes d’achat par intérêt de la solution
 
-![Exploration des données graphiques](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
+Cette visualisation illustre la répartition des groupes d’achat par intérêt pour une solution et vous aide à identifier les solutions qui suscitent le plus d’intérêt. Chaque barre représente une solution spécifique, sa longueur indiquant le nombre de groupes d’achat associés à cet intérêt. Ce graphique à barres offre une compréhension claire et immédiate des tendances de la demande en solutions.
 
-Les filtres globaux appliqués au tableau de bord sont reportés.
+Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite. Choisissez **Explorer en amont** ou **Afficher plus**.
 
-Cliquez sur l’icône du menu d’actions en haut à droite et choisissez **[!UICONTROL Afficher plus]** pour [afficher les données étendues et les insights](#view-more).
+![Visualisation du score d’engagement du groupe d’achats](./assets/buying-group-by-solution-interest-chart.png){width="500"}
 
-### [!UICONTROL Afficher plus]
+## Filtrer les données
 
-Sélectionnez **[!UICONTROL Afficher plus]** pour les données étendues et les insights. La fenêtre contextuelle affichée comprend un graphique et un tableau qui présentent la répartition des statuts des groupes d’achats :
+Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/icon-filter.svg) ) en haut à gauche pour filtrer les données affichées à l’aide de l’un des attributs suivants :
 
-* [!UICONTROL  ID de compte ]
-* [!UICONTROL Nom du compte]
-* [!UICONTROL Région de compte]
-* [!UICONTROL Secteur du compte]
-* [!UICONTROL Nom du groupe d’achat]
-* [!UICONTROL Centre d’intérêt des solutions]
-* [!UICONTROL Statut]
-* [!UICONTROL Score d’engagement]
-* [!UICONTROL Score d’exhaustivité]
-* [!UICONTROL Rôle de membre]
-* [!UICONTROL  Membre inscrit / Date de création]
-* [!UICONTROL ID de personne]
-* [!UICONTROL Nom]
-* [!UICONTROL E-mail.]
-* [!UICONTROL Titre]
-* [!UICONTROL Nombre d’activités d’engagement entrantes]
-* [!UICONTROL Date du dernier engagement]
+* Étape actuelle
+* Secteur industriel
+* Région
+* Intérêt de la solution
 
-![Afficher les données étendues](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
+![Filtrer les données affichées par attributs](./assets/buying-group-overview-filters.png){width="500"}
 
-Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite.
+Sélectionnez autant de valeurs pour chaque attribut que vous souhaitez utiliser pour filtrer les données et cliquez sur **[!UICONTROL Appliquer]**.
+
+## Utiliser les données
+
+Pour utiliser les données, utilisez le menu _Plus_ (**...**) en haut à droite de chaque graphique.
+
+### [!UICONTROL Exploration amont]
+
+Choisissez **[!UICONTROL Analyser en amont]** pour une analyse approfondie des scores ou des distributions de groupes individuels.
+
+![Accéder aux données du graphique en effectuant une exploration en amont](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
+
+Les filtres globaux appliqués au tableau de bord sont conservés. Cliquez sur l’icône _Filtre_ ( ![Icône Filtre](../assets/do-not-localize/icon-filter.svg) ) en haut à gauche pour [modifier les filtres d’attribut](#filter-the-data) pour la vue d’exploration amont.
+
+Vous pouvez cliquer sur le menu _Plus_ (**...**) en haut à droite et choisir **[!UICONTROL Afficher plus]** pour [afficher les données étendues](#view-more).
+
+### [!UICONTROL En savoir plus]
+
+Choisissez **[!UICONTROL Afficher plus]** pour afficher des données et des informations étendues.
+
+![Afficher les données étendues](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
+
+Le pop-up affiché comprend un graphique et un tableau qui montrent la répartition des groupes d&#39;achats.
+
+Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite du tableau de données. Pour revenir au tableau de bord Aperçu, cliquez sur **[!UICONTROL Fermer]**.
