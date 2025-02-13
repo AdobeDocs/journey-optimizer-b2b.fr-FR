@@ -2,9 +2,9 @@
 title: Documentation de l’édition B2B d’Adobe Journey Optimizer
 description: Découvrez comment utiliser les fonctionnalités de Adobe Journey Optimizer B2B edition pour orchestrer des parcours de compte et de groupe d’achat à l’aide de l’IA générative intégrée et de l’automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '616'
 ht-degree: 7%
 
 ---
@@ -17,39 +17,37 @@ Voici un exemple des dernières améliorations apportées au produit et à la do
 
 >[!BEGINTABS]
 
+>[!TAB Tableau de bord des informations intelligentes]
+
+Avec le nouveau tableau de bord intelligent, vous pouvez voir la progression de la qualification du groupe d&#39;achat à travers les étapes. Identifiez les groupes d’achats qui évoluent rapidement et ceux qui stagnent afin de pouvoir organiser les parcours pour les alimenter si nécessaire. Vous disposez également de détails au niveau du groupe d’achats et du compte, ce qui fournit davantage de données contextuelles et historiques pour l’engagement du client.
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="En savoir plus sur le tableau de bord intelligent"}
+
+>[!TAB Modification d’images Adobe Express]
+
+Utilisez les actions rapides d’Adobe Express pour retoucher votre contenu avec le recadrage, le redimensionnement, la suppression de l’arrière-plan et la conversion de format. L’interface utilisateur intuitive d’Adobe Express est intégrée afin que vous puissiez rapidement affiner vos ressources d’image.
+
+Grâce aux licences d’entreprise d’Adobe Express, vous pouvez tirer parti d’une suite complète de fonctionnalités d’Adobe Express. Utilisez ces fonctionnalités pour peaufiner et améliorer les images, tout en respectant les directives de la marque, et supprimer les obstacles dans la chaîne d’approvisionnement du contenu.
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="En savoir plus sur la modification d’images avec Adobe Express"}
+
+>[!TAB  Transfert d’événement AEP ]
+
+Les administrateurs peuvent désormais configurer des définitions d’événement basées sur Adobe Experience Platform (AEP). Ces configurations permettent aux spécialistes marketing de créer des parcours de compte qui réagissent aux événements d’expérience AEP.
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Découvrez les définitions d’événement AEP utilisées pour l’orchestration des parcours"}
+
+>[!TAB Achat de filtres de groupe pour les listes dynamiques]
+
+Vous pouvez désormais afficher et créer des listes dynamiques avec des filtres de groupe d’achat dans Marketo Engage. Ces filtres vous permettent de supprimer et d’inclure des membres de groupes d’achat dans les campagnes et programmes Marketo Engage à partir des parcours de compte dans Journey Optimizer B2B edition.
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="En savoir plus sur les filtres de groupes d’achat utilisés dans les listes dynamiques Marketo Engage"}
+
 >[!TAB Contenu conditionnel]
 
 Utilisez du contenu conditionnel pour adapter le contenu de votre e-mail en fonction de règles conditionnelles. Définissez les règles à l’aide d’attributs de profil ou d’événements contextuels. Vous pouvez créer des règles conditionnelles dans le créateur de règles et les stocker pour les réutiliser dans les parcours de votre compte.
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/content/conditional-content.md" tooltip="En savoir plus sur le contenu conditionnel"}
-
->[!TAB Action Personnes - Ajouter/supprimer de la liste]
-
-Dans un parcours de compte, utilisez le nœud d’action _Ajouter à la liste_ pour ajouter des personnes à une liste statique de Marketo Engage. Ces listes vous offrent une flexibilité totale pour réutiliser et cibler des audiences spécifiques. Vous pouvez créer une liste puis créer une campagne autour de celle-ci ou ajouter directement une personne à une campagne existante. De plus, utilisez l’action _Supprimer de la liste_ personnes pour affiner et modifier votre ciblage dans Marketo Engage en fonction de la progression du parcours de compte.
-
-[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Découvrez comment ajouter à la liste et supprimer de la liste"}
-
->[!TAB Bibliothèque de ressources centrale]
-
-Utilisez les ressources d’image dans votre instance de Marketo Engage, dans les espaces de travail de Design Studio. Les mécanismes de sécurisation intégrés empêchent les modifications apportées aux ressources du Marketo Engage à partir de Journey Optimizer B2B edition. Ces protections garantissent que les ressources sources du Marketo Engage sont conservées tout en permettant une lecture et une réutilisation transparentes dans Journey Optimizer B2B edition. Pour les ressources destinées exclusivement à Journey Optimizer B2B edition, un espace de travail spécifique fournit des fonctions complètes de gestion des ressources.
-
-[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="En savoir plus sur la gestion centrale des ressources"}
-
->[!TAB Audiences Correspondantes Du Compte LinkedIn]
-
-Générez des audiences d’annonces LinkedIn par le biais d’audiences avec correspondance de compte pour vous aider à remplir des rôles vides dans vos groupes d’achats. En définissant un ensemble de filtres de groupe d’achats, vous pouvez gérer une Audience appariée LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d’achats. Cette fonctionnalité exploite les destinations Experience Platform pour gérer certains aspects de l’intégration.
-
-[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="En savoir plus sur les audiences avec correspondance de compte LinkedIn"}
-
->[!TAB Assistant IA]
-
-Familiarisez-vous rapidement avec les concepts marketing basés sur un compte et découvrez les fonctionnalités de Journey Optimizer B2B edition conçues pour optimiser les stratégies de votre équipe.
-
-[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="En savoir plus sur l’assistant AI"}
-
-Faites passer votre contenu au niveau supérieur avec l’assistant AI pour le contenu d’e-mail dans Adobe Journey Optimizer B2B edition, optimisé par une IA générative. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets, du contenu textuel ciblé et même des images spécialement conçues pour résonner auprès de votre audience.
-
-[!BADGE En savoir plus]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="En savoir plus sur l’assistant AI pour les e-mails"}
 
 >[!ENDTABS]
 
@@ -119,7 +117,7 @@ Découvrez les composantes d&#39;un groupe d&#39;achat et les principes de base 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Informations et tableaux de bord"><br/>
-      <strong>Informations</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Tableau de bord des groupes d’achat</a><br/><a href="./dashboards/journeys-dashboard.md">Tableau de bord des Parcours </a><br/><a href="./dashboards/engagement-dashboard.md">Tableau de bord de l’engagement</a>
+      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Tableau de bord intelligent</a><br/><a href="./dashboards/engagement-dashboard.md">Tableau de bord d’engagement</a><br/><a href="./dashboards/buying-groups-dashboard.md">Tableau de bord des groupes d’achat</a><br/><a href="./dashboards/journeys-dashboard.md">Tableau de bord Parcours</a>
     </td>
 
 </tr>
