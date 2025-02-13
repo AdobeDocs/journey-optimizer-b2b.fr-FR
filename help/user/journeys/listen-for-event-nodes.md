@@ -2,9 +2,10 @@
 title: Écoute d’un événement
 description: Découvrez le type de nœud d’événement Écouter pour que vous puissiez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1368'
 ht-degree: 13%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 13%
 # Écoute d’un événement
 
 Ajoutez le nœud _Écouter un événement_ pour faire passer votre audience à l’étape suivante du parcours de compte lorsqu’un événement se produit.
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
 
 >[!NOTE]
 >
@@ -62,8 +65,8 @@ Ecoutez un événement basé sur des personnes lorsque vous souhaitez déplacer 
 | | Retiré du groupe d&#39;achat | Intérêt de la solution<br/>Date de l’activité (facultatif)<br/>Délai d’expiration (facultatif) |
 | | Modification du score | Nom du score<br/><br/>Contraintes supplémentaires (facultatif) :<li>Changement</li><li>Nouveau score</li><li>Urgence</li><li>Priorité</li><li>Score relatif</li><li>Urgence relative</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
 | | Rebonds SMS | Message SMS<br/><br/>Contraintes additionnelles (optionnel) : <li>Date d’activité</li><li>Nombre minimum de fois</li><br/>Délai d’expiration (facultatif) |
-| Marketo Engage | Visites sur la page Internet | Page Web <br/> Sélectionnez une ou plusieurs pages de Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Moteur de recherche</li><li>Requête</li><li>Jeton</li><li>Navigateur</li><li>Platform</li><li>Appareil</li><li>Date d’activité</li> |
-| | Remplit le formulaire | Formulaire <br/> Sélectionnez un ou plusieurs formulaires de Marketo Engage à faire correspondre.  <br/><br/>Contraintes supplémentaires (facultatif) : <li>Date d’activité</li><li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Platform</li><li>Appareil</li><br/>Délai d’expiration (facultatif) |
+| Marketo Engage | Visites sur la page Internet | <br/> de page web Sélectionnez une ou plusieurs pages Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Moteur de recherche</li><li>Requête</li><li>Jeton</li><li>Navigateur</li><li>Platform</li><li>Appareil</li><li>Date d’activité</li> |
+| | Remplit le formulaire | <br/> de formulaire Sélectionnez un ou plusieurs formulaires Marketo Engage à faire correspondre.  <br/><br/>Contraintes supplémentaires (facultatif) : <li>Date d’activité</li><li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Platform</li><li>Appareil</li><br/>Délai d’expiration (facultatif) |
 | Adobe Experience Platform | Définition de l’événement | Type d&#39;événement <br/><br/>Contraintes additionnelles (optionnelles) : <li>Champs</li> <br/>Contraintes additionnelles (non prises en charge) : <li>Date d’activité</li><li>Min. nombre de fois</li>Délai d’expiration du <br/> (facultatif) |
 
 ### Ajouter un événement de personne
@@ -82,7 +85,7 @@ Ecoutez un événement basé sur des personnes lorsque vous souhaitez déplacer 
 
 ### Écoute de l’événement Marketo Engage
 
-Si des pages web sont créées dans votre instance de Marketo Engage connectée, vous pouvez déclencher un événement en fonction d’une visite ou d’une absence de visite des pages web du Marketo Engage, ainsi que des formulaires de Marketo Engage qui ont été remplis ou non.
+Si des pages web sont créées dans votre instance Marketo Engage connectée, vous pouvez déclencher un événement en fonction d’une visite ou d’une absence de visite des pages web Marketo Engage, ainsi que des formulaires Marketo Engage qui ont été remplis ou non.
 
 1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans l’éditeur de parcours.
 
@@ -99,7 +102,7 @@ Si des pages web sont créées dans votre instance de Marketo Engage connectée,
 
 1. Cliquez sur **[!UICONTROL Modifier l’événement]** et définissez une ou plusieurs pages web à faire correspondre et toute contrainte supplémentaire pour l’événement.
 
-   * (Obligatoire) Dans la boîte de dialogue _[!UICONTROL Modifier l’événement]_, définissez la contrainte **[!UICONTROL Page web]** ou Remplit le formulaire. Utilisez **[!UICONTROL is]** (par défaut) pour rechercher une correspondance sur une ou plusieurs pages ou formulaires sélectionnés. Utilisez **[!UICONTROL n’est pas]** pour correspondre à toutes les visites de page/formulaires avec l’exclusion d’une ou de plusieurs pages/formulaires sélectionnés. Vous pouvez également utiliser **[!UICONTROL est n’importe lequel]** pour faire correspondre sur n’importe quelle page web de Marketo Engage visitée ou formulaire rempli.
+   * (Obligatoire) Dans la boîte de dialogue _[!UICONTROL Modifier l’événement]_, définissez la contrainte **[!UICONTROL Page web]** ou Remplit le formulaire. Utilisez **[!UICONTROL is]** (par défaut) pour rechercher une correspondance sur une ou plusieurs pages ou formulaires sélectionnés. Utilisez **[!UICONTROL n’est pas]** pour correspondre à toutes les visites de page/formulaires avec l’exclusion d’une ou de plusieurs pages/formulaires sélectionnés. Vous pouvez également utiliser **[!UICONTROL est n’importe lequel]** pour faire correspondre sur n’importe quelle page web Marketo Engage visitée ou formulaire rempli.
 
    * (Facultatif) Cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez le champ à utiliser pour la contrainte. Définissez l’opérateur et la valeur du champ .
 
@@ -175,5 +178,6 @@ Si nécessaire, définissez le temps d’attente du parcours pour l’événemen
 
    ![Nœud d’événement de Parcours : définissez le chemin de temporisation](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## Vidéo de présentation
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

@@ -2,9 +2,10 @@
 title: Fractionner et fusionner les chemins
 description: Découvrez les types de nœuds de chemins de division et de chemins de fusion que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: af6e89b25ca20e14ec9a4c2ed4c8d632ad7c12dc
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1519'
 ht-degree: 5%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 5%
 # Fractionner et fusionner les chemins
 
 Utilisez les nœuds de chemin de partage et de fusion dans votre parcours de compte pour orchestrer vos parcours de compte. Vous pouvez segmenter l’audience en fonction des conditions que vous définissez et combiner les segments pour continuer.
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
 
 ## Partage de chemins
 
@@ -52,9 +55,9 @@ _Comment fonctionne un nœud de partage de chemin par personnes ?_
 | [Personnes](#add-a-split-path-by-people-node) > [!UICONTROL Attributs des personnes uniquement] | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Intitulé du poste</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné</li><li>Raison désabonnement</li> |
 | | [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Activités e-mail associées au parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail]</li><li>E-mail ouvert</li><li>A reçu l’e-mail</li><li>A reçu un e-mail</li> Ces conditions sont évaluées à l’aide d’un e-mail sélectionné plus tôt dans le parcours. |
 | | [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li> |
-| | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance de Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape</li><li>E-mail</li><li>Web</li> |
+| | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape</li><li>E-mail</li><li>Web</li> |
 | | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Évaluation de l’engagement</li><li>Rôle</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est ou n’est pas membre d’une ou de plusieurs listes de Marketo Engage. |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est membre ou non d’une ou de plusieurs listes Marketo Engage. |
 | [Personnes](#add-a-split-path-by-people-node) > [!UICONTROL Attributs compte-personne uniquement] | Rôle dans les attributs de compte | Un rôle dans le compte est attribué ou non à la personne. Contraintes facultatives : <li>Saisir un nom de rôle</li> |
 
 ### Ajouter un chemin de division par nœud de compte
@@ -144,13 +147,13 @@ _Comment fonctionne un nœud de partage de chemin par personnes ?_
 
 1. Activez l’option **[!UICONTROL Autres personnes]** pour ajouter un chemin par défaut pour les personnes qui ne correspondent pas aux chemins définis. Si ce n&#39;est pas le cas, le parcours se termine pour ces gens.
 
->[!BEGINSHADEBOX « appartenance à une liste de Marketo Engage »]
+>[!BEGINSHADEBOX « Appartenance à une liste Marketo Engage »]
 
-Dans Marketo Engage, les _campagnes intelligentes_ vérifient l’adhésion aux programmes pour vous assurer que les prospects ne reçoivent pas d’e-mails en double et ne sont pas membres de plusieurs flux d’e-mails en même temps. Dans Journey Optimizer B2B, vous pouvez vérifier l’appartenance à une liste de Marketo Engage comme condition de votre chemin de partage par personnes afin d’éliminer la duplication dans les activités de parcours.
+Dans Marketo Engage, les _campagnes intelligentes_ vérifient l’adhésion aux programmes pour vous assurer que les prospects ne reçoivent pas d’e-mails en double et ne sont pas membres de plusieurs flux d’e-mails en même temps. Dans Journey Optimizer B2B, vous pouvez vérifier l’appartenance à une liste Marketo Engage comme condition de votre chemin de partage par personnes afin d’éliminer la duplication dans les activités de parcours.
 
-Pour ce faire, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage, puis renseignez la définition du filtre pour évaluer l’appartenance à une ou plusieurs listes de Marketo Engage.
+Pour ce faire, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage, puis renseignez la définition du filtre pour évaluer l’appartenance à une ou plusieurs listes Marketo Engage.
 
-![Condition de partage du chemin par personne pour l’appartenance à une liste de Marketo Engage ](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Condition de partage du chemin par personnes pour l’appartenance à la liste Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -185,3 +188,7 @@ Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins fract
    À ce stade, les chemins d’accès sont fusionnés afin que les comptes des chemins d’accès sélectionnés se combinent pour former un chemin d’accès unique qui peut continuer à progresser dans le parcours.
 
 1. Si nécessaire, vous pouvez annuler la fusion des chemins en revenant aux propriétés du nœud de chemins de fusion et en décochant la case correspondant aux chemins que vous souhaitez supprimer.
+
+## Vidéo de présentation
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de l’édition B2B de Journey Optimizer
 user-guide-description: Découvrez l’édition B2B d’Adobe Journey Optimizer et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '226'
 ht-degree: 38%
 
 ---
@@ -21,14 +21,15 @@ ht-degree: 38%
    + [Utiliser l’assistant AI](./start/ai-assistant.md)
 + Parcours de compte {#account-journeys}
    + [Vue d’ensemble](./journeys/journey-overview.md)
-   + [Détails du parcours](./journeys/journey-details.md)
-   + [Nœud de parcours](./journeys/journey-nodes.md)
+   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
+   + [Nœuds de parcours](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
       + [Audience (comptes)](./journeys/account-audience-nodes.md)
       + [Effectuer une action](./journeys/action-nodes.md)
       + [Écoute d’un événement](./journeys/listen-for-event-nodes.md)
       + [Fractionner et fusionner les chemins](./journeys/split-merge-paths-nodes.md)
       + [Attente](./journeys/wait-nodes.md)
+   + [Détails du parcours](./journeys/journey-details.md)
 + Parcours de la {#journey-content} de contenu
    + Canal e-mail {#email-channel}
       + [Création d’e-mails](./content/email-authoring.md)
