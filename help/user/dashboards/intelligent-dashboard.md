@@ -3,10 +3,10 @@ title: Tableau de bord intelligent
 description: Découvrez le tableau de bord intelligent, qui fournit une vue complète des mesures des groupes d’achats et des comptes
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 15%
+source-wordcount: '1568'
+ht-degree: 11%
 
 ---
 
@@ -30,13 +30,17 @@ Le tableau de bord intelligent permet également d’accéder aux pages de déta
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Étapes du groupe d’achat"
->abstract="Ce graphique donne un aperçu de la progression du groupe d&#39;achat à travers différentes étapes en fonction des règles de transition configurées. La première barre indique le nombre de groupes d’achat dans une étape spécifique à la date de début de la période choisie, comparé au nombre de groupes d’achat à la date de fin de cette période."
+>abstract="Ce graphique donne un aperçu de la progression du groupe d&#39;achat à travers différentes étapes en fonction des règles de transition configurées. La première barre indique le nombre de groupes d&#39;achats à une étape spécifique à la première date du délai sélectionné par rapport à la dernière date du délai sélectionné."
 
 Le graphique _[!UICONTROL Étapes du groupe d’achat]_ donne un aperçu de la progression du groupe d’achat à travers différentes étapes ([en fonction des règles de transition configurées par un administrateur](../buying-groups/buying-group-stages.md)).
 
+>[!NOTE]
+>
+>La disponibilité des étapes du groupe d&#39;achat nécessite la configuration des étapes du groupe d&#39;achat. Voir [Étapes de groupe d’achat](../buying-groups/buying-group-stages.md) pour obtenir des informations détaillées sur les étapes et sur la manière de définir et d’activer des étapes pour les groupes d’achat.
+
 ![Visualisation des données des étapes du groupe d’achat](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-Le graphique utilise les étapes du groupe d&#39;achat de la dernière version publiée du modèle étapes du groupe d&#39;achat. Chaque étage est réfléchi par deux barres. La première barre indique le nombre de groupes d&#39;achats à la première date de la période sélectionnée. Et le second (en comparaison) est le nombre de groupes d&#39;achat à la dernière date de la période. Vous pouvez pointer sur chaque barre pour voir le nombre de groupes d&#39;achats à chaque étape.
+Le graphique utilise les étapes du groupe d&#39;achat de la dernière version publiée du modèle étapes du groupe d&#39;achat. Il y a deux bars pour chaque étage. La première barre indique le nombre de groupes d&#39;achats à la première date de la période sélectionnée. Et le second (en comparaison) est le nombre de groupes d&#39;achat à la dernière date de la période. Vous pouvez pointer sur chaque barre pour voir le nombre de groupes d&#39;achats à chaque étape.
 
 ![Pointez sur la barre pour afficher les nombres détaillés](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
@@ -104,6 +108,8 @@ Chaque carte contient les données suivantes :
    * Les données de chaque ligne sont organisées en colonnes : nom du produit, intensité de l’intention du produit et principaux mots-clés par intensité de l’intention.
    * L’ordre de tri est compris entre haut et bas pour la catégorie, le produit et les mots-clés. Si un ou plusieurs types ont la même intensité d’intention, le tri utilise l’ordre alphabétique.
 
+  {{intent-data-note}}
+
 En haut à droite du panneau _Groupes d’achats en surbrillance_, cliquez sur **[!UICONTROL Afficher tout]** pour accéder à la page de liste Groupes d’achats.
 
 ### Filtre d’attribut {#attribute-filter-bg-highlights}
@@ -130,6 +136,10 @@ Utilisez le filtre de date en haut à droite pour modifier la période des visua
 >abstract="Comptes présentant un changement significatif dans l’élan de l’engagement au cours de la période sélectionnée."
 
 La section _[!UICONTROL Surging des comptes]_ affiche une visualisation des comptes avec un changement significatif de l’élan d’engagement au cours de la période sélectionnée.
+
+>[!NOTE]
+>
+>Les données sur l’afflux de comptes sont limitées aux comptes qui ont été ingérés par Journey Optimizer B2B edition dans une audience de compte par le biais de parcours de compte ou de groupes d’achat.
 
 ![Visualisation des données d’afflux de comptes](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -171,6 +181,10 @@ Utilisez le filtre de date en haut à droite pour modifier la période des visua
 
 La section _[!UICONTROL Points forts du groupe d’achat]_ est organisée en deux lignes afin d’afficher des informations sur les comptes qui intéressent votre organisation.
 
+>[!NOTE]
+>
+>Les données de mise en surbrillance de compte sont limitées aux comptes qui ont été ingérés par Journey Optimizer B2B edition dans une audience de compte par le biais de parcours de compte ou de groupes d’achat.
+
 ![Principaux comptes](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **Augmentation des comptes** - Cette ligne affiche les comptes avec une augmentation significative de l’élan d’engagement au cours de la période sélectionnée.
@@ -187,6 +201,8 @@ Chaque carte contient les données suivantes :
    * La fenêtre contextuelle des détails affiche le nom de la catégorie avec le niveau d’intention en haut.
    * Les données de chaque ligne sont organisées en colonnes : nom du produit, intensité de l’intention du produit et principaux mots-clés par intensité de l’intention.
    * L’ordre de tri est compris entre haut et bas pour la catégorie, le produit et les mots-clés. Si un ou plusieurs types ont la même intensité d’intention, le tri utilise l’ordre alphabétique.
+
+  {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -213,6 +229,10 @@ Utilisez le filtre de date en haut à droite pour modifier la période des visua
 >abstract="Affiche le nombre de contacts ayant un rôle spécifique associé à un intérêt pour une solution. L’affectation des rôles et de l’intérêt pour une solution est basée sur le modèle de groupe d’achat."
 
 La section _[!UICONTROL Couverture des contacts]_ affiche une visualisation du nombre de contacts ayant un rôle spécifique associé à un intérêt pour la solution. L’affectation des rôles et de l’intérêt pour une solution est basée sur le modèle de groupe d’achat.
+
+>[!NOTE]
+>
+>Les données de couverture des contacts sont basées sur les groupes d’achats créés dans l’instance Journey Optimizer B2B edition.
 
 ![Visualisation des données d’afflux de comptes](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -241,6 +261,10 @@ Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/i
 >abstract="Liste de contacts qui font partie de plusieurs groupes d’achat suite à leur association avec plusieurs centres d’intérêt pour les solutions."
 
 La section _[!UICONTROL Chevauchement des contacts]_ affiche une liste de contacts qui font partie de plusieurs groupes d’achat parce qu’ils sont associés à plusieurs centres d’intérêt pour les solutions.
+
+>[!NOTE]
+>
+>Les données de chevauchement des contacts sont basées sur les groupes d’achat créés dans l’instance B2B edition de Journey Optimizer.
 
 ![Table de chevauchement des contacts](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

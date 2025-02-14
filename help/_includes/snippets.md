@@ -1,9 +1,9 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 ## Configuration des données d’intention {#intent-data-note}
 
 >[!NOTE]
->Les données d’intention peuvent également être incluses dans la page lorsqu’elle est configurée pour votre instance Journey Optimizer B2B edition. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, voir [Données d’intention](../user/admin/intent-data.md).
 >
+>Les données d’intention sont incluses dans la page lorsqu’elle est configurée pour votre instance Journey Optimizer B2B edition. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, des produits et des catégories, voir [Données d’intention](../user/admin/intent-data.md).
 
 ## note sur la licence des ressources AEM {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->Les licences pour AEM Assets as a Cloud Service et Dynamic Media sont des prérequis pour l’intégration. Assurez-vous que [Dynamic Media avec l’API Open](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} est activé.<br/>
->Selon votre contrat et la configuration, Adobe Experience Manager Assets as a Cloud Service est directement accessible à partir de Adobe Journey Optimizer B2B edition lors de la conception de contenu visuel.
+>Des licences pour AEM Assets as a Cloud Service et Dynamic Media sont des prérequis pour l’intégration. Assurez-vous que [Dynamic Media avec API ouverte](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} est activé.<br/>
+>Selon votre contrat et la configuration, vous pouvez accéder directement à Adobe Experience Manager Assets as a Cloud Service à partir de Adobe Journey Optimizer B2B edition lors de la conception de contenu visuel.
 
 ## Étape Création de contenu - composants - structures {#structures-step}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    Pour plus d’informations sur l’utilisation des ressources de votre type de source, voir [ Ajouter des ressources à votre contenu ](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
-   ![Faites glisser une ressource de Marketo Engage sur la zone de travail et ajustez les paramètres](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
+   ![Faites glisser une ressource Marketo Engage sur la zone de travail et ajustez les paramètres](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
 ## Création de contenu - étape de personnalisation {#personalization-step}
 
