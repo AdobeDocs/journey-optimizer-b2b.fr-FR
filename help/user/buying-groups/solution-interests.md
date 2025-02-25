@@ -1,18 +1,18 @@
 ---
 title: Centres d’intérêt des solutions
-description: Découvrez les centres d'intérêt des solutions et comment les définir pour les utiliser dans vos groupes d'achat.
+description: Découvrez les intérêts des solutions et comment les définir pour les utiliser dans vos groupes d'achat.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
+source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Centres d’intérêt des solutions
 
-Avant de créer des groupes d&#39;achat, vous devez savoir ce que vous vendez et qui vous voulez cibler. Votre stratégie de marketing et de vente doit être alignée afin que vous puissiez ajouter l&#39;intérêt de la solution pour les groupes d&#39;achat.
+Avant de créer des groupes d&#39;achat, vous devez savoir ce que vous vendez et qui vous voulez cibler. Votre stratégie de marketing et de vente doit être harmonisée afin que vous puissiez ajouter l&#39;intérêt de la solution pour les groupes d&#39;achat.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
 
@@ -22,17 +22,17 @@ Avant de créer des groupes d&#39;achat, vous devez savoir ce que vous vendez et
 
 1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Groupes d’achat]**.
 
-1. Sur la page Groupes d&#39;achat, sélectionnez l&#39;onglet **[!UICONTROL Intérêt de la solution]**.
+1. Sur la page _[!UICONTROL Groupes d&#39;achat]_, sélectionnez l&#39;onglet **[!UICONTROL Intérêt de la solution]**.
 
    ![Onglet Intérêt de la solution](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   L’onglet fournit une liste de tous les intérêts de solution existants. Il fournit des informations telles que _[!UICONTROL Nom]_, _[!UICONTROL Modèle de rôles]_, _[!UICONTROL Tâches de création de groupe d’achat]_, _[!UICONTROL Dernière mise à jour le]_, _[!UICONTROL Mis à jour par]_, _[!UICONTROL Créé le]_ et _[!UICONTROL Créé par]_ au format de colonne.
+   L’onglet fournit une liste de tous les intérêts de solution existants. Elle fournit les informations suivantes au format de colonne : _[!UICONTROL Nom]_, _[!UICONTROL Modèle de rôles]_, _[!UICONTROL Tâches de création de groupe d’achat]_, _[!UICONTROL Dernière mise à jour le]_, _[!UICONTROL Mis à jour le]_, _[!UICONTROL Créé le]_ et _[!UICONTROL Créé le]_
 
    La liste est triée par défaut dans la colonne _[!UICONTROL Dernière mise à jour le]_. Cliquez sur le titre de la colonne dans l’en-tête pour activer/désactiver le tri décroissant ou croissant.
 
 ## Afficher et supprimer des tâches de groupe d&#39;achats
 
-Dans l&#39;onglet _[!UICONTROL Intérêts de la solution]_, la colonne **[!UICONTROL Traitements de création du groupe d&#39;achat]** affiche le nombre de traitements créés pour chaque intérêt de la solution. Le numéro est un lien et un clic ouvre une boîte de dialogue qui affiche la liste des tâches créées pour la solution qui vous intéresse.
+Dans l&#39;onglet _[!UICONTROL Intérêts de la solution]_, la colonne **[!UICONTROL Traitements de création du groupe d&#39;achat]** affiche le nombre de traitements créés pour chaque intérêt de la solution. Cliquez sur le nombre pour ouvrir une boîte de dialogue qui affiche la liste des tâches créées pour la solution qui vous intéresse.
 
 ![Achat de tâches de groupe à des fins de solution](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -48,7 +48,7 @@ Avant de créer un intérêt pour la solution, vous devez disposer d’un modèl
 
 1. Choisissez un **[!UICONTROL modèle de rôles]** (obligatoire).
 
-   Cliquez sur **[!UICONTROL Sélectionner un modèle de rôles]** et choisissez un modèle de rôles actifs dans la liste de la boîte de dialogue. Vous ne pouvez associer qu’un seul modèle de rôles actifs à un intérêt de solution. Cliquez sur **[!UICONTROL Enregistrer]** pour revenir à la page _[!UICONTROL Créer la solution qui vous intéresse]_, où le modèle de rôles sélectionné s’affiche.
+   Cliquez sur **[!UICONTROL Sélectionner un modèle de rôles]** et choisissez un modèle de rôles actifs dans la liste de la boîte de dialogue. Vous ne pouvez associer qu’un seul modèle de rôles actifs à une solution présentant un intérêt. Cliquez sur **[!UICONTROL Enregistrer]** pour revenir à la page _[!UICONTROL Créer la solution qui vous intéresse]_, où le modèle de rôles sélectionné s’affiche.
 
    ![Ajoutez un modèle de rôles à la solution qui vous intéresse](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -75,15 +75,17 @@ Avant de créer un intérêt pour la solution, vous devez disposer d’un modèl
 
    ![Menu Plus d’intérêt pour la solution](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
-1. Si nécessaire, mettez à jour le nom (obligatoire et unique) et la description (facultatif).
+1. Apportez les mises à jour nécessaires aux paramètres d’intérêt de la solution :
 
-1. Si nécessaire, sélectionnez le modèle **[!UICONTROL Étape du groupe d&#39;achat]** pour suivre la progression de l&#39;étape du groupe d&#39;achat.
+   * Mettez à jour les **[!UICONTROL Nom]** et **[!UICONTROL Description]**.
 
-   Pour plus d&#39;informations sur l&#39;utilisation des étapes de groupe d&#39;achat pour le suivi de la progression du parcours par rapport aux ventes, voir [Étapes de groupe d&#39;achat](./buying-group-stages.md).
+   * Sélectionnez le **[!UICONTROL modèle d&#39;étape du groupe d&#39;achat]** utilisé pour suivre la progression de l&#39;étape du groupe d&#39;achat.
 
-1. Si nécessaire, modifiez le paramètre **[!UICONTROL Mettre à jour les groupes d&#39;achats existants]**.
+     Pour plus d&#39;informations sur l&#39;utilisation des étapes de groupe d&#39;achat pour le suivi de la progression du parcours par rapport aux ventes, voir [Étapes de groupe d&#39;achat](./buying-group-stages.md).
 
-   Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation de 7 jours.
+   * Modifiez le paramètre **[!UICONTROL Mettre à jour les groupes d&#39;achats existants]**.
+
+     Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation de 7 jours.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -95,7 +97,7 @@ Les intérêts de solution actuellement utilisés par un parcours de compte ou u
 
    Cette action ouvre une boîte de dialogue de confirmation.
 
-   Si le centre d’intérêt de la solution est actuellement utilisé par un parcours de compte ou un traitement de groupe d’achat, l’action ouvre une boîte de dialogue d’information qui vous avertit qu’il ne peut pas être supprimé. Cliquez sur [!UICONTROL OK] pour annuler la suppression.
+   Si le centre d’intérêt de la solution est actuellement utilisé par un parcours de compte ou un traitement de groupe d’achats, l’action génère une alerte indiquant qu’il ne peut pas être supprimé. Cliquez sur **[!UICONTROL OK]** pour annuler la suppression.
 
 1. Cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression, ou vous pouvez abandonner le processus en cliquant sur _[!UICONTROL Annuler]_.
 
