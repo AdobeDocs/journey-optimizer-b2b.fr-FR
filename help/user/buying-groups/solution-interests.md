@@ -3,7 +3,7 @@ title: Centres d’intérêt des solutions
 description: Découvrez les intérêts des solutions et comment les définir pour les utiliser dans vos groupes d'achat.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Avant de créer des groupes d&#39;achat, vous devez savoir ce que vous vendez et
 
    ![Onglet Intérêt de la solution](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   L’onglet fournit une liste de tous les intérêts de solution existants. Elle fournit les informations suivantes au format de colonne : _[!UICONTROL Nom]_, _[!UICONTROL Modèle de rôles]_, _[!UICONTROL Tâches de création de groupe d’achat]_, _[!UICONTROL Dernière mise à jour le]_, _[!UICONTROL Mis à jour le]_, _[!UICONTROL Créé le]_ et _[!UICONTROL Créé le]_
+   L’onglet fournit une liste de tous les intérêts de solution existants. Elle affiche les informations suivantes au format de colonne : _[!UICONTROL Nom]_, _[!UICONTROL Modèle de rôles]_, _[!UICONTROL Tâches de création de groupe d’achat]_, _[!UICONTROL Dernière mise à jour le]_, _[!UICONTROL Mise à jour le]_, _[!UICONTROL Créé le]_ et _[!UICONTROL Créé le]_
 
    La liste est triée par défaut dans la colonne _[!UICONTROL Dernière mise à jour le]_. Cliquez sur le titre de la colonne dans l’en-tête pour activer/désactiver le tri décroissant ou croissant.
 
@@ -58,7 +58,7 @@ Avant de créer un intérêt pour la solution, vous devez disposer d’un modèl
 
 1. Activez le paramètre **[!UICONTROL Mettre à jour les groupes d&#39;achats existants]** (facultatif).
 
-   Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation de 24 heures.
+   Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation de 7 jours.
 
 1. Cliquez sur **[!UICONTROL Créer]** dans le coin supérieur droit.
 
