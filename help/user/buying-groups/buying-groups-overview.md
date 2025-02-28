@@ -3,10 +3,10 @@ title: Groupes d'achat
 description: Découvrez comment les groupes d’achats dans Journey Optimizer B2B edition peuvent accroître l’efficacité du marketing en identifiant et en ciblant les membres de vos listes de comptes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
+source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 6%
+source-wordcount: '1788'
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ Pour les activités de vente et de marketing B2B, les comptes sont la clé de to
 
 ![Diagramme Rôles de compte](assets/account-roles-diagram.png){width="800"}
 
-Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achat_. Ce sont ces personnes qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part du spécialiste marketing et peuvent avoir besoin de différentes informations qui leur sont fournies par rapport aux autres personnes associées au compte. Les groupes d&#39;achat peuvent comprendre un groupe différent de personnes pour différentes gammes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter l’approbation d’un achat par un directeur des systèmes d’information ou un directeur de la sécurité, ainsi que par un représentant du service juridique, mais un produit de suivi des bogues peut généralement compter parmi ses membres un vice-président de l’ingénierie et un Director informatique.
+Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achat_. Ce sont ces personnes qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part du spécialiste marketing et peuvent avoir besoin de différentes informations qui leur sont fournies par rapport aux autres personnes associées au compte. Les groupes d&#39;achat peuvent comprendre un groupe différent de personnes pour différentes gammes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter l’approbation d’un achat par un directeur des systèmes d’information ou un directeur de la sécurité, ainsi que par un représentant du service juridique, mais un produit de suivi des bogues peut généralement compter parmi ses membres un vice-président de l’ingénierie et un directeur informatique.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](#overview-video)
 
@@ -91,11 +91,58 @@ Le score d&#39;exhaustivité du groupe d&#39;achats est recalculé chaque fois q
 
 ### Score d’engagement du groupe d’achat
 
-Le score d’engagement du groupe d’achat est un nombre permettant de déterminer l’engagement des membres d’un groupe d’achat, en fonction des activités qu’ils effectuent. Toute activité entrante effectuée par les membres du groupe d&#39;achat au cours des 30 derniers jours est utilisée pour calculer la note.
+Le score d’engagement du groupe d’achat est un nombre permettant de déterminer l’engagement des membres d’un groupe d’achat, en fonction des activités qu’ils effectuent.
 
-Il existe une limite de fréquence quotidienne de 20 pour chaque activité. Si un membre d&#39;un groupe d&#39;achat effectue la même activité plus de 20 fois par jour, le nombre de l&#39;activité est plafonné à 20 et non à un nombre supérieur.
+* Le calcul du score de l&#39;engagement démarre dès que le groupe d&#39;achat est généré.
+* Toute activité entrante effectuée par les membres du groupe d&#39;achat au cours des 30 derniers jours est utilisée pour calculer la note.
+* Avec une fenêtre de 30 jours et l’expiration des activités, le score pourrait baisser.
+* Il existe une limite de fréquence quotidienne de 20 pour chaque activité. Si un membre d&#39;un groupe d&#39;achat effectue la même activité plus de 20 fois par jour, le nombre de l&#39;activité est plafonné à 20 et non à un nombre supérieur.
+* Le score affiché est arrondi. Par exemple, un score de 75,89999 s’affiche comme 76.
 
-Le score affiché est arrondi. Par exemple, un score de 75,89999 s’affiche comme 76.
++++Activités utilisées pour la notation
+
+| Nom de l’activité | Description | Type d’engagement | Nb max de fréquences quotidiennes | Poids de l’activité |
+| --- | --- | --- | --- | --- |
+| S&#39;inscrire à l&#39;événement | S’enregistre pour un événement associé à une campagne | Événement | 20 | 60 |
+| Participer à l&#39;événement | Participe à un événement de campagne | Événement | 20 | 90 |
+| Ouvrir e-mail | Ouvre un email | E-mail | 20 | 30 |
+| Cliquer sur e-mail | Clique sur un lien dans un e-mail | E-mail | 20 | 30 |
+| Ouvrir l&#39;e-mail de vente | Ouvre un e-mail de vente | E-mail | 20 | 30 |
+| Cliquer sur l&#39;e-mail de vente | Clique sur un lien dans un e-mail de vente | E-mail | 20 | 30 |
+| Moment intéressant | A un moment intéressant | Organisé | 20 | 60 |
+| Appuyer sur l’option d’activation des notifications Push | Reçoit une notification push | Mobile | 20 | 30 |
+| Activité de l’application mobile | Effectue une activité sur une application mobile | Mobile | 20 | 30 |
+| Session de l’application mobile | Est actif sur la session de l’application mobile | Mobile | 20 | 30 |
+| Remplir le formulaire de publicités de leads Facebook | Remplit et envoie un formulaire de leads publicitaires sur une page Facebook | Social | 20 | 30 |
+| Cliquer sur RTP Appel à l’action | Clics sur un appel à l’action personnalisé | Web | 20 | 60 |
+| Afficher le message interne à l’application | Affiche un message in-app | Mobile | 20 | 30 |
+| Appuyer sur le message interne à l’application | Appuie sur un message in-app | Mobile | 20 | 30 |
+| Abonner aux SMS | S’abonne aux communications SMS | SMS | 20 | 90 |
+| Répondre au courrier électronique de vente | Réponses à un email de vente | E-mail | 20 | 30 |
+| A pris contact via une boîte de dialogue | S’engage dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| A interagi avec un document dans la boîte de dialogue | Interagit avec un document dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| A planifié une réunion dans la boîte de dialogue | Planifie un rendez-vous dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| A atteint l&#39;objectif du dialogue | Atteint un objectif dans une boîte de dialogue Dynamic Chat |  | 20 | 90 |
+| A répondu à un sondage dans le webinaire | Répond à un sondage dans un événement de webinaire | Messagerie instantanée | 20 | 90 |
+| A cliqué sur l’appel à l’action dans le webinaire | Clique sur un lien d’appel à l’action dans un événement de webinaire | Appel | 20 | 30 |
+| Télécharge la ressource dans le webinaire | Télécharge un fichier/une ressource dans un événement de webinaire | Événement | 20 | 60 |
+| Pose des questions dans le webinaire | Pose des questions dans un événement de webinaire | Événement | 20 | 60 |
+| A participé à un événement | A participé à un événement | Événement | 20 | 60 |
+| A pris contact avec un agent dans la boîte de dialogue | Interagit avec un agent dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| A cliqué sur le lien dans la conversation de la boîte de dialogue | Clique sur un lien dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| A interagi avec un flux de conversation | S’engage dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| Réunion planifiée dans le flux de conversation | Planifie un rendez-vous dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| Objectif du flux de conversation atteint | Atteint un objectif dans un flux conversationnel Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| A interagi avec le document dans le flux de conversation | Interagit avec un document dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| A pris contact avec un agent dans le flux de conversation | Interagit avec un agent dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| A cliqué sur le lien dans le flux de conversation | Clique sur un lien dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| Clic sur le lien dans SMS V2 | Clique sur un lien dans un SMS | SMS | 20 | 90 |
+
+>[!NOTE]
+>
+>Les activités relatives au score de l’engagement sont enregistrées dans le journal d’activité de Marketo Engage [pour une personne](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+
++++
 
 #### Pondération
 
