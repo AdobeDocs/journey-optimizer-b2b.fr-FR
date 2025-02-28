@@ -1,9 +1,9 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Les données d’intention sont incluses dans la page lorsqu’elle est configurée pour votre instance Journey Optimizer B2B edition. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, des produits et des catégories, voir [Données d’intention](../user/admin/intent-data.md).
+>Les données d’intention sont incluses lorsqu’elles sont configurées pour votre instance Journey Optimizer B2B edition. Elle nécessite également un ou plusieurs parcours publiés **ou** groupes d&#39;achats créés. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, des produits et des catégories, voir [Données d’intention](../user/admin/intent-data.md).
 
 ## note sur la licence des ressources AEM {#aem-assets-licensing-note}
 

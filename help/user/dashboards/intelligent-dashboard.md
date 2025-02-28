@@ -3,10 +3,10 @@ title: Tableau de bord intelligent
 description: Découvrez le tableau de bord intelligent, qui fournit une vue complète des mesures des groupes d’achats et des comptes
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 11%
+source-wordcount: '1688'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +24,19 @@ Le tableau de bord intelligent permet également d’accéder aux pages de déta
 * Détection d’intention pour la personne, le groupe d’achat et le compte
 
 {{intent-data-note}}
+
+Pour utiliser les informations fournies par le tableau de bord intelligent, votre instance Journey Optimizer B2B edition doit disposer des éléments requis :
+
+| Type | Exigence |
+| ---- | ----------- |
+| [étapes du groupe d&#39;achat](#buying-group-stages) | Configurez les étapes du groupe d&#39;achats **et** ajoutez-les aux groupes d&#39;achats créés. |
+| [Points forts du groupe d’achat](#buying-group-highlights) | Configurez les étapes du groupe d&#39;achats **et** ajoutez-les aux groupes d&#39;achats créés. |
+| [Account surge](#surging-accounts) | Un ou plusieurs parcours publiés **ou** ont créé des groupes d&#39;achats. |
+| [Principaux comptes](#account-highlights) | Un ou plusieurs parcours publiés **ou** ont créé des groupes d&#39;achats. |
+| [Couverture des contacts](#contact-coverage) | Un ou plusieurs groupes d&#39;achats créés (étapes non nécessaires). |
+| [Chevauchement des contacts](#contact-overlap) | Un ou plusieurs groupes d&#39;achats créés (étapes non nécessaires). |
+| [Page Détails du compte](../accounts/account-details.md) | Un ou plusieurs parcours publiés. |
+| [Page Détails du groupe d&#39;achat](../buying-groups/buying-group-details.md) | Un ou plusieurs groupes d&#39;achats créés (étapes non nécessaires). |
 
 ## Étapes du groupe d’achat {#buying-group-stages}
 
@@ -139,7 +152,7 @@ La section _[!UICONTROL Surging des comptes]_ affiche une visualisation des comp
 
 >[!NOTE]
 >
->Les données sur l’afflux de comptes sont limitées aux comptes qui ont été ingérés par Journey Optimizer B2B edition dans une audience de compte par le biais de parcours de compte ou de groupes d’achat.
+>Les données sur l’afflux de comptes sont limitées aux comptes ingérés par Journey Optimizer B2B edition dans une audience de compte par le biais de parcours de compte ou de groupes d’achat.
 
 ![Visualisation des données d’afflux de comptes](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -179,11 +192,11 @@ Utilisez le filtre de date en haut à droite pour modifier la période des visua
 >title="Comptes à risque"
 >abstract="Comptes présentant une diminution significative de l’élan de l’engagement au cours de la période sélectionnée."
 
-La section _[!UICONTROL Points forts du groupe d’achat]_ est organisée en deux lignes afin d’afficher des informations sur les comptes qui intéressent votre organisation.
+La section _[!UICONTROL Comptes mis en surbrillance]_ est organisée en deux lignes afin d’afficher des informations sur les comptes qui intéressent votre organisation.
 
 >[!NOTE]
 >
->Les données de mise en surbrillance de compte sont limitées aux comptes qui ont été ingérés par Journey Optimizer B2B edition dans une audience de compte par le biais de parcours de compte ou de groupes d’achat.
+>Les données de mise en surbrillance de compte sont limitées aux comptes ingérés par Journey Optimizer B2B edition dans une audience de compte par le biais de parcours de compte ou de groupes d’achat.
 
 ![Principaux comptes](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
