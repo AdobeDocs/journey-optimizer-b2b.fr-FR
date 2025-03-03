@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
 source-wordcount: '1688'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -43,7 +43,7 @@ Pour utiliser les informations fournies par le tableau de bord intelligent, votr
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Étapes du groupe d’achat"
->abstract="Ce graphique donne un aperçu de la progression du groupe d&#39;achat à travers différentes étapes en fonction des règles de transition configurées. La première barre indique le nombre de groupes d&#39;achats à une étape spécifique à la première date du délai sélectionné par rapport à la dernière date du délai sélectionné."
+>abstract="Ce graphique donne une vue d’ensemble de la progression du groupe d’achat à travers différentes étapes en fonction des règles de transition configurées. La première barre indique le nombre de groupes d’achat dans une étape spécifique à la première date de la période sélectionnée par rapport à la dernière date de la période sélectionnée."
 
 Le graphique _[!UICONTROL Étapes du groupe d’achat]_ donne un aperçu de la progression du groupe d’achat à travers différentes étapes ([en fonction des règles de transition configurées par un administrateur](../buying-groups/buying-group-stages.md)).
 
@@ -81,7 +81,7 @@ Cliquez sur l’icône _Filtrer_ ( ![icône Modifier](../assets/do-not-localize/
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-## Points forts du groupe d&#39;achat {#buying-group-highlights}
+## Points forts du groupe d’achat {#buying-group-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
@@ -180,7 +180,7 @@ Utilisez le filtre de date en haut à droite pour modifier la période des visua
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
-## Principales caractéristiques du compte {#account-highlights}
+## Points forts du compte {#account-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
@@ -271,7 +271,7 @@ Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/i
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="Chevauchement des contacts"
->abstract="Liste de contacts qui font partie de plusieurs groupes d’achat suite à leur association avec plusieurs centres d’intérêt pour les solutions."
+>abstract="Liste des contacts appartenant à plusieurs groupes d’achat en raison de leur association à différents intérêts pour des solutions."
 
 La section _[!UICONTROL Chevauchement des contacts]_ affiche une liste de contacts qui font partie de plusieurs groupes d’achat parce qu’ils sont associés à plusieurs centres d’intérêt pour les solutions.
 

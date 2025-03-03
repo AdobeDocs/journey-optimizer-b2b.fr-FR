@@ -5,10 +5,11 @@ feature: Content
 hide: true
 hidefromtoc: true
 badgeBeta: label="Version bêta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +22,7 @@ Après avoir [créé une page de destination](./landing-pages.md#create-a-landin
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_structure"
 >title="Ajouter des composants de structure à la page de destination"
->abstract="Les composants de structure définissent la disposition de la page de destination. Faites glisser et déposez un composant **Structure** dans la zone de travail pour commencer à concevoir le contenu de votre page."
+>abstract="Les composants de structure définissent la disposition de la page de destination. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre page."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
@@ -71,4 +72,4 @@ Dans le menu _[!UICONTROL Plus...]_ situé en haut du concepteur visuel, vous po
 * **[!UICONTROL Réinitialiser la page de destination]** - Cliquez sur cette option pour vider la zone de travail du concepteur visuel et redémarrer la création du contenu de votre page.
 * **[!UICONTROL Modifier votre conception]** - Revenez à la page d’accueil _[!UICONTROL Créer votre page de destination principale]_. À partir de là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception ou choisir de concevoir la page à partir de zéro dans une zone de travail vierge.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
-* **[!UICONTROL Exporter l’HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML compressé sous la forme d’un fichier zip.
+* **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML présenté sous la forme d’un fichier zip.
