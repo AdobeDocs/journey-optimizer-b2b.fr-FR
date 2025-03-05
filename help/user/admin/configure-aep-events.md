@@ -1,19 +1,20 @@
 ---
-title: Configuration d’événements Experience Platform
+title: Configurer les événements Experience Platform
 description: Découvrez le type de nœud d’attente que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
-# Configurer des définitions d’événement Experience Platform
+# Configuration des définitions d’événement Experience Platform
 
-Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). L’utilisation d’événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
+Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
 
-1. Créer et publier une définition d’événement AEP.
+1. Créez et publiez une définition d’événement AEP.
 
 2. Dans un parcours de compte, ajoutez un nœud _Écouter un événement_ et [sélectionnez une définition d’événement AEP en tant qu’événement de personne](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -39,7 +40,9 @@ Lorsque vous créez et gérez des définitions d’événement pour atteindre le
 
 * Journey Optimizer B2B edition prend en charge un maximum de 50 définitions d’événement.
 
-* Une seule définition d’événement AEP peut utiliser un schéma combiné à un ensemble de types d’événements. Lorsque vous créez une définition d’événement à l’aide d’un schéma (par exemple, `My Schema`) et d’un type d’événement (par exemple, `Web Webpagedetails Page Views`), aucune autre définition d’événement ne peut utiliser la combinaison de `My Schema` et `Web Webpagedetails Page Views`.
+* Les parcours de compte peuvent écouter les événements d’expérience AEP ingérés à l’aide des fonctionnalités de diffusion en continu d’AEP, telles que l’API Web SDK ou HTTP.
+
+* Une seule définition d’événement AEP peut utiliser à la fois un schéma et un ensemble de types d’événements. Lorsque vous créez une définition d’événement à l’aide d’un schéma (par exemple, `My Schema`) et d’un type d’événement (par exemple, `Web Webpagedetails Page Views`), aucune autre définition d’événement ne peut utiliser la combinaison de `My Schema` et `Web Webpagedetails Page Views`.
 
 * Une définition d’événement peut être utilisée dans plusieurs parcours de compte.
 
@@ -73,7 +76,7 @@ Dans la liste _[!UICONTROL Définitions des événements]_, la colonne **[!UICON
 | -------------------- | ----------- |
 | Brouillon | Lorsque vous créez une définition d’événement, elle a le statut brouillon. Il reste dans ce statut jusqu’à ce que vous le publiiez pour l’utiliser dans les parcours de compte. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Publier<li>Supprimer |
 | Publié | Lorsque vous publiez une définition d’événement, elle peut être utilisée dans les parcours de compte. Les détails ne peuvent pas être modifiés. Actions disponibles :<br/><ul><li>Disponible pour le nœud de parcours _Écouter un événement_<li>Créer un brouillon<li>Supprimer (si non utilisé) |
-| Publié (avec brouillon) | Lorsque vous créez un brouillon à partir d’une définition d’événement publiée, la version publiée reste disponible pour être utilisée dans les parcours de compte et le brouillon peut être modifié. Si vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il n’est pas encore exécuté. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Version brouillon de Publish<li>Ignorer le brouillon<li>Supprimer (si non utilisé) |
+| Publié (avec brouillon) | Lorsque vous créez un brouillon à partir d’une définition d’événement publiée, la version publiée reste disponible pour être utilisée dans les parcours de compte et le brouillon peut être modifié. Si vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il n’est pas encore exécuté. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Publier le brouillon<li>Ignorer le brouillon<li>Supprimer (si non utilisé) |
 
 ![ Cycle de vie du statut du fragment ](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ Pour rechercher une définition d’événement par nom, saisissez une chaîne d
 
    ![Le nouveau brouillon de définition d’événement est répertorié sur la page](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## Publish une définition d’événement
+## Publication d’une définition d’événement
 
 Lorsque vous êtes convaincu que le brouillon de définition d’événement est complet et adapté à vos besoins, vous pouvez le publier pour le rendre disponible pour une utilisation dans les parcours de compte. Une fois la définition d’événement publiée, vous pouvez créer un brouillon si vous devez y apporter des modifications. Cependant, vous ne pouvez pas modifier le schéma, et vous pouvez uniquement ajouter des types d’événements et des champs (vous ne pouvez pas les supprimer).
 
@@ -149,11 +152,11 @@ Lorsque vous êtes convaincu que le brouillon de définition d’événement est
 
    Si nécessaire, passez en revue les paramètres avant de publier. Vous pouvez [modifier le brouillon](#edit-an-event-definition) s’il ne répond pas à vos besoins.
 
-1. Cliquez sur **[!UICONTROL Publish]** en haut à droite.
+1. Cliquez sur **[!UICONTROL Publier]** en haut à droite.
 
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publish]**.
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
 
-   Boîte de dialogue de l’événement ![Publish](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![Boîte de dialogue Publier l’événement](./assets/configuration-events-publish-dialog.png){width="300"}
 
    Le statut de la définition d’événement passe à _Publiée_ et elle est désormais [disponible dans les parcours de compte](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -189,9 +192,9 @@ Suivez les étapes en fonction du statut :
 
    Les modifications sont automatiquement enregistrées dans le brouillon.
 
-1. Lorsque la définition d&#39;événement répond à vos critères et que vous souhaitez la rendre disponible pour les parcours de compte d&#39;utilisation, cliquez sur **[!UICONTROL Publish]**.
+1. Lorsque la définition d’événement répond à vos critères et que vous souhaitez la rendre disponible pour les parcours de compte d’utilisation, cliquez sur **[!UICONTROL Publier]**.
 
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publish]**.
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
 
    Le statut de la définition d’événement passe à _Publié_ et peut désormais être utilisé dans les parcours de compte.
 
@@ -221,11 +224,11 @@ Suivez les étapes en fonction du statut :
 
    Les modifications sont automatiquement enregistrées dans le brouillon.
 
-1. Lorsque la définition d&#39;événement de brouillon répond à vos critères et que vous souhaitez remplacer la version publiée actuelle pour l&#39;utiliser dans les parcours de compte, cliquez sur **[!UICONTROL Publish Draft]**.
+1. Lorsque la définition d’événement de brouillon répond à vos critères et que vous souhaitez remplacer la version publiée actuelle pour l’utiliser dans les parcours de compte, cliquez sur **[!UICONTROL Publier le brouillon]**.
 
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publish]**.
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
 
-   Boîte de dialogue de brouillon de Publish ![](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Boîte de dialogue Publier le brouillon](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il est déjà utilisé, mais pas encore exécuté.
 
@@ -243,11 +246,11 @@ Lorsque vous ouvrez une définition d’événement _Publié (avec brouillon)_, 
 
    Les modifications sont automatiquement enregistrées dans le brouillon.
 
-1. Lorsque la définition d&#39;événement de brouillon répond à vos critères et que vous souhaitez remplacer la version publiée actuelle pour l&#39;utiliser dans les parcours de compte, cliquez sur **[!UICONTROL Publish Draft]**.
+1. Lorsque la définition d’événement de brouillon répond à vos critères et que vous souhaitez remplacer la version publiée actuelle pour l’utiliser dans les parcours de compte, cliquez sur **[!UICONTROL Publier le brouillon]**.
 
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publish]**.
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
 
-   Boîte de dialogue de brouillon de Publish ![](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Boîte de dialogue Publier le brouillon](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il est déjà utilisé, mais pas encore exécuté.
 
