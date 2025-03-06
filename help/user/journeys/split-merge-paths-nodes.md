@@ -3,10 +3,10 @@ title: Fractionner et fusionner les chemins
 description: Découvrez les types de nœuds de chemins de division et de chemins de fusion que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 5%
+source-wordcount: '1584'
+ht-degree: 4%
 
 ---
 
@@ -28,10 +28,11 @@ Ajoutez un nœud _Chemins partagés_ pour définir un ou plusieurs chemins segme
 
 _Comment fonctionne un nœud de partage de chemin d’accès par comptes ?_
 
-* Lorsque vous ajoutez un nœud de chemin de division et choisissez _Compte_, chaque chemin ajouté comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
-* Il est possible de fractionner le chemin d’accès par Comptes à plusieurs reprises, par exemple de manière imbriquée. Un chemin de division comprend une option permettant de ne pas ajouter le chemin par défaut.
-* Si un compte ou une personne ne remplit pas les critères de l’un des chemins de partage, il ne progresse pas dans le parcours.
-* Ces chemins peuvent être combinés à l’aide d’un nœud de fusion.
+* Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
+* Le fractionnement par nœud de compte peut être imbriqué : vous pouvez fractionner le chemin d’accès par compte à plusieurs reprises.
+* Évalue les chemins d’accès de haut en bas. Si un compte correspond pour les premier et deuxième chemins, il continue le long du premier chemin uniquement.
+* Plusieurs chemins peuvent être combinés à l’aide d’un nœud de fusion.
+* Prend en charge la définition d’un chemin _[!UICONTROL Autres comptes]_, où vous pouvez ajouter des actions ou des événements pour les comptes qui ne correspondent pas à l’un des segments/chemins définis.
 
 ![Nœud de Parcours : fractionnez les chemins d’accès par compte](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -39,10 +40,11 @@ _Comment fonctionne un nœud de partage de chemin d’accès par comptes ?_
 
 _Comment fonctionne un nœud de partage de chemin par personnes ?_
 
-* _Fractionner le chemin par personnes_ les nœuds sont des nœuds groupés. Les chemins d’accès fusionnent automatiquement afin que toutes les personnes de l’audience puissent passer à l’étape suivante sans perdre le contexte de leur compte.
-* _Les nœuds de chemin de partage par personnes_ ne peuvent pas être imbriqués ; vous ne pouvez pas ajouter de chemin de partage pour des personnes sur un chemin qui se trouve dans ce nœud groupé.
-* Les nœuds de chemin de partage incluent une option permettant d’omettre un chemin par défaut, de sorte que les comptes/personnes sans chemin de correspondance ne puissent pas avancer dans le parcours.
-* _Les nœuds de chemin de partage par personnes_ prennent en charge l’utilisation de _relations compte-personne_, qui vous permettent de filtrer les personnes en fonction de leur rôle (comme entrepreneur ou employé à temps plein), tel que défini dans les modèles de rôles.
+* Fonctions au sein d’une combinaison _nœud groupé_ split-merge. Les chemins de division fusionnent automatiquement afin que toutes les personnes de l’audience puissent passer à l’étape suivante sans perdre le contexte de leur compte.
+* Les nœuds fractionnés par personnes ne peuvent pas être imbriqués : vous ne pouvez pas ajouter de chemin fractionné pour les personnes sur un chemin qui se trouve dans ce nœud groupé.
+* Évalue les chemins d’accès de haut en bas. Si une personne correspond pour le premier et le deuxième chemin, elle continue uniquement le premier chemin.
+* Prend en charge l’utilisation de _relations compte-personne_, qui vous permet de filtrer les personnes en fonction de leur rôle (comme entrepreneur ou employé à temps plein), tel que défini dans les modèles de rôles.
+* Prend en charge la définition d’un chemin _[!UICONTROL Autres personnes]_, où vous pouvez ajouter des actions ou des événements pour les personnes qui ne correspondent pas à l’un des segments/chemins définis.
 
 ![nœud de Parcours - fractionner les chemins par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -96,7 +98,9 @@ _Comment fonctionne un nœud de partage de chemin par personnes ?_
 
    ![Nœud de chemin partagé - réorganiser les chemins](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Autres comptes]** pour ajouter un chemin d’accès par défaut pour les comptes qui ne correspondent pas aux chemins d’accès définis. Si ce n&#39;est pas le cas, le parcours se termine pour ces gens.
+1. Activez l’option **[!UICONTROL Autres comptes]** pour définir le chemin d’accès par défaut pour les comptes qui ne correspondent pas aux segments/chemins d’accès définis.
+
+   Lorsque cette option n’est pas activée, le parcours se termine pour les comptes qui ne correspondent pas à un segment/chemin d’accès défini dans la division.
 
 ### Ajouter un nœud de partage de chemin par personnes
 
@@ -145,13 +149,15 @@ _Comment fonctionne un nœud de partage de chemin par personnes ?_
 
    ![Nœud de chemin partagé - réorganiser les chemins](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Autres personnes]** pour ajouter un chemin par défaut pour les personnes qui ne correspondent pas aux chemins définis. Si ce n&#39;est pas le cas, le parcours se termine pour ces gens.
+1. Activez l’option **[!UICONTROL Autres personnes]** pour ajouter un chemin par défaut pour les personnes qui ne correspondent pas aux chemins définis.
+
+   Lorsque cette option n’est pas activée, les personnes qui ne correspondent pas à un segment/chemin défini passent au-delà de la division et passent à l’étape suivante du parcours.
 
 >[!BEGINSHADEBOX « Appartenance à une liste Marketo Engage »]
 
 Dans Marketo Engage, les _campagnes intelligentes_ vérifient l’adhésion aux programmes pour vous assurer que les prospects ne reçoivent pas d’e-mails en double et ne sont pas membres de plusieurs flux d’e-mails en même temps. Dans Journey Optimizer B2B, vous pouvez vérifier l’appartenance à une liste Marketo Engage comme condition de votre chemin de partage par personnes afin d’éliminer la duplication dans les activités de parcours.
 
-Pour ce faire, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage, puis renseignez la définition du filtre pour évaluer l’appartenance à une ou plusieurs listes Marketo Engage.
+Pour utiliser l’appartenance à une liste dans une condition de partage, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage. Renseignez la définition du filtre pour évaluer l’appartenance à une ou plusieurs listes Marketo Engage.
 
 ![Condition de partage du chemin par personnes pour l’appartenance à la liste Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
