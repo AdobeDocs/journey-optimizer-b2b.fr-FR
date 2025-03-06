@@ -3,10 +3,10 @@ title: Fragments
 description: Découvrez comment créer et utiliser des fragments de contenu visuels en tant que composants réutilisables pour les e-mails et les modèles de courrier électronique dans Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2679'
-ht-degree: 3%
+source-wordcount: '2624'
+ht-degree: 1%
 
 ---
 
@@ -14,14 +14,18 @@ ht-degree: 3%
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails et modèles d’e-mail dans Adobe Journey Optimizer B2B edition. Il s’agit généralement d’un bloc de contenu (texte, image ou les deux) qui peut être précréé et rapidement inséré dans un e-mail ou un modèle d’e-mail. Grâce à cette fonctionnalité, vous pouvez précréer plusieurs blocs de contenu personnalisés à utiliser par les membres de votre équipe marketing pour assembler les contenus d’e-mail afin d’améliorer le processus de conception. Les cas d’utilisation courants incluent les blocs de contenu d’en-tête/de pied de page pour les e-mails, les bannières d’invitation et les salutations saisonnières.
 
+>[!BEGINSHADEBOX]
+
+**Fragments visuels**
+
+Les fragments visuels sont des blocs visuels prédéfinis créés à l’aide du concepteur de contenu visuel que vous pouvez réutiliser dans plusieurs e-mails ou modèles d’e-mail. Le périmètre actuel de Journey Optimizer B2B edition et de cette documentation est celui des fragments visuels uniquement. Les fragments basés sur une expression ne sont pas encore pris en charge dans Journey Optimizer B2B edition.
+
+>[!ENDSHADEBOX]
+
 Pour tirer le meilleur parti des fragments dans vos workflows :
 
 * _Créer vos propres fragments_ - Créez des fragments visuels, en partant de zéro ou en enregistrant du contenu en tant que fragment à partir de l’éditeur de contenu visuel.
 * _Réutiliser des fragments_ - Utilisez-les autant de fois que nécessaire dans votre contenu.
-
-## Fragments visuels
-
-Les fragments visuels sont des blocs visuels prédéfinis créés à l’aide de l’éditeur visuel de contenu que vous pouvez réutiliser dans plusieurs e-mails ou modèles d’e-mail. Le périmètre actuel de Journey Optimizer B2B edition et de cette documentation est celui des fragments visuels uniquement. Les fragments basés sur une expression ne sont pas encore pris en charge dans Journey Optimizer B2B edition.
 
 ## Accéder aux fragments et les gérer
 
@@ -38,10 +42,10 @@ Le statut du fragment détermine sa disponibilité pour une utilisation dans un 
 | Statut | Description |
 | -------------------- | ----------- |
 | Brouillon | Lorsque vous créez un fragment, il est à l’état de brouillon. Il reste dans ce statut lorsque vous définissez ou modifiez le contenu visuel jusqu’à ce que vous le publiiez pour l’utiliser dans un e-mail ou un modèle d’e-mail. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Modifier dans le concepteur visuel<li>Publier<li>Dupliquer<li>Supprimer |
-| Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Un contenu de fragment publié ne peut pas être modifié dans le concepteur visuel. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer un brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
-| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, et le contenu du brouillon peut être modifié dans le concepteur visuel. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Modifier le brouillon dans le concepteur visuel<li>Version brouillon de Publish<li>Dupliquer<li>Supprimer (si non utilisé) |
+| Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Le contenu du fragment publié ne peut pas être modifié dans le concepteur visuel. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer un brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
+| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, et le contenu du brouillon peut être modifié dans le concepteur visuel. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Modifier le brouillon dans le concepteur visuel<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 
-![ Cycle de vie du statut du fragment ](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![ Cycle de vie du statut du fragment ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -85,45 +89,16 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B edition en c
 
 1. Utilisez les outils de conception de contenu pour créer le contenu du fragment visuel :
 
-   * [Ajouter la structure et le contenu](#add-structure-and-content)
-   * [Ajout d’Assets](#add-assets)
-   * [Parcourir les calques, paramètres et styles](#navigate-the-layers-settings-and-styles)
-   * [Personnaliser le contenu](#personalize-content)
-   * [Modifier le tracking des URL liées](#edit-linked-url-tracking)
+   * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
+   * [Ajout d’Assets](./fragment-authoring.md#add-assets)
+   * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
+   * [Activer les champs personnalisés](./fragment-authoring.md#enable-custom-fields)
+   * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** à tout moment pour enregistrer le brouillon de fragment.
 
-1. Lorsque vous êtes prêt à rendre le fragment disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, cliquez sur **[!UICONTROL Publish]**.
-
-### Ajouter la structure et le contenu {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Ajout de composants de structure"
->abstract="Les composants de structure définissent la disposition du fragment. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre fragment."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un fragment."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Ajout de ressources
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Parcourir les calques, paramètres et styles
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Personnaliser le contenu
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Modifier le tracking des URL liées
-
-{{$include /help/_includes/content-design-links.md}}
+1. Lorsque vous êtes prêt à rendre le fragment disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, cliquez sur **[!UICONTROL Publier]**.
 
 ## Affichage des détails du fragment
 
@@ -194,15 +169,16 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
    Utilisez les outils du concepteur visuel selon vos besoins :
 
-   * [Ajouter la structure et le contenu](#add-structure-and-content)
-   * [Ajout d’Assets](#add-assets)
-   * [Parcourir les calques, paramètres et styles](#navigate-the-layers-settings-and-styles)
-   * [Personnaliser le contenu](#personalize-content)
-   * [Modifier le tracking des URL liées](#edit-linked-url-tracking)
+   * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
+   * [Ajout d’Assets](./fragment-authoring.md#add-assets)
+   * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
+   * [Activer les champs personnalisés](./fragment-authoring.md#enable-custom-fields)
+   * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
    Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
 
-1. Lorsque le fragment répond à vos critères et que vous souhaitez le rendre disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, cliquez sur **[!UICONTROL Publish]**.
+1. Lorsque le fragment répond à vos critères et que vous souhaitez le rendre disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, cliquez sur **[!UICONTROL Publier]**.
 
 >[!TAB Publié]
 
@@ -222,15 +198,16 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
    Utilisez les outils du concepteur visuel selon vos besoins :
 
-   * [Ajouter la structure et le contenu](#add-structure-and-content)
-   * [Ajout d’Assets](#add-assets)
-   * [Parcourir les calques, paramètres et styles](#navigate-the-layers-settings-and-styles)
-   * [Personnaliser le contenu](#personalize-content)
-   * [Modifier le tracking des URL liées](#edit-linked-url-tracking)
+   * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
+   * [Ajout d’Assets](./fragment-authoring.md#add-assets)
+   * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
+   * [Activer les champs personnalisés](./fragment-authoring.md#enable-custom-fields)
+   * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
    Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
 
-1. Lorsque le brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un e-mail ou un modèle d’e-mail, cliquez sur **[!UICONTROL Publish]**.
+1. Lorsque le brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un modèle d’e-mail ou de courrier électronique, cliquez sur **[!UICONTROL Publier]**.
 
    Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est déjà utilisé.
 
@@ -250,15 +227,16 @@ Pour mettre à jour le contenu :
 
 1. Cliquez sur **[!UICONTROL Modifier le fragment]** en haut à droite. Utilisez les outils du concepteur visuel selon vos besoins :
 
-   * [Ajouter la structure et le contenu](#add-structure-and-content)
-   * [Ajout d’Assets](#add-assets)
-   * [Parcourir les calques, paramètres et styles](#navigate-the-layers-settings-and-styles)
-   * [Personnaliser le contenu](#personalize-content)
-   * [Modifier le tracking des URL liées](#edit-linked-url-tracking)
+   * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
+   * [Ajout d’Assets](./fragment-authoring.md#add-assets)
+   * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
+   * [Activer les champs personnalisés](./fragment-authoring.md#enable-custom-fields)
+   * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
    Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
 
-1. Lorsque le brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un e-mail ou un modèle d’e-mail, cliquez sur **[!UICONTROL Publish]**.
+1. Lorsque le brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un modèle d’e-mail ou de courrier électronique, cliquez sur **[!UICONTROL Publier]**.
 
    Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est déjà utilisé.
 

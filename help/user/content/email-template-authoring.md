@@ -1,17 +1,18 @@
 ---
-title: Création de modèles de courrier électronique
-description: Découvrez comment créer des modèles d’email de contenu qui peuvent être utilisés pour les emails de parcours de compte afin de réutiliser vos conceptions facilement et efficacement.
+title: Création de modèles d’e-mail
+description: Découvrez comment créer des modèles d’e-mail de contenu qui peuvent être utilisés pour les e-mails de parcours de compte afin de réutiliser vos conceptions facilement et efficacement.
 feature: Email Authoring, Content
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 11%
+source-wordcount: '334'
+ht-degree: 16%
 
 ---
 
-# Création de modèles d&#39;email
+# Création d&#39;un modèle d&#39;email
 
-Après avoir [créé un modèle d’email](./email-templates.md#create-an-email-template), utilisez le concepteur visuel pour créer les composants structurels et de contenu dans votre modèle d’email.
+Après avoir [créé un modèle d’e-mail](./email-templates.md#create-an-email-template), utilisez le concepteur visuel pour créer les composants de structure et de contenu dans votre modèle d’e-mail.
 
 ## Ajouter la structure et le contenu {#structure-content}
 
@@ -29,36 +30,15 @@ Après avoir [créé un modèle d’email](./email-templates.md#create-an-email-
 
 ### Ajouter des fragments
 
-Dans l’éditeur visuel de contenu, l’icône _Fragments_ s’affiche sur la gauche. L’exemple suivant décrit les étapes à suivre pour ajouter des fragments au contenu du modèle.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Pour ouvrir la liste des fragments, sélectionnez l’icône _Fragments_ ( ![Icône Fragments](../assets/do-not-localize/icon-fragments.svg) ).
-
-   Vous pouvez effectuer les actions suivantes :
-
-   * Triez la liste.
-   * Parcourir, rechercher ou filtrer la liste.
-   * Basculez entre les modes Miniature et Liste.
-   * Actualisez la liste pour refléter les fragments récemment créés.
-
-   ![Sélectionner un fragment dans la liste](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Faites glisser et déposez l’un des fragments dans l’espace réservé du composant structurel.
-
-   L’éditeur effectue le rendu du fragment dans la section/l’élément de la structure de l’email.
-
-Le contenu du fragment est mis à jour dynamiquement dans la structure afin d’afficher la manière dont le contenu apparaît dans l’email.
-
->[!TIP]
->
->Si vous souhaitez que le fragment occupe toute la mise en page horizontale dans l&#39;email, ajoutez une structure de colonne 1:1, puis faites glisser et déposez le fragment dans celle-ci.
-
-Une fois l’email enregistré, il apparaît dans la page des détails du fragment lorsque vous sélectionnez l’onglet _[!UICONTROL Utilisé par]_ dans le résumé. Les fragments ajoutés à un modèle d’email ne sont pas modifiables dans le modèle : le fragment source définit le contenu.
+Une fois le modèle enregistré, il s’affiche dans la page des détails du fragment lorsque vous sélectionnez l’onglet _[!UICONTROL Utilisé par]_ dans le résumé.
 
 ### Ajout de ressources
 
 {{$include /help/_includes/content-design-assets.md}}
 
-### Navigation dans les calques, paramètres et styles
+### Parcourir les calques, paramètres et styles
 
 {{$include /help/_includes/content-design-navigation.md}}
 
@@ -66,27 +46,27 @@ Une fois l’email enregistré, il apparaît dans la page des détails du fragme
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-### Modification du suivi des URL liées
+### Modifier le tracking des URL liées
 
 {{$include /help/_includes/content-design-links.md}}
 
-## Options d’affichage
+## Afficher les options
 
-Tirez parti des options de vue et de validation du contenu disponibles dans le concepteur visuel.
+Tirez parti des options d’affichage et de validation du contenu disponibles dans le concepteur visuel.
 
-* Zoom avant/arrière sur le contenu sur les options de zoom prédéfinies.
+* Effectuez un zoom avant/arrière sur le contenu dans les options de zoom prédéfinies.
 
-* Basculez l’affichage du contenu sur Bureau, Mobile ou Texte unique/Texte brut.
-   * Cliquez sur l’icône _OEil_ pour afficher l’aperçu du contenu sur tous les appareils.
+* Basculez vers l’affichage du contenu sur les ordinateurs de bureau, les appareils mobiles ou en texte seul/texte brut.
+   * Cliquez sur l’icône _Œil_ pour afficher un aperçu du contenu sur tous les appareils.
    * Sélectionnez l’un des appareils prêts à l’emploi ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
 
 ### Plus d’options
 
-Dans le menu _[!UICONTROL Plus...]_ situé en haut du Concepteur d&#39;email, vous pouvez effectuer les actions suivantes :
+Dans le menu _[!UICONTROL Plus...]_ situé en haut du Concepteur d’e-mail, vous pouvez effectuer les actions suivantes :
 
-![Cliquez sur Plus pour accéder aux actions de modèle](./assets/visual-designer-more-menu.png){width="500"}
+![Cliquez sur Plus pour accéder aux actions du modèle](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Réinitialiser le modèle]** - Cliquez sur cette option pour effacer le canevas du concepteur visuel sur une barre d’outils vide et redémarrer le contenu de création.
-* **[!UICONTROL Enregistrer en tant que fragment]** - Enregistrez toutes ou parties du modèle en tant que fragment à réutiliser dans plusieurs emails ou modèles de courrier électronique. Vous fournissez un nom et une description pour le fragment et vous l’enregistrez dans la liste des fragments disponibles.
-* **[!UICONTROL Modifiez votre conception]** - Revenez à la page _Concevez votre modèle_. À partir de là, vous pouvez choisir de entièrement concevoir votre modèle ou d’utiliser un modèle existant pour redémarrer le processus de conception.
-* **[!UICONTROL Exporter l’HTML]** - Téléchargez le contenu dans la zone de travail visuelle vers votre système local au format d’HTML présenté sous la forme d’un fichier zip.
+* **[!UICONTROL Réinitialiser le modèle]** - Cliquez sur cette option pour vider la zone de travail du concepteur visuel de sa substance et redémarrer la création de contenu.
+* **[!UICONTROL Enregistrer en tant que fragment]** - Enregistrez la totalité ou une partie du modèle en tant que fragment à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le fragment et enregistrez-le dans la liste des fragments disponibles.
+* **[!UICONTROL Modifier votre conception]** - Revenez à la page _Concevoir votre modèle_. À partir de là, vous pouvez choisir de concevoir votre modèle à partir de zéro ou utiliser un modèle existant pour redémarrer le processus de conception.
+* **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML présenté sous la forme d’un fichier zip.
