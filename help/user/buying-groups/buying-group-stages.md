@@ -3,9 +3,9 @@ title: Étapes du groupe d'achat
 description: Découvrez les étapes d'un groupe d'achat et comment les définir pour suivre la progression du parcours par rapport aux objectifs de vente.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Les étapes de groupes d&#39;achat sont conçues pour suivre l&#39;évolution de
 Définissez les étapes dans un modèle d’évaluation unique, en définissant plusieurs étapes et le flux de transition entre elles. Une ou plusieurs étapes sont désignées pour l&#39;entrée dans le cycle de vie. Le modèle permet également une progression non linéaire, où vous pouvez spécifier des transitions d&#39;une étape à une autre, par exemple de l&#39;étape A vers les étapes B, C ou D. Il est nécessaire qu’une étape soit désignée comme étape de succès, par exemple un achat ou un contrat signé. Il est facultatif qu’une autre étape soit désignée comme une étape d’échec, par exemple un contrat rejeté ou l’achat d’une solution concurrente auprès d’un autre fournisseur. Pour ce faire, des [tableaux de bord intelligents](../dashboards/intelligent-dashboard.md) montrent la progression des groupes d&#39;achats en termes de réalisation d&#39;une opportunité de vente ou de conversion d&#39;une opportunité en client.
 
 ![Exemple d’étapes de groupe d’achat](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](#overview-video)
 
 ## Définir le modèle des étapes du groupe d&#39;achats
 
@@ -159,7 +161,7 @@ Pour afficher le modèle de brouillon :
 
    Vous pouvez également cliquer sur _[!UICONTROL Annuler]_ pour fermer la boîte de dialogue et revenir à la page des détails du modèle sans modification.
 
-## Publish du modèle étapes du groupe d&#39;achat
+## Publier le modèle des étapes du groupe d&#39;achat
 
 En l’absence d’erreur de validation, le modèle peut être publié. Lorsqu’il est publié, il passe à l’état _Actif_ et peut être utilisé pour faire progresser les étapes du groupe d’achats dans les parcours de compte.
 
@@ -173,7 +175,7 @@ En l’absence d’erreur de validation, le modèle peut être publié. Lorsqu�
 
 1. Cliquez sur **[!UICONTROL Publier]**.
 
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publish]**.
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
 
    Lorsque la page des détails du modèle est de nouveau affichée, le modèle est désigné comme _[!UICONTROL En ligne]_. Cliquez sur la flèche _Précédent_ en haut à gauche pour revenir à la page de l’onglet _[!UICONTROL Étapes]_.
 
@@ -345,3 +347,7 @@ Utilisez l&#39;occurrence d&#39;un changement d&#39;étape de groupe d&#39;achat
    ![nœud de Parcours - écouter les événements sur le compte](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Continuez pour apporter d’autres modifications et enregistrez le parcours.
+
+## Vidéo de présentation
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

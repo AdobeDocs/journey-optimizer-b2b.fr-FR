@@ -2,17 +2,22 @@
 title: Configurer les événements Experience Platform
 description: Découvrez le type de nœud d’attente que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
 # Configuration des définitions d’événement Experience Platform
 
-Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
+Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent).
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](#overview-video)
+
+L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
 
 1. Créez et publiez une définition d’événement AEP.
 
@@ -273,3 +278,7 @@ Vous pouvez supprimer une définition d’événement si elle n’est pas utilis
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
 
    ![Confirmer pour supprimer la définition d’événement](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## Vidéo de présentation
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
