@@ -3,7 +3,7 @@ title: Prendre une action
 description: Découvrez le type de nœud Take an action que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -25,10 +25,10 @@ Utilisez une action sur les comptes lorsque vous souhaitez appliquer une modific
 | Action | Contraintes |
 | ------ | ----------- |
 | [!UICONTROL Valeur des données de modification de compte] | Sélectionner l’attribut<br/>Nouvelle valeur |
-| [!UICONTROL Moment intéressant du compte] | Type (e-mail, jalon ou web)<br/>description (facultatif) |
-| [!UICONTROL Ajouter un compte à un (autre) Parcours ] | Sélectionner le Parcours de compte dynamique |
-| [!UICONTROL Ajouter à la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
-| [!UICONTROL Supprimer un compte du Parcours ] | Sélectionner le Parcours de compte dynamique |
+| [!UICONTROL Moment intéressant du compte] | Type (e-mail, jalon ou web)<br/>Description (facultatif) |
+| [!UICONTROL Ajouter un compte à un (autre) Parcours ] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste des comptes statiques actifs |
+| [!UICONTROL Supprimer un compte du Parcours ] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
 | [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
 | [!UICONTROL Mettre à jour l&#39;étape du groupe d&#39;achat] | Sélectionner l&#39;intérêt de la solution<br/>Sélectionner l&#39;étape du groupe d&#39;achat |
@@ -183,7 +183,7 @@ Utilisez cette action pour envoyer un SMS. Vous pouvez créer, personnaliser et 
 
 ### Actions de Marketo Engage
 
-Les ressources basées sur les personnes de Marketo Engage sont conçues pour coordonner votre orchestration marketing basée sur les comptes dans Journey Optimizer B2B edition avec vos efforts marketing basés sur les prospects dans Marketo Engage. Utilisez ces actions pour orchestrer l’appartenance à une liste, les partitions de personnes et les campagnes de demandes.
+Les actions basées sur les personnes de Marketo Engage sont conçues pour coordonner votre orchestration marketing basée sur les comptes dans Journey Optimizer B2B edition avec vos efforts marketing basés sur les prospects dans Marketo Engage. Utilisez ces actions pour orchestrer l’appartenance à une liste, les partitions de personnes et les campagnes de demandes.
 
 +++[!UICONTROL Ajouter à la liste]
 

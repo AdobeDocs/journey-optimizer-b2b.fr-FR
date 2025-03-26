@@ -1,12 +1,13 @@
 ---
 title: Listes de comptes
 description: Découvrez les listes de comptes et comment les marketeurs peuvent les utiliser pour cibler les comptes par le biais de parcours de compte.
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -140,7 +141,7 @@ Après avoir créé une liste de comptes dynamique, vous définissez le jeu de f
 
 >[!ENDTABS]
 
-## Publish une liste de comptes
+## Publication d’une liste de comptes
 
 Vous pouvez procéder à la publication d’une liste de comptes dès que le jeu de filtres est terminé.
 
@@ -148,11 +149,11 @@ Vous pouvez procéder à la publication d’une liste de comptes dès que le jeu
 
 >[!TAB Liste des comptes statiques]
 
-1. Cliquez sur **[!UICONTROL Publish]** en haut à droite.
+1. Cliquez sur **[!UICONTROL Publier]** en haut à droite.
 
-   ![Cliquez sur Publish en haut à droite](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![Cliquez sur Publier en haut à droite](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. Dans la boîte de dialogue Liste de comptes statiques _[!UICONTROL Publish]_ cliquez sur **[!UICONTROL Publish]** pour confirmer.
+1. Dans la boîte de dialogue _[!UICONTROL Publier la liste de comptes statiques]_, cliquez sur **[!UICONTROL Publier]** pour confirmer.
 
    ![Confirmer la publication pour une liste de comptes statiques](./assets/account-lists-static-publish-confirm.png){width="400"}
 
@@ -162,11 +163,11 @@ Le statut de la liste de comptes statique passe à _[!UICONTROL Actif]_ et peut 
 
 Vous pouvez procéder à la publication d’une liste de comptes dynamique dès que le jeu de filtres est terminé. Une fois que la liste des comptes a le statut Actif , elle peut être sélectionnée dans un nœud de parcours d’audience de compte .
 
-1. Cliquez sur **[!UICONTROL Publish]** en haut à droite.
+1. Cliquez sur **[!UICONTROL Publier]** en haut à droite.
 
-   ![Cliquez sur Publish en haut à droite](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![Cliquez sur Publier en haut à droite](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. Dans la boîte de dialogue Liste de comptes dynamiques _[!UICONTROL Publish]_ cliquez sur **[!UICONTROL Publish]** pour confirmer.
+1. Dans la boîte de dialogue _[!UICONTROL Publier la liste de comptes dynamiques]_, cliquez sur **[!UICONTROL Publier]** pour confirmer.
 
    ![Confirmer la publication pour une liste de comptes dynamiques](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
