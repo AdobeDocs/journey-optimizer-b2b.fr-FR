@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Dernières notes de mise à jour pour l’édition B2B d’Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 10%
+source-wordcount: '1601'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,21 @@ Journey Optimizer B2B edition est créé de manière native sur [!DNL Adobe Expe
 
 Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
-## Notes de mise à jour de janvier 2025 {#Jan-2025}
+## notes de mise à jour 2025.2
+
+**Date de publication** : 11 mars 2025
+
+Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
+
+| Type | Élément | Description |
+| ---- | ---- | ----------- |
+| Nouvelle fonctionnalité | Champs personnalisables - fragments de contenu | En tant que concepteur de fragment de contenu, vous pouvez désigner un paramètre pour un composant du fragment comme étant modifiable. Cela permet à l’auteur de l’e-mail ou du modèle de spécifier une valeur de champ personnalisée spécifique à ses besoins. Cet indicateur de personnalisation est limité aux composants visuels d’image, de texte et de bouton. <a href="../content/fragment-authoring.md#enable-custom-fields">En savoir plus</a> |
+| Nouvelle fonctionnalité | Rôles intégrés B2B et autorisations de produit | Experience Platform comprend désormais un ensemble de rôles intégrés (par défaut) que vous pouvez utiliser pour gérer l’accès aux fonctionnalités du produit B2B. <a href="../admin/user-management.md#b2b-built-in-roles">En savoir plus</a> <br/>Les administrateurs peuvent désormais définir des rôles personnalisés dans Adobe Experience Platform pour inclure les autorisations de produit Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">En savoir plus</a> |
+| Amélioration | Quatre exemples supplémentaires de modèles d’e-mail | La bibliothèque d’exemples de modèles d’e-mail comprend désormais quatre modèles SecurFinancial qui servent d’exemples de contenu pour le réengagement, l’information, le soutien et les commentaires |
+
+
+
+## notes de mise à jour 2025.1 {#Jan-2025}
 
 **Date de publication** : 6 février 2025
 
@@ -46,7 +60,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Nouvelle fonctionnalité | Contenu conditionnel dans les modèles d’e-mail | Personnalisez le contenu de votre e-mail en fonction du comportement et des caractéristiques du profil du destinataire, au niveau du compte et du prospect. <p>Lorsque vous créez un e-mail pour votre parcours de compte dans le Concepteur d’e-mail, utilisez des règles conditionnelles pour définir plusieurs variantes pour tout composant de contenu. <a href="../content/conditional-content.md">En savoir plus</a> |
+| Nouvelle fonctionnalité | Contenu conditionnel dans les modèles d’e-mail | Personnalisez le contenu de votre e-mail en fonction du comportement et des caractéristiques du profil du destinataire, au niveau du compte et du prospect. <p>Lorsque vous créez un e-mail pour votre parcours de compte dans l’espace de conception visuelle d’e-mail, utilisez des règles conditionnelles pour définir plusieurs variantes pour tout composant de contenu. <a href="../content/conditional-content.md">En savoir plus</a> |
 | Nouvelle fonctionnalité | _Ajouter à la liste_ et _Supprimer de la liste_ les actions de personnes dans les parcours | Personnalisez le contenu de votre e-mail en fonction du comportement et des caractéristiques du profil du destinataire, au niveau du compte et du prospect. <a href="../journeys/action-nodes.md">En savoir plus</a> |
 | Nouvelle fonctionnalité | Gouvernance du contenu et verrouillage des composants | Pour garantir la conformité aux conceptions de contenu approuvées, utilisez les fonctionnalités de gouvernance de contenu pour verrouiller les composants de contenu de modèle d’e-mail. Lorsque la gouvernance du contenu est activée dans le modèle d’e-mail, les marketeurs ne peuvent modifier que les éléments autorisés afin de rester alignés avec la stratégie de contenu. <a href="../content/template-content-governance.md">En savoir plus</a> |
 | Nouvelle fonctionnalité | Étapes du groupe d’achat | Lorsque vous définissez et publiez un modèle d&#39;évaluation de groupes d&#39;achats personnalisé, vous pouvez suivre la progression des groupes d&#39;achats tout au long des étapes du cycle de vie des groupes d&#39;achats. Utilisez ces étapes pour identifier les meilleures actions suivantes pour les membres du groupe d&#39;achat. Vous configurez les règles de transition et les nœuds de parcours qui déterminent la progression de l’étape et déclenchent des actions en fonction des modifications. <a href="../buying-groups/buying-group-stages.md">En savoir plus</a> |
