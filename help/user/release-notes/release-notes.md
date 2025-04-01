@@ -2,9 +2,9 @@
 title: Notes de mise à jour
 description: Dernières notes de mise à jour pour l’édition B2B d’Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
+source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1650'
 ht-degree: 9%
 
 ---
@@ -27,9 +27,8 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | ---- | ---- | ----------- |
 | Nouvelle fonctionnalité | Champs personnalisables - fragments de contenu | En tant que concepteur de fragment de contenu, vous pouvez désigner un paramètre pour un composant du fragment comme étant modifiable. Cela permet à l’auteur de l’e-mail ou du modèle de spécifier une valeur de champ personnalisée spécifique à ses besoins. Cet indicateur de personnalisation est limité aux composants visuels d’image, de texte et de bouton. <a href="../content/fragment-authoring.md#enable-custom-fields">En savoir plus</a> |
 | Nouvelle fonctionnalité | Rôles intégrés B2B et autorisations de produit | Experience Platform comprend désormais un ensemble de rôles intégrés (par défaut) que vous pouvez utiliser pour gérer l’accès aux fonctionnalités du produit B2B. <a href="../admin/user-management.md#b2b-built-in-roles">En savoir plus</a> <br/>Les administrateurs peuvent désormais définir des rôles personnalisés dans Adobe Experience Platform pour inclure les autorisations de produit Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">En savoir plus</a> |
+| Nouvelle fonctionnalité | Types de duplication de parcours | Lorsque vous dupliquez un parcours de compte, vous pouvez inclure les détails du nœud, à l’exclusion des e-mails et des SMS créés dans Journey Optimizer B2B edition. Vous pouvez également créer une copie squelette de la structure et des flux de chemin d’accès, sans détails ni paramètres de nœud. <a href="../journeys/journey-overview.md#duplicate-journey">En savoir plus</a> |
 | Amélioration | Quatre exemples supplémentaires de modèles d’e-mail | La bibliothèque d’exemples de modèles d’e-mail comprend désormais quatre modèles SecurFinancial qui servent d’exemples de contenu pour le réengagement, l’information, le soutien et les commentaires |
-
-
 
 ## notes de mise à jour 2025.1 {#Jan-2025}
 

@@ -2,10 +2,11 @@
 title: Créer et publier un Parcours de compte
 description: Découvrez comment créer et publier des parcours de compte.
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 1%
+source-wordcount: '773'
+ht-degree: 2%
 
 ---
 
@@ -33,9 +34,9 @@ La carte de parcours __ est la zone centrale du concepteur de parcours. C’est 
 
 Après avoir créé un parcours de compte et ajouté l’audience, créez le parcours à l’aide de nœuds . La carte de parcours fournit une zone de travail, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes à l’aide des types de nœuds suivants pour créer un parcours de compte :
 
-* [Effectuer une action](./action-nodes.md)
-* [Écoute d’un événement](./listen-for-event-nodes.md)
-* [Partage de chemins](./split-merge-paths-nodes.md)
+* [Entreprendre une action](./action-nodes.md)
+* [Écouter un événement](./listen-for-event-nodes.md)
+* [Chemins partagés](./split-merge-paths-nodes.md)
 * [Attente](./wait-nodes.md)
 * [Fusionner les chemins](./split-merge-paths-nodes.md)
 
@@ -109,7 +110,7 @@ Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une dat
 
 ## Publication d’un parcours de compte
 
-Si le parcours de compte ne comporte aucune erreur, vous pouvez le publier.
+Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois publié, le statut du parcours passe à _Actif_. Si le parcours comporte des erreurs, le bouton _[!UICONTROL Publier]_ est grisé avec les informations de contenu : `Resolve errors before publishing`.
 
 1. Dans la partie supérieure droite de la carte des parcours, cliquez sur **[!UICONTROL Publier]**.
 

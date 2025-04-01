@@ -3,21 +3,29 @@ title: Parcours de compte
 description: Découvrez les parcours de compte et comment les créer et les gérer.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 4%
+source-wordcount: '1022'
+ht-degree: 3%
 
 ---
 
 
 # Parcours de compte
 
-Créez et exécutez des parcours personnalisés pour chaque groupe d’achats et membre du groupe d’achats à l’aide d’un engagement automatisé par e-mail, SMS, événement, etc. Grâce aux parcours de compte, vous pouvez rationaliser la génération de la demande et la qualification des groupes d&#39;achat et stimuler une demande plus qualifiée pour vos programmes d&#39;acquisition, de vente incitative/croisée et de rétention.
+Grâce aux parcours de compte, vous pouvez rationaliser la génération de la demande et la qualification des groupes d&#39;achat et stimuler une demande plus qualifiée pour vos programmes d&#39;acquisition, de vente incitative/croisée et de rétention. Personnalisez vos parcours pour chaque groupe d&#39;achats et membre du groupe d&#39;achats à l&#39;aide de l&#39;engagement automatisé par e-mail, SMS, événements, etc.
 
 Définissez un engagement axé sur les ventes qui inclut des e-mails, des SMS et d’autres parcours de compte internes pour coordonner le marketing entrant avec les activités de vente sortantes pour chaque membre du groupe d’achats.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
+
+## Prise en main d’un parcours
+
+Pour commencer à utiliser les parcours de compte :
+
+1. [Créez un parcours](./create-publish-journey.md#create-an-account-journey).
+1. [Ajoutez les nœuds](./create-publish-journey.md#add-a-node) et [définissez le flux de parcours ](./create-publish-journey.md#add-and-delete-a-path) dans la carte de parcours.
+1. [Publier le parcours ](./create-publish-journey.md#publish-an-account-journey).
 
 ## Accéder aux parcours de compte et les parcourir
 
@@ -29,7 +37,7 @@ Définissez un engagement axé sur les ventes qui inclut des e-mails, des SMS et
 
    La page parcours affichée comprend les colonnes suivantes :
 
-   * [!UICONTROL Nom] (cliquez sur le nom pour ouvrir le parcours de compte à modifier)
+   * [!UICONTROL Nom] (cliquez sur le nom pour ouvrir le parcours en vue de le modifier)
    * [!UICONTROL Statut]
    * [!UICONTROL Description]
    * [!UICONTROL Créé par]
@@ -38,9 +46,9 @@ Définissez un engagement axé sur les ventes qui inclut des e-mails, des SMS et
    * [!UICONTROL Publié le]
    * [!UICONTROL Publié par]
 
-Ce tableau permet de rechercher des ressources par nom et par date de création. Le tri n’est actuellement pas disponible.
+Utilisez l’outil _Recherche_ dans la partie supérieure pour localiser le parcours par nom. Vous pouvez trier la liste par _[!UICONTROL Statut]_ en cliquant sur l’en-tête de colonne.
 
-Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Colonnes_ dans le coin supérieur droit, puis en cochant ou décochant les cases.
+Vous pouvez personnaliser les colonnes affichées dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ ( ![Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit. Cochez ou décochez les cases de la boîte de dialogue, puis cliquez sur **[!UICONTROL Appliquer]**.
 
 ![Choisissez les colonnes à afficher dans la liste des parcours de compte](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -50,37 +58,101 @@ Cliquez sur le nom (affiché sous forme de lien) dans la liste _[!UICONTROL parc
 
 ![Espace de travail du parcours de compte](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-L’en-tête d’éditeur de chaque parcours de compte comprend :
+L’en-tête de chaque mappage de parcours de compte comprend :
 
 * Nom du parcours
-* Possibilité de modifier le nom (icône _Modifier_)
+* Accès à la modification du nom du parcours (icône ![Modifier](../assets/do-not-localize/icon-edit.svg) _Modifier_)
 * Etat du parcours
 
-Les actions suivantes sont disponibles dans l’en-tête :
-
-* **Publier** - Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois publié, le statut du parcours passe à _Actif_. Si le parcours comporte des erreurs, le bouton est grisé avec les informations de contenu : `Resolve errors before publishing`.
-* **Dupliquer** - Cette action est similaire à une fonction de clonage, mais le parcours dupliqué n’inclut aucune ressource.
-* **Fermer aux nouvelles entrées** - Si vous fermez un parcours, les comptes actuellement dans le parcours continuent leur chemin dans le parcours et aucune autre entrée de parcours ne peut se produire. Impossible de redémarrer un parcours fermé. Vous pouvez dupliquer un parcours fermé.
-* **Abandon** - Si vous arrêtez un parcours, les comptes du parcours arrêtent immédiatement leur progression et aucune nouvelle entrée de parcours ne peut se produire. Impossible de redémarrer un parcours arrêté. Si vous bloquez les nouvelles entrées sans arrêter la progression des gens, envisagez plutôt de fermer le parcours.
-* **Supprimer** - Cette action supprime définitivement le parcours.
-
-Le statut d’un Parcours change en fonction des actions que vous appliquez. En fonction du statut d’un parcours, certaines actions sont ou ne sont pas disponibles dans l’en-tête .
+L’état d’un parcours peut changer en fonction des actions que vous effectuez. En fonction du statut d’un parcours, certaines actions sont/ne sont pas disponibles dans la partie droite de l’en-tête.
 
 | Statut | Description | Actions disponibles |
 | ------ | ----------- | ----------------- |
-| _**Brouillon**_ | Parcours dépublié modifiable. | <ul><li>Publier</li><li>Dupliquer </li><li>Supprimer </li></ul> |
+| _**Brouillon**_ | Parcours dépublié modifiable. | <ul><li>[Publier](./create-publish-journey.md#publish-an-account-journey)</li><li>Dupliquer </li><li>Supprimer </li></ul> |
 | _**En direct**_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <ul><li>Dupliquer </li><li>Fermer aux nouvelles entrées </li><li>Abandonner </li></ul> |
 | _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _En ligne_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <ul><li>Dupliquer </li><li>Abandonner </li></ul> |
 | _**Abandonné**_ | Le statut du parcours passe de _En ligne_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Impossible de redémarrer un parcours abandonné. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
 | _**Terminé**_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de Actif ou Fermé à Nouvelles entrées et passe à Terminé. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
 
-## Prise en main d’un parcours
+## Gestion des parcours
 
-Pour commencer à utiliser les parcours de compte :
+La liste _Parcours de compte_ comprend tous les parcours de votre instance Journey Optimizer B2B edition.
 
-1. [Créez un parcours](./create-publish-journey.md#create-an-account-journey).
-1. [Ajoutez les nœuds](./create-publish-journey.md#add-a-node) et [définissez le flux de parcours ](./create-publish-journey.md#add-and-delete-a-path) dans la carte de parcours.
-1. [Publier le parcours ](./create-publish-journey.md#publish-an-account-journey).
+### Abandonner le parcours
+
+Si vous abandonnez (arrêtez) un parcours actif ou planifié, les comptes du parcours arrêtent immédiatement leur progression et aucune autre entrée de parcours ne peut se produire. Impossible de redémarrer un parcours abandonné.
+
+>[!IMPORTANT]
+>
+>Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Prendre une action_ avec l’action _Ajouter un compte à un (autre) Parcours_, l’abandon du parcours bloque cette action à partir de ce parcours.
+
+1. Cliquez sur le nom du parcours pour l’ouvrir.
+
+1. Cliquez sur le menu **[!UICONTROL Plus...]** en haut à droite et choisissez **[!UICONTROL Abandonner]**.
+
+   ![Cliquez sur Plus en haut à droite](./assets/account-journey-live-more-menu.png){width="450"}
+
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Abandonner]**.
+
+### Fermer aux nouvelles entrées
+
+Si vous fermez un parcours actif, les comptes qui se trouvent actuellement dans le parcours continuent leur chemin dans ce parcours et aucune autre entrée de parcours ne peut se produire. Impossible de redémarrer un parcours fermé. Vous pouvez dupliquer un parcours fermé.
+
+>[!IMPORTANT]
+>
+>Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Prendre une action_ avec l’action _Ajouter un compte à un (autre) Parcours_, la fermer à de nouvelles entrées bloque cette action de ce parcours.
+
+1. Cliquez sur le nom du parcours pour l’ouvrir.
+
+1. Cliquez sur le menu **[!UICONTROL Plus...]** en haut à droite et choisissez **[!UICONTROL Fermer aux nouvelles entrées]**.
+
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]**.
+
+### Dupliquer le parcours
+
+Une action en double est similaire à une fonction de clonage, mais un parcours dupliqué n’inclut aucune ressource de contenu de parcours créée. Vous pouvez dupliquer les détails du parcours de compte ou simplement un _squelette_ de la structure des flux et des chemins d’accès.
+
+1. Cliquez sur l’icône _Plus_ (**...**) en regard du nom du parcours et choisissez **[!UICONTROL Dupliquer]**.
+
+   ![Cliquez sur l’icône ... et sélectionnez Dupliquer](./assets/account-journeys-list-more-menu.png){width="450"}
+
+   Selon le statut du parcours de compte, vous pouvez également accéder à l’action en double à partir des détails du parcours ou du mappage de parcours :
+
+   * Pour un brouillon de parcours, cliquez sur le menu **[!UICONTROL Plus...]** en haut à droite et choisissez **[!UICONTROL Dupliquer]**.
+
+   * Pour tous les autres statuts de parcours, cliquez sur **[!UICONTROL Dupliquer]** en haut à droite.
+
+     ![Cliquez sur Dupliquer en haut à droite](./assets/account-journey-duplicate-button.png){width="450"}
+
+1. Dans la boîte de dialogue _Dupliquer le Parcours_, définissez les **[!UICONTROL Nom]** et **[!UICONTROL Description]** pour le nouveau parcours.
+
+   Par défaut, la boîte de dialogue utilise le nom du parcours dupliqué suivi de __copy_. Saisissez un autre nom unique pour le parcours, le cas échéant.
+
+   ![ Boîte de dialogue Dupliquer le Parcours ](./assets/account-journey-duplicate-dialog.png){width="400"}
+
+1. Choisissez la duplication **[!UICONTROL Type]** :
+
+   * **[!UICONTROL Duplication partielle du contenu]** - Utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage sont entièrement intacts.
+
+   * **[!UICONTROL Dupliquer sans détails]** - Utilisez ce type pour copier uniquement la structure de nœud et les chemins d’accès. Tous les paramètres de nœud et conditions de chemin sont indéfinis (par défaut). Vous pouvez donc réutiliser le flux de base avec différents paramètres d’audience, d’actions et de segmentation de chemin. Tous les nœuds _Wait_ utilisent la valeur par défaut de cinq jours.
+
+1. Cliquez sur **[!UICONTROL Dupliquer]**.
+
+   Le parcours de compte dupliqué s’ouvre dans la carte de parcours, où vous pouvez définir les détails et créer du contenu de parcours selon vos besoins.
+
+### Supprimer le parcours
+
+Utilisez une action de suppression pour supprimer définitivement un parcours. Vous ne pouvez pas supprimer un parcours actif ou planifié.
+
+1. Cliquez sur l’icône _Plus_ (**...**) en regard du nom du parcours et choisissez **[!UICONTROL Supprimer]**.
+
+   Selon le statut du parcours de compte, vous pouvez également accéder à l’action de suppression à partir des détails du parcours ou de la carte des parcours :
+
+   * Pour un brouillon de parcours, cliquez sur le menu **[!UICONTROL Plus...]** en haut à droite et choisissez **[!UICONTROL Supprimer]**.
+
+   * Pour d’autres statuts de parcours, tels que _Terminé_ ou _Abandonné_, cliquez sur **[!UICONTROL Supprimer]** en haut à droite.
+
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
 
 ## Vidéo de présentation
 

@@ -1,13 +1,10 @@
 ---
 title: Listes de comptes
 description: Découvrez les listes de comptes et comment les marketeurs peuvent les utiliser pour cibler les comptes par le biais de parcours de compte.
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
