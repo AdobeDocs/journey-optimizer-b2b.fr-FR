@@ -3,9 +3,9 @@ title: Modèles de rôle de groupe d'achat
 description: Découvrez comment définir un modèle de rôle à utiliser en tant que composant de groupe d’achats.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
+source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1128'
 ht-degree: 4%
 
 ---
@@ -65,8 +65,8 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
 | Type | Condition |
 | ---- | --------- |
-| Attributs de la personne | <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Numéro de fax <li>Prénom <li>Région déduite <li>Intitulé du poste <li>Nom <li>Nom intermédiaire <li>Numéro téléphone mobile <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné <li>Raison désabonnement |
-| Filtres spéciaux | <li>Membre de la liste |
+| Attributs de la personne | <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Numéro de fax <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Nom intermédiaire <li>Numéro téléphone mobile <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné <li>Raison désabonnement |
+| Filtres spéciaux | <li>Membre de la liste <li>Membre du programme |
 | Données d’intention | Intention de la catégorie <li>Intention du produit <li>Intention du mot-clé <br/>[en savoir plus sur les données d’intention](../admin/intent-data.md). |
 
 1. Pour la première carte de rôle, définissez les propriétés du rôle.
@@ -111,21 +111,21 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
    ![Modèle de rôles avec plusieurs rôles définis](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX « appartenance à une liste de Marketo Engage »]
+>[!BEGINSHADEBOX « Appartenance à une liste Marketo Engage »]
 
-Dans Marketo Engage, les _campagnes intelligentes_ vérifient l’adhésion aux programmes pour vous assurer que les prospects ne reçoivent pas d’e-mails en double et ne sont pas membres de plusieurs flux d’e-mails en même temps. Dans Journey Optimizer B2B, vous pouvez vérifier l’appartenance à une liste de Marketo Engage comme condition de votre modèle de rôles afin d’éliminer la duplication dans l’appartenance à un groupe d’achat et les activités de parcours.
+Dans Marketo Engage, les _campagnes intelligentes_ vérifient l’adhésion aux programmes pour vous assurer que les prospects ne reçoivent pas d’e-mails en double et ne sont pas membres de plusieurs flux d’e-mails en même temps. Dans Journey Optimizer B2B, vous pouvez vérifier l’appartenance à la liste Marketo Engage en tant que condition de votre modèle de rôles afin d’éliminer la duplication dans l’appartenance à un groupe d’achat et les activités de parcours.
 
-Pour utiliser l’appartenance à une liste comme condition de rôle, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage. Renseignez ensuite la définition du filtre pour évaluer votre appartenance à une ou plusieurs listes de Marketo Engage.
+Pour utiliser l’appartenance à une liste comme condition de rôle, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage. Renseignez ensuite la définition du filtre pour évaluer votre appartenance à une ou plusieurs listes Marketo Engage.
 
-![Condition de modèle de rôles pour l’appartenance à une liste de Marketo Engage ](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+![Condition de modèle de rôles pour l’appartenance à une liste Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
 Vos modifications sont enregistrées automatiquement au statut _Brouillon_. Si vous n’êtes pas prêt à publier le modèle de rôles, cliquez sur la flèche de gauche (arrière) en haut de la page et revenez à la liste _[!UICONTROL Modèles de rôles]_.
 
-### Publish du modèle de rôles
+### Publication du modèle de rôles
 
-Si le modèle est prêt à être utilisé, cliquez sur **[!UICONTROL Publish]** en haut à droite.
+Si le modèle est prêt à l’emploi, cliquez sur **[!UICONTROL Publier]** en haut à droite.
 
 La publication du modèle définit le statut sur _Actif_ et permet de l’associer à une solution qui présente un intérêt. Au moins un rôle défini doit être défini pour publier le modèle de rôles.
 
