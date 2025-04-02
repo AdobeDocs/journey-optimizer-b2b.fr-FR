@@ -1,37 +1,37 @@
 ---
-title: Utilisation de l’assistant AI
-description: Découvrez comment l’assistant d’IA peut vous aider à tirer le meilleur parti des fonctionnalités de Journey Optimizer B2B Edition.
+title: Utiliser l’assistant AI
+description: Découvrez comment l’assistant d’IA peut vous aider à tirer le meilleur parti des fonctionnalités de Journey Optimizer B2B edition.
 feature: AI Assistant
 level: Beginner
-badgeBeta: label="Bêta" type="informative" tooltip="Fonctionnalité Beta"
-source-git-commit: 3d20c8e8b9e5b8bc37274fc170edec80e142ad8e
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+source-git-commit: e3ae3508db551cbd495be3108d555b936e2982a3
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Utilisation de l’assistant AI
+# Utiliser l’assistant AI
 
-Dans l’édition B2B de Journey Optimizer, l’assistant d’IA est une fonctionnalité de l’interface utilisateur que vous pouvez utiliser pour comprendre les concepts marketing basés sur les comptes, naviguer rapidement et découvrir les fonctionnalités de l’édition B2B de Journey Optimizer<!-- get operational insights for your specific environment -->. Il est également disponible dans plusieurs produits de Adobe Experience Cloud.
+Dans Journey Optimizer B2B edition, l’assistant AI est une fonctionnalité d’interface utilisateur que vous pouvez utiliser pour comprendre les concepts marketing basés sur les comptes et parcourir rapidement les fonctionnalités de Journey Optimizer B2B edition, ainsi qu’en apprendre davantage à leur sujet<!-- get operational insights for your specific environment -->. Il est également disponible dans plusieurs produits dans Adobe Experience Cloud.
 
-Pour accéder à l’assistant d’IA, cliquez sur l’icône dans l’en-tête. L’assistant AI s’ouvre dans un panneau à droite.
+Pour accéder à l’assistant AI, cliquez sur l’icône dans l’en-tête. L’assistant d’IA s’ouvre dans un panneau à droite.
 
 ![Cliquez sur l’icône pour accéder à l’assistant AI](./assets/ai-assistant-icon-header.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Avant de pouvoir utiliser l’assistant d’IA, vous devez vous soumettre aux directives utilisateur de Adobe Experience Cloud Generative AI. Pour plus d’informations sur cet accord et sur les directives d’utilisation, voir les [Directives d’utilisation de Adobe Experience Cloud Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Un accord concernant les directives d’utilisation de Adobe Experience Cloud Generative AI est requis avant de pouvoir utiliser l’assistant AI. Pour plus d’informations sur ce contrat et les instructions d’utilisation, consultez les [instructions d’utilisation de Adobe Experience Cloud Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
-Dans Adobe Journey Optimizer B2B Edition, l’assistant d’IA prend en charge les cas d’utilisation suivants :
+Dans Adobe Journey Optimizer B2B edition, l’assistant AI prend en charge les cas d’utilisation suivants :
 
-* **Connaissance du produit** (Beta)
+* **Connaissance des produits** (Beta)
 
-  Les questions relatives aux connaissances sur les produits portent sur les concepts de Journey Optimizer B2B Edition liés aux aspects de Adobe Journey Optimizer. Voici quelques exemples de questions relatives aux connaissances sur les produits :
+  Les questions sur la connaissance des produits portent sur les concepts de Journey Optimizer B2B edition relatifs à certains aspects de Adobe Journey Optimizer. Voici quelques exemples de questions relatives à la connaissance des produits :
 
-   * Comment configurer des comptes de fournisseur de SMS ?
-   * Comment envoyer un email dans un parcours de compte ?
-   * Comment personnaliser le contenu de mon email ?
+   * Comment configurer les comptes des fournisseurs SMS ?
+   * Comment envoyer un e-mail dans un parcours de compte ?
+   * Comment personnaliser le contenu de mon e-mail ?
 
 <!-- 
 * **Operational insights** in journeys (Beta)
@@ -46,14 +46,14 @@ Dans Adobe Journey Optimizer B2B Edition, l’assistant d’IA prend en charge l
     >
     >The only Adobe Journey Optimizer B2B Edition object you have access to ask the AI Assistant operational insights questions about is **Journeys**. It will only have data for the sandbox you are currently in.
 -->
-Pour poser une question, saisissez-la dans le champ au bas du panneau et appuyez sur Entrée.
+Pour poser une question, saisissez-la dans le champ en bas du panneau et appuyez sur Entrée.
 
-![Entrez une question dans la zone de texte](./assets/ai-assistant-ask-question.png){width="450" zoomable="yes"}
+![Saisissez une question dans la zone de texte](./assets/ai-assistant-ask-question.png){width="450" zoomable="yes"}
 
 Vérifiez la réponse et utilisez le bouton **Afficher les sources** pour obtenir des liens directs vers la documentation du produit et en savoir plus.
 
-![Résultats de la requête de l’assistant d’IA](./assets/ai-assistant-answer.png){width="450" zoomable="yes"}
+![Résultats de la requête de l’assistant AI](./assets/ai-assistant-answer.png){width="450" zoomable="yes"}
 
-Utilisez le pouce vers le haut ou vers le bas pour évaluer la qualité de la réponse.
+Utilisez le pouce vers le haut ou le pouce vers le bas pour évaluer la qualité de la réponse.
 
-Pour savoir comment utiliser l’assistant d’IA, voir des exemples d’objectifs que vous pouvez réaliser avec l’assistant d’IA et découvrir le fonctionnement de l’assistant, reportez-vous à la [documentation de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Pour savoir comment utiliser l&#39;assistant AI, voir des exemples d&#39;objectifs que vous pouvez atteindre avec l&#39;assistant AI et découvrir comment fonctionne l&#39;assistant AI, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.
