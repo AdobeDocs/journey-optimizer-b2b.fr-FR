@@ -3,10 +3,10 @@ title: Fractionner et fusionner les chemins
 description: Découvrez les types de nœuds de chemins de division et de chemins de fusion que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: bc264c94ff870733ee433a317bbbd885a30fc259
+source-git-commit: 0902e5569847be148bb5037c99cadf0b00c67b8c
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 4%
+source-wordcount: '1665'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ Utilisez les nœuds de chemin de partage et de fusion dans votre parcours de com
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
 
-## Partage de chemins
+## Chemins partagés
 
 Ajoutez un nœud _Chemins partagés_ pour définir un ou plusieurs chemins segmentés en fonction des attributs de compte ou de personne.
 
@@ -53,22 +53,20 @@ _Comment fonctionne un nœud de partage de chemin par personnes ?_
 | Contexte du nœud | Conditions de chemin | Description |
 | ------------ | --------------- | ----------- |
 | [Comptes](#add-a-split-path-by-account-node) | Attributs du compte | Attributs du profil de compte, notamment : <li>Chiffre d’affaires annuel</li><li>Ville</li><li>Pays</li><li>Nombre d’employés</li><li>Secteur industriel</li><li>Nom</li><li>Code SIC</li><li>État</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Évaluation de l’engagement</li> |
-| [Personnes](#add-a-split-path-by-people-node) > [!UICONTROL Attributs des personnes uniquement] | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Intitulé du poste</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné</li><li>Raison désabonnement</li> |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li> |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A une opportunité] | Le compte est lié ou non à une opportunité. Peut également être évalué par rapport à un ou plusieurs des attributs d’opportunité suivants : <li>Montant<li>Date de clôture<li>Description<li>Chiffre d’affaires souhaité<li>Trimestre d’exercice fiscal<li>Année fiscale<li>Type de prévision<li>Nom de la catégorie de prévision<li>Est fermé<li>Est conclu(e)</li><li>Dernière date d’activité</li><li>Source de personne<li>Nom</li><li>Étape suivante</li><li>Probabilité<li>Quantité<li>Étape</li><li>Type |
+| [Personnes](#add-a-split-path-by-people-node) > [!UICONTROL Attributs des personnes uniquement] | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Titre du traitement</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné</li><li>Raison désabonnement</li> |
 | | [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Activités e-mail associées au parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail]</li><li>E-mail ouvert</li><li>A reçu l’e-mail</li><li>A reçu un e-mail</li> Ces conditions sont évaluées à l’aide d’un e-mail sélectionné plus tôt dans le parcours. |
 | | [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li> |
 | | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape</li><li>E-mail</li><li>Web</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Évaluation de l’engagement</li><li>Rôle</li> |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Rôle</li> |
 | | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est membre ou non d’une ou de plusieurs listes Marketo Engage. |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | La personne est membre ou non d’un ou de plusieurs programmes Marketo Engage. |
 | [Personnes](#add-a-split-path-by-people-node) > [!UICONTROL Attributs compte-personne uniquement] | Rôle dans les attributs de compte | Un rôle dans le compte est attribué ou non à la personne. Contraintes facultatives : <li>Saisir un nom de rôle</li> |
 
 <!-- 
 
 Add back for next release:
-
-Accounts:
-
-| | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won</li><li>Last activity date</li><li>Person source<li>Name</li><li>Next step</li><li>Probability<li>Quantity<li>Stage</li><li>Type |
 
 People:
 
