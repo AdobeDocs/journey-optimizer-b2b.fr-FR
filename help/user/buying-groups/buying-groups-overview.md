@@ -3,9 +3,9 @@ title: Groupes d'achat
 description: Découvrez comment les groupes d’achats dans Journey Optimizer B2B edition peuvent accroître l’efficacité du marketing en identifiant et en ciblant les membres de vos listes de comptes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
+source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1784'
 ht-degree: 18%
 
 ---
@@ -28,7 +28,7 @@ Vous pouvez accroître l&#39;efficacité du marketing en établissant des groupe
 | Composant | But |
 | --------- | ------- |
 | Intérêt de la solution | Ce composant fournit la réponse aux questions suivantes : <ul><li>En tant qu&#39;organisation de marketing, que vendez-vous?</li><li>Quels produits ou collections de produits visez-vous à vendre ?</li></ul>  **_Exemple :_** vente croisée de nouveaux produits X à des clients existants |
-| Audience (comptes) | Ce composant fournit la réponse aux questions suivantes : <ul><li>À qui vendez-vous ?</li><li>Quelle est la liste des comptes ciblés ?</li></ul> **_Exemple :_** segment de compte défini par des comptes avec le produit Y dont le chiffre d’affaires est supérieur à 1 million |
+| Audience du compte | Ce composant fournit la réponse aux questions suivantes : <ul><li>À qui vendez-vous ?</li><li>Quelle est la liste des comptes ciblés ?</li></ul> **_Exemple :_** segment de compte défini par des comptes avec le produit Y dont le chiffre d’affaires est supérieur à 1 million |
 | Modèles de rôle de groupe d&#39;achat | Ce composant fournit la réponse aux questions suivantes : <ul><li>Quels rôles ciblez-vous ?</li><li>Quel jeu de règles est utilisé pour déterminer qui est affecté à des rôles de groupe d&#39;achat ?</li></ul>  **_Exemple :_** affecter une personne ayant le titre d’administrateur délégué au rôle de décideur |
 | Étapes du groupe d’achat | (Facultatif) Ce composant fournit la réponse à la question suivante : comment le groupe d’achats suit-il la progression vers le succès ou l’échec ? |
 
@@ -64,7 +64,7 @@ La page _[!UICONTROL Groupes d&#39;achats]_ est organisée sous forme d&#39;ongl
 | Tabulation | Description |
 | --- | ----------- |
 | [!UICONTROL Vue d’ensemble] | Cet onglet est le tableau de bord par défaut et affiche le tableau de bord [Groupes d&#39;achats](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Parcourir] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher la liste des groupes d&#39;achats existants. </li><li>Effectuez une recherche par nom de groupe d&#39;achat. </li><li>Filtrez par intérêt de solution. </li><li>Accéder aux détails du groupe d&#39;achat. </li><li>Créez un groupe d&#39;achats. Supprimez un groupe d&#39;achats.</li></ul> |
+| [!UICONTROL Parcourir] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher la liste des groupes d&#39;achats existants. </li><li>Effectuez une recherche par nom de groupe d&#39;achat. </li><li>Filtrez par intérêt de solution. </li><li>Accéder aux détails du groupe d&#39;achat. </li><li>Créez un groupe d&#39;achats. </li></ul> |
 | [!UICONTROL Centres d’intérêt des solutions] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher la liste des groupes d&#39;achats existants. </li><li>Effectuez une recherche par nom de groupe d&#39;achat. </li><li>Accédez aux propriétés d’intérêt de la solution et modifiez-les. </li><li>Créez un intérêt pour la solution. </li><li>Supprimez un intérêt de solution. </li><li>Afficher et supprimer des tâches de groupe d&#39;achat. </li></ul> |
 | [!UICONTROL Modèles de rôles] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher la liste des modèles de rôles existants. </li><li>Effectuez une recherche par nom de modèle de rôles. </li><li>Accédez aux propriétés et conditions du modèle de rôles et modifiez-les. </li><li>Créez un modèle de rôles. </li><li>Supprimez un modèle de rôles. </li></ul> |
 | [!UICONTROL Étapes] | Cet onglet prend en charge les activités suivantes : <ul><li>Affichez le modèle des étapes de groupes d&#39;achats existants. </li><li>Accédez au modèle de brouillon des étapes du groupe d&#39;achats et modifiez-le. </li><li>Créez le modèle d&#39;étapes du groupe d&#39;achats. </li></ul> |
