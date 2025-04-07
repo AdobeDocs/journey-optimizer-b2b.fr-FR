@@ -2,31 +2,30 @@
 title: Pages de destination
 description: Découvrez les pages de destination et comment les créer et les gérer pour prendre en charge les parcours et les campagnes de compte.
 feature: Content
-hide: true
-hidefromtoc: true
-badgeBeta: label="Version bêta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2188'
 ht-degree: 3%
 
 ---
 
 # Pages de destination
 
-Une page de destination est une page web autonome où vous pouvez diriger les contacts et les clients après qu&#39;ils ont cliqué sur un élément lié dans un e-mail, un SMS ou tout emplacement numérique. Vous pouvez incorporer ces pages dans les parcours de votre compte pour que vos prospects et clients voient vos messages sur le web et progressent dans les parcours de votre compte. Vous pouvez créer, personnaliser et prévisualiser des pages de destination dans le Designer Pages de destination.
+Une page de destination est une page web autonome où vous pouvez diriger les contacts et les clients après qu&#39;ils ont cliqué sur un élément lié dans un e-mail, un SMS ou tout emplacement numérique. Vous pouvez incorporer ces pages dans les parcours de votre compte pour que vos prospects et clients voient vos messages sur le web et progressent dans les parcours de votre compte. Vous pouvez créer, personnaliser et prévisualiser des pages de destination dans l’espace de conception visuelle de la page de destination.
 
 Pour diriger vos clients vers une page web définie lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans Journey Optimizer B2B edition.
 
 * Création de la page
 * Concevoir la page de destination et créer du contenu
 * Tester la page
-* Publish de la page
+* Publier la page
 * Lien vers la page à partir du contenu de votre parcours
 
 Par exemple, vous pouvez créer et concevoir des pages de destination pour diriger vos utilisateurs vers des informations en ligne. La page peut inclure un formulaire dans lequel ils peuvent s’inscrire ou refuser de recevoir vos communications. Il peut également s’agir d’une opportunité de s’abonner à des communications récurrentes, telles qu’une newsletter.
 
-Vous pouvez créer, personnaliser et prévisualiser des pages de destination dans le concepteur visuel.
+Vous pouvez créer, personnaliser et prévisualiser des pages de destination dans l’espace de conception visuelle.
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ Le statut de la page de destination détermine sa disponibilité pour la liaison
 
 | Statut | Description |
 | -------------------- | ----------- |
-| Brouillon | Lorsque vous créez une page de destination, elle a le statut de brouillon. Il reste dans ce statut lorsque vous définissez ou modifiez le contenu visuel, et jusqu’à ce que vous le publiiez en tant que page hébergée. Actions disponibles :<br/><ul><li>Modifier le nom ou la description<li>Modifier l&#39;URL du lien<li>Modifier dans le concepteur visuel<li>Publier<li>Dupliquer<li>Supprimer |
-| Publié | Lorsque vous publiez une landing page, elle est hébergée sur l&#39;instance Journey Optimizer B2B edition et vous pouvez la lier dans le contenu d&#39;un e-mail ou d&#39;un SMS. Actions disponibles :<br/><ul><li>Modifier le nom ou la description<li>Modifier l&#39;URL du lien<li>Ajouter un lien dans le contenu d’un e-mail ou d’un SMS<li>Créer un brouillon<li>Dupliquer<li>Supprimer |
-| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’une page de destination publiée, la version publiée est conservée et le contenu du brouillon peut être modifié dans le concepteur visuel. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans la page hébergée. Actions disponibles :<br/><ul><li>Modifier le nom ou la description<li>Modifier l&#39;URL du lien<li>Ajouter un lien dans le contenu d’un e-mail ou d’un SMS<li>Modifier le brouillon dans le concepteur visuel<li>Version brouillon de Publish<li>Dupliquer<li>Supprimer (supprime les deux versions)<li>Ignorer le brouillon (revient à publié) |
+| Brouillon | Lorsque vous créez une page de destination, elle a le statut de brouillon. Il reste dans ce statut lorsque vous définissez ou modifiez le contenu visuel, et jusqu’à ce que vous le publiiez en tant que page hébergée. Actions disponibles :<br/><ul><li>Modifier le nom ou la description<li>Modifier l&#39;URL du lien<li>Modification dans l’espace de conception visuelle<li>Publier<li>Dupliquer<li>Supprimer |
+| Publié | Lorsque vous publiez une landing page, elle est hébergée sur l&#39;instance Journey Optimizer B2B edition et vous pouvez la lier dans le contenu d&#39;un e-mail ou d&#39;un SMS. Actions disponibles :<br/><ul><li>Modifier le nom ou la description<li>Modifier l&#39;URL du lien<li>Ajouter un lien dans le contenu d’un e-mail ou d’un SMS<li>Créer une version brouillon<li>Dupliquer<li>Supprimer |
+| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’une page de destination publiée, la version publiée est conservée et le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans la page hébergée. Actions disponibles :<br/><ul><li>Modifier le nom ou la description<li>Modifier l&#39;URL du lien<li>Ajouter un lien dans le contenu d’un e-mail ou d’un SMS<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (supprime les deux versions)<li>Ignorer le brouillon (revient au statut publié) |
 
 ![Cycle de vie du statut de la page de destination](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,11 +85,11 @@ Vous pouvez ajouter une nouvelle page de destination dans Journey Optimizer B2B 
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   La page d’accueil _[!UICONTROL Créer votre page de destination principale]_ s’ouvre et propose plusieurs options pour créer la page : _[!UICONTROL Créer en partant de zéro]_, _[!UICONTROL Importer un HTML]_ ou utiliser un modèle enregistré.
+   La page d’accueil _[!UICONTROL Créer votre page de destination principale]_ s’ouvre et propose plusieurs options pour créer la page : _[!UICONTROL Créer en partant de zéro]_, _[!UICONTROL Importer HTML]_ ou utiliser un modèle enregistré.
 
    ![Choisissez comment commencer avec la conception de votre page de destination](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   Après avoir sélectionné la méthode à utiliser pour commencer la conception de la page de destination, utilisez le concepteur visuel pour [ concevoir la page ](./landing-page-design.md).
+   Après avoir sélectionné la méthode à utiliser pour commencer la conception de la page de destination, utilisez l’espace de conception visuelle pour [concevoir la page](./landing-page-design.md).
 
 ### Créer en partant de zéro
 
@@ -102,7 +101,7 @@ Utilisez l’éditeur visuel de contenu pour définir la structure du contenu de
 
 ### Importer du contenu HTML
 
-Adobe Journey Optimizer B2B edition vous permet d’importer du contenu HTML pour concevoir vos pages de destination.
+Adobe Journey Optimizer B2B edition vous permet d’importer du contenu HTML existant afin de concevoir vos pages de destination.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -112,7 +111,7 @@ Adobe Journey Optimizer B2B edition vous permet d’importer du contenu HTML pou
 >
 >L’utilisation d’une balise `<table>` comme première couche d’un fichier HTML peut entraîner une perte de style, y compris les paramètres d’arrière-plan et de largeur dans la balise de couche supérieure.
 
-Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide du concepteur visuel.
+Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide de l’espace de conception visuelle.
 
 ### Sélectionner un modèle enregistré
 
@@ -142,7 +141,7 @@ Une fois la sélection effectuée, un aperçu du modèle s’affiche. En mode Ap
 
 Lorsque l’affichage correspond à ce que vous souhaitez utiliser, cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de la fenêtre d’aperçu.
 
-Cette action copie le contenu dans le concepteur de contenu visuel, où vous pouvez modifier le contenu selon vos besoins.
+Cette action copie le contenu dans l’espace de conception visuelle, où vous pouvez modifier le contenu selon vos besoins.
 
 >[!TAB Exemples de modèles]
 
@@ -177,9 +176,9 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
    ![Détails de la page de destination avec le statut Brouillon](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. Pour apporter des modifications au contenu dans le concepteur visuel, cliquez sur **[!UICONTROL Modifier la page de destination]**.
+1. Pour apporter des modifications au contenu de l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier la page de destination]**.
 
-   Utilisez les outils du concepteur visuel selon vos besoins :
+   Utilisez les outils de conception visuelle selon vos besoins :
 
    * [Ajouter la structure et le contenu](./landing-page-design.md#add-structure-and-content)
    * [Ajout d’Assets](./landing-page-design.md#add-assets)
@@ -189,7 +188,7 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
-1. Lorsque la page répond à vos critères et que vous souhaitez la rendre disponible pour affichage, cliquez sur **[!UICONTROL Publish]**.
+1. Lorsque la page répond à vos critères et que vous souhaitez la rendre disponible pour affichage, cliquez sur **[!UICONTROL Publier]**.
 
 >[!TAB Publié]
 
@@ -203,11 +202,11 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
 1. Si vous souhaitez mettre à jour le contenu, cliquez sur **[!UICONTROL Modifier la page de destination]** à droite.
 
-   Cliquez sur **[!UICONTROL Créer un brouillon]** dans la boîte de dialogue pour ouvrir le brouillon dans le concepteur visuel.
+   Cliquez sur **[!UICONTROL Créer un brouillon]** dans la boîte de dialogue pour ouvrir le brouillon dans l’espace de conception visuelle.
 
    ![Boîte de dialogue Créer un brouillon](./assets/landing-page-create-draft-version.png){width="300"}
 
-   Utilisez les outils du concepteur visuel selon vos besoins :
+   Utilisez les outils de conception visuelle selon vos besoins :
 
    * [Ajouter la structure et le contenu](./landing-page-design.md#add-structure-and-content)
    * [Ajout d’Assets](./landing-page-design.md#add-assets)
@@ -217,7 +216,7 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
-1. Lorsque le brouillon de la page de destination répond à vos critères et que vous souhaitez que les modifications soient disponibles sur la page publiée, cliquez sur **[!UICONTROL Publish]**.
+1. Lorsque le brouillon de la page de destination répond à vos critères et que vous souhaitez que les modifications soient disponibles sur la page publiée, cliquez sur **[!UICONTROL Publier]**.
 
    Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour pour l’URL de la page.
 
@@ -229,7 +228,7 @@ Lorsque vous ouvrez la page de destination, la version brouillon s’affiche par
 
 Pour mettre à jour le contenu :
 
-1. Cliquez sur **[!UICONTROL Modifier la page de destination]** en haut à droite. Utilisez les outils du concepteur visuel selon vos besoins :
+1. Cliquez sur **[!UICONTROL Modifier la page de destination]** en haut à droite. Utilisez les outils de conception visuelle selon vos besoins :
 
    * [Ajouter la structure et le contenu](./landing-page-design.md#add-structure-and-content)
    * [Ajout d’Assets](./landing-page-design.md#add-assets)
@@ -239,7 +238,7 @@ Pour mettre à jour le contenu :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
-1. Lorsque le brouillon de page répond à vos critères et que vous souhaitez rendre les modifications disponibles, cliquez sur **[!UICONTROL Publish]**.
+1. Lorsque le brouillon de page répond à vos critères et que vous souhaitez rendre les modifications disponibles, cliquez sur **[!UICONTROL Publier]**.
 
    Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans la page hébergée.
 
@@ -292,3 +291,33 @@ Vous pouvez supprimer une page de destination à l’aide de l’une des méthod
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
 ![Boîte de dialogue Supprimer la page de destination](./assets/landing-page-delete-dialog.png){width="400"}
+
+## Lien vers une landing page
+
+En tant que marketeur ou Designer qui crée du contenu pour les e-mails, les fragments et les pages, vous pouvez incorporer des liens vers les pages de destination publiées (en direct) qui sont créées dans votre instance Journey Optimizer B2B edition.
+
+1. Lorsque vous travaillez dans l’espace de conception visuelle d’un fragment, d’un e-mail, d’une page de destination ou d’un modèle, sélectionnez un extrait de texte, un composant de bouton ou un composant d’image pour le lien.
+
+   Les options **[!UICONTROL Lien]** s’affichent dans le panneau de droite.
+
+1. Pour l’option **[!UICONTROL Type]**, choisissez **[!UICONTROL Page de destination]**.
+
+   ![Options de lien pour une landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. Pour l&#39;option **[!UICONTROL Landing page]**, cliquez sur l&#39;icône _Sélectionner une page_ ( ![Icône Afficher les liens](/help/assets/do-not-localize/icon-landing-page-select.svg) ).
+
+1. Dans la boîte de dialogue Sélectionner une page de destination , définissez la **[!UICONTROL Source de la page de destination]** en tant que **[!UICONTROL B2B edition Journey Optimizer]**, cochez la case de la page de destination dans la liste des pages publiées, puis cliquez sur **[!UICONTROL Sélectionner]**.
+
+   ![Options de lien pour une landing page](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. Pour l’option **[!UICONTROL Cible]**, choisissez le comportement de la cible du lien :
+
+   * **[!UICONTROL Aucune]** : ouvre le lien à l’aide du comportement par défaut du navigateur.
+   * **[!UICONTROL Vide]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
+   * **[!UICONTROL Self]** : ouvre le lien dans le même cadre.
+   * **[!UICONTROL Parent]** : ouvre le lien dans le cadre parent.
+   * **[!UICONTROL Haut]** : ouvre le lien dans le corps complet de la fenêtre.
+
+1. (Lien de texte uniquement) Pour souligner le texte lié, cochez la case **[!UICONTROL Souligner le lien]**.
+
+   Vous pouvez définir un style supplémentaire pour le texte du lien, y compris la couleur du lien, en sélectionnant l’onglet **[!UICONTROL Styles]** dans le panneau de droite.

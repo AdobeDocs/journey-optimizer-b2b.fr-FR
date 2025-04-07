@@ -3,9 +3,9 @@ title: Étapes du groupe d'achat
 description: Découvrez les étapes d'un groupe d'achat et comment les définir pour suivre la progression du parcours par rapport aux objectifs de vente.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 
 Tant que le modèle des étapes du groupe d&#39;achat reste à l&#39;état _Brouillon_, vous pouvez modifier les étapes et les règles de transition.
 
-Pour afficher le modèle de brouillon :
+_Pour afficher le modèle de brouillon, procédez comme suit_
 
 1. Dans le volet de navigation de gauche, accédez à **[!UICONTROL Comptes]** > **[!UICONTROL Groupes d’achat]**.
 
@@ -187,6 +187,20 @@ Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
 
+## Supprimer le modèle d&#39;étapes du groupe d&#39;achats
+
+Vous pouvez supprimer le modèle d&#39;étapes de groupe d&#39;achats lorsqu&#39;il est à l&#39;état de brouillon ou publié. S’il est publié (actif), vous pouvez le supprimer uniquement s’il n’est pas associé à un intérêt de solution.
+
+1. Dans le volet de navigation de gauche, accédez à **[!UICONTROL Comptes]** > **[!UICONTROL Groupes d’achat]**.
+
+1. Sur la page _Groupes d&#39;achat_, sélectionnez l&#39;onglet **[!UICONTROL Étapes]**.
+
+1. Cliquez sur l’icône du menu _Plus_ (**...**) à côté du nom du modèle d’étapes et choisissez **[!UICONTROL Supprimer]**.
+
+   ![Achat de modèles d&#39;étapes de groupe Plus de menu](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Supprimer]** pour confirmer.
+
 ## Utiliser le modèle dans les parcours de compte
 
 Lorsque le modèle d&#39;étapes d&#39;achat est à l&#39;état _En ligne_ (publié), ajoutez le modèle aux centres d&#39;intérêt de la solution où vous souhaitez l&#39;utiliser pour suivre la progression du groupe d&#39;achats. Dans vos parcours de compte, vous pouvez inclure des actions pour faire passer les comptes à une étape spécifiée et ajouter des transitions d’étape en tant qu’événements qui déterminent la façon dont les comptes se déplacent dans le parcours.
@@ -214,7 +228,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-### Partage de chemins
+### Chemins partagés
 
 À l’aide d’un [nœud de chemin de partage](../journeys/journey-nodes.md#split-paths), vous pouvez filtrer au niveau du compte ou au niveau des personnes en fonction des étapes du groupe d’achat. Par exemple, ajoutez une étape de groupe d’achats comme condition de chemin lors du fractionnement de chemins par membre de groupe d’achats.
 

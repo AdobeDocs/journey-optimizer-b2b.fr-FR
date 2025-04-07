@@ -1,31 +1,30 @@
 ---
-title: Conception de la page de destination
-description: Découvrez comment concevoir et créer du contenu pour vos pages de destination qui prennent en charge les parcours et les campagnes de compte.
+title: Conception du modèle de page de destination
+description: Découvrez comment concevoir et créer du contenu pour des modèles de page de destination que les marketeurs peuvent réutiliser pour créer des pages de destination.
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
-exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: f0658fad82d6656bc052c1810530963404e29396
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 18%
+source-wordcount: '319'
+ht-degree: 9%
 
 ---
 
-# Conception de la page de destination
+# Conception du modèle de page de destination
 
-Après avoir [créé une page de destination](./landing-pages.md#create-a-landing-page), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre page.
+Après avoir [créé un modèle de page de destination](./landing-page-templates.md#create-a-landing-page-template), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre modèle de page.
 
 ## Ajouter la structure et le contenu {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
+>id="ajo-b2b_landing_page_template_structure"
 >title="Ajouter des composants de structure à la page de destination"
->abstract="Les composants de structure définissent la disposition de la page de destination. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre page."
+>abstract="Les composants de structure définissent la disposition de la page de destination. Faites glisser et déposez un composant **Structure** dans la zone de travail pour commencer à concevoir le contenu de votre modèle de page."
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
+>id="ajo-b2b_landing_page_template_content_components"
 >title="À propos des composants de contenu pour les pages de destination"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination."
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un modèle de page de destination."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -51,9 +50,9 @@ Après avoir [créé une page de destination](./landing-pages.md#create-a-landin
 
 ### Enregistrer votre travail
 
-Cliquez sur **[!UICONTROL Enregistrer]** à tout moment pour enregistrer le brouillon de page de destination.
-
-Vous pouvez continuer à apporter des modifications au brouillon de page. Lorsque vous êtes prêt à afficher la page et à la rendre disponible pour liaison dans un e-mail ou un SMS, vous pouvez publier la page.
+Cliquez sur **[!UICONTROL Enregistrer]** à tout moment pour enregistrer le modèle de page de destination.
+<!--
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
 
 ### Afficher les options
 

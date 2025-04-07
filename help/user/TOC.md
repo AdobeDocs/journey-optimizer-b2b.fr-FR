@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de l’édition B2B de Journey Optimizer
 user-guide-description: Découvrez l’édition B2B d’Adobe Journey Optimizer et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 37%
+source-wordcount: '240'
+ht-degree: 40%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 37%
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [Nœuds de parcours](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
-      + [Audience (comptes)](./journeys/account-audience-nodes.md)
-      + [Effectuer une action](./journeys/action-nodes.md)
-      + [Écoute d’un événement](./journeys/listen-for-event-nodes.md)
+      + [Audience du compte](./journeys/account-audience-nodes.md)
+      + [Entreprendre une action](./journeys/action-nodes.md)
+      + [Écouter un événement](./journeys/listen-for-event-nodes.md)
       + [Fractionner et fusionner les chemins](./journeys/split-merge-paths-nodes.md)
       + [Attente](./journeys/wait-nodes.md)
    + [Détails du parcours](./journeys/journey-details.md)
@@ -36,6 +36,7 @@ ht-degree: 37%
       + [Assistant AI pour la création d’e-mails](./content/ai-assistant-emails.md)
       + [Modèles régis](./content/email-authoring-governance.md)
       + [E-mail d’alerte de vente](./content/sales-alert-email.md)
+   + [Jetons de personnalisation personnalisés](./content/personalization-my-tokens.md)
    + [Création de SMS](./content/sms-authoring.md)
 + Comptes {#accounts}
    + [Audiences](./audiences/account-audience-overview.md)
@@ -45,7 +46,7 @@ ht-degree: 37%
       + [Modèles de rôle](./buying-groups/buying-groups-role-templates.md)
       + [Étapes du groupe d’achat](./buying-groups/buying-group-stages.md)
       + [Détails du groupe d&#39;achat](./buying-groups/buying-group-details.md)
-      + [Créer des groupes d&#39;achats](./buying-groups/buying-groups-create.md)
+      + [Créer des groupes d’achat](./buying-groups/buying-groups-create.md)
       + [Exporter la liste des comptes](./audiences/account-list-export.md)
       + [Audiences correspondantes du compte LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtres de groupe d&#39;achat dans Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
@@ -64,11 +65,15 @@ ht-degree: 37%
       + Modèles d’e-mail {#email-templates}
          + [Vue d’ensemble](./content/email-templates.md)
          + [Création d&#39;un modèle d&#39;email](./content/email-template-authoring.md)
-      + [Modèles de page de destination](./content/landing-page-templates.md)
+      + Modèles de landing page {#landing-page-templates}
+         + [Vue d’ensemble](./content/landing-page-templates.md)
+         + [Conception du modèle de page de destination](./content/landing-page-template-design.md)
    + Fragments {#visual-fragments}
       + [Vue d’ensemble](./content/fragments.md)
       + [Création de fragments](./content/fragment-authoring.md)
-   + [Formulaires](./content/forms.md)
+   + {#forms} Forms
+      + [Vue d’ensemble](./content/forms.md)
+      + [Conception de formulaire](./content/form-design.md)
    +  Pages de destination {#landing-pages}
       + [Vue d’ensemble](./content/landing-pages.md)
       + [Conception de la page de destination](./content/landing-page-design.md)
@@ -79,7 +84,7 @@ ht-degree: 37%
    + [Présentation des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
    + [Présentation des Parcours de compte](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
-   + [Gestion des utilisateurs](./admin/user-management.md)
+   + [Gestion des utilisateurs et utilisatrices](./admin/user-management.md)
    + [Données d’intention](./admin/intent-data.md)
    + Canaux {#channels}
       + [Configurations des e-mails](./admin/configure-channels-emails.md)

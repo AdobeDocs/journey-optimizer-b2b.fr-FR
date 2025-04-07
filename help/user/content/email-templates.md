@@ -3,9 +3,9 @@ title: Modèles d'e-mail
 description: Découvrez comment gérer et créer facilement et efficacement des modèles d’e-mail utilisés pour créer des e-mails de parcours de compte.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Pour rechercher un modèle par nom, saisissez une chaîne de texte dans la barre
 
 ![Accédez à la bibliothèque de modèles d’e-mail et filtrez par nom et dates](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-Personnalisez les colonnes à afficher dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ en haut à droite. Sélectionnez les colonnes à afficher et cliquez sur **[!UICONTROL Appliquer]**.
+Personnalisez les colonnes à afficher dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ ( ![Icône Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg) ) en haut à droite. Sélectionnez les colonnes à afficher et cliquez sur **[!UICONTROL Appliquer]**.
 
 Dans la liste des modèles affichée, vous pouvez effectuer les actions décrites dans les sections suivantes.
 
@@ -38,7 +38,7 @@ Vous pouvez créer un modèle d’e-mail à partir de la page de liste des modè
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-La page _[!UICONTROL Concevoir votre modèle]_ s’ouvre et propose plusieurs options pour créer le modèle : _[!UICONTROL Créer en partant de zéro]_, _[!UICONTROL Importer un HTML]_ ou _[!UICONTROL Sélectionner un modèle de conception]_.
+La page _[!UICONTROL Concevoir votre modèle]_ s’ouvre et propose plusieurs options pour créer le modèle : _[!UICONTROL Créer en partant de zéro]_, _[!UICONTROL Importer HTML]_ ou _[!UICONTROL Sélectionner un modèle de conception]_.
 
 ![Choisissez comment commencer avec la conception de votre modèle d’e-mail](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Utilisez l’éditeur visuel de contenu pour définir la structure du contenu de
 
 ### Importer du contenu HTML
 
-Adobe Journey Optimizer B2B edition vous permet d’importer du contenu d’HTML existant afin de concevoir vos modèles d’e-mail.
+Adobe Journey Optimizer B2B edition vous permet d’importer du contenu HTML existant afin de concevoir vos modèles d’e-mail.
 
 {{$include /help/_includes/content-design-import.md}}
 

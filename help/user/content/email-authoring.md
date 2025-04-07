@@ -3,9 +3,9 @@ title: Création d’e-mails
 description: Découvrez comment créer du contenu d’e-mail personnalisé utilisé dans un Parcours de compte.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1297'
 ht-degree: 15%
 
 ---
@@ -144,6 +144,10 @@ Une fois l’e-mail enregistré, il s’affiche dans la page des détails du fra
 ### Personnaliser le contenu
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>Si _[!UICONTROL Mes jetons]_ sont définis pour le parcours de compte, vous pouvez également utiliser ces jetons spécifiques au parcours pour le contenu de votre e-mail. Voir [Jetons personnalisés pour la personnalisation des e-mails](./personalization-my-tokens.md) pour plus d’informations.
 
 ### Modifier le tracking des URL liées
 
