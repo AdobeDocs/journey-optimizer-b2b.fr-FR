@@ -2,9 +2,9 @@
 title: Notes de mise à jour
 description: Dernières notes de mise à jour pour l’édition B2B d’Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
+source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
 | Nouvelle fonctionnalité | Listes de comptes | Vous pouvez désormais créer une liste de comptes statique ou dynamique pour cibler les comptes nommés en fonction de vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. <a href="../accounts/account-lists.md">En savoir plus</a> |
-| Nouvelle fonctionnalité | Mes jetons pour les parcours de compte | Vous pouvez maintenant définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la création d’e-mails de parcours. |
+| Nouvelle fonctionnalité | Mes jetons pour les parcours de compte | Vous pouvez maintenant définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la création d’e-mails de parcours. <a href="../content/personalization-my-tokens.md">En savoir plus</a> |
 | Nouvelle fonctionnalité | Supprimer les étapes du groupe d&#39;achat | Vous pouvez supprimer le modèle d&#39;étapes de groupe d&#39;achats lorsqu&#39;il est à l&#39;état de brouillon ou publié. S’il est publié (actif), vous pouvez le supprimer uniquement s’il n’est pas associé à un intérêt de solution. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">En savoir plus</a> |
 | Amélioration | Nombre de nœuds de parcours | Amélioration de la visibilité sur le nombre d’adhésions au parcours au niveau du nœud. Utilisez ces informations pour valider la progression du compte dans un parcours. |
 
