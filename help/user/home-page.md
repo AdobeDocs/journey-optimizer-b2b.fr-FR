@@ -4,7 +4,7 @@ description: Découvrez comment accéder à l’application Journey Optimizer B2
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '444'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,11 @@ Avec Adobe Journey Optimizer, édition B2B, vous pouvez orchestrer des parcou
 -->
 Pour accéder à [!DNL Adobe Journey Optimizer B2B Edition], connectez-vous à Adobe Experience Cloud avec votre Adobe ID, puis sélectionnez [!DNL Journey Optimizer B2B Edition].
 
-![applications Adobe Experience Platform](./assets/experience-cloud-apps.png){width=« 800 » zoomable=« yes »}
+![applications Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 La page d’accueil s’affiche lorsque vous vous connectez à Adobe Experience Platform et sélectionnez l’application Adobe Journey Optimizer B2B edition. Cette page donne un aperçu de l’état actuel des initiatives B2B de Journey Optimizer sous la forme d’<!-- refined insights and--> accès rapide aux modules pertinents. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![page d’accueil de Journey Optimizer B2B edition](./assets/home-page.png){width=« 800 » zoomable=« yes »}
+![Page d’accueil de Journey Optimizer B2B edition](./assets/home-page.png){width="800" zoomable="yes"}
 
 Le B2B edition Journey Optimizer comporte deux rôles principaux d’utilisateur : un _**professionnel du marketing**_ et un _**administrateur**_. Chaque personnage possède une page d&#39;accueil spécifique pour différentes étapes de maturité (nouvelles ou avancées). Le contenu de la page est basé sur les besoins de chaque personne en termes d’informations et des actions suivantes à entreprendre.
 

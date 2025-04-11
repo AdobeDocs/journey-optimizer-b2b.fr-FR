@@ -2,7 +2,7 @@
 title: Documentation de l’édition B2B d’Adobe Journey Optimizer
 description: Découvrez comment utiliser les fonctionnalités de Adobe Journey Optimizer B2B edition pour orchestrer des parcours de compte et de groupe d’achat à l’aide de l’IA générative intégrée et de l’automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 7%
@@ -35,7 +35,7 @@ Grâce aux licences d’entreprise d’Adobe Express, vous pouvez tirer parti d�
 
 En tant que concepteur de contenu, vous pouvez désigner un paramètre pour un composant du fragment comme étant modifiable. Cela permet à l’auteur de l’e-mail ou du modèle de spécifier une valeur de champ personnalisée spécifique à ses besoins. Cet indicateur de personnalisation est limité aux composants visuels d’image, de texte et de bouton.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Découvrez les champs personnalisés pour les fragments de contenu"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Découvrez les champs personnalisés pour les fragments de contenu"}
 
 >[!TAB Transfert d’événement AEP]
 
@@ -96,7 +96,7 @@ Découvrez les composantes d&#39;un groupe d&#39;achat et les principes de base 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Prise en main"><br/>
-      <strong>Prise en main</strong><br/><a href="home-page.md">Connexion et page d’accueil</a><br/><a href="./start/get-started.md">Guide de démarrage rapide</a> <br/><a href="./start/ai-assistant.md">Assistant IA</a>
+      <strong>Prise en main</strong><br/><a href="home-page.md">Connexion et page d’accueil</a><br/><a href="./start/get-started.md">Guide de démarrage rapide</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistant IA</a>
     </td>
     <!--
     <td>

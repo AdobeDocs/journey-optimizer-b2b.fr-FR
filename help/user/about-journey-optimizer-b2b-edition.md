@@ -4,7 +4,7 @@ description: Découvrez les fonctionnalités clés, les cas d’utilisation et l
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '811'
 ht-degree: 5%
 
 ---
@@ -21,11 +21,11 @@ En comparant Adobe Journey Optimizer B2B edition à Marketo Engage et Adobe Jour
 
 Adobe Journey Optimizer B2B edition utilise _Audiences de compte_ et _Audiences de personnes_ de Adobe Experience Platform pour alimenter un parcours de compte qui s’exécute dans Marketo Engage. Experience Platform est toujours la source de vérité pour ces données, mais toute l’exécution et le traitement du parcours de compte se font au sein de l’infrastructure marketing B2B de Marketo Engage. L’orchestration renvoie les données à Experience Platform en temps quasi réel grâce au connecteur source Marketo Engage - Adobe Real-Time CDP B2B edition, qui diffuse les modifications de données de Marketo Engage vers Experience Platform.
 
-![Architecture de données de haut niveau](./assets/high-level-data-architecture.png){width=« 500 » zoomable=« yes »}
+![ Architecture de données de haut niveau ](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target=« _blank »} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 ### Modèle d’abonnement
 

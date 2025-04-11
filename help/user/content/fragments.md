@@ -3,7 +3,7 @@ title: Fragments
 description: Découvrez comment créer et utiliser des fragments de contenu visuels en tant que composants réutilisables pour les e-mails et les modèles de courrier électronique dans Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 1%
@@ -42,16 +42,16 @@ Le statut du fragment détermine sa disponibilité pour une utilisation dans un 
 | Statut | Description |
 | -------------------- | ----------- |
 | Brouillon | Lorsque vous créez un fragment, il est à l’état de brouillon. Il reste dans ce statut lorsque vous définissez ou modifiez le contenu visuel jusqu’à ce que vous le publiiez pour l’utiliser dans un e-mail ou un modèle d’e-mail. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Modifier dans le concepteur visuel<li>Publier<li>Dupliquer<li>Supprimer |
-| Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Le contenu du fragment publié ne peut pas être modifié dans le concepteur visuel. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer un brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
+| Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Le contenu du fragment publié ne peut pas être modifié dans le concepteur visuel. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, et le contenu du brouillon peut être modifié dans le concepteur visuel. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Modifier le brouillon dans le concepteur visuel<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 
-![ Cycle de vie du statut du fragment ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![Cycle de vie de l’état du fragment](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Le statut du fragment a été introduit dans la version d’août de Journey Optimizer B2B edition. Tous les fragments créés avant cette version ont le statut _Brouillon_, même s’ils sont utilisés dans un e-mail ou un modèle. Si vous apportez des modifications à ces fragments, vous devez publier le fragment pour propager les modifications.
+>L’état du fragment a été introduit dans la version d’août de Journey Optimizer B2B. Tous les fragments créés avant cette version ont le _statut Brouillon_ , même s’ils sont utilisés dans un e-mail ou un modèle. Si vous apportez des modifications à ces fragments, vous devez publier le fragment pour propager les modifications.
 
-### Filtrer la liste des fragments
+### Filtrage de la liste des fragments
 
 Pour rechercher un fragment par nom, saisissez une chaîne de texte dans la barre de recherche pour rechercher une correspondance. Cliquez sur l’icône _Filtrer_ ( ![Afficher ou masquer l’icône des filtres](../assets/do-not-localize/icon-filter.svg) ) pour afficher les options de filtre disponibles et modifier les paramètres afin de filtrer les éléments affichés en fonction de vos critères spécifiés.
 
@@ -59,7 +59,7 @@ Pour rechercher un fragment par nom, saisissez une chaîne de texte dans la barr
 
 ### Personnalisation de l’affichage des colonnes
 
-Personnalisez les colonnes à afficher dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ ( ![Icône Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg) ) en haut à droite.
+Personnalisez les colonnes que vous souhaitez afficher dans le tableau en cliquant sur l’icône Personnaliser le _tableau_ ( ![icône Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg) ) en haut à droite.
 
 Dans la boîte de dialogue, sélectionnez les colonnes à afficher et cliquez sur **[!UICONTROL Appliquer]**.
 
@@ -93,7 +93,7 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B edition en c
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
-   * [Activer les champs personnalisés](./fragment-authoring.md#enable-custom-fields)
+   * [Activer les champs personnalisés](./fragment-authoring.md#enable-fragment-customization)
    * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** à tout moment pour enregistrer le brouillon de fragment.
@@ -173,7 +173,7 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
-   * [Activer les champs personnalisés](./fragment-authoring.md#enable-custom-fields)
+   * [Activer les champs personnalisés](./fragment-authoring.md#enable-fragment-customization)
    * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
    Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
@@ -202,7 +202,7 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
-   * [Activer les champs personnalisés](./fragment-authoring.md#enable-custom-fields)
+   * [Activer les champs personnalisés](./fragment-authoring.md#enable-fragment-customization)
    * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
    Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
@@ -231,12 +231,12 @@ Pour mettre à jour le contenu :
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
-   * [Activer les champs personnalisés](./fragment-authoring.md#enable-custom-fields)
+   * [Activer les champs personnalisés](./fragment-authoring.md#enable-fragment-customization)
    * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
-   Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du fragment.
+   Cliquez sur Enregistrer ou **[!UICONTROL sur**[!UICONTROL  Enregistrer ]**et fermer]** pour revenir aux détails du fragment.
 
-1. Lorsque le brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un modèle d’e-mail ou de courrier électronique, cliquez sur **[!UICONTROL Publier]**.
+1. Lorsque le fragment de brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un courrier électronique ou un modèle de courrier électronique, cliquez sur **[!UICONTROL Publish]**.
 
    Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est déjà utilisé.
 
@@ -273,7 +273,7 @@ Lorsque vous créez/modifiez un e-mail ou un modèle d’e-mail dans l’éditeu
 
 1. Dans la boîte de dialogue, saisissez un nom et une description utiles pour le fragment. Cliquez ensuite sur **[!UICONTROL Créer]**.
 
-   Le nouveau fragment est ensuite affiché dans la page de liste _Fragments_ et peut également être utilisé dans les e-mails et les modèles d’e-mail.
+   Le nouveau fragment est ensuite affiché dans la page de liste des fragments et peut également être utilisé dans les _e-mails et les modèles d’e-mail_ .
 
 ## Ajouter des fragments visuels au contenu de votre e-mail ou modèle
 
@@ -319,21 +319,21 @@ Une fois l’e-mail enregistré, il apparaît dans la page des détails du fragm
 
 1. Créez un modèle ou ouvrez un modèle d’e-mail existant, puis cliquez sur **[!UICONTROL Modifier le modèle d’e-mail]**.
 
-1. Faites glisser et déposez un élément du menu **[!UICONTROL Composants]** pour fournir une _structure_ pour le fragment.
+1. Faites glisser un élément à partir du **[!UICONTROL menu Composants]** pour fournir une _structure_ au fragment.
 
-1. Pour ouvrir la liste des fragments, cliquez sur l’icône _Fragments_.
+1. Pour ouvrir la liste des fragments, cliquez sur l’icône _Fragments_ .
 
    Vous pouvez effectuer les actions suivantes :
    * Triez la liste.
    * Parcourez, recherchez et filtrez la liste.
-   * Basculez entre les vues Carte (miniature) et Liste.
-   * Actualisez la liste pour refléter l’un des fragments récemment créés.
+   * Basculez entre les modes Carte (miniature) et Liste.
+   * Actualisez la liste pour refléter les fragments récemment créés.
 
-   ![Rechercher un fragment dans le concepteur visuel](./assets/fragments-list-designer-search.png){width="600"}
+   ![Search pour un fragment dans le concepteur visuel](./assets/fragments-list-designer-search.png){width="600"}
 
-1. Faites glisser et déposez l’un des fragments dans l’espace réservé du composant de structure.
+1. Faites glisser n’importe lequel des fragments dans l’espace réservé du composant de structure.
 
-   L’éditeur effectue le rendu du fragment dans la section/l’élément de la structure du modèle d’e-mail.
+   L’éditeur effectue le rendu du fragment au sein de la section/de l’élément de la structure du modèle d’email.
 
 1. Faites glisser et déposez l’un des fragments dans l’espace réservé du composant de structure.
 
@@ -351,7 +351,7 @@ Une fois le modèle d’e-mail enregistré, il apparaît dans la page des détai
 
 Lorsqu’un fragment est ajouté à un e-mail ou à un modèle d’e-mail, le contenu du fragment ne peut pas être modifié dans l’e-mail ou le modèle. Vous pouvez toutefois appliquer les actions suivantes :
 
-* **[!UICONTROL Supprimer]** - Cette action supprime le fragment du contenu de l’e-mail ou du modèle d’e-mail actuel (la source du fragment n’est pas affectée).
+* **[!UICONTROL Supprimer]** - Cette action supprime le fragment de l’e-mail actuel ou du contenu du modèle d’e-mail (la source du fragment n’est pas affectée).
 * **[!UICONTROL Actualiser]** - Cette action actualise le contenu du fragment dans l’e-mail ou le modèle d’e-mail actuel. L’actualisation est utile lorsque vous souhaitez refléter des modifications récentes apportées au fragment après l’ajout à l’e-mail ou au modèle d’e-mail.
 * **[!UICONTROL Dupliquer]** - Cette action duplique le fragment dans le même e-mail ou modèle d’e-mail dans l’éditeur, avec les mêmes dimensions et ajouté juste en dessous.
 * **[!UICONTROL Ouvrir le fragment]** - Cette action ouvre un nouvel onglet du navigateur avec la page de l’éditeur de fragments et les détails.

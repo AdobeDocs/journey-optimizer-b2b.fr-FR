@@ -3,9 +3,10 @@ title: Activer l’accès de l’assistant AI
 description: Espace réservé
 feature: AI Assistant
 level: Beginner
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
+exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
+source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -28,13 +29,13 @@ En tant qu’administrateur, vous pouvez :
 
 * Ajoutez l’autorisation **Afficher les informations opérationnelles** à un rôle donné et ajoutez un utilisateur à ce rôle. Cette autorisation permet à l’utilisateur d’utiliser les fonctionnalités d’informations opérationnelles de l’assistant AI.
 
-![Attribuer des autorisations à l’assistant AI](./assets/ai-assistant-permissions.png){width=« 800 » zoomable=« yes »}
+![Attribuer des autorisations à l’assistant AI](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
 Utilisez l’interface utilisateur des autorisations pour octroyer des autorisations d’utilisation de l’assistant AI dans Journey Optimizer B2B edition. Pour plus d’informations sur l’accès à l’assistant AI dans Experience Platform et d’autres applications Experience Cloud, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
 
 Lorsque l’utilisateur dispose des autorisations nécessaires, il peut accéder à l’assistant AI en sélectionnant l’icône _Assistant AI_ dans l’en-tête supérieur de l’application que vous utilisez.
 
-![Icône de l’assistant AI dans l’en-tête de l’application](./assets/ai-assistant-icon-header.png){width=« 800 » zoomable=« yes »}
+![Icône Assistant AI dans l’en-tête de l’application](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}
 
 ## Vidéo de présentation de l’accès à l’assistant AI
 

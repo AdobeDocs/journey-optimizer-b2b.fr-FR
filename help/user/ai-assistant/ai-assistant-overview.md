@@ -3,9 +3,10 @@ title: Assistant d’IA dans Journey Optimizer B2B edition
 description: Espace réservé
 feature: AI Assistant
 level: Beginner
-source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
+exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
+source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 4%
 
 ---
@@ -68,7 +69,7 @@ Vous pouvez poser des questions à l’assistant d’IA sur vos informations op�
 | Modèle de groupe d&#39;achat | <li>Comptages <li>Statut <li>Rôles <li>Recherche par nom et ID | <li>Règles de rôle |
 | Intérêt de la solution | <li>Comptages <li>Statut <li>Intérêt de la solution - Relation du modèle de groupe d’achat <li>Recherche par nom et ID | <li>Intérêt de la solution - Relation du groupe d’achat |
 
-{style=&quot;table-layout:fixed&quot;}
+{style="table-layout:fixed"}
 
 Pour les questions relatives aux informations opérationnelles, les réponses peuvent ne pas refléter l’état actuel de l’interface utilisateur. Les données sur lesquelles reposent ces questions sont mises à jour toutes les 24 heures. Par exemple, les modifications apportées par les utilisateurs et utilisatrices dans Real-Time CDP pendant la journée sont synchronisées avec les entrepôts de données la nuit, puis répondent aux questions des utilisateurs et utilisatrices le matin. Connectez-vous à un sandbox pour vous renseigner sur des données spécifiques liées aux objets .
 
