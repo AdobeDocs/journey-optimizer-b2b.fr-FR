@@ -1,9 +1,9 @@
 ---
 title: Création de contenu - Utilisation de fragments
 description: Section réutilisée sur l’utilisation de fragments pour la création de contenu
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ L’exemple suivant décrit les étapes à suivre pour ajouter des fragments au 
 
 >[!BEGINSHADEBOX]
 
-**Champs modifiables**
+**Champs modifiables dans des fragments personnalisables**
 
-Un fragment visuel peut inclure des champs modifiables que vous pouvez personnaliser. Les champs personnalisés vous permettent de modifier des paramètres lorsque vous incorporez le fragment dans votre contenu et de créer une expérience personnalisée sans affecter le fragment d’origine. Si un fragment inclus contient des composants avec des champs modifiables, vous pouvez modifier les valeurs par défaut.
+Un fragment visuel peut inclure des champs modifiables que vous pouvez personnaliser. Les champs personnalisés vous permettent de modifier des paramètres lorsque vous incorporez le fragment dans votre contenu et de créer une expérience personnalisée sans affecter le fragment d’origine. L’auteur du fragment peut [concevoir le fragment à des fins de personnalisation](../user/content/fragment-authoring.md#enable-fragment-customization) de composants texte, image et bouton. Si un fragment inclus contient des composants avec des champs modifiables, vous pouvez modifier les valeurs par défaut afin de les personnaliser pour votre contenu.
 
 1. Sélectionnez le composant de fragment.
 
