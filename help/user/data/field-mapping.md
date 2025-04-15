@@ -2,9 +2,9 @@
 title: Champs XDM
 description: Passez en revue les champs d’attribut par défaut synchronisés entre Adobe Experience Platform et Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
+source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1342'
 ht-degree: 22%
 
 ---
@@ -21,19 +21,17 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 
 | [Propriété](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nom d’affichage | Nom d’affichage B2B de Journey Optimizer | Type de données | Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `personRoles` | Rôles de la personne | Rôle | Tableau de chaînes | Tableau des rôles associés à la personne sur le compte, par exemple `owner, accountant, designer`. |
+| `personRoles` | Rôles de la personne | Rôle | Tableau de chaînes | Un tableau de rôles associés à la personne sur le compte, tels que `owner, accountant, designer` |
 
-## Attributs de professionnel XDM
+## Attributs d’homme d’affaires XDM
 
 >[!IMPORTANT]
 >
->L’attribut `workEmail.Address` est obligatoire. Si elle est vide pour un membre de l’audience du compte, cette personne n’est pas ingérée et est omise des parcours de compte et des groupes d’achat qui font référence à l’audience.
+>L’attribut `workEmail.Address` est obligatoire. S’il est vide pour un membre de l’audience du compte, cette personne n’est pas ingérée et est omise des parcours de compte et des groupes d’achat qui font référence à l’audience.
 
 | [Propriété](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nom d’affichage | Nom d’affichage B2B de Journey Optimizer | Type de données | Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `b2b.companyName` | Nom de la société | Nom de la société | Chaîne | Nom de la société à laquelle un professionnel est associé. |
-| `b2b.companyWebsite` | Site web de la société | Site web | Chaîne | Site Web de la société à laquelle un entrepreneur est associé. |
-| `b2b.isMarketingSuspended` | Indicateur de suspension marketing | Marketing interrompu | Booléen | La valeur indique si le marketing est suspendu pour la personne. |
+| `b2b.isMarketingSuspended` | Indicateur de marketing suspendu | Marketing interrompu | Booléen | La valeur indique si le marketing est suspendu pour la personne. |
 | `b2b.marketingSuspendedCause` | Cause du marketing interrompu | Cause du marketing interrompu | Chaîne | Si le marketing est suspendu pour la personne, cette propriété en indique la raison. |
 | `b2b.personStatus` | Statut Individu | Statut du lead | Chaîne | Champ d’enregistrement du statut de vente/marketing actuel de la personne. |
 | `consents.marketing.email.reason` | Motif d’opt-out | Raison du désabonnement | Chaîne | Raison associée au processus d’opt-out des e-mails. |
@@ -48,11 +46,11 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 | `person.name.middleName` | Deuxième prénom | Deuxième prénom | Chaîne | Nom intermédiaire, nom alternatif ou noms supplémentaires présents entre le prénom et le nom. |
 | `workAddress.city ` | Ville | Ville | Chaîne | Nom de la ville. |
 | `workAddress.country` | Pays | Pays | Chaîne | Nom du territoire administré par un gouvernement. À l’exception de `xdm:countryCode`, il s’agit d’un champ à structure libre pouvant contenir le nom du pays dans n’importe quelle langue. |
-| `workAddress.postalCode` | Code postal | Code postal | Chaîne | Code postal de l’emplacement. Les codes postaux ne sont pas disponibles pour tous les pays. Dans certains pays, il ne contient qu&#39;une partie du code postal. |
-| `workAddress.state` | État | État | Chaîne | Nom de l’état de l’adresse. Il s’agit d’un champ à structure libre. |
-| `workAddress.street1` | Rue 1 | Adresse | Chaîne | Informations au niveau de la rue du Principal, numéro de l’appartement, numéro de la rue et nom de la rue. |
+| `workAddress.postalCode` | Code postal | Code postal | Chaîne | Code postal de l’emplacement. Les codes postaux ne sont pas disponibles pour tous les pays. Dans certains pays, il ne contient qu’une partie du code postal. |
+| `workAddress.state` | État | État | Chaîne | Nom de l’État de l’adresse. C’est un champ de forme libre. |
+| `workAddress.street1` | Rue 1 | Adresse | Chaîne | Informations principales sur le niveau de la rue, numéro de l’appartement, numéro de rue et nom de la rue. |
 | `workEmail.address` | Adresse | Adresse e-mail | Chaîne | **Champ obligatoire** <br/>Adresse technique, par exemple, `<name@domain.com>` telle que définie communément dans les normes RFC2822 et suivantes. |
-| `workEmail.status` | Statut | E-mail interrompu | Chaîne | Indication quant à la possibilité d’utiliser l’adresse e-mail. |
+| `workEmail.status` | Statut | E-mail interrompu | Chaîne | Indication de la possibilité d’utiliser l’adresse électronique. |
 | `workPhone.number` | Nombre | Numéro de téléphone | Chaîne | Numéro de téléphone professionnel. |
 
 ## Attributs du compte professionnel XDM
@@ -66,12 +64,12 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 | `accountBillingAddress.city` | Ville | Ville | Chaîne | Nom de la ville utilisé dans l’adresse de facturation. |
 | `accountBillingAddress.country` | Pays | Pays | Chaîne | Nom du territoire administré par le gouvernement utilisé dans l’adresse de facturation. À l’exception de `xdm:countryCode`, il s’agit d’un champ à structure libre pouvant contenir le nom du pays dans n’importe quelle langue. |
 | `accountBillingAddress.postalCode` | Code postal | Code postal de l’adresse | Chaîne | Code postal de l’emplacement de l’adresse de facturation. Les codes postaux ne sont pas disponibles pour tous les pays. Dans certains pays, il ne contient qu&#39;une partie du code postal. |
-| `accountBillingAddress.region` | Région | Région de l’adresse | Chaîne | Partie de l’adresse de facturation correspondant à la région, au pays ou au district. |
+| `accountBillingAddress.region` | Région | Région de l’adresse | Chaîne | La partie région, comté ou district de l’adresse de facturation. |
 | `accountBillingAddress.state` | État | État | Chaîne | Nom de l’état de l’adresse de facturation. Il s’agit d’un champ à structure libre. |
 | `accountBillingAddress.street1` | Rue 1 | Rue 1 | Chaîne | Informations au niveau de la rue par Principal pour l’adresse de facturation, qui incluent généralement le numéro de l’appartement, le numéro de la rue et le nom de la rue. |
 | `accountName` | Nom | Nom | Chaîne | **Champ obligatoire** <br/>Nom de la société. Ce champ peut contenir jusqu’à 255 caractères. |
 | `accountOrganization.annualRevenue.amount` | Revenus annuels | Revenus annuels | Nombre | Montant estimé du chiffre d’affaires annuel de l’organisation. |
-| `accountOrganization.industry` | Secteur industriel | Secteur industriel | Chaîne | L&#39;industrie attribuée à l&#39;organisation. Il s’agit d’un champ à structure libre et il est conseillé d’utiliser une valeur structurée pour les requêtes ou d’utiliser la propriété `xdm:classifier`. |
+| `accountOrganization.industry` | Secteur industriel | Secteur industriel | Chaîne | L’industrie attribuée à l’organisation. Il s’agit d’un champ de forme libre et il est conseillé d’utiliser une valeur structurée pour les requêtes ou d’utiliser la `xdm:classifier` propriété. |
 | `accountOrganization.logoUrl` | Logo URL | Logo URL | Chaîne | Chemin à associer à l’URL d’une instance Salesforce (par exemple, `https://yourInstance.salesforce.com/`) pour générer une URL afin de demander l’image de profil du réseau social associée au compte. L’URL générée renvoie une redirection HTTP (code 302) vers l’image de profil du réseau social pour le compte. |
 | `accountOrganization.numberOfEmployees` | Nombre d&#39;employés | Nombre d&#39;employés | Nombre entier | Nombre d’employés dans l’organisation. |
 | `accountOrganization.SICCode` | Code SIC | Code SIC | Chaîne | Le code SIC (Standard Industrial Classification) est un code à quatre chiffres qui classe les secteurs d’activité auxquels appartiennent les entreprises en fonction de leurs activités commerciales. |
@@ -90,16 +88,16 @@ En outre, les données d’opportunité sont stockées en tant qu’attributs da
 | `fiscalQuarter` | Trimestre d&#39;exercice | Trimestre fiscal de l’opportunité | Chaîne | Trimestre fiscal ciblé pour l’opportunité. |
 | `fiscalYear` | Exercice annuel | Exercice de l’opportunité | Chaîne | Exercice fiscal ciblé pour l’opportunité. |
 | `forecastCategory` | Type de prévision | Catégorie de prévision d’opportunité | Chaîne | Catégorie de prévision déterminée par la valeur Phase de l’opportunité. |
-| `forecastCategoryName` | Nom du type de prévision | Nom de la catégorie de prévision de l’opportunité | Chaîne | Nom de la catégorie de prévision affiché dans les rapports pour une catégorie de prévision particulière. |
-| `isClosed` | Indicateur Fermé | Opportunité fermée | Chaîne | Indicateur qui signale si l’opportunité est fermée. |
-| `isWon` | Indicateur Gagné | Opportunité remportée | Chaîne | Indicateur qui signale si l’opportunité est gagnée. |
+| `forecastCategoryName` | Nom du type de prévision | Nom de la catégorie des prévisions d’opportunités | Chaîne | Nom de la catégorie de prévision affiché dans les rapports pour une catégorie de prévision particulière. |
+| `isClosed` | Drapeau fermé | Opportunité fermée | Chaîne | Indicateur qui indique si l’opportunité est fermée. |
+| `isWon` | Drapeau Won | Opportunité remportée | Chaîne | Indicateur qui indique si l’opportunité est gagnée. |
 | `lastActivityDate` | Date dernière activité | Dernière date d’activité | Chaîne | Date de la dernière activité pour l’opportunité. |
-| `leadSource` | Source du lead | Source du prospect | Chaîne | Source de l’opportunité, tel que Publicité, Partenaire ou Web. |
+| `leadSource` | Source du lead | Source du prospect | Chaîne | Source de l’opportunité, par exemple publicité, partenaire ou web. |
 | `nextStep` | Prochaine étape | Étape suivante de l’opportunité | Chaîne | Description de la tâche suivante pour fermer l’opportunité. |
 | `opportunityAmount.amount` | Quantité d&#39;opportunités | Total du montant de l&#39;opportunité | Chaîne | Estimation du montant total des ventes pour l’opportunité. |
 | `opportunityDescription` | Description de l’opportunité | Description de l’opportunité | Chaîne | Informations supplémentaires pour décrire l’opportunité, telles que des produits pouvant être vendus ou des achats précédents auprès du client. |
 | `opportunityName` | Nom de l&#39;opportunité | Nom de l’opportunité | Chaîne | Objet ou nom descriptif, tel que le nom de commande ou de société attendu pour l’opportunité. |
 | `opportunityQuantity` | Quantité de l’opportunité | Quantité de l’opportunité | Chaîne | Total de toutes les valeurs de champ de quantité pour tous les produits de la liste de produits associés pour l’opportunité. |
 | `opportunityStage` | Étape de l’opportunité | Étape de l’opportunité | Chaîne | Étape de vente de l&#39;opportunité d&#39;aider l&#39;équipe de vente dans leurs efforts pour gagner. |
-| `opportunityType` | Type de l&#39;opportunité | Type d’opportunité | Chaîne | Type affecté à l’opportunité, par exemple _Entreprise existante _ ou _Nouvelle entreprise_ |
+| `opportunityType` | Type de l&#39;opportunité | Type d’opportunité | Chaîne | Type affecté à l’opportunité, par exemple _Entreprise existante_ ou _Nouvelle entreprise_ |
 | `probabilityPercentage` | Pourcentage de probabilité | Pourcentage de probabilité d’opportunité | Chaîne | Probabilité de fermeture de l’opportunité, exprimée sous la forme d’un pourcentage. |
