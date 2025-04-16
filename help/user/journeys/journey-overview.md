@@ -6,7 +6,7 @@ exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 3%
+ht-degree: 30%
 
 ---
 
@@ -15,46 +15,46 @@ ht-degree: 3%
 
 Grâce aux parcours de compte, vous pouvez rationaliser la génération de la demande et la qualification des groupes d&#39;achat et stimuler une demande plus qualifiée pour vos programmes d&#39;acquisition, de vente incitative/croisée et de rétention. Personnalisez vos parcours pour chaque groupe d&#39;achats et membre du groupe d&#39;achats à l&#39;aide de l&#39;engagement automatisé par e-mail, SMS, événements, etc.
 
-Définissez un engagement axé sur les ventes qui inclut des e-mails, des SMS et d’autres parcours de compte internes pour coordonner le marketing entrant avec les activités de vente sortantes pour chaque membre du groupe d’achats.
+Définissez un engagement axé sur les ventes qui inclut des e-mails, des SMS et d’autres parcours de compte internes pour coordonner le marketing entrant avec les activités de vente sortantes pour chaque membre du groupe d’achat.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
-## Prise en main d’un parcours
+## Commencer avec un parcours
 
-Pour commencer à utiliser les parcours de compte :
+Pour commencer avec les parcours de compte :
 
 1. [Créez un parcours](./create-publish-journey.md#create-an-account-journey).
-1. [Ajoutez les nœuds](./create-publish-journey.md#add-a-node) et [définissez le flux de parcours ](./create-publish-journey.md#add-and-delete-a-path) dans la carte de parcours.
-1. [Publier le parcours ](./create-publish-journey.md#publish-an-account-journey).
+1. [Ajoutez les nœuds](./create-publish-journey.md#add-a-node) et [définissez le flux de parcours](./create-publish-journey.md#add-and-delete-a-path) dans la cartographie du parcours.
+1. [Publiez le parcours](./create-publish-journey.md#publish-an-account-journey).
 
 ## Accéder aux parcours de compte et les parcourir
 
-1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B edition.
+1. Sur la page d’accueil d’Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B Edition.
 
-1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL parcours de compte]**.
+1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Parcours de compte]**.
 
    ![Accéder aux parcours de compte](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   La page parcours affichée comprend les colonnes suivantes :
+   La page des parcours affichée comprend les colonnes suivantes :
 
    * [!UICONTROL Nom] (cliquez sur le nom pour ouvrir le parcours en vue de le modifier)
    * [!UICONTROL Statut]
    * [!UICONTROL Description]
    * [!UICONTROL Créé par]
-   * [!UICONTROL Dernière mise à jour : ]
+   * [!UICONTROL Dernière mise à jour à]
    * [!UICONTROL Dernière mise à jour par]
-   * [!UICONTROL Publié le]
+   * [!UICONTROL Publié sur]
    * [!UICONTROL Publié par]
 
 Utilisez l’outil _Recherche_ dans la partie supérieure pour localiser le parcours par nom. Vous pouvez trier la liste par _[!UICONTROL Statut]_ en cliquant sur l’en-tête de colonne.
 
 Vous pouvez personnaliser les colonnes affichées dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ ( ![Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit. Cochez ou décochez les cases de la boîte de dialogue, puis cliquez sur **[!UICONTROL Appliquer]**.
 
-![Choisissez les colonnes à afficher dans la liste des parcours de compte](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
+![Choisir les colonnes à afficher dans la liste des parcours de compte](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
 ## Anatomie d’un parcours de compte
 
-Cliquez sur le nom (affiché sous forme de lien) dans la liste _[!UICONTROL parcours de compte]_ pour passer en revue les détails, apporter des modifications et prendre des mesures.
+Cliquez sur le nom (affiché sous forme de lien) dans la liste _[!UICONTROL Parcours de compte]_ pour passer en revue les détails, apporter des modifications et effectuer des actions.
 
 ![Espace de travail du parcours de compte](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
@@ -62,17 +62,17 @@ L’en-tête de chaque mappage de parcours de compte comprend :
 
 * Nom du parcours
 * Accès à la modification du nom du parcours (icône ![Modifier](../assets/do-not-localize/icon-edit.svg) _Modifier_)
-* Etat du parcours
+* Statut du parcours
 
 L’état d’un parcours peut changer en fonction des actions que vous effectuez. En fonction du statut d’un parcours, certaines actions sont/ne sont pas disponibles dans la partie droite de l’en-tête.
 
 | Statut | Description | Actions disponibles |
 | ------ | ----------- | ----------------- |
 | _**Brouillon**_ | Parcours dépublié modifiable. | <ul><li>[Publier](./create-publish-journey.md#publish-an-account-journey)</li><li>Dupliquer </li><li>Supprimer </li></ul> |
-| _**En direct**_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <ul><li>Dupliquer </li><li>Fermer aux nouvelles entrées </li><li>Abandonner </li></ul> |
-| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _En ligne_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <ul><li>Dupliquer </li><li>Abandonner </li></ul> |
-| _**Abandonné**_ | Le statut du parcours passe de _En ligne_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Impossible de redémarrer un parcours abandonné. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
-| _**Terminé**_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de Actif ou Fermé à Nouvelles entrées et passe à Terminé. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
+| _**Actif**_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <ul><li>Dupliquer </li><li>Fermer aux nouvelles entrées </li><li>Abandonner </li></ul> |
+| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <ul><li>Dupliquer </li><li>Abandonner </li></ul> |
+| _**Abandonné**_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
+| _**Terminé**_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de Actif ou Fermé aux nouvelles entrées à Terminé. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
 
 ## Gestion des parcours
 
@@ -80,7 +80,7 @@ La liste _Parcours de compte_ comprend tous les parcours de votre instance Journ
 
 ### Abandonner le parcours
 
-Si vous abandonnez (arrêtez) un parcours actif ou planifié, les comptes du parcours arrêtent immédiatement leur progression et aucune autre entrée de parcours ne peut se produire. Impossible de redémarrer un parcours abandonné.
+Si vous abandonnez (arrêtez) un parcours actif ou planifié, les comptes du parcours arrêtent immédiatement leur progression et aucune autre entrée de parcours ne peut se produire. Vous ne pouvez pas redémarrer un parcours abandonné.
 
 >[!IMPORTANT]
 >
@@ -96,7 +96,7 @@ Si vous abandonnez (arrêtez) un parcours actif ou planifié, les comptes du par
 
 ### Fermer aux nouvelles entrées
 
-Si vous fermez un parcours actif, les comptes qui se trouvent actuellement dans le parcours continuent leur chemin dans ce parcours et aucune autre entrée de parcours ne peut se produire. Impossible de redémarrer un parcours fermé. Vous pouvez dupliquer un parcours fermé.
+Si vous fermez un parcours actif, les comptes qui se trouvent actuellement dans le parcours continuent leur chemin dans ce parcours et aucune autre entrée de parcours ne peut se produire. Vous ne pouvez pas redémarrer un parcours fermé. Vous pouvez dupliquer un parcours fermé.
 
 >[!IMPORTANT]
 >
