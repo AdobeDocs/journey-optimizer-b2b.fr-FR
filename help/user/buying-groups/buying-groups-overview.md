@@ -3,10 +3,10 @@ title: Groupes d’achat
 description: Découvrez comment les groupes d’achats dans Journey Optimizer B2B Edition peuvent accroître l’efficacité du marketing en identifiant et en ciblant les membres de vos listes de comptes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 98%
+source-wordcount: '1782'
+ht-degree: 97%
 
 ---
 
@@ -36,10 +36,8 @@ Vous pouvez accroître l’efficacité du marketing en établissant des groupes 
 
 1. Créez des groupes d’achats.
 
-   Options :
-   * Utiliser l’[intérêt de la solution](./solution-interests.md) et le [modèle de rôle](./buying-groups-role-templates.md)
-   * Utiliser l’import tiers
-   * Générer à partir de l’IA/ML
+   * Définissez [intérêt de la solution](./solution-interests.md) et [modèle de rôle](./buying-groups-role-templates.md)
+   * [Créez le groupe d&#39;achats](./buying-groups-create.md#create-buying-groups) puis affectez [étapes du groupe d&#39;achats](./buying-group-stages.md).
 
 1. Identifiez les personnes manquantes.
 
@@ -53,7 +51,7 @@ Vous pouvez accroître l’efficacité du marketing en établissant des groupes 
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Utilisez-les dans un parcours de compte par le biais de l’intérêt de la solution associé.
+1. Utilisez le groupe d&#39;achat pour les parcours de votre compte.
 
 ## Afficher les groupes d’achat et les composants
 

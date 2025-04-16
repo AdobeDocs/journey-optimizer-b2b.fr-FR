@@ -3,22 +3,20 @@ title: Modèles de rôle de groupe d'achat
 description: Découvrez comment définir un modèle de rôle à utiliser en tant que composant de groupe d’achats.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 4%
+source-wordcount: '1115'
+ht-degree: 6%
 
 ---
 
-# Modèles de rôle de groupe d&#39;achat
+# Modèles de rôles du groupe d’achat
 
 Dans un marché B2B, les décisions d’achat sont généralement prises par plusieurs personnes. Ces personnes participent au processus décisionnel en fonction de leur rôle au sein de l&#39;organisation. Créez des modèles de rôle Groupe d&#39;achats contenant ces définitions de rôle en fonction de chaque type d&#39;offre de produit ou de chaque cas d&#39;utilisation de compte.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 ## Accès et navigation dans les modèles de rôle
-
-1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B edition.
 
 1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Achats de groupes]**.
 
@@ -34,7 +32,7 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
    * [!UICONTROL Créé par]
    * [!UICONTROL Dernière mise à jour]
    * [!UICONTROL Dernière mise à jour par]
-   * [!UICONTROL Publié le]
+   * [!UICONTROL Publié sur]
    * [!UICONTROL Publié par]
 
    La liste est triée par défaut en fonction de la colonne _[!UICONTROL Dernière mise à jour]_.

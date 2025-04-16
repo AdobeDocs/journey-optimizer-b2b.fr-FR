@@ -2,10 +2,10 @@
 title: Listes de comptes
 description: Découvrez les listes de comptes et comment les marketeurs peuvent les utiliser pour cibler les comptes par le biais de parcours de compte.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,29 +20,27 @@ Lorsqu’une liste de comptes est à l’état _En ligne_ (publiée), elle peut 
 
 ## Accès et navigation dans les listes de comptes
 
-1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B edition.
+Dans le volet de navigation de gauche, développez **[!UICONTROL Comptes]** et cliquez sur **[!UICONTROL Listes de comptes]**.
 
-1. Dans le volet de navigation de gauche, développez **[!UICONTROL Comptes]** et cliquez sur **[!UICONTROL Listes de comptes]**.
+![Accéder aux parcours de compte](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![Accéder aux parcours de compte](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+La page _[!UICONTROL Listes des comptes]_ qui s’affiche comprend les colonnes suivantes :
 
-   La page _[!UICONTROL Listes des comptes]_ qui s’affiche comprend les colonnes suivantes :
-
-   * [!UICONTROL Nom] (cliquez sur le nom de la liste des comptes pour afficher les détails)
-   * [!UICONTROL Statut]
-   * [!UICONTROL Type]
-   * [!UICONTROL Dernière mise à jour le]
-   * [!UICONTROL Dernière mise à jour par]
-   * [!UICONTROL Date de création]
-   * [!UICONTROL Créé par]
+* [!UICONTROL Nom] (cliquez sur le nom de la liste des comptes pour afficher les détails)
+* [!UICONTROL Statut]
+* [!UICONTROL Type]
+* [!UICONTROL Dernière mise à jour le]
+* [!UICONTROL Dernière mise à jour par]
+* [!UICONTROL Date de création]
+* [!UICONTROL Créé par]
 
 Ce tableau permet d’effectuer une recherche par nom. La fonction de tri est actuellement indisponible.
 
 Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres de colonne_ ( ![Paramètres de colonne](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit, puis en cochant ou décochant les cases.
 
-![Choisissez les colonnes à afficher dans la liste des parcours de compte](./assets/account-lists-list-columns.png){width="300"}
+![Choisir les colonnes à afficher dans la liste des parcours de compte](./assets/account-lists-list-columns.png){width="300"}
 
-Pour afficher la description d’une liste de comptes, cliquez sur l’icône _Informations_ en regard du nom.
+Pour afficher la description d’une liste de comptes, cliquez sur l’icône _Informations_ ( ![icône d’informations](../assets/do-not-localize/icon-info.svg) ) en regard du nom.
 
 ## Création d’une liste de comptes
 

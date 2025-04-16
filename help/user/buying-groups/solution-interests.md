@@ -3,22 +3,20 @@ title: Centres d’intérêt des solutions
 description: Découvrez les intérêts des solutions et comment les définir pour les utiliser dans vos groupes d'achat.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
-# Centres d’intérêt des solutions
+# Intérêts de la solution
 
 Avant de créer des groupes d&#39;achat, vous devez savoir ce que vous vendez et qui vous voulez cibler. Votre stratégie de marketing et de vente doit être harmonisée afin que vous puissiez ajouter l&#39;intérêt de la solution pour les groupes d&#39;achat.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 ## Accès et navigation dans les centres d’intérêt des solutions
-
-1. Sur la page d’accueil de Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B edition.
 
 1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Groupes d’achat]**.
 

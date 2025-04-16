@@ -1,19 +1,19 @@
 ---
-title: Utiliser l’assistant AI
+title: Utiliser l’assistant IA
 description: Découvrez comment l’assistant d’IA peut vous aider à tirer le meilleur parti des fonctionnalités de Journey Optimizer B2B edition.
 feature: AI Assistant
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: d19ed2bbe850a14cb0563f6e3563cd8f1c8d3226
+source-git-commit: 62dc7d43f77b2c84b9e0aa27146a7924ee8d7b35
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 6%
+source-wordcount: '957'
+ht-degree: 1%
 
 ---
 
 # Utilisation de l’assistant AI dans Journey Optimizer B2B edition
 
-Dans Journey Optimizer B2B edition, l’assistant AI est une fonctionnalité d’interface utilisateur que vous pouvez utiliser pour comprendre les concepts de produit, parcourir rapidement les fonctionnalités de Journey Optimizer B2B edition, en apprendre davantage et obtenir des informations opérationnelles pour votre environnement spécifique. Il est également disponible dans plusieurs produits dans Adobe Experience Cloud.
+Dans Journey Optimizer B2B edition, l’assistant d’IA est une fonctionnalité d’interface utilisateur que vous pouvez utiliser pour comprendre les concepts de produit, parcourir rapidement les fonctionnalités de produit et en apprendre plus, ainsi qu’obtenir des informations opérationnelles sur votre environnement. Il est également disponible dans plusieurs produits dans Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -21,41 +21,37 @@ Dans Journey Optimizer B2B edition, l’assistant AI est une fonctionnalité d�
 
 Pour accéder à l’assistant AI, cliquez sur l’icône dans l’en-tête. L’assistant d’IA s’ouvre dans un panneau à droite.
 
-![Cliquez sur l’icône pour accéder à l’assistant AI](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
+![Cliquez sur l’icône pour accéder à l’assistant AI](./assets/ai-assistant-icon-displayed.png){width="420"}
 
 L’interface de l’assistant d’IA s’affiche et vous fournit immédiatement des informations pour commencer. Vous pouvez utiliser les options fournies sous _Idées pour commencer_ afin de répondre aux questions et aux commandes, telles que :
 
-* Quels parcours de mon compte ont été publiés ?
+* Quels parcours ont été publiés ?
 * Quels intérêts de solution ont été créés ?
 * Expliquez-moi les principaux avantages de Journey Optimizer B2B edition.
 
 Dans Adobe Journey Optimizer B2B edition, l’assistant AI prend en charge les cas d’utilisation suivants :
 
-## Connaissances du produit
+## Poser des questions sur la connaissance du produit
 
-Les questions sur la connaissance des produits portent sur les concepts de Journey Optimizer B2B edition relatifs à certains aspects de Adobe Journey Optimizer. Voici quelques exemples de questions relatives à la connaissance des produits :
+Les questions relatives à la connaissance des produits portent sur les concepts et les informations pratiques de Journey Optimizer B2B edition. Voici quelques exemples de questions relatives à la connaissance des produits :
 
 * Comment configurer les comptes des fournisseurs SMS ?
-* Comment envoyer un e-mail dans un parcours de compte ?
+* Comment envoyer un email dans un parcours ?
 * Comment personnaliser le contenu de mon e-mail ?
 
-Pour poser une question sur un produit, saisissez-la dans le champ en bas du panneau et appuyez sur Entrée.
+Pour poser une question sur un produit, saisissez-la dans le champ en bas du panneau et appuyez sur Entrée. Par exemple, lorsque vous devez apprendre à utiliser un groupe d&#39;achat dans un parcours. Dans ce cas, vous entrez _Comment utiliser un groupe d&#39;achat dans un parcours ?_ Après avoir envoyé la question, l’assistant AI interroge sa base de connaissances et compile une réponse en quelques secondes.
 
-![Saisissez une question dans la zone de texte](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}
+![Saisissez une question dans la zone de texte](./assets/ai-assistant-ask-question.png){width="420"}
 
-Vous pouvez vérifier les réponses renvoyées par l’assistant AI en examinant les citations disponibles avec chaque réponse de la connaissance du produit.
++++Voir un exemple de réponse
 
-Pour afficher les citations et valider la réponse de l’assistant AI, sélectionnez **[!UICONTROL Afficher les sources]**.
+![Saisissez une question dans la zone de texte](./assets/ai-assistant-product-answer.png){width="420"}
 
-![Résultats de la requête de l’assistant AI](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
++++
 
-L’assistant AI met à jour l’interface et vous fournit des liens vers la documentation qui corrobore la réponse initiale. En outre, lorsque les citations sont activées, l’assistant AI met à jour la réponse pour inclure des notes de bas de page permettant d’indiquer les parties spécifiques de la réponse qui font référence à la documentation fournie.
+## Poser des questions sur les informations opérationnelles
 
-Utilisez le pouce vers le haut ou le pouce vers le bas pour évaluer la qualité de la réponse.
-
-## Informations opérationnelles
-
-Les questions relatives aux informations opérationnelles portent sur les objets de parcours du sandbox de votre entreprise. Voici quelques exemples de questions ou d’invites relatives aux informations opérationnelles :
+Les questions sur les informations opérationnelles concernent les objets de parcours dans le sandbox de votre entreprise. Vous pouvez poser des questions sur les artefacts opérationnels, tels que l’audience du compte, le parcours du compte, l’intérêt de la solution et le modèle de groupe d’achat. Voici quelques exemples de questions ou d’invites d’informations opérationnelles :
 
 * Combien de parcours en direct ai-je dans Adobe Journey Optimizer B2B edition ?
 * Écris-moi une liste de tous les parcours planifiés.
@@ -67,38 +63,62 @@ Vous devez être dans un sandbox actif pour que l’assistant AI puisse fournir 
 >
 >Les seuls objets B2B edition Adobe Journey Optimizer pris en charge par les questions d’informations opérationnelles de l’assistant AI sont répertoriés dans le [tableau du domaine des informations opérationnelles](./ai-assistant-overview.md#operational-insights). Il ne peut accéder aux données que pour le sandbox dans lequel vous vous trouvez actuellement.
 
-<!-- Select to view an example of an operational insights question.
+Pour poser une question sur les informations opérationnelles, saisissez-la dans le champ au bas du panneau et appuyez sur Entrée. Par exemple, lorsque vous souhaitez en savoir plus sur les audiences de votre sandbox. Dans ce cas, vous saisissez _Combien y a-t-il d’audiences ?_.  L’assistant AI fournit un nombre d’audiences dans votre sandbox et une explication de la manière dont il a calculé la réponse. Dans l’exemple de réponse suivant, l’assistant AI fournit un lien pour accéder aux audiences dans l’interface utilisateur et décrit les étapes effectuées pour identifier le nombre d’audiences.
 
-In the following example, AI Assistant receives the following query: _Show me dataflows that were created using the Amazon S3 source._
+![Réponse de l’assistant AI pour combien d’audiences ](./assets/ai-assistant-insights-answer.png){width="420"}
 
-screen
+Vous pouvez suivre votre recherche initiale en demandant une liste d’artefacts, telle que _Liste des 5 premiers par taille_. L’assistant AI renvoie une table avec les cinq premiers éléments de la requête et leurs identifiants correspondants. Cliquez sur l’icône _Télécharger_ ( ![icône Télécharger](../assets/do-not-localize/icon-download.svg) ) pour télécharger le tableau au format CSV.
 
-AI Assistant responds with a table list of your dataflows and their corresponding IDs. Click the _Download_ icon ( Download icon ) to download the table as a CSV file. To view the entire table, click the _Expand_ icon ( Expand icon ).
+![Réponse de l’assistant AI pour obtenir une liste des parcours en direct](./assets/ai-assistant-artifacts-query.png){width="420"}
 
-screen
+Pour afficher le tableau entier dans l’assistant AI, cliquez sur l’icône _Maximiser_ ( ![icône Maximiser](../assets/do-not-localize/icon-maximize.svg) ). Dans la vue de tableau développée, cliquez sur **[!UICONTROL Télécharger CSV]** pour enregistrer les informations au format CSV.
 
-An expanded view of the table appears, providing you with a more comprehensive list of dataflows based on the parameters of your query.
+![Réponse de l’assistant AI pour obtenir une liste des parcours en direct](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
-screen
+## Vérifier les réponses
 
-When prompted with an operational insights question, AI Assistant provides an explanation of how it computed the answer. In the following example, AI Assistant outlines the steps it took in order to identify the dataflows that were created using the Amazon S3 source.
+L’assistant AI comprend des outils que vous pouvez utiliser pour vérifier et valider les réponses.
 
-screen
+### Sources de connaissance des produits
 
-You can also provide filters and modifications to your questions, and you can instruct AI Assistant to render its findings based on the filters that you include. For example, you can ask AI Assistant to show you a trend of the count of segment definitions in the order of their created date, remove segment definitions with zero total profiles, and use month names instead of integers when displaying the data.
+Après réception d’une réponse à une question sur le produit, sélectionnez **[!UICONTROL Afficher la source]** pour afficher les citations de la source de connaissance du produit utilisées pour générer la réponse de l’assistant d’IA.
 
-### Verify operational insights responses
+L’assistant AI fournit des liens vers la documentation qui corrobore la réponse initiale. Il ajoute également des notes de bas de page à la réponse pour indiquer les parties spécifiques de la réponse qui font référence aux sources de documentation liées.
 
-You can verify each response related to operational insights questions using an SQL query that AI Assistant provides.
+![Résultats de la requête de l’assistant AI](./assets/ai-assistant-product-answer-sources.png){width="420"}
 
-Select to view example of verifying operational insights responses
+### Sources d’informations opérationnelles
 
-After receiving an answer for an operational insights question, click **[!UICONTROL Show sources]** and then select **[!UICONTROL View source query]**.
+Après avoir reçu une réponse à une question sur les informations opérationnelles, cliquez sur **[!UICONTROL Afficher la source]** puis sélectionnez **[!UICONTROL Afficher la requête source]**.
 
-screen
+Vous pouvez vérifier chaque réponse liée aux questions d’informations opérationnelles à l’aide d’une requête SQL fournie par l’assistant AI. Lorsqu’il est interrogé avec une question d’informations opérationnelles, l’assistant AI fournit une requête SQL que vous pouvez utiliser pour vérifier le processus nécessaire au calcul de la réponse. Cette requête source est fournie à des fins de vérification uniquement et n’est pas prise en charge sur Query Service.
 
-When queried with an operational insights question, AI Assistant provides an SQL query that you can use to verify the process that it took to compute its answer. This source query is for verification purposes only and is not supported on Query Service.
+![Résultats de la requête de l’assistant AI](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
-screen  
+## Fournir des commentaires
 
- -->
+Utilisez les icônes _Pouce vers le haut_ ( ![Pouce vers le haut](../assets/do-not-localize/icon-thumb-up.svg) ) ou _Pouce vers le bas_ ( ![Pouce vers le bas](../assets/do-not-localize/icon-thumb-down.svg) ) pour évaluer l’utilité et la qualité de la réponse. Remplissez le court formulaire de sondage en fonction de votre expérience et cliquez sur **[!UICONTROL Soumettre]**. Les informations que vous fournissez sont utilisées pour apporter des améliorations à l’assistant AI.
+
+Si vous remarquez quelque chose de problématique dans la réponse, cliquez sur l’icône _Indicateur_ ( ![Icône d’indicateur](../assets/do-not-localize/icon-flag.svg) ). Utilisez le formulaire pour décrire le problème et cliquez sur **[!UICONTROL Envoyer]** pour signaler le problème.
+
+![Réponse de l’assistant AI - icônes de commentaires](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+
++++Affichage des formulaires
+
+>[!BEGINTABS]
+
+>[!TAB Pouce levé]
+
+![Réponse de l’assistant AI - Pousser vers le haut le formulaire de retour positif](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+
+>[!TAB Pouce vers le bas]
+
+![Réponse de l’assistant AI - Formulaire de commentaires négatifs affiché avec le pouce](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+
+>[!TAB Indicateur]
+
+![Réponse de l’assistant AI - Signaler le formulaire de commentaires sur le problème](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
+
++++

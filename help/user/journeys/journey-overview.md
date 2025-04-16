@@ -3,10 +3,10 @@ title: Parcours de compte
 description: Découvrez les parcours de compte et comment les créer et les gérer.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 30%
+source-wordcount: '1009'
+ht-degree: 29%
 
 ---
 
@@ -29,22 +29,20 @@ Pour commencer avec les parcours de compte :
 
 ## Accéder aux parcours de compte et les parcourir
 
-1. Sur la page d’accueil d’Adobe Experience Platform, cliquez sur Adobe Journey Optimizer B2B Edition.
+Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Parcours de compte]**.
 
-1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Parcours de compte]**.
+![Accéder aux parcours de compte](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![Accéder aux parcours de compte](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+La page des parcours affichée comprend les colonnes suivantes :
 
-   La page des parcours affichée comprend les colonnes suivantes :
-
-   * [!UICONTROL Nom] (cliquez sur le nom pour ouvrir le parcours en vue de le modifier)
-   * [!UICONTROL Statut]
-   * [!UICONTROL Description]
-   * [!UICONTROL Créé par]
-   * [!UICONTROL Dernière mise à jour à]
-   * [!UICONTROL Dernière mise à jour par]
-   * [!UICONTROL Publié sur]
-   * [!UICONTROL Publié par]
+* [!UICONTROL Nom] (cliquez sur le nom pour ouvrir le parcours en vue de le modifier)
+* [!UICONTROL Statut]
+* [!UICONTROL Description]
+* [!UICONTROL Créé par]
+* [!UICONTROL Dernière mise à jour à]
+* [!UICONTROL Dernière mise à jour par]
+* [!UICONTROL Publié sur]
+* [!UICONTROL Publié par]
 
 Utilisez l’outil _Recherche_ dans la partie supérieure pour localiser le parcours par nom. Vous pouvez trier la liste par _[!UICONTROL Statut]_ en cliquant sur l’en-tête de colonne.
 
