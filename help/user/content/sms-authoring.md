@@ -3,9 +3,9 @@ title: Création de SMS
 description: Découvrez comment envoyer des messages texte (SMS) à vos clients sur leurs appareils mobiles et comment personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Avant de créer des SMS pour les parcours de compte, assurez-vous que le [fourni
 
 ## Ajout d’une action SMS dans un parcours de compte
 
-Vous pouvez configurer des diffusions de messages texte dans un Parcours Compte lorsque vous ajoutez un nœud _[!UICONTROL Agir]_ et que vous effectuez les opérations suivantes :
+Vous pouvez configurer des diffusions de messages texte dans un parcours de compte lorsque vous ajoutez un nœud _[!UICONTROL Agir]_ et que vous effectuez les opérations suivantes :
 
 1. Pour la cible _[!UICONTROL Action sur]_, choisissez **[!UICONTROL Personnes]**.
 
@@ -34,7 +34,7 @@ Vous pouvez configurer des diffusions de messages texte dans un Parcours Compte 
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   Le concepteur de contenu de Parcours __ s’ouvre et vous pouvez créer le message et définir les propriétés SMS pour l’envoi.
+   Le mappage de Parcours __ s’ouvre et vous pouvez créer le message et définir les propriétés SMS pour l’envoi.
 
 ### Créer le SMS
 
