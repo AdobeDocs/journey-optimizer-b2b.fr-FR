@@ -2,7 +2,8 @@
 title: Nœuds d’attente
 description: Découvrez le type de nœud d’attente que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Vous pouvez définir le temps d’attente de deux manières différentes :
 
 _Pour définir un nœud d’attente pour le parcours de votre compte :_
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Attendre]**.
 

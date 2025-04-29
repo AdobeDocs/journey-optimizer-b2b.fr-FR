@@ -3,16 +3,16 @@ title: Nœuds d’audience de compte
 description: Découvrez le type de nœud d’audience du compte que vous pouvez utiliser pour définir l’entrée de vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 5%
 
 ---
 
 # Nœuds de parcours d’audience de compte
 
-Le nœud Audience du compte définit l’audience du compte d’entrée (créée et gérée dans Adobe Experience Platform) pour le parcours. Lorsque vous [créez un parcours de compte](./journey-overview.md#create-an-account-journey), il commence toujours par un nœud _Audience du compte_ qui définit l’entrée du parcours.
+Le nœud Audience du compte définit les comptes d’entrée du parcours. Lorsque vous [créez un parcours de compte](./journey-overview.md#create-an-account-journey), il commence toujours par un nœud _Audience du compte_ qui définit l’entrée du parcours.
 
 Vous pouvez utiliser deux types d’entrées pour ce nœud :
 
@@ -47,7 +47,7 @@ _Pour définir l’audience du nœud, procédez comme suit_
 
 _Pour créer un segment ciblé :_
 
-1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Comptes]** > **[!UICONTROL Audiences]**.
+1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Comptes]** > **[!UICONTROL Audiences]**.
 
 1. Cliquez sur **[!UICONTROL Créer une audience]** en haut à droite.
 

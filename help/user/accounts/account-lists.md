@@ -1,23 +1,26 @@
 ---
 title: Listes de comptes
 description: Découvrez les listes de comptes et comment les marketeurs peuvent les utiliser pour cibler les comptes par le biais de parcours de compte.
-badgeBeta: label="Disponibilité limitée" type="informative" tooltip="Cette fonctionnalité est actuellement disponible uniquement sur demande"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 1%
+source-wordcount: '1339'
+ht-degree: 2%
 
 ---
 
 # Listes de comptes
 
-Une liste de comptes est un ensemble de comptes nommés que les marketeurs peuvent utiliser pour l&#39;orchestration des parcours ciblés. Une liste de comptes peut cibler des comptes nommés selon vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. Il existe deux types de listes de comptes :
+Dans Journey Optimizer B2B edition, une liste de comptes est un ensemble de comptes nommés que les spécialistes du marketing peuvent utiliser pour l’orchestration des parcours ciblés. Une liste de comptes peut cibler des comptes nommés selon vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. Il existe deux types de listes de comptes :
 
 * **Statique** - Avec une liste de comptes statique, la liste ne change que lorsque vous ajoutez les comptes. Vous pouvez ajouter manuellement des comptes en appliquant un jeu de filtres pour renseigner la liste en fonction des données du compte actuel, ou ajouter et supprimer des comptes par le biais d’un parcours de compte.
 * **Dynamique** - Avec une liste de comptes dynamique, vous définissez un jeu de filtres pour traiter automatiquement la liste. Le système utilise ce jeu de filtres pour ajouter et supprimer des comptes en fonction des modifications apportées aux informations du compte. Cette gestion de liste est similaire à la [segmentation d’audience dans Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
-Lorsqu’une liste de comptes est à l’état _En ligne_ (publiée), elle peut être utilisée dans les parcours de compte.
+Lorsqu’une liste de comptes est à l’état _En ligne_ (publiée), elle peut être [utilisée dans les parcours de compte et les programmes Marketo Engage](./account-lists-journeys.md).
+
+>[!NOTE]
+>
+>Les listes de comptes exploitent les données du compte Marketo Engage pour créer des segments et des listes de comptes. Cela signifie que si un segment de compte Adobe Experience Platform n’est pas synchronisé activement avec Marketo Engage, les comptes de ce segment Experience Platform peuvent ne pas être disponibles dans les listes de comptes Journey Optimizer B2B edition. Par la suite, les personnes issues de comptes dans les segments Experience Platform qui ne sont pas synchronisés avec Marketo Engage peuvent ne pas être incluses dans le nombre d’adhésions aux personnes ou comptabilisées dans les événements de déclenchement.
 
 ## Accès et navigation dans les listes de comptes
 
@@ -170,65 +173,3 @@ Vous pouvez procéder à la publication d’une liste de comptes dynamique dès 
 Le statut de la liste de comptes dynamique passe à _[!UICONTROL Actif]_ et peut être [ utilisé dans un parcours de compte](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
-
-## Utilisation de la liste des comptes dans les parcours de compte
-
-Vous pouvez incorporer des listes de comptes dynamiques (publiées) de trois façons différentes dans les parcours de votre compte :
-
-### Nœud d’audience de compte
-
-1. Sélectionnez **[!UICONTROL Liste des comptes]** pour le nœud de départ _Audience du compte_.
-
-   ![Sélectionnez l’option de liste des comptes pour le nœud d’audience du compte](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. Cliquez sur **[!UICONTROL Liste Ajouter des comptes]**.
-
-1. Cochez la case de la liste des comptes et cliquez sur **[!UICONTROL Enregistrer]**.
-
-   ![Sélectionnez l’option de liste des comptes pour le nœud d’audience du compte](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-Les comptes de la liste se déplacent dans le parcours lorsqu’il est activé (publié).
-
-### Nœud Prendre une action - Ajouter à la liste
-
-**_Listes de comptes statiques uniquement_**
-
-Ajoutez des comptes à une liste de comptes statique à l’aide d’[un nœud _Prendre une action_](../journeys/action-nodes.md).
-
-Par exemple, vous pouvez avoir un chemin de parcours où vous envoyez un e-mail et où certains comptes prennent différentes actions en tant qu’actions de réponse. Vous considérez cette activité comme un point de qualification dans le parcours et souhaitez l’ajouter à une liste de comptes utilisée comme audience pour un autre parcours avec un flux différent pour les comptes qualifiés.
-
->[!NOTE]
->
->Si un compte figure déjà dans la liste lors de l’exécution du nœud, l’action est ignorée.
-
-1. Sélectionnez l’option _[!UICONTROL Action sur]_ **[!UICONTROL Comptes]**.
-
-1. Pour _[!UICONTROL Action sur les comptes]_, choisissez **[!UICONTROL Ajouter à la liste des comptes]**.
-
-   ![Sélectionnez Ajouter à la liste des comptes](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. Pour **[!UICONTROL Sélectionner la liste des comptes statiques actifs]**, choisissez la liste des comptes dans laquelle vous souhaitez ajouter des comptes.
-
-   ![Sélectionnez Ajouter à la liste des comptes](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### Nœud Prendre une action - Supprimer du compte
-
-**_Listes de comptes statiques uniquement_**
-
-Supprimez des comptes d’une liste de comptes statique à l’aide d’[un nœud _Prendre une action_](../journeys/action-nodes.md).
-
-Par exemple, vous pouvez avoir un chemin de parcours où vous envoyez un e-mail et où certains comptes prennent différentes actions en tant qu’actions de réponse. Vous considérez cette activité comme un point de qualification dans le parcours et souhaitez la supprimer d’une liste de comptes utilisée comme audience pour un autre parcours qui envoie des e-mails supplémentaires afin de ne pas dupliquer vos communications de qualification.
-
->[!NOTE]
->
->Si un compte ne figure pas dans la liste où sa suppression est planifiée, l’action est ignorée.
-
-1. Sélectionnez l’option _[!UICONTROL Action sur]_ **[!UICONTROL Comptes]**.
-
-1. Pour _[!UICONTROL Action sur les comptes]_, choisissez **[!UICONTROL Supprimer de la liste des comptes]**.
-
-   ![Sélectionnez Ajouter à la liste des comptes](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. Pour **[!UICONTROL Sélectionner la liste des comptes statiques actifs]**, choisissez la liste des comptes dans laquelle vous souhaitez supprimer des comptes.
-
-   ![Sélectionnez Ajouter à la liste des comptes](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

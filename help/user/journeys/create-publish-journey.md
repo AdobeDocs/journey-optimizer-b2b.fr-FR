@@ -3,22 +3,22 @@ title: Créer et publier un Parcours de compte
 description: Découvrez comment créer et publier des parcours de compte.
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Création et publication d’un parcours de compte
 
-Pour commencer à utiliser un parcours de compte, créez le parcours, puis construisez les nœuds et le flux de parcours dans l’éditeur de parcours.
+Pour commencer à utiliser un parcours de compte, créez le parcours, puis construisez les nœuds et le flux de parcours dans le mappage de parcours.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 ## Création d’un parcours de compte
 
-1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL parcours de compte]**.
+1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Parcours de compte]**.
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours de compte]** en haut à droite de la page.
 
@@ -50,7 +50,7 @@ Pour vous aider à créer un parcours sans rencontrer d’erreur, les barrières
 
 ## Ajouter un nœud
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et sélectionnez le type de nœud.
 
@@ -58,7 +58,7 @@ Pour vous aider à créer un parcours sans rencontrer d’erreur, les barrières
 
 ## Suppression d’un nœud
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Dans les propriétés du nœud sur la droite, cliquez sur l’icône _Supprimer_ ( ![icône Supprimer](../assets/do-not-localize/icon-delete.svg) ).
 
@@ -66,7 +66,7 @@ Pour vous aider à créer un parcours sans rencontrer d’erreur, les barrières
 
 ## Ajouter et supprimer un chemin d’accès
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et ajoutez le [nœud de chemin de fractionnement](./split-merge-paths-nodes.md#split-paths).
 
@@ -110,7 +110,7 @@ Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une dat
 
 ## Publication d’un parcours de compte
 
-Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois publié, le statut du parcours passe à _Actif_. Si le parcours comporte des erreurs, le bouton _[!UICONTROL Publier]_ est grisé avec les informations de contenu : `Resolve errors before publishing`.
+Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois le parcours publié, son statut passe à _Actif_. Si le parcours comporte des erreurs, le bouton _[!UICONTROL Publier]_ est grisé avec les informations de contenu : `Resolve errors before publishing`.
 
 1. Dans la partie supérieure droite de la carte des parcours, cliquez sur **[!UICONTROL Publier]**.
 

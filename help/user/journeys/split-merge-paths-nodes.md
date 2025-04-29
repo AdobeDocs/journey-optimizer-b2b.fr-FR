@@ -3,71 +3,50 @@ title: Fractionner et fusionner les chemins
 description: Découvrez les types de nœuds de chemins de division et de chemins de fusion que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 60abaff4e40fcab7fff0bcfd761ff90ec74c68a0
+source-git-commit: 51f9867aa1b65138df86b3e342637c2c0c43d849
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '2141'
 ht-degree: 6%
 
 ---
 
 # Fractionner et fusionner les chemins
 
-Utilisez les nœuds de chemin de partage et de fusion dans votre parcours de compte pour orchestrer vos parcours de compte. Vous pouvez segmenter l’audience en fonction des conditions que vous définissez et combiner les segments pour continuer.
+Utilisez les nœuds de chemin de partage et de fusion dans votre parcours de compte pour orchestrer vos parcours de compte en fonction des conditions que vous définissez pour les comptes ou les personnes. Vous pouvez segmenter la liste d’audiences ou de comptes de parcours en fonction des conditions, définir un chemin avec des nœuds d’action et d’événement pour chaque segment, puis regrouper les segments et poursuivre le parcours.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
-## Chemins partagés
-
-Ajoutez un nœud _Chemins partagés_ pour définir un ou plusieurs chemins segmentés en fonction des attributs de compte ou de personne.
+Un nœud _Chemins partagés_ définit un ou plusieurs chemins segmentés en fonction des filtres de compte ou de personne.
 
 >[!NOTE]
 >
 >25 chemins au maximum sont pris en charge.
 
-**Fractionner les chemins d’accès par comptes** : les chemins d’accès fractionnés par comptes peuvent inclure des actions et des événements relatifs au compte et aux personnes. Ces chemins peuvent être divisés davantage.
+## Fractionner les chemins par comptes
+
+Les chemins d’accès fractionnés par comptes peuvent inclure des actions et des événements de compte et de personnes. Ces chemins peuvent être divisés davantage.
 
 _Comment fonctionne un nœud de partage de chemin d’accès par comptes ?_
 
 * Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
-* Le fractionnement par nœud de compte peut être imbriqué : vous pouvez fractionner le chemin d’accès par compte à plusieurs reprises.
-* Évalue les chemins d’accès de haut en bas. Si un compte correspond pour les premier et deuxième chemins, il continue le long du premier chemin uniquement.
+* Les nœuds Fractionnés par compte peuvent être imbriqués (vous pouvez fractionner le chemin d’accès par comptes à plusieurs reprises).
+* L’évaluation de chaque chemin s’effectue de haut en bas. Si un compte correspond pour les premier et deuxième chemins, il continue le long du premier chemin uniquement.
 * Plusieurs chemins peuvent être combinés à l’aide d’un nœud de fusion.
-* Prend en charge la définition d’un chemin _[!UICONTROL Autres comptes]_, où vous pouvez ajouter des actions ou des événements pour les comptes qui ne correspondent pas à l’un des segments/chemins définis.
+* Le nœud prend en charge la définition d’un chemin _[!UICONTROL Autres comptes]_, où vous pouvez ajouter des actions ou des événements pour les comptes qui ne correspondent pas à l’un des segments/chemins définis.
 
 ![Nœud de Parcours : fractionnez les chemins d’accès par compte](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-**Fractionner les chemins par personnes** : les chemins fractionnés par personnes et ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
+### Conditions de chemin du compte
 
-_Comment fonctionne un nœud de partage de chemin par personnes ?_
-
-* Fonctions au sein d’une combinaison _nœud groupé_ split-merge. Les chemins de division fusionnent automatiquement afin que toutes les personnes de l’audience puissent passer à l’étape suivante sans perdre le contexte de leur compte.
-* Les nœuds fractionnés par personnes ne peuvent pas être imbriqués : vous ne pouvez pas ajouter de chemin fractionné pour les personnes sur un chemin qui se trouve dans ce nœud groupé.
-* Évalue les chemins d’accès de haut en bas. Si une personne correspond pour le premier et le deuxième chemin, elle continue uniquement le premier chemin.
-* Prend en charge l’utilisation de _relations compte-personne_, qui vous permet de filtrer les personnes en fonction de leur rôle (comme entrepreneur ou employé à temps plein), tel que défini dans les modèles de rôles.
-* Prend en charge la définition d’un chemin _[!UICONTROL Autres personnes]_, où vous pouvez ajouter des actions ou des événements pour les personnes qui ne correspondent pas à l’un des segments/chemins définis.
-
-![nœud de Parcours - fractionner les chemins par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
-
-### Conditions de chemin {#path-conditions}
-
-| Contexte du nœud | Conditions de chemin | Description |
-| ------------ | --------------- | ----------- |
-| [Comptes](#add-a-split-path-by-account-node) | Attributs du compte | Attributs du profil de compte, notamment : <li>Chiffre d’affaires annuel</li><li>Ville</li><li>Pays</li><li>Nombre d’employés</li><li>Secteur industriel</li><li>Nom</li><li>Code SIC</li><li>État</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A une opportunité] | Le compte est lié ou non à une opportunité. Peut également être évalué par rapport à un ou plusieurs des attributs d’opportunité suivants : <li>Montant<li>Date de clôture<li>Description<li>Chiffre d’affaires souhaité<li>Trimestre d’exercice fiscal<li>Année fiscale<li>Type de prévision<li>Nom de la catégorie de prévision<li>Est fermé<li>Est conclu(e)</li><li>Dernière date d’activité</li><li>Source de personne<li>Nom</li><li>Étape suivante</li><li>Probabilité<li>Quantité<li>Étape</li><li>Type |
-| [Personnes](#add-a-split-path-by-people-node) > [!UICONTROL Attributs des personnes uniquement] | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Titre du traitement</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné</li><li>Raison désabonnement</li> |
-| | [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Activités e-mail associées au parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail]</li><li>E-mail ouvert</li><li>A reçu l’e-mail</li><li>A reçu un e-mail</li> Ces conditions sont évaluées à l’aide d’un e-mail sélectionné plus tôt dans le parcours. |
-| | [!UICONTROL Historique des activités] > [!UICONTROL Message SMS] | Activités SMS associées au parcours : <li>[!UICONTROL Lien cliqué dans le SMS]</li><li>[!UICONTROL SMS rebondi]</li>Ces conditions sont évaluées à l’aide d’un SMS sélectionné plus tôt dans le parcours. |
-| | [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li> |
-| | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape</li><li>E-mail</li><li>Web</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Rôle</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est membre ou non d’une ou de plusieurs listes Marketo Engage. |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | La personne est membre ou non d’un ou de plusieurs programmes Marketo Engage. |
-| [Personnes](#add-a-split-path-by-people-node) > [!UICONTROL Attributs compte-personne uniquement] | Rôle dans les attributs de compte | Un rôle dans le compte est attribué ou non à la personne. Contraintes facultatives : <li>Saisir un nom de rôle</li> |
+| Conditions de chemin | Description |
+| --------------- | ----------- |
+| Attributs du compte | Attributs du profil de compte, notamment : <li>Chiffre d’affaires annuel <li>Ville <li>Pays <li>Nombre d’employés <li>Secteur industriel <li>Nom <li>Code SIC <li>État |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution <li>Statut du groupe d&#39;achat <li>Score d&#39;exhaustivité <li>Score d’engagement |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL A une opportunité] | Le compte est lié ou non à une opportunité. Peut également être évalué par rapport à un ou plusieurs des attributs d’opportunité suivants : <li>Montant<li>Date de clôture<li>Description<li>Chiffre d’affaires souhaité<li>Trimestre d’exercice fiscal<li>Année fiscale<li>Type de prévision<li>Nom de la catégorie de prévision<li>Est fermé<li>Est conclu(e) <li>Dernière date d’activité <li>Source de personne<li>Nom <li>Étape suivante <li>Probabilité<li>Quantité<li>Étape <li>Type |
 
 ### Ajouter un chemin de division par nœud de compte
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Fractionner les chemins]**.
 
@@ -105,13 +84,47 @@ _Comment fonctionne un nœud de partage de chemin par personnes ?_
 
    Lorsque cette option n’est pas activée, le parcours se termine pour les comptes qui ne correspondent pas à un segment/chemin d’accès défini dans la division.
 
+## Fractionner les chemins par personnes
+
+Les chemins divisés par des personnes ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
+
+_Comment fonctionne un nœud de partage de chemin par personnes ?_
+
+* Les nœuds fractionnés par personnes fonctionnent dans une combinaison _nœud groupé_ de division-fusion. Les chemins de division fusionnent automatiquement afin que toutes les personnes de l’audience puissent passer à l’étape suivante sans perdre le contexte de leur compte.
+* Les nœuds Fractionné par personnes ne peuvent pas être imbriqués (vous ne pouvez pas ajouter de chemin de fractionnement pour les personnes sur un chemin qui se trouve dans ce nœud groupé).
+* L’évaluation de chaque chemin s’effectue de haut en bas. Si une personne correspond pour le premier et le deuxième chemin, elle continue uniquement le premier chemin.
+* Le nœud prend en charge l’utilisation de _relations compte-personne_, qui vous permet de filtrer les personnes en fonction de leur rôle (comme entrepreneur ou employé à temps plein), tel que défini dans la relation.
+* Le nœud prend en charge la définition d’un chemin _[!UICONTROL Autres personnes]_, où vous pouvez ajouter des actions ou des événements pour les personnes qui ne correspondent pas à l’un des segments/chemins définis.
+
+![nœud de Parcours - fractionner les chemins par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
+
+### Conditions du chemin des personnes
+
+| Conditions de chemin | Description |
+| --------------- | ----------- |
+| [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Titre du traitement</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné</li><li>Raison désabonnement</li> |
+| [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Les activités d’e-mail basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs e-mails sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail] <li>E-mail ouvert <li>A reçu l’e-mail <li>E-mail envoyé <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer selon l’absence d’activité (une personne n’avait pas l’activité d’e-mail). |
+| [!UICONTROL Historique des activités] > [!UICONTROL Message SMS] | Activités SMS basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs messages SMS sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans le SMS] <li>[!UICONTROL SMS ayant fait l’objet d’un rebond] <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’avait pas l’activité SMS). |
+| [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur<li>Valeur précédente<li>Motif<li>Source<li>Date d’activité<li>Min. nombre de fois <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas modifié la valeur de ses données). |
+| [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape<li>E-mail<li>Web <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas vécu de moment intéressant). |
+| [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date d’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Platform <li>Appareil <li>Min. nombre de fois <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas visité la page web). |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Rôle</li> |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est membre ou non d’une ou de plusieurs listes Marketo Engage. |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | La personne est membre ou non d’un ou de plusieurs programmes Marketo Engage. |
+
+### Conditions de chemin compte-personne
+
+| Conditions de chemin | Description |
+| --------------- | ----------- |
+| [!UICONTROL Rôle dans le compte] | Un rôle dans le compte est attribué ou non à la personne. Contraintes facultatives : <li>Nom du rôle |
+
 ### Ajouter un nœud de partage de chemin par personnes
 
 >[!NOTE]
 >
 >Lorsque vous fractionnez des chemins par personnes, un nœud _Fermer les chemins fractionnés_ est automatiquement inséré pour mettre fin à la division. Un chemin d’accès fractionné par personnes permet uniquement d’_effectuer une action_ sur les nœuds de personnes.
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Fractionner les chemins]**.
 
@@ -121,7 +134,7 @@ _Comment fonctionne un nœud de partage de chemin par personnes ?_
 
 1. Définissez les **[!UICONTROL Attributs utilisés pour les conditions]**.
 
-   * Choisissez **[!UICONTROL Attributs de personne uniquement]** pour utiliser des conditions liées au profil de personne et aux événements.
+   * Choisissez **[!UICONTROL Attributs de personne uniquement]** pour utiliser des conditions liées au profil de personne.
    * Choisissez **[!UICONTROL Attributs de compte-personne uniquement]** pour utiliser des conditions liées à l’appartenance au rôle de la personne au sein d’un compte.
 
 1. Pour définir une condition applicable à _[!UICONTROL Chemin 1]_, cliquez sur **[!UICONTROL Appliquer la condition]**.
@@ -156,6 +169,32 @@ _Comment fonctionne un nœud de partage de chemin par personnes ?_
 
    Lorsque cette option n’est pas activée, les personnes qui ne correspondent pas à un segment/chemin défini passent au-delà de la division et passent à l’étape suivante du parcours.
 
+   Lorsque des conditions sont définies pour chaque chemin d’accès afin de fractionner votre audience au niveau des personnes, vous pouvez ajouter des actions que vous souhaitez entreprendre sur les personnes.
+
+### Filtrage des activités
+
+Pour un chemin de partage par personnes, vous pouvez définir un chemin en fonction de l&#39;activité de la personne en rapport avec :
+
+* Messages e-mail provenant d’une adresse antérieure dans le parcours
+* SMS provenant d’une adresse antérieure dans le parcours
+* Modification de la valeur des données dans le profil de personne
+* Moment intéressant (suivi dans Marketo Engage) associé à un e-mail, une page web ou un jalon
+* Visite d’une page web trackée dans Marketo Engage
+
+>[!BEGINSHADEBOX « Filtrage d&#39;inactivité »]
+
+Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, si vous souhaitez créer un chemin pour les personnes qui _**n’ont pas**_ ouvert un e-mail précédemment dans le parcours, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
+
+![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+### Filtrage des appartenances
+
+La section _[!UICONTROL Filtres spéciaux]_ comporte plusieurs filtres que vous pouvez utiliser pour évaluer l’appartenance d’une personne à une liste de groupes d’achats ou de Marketo Engage. Par exemple, si vous souhaitez créer un chemin d&#39;accès pour les personnes qui sont membres d&#39;un groupe d&#39;achats et auxquelles un rôle particulier est affecté, ajoutez le filtre _[!UICONTROL Filtres spéciaux]_ > _[!UICONTROL Membre du groupe d&#39;achats]_. Pour le filtre, définissez l&#39;appartenance sur _true_, sélectionnez un _[!UICONTROL Intérêt de la solution]_ associé à un ou plusieurs groupes d&#39;achats, puis définissez le _[!UICONTROL Rôle]_ à faire correspondre.
+
+![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+
 >[!BEGINSHADEBOX « Appartenance à une liste Marketo Engage »]
 
 Dans Marketo Engage, les _campagnes intelligentes_ vérifient l’adhésion aux programmes pour vous assurer que les prospects ne reçoivent pas d’e-mails en double et ne sont pas membres de plusieurs flux d’e-mails en même temps. Dans Journey Optimizer B2B, vous pouvez vérifier l’appartenance à une liste Marketo Engage comme condition de votre chemin de partage par personnes afin d’éliminer la duplication dans les activités de parcours.
@@ -166,17 +205,11 @@ Pour utiliser l’appartenance à une liste dans une condition de partage, déve
 
 >[!ENDSHADEBOX]
 
-Lorsque des conditions sont définies pour chaque chemin d’accès afin de fractionner votre audience au niveau des personnes, vous pouvez ajouter des actions que vous souhaitez entreprendre sur les personnes.
-
->[!NOTE]
->
->Lorsque vous fractionnez l’audience par personnes, vous ne pouvez ajouter que des actions de personnes jusqu’à ce que les chemins soient fermés ou fusionnés.
-
 ## Fusionner les chemins
 
 Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins fractionnés par compte dans votre parcours.
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Fractionner les chemins]**.
 

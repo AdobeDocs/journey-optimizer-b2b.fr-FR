@@ -3,18 +3,18 @@ title: Écoute d’un événement
 description: Découvrez le type de nœud d’événement Écouter pour que vous puissiez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '1373'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
-# Écoute d’un événement
+# Écouter un événement
 
 Ajoutez le nœud _Écouter un événement_ pour faire passer votre audience à l’étape suivante du parcours de compte lorsqu’un événement se produit.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 >[!NOTE]
 >
@@ -30,14 +30,14 @@ Ecoutez un événement en fonction du compte lorsque vous souhaitez déplacer le
 | ----- | ----------- |
 | Le compte a eu un moment intéressant | Type (e-mail, jalon ou web)<br/>Contraintes supplémentaires (facultatif) : <li>Description</li><li>Source</li><li>Date d’activité</li> <br/>Délai d’expiration (facultatif) |
 | Modification de la valeur des données du compte | Attribut<br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Date d’activité</li> <br/>Délai d’expiration (facultatif) |
-| Changement dans l&#39;étape du groupe d&#39;achat | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle étape</li><li>Étape précédente</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
-| Changement de statut du groupe d&#39;achat | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau statut</li><li>Statut précédent</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
-| Modification du score d&#39;exhaustivité | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
-| Modification du score d’engagement | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
+| Changement dans l’étape du groupe d’achat | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle étape</li><li>Étape précédente</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
+| Changement dans le statut du groupe d’achat | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau statut</li><li>Statut précédent</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
+| Changement dans le score d’exhaustivité | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
+| Changement dans le score d’engagement | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
 
 ### Ajouter un événement de compte
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin et choisissez **[!UICONTROL Écouter un événement]**.
 
@@ -57,21 +57,21 @@ Ecoutez un événement basé sur des personnes lorsque vous souhaitez déplacer 
 
 | Type d’entrée | Événement | Contraintes |
 | ---------- | ----- | ----------- |
-| Journey Optimizer édition B2B | Affecté au groupe d&#39;achat | Intérêt de la solution<br/><br/>Contraintes supplémentaires (facultatif) : <li>Rôle</li><li>Date d’activité</li><br/>Délai d’expiration (facultatif) |
-| | Clique sur un lien dans un e-mail | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | Clics lien dans SMS | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>Appareil</li><li>Platform</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | Modifications valeur des données | Attribut de personne<br/><br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | Ouvre l’e-mail | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | Retiré du groupe d&#39;achat | Intérêt de la solution<br/>Date de l’activité (facultatif)<br/>Délai d’expiration (facultatif) |
+| Journey Optimizer édition B2B | Affectation au groupe d’achat | Intérêt de la solution<br/><br/>Contraintes supplémentaires (facultatif) : <li>Rôle</li><li>Date d’activité</li><br/>Délai d’expiration (facultatif) |
+| | Clique sur le lien dans un e-mail. | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | Clique sur le lien dans le SMS. | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>Appareil</li><li>Platform</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | Modifications de la valeur des données | Attribut de personne<br/><br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | Ouvre l’e-mail. | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | Suppression du groupe d’achat | Intérêt de la solution<br/>Date de l’activité (facultatif)<br/>Délai d’expiration (facultatif) |
 | | Modification du score | Nom du score<br/><br/>Contraintes supplémentaires (facultatif) :<li>Changement</li><li>Nouveau score</li><li>Urgence</li><li>Priorité</li><li>Score relatif</li><li>Urgence relative</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | Rebonds SMS | Message SMS<br/><br/>Contraintes additionnelles (optionnel) : <li>Date d’activité</li><li>Nombre minimum de fois</li><br/>Délai d’expiration (facultatif) |
-| Marketo Engage | Visites sur la page Internet | <br/> de page web Sélectionnez une ou plusieurs pages Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Moteur de recherche</li><li>Requête</li><li>Jeton</li><li>Navigateur</li><li>Platform</li><li>Appareil</li><li>Date d’activité</li> |
+| | Rebonds de SMS | Message SMS<br/><br/>Contraintes additionnelles (optionnel) : <li>Date d’activité</li><li>Nombre minimum de fois</li><br/>Délai d’expiration (facultatif) |
+| Marketo Engage | Visites sur la page web | <br/> de page web Sélectionnez une ou plusieurs pages Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Moteur de recherche</li><li>Requête</li><li>Jeton</li><li>Navigateur</li><li>Platform</li><li>Appareil</li><li>Date d’activité</li> |
 | | Remplit le formulaire | <br/> de formulaire Sélectionnez un ou plusieurs formulaires Marketo Engage à faire correspondre.  <br/><br/>Contraintes supplémentaires (facultatif) : <li>Date d’activité</li><li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Platform</li><li>Appareil</li><br/>Délai d’expiration (facultatif) |
 | Adobe Experience Platform | Définition de l’événement | Type d&#39;événement <br/><br/>Contraintes additionnelles (optionnelles) : <li>Champs</li> <br/>Contraintes additionnelles (non prises en charge) : <li>Date d’activité</li><li>Min. nombre de fois</li>Délai d’expiration du <br/> (facultatif) |
 
 ### Ajouter un événement de personne
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin et choisissez **[!UICONTROL Écouter un événement]**.
 
@@ -87,7 +87,7 @@ Ecoutez un événement basé sur des personnes lorsque vous souhaitez déplacer 
 
 Si des pages web sont créées dans votre instance Marketo Engage connectée, vous pouvez déclencher un événement en fonction d’une visite ou d’une absence de visite des pages web Marketo Engage, ainsi que des formulaires Marketo Engage qui ont été remplis ou non.
 
-1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans l’éditeur de parcours.
+1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans le mappage de parcours.
 
 1. Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]** pour le type d’événement.
 
@@ -114,21 +114,21 @@ Si des pages web sont créées dans votre instance Marketo Engage connectée, vo
 
 1. Si nécessaire, définissez l’option **[!UICONTROL Temporisation]** pour limiter la période d’écoute de l’événement (voir [Ajouter une temporisation à un nœud d’événement](#add-a-timeout-to-an-event-node)).
 
-1. Dans l’éditeur de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
+1. Dans la carte de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
 
 ### Écoute d’un événement d’expérience
 
-Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
+Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [Événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
 
 1. [Créer et publier une définition d’événement AEP](../admin/configure-aep-events.md).
 
 2. Dans un parcours de compte, ajoutez un nœud _Écouter un événement_ et sélectionnez une définition d’événement Experience Platform pour un événement basé sur des personnes.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](../admin/configure-aep-events.md#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](../admin/configure-aep-events.md#overview-video)
 
 _Pour inclure un événement d’expérience dans votre parcours, procédez comme suit_
 
-1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans l’éditeur de parcours.
+1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans le mappage de parcours.
 
 1. Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]** pour le type d’événement.
 
@@ -160,7 +160,7 @@ _Pour inclure un événement d’expérience dans votre parcours, procédez comm
 
 1. Si nécessaire, définissez l’option **[!UICONTROL Temporisation]** pour limiter la période d’écoute de l’événement (voir [Ajouter une temporisation à un nœud d’événement](#add-a-timeout-to-an-event-node)).
 
-1. Dans l’éditeur de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
+1. Dans la carte de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
 
 1. Renseignez les nœuds restants pour votre parcours et [publiez-le](./journey-overview.md).
 

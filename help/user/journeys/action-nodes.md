@@ -3,18 +3,18 @@ title: Prendre une action
 description: Découvrez le type de nœud Take an action que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 1%
+source-wordcount: '1240'
+ht-degree: 3%
 
 ---
 
-# Effectuer une action
+# Entreprendre une action
 
 Dans le parcours de votre compte, vous pouvez ajouter un nœud _[!UICONTROL Prendre une action]_ pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score, l’affectation à un groupe d’achats, etc. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 ## Actions du compte
 
@@ -27,7 +27,7 @@ Utilisez une action sur les comptes lorsque vous souhaitez appliquer une modific
 | [!UICONTROL Valeur des données de modification de compte] | Sélectionner l’attribut<br/>Nouvelle valeur |
 | [!UICONTROL Moment intéressant du compte] | Type (e-mail, jalon ou web)<br/>Description (facultatif) |
 | [!UICONTROL Ajouter un compte à un (autre) Parcours ] | Sélectionner le parcours de compte dynamique |
-| [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste des comptes statiques actifs |
+| [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste de comptes statiques actifs |
 | [!UICONTROL Supprimer un compte du Parcours ] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
 | [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
@@ -36,7 +36,7 @@ Utilisez une action sur les comptes lorsque vous souhaitez appliquer une modific
 
 ### Ajout d’une action basée sur un compte
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Effectuer une action]**.
 
@@ -56,14 +56,14 @@ Utilisez une action sur les personnes lorsque vous souhaitez appliquer une modif
 
 | Contexte | Action | Contraintes |
 | ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Ajouter à une audience client externe] | Sélectionner une audience de client externe |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Ajouter à une audience client externe] | Sélectionner une audience externe dédiée à la clientèle |
 | | [!UICONTROL Affecter au groupe d&#39;achat] | Sélectionner l’intérêt de la solution<br/>Sélectionner le rôle |
 | | [!UICONTROL Modifier la valeur des données] | Sélectionner l’attribut de personne<br/>Définir une nouvelle valeur |
 | | [!UICONTROL Modifier le score] | Nom du score<br/>Modification du score |
 | | [!UICONTROL Moment intéressant] | Type<br/>Description |
 | | [!UICONTROL Supprimer du groupe d&#39;achat] | Sélectionner l’intérêt de la solution |
 | | [!UICONTROL Envoyer un e-mail] | Créer un e-mail<br/>sélectionner un e-mail à partir de Marketo Engage |
-| | [!UICONTROL Envoyer SMS] | Créer un SMS |
+| | [!UICONTROL Envoyer SMS] | Créer un SMS |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Ajouter à la liste ] | Sélectionner le nom de la liste<br/>espace de travail Marketo Engage |
 | | [!UICONTROL Ajouter à la campagne de demande Marketo Engage] | Sélectionner l’espace de travail Marketo Engage<br/>Sélectionner la campagne de demande |
 | | [!UICONTROL Modifier la partition des personnes dans Marketo Engage] | Nouvelle répartition |
@@ -71,7 +71,7 @@ Utilisez une action sur les personnes lorsque vous souhaitez appliquer une modif
 
 ### Ajouter une action basée sur les personnes
 
-1. Accédez à l’éditeur de parcours.
+1. Accédez à la carte du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Effectuer une action]**.
 
@@ -112,6 +112,10 @@ _Pour créer une audience externe, procédez comme suit_
 1. Cliquez sur **[!UICONTROL Créer]**.
 
    Le système crée l’audience et affiche un message de confirmation. Vous pouvez ensuite l’utiliser comme audience existante pour l’action de nœud.
+
+   >[!NOTE]
+   >
+   >Lorsqu’une nouvelle audience de client externe est créée à partir de Journey Optimizer B2B edition, elle est alimentée avec un enregistrement factice (`test@email.com`). Cet enregistrement est remplacé dès que le premier profil réel est ajouté à l’audience externe à partir du parcours.
 
 _Pour utiliser une audience existante, procédez comme suit_
 
