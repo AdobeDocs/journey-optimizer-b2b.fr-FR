@@ -4,8 +4,8 @@ description: Dernières notes de mise à jour d’Adobe Journey Optimizer B2B�
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la description](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} du produit pour plus d’informations sur les [droits, les garde-fous de performance et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2025.4
 
@@ -25,24 +25,24 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Listes de comptes | Vous pouvez désormais créer une liste de comptes statique ou dynamique pour cibler les comptes nommés en fonction des critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. <a href="../accounts/account-lists.md">En savoir plus</a> |
-| Fonctionnalité | Liste des comptes Orchestration de parcours | Utilisez les nœuds d’action de parcours pour ajouter et supprimer des comptes pour les listes de comptes statiques. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">En savoir plus</a> |
-| Amélioration | Filtrer l’appartenance à un parcours dans Marketo Engage | Utilisez Adobe listes de comptes Journey Optimizer Édition B2B pour l’audience de parcours, puis utilisez le _filtre de liste_ Membre d’un compte dans Marketo Engage listes dynamiques. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">En savoir plus</a> |
-| Fonctionnalité | Filtres d’inactivité | Orchestrez les parcours en fonction de l’inactivité au sein de Marketo Engage campagnes et programmes, y compris l’inactivité des e-mails, les moments intéressants, les modifications de valeur des données et les pages Web visitées. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">En savoir plus</a> |
-| Amélioration | Filtre de pages Web visitées | Orchestrez les parcours en fonction de l’activité des pages Web visitées associées à Marketo Engage campagnes et programmes. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">En savoir plus</a> |
+| Fonctionnalité | Listes de comptes | Vous pouvez désormais créer une liste de comptes statiques ou dynamiques pour cibler les comptes nommés en fonction de vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. <a href="../accounts/account-lists.md">En savoir plus</a> |
+| Fonctionnalité | Orchestration du parcours de liste de comptes | Utilisez les nœuds d’action de parcours pour ajouter et supprimer des comptes pour les listes de comptes statiques. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">En savoir plus</a> |
+| Amélioration | Filtrer l’appartenance à un parcours dans Marketo Engage | Utilisez les listes de comptes Adobe Journey Optimizer B2B edition pour l’audience par parcours, puis utilisez le filtre _Membre d’une liste de comptes_ dans les listes dynamiques Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">En savoir plus</a> |
+| Fonctionnalité | Filtres d’inactivité | Orchestrez des parcours en fonction de l’inactivité dans les campagnes et programmes Marketo Engage, y compris l’inactivité des e-mails, les moments intéressants, les modifications de valeur des données et les pages web visitées. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">En savoir plus</a> |
+| Amélioration | Filtre des pages web visitées | Orchestrez des parcours en fonction de l’activité des pages web visitées associées aux campagnes et programmes Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">En savoir plus</a> |
 
 ## Notes de mise à jour 2025.3
 
-**Date de publication** : mercredi 1 avril 2025
+**Date de publication** : 1er avril 2025
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Parcours de compte en double | Une action en double est désormais disponible pour les parcours de compte. Vous pouvez dupliquer les détails du parcours du compte, ou simplement un simple squelette de la structure du flux et du chemin. <a href="../journeys/journey-overview.md#duplicate-journey">En savoir plus</a> |
-| Fonctionnalité | Mes jetons pour les parcours de compte | Vous pouvez maintenant définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours du compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et tous ces jetons personnalisés sont destinés à la personnalisation lors de la création d’e-mails de parcours. <a href="../content/personalization-my-tokens.md">En savoir plus</a> |
-| Fonctionnalité | Supprimer les étapes d’un groupe d’achat | Vous pouvez supprimer le modèle des étapes de groupe d’achat lorsqu’il est à l’état brouillon ou publié. S’il est publié (en ligne), vous ne pouvez le supprimer que s’il n’est pas associé à un intérêt de solution. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">En savoir plus</a> |
-| Amélioration | Nombre de nœuds de parcours | Meilleure visibilité sur le nombre d’adhésions de parcours publiés au niveau des nœuds. Dans la cartographie du _parcours, les nœuds affichent_[!UICONTROL  le nombre total de comptes saisis ]_._ Lorsque vous sélectionnez un nœud d’action, les détails sur la droite incluent _[!UICONTROL également les comptes sur lesquels une action n’a pas encore été]_ effectuée. Et les détails des _nœuds d’événement Listen for an event_ incluent _[!UICONTROL les comptes à cette étape]_. Utilisez ces informations pour valider la progression du compte dans vos parcours actifs, terminés et abandonnés. |
+| Fonctionnalité | Dupliquer les parcours de compte | Une action en double est désormais disponible pour les parcours de compte. Vous pouvez dupliquer les détails du parcours de compte ou simplement un squelette de la structure de flux et de chemin d’accès. <a href="../journeys/journey-overview.md#duplicate-journey">En savoir plus</a> |
+| Fonctionnalité | Mes jetons pour les parcours de compte | Vous pouvez maintenant définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la création d’e-mails de parcours. <a href="../content/personalization-my-tokens.md">En savoir plus</a> |
+| Fonctionnalité | Supprimer les étapes du groupe d’achat | Vous pouvez supprimer le modèle d’étapes du groupe d’achat lorsqu’il est à l’état brouillon ou publié. S’il est publié (actif), vous pouvez le supprimer uniquement s’il n’est pas associé à un intérêt de solution. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">En savoir plus</a> |
+| Amélioration | Nombre de nœuds de parcours | Amélioration de la visibilité sur le nombre d’adhésions au parcours publié au niveau du nœud. Dans le _mappage de parcours_, les nœuds affichent _[!UICONTROL Total des comptes saisis]_. Lorsque vous sélectionnez le nœud d’action, les détails sur la droite incluent également les _[!UICONTROL Comptes n’ayant pas encore fait l’objet d’une action]_. Les détails des nœuds _Écouter un événement_ incluent les _[!UICONTROL Comptes à cette étape]_. Utilisez ces informations pour valider la progression du compte dans vos parcours actifs, terminés et abandonnés. |
 
 ## Notes de mise à jour 2025.2
 
@@ -54,7 +54,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | ---- | ---- | ----------- |
 | Fonctionnalité | Champs personnalisables – Fragments de contenu | En tant que concepteur ou conceptrice de fragment contenu, vous pouvez désigner un paramètre pour un composant du fragment comme étant modifiable. Cela permet à la personne créant l’e-mail ou le modèle de spécifier une valeur de champ personnalisé spécifique à ses besoins. Cette option de personnalisation est limitée aux composants visuels d’image, de texte et de bouton. <a href="../content/fragment-authoring.md#enable-fragment-customization">En savoir plus</a> |
 | Fonctionnalité | Rôles intégrés et autorisations de produit B2B | Experience Platform comprend désormais un ensemble de rôles intégrés (par défaut) que vous pouvez utiliser pour gérer l’accès aux fonctionnalités du produit B2B. <a href="../admin/user-management.md#b2b-built-in-roles">En savoir plus</a> <br/>Les administrateurs et administratrices peuvent désormais définir des rôles personnalisés dans Adobe Experience Platform pour inclure les autorisations de produit Journey Optimizer B2B Edition.  <a href="../admin/user-management.md#b2b-product-permissions">En savoir plus</a> |
-| Fonctionnalité | Types de duplication de parcours | Lorsque vous dupliquez un parcours de compte, vous pouvez inclure des détails de nœud, à l’exclusion des e-mails et des SMS créés dans Journey Optimizer B2B Edition. Vous pouvez également créer une copie squelette des flux de structure et de chemin, sans détails ni paramètres de nœud. <a href="../journeys/journey-overview.md#duplicate-journey">En savoir plus</a> |
+| Fonctionnalité | Types de duplication de parcours | Lorsque vous dupliquez un parcours de compte, vous pouvez inclure les détails du nœud, à l’exclusion des e-mails et des SMS créés dans Journey Optimizer B2B Edition. Vous pouvez également créer une copie squelette de la structure et des flux de chemin d’accès, sans détails ni paramètres de nœud. <a href="../journeys/journey-overview.md#duplicate-journey">En savoir plus</a> |
 | Amélioration | Quatre exemples supplémentaires de modèles d’e-mail | La bibliothèque d’exemples de modèles d’e-mail comprend désormais quatre modèles SecurFinancial qui servent d’exemples de contenu de réengagement, d’information, de stimulation et de commentaires. |
 
 ## Notes de mise à jour 2025.1 {#Jan-2025}

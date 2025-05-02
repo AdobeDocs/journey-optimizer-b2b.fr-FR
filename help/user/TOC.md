@@ -3,8 +3,8 @@ user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
 source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
    + [Protocoles de tracking et de messagerie](./start/email-protocols.md)
 + Assistant IA {#ai-assistant}
    + [Vue d’ensemble](./ai-assistant/ai-assistant-overview.md)
-   + [Activer l’accès à l’assistant AI](./ai-assistant/enable-ai-assistant-access.md)
+   + [Activer l’accès à l’assistant IA](./ai-assistant/enable-ai-assistant-access.md)
    + [Conseils sur les questions](./ai-assistant/question-guidance.md)
    + [Utiliser l’assistant IA](./ai-assistant/use-ai-assistant.md)
 + Parcours de compte {#account-journeys}
@@ -40,7 +40,7 @@ ht-degree: 91%
       + [Assistant IA pour la création d’e-mails](./content/ai-assistant-emails.md)
       + [Modèles régis](./content/email-authoring-governance.md)
       + [E-mail d’alerte de vente](./content/sales-alert-email.md)
-   + [Jetons de personnalisation personnalisés](./content/personalization-my-tokens.md)
+   + [Jetons de personnalisation sur mesure](./content/personalization-my-tokens.md)
    + [Création de SMS](./content/sms-authoring.md)
 + Comptes {#accounts}
    + [Audiences](./audiences/account-audience-overview.md)
@@ -73,7 +73,7 @@ ht-degree: 91%
          + [Création de modèle d’e-mail](./content/email-template-authoring.md)
       + Modèles de page de destination {#landing-page-templates}
          + [Vue d’ensemble](./content/landing-page-templates.md)
-         + [Conception du modèle de page de destination](./content/landing-page-template-design.md)
+         + [Conception de modèle de page de destination](./content/landing-page-template-design.md)
    + Fragments {#visual-fragments}
       + [Vue d’ensemble](./content/fragments.md)
       + [Création de fragments](./content/fragment-authoring.md)
@@ -84,7 +84,7 @@ ht-degree: 91%
       + [Vue d’ensemble](./content/landing-pages.md)
       + [Création de la page de destination](./content/landing-page-design.md)
    + [Contenu conditionnel](./content/conditional-content.md)
-+ Tableaux de bord des informations {#dashboards}
++ Tableaux de bord des insights {#dashboards}
    + [Tableau de bord intelligent](./dashboards/intelligent-dashboard.md)
    + [Vue d’ensemble de l’engagement](./dashboards/engagement-dashboard.md)
    + [Vue d’ensemble des groupes d’achat](./dashboards/buying-groups-dashboard.md)

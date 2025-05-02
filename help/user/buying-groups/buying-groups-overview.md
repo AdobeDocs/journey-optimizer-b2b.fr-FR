@@ -5,8 +5,8 @@ feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ La page _[!UICONTROL Groupes d’achat]_ est organisée sous forme d’onglets 
 | Tabulation | Description |
 | --- | ----------- |
 | [!UICONTROL Vue d’ensemble] | Cet onglet est le tableau de bord par défaut et affiche le [tableau de bord des groupes d’achats](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Parcourir] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher la liste des groupes d’achat existants. </li><li>Rechercher par nom de groupe d’achat. </li><li>Filtrer par intérêt de la solution. </li><li>Accéder aux détails du groupe d’achat. </li><li>Créez un groupe d&#39;achats. </li></ul> |
+| [!UICONTROL Parcourir] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher la liste des groupes d’achat existants. </li><li>Rechercher par nom de groupe d’achat. </li><li>Filtrer par intérêt de la solution. </li><li>Accéder aux détails du groupe d’achat. </li><li>Créez un groupe d’achat. </li></ul> |
 | [!UICONTROL Intérêt de la solution] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher la liste des groupes d’achat existants. </li><li>Rechercher par nom de groupe d’achat. </li><li>Accéder aux propriétés d’intérêt de la solution et les modifier. </li><li>Créer un intérêt de la solution. </li><li>Supprimer un intérêt de la solution. </li><li>Afficher et supprimer des tâches de groupe d’achat. </li></ul> |
 | [!UICONTROL Modèles de rôles] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher la liste des modèles de rôles existants. </li><li>Rechercher par nom de modèle de rôles. </li><li>Accéder aux propriétés et conditions du modèle de rôles et les modifier. </li><li>Créer un modèle de rôles. </li><li>Supprimer un modèle de rôles. </li></ul> |
 | [!UICONTROL Étapes] | Cet onglet prend en charge les activités suivantes : <ul><li>Afficher le modèle des étapes de groupes d’achat existants. </li><li>Accéder au modèle de brouillon des étapes de groupe d’achat et le modifier. </li><li>Créer le modèle des étapes du groupe d’achat. </li></ul> |
@@ -138,7 +138,7 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 
 >[!NOTE]
 >
->Les activités relatives au score de l’engagement sont enregistrées dans le journal d’activité de Marketo Engage [pour une personne](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>Les activités relatives au score d’engagement sont enregistrées dans le [journal d’activité d’une personne](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} de Marketo Engage.
 
 +++
 
@@ -202,6 +202,6 @@ Le score d’engagement final est calculé en appliquant la pondération à chac
 | Spécialistes | 17 | 25 % | 4,25 |
 | **Score d’engagement final** |                |             | **35,25** |
 
-## Vidéo de présentation
+## Vidéo de vue d’ensemble
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

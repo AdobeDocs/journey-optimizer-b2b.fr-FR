@@ -4,8 +4,8 @@ description: Découvrez comment utiliser les fonctionnalités d’Adobe Journey
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -139,7 +139,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>
