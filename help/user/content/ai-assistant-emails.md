@@ -95,7 +95,7 @@ Les étapes suivantes décrivent l’ordre des tâches permettant d’utiliser l
 
 1. Dans le champ **[!UICONTROL Invite]**, saisissez une description de ce que vous souhaitez générer.
 
-   Utilisez la [ ](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
+   Utilisez la [&#128279;](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
 
 1. Spécifiez une ressource de marque contenant du contenu qui servira de source pour la génération de texte.
 
@@ -155,7 +155,7 @@ Un pré-titre de courrier électronique est le texte de résumé court qui suit 
 
 1. Dans le champ **[!UICONTROL Invite]**, saisissez une description de ce que vous souhaitez générer.
 
-   Utilisez la [ ](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
+   Utilisez la [&#128279;](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
 
 1. Spécifiez une ressource de marque contenant du contenu qui servira de source pour la génération de texte.
 
@@ -227,7 +227,7 @@ Les étapes suivantes décrivent l’ordre des tâches pour l’utilisation de l
 
 1. Dans le champ **[!UICONTROL Invite]**, saisissez une description de ce que vous souhaitez générer.
 
-   Utilisez la [ ](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
+   Utilisez la [&#128279;](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
 
    ![Assistant d’IA - paramètres de texte](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
@@ -278,7 +278,7 @@ Les étapes suivantes décrivent l’ordre des tâches pour l’utilisation de l
 
    ![Assistant d’IA - paramètres de texte](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   Utilisez la [ ](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
+   Utilisez la [&#128279;](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
 
 1. Spécifiez une ressource de marque contenant du contenu qui servira de source pour la génération de texte.
 
@@ -334,7 +334,7 @@ Vous pouvez utiliser l’assistant d’IA pour optimiser et améliorer vos resso
 
    ![Assistant d’IA - paramètres de texte](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   Utilisez la [ ](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
+   Utilisez la [&#128279;](#prompt-library) si vous avez besoin d’aide pour créer une invite efficace.
 
 1. Cliquez sur **[!UICONTROL Télécharger la ressource de marque]** pour ajouter toute ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire pour l’assistant d’IA.
 

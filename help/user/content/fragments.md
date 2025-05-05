@@ -234,7 +234,7 @@ Pour mettre à jour le contenu :
    * [Activer les champs personnalisés](./fragment-authoring.md#enable-fragment-customization)
    * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
 
-   Cliquez sur Enregistrer ou **[!UICONTROL sur**[!UICONTROL  Enregistrer ]**et fermer]** pour revenir aux détails du fragment.
+   Cliquez sur Enregistrer ou **[!UICONTROL sur**&#x200B;[!UICONTROL &#x200B; Enregistrer &#x200B;]&#x200B;**et fermer]** pour revenir aux détails du fragment.
 
 1. Lorsque le fragment de brouillon répond à vos critères et que vous souhaitez rendre les modifications disponibles pour une utilisation dans un courrier électronique ou un modèle de courrier électronique, cliquez sur **[!UICONTROL Publish]**.
 
@@ -285,7 +285,7 @@ Les fragments sont conçus pour être réutilisés et peuvent être insérés po
 
 1. Accédez à **[!UICONTROL Parcours de compte]** et ouvrez un parcours parcours existant ou créez-en un.
 
-1. Créez un nœud [_[!UICONTROL Envoyer un e-mail ]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
+1. Créez un nœud [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
 
 1. Créez ou modifiez le [contenu d’e-mail pour le nœud](./email-authoring.md#create-the-email-content).
 

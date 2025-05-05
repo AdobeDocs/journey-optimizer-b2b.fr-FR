@@ -81,7 +81,7 @@ Si vous ne disposez pas d’une licence d’entreprise Adobe Express, vous avez 
    * [**[!UICONTROL Supprimer l’arrière-plan]**](#remove-background)
    * [**[!UICONTROL Recadrer l’image]**](#crop-image)
    * [**[!UICONTROL Convertir en PNG]**](#convert-file-format) (lorsqu’une image de JPEG est chargée)
-   * [**[!UICONTROL Convertir en JPEG ]**](#convert-file-format) (lorsqu’une image PNG est chargée)
+   * [**[!UICONTROL Convertir en JPEG &#x200B;]**](#convert-file-format) (lorsqu’une image PNG est chargée)
 
    ![Sélectionnez un type d’édition pour modifier l’image](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
