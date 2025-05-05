@@ -281,4 +281,4 @@ Vous pouvez supprimer une définition d’événement si elle n’est pas utilis
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448685/?learn=on&captions=fre_fr)
