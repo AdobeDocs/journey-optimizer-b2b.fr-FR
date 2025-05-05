@@ -26,7 +26,7 @@ Vous pouvez configurer des diffusions e-mail dans un Parcours Compte lorsque vou
 
    >[!NOTE]
    >
-   >Si vous créez un e-mail pour la première fois, assurez-vous que le canal e-mail est configuré depuis Adobe Marketo Engage. Pour en savoir plus, consultez la section [Garantir la délivrabilité des e-mails](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) dans la documentation de Marketo Engage.
+   >Si vous créez un e-mail pour la première fois, assurez-vous que le canal e-mail est configuré depuis Adobe Marketo Engage. Pour en savoir plus, consultez la section [Garantir la délivrabilité des e-mails](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) dans la documentation de Marketo Engage.
 
    ![Agir - Envoyer un e-mail](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
