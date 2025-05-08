@@ -4,16 +4,16 @@ description: Espace réservé
 feature: AI Assistant
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 4%
+source-wordcount: '1241'
+ht-degree: 5%
 
 ---
 
 # Assistant d’IA dans Journey Optimizer B2B edition
 
-L’assistant AI dans Journey Optimizer B2B edition est créé à partir de la même base technologique que l’[assistant AI dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home). Il s’agit d’une expérience de conversation que vous pouvez utiliser pour accélérer vos workflows dans Adobe Journey Optimizer B2B edition. Vous pouvez utiliser l’assistant d’IA pour mieux comprendre les fonctionnalités du produit, résoudre les problèmes ou parcourir les informations et trouver des informations opérationnelles pour Journey Optimizer B2B edition.
+L’assistant AI dans Journey Optimizer B2B edition est créé à partir de la même base technologique que l’[assistant AI dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}. Il s’agit d’une expérience de conversation que vous pouvez utiliser pour accélérer vos workflows dans Adobe Journey Optimizer B2B edition. Vous pouvez utiliser l’assistant d’IA pour mieux comprendre les fonctionnalités du produit, résoudre les problèmes ou parcourir les informations et trouver des informations opérationnelles pour Journey Optimizer B2B edition.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ L’assistant AI dans Journey Optimizer B2B edition est créé à partir de la m
 
 ## Fonctionnalités de l’assistant AI dans Journey Optimizer B2B edition
 
-Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes. Elle est également connue sous le nom de _&#x200B;**_graphique de connaissances_**&#x200B;_, un réseau complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
+Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes. Elle est également connue sous le nom de _**_graphique de connaissances_**_, un réseau complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
 
 * Documentation Experience League.
 * Artefacts opérationnels, tels que des schémas, des champs, des audiences et des parcours.
@@ -59,7 +59,7 @@ Vous pouvez poser des questions à l’assistant d’IA sur vos informations op�
 | Domaine | Métadonnées prises en charge | Métadonnées non prises en charge |
 | --- | --- | --- |
 | Attributs/champs | <li>Recherche de nom d’attribut <li>Attribut - relation de schéma <li>Attribut - relation du jeu de données <li>Attribut - Relation d’audience <li>Attribut - relation de destination | <li>Classe d’attribut <li>Audit <li>Statut d’obsolescence <li>Libellés <li>Valeur stockée dans les attributs |
-| Audiences du compte <br><br>**_Remarque :_**&#x200B;l’assistant IA B2B d’AJO peut uniquement répondre aux questions d’audience pour les audiences de compte, tandis que l’assistant IA d’Experience Platform peut uniquement répondre aux questions pour les audiences de personne | <li>Nombre d’audiences <li>Type d’audience (diffusion en continu ou par lots) <li>Dates de création/modification <li>Statut d’activation <li>Nombre de membres <li>Dupliquer les audiences <li>Recherche par nom et ID | <li>Chevauchements des audiences <li>Activation des audiences <li>Audit <li>Créer/modifier <li>Libellés <li>Tendances de qualification des membres |
+| Audiences du compte <br><br>**_Remarque :_**l’assistant IA B2B d’AJO peut uniquement répondre aux questions d’audience pour les audiences de compte, tandis que l’assistant IA d’Experience Platform peut uniquement répondre aux questions pour les audiences de personne | <li>Nombre d’audiences <li>Type d’audience (diffusion en continu ou par lots) <li>Dates de création/modification <li>Statut d’activation <li>Nombre de membres <li>Dupliquer les audiences <li>Recherche par nom et ID | <li>Chevauchements des audiences <li>Activation des audiences <li>Audit <li>Créer/modifier <li>Libellés <li>Tendances de qualification des membres |
 | Flux de données | <li>Nombre de flux de données <li>Statut du flux de données <li>Flux de données - Relation du jeu de données <li>Flux de données - Relation source | <li>Création/modification <li>Relations flux de données-lot <li>Ingérer le nombre de profils |
 | Jeux de données | <li>Nombre de jeux de données <li>Statut d’activation du profil <li>Date de création/modification <li>Jeu de données - Relation de schéma <li>Jeu de données - Relation d’audience <li>Relation jeu de données - attribut <li>Jeu de données - Relation de flux de données <li>Recherche de nom <li>Recherche par nom et ID | <li>Audit <li>Créé par <li>Jeu de données - Relation par lots <li>Création/modification de jeu de données <li>Taille du jeu de données <li>Nombre de profils <li>Nombre de lignes <li>Recherche de valeur |
 | Destinations | <li>Nombre de destinations configurées <li>Relation destination-audience <li>Relation d’attributs de destination | <li>Configuration du compte <li>Informations d’identification du compte <li>Profils uniques activés |
@@ -77,9 +77,9 @@ Pour les questions relatives aux informations opérationnelles, les réponses pe
 
 Actuellement, la portée de l’assistant AI est la suivante :
 
-* [Connaissance des produits](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home#product-knowledge) : l’assistant AI peut répondre aux questions sur la connaissance des produits pour Real-Time Customer Data Platform et Adobe Journey Optimizer B2B edition.
+* **Connaissance des produits** : l’assistant AI peut répondre aux questions sur la connaissance des produits pour Real-Time Customer Data Platform et Adobe Journey Optimizer B2B edition.
 
-* [Informations opérationnelles ](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home#operational-insights) : vous pouvez poser des questions à l’assistant IA pour obtenir des informations opérationnelles sur les objets de données suivants : attributs, audiences de compte, flux de données, jeux de données, destinations, parcours de compte, schémas, sources, modèles de groupe d’achat et centres d’intérêt des solutions.
+* **Informations opérationnelles** : vous pouvez poser des questions à l’assistant IA pour obtenir des informations opérationnelles sur les objets de données suivants : attributs, audiences de compte, flux de données, jeux de données, destinations, parcours de compte, schémas, sources, modèles de groupe d’achat et centres d’intérêt des solutions.
 
 ### Confidentialité, sécurité et gouvernance
 
@@ -91,7 +91,7 @@ L’assistant AI de Journey Optimizer B2B edition place la confidentialité, la 
 
 * Vous devez disposer d’autorisations explicites pour interagir avec l’assistant AI.
 
-   * Un administrateur peut définir des autorisations à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions) et de [Admin Console](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/browse).
+   * Un administrateur peut définir des autorisations à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} et de [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Les autorisations sont granulaires et votre administrateur de sandbox peut configurer les utilisateurs autorisés à poser différentes catégories de questions (questions basées sur les connaissances du produit avec l’assistant AI ou questions sur les informations opérationnelles).
 
@@ -125,6 +125,6 @@ AI Assistant n’utilise pas d’informations personnelles à des fins de format
 
 Avec une compréhension générale de l’assistant AI, passez à l’activation et à l’utilisation de l’assistant AI au cours de vos workflows. Pour plus d’informations, reportez-vous à la documentation suivante :
 
-* [Activer l’accès à l’assistant AI](./enable-ai-assistant-access.md)
+* [Activer l’accès à l’assistant IA](./enable-ai-assistant-access.md)
 * [Conseils sur les questions](./question-guidance.md)
-* [Utiliser l’assistant AI](./use-ai-assistant.md)
+* [Utiliser l’assistant IA](./use-ai-assistant.md)

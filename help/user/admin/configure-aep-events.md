@@ -4,18 +4,18 @@ description: Découvrez le type de nœud d’attente que vous pouvez utiliser po
 feature: Setup
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Configuration des définitions d’événement Experience Platform
 
-Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [événements d’expérience AEP](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent).
+Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [Événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
 
@@ -29,7 +29,7 @@ Chaque définition d’événement nécessite l’entrée Experience Platform su
 
   >[!NOTE]
   >
-  >Contactez votre équipe d’ingénieurs pour vous assurer que les schémas nécessaires sont définis. La [création de schémas XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition) est un processus complexe réalisé par des ingénieurs de données en fonction des exigences de cas d’utilisation de l’ensemble de votre entreprise.
+  >Contactez votre équipe d’ingénieurs pour vous assurer que les schémas nécessaires sont définis. La [création de schémas XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition){target="_blank"} est un processus complexe réalisé par des ingénieurs de données en fonction des exigences de cas d’utilisation de l’ensemble de votre entreprise.
 
 * **_Types d’événement_** - Type d’événement XDM ExperienceEvent (20 maximum par définition d’événement).
 
@@ -80,8 +80,8 @@ Dans la liste _[!UICONTROL Définitions des événements]_, la colonne **[!UICON
 | Statut | Description |
 | -------------------- | ----------- |
 | Brouillon | Lorsque vous créez une définition d’événement, elle a le statut brouillon. Il reste dans ce statut jusqu’à ce que vous le publiiez pour l’utiliser dans les parcours de compte. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Publier<li>Supprimer |
-| Publié | Lorsque vous publiez une définition d’événement, elle peut être utilisée dans les parcours de compte. Les détails ne peuvent pas être modifiés. Actions disponibles :<br/><ul><li>Disponible pour le nœud de parcours _Écouter un événement_<li>Créer un brouillon<li>Supprimer (si non utilisé) |
-| Publié (avec brouillon) | Lorsque vous créez un brouillon à partir d’une définition d’événement publiée, la version publiée reste disponible pour être utilisée dans les parcours de compte et le brouillon peut être modifié. Si vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il n’est pas encore exécuté. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Publier le brouillon<li>Ignorer le brouillon<li>Supprimer (si non utilisé) |
+| Publié | Lorsque vous publiez une définition d’événement, elle peut être utilisée dans les parcours de compte. Les détails ne peuvent pas être modifiés. Actions disponibles :<br/><ul><li>Disponible pour le nœud de parcours _Écouter un événement_<li>Créer une version brouillon<li>Supprimer (si non utilisé) |
+| Publié (avec le brouillon) | Lorsque vous créez un brouillon à partir d’une définition d’événement publiée, la version publiée reste disponible pour être utilisée dans les parcours de compte et le brouillon peut être modifié. Si vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il n’est pas encore exécuté. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Publier le brouillon<li>Abandonner la version brouillon<li>Supprimer (si non utilisé) |
 
 ![ Cycle de vie du statut du fragment ](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ Pour rechercher une définition d’événement par nom, saisissez une chaîne d
 
 1. Sélectionnez les **[!UICONTROL types d’événement]** à utiliser pour la définition de l’événement.
 
-   Les [types d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent#eventType) que vous sélectionnez déterminent les événements disponibles en tant que contraintes pour un nœud _Écouter un événement_ dans un parcours de compte.
+   Les [types d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} que vous sélectionnez déterminent les événements disponibles en tant que contraintes pour un nœud _Écouter un événement_ dans un parcours de compte.
 
    * Cliquez sur **[!UICONTROL Sélectionner les types d’événements]**.
    * Dans la boîte de dialogue, sélectionnez un ou plusieurs types d’événements dans la liste (20 au maximum).
@@ -279,6 +279,6 @@ Vous pouvez supprimer une définition d’événement si elle n’est pas utilis
 
    ![Confirmer pour supprimer la définition d’événement](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
 
-## Vidéo de présentation
+## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3448685/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

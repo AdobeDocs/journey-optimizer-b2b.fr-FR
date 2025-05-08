@@ -2,8 +2,8 @@
 title: Commencer avec Journey Optimizer B2B Edition
 description: En tant que nouvel utilisateur ou nouvelle utilisatrice de Journey Optimizer B2B Edition, découvrez les principaux domaines pour bien commencer.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Selon votre organisation, les administrateurs et administratrices peuvent défin
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 >[!BEGINTABS]
 
@@ -29,13 +29,13 @@ En tant qu’administrateur ou administratrice système, vous devez comprendre l
 
 Découvrez la gestion des accès dans les pages suivantes :
 
-1. **Créer des sandbox** pour partitionner vos instances en environnements virtuels distincts et isolés. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **Créer des sandbox** pour partitionner vos instances en environnements virtuels distincts et isolés. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **Configurez le profil de produit**. Un profil de produit est un ensemble de droits unitaires dans Adobe Experience Platform qui permettent d’accéder à certaines fonctionnalités ou à certains objets dans l’interface. [En savoir plus](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Définissez les autorisations d’utilisation** pour les profils de produit, y compris les sandbox, et donnez l’accès aux membres de votre équipe en les affectant à différents profils de produit. Cette étape est effectuée dans l’Admin Console. [En savoir plus](../admin/user-management.md#create-a-user-group)
 
-1. **Configurez la diffusion e-mail** dans Marketo Engage, ce qui permet à votre équipe d’envoyer du contenu d’e-mail à partir de parcours de compte. [En savoir plus](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. **Configurez la diffusion e-mail** dans Marketo Engage, ce qui permet à votre équipe d’envoyer du contenu d’e-mail à partir de parcours de compte. [En savoir plus](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **Configurez les services SMS**. Configurez l’un des fournisseurs de SMS tiers pris en charge qui offrent des services de messagerie SMS indépendamment et configurez les informations d’identification de compte dans Adobe Journey Optimizer B2B Edition. [En savoir plus](../admin/configure-channels-sms.md)
 

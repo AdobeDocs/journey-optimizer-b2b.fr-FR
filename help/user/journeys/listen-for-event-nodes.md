@@ -3,7 +3,7 @@ title: Écoute d’un événement
 description: Découvrez le type de nœud d’événement Écouter pour que vous puissiez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 16%
@@ -118,7 +118,7 @@ Si des pages web sont créées dans votre instance Marketo Engage connectée, vo
 
 ### Écoute d’un événement d’expérience
 
-Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [Événements d’expérience AEP](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent). L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
+Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [Événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
 
 1. [Créer et publier une définition d’événement AEP](../admin/configure-aep-events.md).
 
@@ -180,6 +180,6 @@ Si nécessaire, définissez le temps d’attente du parcours pour l’événemen
 
    ![Nœud d’événement de Parcours : définissez le chemin de temporisation](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Vidéo de présentation
+## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443236/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

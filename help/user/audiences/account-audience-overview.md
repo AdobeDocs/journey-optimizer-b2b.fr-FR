@@ -2,8 +2,8 @@
 title: Audiences de compte
 description: Découvrez les audiences de compte et comment elles activent les parcours basés sur les comptes.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Journey Optimizer B2B Edition utilise les fonctionnalités de segmentation de compte disponibles dans les éditions B2B et B2P d’Adobe Real-Time Customer Data Platform. Avec la segmentation de compte, les utilisateurs et utilisatrices peuvent générer des audiences de compte en exploitant les données de l’une des entités B2B du système. Ces audiences de compte servent d’entrées pour les parcours de compte Journey Optimizer B2B Edition, ce qui facilite l’activation et la fonctionnalité de personnalisation.
 
-Découvrez les audiences de compte et comment les définir dans la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/types/account-audiences).
+Découvrez les audiences de compte et comment les définir dans la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
 ## Workflow de l’audience du compte
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B Edition vous permet de créer des audiences de compte Ad
 
 ## Créer une audience de compte
 
-Définissez l’audience de compte en créant une segmentation de compte. Vous avez la possibilité de créer la segmentation du compte directement dans l’application Journey Optimizer B2B Edition ou vous pouvez utiliser l’[interface d’utilisation du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder). Vous trouverez ci-dessous la procédure à suivre pour créer une segmentation de compte dans Journey Optimizer B2B Edition.
+Définissez l’audience de compte en créant une segmentation de compte. Vous avez la possibilité de créer la segmentation du compte directement dans l’application Journey Optimizer B2B Edition ou vous pouvez utiliser l’[interface d’utilisation du créateur de segments](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Vous trouverez ci-dessous la procédure à suivre pour créer une segmentation de compte dans Journey Optimizer B2B Edition.
 
 1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Comptes]** > **[!UICONTROL Audiences]**.
 
