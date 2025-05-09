@@ -3,9 +3,9 @@ title: 'Documentation d’Adobe Journey Optimizer B2B Edition '
 description: Découvrez comment utiliser les fonctionnalités d’Adobe Journey Optimizer B2B Edition pour orchestrer des parcours de compte et de groupe d’achat à l’aide de l’IA générative intégrée et d’une automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '719'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Nouveautés?
 
-Voici un échantillon des derniers ajouts et améliorations apportés à l’application Journey Optimizer B2B edition et à la documentation.
+Voici un exemple des derniers ajouts et des améliorations apportées à l’application et à la documentation Journey Optimizer B2B Edition.
 
 >[!BEGINTABS]
 
@@ -23,23 +23,23 @@ Créez une liste de comptes, qui est une collection de comptes nommés que les s
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="En savoir plus sur les listes de comptes"}
 
->[!TAB Filtres de liste de comptes pour les listes dynamiques]
+>[!TAB Filtres de liste de comptes pour les listes intelligentes]
 
-Vous pouvez désormais filtrer les listes intelligentes Marketo Engage à l’aide des filtres de liste de comptes. Ces filtres vous permettent de supprimer et d’inclure des membres de la liste des comptes dans les campagnes et programmes Marketo Engage à partir des parcours de compte dans Journey Optimizer B2B edition.
+Vous pouvez désormais filtrer les listes intelligentes Marketo Engage avec des filtres de liste de comptes. Ces filtres vous permettent de supprimer et d’inclure des membres de listes de comptes dans les campagnes et programmes Marketo Engage à partir des parcours de compte dans Journey Optimizer B2B Edition.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="En savoir plus sur les filtres de liste de comptes utilisés dans les listes dynamiques Marketo Engage"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="En savoir plus sur les filtres de liste de comptes utilisés dans les listes intelligentes Marketo Engage"}
 
 >[!TAB Filtres de l’historique d’inactivité]
 
-Parcours de progression basés sur l’inactivité dans les campagnes et programmes Marketo Engage, y compris les e-mails, les moments intéressants, les modifications de la valeur des données et les pages web visitées.
+Faites progresser les parcours en fonction de l’inactivité dans les campagnes et programmes Marketo Engage, y compris les e-mails, les moments intéressants, les modifications de la valeur des données et les pages web visitées.
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="En savoir plus sur les filtres de l’historique d’inactivité"}
 
->[!TAB Duplication de Parcours ]
+>[!TAB Duplication des parcours]
 
-Dupliquez les structures de parcours de votre compte pour minimiser les erreurs manuelles et assurer la cohérence des paramètres, des flux et des chemins. Dans le parcours dupliqué, vous pouvez ajuster le contenu ou les actions, ce qui facilite la gestion de campagnes plus volumineuses et plus complexes&#x200B;
+Dupliquez les structures de parcours de votre compte pour minimiser les erreurs manuelles et assurer la cohérence des paramètres, des flux et des chemins. Dans le parcours dupliqué, vous pouvez ajuster le contenu ou les actions, ce qui facilite la gestion de campagnes plus volumineuses et plus complexes.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-parcours" tooltip="En savoir plus sur la duplication de parcours"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="En savoir plus sur la duplication des parcours"}
 
 >[!TAB Tableau de bord des données intelligentes]
 
@@ -57,7 +57,7 @@ Grâce aux licences Adobe Express pour les entreprises, vous pouvez tirer parti
 
 >[!TAB Champs personnalisables de fragment]
 
-En tant que concepteur ou conceptrice de contenu, vous pouvez désigner un paramètre pour un composant du fragment comme étant modifiable. Cette configuration permet à l’auteur de l’e-mail ou du modèle de spécifier une valeur de champ personnalisée spécifique à ses besoins. Cette option de personnalisation est limitée aux composants visuels d’image, de texte et de bouton.
+En tant que concepteur ou conceptrice de contenu, vous pouvez désigner un paramètre pour un composant du fragment comme étant modifiable. Cette configuration permet à la personne créant l’e-mail ou le modèle de spécifier une valeur de champ personnalisé spécifique à ses besoins. Cette option de personnalisation est limitée aux composants visuels d’image, de texte et de bouton.
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="En savoir plus sur les champs personnalisés pour les fragments de contenu"}
 
@@ -139,7 +139,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>
