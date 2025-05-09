@@ -4,7 +4,7 @@ user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et com
 source-git-commit: 9b043913b466723def975fdcb5bfdce54a333346
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
