@@ -204,4 +204,4 @@ Le score d’engagement final est calculé en appliquant la pondération à chac
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
