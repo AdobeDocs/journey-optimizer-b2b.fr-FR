@@ -1,16 +1,16 @@
 ---
-title: Configurations des e-mails
+title: Configurations du canal e-mail
 description: Découvrez comment accéder aux paramètres d’e-mail configurés dans Marketo Engage et les consulter.
 feature: Setup
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 3b4e4742a1913bed2b284f36be92f77b18383e0e
+source-git-commit: 35a384a848678921f10f3ad1358adec2aa017bf8
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
 
-# Configurations des e-mails
+# Configurations du canal e-mail
 
 Adobe Journey Optimizer B2B edition exploite les fonctions de canal et le suivi des événements dans Marketo Engage. Les administrateurs doivent s’assurer que les configurations de diffusion et de suivi sont en place pour activer la diffusion de canal pour les marketeurs. Pour plus d’informations sur les protocoles nécessaires à la diffusion et au suivi des e-mails via Marketo Engage, voir [Protocoles de suivi et de diffusion des e-mails](../start/email-protocols.md).
 
@@ -50,11 +50,11 @@ Pour passer en revue les domaines de branding, cliquez sur l’onglet **[!UICONT
 
 ![Accéder aux paramètres des domaines de branding](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Ce paramètre définit votre domaine principal pour un ou plusieurs espaces de travail Marketo Engage. Les nouveaux e-mails utilisent ce domaine par défaut, mais les spécialistes du marketing peuvent le remplacer par e-mail. Pour plus d&#39;informations, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Ce paramètre définit votre domaine principal pour un ou plusieurs espaces de travail Marketo Engage. Les nouveaux e-mails utilisent ce domaine par défaut, mais les spécialistes du marketing peuvent le remplacer par e-mail. Pour plus d&#39;informations, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Si vous commercialisez plusieurs marques en dehors de Journey Optimizer B2B edition et de l’instance Marketo Engage connectée et que vous souhaitez que chacune d’elles ait ses propres liens de tracking de marque, vous pouvez ajouter un domaine de marque supplémentaire. Pour plus d&#39;informations, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Si vous commercialisez plusieurs marques en dehors de Journey Optimizer B2B edition et de l’instance Marketo Engage connectée et que vous souhaitez que chacune d’elles ait ses propres liens de tracking de marque, vous pouvez ajouter un domaine de marque supplémentaire. Pour plus d&#39;informations, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Options d’en-tête personnalisé] {#custom-header-options}
 
@@ -78,7 +78,7 @@ Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Clique
 >
 >Pour accéder à ces paramètres et les modifier dans Adobe Marketo Engage, vous devez disposer des autorisations d’administrateur de produit.
 
-Pour plus d&#39;informations sur la configuration des limites de communication, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Pour plus d&#39;informations sur la configuration des limites de communication, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -145,4 +145,4 @@ Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Clique
 >
 >Pour accéder à ces paramètres et les modifier dans Adobe Marketo Engage, vous devez disposer des autorisations d’administrateur de produit.
 
-Pour plus d&#39;informations sur la configuration des options d&#39;activité des robots, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Pour plus d&#39;informations sur la configuration des options d&#39;activité des robots, consultez la documentation de Marketo Engage [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

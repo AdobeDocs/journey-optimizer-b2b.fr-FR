@@ -1,52 +1,24 @@
 ---
-title: Création d’e-mails
-description: Découvrez comment créer du contenu d’e-mail personnalisé utilisé dans un Parcours de compte.
+title: Création d'un e-mail
+description: Découvrez comment créer du contenu d’e-mail dans Adobe Journey Optimizer B2B. Utilisez des modèles, des importations HTML et des outils optimisés par l’IA pour personnaliser et optimiser vos communications par e-mail.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 15%
+source-wordcount: '949'
+ht-degree: 20%
 
 ---
 
-# Création d’e-mails
+# Création d’un e-mail
 
-Utilisez Adobe Journey Optimizer B2B edition pour envoyer des e-mails à vos clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur visuel.
-
-## Ajout d’une action e-mail dans un parcours de compte
-
-Vous pouvez configurer des diffusions e-mail dans un Parcours Compte lorsque vous ajoutez un nœud _[!UICONTROL Prendre une action]_ et que vous effectuez les opérations suivantes :
-
-1. Pour la cible _[!UICONTROL Action sur]_, choisissez **[!UICONTROL Personnes]**.
-1. Pour l’_[!UICONTROL Action sur les personnes]_, choisissez **[!UICONTROL Envoyer un e-mail]**.
-1. Pour le _[!UICONTROL Source d’e-mail]_, choisissez **[!UICONTROL Créer un e-mail]**.
-
-   Vous pouvez également sélectionner l’option _[!UICONTROL Sélectionner un e-mail dans Adobe Marketo Engage]_ pour utiliser l’un des e-mails précréés dans Marketo Engage et l’envoyer dans le cadre du Parcours de compte.
-
-   >[!NOTE]
-   >
-   >Si vous créez un e-mail pour la première fois, assurez-vous que le canal e-mail est configuré depuis Adobe Marketo Engage. Pour en savoir plus, consultez la section [Garantir la délivrabilité des e-mails](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} dans la documentation de Marketo Engage.
-
-   ![Agir - Envoyer un e-mail](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. Au bas du panneau _[!UICONTROL Effectuer une action]_, cliquez sur **[!UICONTROL Créer un e-mail]**.
-
-1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
-
-   ![Boîte de dialogue Créer un e-mail](assets/create-new-email.png){width="400"}
-
-1. Cliquez sur **[!UICONTROL Créer]**.
-
-   Dans la section _[!UICONTROL Propriétés de l’e-mail]_ de la page de contenu de l’e-mail, les champs _[!UICONTROL De l’e-mail]_ et _[!UICONTROL Répondre à l’adresse]_ sont déjà configurés. Vous pouvez saisir des valeurs pour les champs _[!UICONTROL Nom de l’expéditeur]_ et _[!UICONTROL Description]_ (facultatif).
-
-## Créer le contenu d’un e-mail
+Après avoir [ajouté une nouvelle ressource e-mail<!-- or duplicated --> à un nœud d’action de parcours ](./add-email.md), vous pouvez définir le contenu de l’e-mail.
 
 Cliquez sur **[!UICONTROL Ajouter du contenu d’e-mail]** en haut du panneau d’aperçu _[!UICONTROL E-mail]_.
 
 ![Cliquez sur Ajouter du contenu d’e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-Cette action lance le Designer d’e-mail, dans lequel vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
+Cette action lance les outils de conception d’e-mail, dans lesquels vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
 * [Concevez entièrement votre e-mail](#design-your-email-from-scratch) à l’aide de l’interface Email Designer.
 
@@ -62,7 +34,7 @@ Après avoir créé et personnalisé le contenu de l’e-mail, vous pouvez expor
 >
 >Utilisez l’assistant d’IA dans Adobe Journey Optimizer B2B edition, optimisé par l’IA générative pour élever votre contenu au niveau supérieur. L’assistant AI peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets, du contenu textuel ciblé et en obtenant des recommandations de l’assistant AI pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
 
-### Concevoir votre e-mail à partir de zéro {#design-from-scratch}
+## Concevoir votre e-mail à partir de zéro {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -93,7 +65,7 @@ Une fois votre contenu terminé, cliquez sur **[!UICONTROL Simuler du contenu]**
 
 Lorsque le contenu vous convient, cliquez sur **[!UICONTROL Enregistrer]**.
 
-### Importer du contenu HTML existant
+## Importer du contenu HTML existant
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ Lorsque le contenu vous convient, cliquez sur **[!UICONTROL Enregistrer]**.
 
 Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des outils de l’éditeur visuel d’e-mail.
 
-### Sélectionner un modèle
+## Sélectionner un modèle
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -165,7 +137,7 @@ Tirez parti des options d’affichage et de validation du contenu disponibles da
 
 ### Plus d’options
 
-Dans le menu _[!UICONTROL Plus...]_ situé en haut du Concepteur d’e-mail, vous pouvez effectuer les actions suivantes :
+Dans le menu _[!UICONTROL Plus...]_ situé en haut de l’espace de conception des e-mails, vous pouvez effectuer les actions suivantes :
 
 ![Cliquez sur Plus pour accéder aux actions du modèle](./assets/email-designer-more-menu.png){width="500"}
 
@@ -174,34 +146,6 @@ Dans le menu _[!UICONTROL Plus...]_ situé en haut du Concepteur d’e-mail, vou
 * **[!UICONTROL Modifier votre conception]** - Revenez à la page _Concevoir votre e-mail_. De là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception ou choisir de concevoir le contenu à partir de zéro dans une zone de travail noire.
 * **[!UICONTROL Enregistrer en tant que modèle de contenu]** - Enregistrez le corps de l’e-mail en tant que modèle d’e-mail à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le modèle, puis enregistrez-le dans la liste des modèles d’e-mail enregistrés.
 * **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML présenté sous la forme d’un fichier zip.
-
-## Vérifier les alertes
-
-Lorsque vous concevez le contenu de votre e-mail, des alertes s’affichent dans l’interface (en haut à droite de la page) lorsque des paramètres clés sont manquants.
-
-Si ce bouton ne s’affiche pas, aucun problème n’est détecté.
-
-Deux types d’alertes peuvent être détectés :
-
-* **_avertissements_** qui se rapportent aux recommandations et aux bonnes pratiques telles que :
-
-   * `The opt-out link is not present in the email body` : une bonne pratique consiste à ajouter un lien de désinscription dans le corps de votre e-mail.
-
-     >[!NOTE]
-     >
-     >Les e-mails de style marketing doivent inclure un lien d’opt-out, qui n’est pas obligatoire pour les messages transactionnels.
-
-   * `Text version of HTML is empty` : n’oubliez pas de définir une version texte du corps de votre email, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
-
-   * `Empty link is present in email body` : vérifiez que tous les liens de votre e-mail sont corrects.
-
-   * `Email size has exceeded the limit of 100KB` : pour une diffusion optimale, veillez à ce que la taille de votre e-mail ne dépasse pas 100KB.
-
-* **_Erreurs_** qui vous empêchent de tester ou d’activer le parcours/la campagne tant qu’elles ne sont pas corrigées, telles que :
-
-   * `The subject line is missing` : l’objet de l’e-mail est obligatoire.
-
-   * `The email version of the message is empty` : cette erreur s’affiche lorsque le contenu de l’e-mail n’a pas été configuré.
 
 ## Vérifier et tester l’e-mail {#preview-test}
 

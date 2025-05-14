@@ -3,18 +3,18 @@ title: Contenu conditionnel
 description: Découvrez comment créer des variations de contenu et appliquer des règles conditionnelles lors de la création de contenu d’e-mail pour les parcours de compte.
 feature: Email Authoring, Content
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 1351880505fcf656f94dc5d9e383337d83faeff4
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 13%
+source-wordcount: '1305'
+ht-degree: 15%
 
 ---
 
 # Contenu conditionnel
 
-Le contenu conditionnel vous permet d’adapter le contenu des e-mails en fonction de règles conditionnelles. Ces règles sont définies à l’aide d’attributs de profil ou d’événements contextuels. Vous pouvez créer des règles conditionnelles dans le créateur de règles et les stocker pour les réutiliser dans les parcours de votre compte.
+Le contenu conditionnel vous permet d’adapter le contenu des e-mails en fonction de règles conditionnelles. Ces règles sont définies à l’aide d’attributs de profil ou d’événements contextuels. Vous pouvez créer des règles conditionnelles dans le créateur de règles et les stocker pour les réutiliser dans vos parcours de compte.
 
-Pour ajouter du contenu conditionnel à vos e-mails, Adobe Journey Optimizer vous permet d’appliquer des règles conditionnelles stockées dans la bibliothèque _Conditions_. Appliquez des règles conditionnelles dans l’espace de conception des e-mails lorsque vous [créez un e-mail dans un parcours de compte](./email-authoring.md).
+Pour ajouter du contenu conditionnel à vos e-mails, Adobe Journey Optimizer vous permet d’appliquer des règles conditionnelles stockées dans la bibliothèque _Conditions_. Appliquez des règles conditionnelles dans l’espace de conception des e-mails lorsque vous [créez du contenu d’e-mail pour un parcours de compte](./email-authoring.md).
 
 ## Ajouter du contenu conditionnel aux e-mails {#email-content}
 
@@ -34,7 +34,7 @@ Lorsque vous créez un e-mail pour votre parcours de compte dans l’espace de c
 
    Le composant est indiqué en orange pour indiquer qu’il est activé en tant que composant conditionnel. Le volet **[!UICONTROL Contenu conditionnel]** s’affiche à gauche avec la _Variante par défaut_ et _Variante - 1.
 
-   ![Activer le contenu conditionnel pour le composant de texte](./assets/conditions-enable.png){width=« 700 » zoomable=« yes »}
+   ![Activer le contenu conditionnel pour le composant de texte](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    Le contenu d’origine que vous avez sélectionné et activé est le contenu par défaut et s’applique lorsqu’aucune des règles conditionnelles n’est remplie pour les variantes que vous définissez.
 
@@ -42,13 +42,13 @@ Lorsque vous créez un e-mail pour votre parcours de compte dans l’espace de c
 
 1. Passez la souris sur la première variante (_Variante - 1_) et cliquez sur l’icône _Sélectionner la condition_ ( ![Icône de condition](../assets/do-not-localize/icon-select-condition.svg) ).
 
-   ![Sélectionner la condition pour la variante](./assets/conditions-variant-select.png){width=« 700 » zoomable=« yes »}
+   ![Sélectionner la condition pour la variante](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    La boîte de dialogue _[!UICONTROL Sélectionner une condition]_ s’ouvre et affiche la bibliothèque de conditions.
 
    Si vous souhaitez afficher les détails d&#39;une condition pour vous assurer qu&#39;elle correspond à vos besoins, cliquez sur l&#39;icône _Plus de menu_ (**...**) et choisissez **[!UICONTROL Afficher les informations]**.
 
-   ![Détails des conditions d’accès à la bibliothèque de conditions](assets/conditions-select-dialog.png){width=« 600 » zoomable=« yes »}
+   ![Détails des conditions d’accès à la bibliothèque](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
    Si la condition dont vous avez besoin n’existe pas, [créez une règle conditionnelle](#create-condition) en cliquant sur **[!UICONTROL Créer]**.
 
@@ -56,23 +56,23 @@ Lorsque vous créez un e-mail pour votre parcours de compte dans l’espace de c
 
    Vous pouvez consulter la condition associée en cliquant sur l’icône _Plus_ (**...**) de la variante et en choisissant **[!UICONTROL Afficher la condition]**.
 
-   ![Afficher la condition associée à la variante](./assets/conditions-variant-view-condition.png){width=« 600 » zoomable=« yes »}
+   ![Afficher la condition associée à la variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    Cliquez sur X en haut à droite pour fermer la fenêtre contextuelle.
 
-   ![Afficher les détails de la condition associée](./assets/conditions-info-popup.png){width=« 500 »}
+   ![Afficher les détails de la condition associée](./assets/conditions-info-popup.png){width="500"}
 
 1. Pour une meilleure lisibilité, renommez la variante en cliquant sur l’icône _Plus de menu_ (**...**) de la variante et en choisissant **[!UICONTROL Renommer]**.
 
    Saisissez un nom significatif pour la variante qui vous aide à identifier la variante et son intention.
 
-   ![Renommer la variante](./assets/conditions-variant-rename.png){width=« 600 » zoomable=« yes »}
+   ![ Renommer la variante ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. Avec la variante sélectionnée dans le volet de gauche, modifiez le composant pour modifier la manière dont il apparaît dans l’e-mail lorsque la condition est remplie.
 
    Dans cet exemple, la variante du composant de texte utilise une description différente en fonction de la région du destinataire.
 
-   ![Modifiez le composant pour la variante](./assets/conditions-variant-component-edit.png){width=« 600 » zoomable=« yes »}
+   ![Modifier le composant pour la variante](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. Si nécessaire, définissez une autre variante en cliquant sur **[!UICONTROL Ajouter une variante]**.
 
@@ -136,13 +136,13 @@ Vous pouvez accéder au créateur de règles conditionnelles à partir de l’es
    * **[!UICONTROL Condition de personne]** - Choisissez ce type pour créer la règle conditionnelle à l’aide d’attributs de personne et d’événements contextuels.
    * **[!UICONTROL Condition de compte]** - Choisissez ce type pour créer la règle conditionnelle à l’aide d’attributs de compte.
 
-   ![Choisissez le type de condition à créer](./assets/conditions-select-create-new.png){width=« 600 » zoomable=« yes »}
+   ![Choisissez le type de condition à créer](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. Créez la règle conditionnelle en fonction de vos besoins.
 
    Pour chaque attribut ou événement que vous souhaitez inclure dans la règle, faites glisser l’élément et déposez-le sur la zone de travail de la règle. Développez le filtre et terminez l’expression.
 
-   ![Complétez l’expression à évaluer](./assets/conditions-rule-add-attribute.png){width=« 600 » zoomable=« yes »}
+   ![Complétez l’expression à évaluer](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    Si vous incluez plusieurs filtres, définissez la **[!UICONTROL logique des filtres]** :
 
@@ -153,7 +153,7 @@ Vous pouvez accéder au créateur de règles conditionnelles à partir de l’es
 
    Utilisez un nom significatif et une description utile pour aider les autres membres de votre organisation à le réutiliser au lieu de créer une autre condition en double.
 
-   ![Ajoutez un nom et une description pour la règle conditionnelle](./assets/conditions-rule-name-description.png){width=« 600 » zoomable=« yes »}
+   ![Ajoutez un nom et une description pour la règle conditionnelle](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. Une fois votre règle conditionnelle terminée, cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -167,7 +167,7 @@ Les règles conditionnelles enregistrées dans la bibliothèque ne peuvent pas �
 
    Un doublon de la règle s’ouvre dans le créateur de règles. Utilisez le doublon comme point de départ pour la règle que vous souhaitez créer.
 
-   ![Utilisez une règle en double pour créer celle dont vous avez besoin](./assets/conditions-rule-duplicate.png){width=« 600 » zoomable=« yes »}
+   ![Utilisez une règle en double pour créer celle dont vous avez besoin](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. Dans le créateur de règles, modifiez, ajoutez ou supprimez des conditions en fonction de vos besoins.
 
