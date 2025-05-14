@@ -95,7 +95,7 @@ Utilisez cette action pour pousser les personnes vers une audience externe qui p
 
 ![Agir - Ajouter à l’audience externe du client](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Lorsque vous sélectionnez cette action basée sur les personnes, vous pouvez créer une audience externe ou en sélectionner une existante. Pour les audiences existantes, vous pouvez choisir parmi les audiences de clients externes qui ont été créées dans Journey Optimizer B2B edition uniquement. Lorsque vous créez une audience et que vous l’utilisez pour cette action de parcours, veillez à connecter la destination. Pour plus d’informations, consultez [Création d’une connexion de destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} et [Présentation de l’activation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} dans la documentation d’Experience Platform.
+Lorsque vous sélectionnez cette action basée sur les personnes, vous pouvez créer une audience externe ou en sélectionner une existante. Pour les audiences existantes, vous pouvez choisir parmi les audiences de clients externes qui ont été créées dans Journey Optimizer B2B edition uniquement. Lorsque vous créez une audience et que vous l’utilisez pour cette action de parcours, veillez à connecter la destination. Pour plus d’informations, consultez [Création d’une connexion de destination](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} et [Présentation de l’activation](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} dans la documentation d’Experience Platform.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez une présentation vidéo pour l’orchestration de médias payants](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -147,7 +147,7 @@ Utilisez cette action pour modifier la valeur d’un [attribut de profil de pers
 
 +++[!UICONTROL Modifier le score]
 
-Utilisez cette action pour modifier le score de personne dans Marketo Engage. [En savoir plus](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Utilisez cette action pour modifier le score de personne dans Marketo Engage. [En savoir plus](https://experienceleague.adobe.com/fr/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Agir - Modifier le score](./assets/node-action-change-score.png){width="300"}
 
@@ -171,7 +171,7 @@ Utilisez cette action pour supprimer des profils de personnes d&#39;un [groupe d
 
 +++[!UICONTROL Envoyer un e-mail]
 
-Utilisez cette action pour envoyer un e-mail. Après avoir [créé l’e-mail](../content/add-email.md#add-an-email-to-your-journey) pour le nœud , vous pouvez concevoir, personnaliser et prévisualiser des e-mails dans l’espace de conception d’e-mail (voir [Création d’e-mail](../content/email-authoring.md)). Vous pouvez également envoyer un [e-mail à partir de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Sélectionnez l’espace de travail Marketo Engage , puis l’e-mail à envoyer.
+Utilisez cette action pour envoyer un e-mail. Après avoir [créé l’e-mail](../content/add-email.md#add-an-email-to-your-journey) pour le nœud , vous pouvez concevoir, personnaliser et prévisualiser des e-mails dans l’espace de conception d’e-mail (voir [Création d’e-mail](../content/email-authoring.md)). Vous pouvez également envoyer un [e-mail à partir de Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Sélectionnez l’espace de travail Marketo Engage , puis l’e-mail à envoyer.
 
 ![Agir - Envoyer un e-mail](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -191,7 +191,7 @@ Les actions basées sur les personnes de Marketo Engage sont conçues pour coord
 
 +++[!UICONTROL Ajouter à la liste]
 
-Utilisez cette action pour supprimer des personnes d’une [liste dynamique](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} dans Marketo Engage.
+Utilisez cette action pour supprimer des personnes d’une [liste dynamique](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} dans Marketo Engage.
 
 Sélectionnez d’abord l’espace de travail dans l’instance Marketo Engage connectée. Sélectionnez ensuite le nom de la liste.
 
@@ -201,7 +201,7 @@ Sélectionnez d’abord l’espace de travail dans l’instance Marketo Engage c
 
 +++[!UICONTROL Ajouter à la campagne de demande Marketo]
 
-Utilisez cette action pour ajouter des profils de personnes à une [campagne de demande](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} dans Marketo Engage.
+Utilisez cette action pour ajouter des profils de personnes à une [campagne de demande](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} dans Marketo Engage.
 
 Sélectionnez d’abord l’espace de travail dans l’instance Marketo Engage connectée. Sélectionnez ensuite le nom de la campagne de requête.
 
@@ -211,7 +211,7 @@ Sélectionnez d’abord l’espace de travail dans l’instance Marketo Engage c
 
 +++[!UICONTROL Modifier la partition des personnes dans Marketo Engage]
 
-Utilisez cette action pour modifier la partition [personne](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} dans Marketo Engage.
+Utilisez cette action pour modifier la partition [personne](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} dans Marketo Engage.
 
 ![Agir - Modifier la partition des personnes dans Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
 
@@ -219,7 +219,7 @@ Utilisez cette action pour modifier la partition [personne](https://experiencele
 
 +++[!UICONTROL Supprimer de la liste]
 
-Utilisez cette action pour supprimer des personnes d’une [liste dynamique](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} dans Marketo Engage. Sélectionnez d’abord l’espace de travail dans l’instance Marketo Engage connectée. Sélectionnez ensuite le nom de la liste.
+Utilisez cette action pour supprimer des personnes d’une [liste dynamique](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"} dans Marketo Engage. Sélectionnez d’abord l’espace de travail dans l’instance Marketo Engage connectée. Sélectionnez ensuite le nom de la liste.
 
 ![Agir - Supprimer de la liste](./assets/node-action-remove-from-list-options.png){width="300"}
 
