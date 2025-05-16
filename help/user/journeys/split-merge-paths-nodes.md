@@ -234,4 +234,4 @@ Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins fract
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443258/?learn=on&captions=fre_fr)

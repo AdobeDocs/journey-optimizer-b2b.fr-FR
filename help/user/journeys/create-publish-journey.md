@@ -137,4 +137,4 @@ Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois l
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443221/?learn=on&captions=fre_fr)
