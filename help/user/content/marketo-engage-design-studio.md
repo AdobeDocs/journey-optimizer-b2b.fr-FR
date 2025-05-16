@@ -1,16 +1,17 @@
 ---
-title: Utilisation d’Assets Marketo Engage
+title: Utilisation de Marketo Engage Assets
 description: Découvrez comment utiliser l’intégration de gestion des ressources de Marketo Engage Design Studio dans Journey Optimizer B2B edition.
 feature: Assets, Content
+role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Utilisation de ressources Marketo Engage
+# Utiliser les ressources Marketo Engage
 
 Marketo Engage Design Studio est la source de ressources par défaut de Journey Optimizer B2B edition. Vous pouvez facilement gérer et utiliser les ressources disponibles pour concevoir du contenu qui prend en charge les parcours de votre compte.
 
@@ -18,20 +19,20 @@ Dans Marketo Engage, les organisations marketing utilisent des espaces de travai
 
 ## Gestion centrale des ressources
 
-Par défaut, vous pouvez utiliser l’espace de travail **_[!UICONTROL Journey Optimizer B2B edition]_** spécifiquement pour le contenu du parcours de votre compte. Les ressources que vous ajoutez à cet espace de travail ne sont pas visibles ou ne peuvent pas être utilisées dans Marketo Engage. Pour les ressources résidant dans cet espace de travail, vous disposez de l’ensemble des fonctions de gestion des ressources dans Journey Optimizer B2B edition. Ces fonctions incluent :
+Par défaut, vous pouvez utiliser l’espace de travail **_[!UICONTROL Journey Optimizer B2B edition]_** spécifiquement pour le contenu du parcours de votre compte. Les ressources que vous ajoutez à cet espace de travail ne sont pas visibles ni disponibles dans Marketo Engage. Pour les ressources résidant dans cet espace de travail, vous disposez de l’ensemble des fonctions de gestion des ressources dans Journey Optimizer B2B edition. Ces fonctions incluent :
 
 * [Remplacer](#replace-assets)
 * [Supprimer](#delete-assets)
 * [Déplacer](#create-a-folder)
 * [Modifier avec Adobe Express](./image-edit-adobe-express.md)
 
-Les Assets résidant dans les espaces de travail du Marketo Engage sont limités à un accès en lecture seule pour une utilisation dans les e-mails, les modèles d’e-mail et les fragments. Vous pouvez ajouter de nouvelles ressources à ces espaces de travail et télécharger une copie d’une ressource.
+Les Assets qui résident dans les espaces de travail Marketo Engage sont limitées à un accès en lecture seule qui peut être utilisé dans les e-mails, les modèles d’e-mail et les fragments. Vous pouvez ajouter de nouvelles ressources à ces espaces de travail et télécharger une copie d’une ressource.
 
 ## Parcourir et accéder aux ressources
 
 Pour accéder aux ressources Adobe Marketo Engage à partir de Journey Optimizer B2B edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Assets]**. Cette action ouvre une page de liste contenant toutes les ressources répertoriées.
 
-![Parcourir les ressources du Marketo Engage ](assets/assets-list-page.png){width="800" zoomable="yes"}
+![Parcourir les ressources Marketo Engage](assets/assets-list-page.png){width="800" zoomable="yes"}
 
 L’espace de travail B2B edition de Journey Optimizer est sélectionné par défaut. Les autres espaces de travail sont répertoriés ci-dessous.
 
@@ -67,7 +68,7 @@ Cliquer sur le lien vous redirige vers l’e-mail, le modèle d’e-mail ou le f
 
 ## Ajout de ressources
 
-Dans la page de liste _Assets_, vous pouvez ajouter des ressources d’image à l’espace de travail Journey Optimizer B2B edition ou à un espace de travail de Marketo Engage.
+Dans la page de liste _Assets_, vous pouvez ajouter des ressources d’image à l’espace de travail Journey Optimizer B2B edition ou à un espace de travail Marketo Engage.
 
 1. Cliquez sur **[!UICONTROL Ajouter Assets]** en haut à droite.
 
@@ -85,7 +86,7 @@ Dans la page de liste _Assets_, vous pouvez ajouter des ressources d’image à 
 
    >[!NOTE]
    >
-   >Si vous sélectionnez un emplacement dans l’espace de travail _[!UICONTROL Journey Optimizer B2B edition]_, vous pouvez gérer la ressource dans l’application. Si vous ajoutez la ressource à un espace de travail de Marketo Engage, les fonctions de gestion des ressources ne sont disponibles qu’à partir de Marketo Engage Design Studio.
+   >Si vous sélectionnez un emplacement dans l’espace de travail _[!UICONTROL Journey Optimizer B2B edition]_, vous pouvez gérer la ressource dans l’application. Si vous ajoutez la ressource à un espace de travail Marketo Engage, les fonctions de gestion des ressources ne sont disponibles qu’à partir de Marketo Engage Design Studio.
 
 1. Pour remplacer des fichiers lorsque vous chargez un ou plusieurs fichiers portant un nom de fichier existant, cochez la case **[!UICONTROL Remplacer les fichiers existants]**.
 

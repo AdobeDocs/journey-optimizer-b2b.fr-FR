@@ -1,8 +1,10 @@
 ---
 title: Fonctionnalités de gouvernance
 description: Découvrez les fonctionnalités de gouvernance actuellement disponibles dans Journey Optimizer B2B edition.
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
@@ -15,7 +17,7 @@ Journey Optimizer B2B edition est une application Adobe Experience Platform int�
 
 ## Confidentialité - RGPD
 
-Journey Optimizer B2B edition utilise les fonctionnalités de gouvernance existantes pour le RGPD de Marketo Engage fournies par Privacy Service et le service Marketo Privacy Broker.
+Journey Optimizer B2B edition utilise les fonctionnalités de gouvernance existantes du RGPD de Marketo Engage fournies par Privacy Service et le service Marketo Privacy Broker.
 
 ## Contrôle d’accès en fonction du rôle (RBAC)
 
@@ -23,7 +25,7 @@ Avec Journey Optimizer B2B edition et l’accès au Adobe Admin Console, les adm
 
 ## Chiffrement des données
 
-**_Chiffrement des données inactives_** - Toutes les données des profils de comptes et de personnes transférées de Adobe Experience Platform vers Journey Optimizer B2B edition sont chiffrées afin de garantir la conformité actuelle des Experience Platform. Toutes les entités provenant de Journey Optimizer B2B edition, telles que les parcours et les groupes d’achats, sont également chiffrées.
+**_Chiffrement des données au repos_** - Toutes les données de comptes et de profils de personnes transférées de Adobe Experience Platform vers Journey Optimizer B2B edition sont chiffrées afin de garantir la conformité existante d’Experience Platform. Toutes les entités provenant de Journey Optimizer B2B edition, telles que les parcours et les groupes d’achats, sont également chiffrées.
 
 **_Chiffrement des données en transit_** (sur un réseau public) : toutes les API et entités Journey Optimizer B2B edition sont chiffrées en transit à l’aide de TLS 1.2.
 

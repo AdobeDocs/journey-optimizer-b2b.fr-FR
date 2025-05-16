@@ -1,12 +1,13 @@
 ---
 title: Modèles de pages de destination
 description: Découvrez comment créer des modèles de page de destination que votre équipe marketing peut utiliser pour créer des pages afin de prendre en charge les parcours de compte et les campagnes.
-feature: Content
+feature: Landing Pages, Templates, Content
+role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%

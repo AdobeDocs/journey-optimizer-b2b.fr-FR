@@ -1,16 +1,18 @@
 ---
 title: Conception du modèle de page de destination
 description: Découvrez comment concevoir et créer du contenu pour des modèles de page de destination que les marketeurs peuvent réutiliser pour créer des pages de destination.
-feature: Content
+feature: Templates, Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
-source-git-commit: f0658fad82d6656bc052c1810530963404e29396
+exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 9%
+ht-degree: 22%
 
 ---
 
-# Conception du modèle de page de destination
+# Conception de modèle de page de destination
 
 Après avoir [créé un modèle de page de destination](./landing-page-templates.md#create-a-landing-page-template), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre modèle de page.
 

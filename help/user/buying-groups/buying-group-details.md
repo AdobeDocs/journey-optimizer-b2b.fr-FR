@@ -1,16 +1,17 @@
 ---
 title: Détails du groupe d'achat
 description: Découvrez comment accéder à des informations détaillées et à des résumés d’IA génératifs pour les groupes d’achat dans Journey Optimizer B2B edition.
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# Détails du groupe d&#39;achat
+# Détails du groupe d’achat
 
 Lorsque vous cliquez sur le nom d&#39;un groupe d&#39;achats à partir de n&#39;importe quel emplacement de Journey Optimizer B2B edition, les détails de ce groupe s&#39;affichent. Cet aperçu fournit des informations utiles sur le groupe d’achats, y compris des résumés IA génératifs.
 
@@ -29,8 +30,8 @@ La section Présentation des groupes d&#39;achats comprend les informations suiv
 * Nom du groupe d’achat
 * Nom du compte (cliquez sur le nom pour ouvrir les détails du compte)
 * Nombre d&#39;acheteurs dans le groupe
-* Évaluation de l’engagement
-* Score d&#39;exhaustivité
+* Score d’engagement
+* Score d’exhaustivité
 * Étape du groupe d&#39;achat actuel
 * Modèle de rôle (cliquez sur le nom pour ouvrir les détails du modèle de rôle)
 * Date de la dernière modification/mise à jour
@@ -49,7 +50,7 @@ La section de présentation du compte comprend les informations de compte suivan
 * Les trois derniers parcours de compte pour lesquels le compte est actuellement utilisé (cliquez sur le nom pour afficher les détails du parcours)
 * Résumé IA générative du compte
 
-## Membres du groupe d&#39;achat
+## Membres du groupe d’achat
 
 ![Membres du groupe acheteur](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
@@ -68,7 +69,7 @@ Chaque carte de membre contient les informations suivantes :
 Cliquez sur **[!UICONTROL Afficher les détails]** pour accéder aux informations sur les membres suivantes :
 
 * Résumé IA générative
-* Dernier moment intéressant
+* Dernier moment significatif
 * Activités les plus récentes (deux)
 * Autres groupes d&#39;achat dont le prospect est membre (limité à trois groupes d&#39;achat en fonction du dernier groupe ajouté).
 * Adresse e-mail

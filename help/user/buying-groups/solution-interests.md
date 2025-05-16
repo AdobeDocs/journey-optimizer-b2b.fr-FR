@@ -2,8 +2,9 @@
 title: Centres d’intérêt des solutions
 description: Découvrez les intérêts des solutions et comment les définir pour les utiliser dans vos groupes d'achat.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 1%
@@ -99,6 +100,6 @@ Les intérêts de solution actuellement utilisés par un parcours de compte ou u
 
 1. Cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression, ou vous pouvez abandonner le processus en cliquant sur _[!UICONTROL Annuler]_.
 
-## Vidéo de présentation
+## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3450115/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

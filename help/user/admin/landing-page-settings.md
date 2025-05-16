@@ -1,12 +1,13 @@
 ---
 title: Configuration des pages de destination
 description: Découvrez comment accéder aux paramètres de la page de destination et les configurer afin que votre équipe marketing puisse créer et publier des pages web pour prendre en charge ses campagnes.
-feature: Setup, Content
+feature: Setup, Landing Pages, Content
+role: Admin
 hide: true
 hidefromtoc: true
-badgeBeta: label="Version bêta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 50%

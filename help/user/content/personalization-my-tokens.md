@@ -1,11 +1,13 @@
 ---
 title: Jetons personnalisés pour Email Personalization
 description: Découvrez comment utiliser un ensemble de jetons définis pour un parcours de compte afin de gérer la personnalisation de votre contenu d’e-mail.
-feature: Content, Email Authoring
-source-git-commit: 01c217c928ccb344eaebe471c7b7a8b930c68010
+feature: Personalization, Content, Email Authoring
+role: User
+exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +29,7 @@ _Pour accéder aux jetons personnalisés pour un parcours de compte :_
 
 1. Cliquez sur le menu **[!UICONTROL Plus...]** en haut à droite et choisissez **[!UICONTROL Mes jetons]**.
 
-   ![Cliquez sur Plus en haut à droite](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
+   ![Clic sur Plus en haut à droite](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
 
    La page _Mes jetons_ répertorie tous les jetons personnalisés définis pour le parcours.
 

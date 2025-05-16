@@ -1,8 +1,10 @@
 ---
 title: Champs XDM
 description: Passez en revue les champs d’attribut par défaut synchronisés entre Adobe Experience Platform et Journey Optimizer B2B edition.
+feature: Data Management, Integrations
+role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 22%
@@ -15,7 +17,7 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 
 >[!TIP]
 >
->Vous pouvez modéliser des classes de compte professionnel XDM et de compte professionnel XDM dans une relation multiple-à-multiple à l’aide de la classe de relation de personne avec compte professionnel XDM, comme décrit dans la [documentation XDM d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Vous pouvez modéliser des classes de compte professionnel XDM et de compte professionnel XDM dans une relation multiple-à-multiple à l’aide de la classe de relation de personne avec compte professionnel XDM, comme décrit dans la [documentation XDM d’Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Attributs de relation de la personne avec le compte professionnel XDM
 
@@ -79,7 +81,7 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 
 ## Attributs d’opportunité commerciale XDM
 
-En outre, les données d’opportunité sont stockées en tant qu’attributs dans la classe XDM Business Opportunity, qui peut être associée à la classe XDM Business Account par le biais d’une relation multiple-à-un, comme décrit dans la [documentation Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+En outre, les données d’opportunité sont stockées en tant qu’attributs dans la classe XDM Business Opportunity, qui peut être associée à la classe XDM Business Account par le biais d’une relation multiple-à-un, comme décrit dans la [documentation Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 | [Propriété](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Nom d’affichage | Nom d’affichage B2B de Journey Optimizer | Type de données | Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

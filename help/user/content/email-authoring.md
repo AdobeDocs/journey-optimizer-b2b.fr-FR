@@ -1,9 +1,10 @@
 ---
 title: Création d'un e-mail
 description: Découvrez comment créer du contenu d’e-mail dans Adobe Journey Optimizer B2B. Utilisez des modèles, des importations HTML et des outils optimisés par l’IA pour personnaliser et optimiser vos communications par e-mail.
-feature: Email Authoring, Content
+feature: Email Authoring, Content Design Tools
+role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 20%
@@ -12,7 +13,7 @@ ht-degree: 20%
 
 # Création d’un e-mail
 
-Après avoir &lbrack;ajouté une nouvelle ressource e-mail<!-- or duplicated --> à un nœud d’action de parcours &rbrack;(./add-email.md), vous pouvez définir le contenu de l’e-mail.
+Après avoir [ajouté une nouvelle ressource e-mail<!-- or duplicated --> à un nœud d’action de parcours ](./add-email.md), vous pouvez définir le contenu de l’e-mail.
 
 Cliquez sur **[!UICONTROL Ajouter du contenu d’e-mail]** en haut du panneau d’aperçu _[!UICONTROL E-mail]_.
 

@@ -1,9 +1,10 @@
 ---
 title: Tableau de bord intelligent
 description: Découvrez le tableau de bord intelligent, qui fournit une vue complète des mesures des groupes d’achats et des comptes
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1688'
 ht-degree: 15%
@@ -38,11 +39,11 @@ Pour utiliser les informations fournies par le tableau de bord intelligent, votr
 | [Page Détails du compte](../accounts/account-details.md) | Un ou plusieurs parcours publiés. |
 | [Page Détails du groupe d&#39;achat](../buying-groups/buying-group-details.md) | Un ou plusieurs groupes d&#39;achats créés (étapes non nécessaires). |
 
-## Étapes du groupe d’achat {#buying-group-stages}
+## Étapes des groupes d’achat {#buying-group-stages}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
->title="Étapes du groupe d’achat"
+>title="Étapes des groupes d’achat"
 >abstract="Ce graphique donne une vue d’ensemble de la progression du groupe d’achat à travers différentes étapes en fonction des règles de transition configurées. La première barre indique le nombre de groupes d’achat dans une étape spécifique à la première date de la période sélectionnée par rapport à la dernière date de la période sélectionnée."
 
 Le graphique _[!UICONTROL Étapes du groupe d’achat]_ donne un aperçu de la progression du groupe d’achat à travers différentes étapes ([en fonction des règles de transition configurées par un administrateur](../buying-groups/buying-group-stages.md)).

@@ -2,15 +2,16 @@
 title: Étapes du groupe d'achat
 description: Découvrez les étapes d'un groupe d'achat et comment les définir pour suivre la progression du parcours par rapport aux objectifs de vente.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Étapes du groupe d’achat
+# Étapes des groupes d’achat
 
 Les étapes de groupes d&#39;achat sont conçues pour suivre l&#39;évolution des groupes d&#39;achat dans la conversion des opportunités en clients. Utilisez cette fonctionnalité pour suivre la progression du groupe d&#39;achat et identifier les meilleures actions suivantes pour les membres du groupe d&#39;achat.
 
@@ -18,7 +19,7 @@ Définissez les étapes dans un modèle d’évaluation unique, en définissant 
 
 ![Exemple d’étapes de groupe d’achat](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](#overview-video)
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 ## Définir le modèle des étapes du groupe d&#39;achats
 
@@ -119,7 +120,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 | **[!UICONTROL Nom de l’étape]** | Nom de l’étape. Cliquez sur l’icône d’informations pour afficher la description de l’étape. |
 | **[!UICONTROL Transit autorisé vers]** | Répertorie les étapes valides pour une action _déplacer vers_ dans le modèle. |
 | **[!UICONTROL Étape du point d’entrée]** | Indique si l’étape est valide comme étape de point d’entrée ([!UICONTROL Oui] ou [!UICONTROL Non]). |
-| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL &#x200B; Succès &#x200B;] ou [!UICONTROL &#x200B; Échec &#x200B;]). |
+| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL  Succès ] ou [!UICONTROL  Échec ]). |
 
 ![Étapes et règles de transition définies pour un modèle de brouillon](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## Supprimer le modèle d&#39;étapes du groupe d&#39;achats
 
-Vous pouvez supprimer le modèle d&#39;étapes de groupe d&#39;achats lorsqu&#39;il est à l&#39;état de brouillon ou publié. S’il est publié (actif), vous pouvez le supprimer uniquement s’il n’est pas associé à un intérêt de solution.
+Vous pouvez supprimer le modèle d’étapes du groupe d’achat lorsqu’il est à l’état brouillon ou publié. S’il est publié (actif), vous pouvez le supprimer uniquement s’il n’est pas associé à un intérêt de solution.
 
 1. Dans le volet de navigation de gauche, accédez à **[!UICONTROL Comptes]** > **[!UICONTROL Groupes d’achat]**.
 
@@ -362,6 +363,6 @@ Utilisez l&#39;occurrence d&#39;un changement d&#39;étape de groupe d&#39;achat
 
 1. Continuez pour apporter d’autres modifications et enregistrez le parcours.
 
-## Vidéo de présentation
+## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3448696/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

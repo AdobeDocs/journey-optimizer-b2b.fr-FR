@@ -1,16 +1,17 @@
 ---
 title: Création de modèles d’e-mail
 description: Découvrez comment créer des modèles d’e-mail de contenu qui peuvent être utilisés pour les e-mails de parcours de compte afin de réutiliser vos conceptions facilement et efficacement.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
-# Création d&#39;un modèle d&#39;email
+# Création de modèle d’e-mail
 
 Après avoir [créé un modèle d’e-mail](./email-templates.md#create-an-email-template), utilisez le concepteur visuel pour créer les composants de structure et de contenu dans votre modèle d’e-mail.
 

@@ -1,9 +1,10 @@
 ---
 title: Modèles d'e-mail
 description: Découvrez comment gérer et créer facilement et efficacement des modèles d’e-mail utilisés pour créer des e-mails de parcours de compte.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 4%

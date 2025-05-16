@@ -1,10 +1,11 @@
 ---
 title: Configurer les événements Experience Platform
 description: Découvrez le type de nœud d’attente que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
-feature: Setup
+feature: Setup, Integrations
+role: Admin
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # Configuration des définitions d’événement Experience Platform
 
-Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [Événements d’expérience AEP](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [Événements d’expérience AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
@@ -115,7 +116,7 @@ Pour rechercher une définition d’événement par nom, saisissez une chaîne d
 
 1. Sélectionnez les **[!UICONTROL types d’événement]** à utiliser pour la définition de l’événement.
 
-   Les [types d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} que vous sélectionnez déterminent les événements disponibles en tant que contraintes pour un nœud _Écouter un événement_ dans un parcours de compte.
+   Les [types d’événement](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} que vous sélectionnez déterminent les événements disponibles en tant que contraintes pour un nœud _Écouter un événement_ dans un parcours de compte.
 
    * Cliquez sur **[!UICONTROL Sélectionner les types d’événements]**.
    * Dans la boîte de dialogue, sélectionnez un ou plusieurs types d’événements dans la liste (20 au maximum).
@@ -281,4 +282,4 @@ Vous pouvez supprimer une définition d’événement si elle n’est pas utilis
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3448685/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

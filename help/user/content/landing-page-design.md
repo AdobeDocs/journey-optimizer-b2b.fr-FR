@@ -1,17 +1,18 @@
 ---
 title: Conception de la page de destination
 description: Découvrez comment concevoir et créer du contenu pour vos pages de destination qui prennent en charge les parcours et les campagnes de compte.
-feature: Content
+feature: Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
-# Conception de la page de destination
+# Création de la page de destination
 
 Après avoir [créé une page de destination](./landing-pages.md#create-a-landing-page), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre page.
 

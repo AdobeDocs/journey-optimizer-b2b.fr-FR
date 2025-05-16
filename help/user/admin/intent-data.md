@@ -1,9 +1,10 @@
 ---
 title: Données d’intention
 description: Découvrez comment assembler et envoyer des mots-clés pour générer des données d’intention pour Journey Optimizer B2B edition.
-feature: Setup, Account Insights
+feature: Setup, Intent, Account Insights
 roles: Admin
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Dans Journey Optimizer B2B edition, le modèle de détection des intentions pré
 
 ![Visualisation des données intentionnelles](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
-Pour activer cette fonctionnalité, vous pouvez envoyer une liste de mots-clés dans une feuille de calcul au gestionnaire de compte d’Adobe. Ces mots-clés sont utilisés pour le balisage de votre contenu.
+Pour activer cette fonctionnalité, vous pouvez envoyer une liste de mots-clés dans une feuille de calcul à votre gestionnaire de compte Adobe. Ces mots-clés sont utilisés pour le balisage de votre contenu.
 
 Un ensemble de mots-clés (jusqu’à 20) peut être associé à un produit. Un ensemble de produits (jusqu’à 20) peut être associé à une catégorie. Vous pouvez avoir un maximum de 20 catégories. L’ensemble de ce modèle est réalisé à l’aide d’une simple feuille de calcul ingérée. La feuille de calcul peut contenir un seul onglet correspondant au nom du produit et une seule colonne correspondant à une liste de mots-clés.
 

@@ -2,8 +2,9 @@
 title: Tableau de bord de présentation des groupes d'achat
 description: Découvrez le tableau de bord de présentation des groupes d’achats et comment il permet la remise des ventes à l’équipe marketing.
 feature: Dashboards, Buying Groups
+role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 3%

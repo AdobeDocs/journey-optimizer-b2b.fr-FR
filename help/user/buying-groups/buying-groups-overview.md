@@ -2,9 +2,10 @@
 title: Groupes d’achat
 description: Découvrez comment les groupes d’achats dans Journey Optimizer B2B Edition peuvent accroître l’efficacité du marketing en identifiant et en ciblant les membres de vos listes de comptes.
 feature: Buying Groups
+role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: ht
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 100%
 
@@ -204,4 +205,4 @@ Le score d’engagement final est calculé en appliquant la pondération à chac
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

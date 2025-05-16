@@ -1,26 +1,28 @@
 ---
 title: Filtres de groupe d'achat dans l'engagement de marché
-description: Découvrez comment utiliser l’appartenance à un groupe d’achat pour définir des filtres dans les listes dynamiques du Marketo Engage.
-feature: Buying Groups
-source-git-commit: 2c01fed7e50a48b268e0b6aceb4634bdfc895866
+description: Découvrez comment utiliser l’appartenance à un groupe d’achat pour définir des filtres dans les listes dynamiques Marketo Engage.
+feature: Buying Groups, Integrations
+role: User
+exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Filtres de groupe d&#39;achat dans Market Engage
+# Filtres de groupe d’achat dans Market Engage
 
-En tant que spécialiste marketing, vous pouvez supprimer des campagnes dans Marketo Engage pour les personnes qui font partie de groupes d’achat dans Journey Optimizer B2B edition. Vous pouvez également informer les workflows de notation des leads en Marketo Engage à l’aide d’informations sur les leads associés aux groupes d’achats. Par exemple :
+En tant que spécialiste marketing, vous pouvez supprimer des campagnes dans Marketo Engage pour les personnes qui font partie de groupes d’achat dans Journey Optimizer B2B edition. Vous pouvez également informer les workflows de notation des leads dans Marketo Engage à l’aide d’informations sur les leads associés aux groupes d’achats. Par exemple :
 
 * Ce prospect fait-il partie d&#39;un groupe d&#39;achat ?
 * Le groupe d&#39;achat est-il complet et engagé ?
 
 Si ces conditions sont vraies, vous pouvez choisir de marquer le lead le plus élevé. Si ce n’est pas le cas, vous pouvez choisir de ne pas le marquer comme un prospect qualifié pour le marketing (MQL).
 
-Dans votre instance de Marketo Engage connectée à Journey Optimizer B2B edition, vous pouvez utiliser le filtre _[!UICONTROL Membre du groupe d’achat]_ dans vos listes dynamiques pour identifier ces prospects en fonction de votre stratégie de campagne.
+Dans votre instance Marketo Engage connectée à Journey Optimizer B2B edition, vous pouvez utiliser le filtre _[!UICONTROL Membre du groupe d’achat]_ dans vos listes dynamiques pour identifier ces prospects en fonction de votre stratégie de campagne.
 
-1. Après avoir [créé une liste dynamique dans Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, sélectionnez l’onglet **[!UICONTROL Liste dynamique]** pour ouvrir l’éditeur de filtres.
+1. Après avoir [créé une liste dynamique dans Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, sélectionnez l’onglet **[!UICONTROL Liste dynamique]** pour ouvrir l’éditeur de filtres.
 
 1. Dans la liste de filtres située à droite, faites défiler la liste vers le bas et développez le dossier **[!UICONTROL Filtres spéciaux]**.
 

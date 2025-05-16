@@ -2,11 +2,12 @@
 title: Détails des parcours
 description: Découvrez les informations fournies par la page Détails du parcours et comment elles peuvent vous aider à surveiller et à gérer le parcours de compte que vous avez publié.
 feature: Dashboards, Account Journeys
+role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +28,7 @@ Cette section présente deux mesures d’achèvement :
 * **[!UICONTROL Statut du Parcours]** - Ce graphique en cercle offre une répartition des statuts de parcours en classant les comptes en _Terminé_, _En cours_ et _Abandonné_. Chaque segment est étiqueté avec les pourcentages et les numéros de compte correspondants sur le bord externe du graphique.
 * **[!UICONTROL Achèvement du Parcours au fil du temps]** - Ce graphique en courbes permet de suivre le nombre de comptes qui ont effectué leur parcours au fil du temps. L’axe horizontal mappe la chronologie tandis que l’axe vertical quantifie les comptes, offrant ainsi une vue directe des tendances d’achèvement.
 
-## engagement du parcours
+## Engagement du parcours
 
 Cette section présente deux mesures d’achèvement :
 

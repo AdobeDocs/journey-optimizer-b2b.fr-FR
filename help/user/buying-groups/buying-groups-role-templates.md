@@ -2,8 +2,9 @@
 title: Modèles de rôle de groupe d'achat
 description: Découvrez comment définir un modèle de rôle à utiliser en tant que composant de groupe d’achats.
 feature: Buying Groups
+role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 6%
@@ -161,6 +162,6 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Supprimer]** pour confirmer.
 
-## Vidéo de présentation
+## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
