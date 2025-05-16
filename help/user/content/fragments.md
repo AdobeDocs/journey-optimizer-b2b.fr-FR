@@ -286,7 +286,7 @@ Les fragments sont conçus pour être réutilisés et peuvent être insérés po
 
 1. Accédez à **[!UICONTROL Parcours de compte]** et ouvrez un parcours parcours existant ou créez-en un.
 
-1. Créez un nœud [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Créez un nœud [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Créez ou modifiez le [contenu d’e-mail pour le nœud](./email-authoring.md).
 
