@@ -155,4 +155,4 @@ Utilisez une action de suppression pour supprimer définitivement un parcours. V
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443209/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

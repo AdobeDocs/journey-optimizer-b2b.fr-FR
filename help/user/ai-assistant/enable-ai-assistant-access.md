@@ -22,7 +22,7 @@ Les paramètres suivants régissent l’accès à l’assistant AI dans Journey 
 
 * **Accéder à l’application :** vous pouvez accéder à l’assistant AI dans Adobe Journey Optimizer B2B edition.
 
-* **Autorisations :** utilisez l’[interface utilisateur des autorisations](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} pour accorder ou révoquer l’accès à l’assistant AI dans votre entreprise. Pour utiliser l’assistant AI, un utilisateur donné doit appartenir à un rôle configuré avec les autorisations **Activer l’assistant AI** et **Afficher les informations opérationnelles**.
+* **Autorisations :** utilisez l’[interface utilisateur des autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} pour accorder ou révoquer l’accès à l’assistant AI dans votre entreprise. Pour utiliser l’assistant AI, un utilisateur donné doit appartenir à un rôle configuré avec les autorisations **Activer l’assistant AI** et **Afficher les informations opérationnelles**.
 
 En tant qu’administrateur, vous pouvez :
 
@@ -32,7 +32,7 @@ En tant qu’administrateur, vous pouvez :
 
 ![Attribuer des autorisations à l’assistant AI](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Utilisez l’interface utilisateur des autorisations pour octroyer des autorisations d’utilisation de l’assistant AI dans Journey Optimizer B2B edition. Pour plus d’informations sur l’accès à l’assistant AI dans Experience Platform et d’autres applications Experience Cloud, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Utilisez l’interface utilisateur des autorisations pour octroyer des autorisations d’utilisation de l’assistant AI dans Journey Optimizer B2B edition. Pour plus d’informations sur l’accès à l’assistant AI dans Experience Platform et d’autres applications Experience Cloud, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 Lorsque l’utilisateur dispose des autorisations nécessaires, il peut accéder à l’assistant AI en sélectionnant l’icône _Assistant AI_ dans l’en-tête supérieur de l’application que vous utilisez.
 
