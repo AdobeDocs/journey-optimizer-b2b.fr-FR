@@ -54,4 +54,4 @@ _Pour créer un segment ciblé :_
 
    ![Créer un segment ciblé](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Suivez les étapes décrites dans le [Guide de Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Suivez les étapes décrites dans le [Guide de Segmentation Service](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
