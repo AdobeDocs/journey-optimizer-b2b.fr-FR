@@ -164,4 +164,4 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453301/?learn=on&captions=fre_fr)
