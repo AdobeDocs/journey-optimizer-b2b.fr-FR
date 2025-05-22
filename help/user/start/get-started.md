@@ -4,7 +4,7 @@ description: En tant que nouvel utilisateur ou nouvelle utilisatrice de Journey�
 role: Admin, User
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Selon votre organisation, les administrateurs et administratrices peuvent défin
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 >[!BEGINTABS]
 

@@ -5,20 +5,20 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1778'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Groupes d’achat
 
-Pour les activités de vente et de marketing B2B, les comptes sont la clé de toute stratégie. Chaque compte est associé à un groupe de personnes, qui peuvent être des employés du compte ou des sous-traitants qui travaillent avec le compte. Les comptes sont hiérarchisés et différents produits peuvent être vendus à différents niveaux de la hiérarchie. Par exemple, Adobe Experience Platform peut être vendu au niveau de l’entreprise à un compte de niveau supérieur. Adobe Photoshop peut également être vendu à un compte qui représente une division ou un service au sein d’une organisation, tel qu’un service de conception au sein d’une grande entreprise.
+Pour les activités de vente et de marketing B2B, les comptes sont la clé de toute stratégie. Chaque compte est associé à un groupe de personnes, qui peuvent être des employés du compte ou des sous-traitants qui travaillent avec le compte. Les comptes sont hiérarchisés et différents produits peuvent être vendus à différents niveaux de la hiérarchie. Par exemple, Adobe Experience Platform peut être vendu au niveau de l’entreprise à un compte de niveau supérieur. Quant à Adobe Photoshop, il peut être vendu à un compte qui représente une division ou un service au sein d’une organisation, par exemple un service de conception au sein d’une grande entreprise.
 
 ![Diagramme des rôles de compte](assets/account-roles-diagram.png){width="800"}
 
-Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achat_. Ces personnes prennent la décision d’achat au final. Elles nécessitent donc une attention particulière de la part du spécialiste marketing et peuvent avoir besoin de recevoir des informations différentes de celles des autres personnes associées au compte. Les groupes d’achat peuvent comprendre un groupe différent de personnes pour différentes gammes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter l’approbation d’un directeur ou d’une directrice de l’information ou de la sécurité, ainsi que d’un représentant ou d’une représentante du service juridique, mais un produit de suivi des bugs peut généralement avoir comme membres du groupe d’achat un vice-président ou une vice-présidente de l’ingénierie et un directeur ou une directrice informatique.
+Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achat_. Ce sont ces personnes qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part des spécialistes du marketing et peuvent avoir besoin d’informations différentes de celles fournies aux autres personnes associées au compte. Les groupes d’achat peuvent comprendre un groupe différent de personnes pour différentes gammes de produits ou offres. Par exemple, un produit de cybersécurité peut généralement nécessiter l’approbation d’un directeur ou d’une directrice de l’information ou de la sécurité, ainsi que d’un représentant ou d’une représentante du service juridique, mais un produit de suivi des bugs peut généralement avoir comme membres du groupe d’achat un vice-président ou une vice-présidente de l’ingénierie et un directeur ou une directrice informatique.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
@@ -106,7 +106,7 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 | Participer à l’événement | Participe à un événement de campagne | Événement | 20 | 90 |
 | Ouvrir e-mail | Ouvre un e-mail | E-mail | 20 | 30 |
 | Cliquer sur l’e-mail | Clique sur un lien dans un e-mail | E-mail | 20 | 30 |
-| Ouvrir l’e-mail commercial | Ouvre un e-mail de vente | E-mail | 20 | 30 |
+| Ouvrir l’e-mail commercial | Ouvre un e-mail commercial. | E-mail | 20 | 30 |
 | Cliquer sur l’e-mail commercial | Clique sur un lien dans un e-mail commercial | E-mail | 20 | 30 |
 | Moment intéressant | A un moment significatif | Organisé | 20 | 60 |
 | Appuyer sur l’option d’activation des notifications Push | Reçoit une notification push | Mobile | 20 | 30 |
@@ -126,7 +126,7 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 | A cliqué sur l’appel à l’action dans le webinaire | Clique sur un lien d’appel à l’action dans un événement de webinaire | Appel | 20 | 30 |
 | Téléchargements de ressource dans le webinaire | Télécharge un fichier/une ressource dans un événement de webinaire | Événement | 20 | 60 |
 | Pose des questions dans le webinaire | Pose des questions dans un événement de webinaire | Événement | 20 | 60 |
-| A participé à un événement | A participé à un événement | Événement | 20 | 60 |
+| A participé à un événement | Participation à un événement | Événement | 20 | 60 |
 | A pris contact avec un agent dans la boîte de dialogue | Prend contact avec un agent dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | A cliqué sur le lien dans la conversation de la boîte de dialogue | Clique sur un lien dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | A interagi avec un flux conversationnel | Interagit avec un flux conversationnel Dynamic Chat | Messagerie instantanée | 20 | 90 |
@@ -205,4 +205,4 @@ Le score d’engagement final est calculé en appliquant la pondération à chac
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
