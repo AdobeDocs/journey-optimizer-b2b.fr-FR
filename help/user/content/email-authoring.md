@@ -4,20 +4,20 @@ description: Découvrez comment créer du contenu d’e-mail dans Adobe Journey 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '928'
 ht-degree: 20%
 
 ---
 
 # Création d’un e-mail
 
-Après avoir &lbrack;ajouté une nouvelle ressource e-mail<!-- or duplicated --> à un nœud d’action de parcours &rbrack;(./add-email.md), vous pouvez définir le contenu de l’e-mail.
+Après avoir [ajouté une nouvelle ressource e-mail<!-- or duplicated --> à un nœud d’action de parcours ](./add-email.md), vous pouvez définir le contenu de l’e-mail.
 
-Cliquez sur **[!UICONTROL Ajouter du contenu d’e-mail]** en haut du panneau d’aperçu _[!UICONTROL E-mail]_.
+Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** dans l’onglet _[!UICONTROL Détails]_ du panneau de droite.
 
-![Cliquez sur Ajouter du contenu d’e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Cliquez sur Modifier le contenu de l’e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Cette action lance les outils de conception d’e-mail, dans lesquels vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
@@ -26,8 +26,6 @@ Cette action lance les outils de conception d’e-mail, dans lesquels vous pouve
 * [Importez du contenu HTML existant](#import-existing-html-content) à partir d’un fichier ou d’un dossier .zip.
 
 * [Sélectionnez un modèle existant](#select-a-template) dans une liste de modèles d’e-mail intégrés ou personnalisés.
-
-Pour configurer et personnaliser l’objet avec l’éditeur d’expression, cliquez sur l’icône _Personalization_ et ajoutez l’un des jetons Marketo Engage.
 
 Après avoir créé et personnalisé le contenu de l’e-mail, vous pouvez exporter le contenu pour le valider ou pour l’utiliser ultérieurement. Cliquez sur **[!UICONTROL Exporter HTML]** pour enregistrer le contenu sous la forme d’un fichier .zip contenant votre HTML et vos ressources.
 
@@ -47,10 +45,9 @@ Après avoir créé et personnalisé le contenu de l’e-mail, vous pouvez expor
 >title="À propos des composants de contenu"
 >abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination."
 
-Utilisez l’éditeur visuel de contenu pour définir la structure du contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme du contenu d’e-mail réutilisable en quelques secondes.
+Utilisez l’espace de conception visuelle du contenu pour définir la structure et le contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme du contenu d’e-mail réutilisable en quelques secondes.
 
 1. Sur la page d’accueil _[!UICONTROL Concevez votre modèle]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
-
 1. [Ajoutez la structure et le contenu](#add-structure-and-content) à l’e-mail.
 1. [Ajoutez des ressources d’image](#add-assets) à l’e-mail.
 1. [Personnaliser le contenu de l’e-mail](#personalize-content).
