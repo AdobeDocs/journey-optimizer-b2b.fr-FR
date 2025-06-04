@@ -4,10 +4,10 @@ description: Découvrez les types de nœuds de chemins de division et de chemins
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 6%
+source-wordcount: '2083'
+ht-degree: 5%
 
 ---
 
@@ -43,7 +43,6 @@ _Comment fonctionne un nœud de partage de chemin d’accès par comptes ?_
 | --------------- | ----------- |
 | Attributs du compte | Attributs du profil de compte, notamment : <li>Chiffre d’affaires annuel <li>Ville <li>Pays <li>Nombre d’employés <li>Secteur industriel <li>Nom <li>Code SIC <li>État |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution <li>Statut du groupe d&#39;achat <li>Score d&#39;exhaustivité <li>Score d’engagement |
-| [!UICONTROL Filtres spéciaux] > [!UICONTROL A une opportunité] | Le compte est lié ou non à une opportunité. Peut également être évalué par rapport à un ou plusieurs des attributs d’opportunité suivants : <li>Montant<li>Date de clôture<li>Description<li>Chiffre d’affaires souhaité<li>Trimestre d’exercice fiscal<li>Année fiscale<li>Type de prévision<li>Nom de la catégorie de prévision<li>Est fermé<li>Est conclu(e) <li>Dernière date d’activité <li>Source de personne<li>Nom <li>Étape suivante <li>Probabilité<li>Quantité<li>Étape <li>Type |
 
 ### Ajouter un chemin de division par nœud de compte
 
@@ -184,7 +183,7 @@ Pour un chemin de partage par personnes, vous pouvez définir un chemin en fonct
 
 >[!BEGINSHADEBOX « Filtrage d&#39;inactivité »]
 
-Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, si vous souhaitez créer un chemin pour les personnes qui _&#x200B;**n’ont pas**&#x200B;_ ouvert un e-mail précédemment dans le parcours, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
+Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, si vous souhaitez créer un chemin pour les personnes qui _**n’ont pas**_ ouvert un e-mail précédemment dans le parcours, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
 
 ![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -234,4 +233,4 @@ Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins fract
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443258/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
