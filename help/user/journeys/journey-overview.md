@@ -69,11 +69,11 @@ Le statut d’un parcours peut changer en fonction des actions que vous applique
 
 | Statut | Description | Actions disponibles |
 | ------ | ----------- | ----------------- |
-| _**Brouillon**_ | Parcours dépublié modifiable. | <li>[Publier](./create-publish-journey.md#publish-an-account-journey)<li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
-| _**Actif**_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <li>[Dupliquer ](#duplicate-journey)<li>[Fermer aux nouvelles entrées](#close-to-new-entries) <li>[Abandon](#abort-journey) |
-| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <li>[Dupliquer ](#duplicate-journey) <li>[Abandon](#abort-journey) |
-| _**Abandonné**_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
-| _**Terminé**_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de _Actif_ ou _Fermé aux nouvelles entrées_ à _Terminé_. | <li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _&#x200B;**Brouillon**&#x200B;_ | Parcours dépublié modifiable. | <li>[Publier](./create-publish-journey.md#publish-an-account-journey)<li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _&#x200B;**Actif**&#x200B;_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <li>[Dupliquer ](#duplicate-journey)<li>[Fermer aux nouvelles entrées](#close-to-new-entries) <li>[Abandon](#abort-journey) |
+| _&#x200B;**Fermé aux nouvelles entrées**&#x200B;_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <li>[Dupliquer ](#duplicate-journey) <li>[Abandon](#abort-journey) |
+| _&#x200B;**Abandonné**&#x200B;_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _&#x200B;**Terminé**&#x200B;_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de _Actif_ ou _Fermé aux nouvelles entrées_ à _Terminé_. | <li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
 
 ## Gérer les parcours
 
