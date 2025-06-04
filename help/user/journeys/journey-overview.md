@@ -1,13 +1,13 @@
 ---
 title: Parcours de compte
-description: Découvrez les parcours de compte et comment les créer et les gérer.
+description: Commencez avec les parcours de compte et apprenez à utiliser la liste Parcours de compte pour les gérer.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '1009'
-ht-degree: 100%
+source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 86%
 
 ---
 
@@ -30,11 +30,13 @@ Pour commencer avec les parcours de compte :
 
 ## Accéder aux parcours de compte et les parcourir
 
-Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Parcours de compte]**.
+Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de compte]** et cliquez sur **[!UICONTROL parcours de compte]**.
 
-![Accéder aux parcours de compte](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+Saisissez du texte dans l’outil _Rechercher_ en haut de la liste pour filtrer la liste affichée par nom.
 
-La page des parcours affichée comprend les colonnes suivantes :
+![Filtrer la liste des parcours de compte](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
+
+La page de liste _[!UICONTROL Parcours de compte]_ comprend les colonnes suivantes :
 
 * [!UICONTROL Nom] (cliquer sur le nom pour ouvrir le parcours et le modifier)
 * [!UICONTROL Statut]
@@ -45,7 +47,7 @@ La page des parcours affichée comprend les colonnes suivantes :
 * [!UICONTROL Publié sur]
 * [!UICONTROL Publié par]
 
-Utilisez l’outil _Recherche_ dans la partie supérieure pour localiser le parcours par nom. Vous pouvez trier la liste par _[!UICONTROL Statut]_ en cliquant sur l’en-tête de colonne.
+Vous pouvez trier la liste par _[!UICONTROL Statut]_ en cliquant sur l’en-tête de colonne.
 
 Vous pouvez personnaliser les colonnes affichées dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ (![Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg)) dans le coin supérieur droit. Cochez ou décochez les cases de la boîte de dialogue, puis cliquez sur **[!UICONTROL Appliquer]**.
 
@@ -60,18 +62,18 @@ Cliquez sur le nom (affiché sous forme de lien) dans la liste _[!UICONTROL Parc
 L’en-tête de la cartographie du parcours du compte comprend les éléments suivants :
 
 * Nom du parcours
-* Accès à la modification du nom du parcours (icône _Modifier_ ![Icône Modifier](../assets/do-not-localize/icon-edit.svg))
+* Outil d’édition du nom du parcours (icône ![Modifier](../assets/do-not-localize/icon-edit.svg) _Modifier_ )
 * Statut du parcours
 
 Le statut d’un parcours peut changer en fonction des actions que vous appliquez. En fonction du statut d’un parcours, certaines actions peuvent être disponibles ou non dans l’en-tête.
 
 | Statut | Description | Actions disponibles |
 | ------ | ----------- | ----------------- |
-| _**Brouillon**_ | Parcours dépublié modifiable. | <ul><li>[Publier](./create-publish-journey.md#publish-an-account-journey)</li><li>Dupliquer </li><li>Supprimer </li></ul> |
-| _**Actif**_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <ul><li>Dupliquer </li><li>Fermer aux nouvelles entrées </li><li>Abandonner </li></ul> |
-| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <ul><li>Dupliquer </li><li>Abandonner </li></ul> |
-| _**Abandonné**_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
-| _**Terminé**_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de Actif ou Fermé aux nouvelles entrées à Terminé. | <ul><li>Dupliquer </li><li>Supprimer </li></ul> |
+| _**Brouillon**_ | Parcours dépublié modifiable. | <li>[Publier](./create-publish-journey.md#publish-an-account-journey)<li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _**Actif**_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <li>[Dupliquer ](#duplicate-journey)<li>[Fermer aux nouvelles entrées](#close-to-new-entries) <li>[Abandon](#abort-journey) |
+| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <li>[Dupliquer ](#duplicate-journey) <li>[Abandon](#abort-journey) |
+| _**Abandonné**_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _**Terminé**_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de _Actif_ ou _Fermé aux nouvelles entrées_ à _Terminé_. | <li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
 
 ## Gérer les parcours
 
@@ -83,7 +85,7 @@ Si vous abandonnez (arrêtez) un parcours actif ou planifié, les comptes du par
 
 >[!IMPORTANT]
 >
->Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Entreprendre une action_ avec l’action _Ajouter un compte à un (autre) parcours_, l’abandon du parcours bloque cette action à partir de ce parcours.
+>Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Prendre une action_ avec l’action _Ajouter un compte à un (autre) Parcours_, l’abandon du parcours bloque cette action dans ce parcours.
 
 1. Cliquez sur le nom du parcours pour l’ouvrir.
 
@@ -155,4 +157,4 @@ Utilisez une action de suppression pour supprimer définitivement un parcours. V
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443209/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

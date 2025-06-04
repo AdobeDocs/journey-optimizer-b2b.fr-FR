@@ -4,9 +4,9 @@ description: Découvrez les intérêts des solutions et comment les définir pou
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,13 @@ Avant de créer des groupes d&#39;achat, vous devez savoir ce que vous vendez et
 
 1. Sur la page _[!UICONTROL Groupes d&#39;achat]_, sélectionnez l&#39;onglet **[!UICONTROL Intérêt de la solution]**.
 
+   L’onglet fournit une liste de tous les intérêts de solution existants. Elle affiche les informations suivantes au format de colonne : _[!UICONTROL Nom]_, _[!UICONTROL Modèle de rôles]_, _[!UICONTROL Traitements de création de groupes d&#39;achats]_, _[!UICONTROL Mettre à jour des groupes d&#39;achats]_, _[!UICONTROL Date de création]_, _[!UICONTROL Créé par]_, _[!UICONTROL Dernière mise à jour]_ et _[!UICONTROL Dernière mise à jour par]_,
+
+   La liste est triée par défaut en fonction de la colonne _[!UICONTROL Dernière mise à jour]_. Cliquez sur le titre de la colonne dans l’en-tête pour activer/désactiver le tri décroissant ou croissant.
+
+   Saisissez du texte dans l’outil _Rechercher_ en haut de la liste pour filtrer la liste affichée par nom.
+
    ![Onglet Intérêt de la solution](assets/solution-interest-tab.png){width="700" zoomable="yes"}
-
-   L’onglet fournit une liste de tous les intérêts de solution existants. Elle affiche les informations suivantes au format de colonne : _[!UICONTROL Nom]_, _[!UICONTROL Modèle de rôles]_, _[!UICONTROL Tâches de création de groupe d’achat]_, _[!UICONTROL Dernière mise à jour le]_, _[!UICONTROL Mise à jour le]_, _[!UICONTROL Créé le]_ et _[!UICONTROL Créé le]_
-
-   La liste est triée par défaut dans la colonne _[!UICONTROL Dernière mise à jour le]_. Cliquez sur le titre de la colonne dans l’en-tête pour activer/désactiver le tri décroissant ou croissant.
 
 ## Afficher et supprimer des tâches de groupe d&#39;achats
 
@@ -102,4 +104,4 @@ Les intérêts de solution actuellement utilisés par un parcours de compte ou u
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3450115/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
