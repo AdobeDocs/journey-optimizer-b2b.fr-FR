@@ -3,9 +3,9 @@ title: 'Documentation d’Adobe Journey Optimizer B2B Edition '
 description: Découvrez comment utiliser les fonctionnalités d’Adobe Journey Optimizer B2B Edition pour orchestrer des parcours de compte et de groupe d’achat à l’aide de l’IA générative intégrée et d’une automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -13,13 +13,13 @@ ht-degree: 90%
 
 ## Nouveautés
 
-Voici un exemple des derniers ajouts et des améliorations apportées à l’application et à la documentation Journey Optimizer B2B Edition.
+Voici un exemple des derniers ajouts et des améliorations apportées à l’application et à la documentation Journey Optimizer B2B Edition.
 
 >[!BEGINTABS]
 
 >[!TAB Expériences d’e-mail GenStudio]
 
-Intégrez les expériences de messagerie GenStudio for Performance Marketing à Journey Optimizer B2B edition pour améliorer l’efficacité marketing et maintenir la cohérence de la marque. Grâce à cette intégration, vous pouvez combiner la création de contenu optimisée par l’IA dédiée à GenStudio avec les fonctionnalités avancées d’orchestration de Journey Optimizer B2B edition.
+Intégrez les expériences de messagerie GenStudio for Performance Marketing à Journey Optimizer B2B Edition pour améliorer l’efficacité marketing et maintenir la cohérence de la marque. Grâce à cette intégration, vous pouvez combiner la création de contenu optimisée par l’IA dédiée à GenStudio avec les fonctionnalités avancées d’orchestration de Journey Optimizer B2B Edition.
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="En savoir plus sur les expériences d’e-mail GenStudio"}
 
@@ -121,7 +121,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Contenu de parcours"><br/>
-      <strong>Parcours de l’assistant contenu</strong><br/><a href="./content/add-email.md">canal e-mail</a><br/><a href="./content/ai-assistant-emails.md">IA pour les e-mails</a><br/><a href="./content/genstudio-email-workflow.md">Expériences e-mail GenStudio</a><br/><a href="./content/sales-alert-email.md">Alerte de vente e-mail</a><br/><a href="./content/sms-authoring.md">canal SMS</a>
+<strong>Contenu du parcours</strong><br/><a href="./content/add-email.md">Canal e-mail</a><br/><a href="./content/ai-assistant-emails.md">Assistant IA pour les e-mails</a><br/><a href="./content/genstudio-email-workflow.md">Expériences d’e-mail GenStudio</a><br/><a href="./content/sales-alert-email.md">E-mail d’alerte de vente</a><br/><a href="./content/sms-authoring.md">Canal SMS</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Gestion de contenu"><br/>
@@ -139,7 +139,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>

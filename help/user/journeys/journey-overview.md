@@ -5,9 +5,9 @@ feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Pour commencer avec les parcours de compte :
 
 ## Accéder aux parcours de compte et les parcourir
 
-Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de compte]** et cliquez sur **[!UICONTROL parcours de compte]**.
+Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de compte]** et cliquez sur **[!UICONTROL Parcours de compte]**.
 
 Saisissez du texte dans l’outil _Rechercher_ en haut de la liste pour filtrer la liste affichée par nom.
 
-![Filtrer la liste des parcours de compte](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
+![Filtrage de la liste des parcours de compte](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-La page de liste _[!UICONTROL Parcours de compte]_ comprend les colonnes suivantes :
+La page de la liste _[!UICONTROL Parcours de compte]_ comprend les colonnes suivantes :
 
 * [!UICONTROL Nom] (cliquer sur le nom pour ouvrir le parcours et le modifier)
 * [!UICONTROL Statut]
@@ -62,18 +62,18 @@ Cliquez sur le nom (affiché sous forme de lien) dans la liste _[!UICONTROL Parc
 L’en-tête de la cartographie du parcours du compte comprend les éléments suivants :
 
 * Nom du parcours
-* Outil d’édition du nom du parcours (icône ![Modifier](../assets/do-not-localize/icon-edit.svg) _Modifier_ )
+* Outil de modification du nom du parcours (![icône Modifier](../assets/do-not-localize/icon-edit.svg) _Icône Modifier_)
 * Statut du parcours
 
 Le statut d’un parcours peut changer en fonction des actions que vous appliquez. En fonction du statut d’un parcours, certaines actions peuvent être disponibles ou non dans l’en-tête.
 
 | Statut | Description | Actions disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Brouillon**&#x200B;_ | Parcours dépublié modifiable. | <li>[Publier](./create-publish-journey.md#publish-an-account-journey)<li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
-| _&#x200B;**Actif**&#x200B;_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <li>[Dupliquer ](#duplicate-journey)<li>[Fermer aux nouvelles entrées](#close-to-new-entries) <li>[Abandon](#abort-journey) |
-| _&#x200B;**Fermé aux nouvelles entrées**&#x200B;_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <li>[Dupliquer ](#duplicate-journey) <li>[Abandon](#abort-journey) |
-| _&#x200B;**Abandonné**&#x200B;_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
-| _&#x200B;**Terminé**&#x200B;_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de _Actif_ ou _Fermé aux nouvelles entrées_ à _Terminé_. | <li>[Dupliquer ](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _**Brouillon**_ | Parcours dépublié modifiable. | <li>[Publier](./create-publish-journey.md#publish-an-account-journey)<li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _**Actif**_ | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <li>[Dupliquer](#duplicate-journey)<li>[Fermer aux nouvelles entrées](#close-to-new-entries) <li>[Abandonner](#abort-journey) |
+| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <li>[Dupliquer](#duplicate-journey) <li>[Abandonner](#abort-journey) |
+| _**Abandonné**_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _**Terminé**_ | Lorsque tous les comptes d’un parcours ont terminé le parcours, le statut passe de la valeur _Actif_ ou _Fermé aux nouvelles entrées_ à la valeur _Terminé_. | <li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
 
 ## Gérer les parcours
 
@@ -85,7 +85,7 @@ Si vous abandonnez (arrêtez) un parcours actif ou planifié, les comptes du par
 
 >[!IMPORTANT]
 >
->Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Prendre une action_ avec l’action _Ajouter un compte à un (autre) Parcours_, l’abandon du parcours bloque cette action dans ce parcours.
+>Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Entreprendre une action_ avec l’action _Ajouter un compte à un (autre) parcours_, l’abandon du parcours bloque cette action à partir de ce parcours.
 
 1. Cliquez sur le nom du parcours pour l’ouvrir.
 
@@ -157,4 +157,4 @@ Utilisez une action de suppression pour supprimer définitivement un parcours. V
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443209/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

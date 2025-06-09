@@ -1,12 +1,12 @@
 ---
-title: Notes de mise à jour de Journey Optimizer B2B edition
-description: Découvrez les dernières fonctionnalités et améliorations de Adobe Journey Optimizer B2B edition.
+title: Notes de mise à jour de Journey Optimizer B2B Edition
+description: Découvrez les dernières fonctionnalités et améliorations d’Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,24 +16,24 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2025.5
 
-**Date de déploiement** : 3 juin 2025
+**Date de déploiement** : 3 juin 2025
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Intégration à GenStudio for Performance Marketing | (Disponibilité limitée) Vous pouvez désormais intégrer des expériences d’e-mail GenStudio for Performance Marketing à Journey Optimizer B2B edition pour améliorer l’efficacité marketing et maintenir la cohérence de la marque. Grâce à cette intégration, vous pouvez combiner la création de contenu optimisée par l’IA dédiée à GenStudio avec les fonctionnalités avancées d’orchestration de Journey Optimizer B2B edition. [En savoir plus](../content/genstudio-email-workflow.md) |
-| Amélioration | Format du jeton de la barre de contrôle pour l’e-mail | Les jetons Personalization pour le contenu des e-mails utilisent désormais un format mis à jour entièrement compatible avec les scripts Handlebar. Ce format utilise des _casse mixte_ ou des traits de soulignement qui éliminent les espaces. [En savoir plus](../content/email-authoring.md#content-authoring---personalization) |
+| Fonctionnalité | Intégration à GenStudio for Performance Marketing | (Disponibilité limitée) Vous pouvez désormais intégrer des expériences d’e-mail GenStudio for Performance Marketing à Journey Optimizer B2B Edition pour améliorer l’efficacité marketing et maintenir la cohérence de la marque. Grâce à cette intégration, vous pouvez combiner la création de contenu optimisée par l’IA dédiée à GenStudio avec les fonctionnalités avancées d’orchestration de Journey Optimizer B2B Edition. [En savoir plus](../content/genstudio-email-workflow.md) |
+| Amélioration | Format du jeton Handlebars pour l’e-mail | Les jetons de personnalisation pour le contenu des e-mails utilisent désormais un format mis à jour entièrement compatible avec les scripts Handlebars. Ce format utilise la _Camel Case_ ou des traits de soulignement qui éliminent les espaces. [En savoir plus](../content/email-authoring.md#content-authoring---personalization) |
 | Amélioration | Affichage du nombre total de listes | Les pages de liste _[!UICONTROL Intérêts de la solution]_ et _[!UICONTROL Parcours de compte]_ sont améliorées avec l’affichage du nombre total à côté de la barre de recherche. |
 
 
 ## Notes de mise à jour 2025.4
 
-**Date de déploiement** : 29 avril 2025
+**Date de déploiement** : 29 avril 2025
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -48,7 +48,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 ## Notes de mise à jour 2025.3
 
-**Date de déploiement** : 1er avril 2025
+**Date de publication** : 1er avril 2025
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -61,27 +61,27 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 ## Notes de mise à jour 2025.2
 
-**Date de déploiement** : 11 mars 2025
+**Date de déploiement** : 11 mars 2025
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Champs personnalisables – Fragments de contenu | Lors de la conception d’un fragment visuel, vous pouvez désigner les paramètres d’un composant du fragment comme étant modifiables. Cette fonctionnalité permet à la personne créant l’e-mail ou le modèle de spécifier une valeur de champ personnalisé spécifique à ses besoins. Cette option de personnalisation est limitée aux composants visuels d’image, de texte et de bouton. <a href="../content/fragment-authoring.md#enable-fragment-customization">En savoir plus</a> |
+| Fonctionnalité | Champs personnalisables - Fragments de contenu | Durant la conception du fragment visuel, vous pouvez désigner un paramètre pour un composant du fragment comme étant modifiable. Cette fonctionnalité permet à la personne créant l’e-mail ou le modèle de spécifier une valeur de champ personnalisé spécifique à ses besoins. Cette option de personnalisation est limitée aux composants visuels d’image, de texte et de bouton. <a href="../content/fragment-authoring.md#enable-fragment-customization">En savoir plus</a> |
 | Fonctionnalité | Rôles intégrés et autorisations de produit B2B | Experience Platform comprend désormais un ensemble de rôles intégrés (par défaut) que vous pouvez utiliser pour gérer l’accès aux fonctionnalités du produit B2B. <a href="../admin/user-management.md#b2b-built-in-roles">En savoir plus</a> <br/>Les administrateurs et administratrices peuvent désormais définir des rôles personnalisés dans Adobe Experience Platform pour inclure les autorisations de produit Journey Optimizer B2B Edition.  <a href="../admin/user-management.md#b2b-product-permissions">En savoir plus</a> |
 | Fonctionnalité | Types de duplication de parcours | Lorsque vous dupliquez un parcours de compte, vous pouvez inclure les détails du nœud, à l’exclusion des e-mails et des SMS créés dans Journey Optimizer B2B Edition. Vous pouvez également créer une copie squelette de la structure et des flux de chemin d’accès, sans détails ni paramètres de nœud. <a href="../journeys/journey-overview.md#duplicate-journey">En savoir plus</a> |
 | Amélioration | Quatre exemples supplémentaires de modèles d’e-mail | La bibliothèque d’exemples de modèles d’e-mail comprend désormais quatre modèles SecurFinancial qui servent d’exemples de contenu de réengagement, d’information, de stimulation et de commentaires. |
 
 ## Notes de mise à jour 2025.1 {#Jan-2025}
 
-**Date de déploiement** : 6 février 2025
+**Date de déploiement** : 6 février 2025
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
 | Fonctionnalité | Transfert des événements d’expérience | Les administrateurs et administratrices peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP). Ces configurations permettent aux spécialistes du marketing de créer des parcours de compte qui réagissent aux événements d’expérience AEP.  <a href="../admin/configure-aep-events.md">En savoir plus</a> |
-| Fonctionnalité | Destinations de médias achetés | Qualifiez des personnes connues pour des campagnes de médias achetés à partir d’un parcours de compte afin de pouvoir les impliquer davantage sur les plateformes publicitaires telles que LinkedIn. Utilisez un nœud de chemin de partage dans un parcours de compte pour segmenter les audiences de compte en fonction d’un comportement spécifique et identifier les comptes qui nécessitent un engagement supplémentaire. Ajoutez ensuite les personnes de ces comptes à une audience cliente externe via Real-Time CDP vers une destination de médias achetés prise en charge. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">En savoir plus</a> |
+| Fonctionnalité | Destinations de médias achetés | Qualifiez des personnes connues pour des campagnes de médias achetés à partir d’un parcours de compte afin de pouvoir les impliquer davantage sur les plateformes publicitaires telles que LinkedIn. Utilisez un nœud de fractionnement de chemin dans un parcours de compte pour segmenter les audiences de compte en fonction d’un comportement spécifique et identifier les comptes qui nécessitent un engagement supplémentaire. Ajoutez ensuite les personnes de ces comptes à une audience cliente externe via Real-Time CDP vers une destination de médias achetés prise en charge. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">En savoir plus</a> |
 | Fonctionnalité | Tableau de bord intelligent | Affichez la progression des groupes d’achat à travers leurs parcours de compte, y compris les informations générées par l’IA pour une analyse plus intelligente et une hiérarchisation précise des comptes. <a href="../dashboards/intelligent-dashboard.md">En savoir plus</a> |
 | Fonctionnalité | Détails du groupe d’achat et du compte | Affichez des informations au niveau du groupe d’achat et du compte pour disposer de plus de données contextuelles et historiques lorsque vous commencez à interagir avec un client ou une cliente.<p>Les détails du groupe d’achat incluent toute intention propriétaire détectée. <a href="../buying-groups/buying-group-details.md">En savoir plus</a><p>Les détails des comptes mettent en évidence l’augmentation subite de l’intention détectée au niveau de l’engagement. Vous pouvez ainsi alerter les ventes sur les comptes prêts pour un engagement personnalisé axé sur les ventes.  <a href="../accounts/account-details.md">En savoir plus</a> |
 | Fonctionnalité | Vue d’ensemble des parcours | Lorsque vous accédez aux parcours de compte, l’onglet Vue d’ensemble fournit un instantané complet de vos parcours de compte actifs, détaillant la progression des comptes à l’aide de diagrammes circulaires et à barres qui catégorisent et quantifient les achèvements, ainsi que les activités d’engagement.  <a href="../dashboards/journeys-dashboard.md">En savoir plus</a> |
@@ -94,11 +94,11 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 ## Versions de 2024
 
-Développez les listes suivantes pour connaître les fonctionnalités et améliorations de Journey Optimizer B2B edition publiées en 2024.
+Développez les listes suivantes pour connaître les fonctionnalités et améliorations de Journey Optimizer B2B Edition publiées en 2024.
 
-+++Notes de mise à jour d’octobre 2024
++++Notes de mise à jour d’octobre 2024
 
-**Date de déploiement** : 29 octobre 2024
+**Date de déploiement** : 29 octobre 2024
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -114,9 +114,9 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 +++
 
-+++Notes de mise à jour de septembre 2024
++++Notes de mise à jour de septembre 2024
 
-**Date de déploiement** : 7 octobre 2024
+**Date de déploiement** : 7 octobre 2024
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -129,9 +129,9 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 +++
 
-+++Notes de mise à jour d’août 2024
++++Notes de mise à jour d’août 2024
 
-**Date de déploiement** : 29 août 2024
+**Date de déploiement** : 29 août 2024
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
