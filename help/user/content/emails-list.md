@@ -4,16 +4,16 @@ description: Utilisez la liste E-mails pour gérer le contenu de votre e-mail da
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # E-mails
 
-Lorsque vous [créez des e-mails](./add-email.md), vous les ajoutez dans le cadre d’un nœud de parcours. Si vous souhaitez utiliser l’e-mail en dehors du mappage de parcours, utilisez la liste _[!UICONTROL E-mails]_ pour localiser et mettre à jour l’e-mail. Vous pouvez consulter les e-mails ou apporter des mises à jour aux paramètres et au contenu.
+Lorsque vous [créez des e-mails](./add-email.md), vous les ajoutez dans le cadre d’un nœud de parcours. Lorsque vous souhaitez utiliser le contenu d’un e-mail en dehors de la carte de parcours, utilisez la liste _[!UICONTROL E-mails]_ pour localiser et mettre à jour l’e-mail. Vous pouvez consulter les e-mails ou apporter des mises à jour aux paramètres et au contenu.
 
 ## Accéder aux e-mails et les gérer
 
