@@ -230,4 +230,4 @@ Si le profil de la personne n’était pas membre de la liste dynamique, l’act
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443247/?learn=on&captions=fre_fr)
