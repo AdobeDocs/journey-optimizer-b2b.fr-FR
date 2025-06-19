@@ -4,9 +4,9 @@ description: Découvrez comment créer et publier des parcours de compte.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '791'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ Pour commencer à utiliser un parcours de compte, créez le parcours, puis const
 
 ## Blocs de construction d’un parcours
 
-La carte de parcours __ est la zone centrale du concepteur de parcours. C’est dans cette zone que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir son volet Propriétés à droite de la zone de travail et définissez-le en fonction de votre conception. Un parcours de compte commence toujours par un nœud [Audience du compte](./account-audience-nodes.md) où vous pouvez ajouter des données à votre parcours.
+La carte de parcours __ est la zone centrale de l&#39;espace de travail de parcours. C’est dans cette zone que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir son volet Propriétés à droite de la zone de travail et définissez-le en fonction de votre conception. Un parcours de compte commence toujours par un nœud [Audience du compte](./account-audience-nodes.md) où vous pouvez ajouter des données à votre parcours.
 
 Après avoir créé un parcours de compte et ajouté l’audience, créez le parcours à l’aide de nœuds . La carte de parcours fournit une zone de travail, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes à l’aide des types de nœuds suivants pour créer un parcours de compte :
 
@@ -47,7 +47,7 @@ Pour vous aider à créer un parcours sans rencontrer d’erreur, les barrières
 
 * _Suppression d’un nœud de chemin de division_ : la suppression d’un nœud nécessite la suppression de tous les nœuds suivants dans chaque chemin.
 * _Suppression d’un nœud de fusion_ : un nœud de fusion ne peut être supprimé que lorsqu’un chemin d’accès lui est connecté. Pour supprimer un nœud de fusion, ne laissez qu’un seul chemin sélectionné.
-* _Basculer entre le compte et les personnes_ : vous ne pouvez pas modifier la sélection des comptes en personnes sans supprimer tous les nœuds suivants dans chaque chemin d’accès.
+* _Basculer entre le compte et les personnes_ : si vous choisissez comptes dans personnes, tous les nœuds suivants sont supprimés dans chaque chemin.
 
 ## Ajouter un nœud
 
@@ -113,6 +113,10 @@ Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une dat
 
 Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois le parcours publié, son statut passe à _Actif_. Si le parcours comporte des erreurs, le bouton _[!UICONTROL Publier]_ est grisé avec les informations de contenu : `Resolve errors before publishing`.
 
+>[!NOTE]
+>
+>Après la publication d’un parcours de compte, les comptes admissibles mettent jusqu’à 24 heures pour entrer dans le parcours.
+
 1. Dans la partie supérieure droite de la carte des parcours, cliquez sur **[!UICONTROL Publier]**.
 
 1. Dans la boîte de dialogue _[!UICONTROL Vérifier les paramètres du parcours]_, définissez les options de début du parcours.
@@ -137,4 +141,4 @@ Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois l
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443221/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
