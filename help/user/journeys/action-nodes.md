@@ -27,9 +27,9 @@ Utilisez une action sur les comptes lorsque vous souhaitez appliquer une modific
 | ------ | ----------- |
 | [!UICONTROL Valeur des données de modification de compte] | Sélectionner l’attribut<br/>Nouvelle valeur |
 | [!UICONTROL Moment intéressant du compte] | Type (e-mail, jalon ou web)<br/>Description (facultatif) |
-| [!UICONTROL Ajouter un compte à un (autre) Parcours ] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Ajouter un compte à un (autre) Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste de comptes statiques actifs |
-| [!UICONTROL Supprimer un compte du Parcours ] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Supprimer un compte du Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
 | [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
 | [!UICONTROL Mettre à jour l&#39;étape du groupe d&#39;achat] | Sélectionner l&#39;intérêt de la solution<br/>Sélectionner l&#39;étape du groupe d&#39;achat |
@@ -65,7 +65,7 @@ Utilisez une action sur les personnes lorsque vous souhaitez appliquer une modif
 | | [!UICONTROL Supprimer du groupe d&#39;achat] | Sélectionner l’intérêt de la solution |
 | | [!UICONTROL Envoyer un e-mail] | Créer un e-mail<br/>sélectionner un e-mail à partir de Marketo Engage |
 | | [!UICONTROL Envoyer SMS] | Créer un SMS |
-| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Ajouter à la liste ] | Sélectionner le nom de la liste<br/>espace de travail Marketo Engage |
+| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Ajouter à la liste &#x200B;] | Sélectionner le nom de la liste<br/>espace de travail Marketo Engage |
 | | [!UICONTROL Ajouter à la campagne de demande Marketo Engage] | Sélectionner l’espace de travail Marketo Engage<br/>Sélectionner la campagne de demande |
 | | [!UICONTROL Modifier la partition des personnes dans Marketo Engage] | Nouvelle répartition |
 | | [!UICONTROL Supprimer de la liste] | Sélectionner le nom de la liste<br/>espace de travail Marketo Engage |
