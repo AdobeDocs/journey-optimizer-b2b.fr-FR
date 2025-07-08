@@ -4,9 +4,9 @@ description: Découvrez comment ajouter, définir et optimiser des actions d’e
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
+source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Vous pouvez configurer des diffusions e-mail dans un parcours lorsque vous [ajou
 
       1. Cliquez sur **[!UICONTROL Modifier l’e-mail]** pour définir les [paramètres](#define-the-email-settings) de l’e-mail et concevoir le [contenu](./email-authoring.md).
 
-     +++
++++
 
      +++Dupliquer l’e-mail existant
 
@@ -77,7 +77,7 @@ Vous pouvez configurer des diffusions e-mail dans un parcours lorsque vous [ajou
 
       1. Si nécessaire, cliquez sur **[!UICONTROL Modifier l’e-mail]** pour modifier les e-mails [paramètres](#define-the-email-settings) et [contenu](./email-authoring.md).
 
-     +++
++++
 
    * Choisissez **[!UICONTROL Sélectionner un e-mail dans Adobe Marketo Engage]** pour utiliser l’un des e-mails précréés dans Marketo Engage et l’envoyer dans le cadre du parcours.
 
@@ -97,9 +97,9 @@ Une fois l’onglet **[!UICONTROL Détails]** sélectionné dans le panneau _Ré
 | ------ | ----------- |
 | [!UICONTROL À partir du nom] | Nom de l’expéditeur utilisé dans l’en-tête de l’e-mail. Saisissez le nom de l’expéditeur tel que vous souhaitez qu’il apparaisse au destinataire. Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
 | [!UICONTROL E-mail de l’expéditeur] | Adresse expéditeur utilisée dans l’en-tête de l’e-mail. La valeur par défaut est renseignée à partir des [ paramètres de diffusion du canal e-mail ](../admin/configure-channels-emails.md#delivery-settings). Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
-| [!UICONTROL &#x200B; Adresse de réponse &#x200B;] | Adresse expéditeur utilisée dans l’en-tête de l’e-mail. La valeur par défaut est renseignée à partir des [paramètres de diffusion du canal e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL libellé de l’expéditeur]). Saisissez l’adresse e-mail à renseigner si le destinataire utilise la fonction de réponse (il peut s’agir d’une adresse différente ou identique à l’adresse expéditeur). Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
+| [!UICONTROL  Adresse de réponse ] | Adresse expéditeur utilisée dans l’en-tête de l’e-mail. La valeur par défaut est renseignée à partir des [paramètres de diffusion du canal e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL libellé de l’expéditeur]). Saisissez l’adresse e-mail à renseigner si le destinataire utilise la fonction de réponse (il peut s’agir d’une adresse différente ou identique à l’adresse expéditeur). Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
 | [!UICONTROL Objet] | Texte affiché dans le champ Objet de l’e-mail. La valeur par défaut est renseignée à partir du texte que vous avez saisi dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_. Vous pouvez modifier le texte si nécessaire. Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
-| [!UICONTROL &#x200B; E-mail opérationnel &#x200B;] | Cochez la case si vous souhaitez désigner l’e-mail comme opérationnel. Les e-mails opérationnels sont exclus des listes de désinscription et des limites de communication. Sélectionnez cette option uniquement lorsque le destinataire ne peut pas considérer l’e-mail comme un message commercial non sollicité (SPAM). |
+| [!UICONTROL  E-mail opérationnel ] | Cochez la case si vous souhaitez désigner l’e-mail comme opérationnel. Les e-mails opérationnels sont exclus des listes de désinscription et des limites de communication. Sélectionnez cette option uniquement lorsque le destinataire ne peut pas considérer l’e-mail comme un message commercial non sollicité (SPAM). |
 | [!UICONTROL Inclure l’affichage en tant que page web] | Cochez la case pour inclure un lien vers une page web générée à partir du contenu de l’e-mail. Les e-mails disposent de fonctionnalités plus limitées que les pages web. Ils sont donc utiles pour JavaScript, les feuilles CSS étendues et les formulaires. Le texte utilisé pour générer le lien est configuré dans les [paramètres de diffusion du canal e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Afficher en tant qu&#39;HTML de page web] et [!UICONTROL Afficher en tant que texte de page web]). |
 | [!UICONTROL Désactiver le suivi des ouvertures] | Cochez la case lorsque vous ne souhaitez pas suivre l’activité d’ouverture des e-mails. Lorsque la fonction est désactivée, le nombre d’activités d’ouverture d’e-mail est incrémenté uniquement lorsqu’une personne unique ouvre l’e-mail. Vous pouvez [gérer le suivi des liens de contenu d’e-mail](./email-authoring.md#content-authoring---link-tracking) lorsque vous concevez le contenu du corps de l’e-mail. |
 | [!UICONTROL Preheader] | Cochez la case pour inclure un pré-titre. Un pré-titre est le texte de résumé court affiché après la ligne d&#39;objet dans certains clients de messagerie. Il fournit généralement un bref résumé de l’e-mail et se compose généralement d’une seule phrase. Saisissez le texte récapitulatif dans le champ<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
@@ -129,6 +129,8 @@ Deux types d’alertes peuvent être détectés :
 
 * **_Erreurs_** qui vous empêchent de tester ou d’activer le parcours/la campagne tant qu’elles ne sont pas corrigées, telles que :
 
-   * `The subject line is missing` : l’objet de l’e-mail est obligatoire.
+   * `From name is empty` : le champ e-mail _De_ (obligatoire) n’est pas défini.
 
-   * `The email version of the message is empty` : cette erreur s’affiche lorsque le contenu de l’e-mail n’a pas été configuré.
+   * `The subject line is missing` : l’objet de l’e-mail (obligatoire) n’est pas défini.
+
+   * `The email version of the message is empty` : le contenu de l’e-mail n’est pas défini.
