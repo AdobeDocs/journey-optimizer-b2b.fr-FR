@@ -1,13 +1,13 @@
 ---
 title: Conseils d’intégration pour les administrateurs et les spécialistes marketing
-description: En tant que nouvel administrateur ou utilisateur dans Journey Optimizer B2B edition, découvrez les principaux domaines du processus d’intégration.
+description: En tant que nouvel utilisateur, nouvelle utilisatrice, nouvel administrateur ou nouvelle administratrice de l’édition B2B d’Adobe Journey Optimizer, découvrez les principaux domaines pour bien commencer.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ Les fonctionnalités et outils que vous souhaitez aborder dans Adobe Journey Opt
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 >[!BEGINTABS]
 
@@ -31,7 +31,7 @@ Découvrez la gestion des accès dans les pages suivantes :
 
 1. **Créer des sandbox** pour partitionner vos instances en environnements virtuels distincts et isolés. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Collaborez avec votre ingénieur de données** pour planifier et mettre en œuvre l’activation de votre audience B2B et de votre profil. Passez en revue les plans directeurs publiés et suivez les instructions en fonction de vos besoins. [En savoir plus](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Collaborez avec votre ingénieur de données** pour planifier et mettre en œuvre l’activation de votre audience B2B et de votre profil. Passez en revue les plans directeurs publiés et suivez les instructions en fonction de vos besoins. [En savoir plus](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Configurez le profil de produit**. Un profil de produit est un ensemble de droits unitaires dans Adobe Experience Platform qui permettent d’accéder à certaines fonctionnalités ou à certains objets dans l’interface. [En savoir plus](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
