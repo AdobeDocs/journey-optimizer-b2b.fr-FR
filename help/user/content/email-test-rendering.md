@@ -5,9 +5,9 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dbb678f40b8d637f4eb534acb31328ebea0c182a
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '361'
 ht-degree: 3%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 Pour tester vos e-mails, vous pouvez utiliser un compte [Litmus](https://www.litmus.com/email-testing){target="_blank"} Enterprise de Journey Optimizer B2B edition. Grâce à cette intégration, vous pouvez prévisualiser votre rendu d’e-mail dans les clients de messagerie les plus courants. Cet outil vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Cette intégration est disponible uniquement pour les comptes Entreprise Litmus. Pour plus d&#39;informations, consultez la page [solution sur le site web de Litmus](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
+>Cette intégration est uniquement disponible pour les utilisateurs de Journey Optimizer B2B edition disposant de comptes Litmus Enterprise. Pour plus d&#39;informations, consultez la page [solution sur le site web de Litmus](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
 
 1. Une fois votre conception d’e-mail terminée et prête à être testée, cliquez sur **[!UICONTROL Simuler du contenu]** dans l’espace de conception d’e-mail.
 
