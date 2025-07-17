@@ -145,7 +145,7 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 | [!UICONTROL Pose des questions dans le webinaire] | Un membre pose des questions dans un événement de webinaire | Événement | 20 | 60 |
 | [!UICONTROL A assisté à l’événement] | Un membre a assisté à un événement | Événement | 20 | 60 |
 | [!UICONTROL Dialogue avec un agent] | Un membre engage le dialogue Dynamic Chat avec un agent | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL Lien cliqué dans la boîte de dialogue Conversation ] | Un membre clique sur un lien dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| [!UICONTROL Lien cliqué dans la boîte de dialogue Conversation &#x200B;] | Un membre clique sur un lien dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | [!UICONTROL Engagé dans un flux de conversation] | Un membre s’engage dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | [!UICONTROL Réunion planifiée dans le flux de conversation] | Un membre planifie un rendez-vous dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | [!UICONTROL Objectif De Flux Conversationnel Atteint] | Un membre atteint un objectif dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |

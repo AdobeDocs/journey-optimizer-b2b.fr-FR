@@ -134,7 +134,7 @@ Lorsque vous définissez l’URL cible du lien, vous pouvez utiliser la vue Comp
 
 **_Examples:_**
 
-Champ +++URL
++++Champ URL
 
 Suivez cette séquence de tâches pour ajouter le lien personnalisé sous la forme d’un champ URL :
 
