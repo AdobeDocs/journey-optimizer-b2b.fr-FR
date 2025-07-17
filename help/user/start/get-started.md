@@ -17,7 +17,7 @@ Les fonctionnalités et outils que vous souhaitez aborder dans Adobe Journey Opt
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 >[!BEGINTABS]
 
@@ -31,7 +31,7 @@ Découvrez la gestion des accès dans les pages suivantes :
 
 1. **Créer des sandbox** pour partitionner vos instances en environnements virtuels distincts et isolés. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Collaborez avec votre ingénieur de données** pour planifier et mettre en œuvre l’activation de votre audience B2B et de votre profil. Passez en revue les plans directeurs publiés et suivez les instructions en fonction de vos besoins. [En savoir plus](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Collaborez avec votre ingénieur de données** pour planifier et mettre en œuvre l’activation de votre audience B2B et de votre profil. Passez en revue les plans directeurs publiés et suivez les instructions en fonction de vos besoins. [En savoir plus](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Planifiez et implémentez l’intégration de Marketo Engage** pour incorporer un schéma personnalisé, l’ingestion des profils et des comptes et l’orchestration des parcours personnalisés pour les groupes d’achats. [En savoir plus](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
