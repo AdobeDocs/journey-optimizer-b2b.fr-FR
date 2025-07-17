@@ -51,11 +51,11 @@ Pour passer en revue les domaines de branding, cliquez sur l’onglet **[!UICONT
 
 ![Accéder aux paramètres des domaines de branding](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Ce paramètre définit votre domaine principal pour un ou plusieurs espaces de travail dans l’instance Marketo Engage connectée. Les nouveaux e-mails utilisent ce domaine par défaut, mais les spécialistes du marketing peuvent [le remplacer pour chaque e-mail](../content/add-email.md#define-the-email-settings). Pour plus d&#39;informations sur la définition du domaine de marque par défaut, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Ce paramètre définit votre domaine principal pour un ou plusieurs espaces de travail dans l’instance Marketo Engage connectée. Les nouveaux e-mails utilisent ce domaine par défaut, mais les spécialistes du marketing peuvent [le remplacer pour chaque e-mail](../content/add-email.md#define-the-email-settings). Pour plus d&#39;informations sur la définition du domaine de marque par défaut, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Si vous commercialisez plusieurs marques et souhaitez que chacune d’elles possède ses propres liens de tracking de marque, vous pouvez ajouter un domaine de marque supplémentaire. Pour plus d&#39;informations sur l&#39;ajout de plusieurs domaines de branding, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Si vous commercialisez plusieurs marques et souhaitez que chacune d’elles possède ses propres liens de tracking de marque, vous pouvez ajouter un domaine de marque supplémentaire. Pour plus d&#39;informations sur l&#39;ajout de plusieurs domaines de branding, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Options d’en-tête personnalisé] {#custom-header-options}
 
@@ -79,7 +79,7 @@ Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Clique
 >
 >Pour accéder à ces paramètres et les modifier dans Adobe Marketo Engage, vous devez disposer des autorisations d’administrateur de produit.
 
-Pour plus d&#39;informations sur la configuration des limites de communication, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Pour plus d&#39;informations sur la configuration des limites de communication, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -146,4 +146,4 @@ Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Clique
 >
 >Pour accéder à ces paramètres et les modifier dans Adobe Marketo Engage, vous devez disposer des autorisations d’administrateur de produit.
 
-Pour plus d&#39;informations sur la configuration des options d&#39;activité des robots, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Pour plus d&#39;informations sur la configuration des options d&#39;activité des robots, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
