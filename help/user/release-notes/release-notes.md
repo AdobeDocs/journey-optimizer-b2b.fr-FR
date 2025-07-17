@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités et améliorations d’Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 96%
+source-wordcount: '2552'
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,35 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+<!-- hold for 2025.8 release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
+
+## Notes de mise à jour 2025.6
+
+**Date de déploiement** : mercredi 15 juillet 2025
+
+Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
+
+| Type | Élément | Description |
+| ---- | ---- | ----------- |
+| Fonctionnalité | Intégration à GenStudio for Performance Marketing | (Disponibilité limitée) Vous pouvez désormais intégrer des expériences d’e-mail GenStudio for Performance Marketing à Journey Optimizer B2B Edition pour améliorer l’efficacité marketing et maintenir la cohérence de la marque. Grâce à cette intégration, vous pouvez combiner la création de contenu optimisée par l’IA dédiée à GenStudio avec les fonctionnalités avancées d’orchestration de Journey Optimizer B2B Edition. [En savoir plus](../content/genstudio-email-workflow.md) |
+| Fonctionnalité | Rapports de détection des spams | Pour éviter les filtres anti-spam et vous assurer que les messages sont envoyés aux boîtes de réception de l&#39;audience, vous pouvez générer un _rapport sur les spams_ directement dans l&#39;espace de conception des e-mails. [En savoir plus](../content/email-spam-report.md) |
+| Fonctionnalité | Page de détails de la personne | Vous pouvez désormais cliquer sur le nom d’une personne lorsqu’il est affiché (sous la forme d’un lien hypertexte) dans le tableau de bord intelligent, les pages Détails du groupe d’achats et les pages Détails du compte. Cette action ouvre la page des détails de la personne associée, avec les informations sur le contact, son activité et les groupes d’achats les plus engagés. [En savoir plus](../accounts/person-details.md) |
+| Fonctionnalité | Actions du compte et du groupe d&#39;achat | Agissez directement à partir des pages Détails du compte et Détails du groupe d’achat pour un engagement opportun et intentionnel. <li>Utilisez l’action _Envoyer un e-mail_ pour envoyer un e-mail Marketo Engage approuvé aux contacts de compte ou aux membres du groupe d’achat sélectionnés. [En savoir plus](../accounts/account-details.md#send-emails) <li>Dans les détails du groupe d&#39;achats, les actions incluent également _Affecter un nouveau membre_, _Supprimer un membre_ et _Modifier un rôle_. [En savoir plus](../buying-groups/buying-group-details.md#members-tab) |
+| Fonctionnalité | Accès aux pages de détails dans le CRM | Vous pouvez désormais configurer des liens directs vers les pages de détails de Journey Optimizer B2B edition pour les comptes, contacts et prospects dans votre outil de gestion de la relation client (GRC), tel que Salesforce ou Microsoft Dynamics. [En savoir plus](../accounts/crm-linking.md) |
+| Fonctionnalité | Prise en charge CSS personnalisée pour la conception de contenu | Vous pouvez désormais ajouter votre propre CSS personnalisé lorsque vous créez du contenu d’e-mail et de page de destination dans l’espace de conception. [En savoir plus](../content/design-custom-css.md) |
+| Fonctionnalité | Configuration du mappage de mots-clés d’intention | Pour activer et gérer le modèle Détection d’intention , vous pouvez désormais charger une feuille de calcul pour définir une catégorie de mappage des données d’intention. [En savoir plus](../admin/intent-data.md) |
+| Amélioration | Simuler le contenu à partir du résumé de l’e-mail | Vous pouvez désormais accéder aux outils _Simuler du contenu_ à partir du résumé de l’e-mail (détails et propriétés) lorsque vous ouvrez un e-mail à partir de la liste E-mails . Cet accès s’ajoute à l’espace de conception des e-mails. [En savoir plus](../content/email-simulate-content.md#display-the-email-preview) |
+| Amélioration | Affichage du nombre total pour la liste des modèles de rôles | La page de liste _[!UICONTROL Modèles de rôles]_ est améliorée avec l’affichage du nombre total en regard de la barre de recherche. |
+
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
+
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
 ## Notes de mise à jour 2025.5
 

@@ -4,9 +4,9 @@ description: Découvrez comment définir un modèle de rôle à utiliser en tant
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1103'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
    ![Onglet Modèles de rôles](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   L’onglet fournit une liste d’inventaire de tous les modèles de rôles existants avec les colonnes suivantes :
+   L’onglet fournit une liste d’inventaire de tous les modèles de rôles existants et affiche les informations suivantes au format de colonne :
 
    * [!UICONTROL Nom]
    * [!UICONTROL Statut]
@@ -36,9 +36,7 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
    * [!UICONTROL Publié sur]
    * [!UICONTROL Publié par]
 
-   La liste est triée par défaut en fonction de la colonne _[!UICONTROL Dernière mise à jour]_.
-
-   Le nombre de modèles de rôles _actifs_ (publiés) s’affiche en haut à droite de la page. Tous les modèles de rôle ont le statut `Draft` ou `Live`.
+   La liste est triée par défaut selon la _[!UICONTROL Dernière mise à jour]_. Tous les modèles de rôle ont le statut `Draft` ou `Live`.
 
 1. Pour filtrer la liste par nom, utilisez le champ de recherche situé en haut de la liste.
 
@@ -164,4 +162,4 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

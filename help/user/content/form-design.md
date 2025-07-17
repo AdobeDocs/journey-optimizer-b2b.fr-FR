@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Conception de formulaire
 
-Après avoir [créé un formulaire](./landing-pages.md#create-a-landing-page), l’espace de conception visuelle ouvre un brouillon avec une définition de formulaire de base par défaut. Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur **[!UICONTROL Modifier le formulaire]** et utilisez l’espace de conception visuelle pour définir le style du formulaire et les composants de champ.
+Après avoir [créé un formulaire](./forms.md#create-forms), l’espace de conception visuelle ouvre un brouillon avec une définition de formulaire de base par défaut. Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur **[!UICONTROL Modifier le formulaire]** et utilisez l’espace de conception visuelle pour définir le style du formulaire et les composants de champ.
 
 ![Accéder à la bibliothèque de formulaires](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 

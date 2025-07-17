@@ -2,10 +2,10 @@
 title: 'Documentation d’Adobe Journey Optimizer B2B Edition '
 description: Découvrez comment utiliser les fonctionnalités d’Adobe Journey Optimizer B2B Edition pour orchestrer des parcours de compte et de groupe d’achat à l’aide de l’IA générative intégrée et d’une automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 60%
 
 ---
 
@@ -23,43 +23,41 @@ Intégrez les expériences de messagerie GenStudio for Performance Marketing 
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="En savoir plus sur les expériences d’e-mail GenStudio"}
 
->[!TAB Listes de comptes]
+>[!TAB Rapports de détection des spams]
 
-Créez une liste de comptes, qui est une collection de comptes nommés que les spécialistes du marketing peuvent utiliser pour l’orchestration de parcours ciblés. Une liste de comptes peut cibler des comptes nommés selon vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise.
+Grâce aux nouveaux rapports sur les spams, vous pouvez éviter les filtres de spam et vous assurer que les messages sont diffusés dans les boîtes de réception de l&#39;audience. Générez un _rapport sur les spams_ directement dans l&#39;espace de conception des emails.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="En savoir plus sur les listes de comptes"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="En savoir plus sur les rapports de détection des spams"}
 
->[!TAB Filtres de liste de comptes pour les listes intelligentes]
+>[!TAB Actions de compte et de groupe d&#39;achat]
 
-Vous pouvez désormais filtrer les listes intelligentes Marketo Engage avec des filtres de liste de comptes. Ces filtres vous permettent de supprimer et d’inclure des membres de listes de comptes dans les campagnes et programmes Marketo Engage à partir des parcours de compte dans Journey Optimizer B2B Edition.
+Agissez directement à partir des pages Détails du compte et Détails du groupe d’achat pour un engagement opportun et intentionnel.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="En savoir plus sur les filtres de liste de comptes utilisés dans les listes intelligentes Marketo Engage"}
+Utilisez l’action _Envoyer un e-mail_ pour envoyer un e-mail Marketo Engage approuvé aux contacts de compte ou aux membres du groupe d’achat sélectionnés.
 
->[!TAB Filtres de l’historique d’inactivité]
+[!BADGE En savoir plus]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="En savoir plus sur l’envoi d’e-mails aux contacts de compte"}
 
-Faites progresser les parcours en fonction de l’inactivité dans les campagnes et programmes Marketo Engage, y compris les e-mails, les moments intéressants, les modifications de la valeur des données et les pages web visitées.
+Dans les détails du groupe d&#39;achats, les actions incluent également _Affecter un nouveau membre_, _Supprimer un membre_ et _Modifier un rôle_.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="En savoir plus sur les filtres de l’historique d’inactivité"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="En savoir plus sur les actions de groupe d&#39;achat"}
 
->[!TAB Duplication des parcours]
+>[!TAB Prise en charge personnalisée de CSS]
 
-Dupliquez les structures de parcours de votre compte pour minimiser les erreurs manuelles et assurer la cohérence des paramètres, des flux et des chemins. Dans le parcours dupliqué, vous pouvez ajuster le contenu ou les actions, ce qui facilite la gestion de campagnes plus volumineuses et plus complexes.
+Vous pouvez désormais ajouter votre propre CSS personnalisé lorsque vous créez du contenu d’e-mail et de page de destination dans l’espace de conception.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="En savoir plus sur la duplication des parcours"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="En savoir plus sur l’utilisation de feuilles CSS personnalisées"}
 
->[!TAB Tableau de bord des données intelligentes]
+>[!TAB Mappage d’intention par mot-clé]
 
-Avec le nouveau tableau de bord intelligent, vous pouvez voir la progression de la qualification du groupe d’achat au fil des étapes. Identifiez les groupes d’achat qui évoluent rapidement et ceux qui stagnent afin de pouvoir organiser les parcours pour les stimuler si nécessaire. Vous disposez également de détails au niveau du groupe d’achat et du compte, ce qui fournit davantage de données contextuelles et historiques pour l’engagement des clientes et clients.
+Pour activer et gérer le modèle Détection d’intention , vous pouvez désormais charger une feuille de calcul pour définir une catégorie de mappage des données d’intention.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="En savoir plus sur le tableau de bord intelligent"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/admin/intent-data.md" tooltip="En savoir plus sur la configuration du mappage d’intention par mot-clé"}
 
->[!TAB Modification d’images Adobe Express]
+>[!TAB Test des e-mails avec Litmus]
 
-Utilisez les actions rapides d’Adobe Express pour retoucher votre contenu en le recadrant, le redimensionnant, en supprimant l’arrière-plan et en convertissant le format. L’interface d’utilisation intuitive d’Adobe Express est intégrée afin que vous puissiez rapidement perfectionner vos ressources d’image.
+Avec un compte Litmus, vous pouvez désormais prévisualiser votre rendu d’e-mail dans les clients de messagerie les plus courants à partir de Journey Optimizer B2B edition. Cette intégration vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception d’e-mail.
 
-Grâce aux licences Adobe Express pour les entreprises, vous pouvez tirer parti d’une suite complète de fonctionnalités d’Adobe Express. Utilisez ces fonctionnalités pour peaufiner et améliorer les images, tout en respectant les directives de la marque, et supprimer les obstacles dans la chaîne d’approvisionnement du contenu.
-
-[!BADGE En savoir plus]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="En savoir plus sur la modification des images avec Adobe Express"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="En savoir plus sur l’intégration des tests d’e-mail Litmus"}
 
 >[!ENDTABS]
 
@@ -139,7 +137,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>

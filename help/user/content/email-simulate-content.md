@@ -4,9 +4,10 @@ description: Découvrez comment prévisualiser et tester le contenu de votre e-m
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: c93a294d2e70f9a6c17be9ba9cc6994fb7944ebc
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,11 @@ Utilisez la fonctionnalité _Simuler du contenu_ pour prévisualiser le contenu 
 
 ## Affichage de l’aperçu de l’e-mail
 
-1. Dans l’espace de conception d’e-mail<!-- or the email properties --> cliquez sur **[!UICONTROL Simuler du contenu]**.
+Vous pouvez accéder à l’aperçu du rendu depuis l’[espace de conception des e-mails](./email-authoring.md) ou depuis le _[!UICONTROL Résumé]_ lorsque vous [ouvrez un e-mail à partir de la liste E-mails](./emails-list.md#edit-emails).
 
-   ![Cliquez sur Simuler du contenu](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. Cliquez sur **[!UICONTROL Simuler du contenu]** dans la partie supérieure.
+
+   ![Cliquez sur Simuler du contenu](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >

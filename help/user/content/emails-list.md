@@ -4,9 +4,9 @@ description: Utilisez la liste E-mails pour gérer le contenu de votre e-mail da
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,12 @@ Pour rechercher un e-mail par nom, saisissez une chaîne de texte dans la barre 
 
 ![Accédez à la bibliothèque de modèles d’e-mail et filtrez par nom et dates](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## Modifier les e-mails
+## Ouvrir et modifier des e-mails
 
 Cliquez sur le nom de l’e-mail dans la liste pour l’ouvrir. Vous pouvez vérifier et modifier les [ paramètres d’e-mail ](./add-email.md#define-the-email-settings). Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** pour effectuer [mises à jour du contenu](./email-authoring.md).
 
 Si des [alertes sont affichées](./add-email.md#check-alerts) en haut à droite de la page, cliquez sur pour passer en revue les avertissements ou les erreurs et traiter les éléments selon les besoins.
 
 ![Ouvrir l’e-mail pour effectuer des mises à jour](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+Vous pouvez également accéder à la fenêtre [_[!UICONTROL Simuler du contenu]_](./email-simulate-content.md). Utilisez ces outils pour prévisualiser le contenu à l’aide d’un profil de test, envoyer des BAT et tester la délivrabilité et le rendu du client de messagerie.

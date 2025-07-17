@@ -4,10 +4,10 @@ description: Découvrez comment créer des groupes d'achats à l'aide des compos
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '268'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Une fois le groupe d&#39;achat créé, il peut être utilisé dans un parcours d
 
 1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Achats de groupes]**.
 
-1. Dans la page _[!UICONTROL Groupes d&#39;achats]_, cliquez sur le bouton **[!UICONTROL Créer des groupes d&#39;achats]** en haut à droite de la page.
+1. Dans la page _[!UICONTROL Groupes d&#39;achats]_, cliquez sur **[!UICONTROL Créer des groupes d&#39;achats]** en haut à droite de la page.
 
    ![Cliquez sur Créer des groupes d&#39;achats](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
@@ -50,9 +50,11 @@ La boîte de dialogue de confirmation fournit un résumé du processus des group
 
 ![Boîte de dialogue de confirmation Créer un groupe d&#39;achats](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
-Vous pouvez accéder à l’utilisateur ou à l’utilisatrice à l’onglet Intérêt pour la solution et afficher le nombre de traitements créés pour l’intérêt de la solution.
+## Traitements de création de groupe d’achat
 
-![Cliquez sur Créer des groupes d&#39;achats](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+La tâche de création crée automatiquement des groupes d’achats pour chaque nouveau compte dans l’audience du compte. Vous pouvez accéder à l’onglet _[!UICONTROL Intérêt de la solution]_ qui affiche le nombre de traitements de création créés pour chaque intérêt de la solution. Cliquez sur le nombre dans la colonne **[!UICONTROL Traitements de création du groupe d’achat]** pour afficher la liste des traitements de création.
+
+![Achat d&#39;offres groupées par intérêt de solution](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 
@@ -62,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Vidéo pratique
 
->[!VIDEO](https://video.tv.adobe.com/v/3451763/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

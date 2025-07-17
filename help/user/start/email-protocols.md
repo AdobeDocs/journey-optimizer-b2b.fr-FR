@@ -4,10 +4,10 @@ description: Découvrez comment configurer des protocoles dans Marketo Engage p
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
+workflow-type: tm+mt
 source-wordcount: '1798'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -61,11 +61,11 @@ Par exemple :
 
 >[!NOTE]
 >
->La valeur `[MktoTrackingLink]` doit être le domaine de branding par défaut.
+>La valeur `[MktoTrackingLink]` doit être la valeur par défaut [domaine de branding](../admin/configure-channels-emails.md#branding-domains).
 
 ### Fournir le certificat SSL
 
-Contactez l’[assistance Adobe](https://experienceleague.adobe.com/home?lang=fr&amp;support-tab=home#support){target="_blank"} pour commencer le processus d’approvisionnement d’un certificat SSL.
+Contactez l’[assistance Adobe](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support){target="_blank"} pour commencer le processus d’approvisionnement d’un certificat SSL.
 
 Le traitement peut prendre jusqu’à trois jours ouvrables.
 
@@ -202,7 +202,7 @@ Il existe deux types d’alignement pour DMARC :
 
 ### Adresses IP dédiées et pool partagé
 
-Si vous envoyez des e-mails via Marketo Engage sur une adresse IP dédiée et n’avez pas implémenté de Return-Path (ou ne savez pas si vous l’avez fait), ouvrez un ticket auprès de l’[assistance Adobe](https://experienceleague.adobe.com/home?lang=fr&amp;support-tab=home#support){target="_blank"}.
+Si vous envoyez des e-mails via Marketo Engage sur une adresse IP dédiée et n’avez pas implémenté de Return-Path (ou ne savez pas si vous l’avez fait), ouvrez un ticket auprès de l’[assistance Adobe](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support){target="_blank"}.
 
 Les adresses IP de confiance sont un groupe partagé d’adresses IP qui sont réservées aux personnes dont le volume d’envoi est inférieur à 75 000 par mois et qui ne remplissent pas les critères pour une adresse IP dédiée. Ces personnes doivent également répondre aux exigences des bonnes pratiques.
 
@@ -220,11 +220,11 @@ Une connexion sortante est une connexion établie par Marketo Engage à un serv
 
 <!-- ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
 
 ## Blocs d’adresses IP sortantes
 

@@ -4,16 +4,16 @@ description: Découvrez comment créer du contenu d’e-mail dans Adobe Journey 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
+source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '1050'
 ht-degree: 19%
 
 ---
 
 # Création d’un e-mail
 
-Après avoir &lbrack;ajouté une nouvelle ressource e-mail<!-- or duplicated --> à un nœud d’action de parcours &rbrack;(./add-email.md), vous pouvez définir le contenu de l’e-mail.
+Après avoir [ajouté une nouvelle ressource e-mail<!-- or duplicated --> à un nœud d’action de parcours ](./add-email.md), vous pouvez définir le contenu de l’e-mail.
 
 Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** dans l’onglet _[!UICONTROL Détails]_ du panneau de droite.
 
@@ -95,6 +95,20 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 >abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un e-mail."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Ajouter un CSS personnalisé
+
+Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception d’e-mail. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de niveau supérieur avant d’inclure des composants tels que des images, des boutons et du texte.
+
+Avec au moins un composant de contenu dans la zone de travail, sélectionnez le composant **[!UICONTROL Corps]** dans l’arborescence de navigation de gauche pour accéder à l’éditeur CSS personnalisé.
+
+>[!NOTE]
+>
+>Si votre e-mail est conçu à l’aide d’un [modèle avec du contenu verrouillé](./template-content-governance.md), vous ne pouvez pas ajouter de code CSS personnalisé à votre contenu. Le libellé du bouton se transforme en **[!UICONTROL Afficher le CSS personnalisé]** et tout CSS personnalisé déjà présent dans le contenu est en lecture seule.
+
+![Accès aux styles de corps](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Ajouter des fragments
 
