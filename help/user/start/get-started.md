@@ -1,37 +1,37 @@
 ---
-title: Conseils d’intégration pour les administrateurs et les spécialistes marketing
-description: En tant que nouvel utilisateur, nouvelle utilisatrice, nouvel administrateur ou nouvelle administratrice de l’édition B2B d’Adobe Journey Optimizer, découvrez les principaux domaines pour bien commencer.
+title: Conseils d’intégration pour les administrateurs, les administratrices et les personnes spécialisées dans le marketing
+description: En tant que nouvel utilisateur, nouvelle utilisatrice, nouvel administrateur ou nouvelle administratrice d’Adobe Journey Optimizer B2B Edition, découvrez les principaux domaines pour bien commencer.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
 # Conseils d’intégration
 
-Les fonctionnalités et outils que vous souhaitez aborder dans Adobe Journey Optimizer B2B edition dépendent de votre rôle au sein de votre équipe. Selon votre organisation, les administrateurs et administratrices peuvent définir plusieurs types d’utilisateurs et d’utilisatrices, puis leur accorder l’accès à certaines fonctionnalités selon leurs autorisations.
+Les fonctionnalités et outils que vous souhaiterez aborder dans Adobe Journey Optimizer B2B Edition dépendent de votre rôle au sein de votre équipe. Selon votre organisation, les administrateurs et administratrices peuvent définir plusieurs types d’utilisateurs et d’utilisatrices, puis leur accorder l’accès à certaines fonctionnalités selon leurs autorisations.
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 >[!BEGINTABS]
 
->[!TAB Administrateur]
+>[!TAB Administrateur ou administratrice]
 
 Avant que votre équipe puisse commencer à utiliser les fonctionnalités d’Adobe Journey Optimizer B2B Edition, plusieurs étapes sont nécessaires pour préparer votre environnement. Suivez les étapes ci-après afin que les responsables de l’ingénierie des données et du marketing puissent commencer à travailler avec Adobe Journey Optimizer B2B Edition.
 
-En tant qu’administrateur ou administratrice système, vous devez comprendre les profils de produit et attribuer des autorisations pour l’administration des sandbox et la configuration des canaux. Vous devez également configurer des sandbox et les gérer pour les profils de produit disponibles. Vous pouvez ensuite affecter des membres de l’équipe aux profils de produit. Les administrateurs et administratrices produit ayant accès au Adobe Admin Console peuvent gérer ces fonctionnalités. [En savoir plus sur Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
+En tant qu’administrateur ou administratrice système, vous devez comprendre les profils de produit et attribuer des autorisations pour l’administration des sandbox et la configuration des canaux. Vous devez également configurer des sandbox et les gérer pour les profils de produit disponibles. Vous pouvez ensuite affecter des membres de l’équipe aux profils de produit. Les administrateurs et administratrices de produit ayant accès à Adobe Admin Console peuvent gérer ces fonctionnalités. [En savoir plus sur Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
 
 Découvrez la gestion des accès dans les pages suivantes :
 
 1. **Créer des sandbox** pour partitionner vos instances en environnements virtuels distincts et isolés. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Collaborez avec votre ingénieur de données** pour planifier et mettre en œuvre l’activation de votre audience B2B et de votre profil. Passez en revue les plans directeurs publiés et suivez les instructions en fonction de vos besoins. [En savoir plus](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Collaborez avec votre ingénieur ou ingénieure de données** pour planifier et mettre en œuvre l’activation de votre audience B2B et de votre profil. Passez en revue les plans directeurs publiés et suivez les instructions en fonction de vos besoins. [En savoir plus](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Planifiez et implémentez l’intégration de Marketo Engage** pour incorporer un schéma personnalisé, l’ingestion des profils et des comptes et l’orchestration des parcours personnalisés pour les groupes d’achats. [En savoir plus](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
@@ -47,7 +47,7 @@ Découvrez la gestion des accès dans les pages suivantes :
 
 1. **Configurez des définitions d’événement d’expérience Adobe Experience Platform (AEP)** pour les équipes chargées de la création de parcours de compte qui écoutent les événements d’expérience AEP. [En savoir plus](../admin/configure-aep-events.md)
 
->[!TAB Professionnel du marketing]
+>[!TAB Personne spécialisée dans le marketing]
 
 En tant que spécialiste du marketing ou _spécialiste en parcours de compte_, vous êtes responsable de la conception des parcours et de l’élaboration du contenu. Vous pouvez commencer à utiliser Adobe Journey Optimizer B2B Edition une fois que l’administration système et l’ingénierie des données ont préparé votre environnement et vous ont accordé l’accès.
 
@@ -69,7 +69,7 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    * Utilisez les actions de canal intégrées (e-mail et SMS) pour envoyer des messages conçus dans Journey Optimizer B2B Edition.
 
-   * Dans la carte de parcours, créez vos cas d’utilisation à plusieurs étapes, ajoutez des conditions et envoyez des messages personnalisés.
+   * Dans la cartographie du parcours, créez vos cas d’utilisation à plusieurs étapes, ajoutez des conditions et envoyez des messages personnalisés.
 
 [En savoir plus](../journeys/journey-overview.md)
 
