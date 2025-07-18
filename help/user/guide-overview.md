@@ -39,7 +39,7 @@ Utilisez l’action _Envoyer un e-mail_ pour envoyer un e-mail Marketo Engage ap
 
 Dans les détails du groupe d&#39;achats, les actions incluent également _Affecter un nouveau membre_, _Supprimer un membre_ et _Modifier un rôle_.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="En savoir plus sur les actions de groupe d"achat"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="En savoir plus sur les actions de groupe d’achat"}
 
 >[!TAB Prise en charge personnalisée de CSS]
 
