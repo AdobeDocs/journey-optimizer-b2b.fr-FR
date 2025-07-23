@@ -4,7 +4,7 @@ description: Découvrez comment les groupes d’achats dans Journey Optimizer B
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 57%
@@ -114,8 +114,6 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 
 +++Activités utilisées pour calculer le score
 
->[!BEGINSHADEBOX]
-
 | Nom de l’activité | Description | Type d’engagement | Fréquences quotidiennes maximales | Poids de l’activité |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL Visiter la page web] | Un membre visite une page web | Web | 20 | 40 |
@@ -145,7 +143,7 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 | [!UICONTROL Pose des questions dans le webinaire] | Un membre pose des questions dans un événement de webinaire | Événement | 20 | 60 |
 | [!UICONTROL A assisté à l’événement] | Un membre a assisté à un événement | Événement | 20 | 60 |
 | [!UICONTROL Dialogue avec un agent] | Un membre engage le dialogue Dynamic Chat avec un agent | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL Lien cliqué dans la boîte de dialogue Conversation &#x200B;] | Un membre clique sur un lien dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
+| [!UICONTROL Lien cliqué dans la boîte de dialogue Conversation ] | Un membre clique sur un lien dans une boîte de dialogue Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | [!UICONTROL Engagé dans un flux de conversation] | Un membre s’engage dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | [!UICONTROL Réunion planifiée dans le flux de conversation] | Un membre planifie un rendez-vous dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | [!UICONTROL Objectif De Flux Conversationnel Atteint] | Un membre atteint un objectif dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
@@ -153,9 +151,6 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 | [!UICONTROL Engagement avec un agent dans le flux de conversation] | Un membre interagit avec un agent dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | [!UICONTROL Lien cliqué dans la conversation dans le flux de conversation] | Un membre clique sur un lien dans un flux de conversation Dynamic Chat | Messagerie instantanée | 20 | 90 |
 | [!UICONTROL Cliquez sur Lien dans SMS V2] | Un membre clique sur un lien dans un SMS | SMS | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -225,4 +220,4 @@ Le score d’engagement final est calculé en appliquant la pondération à chac
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
