@@ -4,9 +4,9 @@ description: Découvrez les listes de comptes et comment les marketeurs peuvent 
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 2%
 Dans Journey Optimizer B2B edition, une liste de comptes est un ensemble de comptes nommés que les spécialistes du marketing peuvent utiliser pour l’orchestration des parcours ciblés. Une liste de comptes peut cibler des comptes nommés selon vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. Il existe deux types de listes de comptes :
 
 * **Statique** - Avec une liste de comptes statique, la liste ne change que lorsque vous ajoutez les comptes. Vous pouvez ajouter manuellement des comptes en appliquant un jeu de filtres pour renseigner la liste en fonction des données du compte actuel, ou ajouter et supprimer des comptes par le biais d’un parcours de compte.
-* **Dynamique** - Avec une liste de comptes dynamique, vous définissez un jeu de filtres pour traiter automatiquement la liste. Le système utilise ce jeu de filtres pour ajouter et supprimer des comptes en fonction des modifications apportées aux informations du compte. Cette gestion de liste est similaire à la [segmentation d’audience dans Real-time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dynamique** - Avec une liste de comptes dynamique, vous définissez un jeu de filtres pour traiter automatiquement la liste. Le système utilise ce jeu de filtres pour ajouter et supprimer des comptes en fonction des modifications apportées aux informations du compte. Cette gestion de liste est similaire à la [segmentation d’audience dans Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Lorsqu’une liste de comptes est à l’état _En ligne_ (publiée), elle peut être [utilisée dans les parcours de compte et les programmes Marketo Engage](./account-lists-journeys.md).
+
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 >[!NOTE]
 >
@@ -175,3 +177,7 @@ Vous pouvez procéder à la publication d’une liste de comptes dynamique dès 
 Le statut de la liste de comptes dynamique passe à _[!UICONTROL Actif]_ et peut être [ utilisé dans un parcours de compte](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
+
+## Vidéo de vue d’ensemble
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
