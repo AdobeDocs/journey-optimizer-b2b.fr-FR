@@ -5,7 +5,7 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2151'
 ht-degree: 100%
 
@@ -220,4 +220,4 @@ Le score d’engagement final est calculé en appliquant la pondération à chac
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
