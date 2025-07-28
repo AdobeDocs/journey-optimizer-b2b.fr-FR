@@ -2,9 +2,9 @@
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
 source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -62,15 +62,15 @@ ht-degree: 94%
    + Expérience commerciale {#sales-experience}
       + [Détails du compte](./accounts/account-details.md)
       + [Détails du groupe d’achat](./buying-groups/buying-group-details.md)
-      + [Informations de l’individu](./accounts/person-details.md)
-      + [Liaison CRM](./accounts/crm-linking.md)
+      + [Détails de la personne](./accounts/person-details.md)
+      + [Liaison CRM](./accounts/crm-linking.md)
 + Gestion de contenu {#content-management}
    + E-mails {#emails}
-      + [Utiliser le contenu des e-mails](./content/emails-list.md)
+      + [Utiliser le contenu de l’e-mail](./content/emails-list.md)
       + Prévisualisation et validation {#preview}
          + [Simuler du contenu](./content/email-simulate-content.md)
          + [Tester le rendu des e-mails](./content/email-test-rendering.md)
-         + [Rapport sur les courriers indésirables](./content/email-spam-report.md)
+         + [Rapport sur les spams](./content/email-spam-report.md)
    + Ressources {#assets}
       + [Vue d’ensemble](./content/assets-overview.md)
       + Ressources Marketo Engage {#marketo-engage-dam}

@@ -5,9 +5,9 @@ role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Les fonctionnalités et outils que vous souhaiterez aborder dans Adobe Journey�
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 >[!BEGINTABS]
 
@@ -33,7 +33,7 @@ Découvrez la gestion des accès dans les pages suivantes :
 
 1. **Collaborez avec votre ingénieur ou ingénieure de données** pour planifier et mettre en œuvre l’activation de votre audience B2B et de votre profil. Passez en revue les plans directeurs publiés et suivez les instructions en fonction de vos besoins. [En savoir plus](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Planifiez et implémentez l’intégration de Marketo Engage** pour incorporer un schéma personnalisé, l’ingestion des profils et des comptes et l’orchestration des parcours personnalisés pour les groupes d’achats. [En savoir plus](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Planifiez et implémentez l’intégration de Marketo Engage** pour incorporer un schéma personnalisé, l’ingestion de profils et de comptes et l’orchestration de parcours personnalisés pour les groupes d’achat. [En savoir plus](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Configurez le profil de produit**. Un profil de produit est un ensemble de droits unitaires dans Adobe Experience Platform qui permettent d’accéder à certaines fonctionnalités ou à certains objets dans l’interface. [En savoir plus](../admin/user-management.md#create-the-marketo-engage-product-profile)
 

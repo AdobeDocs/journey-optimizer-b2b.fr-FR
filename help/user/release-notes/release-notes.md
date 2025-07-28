@@ -4,9 +4,9 @@ description: Découvrez les dernières fonctionnalités et améliorations d’Ad
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 <!-- hold for 2025.8 release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -26,21 +26,21 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 ## Notes de mise à jour 2025.6
 
-**Date de déploiement** : mercredi 15 juillet 2025
+**Date de déploiement** : 15 juillet 2025
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
 | Fonctionnalité | Intégration à GenStudio for Performance Marketing | (Disponibilité limitée) Vous pouvez désormais intégrer des expériences d’e-mail GenStudio for Performance Marketing à Journey Optimizer B2B Edition pour améliorer l’efficacité marketing et maintenir la cohérence de la marque. Grâce à cette intégration, vous pouvez combiner la création de contenu optimisée par l’IA dédiée à GenStudio avec les fonctionnalités avancées d’orchestration de Journey Optimizer B2B Edition. [En savoir plus](../content/genstudio-email-workflow.md) |
-| Fonctionnalité | Rapports de détection des spams | Pour éviter les filtres anti-spam et vous assurer que les messages sont envoyés aux boîtes de réception de l&#39;audience, vous pouvez générer un _rapport sur les spams_ directement dans l&#39;espace de conception des e-mails. [En savoir plus](../content/email-spam-report.md) |
-| Fonctionnalité | Page de détails de la personne | Vous pouvez désormais cliquer sur le nom d’une personne lorsqu’il est affiché (sous la forme d’un lien hypertexte) dans le tableau de bord intelligent, les pages Détails du groupe d’achats et les pages Détails du compte. Cette action ouvre la page des détails de la personne associée, avec les informations sur le contact, son activité et les groupes d’achats les plus engagés. [En savoir plus](../accounts/person-details.md) |
-| Fonctionnalité | Actions du compte et du groupe d&#39;achat | Agissez directement à partir des pages Détails du compte et Détails du groupe d’achat pour un engagement opportun et intentionnel. <li>Utilisez l’action _Envoyer un e-mail_ pour envoyer un e-mail Marketo Engage approuvé aux contacts de compte ou aux membres du groupe d’achat sélectionnés. [En savoir plus](../accounts/account-details.md#send-emails) <li>Dans les détails du groupe d&#39;achats, les actions incluent également _Affecter un nouveau membre_, _Supprimer un membre_ et _Modifier un rôle_. [En savoir plus](../buying-groups/buying-group-details.md#members-tab) |
-| Fonctionnalité | Accès aux pages de détails dans le CRM | Vous pouvez désormais configurer des liens directs vers les pages de détails de Journey Optimizer B2B edition pour les comptes, contacts et prospects dans votre outil de gestion de la relation client (GRC), tel que Salesforce ou Microsoft Dynamics. [En savoir plus](../accounts/crm-linking.md) |
-| Fonctionnalité | Prise en charge CSS personnalisée pour la conception de contenu | Vous pouvez désormais ajouter votre propre CSS personnalisé lorsque vous créez du contenu d’e-mail et de page de destination dans l’espace de conception. [En savoir plus](../content/design-custom-css.md) |
-| Fonctionnalité | Configuration du mappage de mots-clés d’intention | Pour activer et gérer le modèle Détection d’intention , vous pouvez désormais charger une feuille de calcul pour définir une catégorie de mappage des données d’intention. [En savoir plus](../admin/intent-data.md) |
-| Amélioration | Simuler le contenu à partir du résumé de l’e-mail | Vous pouvez désormais accéder aux outils _Simuler du contenu_ à partir du résumé de l’e-mail (détails et propriétés) lorsque vous ouvrez un e-mail à partir de la liste E-mails . Cet accès s’ajoute à l’espace de conception des e-mails. [En savoir plus](../content/email-simulate-content.md#display-the-email-preview) |
-| Amélioration | Affichage du nombre total pour la liste des modèles de rôles | La page de liste _[!UICONTROL Modèles de rôles]_ est améliorée avec l’affichage du nombre total en regard de la barre de recherche. |
+| Fonctionnalité | Rapports de détection de spams | Pour éviter les filtres anti-spam et vous assurer que les messages sont envoyés aux boîtes de réception de l’audience, vous pouvez générer un _rapport sur les spams_ directement dans l’espace de conception des e-mails. [En savoir plus](../content/email-spam-report.md) |
+| Fonctionnalité | Page de détails de la personne | Vous pouvez désormais cliquer sur le nom d’une personne lorsqu’il est affiché (sous la forme d’un lien hypertexte) dans le tableau de bord intelligent, la page Détails du groupe d’achat et la page Détails du compte. Cette action ouvre la page des détails de la personne associée, avec les informations sur le contact, son activité et les groupes d’achat affichant le plus d’interactions. [En savoir plus](../accounts/person-details.md) |
+| Fonctionnalité | Actions du compte et du groupe d’achat | Agissez directement à partir des pages Détails du compte et Détails du groupe d’achat pour un engagement opportun et intentionnel. <li>Utilisez l’action _Envoyer un e-mail_ pour envoyer un e-mail Marketo Engage approuvé aux contacts du compte ou aux membres du groupe d’achat sélectionnés. [En savoir plus](../accounts/account-details.md#send-emails) <li>Dans les détails du groupe d’achat, les actions incluent également _Attribuer un nouveau membre_, _Supprimer un membre_ et _Modifier un rôle_. [En savoir plus](../buying-groups/buying-group-details.md#members-tab) |
+| Fonctionnalité | Accéder aux pages de détails dans CRM | Vous pouvez désormais configurer des liens directs vers les pages de détails de Journey Optimizer B2B Edition pour les comptes, contacts et leads dans votre outil de gestion de la relation clientèle (CRM), tel que Salesforce ou Microsoft Dynamics. [En savoir plus](../accounts/crm-linking.md) |
+| Fonctionnalité | Prise en charge de CSS personnalisé pour la conception de contenu | Vous pouvez désormais ajouter votre propre CSS personnalisé lorsque vous créez du contenu d’e-mail et de page de destination dans l’espace de conception. [En savoir plus](../content/design-custom-css.md) |
+| Fonctionnalité | Configuration du mappage de mots-clés d’intention | Pour activer et gérer le modèle Détection d’intention, vous pouvez désormais charger une feuille de calcul afin de définir une catégorie de mappage des données d’intention. [En savoir plus](../admin/intent-data.md) |
+| Amélioration | Simuler le contenu à partir du résumé de l’e-mail | Vous pouvez désormais accéder aux outils _Simuler le contenu_ à partir du résumé de l’e-mail (détails et propriétés) lorsque vous ouvrez un e-mail à partir de la liste E-mails. Cet accès s’ajoute à l’espace de conception des e-mails. [En savoir plus](../content/email-simulate-content.md#display-the-email-preview) |
+| Amélioration | Affichage du nombre total pour la liste des modèles de rôle | La page de liste _[!UICONTROL Modèles de rôle]_ est améliorée avec l’affichage du nombre total à côté de la barre de recherche. |
 
 <!-- The following capabilities are currently available only for a set of program participants (Beta):
 
@@ -54,7 +54,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Test des e-mails avec Litmus | Avec un [compte d’entreprise Litmus](https://www.litmus.com/email-testing){target="_blank"}, vous pouvez désormais prévisualiser votre rendu d’e-mail dans les clients de messagerie populaires à partir de Journey Optimizer B2B edition. Cette intégration vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception d’e-mail. [En savoir plus](../content/email-test-rendering.md) |
+| Fonctionnalité | Test des e-mails avec Litmus | Avec un [compte Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, vous pouvez désormais prévisualiser le rendu de votre e-mail dans les principaux clients de messagerie à partir de Journey Optimizer B2B Edition. Cette intégration vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception d’e-mail. [En savoir plus](../content/email-test-rendering.md) |
 | Amélioration | Dupliquer l’e-mail | Vous pouvez désormais dupliquer un e-mail existant pour l’ajouter à un nœud de parcours. Modifiez le paramètre ou le contenu de l’e-mail dupliqué ou laissez-le intact.  [En savoir plus](../content/add-email.md#add-an-email-to-your-journey) |
 | Amélioration | Format du jeton Handlebars pour l’e-mail | Les jetons de personnalisation pour le contenu des e-mails utilisent désormais un format mis à jour entièrement compatible avec les scripts Handlebars. Ce format utilise la _Camel Case_ ou des traits de soulignement qui éliminent les espaces. [En savoir plus](../content/email-authoring.md#content-authoring---personalization) |
 | Amélioration | Affichage du nombre total de listes | Les pages de liste _[!UICONTROL Intérêts de la solution]_ et _[!UICONTROL Parcours de compte]_ sont améliorées avec l’affichage du nombre total à côté de la barre de recherche. |
