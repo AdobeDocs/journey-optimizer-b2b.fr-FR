@@ -17,7 +17,7 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 
 >[!TIP]
 >
->Vous pouvez modéliser des classes de compte professionnel XDM et de compte professionnel XDM dans une relation multiple-à-multiple à l’aide de la classe de relation de personne avec compte professionnel XDM, comme décrit dans la [documentation XDM d’Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Vous pouvez modéliser des classes de compte professionnel XDM et de compte professionnel XDM dans une relation multiple-à-multiple à l’aide de la classe de relation de personne avec compte professionnel XDM, comme décrit dans la [documentation XDM d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Attributs de relation de la personne avec le compte professionnel XDM
 
@@ -84,7 +84,7 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
