@@ -4,10 +4,10 @@ description: Passez en revue les champs d’attribut par défaut synchronisés e
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: b62891e3d87ac4ff5345dac564d63c0b8aaa9669
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 23%
+source-wordcount: '1097'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 
 >[!TIP]
 >
->Vous pouvez modéliser des classes de compte professionnel XDM et de compte professionnel XDM dans une relation multiple-à-multiple à l’aide de la classe de relation de personne avec compte professionnel XDM, comme décrit dans la [documentation XDM d’Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Vous pouvez modéliser des classes de compte professionnel XDM et de compte professionnel XDM dans une relation multiple-à-multiple à l’aide de la classe de relation de personne avec compte professionnel XDM, comme décrit dans la [documentation XDM d’Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Attributs de relation de la personne avec le compte professionnel XDM
 
@@ -29,7 +29,10 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 
 >[!IMPORTANT]
 >
->L’attribut `workEmail.Address` est obligatoire. Si elle est vide pour un membre de l’audience du compte, cette personne n’est pas ingérée et est omise des parcours de compte et des groupes d’achat qui font référence à l’audience.
+>L’attribut d’adresse e-mail est obligatoire et doit être renseigné pour une fonctionnalité correcte. Par défaut, le système utilise `workEmail.Address`. Si vous envisagez d’utiliser un autre attribut, contactez l’assistance Adobe avant de publier des parcours afin d’assurer une configuration correcte.<br/>
+>
+>Assurez-vous que l’attribut d’e-mail n’est pas nul, car cela peut avoir une incidence sur la synchronisation des données et les processus en aval.
+><ul><li>Si l’attribut d’e-mail est nul dans Real-time CDP B2B et que la personne existe dans Journey Optimizer B2B edition, l’attribut dans est remplacé dans Journey Optimizer B2B edition par une valeur nulle lors de la synchronisation. Il est ensuite conservé dans Marketo Engage comme nul.<li>Si l’attribut d’e-mail est nul dans Real-time CDP B2B et que la personne n’existe pas dans Journey Optimizer B2B edition, l’enregistrement de la personne n’est pas synchronisé.<ul/>
 
 | [Propriété](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Nom d’affichage | Nom d’affichage B2B de Journey Optimizer | Type de données | Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -81,7 +84,7 @@ Les données d’audience de compte sont stockées sous forme d’attributs dans
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
