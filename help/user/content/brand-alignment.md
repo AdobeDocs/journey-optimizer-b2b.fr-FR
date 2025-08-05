@@ -1,5 +1,5 @@
 ---
-title: Score d’alignement des marques
+title: Score d’alignement de la marque
 description: Découvrez comment créer, valider et gérer du contenu sur la marque à l’aide d’un score d’alignement de la marque.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -7,14 +7,15 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 17%
+ht-degree: 25%
 
 ---
 
-# Score d’alignement des marques {#brand-score}
+# Score d’alignement de la marque {#brand-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -24,7 +25,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Score d’alignement de la marque"
->abstract="Le score d’alignement de votre marque mesure dans quelle mesure votre contenu respecte les directives de la marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
+>abstract="Le score d’alignement de votre marque mesure la concordance de votre contenu avec vos directives de marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Commencer avec les marques"
->abstract="Créez et personnalisez vos propres marques pour définir votre identité visuelle et verbale unique tout en facilitant la génération de contenu correspondant à votre style et à votre voix de marque."
+>abstract="Créez et personnalisez vos propres marques pour définir votre identité visuelle et verbale unique, tout en facilitant la génération de contenu correspondant au style et à la voix de votre marque."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="Sélectionner votre marque"
->abstract="Choisissez votre marque pour vous assurer que tout le contenu généré par l’IA est adapté conformément aux spécifications et aux directives de votre marque."
+>abstract="Choisissez votre marque pour vous assurer que le contenu généré par l’IA est adapté aux spécifications et aux directives de votre marque."
 
 Les marques aident à définir votre _identité de marque_ et jouent un rôle essentiel pour assurer une création de contenu cohérente et efficace qui représente précisément votre identité, vos valeurs et votre message de marque. En adhérant à des styles de marque bien définis, les entreprises peuvent maintenir une présence de marque cohérente et reconnaissable sur l’ensemble des canaux et points de contact, et renforcer leur reconnaissance de marque, leur confiance et leur fidélité auprès de leurs audiences cibles.
 
@@ -99,4 +100,3 @@ Les administrateurs de produit peuvent permettre l’accès aux fonctionnalités
    * Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
 >[!ENDSHADEBOX]
-
