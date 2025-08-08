@@ -4,10 +4,10 @@ description: Découvrez comment créer des fragments de contenu qui peuvent êtr
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 19%
+source-wordcount: '325'
+ht-degree: 7%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 Après avoir [créé un fragment](./fragments.md#create-fragments), utilisez l’éditeur visuel pour créer les composants de structure et de contenu dans votre fragment.
 
 ## Ajouter la structure et le contenu {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Ajout de composants de structure"
->abstract="Les composants de structure définissent la disposition du fragment. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre fragment."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un fragment."
 
 {{$include /help/_includes/content-design-components.md}}
 

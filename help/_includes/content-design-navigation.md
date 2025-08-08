@@ -1,41 +1,41 @@
 ---
 title: Création de contenu - navigation
 description: Section réutilisée sur l’utilisation de l’arborescence de navigation pour la création de contenu
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 6%
 
 ---
 
 # Création de contenu - navigation
 
-Lorsque vous travaillez avec le contenu du concepteur visuel, vous pouvez accéder aux calques/conteneurs et aux éléments à l’aide de l’arborescence _Navigation_. Cliquez sur l’icône _Navigation_ pour afficher l’arborescence à gauche de la zone de travail.
+Lorsque vous travaillez avec le contenu dans l’espace de conception visuelle, vous pouvez accéder aux composants, colonnes et éléments de contenu à l’aide de l’arborescence de navigation. Cliquez sur l’icône _[!UICONTROL Arborescence de navigation]_ ( ![Icône d’arborescence de navigation](../assets/do-not-localize/icon-navigation-tree.svg) ) à gauche pour afficher l’arborescence.
 
-![Accéder aux couches de contenu](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
+![Accéder aux calques de contenu](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-L&#39;exemple suivant décrit les étapes à suivre pour ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de colonnes.
+L’exemple suivant décrit les étapes à suivre pour ajuster la marge intérieure et l’alignement vertical dans un composant de structure avec des colonnes.
 
-1. Sélectionnez la colonne dans le composant de structure directement dans la zone de travail ou à l’aide de l’_Arborescence de navigation_ affichée à gauche.
+1. Sélectionnez la colonne dans le composant de structure directement dans la zone de travail ou à l’aide de l’_arborescence de navigation_ affichée à gauche.
 
-1. Dans la barre d&#39;outils des colonnes, cliquez sur l&#39;outil _[!UICONTROL Sélectionner une colonne]_ et choisissez celle que vous souhaitez modifier.
+1. Dans la barre d’outils Colonne, cliquez sur l’outil _[!UICONTROL Sélectionner une colonne]_ et choisissez celle à modifier.
 
-   Vous pouvez également la sélectionner dans l&#39;arborescence. Les paramètres modifiables pour cette colonne sont affichés dans les onglets _[!UICONTROL Paramètres]_ et _[!UICONTROL Styles]_ à droite.
+   Vous pouvez également le sélectionner dans l’arborescence de la structure. Les paramètres modifiables de cette colonne sont affichés dans les onglets _[!UICONTROL Paramètres]_ et _[!UICONTROL Styles]_ sur la droite.
 
    ![Composants de colonne affichés dans le concepteur visuel](../assets/content-design-shared/content-design-layers-column-select.png){width="800" zoomable="yes"}
 
-1. Pour modifier les propriétés de colonne, cliquez sur l’onglet _[!UICONTROL Styles]_ à droite et modifiez-les selon vos besoins :
+1. Pour modifier les propriétés de la colonne, cliquez sur l’onglet _[!UICONTROL Styles]_ à droite et modifiez-les selon vos besoins :
 
-   * Pour **[!UICONTROL Background]**, modifiez la couleur d’arrière-plan selon les besoins.
+   * Pour **[!UICONTROL Arrière-plan]**, modifiez la couleur d’arrière-plan si nécessaire.
 
-     Décochez la case pour un arrière-plan transparent. Activez le paramètre **[!UICONTROL Image d&#39;arrière-plan]** pour utiliser une image comme arrière-plan au lieu d&#39;une couleur unie.
+     Décochez la case pour un arrière-plan transparent. Activez le paramètre **[!UICONTROL Image d’arrière-plan]** pour utiliser une image comme arrière-plan au lieu d’une couleur unie.
 
    * Pour **[!UICONTROL Alignement]**, sélectionnez l’icône _Haut_, _Milieu_ ou _Bas_.
-   * Pour **[!UICONTROL Marge intérieure]**, définissez la marge intérieure de tous les côtés.
+   * Pour **[!UICONTROL Marge intérieure]**, définissez la marge intérieure pour tous les côtés.
 
      Sélectionner **[!UICONTROL Marge intérieure différente pour chaque côté]** si vous souhaitez mieux définir la marge intérieure. Cliquez sur l’icône _Verrouiller_ pour interrompre la synchronisation.
 
-   * Développez la section **[!UICONTROL Avancé]** pour définir des styles intégrés pour la colonne.
+   * Développez la section **[!UICONTROL Avancé]** pour définir les styles intégrés de la colonne.
 
    ![Modifier les styles de la colonne sélectionnée](../assets/content-design-shared/content-design-layers-column-styles.png){width="700" zoomable="yes"}
 

@@ -4,10 +4,10 @@ description: Découvrez comment créer des modèles d’e-mail de contenu qui pe
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 14%
+source-wordcount: '373'
+ht-degree: 3%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 14%
 Après avoir [créé un modèle d’e-mail](./email-templates.md#create-an-email-template), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre modèle d’e-mail.
 
 ## Ajouter la structure et le contenu {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Ajout de composants de structure"
->abstract="Les composants de structure définissent la disposition du modèle. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre modèle."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un modèle."
 
 {{$include /help/_includes/content-design-components.md}}
 

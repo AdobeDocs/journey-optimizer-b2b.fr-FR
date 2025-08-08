@@ -1,9 +1,10 @@
 ---
 title: Ajout d’une page CSS personnalisée pour votre contenu
 description: Découvrez comment ajouter du code CSS personnalisé au contenu de votre e-mail et de votre page de destination.
-feature: Email Authoring, Landing Pages, Content Design Tools
+feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
-source-git-commit: 9d753873ed24f10b5747ed64b7f85188dec52fa0
+exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 9%
@@ -214,4 +215,3 @@ Si votre page CSS personnalisée n’est pas appliquée comme prévu, utilisez l
   background: red !important;
   }
   ```
-

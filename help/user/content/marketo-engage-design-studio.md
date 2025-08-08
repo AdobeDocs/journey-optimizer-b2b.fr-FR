@@ -4,9 +4,9 @@ description: Découvrez comment utiliser l’intégration de gestion des ressour
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -280,7 +280,7 @@ Il existe plusieurs méthodes pour ajouter une ressource d’image à la zone de
 
 * Glissez-déposez une miniature d’image à partir du volet de navigation de gauche.
 
-* Ajoutez un composant d’image à la zone de travail et cliquez sur **[!UICONTROL Parcourir]** pour ouvrir la boîte de dialogue _[!UICONTROL Sélectionner une ressource à partir de Adobe Marketo Engage]_.
+* Ajoutez un composant d’image à la zone de travail et cliquez sur **[!UICONTROL Marketo Engage Assets]** dans le composant pour afficher la boîte de dialogue _[!UICONTROL Sélectionner une ressource à partir de Adobe Marketo Engage]_.
 
   ![Utilisez les filtres et le champ de recherche pour trouver la ressource dont vous avez besoin](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

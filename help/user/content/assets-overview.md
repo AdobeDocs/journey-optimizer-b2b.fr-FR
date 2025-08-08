@@ -4,10 +4,10 @@ description: Découvrez la gestion des ressources dans Journey Optimizer B2B E
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Actuellement, vous ne pouvez utiliser que des images provenant d’Adobe Experi
 
 Utilisez des ressources pour créer des e-mails, des modèles d’e-mail et des fragments visuels. L’éditeur de contenu visuel permet d’accéder aux images dans vos référentiels de ressources connectés. Si vous disposez d’un abonnement à Experience Manager Assets as a Cloud Service ainsi qu’à Adobe Marketo Engage Design Studio par défaut, vous pouvez choisir des ressources d’image depuis l’une ou l’autre source. Vous pouvez également charger une ressource d’image, qui est placée dans l’espace de travail Journey Optimizer B2B Edition du référentiel connecté Marketo Engage Design Studio.
 
-Vous pouvez choisir la source de l’image lorsque vous modifiez les paramètres d’un composant d’image ou directement sur la zone de travail.
+Vous pouvez choisir la source de l’image lorsque vous modifiez les paramètres d’un composant d’image ou directement sur la zone de travail :
 
 * **_Paramètres des composants d’image_** : lorsqu’un composant d’image est sélectionné dans le concepteur visuel, vous pouvez afficher et modifier les paramètres dans le panneau de droite. Pour ajouter ou modifier le fichier image affiché dans le composant, choisissez le type de source et sélectionnez un fichier image.
 
@@ -61,7 +61,7 @@ Vous pouvez choisir la source de l’image lorsque vous modifiez les paramètres
 
   ![Utiliser la barre d’outils afin de choisir une source et sélectionner un fichier image pour le composant d’image](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-Vous pouvez ajouter une ressource d’image au fur et à mesure que vous créez votre contenu, selon la source de la ressource d’image.
+Vous pouvez ajouter une ressource d’image au fur et à mesure que vous créez votre contenu, selon la source de la ressource d’image. Vous pouvez également choisir une ressource image dans les paramètres d’arrière-plan d’un composant de structure.
 
 >[!BEGINTABS]
 

@@ -1,7 +1,7 @@
 ---
 title: Création de contenu - suivi des liens
 description: Section réutilisée sur la modification du suivi des liens pour la création de contenu
-source-git-commit: e201d0b54309411d024a1b04c3bf7e67d4700aa9
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%

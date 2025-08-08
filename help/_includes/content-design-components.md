@@ -1,7 +1,7 @@
 ---
 title: Création de contenu - Composants
 description: Section réutilisée sur l’utilisation de composants et d’éléments de contenu pour la création de contenu
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Seules les colonnes vides peuvent être supprimées.
 
-1. Développez la section **[!UICONTROL Contenu]** et ajoutez autant d’éléments que nécessaire dans un ou plusieurs composants de structure.
+1. Développez la section **[!UICONTROL Contenu]** et ajoutez autant de composants de contenu que nécessaire dans un ou plusieurs composants de structure.
 
    ![Faites glisser un élément de contenu sur la zone de travail et ajustez les paramètres](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
