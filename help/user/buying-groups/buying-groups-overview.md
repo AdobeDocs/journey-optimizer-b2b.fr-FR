@@ -4,10 +4,10 @@ description: Découvrez comment les groupes d’achats dans Journey Optimizer B
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 97%
 
 ---
 
@@ -102,17 +102,22 @@ Par exemple, s’il existe quatre rôles au sein d’un groupe d’achat et que 
 
 Le score d’exhaustivité de groupe d’achat est recalculé chaque fois qu’un groupe d’achat est créé ou mis à jour.
 
-### Score d’engagement du groupe d’achat
+### Score d’engagement du groupe d’achat {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="Score d’engagement"
+>abstract="Les scores d’engagement déterminent le niveau d’engagement des membres du groupe d’achat."
 
 Le score d’engagement de groupe d’achat est un nombre permettant de déterminer l’engagement des membres d’un groupe d’achat, en fonction des activités qu’ils effectuent.
 
 * Le calcul du score de l’engagement démarre dès que le groupe d’achat est généré.
 * Toute activité entrante effectuée par les membres du groupe d’achat au cours des 30 derniers jours est utilisée pour calculer le score.
 * Avec une fenêtre de 30 jours et au fur et à mesure que les activités expirent, le score pourrait baisser.
-* La fréquence quotidienne est plafonnée à 20 pour chaque activité. Si une personne membre d’un groupe d’achat effectue la même activité plus de 20 fois par jour, le nombre de l’activité est plafonné à 20 et non à un nombre supérieur.
+* La limite de fréquence quotidienne est de 20 pour chaque activité. Si une personne membre d’un groupe d’achat effectue la même activité plus de 20 fois par jour, le nombre de l’activité est limité à 20 et non à un nombre supérieur.
 * Le score affiché est arrondi. Par exemple, un score de 75,89999 est arrondi à 76.
 
-+++Activités utilisées pour calculer le score
++++Activités utilisées pour la notation
 
 | Nom de l’activité | Description | Type d’engagement | Fréquences quotidiennes maximales | Poids de l’activité |
 | --- | --- | --- | --- | --- |
@@ -158,9 +163,14 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 
 +++
 
-#### Pondération
+#### Pondération {#engagement-score-weighting}
 
-Les utilisateurs et utilisatrices peuvent attribuer une _pondération_ à chaque rôle dans le modèle de rôles afin d’attribuer différents poids pour un rôle et calculer le score d’engagement.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="Pondération du score de l’engagement"
+>abstract="Utilisez la pondération pour personnaliser le calcul du score de l’engagement."
+
+Les utilisateurs et utilisatrices peuvent attribuer _pondération_ à chaque rôle dans le [modèle de rôles](./buying-groups-role-templates.md) afin d’attribuer différents poids à un rôle.
 
 ![Définir la pondération de chaque rôle dans le modèle de rôles](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -220,4 +230,4 @@ Le score d’engagement final est calculé en appliquant la pondération à chac
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
