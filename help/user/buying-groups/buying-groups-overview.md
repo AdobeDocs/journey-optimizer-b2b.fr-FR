@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: a2917ea8c389c35129a77d427528051be499addf
 workflow-type: tm+mt
 source-wordcount: '2170'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -167,8 +167,8 @@ Le score d’engagement de groupe d’achat est un nombre permettant de détermi
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Pondération du score de l’engagement"
->abstract="Utilisez la pondération pour personnaliser le calcul du score de l’engagement."
+>title="Pondération du score d’engagement"
+>abstract="Utilisez la pondération pour personnaliser le calcul du score d’engagement."
 
 Les utilisateurs et utilisatrices peuvent attribuer _pondération_ à chaque rôle dans le [modèle de rôles](./buying-groups-role-templates.md) afin d’attribuer différents poids à un rôle.
 
@@ -230,4 +230,4 @@ Le score d’engagement final est calculé en appliquant la pondération à chac
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

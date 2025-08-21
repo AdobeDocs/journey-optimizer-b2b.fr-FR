@@ -3,10 +3,11 @@ title: Composants de structure
 description: Découvrez comment utiliser les composants de structure pour définir la disposition de votre e-mail, de votre page de destination et du contenu visuel de votre fragment.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -15,22 +16,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
 >title="À propos des composants de structure"
->abstract="Les composants de structure sont des éléments de disposition que vous pouvez utiliser pour concevoir la structure d’un e-mail."
+>abstract="Les composants de structure sont des éléments de mise en page que vous pouvez utiliser pour concevoir la structure d’un e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="À propos des composants de structure"
->abstract="Les composants de structure sont des éléments de disposition que vous pouvez utiliser pour concevoir la structure d’une page."
+>abstract="Les composants de structure sont des éléments de mise en page que vous pouvez utiliser pour concevoir la structure d’une page."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="À propos des composants de structure"
->abstract="Les composants CStructure sont des éléments de disposition que vous pouvez utiliser pour concevoir la structure d’un fragment."
+>abstract="Les composants de structure sont des éléments de mise en page que vous pouvez utiliser pour concevoir la structure d’un fragment."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="À propos des composants de structure"
->abstract="Les composants de structure sont des éléments de disposition que vous pouvez utiliser pour concevoir la structure d’un modèle."
+>abstract="Les composants de structure sont des éléments de mise en page que vous pouvez utiliser pour concevoir la structure d’un modèle."
 
 Utilisez la _Composants de structure_ dans l’espace de conception visuelle pour définir la structure de votre contenu. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez rapidement définir la forme de votre disposition de contenu. Chaque composant de structure s’étend sur l’espace horizontal et vous pouvez les empiler pour créer la disposition verticalement. Divisez chaque composant en colonnes afin de former chaque bloc de contenu dont vous avez besoin.
 
@@ -106,7 +107,7 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
+#### [!UICONTROL  Couleur d’arrière-plan ]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 
@@ -146,7 +147,7 @@ Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le re
 
 Vous pouvez appliquer d’autres styles de composant de structure pour ajuster son affichage dans l’e-mail ou la page de destination.
 
-+++Border
++++Bord
 
 {{styles-border}}
 
@@ -158,7 +159,7 @@ Vous pouvez appliquer d’autres styles de composant de structure pour ajuster s
 
 +++
 
-+++Avancé
++++Advanced
 
 {{styles-advanced}}
 
@@ -210,7 +211,7 @@ Lorsque la colonne est sélectionnée dans la zone de travail, vous pouvez défi
 
 +++
 
-+++Border
++++Bord
 
 {{styles-border}}
 
@@ -228,7 +229,7 @@ Lorsque la colonne est sélectionnée dans la zone de travail, vous pouvez défi
 
 +++
 
-+++Avancé
++++Advanced
 
 {{styles-advanced}}
 
