@@ -107,7 +107,7 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL  Couleur d’arrière-plan ]
+#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 
