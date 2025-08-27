@@ -4,9 +4,9 @@ description: Découvrez comment créer et utiliser des fragments de contenu visu
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2624'
+source-wordcount: '2738'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,11 @@ Un fragment est un composant réutilisable pouvant être référencé dans un ou
 
 **Fragments visuels**
 
-Les fragments visuels sont des blocs visuels prédéfinis créés à l’aide du concepteur de contenu visuel que vous pouvez réutiliser dans plusieurs e-mails ou modèles d’e-mail. Le périmètre actuel de Journey Optimizer B2B edition et de cette documentation est celui des fragments visuels uniquement. Les fragments basés sur une expression ne sont pas encore pris en charge dans Journey Optimizer B2B edition.
+Les fragments visuels sont des blocs visuels prédéfinis créés à l’aide d’outils de conception visuelle que vous pouvez réutiliser dans plusieurs e-mails ou modèles d’e-mail. Le périmètre actuel de Journey Optimizer B2B edition et de cette documentation est celui des fragments visuels uniquement.
+
+>[!NOTE]
+>
+>Les fragments basés sur une expression ne sont pas encore pris en charge dans [!DNL Journey Optimizer B2B Edition].
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ Le statut du fragment détermine sa disponibilité pour une utilisation dans un 
 
 | Statut | Description |
 | -------------------- | ----------- |
-| Brouillon | Lorsque vous créez un fragment, il est à l’état de brouillon. Il reste dans ce statut lorsque vous définissez ou modifiez le contenu visuel jusqu’à ce que vous le publiiez pour l’utiliser dans un e-mail ou un modèle d’e-mail. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Modifier dans le concepteur visuel<li>Publier<li>Dupliquer<li>Supprimer |
-| Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Le contenu du fragment publié ne peut pas être modifié dans le concepteur visuel. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
-| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, et le contenu du brouillon peut être modifié dans le concepteur visuel. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Modifier le brouillon dans le concepteur visuel<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
+| Brouillon | Lorsque vous créez un fragment, il est à l’état de brouillon. Il conserve ce statut lorsque vous définissez ou modifiez l’espace de conception visuelle jusqu’à ce que vous le publiiez pour l’utiliser dans un e-mail ou un modèle d’e-mail. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Modification dans l’espace de conception visuelle<li>Publier<li>Dupliquer<li>Supprimer |
+| Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Le contenu du fragment publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
+| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, et le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 
 ![ Cycle de vie du statut du fragment ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,7 +90,7 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B edition en c
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   Le concepteur visuel s’ouvre avec une zone de travail vide.
+   L’espace de conception visuelle s’ouvre avec une zone de travail vide.
 
 1. Utilisez les outils de conception de contenu pour créer le contenu du fragment visuel :
 
@@ -96,6 +100,18 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B edition en c
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
    * [Activer les champs personnalisés](./fragment-authoring.md#enable-fragment-customization)
    * [Modifier le tracking des URL liées](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. (Facultatif) Appliquez un [thème de marque](./brand-themes.md) au contenu du fragment pour rationaliser le processus de création de fragments et vous assurer que la conception s’aligne sur les normes définies.
+
+   >[!NOTE]
+   >
+   >Lorsque vous appliquez un thème, la compatibilité des fragments se limite aux e-mails et aux modèles d’e-mail créés en _mode Thème_.
+
+   Cliquez sur l’icône _Thèmes_ ( ![icône Thèmes](../assets/do-not-localize/icon-design-themes.svg) ) à droite.
+
+   ![Espace de conception des fragments : icône Thèmes sélectionnée](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Sélectionnez l’un des thèmes personnalisés répertoriés dans l’onglet **[!UICONTROL Mes thèmes]** ou sélectionnez **[!UICONTROL Thèmes Adobe]** pour utiliser un thème intégré. Lorsque vous cliquez en dehors de la liste, le thème sélectionné applique les styles à tous les composants de la zone de travail. Vous pouvez basculer entre les variantes de couleur selon vos besoins.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** à tout moment pour enregistrer le brouillon de fragment.
 
@@ -166,9 +182,9 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
    ![Détails du fragment avec le statut Brouillon ](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. Pour modifier le contenu dans le concepteur visuel, cliquez sur **[!UICONTROL Modifier le fragment]**.
+1. Pour modifier le contenu dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier le fragment]**.
 
-   Utilisez les outils du concepteur visuel selon vos besoins :
+   Utilisez les outils de conception visuelle selon vos besoins :
 
    * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
@@ -193,11 +209,11 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
 1. Si vous souhaitez mettre à jour le contenu, cliquez sur **[!UICONTROL Créer un brouillon]** en haut à droite.
 
-   Cliquez sur **[!UICONTROL OK]** dans la boîte de dialogue pour ouvrir le brouillon dans le concepteur visuel.
+   Cliquez sur **[!UICONTROL OK]** dans la boîte de dialogue pour ouvrir le brouillon dans l’espace de conception visuelle.
 
    ![Boîte de dialogue Créer un brouillon](./assets/fragments-create-draft-version.png){width="300"}
 
-   Utilisez les outils du concepteur visuel selon vos besoins :
+   Utilisez les outils de conception visuelle selon vos besoins :
 
    * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
@@ -226,7 +242,7 @@ Vous pouvez ouvrir le brouillon pour le modifier de deux manières différentes 
 
 Pour mettre à jour le contenu :
 
-1. Cliquez sur **[!UICONTROL Modifier le fragment]** en haut à droite. Utilisez les outils du concepteur visuel selon vos besoins :
+1. Cliquez sur **[!UICONTROL Modifier le fragment]** en haut à droite. Utilisez les outils de conception visuelle selon vos besoins :
 
    * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
@@ -286,7 +302,7 @@ Les fragments sont conçus pour être réutilisés et peuvent être insérés po
 
 1. Accédez à **[!UICONTROL Parcours de compte]** et ouvrez un parcours parcours existant ou créez-en un.
 
-1. Créez un nœud [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Créez un nœud [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Créez ou modifiez le [contenu d’e-mail pour le nœud](./email-authoring.md).
 

@@ -4,16 +4,16 @@ description: Découvrez comment créer du contenu d’e-mail dans Adobe Journey 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 8%
+source-wordcount: '1046'
+ht-degree: 7%
 
 ---
 
 # Création d’un e-mail
 
-Après avoir &lbrack;ajouté une nouvelle ressource e-mail<!-- or duplicated --> à un nœud d’action de parcours &rbrack;(./add-email.md), vous pouvez définir le contenu de l’e-mail.
+Après avoir [ajouté une ressource e-mail à un nœud d’action de parcours ](./add-email.md), vous pouvez définir le contenu de l’e-mail.
 
 Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** dans l’onglet _[!UICONTROL Détails]_ du panneau de droite.
 
@@ -38,17 +38,24 @@ Après avoir créé et personnalisé le contenu de l’e-mail, vous pouvez expor
 Utilisez l’espace de conception visuelle du contenu pour définir la structure et le contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme du contenu d’e-mail réutilisable en quelques secondes.
 
 1. Sur la page d’accueil _[!UICONTROL Concevez votre modèle]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
-1. [Ajoutez la structure et le contenu](#add-structure-and-content) à l’e-mail.
-1. [Ajoutez des ressources d’image](#add-assets) à l’e-mail.
-1. [Personnaliser le contenu de l’e-mail](#personalize-content).
+
+1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, choisissez le type de contenu d’e-mail que vous souhaitez créer.
+
+   * **[!UICONTROL Utiliser les thèmes]** - Sélectionnez cette option pour créer l’e-mail en _mode thème_. Dans ce mode, vous pouvez utiliser un thème de marque défini pour rationaliser le processus de création de contenu et vous assurer que la conception s’aligne sur les normes définies.
+
+   * **[!UICONTROL Style manuel]** - Sélectionnez cette option pour créer l’e-mail en _mode manuel_. Dans ce mode, vous définissez manuellement la mise en forme de tous les composants de structure et de contenu que vous ajoutez à la zone de travail vierge.
+
+1. [Ajoutez la structure et le contenu](./email-authoring.md#add-structure-and-content) au modèle.
+
 1. [Vérifier et mettre à jour les liens](#preview-and-edit-linked-urls).
+
 1. [Tester l’e-mail](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 Lorsque le contenu vous convient, cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -70,7 +77,7 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 
 >[!NOTE]
 >
-> Les modèles enregistrés peuvent avoir des paramètres de gouvernance (verrouillage de contenu) appliqués à un ou plusieurs composants. Le concepteur visuel fournit des instructions sur les composants verrouillés lorsque vous [créez un email à partir d’un modèle régi](./email-authoring-governance.md).
+> Les modèles enregistrés peuvent avoir des paramètres de gouvernance (verrouillage de contenu) appliqués à un ou plusieurs composants. L’espace de conception visuelle fournit des instructions sur les composants verrouillés lorsque vous [créez un e-mail à partir d’un modèle régi](./email-authoring-governance.md).
 
 ## Ajouter la structure et le contenu {#structure-content}
 
@@ -78,7 +85,7 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 
 ### Ajouter un CSS personnalisé
 
-Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception d’e-mail. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de niveau supérieur avant d’inclure des composants tels que des images, des boutons et du texte.
+Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception d’e-mail. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de plus haut niveau avant d’inclure des composants de contenu, tels que des images, des boutons et du texte.
 
 Avec au moins un composant de contenu dans la zone de travail, sélectionnez le composant **[!UICONTROL Corps]** dans l’arborescence de navigation de gauche pour accéder à l’éditeur CSS personnalisé.
 
@@ -91,6 +98,10 @@ Avec au moins un composant de contenu dans la zone de travail, sélectionnez le 
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Ajouter des fragments
+
+>[!NOTE]
+>
+>Les fragments ne sont pas compatibles entre le _mode Thème_ et le _mode Manuel_ dans le contenu de l’e-mail. Pour utiliser un fragment dans le contenu d’e-mail auquel un thème est appliqué, le fragment doit également être créé en _mode Thème_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -128,13 +139,13 @@ Tirez parti des options d’affichage et de validation du contenu disponibles da
 
 ## Plus d’options
 
-Dans le menu _[!UICONTROL Plus...]_ situé en haut de l’espace de conception des e-mails, vous pouvez effectuer les actions suivantes :
+Dans le menu _[!UICONTROL Plus...]_ situé en haut de l’espace de conception visuelle, vous pouvez effectuer les actions suivantes :
 
 ![Cliquez sur Plus pour accéder aux actions du modèle](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Réinitialiser l’e-mail]** - Cliquez sur cette option pour vider la zone de travail du Concepteur d’e-mail visuel et redémarrer la création de votre contenu.
+* **[!UICONTROL Réinitialiser l’e-mail]** - Cliquez sur cette option pour vider la zone de travail de conception d’e-mail et redémarrer la création de votre contenu.
 * **[!UICONTROL Enregistrer en tant que fragment]** - Enregistrez l’intégralité ou une partie de l’e-mail en tant que fragment à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le fragment et enregistrez-le dans la liste des fragments disponibles.
-* **[!UICONTROL Modifier votre conception]** - Revenez à la page _Concevoir votre e-mail_. De là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception ou choisir de concevoir le contenu à partir de zéro dans une zone de travail noire.
+* **[!UICONTROL Modifier votre conception]** - Revenez à la page _Concevoir votre e-mail_. De là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception. Vous pouvez également choisir de concevoir le contenu à partir de zéro avec une zone de travail vierge (_mode classique_) ou à l’aide d’un [thème de marque](./brand-themes.md) (_mode thème_).
 * **[!UICONTROL Enregistrer en tant que modèle de contenu]** - Enregistrez le corps de l’e-mail en tant que modèle d’e-mail à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le modèle, puis enregistrez-le dans la liste des modèles d’e-mail enregistrés.
 * **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML présenté sous la forme d’un fichier zip.
 

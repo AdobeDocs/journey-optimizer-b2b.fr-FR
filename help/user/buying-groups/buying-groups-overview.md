@@ -4,9 +4,9 @@ description: Découvrez comment les groupes d’achats dans Journey Optimizer B
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1194'
 ht-degree: 75%
 
 ---
@@ -20,7 +20,7 @@ Pour les activités de vente et de marketing B2B, les comptes sont la clé de to
 
 Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achat_. Ce sont ces personnes qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part des spécialistes du marketing et peuvent avoir besoin d’informations différentes de celles fournies aux autres personnes associées au compte. Les groupes d’achat peuvent comprendre un groupe différent de personnes pour différentes gammes de produits ou offres. Par exemple, en ce qui concerne les produits de cybersécurité, il est généralement nécessaire qu’une personne responsable des systèmes d’information ou de la sécurité, ainsi qu’un représentant ou une représentante du service juridique approuvent l’achat. Pour un produit de suivi des bugs, une personne vice-présidente de l’ingénierie et un directeur ou une directrice informatique doivent généralement figurer au sein du groupe d’achat.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
+![Icône Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](#overview-video)
 
 ## Composants clés
 
@@ -112,4 +112,4 @@ Consultez [Scores d’engagement](./engagement-scores.md) pour plus d’informat
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

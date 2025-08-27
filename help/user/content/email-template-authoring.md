@@ -4,9 +4,9 @@ description: Découvrez comment créer des modèles d’e-mail de contenu qui pe
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -30,6 +30,10 @@ Avec au moins un composant de contenu dans la zone de travail, sélectionnez le 
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Ajouter des fragments
+
+>[!NOTE]
+>
+>Les fragments ne sont pas compatibles entre le _mode Thème_ et le _mode Manuel_ dans le contenu de l’e-mail. Pour utiliser un fragment dans le contenu d’e-mail auquel un thème est appliqué, le fragment doit également être créé en _mode Thème_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -69,5 +73,5 @@ Dans le menu _[!UICONTROL Plus...]_ situé en haut de l’espace de conception d
 
 * **[!UICONTROL Réinitialiser le modèle]** - Cliquez sur cette option pour vider la zone de travail de conception et redémarrer la création de contenu.
 * **[!UICONTROL Enregistrer en tant que fragment]** - Enregistrez la totalité ou une partie du modèle en tant que fragment à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le fragment et enregistrez-le dans la liste des fragments disponibles.
-* **[!UICONTROL Modifier votre conception]** - Revenez à la page _Concevoir votre modèle_. À partir de là, vous pouvez choisir de concevoir votre modèle à partir de zéro ou utiliser un modèle existant pour redémarrer le processus de conception.
+* **[!UICONTROL Modifier votre conception]** - Revenez à la page _Concevoir votre e-mail_. De là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception. Vous pouvez également choisir de concevoir le contenu à partir de zéro avec une zone de travail vierge (_mode classique_) ou à l’aide d’un [thème de marque](./brand-themes.md) (_mode thème_).
 * **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML présenté sous la forme d’un fichier zip.

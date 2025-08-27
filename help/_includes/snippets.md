@@ -1,9 +1,9 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2376'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >Des licences pour AEM Assets as a Cloud Service et Dynamic Media sont des prérequis pour l’intégration. Assurez-vous que [Dynamic Media avec API ouverte](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} est activé. L’intégration est limitée aux référentiels du niveau _Diffusion_. Si vous utilisez le _niveau Auteur_ et souhaitez le convertir, contactez l’assistance Adobe Experience Manager.<br/>
->&#x200B;>Selon votre contrat et la configuration, vous pouvez accéder directement à Adobe Experience Manager Assets as a Cloud Service à partir de Adobe Journey Optimizer B2B edition lors de la conception de contenu visuel.
+>>Selon votre contrat et la configuration, vous pouvez accéder directement à Adobe Experience Manager Assets as a Cloud Service à partir de Adobe Journey Optimizer B2B edition lors de la conception de contenu visuel.
 
 ## Étape Création de contenu - composants - structures {#structures-step}
 
