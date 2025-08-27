@@ -4,10 +4,10 @@ description: Découvrez comment les groupes d’achats dans Journey Optimizer B
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 98%
+source-wordcount: '1193'
+ht-degree: 75%
 
 ---
 
@@ -24,7 +24,7 @@ Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _
 
 ## Composants clés
 
-Vous pouvez accroître l’efficacité marketing en établissant des groupes d’achat dans Journey Optimizer B2B Edition qui identifient les membres de vos listes de comptes cibles en fonction des solutions que vos équipes commerciales sont chargées de vendre. Avant que vous et votre équipe marketing ne commenciez à créer vos groupes d’achat, assurez-vous que les composants clés sont définis. Ces composants sont essentiels pour atteindre les buts et objectifs de votre entreprise.
+Vous pouvez accroître l’efficacité du marketing en établissant des groupes d’achat dans Journey Optimizer B2B edition qui identifient les membres de vos listes de comptes cibles pour les solutions que vos équipes commerciales sont chargées de vendre. Avant que vous et votre équipe marketing ne commenciez à créer vos groupes d’achat, assurez-vous que les composants clés sont définis. Ces composants sont essentiels pour atteindre les buts et objectifs de votre entreprise.
 
 | Composant | But |
 | --------- | ------- |
@@ -41,11 +41,11 @@ Les membres peuvent être affectés à un groupe d’achat ou supprimés de celu
 2. **_Action de parcours_** : [nœuds d’action de parcours pour l’appartenance à un groupe d’achat](../journeys/action-nodes.md#add-a-people-based-action) (_Affecter au groupe d’achat_ ou _Supprimer du groupe d’achat_)
 3. **_Traitements du système_** : traitements de [création](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) et de maintenance de groupe d’achat.
 
-Pour garantir que l&#39;affectation de membre dans un groupe d’achat ne soit pas remplacée de manière incorrecte, cette liste suit l’ordre de priorité utilisé dans le système pour que l’affectation de membre soit correcte. Par exemple, lorsqu’un commercial ou une commerciale ajoute manuellement un membre au groupe d’achat, un traitement de maintenance ne doit pas venir modifier cet ajout. Les scénarios suivants sont appliqués en suivant l’ordre de priorité :
+Pour éviter de remplacer incorrectement une affectation de membre dans un groupe d&#39;achats, cette liste est établie dans l&#39;ordre de priorité suivi dans le système pour garantir une affectation précise des membres. Par exemple, lorsqu’un commercial ou une commerciale ajoute manuellement un membre au groupe d’achat, un traitement de maintenance ne doit pas venir modifier cet ajout. Les scénarios suivants sont appliqués en suivant l’ordre de priorité :
 
-* Si un utilisateur ou une utilisatrice affecte manuellement un membre à un groupe d’achat et que cette affectation est suivie d’un traitement de maintenance du groupe d’achat qui supprime ce membre du groupe d’achat, le traitement de maintenance **ne supprime pas** ce membre et ne peut pas remplacer l’affectation manuelle.
-* Si un utilisateur ou une utilisatrice affecte manuellement un membre à un groupe d’achat et qu’ensuite un nœud de parcours déclenché supprime ce membre du groupe d’achat, l’action de nœud **ne supprime pas** ce membre et ne peut pas remplacer l’affectation manuelle.
-* Si un nœud d’action de parcours déclenché ajoute un membre à un groupe d’achat et que cet ajout est suivi d’un traitement de maintenance du groupe d’achat qui supprime ce membre du groupe d’achat, le traitement de maintenance **ne supprime pas** ce membre et ne peut pas remplacer l’affectation d’action de parcours.
+* Si l&#39;utilisateur affecte manuellement un membre à un groupe d&#39;achats et qu&#39;il est suivi d&#39;une tâche de maintenance du groupe d&#39;achats qui supprime le même membre du groupe d&#39;achats, la tâche de maintenance **ne supprime pas** ce membre et ne peut pas remplacer l&#39;affectation manuelle.
+* Si un utilisateur affecte manuellement un membre à un groupe d&#39;achats et qu&#39;il est suivi d&#39;un nœud de parcours déclenché qui supprime le même membre du groupe d&#39;achats, l&#39;action de nœud **ne supprime pas** ce membre et ne peut pas remplacer l&#39;affectation manuelle.
+* Si un nœud d&#39;action de parcours déclenché ajoute un membre à un groupe d&#39;achats et qu&#39;il est suivi d&#39;une tâche de maintenance du groupe d&#39;achats qui supprime le même membre du groupe d&#39;achats, la tâche de maintenance **ne supprime pas** ce membre et ne peut pas remplacer l&#39;affectation d&#39;action de parcours.
 
 ## Workflow du groupe d’achat
 
@@ -96,7 +96,7 @@ Pour accéder aux détails d’un groupe d’achats, cliquez sur le nom du group
 
 ### Score d’exhaustivité du groupe d’achat
 
-Le score d’exhaustivité est utilisé pour déterminer si le groupe d’achat est complet, ce qui signifie que les rôles sont attribués aux bons membres et qu’il peut être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d’achat et le nombre de rôles affectés avec au moins un lead.
+Le score d&#39;exhaustivité permet de déterminer si le groupe d&#39;achat dispose des membres appropriés affectés aux rôles et s&#39;il est prêt à être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d’achat et le nombre de rôles affectés avec au moins un lead.
 
 Par exemple, s’il existe quatre rôles au sein d’un groupe d’achat et que trois des quatre rôles sont affectés à au moins un lead, le groupe d’achat est complet à 75 %.
 
@@ -104,130 +104,12 @@ Le score d’exhaustivité de groupe d’achat est recalculé chaque fois qu’u
 
 ### Score d’engagement du groupe d’achat {#engagement-score}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_buying_group_engagement_score"
->title="Score d’engagement"
->abstract="Les scores d’engagement déterminent le niveau d’engagement des membres du groupe d’achat."
+Le score de l’engagement est basé sur les activités des membres du groupe d’achat, les actions pondérées et les rôles pondérés. Le score obtenu est normalisé dans le client/l’instance afin de permettre une comparaison cohérente et de disposer d’informations exploitables.
 
-Le score d’engagement de groupe d’achat est un nombre permettant de déterminer l’engagement des membres d’un groupe d’achat, en fonction des activités qu’ils effectuent.
+Le calcul du score de l&#39;engagement initial commence dès que vous créez le groupe d&#39;achats et est recalculé quotidiennement.
 
-* Le calcul du score de l’engagement démarre dès que le groupe d’achat est généré.
-* Toute activité entrante effectuée par les membres du groupe d’achat au cours des 30 derniers jours est utilisée pour calculer le score.
-* Avec une fenêtre de 30 jours et au fur et à mesure que les activités expirent, le score pourrait baisser.
-* La limite de fréquence quotidienne est de 20 pour chaque activité. Si une personne membre d’un groupe d’achat effectue la même activité plus de 20 fois par jour, le nombre de l’activité est limité à 20 et non à un nombre supérieur.
-* Le score affiché est arrondi. Par exemple, un score de 75,89999 est arrondi à 76.
-
-+++Activités utilisées pour la notation
-
-| Nom de l’activité | Description | Type d’engagement | Fréquences quotidiennes maximales | Poids de l’activité |
-| --- | --- | --- | --- | --- |
-| [!UICONTROL Visiter la page web] | Un membre visite une page web. | Web | 20 | 40 |
-| [!UICONTROL Remplir un formulaire] | Un membre remplit et envoie un formulaire sur une page web. | Web | 20 | 40 |
-| [!UICONTROL Cliquer sur un lien] | Un membre clique sur un lien d’une page web. | Web | 20 | 40 |
-| [!UICONTROL Ouvrir un e-mail] | Un membre ouvre un e-mail. | E-mail | 20 | 30 |
-| [!UICONTROL Cliquer sur un e-mail] | Un membre clique sur un lien dans un e-mail. | E-mail | 20 | 30 |
-| [!UICONTROL Ouvrir un e-mail commercial] | Un membre ouvre un e-mail commercial. | E-mail | 20 | 30 |
-| [!UICONTROL Cliquer sur un e-mail commercial] | Un membre clique sur un lien dans un e-mail commercial. | E-mail | 20 | 30 |
-| [!UICONTROL Moment significatif] | Un membre vit un moment significatif. | Organisé | 20 | 60 |
-| [!UICONTROL Appuyer sur une notification push] | Un membre reçoit une notification push. | Mobile | 20 | 30 |
-| [!UICONTROL Activité de l’application mobile] | Un membre effectue une activité sur une application mobile. | Mobile | 20 | 30 |
-| [!UICONTROL Session d’application mobile] | Un membre est actif sur une session d’application mobile. | Mobile | 20 | 30 |
-| [!UICONTROL Remplir un formulaire de publicités à formulaire Facebook] | Un membre remplit et envoie un formulaire de publicités à formulaire sur une page Facebook. | Social | 20 | 30 |
-| [!UICONTROL Cliquer sur un appel à l’action RTP] | Un membre clique sur un appel à l’action personnalisé. | Web | 20 | 60 |
-| [!UICONTROL Afficher un message in-app] | Un membre consulte un message in-app. | Mobile | 20 | 30 |
-| [!UICONTROL Appuyer sur un message in-app] | Un membre appuie sur un message in-app. | Mobile | 20 | 30 |
-| [!UICONTROL S’abonner aux SMS] | Un membre s’abonne aux communications par SMS. | SMS | 20 | 90 |
-| [!UICONTROL Répondre à un e-mail commercial] | Un membre répond à un e-mail commercial. | E-mail | 20 | 30 |
-| [!UICONTROL A pris contact via une boîte de dialogue.] | Un membre prend contact via une boîte de dialogue Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A interagi avec un document dans la boîte de dialogue.] | Un membre interagit avec un document dans une boîte de dialogue Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A planifié une réunion dans une boîte de dialogue.] | Un membre planifie un rendez-vous dans une boîte de dialogue Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A atteint l’objectif dans une boîte de dialogue.] | Un membre atteint un objectif dans une boîte de dialogue Dynamic Chat. |  | 20 | 90 |
-| [!UICONTROL A répondu à une enquête dans un webinaire.] | Un membre répond à une enquête dans un événement de webinaire. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A cliqué sur un appel à l’action dans un webinaire.] | Un membre clique sur un lien d’appel à l’action dans un événement de webinaire. | Appel | 20 | 30 |
-| [!UICONTROL Téléchargements de ressource dans un webinaire] | Un membre télécharge un fichier/une ressource dans un événement de webinaire. | Événement | 20 | 60 |
-| [!UICONTROL Pose des questions dans un webinaire.] | Un membre pose des questions dans un événement de webinaire. | Événement | 20 | 60 |
-| [!UICONTROL A participé à un événement.] | Un membre a participé à un événement. | Événement | 20 | 60 |
-| [!UICONTROL A pris contact avec un agent dans une boîte de dialogue.] | Un membre prend contact avec un agent dans une boîte de dialogue Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A cliqué sur un lien dans la conversation de la boîte de dialogue.] | Un membre clique sur un lien dans une boîte de dialogue Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A interagi avec un flux conversationnel.] | Un membre interagit avec un flux conversationnel Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A planifié une réunion dans un flux conversationnel.] | Un membre planifie un rendez-vous dans un flux conversationnel Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A atteint un objectif dans un flux conversationnel.] | Un membre atteint un objectif dans un flux conversationnel Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A interagi avec le document dans un flux conversationnel.] | Un membre interagit avec un document dans un flux conversationnel Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A interagi avec un agent dans un flux conversationnel.] | Un membre interagit avec un agent dans un flux conversationnel Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL A cliqué sur un lien dans la discussion du flux conversationnel.] | Un membre clique sur un lien dans un flux conversationnel Dynamic Chat. | Messagerie instantanée | 20 | 90 |
-| [!UICONTROL Cliquer sur un lien dans SMS V2] | Un membre clique sur un lien dans un SMS. | SMS | 20 | 90 |
-
->[!NOTE]
->
->Les activités relatives au score d’engagement sont enregistrées dans le [journal d’activité d’une personne](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} de Marketo Engage.
-
-+++
-
-#### Pondération {#engagement-score-weighting}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Pondération du score d’engagement"
->abstract="Utilisez la pondération pour personnaliser le calcul du score d’engagement."
-
-Les utilisateurs et utilisatrices peuvent attribuer _pondération_ à chaque rôle dans le [modèle de rôles](./buying-groups-role-templates.md) afin d’attribuer différents poids à un rôle.
-
-![Définir la pondération de chaque rôle dans le modèle de rôles](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
-
-Chaque niveau de pondération se traduit par une valeur, qui est utilisée pour calculer le score d’engagement :
-
-* [!UICONTROL Anodin] = 20
-* [!UICONTROL Mineur] = 40
-* [!UICONTROL Normal] = 60
-* [!UICONTROL Important] = 80
-* [!UICONTROL Vital] = 100
-
-Un modèle de rôles avec trois rôles dont la pondération est _[!UICONTROL Vital]_, _[!UICONTROL Important]_ et _[!UICONTROL Normal]_ se traduit par les pourcentages pondérés suivants :
-
-| Rôle | Pondération | Valeur du système | Calcul de la valeur | Pourcentage |
-|-------------- |--------- |------------- |------------------ |---------- |
-|               |          |              |                   |           |
-| Décisionnaire | Vital | 100 | 100/240 | 41,67 % |
-| Personne influente | Important | 80 | 80/240 | 33,33 % |
-| Spécialiste | Normal | 60 | 60/240 | 25 % |
-|               | Total | 240 |                   |           |
-
-#### Exemple de calcul
-
-L’exemple suivant illustre le calcul du score d’engagement à l’aide du pourcentage de poids du rôle indiqué, du nombre d’activités entrantes de chaque membre du groupe d’achat et d’une limite quotidienne de 20 pour chaque événement (s’il s’est produit plusieurs fois).
-
-| Rôle | Membre | Type d’activité | Nombre d’hier | Nombre d’aujourd’hui | Calcul | Score total |
-|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
-|               |          |             |                 |             |      |           |
-| Décisionnaire | Adam | Site web consulté | 37 | 15 | 20 + 15 | 35 |
-|               |          | E-mail faisant l’objet d’un clic | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Marque | Site web consulté | 5 | 3 | 5 + 3 | 8 |
-|               |          | E-mail faisant l’objet d’un clic | 1 | 1 | 1 + 1 | 2 |
-|               |          | Pub téléchargée | 3 | 2 | 3 + 2 | 5 |
-| **Score total des décisionnaires** |         |             |                 |             |      | **52** |
-|               |          |             |                 |             |      |           |
-| Personne influente | John | Site web consulté | 19 | 9 | 19 + 9 | 28 |
-| **Score total des personnes influentes** |         |             |                 |             |      | **28** |
-|               |          |             |                 |             |      |           |
-| Spécialiste | Bob | E-mail faisant l’objet d’un clic | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Paul | E-mail faisant l’objet d’un clic | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Calvin | E-mail faisant l’objet d’un clic | 1 | 1 | 1 + 1 | 2 |
-|               |          | Site web consulté | 1 | 7 | 1 + 7 | 8 |
-|               |          | Pub téléchargée | 1 | 2 | 1 + 2 | 3 |
-| **Score total des spécialistes** |         |             |                 |             |      | **17** |
-
-Le score d’engagement final est calculé en appliquant la pondération à chacun des scores de rôle :
-
-| Rôle | Score total du rôle | Poids du rôle (%) | Score x poids (%) |
-|-------------- |---------------- |------------- |---------------- |
-| Décisionnaires | 52 | 41,67 % | 21,67 |
-| Personnes influentes | 28 | 33,33 % | 9,33 |
-| Spécialistes | 17 | 25 % | 4,25 |
-| **Score d’engagement final** |                |             | **35,25** |
+Consultez [Scores d’engagement](./engagement-scores.md) pour plus d’informations sur les activités et les calculs de score d’engagement.
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

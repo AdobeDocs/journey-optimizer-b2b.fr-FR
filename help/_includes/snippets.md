@@ -1,10 +1,10 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: f12042952864dfbc37b214351849a20578d1ed63
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 0%
+source-wordcount: '2375'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Des licences pour AEM Assets as a Cloud Service et Dynamic Media sont des prérequis pour l’intégration. Assurez-vous que [Dynamic Media avec API ouverte](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} est activé. L’intégration est limitée aux référentiels du niveau _Diffusion_. Si vous utilisez le _niveau Auteur_ et souhaitez le convertir, contactez l’assistance Adobe Experience Manager.<br/>
->&#x200B;>Selon votre contrat et la configuration, vous pouvez accéder directement à Adobe Experience Manager Assets as a Cloud Service à partir de Adobe Journey Optimizer B2B edition lors de la conception de contenu visuel.
+>>Selon votre contrat et la configuration, vous pouvez accéder directement à Adobe Experience Manager Assets as a Cloud Service à partir de Adobe Journey Optimizer B2B edition lors de la conception de contenu visuel.
 
 ## Étape Création de contenu - composants - structures {#structures-step}
 
@@ -262,3 +262,16 @@ Dans la boîte de dialogue _[!UICONTROL Télécharger l’image]_, effectuez un 
 Les noms de fichier des images sélectionnées s’affichent dans la boîte de dialogue. Les noms de fichiers de ressources doivent être uniques (dans plusieurs dossiers) et, si un fichier portant ce nom existe déjà, un message s’affiche. Les noms peuvent contenir au maximum 100 caractères et ne peuvent pas contenir de caractères spéciaux (par exemple `;`, `:`, `\` et `|`).
 
 Cliquez sur **[!UICONTROL Importer]**.
+
+## Activités de score d’engagement {#engagement-activities}
+
+| Nom de l’activité | Description | Type d’engagement | Fréquences quotidiennes maximales | Poids d’activité du modèle par défaut |
+| --- | --- | --- | --- | --- |
+| [!UICONTROL Participer à un événement] | Un membre a participé à un événement. | Événement | 20 | 60 |
+| [!UICONTROL E-mail cliqué] | Un membre clique sur un lien dans un e-mail. | E-mail | 20 | 30 |
+| [!UICONTROL E-mail ouvert] | Un membre ouvre un e-mail. | E-mail | 20 | 30 |
+| [!UICONTROL Formulaire complété] | Un membre remplit et envoie un formulaire sur une page web. | Web | 20 | 40 |
+| [!UICONTROL Moment significatif] | Un membre vit un moment significatif. | Organisé | 20 | 60 |
+| [!UICONTROL Clics sur les liens] | Un membre clique sur un lien d’une page web. | Web | 20 | 40 |
+| [!UICONTROL Pages vues] | Un membre consulte une page web | Web | 20 | 40 |
+| [!UICONTROL S’inscrire à l’événement] | Un membre inscrit à un événement | Événement | 20 | 60 |

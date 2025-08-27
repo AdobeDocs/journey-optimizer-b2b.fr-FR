@@ -3,9 +3,9 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités et améliorations d’Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2787'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 <!-- hold for later release 
 
@@ -33,11 +33,11 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Filtres de score d’engagement des personnes pour les modèles et les parcours de rôles | Vous pouvez désormais utiliser le _score d’engagement de la personne_ comme filtre dans les modèles de rôles utilisés pour créer des groupes d’achats et dans les nœuds de parcours de chemin de partage. |
-| Fonctionnalité | Configuration des rôles personnalisés des groupes d&#39;achat | Vous avez désormais la possibilité de configurer des rôles personnalisés pour les groupes d’achat, ce qui vous permet de définir les rôles spécifiques à vos cas d’utilisation. |
-| Fonctionnalité | Configuration de la pondération du score d’engagement | Vous pouvez maintenant attribuer des pondérations aux activités qui influencent le score d&#39;engagement du groupe d&#39;achats. Cette fonctionnalité inclut la définition de vos propres modèles de score personnalisés et la modification du modèle actif qui influence les calculs de score d’engagement. |
-| Amélioration | Contenu conditionnel pour les fragments | Vous pouvez désormais utiliser les outils de contenu conditionnel pour concevoir des fragments visuels. |
-| Amélioration | Mises à jour du score de l’engagement | La logique de score de l’engagement du groupe d’achat est mise à jour pour normaliser les scores. De plus, vous pouvez utiliser les scores d’engagement au niveau du membre, ainsi que les scores d’engagement collectif pour l’ensemble du groupe d’achat. |
+| Fonctionnalité | Filtres de score d’engagement des personnes pour les modèles et les parcours de rôles | Vous pouvez désormais utiliser le _score d’engagement de la personne_ comme filtre dans les modèles de rôles utilisés pour créer des groupes d’achats et dans les nœuds de parcours de chemin de partage. [En savoir plus](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Fonctionnalité | Configuration des rôles personnalisés des groupes d&#39;achat | Vous avez désormais la possibilité de configurer des rôles personnalisés pour les groupes d’achat, ce qui vous permet de définir les rôles spécifiques à vos cas d’utilisation. [En savoir plus](../buying-groups/default-custom-roles.md) |
+| Fonctionnalité | Configuration de la pondération du score d’engagement | Vous pouvez maintenant attribuer des pondérations aux activités qui influencent le score d&#39;engagement du groupe d&#39;achats. Cette fonctionnalité inclut la définition de vos propres modèles de score personnalisés et la modification du modèle actif qui influence les calculs de score d’engagement. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Amélioration | Contenu conditionnel pour les fragments | Vous pouvez désormais utiliser les outils de contenu conditionnel pour concevoir des fragments visuels. [En savoir plus](../content/conditional-content.md) |
+| Amélioration | Mises à jour du score de l’engagement | La logique de score de l’engagement du groupe d’achat est mise à jour pour normaliser les scores. De plus, vous pouvez utiliser les scores d’engagement au niveau du membre, ainsi que les scores d’engagement collectif pour l’ensemble du groupe d’achat. [En savoir plus](../buying-groups/engagement-scores.md) |
 | Amélioration | Observabilité active du parcours : comptes sur chaque nœud | Pour un parcours de compte actif, vous pouvez accéder à la liste des comptes qui ont atteint chaque nœud de compte dans le parcours. |
 
 >[!NOTE]
@@ -153,7 +153,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Contenu conditionnel dans les modèles d’e-mail | Personnalisez le contenu de votre e-mail en fonction des caractéristiques comportementales et du profil des destinataires, au niveau du compte et du lead. <p>Lorsque vous créez un e-mail pour votre parcours de compte dans l’espace de conception visuelle d’e-mail, utilisez des règles conditionnelles pour définir plusieurs variantes pour tout composant de contenu. <a href="../content/conditional-content.md">En savoir plus</a> |
+| Fonctionnalité | Contenu conditionnel dans les e-mails | Personnalisez le contenu de votre e-mail en fonction des caractéristiques comportementales et du profil des destinataires, au niveau du compte et du lead. <p>Lorsque vous créez un e-mail pour votre parcours de compte dans l’espace de conception visuelle d’e-mail, utilisez des règles conditionnelles pour définir plusieurs variantes pour tout composant de contenu. <a href="../content/conditional-content.md">En savoir plus</a> |
 | Fonctionnalité | Actions de personne _Ajouter à la liste_ et _Supprimer de la liste_ dans les parcours | Personnalisez le contenu de votre e-mail en fonction des caractéristiques comportementales et du profil des destinataires, au niveau du compte et du lead. <a href="../journeys/action-nodes.md">En savoir plus</a> |
 | Fonctionnalité | Gouvernance du contenu et verrouillage des composants | Pour garantir la conformité avec les conceptions de contenu approuvées, utilisez les fonctionnalités de gouvernance de contenu pour verrouiller les composants de contenu de modèle d’e-mail. Lorsque la gouvernance du contenu est activée dans le modèle d’e-mail, les spécialistes du marketing ne peuvent modifier que les éléments autorisés afin de rester en phrase avec la stratégie de contenu. <a href="../content/template-content-governance.md">En savoir plus</a> |
 | Fonctionnalité | Étapes des groupes d’achat | Lorsque vous définissez et publiez un modèle personnalisé des étapes des groupes d’achat, vous pouvez suivre la progression des groupes d’achat tout au long des étapes du cycle de vie des groupes d’achat. Utilisez ces étapes pour identifier les meilleures actions à entreprendre pour les membres du groupe d’achat. Vous configurez les règles de transition et les nœuds de parcours qui déterminent la progression des étapes et déclenchent des actions en fonction des modifications. <a href="../buying-groups/buying-group-stages.md">En savoir plus</a> |

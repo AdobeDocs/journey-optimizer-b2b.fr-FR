@@ -4,16 +4,16 @@ description: Découvrez comment créer des fragments de contenu qui peuvent êtr
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 7%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
 # Création de fragments
 
-Après avoir [créé un fragment](./fragments.md#create-fragments), utilisez l’éditeur visuel pour créer les composants de structure et de contenu dans votre fragment.
+Après avoir [créé un fragment](./fragments.md#create-fragments), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre fragment.
 
 ## Ajouter la structure et le contenu {#design-fragment}
 
@@ -30,6 +30,12 @@ Après avoir [créé un fragment](./fragments.md#create-fragments), utilisez l�
 ## Personnaliser le contenu
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## Contenu conditionnel
+
+Pour ajouter du contenu conditionnel qui adapte le contenu aux profils ciblés en fonction de règles, sélectionnez un composant de contenu et cliquez sur le bouton **[!UICONTROL Activer le contenu conditionnel]** dans la barre d’outils du composant. Lorsque le fragment publié est inclus dans un e-mail, les règles conditionnelles déterminent la variante d’un composant conditionnel rendu dans l’e-mail.
+
+Pour plus d’informations, voir [_Contenu conditionnel_](./conditional-content.md).
 
 ## Activer la personnalisation des fragments
 

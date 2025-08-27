@@ -4,16 +4,16 @@ description: Découvrez comment définir un modèle de rôle à utiliser en tant
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
+source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 6%
 
 ---
 
 # Modèles de rôles du groupe d’achat
 
-Dans un marché B2B, les décisions d’achat sont généralement prises par plusieurs personnes. Ces personnes participent au processus décisionnel en fonction de leur rôle au sein de l&#39;organisation. Créez des modèles de rôle Groupe d&#39;achats contenant ces définitions de rôle en fonction de chaque type d&#39;offre de produit ou de chaque cas d&#39;utilisation de compte.
+Dans un marché B2B, les décisions d’achat sont généralement prises par plusieurs personnes. Ces personnes participent au processus décisionnel en fonction de leur rôle au sein de l&#39;organisation. Créez des modèles de rôle Groupe d&#39;achats qui contiennent un groupe de définitions de rôle en fonction de chaque type d&#39;offre de produit ou de cas d&#39;utilisation de compte.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
@@ -23,7 +23,7 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
 1. Sur la page _[!UICONTROL Groupes d’achat]_, sélectionnez l’onglet **[!UICONTROL Modèles de rôles]**.
 
-   ![Onglet Modèles de rôles](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![Onglet Modèles de rôles](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    L’onglet fournit une liste d’inventaire de tous les modèles de rôles existants et affiche les informations suivantes au format de colonne :
 
@@ -56,13 +56,13 @@ Dans un marché B2B, les décisions d’achat sont généralement prises par plu
 
 ### Ajouter les rôles de modèles
 
-Une fois le modèle créé, il s’ouvre dans l’espace de travail et vous êtes invité à définir les rôles. La première carte de rôle s’affiche par défaut.
+Une fois le modèle créé, il s’ouvre dans l’espace de travail et vous êtes invité à ajouter les rôles. La première carte de rôle s’affiche par défaut.
 
 Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres, ou _conditions_, pour déterminer les membres affectés au rôle. Utilisez les types de filtres suivants pour définir les conditions d’un rôle :
 
 | Type | Condition |
 | ---- | --------- |
-| Attributs de la personne | <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Numéro de fax <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Nom intermédiaire <li>Numéro téléphone mobile <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné <li>Raison désabonnement |
+| Attributs de la personne | <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Numéro de fax <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Nom intermédiaire <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné <li>Raison désabonnement |
 | Filtres spéciaux | <li>Membre de la liste <li>Membre du programme |
 | Données d’intention | Intention de la catégorie <li>Intention du produit <li>Intention du mot-clé <br/>[en savoir plus sur les données d’intention](../admin/intent-data.md). |
 
@@ -70,7 +70,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
    * Choisissez le **[!UICONTROL rôle du groupe d&#39;achat]** dans la liste.
 
-     Pour la version actuelle, il existe six rôles : `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` et `Other`.
+     Il existe six rôles par défaut : `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` et `Other`. La liste inclut également les [rôles personnalisés définis dans la liste _Rôles_](./default-custom-roles.md#custom-roles).
 
      ![Liste des rôles de groupe d&#39;achat](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -162,4 +162,4 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

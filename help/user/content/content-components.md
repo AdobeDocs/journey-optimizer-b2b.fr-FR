@@ -3,10 +3,11 @@ title: Composants de contenu
 description: Découvrez comment utiliser les composants de contenu pour concevoir le contenu de votre e-mail, de votre page de destination et de votre fragment visuel.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2841'
-ht-degree: 4%
+source-wordcount: '2844'
+ht-degree: 7%
 
 ---
 
@@ -125,7 +126,7 @@ Chaque type de composant de contenu affiche une barre d’outils lorsque vous le
 
 +++
 
-+++Taille de police
++++Taille de la police
 
 <table>
     <tr>
@@ -199,10 +200,9 @@ Chaque type de composant de contenu affiche une barre d’outils lorsque vous le
 | ---- | ---- | ----- |
 | ![Ajouter une personnalisation](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Ajouter une personnalisation | Utilisez l’éditeur de personnalisation pour insérer des jetons de personnalisation dans le contenu du composant. [En savoir plus](./email-authoring.md#personalize-content) |
 | ![Afficher le code source](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Afficher le code source | Affichez le code source HTML du composant dans une fenêtre contextuelle en lecture seule. <br/>![Afficher le code HTML](./assets/content-components-show-source-code.png){width="200"} |
-| ![Activer le contenu conditionnel](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Activer le contenu conditionnel | Activez les variantes conditionnelles pour le composant. [En savoir plus](./conditional-content.md) |
+| ![Activer le contenu conditionnel](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Activer le contenu conditionnel | (E-mails et fragments) Activez les variantes conditionnelles pour le composant. [En savoir plus](./conditional-content.md) |
 | ![Dupliquer](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Dupliquer | Créez une copie du composant et ajoutez-la directement sous . |
 | ![Supprimer](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Supprimer | Supprimez le composant . |
-
 
 ## Ajouter un composant de contenu à votre conception
 
@@ -249,7 +249,7 @@ Par exemple, ajoutez un composant _[!UICONTROL Conteneur]_, puis ajoutez un comp
 
 +++
 
-+++Border
++++Bord
 
 {{styles-border}}
 
@@ -267,7 +267,7 @@ Par exemple, ajoutez un composant _[!UICONTROL Conteneur]_, puis ajoutez un comp
 
 +++
 
-+++Marge intérieure
++++Remplissage
 
 {{styles-padding}}
 
@@ -331,7 +331,7 @@ Personnalisez le style du bouton dans l’onglet **[!UICONTROL Styles]**.
 
 +++
 
-+++Border
++++Bord
 
 {{styles-border}}
 
@@ -357,13 +357,13 @@ Personnalisez le style du bouton dans l’onglet **[!UICONTROL Styles]**.
 
 +++
 
-+++Marge intérieure
++++Remplissage
 
 {{styles-padding}}
 
 +++
 
-+++Avancé
++++Advanced
 
 {{styles-advanced}}
 
@@ -389,7 +389,7 @@ Ces styles sont appliqués à l’ensemble du bloc de texte. Vous pouvez appliqu
 
 +++
 
-+++Border
++++Bord
 
 {{styles-border}}
 
@@ -407,13 +407,13 @@ Ces styles sont appliqués à l’ensemble du bloc de texte. Vous pouvez appliqu
 
 +++
 
-+++Marge intérieure
++++Remplissage
 
 {{styles-padding}}
 
 +++
 
-+++Avancé
++++Advanced
 
 {{styles-advanced}}
 
@@ -453,13 +453,13 @@ Ajoutez un composant _Diviseur_ pour incorporer une division linéaire entre les
 
 +++
 
-+++Marge intérieure
++++Remplissage
 
 {{styles-padding}}
 
 +++
 
-+++Avancé
++++Advanced
 
 {{styles-advanced}}
 
@@ -487,7 +487,7 @@ Pour un composant HTML, vous pouvez définir les styles suivants pour l’ensemb
 
 +++
 
-+++Border
++++Bord
 
 {{styles-border}}
 
@@ -511,13 +511,13 @@ Pour un composant HTML, vous pouvez définir les styles suivants pour l’ensemb
 
 +++
 
-+++Marge intérieure
++++Remplissage
 
 {{styles-padding}}
 
 +++
 
-+++Avancé
++++Advanced
 
 {{styles-advanced}}
 
@@ -623,7 +623,7 @@ Définissez les styles du composant d’image dans le panneau de droite.
 
 +++
 
-+++Border
++++Bord
 
 {{styles-border}}
 
@@ -647,13 +647,13 @@ Définissez les styles du composant d’image dans le panneau de droite.
 
 +++
 
-+++Marge intérieure
++++Remplissage
 
 {{styles-padding}}
 
 +++
 
-+++Avancé
++++Advanced
 
 {{styles-advanced}}
 
@@ -689,7 +689,7 @@ Vous pouvez définir les options de style suivantes pour le composant _Social_ :
 
 +++
 
-+++Border
++++Bord
 
 {{styles-border}}
 
@@ -713,13 +713,13 @@ Vous pouvez définir les options de style suivantes pour le composant _Social_ :
 
 +++
 
-+++Marge intérieure
++++Remplissage
 
 {{styles-padding}}
 
 +++
 
-+++Avancé
++++Advanced
 
 {{styles-advanced}}
 
@@ -727,7 +727,7 @@ Vous pouvez définir les options de style suivantes pour le composant _Social_ :
 
 ### Formulaire (landing pages)
 
-[!BADGE Version bêta]{type=Informative url="/help/user/content/forms.md" tooltip="Fonctionnalité Beta"}
+[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Fonctionnalité Beta"}
 
 Utilisez le composant _Formulaire_ pour ajouter un formulaire publié à une page de destination ou à un modèle de page de destination. Pour plus d&#39;informations sur la création et la publication de formulaires, voir [Forms](./forms.md).
 
