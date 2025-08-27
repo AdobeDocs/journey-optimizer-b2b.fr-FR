@@ -1,23 +1,23 @@
 ---
 title: Contenu conditionnel
-description: Découvrez comment créer des variations de contenu et appliquer des règles conditionnelles lors de la création de contenu d’e-mail pour les parcours de compte.
-feature: Email Authoring, Content
+description: Découvrez comment créer des variations de contenu et appliquer des règles conditionnelles lors de la création de fragments visuels et de contenu d’e-mail pour les parcours de compte.
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 13%
+source-wordcount: '1259'
+ht-degree: 12%
 
 ---
 
 # Contenu conditionnel
 
-Le contenu conditionnel vous permet d’adapter le contenu des e-mails en fonction de règles conditionnelles. Ces règles sont définies à l’aide d’attributs de profil ou d’événements contextuels. Vous pouvez créer des règles conditionnelles dans le créateur de règles et les stocker pour les réutiliser dans vos parcours de compte.
+Le contenu conditionnel vous permet d’adapter le contenu de l’e-mail et du fragment en fonction de règles conditionnelles. Ces règles sont définies à l’aide d’attributs de profil ou d’événements contextuels. Vous pouvez créer des règles conditionnelles dans le créateur de règles et les stocker pour les réutiliser dans vos parcours de compte.
 
-Pour ajouter du contenu conditionnel à vos e-mails, Adobe Journey Optimizer vous permet d’appliquer des règles conditionnelles stockées dans la bibliothèque _Conditions_. Appliquez des règles conditionnelles dans l’espace de conception des e-mails lorsque vous [créez du contenu d’e-mail pour un parcours de compte](./email-authoring.md).
+Pour ajouter du contenu conditionnel à vos fragments et messages e-mail, Adobe Journey Optimizer vous permet d’appliquer des règles conditionnelles stockées dans la bibliothèque _Conditions_. Appliquez des règles conditionnelles dans l’espace de conception visuelle lorsque vous créez [du contenu d’e-mail pour un parcours de compte](./email-authoring.md) ou un [fragment visuel](./fragment-authoring.md).
 
-## Ajouter du contenu conditionnel aux e-mails {#email-content}
+## Ajouter du contenu conditionnel {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,11 +29,11 @@ Pour ajouter du contenu conditionnel à vos e-mails, Adobe Journey Optimizer vou
 >title="Contenu conditionnel"
 >abstract="Utilisez une règle conditionnelle enregistrée dans la bibliothèque ou créez-en une."
 
-Lorsque vous créez un e-mail pour votre parcours de compte dans l’espace de conception d’e-mail, utilisez des règles conditionnelles pour définir plusieurs variantes pour un composant de contenu.
+Lorsque vous créez un fragment ou un e-mail dans l’espace de conception visuelle, utilisez des règles conditionnelles pour définir plusieurs variantes pour un composant de contenu.
 
 1. Sélectionnez un composant de contenu et cliquez sur l’icône **[!UICONTROL Activer le contenu conditionnel]** dans la barre d’outils du composant.
 
-   Le composant est indiqué en orange pour indiquer qu’il est activé en tant que composant conditionnel. Le volet **[!UICONTROL Contenu conditionnel]** s’affiche à gauche avec la _Variante par défaut_ et _Variante - 1.
+   Le composant est indiqué en orange pour indiquer qu’il est activé en tant que composant conditionnel. Le volet **[!UICONTROL Contenu conditionnel]** s’affiche à gauche avec la _Variante par défaut_ et la _Variante - 1_.
 
    ![Activer le contenu conditionnel pour le composant de texte](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
@@ -94,20 +94,18 @@ Lorsque vous créez un e-mail pour votre parcours de compte dans l’espace de c
 ## Règles conditionnelles
 
 Les règles conditionnelles sont un ensemble d’expressions conditionnelles qui peuvent être évaluées comme « true » ou « false ». Vous pouvez utiliser ces règles pour déterminer la variante de contenu à afficher dans un e-mail en fonction de divers filtres, tels que des attributs de profil ou des événements contextuels.
-
-Les règles conditionnelles sont stockées dans la bibliothèque de conditions, où elles peuvent être réutilisées dans le contenu du parcours pour votre organisation.
-<!-- 
-
+Les règles sont stockées dans la bibliothèque de conditions, où elles peuvent être réutilisées dans les e-mails et les fragments de contenu pour votre organisation.
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### Filtres de statut {#condition-filters}
 
 | Type de condition | Filtres | Description |
 | -------------- | ------- | ----------- |
 | **Compte** | Attributs du compte | Attributs du profil de compte, notamment : <li>Chiffre d’affaires annuel</li><li>Ville</li><li>Pays</li><li>Nombre d’employés</li><li>Secteur industriel</li><li>Nom</li><li>Code SIC</li><li>État</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li> |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Le filtre peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li> |
 | **Personne** | [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Activités e-mail associées au parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail]</li><li>E-mail ouvert</li><li>A reçu l’e-mail</li><li>A reçu un e-mail</li> Ces conditions sont évaluées à l’aide d’un e-mail sélectionné plus tôt dans le parcours. |
 |  | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Titre du traitement</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné</li><li>Raison désabonnement</li> |
 | | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Rôle</li> |
