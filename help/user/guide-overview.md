@@ -27,7 +27,7 @@ Les spécialistes du marketing B2B peuvent désormais utiliser les scores d’en
 
 Les stratégistes en marketing B2B peuvent désormais étendre la précision des groupes d’achats avec des rôles de groupes d’achats personnalisés. Créez jusqu&#39;à 20 rôles personnalisés au-delà des six par défaut et réutilisez-les dans les groupes d&#39;achats. Dans les parcours de compte, adaptez les messages pour qu&#39;ils correspondent à vos rôles uniques et améliorez la pertinence et l&#39;engagement entre les groupes d&#39;achats&#x200B;
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="En savoir plus sur les rôles de groupes d"achats personnalisés"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="En savoir plus sur les rôles de groupes d&#39;achats personnalisés"}
 
 >[!TAB Expériences d’e-mail GenStudio]
 
@@ -131,7 +131,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>
