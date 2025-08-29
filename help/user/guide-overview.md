@@ -27,7 +27,7 @@ Les spécialistes du marketing B2B peuvent désormais utiliser les scores d’en
 
 Les stratégistes en marketing B2B peuvent désormais étendre la précision des groupes d’achats avec des rôles de groupes d’achats personnalisés. Créez jusqu&#39;à 20 rôles personnalisés au-delà des six par défaut et réutilisez-les dans les groupes d&#39;achats. Dans les parcours de compte, adaptez les messages pour qu&#39;ils correspondent à vos rôles uniques et améliorez la pertinence et l&#39;engagement entre les groupes d&#39;achats&#x200B;
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="En savoir plus sur les rôles de groupes d&#39;achats personnalisés"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="En savoir plus sur les rôles de groupes d"achats personnalisés"}
 
 >[!TAB Expériences d’e-mail GenStudio]
 
