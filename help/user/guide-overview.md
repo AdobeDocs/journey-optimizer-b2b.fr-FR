@@ -2,10 +2,10 @@
 title: 'Documentation d’Adobe Journey Optimizer B2B Edition '
 description: Découvrez comment utiliser les fonctionnalités d’Adobe Journey Optimizer B2B Edition pour orchestrer des parcours de compte et de groupe d’achat à l’aide de l’IA générative intégrée et d’une automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 76%
 
 ---
 
@@ -17,29 +17,23 @@ Voici un exemple des derniers ajouts et des améliorations apportées à l’app
 
 >[!BEGINTABS]
 
+>[!TAB  Score d’engagement de la personne ]
+
+Les spécialistes du marketing B2B peuvent désormais utiliser les scores d’engagement au niveau de la personne comme filtre dans leurs chemins de partage pour un parcours ou dans un modèle de rôles pour créer des groupes d’achats. Ce score et ce filtrage permettent un ciblage précis des membres des groupes d’achat afin de personnaliser l’engagement continu.
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Découvrez les scores d’engagement des personnes et le filtrage"}
+
+>[!TAB Rôles de groupes d&#39;achats personnalisés]
+
+Les stratégistes en marketing B2B peuvent désormais étendre la précision des groupes d’achats avec des rôles de groupes d’achats personnalisés. Créez jusqu&#39;à 20 rôles personnalisés au-delà des six par défaut et réutilisez-les dans les groupes d&#39;achats. Dans les parcours de compte, adaptez les messages pour qu&#39;ils correspondent à vos rôles uniques et améliorez la pertinence et l&#39;engagement entre les groupes d&#39;achats&#x200B;
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="En savoir plus sur les rôles de groupes d&#39;achats personnalisés"}
+
 >[!TAB Expériences d’e-mail GenStudio]
 
 Intégrez les expériences de messagerie GenStudio for Performance Marketing à Journey Optimizer B2B Edition pour améliorer l’efficacité marketing et maintenir la cohérence de la marque. Grâce à cette intégration, vous pouvez combiner la création de contenu optimisée par l’IA dédiée à GenStudio avec les fonctionnalités avancées d’orchestration de Journey Optimizer B2B Edition.
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="En savoir plus sur les expériences d’e-mail GenStudio"}
-
->[!TAB Rapports de détection de spams]
-
-Grâce aux nouveaux rapports sur les spams, vous pouvez éviter les filtres anti-spam et vous assurer que les messages sont envoyés aux boîtes de réception de l’audience. Générez un _rapport sur les spams_ directement dans l’espace de conception des e-mails.
-
-[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="En savoir plus sur les rapports de détection de spams"}
-
->[!TAB Actions de compte et de groupe d’achat]
-
-Agissez directement à partir des pages Détails du compte et Détails du groupe d’achat pour un engagement opportun et intentionnel.
-
-Utilisez l’action _Envoyer un e-mail_ pour envoyer un e-mail Marketo Engage approuvé aux contacts de compte ou aux membres du groupe d’achat sélectionnés.
-
-[!BADGE En savoir plus]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="En savoir plus sur l’envoi d’e-mails aux contacts du compte"}
-
-Dans les détails du groupe d’achat, les actions incluent également _Attribuer un nouveau membre_, _Supprimer un membre_ et _Modifier un rôle_.
-
-[!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="En savoir plus sur les actions de groupe d’achat"}
 
 >[!TAB Prise en charge de CSS personnalisé]
 
@@ -53,11 +47,11 @@ Pour activer et gérer le modèle Détection d’intention, vous pouvez désorma
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/admin/intent-data.md" tooltip="En savoir plus sur la configuration du mappage de mots-clé d’intention"}
 
->[!TAB Test des e-mails avec Litmus]
+>[!TAB Rapports de détection de spams]
 
-Avec un compte Litmus, vous pouvez désormais prévisualiser le rendu de votre e-mail dans les principaux clients de messagerie à partir de Journey Optimizer B2B Edition. Cette intégration vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception.
+Grâce aux nouveaux rapports sur les spams, vous pouvez éviter les filtres anti-spam et vous assurer que les messages sont envoyés aux boîtes de réception de l’audience. Générez un _rapport sur les spams_ directement dans l’espace de conception des e-mails.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="En savoir plus sur l’intégration des tests d’e-mail Litmus"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="En savoir plus sur les rapports de détection de spams"}
 
 >[!ENDTABS]
 
@@ -100,7 +94,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Commencer"><br/>
-      <strong>Commencer</strong><br/><a href="home-page.md">Connexion et page d’accueil</a><br/><a href="./start/get-started.md">Guide de démarrage rapide</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistant IA</a>
+      <strong>Prise en main</strong><br/><a href="home-page.md">Page d’accueil et de connexion</a><br/><a href="./start/get-started.md">Guide d’intégration</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistant IA</a>
     </td>
     <!--
     <td>
@@ -113,7 +107,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Parcours de compte"><br/>
-      <strong>Parcours de compte</strong><br/><a href="./journeys/journey-overview.md">Vue d’ensemble des parcours</a><br/><a href="./journeys/journey-nodes.md">Nœuds de parcours </a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Créer un parcours de compte</a>
+      <strong>Présentation des parcours de compte</strong><br/><a href="./journeys/journey-overview.md">Parcours </a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Création d’un parcours de compte</a><br/><a href="./journeys/journey-nodes.md">nœuds de Parcours </a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +131,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>
