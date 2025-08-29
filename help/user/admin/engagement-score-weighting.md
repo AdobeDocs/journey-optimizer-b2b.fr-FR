@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Un score d&#39;engagement du groupe d&#39;achat reflète le niveau d&#39;engagement en évaluant diverses activités enregistrées pour les membres du groupe d&#39;achat. Grâce à la pondération de score personnalisée, les équipes opérationnelles marketing ont la possibilité de définir leurs propres modèles de pondération des activités les plus pertinentes pour l’engagement. Un modèle de notation personnalisé donne une image plus précise de votre pipeline en priorisant les comportements qui signalent le plus précisément l’intention d’achat dans votre processus de vente.
 
-En tant qu’administrateur ou administratrice, vous pouvez définir plusieurs modèles de score d’engagement pour votre organisation, mais un seul modèle peut être actif à la fois. Vous définissez un modèle de score en fonction des activités à inclure et du poids appliqué à chaque activité.
+En tant qu’administrateur ou administratrice, vous pouvez définir plusieurs modèles de score d’engagement pour votre organisation, mais un seul modèle peut être actif à la fois. Vous définissez un modèle de score en fonction du poids appliqué à chaque activité de score d’engagement.
 
 ## Accéder aux modèles de pondération de score de l’engagement
 
@@ -29,7 +30,7 @@ En tant qu’administrateur ou administratrice, vous pouvez définir plusieurs m
 
    ![Accéder aux définitions d’événement configurées](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   Le tableau est trié selon la colonne _[!UICONTROL Dernière mise à jour]_, avec les modèles les plus récemment mis à jour en haut par défaut, et offre la possibilité de rechercher par _[!UICONTROL Nom]_. Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres des colonnes_ ( ![Paramètres des colonnes](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit, puis en cochant ou décochant les cases des colonnes.
+   Le tableau présente les modèles les plus récemment mis à jour (triés par _[!UICONTROL Dernière mise à jour]_) et offre la possibilité de rechercher par _[!UICONTROL Nom]_. Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres des colonnes_ ( ![Paramètres des colonnes](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit, puis en cochant ou décochant les cases des colonnes.
 
 ![Colonnes à afficher dans la liste de pondération du score d’engagement](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -78,11 +79,11 @@ Les paramètres de poids définissent les bandes que vous pouvez affecter à cha
 1. Pour chaque plage de poids, ajustez le nom ou les valeurs en fonction de vos besoins :
 
    * Modifiez le nom dans le champ _[!UICONTROL Bande de pondération]_.
-   * Saisissez une nouvelle valeur, ou cliquez sur **+** ou **-** pour augmenter ou diminuer la valeur.
+   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Paramètres de poids de l’engagement](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
-1. Si nécessaire, ajouter une autre bande de pondération :
+1. Si nécessaire, ajouter une autre plage de pondération :
 
    Cliquez sur **[!UICONTROL + Ajouter une bande de pondération]** au bas de la liste. Cette action insère une bande de pondération vide en bas de la liste.
 
@@ -98,7 +99,7 @@ Chaque modèle de score comprend la liste complète des activités de score d’
 
 {{engagement-activities}}
 
-Pour chaque activité de la liste, définissez la valeur à affecter à chaque occurrence de l’activité. Cliquez sur la flèche vers le bas dans le champ Pondération et choisissez la bande de pondération telle que définie dans les paramètres de pondération d&#39;engagement.
+Pour chaque activité de la liste, définissez la valeur à affecter à chaque occurrence de l’activité. Cliquez sur la flèche vers le bas dans le champ **[!UICONTROL Pondération]** et choisissez la bande de pondération telle que définie dans les paramètres de pondération d&#39;engagement.
 
 ![Définir la pondération d’activité](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 

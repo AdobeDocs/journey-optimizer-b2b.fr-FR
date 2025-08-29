@@ -4,24 +4,24 @@ description: Découvrez comment configurer une connexion aux référentiels Expe
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Configuration des référentiels de ressources Experience Manager
 
-Adobe Journey Optimizer B2B edition s’intègre à Adobe Experience Manager Assets as a Cloud Service, ce qui permet de faire plus que simplement utiliser des ressources telles que des e-mails dans un parcours de compte. Elle assure la transparence en échangeant des informations avec Experience Manager Assets. Configurez la connexion à Adobe Experience Assets pour activer cette fonctionnalité.
+[!DNL Adobe Journey Optimizer B2B Edition] s’intègre à [!DNL Adobe Experience Manager Assets as a Cloud Service], ce qui permet d’utiliser des ressources dans le contenu de votre e-mail. Elle assure la transparence en échangeant des informations avec les [!DNL Experience Manager Assets]. Configurez la connexion à [!DNL Adobe Experience Assets] pour activer cette fonctionnalité.
 
-Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([ En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
+Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([ En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
 
 {{aem-assets-licensing-note}}
 
 ## Conditions préalables
 
-* Générez les informations d’identification de service pour l’environnement souhaité sur le Developer Console découplé AEM ([En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Générez les informations d’identification de service pour l’environnement souhaité sur le Developer Console découplé AEM ([En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Procurez-vous les certificats nécessaires à la connexion. Il est recommandé de s’assurer que les certificats ont au moins six mois restants avant leur expiration. Les certificats expirent tous les 365 jours.
 * Adobe Journey Optimizer B2B edition prend en charge l’accès à une source de gestion des ressources numériques à la fois. Assurez-vous que les ressources requises sont disponibles dans Adobe Experience Manager avant de basculer.
 
@@ -47,7 +47,7 @@ Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque pr
 
 1. Cliquez sur **[!UICONTROL Ajouter un certificat]** et utilisez les outils de boîte de dialogue pour télécharger le fichier.
 
-   Vous pouvez charger un fichier .json en le faisant glisser sur la boîte de dialogue ou en cliquant sur le lien pour localiser et sélectionner un fichier sur votre système (assurez-vous que le fichier est d’un type JSON valide).
+   Vous pouvez charger un fichier .json en le faisant glisser dans la boîte de dialogue. Vous pouvez également cliquer sur le lien pour localiser et sélectionner un fichier sur votre système.
 
    ![Chargez le fichier JSON du certificat](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
@@ -65,7 +65,7 @@ Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque pr
 
    ![Consultez les référentiels de ressources AEM configurés](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
-Une fois la configuration des référentiels terminée, les membres de l’équipe peuvent sélectionner l’Adobe Experience Manager Assets lors de la création de contenu.
+Une fois la configuration des référentiels terminée, les membres de l’équipe peuvent sélectionner le [!DNL Adobe Experience Manager Assets] lors de la création de contenu.
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Une fois la configuration des référentiels terminée, les membres de l’équi
 
 ## Remplacer un certificat
 
-Les certificats expirent tous les 365 jours à compter de la date de création. Remplacez-le avant son expiration pour vous assurer que votre équipe peut continuer à accéder aux ressources.
+Les certificats expirent tous les 365 jours à compter de la date de création. Pour que votre équipe puisse continuer à accéder aux ressources , remplacez le certificat avant son expiration.
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B edition communique avec les ressources Experience Manager pour obtenir des informations d’utilisation. La connexion doit rester active pour une synchronisation fiable des données d’utilisation et pour éviter les incohérences de données. Les utilisateurs administrateurs sont avertis de l’expiration des certificats par le biais des notifications in-app. Ils peuvent également noter les dates d’expiration dans la sous-section Assets - Gestion des ressources numériques dans la zone Admin.
+>[!DNL Adobe Journey Optimizer B2B Edition] communique avec [!DNL Experience Manager Assets] pour obtenir des informations d’utilisation. La connexion doit rester active pour une synchronisation fiable des données d’utilisation et pour éviter les incohérences de données. Les administrateurs reçoivent des notifications sur l’expiration des certificats via les notifications in-app. Les dates d’expiration sont également affichées dans la sous-section _Assets_ de la zone _[!UICONTROL Administration]_.
 
 1. Sur la page de gestion des ressources numériques, recherchez la liste des référentiels configurés.
 
@@ -89,7 +89,7 @@ Les certificats expirent tous les 365 jours à compter de la date de création. 
 
 1. Choisissez **[!UICONTROL Remplacer]** pour ouvrir la boîte de dialogue de téléchargement du fichier.
 
-1. Chargez un fichier en le faisant glisser dans la boîte de dialogue ou à l’aide du lien. Assurez-vous que le fichier est de type json.
+1. Chargez un fichier en le faisant glisser dans la boîte de dialogue ou à l’aide du lien. Assurez-vous que le fichier est de type JSON.
 
    ![Chargez le fichier JSON de certificat de référentiel des ressources AEM de remplacement](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
