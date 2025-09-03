@@ -4,7 +4,7 @@ user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et com
 source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -90,17 +90,17 @@ ht-degree: 91%
    + Fragments {#visual-fragments}
       + [Vue d’ensemble](./content/fragments.md)
       + [Création de fragments](./content/fragment-authoring.md)
-   + Forms (Beta) {#forms}
+   + Formulaires (version bêta) {#forms}
       + [Vue d’ensemble](./content/forms.md)
       + [Conception de formulaire](./content/form-design.md)
-   + Pages de destination (Beta) {#landing-pages}
+   + Pages de destination (version bêta) {#landing-pages}
       + [Vue d’ensemble](./content/landing-pages.md)
       + [Création de la page de destination](./content/landing-page-design.md)
    + Outils de conception de contenu {#content-design}
       + [Composants de structure](./content/structure-components.md)
       + [Composants de contenu](./content/content-components.md)
       + [CSS personnalisé](./content/design-custom-css.md)
-   + Marques (Beta) {#brands}
+   + Marques (version bêta) {#brands}
       + [Vue d’ensemble](./content/brands-overview.md)
       + [Gérer et créer](./content/brands-manage-create.md)
       + [Alignement sur la marque](./content/brand-alignment.md)
