@@ -4,9 +4,9 @@ description: Découvrez comment créer et utiliser des fragments de contenu visu
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: f700f84c55d37ded9980a08286da05011345800c
+source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2736'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ Un fragment est un composant réutilisable pouvant être référencé dans un ou
 
 **Fragments visuels**
 
-Les fragments visuels sont des blocs visuels prédéfinis créés à l’aide d’outils de conception visuelle que vous pouvez réutiliser dans plusieurs e-mails ou modèles d’e-mail. Le périmètre actuel de Journey Optimizer B2B edition et de cette documentation est celui des fragments visuels uniquement.
+Les fragments visuels sont des blocs visuels prédéfinis créés à l’aide d’outils de conception visuelle que vous pouvez réutiliser dans plusieurs e-mails ou modèles d’e-mail. L’étendue actuelle de Journey Optimizer B2B edition et cette documentation incluent uniquement des fragments visuels.
 
 >[!NOTE]
 >
@@ -302,7 +302,7 @@ Les fragments sont conçus pour être réutilisés et peuvent être insérés po
 
 1. Accédez à **[!UICONTROL Parcours de compte]** et ouvrez un parcours parcours existant ou créez-en un.
 
-1. Créez un nœud [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Créez un nœud [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Créez ou modifiez le [contenu d’e-mail pour le nœud](./email-authoring.md).
 
