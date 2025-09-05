@@ -4,7 +4,7 @@ description: Découvrez comment configurer la pondération de score d’engageme
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -27,9 +27,11 @@ En tant qu’administrateur ou administratrice, vous pouvez définir plusieurs m
 
    ![Accéder aux définitions d’événement configurées](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   Le tableau présente les modèles les plus récemment mis à jour (triés par _[!UICONTROL Dernière mise à jour]_) et offre la possibilité de rechercher par _[!UICONTROL Nom]_. Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres des colonnes_ ( ![Paramètres des colonnes](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit, puis en cochant ou décochant les cases des colonnes.
+   Le tableau présente les modèles les plus récemment mis à jour (triés par _[!UICONTROL Dernière mise à jour]_) et offre la possibilité de rechercher par _[!UICONTROL Nom]_.
 
-![Colonnes à afficher dans la liste de pondération du score d’engagement](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres des colonnes_ ( ![Paramètres des colonnes](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit, puis en cochant ou décochant les cases des colonnes.
+
+   ![Colonnes à afficher dans la liste de pondération du score d’engagement](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. Pour accéder aux détails d’un modèle de score d’engagement, cliquez sur le nom.
 
@@ -76,7 +78,7 @@ Les paramètres de poids définissent les bandes que vous pouvez affecter à cha
 1. Pour chaque plage de poids, ajustez le nom ou les valeurs en fonction de vos besoins :
 
    * Modifiez le nom dans le champ _[!UICONTROL Bande de pondération]_.
-   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
+   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Paramètres de poids de l’engagement](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
