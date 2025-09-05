@@ -2,14 +2,11 @@
 title: Configurer la pondération du score d’engagement
 description: Découvrez comment configurer la pondération de score d’engagement personnalisée pour refléter la logique de notation qui s’aligne sur vos stratégies d’entreprise.
 feature: Setup, Engagement, Buying Groups
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -79,7 +76,7 @@ Les paramètres de poids définissent les bandes que vous pouvez affecter à cha
 1. Pour chaque plage de poids, ajustez le nom ou les valeurs en fonction de vos besoins :
 
    * Modifiez le nom dans le champ _[!UICONTROL Bande de pondération]_.
-   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
+   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Paramètres de poids de l’engagement](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

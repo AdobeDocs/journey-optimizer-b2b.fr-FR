@@ -3,9 +3,9 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités et améliorations d’Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 <!-- hold for later release 
 
@@ -35,7 +35,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | ---- | ---- | ----------- |
 | Fonctionnalité | Filtres de score d’engagement des personnes pour les modèles et les parcours de rôles | Vous pouvez désormais utiliser le _score d’engagement de la personne_ comme filtre dans les modèles de rôles utilisés pour créer des groupes d’achats et dans les nœuds de parcours de chemin de partage. [En savoir plus](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Fonctionnalité | Configuration des rôles personnalisés des groupes d&#39;achat | Vous avez désormais la possibilité de configurer des rôles personnalisés pour les groupes d’achat, ce qui vous permet de définir les rôles spécifiques à vos cas d’utilisation. [En savoir plus](../buying-groups/default-custom-roles.md) |
-| Fonctionnalité | Configuration de la pondération du score d’engagement | Vous pouvez maintenant attribuer des pondérations aux activités qui influencent le score d&#39;engagement du groupe d&#39;achats. Cette fonctionnalité inclut la définition de vos propres modèles de score personnalisés et la modification du modèle actif qui influence les calculs de score d’engagement. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Fonctionnalité | Configuration de la pondération du score d’engagement | Vous pouvez maintenant attribuer des pondérations aux activités qui influencent le score d&#39;engagement du groupe d&#39;achats. Cette fonctionnalité inclut la définition de vos propres modèles de score personnalisés et la modification du modèle actif qui influence les calculs de score d’engagement. [En savoir plus](../admin/engagement-score-weighting.md) |
 | Amélioration | Contenu conditionnel pour les fragments | Vous pouvez désormais utiliser les outils de contenu conditionnel pour concevoir des fragments visuels. [En savoir plus](../content/conditional-content.md) |
 | Amélioration | Mises à jour du score de l’engagement | La logique de score de l’engagement du groupe d’achat est mise à jour pour normaliser les scores. De plus, vous pouvez utiliser les scores d’engagement au niveau du membre, ainsi que les scores d’engagement collectif pour l’ensemble du groupe d’achat. [En savoir plus](../buying-groups/engagement-scores.md) |
 | Amélioration | Observabilité active du parcours : comptes sur chaque nœud | Pour un parcours de compte actif, vous pouvez accéder à la liste des comptes qui ont atteint chaque nœud de compte dans le parcours. |

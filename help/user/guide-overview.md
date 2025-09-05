@@ -2,10 +2,10 @@
 title: 'Documentation d’Adobe Journey Optimizer B2B Edition '
 description: Découvrez comment utiliser les fonctionnalités d’Adobe Journey Optimizer B2B Edition pour orchestrer des parcours de compte et de groupe d’achat à l’aide de l’IA générative intégrée et d’une automatisation de pointe.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 76%
+source-wordcount: '639'
+ht-degree: 71%
 
 ---
 
@@ -28,6 +28,12 @@ Les spécialistes du marketing B2B peuvent désormais utiliser les scores d’en
 Les stratégistes en marketing B2B peuvent désormais étendre la précision des groupes d’achats avec des rôles de groupes d’achats personnalisés. Créez jusqu&#39;à 20 rôles personnalisés au-delà des six par défaut et réutilisez-les dans les groupes d&#39;achats. Dans les parcours de compte, adaptez les messages pour qu&#39;ils correspondent à vos rôles uniques et améliorez la pertinence et l&#39;engagement entre les groupes d&#39;achats&#x200B;
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="En savoir plus sur les rôles de groupes d&#39;achats personnalisés"}
+
+>[!TAB Pondération personnalisée du score d’engagement]
+
+Attribuez des poids personnalisés aux activités d’engagement afin que les scores d’engagement reflètent vos activités à la valeur la plus élevée. En mettant l&#39;accent sur les signaux à forte intention, votre équipe peut mieux identifier et prioriser les comptes ayant le plus fort potentiel d&#39;achat.
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="En savoir plus sur la pondération du score d’engagement personnalisé"}
 
 >[!TAB Expériences d’e-mail GenStudio]
 
@@ -131,7 +137,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>
