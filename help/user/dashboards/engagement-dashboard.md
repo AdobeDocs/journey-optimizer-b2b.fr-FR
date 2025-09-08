@@ -1,12 +1,12 @@
 ---
 title: Tableau de bord de présentation de l’engagement
-description: Découvrez comment utiliser le tableau de bord de présentation de l’engagement pour surveiller vos efforts d’engagement.
+description: Surveillez les mesures d’engagement en temps réel pour les comptes, les groupes d’achats et les personnes à l’aide de graphiques interactifs et d’une analyse des tendances dans Journey Optimizer B2B edition.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/i
 * Type d’engagement
 * Région
 * Secteur industriel
-* Rôle membre du groupe d’achat
+* Rôle de personne membre du groupe d’achat
 
 ![Filtrer les données affichées par attributs](./assets/engagement-dashboard-filters.png){width="500"}
 
@@ -77,7 +77,7 @@ Les filtres globaux (plage de données et attributs) appliqués au tableau de bo
 
 | Engagement par comptes | Engagement par groupes d’achat | Engagement par personne |
 | ---------------------- | --------------------------- | -------------------- |
-| <li>Nom de compte <li>Statut <li>Personnes engagées (nombre)<li>Activités d&#39;engagement (nombre) <li>Dernier engagement (date) | <li>Groupe d’achat <li>Compte <li>Intérêt de la solution <li>Statut <li>Activités d&#39;engagement (nombre) | <li>Nom <li>Statut <li>E-mail (adresse) <li>Activités d&#39;engagement (nombre) <li>Dernier engagement (date) |
+| <li>Nom du compte <li>Statut <li>Personnes engagées (nombre)<li>Activités d&#39;engagement (nombre) <li>Dernier engagement (date) | <li>Groupe d’achat <li>Compte <li>Intérêt de la solution <li>Statut <li>Activités d&#39;engagement (nombre) | <li>Nom <li>Statut <li>E-mail (adresse) <li>Activités d&#39;engagement (nombre) <li>Dernier engagement (date) |
 
 Vous pouvez cliquer sur l’icône du menu **...** en haut à droite et choisir **[!UICONTROL Afficher plus]** pour [afficher les données et informations étendues](#view-more).
 

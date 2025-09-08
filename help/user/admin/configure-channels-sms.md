@@ -1,12 +1,12 @@
 ---
 title: Configuration des SMS
-description: Découvrez comment configurer des connexions à des fournisseurs SMS pris en charge pour une utilisation par la messagerie SMS Journey Optimizer B2B edition.
+description: Connectez les fournisseurs SMS tels que Sinch, Twilio et Infobip aux informations d’identification d’API pour activer la messagerie texte dans les parcours B2B edition Journey Optimizer.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Avant de configurer un canal SMS dans Adobe Journey Optimizer B2B edition, vous 
 
 >[!TAB  Sinch ]
 
-_Pour configurer Sinch en tant que fournisseur SMS avec Adobe Journey Optimizer B2B edition, procédez comme suit_
+_Pour configurer Sinch en tant que fournisseur SMS avec Adobe Journey Optimizer B2B edition :_
 
 1. Dans le volet de navigation de gauche, développez la section **[!UICONTROL Administrateur]**, puis cliquez sur **[!UICONTROL Configuration]**.
 

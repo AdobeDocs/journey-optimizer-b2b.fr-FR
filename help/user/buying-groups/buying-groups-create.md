@@ -1,13 +1,13 @@
 ---
 title: Créer des groupes d'achats
-description: Découvrez comment créer des groupes d'achats à l'aide des composants requis.
+description: Créez des groupes d’achats en sélectionnant les centres d’intérêt des solutions et les audiences de compte pour le marketing automatisé dans Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 4%
+source-wordcount: '276'
+ht-degree: 3%
 
 ---
 
@@ -64,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Vidéo pratique
 
->[!VIDEO](https://video.tv.adobe.com/v/3451763/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

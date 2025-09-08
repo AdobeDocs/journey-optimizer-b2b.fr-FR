@@ -1,13 +1,13 @@
 ---
 title: Scores d'engagement pour les groupes d'achat
-description: Découvrez les scores d’engagement du groupe d’achats et de la personne, y compris la logique de calcul et les types d’activité qui déterminent les scores.
-feature: Buying Groups
+description: Suivez les scores d’engagement des groupes d’achats et des personnes avec des activités pondérées et des calculs basés sur les rôles dans Journey Optimizer B2B edition.
+feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 24%
+source-wordcount: '1251'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ Il existe deux types de scores d’engagement :
 
 * **Score d’engagement de la personne** - Le score d’engagement de la personne est basé sur les activités d’un membre individuel du groupe d’achats.
 
-  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres &#x200B;]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
+  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres ]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
 
   ![Membres du groupe d&#39;achat les plus engagés](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ La notation du groupe d&#39;achats n&#39;est pas _basée sur le déclenchement_.
 
 La limite de fréquence quotidienne est de 20 pour chaque activité. Si un membre d&#39;un groupe d&#39;achat effectue la même activité plus de 20 fois au cours d&#39;une seule journée, le nombre pour l&#39;activité est plafonné à 20.
 
-{{engagement-activities}}
+| Nom de l’activité | Description | Type d’engagement | Fréquences quotidiennes maximales | Poids d’activité du modèle par défaut |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| Participer à l’événement | Un membre a participé à un événement. | Événement | 20 | 60 |
+| E-mail sur lequel l’utilisateur a cliqué | Un membre clique sur un lien dans un e-mail. | E-mail | 20 | 30 |
+| E-mail ouvert | Un membre ouvre un e-mail. | E-mail | 20 | 30 |
+| Formulaire rempli | Un membre remplit et envoie un formulaire sur une page web. | Web | 20 | 40 |
+| Moment intéressant | Un membre vit un moment significatif. | Organisé | 20 | 60 |
+| Clics sur les liens | Un membre clique sur un lien d’une page web. | Web | 20 | 40 |
+| Pages vues | Un membre consulte une page web | Web | 20 | 40 |
+| S’inscrire à l’événement | Un membre inscrit à un événement | Événement | 20 | 60 |
 
 <!-- old list
 

@@ -1,13 +1,13 @@
 ---
 title: Audiences de compte
-description: Découvrez les audiences de compte et comment elles activent les parcours basés sur les comptes.
+description: Créez des audiences de compte avec une segmentation pour cibler des comptes spécifiques et activer les parcours personnalisés basés sur les comptes dans Journey Optimizer B2B edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '552'
-ht-degree: 100%
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Définissez l’audience de compte en créant une segmentation de compte. Vous a
 
    L’exemple suivant définit l’audience créée à l’aide de `Country Code`, `Revenue Amount` et `Market segment`. La requête en anglais serait la suivante : « I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M ».
 
-   ![Exemple de créateur de segments ciblés de compte](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   ![Exemple de créateur de segments d’audience de compte](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]

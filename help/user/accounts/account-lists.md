@@ -1,10 +1,10 @@
 ---
 title: Listes de comptes
-description: Découvrez les listes de comptes et comment les marketeurs peuvent les utiliser pour cibler les comptes par le biais de parcours de compte.
+description: Créez des listes de comptes statiques et dynamiques avec des filtres personnalisés pour l’orchestration des parcours ciblés et le marketing basé sur les comptes dans Journey Optimizer B2B edition.
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 Dans Journey Optimizer B2B edition, une liste de comptes est un ensemble de comptes nommés que les spécialistes du marketing peuvent utiliser pour l’orchestration des parcours ciblés. Une liste de comptes peut cibler des comptes nommés selon vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. Il existe deux types de listes de comptes :
 
 * **Statique** - Avec une liste de comptes statique, la liste ne change que lorsque vous ajoutez les comptes. Vous pouvez ajouter manuellement des comptes en appliquant un jeu de filtres pour renseigner la liste en fonction des données du compte actuel, ou ajouter et supprimer des comptes par le biais d’un parcours de compte.
-* **Dynamique** - Avec une liste de comptes dynamique, vous définissez un jeu de filtres pour traiter automatiquement la liste. Le système utilise ce jeu de filtres pour ajouter et supprimer des comptes en fonction des modifications apportées aux informations du compte. Cette gestion de liste est similaire à la [segmentation d’audience dans Real-time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dynamique** - Avec une liste de comptes dynamique, vous définissez un jeu de filtres pour traiter automatiquement la liste. Le système utilise ce jeu de filtres pour ajouter et supprimer des comptes en fonction des modifications apportées aux informations du compte. Cette gestion de liste est similaire à la [segmentation d’audience dans Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Lorsqu’une liste de comptes est à l’état _En ligne_ (publiée), elle peut être [utilisée dans les parcours de compte et les programmes Marketo Engage](./account-lists-journeys.md).
 
@@ -24,7 +24,7 @@ Lorsqu’une liste de comptes est à l’état _En ligne_ (publiée), elle peut 
 
 >[!NOTE]
 >
->Les listes de comptes exploitent les données du compte Marketo Engage pour créer des segments et des listes de comptes. Cela signifie que si un segment de compte Adobe Experience Platform n’est pas synchronisé activement avec Marketo Engage, les comptes de ce segment Experience Platform peuvent ne pas être disponibles dans les listes de comptes Journey Optimizer B2B edition. Par la suite, les personnes issues de comptes dans les segments Experience Platform qui ne sont pas synchronisés avec Marketo Engage peuvent ne pas être incluses dans le nombre d’adhésions aux personnes ou comptabilisées dans les événements de déclenchement.
+>Les listes de comptes exploitent les données du compte Marketo Engage pour créer des segments et des listes de comptes. Cela signifie que si un segment de compte Adobe Experience Platform n’est pas synchronisé activement avec Marketo Engage, les comptes de ce segment Experience Platform peuvent ne pas être disponibles dans les listes de comptes Journey Optimizer B2B edition. Par la suite, seules les personnes issues des comptes dans les segments Experience Platform synchronisés avec Marketo Engage sont incluses dans les nombres d’appartenances à une personne et déclenchent des événements.
 
 ## Accès et navigation dans les listes de comptes
 
@@ -180,4 +180,4 @@ Le statut de la liste de comptes dynamique passe à _[!UICONTROL Actif]_ et peut
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3448651/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

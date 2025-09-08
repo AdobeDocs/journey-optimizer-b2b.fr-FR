@@ -1,21 +1,22 @@
 ---
-title: Accès aux pages de détails dans le CRM
-description: Découvrez comment les membres de l’équipe commerciale peuvent accéder à des pages détaillées pour les comptes, contacts et prospects directement à partir de leur outil de gestion de la relation client (GRC), tel que Salesforce ou Microsoft Dynamics.
+title: Accéder aux pages de détails dans CRM
+description: Ajoutez des liens personnalisés pour les détails du compte et des contacts afin d’activer l’accès direct aux informations B2B de Journey Optimizer à partir de Salesforce et de Dynamics CRM.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
-# Accès aux pages de détails dans le CRM
+# Accéder aux pages de détails dans CRM
 
-Adobe Journey Optimizer B2B edition permet aux membres de l’équipe commerciale et aux gestionnaires de compte d’accéder à des pages détaillées pour obtenir des informations sur les comptes et les groupes d’achats directement à partir de leur outil de gestion de la relation client (GRC), tel que Salesforce ou Microsoft Dynamics. Grâce à cette intégration, les commerciaux peuvent rapidement accéder aux informations en temps réel sur le compte et le groupe d’achats, telles que l’historique de l’engagement, les signaux d’intention et les recommandations générées par l’IA. Cette fonctionnalité permet à l’équipe commerciale d’atteindre plus rapidement les clients, de hiérarchiser plus intelligemment les priorités et de mieux s’aligner sur le marketing.
+Adobe Journey Optimizer B2B edition permet aux membres de l’équipe des ventes et de l’équipe des comptes d’accéder à des pages détaillées pour les informations sur le compte et le groupe d’achats directement à partir de leur outil de gestion de la relation client (CRM), tel que Salesforce ou Microsoft Dynamics. Grâce à cette intégration, les commerciaux peuvent rapidement accéder aux informations en temps réel sur le compte et le groupe d’achats, telles que l’historique de l’engagement, les signaux d’intention et les recommandations générées par l’IA. Cette fonctionnalité permet à l’équipe commerciale d’atteindre plus rapidement les clients, de hiérarchiser plus intelligemment les priorités et de mieux s’aligner sur le marketing.
 
-Pour permettre aux membres de l’équipe commerciale d’afficher les pages [détails du compte](account-details.md) et [détails de la personne](person-details.md) dans Journey Optimizer B2B edition à partir du CRM, l’administrateur Salesforce ou Dynamics peut ajouter un lien Journey Optimizer B2B edition à partir de la vue du compte, du contact ou du prospect.
+Pour permettre aux membres de l’équipe des ventes et du compte d’afficher les pages [détails du compte](account-details.md) et [détails de la personne](person-details.md) dans Journey Optimizer B2B edition à partir du CRM, l’administrateur Salesforce ou Dynamics peut ajouter un lien à partir de la vue du compte, du contact ou du prospect.
 
 Lorsqu’un membre de l’équipe commerciale utilise le lien de l’instance CRM, le sandbox doit être _Prod_ et l’organisation IMS est déterminée selon la logique ordonnée suivante :
 
@@ -72,7 +73,7 @@ Utilisez l’objet `Account` pour récupérer l’ID de 18 caractères du compte
 
 +++
 
-+++Lien de la page de détails
++++Lien vers la page de détails
 
 1. Dans Salesforce, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Gestionnaire d’objets]** > **[!UICONTROL Compte]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]** > **[!UICONTROL Buttons, Links et Actions]**.
 1. Cliquez sur **[!UICONTROL Nouveau bouton ou lien]** dans le coin supérieur droit et créez le lien de la page de détails.
@@ -91,7 +92,7 @@ Utilisez l’objet `Account` pour récupérer l’ID de 18 caractères du compte
 
 +++
 
-+++Bouton de page de détails
++++Bouton Page de détails
 
 1. Dans Salesforce, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Gestionnaire d’objets]** > **[!UICONTROL Compte]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]** > **[!UICONTROL Buttons, Links et Actions]**.
 1. Cliquez sur **[!UICONTROL Nouveau bouton ou lien]** dans le coin supérieur droit et créez le bouton de la page de détails.
@@ -222,7 +223,7 @@ Si le lien ne s&#39;affiche pas, essayez d&#39;accéder à Comptes, contacts ou 
 
 +++
 
-Ressource web HTML
++++ressource web HTML
 
 Suivez cette séquence de tâches pour ajouter le lien personnalisé en tant que ressource web HTML :
 
@@ -319,7 +320,7 @@ Suivez cette séquence de tâches pour ajouter le lien personnalisé en tant que
 
    ![Ressource web](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   Reportez-vous à la [documentation Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy) pour plus d’informations sur les propriétés et le formatage des ressources web.
+   Pour plus d’informations sur les propriétés et le formatage des ressources web, consultez la [documentation de Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy).
 
 1. Cliquez sur **[!UICONTROL OK]**.
 

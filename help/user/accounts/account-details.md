@@ -1,12 +1,12 @@
 ---
 title: Détails du compte
-description: Découvrez comment accéder à des informations détaillées et à des résumés d’IA génératifs pour les comptes dans Journey Optimizer B2B edition.
+description: Affichez les informations sur le compte avec des résumés d’IA, la détection d’intention, l’analyse de couverture des contacts et les communications par e-mail dans Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 6%
 
 ---
@@ -29,11 +29,11 @@ La page Détails du compte se compose de trois sections principales :
 
 La section de présentation du compte comprend les informations de compte suivantes :
 
-* Nom de compte
+* Nom du compte
 * Nombre de personnes dans le compte
 * Secteur industriel
 * Opportunités ouvertes
-* Les trois parcours de compte les plus récents sur lesquels le compte est actuellement utilisé (cliquez sur le nom du parcours pour afficher la présentation du parcours [&#128279;](../journeys/journey-overview.md))
+* Les trois parcours de compte les plus récents sur lesquels le compte est actuellement utilisé (cliquez sur le nom du parcours pour afficher la présentation du parcours [](../journeys/journey-overview.md))
 * Résumé IA générative du compte, qui comprend des informations sur les principaux groupes d’achats engagés.
 
 ### Données d’intention

@@ -1,16 +1,17 @@
 ---
 title: Informations de l’individu
-description: Découvrez comment accéder à des informations détaillées et à un résumé IA génératif pour une personne associée à un compte ou à un groupe d’achat dans Journey Optimizer B2B edition.
+description: Affichez les informations sur la personne avec des résumés d’IA, les scores d’engagement, le suivi des activités et la détection des intentions pour les membres du groupe d’achat dans Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 7%
 
 ---
 
-# Informations de l’individu
+# Détails de la personne
 
 Lorsque vous cliquez sur le nom d’une personne depuis n’importe quel emplacement de Journey Optimizer B2B edition, la page de détails de la personne s’affiche. Cette page contient des informations utiles sur la personne associée à un compte ou à un groupe d’achat, y compris un résumé IA génératif des données de mise en évidence et d’intention (si elles sont configurées). <!-- There are also [actions](#person-actions) that you can execute for the person. -->
 

@@ -1,12 +1,12 @@
 ---
 title: Modèles de rôle de groupe d'achat
-description: Découvrez comment définir un modèle de rôle à utiliser en tant que composant de groupe d’achats.
+description: Créez des modèles de rôle de groupe d’achats avec des conditions d’affectation automatique pour identifier les décideurs et les parties prenantes dans Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1124'
 ht-degree: 6%
 
 ---
@@ -162,4 +162,4 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -1,12 +1,12 @@
 ---
 title: Tableau de bord de présentation des Parcours de compte
-description: Découvrez les informations fournies par le tableau de bord de présentation du Parcours et comment elles peuvent vous aider à surveiller et à gérer votre stratégie de parcours de compte.
+description: Suivez les performances du parcours de compte avec les taux d’achèvement, les mesures d’engagement et les analyses d’efficacité des canaux dans Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---

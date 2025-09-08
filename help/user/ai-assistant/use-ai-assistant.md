@@ -1,13 +1,13 @@
 ---
 title: Utiliser l’assistant IA
-description: Découvrez comment l’assistant d’IA peut vous aider à tirer le meilleur parti des fonctionnalités de Journey Optimizer B2B edition.
+description: Posez des questions sur la connaissance des produits de l’assistant AI et obtenez des informations opérationnelles sur les parcours, les audiences et les groupes d’achat dans Journey Optimizer B2B edition.
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Pour poser une question sur un produit, saisissez-la dans le champ en bas du pan
 
 ![Saisissez une question dans la zone de texte](./assets/ai-assistant-ask-question.png){width="420"}
 
-+++Voir un exemple de réponse
++++Afficher un exemple de réponse
 
 ![Saisissez une question dans la zone de texte](./assets/ai-assistant-product-answer.png){width="420"}
 

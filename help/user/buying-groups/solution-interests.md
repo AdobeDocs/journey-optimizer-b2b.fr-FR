@@ -1,12 +1,12 @@
 ---
 title: Centres d’intérêt des solutions
-description: Découvrez les intérêts des solutions et comment les définir pour les utiliser dans vos groupes d'achat.
+description: Définissez les intérêts de la solution afin d’identifier les produits cibles et de créer automatiquement des groupes d’achats avec des modèles de rôle dans Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ Les intérêts de solution actuellement utilisés par un parcours de compte ou u
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3450115/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

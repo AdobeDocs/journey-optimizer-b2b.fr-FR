@@ -1,13 +1,13 @@
 ---
 title: Exporter les comptes
-description: Découvrez comment exporter la liste des comptes en fonction du filtre des groupes d’achat.
-feature: Account Lists
+description: Exportez les listes de comptes filtrées au format CSV pour les plateformes tierces avec les groupes d’achat et les filtres de score d’engagement dans Journey Optimizer B2B edition.
+feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 91%
+source-wordcount: '259'
+ht-degree: 83%
 
 ---
 

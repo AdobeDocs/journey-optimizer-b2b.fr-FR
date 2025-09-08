@@ -1,13 +1,13 @@
 ---
 title: Tableau de bord intelligent
-description: Découvrez le tableau de bord intelligent, qui fournit une vue complète des mesures des groupes d’achats et des comptes
+description: Accédez à des informations optimisées par l’IA pour les groupes d’achat et les comptes avec des mesures d’engagement, une détection d’intention et une analyse prédictive dans Journey Optimizer B2B edition.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -153,7 +153,7 @@ La section _[!UICONTROL Surging des comptes]_ affiche une visualisation des comp
 
 >[!NOTE]
 >
->Les données sur l’afflux de comptes sont limitées aux comptes ingérés par Journey Optimizer B2B edition dans une audience de compte par le biais de parcours de compte ou de groupes d’achat.
+>Les données sur l’afflux de comptes incluent uniquement les comptes ingérés par Journey Optimizer B2B edition par le biais de parcours de compte ou de groupes d’achat.
 
 ![Visualisation des données d’afflux de comptes](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -197,7 +197,7 @@ La section _[!UICONTROL Comptes mis en surbrillance]_ est organisée en deux lig
 
 >[!NOTE]
 >
->Les données de mise en surbrillance de compte sont limitées aux comptes ingérés par Journey Optimizer B2B edition dans une audience de compte par le biais de parcours de compte ou de groupes d’achat.
+>Les données Compte mettent en évidence incluent uniquement les comptes ingérés par Journey Optimizer B2B edition par le biais de parcours de compte ou de groupes d’achat.
 
 ![Principaux comptes](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

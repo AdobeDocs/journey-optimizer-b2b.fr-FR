@@ -1,10 +1,10 @@
 ---
 title: Étapes du groupe d'achat
-description: Découvrez les étapes d'un groupe d'achat et comment les définir pour suivre la progression du parcours par rapport aux objectifs de vente.
+description: Configurez les étapes du groupe d’achats pour suivre la progression des ventes de l’opportunité à la conversion client dans Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -120,7 +120,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 | **[!UICONTROL Nom de l’étape]** | Nom de l’étape. Cliquez sur l’icône d’informations pour afficher la description de l’étape. |
 | **[!UICONTROL Transit autorisé vers]** | Répertorie les étapes valides pour une action _déplacer vers_ dans le modèle. |
 | **[!UICONTROL Étape du point d’entrée]** | Indique si l’étape est valide comme étape de point d’entrée ([!UICONTROL Oui] ou [!UICONTROL Non]). |
-| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL &#x200B; Succès &#x200B;] ou [!UICONTROL &#x200B; Échec &#x200B;]). |
+| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL  Succès ] ou [!UICONTROL  Échec ]). |
 
 ![Étapes et règles de transition définies pour un modèle de brouillon](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -128,7 +128,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 
 Tant que le modèle des étapes du groupe d&#39;achat reste à l&#39;état _Brouillon_, vous pouvez modifier les étapes et les règles de transition.
 
-_Pour afficher le modèle de brouillon, procédez comme suit_
+_Pour afficher le modèle de brouillon :_
 
 1. Dans le volet de navigation de gauche, accédez à **[!UICONTROL Comptes]** > **[!UICONTROL Groupes d’achat]**.
 
@@ -365,4 +365,4 @@ Utilisez l&#39;occurrence d&#39;un changement d&#39;étape de groupe d&#39;achat
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3448696/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
