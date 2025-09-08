@@ -30,7 +30,7 @@ Il existe deux types de scores d’engagement :
 
 * **Score d’engagement de la personne** - Le score d’engagement de la personne est basé sur les activités d’un membre individuel du groupe d’achats.
 
-  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres ]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
+  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres &#x200B;]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
 
   ![Membres du groupe d&#39;achat les plus engagés](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
