@@ -365,4 +365,4 @@ Utilisez l&#39;occurrence d&#39;un changement d&#39;étape de groupe d&#39;achat
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448696/?learn=on&captions=fre_fr)
