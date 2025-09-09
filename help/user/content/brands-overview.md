@@ -1,6 +1,6 @@
 ---
 title: Utilisation des marques pour la génération de contenu et la cohérence
-description: Découvrez les directives relatives à la marque que vous pouvez définir dans Journey Optimizer B2B edition pour générer et optimiser votre contenu en fonction des styles et de la voix de votre marque.
+description: 'Définissez des directives de marque pour une création de contenu cohérente : conservez l’identité visuelle, l’alignement des messages et une voix authentique dans Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 9%
+source-wordcount: '837'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Commencer avec les marques"
->abstract="Créez et personnalisez vos propres marques pour définir votre identité visuelle et verbale unique, tout en facilitant la génération de contenu correspondant au style et à la voix de votre marque."
+>abstract="Créez et personnalisez vos marques pour définir votre identité visuelle et verbale unique tout en facilitant la génération de contenu correspondant à votre style et à votre voix de marque."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -73,7 +73,7 @@ Une marque définie constitue la _source de vérité_ que votre équipe créativ
 
 ## Autorisations liées à la marque
 
-Les administrateurs de produit peuvent permettre l’accès aux fonctionnalités de gestion des marques et d’alignement des marques en attribuant les autorisations de ressources **[!UICONTROL Gérer le kit de marque]** ou **[!UICONTROL Activer l’assistant d’IA]** via l’application _Autorisations_ dans Adobe Experience Cloud.
+Les administrateurs de produit peuvent permettre l’accès aux fonctionnalités de gestion des marques et d’alignement des marques en attribuant les autorisations de ressources **[!UICONTROL Gérer le kit de marque]** ou **[!UICONTROL Activer l’assistant d’IA]** via l’interface utilisateur _Autorisations_ de Adobe Experience Cloud.
 
 1. Dans l’application Autorisations, accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez le [rôle](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"} souhaité.
 

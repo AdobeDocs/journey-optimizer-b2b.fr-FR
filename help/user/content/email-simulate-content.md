@@ -1,14 +1,14 @@
 ---
 title: Prévisualiser et tester le contenu de votre e-mail
-description: Découvrez comment prévisualiser et tester le contenu de votre e-mail afin de vous assurer qu’il ne comporte aucune erreur dans le contenu et les paramètres de personnalisation.
+description: Prévisualisez les e-mails avec des profils de test, vérifiez le rendu sur les ordinateurs de bureau et les appareils mobiles, envoyez des BAT aux destinataires et validez la personnalisation dans Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 5%
+source-wordcount: '575'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Vérifier le rendu de votre contenu"
->abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct en fonction du canal que vous utilisez."
+>abstract="Lorsque votre contenu est défini, vous pouvez le prévisualiser et vérifier que le rendu est correct pour le canal que vous utilisez."
 
 Utilisez la fonctionnalité _Simuler du contenu_ pour prévisualiser le contenu de l’e-mail et envoyer des diffusions test à des destinataires spécifiques. Les champs d’e-mail obligatoires doivent être définis, notamment _[!UICONTROL Nom de l’expéditeur]_, _[!UICONTROL Adresse de l’expéditeur]_, _[!UICONTROL Adresse de réponse]_ et _[!UICONTROL Objet]_, pour accéder aux fonctionnalités d’aperçu et de test.
 
