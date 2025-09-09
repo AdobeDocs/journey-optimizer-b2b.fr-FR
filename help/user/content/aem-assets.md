@@ -23,7 +23,7 @@ Lorsque votre environnement dispose d’une ou de plusieurs connexions au réfé
 
 >[!IMPORTANT]
 >
->Un administrateur doit ajouter les utilisateurs qui doivent accéder à Assets aux profils de produit Utilisateurs consommateurs d’Assets et/ou Utilisateurs Assets . [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Un administrateur doit ajouter les utilisateurs qui doivent accéder à Assets aux profils de produit Utilisateurs consommateurs d’Assets et/ou Utilisateurs Assets . [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Accès aux images AEM Assets
 
@@ -33,7 +33,7 @@ Dans l’espace de conception de contenu, cliquez sur l’icône _[!UICONTROL Ex
 
 >[!NOTE]
 >
->Actuellement, seules les ressources d’image d’[!DNL Adobe Experience Manager Assets] sont prises en charge dans [!DNL Adobe Journey Optimizer B2B Edition]. Les modifications apportées aux ressources doivent être effectuées à partir du référentiel central [!DNL Adobe Experience Manager Assets]. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Actuellement, seules les ressources d’image d’[!DNL Adobe Experience Manager Assets] sont prises en charge dans [!DNL Adobe Journey Optimizer B2B Edition]. Les modifications apportées aux ressources doivent être effectuées à partir du référentiel central [!DNL Adobe Experience Manager Assets]. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Modifier le référentiel affiché
 

@@ -73,7 +73,7 @@ GenStudio for Performance Marketing reconnaît certains éléments dans l’HTML
 
 Utilisez le fichier HTML pour créer un modèle dans GenStudio for Performance Marketing.
 
-Pour plus d’informations sur le téléchargement d’un modèle HTML dans GenStudio dans Adobe GenStudio for Performance Marketing, reportez-vous à la section [ Ajouter un modèle ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) dans la documentation de GenStudio for Performance Marketing.
+Pour plus d’informations sur le téléchargement d’un modèle HTML dans GenStudio dans Adobe GenStudio for Performance Marketing, reportez-vous à la section [ Ajouter un modèle ](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) dans la documentation de GenStudio for Performance Marketing.
 
 Lorsque vous chargez l’HTML exporté en tant que modèle, GenStudio for Performance Marketing analyse le fichier HTML à la recherche de champs reconnus. Utilisez l’aperçu pour passer en revue vos éléments de modèle et confirmer que vous les avez correctement identifiés avec les noms de champ reconnus.
 
