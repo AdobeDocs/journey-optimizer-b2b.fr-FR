@@ -19,7 +19,7 @@ Lorsque [!DNL Adobe Experience Manager Assets as a Cloud Service] est intégré 
 
 Lorsque vous utilisez ces ressources numériques, les dernières modifications apportées à [!DNL Assets as a Cloud Service] se propagent automatiquement aux campagnes par e-mail actives par le biais de références liées. Si des images sont supprimées dans [!DNL Adobe Experience Manager Assets as a Cloud Service], elles apparaissent avec une référence rompue dans les e-mails. Lorsque des ressources actuellement utilisées dans les parcours de compte sont modifiées ou supprimées, les auteurs de parcours sont informés des modifications apportées à l’image et de la liste des parcours qui utilisent l’image. Toutes les modifications apportées aux ressources doivent être effectuées dans le référentiel central [!DNL Adobe Experience Manager Assets].
 
-Lorsque votre environnement dispose d’une ou de plusieurs connexions au référentiel Assets [](../admin/configure-aem-repositories.md), les auteurs de contenu peuvent utiliser [!DNL Experience Manager Assets] comme source de ressources lors de la création d’un e-mail, d’un modèle d’e-mail ou d’un fragment visuel.
+Lorsque votre environnement dispose d’une ou de plusieurs connexions au référentiel Assets [&#128279;](../admin/configure-aem-repositories.md), les auteurs de contenu peuvent utiliser [!DNL Experience Manager Assets] comme source de ressources lors de la création d’un e-mail, d’un modèle d’e-mail ou d’un fragment visuel.
 
 >[!IMPORTANT]
 >
