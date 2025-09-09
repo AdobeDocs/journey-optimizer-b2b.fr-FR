@@ -1,15 +1,15 @@
 ---
 title: Création de contenu d’e-mail avec GenStudio for Performance Marketing
-description: Découvrez comment intégrer les workflows GenStudio pour rationaliser la conception de l’expérience e-mail.
+description: 'Intégrer GenStudio for Performance Marketing à Journey Optimizer B2B edition : exportez HTML, créez des expériences de messagerie optimisées par IA et importez du contenu de marque.'
 feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
-source-git-commit: 82bfb3b425bc7a3931b5ce8b925b860ef70d11fe
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '794'
 ht-degree: 12%
 
 ---
@@ -73,7 +73,7 @@ GenStudio for Performance Marketing reconnaît certains éléments dans l’HTML
 
 Utilisez le fichier HTML pour créer un modèle dans GenStudio for Performance Marketing.
 
-Pour plus d’informations sur le téléchargement d’un modèle HTML dans GenStudio dans Adobe GenStudio for Performance Marketing, reportez-vous à la section [ Ajouter un modèle ](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) dans la documentation de GenStudio for Performance Marketing.
+Pour plus d’informations sur le téléchargement d’un modèle HTML dans GenStudio dans Adobe GenStudio for Performance Marketing, reportez-vous à la section [ Ajouter un modèle ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) dans la documentation de GenStudio for Performance Marketing.
 
 Lorsque vous chargez l’HTML exporté en tant que modèle, GenStudio for Performance Marketing analyse le fichier HTML à la recherche de champs reconnus. Utilisez l’aperçu pour passer en revue vos éléments de modèle et confirmer que vous les avez correctement identifiés avec les noms de champ reconnus.
 

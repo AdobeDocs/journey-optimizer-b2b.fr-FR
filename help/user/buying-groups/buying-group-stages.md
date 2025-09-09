@@ -1,12 +1,12 @@
 ---
 title: Étapes du groupe d'achat
-description: Configurez les étapes du groupe d’achats pour suivre la progression des ventes de l’opportunité à la conversion client dans Journey Optimizer B2B edition.
+description: Créez des modèles d’étape de groupe d’achats personnalisés avec les étapes d’entrée, de succès et d’échec pour suivre la progression et déclencher des actions de parcours de compte dans Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2351'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Les étapes de groupes d&#39;achat sont conçues pour suivre l&#39;évolution des groupes d&#39;achat dans la conversion des opportunités en clients. Utilisez cette fonctionnalité pour suivre la progression du groupe d&#39;achat et identifier les meilleures actions suivantes pour les membres du groupe d&#39;achat.
 
-Définissez les étapes dans un modèle d’évaluation unique, en définissant plusieurs étapes et le flux de transition entre elles. Une ou plusieurs étapes sont désignées pour l&#39;entrée dans le cycle de vie. Le modèle permet également une progression non linéaire, où vous pouvez spécifier des transitions d&#39;une étape à une autre, par exemple de l&#39;étape A vers les étapes B, C ou D. Il est nécessaire qu’une étape soit désignée comme étape de succès, par exemple un achat ou un contrat signé. Il est facultatif qu’une autre étape soit désignée comme une étape d’échec, par exemple un contrat rejeté ou l’achat d’une solution concurrente auprès d’un autre fournisseur. Pour ce faire, des [tableaux de bord intelligents](../dashboards/intelligent-dashboard.md) montrent la progression des groupes d&#39;achats en termes de réalisation d&#39;une opportunité de vente ou de conversion d&#39;une opportunité en client.
+Définissez les étapes dans un modèle d’évaluation unique, en définissant plusieurs étapes et le flux de transition entre elles. Une ou plusieurs étapes sont désignées pour l&#39;entrée dans le cycle de vie. Le modèle permet également une progression non linéaire, où vous pouvez spécifier des transitions d&#39;une étape à une autre, par exemple de l&#39;étape A vers les étapes B, C ou D. Il est nécessaire qu’une étape soit désignée comme étape de succès, par exemple un achat ou un contrat signé. Il est facultatif qu’une autre étape soit désignée comme une étape d’échec, par exemple un contrat rejeté ou l’achat d’une solution concurrente auprès d’un autre fournisseur. Surveillez ces étapes au moyen de [tableaux de bord intelligents](../dashboards/intelligent-dashboard.md) qui montrent comment les groupes d&#39;achats progressent en termes de réalisation d&#39;une opportunité de vente ou de conversion d&#39;une opportunité en client.
 
 ![Exemple d’étapes de groupe d’achat](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -111,7 +111,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 
    Vous pouvez éventuellement définir une transition à partir d’une étape d’échec. Par exemple, vous pouvez désigner une étape nommée _Aucune réponse_ comme étape d’échec. Mais aussi désigner une étape appelée _Résurgence_ comme transition possible pour identifier les cas où un compte inactif est réactivé.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
    Avec le retour à la page des détails du modèle, les étapes sont répertoriées dans un tableau avec les transitions autorisées, ainsi que les propriétés de destination et d’entrée.
 
@@ -120,7 +120,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 | **[!UICONTROL Nom de l’étape]** | Nom de l’étape. Cliquez sur l’icône d’informations pour afficher la description de l’étape. |
 | **[!UICONTROL Transit autorisé vers]** | Répertorie les étapes valides pour une action _déplacer vers_ dans le modèle. |
 | **[!UICONTROL Étape du point d’entrée]** | Indique si l’étape est valide comme étape de point d’entrée ([!UICONTROL Oui] ou [!UICONTROL Non]). |
-| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL &#x200B; Succès &#x200B;] ou [!UICONTROL &#x200B; Échec &#x200B;]). |
+| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL  Succès ] ou [!UICONTROL  Échec ]). |
 
 ![Étapes et règles de transition définies pour un modèle de brouillon](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -227,7 +227,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
    Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation de 24 heures.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 ### Chemins partagés
 
@@ -365,4 +365,4 @@ Utilisez l&#39;occurrence d&#39;un changement d&#39;étape de groupe d&#39;achat
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3448696/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

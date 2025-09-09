@@ -1,12 +1,12 @@
 ---
 title: Scores d'engagement pour les groupes d'achat
-description: Suivez les scores d’engagement des groupes d’achats et des personnes avec des activités pondérées et des calculs basés sur les rôles dans Journey Optimizer B2B edition.
+description: Calculez les scores d’engagement du groupe d’achats et de la personne à l’aide des activités pondérées, des calculs basés sur les rôles et des fenêtres de notation sur 30 jours dans Journey Optimizer B2B edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1254'
 ht-degree: 29%
 
 ---
@@ -30,7 +30,7 @@ Il existe deux types de scores d’engagement :
 
 * **Score d’engagement de la personne** - Le score d’engagement de la personne est basé sur les activités d’un membre individuel du groupe d’achats.
 
-  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres &#x200B;]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
+  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres ]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
 
   ![Membres du groupe d&#39;achat les plus engagés](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

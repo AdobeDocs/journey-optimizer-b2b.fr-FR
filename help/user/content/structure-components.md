@@ -1,12 +1,12 @@
 ---
 title: Composants de structure
-description: Découvrez comment utiliser les composants de structure pour définir la disposition de votre e-mail, de votre page de destination et du contenu visuel de votre fragment.
+description: Utilisez les composants de structure pour créer des dispositions pour les e-mails, les pages de destination et les fragments. Faites glisser les dispositions de colonne, définissez des styles et configurez l’affichage mobile dans Journey Optimizer B2B edition.
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1584'
 ht-degree: 7%
 
 ---
@@ -107,7 +107,7 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
+#### [!UICONTROL  Couleur d’arrière-plan ]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 

@@ -1,12 +1,12 @@
 ---
 title: Nœuds d’audience de compte
-description: Découvrez le type de nœud d’audience du compte que vous pouvez utiliser pour définir l’entrée de vos parcours de compte dans Journey Optimizer B2B edition.
+description: Configurez les nœuds d’audience de compte avec des audiences de compte ou des listes de comptes pour définir des points d’entrée de parcours pour l’orchestration ciblée dans Journey Optimizer B2B edition.
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 82553c9ee6205e0ad47cc5a56112590471c03d0e
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---

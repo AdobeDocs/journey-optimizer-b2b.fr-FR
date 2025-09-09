@@ -1,12 +1,13 @@
 ---
 title: Consulter le rapport sur les spams
-description: Découvrez comment vérifier le score de spam de votre contenu d'e-mail dans un rapport dédié sur le spam qui prédit si les FAI ou les fournisseurs de messagerie le considéreront comme du spam ou non.
+description: Générez des rapports de spam avec le score SpamAssassin afin de vérifier si les emails déclenchent des filtres de spam et améliorent la délivrabilité dans Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -40,6 +41,3 @@ Lorsque vous passez en revue les paramètres de votre e-mail ou modifiez le cont
 1. S’il existe des éléments pouvant être améliorés dans le contenu de l’e-mail, modifiez votre contenu pour appliquer les mises à jour nécessaires.
 
 1. Une fois vos modifications effectuées, revenez à la page _[!UICONTROL Simuler]_ et cliquez de nouveau sur **[!UICONTROL Rapport sur les spams]** pour vérifier les améliorations du score qui en résultent.
-
-
-

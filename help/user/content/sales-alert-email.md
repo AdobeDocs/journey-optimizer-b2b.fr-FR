@@ -1,12 +1,12 @@
 ---
 title: E-mail d’alerte de ventes
-description: Découvrez comment inclure un e-mail d’alerte de vente automatisé dans les parcours de votre compte.
+description: Configurez les e-mails d’alerte commerciale dans les parcours de compte pour informer les équipes commerciales. Cela inclut des résumés des groupes d’achats, des informations sur l’IA et des détails des membres dans Journey Optimizer B2B edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 6%
 
 ---
@@ -65,4 +65,4 @@ Vous pouvez configurer des diffusions par e-mail d’alerte de vente dans un par
 
    ![Boîte de dialogue Créer un e-mail](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Une fois le parcours de compte publié, l’alerte de ventes est diffusée en fonction de ces paramètres.
+   Lorsque le parcours de compte est actif, l’alerte de vente est diffusée en fonction de ces paramètres.

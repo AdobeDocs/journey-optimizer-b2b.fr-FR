@@ -1,12 +1,12 @@
 ---
 title: Centres d’intérêt des solutions
-description: Définissez les intérêts de la solution afin d’identifier les produits cibles et de créer automatiquement des groupes d’achats avec des modèles de rôle dans Journey Optimizer B2B edition.
+description: Créez les intérêts des solutions pour les produits cibles, automatisez la création de groupes d’achats avec des modèles de rôle et gérez la progression des étapes dans Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Avant de créer un intérêt pour la solution, vous devez disposer d’un modèl
 
      Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation de 7 jours.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 ## Supprimer un intérêt de solution
 
@@ -104,4 +104,4 @@ Les intérêts de solution actuellement utilisés par un parcours de compte ou u
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3450115/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

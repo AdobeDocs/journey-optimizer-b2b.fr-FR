@@ -1,15 +1,15 @@
 ---
 title: Modèles de pages de destination
-description: Découvrez comment créer des modèles de page de destination que votre équipe marketing peut utiliser pour créer des pages afin de prendre en charge les parcours de compte et les campagnes.
+description: 'Créez, gérez et réutilisez des modèles de page de destination : concevez entièrement, importez HTML, dupliquez, supprimez et suivez l’utilisation pour les équipes marketing dans Journey Optimizer B2B edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 3%
 
 ---
@@ -150,13 +150,13 @@ Dans la page de liste des modèles de page de destination, sélectionnez plusieu
 
 ## Créer une page de destination à partir d’un modèle enregistré
 
-Sur la page _Créer votre page de destination_, accédez à la section _Sélectionner un modèle de conception_ pour commencer à créer votre contenu à partir d’un modèle.
+Sur la page _[!UICONTROL Créer votre page de destination]_, accédez à la section _Sélectionner un modèle de conception_ pour commencer à créer votre contenu à partir d’un modèle.
 
 Pour commencer à créer votre contenu avec l’un des modèles de page de destination créés, procédez comme suit :
 
 1. Accédez à l’espace de conception visuelle à partir de la page _Modifier le contenu_.
 
-   Sur la page _Créer votre page de destination_, l’onglet _Exemples de modèles_ est sélectionné par défaut.
+   Sur la page _[!UICONTROL Créer votre page de destination]_, l’onglet _Exemples de modèles_ est sélectionné par défaut.
 
 1. Pour utiliser un modèle de landing page personnalisé, sélectionnez l’onglet **[!UICONTROL Modèles enregistrés]** .
 
@@ -168,4 +168,4 @@ Pour commencer à créer votre contenu avec l’un des modèles de page de desti
 
 1. Cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite.
 
-1. Dans le concepteur de contenu visuel, modifiez votre contenu selon vos besoins.
+1. Dans l’espace de conception visuelle du contenu, modifiez votre contenu selon vos besoins.

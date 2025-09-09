@@ -1,14 +1,14 @@
 ---
 title: Nœuds de Parcours de compte
-description: Découvrez les types de nœuds que vous pouvez utiliser pour créer vos parcours de compte dans Journey Optimizer B2B edition.
+description: Créez des parcours de compte avec des nœuds d’action, d’événement et d’orchestration (audience, attente, partage et fusion) pour le marketing cross-canal dans Journey Optimizer B2B edition.
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 12%
 
 ---
 
@@ -18,9 +18,9 @@ Après avoir [créé un parcours de compte](journey-overview.md#create-an-accoun
 
 Créez le parcours de votre compte en combinant les différents nœuds d’action, d’événement et d’orchestration en tant que scénario cross-canal à plusieurs étapes. Chaque nœud d’un parcours représente une étape le long d’un chemin logique. Utilisez les types de nœuds suivants pour créer un parcours de compte :
 
-* [Audience (comptes)](./account-audience-nodes.md)
-* [Effectuer une action](./action-nodes.md)
-* [Écoute d’un événement](./listen-for-event-nodes.md)
-* [Partage de chemins](./split-merge-paths-nodes.md)
-* [Attente](./wait-nodes.md)
+* [Audience de compte](./account-audience-nodes.md)
+* [Entreprendre une action](./action-nodes.md)
+* [Écouter un événement](./listen-for-event-nodes.md)
+* [Chemins partagés](./split-merge-paths-nodes.md)
+* [Attendre](./wait-nodes.md)
 * [Fusionner les chemins](./split-merge-paths-nodes.md)

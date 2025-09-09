@@ -1,12 +1,12 @@
 ---
 title: Gouvernance du contenu des modèles
-description: Découvrez comment verrouiller les éléments de contenu dans vos modèles d’e-mail afin de pouvoir régir la manière dont ils peuvent être modifiés pour une utilisation dans les parcours de compte.
+description: 'Verrouiller les composants de modèle d’e-mail pour la conformité de marque : définissez les modes de gouvernance, contrôlez la modification du contenu et gérez les autorisations pour les auteurs de parcours de compte dans Journey Optimizer B2B edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Par exemple, vous pouvez verrouiller l’en-tête et le pied de page conçus pou
 
 ## Activer la gouvernance de contenu pour le modèle
 
-Après avoir utilisé le concepteur visuel pour [créer les composants de structure et de contenu](./email-template-authoring.md) pour votre modèle d’e-mail, activez la gouvernance et appliquez un verrouillage de contenu spécifique si nécessaire.
+Après avoir utilisé l’espace de conception visuelle pour [créer les composants de structure et de contenu](./email-template-authoring.md) pour votre modèle d’e-mail, activez la gouvernance et appliquez un verrouillage de contenu spécifique si nécessaire.
 
-1. Dans le concepteur visuel, accédez aux calques/conteneurs et aux éléments à l’aide de l’_arborescence de navigation_.
+1. Dans l’espace de conception visuelle, accédez aux calques/conteneurs et aux éléments à l’aide de l’_arborescence de navigation_.
 
    Cliquez sur l’icône _Arborescence de navigation_ ( ![Icône Lien](../assets/do-not-localize/icon-navigation-tree.svg) ) à gauche de la zone de travail pour afficher l’arborescence.
 

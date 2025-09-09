@@ -1,13 +1,13 @@
 ---
 title: Parcours de compte
-description: Commencez avec les parcours de compte et apprenez à utiliser la liste Parcours de compte pour les gérer.
+description: 'Rationalisez la génération de la demande avec les parcours de compte : créez, publiez, gérez l’engagement des groupes d’achats par e-mail, SMS et événements dans Journey Optimizer B2B edition.'
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 97%
 
 ---
 
@@ -157,4 +157,4 @@ Utilisez une action de suppression pour supprimer définitivement un parcours. V
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443209/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

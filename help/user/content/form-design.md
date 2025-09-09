@@ -1,13 +1,13 @@
 ---
 title: Conception de formulaire
-description: Découvrez comment concevoir des formulaires réutilisables utilisés pour collecter des informations sur les prospects.
+description: Concevez des formulaires avec des types de champs, une validation, un style et des attributs de schéma XDM pour la collecte de données métier dans Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2062'
 ht-degree: 1%
 
 ---
@@ -199,7 +199,7 @@ _Pour définir un CSS personnalisé pour le formulaire :_
 
    Vous pouvez modifier le texte collé dans cette fenêtre.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 ### Style manuel
 

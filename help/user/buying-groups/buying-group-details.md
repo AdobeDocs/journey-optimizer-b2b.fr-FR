@@ -1,12 +1,12 @@
 ---
 title: Détails du groupe d'achat
-description: Affichez les détails des groupes d’achats à l’aide d’informations sur l’IA, gérez les membres et suivez les scores d’engagement dans Journey Optimizer B2B edition.
+description: Affichez les détails du groupe d’achats avec des informations sur l’IA, gérez les rôles des membres, suivez les scores d’engagement et analysez les données d’intention dans Journey Optimizer B2B edition.
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '785'
 ht-degree: 4%
 
 ---
@@ -112,7 +112,7 @@ Un compte peut être associé à un ou plusieurs groupes d&#39;achats, et les me
 
    ![Onglet Membres - Attribuer un nouveau rôle de membre](./assets/buying-group-details-assign-member-edit-role.png){width="700" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 ### Supprimer un membre
 
@@ -140,7 +140,7 @@ Vous pouvez modifier le rôle d&#39;un ou de plusieurs membres sélectionnés (j
 
    ![Modifier les rôles de membre - choisir les rôles](./assets/buying-group-details-edit-roles-choose-roles.png){width="700" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 ### Envoyer un e-mail
 

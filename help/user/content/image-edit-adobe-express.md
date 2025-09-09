@@ -1,13 +1,13 @@
 ---
 title: Modification d’images avec Adobe Express
-description: Découvrez comment utiliser Adobe Express pour modifier des images dans l’espace de travail Journey Optimizer B2B edition.
+description: 'Modifiez les images en mode natif avec Adobe Express dans Journey Optimizer B2B edition : redimensionnez, recadrez, supprimez des arrière-plans, convertissez des formats et enregistrez-les dans votre espace de travail.'
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 3%
+source-wordcount: '894'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer B2B edition s’intègre de manière native à Adobe Exp
 
 Les fonctions Adobe Express prennent en charge les formats de fichiers image PNG et JPEG.
 
-_Pour modifier une image, procédez comme suit_
+_Pour modifier une image :_
 
 1. Accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Assets]**.
 
@@ -56,11 +56,11 @@ Cette action ouvre une page de liste contenant toutes les ressources répertori�
 
    ![Ouvrez l’image dans l’éditeur Adobe Express](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-   Si l’image est en cours d’utilisation, une boîte de dialogue d’alerte s’affiche pour vous informer que toute modification que vous apportez aura une incidence sur ce contenu. Cliquez sur **[!UICONTROL Continuer]** pour accéder à l’éditeur d’Adobe Express.
+   Si l’image est en cours d’utilisation, une boîte de dialogue d’alerte s’affiche pour vous informer que vos modifications affectent ce contenu. Cliquez sur **[!UICONTROL Continuer]** pour accéder à l’éditeur d’Adobe Express.
 
    ![Une alerte fournit des informations sur l’utilisation des images](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
-## Licence Adobe Express Enterprise
+## Licence Adobe Express Enterprise
 
 Si vous disposez d’une licence Enterprise pour Adobe Express, vous pouvez accéder à l’éditeur Express et l’utiliser. Ces fonctionnalités de modification incluent des opérations pour le réglage des images, comme la couleur, la luminosité, la netteté, les contrastes et le recadrage. Elles incluent également des opérations _magie de l’IA_ telles que la suppression d’arrière-plans, l’insertion et la suppression d’objets, ainsi que l’effacement de parties de l’image.
 
@@ -70,7 +70,7 @@ Si vous disposez d’une licence Enterprise pour Adobe Express, vous pouvez acc�
 
 ![Ouvrez l’image dans l’éditeur d’Adobe Express Enterprise](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-Le [Guide de l’utilisateur d’Adobe Express](https://helpx.adobe.com/fr/express/user-guide.html){target="_blank"} fournit des informations détaillées sur les fonctionnalités de modification disponibles.
+Le [Guide de l’utilisateur d’Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} fournit des informations détaillées sur les fonctionnalités de modification disponibles.
 
 ## Actions rapides dans Adobe Express
 

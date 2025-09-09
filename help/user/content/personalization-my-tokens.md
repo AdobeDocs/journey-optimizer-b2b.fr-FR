@@ -1,13 +1,13 @@
 ---
 title: Jetons personnalisés pour Email Personalization
-description: Découvrez comment utiliser un ensemble de jetons définis pour un parcours de compte afin de gérer la personnalisation de votre contenu d’e-mail.
+description: 'Créer et gérer des jetons My personnalisés pour une personnalisation dynamique des e-mails : définissez des variables de texte et de nombre pour les parcours de compte dans Journey Optimizer B2B edition.'
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 3%
+source-wordcount: '603'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Les _Mes jetons_ sont des variables personnalisées que vous créez ou modifiez 
 
 Lorsque vous ajoutez un jeton personnalisé à un e-mail, il s’affiche sous la forme `{{my.TokenName}}`. Par exemple, vous pouvez avoir créé des jetons `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` pour gérer le contenu des e-mails liés aux webinaires à venir.
 
-_Pour accéder aux jetons personnalisés pour un parcours de compte :_
+_Accéder aux jetons personnalisés pour un parcours de compte :_
 
 1. Ouvrez le brouillon de parcours de compte.
 
@@ -93,4 +93,4 @@ Lorsque vous créez du contenu d’e-mail pour le parcours de votre compte, vous
 
    ![Créer du texte personnalisé à l’aide de mes jetons](./assets/personalization-edit-dialog-my-tokens.png){width="700" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**

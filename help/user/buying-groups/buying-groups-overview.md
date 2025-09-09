@@ -1,12 +1,12 @@
 ---
 title: Groupes d’achat
-description: Stimulez le marketing basé sur les comptes avec des groupes d’achats pour identifier les décideurs clés, suivre les scores d’engagement et cibler les comptes dans Journey Optimizer B2B edition.
+description: Optimisez le marketing basé sur les comptes avec des groupes d’achats - identifiez les décideurs, suivez les scores d’engagement et automatisez le ciblage dans Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1187'
 ht-degree: 73%
 
 ---
@@ -24,7 +24,7 @@ Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _
 
 ## Composants clés
 
-Vous pouvez accroître l’efficacité du marketing en établissant des groupes d’achat dans Journey Optimizer B2B edition qui identifient les membres de vos listes de comptes cibles pour les solutions que vos équipes commerciales sont chargées de vendre. Avant que vous et votre équipe marketing ne commenciez à créer vos groupes d’achat, assurez-vous que les composants clés sont définis. Ces composants sont essentiels pour atteindre les buts et objectifs de votre entreprise.
+Vous pouvez accroître l&#39;efficacité du marketing en établissant des groupes d&#39;achat qui identifient les membres de vos listes de comptes cibles pour les solutions que vos équipes commerciales sont chargées de vendre. Avant que vous et votre équipe marketing ne commenciez à créer vos groupes d’achat, assurez-vous que les composants clés sont définis. Ces composants sont essentiels pour atteindre les buts et objectifs de votre entreprise.
 
 | Composant | But |
 | --------- | ------- |
@@ -112,4 +112,4 @@ Consultez [Scores d’engagement](./engagement-scores.md) pour plus d’informat
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

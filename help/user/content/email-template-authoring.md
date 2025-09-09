@@ -1,13 +1,13 @@
 ---
-title: Création de modèles d’e-mail
-description: Découvrez comment créer des modèles d’e-mail de contenu qui peuvent être utilisés pour les e-mails de parcours de compte afin de réutiliser vos conceptions facilement et efficacement.
+title: Création de modèle d’e-mail
+description: Créez des modèles d’e-mail réutilisables avec des outils de conception visuelle, un CSS personnalisé, des fragments et une personnalisation pour les parcours de compte dans Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 3%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Après avoir [créé un modèle d’e-mail](./email-templates.md#create-an-email
 
 ### Ajouter un CSS personnalisé
 
-Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception de modèle d’e-mail. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de niveau supérieur avant d’inclure des composants tels que des images, des boutons et du texte.
+Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception de modèle d’e-mail. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de niveau supérieur avant d’inclure des composants, tels que des images, des boutons et du texte.
 
 Avec au moins un composant de contenu dans la zone de travail, sélectionnez le composant **[!UICONTROL Corps]** dans l’arborescence de navigation de gauche pour accéder à l’éditeur CSS personnalisé.
 

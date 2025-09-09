@@ -1,11 +1,11 @@
 ---
 title: Vue d’ensemble d’Adobe Journey Optimizer B2B Edition
-description: Découvrez les fonctionnalités clés, les cas d’utilisation et les architectures d’Adobe Journey Optimizer B2B Edition.
+description: 'Découvrez Adobe Journey Optimizer B2B edition : orchestrez des parcours de compte avec des groupes d’achats, des informations sur l’IA et l’intégration d’Experience Platform pour le marketing B2B.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
-workflow-type: ht
-source-wordcount: '811'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ Avec Adobe Journey Optimizer B2B Edition, vous pouvez orchestrer des parcours
 
 ## Parcours de compte avec groupes d’achat
 
-Si l’on compare Adobe Journey Optimizer B2B Edition à Marketo Engage et à Adobe Journey Optimizer Standard, la principale différence est que les parcours de compte déplacent les comptes dans le parcours, et non les personnes. Une personne associée à un compte a généralement une progression non linéaire qui repose sur la progression du compte dans le parcours, et non sur ses actions individuelles. Par exemple, lorsqu’un compte se trouve dans une phase initiale du parcours d’achat, les informations envoyées peuvent concerner les fonctionnalités générales de la solution. Plus loin dans le processus d’achat, le contenu peut cibler davantage des offres particulières ou d’autres éléments visant à conclure une vente. Une fois la solution achetée, les informations peuvent être modifiées à nouveau afin de fournir des guides pratiques, des bonnes pratiques ou des informations sur les événements à venir, ou encore du contenu sur d’autres montées en gamme. Même si une personne n’a pas interagi avec le contenu de la phase initiale, il est toujours nécessaire de la faire progresser vers la phase actuelle en fonction non pas de ses propres actions, mais des actions des autres personnes au sein de son compte ou de son groupe d’achat.
+Lorsque vous comparez Adobe Journey Optimizer B2B edition à Marketo Engage et Adobe Journey Optimizer standard, la distinction essentielle est que les parcours de compte déplacent les comptes à travers le Parcours, et non les personnes. Une personne associée à un compte a généralement une progression non linéaire qui repose sur la progression du compte dans le parcours, et non sur ses actions individuelles. Par exemple, lorsqu’un compte se trouve dans une phase initiale du parcours d’achat, les informations envoyées peuvent concerner les fonctionnalités générales de la solution. Plus loin dans le processus d’achat, le contenu peut cibler davantage des offres particulières ou d’autres éléments visant à conclure une vente. Une fois la solution achetée, les informations peuvent être modifiées à nouveau afin de fournir des guides pratiques, des bonnes pratiques ou des informations sur les événements à venir, ou encore du contenu sur d’autres montées en gamme. Même si une personne n’a pas interagi avec le contenu de la phase initiale, il est toujours nécessaire de la faire progresser vers la phase actuelle en fonction non pas de ses propres actions, mais des actions des autres personnes au sein de son compte ou de son groupe d’achat.
 
 ## Architecture détaillée
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B Edition utilise les _Audiences de compte_ et les _
 
 >[!NOTE]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 ### Modèle d’abonnement
 
@@ -37,7 +37,7 @@ L’objectif d’Experience Platform dans cette configuration est de fournir un
 
 Les parcours de compte sont créés dans Journey Optimizer B2B Edition et stockés dans l’instance Marketo Engage associée à l’abonnement. Bien qu’ils soient stockés dans le magasin de données Marketo Engage, ils ne sont pas visibles depuis l’interface d’utilisation de Marketo Engage et ne peuvent être utilisés que depuis Journey Optimizer B2B Edition.
 
-Un parcours de compte commence toujours par la sélection d’un segment de compte à utiliser comme audience de compte pour le parcours. La sélection de l’audience utilise le composant standard de sélecteur d’audience Experience Platform. Les spécialistes du marketing peuvent ensuite implémenter le parcours de compte en divisant les chemins du parcours en fonction de leurs propres critères, qui peuvent inclure des critères de compte, de personne ou de groupe d’achat. Sur chaque branche, des actions peuvent être entreprises pour implémenter le parcours, telles que l’envoi d’un e-mail ou l’attente d’un événement.
+Un parcours de compte commence toujours par la sélection d’un segment de compte à utiliser comme audience de compte pour le parcours. La sélection de l’audience utilise le composant standard de sélecteur d’audience Experience Platform. Les marketeurs peuvent ensuite implémenter le parcours de compte en divisant les chemins de parcours en fonction de leurs propres critères, qui peuvent inclure des critères de compte, des critères de personne ou des critères de groupe d’achats. Sur chaque branche, des actions peuvent être entreprises pour implémenter le parcours, telles que l’envoi d’un e-mail ou l’attente d’un événement.
 
 Une fois le parcours de compte créé, il doit être publié. Lors de la publication, le parcours de compte est validé et converti en une série de campagnes Marketo Engage qui implémentent l’expérience du parcours. Les services d’intégration de données sont contactés pour démarrer le flux de données qui, à son tour, lance les opérations de parcours de compte. La première étape consiste à créer les segments pour les personnes du compte.
 

@@ -1,12 +1,12 @@
 ---
 title: Ajout d’une page CSS personnalisée pour votre contenu
-description: Découvrez comment ajouter du code CSS personnalisé au contenu de votre e-mail et de votre page de destination.
+description: Ajoutez une page CSS personnalisée aux e-mails et aux pages de destination pour un style avancé et un contrôle de conception précis allant au-delà des composants standard dans Journey Optimizer B2B edition.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 9%
 
 ---
@@ -192,7 +192,7 @@ Si vous souhaitez utiliser un CSS personnalisé avec du contenu importé dans l�
 
 * Si vous importez du contenu HTML externe, y compris du contenu CSS, <!-- unless converting that content, -->il est renseigné en [!UICONTROL mode de compatibilité] et la section [!UICONTROL styles CSS] n’est pas disponible.
 
-* Si vous importez du contenu créé à l’origine dans l’espace de conception d’e-mail ou de page de destination, y compris le CSS appliqué par le biais de l’option [!UICONTROL Ajouter un CSS personnalisé], le CSS appliqué est visible et modifiable à partir de la même option.
+* Si vous importez du contenu créé à l’origine dans l’espace de conception d’e-mail ou de page de destination à l’aide de l’option [!UICONTROL Ajouter un CSS personnalisé], le CSS appliqué est visible et modifiable à partir de la même option.
 
 ## Dépannage
 

@@ -1,13 +1,13 @@
 ---
 title: Formulaires
-description: Découvrez comment créer des formulaires réutilisables que vous pouvez inclure dans vos pages de destination.
+description: 'Créez et gérez des formulaires réutilisables pour la collecte de données métier : concevez des champs, définissez des pages de remerciement, publiez et suivez l’utilisation dans Journey Optimizer B2B edition.'
 feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2357'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Le statut du formulaire détermine sa disponibilité pour une utilisation dans u
 | -------------------- | ----------- |
 | Brouillon | Lorsque vous créez un formulaire, il a le statut de brouillon. Il reste dans ce statut lorsque vous définissez ou modifiez les champs jusqu’à ce que vous le publiiez pour l’utiliser dans une page de destination ou un modèle de page de destination. Actions disponibles :<br/><ul><li>Modifier tous les détails<li>Modification dans l’espace de conception visuelle<li>Publier<li>Dupliquer<li>Supprimer |
 | Publié | Lorsque vous publiez un formulaire, il peut être utilisé dans une page de destination ou un modèle de page de destination. Le contenu du formulaire publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou la page de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
-| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un formulaire publié, la version publiée reste disponible pour une utilisation dans une page de destination ou un modèle de page de destination, et le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les pages de destination ou les modèles de page de destination où il est utilisé. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou les pages de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
+| Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un formulaire publié, la version publiée reste disponible pour être utilisée dans une page de destination ou un modèle. Le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les pages de destination ou les modèles de page de destination où il est utilisé. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou les pages de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 
 ![ Cycle de vie du statut du formulaire ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 

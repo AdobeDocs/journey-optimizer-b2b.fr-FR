@@ -1,12 +1,12 @@
 ---
 title: Modèles de rôle de groupe d'achat
-description: Créez des modèles de rôle de groupe d’achats avec des conditions d’affectation automatique pour identifier les décideurs et les parties prenantes dans Journey Optimizer B2B edition.
+description: Créez des modèles de rôle avec affectation automatique conditionnelle pour identifier les décideurs et les parties prenantes pour les groupes d’achat dans Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 6%
 
 ---
@@ -62,7 +62,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
 | Type | Condition |
 | ---- | --------- |
-| Attributs de la personne | <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Numéro de fax <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Nom intermédiaire <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné <li>Raison désabonnement |
+| Attributs de la personne | <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Numéro de fax <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Nom intermédiaire <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
 | Filtres spéciaux | <li>Membre de la liste <li>Membre du programme |
 | Données d’intention | Intention de la catégorie <li>Intention du produit <li>Intention du mot-clé <br/>[en savoir plus sur les données d’intention](../admin/intent-data.md). |
 
@@ -162,4 +162,4 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

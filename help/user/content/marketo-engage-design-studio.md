@@ -1,12 +1,12 @@
 ---
 title: Utilisation de Marketo Engage Assets
-description: Découvrez comment utiliser l’intégration de gestion des ressources de Marketo Engage Design Studio dans Journey Optimizer B2B edition.
+description: Parcourez, gérez et utilisez les ressources Marketo Engage Design Studio dans Journey Optimizer B2B edition. Organisez des espaces de travail, modifiez des images et créez du contenu pour les parcours de compte.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Dans la boîte de dialogue _[!UICONTROL Remplacer la ressource]_, faites glisser
 
 Pour continuer, cliquez sur **[!UICONTROL Remplacer]**. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]**.
 
-Si le fichier à remplacer est en cours d’utilisation, une boîte de dialogue d’information vous informe que le nouveau fichier image remplace l’image partout où elle est utilisée (e-mails, modèles d’e-mail et fragments).
+Si le fichier à remplacer est en cours d’utilisation, une boîte de dialogue vous informe que le nouveau fichier image remplace l’image là où elle est utilisée (e-mails, modèles d’e-mail et fragments).
 
 ## Téléchargement de ressources
 
@@ -162,7 +162,7 @@ Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélecti
 
 +++
 
-+++Supprimer des ressources
++++Suppression de ressources
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Dans l’espace de travail _[!UICONTROL Journey Optimizer B2B edition]_, vous po
 
 Vous pouvez effectuer les actions suivantes au niveau du dossier :
 
-+++Ajouter des ressources
++++Ajout de ressources
 
 1. Sélectionnez **[!UICONTROL Ajouter des ressources]** pour charger des fichiers image dans le dossier.
 
@@ -230,7 +230,7 @@ Vous pouvez effectuer les actions suivantes au niveau du dossier :
 
    Les noms de dossier doivent être uniques, comporter un maximum de 100 caractères et ne peuvent pas contenir de caractères spéciaux, tels que `;`, `:`, `\`, `|`.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 +++
 
@@ -270,7 +270,7 @@ L’archivage d’un dossier rend les fichiers qu’il contient impossibles à r
 
 Assets peut être utilisé pour la création d’e-mails, de modèles d’e-mail ou de fragments visuels dans votre équipe à partir de l’éditeur de contenu visuel.
 
-Dans l’interface utilisateur du concepteur visuel, sélectionnez l’icône _Marketo Engage Assets_ ( ![icône Marketo Engage Assets](../../assets/do-not-localize/icon-assets-me.svg) ) dans la barre latérale gauche.
+Dans l’espace de conception visuelle, sélectionnez l’icône _Marketo Engage Assets_ ( ![icône Marketo Engage Assets](../../assets/do-not-localize/icon-assets-me.svg) ) dans la barre latérale gauche.
 
 Cette action modifie le panneau Outils qui affiche une liste structurée des ressources disponibles dans l’espace de travail sélectionné. Sélectionnez l’espace de travail à afficher pour choisir une ressource.
 

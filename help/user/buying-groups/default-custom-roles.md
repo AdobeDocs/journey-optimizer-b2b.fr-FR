@@ -1,12 +1,12 @@
 ---
 title: Rôles par défaut et personnalisés
-description: 'Gérer les rôles de groupes d''achats par défaut et personnalisés : créez, modifiez et configurez des définitions de rôles pour les besoins de votre entreprise dans Journey Optimizer B2B edition.'
+description: Afficher les rôles de groupe d'achats par défaut et créer des rôles personnalisés - modifiez, supprimez et configurez les définitions de rôle pour votre entreprise dans Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 2%
 
 ---

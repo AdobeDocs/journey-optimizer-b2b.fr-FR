@@ -1,12 +1,12 @@
 ---
 title: Nœuds d’attente
-description: Découvrez le type de nœud d’attente que vous pouvez utiliser pour orchestrer vos parcours de compte dans Journey Optimizer B2B edition.
+description: Ajoutez des nœuds d’attente pour suspendre la progression du parcours avec une durée relative ou des dates spécifiques pour la synchronisation stratégique dans Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez définir le temps d’attente de deux manières différentes :
 * Une durée relative (nombre de minutes, heures, jours, semaines ou mois)
 * Date spécifique à laquelle vous souhaitez passer au nœud suivant du parcours
 
-_Pour définir un nœud d’attente pour le parcours de votre compte :_
+_Pour définir un nœud d&#39;attente pour votre parcours de compte :_
 
 1. Accédez à la carte du parcours.
 

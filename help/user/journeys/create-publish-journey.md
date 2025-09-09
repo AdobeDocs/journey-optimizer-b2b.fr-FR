@@ -1,12 +1,12 @@
 ---
 title: Créer et publier un Parcours de compte
-description: Découvrez comment créer et publier des parcours de compte.
+description: Créez des parcours de compte dans la zone de travail visuelle, ajoutez des nœuds d’action et d’événement, configurez la planification et publiez pour l’orchestration en direct dans Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '806'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ Après avoir créé un parcours de compte et ajouté l’audience, créez le par
 * [Entreprendre une action](./action-nodes.md)
 * [Écouter un événement](./listen-for-event-nodes.md)
 * [Chemins partagés](./split-merge-paths-nodes.md)
-* [Attente](./wait-nodes.md)
+* [Attendre](./wait-nodes.md)
 * [Fusionner les chemins](./split-merge-paths-nodes.md)
 
 ## Mécanismes de sécurisation
@@ -105,7 +105,7 @@ Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une dat
 
    * Spécifiez la **[!UICONTROL Date de fin]** pour le parcours. Il peut s’agir d’un maximum de trois ans à compter de la date de début (ce champ est obligatoire pour la publication).
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
    Lorsque vous êtes prêt à publier votre parcours, vous pouvez consulter ces paramètres en cliquant sur _[!UICONTROL Publier]_.
 
@@ -141,4 +141,4 @@ Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois l
 
 ## Vidéo de vue d’ensemble
 
->[!VIDEO](https://video.tv.adobe.com/v/3443221/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

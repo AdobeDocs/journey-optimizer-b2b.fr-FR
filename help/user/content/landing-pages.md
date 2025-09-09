@@ -1,13 +1,13 @@
 ---
 title: Pages de destination
-description: Découvrez les pages de destination et comment les créer et les gérer pour prendre en charge les parcours et les campagnes de compte.
+description: 'Créez, concevez et publiez des pages de destination pour les parcours de compte : créez entièrement, importez des HTML, ajoutez des formulaires, personnalisez du contenu et des liens à partir d’e-mails dans Journey Optimizer B2B edition.'
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2198'
 ht-degree: 3%
 
 ---
@@ -120,7 +120,7 @@ Vous pouvez choisir parmi les options suivantes :
 
 * **Exemples de modèles**. L’interface de Journey Optimizer propose un ensemble de modèles de page de destination prêts à l’emploi que vous pouvez choisir.
 
-* **Modèles enregistrés**. Utilisez un modèle personnalisé enregistré créé par un membre de votre organisation à l’aide de l’<!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. --> de menu _[!UICONTROL Modèles]_
+* **Modèles enregistrés**. Utilisez un modèle personnalisé enregistré créé par un membre de votre organisation à l’aide de l’_[!UICONTROL de menu]_ Modèles<!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 
 Utilisez la section _[!UICONTROL Sélectionner un modèle de conception]_ pour commencer à créer le contenu à partir d’un modèle. Vous pouvez utiliser un modèle type ou un modèle de page de destination personnalisé enregistré à partir de votre instance Journey Optimizer B2B edition.
 

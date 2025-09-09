@@ -1,12 +1,12 @@
 ---
 title: Détails des parcours
-description: Découvrez les informations fournies par la page Détails du parcours et comment elles peuvent vous aider à surveiller et à gérer le parcours de compte que vous avez publié.
+description: Surveillez les performances du parcours de compte avec les taux d’achèvement, les mesures d’engagement, les analyses d’e-mails/SMS et les informations d’IA dans Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Conseils d’intégration pour les administrateurs, les administratrices et les personnes spécialisées dans le marketing
-description: En tant que nouvel utilisateur, nouvelle utilisatrice, nouvel administrateur ou nouvelle administratrice d’Adobe Journey Optimizer B2B Edition, découvrez les principaux domaines pour bien commencer.
+description: Guide d’intégration pour les administrateurs et les spécialistes du marketing - configurer des sandbox, configurer des canaux, créer des groupes d’achats et concevoir des parcours de compte dans Journey Optimizer B2B edition.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ Les fonctionnalités et outils que vous souhaiterez aborder dans Adobe Journey�
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 >[!BEGINTABS]
 

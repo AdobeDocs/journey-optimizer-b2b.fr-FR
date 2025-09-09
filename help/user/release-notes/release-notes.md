@@ -1,12 +1,12 @@
 ---
-title: Notes de mise à jour de Journey Optimizer B2B Edition
-description: Découvrez les dernières fonctionnalités et améliorations d’Adobe Journey Optimizer B2B Edition.
+title: Notes de mise à jour de Journey Optimizer B2B edition
+description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Journey Optimizer B2B edition - restez informé des nouvelles fonctionnalités et améliorations du produit.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 92%
+source-wordcount: '2795'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 <!-- hold for later release 
 
@@ -130,7 +130,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
 | Fonctionnalité | Transfert des événements d’expérience | Les administrateurs et administratrices peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP). Ces configurations permettent aux spécialistes du marketing de créer des parcours de compte qui réagissent aux événements d’expérience AEP.  <a href="../admin/configure-aep-events.md">En savoir plus</a> |
-| Fonctionnalité | Destinations de médias achetés | Qualifiez des personnes connues pour des campagnes de médias achetés à partir d’un parcours de compte afin de pouvoir les impliquer davantage sur les plateformes publicitaires telles que LinkedIn. Utilisez un nœud de fractionnement de chemin dans un parcours de compte pour segmenter les audiences de compte en fonction d’un comportement spécifique et identifier les comptes qui nécessitent un engagement supplémentaire. Ajoutez ensuite les personnes de ces comptes à une audience cliente externe via Real-Time CDP vers une destination de médias achetés prise en charge. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">En savoir plus</a> |
+| Fonctionnalité | Destinations de médias achetés | Qualifiez des personnes connues pour des campagnes de médias achetés à partir d’un parcours de compte afin de pouvoir les impliquer davantage sur les plateformes publicitaires telles que LinkedIn. Utilisez un nœud de chemin de partage pour segmenter les audiences de compte en fonction du comportement spécifique et pour identifier les comptes qui nécessitent un engagement supplémentaire. Ajoutez ensuite les personnes de ces comptes à une audience cliente externe via Real-Time CDP vers une destination de médias achetés prise en charge. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">En savoir plus</a> |
 | Fonctionnalité | Tableau de bord intelligent | Affichez la progression des groupes d’achat à travers leurs parcours de compte, y compris les informations générées par l’IA pour une analyse plus intelligente et une hiérarchisation précise des comptes. <a href="../dashboards/intelligent-dashboard.md">En savoir plus</a> |
 | Fonctionnalité | Détails du groupe d’achat et du compte | Affichez des informations au niveau du groupe d’achat et du compte pour disposer de plus de données contextuelles et historiques lorsque vous commencez à interagir avec un client ou une cliente.<p>Les détails du groupe d’achat incluent toute intention propriétaire détectée. <a href="../buying-groups/buying-group-details.md">En savoir plus</a><p>Les détails des comptes mettent en évidence l’augmentation subite de l’intention détectée au niveau de l’engagement. Vous pouvez ainsi alerter les ventes sur les comptes prêts pour un engagement personnalisé axé sur les ventes.  <a href="../accounts/account-details.md">En savoir plus</a> |
 | Fonctionnalité | Vue d’ensemble des parcours | Lorsque vous accédez aux parcours de compte, l’onglet Vue d’ensemble fournit un instantané complet de vos parcours de compte actifs, détaillant la progression des comptes à l’aide de diagrammes circulaires et à barres qui catégorisent et quantifient les achèvements, ainsi que les activités d’engagement.  <a href="../dashboards/journeys-dashboard.md">En savoir plus</a> |

@@ -1,12 +1,12 @@
 ---
 title: E-mails
-description: Utilisez la liste E-mails pour gérer le contenu de votre e-mail dans Adobe Journey Optimizer B2B edition. Vous pouvez facilement évaluer et mettre à jour les e-mails dans vos parcours.
+description: 'Gérez votre bibliothèque d’e-mails avec des actions de recherche, de filtrage et en masse : modifiez le contenu, les paramètres et testez les e-mails en dehors des parcours dans Journey Optimizer B2B edition.'
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---

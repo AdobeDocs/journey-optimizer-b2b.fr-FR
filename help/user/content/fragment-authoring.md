@@ -1,10 +1,10 @@
 ---
 title: Création de fragments
-description: Découvrez comment créer des fragments de contenu qui peuvent être réutilisés pour vos e-mails et conceptions de modèle à des fins d’efficacité et de conservation des normes de conception et de branding.
+description: 'Créez des fragments de contenu réutilisables avec des outils de conception visuelle : ajoutez des composants, de la personnalisation, du contenu conditionnel et des champs personnalisables pour les e-mails et les modèles dans Journey Optimizer B2B edition.'
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%

@@ -1,14 +1,14 @@
 ---
 title: Conception de la page de destination
-description: Découvrez comment concevoir et créer du contenu pour vos pages de destination qui prennent en charge les parcours et les campagnes de compte.
+description: 'Concevoir des pages de destination avec des outils visuels : ajoutez des composants de contenu, des formulaires, des feuilles CSS personnalisées, une personnalisation et un aperçu d’appareil pour les parcours de compte dans Journey Optimizer B2B edition.'
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 4%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Après avoir [créé une page de destination](./landing-pages.md#create-a-landin
 
 ### Ajouter un CSS personnalisé
 
-Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception de la page de destination. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de niveau supérieur avant d’inclure des composants tels que des images, des boutons et du texte.
+Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception de la page de destination. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de niveau supérieur avant d’inclure des composants, tels que des images, des boutons et du texte.
 
 Avec au moins un composant de contenu dans la zone de travail, sélectionnez le composant **[!UICONTROL Corps]** dans l’arborescence de navigation de gauche pour accéder à l’éditeur CSS personnalisé.
 
