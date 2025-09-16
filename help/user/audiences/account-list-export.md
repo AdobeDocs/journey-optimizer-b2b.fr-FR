@@ -1,19 +1,19 @@
 ---
-title: Exporter les comptes
-description: Exportez les listes de comptes filtrées au format CSV pour les plateformes tierces avec les groupes d’achat et les filtres de score d’engagement dans Journey Optimizer B2B edition.
+title: Exporter des comptes
+description: Exportez les listes de comptes filtrées au format CSV pour les plateformes tierces avec les groupes d’achat et les filtres de score d’engagement dans Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Exporter les comptes
+# Exporter des comptes
 
-Utilisez la fonction _Exporter des comptes_ pour exporter tous les comptes ou un ensemble de comptes en fonction du filtrage que vous définissez. Le processus d’export génère un fichier CSV et envoie l’URL du fichier stocké dans une notification push. Vous pouvez utiliser cette fonctionnalité pour déplacer des comptes vers des plateformes tierces, si nécessaire.
+Utilisez la fonctionnalité _Exporter des comptes_ pour exporter tous les comptes ou un ensemble de comptes en fonction du filtrage que vous définissez. Le processus d’export génère un fichier CSV et envoie l’URL du fichier stocké dans une notification push. Vous pouvez utiliser cette fonctionnalité pour déplacer des comptes vers des plateformes tierces, si nécessaire.
 
 1. Dans Journey Optimizer B2B Edition, accédez à **[!UICONTROL Comptes]** > **[!UICONTROL Groupes d’achat]** dans le volet de navigation de gauche.
 

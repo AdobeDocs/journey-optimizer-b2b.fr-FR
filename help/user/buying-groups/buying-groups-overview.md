@@ -1,13 +1,13 @@
 ---
 title: Groupes d’achat
-description: Optimisez le marketing basé sur les comptes avec des groupes d’achats - identifiez les décideurs, suivez les scores d’engagement et automatisez le ciblage dans Journey Optimizer B2B edition.
+description: 'Optimisez l’Account-Based Marketing (ABM) avec des groupes d’achat : identifiez les décideurs/décideuses, suivez les scores d’engagement et automatisez le ciblage dans Journey Optimizer B2B Edition.'
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Pour les activités de vente et de marketing B2B, les comptes sont la clé de to
 
 Dans le compte, il peut y avoir un sous-ensemble de personnes qui composent le _groupe d’achat_. Ce sont ces personnes qui prennent la décision d’achat. Elles ont donc besoin d’une attention particulière de la part des spécialistes du marketing et peuvent avoir besoin d’informations différentes de celles fournies aux autres personnes associées au compte. Les groupes d’achat peuvent comprendre un groupe différent de personnes pour différentes gammes de produits ou offres. Par exemple, en ce qui concerne les produits de cybersécurité, il est généralement nécessaire qu’une personne responsable des systèmes d’information ou de la sécurité, ainsi qu’un représentant ou une représentante du service juridique approuvent l’achat. Pour un produit de suivi des bugs, une personne vice-présidente de l’ingénierie et un directeur ou une directrice informatique doivent généralement figurer au sein du groupe d’achat.
 
-![Icône Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la présentation vidéo](#overview-video)
+![Icône vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
 ## Composants clés
 
-Vous pouvez accroître l&#39;efficacité du marketing en établissant des groupes d&#39;achat qui identifient les membres de vos listes de comptes cibles pour les solutions que vos équipes commerciales sont chargées de vendre. Avant que vous et votre équipe marketing ne commenciez à créer vos groupes d’achat, assurez-vous que les composants clés sont définis. Ces composants sont essentiels pour atteindre les buts et objectifs de votre entreprise.
+Vous pouvez accroître l’efficacité marketing en établissant des groupes d’achat qui identifient les personnes membres de vos listes de comptes cibles en fonction des solutions que vos équipes commerciales sont chargées de vendre. Avant que vous et votre équipe marketing ne commenciez à créer vos groupes d’achat, assurez-vous que les composants clés sont définis. Ces composants sont essentiels pour atteindre les buts et objectifs de votre entreprise.
 
 | Composant | But |
 | --------- | ------- |
@@ -41,11 +41,11 @@ Les membres peuvent être affectés à un groupe d’achat ou supprimés de celu
 2. **_Action de parcours_** : [nœuds d’action de parcours pour l’appartenance à un groupe d’achat](../journeys/action-nodes.md#add-a-people-based-action) (_Affecter au groupe d’achat_ ou _Supprimer du groupe d’achat_)
 3. **_Traitements du système_** : traitements de [création](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) et de maintenance de groupe d’achat.
 
-Pour éviter de remplacer incorrectement une affectation de membre dans un groupe d&#39;achats, cette liste est établie dans l&#39;ordre de priorité suivi dans le système pour garantir une affectation précise des membres. Par exemple, lorsqu’un commercial ou une commerciale ajoute manuellement un membre au groupe d’achat, un traitement de maintenance ne doit pas venir modifier cet ajout. Les scénarios suivants sont appliqués en suivant l’ordre de priorité :
+Pour éviter tout remplacement incorrect de l’affectation d’une personne membre dans un groupe d’achat, cette liste suit l’ordre de priorité utilisé dans le système pour que l’affectation des personnes membres soit correcte. Par exemple, lorsqu’un commercial ou une commerciale ajoute manuellement un membre au groupe d’achat, un traitement de maintenance ne doit pas venir modifier cet ajout. Les scénarios suivants sont appliqués en suivant l’ordre de priorité :
 
-* Si l&#39;utilisateur affecte manuellement un membre à un groupe d&#39;achats et qu&#39;il est suivi d&#39;une tâche de maintenance du groupe d&#39;achats qui supprime le même membre du groupe d&#39;achats, la tâche de maintenance **ne supprime pas** ce membre et ne peut pas remplacer l&#39;affectation manuelle.
-* Si un utilisateur affecte manuellement un membre à un groupe d&#39;achats et qu&#39;il est suivi d&#39;un nœud de parcours déclenché qui supprime le même membre du groupe d&#39;achats, l&#39;action de nœud **ne supprime pas** ce membre et ne peut pas remplacer l&#39;affectation manuelle.
-* Si un nœud d&#39;action de parcours déclenché ajoute un membre à un groupe d&#39;achats et qu&#39;il est suivi d&#39;une tâche de maintenance du groupe d&#39;achats qui supprime le même membre du groupe d&#39;achats, la tâche de maintenance **ne supprime pas** ce membre et ne peut pas remplacer l&#39;affectation d&#39;action de parcours.
+* Si un utilisateur ou une utilisatrice affecte manuellement une personne membre à un groupe d’achat et que cette affectation est suivie d’un traitement de maintenance du groupe d’achat qui supprime cette personne membre du groupe d’achat, le traitement de maintenance **ne supprime pas** cette personne membre et ne peut pas remplacer l’affectation manuelle.
+* Si un utilisateur ou une utilisatrice affecte manuellement une personne membre à un groupe d’achat et qu’ensuite un nœud de parcours déclenché supprime cette personne membre du groupe d’achat, l’action de nœud **ne supprime pas** cette personne membre et ne peut pas remplacer l’affectation manuelle.
+* Si un nœud d’action de parcours déclenché ajoute une personne membre à un groupe d’achat et que cet ajout est suivi d’un traitement de maintenance du groupe d’achat qui supprime cette personne membre du groupe d’achat, le traitement de maintenance **ne supprime pas** cette personne membre et ne peut pas remplacer l’affectation d’action de parcours.
 
 ## Workflow du groupe d’achat
 
@@ -96,7 +96,7 @@ Pour accéder aux détails d’un groupe d’achats, cliquez sur le nom du group
 
 ### Score d’exhaustivité du groupe d’achat
 
-Le score d&#39;exhaustivité permet de déterminer si le groupe d&#39;achat dispose des membres appropriés affectés aux rôles et s&#39;il est prêt à être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d’achat et le nombre de rôles affectés avec au moins un lead.
+Le score d’exhaustivité est utilisé pour déterminer si le groupe d’achat dispose des bons rôles attribués aux bonnes personnes membres et s’il peut être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d’achat et le nombre de rôles affectés avec au moins un lead.
 
 Par exemple, s’il existe quatre rôles au sein d’un groupe d’achat et que trois des quatre rôles sont affectés à au moins un lead, le groupe d’achat est complet à 75 %.
 
@@ -104,12 +104,12 @@ Le score d’exhaustivité de groupe d’achat est recalculé chaque fois qu’u
 
 ### Score d’engagement du groupe d’achat {#engagement-score}
 
-Le score de l’engagement est basé sur les activités des membres du groupe d’achat, les actions pondérées et les rôles pondérés. Le score obtenu est normalisé dans le client/l’instance afin de permettre une comparaison cohérente et de disposer d’informations exploitables.
+Le score d’engagement est basé sur les activités des personnes membres du groupe d’achat, les actions pondérées et les rôles pondérés. Le score obtenu est normalisé dans le client/l’instance afin de permettre une comparaison cohérente et de disposer d’informations exploitables.
 
-Le calcul du score de l&#39;engagement initial commence dès que vous créez le groupe d&#39;achats et est recalculé quotidiennement.
+Le calcul du score d’engagement initial commence dès que vous créez le groupe d’achat et est recalculé quotidiennement.
 
-Consultez [Scores d’engagement](./engagement-scores.md) pour plus d’informations sur les activités et les calculs de score d’engagement.
+Consultez la section [Scores d’engagement](./engagement-scores.md) pour des informations détaillées sur les activités et les calculs de score d’engagement.
 
-## Vidéo de vue d’ensemble
+## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

@@ -2,16 +2,16 @@
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
 source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Guide d’utilisation de Journey Optimizer B2B Edition {#user}
 
-+ [Documentation d’Adobe Journey Optimizer B2B Edition ](guide-overview.md)
++ [Documentation d’Adobe Journey Optimizer B2B Edition](guide-overview.md)
 + [Notes de mise à jour](./release-notes/release-notes.md)
 + Commencer {#get-started}
    + [Vue d’ensemble de Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
@@ -54,7 +54,7 @@ ht-degree: 92%
       + [Scores d’engagement](./buying-groups/engagement-scores.md)
       + [Étapes des groupes d’achat](./buying-groups/buying-group-stages.md)
       + [Créer des groupes d’achat](./buying-groups/buying-groups-create.md)
-      + [Exporter les comptes](./audiences/account-list-export.md)
+      + [Exporter des comptes](./audiences/account-list-export.md)
       + [Audiences correspondantes de compte LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtres de groupe d’achat dans Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Listes de comptes {#account-lists}
@@ -118,9 +118,9 @@ ht-degree: 92%
       + [Configurations des e-mails](./admin/configure-channels-emails.md)
       + [Configuration des SMS](./admin/configure-channels-sms.md)
       + [Paramètres de la page de destination](./admin/landing-page-settings.md)
-      + [Configurer les flux de données pour la collecte d’événements](./data/aep-event-collection.md)
+      + [Configurer des trains de données pour la collecte d’événements](./data/aep-event-collection.md)
    + Configurations  {#configurations}
-      + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
+      + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
       + [Définitions d’événement AEP](./admin/configure-aep-events.md)
       + [Données d’intention](./admin/intent-data.md)
       + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
