@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 26%
+ht-degree: 31%
 
 ---
 
@@ -46,13 +46,13 @@ Activez l&#39;option **[!UICONTROL Préremplissage de formulaire]** pour permett
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_datastream"
->title="Exigences relatives aux flux de données"
->abstract="Un flux de données est nécessaire pour collecter les événements de page des pages de destination sur ce domaine."
+>title="Exigence en matière de train de données"
+>abstract="Un train de données est nécessaire pour collecter les événements des pages de destination sur ce domaine."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
->title="Identifiant de flux de données manquant"
->abstract="Il manque un identifiant de flux de données au sous-domaine, nécessaire pour un routage correct. Configurez-le dans Paramètres pour continuer"
+>title="ID de train de données manquant"
+>abstract="Il manque un identifiant de flux de données au sous-domaine, nécessaire pour un routage correct. Configurez-le dans Paramètres pour continuer."
 
 Définissez l’option **[!UICONTROL Flux de données]** pour configurer un flux de données pour la collecte d’événements de page de destination.
 
@@ -98,4 +98,4 @@ _Pour ajouter un sous-domaine de page de destination :_
 
    ![Ajouter un sous-domaine de page de destination](./assets/config-landing-pages-add-subdomain.png){width="700" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
