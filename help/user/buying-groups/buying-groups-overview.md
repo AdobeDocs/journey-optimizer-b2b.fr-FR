@@ -112,4 +112,4 @@ Consultez la section [Scores d’engagement](./engagement-scores.md) pour des in
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
