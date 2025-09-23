@@ -11,7 +11,7 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Score d’alignement de la marque"
->abstract="Le score d’alignement de votre marque mesure dans quelle mesure votre contenu respecte les directives de la marque, en garantissant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
+>abstract="Le score d’alignement de votre marque mesure la concordance de votre contenu avec vos directives de marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

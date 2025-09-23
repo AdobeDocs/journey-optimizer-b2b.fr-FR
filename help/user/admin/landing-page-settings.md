@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 31%
+ht-degree: 34%
 
 ---
 
@@ -52,7 +52,7 @@ Activez l&#39;option **[!UICONTROL Préremplissage de formulaire]** pour permett
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="ID de train de données manquant"
->abstract="Il manque un identifiant de flux de données au sous-domaine, nécessaire pour un routage correct. Configurez-le dans Paramètres pour continuer."
+>abstract="Le sous-domaine ne comporte pas d’ID de train de données, qui est requis pour un routage correct. Configurez-le dans Paramètres pour continuer."
 
 Définissez l’option **[!UICONTROL Flux de données]** pour configurer un flux de données pour la collecte d’événements de page de destination.
 

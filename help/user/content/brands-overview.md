@@ -11,7 +11,7 @@ exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Commencer avec les marques"
->abstract="Créez et personnalisez vos marques pour définir votre identité visuelle et verbale unique tout en facilitant la génération de contenu correspondant à votre style et à votre voix de marque."
+>abstract="Créez et personnalisez vos marques pour définir votre identité visuelle et orale unique, tout en facilitant la génération de contenu correspondant au style et à la voix de votre marque."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
