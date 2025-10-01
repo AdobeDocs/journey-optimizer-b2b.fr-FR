@@ -1,6 +1,6 @@
 ---
 title: Assistant d’IA dans Journey Optimizer B2B edition
-description: Accélérez les workflows avec l’assistant d’IA - obtenez des connaissances sur les produits, une aide au dépannage et des informations opérationnelles pour Journey Optimizer B2B edition.
+description: 'Accélérez les workflows avec l’assistant IA : obtenez des connaissances sur les produits, une aide au dépannage et des informations opérationnelles pour Journey Optimizer B2B Edition.'
 feature: AI Assistant
 role: User, Admin
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ L’assistant AI dans Journey Optimizer B2B edition est créé à partir de la m
 
 ## Fonctionnalités de l’assistant AI dans Journey Optimizer B2B edition
 
-Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes. Elle est également connue sous le nom de _&#x200B;**_graphique de connaissances_**&#x200B;_, un réseau complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
+Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes. Elle est également connue sous le nom de _**_graphique de connaissances_**_, un réseau complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
 
 * Documentation Experience League.
 * Artefacts opérationnels, tels que des schémas, des champs, des audiences et des parcours.
@@ -92,7 +92,7 @@ L’assistant AI de Journey Optimizer B2B edition place la confidentialité, la 
 
 * Vous devez disposer d’autorisations explicites pour interagir avec l’assistant AI.
 
-   * Un administrateur peut définir des autorisations à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} et de [Admin Console](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un administrateur peut définir des autorisations à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} et de [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Les autorisations sont granulaires et votre administrateur de sandbox peut configurer les utilisateurs autorisés à poser différentes catégories de questions (questions basées sur les connaissances du produit avec l’assistant AI ou questions sur les informations opérationnelles).
 
