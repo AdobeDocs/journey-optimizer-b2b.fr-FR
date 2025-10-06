@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 100%
    + [Utiliser l’assistant IA](./ai-assistant/use-ai-assistant.md)
 + Parcours de compte {#account-journeys}
    + [Vue d’ensemble](./journeys/journey-overview.md)
+   + [Agent de création de parcours](./agents/journey-agent.md)
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [Nœuds de parcours](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
@@ -40,12 +41,14 @@ ht-degree: 100%
       + [Création d’e-mails](./content/email-authoring.md)
       + [Assistant IA pour la création d’e-mails](./content/ai-assistant-emails.md)
       + [Workflows GenStudio](./content/genstudio-email-workflow.md)
+      + [Mode sombre pour la conception d’e-mail](./content/email-dark-mode.md)
       + [Modèles régis](./content/email-authoring-governance.md)
       + [E-mail d’alerte de vente](./content/sales-alert-email.md)
    + [Jetons de personnalisation sur mesure](./content/personalization-my-tokens.md)
    + [Création de SMS](./content/sms-authoring.md)
 + Comptes {#accounts}
    + [Audiences](./audiences/account-audience-overview.md)
+   + [Agent Audience](./agents/audience-agent-b2b.md)
    + Groupes d’achat {#buying-groups}
       + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
       + [Intérêts de la solution](./buying-groups/solution-interests.md)
@@ -74,6 +77,7 @@ ht-degree: 100%
          + [Simuler du contenu](./content/email-simulate-content.md)
          + [Tester le rendu des e-mails](./content/email-test-rendering.md)
          + [Rapport sur les spams](./content/email-spam-report.md)
+      + [Collaboration par e-mail](./content/email-collaboration-tools.md)
    + Ressources {#assets}
       + [Vue d’ensemble](./content/assets-overview.md)
       + Ressources Marketo Engage {#marketo-engage-dam}
