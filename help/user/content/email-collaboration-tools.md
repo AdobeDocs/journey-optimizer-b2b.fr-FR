@@ -3,7 +3,8 @@ title: Outils de Collaboration des e-mails
 description: Collaborez sur des emails dans Journey Optimizer B2B edition. Ajoutez des commentaires, invitez des réviseurs et résolvez les commentaires et rationalisez les workflows de révision pour les équipes.
 feature: Email Authoring, Content
 role: User
-source-git-commit: cdc5963c1222fe2e225ad53467bdba83ccd3207b
+hidefromtoc: true
+source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 1%
