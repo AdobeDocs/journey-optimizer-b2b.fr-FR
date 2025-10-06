@@ -27,7 +27,7 @@ Pour rechercher un e-mail par nom, saisissez une chaîne de texte dans la barre 
 
 ## Ouvrir et modifier des e-mails
 
-Cliquez sur le nom de l’e-mail dans la liste pour l’ouvrir. Vous pouvez vérifier et modifier les [ paramètres d’e-mail ](./add-email.md#define-the-email-settings). Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** pour effectuer [mises à jour du contenu](./email-authoring.md).
+Cliquez sur le nom de l’e-mail dans la liste pour l’ouvrir. Vous pouvez vérifier et modifier les [&#x200B; paramètres d’e-mail &#x200B;](./add-email.md#define-the-email-settings). Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** pour effectuer [mises à jour du contenu](./email-authoring.md).
 
 Si des [alertes sont affichées](./add-email.md#check-alerts) en haut à droite de la page, cliquez sur pour passer en revue les avertissements ou les erreurs et traiter les éléments selon les besoins.
 
