@@ -221,4 +221,4 @@ Si nécessaire, définissez le temps d’attente du parcours pour l’événemen
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443236/?learn=on&captions=fre_fr)
