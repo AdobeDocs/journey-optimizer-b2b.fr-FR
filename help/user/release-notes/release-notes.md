@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Journey Optimizer B2B Edition. Restez informé des nouvelles fonctionnalités et améliorations du produit.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: ht
-source-wordcount: '3016'
-ht-degree: 100%
+source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+workflow-type: tm+mt
+source-wordcount: '3000'
+ht-degree: 97%
 
 ---
 
@@ -16,8 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
-
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -33,10 +32,10 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Collaboration sur le contenu d’e-mail | Vous pouvez maintenant commenter la collaboration avec d’autres utilisateurs et utilisatrices de Journey Optimizer B2B Edition, dans le cadre d’une ressource d’e-mail. Vous pouvez mentionner les personnes membres de votre équipe afin qu’elles reçoivent une notification par e-mail contenant les détails du commentaire. La notification est également disponible sous la forme d’une notification Pulse. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| Fonctionnalité | Mode sombre pour la conception d’e-mail | L’espace de conception d’e-mail comprend désormais la possibilité de passer en _mode sombre_. En mode sombre, vous pouvez prévisualiser le contenu de l’e-mail et définir les paramètres personnalisés à afficher spécifiquement pour les personnes destinataires qui consultent leurs e-mails en mode sombre. <!-- [Learn more](../content/email-dark-mode.md) --> |
-| Amélioration | Parcours - Partager le chemin par nombre de personnes dans le rôle | Utilisez un nœud de chemin de partage par compte pour cibler un compte avec le nombre de personnes dans un ou plusieurs rôles de groupe d’achat. Dans le chemin d’accès, vous pouvez évaluer la préparation du groupe d’achat aux alertes de ventes et à d’autres engagements en fonction de la profondeur de rôle. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| Amélioration | Parcours - Filtres de personnes pour les événements | Utilisez les filtres de personnes pour écouter les événements de personnes. Ces filtres incluent la possibilité de cibler un rôle spécifique pour un groupe d’achat correspondant. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| Fonctionnalité | Collaboration sur le contenu d’e-mail | Vous pouvez maintenant commenter la collaboration avec d’autres utilisateurs et utilisatrices de Journey Optimizer B2B Edition, dans le cadre d’une ressource d’e-mail. Vous pouvez mentionner les personnes membres de votre équipe afin qu’elles reçoivent une notification par e-mail contenant les détails du commentaire. La notification est également disponible sous la forme d’une notification Push. [En savoir plus](../content/email-collaboration-tools.md) |
+| Fonctionnalité | Mode sombre pour la conception d’e-mail | L’espace de conception d’e-mail comprend désormais la possibilité de passer en _mode sombre_. En mode sombre, vous pouvez prévisualiser le contenu de l’e-mail et définir les paramètres personnalisés à afficher spécifiquement pour les destinataires qui consultent leurs e-mails en mode sombre. [En savoir plus](../content/email-dark-mode.md) |
+| Amélioration | Parcours - Partager le chemin par nombre de personnes dans le rôle | Utilisez un nœud de chemin de partage par compte pour cibler un compte avec le nombre de personnes dans un ou plusieurs rôles de groupe d’achat. Dans le chemin d’accès, vous pouvez évaluer la préparation du groupe d’achats aux alertes de ventes et à d’autres engagements en fonction de la profondeur des rôles. [En savoir plus](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| Amélioration | Parcours - Filtres de personnes pour les événements | Utilisez les filtres de personnes pour écouter les événements de personnes. Ces filtres incluent la possibilité de cibler un rôle spécifique pour un groupe d&#39;achats apparié. [En savoir plus](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -56,10 +55,6 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Amélioration | Contenu conditionnel pour les fragments | Vous pouvez désormais utiliser les outils de contenu conditionnel pour concevoir des fragments visuels. [En savoir plus](../content/conditional-content.md) |
 | Amélioration | Mises à jour du score d’engagement | La logique de score d’engagement du groupe d’achat est mise à jour pour normaliser les scores. De plus, vous pouvez utiliser les scores d’engagement au niveau de la personne membre, ainsi que les scores d’engagement collectif pour l’ensemble du groupe d’achat. [En savoir plus](../buying-groups/engagement-scores.md) |
 | Amélioration | Observabilité du parcours actif : comptes sur chaque nœud | Pour un parcours de compte actif, vous pouvez accéder à la liste des comptes qui ont atteint chaque nœud de compte dans le parcours. |
-
->[!NOTE]
->
->Le déploiement des modifications de la version commence le 26 août 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ## Notes de mise à jour 2025.6
 
@@ -91,7 +86,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Test des e-mails avec Litmus | Avec un [compte Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, vous pouvez désormais prévisualiser le rendu de votre e-mail dans les principaux clients de messagerie à partir de Journey Optimizer B2B Edition. Cette intégration vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception d’e-mail. [En savoir plus](../content/email-test-rendering.md) |
+| Fonctionnalité | Test des e-mails avec Litmus | Avec un [compte Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, vous pouvez désormais prévisualiser le rendu de vos e-mails dans les principaux clients de messagerie à partir de Journey Optimizer B2B Edition. Cette intégration vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception d’e-mail. [En savoir plus](../content/email-test-rendering.md) |
 | Amélioration | Dupliquer l’e-mail | Vous pouvez désormais dupliquer un e-mail existant pour l’ajouter à un nœud de parcours. Modifiez le paramètre ou le contenu de l’e-mail dupliqué ou laissez-le intact.  [En savoir plus](../content/add-email.md#add-an-email-to-your-journey) |
 | Amélioration | Format du jeton Handlebars pour l’e-mail | Les jetons de personnalisation pour le contenu des e-mails utilisent désormais un format mis à jour entièrement compatible avec les scripts Handlebars. Ce format utilise la _Camel Case_ ou des traits de soulignement qui éliminent les espaces. [En savoir plus](../content/email-authoring.md#content-authoring---personalization) |
 | Amélioration | Affichage du nombre total de listes | Les pages de liste _[!UICONTROL Intérêts de la solution]_ et _[!UICONTROL Parcours de compte]_ sont améliorées avec l’affichage du nombre total à côté de la barre de recherche. |
@@ -108,7 +103,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Fonctionnalité | Orchestration du parcours de liste de comptes | Utilisez les nœuds d’action de parcours pour ajouter et supprimer des comptes pour les listes de comptes statiques. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">En savoir plus</a> |
 | Amélioration | Filtrer l’abonnement à un parcours dans Marketo Engage | Utilisez les listes de comptes Adobe Journey Optimizer B2B Edition pour l’audience de parcours, puis utilisez le filtre _Membre d’une liste de comptes_ dans les listes intelligentes Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">En savoir plus</a> |
 | Fonctionnalité | Filtres d’inactivité | Orchestrez des parcours en fonction de l’inactivité dans les campagnes et programmes Marketo Engage, y compris l’inactivité des e-mails, les moments intéressants, les modifications de valeur des données et les pages web visitées. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">En savoir plus</a> |
-| Amélioration | Filtre des pages web visitées | Orchestrez des parcours en fonction de l’activité des pages web visitées associées aux campagnes et programmes Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">En savoir plus</a> |
+| Amélioration | Filtre des pages web visitées | Orchestrez des parcours en fonction de l’activité des pages web visitées associées aux campagnes et programmes Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">En savoir plus</a> |
 | Amélioration | Liste des e-mails | Consultez une liste globale des e-mails actifs et des brouillons d’e-mail pour les rechercher, les examiner et les mettre à jour dans les parcours de compte associés. <a href="../content/emails-list.md">En savoir plus</a> |
 
 ## Notes de mise à jour 2025.3

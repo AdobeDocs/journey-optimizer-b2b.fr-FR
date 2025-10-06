@@ -2,10 +2,10 @@
 title: Documentation d’Adobe Journey Optimizer B2B Edition
 description: 'Documentation complète pour Journey Optimizer B2B Edition : explorez les ressources disponibles pour l’intégration, la création de groupes d’achat, la conception de parcours de compte et la gestion de contenu.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 100%
 Voici un exemple des derniers ajouts et des améliorations apportées à l’application et à la documentation Journey Optimizer B2B Edition.
 
 >[!BEGINTABS]
+
+>[!TAB Collaboration sur le contenu des e-mails]
+
+L’espace de conception d’e-mail comprend des outils de collaboration pour la formulation de commentaires et la résolution afin que les équipes marketing puissent examiner, discuter et finaliser en toute transparence les ressources d’e-mail directement dans [!DNL Journey Optimizer B2B Edition]. Au lieu de partager des brouillons sur des outils externes (tels que le chat, les fils de discussion d’e-mail ou les feuilles de calcul), les utilisateurs peuvent commenter, suggérer des modifications et résoudre les commentaires dans l’espace de conception d’e-mail. Vous pouvez baliser les membres de votre équipe afin qu’ils reçoivent une notification Push ou par e-mail contenant les détails du commentaire.
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="En savoir plus sur les outils de collaboration de contenu d’e-mail"}
+
+>[!TAB Conception d’e-mail en mode sombre]
+
+L’espace de conception d’e-mail comprend désormais _mode sombre_ l’aperçu et les paramètres. Le mode sombre permet à un client de messagerie ou à une application de support d’afficher les e-mails avec des arrière-plans plus sombres et des couleurs plus claires pour le texte, les boutons et d’autres éléments visuels. Prévisualisez le rendu, personnalisez les paramètres, assurez l’accessibilité et effectuez des tests sur les clients de messagerie.
+
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="En savoir plus sur la conception d’e-mails en mode sombre"}
 
 >[!TAB Score d’engagement de personne]
 
@@ -35,12 +47,6 @@ Attribuez des pondérations personnalisées aux activités d’engagement afin q
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="En savoir plus sur la pondération du score d’engagement personnalisé"}
 
->[!TAB Expériences d’e-mail GenStudio]
-
-Intégrez les expériences de messagerie GenStudio for Performance Marketing à Journey Optimizer B2B Edition pour améliorer l’efficacité marketing et maintenir la cohérence de la marque. Grâce à cette intégration, vous pouvez combiner la création de contenu optimisée par l’IA dédiée à GenStudio avec les fonctionnalités avancées d’orchestration de Journey Optimizer B2B Edition.
-
-[!BADGE En savoir plus]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="En savoir plus sur les expériences d’e-mail GenStudio"}
-
 >[!TAB Prise en charge de CSS personnalisé]
 
 Vous pouvez désormais ajouter votre propre CSS personnalisé lorsque vous créez du contenu d’e-mail et de page de destination dans l’espace de conception.
@@ -52,12 +58,6 @@ Vous pouvez désormais ajouter votre propre CSS personnalisé lorsque vous cré
 Pour activer et gérer le modèle Détection d’intention, vous pouvez désormais charger une feuille de calcul afin de définir une catégorie de mappage des données d’intention.
 
 [!BADGE En savoir plus]{type=Informative url="/help/user/admin/intent-data.md" tooltip="En savoir plus sur la configuration du mappage de mots-clé d’intention"}
-
->[!TAB Rapports de détection de spams]
-
-Grâce aux nouveaux rapports sur les spams, vous pouvez éviter les filtres anti-spam et vous assurer que les messages sont envoyés aux boîtes de réception de l’audience. Générez un _rapport sur les spams_ directement dans l’espace de conception des e-mails.
-
-[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="En savoir plus sur les rapports de détection de spams"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>

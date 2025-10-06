@@ -4,10 +4,10 @@ description: Créez des nœuds de chemin de division et de fusion pour segmenter
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2bd5c21221da6b1e747bb133cd17c38225539ada
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 5%
+source-wordcount: '2454'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Un nœud _Chemins partagés_ définit un ou plusieurs chemins segmentés en fonc
 
 Les chemins de division par comptes peuvent inclure des actions et des événements de compte et de personnes. Ces chemins peuvent être divisés davantage.
 
-_&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200B;_
+_**Fonctionnement d’un chemin de division par nœud de comptes**_
 
 * Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
 * Les nœuds Fractionnés par compte peuvent être imbriqués (vous pouvez fractionner le chemin d’accès par comptes à plusieurs reprises).
@@ -42,7 +42,12 @@ _&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200
 | Conditions de chemin | Description |
 | --------------- | ----------- |
 | Attributs du compte | Attributs du profil de compte, notamment : <li>Chiffre d’affaires annuel <li>Ville <li>Pays <li>Nombre d’employés <li>Secteur industriel <li>Nom <li>Code SIC <li>État |
-| [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Il peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution <li>Statut du groupe d&#39;achat <li>Score d&#39;exhaustivité <li>Score d’engagement |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Le compte correspond au groupe d&#39;achats] | Le compte est associé à un ou plusieurs groupes d&#39;achats. Il peut être évalué par rapport à une ou plusieurs des contraintes suivantes pour un groupe d&#39;achat apparié : <li>Intérêt de la solution <li>Étape du groupe d&#39;achat <li>Statut du groupe d&#39;achat <li>Score d’engagement <li>Score d&#39;exhaustivité <li> Nombre de personnes dans le rôle de groupe d’achat |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Il peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution <li>Étape du groupe d&#39;achat <li>Statut du groupe d&#39;achat <li>Score d’engagement <li>Score d&#39;exhaustivité |
+
+>[!NOTE]
+>
+>Le filtre _[!UICONTROL A un groupe d’achat]_ est marqué pour une obsolescence future. Pour les nouveaux parcours, utilisez le filtre _[!UICONTROL Le compte a apparié le groupe d’achats]_ qui inclut toutes les mêmes contraintes.
 
 ### Ajouter un chemin de division par nœud de compte
 
@@ -62,7 +67,7 @@ _&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200
 
    * Faites glisser et déposez les attributs de filtre à partir du volet de navigation de gauche et terminez la définition de correspondance.
 
-   * Ajustez vos conditions en appliquant la logique **[!UICONTROL Filtre]** en haut. Vous choisissez de faire correspondre toutes les conditions d’attribut ou n’importe quelle condition.
+   * Ajustez vos conditions en appliquant la logique **[!UICONTROL Filtre]** en haut. Vous choisissez de faire correspondre tous les filtres ou n’importe quel filtre.
 
      ![Nœud de chemin partagé - logique de filtre des comptes de conditions](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -84,11 +89,39 @@ _&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200
 
    Lorsque cette option n’est pas activée, le parcours se termine pour les comptes qui ne correspondent pas à un segment/chemin d’accès défini dans la division.
 
+### Filtrage des groupes d&#39;achats pour les comptes {#buying-group-filtering-accounts}
+
+Vous pouvez définir un chemin pour les comptes associés aux groupes d&#39;achats et filtrer le chemin à l&#39;aide des critères de groupe d&#39;achats. Utilisez le filtre **[!UICONTROL Le compte a un groupe d’achats apparié]** pour définir le segment de chemin d’accès à l’aide d’un groupe d’achats apparié. Ce filtre inclut également cette option pour identifier les comptes en fonction du nombre de rôles attribués au sein d&#39;un groupe d&#39;achats apparié.
+
+Par exemple, vous pouvez évaluer le niveau de préparation du groupe d’achat en fonction de la profondeur (nombre de personnes) qu’il a dans différents rôles, tels que trois décideurs et deux influenceurs. Dans ce cas, définissez la condition pour cibler les comptes avec un minimum de trois (3) Décideurs et deux (2) Influenceurs dans un groupe d&#39;achat apparié :
+
+1. Cliquez sur **[!UICONTROL Ajouter un filtre]** et choisissez le filtre **[!UICONTROL Nombre de personnes dans le rôle du groupe d&#39;achat]**.
+
+   ![Ajouter un filtre pour le compte a apparié le groupe d&#39;achat et choisissez Nombre de personnes dans le rôle du groupe d&#39;achat](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+
+1. Définissez le premier paramètre de rôle.
+
+   * Définissez l’évaluation du nombre de personnes à `at least` avec une valeur de `3`.
+   * Définissez l’évaluation de rôle sur `is` et choisissez `Decision Maker` dans la liste des rôles.
+
+1. Répétez l&#39;étape 1 pour ajouter un autre paramètre de rôle de groupe d&#39;achat.
+
+1. Définissez le deuxième paramètre de rôle.
+
+   * Définissez l’évaluation du nombre de personnes à `at least` avec une valeur de `2`.
+   * Définissez l’évaluation de rôle sur `is` et choisissez `Influencer` dans la liste des rôles.
+
+   ![Exemple de conditions pour la profondeur de rôle dans le groupe d’achats apparié pour un compte](./assets/node-split-account-condition-matched-buying-group-role-depth-example.png){width="700" zoomable="yes"}
+
+1. Cliquez sur **[!UICONTROL Terminé]** lorsque toutes les conditions du chemin d’accès sont définies.
+
+Pour les comptes identifiés, vous pouvez ensuite ajouter un nœud d’action dans le chemin d’accès pour mettre à jour le statut du groupe d’achats ou de l’étape, ou pour envoyer un e-mail d’alerte de ventes.
+
 ## Fractionner les chemins par personnes
 
 Les chemins fractionnés par personnes ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
 
-_&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x200B;_
+_**Fonctionnement d’un nœud de partage de chemin par personnes**_
 
 * Les nœuds fractionnés par personnes fonctionnent dans une combinaison _nœud groupé_ de division-fusion. Les chemins de division fusionnent automatiquement afin que toutes les personnes puissent passer à l’étape suivante sans perdre le contexte de leur compte.
 * Les nœuds Fractionné par personnes ne peuvent pas être imbriqués (vous ne pouvez pas ajouter de chemin de fractionnement pour les personnes sur un chemin qui se trouve dans ce nœud groupé).
@@ -98,10 +131,10 @@ _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x20
 
 ![nœud de Parcours - fractionner les chemins par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Conditions du chemin des personnes
+### Filtres de chemin d’accès des personnes
 
-| Conditions de chemin | Description |
-| --------------- | ----------- |
+| Filtres | Description |
+| ------------ | ----------- |
 | [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Les activités d’e-mail basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs e-mails sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail] <li>E-mail ouvert <li>A reçu l’e-mail <li>E-mail envoyé <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer selon l’absence d’activité (une personne n’avait pas l’activité d’e-mail). |
 | [!UICONTROL Historique des activités] > [!UICONTROL Message SMS] | Activités SMS basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs messages SMS sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans le SMS] <li>[!UICONTROL SMS ayant fait l’objet d’un rebond] <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’avait pas l’activité SMS). |
 | [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur<li>Valeur précédente<li>Motif<li>Source<li>Date d’activité<li>Min. nombre de fois <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas modifié la valeur de ses données). |
@@ -141,7 +174,7 @@ _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x20
 
 1. Dans l’éditeur de conditions, ajoutez un ou plusieurs filtres pour définir le chemin de division.
 
-   * Faites glisser et déposez l’un des attributs de personne à partir du volet de navigation de gauche et terminez la définition de la correspondance.
+   * Faites glisser et déposez l’un des filtres de personnes à partir du volet de navigation de gauche et terminez la définition de la correspondance.
 
      >[!NOTE]
      >
@@ -183,7 +216,7 @@ Pour un chemin de partage par personnes, vous pouvez définir un chemin en fonct
 
 >[!BEGINSHADEBOX « Filtrage d&#39;inactivité »]
 
-Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, si vous souhaitez créer un chemin pour les personnes qui _&#x200B;**n’ont pas**&#x200B;_ ouvert un e-mail précédemment dans le parcours, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
+Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, si vous souhaitez créer un chemin pour les personnes qui _**n’ont pas**_ ouvert un e-mail précédemment dans le parcours, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
 
 ![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -231,6 +264,6 @@ Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins fract
 
 1. Si nécessaire, vous pouvez annuler la fusion des chemins en revenant aux propriétés du nœud de chemins de fusion et en décochant la case correspondant aux chemins que vous souhaitez supprimer.
 
-## Vidéo de vue d’ensemble
+## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443258/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

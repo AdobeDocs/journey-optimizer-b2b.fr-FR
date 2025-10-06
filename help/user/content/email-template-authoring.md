@@ -4,10 +4,10 @@ description: Créez des modèles d’e-mail réutilisables avec des outils de co
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 4%
+source-wordcount: '540'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Avec au moins un composant de contenu dans la zone de travail, sélectionnez le 
 
 Une fois le modèle enregistré, il s’affiche dans la page des détails du fragment lorsque vous sélectionnez l’onglet _[!UICONTROL Utilisé par]_ dans le résumé.
 
-### Ajout de ressources
+### Ajout de ressources d’image
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -54,6 +54,14 @@ Une fois le modèle enregistré, il s’affiche dans la page des détails du fra
 ### Modifier le tracking des URL liées
 
 {{$include /help/_includes/content-design-links.md}}
+
+### Appliquer le style du mode sombre
+
+Utilisez le _mode sombre_ pour vérifier l’affichage de votre e-mail en fonction d’un thème sombre dans un client de messagerie. Un mode ou un thème sombre permet à un client de messagerie ou à une application de support d’afficher les e-mails avec des arrière-plans plus sombres et des couleurs plus claires pour le texte, les boutons et d’autres éléments visuels. Dans la partie supérieure droite de la zone de travail de conception, définissez le sélecteur sur _Mode sombre_ (![icône Mode sombre](../assets/do-not-localize/icon-content-dark-mode.svg) ). Ensuite, prévisualisez et définissez les paramètres personnalisés spécifiques utilisés pour l’affichage par les clients de messagerie de support lorsque leur thème sombre est activé.
+
+![Zone de travail de conception des e-mails affichant le sélecteur en mode sombre et le contenu des e-mails affiché en mode sombre](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+Pour plus d’informations sur le style du mode sombre et les bonnes pratiques, voir [Mode sombre pour le contenu des e-mails](./email-dark-mode.md).
 
 ## Afficher les options
 
