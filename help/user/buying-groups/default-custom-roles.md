@@ -51,7 +51,7 @@ Journey Optimizer B2B edition comprend un ensemble de rôles par défaut qui son
 
 1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** (obligatoire) et un **[!UICONTROL Description]** (facultatif) uniques pour le rôle.
 
-   ![ Boîte de dialogue Créer un rôle ](./assets/roles-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un rôle &#x200B;](./assets/roles-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 

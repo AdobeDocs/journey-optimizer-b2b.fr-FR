@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Jetons personnalisés pour la personnalisation des e-mails
 
-La personnalisation du contenu utilise des jetons comme espaces réservés ou variables qui sont renseignés lorsque l’artefact de contenu est généré. Des jetons de personnalisation standard sont disponibles pour les e-mails, les pages de destination, les fragments et les modèles. Vous pouvez également définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la [création d’e-mails de parcours ](./email-authoring.md#content-authoring---personalization).
+La personnalisation du contenu utilise des jetons comme espaces réservés ou variables qui sont renseignés lorsque l’artefact de contenu est généré. Des jetons de personnalisation standard sont disponibles pour les e-mails, les pages de destination, les fragments et les modèles. Vous pouvez également définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la [création d’e-mails de parcours &#x200B;](./email-authoring.md#content-authoring---personalization).
 
 Outre les jetons _Mes jetons_, spécifiques au parcours de compte, vous pouvez utiliser n’importe quel jeton standard (intégré) pour la personnalisation des e-mails.
 

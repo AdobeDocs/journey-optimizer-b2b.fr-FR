@@ -124,7 +124,7 @@ Utilisez l’une des méthodes suivantes pour remplacer une ressource résidant 
 
 Dans la boîte de dialogue _[!UICONTROL Remplacer la ressource]_, faites glisser le fichier de remplacement de votre système et déposez-le dans la zone de fichier. Vous pouvez également cliquer sur le lien _[!UICONTROL Sélectionner un fichier sur votre ordinateur]_ pour utiliser votre système de fichiers local afin de sélectionner un fichier. (Si vous sélectionnez plusieurs fichiers dans votre système local, le premier fichier sélectionné est utilisé pour le remplacement.)
 
-![ Boîte de dialogue Remplacer la ressource ](./assets/assets-replace-dialog.png){width="500"}
+![&#x200B; Boîte de dialogue Remplacer la ressource &#x200B;](./assets/assets-replace-dialog.png){width="500"}
 
 Pour continuer, cliquez sur **[!UICONTROL Remplacer]**. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]**.
 
@@ -144,7 +144,7 @@ Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Téléchar
 
 Dans la page de liste (_[!UICONTROL Gestion de contenu]_ > _[!UICONTROL Assets]_), sélectionnez plusieurs ressources à la fois en cochant chaque case à gauche. Une bannière de message s’affiche en bas lorsque vous sélectionnez plusieurs ressources.
 
-![ Ressources sélectionnées ](./assets/assets-list-selected.png){width="700" zoomable="yes"}
+![&#x200B; Ressources sélectionnées &#x200B;](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
 Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélectionnées résidant dans l’espace de travail _[!UICONTROL Journey Optimizer B2B edition]_ :
 
@@ -184,7 +184,7 @@ Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélecti
 
    Les noms de dossier doivent être uniques, comporter un maximum de 100 caractères et ne peuvent pas contenir de caractères spéciaux, tels que `;`, `:`, `\`, `|`.
 
-   ![ Boîte de dialogue Créer un dossier ](./assets/assets-create-folder-dialog.png){width="500"}
+   ![&#x200B; Boîte de dialogue Créer un dossier &#x200B;](./assets/assets-create-folder-dialog.png){width="500"}
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -274,7 +274,7 @@ Dans l’espace de conception visuelle, sélectionnez l’icône _Marketo Engage
 
 Cette action modifie le panneau Outils qui affiche une liste structurée des ressources disponibles dans l’espace de travail sélectionné. Sélectionnez l’espace de travail à afficher pour choisir une ressource.
 
-![ Ressources sélectionnées ](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
+![&#x200B; Ressources sélectionnées &#x200B;](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
 
 Il existe plusieurs méthodes pour ajouter une ressource d’image à la zone de travail visuelle :
 

@@ -97,7 +97,7 @@ Vous pouvez supprimer la désignation d’en-tête ou de pied de page en sélect
 
 Pour les écrans ou les fenêtres d’affichage plus petits, les colonnes du composant de structure s’affichent comme empilées, sauf si vous modifiez le paramètre par défaut. Lorsque le composant de structure à plusieurs colonnes est sélectionné, modifiez le paramètre **[!UICONTROL Ne pas empiler de colonnes sur un appareil mobile]** en déplaçant le curseur de basculement vers la droite.
 
-![Ne pas empiler les colonnes sur les ](./assets/structure-component-settings-stack-columns.png){width="250"} mobiles
+![Ne pas empiler les colonnes sur les &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"} mobiles
 
 ## Styles de composant
 

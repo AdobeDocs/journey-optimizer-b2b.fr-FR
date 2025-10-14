@@ -50,7 +50,7 @@ Le statut du fragment détermine sa disponibilité pour une utilisation dans un 
 | Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Le contenu du fragment publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, et le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 
-![ Cycle de vie du statut du fragment ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![&#x200B; Cycle de vie du statut du fragment &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,7 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B edition en c
 
    * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
 
-   ![ Boîte de dialogue Créer un fragment ](./assets/assets-fragments-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un fragment &#x200B;](./assets/assets-fragments-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -180,7 +180,7 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
 1. Modifiez l’un des détails, tels que le nom et la description.
 
-   ![Détails du fragment avec le statut Brouillon ](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![Détails du fragment avec le statut Brouillon &#x200B;](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. Pour modifier le contenu dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier le fragment]**.
 

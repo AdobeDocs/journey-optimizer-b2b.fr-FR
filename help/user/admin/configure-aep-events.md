@@ -84,7 +84,7 @@ Dans la liste _[!UICONTROL Définitions des événements]_, la colonne **[!UICON
 | Publié | Lorsque vous publiez une définition d’événement, elle peut être utilisée dans les parcours de compte. Les détails ne peuvent pas être modifiés. Actions disponibles : <br/><li>Disponible pour le nœud de parcours _Écouter un événement_<li>Créer une version brouillon<li>Supprimer (si non utilisé) |
 | Publié (avec le brouillon) | Lorsque vous créez un brouillon à partir d’une définition d’événement publiée, la version publiée reste disponible pour être utilisée dans les parcours de compte et le brouillon peut être modifié. Si vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il n’est pas encore exécuté. Actions disponibles : <br/><li>Modifier tous les détails<li>Publier le brouillon<li>Abandonner la version brouillon<li>Supprimer (si non utilisé) |
 
-![ Cycle de vie du statut du fragment ](../assets/status-lifecycle-diagram.png){zoomable="yes"}
+![&#x200B; Cycle de vie du statut du fragment &#x200B;](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### Filtrer la liste des définitions d’événement
 

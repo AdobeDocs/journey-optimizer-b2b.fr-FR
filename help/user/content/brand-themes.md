@@ -181,7 +181,7 @@ Déplacez le bouton bascule **[!UICONTROL Bordure]** vers la droite pour activer
 
 * Pour déterminer l’emplacement d’affichage de la bordure, cochez chaque case **[!UICONTROL Position de la bordure]**.
 
-![ Styles de bordure ](./assets/email-theme-spacing-settings-borders.png){width="250"}
+![&#x200B; Styles de bordure &#x200B;](./assets/email-theme-spacing-settings-borders.png){width="250"}
 
 +++
 

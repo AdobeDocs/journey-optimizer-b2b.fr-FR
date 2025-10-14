@@ -25,7 +25,7 @@ Pour commencer à utiliser un parcours de compte, créez le parcours, puis const
 
 1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![ Boîte de dialogue Créer un Parcours de compte ](./assets/account-journey-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un Parcours de compte &#x200B;](./assets/account-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 

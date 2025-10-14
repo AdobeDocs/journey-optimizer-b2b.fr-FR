@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition] s’intègre à [!DNL Adobe Experience Manager Assets as a Cloud Service], ce qui permet d’utiliser des ressources dans le contenu de votre e-mail. Elle assure la transparence en échangeant des informations avec les [!DNL Experience Manager Assets]. Configurez la connexion à [!DNL Adobe Experience Assets] pour activer cette fonctionnalité.
 
-Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([ En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
+Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([&#x200B; En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
 
 {{aem-assets-licensing-note}}
 

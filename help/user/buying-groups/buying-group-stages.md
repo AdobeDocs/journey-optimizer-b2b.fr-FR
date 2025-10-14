@@ -263,7 +263,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
    Le chemin de division est défini dans les propriétés de nœud sur la droite.
 
-   ![Propriétés du nœud de partage de Parcours ](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
+   ![Propriétés du nœud de partage de Parcours &#x200B;](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
 
 1. Continuez à définir d’autres chemins d’accès pour le nœud partagé et enregistrez le parcours.
 

@@ -25,7 +25,7 @@ Ce graphique illustre la répartition des parcours en fonction de leur taux d’
 
 Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-![distribution du taux d&#39;achèvement du Parcours ](./assets/journey-completion-rate-distribution.png){width="500"}
+![distribution du taux d&#39;achèvement du Parcours &#x200B;](./assets/journey-completion-rate-distribution.png){width="500"}
 
 ## Parcours par type d’engagement
 
@@ -33,7 +33,7 @@ Ce graphique à barres affiche la répartition des parcours en fonction du type 
 
 Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-![distribution du taux d&#39;achèvement du Parcours ](./assets/journeys-by-engagement-type.png){width="500"}
+![distribution du taux d&#39;achèvement du Parcours &#x200B;](./assets/journeys-by-engagement-type.png){width="500"}
 
 ## Utiliser les données
 

@@ -42,6 +42,6 @@ Cette action copie le contenu dans le concepteur de contenu visuel, où vous pou
 
 L’édition B2B de Adobe Journey Optimizer offre une sélection de modèles d’email _prêts à l’emploi_, qui peuvent être utilisés pour créer des emails et des modèles d’email.
 
-![ Choisissez un modèle fourni par Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
+![&#x200B; Choisissez un modèle fourni par Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]

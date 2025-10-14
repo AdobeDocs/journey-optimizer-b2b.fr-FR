@@ -53,7 +53,7 @@ Utilisez l’éditeur visuel de contenu pour définir la structure du contenu de
 
 >[!NOTE]
 >
->Les outils de conception disponibles sont équivalents à ceux utilisés pour la [ création d’e-mails ](./email-authoring.md). La différence est que ce contenu est ensuite enregistré en tant que modèle pouvant être réutilisé sur plusieurs nœuds _envoyer un e-mail_ dans les parcours de compte.
+>Les outils de conception disponibles sont équivalents à ceux utilisés pour la [&#x200B; création d’e-mails &#x200B;](./email-authoring.md). La différence est que ce contenu est ensuite enregistré en tant que modèle pouvant être réutilisé sur plusieurs nœuds _envoyer un e-mail_ dans les parcours de compte.
 
 1. Sur la page d’accueil _[!UICONTROL Concevez votre modèle]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
 

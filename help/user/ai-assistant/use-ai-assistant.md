@@ -66,7 +66,7 @@ Vous devez être dans un sandbox actif pour que l’assistant AI puisse fournir 
 
 Pour poser une question sur les informations opérationnelles, saisissez-la dans le champ au bas du panneau et appuyez sur Entrée. Par exemple, lorsque vous souhaitez en savoir plus sur les audiences de votre sandbox. Dans ce cas, vous saisissez _Combien y a-t-il d’audiences ?_.  L’assistant AI fournit un nombre d’audiences dans votre sandbox et une explication de la manière dont il a calculé la réponse. Dans l’exemple de réponse suivant, l’assistant AI fournit un lien pour accéder aux audiences dans l’interface utilisateur et décrit les étapes effectuées pour identifier le nombre d’audiences.
 
-![Réponse de l’assistant AI pour combien d’audiences ](./assets/ai-assistant-insights-answer.png){width="420"}
+![Réponse de l’assistant AI pour combien d’audiences &#x200B;](./assets/ai-assistant-insights-answer.png){width="420"}
 
 Vous pouvez suivre votre recherche initiale en demandant une liste d’artefacts, telle que _Liste des 5 premiers par taille_. L’assistant AI renvoie une table avec les cinq premiers éléments de la requête et leurs identifiants correspondants. Cliquez sur l’icône _Télécharger_ ( ![icône Télécharger](../assets/do-not-localize/icon-download.svg) ) pour télécharger le tableau au format CSV.
 

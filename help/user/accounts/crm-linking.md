@@ -182,7 +182,7 @@ Suivez cette séquence de tâches pour ajouter le lien personnalisé sous la for
 1. Dans l’onglet _Solution_, sélectionnez **[!UICONTROL Entités]** > **[!UICONTROL Compte]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]** > **[!UICONTROL Forms]** > **[!UICONTROL Account]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]**.
 1. Faites glisser le nouveau champ que vous avez créé lors de la première tâche depuis **[!UICONTROL Explorateur de champs]** vers la section **[!UICONTROL Résumé]**.
 
-   ![Ajoutez le champ Lien URL à la section Résumé ](./assets/crm-linking-dynamics-url-field-forms.png){width="800" zoomable="yes"}
+   ![Ajoutez le champ Lien URL à la section Résumé &#x200B;](./assets/crm-linking-dynamics-url-field-forms.png){width="800" zoomable="yes"}
 
 1. Double-cliquez sur le champ dans la section _Résumé_ et configurez ses propriétés.
 

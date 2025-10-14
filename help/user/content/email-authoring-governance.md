@@ -29,5 +29,5 @@ Les icônes indiquent les paramètres de verrouillage de contenu appliqués.
 |------|------|-------------|
 | ![Icône Lecture seule](../assets/do-not-localize/icon-tree-lock.svg) | Lecture seule | Le composant est verrouillé et ne peut pas être modifié. Lorsqu’ils sont appliqués au niveau racine (_[!UICONTROL Body]_), tous les composants enfants sont verrouillés et ne peuvent pas être modifiés. |
 | ![Icône de modification du contenu](../assets/do-not-localize/icon-tree-content-lock.svg) | Verrouillage de contenu | Le verrouillage de contenu est appliqué au niveau du composant. |
-| ![ Icône modifiable ](../assets/do-not-localize/icon-edit.svg) | Modifiable | Le composant est entièrement modifiable. Cependant, il se peut que vous ne puissiez pas supprimer l’élément. |
+| ![&#x200B; Icône modifiable &#x200B;](../assets/do-not-localize/icon-edit.svg) | Modifiable | Le composant est entièrement modifiable. Cependant, il se peut que vous ne puissiez pas supprimer l’élément. |
 | ![Icône de modification du contenu](../assets/do-not-localize/icon-tree-edit-text.svg) | Modifiable - Contenu uniquement | Le composant et le style sont statiques, mais vous pouvez modifier le contenu (texte ou image, par exemple). |

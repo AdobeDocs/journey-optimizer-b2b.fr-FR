@@ -55,7 +55,7 @@ Pour créer un modèle de score d’engagement personnalisé, dupliquez le modè
 
 1. Cliquez sur le nom du modèle pour ouvrir la page des détails du modèle, puis cliquez sur **[!UICONTROL Dupliquer]** en haut à droite.
 
-   ![ Dupliquer le modèle actif ](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
+   ![&#x200B; Dupliquer le modèle actif &#x200B;](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
 
    Vous pouvez également cliquer sur l’icône _Plus_ (***...***) en regard du nom du modèle de score dans la liste et choisir **[!UICONTROL Dupliquer]**.
 

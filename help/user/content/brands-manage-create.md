@@ -61,7 +61,7 @@ Vous pouvez désigner une marque par défaut à appliquer automatiquement lors d
 
 Dans la bibliothèque de marques, la vignette de marque par défaut est affichée avec un indicateur .
 
-![ Indicateur de marque par défaut ](./assets/brands-default-flag.png){width="200"}
+![&#x200B; Indicateur de marque par défaut &#x200B;](./assets/brands-default-flag.png){width="200"}
 
 Vous pouvez définir n’importe quelle marque publiée (_en direct_) comme marque par défaut. Sur la carte de marque, cliquez sur l’icône _Plus de menu_ ( ![Icône de menu Plus](../../assets/do-not-localize/icon-more-menu.svg) ) et choisissez **[!UICONTROL Marquer comme marque par défaut]**.
 
