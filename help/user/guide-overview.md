@@ -3,9 +3,9 @@ title: Documentation d’Adobe Journey Optimizer B2B Edition
 description: 'Documentation complète pour Journey Optimizer B2B Edition : explorez les ressources disponibles pour l’intégration, la création de groupes d’achat, la conception de parcours de compte et la gestion de contenu.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ Voici un exemple des derniers ajouts et des améliorations apportées à l’app
 
 >[!BEGINTABS]
 
->[!TAB Collaboration sur le contenu des e-mails]
+>[!TAB Collaboration sur le contenu d’e-mail]
 
-L’espace de conception d’e-mail comprend des outils de collaboration pour la formulation de commentaires et la résolution afin que les équipes marketing puissent examiner, discuter et finaliser en toute transparence les ressources d’e-mail directement dans [!DNL Journey Optimizer B2B Edition]. Au lieu de partager des brouillons sur des outils externes (tels que le chat, les fils de discussion d’e-mail ou les feuilles de calcul), les utilisateurs peuvent commenter, suggérer des modifications et résoudre les commentaires dans l’espace de conception d’e-mail. Vous pouvez baliser les membres de votre équipe afin qu’ils reçoivent une notification Push ou par e-mail contenant les détails du commentaire.
+L’espace de conception d’e-mail comprend des outils de collaboration pour la formulation de commentaires et la résolution afin que les équipes marketing puissent examiner les ressources d’e-mail directement dans [!DNL Journey Optimizer B2B Edition], en discuter et les finaliser, le tout de manière fluide. Au lieu de partager des brouillons sur des outils externes (tels que le chat, les threads d’e-mail ou les feuilles de calcul), les utilisateurs et utilisatrices peuvent commenter, suggérer des modifications et résoudre les commentaires dans l’espace de conception d’e-mail. Vous pouvez mentionner les personnes membres de votre équipe afin qu’elles reçoivent une notification par e-mail ou une notification Pulse contenant les détails du commentaire.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="En savoir plus sur les outils de collaboration de contenu d’e-mail"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="En savoir plus sur les outils de collaboration sur le contenu par e-mail"}
 
->[!TAB Conception d’e-mail en mode sombre]
+>[!TAB Mode sombre pour la conception d’e-mail]
 
-L’espace de conception d’e-mail comprend désormais _mode sombre_ l’aperçu et les paramètres. Le mode sombre permet à un client de messagerie ou à une application de support d’afficher les e-mails avec des arrière-plans plus sombres et des couleurs plus claires pour le texte, les boutons et d’autres éléments visuels. Prévisualisez le rendu, personnalisez les paramètres, assurez l’accessibilité et effectuez des tests sur les clients de messagerie.
+L’espace de conception d’e-mail comprend désormais un aperçu et des paramètres pour le _mode sombre_. Le mode sombre permet aux clients de messagerie et aux applications pris en charge d’afficher les e-mails avec des arrière-plans sombres et des couleurs plus claires pour le texte, les boutons et les autres éléments visuels. Prévisualisez le rendu, personnalisez les paramètres, assurez l’accessibilité et effectuez des tests sur divers clients de messagerie.
 
-[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="En savoir plus sur la conception d’e-mails en mode sombre"}
+[!BADGE En savoir plus]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="En savoir plus sur la conception d’e-mail en mode sombre"}
 
 >[!TAB Score d’engagement de personne]
 
@@ -137,7 +137,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> – <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> – <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées à l’équipe de développement</a>
