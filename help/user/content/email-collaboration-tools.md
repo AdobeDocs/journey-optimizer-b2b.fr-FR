@@ -3,17 +3,16 @@ title: Outils de Collaboration des e-mails
 description: Collaborez sur des emails dans Journey Optimizer B2B edition. Ajoutez des commentaires, invitez des réviseurs et résolvez les commentaires et rationalisez les workflows de révision pour les équipes.
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Outils de collaboration par e-mail
 
-L’[espace de conception d’e-mail](./email-authoring.md) comprend des outils de collaboration pour la formulation de commentaires et la résolution afin que les équipes marketing puissent examiner, discuter et finaliser en toute transparence les ressources d’e-mail directement dans [!DNL Journey Optimizer B2B Edition]. Au lieu de partager des brouillons sur des outils externes (tels que le chat, les fils de discussion d’e-mail ou les feuilles de calcul), les utilisateurs peuvent commenter, suggérer des modifications et résoudre les commentaires dans l’espace de conception d’e-mail. Utilisez ces outils pour rationaliser votre workflow, réduire les erreurs et vous assurer que les parties prenantes sont alignées avant de lancer votre campagne par e-mail dans un parcours de compte :
+L’[espace de conception d’e-mail](./email-authoring.md) comprend des outils de collaboration pour la formulation de commentaires et la résolution afin que les équipes marketing puissent examiner, discuter et finaliser en toute transparence les ressources d’e-mail directement dans [!DNL Journey Optimizer B2B Edition]. Au lieu de partager des brouillons sur des outils externes (tels que le chat, les threads d’e-mail ou les feuilles de calcul), les utilisateurs et utilisatrices peuvent commenter, suggérer des modifications et résoudre les commentaires dans l’espace de conception d’e-mail. Utilisez ces outils pour rationaliser votre workflow, réduire les erreurs et vous assurer que les parties prenantes sont alignées avant de lancer votre campagne par e-mail dans un parcours de compte :
 
 * **_Retour d’informations centralisé_** - Collectez et suivez tous les retours en un seul endroit.
 
