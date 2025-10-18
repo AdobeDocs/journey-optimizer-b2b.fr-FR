@@ -42,7 +42,7 @@ Lorsque l’utilisateur dispose des autorisations nécessaires, il peut accéder
 
 Regardez la vidéo suivante pour savoir comment configurer l’accès à l’assistant d’IA pour vos organisations et utilisateurs.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475921/?captions=fre_fr&learn=on)
 
 ## Étapes suivantes
 
