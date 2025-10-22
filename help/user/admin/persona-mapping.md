@@ -2,11 +2,10 @@
 title: Mappage de persona
 description: Découvrez comment configurer des rôles pour le marketing basé sur les comptes en mappant les attributs de personne afin de créer des modèles de rôle simplifiés pour les groupes d’achats.
 feature: Setup, Buying Groups
-hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 role: Admin
-source-git-commit: e301dfd5ac1421eb73e80b1d772d1b17f9ef3a1e
+source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
