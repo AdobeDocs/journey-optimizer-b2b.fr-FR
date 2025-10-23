@@ -5,9 +5,9 @@ feature: Setup, Buying Groups
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 role: Admin
-source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
+source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -76,10 +76,7 @@ Pour localiser la personne de votre choix, utilisez les outils de recherche et d
 
   ![Filtrer les définitions d’événement affichées](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/icon-filter.svg) ) en haut à gauche pour filtrer la liste affichée à l’aide de l’un des attributs suivants :
-
-   * ?
-   * ?
+* Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/icon-filter.svg) ) en haut à gauche pour filtrer la liste affichée par attribut.
 
 ## Créer une persona
 
@@ -114,7 +111,6 @@ Pour localiser la personne de votre choix, utilisez les outils de recherche et d
 ## Modifier une persona
 
 1. Pour accéder aux détails du persona, cliquez sur son nom.
-
 
 ## Supprimer une persona
 
