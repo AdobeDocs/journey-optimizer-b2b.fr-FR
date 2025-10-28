@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Journey Optimizer B2B Edition. Restez informé des nouvelles fonctionnalités et améliorations du produit.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c8cf78c8e393121e325ffc8c7876c80902289d11
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 97%
+source-wordcount: '3384'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,35 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+
+## Notes de mise à jour 2025.10
+
+**Date de déploiement** : samedi 31 octobre 2025
+
+| Type | Élément | Description |
+| ---- | ---- | ----------- |
+| Fonctionnalité | Schémas personnalisés basés sur des modèles | Créez des schémas personnalisés à partir de classes basées sur des modèles. |
+| Fonctionnalité | Activer vers la destination | Utilisez la nouvelle action _Activer vers la destination_ compte d’entreprise pour l’activer directement vers les entreprises, plutôt que vers les individus. (Limité aux sociétés LinkedIn pour cette version.) |
+| Fonctionnalité | Thèmes de marque | Grâce aux thèmes de marque, les utilisateurs non techniques ont désormais la possibilité de créer du contenu réutilisable adapté à une marque et à un langage de conception spécifiques en ajoutant un style personnalisé aux modèles standard. [En savoir plus](../content/brand-themes.md) |
+| Fonctionnalité | Mappage de persona | Lier les membres de compte aux rôles établis avec le mappage d’attributs. [En savoir plus](../admin/persona-mapping.md) |
+| Amélioration | Traitements de maintenance du groupe d&#39;achat | La fréquence des traitements de maintenance des groupes d&#39;achats est mise à jour de hebdomadaire à quotidienne. |
+| Amélioration | Progression du parcours de compte | Un lien _Plus d’informations_ est visible pour la progression du parcours afin d’accéder au nombre de comptes et aux listes. |
+
+<!-- M1.5 changes
+| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
+
+Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais disponibles pour Journey Optimizer B2B edition dans l’interface de l’assistant d’IA :
+
+| Agent ou agente | Mise à jour  | Description |
+| ----- | ------ | ----------- |
+| Account Qualification Agent | Nouveau | Identifiez les comptes prêts pour l’étape suivante à l’aide du Account Qualification Agent dans l’assistant AI. Cet agent permet aux membres de votre équipe de vente de se concentrer sur les comptes appropriés en faisant apparaître des prospects à forte valeur ajoutée et en automatisant les workflows de qualification. [En savoir plus](../agents/account-qualification-agent.md) |
+
+>[!NOTE]
+>
+>Le déploiement des modifications de la version commence le samedi 31 octobre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+
+
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -34,6 +62,8 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | ---- | ---- | ----------- |
 | Fonctionnalité | Collaboration sur le contenu d’e-mail | Vous pouvez maintenant commenter la collaboration avec d’autres utilisateurs et utilisatrices de Journey Optimizer B2B Edition, dans le cadre d’une ressource d’e-mail. Vous pouvez mentionner les personnes membres de votre équipe afin qu’elles reçoivent une notification par e-mail contenant les détails du commentaire. La notification est également disponible sous la forme d’une notification Pulse. |
 | Fonctionnalité | Mode sombre pour la conception d’e-mail | L’espace de conception d’e-mail comprend désormais la possibilité de passer en _mode sombre_. En mode sombre, vous pouvez prévisualiser le contenu de l’e-mail et définir les paramètres personnalisés à afficher spécifiquement pour les personnes destinataires qui consultent leurs e-mails en mode sombre. |
+| Fonctionnalité | Déduplication de la lassitude des e-mails | Vous pouvez désormais activer la déduplication des e-mails pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse dans un parcours. Les adresses en double sont bloquées jusqu’à ce que le premier enregistrement avec cette adresse e-mail termine le parcours. |
+| Fonctionnalité | Informations commerciales pour Salesforce et Dynamics | Les membres de l&#39;équipe des ventes peuvent désormais afficher les groupes d&#39;achats arrivant à maturité et les informations connexes dans une intégration Salesforce ou Dynamics pour identifier de nouvelles opportunités. Les détails du groupe d’achats tels que l’étape, le score et les membres associés sont inclus. |
 | Amélioration | Parcours - Partager le chemin par nombre de personnes dans le rôle | Utilisez un nœud de chemin de partage par compte pour cibler un compte avec le nombre de personnes dans un ou plusieurs rôles de groupe d’achat. Dans le chemin d’accès, vous pouvez évaluer la préparation du groupe d’achat aux alertes de ventes et à d’autres engagements en fonction de la profondeur de rôle. [En savoir plus](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Amélioration | Parcours - Filtres de personnes pour les événements | Utilisez les filtres de personnes pour écouter les événements de personnes. Ces filtres incluent la possibilité de cibler un rôle spécifique pour un groupe d’achat correspondant. [En savoir plus](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 

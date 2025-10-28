@@ -1,13 +1,11 @@
 ---
 title: Mappage de persona
-description: Découvrez comment configurer des rôles pour le marketing basé sur les comptes en mappant les attributs de personne afin de créer des modèles de rôle simplifiés pour les groupes d’achats.
+description: Découvrez comment configurer le mappage des rôles pour le marketing B2B. Mappez les attributs de personne dans Journey Optimizer B2B edition pour créer des modèles de rôle et optimiser le ciblage des groupes d’achats.
 feature: Setup, Buying Groups
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 role: Admin
-source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -92,7 +90,7 @@ Pour localiser la personne de votre choix, utilisez les outils de recherche et d
 
    * Cliquez sur **[!UICONTROL Sélectionner les attributs de personne]**.
 
-   * Dans la boîte de dialogue _[!UICONTROL Sélectionner les attributs de personne]_, cochez la case de chaque attribut à mapper (cinq au maximum).
+   * Dans la boîte de dialogue, cochez la case de chaque attribut à mapper (cinq au maximum).
 
      Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres de colonne_ ( ![Paramètres de colonne](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit.
 
@@ -110,7 +108,7 @@ Pour localiser la personne de votre choix, utilisez les outils de recherche et d
 
 ## Modifier une persona
 
-1. Pour accéder aux détails du persona, cliquez sur son nom.
+Cliquez sur le nom du persona pour accéder aux détails du persona et les modifier,
 
 ## Supprimer une persona
 
