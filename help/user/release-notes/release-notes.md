@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Journey Optimizer B2B edition. Restez informé des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 4bf03f99f146454658422d5b1dac184a108c802b
+source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
 workflow-type: tm+mt
-source-wordcount: '3490'
-ht-degree: 87%
+source-wordcount: '3494'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2025.10
 
@@ -60,8 +60,8 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Collaboration sur le contenu d’e-mail | Vous pouvez maintenant commenter la collaboration avec d’autres utilisateurs et utilisatrices de Journey Optimizer B2B Edition, dans le cadre d’une ressource d’e-mail. Vous pouvez mentionner les personnes membres de votre équipe afin qu’elles reçoivent une notification par e-mail contenant les détails du commentaire. La notification est également disponible sous la forme d’une notification Pulse. |
-| Fonctionnalité | Mode sombre pour la conception d’e-mail | L’espace de conception d’e-mail comprend désormais la possibilité de passer en _mode sombre_. En mode sombre, vous pouvez prévisualiser le contenu de l’e-mail et définir les paramètres personnalisés à afficher spécifiquement pour les personnes destinataires qui consultent leurs e-mails en mode sombre. |
+| Fonctionnalité | Collaboration sur le contenu d’e-mail | Vous pouvez maintenant commenter la collaboration avec d’autres utilisateurs et utilisatrices de Journey Optimizer B2B Edition, dans le cadre d’une ressource d’e-mail. Vous pouvez mentionner les personnes membres de votre équipe afin qu’elles reçoivent une notification par e-mail contenant les détails du commentaire. La notification est également disponible sous la forme d’une notification Push. [En savoir plus](../content/email-collaboration-tools.md) |
+| Fonctionnalité | Mode sombre pour la conception d’e-mail | L’espace de conception d’e-mail comprend désormais la possibilité de passer en _mode sombre_. En mode sombre, vous pouvez prévisualiser le contenu de l’e-mail et définir les paramètres personnalisés à afficher spécifiquement pour les destinataires qui consultent leurs e-mails en mode sombre. [En savoir plus](../content/email-dark-mode.md) |
 | Amélioration | Parcours - Partager le chemin par nombre de personnes dans le rôle | Utilisez un nœud de chemin de partage par compte pour cibler un compte avec le nombre de personnes dans un ou plusieurs rôles de groupe d’achat. Dans le chemin d’accès, vous pouvez évaluer la préparation du groupe d’achat aux alertes de ventes et à d’autres engagements en fonction de la profondeur de rôle. [En savoir plus](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Amélioration | Parcours - Filtres de personnes pour les événements | Utilisez les filtres de personnes pour écouter les événements de personnes. Ces filtres incluent la possibilité de cibler un rôle spécifique pour un groupe d’achat correspondant. [En savoir plus](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
