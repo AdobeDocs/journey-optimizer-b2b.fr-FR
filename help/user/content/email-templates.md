@@ -4,7 +4,7 @@ description: Créez entièrement des modèles d’e-mail réutilisables, effectu
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 4%
@@ -25,7 +25,7 @@ La liste est triée par défaut en fonction de la colonne _[!UICONTROL Modifié]
 
 Pour rechercher un modèle par nom, saisissez une chaîne de texte dans la barre de recherche. Cliquez sur l’icône _Filtrer_ en haut à gauche pour filtrer la liste en fonction des dates de création ou de modification et des modèles que vous avez créés ou modifiés.
 
-![Accédez à la bibliothèque de modèles d’e-mail et filtrez par nom et dates](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
+![Accédez à la bibliothèque de modèles d’e-mail et filtrez par nom et dates](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
 Personnalisez les colonnes à afficher dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ ( ![Icône Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg) ) en haut à droite. Sélectionnez les colonnes à afficher et cliquez sur **[!UICONTROL Appliquer]**.
 
@@ -53,7 +53,7 @@ Utilisez l’éditeur visuel de contenu pour définir la structure du contenu de
 
 >[!NOTE]
 >
->Les outils de conception disponibles sont équivalents à ceux utilisés pour la [&#x200B; création d’e-mails &#x200B;](./email-authoring.md). La différence est que ce contenu est ensuite enregistré en tant que modèle pouvant être réutilisé sur plusieurs nœuds _envoyer un e-mail_ dans les parcours de compte.
+>Les outils de conception disponibles sont équivalents à ceux utilisés pour la [ création d’e-mails ](./email-authoring.md). La différence est que ce contenu est ensuite enregistré en tant que modèle pouvant être réutilisé sur plusieurs nœuds _envoyer un e-mail_ dans les parcours de compte.
 
 1. Sur la page d’accueil _[!UICONTROL Concevez votre modèle]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
 

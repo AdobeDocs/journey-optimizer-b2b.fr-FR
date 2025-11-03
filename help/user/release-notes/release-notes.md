@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Journey Optimizer B2B edition. Restez informé des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
+source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
 workflow-type: tm+mt
-source-wordcount: '3494'
-ht-degree: 86%
+source-wordcount: '3522'
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2025.10
 
@@ -26,8 +26,9 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | ---- | ---- | ----------- |
 | Fonctionnalité | Modèle de données relationnel | Tirez parti des données relationnelles liées aux comptes B2B pour filtrer les comptes dans un parcours de compte ou personnaliser le contenu des e-mails. Ces données relationnelles peuvent représenter des entités commerciales réelles telles que des enregistrements d’achat, des enregistrements d’événement, des licences logicielles, des abonnements à des services ou des réservations. |
 | Fonctionnalité | Activer vers la destination pour parcours | Utilisez la nouvelle action _Activer vers la destination_ compte d’entreprise pour l’activer directement vers les entreprises, plutôt que vers les individus. (Limité aux sociétés LinkedIn pour cette version.) |
-| Fonctionnalité | Activation de plusieurs Marketo Engage | Configurez des connexions à des instances Marketo Engage distantes et utilisez ces connexions pour configurer des actions de parcours liées à Marketo Engage. Ces actions, telles que l’ajout ou la suppression de personnes dans des listes ou l’ajout de personnes à une campagne de demande, s’appliquent à l’instance Marketo Engage désignée. |
+| Fonctionnalité | Activation de plusieurs Marketo Engage | Configurez des connexions à des instances Marketo Engage distantes et utilisez ces connexions pour configurer des actions Marketo Engage à partir de parcours. Ces actions, telles que l’ajout ou la suppression de personnes dans des listes ou l’ajout de personnes à une campagne de demande, s’appliquent à l’instance Marketo Engage désignée. |
 | Fonctionnalité | Thèmes de marque | Grâce aux thèmes de marque, les utilisateurs non techniques ont désormais la possibilité de créer du contenu réutilisable adapté à une marque et à un langage de conception spécifiques en ajoutant un style personnalisé aux modèles standard. [En savoir plus](../content/brand-themes.md) |
+| Fonctionnalité | Modèles d’e-mail - convertir l’image en HTML | Vous pouvez désormais utiliser vos fichiers de conception stockés en tant que fichiers image JPG ou PNG et générer automatiquement des modèles d’e-mail. [En savoir plus](../content/email-template-image-convert.md) |
 | Fonctionnalité | Mappage de persona | Lier les membres de compte aux rôles établis avec le mappage d’attributs. [En savoir plus](../admin/persona-mapping.md) |
 | Fonctionnalité | Informations commerciales pour Salesforce et Dynamics | Les membres de l&#39;équipe des ventes peuvent désormais afficher les groupes d&#39;achats arrivant à maturité et les informations connexes dans une intégration Salesforce ou Dynamics pour identifier de nouvelles opportunités. Les détails du groupe d’achats tels que l’étape, le score et les membres associés sont inclus. |
 | Amélioration | Déduplication de la lassitude des e-mails | Vous pouvez désormais activer la déduplication des e-mails pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse dans un parcours. Les adresses en double sont bloquées jusqu’à ce que le premier enregistrement avec cette adresse e-mail termine le parcours. |
