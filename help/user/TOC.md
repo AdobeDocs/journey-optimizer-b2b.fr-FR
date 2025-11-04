@@ -4,7 +4,7 @@ user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et com
 source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 96%
 + Comptes {#accounts}
    + [Audiences](./audiences/account-audience-overview.md)
    + [Agent Audience](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
+   + [Agent Account Qualification](agents/account-qualification-agent.md)
    + Groupes d’achat {#buying-groups}
       + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
       + [Intérêts de la solution](./buying-groups/solution-interests.md)
