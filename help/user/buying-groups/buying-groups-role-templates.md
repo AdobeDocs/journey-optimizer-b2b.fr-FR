@@ -4,10 +4,10 @@ description: Créez des modèles de rôle avec affectation automatique condition
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 6%
+source-wordcount: '1303'
+ht-degree: 5%
 
 ---
 
@@ -120,6 +120,26 @@ Pour utiliser l’appartenance à une liste comme condition de rôle, développe
 
 Vos modifications sont enregistrées automatiquement au statut _Brouillon_. Si vous n’êtes pas prêt à publier le modèle de rôles, cliquez sur la flèche de gauche (arrière) en haut de la page et revenez à la liste _[!UICONTROL Modèles de rôles]_.
 
+### Modifier les paramètres de score d&#39;exhaustivité
+
+Par défaut, l&#39;exhaustivité d&#39;un rôle est définie comme un membre affecté au rôle. Lorsque vous souhaitez utiliser l&#39;exhaustivité du groupe d&#39;achats comme indicateur de préparation à la vente ou de <!-- journey decisioning coming later--> de succès, vous pouvez utiliser ces paramètres pour aligner le score sur le nombre de membres par rôle requis pour fermer une opportunité.
+
+Par exemple, la conclusion d’une affaire pour votre solution _X_ nécessite l’identification et l’engagement de plusieurs décideurs marketing, car plusieurs équipes marketing d’une organisation utiliseraient la solution. Dans ce cas, vous souhaitez augmenter le seuil de calcul d&#39;un groupe d&#39;achats _complet_ en exigeant au moins deux décideurs marketing.
+
+Voir [Scores d&#39;exhaustivité](./completeness-scores.md) pour obtenir des informations détaillées sur le score d&#39;exhaustivité et les calculs.
+
+1. En haut à droite de la page du modèle de rôles, cliquez sur **[!UICONTROL Paramètres du score d&#39;exhaustivité]**.
+
+   ![Modèle de rôles - bouton Paramètres de score d&#39;exhaustivité](./assets/buying-group-details-edit-roles-completeness-settings.png){width="700" zoomable="yes"}
+
+1. Dans la boîte de dialogue, modifiez la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini, le cas échéant.
+
+   Vous pouvez saisir la valeur ou cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
+
+   ![Modèle de rôles - bouton Paramètres de score d&#39;exhaustivité](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**
+
 ### Publication du modèle de rôles
 
 Si le modèle est prêt à l’emploi, cliquez sur **[!UICONTROL Publier]** en haut à droite.
@@ -160,6 +180,6 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Supprimer]** pour confirmer.
 
-## Vidéo de vue d’ensemble
+## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

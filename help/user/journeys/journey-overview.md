@@ -4,10 +4,10 @@ description: 'Rationalisez la génération de la demande avec les parcours de co
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 91%
 
 ---
 
@@ -85,7 +85,7 @@ Si vous abandonnez (arrêtez) un parcours actif ou planifié, les comptes du par
 
 >[!IMPORTANT]
 >
->Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Entreprendre une action_ avec l’action _Ajouter un compte à un (autre) parcours_, l’abandon du parcours bloque cette action à partir de ce parcours.
+>Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Entreprendre une action_ avec l’action _[!UICONTROL Ajouter un compte à un (autre) parcours]_, l’abandon du parcours bloque cette action à partir de ce parcours.
 
 1. Cliquez sur le nom du parcours pour l’ouvrir.
 
@@ -101,7 +101,7 @@ Si vous fermez un parcours actif, les comptes actuellement dans le parcours cont
 
 >[!IMPORTANT]
 >
->Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Entreprendre une action_ avec l’action _Ajouter un compte à un (autre) parcours_, la fermeture du parcours bloque cette action à partir de ce parcours.
+>Lorsque le parcours de compte est utilisé dans un autre parcours à partir d’un nœud _Entreprendre une action_ avec l’action _[!UICONTROL Ajouter un compte à un (autre) parcours]_, la fermeture du parcours bloque cette action à partir de ce parcours.
 
 1. Cliquez sur le nom du parcours pour l’ouvrir.
 
@@ -155,6 +155,16 @@ Utilisez une action de suppression pour supprimer définitivement un parcours. V
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
 
-## Vidéo de vue d’ensemble
+## Vérifier la progression du compte
 
->[!VIDEO](https://video.tv.adobe.com/v/3443209/?learn=on&captions=fre_fr)
+Pour un parcours publié dont le statut est défini sur _En ligne_, _Fermé aux nouvelles entrées_, _Abandonné_ ou _Terminé_, vous pouvez ouvrir le mappage de parcours afin de consulter la progression du compte pour les nœuds de parcours. Chaque nœud de la carte affiche le nombre de comptes à atteindre pour ce nœud et, pour les parcours en direct, le nombre de comptes actuellement sur ce nœud.
+
+![Informations sur la progression du compte de nœud de Parcours ](./assets/node-account-progression-observability.png){width="400"}
+
+Lorsque vous sélectionnez le nœud, cliquez sur le numéro pour afficher la liste des comptes qui sont entrés dans le nœud ou qui se trouvent actuellement à cette étape du parcours.
+
+![Informations sur la progression du compte de nœud de Parcours ](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+
+## Vidéo de présentation
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

@@ -4,10 +4,10 @@ description: 'Optimisez l’Account-Based Marketing (ABM) avec des groupes d’a
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: ht
-source-wordcount: '1187'
-ht-degree: 100%
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+workflow-type: tm+mt
+source-wordcount: '1193'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ Pour éviter tout remplacement incorrect de l’affectation d’une personne mem
 * Si un utilisateur ou une utilisatrice affecte manuellement une personne membre à un groupe d’achat et que cette affectation est suivie d’un traitement de maintenance du groupe d’achat qui supprime cette personne membre du groupe d’achat, le traitement de maintenance **ne supprime pas** cette personne membre et ne peut pas remplacer l’affectation manuelle.
 * Si un utilisateur ou une utilisatrice affecte manuellement une personne membre à un groupe d’achat et qu’ensuite un nœud de parcours déclenché supprime cette personne membre du groupe d’achat, l’action de nœud **ne supprime pas** cette personne membre et ne peut pas remplacer l’affectation manuelle.
 * Si un nœud d’action de parcours déclenché ajoute une personne membre à un groupe d’achat et que cet ajout est suivi d’un traitement de maintenance du groupe d’achat qui supprime cette personne membre du groupe d’achat, le traitement de maintenance **ne supprime pas** cette personne membre et ne peut pas remplacer l’affectation d’action de parcours.
+
+>[!NOTE]
+>
+>Les traitements de maintenance des groupes d’achats automatisés s’exécutent quotidiennement, à partir de la version 2025.10.
 
 ## Workflow du groupe d’achat
 
@@ -96,11 +100,11 @@ Pour accéder aux détails d’un groupe d’achats, cliquez sur le nom du group
 
 ### Score d’exhaustivité du groupe d’achat
 
-Le score d’exhaustivité est utilisé pour déterminer si le groupe d’achat dispose des bons rôles attribués aux bonnes personnes membres et s’il peut être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d’achat et le nombre de rôles affectés avec au moins un lead.
+Le score d&#39;exhaustivité permet de déterminer si le groupe d&#39;achats dispose du nombre adéquat de membres affectés aux rôles requis et s&#39;il est prêt à être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d&#39;achat et l&#39;exhaustivité de chacun des rôles définis.
 
-Par exemple, s’il existe quatre rôles au sein d’un groupe d’achat et que trois des quatre rôles sont affectés à au moins un lead, le groupe d’achat est complet à 75 %.
+Le calcul initial du score d&#39;exhaustivité commence dès la création du groupe d&#39;achats et est recalculé quotidiennement et chaque fois qu&#39;un groupe d&#39;achats est créé ou mis à jour.
 
-Le score d’exhaustivité de groupe d’achat est recalculé chaque fois qu’un groupe d’achat est créé ou mis à jour.
+Voir [Scores d&#39;exhaustivité](./completeness-scores.md) pour obtenir des informations détaillées sur le score d&#39;exhaustivité et les calculs.
 
 ### Score d’engagement du groupe d’achat {#engagement-score}
 
@@ -112,4 +116,4 @@ Consultez la section [Scores d’engagement](./engagement-scores.md) pour des in
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
