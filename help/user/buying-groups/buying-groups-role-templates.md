@@ -134,7 +134,7 @@ Voir [Scores d&#39;exhaustivité](./completeness-scores.md) pour obtenir des inf
 
 1. Dans la boîte de dialogue, modifiez la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini, le cas échéant.
 
-   Vous pouvez saisir la valeur ou cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
+   Vous pouvez saisir la valeur ou cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Modèle de rôles - bouton Paramètres de score d&#39;exhaustivité](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
