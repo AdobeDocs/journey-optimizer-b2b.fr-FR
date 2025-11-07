@@ -3,7 +3,7 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 98%
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
@@ -26,7 +26,7 @@ Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour
 | ----- | ------ | ----------- |
 | Agent de création de parcours | Nouveau | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
 | Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
-| Agent Account Qualification | Nouveau | Identifiez les comptes prêts pour l’étape suivante à l’aide de l’Agent Account Qualification dans l’assistant AI. Cet agent permet aux membres de votre équipe de vente de se concentrer sur les comptes appropriés en faisant apparaître des prospects à forte valeur ajoutée et en automatisant les workflows de qualification. [En savoir plus](../agents/account-qualification-agent.md) |
+| Agent Account Qualification | Nouveau | Identifiez les comptes prêts pour l’étape suivante à l’aide de l’Agent Account Qualification dans l’assistant AI. Cet agent permet aux membres de votre équipe de vente de se concentrer sur les comptes appropriés en faisant apparaître des prospects à forte valeur ajoutée et en automatisant les workflows de qualification. [En savoir plus](../agents/sales-qualifier.md) |
 
 ## Notes de mise à jour 2025.10
 

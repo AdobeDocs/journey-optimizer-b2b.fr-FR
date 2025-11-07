@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 98%
+source-wordcount: '346'
+ht-degree: 97%
 
 ---
 
@@ -23,9 +23,12 @@ ht-degree: 98%
    + [Activer l’accès à l’assistant IA](./ai-assistant/enable-ai-assistant-access.md)
    + [Conseils sur les questions](./ai-assistant/question-guidance.md)
    + [Utiliser l’assistant IA](./ai-assistant/use-ai-assistant.md)
+   + Agents {#ai-agents}
+      + [Agent Audience](./agents/audience-agent-b2b.md)
+      + [Agent de création de parcours](./agents/journey-agent.md)
+      + [Qualificateur de vente](./agents/sales-qualifier.md)
 + Parcours de compte {#account-journeys}
    + [Vue d’ensemble](./journeys/journey-overview.md)
-   + [Agent de création de parcours](./agents/journey-agent.md)
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [Nœuds de parcours](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
@@ -48,8 +51,6 @@ ht-degree: 98%
    + [Création de SMS](./content/sms-authoring.md)
 + Comptes {#accounts}
    + [Audiences](./audiences/account-audience-overview.md)
-   + [Agent Audience](./agents/audience-agent-b2b.md)
-   + [Agent Account Qualification](agents/account-qualification-agent.md)
    + Groupes d’achat {#buying-groups}
       + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
       + [Intérêts de la solution](./buying-groups/solution-interests.md)
@@ -63,6 +64,7 @@ ht-degree: 98%
       + [Exporter des comptes](./audiences/account-list-export.md)
       + [Audiences correspondantes de compte LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtres de groupe d’achat dans Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [Insights In-CRM](./buying-groups/incrm-insights.md)
    + Listes de comptes {#account-lists}
       + [Vue d’ensemble](./accounts/account-lists.md)
       + [Utilisation dans les parcours et les programmes](./accounts/account-lists-journeys.md)
