@@ -233,4 +233,4 @@ En bas à gauche de l’application, cliquez sur **[!UICONTROL Modifier]** pour 
 
 La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
