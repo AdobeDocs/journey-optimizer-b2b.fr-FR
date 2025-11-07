@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Les Insights in-CRM Marketo sont une application web qui s’intègre à Salesforce, ce qui vous permet d’accéder à vos groupes d’achats B2B AJO directement dans Salesforce. Vous pouvez ainsi identifier les opportunités d’engagement et de potentiel de vente accrus.
 
-Les informations in-CRM sont disponibles dans le package [Informations sur les ventes Marketo](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+Les informations in-CRM sont disponibles dans le package [Informations sur les ventes Marketo](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Utilisation des informations dans le CRM
 
@@ -29,7 +29,7 @@ Les Insights dans le CRM sont disponibles dans Salesforce via le lanceur d’app
 Vos groupes d&#39;achat sont chargés et disponibles. Les données sont en lecture seule via les informations In-CRM.
 
 >[!NOTE]
->Les utilisateurs doivent être membres du rôle [Utilisateur commercial B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) pour accéder aux informations In-CRM.
+>Les utilisateurs doivent être membres du rôle [Utilisateur commercial B2B](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) pour accéder aux informations In-CRM.
 >
 
-En sélectionnant un Groupe d’achat, vous pouvez désormais parcourir les [détails du groupe](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), comme dans Journey Optimizer B2B.
+En sélectionnant un Groupe d’achat, vous pouvez désormais parcourir les [détails du groupe](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), comme dans Journey Optimizer B2B.
