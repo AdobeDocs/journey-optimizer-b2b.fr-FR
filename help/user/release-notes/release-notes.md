@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
-## Fonctionnalités d’IA dédiée aux agences
+## Fonctionnalités d’IA agentique
 
 Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour Journey Optimizer B2B Edition dans l’interface de l’assistant d’IA :
 
@@ -49,18 +49,18 @@ Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour
 
 >[!NOTE]
 >
->Ces modifications de version commencent le déploiement le 31 octobre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+>Le déploiement des modifications de la version commence le 31 octobre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ### Architecture simplifiée
 
-Adobe Journey Optimizer B2B edition est désormais disponible avec une architecture simplifiée. Grâce à cette architecture mise à jour, Journey Optimizer B2B edition et Marketo Engage ne sont plus sur le même système et le même magasin de données. Journey Optimizer B2B edition reçoit des données uniquement de Adobe Experience Platform. Cependant, il continue de dépendre des droits Marketo Engage et de certaines fonctionnalités de configuration pour configurer le système.
+Adobe Journey Optimizer B2B Edition est désormais disponible avec une architecture simplifiée. Grâce à cette architecture mise à jour, Journey Optimizer B2B Edition et Marketo Engage ne sont plus sur le même système et le même magasin de données. Journey Optimizer B2B Edition reçoit des données uniquement d’Adobe Experience Platform. Cependant, il continue de dépendre des droits Marketo Engage et de certaines fonctionnalités de configuration pour approvisionner et configurer le système.
 
-Cette architecture mise à jour offre de nombreux avantages :
+Cette architecture mise à jour offre de nombreux avantages :
 
-* **Unifiez et mettez à l’échelle facilement vos données** : la plateforme mise à jour prend en charge des modèles de données complexes, y compris les objets personnalisés, les groupes d’achats et les événements de compte.
-* **Connexion de plusieurs instances Adobe Marketo Engage** : gérez et unifiez les données de plusieurs environnements Adobe Marketo Engage en un seul endroit.
-* **Protégez vos données** : les fonctionnalités avancées de confidentialité et de sécurité vous aident à protéger les informations de vos clients.
-* **Conçue pour l’avenir** : cette mise à jour prépare votre organisation à des améliorations et à des innovations continues.
+* **Unifier et mettre à l’échelle facilement vos données** : la plateforme mise à jour prend en charge des modèles de données complexes, y compris les objets personnalisés, les groupes d’achats et les événements de compte.
+* **Connecter plusieurs instances Adobe Marketo Engage** : gérez et unifiez les données de plusieurs environnements Adobe Marketo Engage en un seul endroit.
+* **Protéger vos données** : les fonctionnalités avancées de confidentialité et de sécurité vous aident à protéger les informations de votre clientèle.
+* **Conçue pour l’avenir** : cette mise à jour prépare votre organisation à des améliorations et innovations continues.
 
 <!-- hold for later release 
 
@@ -84,7 +84,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 >[!NOTE]
 >
->Le déploiement de ces modifications de version commence le 30 septembre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+>Le déploiement des modifications de la version commence le 30 septembre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ## Notes de mise à jour 2025.8
 
