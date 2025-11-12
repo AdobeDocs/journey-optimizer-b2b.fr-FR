@@ -4,7 +4,7 @@ user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et com
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -56,9 +56,9 @@ ht-degree: 97%
       + [Intérêts de la solution](./buying-groups/solution-interests.md)
       + [Modèles de rôle](./buying-groups/buying-groups-role-templates.md)
       + [Rôles par défaut et personnalisés](./buying-groups/default-custom-roles.md)
-      + Notation du groupe d&#39;achat {#scoring}
+      + Notation du groupe d’achat {#scoring}
          + [Scores d’engagement](./buying-groups/engagement-scores.md)
-         + [Scores d&#39;exhaustivité](./buying-groups/completeness-scores.md)
+         + [Scores d’exhaustivité](./buying-groups/completeness-scores.md)
       + [Étapes des groupes d’achat](./buying-groups/buying-group-stages.md)
       + [Créer des groupes d’achat](./buying-groups/buying-groups-create.md)
       + [Exporter des comptes](./audiences/account-list-export.md)

@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
@@ -42,10 +42,10 @@ Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour
 | Fonctionnalité | Informations commerciales pour Salesforce et Dynamics | Les membres de l’équipe des ventes peuvent désormais afficher les groupes d’achats arrivant à maturité et les informations connexes dans une intégration Salesforce ou Dynamics pour identifier de nouvelles opportunités. Les détails du groupe d’achats tels que l’étape, le score et les membres associés sont inclus. |
 | Fonctionnalité | Activation Marketo Engage multiple | Configurez des connexions à des instances Marketo Engage distantes et utilisez ces connexions pour configurer des actions de parcours liées à Marketo Engage. Ces actions, telles que l’ajout ou la suppression de personnes dans des listes ou l’ajout de personnes à une campagne de demande, s’appliquent à l’instance Marketo Engage désignée. |
 | Amélioration | Déduplication des e-mails (procédure anti-fatigue) | Vous pouvez désormais activer la déduplication des e-mails pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse dans un parcours. Les adresses en double sont bloquées jusqu’à ce que le premier enregistrement avec cette adresse e-mail termine le parcours. |
-| Amélioration | Amélioration du score d&#39;exhaustivité du groupe d&#39;achats | Vous pouvez désormais vous assurer que les groupes d’achats reflètent un réel processus de décision avec des seuils de membre de rôle personnalisables pour le score d’exhaustivité.  [En savoir plus](../buying-groups/completeness-scores.md) |
+| Amélioration | Amélioration de la notation d’exhaustivité du groupe d’achat | Vous pouvez désormais vous assurer que les groupes d’achat présentent un réel processus de décision contenant des seuils de membre de rôle personnalisables pour la notation d’exhaustivité.  [En savoir plus](../buying-groups/completeness-scores.md) |
 | Amélioration | Limites de communication | Le système respecte désormais les limites de communication combinées de Marketo Engage et de Journey Optimizer B2B edition. |
 | Amélioration | Traitements de maintenance des groupes d’achat | La fréquence des traitements de maintenance des groupes d’achats passe de Hebdomadaire à Quotidienne. |
-| Amélioration | Progression de parcours de compte | Pour un parcours publié dont le statut est défini sur _En ligne_, _Fermé aux nouvelles entrées_, _Abandonné_ ou _Terminé_, vous pouvez ouvrir le mappage de parcours afin de consulter une liste de comptes pour chaque nœud de parcours. |
+| Amélioration | Progression de parcours de compte | Pour un parcours publié dont le statut est défini sur _Actif_, _Fermé aux nouvelles entrées_, _Abandonné_ ou _Terminé_, vous pouvez ouvrir la cartographie du parcours afin de consulter une liste de comptes pour chaque nœud de parcours. |
 
 >[!NOTE]
 >
