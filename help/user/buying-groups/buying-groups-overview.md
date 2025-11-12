@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Pour éviter tout remplacement incorrect de l’affectation d’une personne mem
 
 >[!NOTE]
 >
->Les traitements de maintenance des groupes d’achats automatisés s’exécutent quotidiennement, à partir de la version 2025.10.
+>Les tâches de maintenance des groupes d’achats automatisés s’exécutent chaque jour, à partir de la version 2025.10.
 
 ## Workflow du groupe d’achat
 
@@ -100,11 +100,11 @@ Pour accéder aux détails d’un groupe d’achats, cliquez sur le nom du group
 
 ### Score d’exhaustivité du groupe d’achat
 
-Le score d&#39;exhaustivité permet de déterminer si le groupe d&#39;achats dispose du nombre adéquat de membres affectés aux rôles requis et s&#39;il est prêt à être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d&#39;achat et l&#39;exhaustivité de chacun des rôles définis.
+Le score d’exhaustivité est utilisé pour déterminer si le groupe d’achat dispose des bons rôles attribués au bon nombre de personnes membres et s’il peut être utilisé dans un parcours de compte. Ce score est un pourcentage basé sur le nombre de rôles au sein du groupe d’achat et sur l’exhaustivité de chacun des rôles définis.
 
-Le calcul initial du score d&#39;exhaustivité commence dès la création du groupe d&#39;achats et est recalculé quotidiennement et chaque fois qu&#39;un groupe d&#39;achats est créé ou mis à jour.
+Le calcul initial du score d’exhaustivité commence dès la création du groupe d’achat. Il est recalculé quotidiennement et à chaque fois qu’un groupe d’achat est créé ou mis à jour.
 
-Voir [Scores d&#39;exhaustivité](./completeness-scores.md) pour obtenir des informations détaillées sur le score d&#39;exhaustivité et les calculs.
+Voir la section [Scores d’exhaustivité](./completeness-scores.md) pour obtenir des informations détaillées sur les notations et les calculs d’exhaustivité.
 
 ### Score d’engagement du groupe d’achat {#engagement-score}
 
@@ -116,4 +116,4 @@ Consultez la section [Scores d’engagement](./engagement-scores.md) pour des in
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3452929/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
