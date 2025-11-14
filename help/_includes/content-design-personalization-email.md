@@ -18,7 +18,7 @@ Consultez [Personnalisation de contenu](../user/content/personalization.md) pour
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition suit la syntaxe _casse mixte_ pour les jetons de personnalisation dans les e-mails afin de correspondre aux autres applications Adobe Experience Platform pour une expérience cohérente. Ce format de jeton est entièrement compatible avec le [ langage de modèle Handlebars ](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Tous les jetons ajoutés avant cette modification sont automatiquement mis à jour.
+>Journey Optimizer B2B edition suit la syntaxe _casse mixte_ pour les jetons de personnalisation dans les e-mails afin de correspondre aux autres applications Adobe Experience Platform pour une expérience cohérente. Ce format de jeton est entièrement compatible avec le [&#x200B; langage de modèle Handlebars &#x200B;](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Tous les jetons ajoutés avant cette modification sont automatiquement mis à jour.
 
 L’exemple suivant décrit les étapes de personnalisation du contenu à l’aide de jetons de personne et de système. Elle reflète les modifications disponibles pour les environnements Journey Optimizer B2B edition configurés sur l’[architecture simplifiée](../user/simplified-architecture.md).
 
