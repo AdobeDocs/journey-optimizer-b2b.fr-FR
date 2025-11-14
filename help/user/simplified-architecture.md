@@ -66,7 +66,7 @@ Vous pouvez gérer les champs XDM disponibles dans l’ensemble de l’applicati
 
 Suivez les étapes ci-dessous pour définir des champs pour les classes XDM standard :
 
-1. Accédez à **[!UICONTROL Administration ] > [!UICONTROL  Configurations]**.
+1. Accédez à **[!UICONTROL Administration &#x200B;] > [!UICONTROL &#x200B; Configurations]**.
 
 1. Dans le panneau de navigation, sélectionnez **[!UICONTROL Classes XDM]**.
 
@@ -131,11 +131,11 @@ Sélectionnez [schémas relationnels](https://experienceleague.adobe.com/en/docs
 >Notez que les schémas relationnels doivent avoir les configurations suivantes :
 >
 ><li>Comportement : enregistrement
-&gt; <li>Segmentation : activée
-&gt; <li>Type de relation : plusieurs à un
-&gt; <li>Schéma de référence : [Compte B2B - Schéma de compte professionnel XDM](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
-&gt; <li>Champs obligatoires : clé de Principal, clé étrangère et descripteur de version
-&gt; <li>Jeu de données associé : défini et mappé au schéma
+>&gt; <li>Segmentation : activée
+>&gt; <li>Type de relation : plusieurs à un
+>&gt; <li>Schéma de référence : [Compte B2B - Schéma de compte professionnel XDM](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+>&gt; <li>Champs obligatoires : clé de Principal, clé étrangère et descripteur de version
+>&gt; <li>Jeu de données associé : défini et mappé au schéma
 
 ### Événements
 
@@ -167,7 +167,7 @@ Les éléments suivants doivent être configurés pour envoyer des e-mails en de
 
 1. [Configurer des enregistrements MX pour votre domaine](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. [Ajouter des adresses IP sortantes aux places sur la liste autorisée ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. [Ajouter des adresses IP sortantes aux places sur la liste autorisée &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. Si vous devez partager le pool d’adresses IP dédié, contactez l’équipe en charge de la délivrabilité pour en savoir plus sur la faisabilité et la configuration assistée.
 
@@ -222,7 +222,7 @@ Vous pouvez configurer une ou plusieurs instances distantes **_Marketo Engage_**
 
 Procédez comme suit pour configurer ces connexions :
 
-1. Accédez à **[!UICONTROL Administration ] > [!UICONTROL  Configurations]**.
+1. Accédez à **[!UICONTROL Administration &#x200B;] > [!UICONTROL &#x200B; Configurations]**.
 
 1. Dans le panneau de navigation, sélectionnez **[!UICONTROL Classes XDM]**.
 
