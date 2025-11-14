@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: d7de2cb8383def7c2ed5e57c0c116ffb72424468
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '356'
 ht-degree: 98%
 
 ---
@@ -117,6 +117,10 @@ ht-degree: 98%
       + [Alignement sur la marque](./content/brand-alignment.md)
    + [Thèmes de marque](./content/brand-themes.md)
    + [Contenu conditionnel](./content/conditional-content.md)
+   + Personnalisation {#personalization}
+      + [Vue d’ensemble](./content/personalization.md)
+      + [Syntaxe de personnalisation](./content/personalization-syntax.md)
+      + [Liste des fonctions d’assistance](./content/personalization-helper-functions.md)
 + Tableaux de bord des insights {#dashboards}
    + [Tableau de bord intelligent](./dashboards/intelligent-dashboard.md)
    + [Vue d’ensemble de l’engagement](./dashboards/engagement-dashboard.md)
@@ -136,3 +140,4 @@ ht-degree: 98%
       + [Définitions d’événement AEP](./admin/configure-aep-events.md)
       + [Données d’intention](./admin/intent-data.md)
       + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
+   + [Configuration de l’architecture simplifiée](simplified-architecture.md)
