@@ -4,9 +4,9 @@ description: Connectez les fournisseurs SMS tels que Sinch, Twilio et Infobip au
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '713'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ Avant de configurer un canal SMS dans Adobe Journey Optimizer B2B edition, vous 
 
    ![Cliquez sur l’icône Filtrer pour affiner la liste des informations d’identification d’API](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
-## Créer des informations d’identification d’API pour un fournisseur de services SMS
+## Créer de nouvelles informations d’identification d’API pour un fournisseur de services SMS
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ _Pour configurer Sinch en tant que fournisseur SMS avec Adobe Journey Optimizer 
 
    * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** - Accédez à la page des API à partir de votre compte Sinch (vos informations d’identification se trouvent sous l’onglet SMS).
 
-   Pour plus d’informations sur la recherche de ces informations pour votre compte Sinch, consultez la [documentation Sinch destinée aux développeurs](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
+   Pour plus d’informations sur la recherche de ces informations pour votre compte Sinch, consultez la [documentation Sinch destinée aux développeurs](https://developers.sinch.com/docs/sms/getting-started)
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque les détails de configuration de vos informations d’identification API sont terminés.
 
