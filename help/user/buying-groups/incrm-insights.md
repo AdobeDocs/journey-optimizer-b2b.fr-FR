@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La fonction Insights dans le CRM est une application web qui s’intègre à Salesforce, ce qui vous permet d’accéder à vos groupes d’achats Journey Optimizer B2B edition directement dans Salesforce. Il vous permet d’identifier les opportunités d’engagement et de potentiel de vente accru.
 
-L’application Insights dans le CRM est disponible dans le package Insights de vente Marketo [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+L’application Insights dans le CRM est disponible dans le package Insights de vente Marketo [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Utilisation des informations dans le CRM
 
@@ -32,4 +32,4 @@ Vos groupes d&#39;achats sont chargés et disponibles. Les données sont en lect
 >
 >L’appartenance au rôle de produit [Utilisateur commercial B2B](../admin/user-management.md#b2b-built-in-roles) est requise pour accéder aux informations In-CRM.
 
-Après avoir sélectionné un groupe d’achats, vous pouvez parcourir les [&#x200B; détails du groupe](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) comme dans Journey Optimizer B2B edition.
+Après avoir sélectionné un groupe d’achats, vous pouvez parcourir les [&#x200B; détails du groupe](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) comme dans Journey Optimizer B2B edition.
