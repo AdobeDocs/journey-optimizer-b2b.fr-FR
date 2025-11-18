@@ -73,7 +73,7 @@ Cliquez sur **[!UICONTROL Sélectionner une ressource]** pour ouvrir le sélecte
 
 Vous pouvez utiliser la recherche et les filtres pour localiser la ressource d’image souhaitée. Sélectionnez la ressource et cliquez sur **[!UICONTROL Sélectionner]** afin de l’utiliser pour le composant d’image.
 
-Pour plus d’informations sur l’utilisation des ressources d’images internes, voir [ Utilisation des ressources dans votre contenu ](./internal-image-assets.md#use-assets-in-your-content).
+Pour plus d’informations sur l’utilisation des ressources d’images internes, voir [&#x200B; Utilisation des ressources dans votre contenu &#x200B;](./internal-image-assets.md#use-assets-in-your-content).
 
 >[!TAB Experience Manager Assets]
 
