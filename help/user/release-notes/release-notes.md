@@ -3,7 +3,7 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
+source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 95%
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
@@ -58,6 +58,10 @@ Cette architecture mise à jour offre de nombreux avantages :
 * **Protéger vos données** : les fonctionnalités avancées de confidentialité et de sécurité vous aident à protéger les informations de votre clientèle.
 * **Conçue pour l’avenir** : cette mise à jour prépare votre organisation à des améliorations et innovations continues.
 
+>[!NOTE]
+>
+>Si votre environnement est configuré sur cette architecture, consultez les [instructions de configuration](../simplified-architecture.md).
+
 Grâce à l’architecture simplifiée, les nouvelles fonctionnalités et améliorations suivantes sont disponibles dans la version 2025.10 :
 
 | Type | Élément | Description |
@@ -67,7 +71,12 @@ Grâce à l’architecture simplifiée, les nouvelles fonctionnalités et améli
 | Fonctionnalité | Déduplication des e-mails (procédure anti-fatigue) | Vous pouvez désormais activer la déduplication des e-mails pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse dans un parcours. Les adresses en double sont bloquées jusqu’à ce que le premier enregistrement avec cette adresse e-mail termine le parcours. |
 | Amélioration | Limites de communication | Le système respecte désormais les limites de communication combinées de Marketo Engage et de Journey Optimizer B2B edition. [En savoir plus](../admin/configure-channels-emails.md#communication-limits) |
 
-Si votre environnement est configuré sur cette architecture, consultez les [instructions de configuration](../simplified-architecture.md).
+<!-- There are additional functional changes with the simplified architecture:
+
+| Item | Description |
+| ---- | ----------- |
+| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
+| | | -->
 
 <!-- hold for later release 
 
@@ -235,7 +244,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Amélioration | Bibliothèque de ressources centrale | La _bibliothèque de ressources centrale_ améliorée, vous permet d’utiliser toutes les ressources d’image de votre instance Marketo Engage dans les espaces de travail Design Studio. Il existe des mécanismes de sécurisation intégrés qui empêchent les modifications apportées aux ressources Marketo Engage à partir de Journey Optimizer B2B Edition, ainsi que les opérations de suppression et de déplacement. Ces protections garantissent que les ressources sources (Marketo Engage Design Studio) sont conservées tout en facilitant la lecture et la réutilisation dans Journey Optimizer B2B Edition.<p>Pour les ressources destinées exclusivement à Journey Optimizer B2B Edition, un espace de travail spécifique fournit des fonctions complètes de gestion des ressources. <a href="../content/marketo-engage-design-studio.md">En savoir plus</a> |
+| Amélioration | Bibliothèque de ressources centrale | La _bibliothèque de ressources centrale_ améliorée, vous permet d’utiliser toutes les ressources d’image de votre instance Marketo Engage dans les espaces de travail Design Studio. Il existe des mécanismes de sécurisation intégrés qui empêchent les modifications apportées aux ressources Marketo Engage à partir de Journey Optimizer B2B Edition, ainsi que les opérations de suppression et de déplacement. Ces protections garantissent que les ressources sources (Marketo Engage Design Studio) sont conservées tout en facilitant la lecture et la réutilisation dans Journey Optimizer B2B Edition.<p>Pour les ressources destinées exclusivement à Journey Optimizer B2B Edition, un espace de travail spécifique fournit des fonctions complètes de gestion des ressources. <a href="../content/internal-image-assets.md">En savoir plus</a> |
 | Fonctionnalité | Ressources récemment consultées | La page d’accueil de l’application Journey Optimizer B2B Edition comprend désormais la section _[!UICONTROL Récemment consultées]_, qui fournit une liste des dernières ressources consultées par les spécialistes du marketing ou l’équipe d’aministration. Vous pouvez utiliser cette liste pour accéder directement à la ressource sur laquelle vous avez récemment travaillé sans devoir parcourir une série de pages de ressources ni effectuer de recherche. <p>La liste fournit des informations supplémentaires concernant la modification afin que vous puissiez décider laquelle des ressources doit être modifiée par rapport à la dernière session. Pour les ressources d’e-mail, elle affiche le parcours de compte dans lequel la ressource d’e-mail est utilisée. <a href="../home-page.md">En savoir plus</a> |
 | Amélioration | Nœud de fractionnement de parcours – Réorganiser les chemins | Dans les nœuds de fractionnement de chemin, le filtrage des chemins d’accès est évalué dans l’ordre décroissant. Chaque personne ou compte suit le premier chemin correspondant. Vous pouvez réorganiser les chemins définis en cliquant sur les flèches vers le haut et vers le bas en haut à droite de chaque carte de chemin pour la déplacer vers le haut ou le bas de la liste. <a href="../journeys/split-merge-paths-nodes.md#split-paths">En savoir plus</a> |
 | Amélioration | Nœud de fractionnement de parcours – Attributs de condition supplémentaires de l’historique de l’activité | Lorsque vous utilisez des conditions pour définir le filtrage du chemin pour un nœud de fractionnement par personne, deux attributs supplémentaires sont disponibles : _E-mail ouvert_ et _E-mail diffusé_. Ces ajouts offrent une plus grande flexibilité pour filtrer les personnes dans le parcours en fonction de l’activité des e-mails. <a href="../journeys/journey-nodes.md#split-paths">En savoir plus</a> |
