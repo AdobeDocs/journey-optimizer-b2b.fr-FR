@@ -4,7 +4,7 @@ description: 'Configurez les nœuds d’action pour les actions de compte et de 
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Utilisez cette action pour ajouter des profils de personnes à un [groupe d&#39;
 
 +++[!UICONTROL Modifier la valeur des données]
 
-Utilisez cette action pour modifier la valeur d’un [attribut de profil de personne](../data/field-mapping.md#xdm-business-person-attributes). Sélectionnez l’attribut, puis définissez la nouvelle valeur.
+Utilisez cette action pour modifier la valeur d’un [attribut de profil de personne](../admin/field-mapping.md#xdm-business-person-attributes). Sélectionnez l’attribut, puis définissez la nouvelle valeur.
 
 ![Agir sur - Modifier la valeur des données](./assets/node-action-change-data-value.png){width="300"}
 
