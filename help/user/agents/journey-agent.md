@@ -1,16 +1,16 @@
 ---
-title: Agent de création de parcours pour B2B
+title: Parcours Build Agent B2B
 description: Découvrez comment utiliser l’agent de création de Parcours optimisé par l’IA pour créer rapidement des parcours robustes
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Agent de création de parcours pour B2B
+# Parcours Build Agent B2B
 
 L’agent parcours Builder B2B est un agent d’IA qui vous aide à concevoir/créer, exécuter et optimiser des parcours par le biais de l’automatisation et de recommandations pilotées par les données. L’agent Parcours Builder pour B2B automatise et réduit le temps nécessaire à l’exécution de la création de parcours B2B.
 
