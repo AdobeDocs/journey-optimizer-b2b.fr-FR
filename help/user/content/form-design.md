@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Utilisez les outils de conception de champs pour construire l’ensemble des cha
 
 1. Dans la boîte de dialogue _[!UICONTROL Sélectionner l’attribut de champ]_, cochez la case correspondant à l’attribut de profil de personne à utiliser pour le champ, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
-   Les [schémas métier XDM](../data/field-mapping.md#xdm-business-person-attributes) déterminent les attributs disponibles.  Tous les champs personnalisés définis pour votre instance Journey Optimizer B2B edition sont également disponibles. Utilisez la zone de texte Rechercher pour filtrer la liste par nom ou cliquez sur l’icône Filtrer pour filtrer la liste par schéma/type de données.
+   Les [schémas métier XDM](../admin/field-mapping.md#xdm-business-person-attributes) déterminent les attributs disponibles.  Tous les champs personnalisés définis pour votre instance Journey Optimizer B2B edition sont également disponibles. Utilisez la zone de texte Rechercher pour filtrer la liste par nom ou cliquez sur l’icône Filtrer pour filtrer la liste par schéma/type de données.
 
    ![Ajouter un composant de champ au formulaire](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
