@@ -3,9 +3,9 @@ title: Qualificateur de vente
 description: Automatisez la qualification et la sensibilisation des prospects B2B avec le qualificateur de vente. Il fournit des recherches optimisées par l’IA, la rédaction d’emails, l’intégration de CRM et des plans d’engagement pour les BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1376'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ Utilisez le navigateur et les modules externes d’e-mail pour accéder à Busin
 
 Le qualificateur de vente est inclus dans Journey Optimizer B2B edition, mais il s’agit d’une application distincte dans Experience Platform Experience Cloud.
 
-![Page d’accueil du qualificateur de vente](assets/home-screen.png)
+![Tableau de bord du qualificateur de vente automatisant la qualification et la portée des prospects BDR pour le B2B d’entreprise](assets/home-screen.png)
 
 ## Agent Account Qualification
 
 Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L’AQA utilise l’IA pour lire vos comptes et déterminer lesquels sont prêts pour l’étape suivante. Il facilite la recherche, la rédaction d’e-mails et les mises à jour CRM.
 
-![Account Qualification Agent](assets/acc-qualification-agent.png)
+![ Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
 
 * **Recherche de prospects**
 
@@ -44,11 +44,11 @@ Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L�
 
 * **E-mails relatifs au plan d’engagement**
 
-  Créez des brouillons d’e-mails de plan d’engagement personnalisés pour chaque étape d’une cadence de sensibilisation définie par BDR, en veillant à ce que la séquence entière soit personnalisée
+  Créez des brouillons d’e-mails de plan d’engagement personnalisés pour chaque étape d’une cadence de sensibilisation définie par BDR, en veillant à ce que la séquence entière soit personnalisée.
 
 ### Utilisation de base
 
-Les agents de l’IA d’Adobe utilisent _requêtes en langage naturel_, ce qui signifie qu’ils utilisent la même langue dans l’invite de texte que vous le feriez en parlant à une personne. Plus vous êtes détaillé, meilleurs sont les résultats.
+Les agents de l’IA d’Adobe utilisent des _requêtes en langage naturel_, ce qui signifie qu’ils utilisent la même langue dans l’invite de texte que vous le feriez lorsque vous parlez à une personne. Plus vous êtes détaillé, meilleurs sont les résultats.
 
 En utilisant le langage naturel, vous pouvez demander à l’agent de :
 
@@ -68,7 +68,7 @@ Effectuez une itération sur votre parcours en affinant vos invites pour obtenir
 
 Cette fenêtre répertorie tous les prospects auxquels vous avez accès. Il s’agit d’une vérification rapide des éléments, tels que le statut du prospect et la dernière activité.
 
-![Voir tous vos prospects dans le tableau Prospects](assets/prospects.png)
+![Tableau des leads affichant le statut du lead et la dernière activité pour la gestion des prospects](assets/prospects.png)
 
 Cliquez sur l’icône _Filtrer_ ![Icône Filtrer](../../assets/do-not-localize/icon_filter-outline.svg) pour filtrer la liste affichée par statut de prospect.
 
@@ -76,7 +76,7 @@ Cliquez sur l’icône _Filtrer_ ![Icône Filtrer](../../assets/do-not-localize/
 
 Cette fenêtre fournit des détails sur les plans d&#39;engagement définis.
 
-![Plans d’engagement](assets/engagement-plans.png)
+![Tableau de bord du plan d’engagement présentant les détails du plan, les prospects sélectionnés et les paramètres de planification](assets/engagement-plans.png)
 
 Pour créer un plan d’engagement, cliquez sur **[!UICONTROL Créer un plan d’engagement]**.
 
@@ -97,7 +97,7 @@ Ce panneau affiche toutes les réunions configurées par automatisation.
 
 Ce panneau affiche tous vos threads de conversation.
 
-![Boîte de réception de conversation](assets/chat-inbox.png)
+![Panneau affichant les threads de conversation avec le contact et les résumés de threads pour l’automatisation des ventes](assets/chat-inbox.png)
 
 Vous pouvez interagir avec des clients et voir des résumés pour le contact et le thread afin de savoir rapidement où vous en êtes.
 
@@ -106,15 +106,15 @@ Vous pouvez interagir avec des clients et voir des résumés pour le contact et 
 Avec les intégrations , le qualificateur de vente peut exploiter les CRM et d’autres sources de données pour enrichir les profils client et exploiter les activités de vente :
 
 * Effectuez une intégration à votre boîte de réception e-mail pour suivre les e-mails entrants pertinents et générer des réponses.
-* Lire et mettre à jour des données CRM, telles que Salesforce ou Microsoft® Dynamics, ZoomInfo ou Buildwidth.
+* Lire et mettre à jour des données de gestion de la relation client, telles que Salesforce ou Microsoft® Dynamics, ZoomInfo ou BuiltWith.
 
-![Intégration Outlook du qualificateur de vente](assets/outlook.png)
+![Intégration du qualificateur de vente à Microsoft Outlook avec des résumés d’e-mails et de contacts](assets/outlook.png)
 
 ### Configurer une nouvelle intégration
 
 Pour démarrer une nouvelle intégration, cliquez sur **[!UICONTROL Créer une intégration]** en haut à droite.
 
-![Détails de l’intégration](assets/integration-details.png)
+![Formulaire de configuration de l’intégration affichant l’URL, la méthode HTTP, les en-têtes et les options d’authentification](assets/integration-details.png)
 
 Définissez l’URL de l’intégration et définissez la payload à envoyer :
 
@@ -165,13 +165,13 @@ Les paramètres du représentant spécifient des informations sur vous-même, no
 
 L’onglet **[!UICONTROL Détails]** vous permet de saisir des informations vous concernant :
 
-![Paramètres Détails du qualificateur de vente](assets/details.png)
+![Onglet Détails affichant les informations personnelles, les e-mails et les paramètres de disponibilité du chat pour les représentants](assets/details.png)
 
 ### Paramètres d’e-mail
 
 Dans l’onglet **[!UICONTROL Paramètres de messagerie]**, configurez vos connexions par e-mail.
 
-![Paramètres de messagerie](assets/email-settings.png)
+![Onglet Paramètres de messagerie affichant les options de connexion aux e-mails et la configuration des signatures e-mail](assets/email-settings.png)
 
 * **[!UICONTROL Connexions e-mail]** - Cliquez sur **[!UICONTROL Connexion]** et suivez la procédure de connexion Microsoft.
 
@@ -181,7 +181,7 @@ Dans l’onglet **[!UICONTROL Paramètres de messagerie]**, configurez vos conne
 
 Définissez votre fuseau horaire et votre disponibilité dans l’onglet **[!UICONTROL Paramètres du calendrier]**.
 
-![Paramètres du calendrier](assets/calendar-settings.png)
+![Onglet Paramètres du calendrier affichant les options de fuseau horaire et de disponibilité](assets/calendar-settings.png)
 
 * **[!UICONTROL Connexion au calendrier]** - Cliquez sur **[!UICONTROL Connexion]** et suivez la procédure de connexion Microsoft pour intégrer votre calendrier.
 
@@ -193,7 +193,7 @@ Définissez votre fuseau horaire et votre disponibilité dans l’onglet **[!UIC
 
 Dans l’onglet **[!UICONTROL Paramètres de conversation]**, définissez votre fuseau horaire Disponibilité de la discussion en direct.
 
-![Paramètres de conversation](assets/chat-settings.png)
+![Onglet Paramètres de conversation pour configurer le fuseau horaire et la disponibilité du chat en direct](assets/chat-settings.png)
 
 ## Gestion représentative
 
@@ -223,4 +223,4 @@ En bas à gauche de l’application, cliquez sur **[!UICONTROL Modifier]** pour 
 
 La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
