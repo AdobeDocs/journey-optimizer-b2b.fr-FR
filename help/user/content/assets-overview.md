@@ -4,10 +4,10 @@ description: Gérez les ressources d’images de Journey Optimizer B2B edition e
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '852'
+ht-degree: 60%
 
 ---
 
@@ -49,15 +49,15 @@ Utilisez des ressources pour créer des e-mails, des modèles d’e-mail et des 
 
 Vous pouvez choisir la source de l’image lorsque vous modifiez les paramètres d’un composant d’image ou directement sur la zone de travail :
 
-* **_Paramètres des composants d’image_** : lorsqu’un composant d’image est sélectionné dans l’espace de conception visuelle, vous pouvez afficher et modifier les paramètres dans le panneau de droite. Pour ajouter ou modifier le fichier image affiché dans le composant, choisissez le type de source et sélectionnez un fichier image.
+* **_Paramètres des composants d’image_** - Lorsqu’un composant d’image est sélectionné dans la zone de travail, vous pouvez afficher et modifier les paramètres dans le panneau de droite. Pour ajouter ou modifier le fichier image affiché dans le composant, choisissez le type de source et sélectionnez un fichier image.
 
   ![Modifier les paramètres du composant d’image dans le panneau de droite](./assets/content-assets-image-settings.png){width="350"}
 
-* **_Composant vide_** : lorsque vous ajoutez un composant d’image dans l’espace de conception visuelle, il est vide et permet de choisir facilement une source et de sélectionner un fichier image.
+* **_Composant vide_** - Lorsque vous ajoutez un composant d’image à la zone de travail, il est vide et permet d’accéder facilement à une source et à sélectionner un fichier image.
 
   ![Choisir une source afin de sélectionner un fichier image pour le composant d’image vide](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_Barre d’outils du composant d’image_** : lorsqu’un composant d’image est sélectionné dans l’espace de conception visuelle, la barre d’outils permet de choisir facilement une source et de sélectionner le fichier image.
+* **_Barre d’outils de composant d’image_** - Lorsqu’un composant d’image est sélectionné dans la zone de travail, la barre d’outils permet d’accéder facilement à une source et de sélectionner le fichier image.
 
   ![Utiliser la barre d’outils afin de choisir une source et sélectionner un fichier image pour le composant d’image](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
@@ -73,7 +73,7 @@ Cliquez sur **[!UICONTROL Sélectionner une ressource]** pour ouvrir le sélecte
 
 Vous pouvez utiliser la recherche et les filtres pour localiser la ressource d’image souhaitée. Sélectionnez la ressource et cliquez sur **[!UICONTROL Sélectionner]** afin de l’utiliser pour le composant d’image.
 
-Pour plus d’informations sur l’utilisation des ressources d’images internes, voir [&#x200B; Utilisation des ressources dans votre contenu &#x200B;](./internal-image-assets.md#use-assets-in-your-content).
+Pour plus d’informations sur l’utilisation des ressources d’images internes, voir [ Utilisation des ressources dans votre contenu ](./internal-image-assets.md#use-assets-in-your-content).
 
 >[!TAB Experience Manager Assets]
 
