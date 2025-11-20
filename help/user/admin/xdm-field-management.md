@@ -75,7 +75,7 @@ Pour les _champs pouvant être mis à jour_, accédez à une boîte de dialogue 
 1. Modifiez les champs du jeu de données sélectionné.
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
 
-![ Boîte de dialogue permettant de sélectionner des champs pouvant être mis à jour à partir des jeux de données dans la configuration de schéma XDM](assets/xdm-select-updateable.png){width="600" zoomable="yes"}
+![&#x200B; Boîte de dialogue permettant de sélectionner des champs pouvant être mis à jour à partir des jeux de données dans la configuration de schéma XDM](assets/xdm-select-updateable.png){width="600" zoomable="yes"}
 
 Le champ doit d’abord être _Géré_ avant de pouvoir être _Modifiable_. Les _champs pouvant être mis à jour_ que vous sélectionnez doivent exister dans votre schéma fourni par l’utilisateur.
 
@@ -125,7 +125,7 @@ Pour sélectionner les champs à utiliser dans [!DNL Journey Optimizer B2B Editi
    * Clé primaire
    * Descripteur de version
 
-1. Utilisez le curseur [!UICONTROL  Afficher uniquement les champs sélectionnés ] pour prévisualiser vos sélections.
+1. Utilisez le curseur [!UICONTROL &#x200B; Afficher uniquement les champs sélectionnés &#x200B;] pour prévisualiser vos sélections.
 1. Filtrez les champs par nom à l’aide de la barre de recherche.
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
@@ -149,6 +149,6 @@ Pour sélectionner des champs de schéma et des événements d’expérience, pr
    * Dans la version bêta, vous ne pouvez pas supprimer les événements sélectionnés.
 
 1. Cliquez sur **[!UICONTROL Sélectionner les champs]**.
-1. Utilisez le curseur [!UICONTROL  Afficher uniquement les champs sélectionnés ] pour afficher vos sélections actuelles.
+1. Utilisez le curseur [!UICONTROL &#x200B; Afficher uniquement les champs sélectionnés &#x200B;] pour afficher vos sélections actuelles.
 1. Sélectionnez les champs à utiliser dans les [!DNL Journey Optimizer B2B Edition]. Cliquez sur **[!UICONTROL Sélectionner]** pour fermer la boîte de dialogue.
 1. Cliquez sur [!UICONTROL Enregistrer]
