@@ -94,7 +94,7 @@ Lorsque vous choisissez **[!UICONTROL Champs pouvant être mis à jour]**, la bo
 1. Pour **[!UICONTROL Jeux de données]**, sélectionnez la source de données à configurer.
 1. Modifiez les champs du jeu de données sélectionné.
 
-   ![ Boîte de dialogue permettant de sélectionner des champs pouvant être mis à jour à partir des jeux de données dans la configuration de schéma XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
+   ![&#x200B; Boîte de dialogue permettant de sélectionner des champs pouvant être mis à jour à partir des jeux de données dans la configuration de schéma XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
 
@@ -141,7 +141,7 @@ Pour sélectionner des champs de schéma relationnel à utiliser dans [!DNL Jour
 
    Vous ne pouvez définir l’espace de noms qu’une seule fois et ne pouvez pas inverser cette action.
 
-   ![Espace de noms par défaut dans la boîte de dialogue Créer un espace de noms ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Espace de noms par défaut dans la boîte de dialogue Créer un espace de noms &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Examinez les champs de schéma relationnel .
 
