@@ -1,285 +1,130 @@
 ---
-title: Configurer les événements Experience Platform
-description: Configurez les définitions d’événement Experience Platform pour déclencher des parcours de compte en temps réel dans Journey Optimizer B2B edition en fonction du comportement du client.
+title: Sélectionner des champs et des événements d’expérience
+description: Sélectionnez des événements et des champs Experience Platform pour déclencher une prise de décision en temps réel dans les parcours en fonction du comportement du client.
 feature: Setup, Integrations
 role: Admin
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 2%
+source-wordcount: '656'
+ht-degree: 0%
 
 ---
 
-# Configuration des définitions d’événement Experience Platform
+# Sélectionner des événements d’expérience et des champs
 
-Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [Événements d’expérience AEP](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
+<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
+L’utilisation des événements d’expérience AEP dans parcours est un processus en deux étapes :
 
-L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
+1. Un administrateur [ajoute des événements et des champs d’expérience AEP](#add-an-event) dans les configurations Journey Optimizer B2B edition.
 
-1. Créez et publiez une définition d’événement AEP.
+2. Dans un parcours, un spécialiste marketing ajoute un nœud _Écouter pour un événement_ et [ sélectionne un événement d’expérience](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-2. Dans un parcours de compte, ajoutez un nœud _Écouter un événement_ et [sélectionnez une définition d’événement AEP en tant qu’événement de personne](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+   * Sélectionne l’événement à utiliser dans le nœud .
+   * Sélectionne les champs à utiliser comme contraintes.
 
-Chaque définition d’événement nécessite les entrées Experience Platform suivantes :
+>[!BEGINSHADEBOX]
 
-* **_Schéma_** - Schéma XDM qui définit la structure des données d’événement d’expérience. Il doit être basé sur un événement d’expérience et doit être activé pour le profil.
+## Instructions et restrictions
 
-  >[!NOTE]
-  >
-  >Pour vous assurer que les schémas nécessaires sont définis, contactez votre équipe d’ingénieurs . La [création de schémas XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition){target="_blank"} est un processus complexe réalisé par des ingénieurs de données en fonction des exigences de cas d’utilisation de l’ensemble de votre entreprise.
+Lorsque vous sélectionnez des événements pour atteindre les objectifs de votre organisation, tenez compte des points suivants :
 
-* **_Types d’événement_** - Type d’événement XDM ExperienceEvent (20 maximum par définition d’événement).
+* Vous pouvez sélectionner jusqu’à 50 événements et 100 champs par événement.
 
-* **_Champs_** - Champs XDM présents dans le schéma (maximum de 20 par définition d’événement)
+* Parcours peut écouter les événements d’expérience ingérés à l’aide des fonctionnalités de diffusion en continu d’Experience Platform, telles que l’API Web SDK ou HTTP.
 
-* **_Name_** - Nom unique pour la définition d’événement.
+* Vous pouvez utiliser les événements d’expérience à des fins de prise de décision dans un parcours, mais ils ne sont pas conservés. Par conséquent, vous ne pouvez pas utiliser un enregistrement historique des événements d’expérience dans Journey Optimizer B2B edition.
 
-* **_Description_** - Description de la définition d’événement.
+* Lorsque vous utilisez un événement d’expérience et publiez le parcours, vous pouvez ajouter d’autres champs, mais vous ne pouvez pas supprimer les champs précédemment sélectionnés.
 
-## Limites et mécanismes de sécurisation
+* Vous pouvez référencer un événement d’expérience dans plusieurs parcours ou en utiliser un plusieurs fois dans le même parcours.
 
-Lorsque vous créez et gérez des définitions d’événement pour atteindre les objectifs de votre organisation, tenez compte des points suivants :
+>[!ENDSHADEBOX]
 
-* Journey Optimizer B2B edition prend en charge un maximum de 50 définitions d’événement.
-
-* Les parcours de compte peuvent écouter les événements d’expérience AEP ingérés à l’aide des fonctionnalités de diffusion en continu d’AEP, telles que l’API Web SDK ou HTTP.
-
-* Une seule définition d’événement AEP peut utiliser à la fois un schéma et un ensemble de types d’événements. Lorsque vous créez une définition d’événement à l’aide d’un schéma (par exemple, `My Schema`) et d’un type d’événement (par exemple, `Web Webpagedetails Page Views`), aucune autre définition d’événement ne peut utiliser la combinaison de `My Schema` et `Web Webpagedetails Page Views`.
-
-* Une définition d’événement peut être utilisée dans plusieurs parcours de compte.
-
-* Les événements d’expérience AEP peuvent être utilisés à des fins de prise de décision dans un parcours de compte, mais ne sont pas conservés. Par conséquent, aucun enregistrement historique d’événements d’expérience AEP ne peut être utilisé dans Journey Optimizer B2B edition.
-
-* Les contraintes de _date d&#39;activité_ et _nombre minimum de fois_ ne sont pas prises en charge.
-
-* Une fois la définition d’événement publiée, le schéma et le nom ne peuvent pas être modifiés. Cependant, vous pouvez ajouter des types d’événements et des champs en créant un brouillon, puis en le republiant.
-
-* Les définitions d’événement utilisées dans les parcours publiés ne peuvent pas être supprimées.
-
-## Accéder aux définitions d’événement et les gérer
+## Gestion des événements d’expérience
 
 1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
-1. Cliquez sur **[!UICONTROL Événements]** dans le panneau intermédiaire pour afficher la liste des définitions d’événement.
+1. Cliquez sur **[!UICONTROL Classes XDM]** dans le panneau intermédiaire, puis sur l’onglet **[!UICONTROL Événements]** pour afficher la liste des événements disponibles.
 
-   À partir de cette page, vous pouvez [créer](#create-an-event-definition), [publier](#publish-an-event-defintion), [modifier](#edit-an-event-definition) et [supprimer](#delete-an-event-definition) des définitions d’événement.
+   ![Accéder aux événements d’expérience sélectionnés](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   ![Accéder aux définitions d’événement configurées](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
+   Le tableau est trié selon la colonne _[!UICONTROL Dernière mise à jour]_, les événements les plus récemment mis à jour étant en haut par défaut.
 
-   Le tableau est trié selon la colonne _[!UICONTROL Modifié]_, les définitions les plus récemment mises à jour étant celles en haut par défaut.<!-- Click the column title to change between ascending and descending.-->
+   Sur cette page, vous pouvez [sélectionner](#add-an-event) et [modifier](#edit-an-event) les événements à utiliser dans les parcours.
 
-1. Pour accéder aux détails d’une définition d’événement, cliquez sur son nom.
+   Pour accéder aux détails d’un événement sélectionné, cliquez sur son nom.
 
-### Statut et cycle de vie de la définition d&#39;événement
+### Filtrer la liste des événements
 
-Dans la liste _[!UICONTROL Définitions des événements]_, la colonne **[!UICONTROL Statut]** indique le statut actuel de chaque définition. Le statut détermine sa disponibilité pour une utilisation dans les parcours de compte et les modifications que vous pouvez y apporter.
+Saisissez du texte dans le champ _[!UICONTROL Rechercher]_ pour filtrer les événements affichés afin qu’ils correspondent au nom de l’événement.
 
-| Statut | Description |
-| -------------------- | ----------- |
-| Brouillon | Lorsque vous créez une définition d’événement, elle a le statut brouillon. Il reste dans ce statut jusqu’à ce que vous le publiiez pour l’utiliser dans les parcours de compte. Actions disponibles : <br/><li>Modifier tous les détails<li>Publier<li>Supprimer |
-| Publié | Lorsque vous publiez une définition d’événement, elle peut être utilisée dans les parcours de compte. Les détails ne peuvent pas être modifiés. Actions disponibles : <br/><li>Disponible pour le nœud de parcours _Écouter un événement_<li>Créer une version brouillon<li>Supprimer (si non utilisé) |
-| Publié (avec le brouillon) | Lorsque vous créez un brouillon à partir d’une définition d’événement publiée, la version publiée reste disponible pour être utilisée dans les parcours de compte et le brouillon peut être modifié. Si vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il n’est pas encore exécuté. Actions disponibles : <br/><li>Modifier tous les détails<li>Publier le brouillon<li>Abandonner la version brouillon<li>Supprimer (si non utilisé) |
+![Filtrer la liste des événements sélectionnés par nom](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-![&#x200B; Cycle de vie du statut du fragment &#x200B;](../assets/status-lifecycle-diagram.png){zoomable="yes"}
+### Ajouter un événement
 
-### Filtrer la liste des définitions d’événement
+Pour rendre un événement d’expérience disponible pour un nœud _Écouter un événement_ dans un parcours, sélectionnez l’événement et les champs pris en charge.
 
-Pour rechercher une définition d’événement par nom, saisissez une chaîne de texte dans la barre de recherche pour rechercher une correspondance.
+>[!NOTE]
+>
+>Dans la version bêta, vous ne pouvez pas supprimer des événements de la liste. Assurez-vous que chaque événement ajouté est destiné à être utilisé par votre organisation.
 
-![Filtrer les définitions d’événement affichées](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
+1. Cliquez sur **[!UICONTROL Sélectionner un événement d’expérience]** en haut à droite.
 
-## Création d’une définition d’événement
+   La page de détails de l’événement s’affiche. Sur cette page, vous pouvez choisir le type d’événement et les champs.
 
-1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
+   ![Détails de l’événement pour un nouvel événement](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Événements]** dans le panneau intermédiaire pour afficher la liste des définitions d’événement.
+1. Choisissez le type d’événement.
 
-1. Cliquez sur **[!UICONTROL Créer un événement]** en haut à droite.
+   * Cliquez sur **[!UICONTROL Sélectionner le type d’événement]**.
 
-1. Saisissez le **[!UICONTROL Nom]** (obligatoire) et le **[!UICONTROL Description]** (facultatif).
+   * Dans la boîte de dialogue, choisissez le type d’événement.
 
-   ![Créer une définition d’événement](./assets/configuration-events-create.png){width="600" zoomable="yes"}
+     Utilisez le champ _[!UICONTROL Rechercher]_ pour filtrer la liste affichée par nom. Utilisez le curseur **[!UICONTROL Afficher uniquement les champs sélectionnés]** pour passer en revue les sélections actuelles.
 
-1. Définissez le **[!UICONTROL Schéma]** à utiliser pour la définition de l’événement.
+     ![Boîte de dialogue Sélectionner le type d’événement](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
-   Le schéma que vous sélectionnez détermine les champs disponibles à ajouter à la définition. Les champs que vous ajoutez sont ensuite disponibles en tant que contraintes pour un nœud _Écouter un événement_ dans un parcours de compte.
-
-   * Cliquez sur **[!UICONTROL Sélectionner le schéma]**.
-   * Dans la boîte de dialogue, sélectionnez un schéma dans la liste des schémas basés sur un événement d’expérience.
    * Cliquez sur **[!UICONTROL Sélectionner]**.
 
-   ![Sélection du schéma pour la définition de l’événement](./assets/configuration-events-create-select-schema.png){width="600" zoomable="yes"}
-
-1. Sélectionnez les **[!UICONTROL types d’événement]** à utiliser pour la définition de l’événement.
-
-   Les [types d’événement](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} que vous sélectionnez déterminent les événements disponibles en tant que contraintes pour un nœud _Écouter un événement_ dans un parcours de compte.
-
-   * Cliquez sur **[!UICONTROL Sélectionner les types d’événements]**.
-   * Dans la boîte de dialogue, sélectionnez un ou plusieurs types d’événements dans la liste (20 au maximum).
-   * Cliquez sur **[!UICONTROL Sélectionner]**.
-
-   ![Sélectionnez les types d’événement pour la définition de l’événement](./assets/configuration-events-create-select-event-types.png){width="600" zoomable="yes"}
-
-1. Sélectionnez les **[!UICONTROL Champs]** à utiliser pour la définition de l’événement.
-
-   Les champs que vous sélectionnez déterminent les contraintes disponibles lorsque l’événement est utilisé pour un nœud _Écouter un événement_ dans un parcours de compte.
-
-   >[!NOTE]
-   >
-   >Le champ `eventType` est obligatoire et automatiquement sélectionné.
+1. Choisissez un ou plusieurs champs pour le type d&#39;événement.
 
    * Cliquez sur **[!UICONTROL Sélectionner les champs]**.
-   * Dans la boîte de dialogue, sélectionnez un ou plusieurs champs dans la liste (20 au maximum).
+
+   * Dans la boîte de dialogue, sélectionnez les champs à utiliser comme contraintes pour les événements correspondants.
+
+     Utilisez le champ _[!UICONTROL Rechercher]_ pour filtrer la liste affichée par nom. Utilisez le curseur **[!UICONTROL Afficher uniquement les champs sélectionnés]** pour passer en revue les sélections actuelles.
+
+     ![Boîte de dialogue Sélectionner les champs](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
+
    * Cliquez sur **[!UICONTROL Sélectionner]**.
 
-   ![Sélectionnez les champs pour la définition de l’événement](./assets/configuration-events-create-select-fields.png){width="600" zoomable="yes"}
+1. Dans la page des détails de l&#39;événement, cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Une fois le schéma, les types d’événements et les champs terminés, cliquez sur **[!UICONTROL Créer]**.
+L&#39;événement enregistré est affiché dans la liste de l&#39;onglet _[!UICONTROL Événements]_.
 
-   Lors de la création, la page de liste s’affiche et le nouvel événement apparaît en haut de la liste avec le statut _Brouillon_.
+### Modification d’un événement
 
-   ![Le nouveau brouillon de définition d’événement est répertorié sur la page](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
+Modifiez les détails de l’événement pour modifier les champs.
 
-## Publication d’une définition d’événement
+1. Cliquez sur le nom de l’événement ou cliquez sur l’icône _Plus_ ( **...** ) et choisissez **[!UICONTROL Modifier]**.
 
-Lorsque vous êtes convaincu que le brouillon de définition d’événement est complet et adapté à vos besoins, vous pouvez le publier. La définition d’événement publiée est alors disponible pour être utilisée dans les parcours de compte. Une fois la définition d’événement publiée, vous pouvez créer un brouillon si vous devez y apporter des modifications. Cependant, vous ne pouvez pas modifier le schéma, et vous pouvez uniquement ajouter des types d’événements et des champs (vous ne pouvez pas les supprimer).
+   ![Cliquez sur l’icône du menu Plus ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
+1. Cliquez sur **[!UICONTROL Modifier les champs]** pour ajouter d’autres champs ou supprimer des sélections existantes dans la boîte de dialogue _[!UICONTROL Sélectionner les champs]_.
 
-1. Cliquez sur **[!UICONTROL Événements]** dans le panneau intermédiaire pour afficher la liste des définitions d’événement.
+1. Cliquez sur **[!UICONTROL Sélectionner]** pour enregistrer vos sélections.
 
-1. Dans la liste _[!UICONTROL Définitions d’événement]_, cliquez sur le nom du brouillon de définition d’événement pour ouvrir la page de détails.
+### Supprimer un événement
 
-   ![Ouvrir le brouillon de définition d’événement](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
-
-   Si nécessaire, passez en revue les paramètres avant de publier. Vous pouvez [modifier le brouillon](#edit-an-event-definition) s’il ne répond pas à vos besoins.
-
-1. Cliquez sur **[!UICONTROL Publier]** en haut à droite.
-
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
-
-   ![Boîte de dialogue Publier l’événement](./assets/configuration-events-publish-dialog.png){width="300"}
-
-   Le statut de la définition d’événement passe à _Publiée_ et elle est désormais [disponible dans les parcours de compte](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
-
-   ![Le statut de la définition de l’événement est mis à jour sur la page](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
-
-## Modification d’une définition d’événement
-
-1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
-
-1. Cliquez sur **[!UICONTROL Événements]** dans le panneau intermédiaire pour afficher la liste des définitions d’événement.
-
-   Les modifications apportées à une définition d’événement dépendent de son statut actuel :
-
-   * Lorsqu’une définition d’événement a le statut _Brouillon_, vous pouvez modifier n’importe lequel de ses détails.
-   * Lorsqu’une définition d’événement a le statut _Publié_, vous ne pouvez pas la modifier. Vous pouvez créer un brouillon modifiable, puis remplacer la version publiée.
-   * Lorsqu’une définition d’événement a le statut _Publié (avec brouillon)_ vous pouvez modifier la version brouillon (modifier la description et ajouter des types d’événement et des champs).
-
-   ![Le nouveau brouillon de définition d’événement est répertorié sur la page](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
-
-1. Dans la page de liste _[!UICONTROL Définitions d’événement]_, cliquez sur le nom de la définition d’événement pour l’ouvrir.
-
-Suivez les étapes en fonction du statut :
-
->[!BEGINTABS]
-
->[!TAB Brouillon]
-
-1. Modifiez les détails de la définition d’événement selon les besoins.
-
-   ![Détails d’une définition d’événement au statut Brouillon](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
-
-   Suivez les mêmes instructions que celles utilisées pour [création d’une définition d’événement](#create-an-event-definition).
-
-   Les modifications sont automatiquement enregistrées dans le brouillon.
-
-1. Lorsque la définition d’événement répond à vos critères et que vous souhaitez la rendre disponible pour les parcours de compte d’utilisation, cliquez sur **[!UICONTROL Publier]**.
-
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
-
-   Le statut de la définition d’événement passe à _Publié_ et peut désormais être utilisé dans les parcours de compte.
-
->[!TAB Publié]
-
-1. Pour mettre à jour la définition de l’événement, cliquez sur **[!UICONTROL Créer un brouillon]** en haut à droite.
-
-   ![Détails de la définition d’événement publiée](./assets/configuration-events-published-details.png){width="600" zoomable="yes"}
-
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Créer un brouillon]** pour ouvrir le brouillon.
-
-   ![Boîte de dialogue Créer un brouillon](./assets/configuration-events-published-create-draft-dialog.png){width="300"}
-
-   Cette action crée le brouillon et revient à la page de liste, où la définition de l’événement est désormais à l’état _Publié (avec le brouillon)_.
-
-1. Cliquez sur le nom de la définition d’événement pour l’ouvrir.
-
-   Pour une définition d’événement _Publié (avec brouillon)_ l’onglet de version _[!UICONTROL Publié]_ est sélectionné par défaut.
-
-1. Sélectionnez l’onglet Version **[!UICONTROL brouillon]** .
-
-   ![Sélectionnez le brouillon pour modifier les détails](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
-
-1. Modifiez l’un des détails modifiables (**[!UICONTROL Description]**, **[!UICONTROL Types d’événement]** et **[!UICONTROL Champs]**) si nécessaire.
-
-   Suivez les mêmes instructions que celles utilisées pour [création d’une définition d’événement](#create-an-event-definition).
-
-   Les modifications sont automatiquement enregistrées dans le brouillon.
-
-1. Lorsque la définition d’événement de brouillon répond à vos critères et que vous souhaitez remplacer la version publiée actuelle pour l’utiliser dans les parcours de compte, cliquez sur **[!UICONTROL Publier le brouillon]**.
-
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
-
-   ![Boîte de dialogue Publier le brouillon](./assets/configuration-events-publish-draft-dialog.png){width="300"}
-
-   Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il est déjà utilisé, mais pas encore exécuté.
-
->[!TAB Publié (avec brouillon)]
-
-Lorsque vous ouvrez une définition d’événement _Publié (avec brouillon)_, l’onglet de version _[!UICONTROL Publié]_ est sélectionné par défaut.
-
-1. Sélectionnez l’onglet Version **[!UICONTROL brouillon]** .
-
-   ![Sélectionnez le brouillon pour modifier les détails](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
-
-1. Modifiez l’un des détails modifiables (**[!UICONTROL Description]**, **[!UICONTROL Types d’événement]** et **[!UICONTROL Champs]**) si nécessaire.
-
-   Suivez les mêmes instructions que celles utilisées pour [créer une définition d’événement](#create-an-event-definition).
-
-   Les modifications sont automatiquement enregistrées dans le brouillon.
-
-1. Lorsque la définition d’événement de brouillon répond à vos critères et que vous souhaitez remplacer la version publiée actuelle pour l’utiliser dans les parcours de compte, cliquez sur **[!UICONTROL Publier le brouillon]**.
-
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
-
-   ![Boîte de dialogue Publier le brouillon](./assets/configuration-events-publish-draft-dialog.png){width="300"}
-
-   Lorsque vous publiez le brouillon, il remplace la version publiée actuelle et la définition de l’événement est mise à jour pour les parcours de compte où il est déjà utilisé, mais pas encore exécuté.
-
->[!ENDTABS]
-
-## Suppression d’une définition d’événement
-
-Vous pouvez supprimer une définition d’événement si elle n’est pas utilisée par un parcours de compte publié.
-
->[!CAUTION]
+>[!NOTE]
 >
->Utilisez cette action avec précaution. La suppression d’une définition d’événement ne peut pas être annulée.
+>Pour la version Beta de cette fonctionnalité, vous ne pouvez pas supprimer un événement de la liste des événements sélectionnés. La suppression d’événements est prévue pour la version mise à disposition générale.
 
-1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
+<!-- ## Overview video
 
-1. Cliquez sur **[!UICONTROL Événements]** dans le panneau intermédiaire pour afficher la liste des définitions d’événement.
-
-1. Recherchez la définition de l’événement dans la liste, puis cliquez sur l’icône _Supprimer_ ( ![Icône Supprimer](../assets/do-not-localize/icon-delete.svg) ) à droite du nom.
-
-1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
-
-   ![Confirmer pour supprimer la définition d’événement](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
-
-## Vidéo de vue d’ensemble
-
->[!VIDEO](https://video.tv.adobe.com/v/3448685/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->

@@ -4,9 +4,9 @@ description: Configurez les nœuds d’événement pour les déclencheurs de com
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1810'
 ht-degree: 12%
 
 ---
@@ -117,7 +117,7 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 1. Cliquez sur **[!UICONTROL Modifier l’événement]** et définissez une ou plusieurs pages web à faire correspondre et toute contrainte supplémentaire pour l’événement.
 
-   * (Obligatoire) Dans la boîte de dialogue _[!UICONTROL Modifier l’événement]_, définissez la contrainte **[!UICONTROL Page web]** ou **[!UICONTROL Remplit le formulaire]**. Utilisez **[!UICONTROL is]** (par défaut) pour rechercher une correspondance sur une ou plusieurs pages ou formulaires sélectionnés. Utilisez **[!UICONTROL n’est pas]** pour correspondre à toutes les visites de page/formulaires avec l’exclusion d’une ou de plusieurs pages/formulaires sélectionnés. Vous pouvez également utiliser **[!UICONTROL est n’importe lequel]** pour faire correspondre sur n’importe quelle page web Marketo Engage visitée ou formulaire rempli.
+   * (Obligatoire) Dans la boîte de dialogue _[!UICONTROL Modifier l’événement]_, définissez la contrainte **[!UICONTROL Page web]** ou **[!UICONTROL Remplit le formulaire]**. Utilisez **[!UICONTROL is]** (par défaut) pour rechercher une correspondance sur une ou plusieurs pages ou formulaires sélectionnés. Utilisez **[!UICONTROL n’est pas]** pour correspondre à toutes les visites de page/formulaires avec l’exclusion d’une ou de plusieurs pages/formulaires sélectionnés. Vous pouvez également utiliser l’opérateur **[!UICONTROL is any]** pour établir une correspondance lors de toute visite de page web ou de tout formulaire rempli Marketo Engage.
 
    * (Facultatif) Cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez le champ à utiliser pour la contrainte. Définissez l’opérateur et la valeur du champ .
 
@@ -135,13 +135,14 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 ### Écoute d’un événement d’expérience
 
-Les administrateurs peuvent configurer des définitions d’événement basées sur Adobe Experience Platform (AEP), ce qui permet aux spécialistes marketing de créer des parcours de compte qui réagissent aux [Événements d’expérience AEP](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. L’utilisation des événements d’expérience AEP dans les parcours de compte est un processus en deux étapes :
+Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
 
-1. [Créer et publier une définition d’événement AEP](../admin/configure-aep-events.md).
+1. Un administrateur [sélectionne les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#select-an-event) pour les rendre disponibles dans les parcours.
 
-2. Dans un parcours de compte, ajoutez un nœud _Écouter un événement_ et sélectionnez une définition d’événement Experience Platform pour un événement basé sur des personnes.
+2. Dans un parcours, ajoutez un nœud _Écouter un événement_ et sélectionnez un type d’événement Experience Platform pour un événement basé sur des personnes.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width=« 30 », vertical-align=« middle »} [Regardez la présentation vidéo](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 _Pour inclure un événement d’expérience dans votre parcours :_
 
@@ -159,21 +160,21 @@ _Pour inclure un événement d’expérience dans votre parcours :_
 
    ![Modifier l’événement](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Modifier l’événement]** et définissez les types d’événement et les contraintes supplémentaires pour l’événement.
+1. Cliquez sur **[!UICONTROL Modifier l’événement]** et définissez une ou plusieurs contraintes pour l’événement.
 
-   * (Obligatoire) Dans la boîte de dialogue _[!UICONTROL Modifier l’événement]_, définissez le type d’événement. Vous pouvez utiliser l’opérateur **[!UICONTROL is]** par défaut pour établir une correspondance avec un ou plusieurs types d’événements sélectionnés. Vous pouvez également utiliser l’opérateur **[!UICONTROL n’est pas]** pour faire correspondre sur tous les types d’événement à l’exclusion d’un ou de plusieurs types d’événement sélectionnés.
+   Les contraintes disponibles sont définies en tant que champs gérés pour la configuration de l&#39;événement.
 
-   * (Facultatif) Cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez le champ à utiliser pour la contrainte. Définissez l’opérateur et la valeur du champ .
+   * Cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez le champ à utiliser pour la contrainte.
+
+   * Renseignez la condition de la contrainte.
+
+     Vous pouvez utiliser l’opérateur **[!UICONTROL is]** par défaut pour faire correspondre une ou plusieurs valeurs de champ. Vous pouvez également utiliser l’opérateur **[!UICONTROL n’est pas]** pour faire correspondre sur toutes les valeurs avec l’exclusion d’une ou de plusieurs valeurs spécifiées.
 
      ![Écouter un événement d’expérience](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >Les contraintes de _date d&#39;activité_ et _nombre minimum de fois_ ne sont pas prises en charge.
-
-     Vous pouvez répéter cette action pour inclure d’autres contraintes de champ, si nécessaire.
-
    * Si nécessaire, sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#add-a-filter-to-the-people-event).
+
+   * (Facultatif) Cliquez sur **[!UICONTROL Ajouter une contrainte]** et répétez ces étapes pour inclure des contraintes de champ supplémentaires si nécessaire.
 
    * Lorsque les contraintes et les filtres sont définis, cliquez sur **[!UICONTROL Terminé]**.
 
@@ -219,6 +220,6 @@ Si nécessaire, définissez le temps d’attente du parcours pour l’événemen
 
    ![Nœud d’événement de Parcours : définissez le chemin de temporisation](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Vidéo de présentation
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443236/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

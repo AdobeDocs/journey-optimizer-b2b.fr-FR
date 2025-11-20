@@ -3,9 +3,9 @@ title: Mappage de persona
 description: Découvrez comment configurer le mappage des rôles pour le marketing B2B. Mappez les attributs de personne dans Journey Optimizer B2B edition pour créer des modèles de rôle et optimiser le ciblage des groupes d’achats.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -39,13 +39,13 @@ Par exemple, vous pouvez configurer une persona appelée _Gestion des produits_ 
 
 1. Cliquez sur **[!UICONTROL Mappage de personas]** dans le panneau intermédiaire pour afficher la liste des personas.
 
-   ![Accéder aux rôles configurés](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![Accéder aux rôles configurés](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   À partir de cette page, vous pouvez [créer](#create-an-engagement-score-model), [modifier](#change-the-engagement-weighting-settings) ou [supprimer](#delete-a-persona) des personnages.
+   À partir de cette page, vous pouvez [créer](#create-a-persona), [modifier](#edit-a-persona) ou [supprimer](#delete-a-persona) des personnages.
 
-   La liste de mappage des personas. est organisé sous la forme d’un tableau et affiche en haut les personnages les plus récemment mis à jour (triés par _[!UICONTROL Dernière mise à jour]_). Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres des colonnes_ ( ![Paramètres des colonnes](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit, puis en cochant ou décochant les cases des colonnes.
+   La liste de mappage des personas est organisée sous la forme d’un tableau et affiche les personas les plus récemment mis à jour en haut (triés par _[!UICONTROL Dernière mise à jour]_). Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres des colonnes_ ( ![Paramètres des colonnes](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit, puis en cochant ou décochant les cases des colonnes.
 
-![Colonnes à afficher dans la liste de mappage des rôles](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![Colonnes à afficher dans la liste de mappage des rôles](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Pour accéder aux détails d’un persona, cliquez sur son nom.
 
@@ -68,13 +68,9 @@ La liste _Mappage de personas_ comprend cinq personnages par défaut définis en
 
 ### Filtrage de liste
 
-Pour localiser la personne de votre choix, utilisez les outils de recherche et de filtrage :
+Pour localiser le persona souhaité, saisissez une chaîne de texte dans la barre de recherche pour faire correspondre les personas par nom,
 
-* Saisissez une chaîne de texte dans la barre de recherche pour faire correspondre les profils par nom,
-
-  ![Filtrer les définitions d’événement affichées](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/icon-filter.svg) ) en haut à gauche pour filtrer la liste affichée par attribut.
+![Filtrer les mappages de persona affichés](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## Créer une persona
 
@@ -86,6 +82,8 @@ Pour localiser la personne de votre choix, utilisez les outils de recherche et d
 
 1. Saisissez un **[!UICONTROL Nom]** et un **[!UICONTROL Description]** uniques (facultatif) pour le persona.
 
+   ![Créer un mappage de persona](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. Sélectionnez les attributs à utiliser pour faire correspondre le persona.
 
    * Cliquez sur **[!UICONTROL Sélectionner les attributs de personne]**.
@@ -96,6 +94,8 @@ Pour localiser la personne de votre choix, utilisez les outils de recherche et d
 
      Pour filtrer la liste des attributs par nom, saisissez une chaîne de texte dans la barre de recherche. Vous pouvez également cliquer sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/icon-filter.svg) ) en haut à gauche pour filtrer la liste affichée par type, _Standard_ ou _Personnalisé_.
 
+     ![Boîte de dialogue Sélectionner les attributs de persona](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * Cliquez sur **[!UICONTROL Enregistrer]**
 
      Les attributs sélectionnés sont renseignés dans la section _[!UICONTROL Attributs de persona]_.
@@ -104,11 +104,13 @@ Pour localiser la personne de votre choix, utilisez les outils de recherche et d
 
    À la place d’une valeur, vous pouvez également ajouter une invite qui peut être utilisée pour identifier une correspondance. Par exemple, vous pouvez saisir :
 
-1. Cliquez sur **[!UICONTROL Créer]**.
+1. Cliquez sur **[!UICONTROL Envoyer]**.
 
 ## Modifier une persona
 
 Cliquez sur le nom du persona pour accéder aux détails du persona et les modifier,
+
+Vous pouvez modifier le nom ou la description, ajouter des attributs ou mettre à jour les valeurs d’attribut. Cliquez sur **[!UICONTROL Soumettre]** une fois vos modifications terminées.
 
 ## Supprimer une persona
 
