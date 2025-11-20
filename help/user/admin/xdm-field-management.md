@@ -23,7 +23,7 @@ Les schémas de Adobe Experience Platform (AEP) contiennent généralement de no
 Les administrateurs qui comprennent XDM et collaborent avec les ingénieurs de données ou les parties prenantes à la modélisation des données de la plateforme de données client (CDP) B2B doivent utiliser les procédures de cette page.
 
 >[!NOTE]
->Les [schémas relationnels](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sont disponibles pour [!DNL Journey Optimizer B2B Edition] dans une version limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence des campagnes orchestrées Journey Optimizer. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs de Customer Journey Analytics, selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
+>Les [schémas relationnels](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#) sont disponibles pour [!DNL Journey Optimizer B2B Edition] dans une version limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence des campagnes orchestrées Journey Optimizer. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs de Customer Journey Analytics, selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
 
 ## Accès aux classes XDM
 

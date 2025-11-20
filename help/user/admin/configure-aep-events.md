@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Sélectionner des événements d’expérience et des champs
 
-Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
+Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 L’utilisation des événements d’expérience AEP dans parcours est un processus en deux étapes :
