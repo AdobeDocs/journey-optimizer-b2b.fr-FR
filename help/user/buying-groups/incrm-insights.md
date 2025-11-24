@@ -1,11 +1,11 @@
 ---
 title: Insights In-CRM
-description: Accédez aux groupes d’achat Journey Optimizer B2B edition directement dans Salesforce. Les membres de l’équipe des ventes peuvent afficher les données d’engagement et identifier les opportunités de vente avec des informations In-CRM.
+description: Accédez aux groupes d’achat Journey Optimizer B2B edition directement dans les CRM. Les membres de l’équipe des ventes peuvent afficher les données d’engagement et identifier les opportunités de vente avec des informations In-CRM.
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: b5173345f5dfb879b36726ca27e164d9a267dac4
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -13,34 +13,64 @@ ht-degree: 0%
 
 # Insights In-CRM
 
-La fonction Insights dans le CRM est une application web qui s’intègre à Salesforce, ce qui vous permet d’accéder à vos groupes d’achats Journey Optimizer B2B edition directement dans Salesforce. Il vous permet d’identifier les opportunités d’engagement et de potentiel de vente accru.
+[!DNL In-CRM Insights] est une application web qui s’intègre à Salesforce et Microsoft Dynamics 365, ce qui vous permet d’accéder à des groupes d’achat [!DNL Journey Optimizer B2B Edition] directement dans votre CRM. Il rassemble des sources de données de vente, ce qui facilite l’identification des opportunités d’engagement et de potentiel de vente accrus.
 
-L’application Insights dans le CRM est disponible dans le package Insights de vente Marketo [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+L’application [!DNL In-CRM Insights] est disponible dans le package [Informations commerciales Marketo](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
-## Autorisations
+## Installation
 
-Pour accéder à l’application, les utilisateurs doivent être membres d’un rôle avec l’autorisation **Informations sur les ventes:View Informations sur les ventes** .
+Le processus d’installation comprend les étapes suivantes :
 
-Si vous souhaitez restreindre un groupe d’utilisateurs à InCRM-Insights, suivez les instructions suivantes pour créer un rôle personnalisé spécifique à InCRM-Insights :
+* Configuration des autorisations utilisateur et des groupes
+* Installation du package logiciel
+* Connexion via votre CRM
 
-* Créez un rôle personnalisé avec uniquement le jeu d’autorisations **Informations sur les ventes:View Informations sur les ventes**.
-* Créez un groupe d’utilisateurs, sans ajouter de profils de produit.
-* Créez un autre groupe d’utilisateurs et ajoutez un profil de produit AEP, ou ajoutez un profil AEP existant au groupe d’utilisateurs que vous venez de créer.
-* Affectez les nouveaux groupes d’utilisateurs au nouveau rôle et ajoutez de nouveaux utilisateurs aux nouveaux groupes d’utilisateurs.
+### Définition des autorisations
 
-## Utilisation des informations dans le CRM
+Les utilisateurs et utilisatrices installant le logiciel doivent disposer des autorisations nécessaires pour installer les packages Salesforce.
 
-L’application Insights dans le CRM est disponible dans Salesforce via le lanceur d’applications.
+Pour accéder à l’application, les utilisateurs doivent être membres d’un rôle avec l’autorisation **Informations sur les ventes:View Informations sur les ventes**.
 
-1. Cliquez sur le lanceur d’application dans Salesforce.
-1. Sélectionnez ou recherchez des `Journey Optimizer B2B Edition`.
-1. Dans l’onglet affiché, connectez-vous avec vos identifiants Adobe.
-1. Choisissez un sandbox qui héberge vos Parcours de compte.
+Si vous souhaitez limiter les utilisateurs et utilisatrices à l’[!DNL In-CRM Insights] :
 
-Vos groupes d&#39;achats sont chargés et disponibles. Les données sont en lecture seule via les informations In-CRM.
+1. Créez un [rôle personnalisé](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) et attribuez-lui l’autorisation **Informations sur les ventes : Afficher les informations sur les ventes**.
+1. Créez un [groupe d’utilisateurs](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Ajoutez un profil de produit Experience Platform au groupe .
 
->[!NOTE]
->
->L’appartenance au rôle de produit [Utilisateur commercial B2B](../admin/user-management.md#b2b-built-in-roles) est requise pour accéder aux informations In-CRM.
+### Installation du package
 
-Après avoir sélectionné un groupe d’achats, vous pouvez parcourir les [&#x200B; détails du groupe](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) comme dans Journey Optimizer B2B edition.
+Pour installer le package Insights dans le CRM, suivez les étapes pour Salesforce ou Microsoft Dynamics.
+
+#### Salesforce
+
+1. Téléchargez le [package du programme d’installation des insights dans CRM](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce).
+1. Une fois connecté, vous êtes redirigé vers la page d’installation du package.
+1. Sélectionnez l’option **[!UICONTROL Installer pour tous les utilisateurs]** et cliquez sur **[!UICONTROL Installer]**.
+
+   ![Installation du package Insights In-CRM](assets/incrm-install-sf.png){width=500}
+
+1. Approuvez l’accès tiers dans la boîte de dialogue, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Une fois l’installation terminée, cliquez sur **[!UICONTROL Terminé]**.
+
+   Il est désormais répertorié sur la page **Packages installés** et **Journey Optimizer B2B edition** est répertorié dans le lanceur d’application.
+
+   ![Informations dans le CRM configurées dans Salesforce](assets/in-crm-install-sf-done.png){width=800 zoomable="yes"}
+
+#### MS Dynamics
+
+1. Téléchargez le [package du programme d’installation des insights dans CRM](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics).
+1. Accédez au portail [Power Apps](https://make.powerapps.com/){target=_blank}.
+1. Une fois connecté, sélectionnez l’environnement du package, puis accédez à **[!UICONTROL Solutions]** dans le menu de gauche.
+1. Cliquez sur **[!UICONTROL Importer la solution]**.
+1. Recherchez et chargez le package du programme d’installation, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Vérifiez les détails du package et cliquez sur **[!UICONTROL Suivant]**.
+1. Sous _Variables d’environnement_, vérifiez que la valeur est définie sur `prod` (ne modifiez pas la valeur), puis cliquez sur **[!UICONTROL Importer]**.
+1. Une fois l’installation terminée, **[!UICONTROL Journey Optimizer B2B edition]** > **[!UICONTROL Groupes d’achats]** s’affiche sur la barre de navigation de gauche.
+
+   ![Insights in-CRM disponibles dans Microsoft Dynamics](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
+
+## Afficher vos groupes d&#39;achats
+
+Suivez les invites pour vous connecter à votre compte Adobe. Vos groupes d&#39;achats sont chargés et peuvent être consultés.
+
+Après avoir sélectionné un groupe d&#39;achats, vous pouvez parcourir les [détails du groupe](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Il s’agit du même que les données et les informations affichées dans Journey Optimizer B2B edition, mais les données sont en lecture seule via [!DNL In-CRM Insights].
