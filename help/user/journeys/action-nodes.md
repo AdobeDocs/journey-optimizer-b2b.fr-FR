@@ -276,4 +276,4 @@ Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionn
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443247/?captions=fre_fr&learn=on)
