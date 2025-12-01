@@ -4,20 +4,20 @@ description: Découvrez comment connecter un compte LinkedIn et activer un flux 
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 1cc50d33e396e490f401330688e5d322270090e3
+source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 13%
+source-wordcount: '995'
+ht-degree: 12%
 
 ---
 
-# Audiences correspondantes de compte LinkedIn
+# Audiences correspondantes du compte LinkedIn
 
-Journey Optimizer B2B edition offre la possibilité de générer des audiences d’annonces LinkedIn par le biais d’audiences avec correspondance de compte. Il est conçu pour vous aider à remplir des rôles vides dans vos groupes d’achats. En définissant un ensemble de filtres de groupe d&#39;achat, vous pouvez gérer une Audience appariée LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d&#39;achat. Vous pouvez également activer une audience à partir d’un parcours de compte à partir d’un nœud _Prendre une action_.
+[!DNL Journey Optimizer B2B Edition] offre la possibilité de générer des audiences d’annonces LinkedIn par le biais d’audiences avec correspondance de compte. Il est conçu pour vous aider à remplir des rôles vides dans vos groupes d’achat. En définissant un ensemble de filtres de groupe d&#39;achat, vous pouvez gérer une Audience appariée LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d&#39;achat. Vous pouvez également activer une audience à partir d’un parcours de compte à partir d’un nœud _Prendre une action_.
 
 Cette fonctionnalité exploite les destinations Experience Platform pour gérer certains aspects de l’intégration. Il existe une limite de dix flux de données.
 
-Avant de lancer un flux de données à partir de Journey Optimizer B2B edition, vous devez disposer d’au moins une instance du connecteur de destination [(Entreprises) LinkedIn Matched Audience](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} avec un compte LinkedIn Campaign Manager configuré dans votre application Experience Platform.
+Avant de lancer un flux de données à partir de Journey Optimizer B2B edition, vous devez disposer d’au moins une instance du connecteur de destination [(Entreprises) LinkedIn Matched Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} avec un compte LinkedIn Campaign Manager configuré dans votre application Experience Platform.
 
 ## Configurer une nouvelle connexion à un compte LinkedIn {#linkedin-destination-setup}
 
@@ -122,7 +122,17 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 1. Avec le nœud _Prendre une action_ sélectionné dans la zone de travail du parcours, définissez **[!UICONTROL Action sur les comptes]** sur **[!UICONTROL Activer vers la destination]**.
 
-1. Cliquez sur **[!UICONTROL Sélectionner la destination]**.
+   ![nœud de Parcours - agir sur les comptes - activer vers la destination](./assets/node-activate-destination.png){width="550" zoomable="yes"}
+
+1. Dans les propriétés de nœud sur la droite, choisissez la destination.
+
+   * Si une ou plusieurs destinations sont créées, vous pouvez cliquer sur **[!UICONTROL Sélectionner la destination]** pour choisir une destination existante.
+
+   * S’il n’existe aucune destination existante ou que vous souhaitez créer une nouvelle destination, cliquez sur **[!UICONTROL Configurer une destination]**.
+
+     ![nœud de Parcours - agir sur les comptes - activer vers la destination - configurer la destination](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
+
+     Cette action ouvre la page du catalogue des destinations dans un nouvel onglet du navigateur.
 
    ![nœud de Parcours - agir sur les comptes - activer vers la destination](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
@@ -138,4 +148,4 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 Vous pouvez interagir avec les membres du compte par le biais d’un canal de média payant, tel que les audiences d’annonces LinkedIn, afin de les acquérir, de les entretenir et de les qualifier pour les ventes. Utilisez un nœud _Agir_ dans un parcours de compte pour automatiser l’engagement avec les membres importants d’un compte par le biais d’un canal externe adapté aux différents membres du compte.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448674/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

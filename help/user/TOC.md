@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: ab6445c36e6287e04015b2b1f7dd9dd8cb8d1287
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 91%
+source-wordcount: '371'
+ht-degree: 88%
 
 ---
 
@@ -49,8 +49,11 @@ ht-degree: 91%
       + [E-mail d’alerte de vente](./content/sales-alert-email.md)
    + [Jetons de personnalisation sur mesure](./content/personalization-my-tokens.md)
    + [Création de SMS](./content/sms-authoring.md)
++ Audiences {#audiences}
+   + [Audiences Experience Platform](./audiences/account-audience-overview.md)
+   + [Cibler des audiences externes](./audiences/target-external-audience.md)
+   + [Audiences correspondantes du compte LinkedIn](./data/linkedin-account-matched-audiences.md)
 + Comptes {#accounts}
-   + [Audiences](./audiences/account-audience-overview.md)
    + Groupes d’achat {#buying-groups}
       + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
       + [Intérêts de la solution](./buying-groups/solution-interests.md)
@@ -62,7 +65,6 @@ ht-degree: 91%
       + [Étapes des groupes d’achat](./buying-groups/buying-group-stages.md)
       + [Créer des groupes d’achat](./buying-groups/buying-groups-create.md)
       + [Exporter des comptes](./audiences/account-list-export.md)
-      + [Audiences correspondantes de compte LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtres de groupe d’achat dans Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
       + [Insights In-CRM](./buying-groups/incrm-insights.md)
    + Listes de comptes {#account-lists}

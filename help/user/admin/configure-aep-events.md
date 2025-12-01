@@ -15,14 +15,14 @@ ht-degree: 10%
 
 # Sélectionner des événements d’expérience et des champs
 
-Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
+Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 L’utilisation des événements d’expérience AEP dans parcours est un processus en deux étapes :
 
 1. Un administrateur [ajoute des événements et des champs d’expérience AEP](#add-an-event) dans les configurations Journey Optimizer B2B edition.
 
-2. Dans un parcours, un spécialiste marketing ajoute un nœud _Écouter pour un événement_ et [&#x200B; sélectionne un événement d’expérience](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. Dans un parcours, un spécialiste marketing ajoute un nœud _Écouter pour un événement_ et [ sélectionne un événement d’expérience](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
    * Sélectionne l’événement à utiliser dans le nœud .
    * Sélectionne les champs à utiliser comme contraintes.
@@ -113,7 +113,7 @@ Modifiez les détails de l’événement pour modifier les champs.
 
 1. Cliquez sur le nom de l’événement ou cliquez sur l’icône _Plus_ ( **...** ) et choisissez **[!UICONTROL Modifier]**.
 
-   ![Cliquez sur l’icône du menu Plus &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Cliquez sur l’icône du menu Plus ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Modifier les champs]** pour ajouter d’autres champs ou supprimer des sélections existantes dans la boîte de dialogue _[!UICONTROL Sélectionner les champs]_.
 
@@ -464,4 +464,4 @@ Type d’événement : `leadOperation.interestingMoment `
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448685/?captions=fre_fr&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
