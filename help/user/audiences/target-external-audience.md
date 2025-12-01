@@ -106,5 +106,5 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
    ![Experience Platform - destinations - activer la destination - vérifier](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Lors de l’activation, vous pouvez voir l’audience dans [les audiences Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et les utiliser dans les activités Adobe Target.
+Lors de l’activation, vous pouvez voir l’audience dans [les audiences Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et les utiliser dans les activités Adobe Target.
 
