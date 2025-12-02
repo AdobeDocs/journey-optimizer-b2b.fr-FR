@@ -28,7 +28,7 @@ Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edit
 
 Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L’AQA utilise l’IA pour lire vos comptes et déterminer lesquels sont prêts pour l’étape suivante. Il facilite la recherche, la rédaction d’e-mails et les mises à jour CRM.
 
-![ Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
+![&#x200B; Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
 
 * **Recherche de prospects**
 
