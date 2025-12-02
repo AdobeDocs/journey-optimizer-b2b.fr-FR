@@ -23,7 +23,7 @@ Les schémas de Adobe Experience Platform (AEP) contiennent généralement de no
 Les administrateurs qui comprennent XDM et collaborent avec les ingénieurs de données ou les parties prenantes à la modélisation des données de la plateforme de données client (CDP) B2B doivent utiliser les procédures de cette page.
 
 >[!NOTE]
->Les [schémas relationnels](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sont disponibles pour [!DNL Journey Optimizer B2B Edition] dans une version à disponibilité limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence des campagnes orchestrées Journey Optimizer. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs de Customer Journey Analytics, selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
+>Les [schémas relationnels](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#) sont disponibles pour [!DNL Journey Optimizer B2B Edition] dans une version à disponibilité limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence des campagnes orchestrées Journey Optimizer. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs de Customer Journey Analytics, selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
 
 ## Accès aux classes XDM
 
@@ -89,7 +89,7 @@ Lorsque vous choisissez **[!UICONTROL Champs gérés]**, la boîte de dialogue _
 
 #### Champs modifiables
 
-Avant de configurer des champs pouvant être mis à jour, ils doivent résider dans un jeu de données personnalisé. Pour une présentation du workflow du jeu de données personnalisé, voir [Création de jeux de données et ingestion de données](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} et utiliser l’option **[!UICONTROL Création d’un jeu de données à partir d’un schéma]**. Ce jeu de données est utilisé pour isoler les champs modifiables. Tous les champs pouvant être mis à jour doivent se trouver dans ce jeu de données.
+Avant de configurer des champs pouvant être mis à jour, ils doivent résider dans un jeu de données personnalisé. Pour une présentation du workflow du jeu de données personnalisé, voir [Création de jeux de données et ingestion de données](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} et utiliser l’option **[!UICONTROL Création d’un jeu de données à partir d’un schéma]**. Ce jeu de données est utilisé pour isoler les champs modifiables. Tous les champs pouvant être mis à jour doivent se trouver dans ce jeu de données.
 
 Créez un jeu de données pour Profil individuel et un autre pour Compte professionnel. Sélectionnez chaque nouveau jeu de données pendant le processus de configuration :
 
