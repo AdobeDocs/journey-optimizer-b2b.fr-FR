@@ -38,11 +38,11 @@ Dans [!DNL Journey Optimizer B2B Edition], vous pouvez créer le contenu dynamiq
 
 * **Jetons système** - Ces jetons sont basés sur les valeurs des champs système, telles que _date_, _heure_ et _lien de désabonnement_.
 
-* **Mes jetons** (lorsqu’ils sont définis pour le parcours) - [jetons personnalisés définis pour le parcours ](./personalization-my-tokens.md) où réside l’e-mail.
+* **Mes jetons** (lorsqu’ils sont définis pour le parcours) - [jetons personnalisés définis pour le parcours &#x200B;](./personalization-my-tokens.md) où réside l’e-mail.
 
 >[!NOTE]
 >
->Pour en savoir plus sur les schémas XDM, consultez la documentation du modèle de données Adobe Experience Platform (XDM) [](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
+>Pour en savoir plus sur les schémas XDM, consultez la documentation du modèle de données Adobe Experience Platform (XDM) [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Éditeur de personnalisation
 
@@ -62,7 +62,7 @@ Pour utiliser un jeton de personnalisation ou une fonction d’assistance, local
 
 Cliquez sur l’icône _Plus de menu_ ( **...** ) (en regard de l’icône _Ajouter_ ( **+** ) pour afficher plus de détails sur chaque attribut et ajouter les attributs les plus fréquemment utilisés aux _favoris_. Les attributs ajoutés aux favoris sont accessibles à partir du menu **[!UICONTROL Favoris]** dans le volet de navigation de gauche de l’éditeur.
 
-![Éditeur Personalization - Jeton Menu Plus ](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
+![Éditeur Personalization - Jeton Menu Plus &#x200B;](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
 <!-- >>[!NOTE]
 >
@@ -82,7 +82,7 @@ Vous pouvez utiliser des schémas relationnels (classes basées sur des modèles
 
 >[!IMPORTANT]
 >
->Avant d’utiliser des objets personnalisés pour la personnalisation par script, veillez à consulter et à comprendre le [langage de modèle Handlebar](https://handlebarsjs.com/guide/), [syntaxe de personnalisation](./personalization-syntax.md) et les fonctions d’assistance [ intégrées](./personalization-helper-functions.md).
+>Avant d’utiliser des objets personnalisés pour la personnalisation par script, veillez à consulter et à comprendre le [langage de modèle Handlebar](https://handlebarsjs.com/guide/), [syntaxe de personnalisation](./personalization-syntax.md) et les fonctions d’assistance [&#x200B; intégrées](./personalization-helper-functions.md).
 
 Lorsque vous définissez une personnalisation à l’aide des objets personnalisés, vous pouvez accéder à toutes les variables dans des objets accessibles par script à travers les **[!UICONTROL jetons Personalization]** (personne/prospect, compte, système et Mes jetons) et les **[!UICONTROL classes basées sur des modèles]** (schémas relationnels). Lorsque des classes basées sur un modèle sont sélectionnées, vous pouvez afficher les champs en cliquant sur le dossier d’objet personnalisé. Cliquez sur **+** pour chaque champ que vous souhaitez ajouter à l’expression.
 
