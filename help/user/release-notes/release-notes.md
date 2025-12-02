@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
+source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 95%
+source-wordcount: '3778'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
@@ -39,6 +39,7 @@ Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour
 | Fonctionnalité | Modèles d’e-mail - convertir l’image en HTML | Vous pouvez désormais utiliser vos fichiers de conception stockés en tant que fichiers image JPG ou PNG et générer automatiquement des modèles d’e-mail. [En savoir plus](../content/email-template-image-convert.md) |
 | Fonctionnalité | Mappage de persona | Liez les membres de compte aux personas établies avec le mappage d’attributs. [En savoir plus](../admin/persona-mapping.md) |
 | Fonctionnalité | Informations commerciales pour Salesforce et Dynamics | Les membres de l’équipe des ventes peuvent désormais afficher les groupes d’achats arrivant à maturité et les informations connexes dans une intégration Salesforce ou Dynamics pour identifier de nouvelles opportunités. Les détails du groupe d’achats tels que l’étape, le score et les membres associés sont inclus. [En savoir plus](../buying-groups/incrm-insights.md) |
+| Fonctionnalité | Activer l’audience vers [!DNL Adobe Target] | Vous pouvez désormais activer une audience à partir d’un parcours de compte vers une audience client externe et la diffuser [!DNL Adobe Target]. Grâce à cette intégration, vous pouvez diffuser une audience qualifiée par le biais d’une séquence de parcours pour une expérience web conçue dans [!DNL Target]. [En savoir plus](../audiences/target-external-audience.md) |
 | Amélioration | Amélioration de la notation d’exhaustivité du groupe d’achat | Vous pouvez désormais vous assurer que les groupes d’achat présentent un réel processus de décision contenant des seuils de membre de rôle personnalisables pour la notation d’exhaustivité.  [En savoir plus](../buying-groups/completeness-scores.md) |
 | Amélioration | Traitements de maintenance des groupes d’achat | La fréquence des traitements de maintenance des groupes d’achats passe de Hebdomadaire à Quotidienne. |
 | Amélioration | Progression de parcours de compte | Pour un parcours publié dont le statut est défini sur _Actif_, _Fermé aux nouvelles entrées_, _Abandonné_ ou _Terminé_, vous pouvez ouvrir la cartographie du parcours afin de consulter une liste de comptes pour chaque nœud de parcours. |
@@ -66,8 +67,8 @@ Grâce à l’architecture simplifiée, les nouvelles fonctionnalités et améli
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Modèle de données relationnelles | Tirez parti des données relationnelles liées aux comptes B2B pour filtrer les comptes dans un parcours de compte ou personnaliser le contenu des e-mails. Ces données relationnelles peuvent représenter des entités commerciales réelles telles que des enregistrements d’achat, des enregistrements d’événement, des licences logicielles, des abonnements à des services ou des réservations. |
-| Fonctionnalité | Activation Marketo Engage multiple | Configurez des connexions à des instances Marketo Engage distantes et utilisez ces connexions pour configurer des actions Marketo Engage pour parcours. Ces actions, telles que l’ajout ou la suppression de personnes dans des listes ou l’ajout de personnes à une campagne de demande, s’appliquent à l’instance Marketo Engage désignée. |
+| Fonctionnalité | Modèle de données relationnelles | Tirez parti des données relationnelles liées aux comptes B2B pour filtrer les comptes dans un parcours de compte ou personnaliser le contenu des e-mails. Ces données relationnelles peuvent représenter des entités commerciales réelles telles que des enregistrements d’achat, des enregistrements d’événement, des licences logicielles, des abonnements à des services ou des réservations. [En savoir plus](../admin/xdm-field-management.md#relational-schemas) |
+| Fonctionnalité | Plusieurs activations de Marketo Engage | Configurez des connexions à des instances Marketo Engage distantes et utilisez ces connexions pour configurer des actions Marketo Engage pour parcours. Ces actions, telles que l’ajout ou la suppression de personnes dans des listes ou l’ajout de personnes à une campagne de demande, s’appliquent à l’instance Marketo Engage désignée. [En savoir plus](../admin/marketo-actions-connect.md) |
 | Fonctionnalité | Déduplication des e-mails (procédure anti-fatigue) | Vous pouvez désormais activer la déduplication des e-mails pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse dans un parcours. Les adresses en double sont bloquées jusqu’à ce que le premier enregistrement avec cette adresse e-mail termine le parcours. |
 | Amélioration | Limites de communication | Le système respecte désormais les limites de communication combinées de Marketo Engage et de Journey Optimizer B2B edition. [En savoir plus](../admin/configure-channels-emails.md#communication-limits) |
 

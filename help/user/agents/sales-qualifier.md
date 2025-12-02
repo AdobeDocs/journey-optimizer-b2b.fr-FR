@@ -3,7 +3,7 @@ title: Qualificateur de vente
 description: Automatisez la qualification et la sensibilisation des prospects B2B avec le qualificateur de vente. Il fournit des recherches optimisées par l’IA, la rédaction d’emails, l’intégration de CRM et des plans d’engagement pour les BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 # Qualificateur de vente
 
 >[!NOTE]
->Cette fonctionnalité est actuellement en disponibilité limitée et n’est pas disponible pour tous les utilisateurs et utilisatrices.
 >
+>Cette fonctionnalité est actuellement en disponibilité limitée et n’est pas disponible pour tous les utilisateurs et utilisatrices.
 
 Sales Qualifier est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient Account Qualification Agent et est conçue pour rationaliser les workflows pour les représentants au développement commercial (BDR). Le qualificateur de vente automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
 Utilisez le navigateur et les modules externes d’e-mail pour accéder à Business Intelligence directement dans les CRM ou Outlook.
 
-Le qualificateur de vente est inclus dans Journey Optimizer B2B edition, mais il s’agit d’une application distincte dans Experience Platform Experience Cloud.
+Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edition], mais il s’agit d’une application distincte dans Experience Platform Experience Cloud.
 
 ![Tableau de bord du qualificateur de vente automatisant la qualification et la portée des prospects BDR pour le B2B d’entreprise](assets/home-screen.png)
 
@@ -28,7 +28,7 @@ Le qualificateur de vente est inclus dans Journey Optimizer B2B edition, mais il
 
 Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L’AQA utilise l’IA pour lire vos comptes et déterminer lesquels sont prêts pour l’étape suivante. Il facilite la recherche, la rédaction d’e-mails et les mises à jour CRM.
 
-![&#x200B; Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
+![ Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
 
 * **Recherche de prospects**
 
@@ -223,4 +223,4 @@ En bas à gauche de l’application, cliquez sur **[!UICONTROL Modifier]** pour 
 
 La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
