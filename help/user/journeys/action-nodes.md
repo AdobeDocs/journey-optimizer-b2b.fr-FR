@@ -4,9 +4,9 @@ description: 'Configurez les nœuds d’action pour les actions de compte et de 
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: ab6629f97231ecde67dcc38d3fcb815b29eb5e37
+source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1725'
 ht-degree: 2%
 
 ---
@@ -27,9 +27,9 @@ Utilisez une action sur les comptes lorsque vous souhaitez appliquer une modific
 | ------ | ----------- |
 | [!UICONTROL Moment intéressant du compte] | Type (e-mail, jalon ou web)<br/>Description (facultatif) |
 | [!UICONTROL Activer vers la destination] | Sélectionner une destination |
-| [!UICONTROL Ajouter un compte à un (autre) Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Ajouter un compte à un (autre) Parcours ] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste de comptes statiques actifs |
-| [!UICONTROL Supprimer un compte du Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Supprimer un compte du Parcours ] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
 | [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
 | [!UICONTROL Mettre à jour le profil de compte] | Sélectionner l’attribut<br/>Nouvelle valeur |
@@ -38,7 +38,7 @@ Utilisez une action sur les comptes lorsque vous souhaitez appliquer une modific
 
 >[!NOTE]
 >
->L’action _[!UICONTROL Modifier la valeur des données du compte]_ est obsolète pour la version 2025.10. Il est remplacé par _[!UICONTROL Mettre à jour le profil de compte]_ pour l’[architecture simplifiée](../simplified-architecture.md).<br/>
+>L’action _[!UICONTROL Modifier la valeur des données du compte]_ est obsolète pour la version 2025.10. _[!UICONTROL Mettre à jour le profil de compte]_ remplace cette action par l’[architecture simplifiée](../simplified-architecture.md).<br/>
 >
 >Un administrateur peut configurer les attributs disponibles pour le compte professionnel XDM en mettant à jour les champs dans les _[!UICONTROL Classes XDM]_ > _[!UICONTROL Classes standard]_. Pour plus d’informations, voir [Classes standard](../admin/xdm-field-management.md#standard-classes).
 
@@ -99,7 +99,7 @@ Utilisez une action sur les personnes lorsque vous souhaitez appliquer une modif
 | | [!UICONTROL Modifier le score] | Nom du score<br/>Modification du score |
 | | [!UICONTROL Moment intéressant] | Type<br/>Description |
 | | [!UICONTROL Supprimer du groupe d&#39;achat] | Sélectionner l’intérêt de la solution |
-| | [!UICONTROL Envoyer un e-mail] | Créer un e-mail<br/>sélectionner un e-mail à partir de Marketo Engage |
+| | [!UICONTROL Envoyer un e-mail] | Créer un e-mail |
 | | [!UICONTROL Envoyer SMS] | Créer un SMS |
 | | [!UICONTROL Mettre à jour le profil d’une personne] | Sélectionner l’attribut de personne<br/>Définir une nouvelle valeur |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Ajouter à la campagne de demande Marketo Engage] | Sélectionner l’espace de travail Marketo Engage<br/>Sélectionner la campagne de demande |
@@ -141,7 +141,7 @@ Utilisez cette action pour pousser les personnes vers une audience externe qui p
 Lorsque vous sélectionnez cette action basée sur les personnes, vous pouvez créer une nouvelle audience externe ou en sélectionner une dans la liste des audiences externes existantes.
 
 * Pour les audiences existantes, vous pouvez choisir parmi les audiences de clients externes qui ont été créées dans [!DNL Journey Optimizer B2B Edition] uniquement.
-* Lorsque vous créez une audience et que vous l’utilisez pour cette action de parcours, veillez à connecter la destination. Pour plus d’informations, consultez [Création d’une connexion de destination](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} et [Présentation de l’activation](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} dans la documentation de [!DNL Experience Platform].
+* Lorsque vous créez une audience et que vous l’utilisez pour cette action de parcours, veillez à connecter la destination. Pour plus d’informations, consultez [Création d’une connexion de destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} et [Présentation de l’activation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} dans la documentation de [!DNL Experience Platform].
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez une présentation vidéo pour l’orchestration de médias payants](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -187,7 +187,7 @@ Utilisez cette action pour ajouter des profils de personnes à un [groupe d&#39;
 
 +++[!UICONTROL Modifier le score]
 
-Utilisez cette action pour modifier le score de personne dans Marketo Engage. [En savoir plus](https://experienceleague.adobe.com/fr/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Utilisez cette action pour modifier le score de personne dans Marketo Engage. [En savoir plus](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Agir - Modifier le score](./assets/node-action-change-score.png){width="300"}
 
@@ -211,9 +211,13 @@ Utilisez cette action pour supprimer des profils de personnes d&#39;un [groupe d
 
 +++[!UICONTROL Envoyer un e-mail]
 
-Utilisez cette action pour envoyer un e-mail. Après avoir [créé l’e-mail](../content/add-email.md#add-an-email-to-your-journey) pour le nœud , vous pouvez concevoir, personnaliser et prévisualiser des e-mails dans l’espace de conception d’e-mail (voir [Création d’e-mail](../content/email-authoring.md)). Vous pouvez également envoyer un [e-mail à partir de Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Sélectionnez l’espace de travail Marketo Engage , puis l’e-mail à envoyer.
+Utilisez cette action pour envoyer un e-mail. Après avoir [créé l’e-mail](../content/add-email.md#add-an-email-to-your-journey) pour le nœud , vous pouvez concevoir, personnaliser et prévisualiser des e-mails dans l’espace de conception d’e-mail (voir [Création d’e-mail](../content/email-authoring.md)). Vous pouvez également envoyer un [e-mail à partir de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Sélectionnez l’espace de travail Marketo Engage , puis l’e-mail à envoyer.
 
 ![Agir - Envoyer un e-mail](./assets/node-action-send-email-from-marketo.png){width="300"}
+
+>[!NOTE]
+>
+>Vous pouvez utiliser la déduplication des e-mails dans les parcours de compte pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail au sein d’un parcours. Pour plus d’informations, voir [ Déduplication des e-mails ](../content/email-deduplication.md).
 
 +++
 
@@ -233,7 +237,7 @@ Utilisez cette action pour modifier la valeur d’un [attribut de profil de pers
 
 >[!NOTE]
 >
->Le _[!UICONTROL Mettre à jour le profil de la personne]_ remplace l’action _[!UICONTROL Modifier la valeur des données]_ sur l’[architecture simplifiée](../simplified-architecture.md).<br/>
+>L’action _[!UICONTROL Mettre à jour le profil de la personne]_ remplace l’action _[!UICONTROL Modifier la valeur des données]_ dans l’[architecture simplifiée](../simplified-architecture.md).<br/>
 >
 >Un administrateur peut configurer les attributs disponibles pour le profil individuel XDM en mettant à jour les champs dans les _[!UICONTROL Classes XDM]_ > [!UICONTROL Classes standard]. Pour plus d’informations, voir [Classes standard](../admin/xdm-field-management.md#standard-classes).
 
@@ -251,7 +255,7 @@ Par exemple, vous pouvez supprimer des campagnes dans Marketo Engage pour les pe
 
 +++[!UICONTROL Ajouter à la campagne de demande Marketo Engage]
 
-Utilisez cette action pour ajouter des profils de personnes à une [campagne de demande](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} dans Marketo Engage.
+Utilisez cette action pour ajouter des profils de personnes à une [campagne de demande](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} dans Marketo Engage.
 
 Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionnez ensuite le nom de la campagne de requête.
 
@@ -261,7 +265,7 @@ Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionn
 
 +++[!UICONTROL Ajouter à la liste Marketo]
 
-Utilisez cette action pour ajouter des personnes à une [liste statique](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} dans Marketo Engage.
+Utilisez cette action pour ajouter des personnes à une [liste statique](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} dans Marketo Engage.
 
 Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionnez ensuite le nom de la liste.
 
@@ -271,7 +275,7 @@ Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionn
 
 +++[!UICONTROL Supprimer de la liste Marketo]
 
-Utilisez cette action pour supprimer des personnes d’une [liste statique](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} dans Marketo Engage.
+Utilisez cette action pour supprimer des personnes d’une [liste statique](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} dans Marketo Engage.
 
 Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionnez ensuite le nom de la liste.
 
@@ -281,4 +285,4 @@ Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionn
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443247/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
