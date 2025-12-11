@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
+source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
 workflow-type: tm+mt
-source-wordcount: '3780'
-ht-degree: 92%
+source-wordcount: '3807'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
@@ -40,6 +40,7 @@ Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour
 | Fonctionnalité | Mappage de persona | Liez les membres de compte aux personas établies avec le mappage d’attributs. [En savoir plus](../admin/persona-mapping.md) |
 | Fonctionnalité | Informations commerciales pour Salesforce et Dynamics | Les membres de l’équipe des ventes peuvent désormais afficher les groupes d’achats arrivant à maturité et les informations connexes dans une intégration Salesforce ou Dynamics pour identifier de nouvelles opportunités. Les détails du groupe d’achats tels que l’étape, le score et les membres associés sont inclus. [En savoir plus](../buying-groups/incrm-insights.md) |
 | Fonctionnalité | Activer l’audience vers [!DNL Adobe Target] | Vous pouvez désormais activer une audience à partir d’un parcours de compte vers une audience client externe et la diffuser [!DNL Adobe Target]. Grâce à cette intégration, vous pouvez diffuser une audience qualifiée par le biais d’une séquence de parcours pour une expérience web conçue dans [!DNL Target]. [En savoir plus](../audiences/target-external-audience.md) |
+| Fonctionnalité | Tableau de bord Role Insights | Le nouveau tableau de bord _[!UICONTROL Informations sur les rôles]_ fournit des informations sur la manière dont vos campagnes et parcours influencent l’acquisition et l’engagement des rôles des groupes d’achats. [En savoir plus](../buying-groups/buying-group-role-insights.md) |
 | Amélioration | Amélioration de la notation d’exhaustivité du groupe d’achat | Vous pouvez désormais vous assurer que les groupes d’achat présentent un réel processus de décision contenant des seuils de membre de rôle personnalisables pour la notation d’exhaustivité.  [En savoir plus](../buying-groups/completeness-scores.md) |
 | Amélioration | Traitements de maintenance des groupes d’achat | La fréquence des traitements de maintenance des groupes d’achats passe de Hebdomadaire à Quotidienne. |
 | Amélioration | Progression de parcours de compte | Pour un parcours publié dont le statut est défini sur _Actif_, _Fermé aux nouvelles entrées_, _Abandonné_ ou _Terminé_, vous pouvez ouvrir la cartographie du parcours afin de consulter une liste de comptes pour chaque nœud de parcours. |
