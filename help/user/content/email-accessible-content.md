@@ -23,6 +23,7 @@ Les outils de conception de [!DNL Journey Optimizer B2B Edition] permettent aux 
 
 Les sections suivantes décrivent les bonnes pratiques pour concevoir du contenu accessible avec [!DNL Journey Optimizer B2B Edition]. Ces informations se concentrent sur la conception de contenu accessible à tous vos destinataires, de sorte que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et landing pages.
  
+
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. Pour plus d’informations sur le style des composants de texte, voir [Composants de contenu](content-components.md#text)
@@ -80,7 +81,7 @@ De plus, le Concepteur d’e-mail [!DNL Journey Optimizer B2B Edition] vous perm
 
 ## Utiliser un texte secondaire pour les images {#alt-text}
 
-Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire pour les images. Pour plus d’informations sur les paramètres des composants d’image, voir [ Composants de contenu ](content-components.md#image)
+Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire pour les images. Pour plus d’informations sur les paramètres des composants d’image, voir [&#x200B; Composants de contenu &#x200B;](content-components.md#image)
 
 ![Panneau Paramètres des composants d’image avec le champ Texte secondaire en surbrillance](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
