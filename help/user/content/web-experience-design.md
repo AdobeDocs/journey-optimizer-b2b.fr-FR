@@ -43,8 +43,8 @@ Journey Optimizer B2B edition fournit deux types d’éditeurs pour la conceptio
 
 | Éditeur | Description | Idéal pour |
 | ------ | ----------- | -------- |
-| [éditeur visuel](#visual-editor) | Un éditeur WYSIWYG (_What You See Is What You Get_) qui affiche votre site web et vous permet de sélectionner et de modifier directement des éléments. Elle nécessite l’extension [ Visual Editing Helper ](./web-experiences.md#install-the-visual-editing-helper-extension) dans le navigateur web Google Chrome ou Microsoft Edge. | Apporter des modifications visuelles aux éléments de page visibles, tels que le texte, les images, les boutons et les bannières. |
-| [ Éditeur non visuel ](#non-visual-editor) | Éditeur basé sur le code pour appliquer des modifications qui ne peuvent pas être apportées via l’éditeur visuel. | Ciblage des éléments difficiles à sélectionner visuellement, application de modifications CSS avancées ou modification d’éléments masqués. |
+| [éditeur visuel](#visual-editor) | Un éditeur WYSIWYG (_What You See Is What You Get_) qui affiche votre site web et vous permet de sélectionner et de modifier directement des éléments. Elle nécessite l’extension [&#x200B; Visual Editing Helper &#x200B;](./web-experiences.md#install-the-visual-editing-helper-extension) dans le navigateur web Google Chrome ou Microsoft Edge. | Apporter des modifications visuelles aux éléments de page visibles, tels que le texte, les images, les boutons et les bannières. |
+| [&#x200B; Éditeur non visuel &#x200B;](#non-visual-editor) | Éditeur basé sur le code pour appliquer des modifications qui ne peuvent pas être apportées via l’éditeur visuel. | Ciblage des éléments difficiles à sélectionner visuellement, application de modifications CSS avancées ou modification d’éléments masqués. |
 
 Dans les propriétés de l’expérience web, utilisez l’option **[!UICONTROL Éditeur visuel]** pour déterminer le type d’éditeur. Activez l’option pour utiliser l’éditeur visuel ou désactivez-la pour utiliser l’éditeur non visuel.
 
@@ -83,7 +83,7 @@ L’éditeur visuel charge les pages web dans un iframe, où vous pouvez sélect
 
    * [Insérez de nouveaux composants](#insert-new-components) (séparateur, HTML, image, en-tête, paragraphe ou lien) dans la page pour l’expérience web.
 
-   * Sélectionnez un élément existant de la page, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête ou un lien, et modifiez-le [ l’expérience web](#modify-elements).
+   * Sélectionnez un élément existant de la page, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête ou un lien, et modifiez-le [&#x200B; l’expérience web](#modify-elements).
 
    * [Ajouter le suivi des clics](#click-tracking-for-web-experiences) pour les éléments permettant de mesurer l’engagement et de recueillir des informations.
 
@@ -201,8 +201,8 @@ Utilisez l’éditeur non visuel lorsque vous devez apporter des modifications q
 
      | Type | Description |
      | ---- | ----------- |
-     | [**[!UICONTROL  Sélecteur CSS ]**](#css-selector-modifications) | Ciblez des éléments à l’aide d’une chaîne de sélecteur CSS. |
-     | [**[!UICONTROL  Page ]**](#page-modifications) | Insérez des HTML, CSS ou JavaScript personnalisés dans des éléments de niveau page, tels que `<head>` ou `<body>`. |
+     | [**[!UICONTROL &#x200B; Sélecteur CSS &#x200B;]**](#css-selector-modifications) | Ciblez des éléments à l’aide d’une chaîne de sélecteur CSS. |
+     | [**[!UICONTROL &#x200B; Page &#x200B;]**](#page-modifications) | Insérez des HTML, CSS ou JavaScript personnalisés dans des éléments de niveau page, tels que `<head>` ou `<body>`. |
 
    * Configurez les paramètres de modification en fonction du type :
 
@@ -326,7 +326,7 @@ Suivez les interactions des utilisateurs avec les éléments pour mesurer l’en
 
 Lorsque votre expérience web est activée (en direct), vous pouvez également créer des rapports à l’aide d’Adobe Customer Journey Analytics (qui nécessite un abonnement au produit). Pour améliorer le suivi de l’expérience web, vous pouvez également suivre les clics sur n’importe quel élément spécifique de votre site web. Le tracking permet d’afficher le nombre de clics effectués sur cet élément dans les rapports web.
 
-Pour plus d’informations sur Customer Journey Analytics et la création de rapports web, consultez la documentation de Customer Journey Analytics [](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing).
+Pour plus d’informations sur Customer Journey Analytics et la création de rapports web, consultez la documentation de Customer Journey Analytics [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing).
 
 1. Sélectionnez un élément dans l’éditeur d’expérience web, tel qu’une image ou un lien.
 

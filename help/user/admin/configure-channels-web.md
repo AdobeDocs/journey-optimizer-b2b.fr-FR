@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Configurations du canal web
 
-Une configuration web est une propriété web identifiée par une URL où le contenu est diffusé. Elle peut correspondre à l’URL d’une ou de plusieurs pages, de sorte que les expériences web puissent diffuser des modifications sur une ou plusieurs pages web. Ces configurations sont requises pour que les spécialistes marketing [ajoutent des nœuds d’action de personnalisation web dans les parcours ](../content/web-experiences.md#create-a-web-experience) et [conçoivent les modifications d’expérience](../content/web-experience-design.md) pour une campagne.
+Une configuration web est une propriété web identifiée par une URL où le contenu est diffusé. Elle peut correspondre à l’URL d’une ou de plusieurs pages, de sorte que les expériences web puissent diffuser des modifications sur une ou plusieurs pages web. Ces configurations sont requises pour que les spécialistes marketing [ajoutent des nœuds d’action de personnalisation web dans les parcours &#x200B;](../content/web-experiences.md#create-a-web-experience) et [conçoivent les modifications d’expérience](../content/web-experience-design.md) pour une campagne.
 
 >[!BEGINSHADEBOX]
 
