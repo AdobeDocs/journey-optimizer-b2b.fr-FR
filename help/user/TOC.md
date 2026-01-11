@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 84%
       + [Attente](./journeys/wait-nodes.md)
    + [Détails du parcours](./journeys/journey-details.md)
 + Contenu de parcours {#journey-content}
+   + [Canal SMS](./content/sms-authoring.md)
    + Canal e-mail {#email-channel}
       + [Ajouter un e-mail](./content/add-email.md)
       + [Création d’e-mails](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 84%
       + [Modèles régis](./content/email-authoring-governance.md)
       + [E-mail d’alerte de vente](./content/sales-alert-email.md)
       + [Déduplication des e-mails](./content/email-deduplication.md)
+   + Canal web (Beta) {#web-channel}
+      + [Vue d’ensemble](./content/web-experiences.md)
+      + [Conception d’expériences web](./content/web-experience-design.md)
+      + [Applications monopages](./content/web-single-page-applications.md)
    + [Jetons de personnalisation sur mesure](./content/personalization-my-tokens.md)
-   + [Création de SMS](./content/sms-authoring.md)
 + Audiences {#audiences}
    + [Audiences Experience Platform](./audiences/account-audience-overview.md)
    + [Cibler des audiences externes](./audiences/target-external-audience.md)
@@ -60,7 +64,7 @@ ht-degree: 84%
       + [Intérêts de la solution](./buying-groups/solution-interests.md)
       + [Modèles de rôle](./buying-groups/buying-groups-role-templates.md)
       + [Rôles par défaut et personnalisés](./buying-groups/default-custom-roles.md)
-      + [Informations sur le rôle](./buying-groups/buying-group-role-insights.md)
+      + [Informations sur les rôles](./buying-groups/buying-group-role-insights.md)
       + Notation du groupe d’achat {#scoring}
          + [Scores d’engagement](./buying-groups/engagement-scores.md)
          + [Scores d’exhaustivité](./buying-groups/completeness-scores.md)
@@ -107,7 +111,7 @@ ht-degree: 84%
    + Formulaires (version bêta) {#forms}
       + [Vue d’ensemble](./content/forms.md)
       + [Conception de formulaire](./content/form-design.md)
-   + Pages de destination (version bêta) {#landing-pages}
+   + Pages de destination (Beta) {#landing-pages}
       + [Vue d’ensemble](./content/landing-pages.md)
       + [Création de la page de destination](./content/landing-page-design.md)
    + Outils de conception de contenu {#content-design}
@@ -142,7 +146,8 @@ ht-degree: 84%
    + Canaux {#channels}
       + [Configurations des e-mails](./admin/configure-channels-emails.md)
       + [Configuration des SMS](./admin/configure-channels-sms.md)
-      + [Paramètres de la page de destination](./admin/landing-page-settings.md)
+      + [Configurations du canal web (Beta)](./admin/configure-channels-web.md)
+      + [Paramètres de la page de destination (Beta)](./admin/landing-page-settings.md)
       + [Configurer des trains de données pour la collecte d’événements](./data/aep-event-collection.md)
    + Configurations  {#configurations}
       + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)

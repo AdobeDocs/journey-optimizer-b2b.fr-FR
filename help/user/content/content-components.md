@@ -4,9 +4,9 @@ description: 'Concevez des e-mails, des pages de destination et des fragments av
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2825'
 ht-degree: 7%
 
 ---
@@ -46,8 +46,8 @@ La section **[!UICONTROL Contenu]** située au bas de la bibliothèque de compos
 | ![Icône Texte](../../assets/do-not-localize/icon-content-component-text.svg) | [Texte](#text) | Ajoutez ce composant à votre conception pour inclure un corps de texte. |
 | ![Icône Diviseur](../../assets/do-not-localize/icon-content-component-divider.svg) | [Diviseur](#divider) | Ajoutez ce composant à votre conception afin d’inclure une ligne horizontale pour séparer les zones de votre contenu. |
 | ![Icône HTML](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Ajoutez ce composant à votre conception pour copier-coller les différentes parties de votre HTML existante. Utilisez ce composant pour créer un bloc HTML modulaire libre afin de réutiliser du contenu externe. |
-| ![&#x200B; Icône Image &#x200B;](../../assets/do-not-localize/icon-content-component-image.svg) | [Image](#image) | Ajoutez ce composant à votre conception pour insérer un fichier image. |
-| ![&#x200B; Icône Social &#x200B;](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Ajoutez ce composant à votre conception pour insérer des liens vers des pages de réseaux sociaux. |
+| ![ Icône Image ](../../assets/do-not-localize/icon-content-component-image.svg) | [Image](#image) | Ajoutez ce composant à votre conception pour insérer un fichier image. |
+| ![ Icône Social ](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Ajoutez ce composant à votre conception pour insérer des liens vers des pages de réseaux sociaux. |
 | ![Icône de formulaire](../../assets/do-not-localize/icon-content-component-form.svg) | [Form](#form) (Formulaire) | **_Disponible uniquement pour les pages de destination._** Ajoutez ce composant à votre conception pour insérer un formulaire créé. |
 
 ## Barres d’outils des composants de contenu
@@ -371,7 +371,7 @@ Personnalisez le style du bouton dans l’onglet **[!UICONTROL Styles]**.
 
 ### Texte
 
-Utilisez le composant Texte pour insérer un bloc de texte dans votre contenu. Lorsque le composant de texte est sélectionné dans la zone de travail, saisissez le texte et utilisez les options de la barre d’outils pour ajouter une mise en forme et des options intégrées, y compris des jetons de personnalisation et des variantes conditionnelles. Pour plus d’informations sur la création de texte, y compris le style et les options intégrés, dans l’espace de conception, consultez la section Création de texte .
+Utilisez le composant Texte pour insérer un bloc de texte dans votre contenu. Lorsque le composant de texte est sélectionné dans la zone de travail, saisissez le texte et utilisez les options de la barre d’outils pour ajouter une mise en forme et des options intégrées, y compris des jetons de personnalisation et des variantes conditionnelles. <!-- For detailed information about crafting text, including inline styling and options, in the design space, see [Text authoring](#). -->
 
 Personnalisez le style du composant de texte dans l’onglet **[!UICONTROL Styles]**.
 
@@ -475,7 +475,7 @@ Utilisez le composant HTML pour ajouter des parties de votre HTML existant. Ce c
 
 1. Collez l’HTML dans la zone de texte, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   [&#x200B; Boîte de dialogue Modifier HTML &#x200B;](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
+   [ Boîte de dialogue Modifier HTML ](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
    Si l’HTML est valide, elle effectue le rendu de l’élément sur la zone de travail. S’il s’agit d’un élément qui correspond à l’un des autres composants de contenu, vous pouvez modifier les paramètres et les styles dans le panneau de droite en fonction du type de composant. Dans le cas contraire, il reste en tant que composant HTML.
 
@@ -573,7 +573,7 @@ Sélectionnez le [type de source de ressource](./assets-overview.md) puis sélec
 
   Dans la boîte de dialogue _[!UICONTROL Télécharger l’image]_, effectuez un glisser-déposer d’un fichier de votre système dans la zone de fichier. La taille de fichier maximale est de 100 Mo.
 
-  ![Importer un fichier image dans &#x200B;](./assets/email-designer-image-upload.png){width="450"}
+  ![Importer un fichier image dans ](./assets/email-designer-image-upload.png){width="450"}
 
   Les noms de fichier des images sélectionnées s’affichent dans la boîte de dialogue. Les noms de fichiers de ressources doivent être uniques (dans plusieurs dossiers) et, si un fichier portant ce nom existe déjà, un message s’affiche. Les noms peuvent contenir au maximum 100 caractères et ne peuvent pas contenir de caractères spéciaux (par exemple `;`, `:`, `\` et `|`).
 
@@ -674,7 +674,7 @@ Utilisez le composant _Social_ pour insérer des liens vers des pages de réseau
 Une fois le type de réseau social sélectionné, définissez les options pour ce type :
 
 * **[!UICONTROL URL]** - Saisissez l’URL du réseau social que vous souhaitez lier au graphique ou à l’icône du réseau social.
-* **[!UICONTROL Source]** - Si vous souhaitez utiliser votre propre image au lieu de la valeur par défaut, choisissez et ressource d’image. Vous pouvez sélectionner une image à partir du référentiel de ressources Marketo Engage connecté ou d’un référentiel Experience Manager Assets (s’il est configuré), ou importer un fichier image de votre système. Pour plus d’informations sur la sélection et l’importation de ressources d’image[&#x200B; consultez les informations sur les composants d’image &#x200B;](#add-the-image-asset).
+* **[!UICONTROL Source]** - Si vous souhaitez utiliser votre propre image au lieu de la valeur par défaut, choisissez et ressource d’image. Vous pouvez sélectionner une image à partir du référentiel de ressources Marketo Engage connecté ou d’un référentiel Experience Manager Assets (s’il est configuré), ou importer un fichier image de votre système. Pour plus d’informations sur la sélection et l’importation de ressources d’image[ consultez les informations sur les composants d’image ](#add-the-image-asset).
 * **[!UICONTROL Texte secondaire]** - Saisissez le texte secondaire de l’image affichée.
 
   ![Paramètres du type de réseau social sélectionné](./assets/content-components-social-settings-for-type.png){width="250"}
