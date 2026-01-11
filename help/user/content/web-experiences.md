@@ -30,7 +30,7 @@ Avant de pouvoir créer des expériences web, assurez-vous que les exigences sui
 
 * Un administrateur de produit a configuré un ou plusieurs canaux web pour définir les URL (pages) à inclure pour une expérience web. Pour plus d’informations, voir [Configurations du canal web](../admin/configure-channels-web.md).
 
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
 
 * Vous disposez des [autorisations](../admin/user-management.md#b2b-product-permissions) nécessaires pour créer et gérer des expériences web dans un parcours :
    * _[!UICONTROL Campagnes]_ > _[!UICONTROL Gérer les campagnes]_ - Obligatoire pour ajouter ou mettre à jour un nœud d’action de personnalisation web.
@@ -193,9 +193,9 @@ Pour activer la diffusion de l’expérience web, les paramètres suivants doive
 
 * Dans Adobe Experience Platform, assurez-vous d’avoir une politique de fusion avec l’option _[!UICONTROL Politique de fusion Active-On-Edge]_ activée.
 
-  Sélectionnez une politique sous le menu Experience Platform Client > Profils > Politiques de fusion . [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Sélectionnez une politique sous le menu Experience Platform Client > Profils > Politiques de fusion . [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Cette politique de fusion est utilisée par les canaux entrants Journey Optimizer B2B edition pour activer et publier correctement les expériences web entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Cette politique de fusion est utilisée par les canaux entrants Journey Optimizer B2B edition pour activer et publier correctement les expériences web entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Dépannage
 

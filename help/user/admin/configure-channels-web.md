@@ -19,7 +19,7 @@ Une configuration web est une propriété web identifiée par une URL où le con
 
 **Conditions préalables**
 
-Pour utiliser les canaux web, le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) doit être implémenté pour l’identification des visiteurs et la diffusion de contenu sur votre site web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
+Pour utiliser les canaux web, le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview) (`alloy.js`) doit être implémenté pour l’identification des visiteurs et la diffusion de contenu sur votre site web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
 
 La configuration du canal web dans Journey Optimizer B2B edition nécessite les [autorisations](../admin/user-management.md#b2b-product-permissions) suivantes :
 
