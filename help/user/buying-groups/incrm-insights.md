@@ -3,10 +3,10 @@ title: Insights In-CRM
 description: Accédez aux groupes d’achat Journey Optimizer B2B edition directement dans les CRM. Les membres de l’équipe des ventes peuvent afficher les données d’engagement et identifier les opportunités de vente avec des informations In-CRM.
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: b5173345f5dfb879b36726ca27e164d9a267dac4
+source-git-commit: 2eb5b6226730a1948b480a9dee0c6f2786e01cc5
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Insights In-CRM
 
 [!DNL In-CRM Insights] est une application web qui s’intègre à Salesforce et Microsoft Dynamics 365, ce qui vous permet d’accéder à des groupes d’achat [!DNL Journey Optimizer B2B Edition] directement dans votre CRM. Il rassemble des sources de données de vente, ce qui facilite l’identification des opportunités d’engagement et de potentiel de vente accrus.
-
-L’application [!DNL In-CRM Insights] est disponible dans le package [Informations commerciales Marketo](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Installation
 
@@ -33,8 +31,8 @@ Pour accéder à l’application, les utilisateurs doivent être membres d’un 
 
 Si vous souhaitez limiter les utilisateurs et utilisatrices à l’[!DNL In-CRM Insights] :
 
-1. Créez un [rôle personnalisé](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) et attribuez-lui l’autorisation **Informations sur les ventes : Afficher les informations sur les ventes**.
-1. Créez un [groupe d’utilisateurs](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Créez un [rôle personnalisé](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) et attribuez-lui l’autorisation **Informations sur les ventes : Afficher les informations sur les ventes**.
+1. Créez un [groupe d’utilisateurs](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
 1. Ajoutez un profil de produit Experience Platform au groupe .
 
 ### Installation du package
@@ -73,4 +71,4 @@ Pour installer le package Insights dans le CRM, suivez les étapes pour Salesfor
 
 Suivez les invites pour vous connecter à votre compte Adobe. Vos groupes d&#39;achats sont chargés et peuvent être consultés.
 
-Après avoir sélectionné un groupe d&#39;achats, vous pouvez parcourir les [détails du groupe](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Il s’agit du même que les données et les informations affichées dans Journey Optimizer B2B edition, mais les données sont en lecture seule via [!DNL In-CRM Insights].
+Après avoir sélectionné un groupe d&#39;achats, vous pouvez parcourir les [détails du groupe](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Il s’agit du même que les données et les informations affichées dans Journey Optimizer B2B edition, mais les données sont en lecture seule via [!DNL In-CRM Insights].
