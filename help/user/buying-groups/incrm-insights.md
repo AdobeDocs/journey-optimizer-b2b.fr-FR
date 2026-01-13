@@ -31,8 +31,8 @@ Pour accéder à l’application, les utilisateurs doivent être membres d’un 
 
 Si vous souhaitez limiter les utilisateurs et utilisatrices à l’[!DNL In-CRM Insights] :
 
-1. Créez un [rôle personnalisé](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) et attribuez-lui l’autorisation **Informations sur les ventes : Afficher les informations sur les ventes**.
-1. Créez un [groupe d’utilisateurs](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Créez un [rôle personnalisé](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) et attribuez-lui l’autorisation **Informations sur les ventes : Afficher les informations sur les ventes**.
+1. Créez un [groupe d’utilisateurs](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
 1. Ajoutez un profil de produit Experience Platform au groupe .
 
 ### Installation du package
@@ -71,4 +71,4 @@ Pour installer le package Insights dans le CRM, suivez les étapes pour Salesfor
 
 Suivez les invites pour vous connecter à votre compte Adobe. Vos groupes d&#39;achats sont chargés et peuvent être consultés.
 
-Après avoir sélectionné un groupe d&#39;achats, vous pouvez parcourir les [détails du groupe](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Il s’agit du même que les données et les informations affichées dans Journey Optimizer B2B edition, mais les données sont en lecture seule via [!DNL In-CRM Insights].
+Après avoir sélectionné un groupe d&#39;achats, vous pouvez parcourir les [détails du groupe](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Il s’agit du même que les données et les informations affichées dans Journey Optimizer B2B edition, mais les données sont en lecture seule via [!DNL In-CRM Insights].
