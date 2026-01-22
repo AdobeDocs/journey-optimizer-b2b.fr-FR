@@ -53,7 +53,7 @@ Avant de pouvoir créer des expériences web, assurez-vous que les exigences sui
 
    Si vous utilisez [!DNL Microsoft Edge], sélectionnez _Autoriser les extensions_ dans d’autres magasins sur la bannière supérieure. L’activation de cette option vous permet d’ajouter des extensions du [!DNL Chrome Web Store] à [!DNL Microsoft Edge].
 
-1. Recherchez l’extension de navigateur _[!DNL Adobe Experience Cloud Visual Editing Helper]_et accédez-y.
+1. Recherchez l’extension de navigateur _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;et accédez-y.
 
    ![Extension Visual Editing Helper de Adobe Experience Cloud pour Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -97,7 +97,7 @@ Vous pouvez configurer des expériences web dans un parcours lorsque vous [ajout
    >
    >Les champs Nom et Description prennent en charge les caractères alpha, numériques et spéciaux. Les caractères réservés (`\ / : * ? " < > |`) ne sont **_autorisés_**.
 
-   ![ Boîte de dialogue Créer une expérience web ](./assets/web-experience-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer une expérience web &#x200B;](./assets/web-experience-create-dialog.png){width="400"}
 
 <!-- What is this for? 1. Properties? -->
 
@@ -177,7 +177,7 @@ Une fois la conception du contenu terminée pour l’expérience web, vous pouve
 
 ## Activer votre expérience web
 
-Votre expérience web est activée et rendue visible par l’audience lorsque vous [publiez le parcours ](../journeys/create-publish-journey.md#publish-a-journey). Avant d’activer une expérience web par le biais d’un parcours, tenez compte des points suivants :
+Votre expérience web est activée et rendue visible par l’audience lorsque vous [publiez le parcours &#x200B;](../journeys/create-publish-journey.md#publish-a-journey). Avant d’activer une expérience web par le biais d’un parcours, tenez compte des points suivants :
 
 * Si vous publiez un parcours avec une expérience web ayant un impact sur les mêmes pages qu’un autre parcours déjà actif, toutes les modifications sont appliquées aux pages web.
 

@@ -33,7 +33,7 @@ La section de présentation du compte comprend les informations de compte suivan
 * Nombre de personnes dans le compte
 * Secteur industriel
 * Opportunités ouvertes
-* Les trois parcours de compte les plus récents sur lesquels le compte est actuellement utilisé (cliquez sur le nom du parcours pour afficher la présentation du parcours [](../journeys/journeys-overview.md))
+* Les trois parcours de compte les plus récents sur lesquels le compte est actuellement utilisé (cliquez sur le nom du parcours pour afficher la présentation du parcours [&#128279;](../journeys/journeys-overview.md))
 * Résumé IA générative du compte, qui comprend des informations sur les principaux groupes d’achats engagés.
 
 ### Données d’intention
