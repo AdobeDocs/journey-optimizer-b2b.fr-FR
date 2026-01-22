@@ -165,4 +165,4 @@ Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois l
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443221/?captions=fre_fr&learn=on)
