@@ -3,9 +3,9 @@ title: Qualificateur de vente
 description: Automatisez la qualification et la sensibilisation des prospects B2B avec le qualificateur de vente. Il fournit des recherches optimisées par l’IA, la rédaction d’emails, l’intégration de CRM et des plans d’engagement pour les BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
+source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Utilisez le navigateur et les modules externes d’e-mail pour accéder à Busin
 
 La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edition], mais il s’agit d’une application distincte dans Experience Platform Experience Cloud.
 
@@ -34,7 +34,7 @@ Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edit
 
 Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L’AQA utilise l’IA pour lire vos comptes et déterminer lesquels sont prêts pour l’étape suivante. Il facilite la recherche, la rédaction d’e-mails et les mises à jour CRM.
 
-![&#x200B; Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
+![ Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
 
 * **Recherche de prospects**
 
@@ -95,7 +95,7 @@ Pour créer un plan d’engagement, cliquez sur **[!UICONTROL Créer un plan d�
 
 Le panneau Boîte d’envoi d’e-mail répertorie tous les e-mails automatisés que vous avez envoyés.
 
-## Réservation de réunion
+## Réservations de réunion
 
 Ce panneau affiche toutes les réunions configurées par automatisation.
 
@@ -209,17 +209,18 @@ Le panneau _[!UICONTROL Gestion des représentants]_ affiche les représentants 
 
 Ce panneau présente des analyses autour des réunions terminées.
 
-## Configuration du plug-in Chrome
+<!-- SHPHR-24341 remove section 
+## Set up the Chrome plugin
 
-Le plug-in Chrome de l’assistant AI est disponible sur le [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
+The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
-Lorsque le plug-in est installé dans Chrome, le logo Adobe s’affiche au milieu à droite lorsque vous vous trouvez sur un site intégré :
+When the plugin is installed in Chrome, the Adobe logo appears on the middle right when you are on an integrated site:
 
-* Applications web Adobe
+* Adobe web applications
 * Salesforce
 * Outlook
-* Microsoft Dynamics et applications web
-* Applications Google
+* Microsoft Dynamics and web applications
+* Google applications -->
 
 ## Modification de la barre de navigation de gauche
 
