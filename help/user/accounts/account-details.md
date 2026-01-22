@@ -4,7 +4,7 @@ description: Affichez les informations sur le compte avec des résumés d’IA, 
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 6%
@@ -33,7 +33,7 @@ La section de présentation du compte comprend les informations de compte suivan
 * Nombre de personnes dans le compte
 * Secteur industriel
 * Opportunités ouvertes
-* Les trois parcours de compte les plus récents sur lesquels le compte est actuellement utilisé (cliquez sur le nom du parcours pour afficher la présentation du parcours [&#128279;](../journeys/journey-overview.md))
+* Les trois parcours de compte les plus récents sur lesquels le compte est actuellement utilisé (cliquez sur le nom du parcours pour afficher la présentation du parcours [](../journeys/journeys-overview.md))
 * Résumé IA générative du compte, qui comprend des informations sur les principaux groupes d’achats engagés.
 
 ### Données d’intention
@@ -99,7 +99,7 @@ Sélectionnez l’onglet **[!UICONTROL Contacts]** pour afficher la liste de tou
 
 ![Détails du compte - Onglet Contacts](./assets/account-details-contacts-tab.png){width="700" zoomable="yes"}
 
-## Envoyer un e-mail
+## Envoi d’un e-mail
 
 Vous pouvez envoyer un e-mail approuvé par le spécialiste marketing à un ou plusieurs contacts sélectionnés (jusqu’à 50 à la fois) ou à tous les contacts du compte. La liste des e-mails disponibles se limite aux e-mails approuvés provenant de l’instance Marketo Engage connectée.
 

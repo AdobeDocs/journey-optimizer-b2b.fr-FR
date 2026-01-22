@@ -3,7 +3,7 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eabef3060f200d35c6914bc8fecfa8e0960d745d
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 91%
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
@@ -178,7 +178,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Dupliquer des parcours de compte | Une action de duplication est désormais disponible pour les parcours de compte. Vous pouvez dupliquer les détails du parcours de compte ou simplement un squelette de la structure des flux et des chemins d’accès. <a href="../journeys/journey-overview.md#duplicate-journey">En savoir plus</a> |
+| Fonctionnalité | Dupliquer des parcours de compte | Une action de duplication est désormais disponible pour les parcours de compte. Vous pouvez dupliquer les détails du parcours de compte ou simplement un squelette de la structure des flux et des chemins d’accès. <a href="../journeys/journeys-overview.md#duplicate-journey">En savoir plus</a> |
 | Fonctionnalité | Mes jetons pour les parcours de compte | Vous pouvez maintenant définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la création d’e-mails de parcours. <a href="../content/personalization-my-tokens.md">En savoir plus</a> |
 | Fonctionnalité | Supprimer les étapes du groupe d’achat | Vous pouvez supprimer le modèle d’étapes du groupe d’achat lorsqu’il est à l’état brouillon ou publié. S’il est publié (actif), vous pouvez le supprimer uniquement s’il n’est pas associé à un intérêt de solution. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">En savoir plus</a> |
 | Amélioration | Nombre de nœuds de parcours | Amélioration de la visibilité sur le nombre d’abonnements au parcours publié au niveau du nœud. Dans le _mappage de parcours_, les nœuds affichent _[!UICONTROL Total des comptes saisis]_. Lorsque vous sélectionnez le nœud d’action, les détails sur la droite incluent également les _[!UICONTROL Comptes n’ayant pas encore fait l’objet d’une action]_. Les détails des nœuds _Écouter un événement_ incluent les _[!UICONTROL Comptes à cette étape]_. Utilisez ces informations pour valider la progression du compte dans vos parcours actifs, terminés et abandonnés. |
@@ -192,7 +192,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
 | Fonctionnalité | Champs personnalisables - Fragments de contenu | Durant la conception du fragment visuel, vous pouvez désigner un paramètre pour un composant du fragment comme étant modifiable. Cette fonctionnalité permet à la personne créant l’e-mail ou le modèle de spécifier une valeur de champ personnalisé spécifique à ses besoins. Cette option de personnalisation est limitée aux composants visuels d’image, de texte et de bouton. <a href="../content/fragment-authoring.md#enable-fragment-customization">En savoir plus</a> |
-| Fonctionnalité | Types de duplication de parcours | Lorsque vous dupliquez un parcours de compte, vous pouvez inclure les détails du nœud, à l’exclusion des e-mails et des SMS créés dans Journey Optimizer B2B Edition. Vous pouvez également créer une copie squelette de la structure et des flux de chemin d’accès, sans détails ni paramètres de nœud. <a href="../journeys/journey-overview.md#duplicate-journey">En savoir plus</a> |
+| Fonctionnalité | Types de duplication de parcours | Lorsque vous dupliquez un parcours de compte, vous pouvez inclure les détails du nœud, à l’exclusion des e-mails et des SMS créés dans Journey Optimizer B2B Edition. Vous pouvez également créer une copie squelette de la structure et des flux de chemin d’accès, sans détails ni paramètres de nœud. <a href="../journeys/journeys-overview.md#duplicate-journey">En savoir plus</a> |
 | Amélioration | Quatre exemples supplémentaires de modèles d’e-mail | La bibliothèque d’exemples de modèles d’e-mail comprend désormais quatre modèles SecurFinancial qui servent d’exemples de contenu de réengagement, d’information, de stimulation et de commentaires. |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

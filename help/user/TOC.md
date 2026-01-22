@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 79%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 80%
       + [Agent Audience](./agents/audience-agent-b2b.md)
       + [Parcours Build Agent B2B](./agents/journey-agent.md)
       + [Qualificateur de vente](./agents/sales-qualifier.md)
-+ Parcours de compte {#account-journeys}
-   + [Vue d’ensemble](./journeys/journey-overview.md)
++ Gestion des parcours {#journeys}
+   + [Parcours compte et personne](./journeys/journeys-overview.md)
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [Nœuds de parcours](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
       + [Audience de compte](./journeys/account-audience-nodes.md)
+      + [Audience de la personne (Beta)](./journeys/person-audience-nodes.md)
       + [Entreprendre une action](./journeys/action-nodes.md)
       + [Écouter un événement](./journeys/listen-for-event-nodes.md)
       + [Fractionner et fusionner les chemins](./journeys/split-merge-paths-nodes.md)

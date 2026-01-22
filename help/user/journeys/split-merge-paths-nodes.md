@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 1dbcdfd67e90a37774287d8d1a18aa5ba502befe
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2509'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,11 @@ Un nœud _Chemins partagés_ définit un ou plusieurs chemins segmentés en fonc
 
 ## Fractionner les chemins par comptes
 
+(parcours de compte uniquement)
+
 Les chemins de division par comptes peuvent inclure des actions et des événements de compte et de personnes. Ces chemins peuvent être divisés davantage.
 
-_&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200B;_
+_**Fonctionnement d’un chemin de division par nœud de comptes**_
 
 * Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
 * Les nœuds Fractionnés par compte peuvent être imbriqués (vous pouvez fractionner le chemin d’accès par comptes à plusieurs reprises).
@@ -137,7 +139,7 @@ This will also be available for split paths by people (under special filters) fo
 
 Les chemins fractionnés par personnes ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
 
-_&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x200B;_
+_**Fonctionnement d’un nœud de partage de chemin par personnes**_
 
 * Les nœuds fractionnés par personnes fonctionnent dans une combinaison _nœud groupé_ de division-fusion. Les chemins de division fusionnent automatiquement afin que toutes les personnes puissent passer à l’étape suivante sans perdre le contexte de leur compte.
 * Les nœuds Fractionné par personnes ne peuvent pas être imbriqués (vous ne pouvez pas ajouter de chemin de fractionnement pour les personnes sur un chemin qui se trouve dans ce nœud groupé).
@@ -145,7 +147,7 @@ _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x20
 * Le nœud prend en charge l’utilisation de _relations compte-personne_, qui vous permet de filtrer les personnes en fonction de leur rôle (comme entrepreneur ou employé à temps plein), tel que défini dans la relation.
 * Le nœud prend en charge la définition d’un chemin _[!UICONTROL Autres personnes]_, où vous pouvez ajouter des actions ou des événements pour les personnes qui ne correspondent pas à l’un des segments/chemins définis.
 
-![nœud de Parcours - fractionner les chemins par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
+![Nœud de parcours de compte - Fractionner les chemins d’accès par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
 ### Filtres de chemin d’accès des personnes
 
@@ -181,7 +183,7 @@ _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x20
 
 1. Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]** pour la division.
 
-1. Définissez les **[!UICONTROL Attributs utilisés pour les conditions]**.
+1. (parcours de compte uniquement) Définissez la variable **[!UICONTROL Attributs utilisés pour les conditions]**.
 
    * Choisissez **[!UICONTROL Attributs de personne uniquement]** pour utiliser des conditions liées au profil de personne.
    * Choisissez **[!UICONTROL Attributs de compte-personne uniquement]** pour utiliser des conditions liées à l’appartenance au rôle de la personne au sein d’un compte.
@@ -232,7 +234,7 @@ Pour un chemin de partage par personnes, vous pouvez définir un chemin en fonct
 
 >[!BEGINSHADEBOX « Filtrage d&#39;inactivité »]
 
-Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_ pour créer un chemin d’accès pour les personnes qui _&#x200B;**n’ont pas ouvert**&#x200B;_ un e-mail précédemment dans le parcours. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
+Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_ pour créer un chemin d’accès pour les personnes qui _**n’ont pas ouvert**_ un e-mail précédemment dans le parcours. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
 
 ![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -282,4 +284,4 @@ Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins fract
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443258/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

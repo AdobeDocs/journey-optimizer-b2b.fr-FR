@@ -4,7 +4,7 @@ description: Configurez les nœuds d’audience de compte avec des audiences de 
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Nœuds de parcours d’audience de compte
 
-Le nœud d’audience du compte spécifie les comptes qui rejoignent le parcours. Lorsque vous [créez un parcours de compte](./journey-overview.md#create-an-account-journey), le parcours commence toujours par un nœud d’audience de compte qui définit son entrée.
+Le nœud d’audience du compte spécifie les comptes qui rejoignent le parcours. Lorsque vous [créez un parcours de compte](./create-publish-journey.md#create-a-journey), le parcours commence toujours par un nœud d’audience de compte qui définit son entrée.
 
 Utilisez l’une des options d’entrée suivantes pour ce nœud de parcours :
 

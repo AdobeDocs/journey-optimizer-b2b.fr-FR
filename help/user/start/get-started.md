@@ -4,7 +4,7 @@ description: 'Guide d’intégration pour les administrateurs, les administratri
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 93%
@@ -17,7 +17,7 @@ Les fonctionnalités et outils que vous souhaiterez aborder dans Adobe Journey�
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 >[!BEGINTABS]
 
@@ -55,7 +55,7 @@ En tant que spécialiste du marketing ou _spécialiste en parcours de compte_, v
 
 Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des ressources et envoyer du contenu :
 
-1. **Ajoutez des audiences de compte**. Journey Optimizer B2B Edition vous permet de créer des audiences de compte via les définitions de segments directement à partir de l’application, puis de les exploiter dans vos parcours de compte. [En savoir plus](../audiences/account-audience-overview.md)
+1. **Ajoutez des audiences de comptes**. Journey Optimizer B2B Edition vous permet de créer des audiences de comptes via les définitions de segments directement à partir de l’application, puis de les exploiter dans vos parcours de compte. [En savoir plus](../audiences/account-audience-overview.md)
 
 1. **Créez des groupes d’achat**. Définissez les composants clés permettant d’atteindre les buts et objectifs de votre entreprise, puis créez des groupes d’achat qui identifient les membres de vos listes de comptes cibles. [En savoir plus](../buying-groups/buying-groups-overview.md)
 
@@ -73,6 +73,6 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    * Dans la cartographie du parcours, créez vos cas d’utilisation à plusieurs étapes, ajoutez des conditions et envoyez des messages personnalisés.
 
-[En savoir plus](../journeys/journey-overview.md)
+[En savoir plus](../journeys/journeys-overview.md)
 
 >[!ENDTABS]

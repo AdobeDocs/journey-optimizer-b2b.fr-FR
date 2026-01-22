@@ -1,36 +1,36 @@
 ---
-title: Audiences de compte
-description: Créez des audiences de compte avec une segmentation pour cibler des comptes spécifiques et activer les parcours personnalisés basés sur les comptes dans Journey Optimizer B2B Edition.
+title: Audiences de comptes
+description: Créez des audiences de comptes avec une segmentation pour cibler des comptes spécifiques et activer les parcours personnalisés basés sur les comptes dans Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
-# Audiences de compte
+# Audiences de comptes
 
-Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Journey Optimizer B2B Edition utilise les fonctionnalités de segmentation de compte disponibles dans les éditions B2B et B2P d’Adobe Real-Time Customer Data Platform. Avec la segmentation de compte, les utilisateurs et utilisatrices peuvent générer des audiences de compte en exploitant les données de l’une des entités B2B du système. Ces audiences de compte servent d’entrées pour les parcours de compte Journey Optimizer B2B Edition, ce qui facilite l’activation et la fonctionnalité de personnalisation.
+Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Journey Optimizer B2B Edition utilise les fonctionnalités de segmentation de compte disponibles dans les éditions B2B et B2P d’Adobe Real-Time Customer Data Platform. Avec la segmentation de compte, les utilisateurs et utilisatrices peuvent générer des audiences de comptes en exploitant les données de l’une des entités B2B du système. Ces audiences de comptes servent d’entrées pour les parcours de compte Journey Optimizer B2B Edition, ce qui facilite l’activation et la fonctionnalité de personnalisation.
 
-Découvrez les audiences de compte et comment les définir dans la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+Découvrez les audiences de comptes et comment les définir dans la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
-## Workflow de l’audience du compte
+## Workflow d’audience de comptes
 
-Vous pouvez considérer Journey Optimizer B2B Edition comme une destination Experience Platform (AEP) qui n’apparaît pas dans le catalogue des destinations. Activez les audiences de compte dans Journey Optimizer B2B Edition en procédant comme suit :
+Vous pouvez considérer Journey Optimizer B2B Edition comme une destination Experience Platform (AEP) qui n’apparaît pas dans le catalogue des destinations. Activez les audiences de comptes dans Journey Optimizer B2B Edition en procédant comme suit :
 
 1. Créez des schémas pour vos données dans AEP.
 1. Ingérez vos données dans AEP.
 1. Créez un segment de compte pour évaluer vos données.
 1. Activez vos données évaluées dans Journey Optimizer B2B Edition.
 
-Dans Journey Optimizer B2B Edition, les audiences de compte sont utilisées comme entrée pour les parcours basés sur les comptes, ce qui vous permet de cibler les personnes au sein de ces comptes. Par exemple, vous pouvez utiliser les audiences de compte pour récupérer les enregistrements de tous les comptes qui ne disposent pas des coordonnées des personnes dont le poste est directeur ou directrice des opérations ou directeur ou directrice marketing.
+Dans Journey Optimizer B2B Edition, les audiences de comptes sont utilisées comme entrée pour les parcours basés sur les comptes, ce qui vous permet de cibler les personnes au sein de ces comptes. Par exemple, vous pouvez utiliser les audiences de comptes pour récupérer les enregistrements de tous les comptes qui ne disposent pas des coordonnées des personnes dont le poste est directeur ou directrice des opérations ou directeur ou directrice marketing.
 
-Journey Optimizer B2B Edition vous permet de créer des audiences de compte Adobe Experience Platform (AEP) directement à partir de la navigation gauche et de les incorporer dans vos parcours de compte.
+Journey Optimizer B2B Edition vous permet de créer des audiences de comptes Adobe Experience Platform (AEP) directement à partir de la navigation gauche et de les incorporer dans vos parcours de compte.
 
-![Accéder aux audiences de compte](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
+![Accéder aux audiences de comptes](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
 
 ## Créer une audience de compte
 
@@ -64,4 +64,4 @@ Définissez l’audience de compte en créant une segmentation de compte. Vous a
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** en haut à droite.
 
-Pour activer votre audience de compte pour Journey Optimizer B2B Edition, vous devez [l’ajouter à un parcours de compte](../journeys/journey-overview.md#add-the-account-audience-for-your-journey) et [publier le parcours ](../journeys/journey-overview.md).
+Pour activer votre audience de compte pour Journey Optimizer B2B Edition, vous devez [l’ajouter à un parcours de compte](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) et [publier le parcours ](../journeys/journeys-overview.md).

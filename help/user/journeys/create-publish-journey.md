@@ -1,37 +1,61 @@
 ---
-title: Créer et publier un Parcours de compte
-description: Créez des parcours de compte dans la zone de travail visuelle, ajoutez des nœuds d’action et d’événement, configurez la planification et publiez pour l’orchestration en direct dans Journey Optimizer B2B edition.
+title: Créer et publier un Parcours
+description: Créez des parcours de compte et de personne dans la zone de travail visuelle, ajoutez des nœuds d’action et d’événement, configurez la planification et publiez pour l’orchestration en direct dans Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 5%
+source-wordcount: '857'
+ht-degree: 4%
 
 ---
 
-# Création et publication d’un parcours de compte
+# Créer et publier un parcours
 
-Pour commencer à utiliser un parcours de compte, créez le parcours, puis construisez les nœuds et le flux de parcours dans le mappage de parcours.
+Pour commencer à utiliser un parcours, créez le parcours, puis construisez les nœuds et le flux du parcours dans la carte du parcours.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
-## Création d’un parcours de compte
+## Créer un parcours
 
-1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Parcours de compte]**.
+Sous **[!UICONTROL Gestion des Parcours]** dans le volet de navigation de gauche, sélectionnez le type de parcours à créer :
+
+* **[!UICONTROL parcours de compte]**
+* **[!UICONTROL parcours de personne]** (Beta)
+
+_Pour ajouter un nouveau parcours :_
+
++++Parcours de compte
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours de compte]** en haut à droite de la page.
 
 1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![&#x200B; Boîte de dialogue Créer un Parcours de compte &#x200B;](./assets/account-journey-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un Parcours de compte ](./assets/account-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-## Blocs de construction d’un parcours
++++
 
-La carte de parcours __ est la zone centrale de l&#39;espace de travail de parcours. C’est dans cette zone que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir son volet Propriétés à droite de la zone de travail et définissez-le en fonction de votre conception. Un parcours de compte commence toujours par un nœud [Audience du compte](./account-audience-nodes.md) où vous pouvez ajouter des données à votre parcours.
++++Parcours Personne (Beta)
+
+1. Cliquez sur **[!UICONTROL Créer un Parcours]** en haut à droite de la page.
+
+1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
+
+   ![ Boîte de dialogue Créer un Parcours ](./assets/person-journey-create-dialog.png){width="400"}
+
+1. Cliquez sur **[!UICONTROL Créer]**.
+
++++
+
+## Blocs de création pour la conception de parcours
+
+La carte de parcours __ est la zone centrale de l&#39;espace de travail de parcours. C’est dans cette zone que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir son volet Propriétés à droite de la zone de travail et définissez-le en fonction de votre conception. Un parcours commence toujours par un nœud d’audience, où vous pouvez définir l’entrée de votre parcours :
+
+* [Nœud d’audience de compte](./account-audience-nodes.md)
+* [Nœud d’audience de personne](./person-audience-nodes.md)
 
 Après avoir créé un parcours de compte et ajouté l’audience, créez le parcours à l’aide de nœuds . La carte de parcours fournit une zone de travail, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes à l’aide des types de nœuds suivants pour créer un parcours de compte :
 
@@ -109,7 +133,7 @@ Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une dat
 
    Lorsque vous êtes prêt à publier votre parcours, vous pouvez consulter ces paramètres en cliquant sur _[!UICONTROL Publier]_.
 
-## Publication d’un parcours de compte
+## Publier un parcours
 
 Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois le parcours publié, son statut passe à _Actif_. Si le parcours comporte des erreurs, le bouton _[!UICONTROL Publier]_ est grisé avec les informations de contenu : `Resolve errors before publishing`.
 
@@ -139,6 +163,6 @@ Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois l
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
 
-## Vidéo de vue d’ensemble
+## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443221/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

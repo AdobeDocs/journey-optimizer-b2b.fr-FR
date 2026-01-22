@@ -4,26 +4,26 @@ description: Configurez les nœuds d’événement pour les déclencheurs de com
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1843'
 ht-degree: 12%
 
 ---
 
 # Écouter un événement
 
-Ajoutez le nœud _Écouter un événement_ pour faire passer votre audience à l’étape suivante du parcours de compte lorsqu’un événement se produit.
+Ajoutez le nœud _Écouter un événement_ pour faire passer votre audience à l’étape suivante du parcours lorsqu’un événement se produit.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width=« 30 », vertical-align=« middle »} [Regardez la vidéo de présentation](#overview-video)
 
 >[!NOTE]
 >
->Vous ne pouvez pas ajouter ce type de nœud sur le chemin de partage par personnes.
+>Pour un parcours de compte, vous ne pouvez pas ajouter ce type de nœud sur le chemin de partage par personnes.
 
 ## Événements de compte
 
-Ecoutez un événement en fonction du compte lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par l’activité du compte.
+Dans un parcours de compte, vous pouvez écouter un événement en fonction du compte lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par l’activité du compte.
 
 ### Événements et contraintes
 
@@ -52,7 +52,7 @@ Ecoutez un événement en fonction du compte lorsque vous souhaitez déplacer le
 
 ## Événements Personnes
 
-Ecoutez un événement basé sur des personnes lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par l’activité des personnes. Vous pouvez également filtrer les événements en fonction des attributs des personnes,
+Dans un parcours de compte, vous pouvez écouter un événement basé sur des personnes lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par l’activité des personnes. Vous pouvez également filtrer les événements en fonction des attributs des personnes,
 
 ### Événements et contraintes
 
@@ -135,7 +135,7 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 ### Écoute d’un événement d’expérience
 
-Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
+Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
 
 1. Un administrateur [sélectionne les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#select-an-event) pour les rendre disponibles dans les parcours.
 
@@ -148,19 +148,19 @@ _Pour inclure un événement d’expérience dans votre parcours :_
 
 1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans le mappage de parcours.
 
-1. Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]** pour le type d’événement.
-
-1. Cliquez sur la flèche du sélecteur **[!UICONTROL Sélectionner un événement de personne]** et faites défiler le menu vers la section **[!UICONTROL Adobe Experience Platform]**.
-
-   ![Écouter un événement d’expérience](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (parcours de compte uniquement) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]** pour le type d’événement.
 
 1. Sélectionnez l’événement.
 
-   Le type d’événement s’affiche comme vide dans les détails du nœud.
+   Pour un **_parcours de compte_**, cliquez sur la flèche du sélecteur **[!UICONTROL Sélectionner un événement de personne]** et faites défiler le menu vers la section **[!UICONTROL Adobe Experience Platform]**.
 
-   ![Modifier l’événement](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![Écouter un événement d’expérience](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   Pour un parcours de personne, cliquez sur la flèche du sélecteur **[!UICONTROL Sélectionner l’événement]** et sélectionnez l’événement.
 
 1. Cliquez sur **[!UICONTROL Modifier l’événement]** et définissez une ou plusieurs contraintes pour l’événement.
+
+   ![Modifier l’événement](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    Les contraintes disponibles sont définies en tant que champs gérés pour la configuration de l&#39;événement.
 
@@ -182,11 +182,13 @@ _Pour inclure un événement d’expérience dans votre parcours :_
 
 1. Dans la carte de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
 
-1. Renseignez les nœuds restants pour votre parcours et [publiez-le](./journey-overview.md).
+1. Renseignez les nœuds restants pour votre parcours et [publiez-le](./journeys-overview.md).
 
    Lorsque le parcours est actif (publié) et atteint le nœud _Écouter pour un événement_, il commence à écouter les événements d’expérience AEP.
 
 ### Ajouter des filtres à l’événement personnes
+
+(parcours de compte uniquement)
 
 1. Après avoir défini l’événement, sélectionnez l’onglet **[!UICONTROL Filtres]** dans la boîte de dialogue _[!UICONTROL Modifier l’événement]_.
 
@@ -222,4 +224,4 @@ Si nécessaire, définissez le temps d’attente du parcours pour l’événemen
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443236/?captions=fre_fr&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
