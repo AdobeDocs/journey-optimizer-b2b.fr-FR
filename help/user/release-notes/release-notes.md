@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
 workflow-type: tm+mt
-source-wordcount: '3841'
-ht-degree: 91%
+source-wordcount: '4087'
+ht-degree: 86%
 
 ---
 
@@ -16,17 +16,37 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
 Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour Journey Optimizer B2B Edition dans l’interface de l’assistant d’IA :
 
-| Agent | Mise à jour  | Description |
+| Agent | Mise à jour | Description |
 | ----- | ------ | ----------- |
-| Agent de création de parcours | Nouveau | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
+| Agent de création de parcours | Nouveau et mis à jour | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
 | Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
 | Qualificateur de vente | Nouveau | Le qualificateur de vente est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient le Account Qualification Agent et qui est conçue pour rationaliser les workflows pour les représentants au développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur tous les canaux [En savoir plus](../agents/sales-qualifier.md) |
+
+## Notes de mise à jour 2026.1
+
+**Date de déploiement** : mardi 3 février 2025
+
+| Type | Élément | Description |
+| ---- | ---- | ----------- |
+| Fonctionnalité | Kits de marque | (Beta) Définissez une marque dans Journey Optimizer B2B edition afin de fournir la source de vérité à votre équipe créative pour qu’elle l’utilise lorsqu’elle crée du contenu visuel ou écrit. Lorsque ces directives sont compilées et que les ressources de la marque sont partagées, n’importe quel membre de l’équipe ou collaborateur peut créer du contenu de marque pour votre produit. |
+| Fonctionnalité | Marques pour la génération de contenu d’e-mail | Vous pouvez définir les directives de votre marque et utiliser ces informations pour générer du contenu d’e-mail. Grâce à cette fonctionnalité, le contenu des e-mails est conforme aux directives, aux styles et au ton de rédaction propres à votre marque. |
+| Amélioration | Parcours _Nœud d’attente_ - Paramètres avancés | Pour un nœud _Wait_ dans un parcours, vous pouvez désormais spécifier des jours et des heures de sortie, puis sélectionner des fuseaux horaires. Cette amélioration vous permet de mieux contrôler l’orchestration des parcours et le timing des campagnes. |
+| Amélioration | Membre du filtre Groupe d&#39;achat - Est supprimé | Pour un nœud _Partage du chemin par personnes_, le filtre _[!UICONTROL Membre du groupe d’achats]_ inclut désormais la contrainte _Est supprimé_. Lorsque vous le sélectionnez, le filtre peut inclure le membre du groupe d&#39;achats supprimé ou l&#39;exclure. Elle est également prise en charge dans les listes dynamiques Marketo Engage, où vous pouvez utiliser cette nouvelle contrainte dans le filtre _[!UICONTROL Membre du groupe d’achat]_. |
+| Amélioration | Conception d’e-mail - puces à plusieurs niveaux | Les outils de l’espace de conception de contenu d’e-mail prennent désormais en charge les sous-puces (niveaux de puce). |
+
+<!--
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
+| -->
+
+>[!NOTE]
+>
+>Le déploiement des modifications de la version commence le mardi 3 février 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ## Notes de mise à jour 2025.10
 
