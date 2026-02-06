@@ -3,9 +3,9 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4085'
 ht-degree: 86%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
@@ -37,7 +37,7 @@ Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour
 | Fonctionnalité | Kits de marque | (Beta) Définissez une marque dans Journey Optimizer B2B edition afin de fournir la source de vérité à votre équipe créative pour qu’elle l’utilise lorsqu’elle crée du contenu visuel ou écrit. Lorsque ces directives sont compilées et que les ressources de la marque sont partagées, n’importe quel membre de l’équipe ou collaborateur peut créer du contenu de marque pour votre produit. |
 | Fonctionnalité | Marques pour la génération de contenu d’e-mail | Vous pouvez définir les directives de votre marque et utiliser ces informations pour générer du contenu d’e-mail. Grâce à cette fonctionnalité, le contenu des e-mails est conforme aux directives, aux styles et au ton de rédaction propres à votre marque. |
 | Amélioration | Parcours _Nœud d’attente_ - Paramètres avancés | Pour un nœud _Wait_ dans un parcours, vous pouvez désormais spécifier des jours et des heures de sortie, puis sélectionner des fuseaux horaires. Cette amélioration vous permet de mieux contrôler l’orchestration des parcours et le timing des campagnes. |
-| Amélioration | Membre du filtre Groupe d&#39;achat - Est supprimé | Pour un nœud _Partage du chemin par personnes_, le filtre _[!UICONTROL Membre du groupe d’achats]_ inclut désormais la contrainte _Est supprimé_. Lorsque vous le sélectionnez, le filtre peut inclure le membre du groupe d&#39;achats supprimé ou l&#39;exclure. Elle est également prise en charge dans les listes dynamiques Marketo Engage, où vous pouvez utiliser cette nouvelle contrainte dans le filtre _[!UICONTROL Membre du groupe d’achat]_. |
+| Amélioration | Membre du groupe d&#39;achat filtre spécial - Est supprimé contrainte | Le filtre spécial _[!UICONTROL Membre du groupe d&#39;achat]_ inclut désormais la contrainte _Est supprimé_. Lorsque vous ajoutez cette contrainte au filtre, vous pouvez inclure les membres supprimés du groupe d&#39;achats ou les exclure. Elle est également prise en charge dans les listes dynamiques Marketo Engage, où vous pouvez utiliser cette nouvelle contrainte dans le filtre _[!UICONTROL Membre du groupe d’achat]_. |
 | Amélioration | Conception d’e-mail - puces à plusieurs niveaux | Les outils de l’espace de conception de contenu d’e-mail prennent désormais en charge les sous-puces (niveaux de puce). |
 
 <!--

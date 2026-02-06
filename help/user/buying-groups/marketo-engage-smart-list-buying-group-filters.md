@@ -4,9 +4,9 @@ description: Filtrez les prospects en achetant l’appartenance à un groupe dan
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ En tant que spécialiste marketing, vous pouvez supprimer des campagnes dans Mar
 * Ce prospect fait-il partie d&#39;un groupe d&#39;achat ?
 * Le groupe d&#39;achat est-il complet et engagé ?
 
-Si ces conditions sont vraies, vous pouvez choisir de marquer le lead le plus élevé. Si ce n’est pas le cas, vous pouvez choisir de ne pas le marquer comme un prospect qualifié pour le marketing (MQL).
+Si ces conditions sont vraies, vous pouvez choisir de noter le prospect le plus haut. Si ce n’est pas le cas, vous pouvez choisir de ne pas le marquer comme un prospect qualifié pour le marketing (MQL).
 
 Dans votre instance Marketo Engage connectée à Journey Optimizer B2B edition, vous pouvez utiliser le filtre _[!UICONTROL Membre du groupe d’achat]_ dans vos listes dynamiques pour identifier ces prospects en fonction de votre stratégie de campagne.
 
-1. Après avoir [créé une liste dynamique dans Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, sélectionnez l’onglet **[!UICONTROL Liste dynamique]** pour ouvrir l’éditeur de filtres.
+1. Après avoir [créé une liste dynamique dans Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, sélectionnez l’onglet **[!UICONTROL Liste dynamique]** pour ouvrir l’éditeur de filtres.
 
 1. Dans la liste de filtres située à droite, faites défiler la liste vers le bas et développez le dossier **[!UICONTROL Filtres spéciaux]**.
 
@@ -50,7 +50,11 @@ Dans votre instance Marketo Engage connectée à Journey Optimizer B2B edition, 
 
    * Sélectionnez la contrainte à ajouter, par exemple _Score de complétion_ ou _Intérêt de la solution_.
 
-   * Définissez l’évaluation que vous souhaitez utiliser pour une correspondance. Pour un score, vous pouvez utiliser une correspondance exacte ou une plage supérieure ou inférieure au nombre que vous avez entré.
+   * Définissez l’évaluation que vous souhaitez utiliser pour une correspondance.
+
+     Pour un score, vous pouvez utiliser une correspondance exacte ou une plage supérieure ou inférieure au nombre que vous avez entré.
+
+     Pour exclure des membres qui ont été supprimés d&#39;un groupe d&#39;achats, utilisez la contrainte _[!UICONTROL Est supprimé]_ définie sur `false`. Vous pouvez également inclure explicitement des membres supprimés dans la liste dynamique en définissant cette contrainte sur `true`.
 
      Pour un élément discret, tel que les centres d’intérêt des solutions définis dans Journey Optimizer B2B edition, vous pouvez sélectionner un ou plusieurs éléments pour la liste.
 

@@ -4,9 +4,9 @@ description: Configurez les nœuds d’événement pour les déclencheurs de com
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1845'
 ht-degree: 12%
 
 ---
@@ -52,7 +52,7 @@ Dans un parcours de compte, vous pouvez écouter un événement en fonction du c
 
 ## Événements Personnes
 
-Dans un parcours de compte, vous pouvez écouter un événement basé sur des personnes lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par l’activité des personnes. Vous pouvez également filtrer les événements en fonction des attributs des personnes,
+Dans un parcours de compte, vous pouvez écouter un événement basé sur des personnes lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par l’activité des personnes. Vous pouvez également filtrer les événements en fonction des attributs des personnes.
 
 ### Événements et contraintes
 
@@ -80,7 +80,7 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape<li>E-mail<li><!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> Web |
 | [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date d’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Platform <li>Appareil <li>Min. nombre de fois <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
 | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
-| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Rôle</li> |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est membre ou non d’une ou de plusieurs listes Marketo Engage. |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | La personne est membre ou non d’un ou de plusieurs programmes Marketo Engage. |
 
@@ -108,7 +108,7 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 1. Cliquez sur la flèche du sélecteur **[!UICONTROL Sélectionner un événement de personne]** et faites défiler le menu vers la section **[!UICONTROL Marketo Engage]**.
 
-1. Sélectionnez un type d’activité d’engagement de marché :
+1. Sélectionnez un type d’activité Marketo Engage :
 
    * **[!UICONTROL Page Web Visites]**.
    * **[!UICONTROL Remplit Le Formulaire]**
@@ -135,7 +135,7 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 ### Écoute d’un événement d’expérience
 
-Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
+Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
 
 1. Un administrateur [sélectionne les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#select-an-event) pour les rendre disponibles dans les parcours.
 
@@ -224,4 +224,4 @@ Si nécessaire, définissez le temps d’attente du parcours pour l’événemen
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443236/?captions=fre_fr&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '2509'
+source-wordcount: '2567'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ Un nœud _Chemins partagés_ définit un ou plusieurs chemins segmentés en fonc
 
 Les chemins de division par comptes peuvent inclure des actions et des événements de compte et de personnes. Ces chemins peuvent être divisés davantage.
 
-_&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200B;_
+_**Fonctionnement d’un chemin de division par nœud de comptes**_
 
 * Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
 * Les nœuds Fractionnés par compte peuvent être imbriqués (vous pouvez fractionner le chemin d’accès par comptes à plusieurs reprises).
@@ -139,7 +139,7 @@ This will also be available for split paths by people (under special filters) fo
 
 Les chemins fractionnés par personnes ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
 
-_&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x200B;_
+_**Fonctionnement d’un nœud de partage de chemin par personnes**_
 
 * Les nœuds fractionnés par personnes fonctionnent dans une combinaison _nœud groupé_ de division-fusion. Les chemins de division fusionnent automatiquement afin que toutes les personnes puissent passer à l’étape suivante sans perdre le contexte de leur compte.
 * Les nœuds Fractionné par personnes ne peuvent pas être imbriqués (vous ne pouvez pas ajouter de chemin de fractionnement pour les personnes sur un chemin qui se trouve dans ce nœud groupé).
@@ -159,7 +159,7 @@ _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x20
 | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance de [!DNL Marketo Engage] associée. Les contraintes sont les suivantes : <li>Étape<li>E-mail<li>Web <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas vécu de moment intéressant). |
 | [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance [!DNL Marketo Engage] associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date d’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Platform <li>Appareil <li>Min. nombre de fois <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas visité la page web). |
 | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
-| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Rôle</li> |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est ou n’est pas membre d’une ou de plusieurs listes [!DNL Marketo Engage]. |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | La personne est ou n’est pas membre d’un ou de plusieurs programmes [!DNL Marketo Engage]. |
 
@@ -234,7 +234,7 @@ Pour un chemin de partage par personnes, vous pouvez définir un chemin en fonct
 
 >[!BEGINSHADEBOX « Filtrage d&#39;inactivité »]
 
-Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_ pour créer un chemin d’accès pour les personnes qui _&#x200B;**n’ont pas ouvert**&#x200B;_ un e-mail précédemment dans le parcours. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
+Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_ pour créer un chemin d’accès pour les personnes qui _**n’ont pas ouvert**_ un e-mail précédemment dans le parcours. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
 
 ![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -242,15 +242,29 @@ Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez ac
 
 ### Filtrage des appartenances
 
-La section _[!UICONTROL Filtres spéciaux]_ comporte plusieurs filtres que vous pouvez utiliser pour évaluer l&#39;appartenance d&#39;une personne à un groupe d&#39;achats ou à une liste [!DNL Marketo Engage]. Par exemple, si vous souhaitez créer un chemin d&#39;accès pour les personnes qui sont membres d&#39;un groupe d&#39;achats et auxquelles un rôle particulier est affecté, ajoutez le filtre _[!UICONTROL Filtres spéciaux]_ > _[!UICONTROL Membre du groupe d&#39;achats]_. Pour le filtre, définissez l&#39;appartenance sur _true_, sélectionnez un _[!UICONTROL Intérêt de la solution]_ associé à un ou plusieurs groupes d&#39;achats, puis définissez le _[!UICONTROL Rôle]_ à faire correspondre.
+La section _[!UICONTROL Filtres spéciaux]_ comporte plusieurs filtres que vous pouvez utiliser pour évaluer l&#39;appartenance d&#39;une personne à un groupe d&#39;achats ou à une liste [!DNL Marketo Engage].
+
+Par exemple, si vous souhaitez créer un chemin d&#39;accès pour les personnes qui sont membres d&#39;un groupe d&#39;achats et auxquelles un rôle particulier est affecté, ajoutez le filtre _[!UICONTROL Filtres spéciaux]_ > _[!UICONTROL Membre du groupe d&#39;achats]_. Pour le filtre, définissez l&#39;appartenance sur _true_, sélectionnez un _[!UICONTROL Intérêt de la solution]_ associé à un ou plusieurs groupes d&#39;achats, puis définissez le _[!UICONTROL Rôle]_ à faire correspondre.
 
 ![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX « Appartenance à une liste Marketo Engage »]
+Vous pouvez également inclure d&#39;autres contraintes d&#39;appartenance à un groupe d&#39;achat :
+
+* _[!UICONTROL Étape du groupe d&#39;achat]_
+* _[!UICONTROL Statut du groupe d&#39;achat]_
+* _[!UICONTROL Score d&#39;exhaustivité]_
+* _[!UICONTROL Score d’engagement]_
+* _[!UICONTROL Est supprimé]_
+
+>[!TIP]
+>
+>Pour exclure des membres qui ont été supprimés d&#39;un groupe d&#39;achats, utilisez la contrainte _[!UICONTROL Est supprimé]_ définie sur `false`. Vous pouvez également inclure explicitement des membres supprimés en définissant cette contrainte sur `true`.
+
+>[!BEGINSHADEBOX « liste Marketo Engage et appartenance à un programme »]
 
 Dans [!DNL Marketo Engage], les _campagnes intelligentes_ vérifient l’appartenance aux programmes pour vous assurer que les prospects ne reçoivent pas d’e-mails en double et ne sont pas membres de plusieurs flux d’e-mails en même temps. Dans Journey Optimizer B2B, vous pouvez vérifier l’appartenance à une liste de [!DNL Marketo Engage] comme condition de votre chemin de partage par personnes afin d’éliminer la duplication dans les activités de parcours.
 
-Pour utiliser l’appartenance à une liste dans une condition de partage, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage. Renseignez la définition du filtre pour évaluer l’appartenance à une ou plusieurs listes [!DNL Marketo Engage].
+Pour utiliser l’appartenance à une liste dans une condition de partage, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** ou **[!UICONTROL Membre du programme]** dans l’espace de filtrage. Renseignez la définition du filtre pour évaluer l’appartenance à une ou plusieurs listes [!DNL Marketo Engage].
 
 ![Condition de partage du chemin par personnes pour l’appartenance à [!DNL Marketo Engage] liste](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
@@ -284,4 +298,4 @@ Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins fract
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443258/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
