@@ -67,7 +67,7 @@ Lorsque vous créez un fragment ou un e-mail dans l’espace de conception visue
 
    Saisissez un nom significatif pour la variante qui vous aide à identifier la variante et son intention.
 
-   ![ Renommer la variante ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
+   ![&#x200B; Renommer la variante &#x200B;](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. Avec la variante sélectionnée dans le volet de gauche, modifiez le composant pour modifier la manière dont il apparaît dans l’e-mail lorsque la condition est remplie.
 
