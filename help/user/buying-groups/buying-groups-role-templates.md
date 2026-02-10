@@ -4,10 +4,10 @@ description: Créez des modèles de rôle avec affectation automatique condition
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 5%
+source-wordcount: '1329'
+ht-degree: 6%
 
 ---
 
@@ -64,7 +64,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 | ---- | --------- |
 | Attributs de la personne | <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Numéro de fax <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Nom intermédiaire <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
 | Filtres spéciaux | <li>Membre de la liste <li>Membre du programme |
-| Données d’intention | Intention de la catégorie <li>Intention du produit <li>Intention du mot-clé <br/>[en savoir plus sur les données d’intention](../admin/intent-data.md). |
+| Données d’intention | <li>Intention de la catégorie <li>Intention du produit <li>Intention du mot-clé <br/>[en savoir plus sur les données d’intention](../admin/intent-data.md) |
 
 1. Pour la première carte de rôle, définissez les propriétés du rôle.
 
@@ -115,6 +115,13 @@ Dans Marketo Engage, les _campagnes intelligentes_ vérifient l’adhésion aux 
 Pour utiliser l’appartenance à une liste comme condition de rôle, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage. Renseignez ensuite la définition du filtre pour évaluer votre appartenance à une ou plusieurs listes Marketo Engage.
 
 ![Condition de modèle de rôles pour l’appartenance à une liste Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**Obsolescence de fonctionnalités**</br></br>
+>
+>Avec l’[architecture simplifiée](../simplified-architecture.md) pour Journey Optimizer B2B edition, le filtrage par liste ou appartenance à un programme dans une instance Marketo Engage n’est pas pris en charge.
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +133,7 @@ Par défaut, l&#39;exhaustivité d&#39;un rôle est définie comme un membre aff
 
 Par exemple, la conclusion d’une affaire pour votre solution _X_ nécessite l’identification et l’engagement de plusieurs décideurs marketing, car plusieurs équipes marketing d’une organisation utiliseraient la solution. Dans ce cas, vous souhaitez augmenter le seuil de calcul d&#39;un groupe d&#39;achats _complet_ en exigeant au moins deux décideurs marketing.
 
-Voir [Scores d&#39;exhaustivité](./completeness-scores.md) pour obtenir des informations détaillées sur le score d&#39;exhaustivité et les calculs.
+Voir la section [Scores d’exhaustivité](./completeness-scores.md) pour obtenir des informations détaillées sur les notations et les calculs d’exhaustivité.
 
 1. En haut à droite de la page du modèle de rôles, cliquez sur **[!UICONTROL Paramètres du score d&#39;exhaustivité]**.
 
@@ -134,7 +141,7 @@ Voir [Scores d&#39;exhaustivité](./completeness-scores.md) pour obtenir des inf
 
 1. Dans la boîte de dialogue, modifiez la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini, le cas échéant.
 
-   Vous pouvez saisir la valeur ou cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
+   Vous pouvez saisir la valeur ou cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Modèle de rôles - bouton Paramètres de score d&#39;exhaustivité](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -182,4 +189,4 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
