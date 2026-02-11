@@ -69,7 +69,7 @@ Pour créer un modèle de score d’engagement personnalisé, dupliquez le modè
 
 1. Cliquez sur le nom du modèle pour ouvrir la page des détails du modèle, puis cliquez sur **[!UICONTROL Dupliquer]** en haut à droite.
 
-   ![ Dupliquer le modèle actif ](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
+   ![&#x200B; Dupliquer le modèle actif &#x200B;](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
 
    Vous pouvez également cliquer sur l’icône _Plus_ (***...***) en regard du nom du modèle de score dans la liste et choisir **[!UICONTROL Dupliquer]**.
 
@@ -92,7 +92,7 @@ Les paramètres de poids définissent les bandes que vous pouvez affecter à cha
 1. Pour chaque plage de poids, ajustez le nom ou les valeurs en fonction de vos besoins :
 
    * Modifiez le nom dans le champ _[!UICONTROL Bande de pondération]_.
-   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
+   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Paramètres de poids de l’engagement](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
