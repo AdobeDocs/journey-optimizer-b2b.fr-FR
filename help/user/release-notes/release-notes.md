@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: d9b9b0627a20c49452aef74ae44d506b240aeb1d
 workflow-type: tm+mt
-source-wordcount: '4085'
-ht-degree: 86%
+source-wordcount: '4114'
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Fonctionnalités d’IA agentique
 
@@ -92,6 +92,7 @@ Grâce à l’architecture simplifiée, les nouvelles fonctionnalités et améli
 | Fonctionnalité | Modèle de données relationnelles | Tirez parti des données relationnelles liées aux comptes B2B pour filtrer les comptes dans un parcours de compte ou personnaliser le contenu des e-mails. Ces données relationnelles peuvent représenter des entités commerciales réelles telles que des enregistrements d’achat, des enregistrements d’événement, des licences logicielles, des abonnements à des services ou des réservations. [En savoir plus](../admin/xdm-field-management.md#relational-schemas) |
 | Fonctionnalité | Plusieurs activations de Marketo Engage | Configurez des connexions à des instances Marketo Engage distantes et utilisez ces connexions pour configurer des actions Marketo Engage pour parcours. Ces actions, telles que l’ajout ou la suppression de personnes dans des listes ou l’ajout de personnes à une campagne de demande, s’appliquent à l’instance Marketo Engage désignée. [En savoir plus](../admin/marketo-actions-connect.md) |
 | Fonctionnalité | Déduplication des e-mails (procédure anti-fatigue) | Vous pouvez désormais activer la déduplication des e-mails pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse dans un parcours. Les adresses en double sont bloquées jusqu’à ce que le premier enregistrement avec cette adresse e-mail termine le parcours.  [En savoir plus](../content/email-deduplication.md) |
+| Amélioration | Pondération du score d’engagement - Événements AEP | La pondération du score de l’engagement peut désormais inclure n’importe quel événement Experience Platform standard ou personnalisé et être pondérée en fonction de vos besoins. [En savoir plus](../admin/engagement-score-weighting.md) |
 | Amélioration | Limites de communication | Le système respecte désormais les limites de communication combinées de Marketo Engage et de Journey Optimizer B2B edition. [En savoir plus](../admin/configure-channels-emails.md#communication-limits) |
 
 <!-- There are additional functional changes with the simplified architecture:

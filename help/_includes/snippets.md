@@ -1,9 +1,9 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 9ff6a9ded077ed9556cc01e48341379ff2a1b3c0
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2365'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 3%
 
    Double-cliquez sur le dossier contenant vos ressources. Faites glisser et déposez les éléments dans un composant de structure.
 
-   Pour plus d’informations sur l’utilisation des ressources de votre type de source, voir [&#x200B; Ajouter des ressources à votre contenu &#x200B;](../user/content/assets-overview.md#use-assets-for-content-authoring).
+   Pour plus d’informations sur l’utilisation des ressources de votre type de source, voir [ Ajouter des ressources à votre contenu ](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
    ![Faites glisser une ressource Marketo Engage sur la zone de travail et ajustez les paramètres](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
@@ -81,21 +81,21 @@ ht-degree: 3%
 
 Pour appliquer d’autres attributs compatibles CSS avec les valeurs , utilisez les paramètres de style **[!UICONTROL Avancé]**. Vous pouvez modifier les valeurs des attributs existants ou en ajouter de nouveaux. La mise en forme est appliquée au composant à l’aide du modèle d’héritage CSS pour les composants parents-enfants (éléments).
 
-Les attributs affichés reflètent les styles actuellement définis pour le composant. Vous pouvez modifier les valeurs en fonction des [&#x200B; définitions CSS &#x200B;](https://www.w3schools.com/CSSref/index.php){target="_blank"}. Cliquez sur l’icône _Ajouter_ (**+**) pour ajouter un nouvel attribut de style au composant.
+Les attributs affichés reflètent les styles actuellement définis pour le composant. Vous pouvez modifier les valeurs en fonction des [ définitions CSS ](https://www.w3schools.com/CSSref/index.php){target="_blank"}. Cliquez sur l’icône _Ajouter_ (**+**) pour ajouter un nouvel attribut de style au composant.
 
-![&#x200B; Styles avancés &#x200B;](../assets/content-design-shared//content-components-styles-advanced.png){width="250"}
+![ Styles avancés ](../assets/content-design-shared//content-components-styles-advanced.png){width="250"}
 
 ## Composants de contenu - styles d’alignement horizontaux {#styles-alignment-h}
 
 Développez la section **[!UICONTROL Alignement]** et sélectionnez l’alignement horizontal à utiliser : gauche, centre ou droite. Ce style se traduit par un style CSS `text-align` standard et affecte la manière dont le composant est positionné dans le composant conteneur.
 
-![&#x200B; Styles d’alignement horizontal &#x200B;](../assets/content-design-shared/content-components-styles-alignment.png){width="250"}
+![ Styles d’alignement horizontal ](../assets/content-design-shared/content-components-styles-alignment.png){width="250"}
 
 ## Composants de contenu - styles d’alignement vertical {#styles-alignment-v}
 
 Développez la section **[!UICONTROL Alignement]** et sélectionnez l’alignement vertical à utiliser : haut, milieu ou bas. Ce style se traduit par un style CSS `vertical-align` standard et affecte le positionnement dans le composant conteneur.
 
-![&#x200B; Styles d’alignement vertical &#x200B;](../assets/content-design-shared/content-components-styles-alignment-v.png){width="250"}
+![ Styles d’alignement vertical ](../assets/content-design-shared/content-components-styles-alignment-v.png){width="250"}
 
 ## Composants de contenu : styles d’alignement horizontal et vertical {#styles-alignment-h-v}
 
@@ -129,7 +129,7 @@ Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans
 
    * Pour déterminer l’emplacement d’affichage de la bordure, cochez chaque case **[!UICONTROL Position de la bordure]**.
 
-   ![&#x200B; Styles de bordure &#x200B;](../assets/content-design-shared/content-components-styles-border.png){width="250"}
+   ![ Styles de bordure ](../assets/content-design-shared/content-components-styles-border.png){width="250"}
 
 1. Pour le **[!UICONTROL rayon de la bordure]**, définissez la valeur numérique en fonction de la courbe que vous souhaitez pour les coins.
 
@@ -201,7 +201,7 @@ Dans le panneau de droite avec l’onglet _[!UICONTROL Styles]_ sélectionné, d
 
 * **[!UICONTROL Hauteur de la ligne]** - Cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou diminuer la hauteur de la ligne, ou saisissez une valeur. Pour les valeurs saisies, vous pouvez utiliser des décimales.
 
-  ![&#x200B; Styles de texte &#x200B;](../assets/content-design-shared/content-components-styles-text.png){width="250"}
+  ![ Styles de texte ](../assets/content-design-shared/content-components-styles-text.png){width="250"}
 
 * **[!UICONTROL Styles de texte]** - Sélectionnez l’icône du style de texte : _Gras_, _Italique_, _Souligné_ ou _Barré_.
 
@@ -257,21 +257,21 @@ Choisissez ce type pour sélectionner un fichier dans votre système et l’impo
 
 Dans la boîte de dialogue _[!UICONTROL Télécharger l’image]_, effectuez un glisser-déposer d’un fichier de votre système dans la zone de fichier. La taille de fichier maximale est de 100 Mo.
 
-![Importer un fichier image dans &#x200B;](../user/content/assets/email-designer-image-upload.png){width="450"}
+![Importer un fichier image dans ](../user/content/assets/email-designer-image-upload.png){width="450"}
 
 Les noms de fichier des images sélectionnées s’affichent dans la boîte de dialogue. Les noms de fichiers de ressources doivent être uniques (dans plusieurs dossiers) et, si un fichier portant ce nom existe déjà, un message s’affiche. Les noms peuvent contenir au maximum 100 caractères et ne peuvent pas contenir de caractères spéciaux (par exemple `;`, `:`, `\` et `|`).
 
 Cliquez sur **[!UICONTROL Importer]**.
 
-## Activités de score d’engagement {#engagement-activities}
+## Activités relatives au score de l’engagement - Marketo {#engagement-activities-me}
 
-| Nom de l’activité | Description | Type d’engagement | Fréquences quotidiennes maximales | Poids d’activité du modèle par défaut |
-| --- | --- | --- | --- | --- |
-| [!UICONTROL Participer à un événement] | Un membre a participé à un événement. | Événement | 20 | 60 |
-| [!UICONTROL E-mail cliqué] | Un membre clique sur un lien dans un e-mail. | E-mail | 20 | 30 |
-| [!UICONTROL E-mail ouvert] | Un membre ouvre un e-mail. | E-mail | 20 | 30 |
-| [!UICONTROL Formulaire complété] | Un membre remplit et envoie un formulaire sur une page web. | Web | 20 | 40 |
-| [!UICONTROL Moment significatif] | Un membre vit un moment significatif. | Organisé | 20 | 60 |
-| [!UICONTROL Clics sur les liens] | Un membre clique sur un lien d’une page web. | Web | 20 | 40 |
-| [!UICONTROL Pages vues] | Un membre consulte une page web | Web | 20 | 40 |
-| [!UICONTROL S’inscrire à l’événement] | Un membre inscrit à un événement | Événement | 20 | 60 |
+| Nom de l’activité | Description | Fréquences quotidiennes maximales | Poids d’activité du modèle par défaut |
+| --- | --- | --- | --- |
+| [!UICONTROL Participer à un événement] | Un membre a participé à un événement. | 20 | 60 |
+| [!UICONTROL E-mail cliqué] | Un membre clique sur un lien dans un e-mail. | 20 | 30 |
+| [!UICONTROL E-mail ouvert] | Un membre ouvre un e-mail. | 20 | 30 |
+| [!UICONTROL Formulaire complété] | Un membre remplit et envoie un formulaire sur une page web. | 20 | 40 |
+| [!UICONTROL Moment significatif] | Un membre vit un moment significatif. | 20 | 60 |
+| [!UICONTROL Clics sur les liens] | Un membre clique sur un lien d’une page web. | 20 | 40 |
+| [!UICONTROL Pages vues] | Un membre consulte une page web | 20 | 40 |
+| [!UICONTROL S’inscrire à l’événement] | Un membre inscrit à un événement | 20 | 60 |
