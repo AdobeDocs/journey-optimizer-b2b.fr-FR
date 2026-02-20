@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d9b9b0627a20c49452aef74ae44d506b240aeb1d
+source-git-commit: 7ee4ffdee351efb478ea1faefe6f1d478a75e2f8
 workflow-type: tm+mt
-source-wordcount: '4114'
-ht-degree: 85%
+source-wordcount: '4425'
+ht-degree: 80%
 
 ---
 
@@ -16,17 +16,25 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
-## Fonctionnalités d’IA agentique
+## Notes de mise à jour 2026.2
 
-Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour Journey Optimizer B2B Edition dans l’interface de l’assistant d’IA :
+**Date de déploiement** : samedi 20 février 2026
 
-| Agent | Mise à jour | Description |
-| ----- | ------ | ----------- |
-| Agent de création de parcours | Nouveau et mis à jour | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
-| Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
-| Qualificateur de vente | Nouveau | Le qualificateur de vente est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient le Account Qualification Agent et qui est conçue pour rationaliser les workflows pour les représentants au développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur tous les canaux [En savoir plus](../agents/sales-qualifier.md) |
+| Type | Élément | Description |
+| ---- | ---- | ----------- |
+| Fonctionnalité | Champs XDM/schémas relationnels : prise en charge des objets personnalisés de personne | Les administrateurs peuvent désormais sélectionner des objets personnalisés liés à une personne à l’aide d’une relation un-à-un à un niveau unique avec un compte. Cette fonctionnalité permet à votre organisation marketing de représenter une vue plus riche de vos données commerciales réelles pour cibler, personnaliser et générer des rapports sur les entités au-delà du niveau de la personne ou du compte. |
+| Fonctionnalité | Conception d’e-mails - Prise en charge de Firefly et des modèles Generative AI personnalisés | Vous pouvez désormais activer l’intégration de modèles Firefly standard et personnalisés, ainsi que de modèles d’image tiers approuvés (tels que NanoBanana). Les spécialistes marketing peuvent sélectionner le meilleur modèle pour chaque cas d’utilisation : Firefly standard pour les besoins généraux, Firefly personnalisé pour la génération sur marque ou modèles tiers approuvés pour des scénarios spécialisés ou expérimentaux. |
+| Amélioration | Conception d’e-mails - validation de la qualité du contenu | Outre l’alignement de la marque, vous pouvez évaluer la qualité globale du contenu pour identifier les problèmes potentiels de lisibilité, de cohésion et d’efficacité (indépendamment des directives de votre marque). Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. |
+| Amélioration | rentrée de parcours | Vous pouvez désormais envoyer plusieurs fois des comptes/personnes par le biais d’un workflow de parcours. La rentrée prend en charge plusieurs scénarios, tels que la réévaluation des critères de qualification et les workflows de maturation réutilisables. |
+| Amélioration | Activer vers les destinations : audiences réutilisables | Vous pouvez désormais réutiliser des audiences virtuelles dans les actions de parcours _Activer vers la destination_ au sein du même parcours et supprimer des comptes des audiences virtuelles. |
+| Amélioration | Parcours de compte et de personne - prise en charge des objets personnalisés de personne | Tirez parti des données relationnelles liées aux comptes pour filtrer les personnes dans un parcours de compte ou de personne. |
+| Amélioration | Personnalisation du contenu - Prise en charge des objets personnalisés d’une personne | Lorsque vous définissez la personnalisation du contenu à l’aide des objets personnalisés, vous pouvez accéder à des variables pour les objets personnalisés de classe basés sur un modèle (schémas relationnels). |
+
+>[!NOTE]
+>
+>Ces modifications de version commencent le déploiement le 20 février 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ## Notes de mise à jour 2026.1
 
@@ -47,6 +55,16 @@ Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour
 >[!NOTE]
 >
 >Le déploiement des modifications de la version commence le mercredi 3 février 2026, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+
+## Fonctionnalités d’IA agentique
+
+Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour Journey Optimizer B2B Edition dans l’interface de l’assistant d’IA :
+
+| Agent | Mise à jour | Description |
+| ----- | ------ | ----------- |
+| Agent de création de parcours | Nouveau et mis à jour | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
+| Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
+| Qualificateur de vente | Nouveau | Le qualificateur de vente est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient le Account Qualification Agent et qui est conçue pour rationaliser les workflows pour les représentants au développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur tous les canaux [En savoir plus](../agents/sales-qualifier.md) |
 
 ## Notes de mise à jour 2025.10
 
