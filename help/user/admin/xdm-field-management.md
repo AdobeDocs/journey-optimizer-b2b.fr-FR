@@ -4,13 +4,13 @@ description: Utilisez la gestion des champs XDM pour contrôler les données dis
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait actuellement partie d’une version bêta limitée de l’architecture simplifiée"
-source-git-commit: afac024e5eeb6b9d230c4292a6f37e92e16d29f6
+exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
+source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1158'
 ht-degree: 1%
 
 ---
-
 
 # Gestion des champs XDM
 
@@ -90,7 +90,7 @@ Lorsque vous choisissez **[!UICONTROL Champs gérés]**, la boîte de dialogue _
 
 #### Champs modifiables
 
-Avant de configurer des champs pouvant être mis à jour, ils doivent résider dans un jeu de données personnalisé. Pour une présentation du workflow du jeu de données personnalisé, voir [Création de jeux de données et ingestion de données](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} et utiliser l’option **[!UICONTROL Création d’un jeu de données à partir d’un schéma]**. Ce jeu de données est utilisé pour isoler les champs modifiables. Tous les champs pouvant être mis à jour doivent se trouver dans ce jeu de données.
+Avant de configurer des champs pouvant être mis à jour, ils doivent résider dans un jeu de données personnalisé. Pour une présentation du workflow du jeu de données personnalisé, voir [Création de jeux de données et ingestion de données](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} et utiliser l’option **[!UICONTROL Création d’un jeu de données à partir d’un schéma]**. Ce jeu de données est utilisé pour isoler les champs modifiables. Tous les champs pouvant être mis à jour doivent se trouver dans ce jeu de données.
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Créez un jeu de données pour Profil individuel et un autre pour Compte profess
 
 1. Choisissez les champs du jeu de données sélectionné.
 
-   ![&#x200B; Boîte de dialogue permettant de sélectionner des champs pouvant être mis à jour à partir des jeux de données dans la configuration de schéma XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
+   ![ Boîte de dialogue permettant de sélectionner des champs pouvant être mis à jour à partir des jeux de données dans la configuration de schéma XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
 
@@ -113,15 +113,15 @@ Créez un jeu de données pour Profil individuel et un autre pour Compte profess
 
 Les schémas relationnels vous permettent de créer des classes de données personnalisées. Grâce à l’accès à plusieurs jeux de données, vous pouvez créer des classes spécialement adaptées à vos besoins en matière de données. Utilisez des schémas relationnels pour les entités commerciales telles que les achats, les licences et les enregistrements d’événements dans les décisions de parcours et la personnalisation des e-mails. Vous pouvez sélectionner jusqu’à 50 schémas et 100 champs par schéma.
 
-Pour plus d’informations sur l’utilisation des champs sélectionnés pour la personnalisation avancée des e-mails, voir [Personnalisation de contenu](../content/personalization.md#custom-datasets). Pour plus d’informations sur l’utilisation des champs sélectionnés pour la prise de décision par parcours (partage des chemins d’accès par compte), voir [Filtrage des données personnalisé](../journeys/split-merge-paths-nodes.md#custom-data-filtering). <!-- add link to split path by people in M 1.5 GA release -->
+Pour plus d’informations sur l’utilisation des champs sélectionnés pour la personnalisation avancée des e-mails, voir [Personnalisation de contenu](../content/personalization.md#custom-datasets). Pour plus d’informations sur l’utilisation des champs sélectionnés pour la prise de décision par parcours (chemins partagés par compte ou personnes), voir [Filtrage des données personnalisées](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
+
+>[!AVAILABILITY]
+>
+>Les [Schémas relationnels](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sont disponibles à l’[!DNL Journey Optimizer B2B Edition] dans une version à disponibilité limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence [!DNL Journey Optimizer Orchestrated Campaigns]. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs [!DNL Customer Journey Analytics], selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
 
 >[!NOTE]
 >
->Les [Schémas relationnels](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#) sont disponibles à l’[!DNL Journey Optimizer B2B Edition] dans une version à disponibilité limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence [!DNL Journey Optimizer Orchestrated Campaigns]. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs [!DNL Customer Journey Analytics], selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
-
->[!NOTE]
->
->Cette fonctionnalité prend actuellement en charge les cas d’utilisation d’objets personnalisés liés au compte, mais prévoit de prendre en charge d’autres cas d’utilisation d’objets prêts à l’emploi à l’avenir.
+>Cette fonctionnalité prend actuellement en charge les cas d’utilisation d’objets personnalisés liés au compte et aux personnes, et prévoit de prendre en charge d’autres cas d’utilisation d’objets prêts à l’emploi à l’avenir.
 
 Vous pouvez créer des schémas relationnels à l’aide de l’éditeur de schémas (accédez à **[!UICONTROL Gestion des données]** > **[!UICONTROL Schémas]** dans le volet de navigation de gauche).
 
@@ -144,13 +144,9 @@ Pour sélectionner des champs de schéma relationnel à utiliser dans [!DNL Jour
 
    >[!NOTE]
    >
-   >Dans cette version bêta, seuls les _objets personnalisés de compte multiples-à-un_ sont pris en charge.
+   >Dans cette version bêta, seuls les _objets personnalisés de compte et de personne à un_ sont pris en charge.
 
 1. Sélectionnez un schéma relationnel et cliquez sur **[!UICONTROL Suivant]**.
-
-   >[!NOTE]
-   >
-   >Dans cette version bêta, vous ne pouvez pas supprimer un schéma de la liste après l’avoir sélectionné.
 
    ![Sélectionnez un schéma relationnel dans la boîte de dialogue](./assets/xdm-classes-relational-select-schema-dialog.png){width="500" zoomable="yes"}
 
@@ -158,7 +154,7 @@ Pour sélectionner des champs de schéma relationnel à utiliser dans [!DNL Jour
 
    Vous ne pouvez définir l’espace de noms qu’une seule fois et ne pouvez pas inverser cette action.
 
-   ![Espace de noms par défaut dans la boîte de dialogue Créer un espace de noms &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Espace de noms par défaut dans la boîte de dialogue Créer un espace de noms ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Examinez les champs de schéma relationnel .
 

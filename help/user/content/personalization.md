@@ -6,7 +6,8 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: expression, éditeur, commencer, personnalisation
-source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
+exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
@@ -22,7 +23,7 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer B2B Edition] fonctionnalités de personnalisation vous permettent d’adapter vos e-mails à chaque destinataire spécifique en exploitant les données et informations dont vous disposez à son sujet. Il peut s’agir de son prénom, de son secteur d’activité, de son titre, etc.
 
-Grâce à l’_éditeur de personnalisation_, vous pouvez sélectionner, organiser, personnaliser et valider toutes les données afin de personnaliser votre contenu. Utilisez divers outils, tels que des fonctions d’assistance, pour adapter les messages. L’éditeur utilise une syntaxe de personnalisation intégrée basée sur _Handlebars_, où les expressions sont construites avec du contenu placé entre des accolades doubles `{{}}`.
+À l’aide de l’_éditeur de personnalisation_, vous pouvez sélectionner, organiser, personnaliser et valider toutes les données afin de personnaliser votre contenu. Utilisez divers outils, tels que des fonctions d’assistance, pour adapter les messages. L’éditeur utilise une syntaxe de personnalisation intégrée basée sur _Handlebars_, où les expressions sont construites avec du contenu placé entre des accolades doubles `{{}}`.
 
 Lors du traitement du message, Journey Optimizer B2B edition remplace l’expression par les données contenues dans le jeu de données Adobe Experience Platform et les valeurs du système local. Par exemple, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` devient `Hello John Doe` de manière dynamique.
 
@@ -38,11 +39,11 @@ Dans [!DNL Journey Optimizer B2B Edition], vous pouvez créer le contenu dynamiq
 
 * **Jetons système** - Ces jetons sont basés sur les valeurs des champs système, telles que _date_, _heure_ et _lien de désabonnement_.
 
-* **Mes jetons** (lorsqu’ils sont définis pour le parcours) - [jetons personnalisés définis pour le parcours &#x200B;](./personalization-my-tokens.md) où réside l’e-mail.
+* **Mes jetons** (lorsqu’ils sont définis pour le parcours) - [jetons personnalisés définis pour le parcours ](./personalization-my-tokens.md) où réside l’e-mail.
 
 >[!NOTE]
 >
->Pour en savoir plus sur les schémas XDM, consultez la documentation du modèle de données Adobe Experience Platform (XDM) [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
+>Pour en savoir plus sur les schémas XDM, consultez la documentation du modèle de données Adobe Experience Platform (XDM) [](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Éditeur de personnalisation
 
@@ -62,7 +63,7 @@ Pour utiliser un jeton de personnalisation ou une fonction d’assistance, local
 
 Cliquez sur l’icône _Plus de menu_ ( **...** ) (en regard de l’icône _Ajouter_ ( **+** ) pour afficher plus de détails sur chaque attribut et ajouter les attributs les plus fréquemment utilisés aux _favoris_. Les attributs ajoutés aux favoris sont accessibles à partir du menu **[!UICONTROL Favoris]** dans le volet de navigation de gauche de l’éditeur.
 
-![Éditeur Personalization - Jeton Menu Plus &#x200B;](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
+![Éditeur Personalization - Jeton Menu Plus ](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
 <!-- >>[!NOTE]
 >
@@ -78,36 +79,14 @@ Une fois l’expression terminée et sans erreur, cliquez sur **[!UICONTROL Enre
 
 ### Jeux de données personnalisés
 
-Vous pouvez utiliser des schémas relationnels (classes basées sur des modèles) pour la personnalisation des e-mails. Les objets personnalisés sont définis dans _schémas relationnels_ et un administrateur de produit peut [configurer des champs de schéma relationnel](../admin/xdm-field-management.md#relational-schemas) dans [!DNL Journey Optimizer B2B Edition]. Ces champs sont accessibles dans l’éditeur de personnalisation. Seuls les objets personnalisés ayant une relation un-à-plusieurs (1:M) avec les <!-- (M1.5 Beta) or Person (M1.5 GA) --> de compte sont disponibles.
+[!BADGE Beta]{type=Informative tooltip="Fonctionnalité Beta"}
+
+Vous pouvez utiliser des schémas relationnels pour la personnalisation des e-mails. Les objets personnalisés sont définis dans _schémas relationnels_ et un administrateur de produit peut [configurer des champs de schéma relationnel](../admin/xdm-field-management.md#relational-schemas) dans [!DNL Journey Optimizer B2B Edition]. Ces champs sont accessibles dans l’éditeur de personnalisation. Seuls les objets personnalisés ayant une relation un-à-plusieurs (1:M) avec des personnes ou un compte sont disponibles.
 
 >[!IMPORTANT]
 >
->Avant d’utiliser des objets personnalisés pour la personnalisation par script, veillez à consulter et à comprendre le [langage de modèle Handlebar](https://handlebarsjs.com/guide/), [syntaxe de personnalisation](./personalization-syntax.md) et les fonctions d’assistance [&#x200B; intégrées](./personalization-helper-functions.md).
+>Avant d’utiliser des objets personnalisés pour la personnalisation par script, veillez à consulter et à comprendre le [langage de modèle Handlebars](https://handlebarsjs.com/guide/), [syntaxe de personnalisation](./personalization-syntax.md) et les fonctions d’assistance [ intégrées](./personalization-helper-functions.md).
 
-Lorsque vous définissez une personnalisation à l’aide des objets personnalisés, vous pouvez accéder à toutes les variables dans des objets accessibles par script à travers les **[!UICONTROL jetons Personalization]** (personne/prospect, compte, système et Mes jetons) et les **[!UICONTROL classes basées sur des modèles]** (schémas relationnels). Lorsque des classes basées sur un modèle sont sélectionnées, vous pouvez afficher les champs en cliquant sur le dossier d’objet personnalisé. Cliquez sur **+** pour chaque champ que vous souhaitez ajouter à l’expression.
+Lorsque vous définissez une personnalisation à l’aide d’objets personnalisés, vous pouvez accéder à toutes les variables des objets accessibles par script dans les **[!UICONTROL jetons Personalization]** (personne/prospect, compte, système et Mes jetons) et les **[!UICONTROL objets personnalisés]** (schémas relationnels). Lorsque des objets personnalisés sont sélectionnés, vous pouvez afficher les champs en cliquant sur le dossier d’objets personnalisés. Cliquez sur **+** pour chaque champ que vous souhaitez ajouter à l’expression.
 
-![Éditeur Personalization - Classes basées sur des modèles - ajoutez des champs d’objet personnalisés](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
-
-<!-- ## Personalization experimentation {#playground}
-
-**[!DNL Adobe Journey Optimizer]** includes an interactive tool designed to help you learn and experiment with personalization capabilities.
-
-This playground provides a simulated environment to write and test personalization code using sample data without requiring live datasets. You can leverage predefined code samples, edit dummy profile payloads, and preview the output of your personalization code in real-time. 
-
-![personalization playground](assets/playground.png)
-
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ajo-personalization){target="_blank"} 
-
-## How-to videos{#video-perso}
-
-Learn how to use contextual event information from a journey to personalize a message.
-
->[!VIDEO](https://video.tv.adobe.com/v/3448131?captions=fre_fr&quality=12)
-
-Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
-
->[!VIDEO](https://video.tv.adobe.com/v/3416270?captions=fre_fr&quality=12)
-
-Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
-
->[!VIDEO](https://video.tv.adobe.com/v/3475954?captions=fre_fr&quality=12) -->
+![Éditeur Personalization - Classes basées sur des modèles - ajoutez des champs d’objet personnalisés](./assets/personalization-editor-custom-object-fields.png){width="700" zoomable="yes"}

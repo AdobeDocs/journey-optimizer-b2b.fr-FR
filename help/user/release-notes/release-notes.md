@@ -3,9 +3,9 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7ee4ffdee351efb478ea1faefe6f1d478a75e2f8
+source-git-commit: fd8b811eb7f4568a92213e7873dc626f572ae519
 workflow-type: tm+mt
-source-wordcount: '4425'
+source-wordcount: '4434'
 ht-degree: 80%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2026.2
 
@@ -24,13 +24,13 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Champs XDM/schémas relationnels : prise en charge des objets personnalisés de personne | Les administrateurs peuvent désormais sélectionner des objets personnalisés liés à une personne à l’aide d’une relation un-à-un à un niveau unique avec un compte. Cette fonctionnalité permet à votre organisation marketing de représenter une vue plus riche de vos données commerciales réelles pour cibler, personnaliser et générer des rapports sur les entités au-delà du niveau de la personne ou du compte. |
+| Fonctionnalité | Champs XDM/schémas relationnels : prise en charge des objets personnalisés de personne | (Beta) Les administrateurs peuvent désormais sélectionner des objets personnalisés liés à une personne à l’aide d’une relation à un seul niveau avec un compte. Cette fonctionnalité permet à votre organisation marketing de représenter une vue plus riche de vos données commerciales réelles pour cibler, personnaliser et générer des rapports sur les entités au-delà du niveau de la personne ou du compte. [En savoir plus](../admin/xdm-field-management.md#relational-schemas) |
 | Fonctionnalité | Conception d’e-mails - Prise en charge de Firefly et des modèles Generative AI personnalisés | Vous pouvez désormais activer l’intégration de modèles Firefly standard et personnalisés, ainsi que de modèles d’image tiers approuvés (tels que NanoBanana). Les spécialistes marketing peuvent sélectionner le meilleur modèle pour chaque cas d’utilisation : Firefly standard pour les besoins généraux, Firefly personnalisé pour la génération sur marque ou modèles tiers approuvés pour des scénarios spécialisés ou expérimentaux. |
 | Amélioration | Conception d’e-mails - validation de la qualité du contenu | Outre l’alignement de la marque, vous pouvez évaluer la qualité globale du contenu pour identifier les problèmes potentiels de lisibilité, de cohésion et d’efficacité (indépendamment des directives de votre marque). Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. |
 | Amélioration | rentrée de parcours | Vous pouvez désormais envoyer plusieurs fois des comptes/personnes par le biais d’un workflow de parcours. La rentrée prend en charge plusieurs scénarios, tels que la réévaluation des critères de qualification et les workflows de maturation réutilisables. |
 | Amélioration | Activer vers les destinations : audiences réutilisables | Vous pouvez désormais réutiliser des audiences virtuelles dans les actions de parcours _Activer vers la destination_ au sein du même parcours et supprimer des comptes des audiences virtuelles. |
-| Amélioration | Parcours de compte et de personne - prise en charge des objets personnalisés de personne | Tirez parti des données relationnelles liées aux comptes pour filtrer les personnes dans un parcours de compte ou de personne. |
-| Amélioration | Personnalisation du contenu - Prise en charge des objets personnalisés d’une personne | Lorsque vous définissez la personnalisation du contenu à l’aide des objets personnalisés, vous pouvez accéder à des variables pour les objets personnalisés de classe basés sur un modèle (schémas relationnels). |
+| Amélioration | Parcours de compte et de personne - prise en charge des objets personnalisés de personne | (Beta) Tirez parti des données relationnelles liées aux comptes pour filtrer les personnes au sein d’un parcours de compte ou de personne. [En savoir plus](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Amélioration | (Beta) Personnalisation du contenu : prise en charge des objets personnalisés d’une personne | Lorsque vous définissez la personnalisation du contenu à l’aide des objets personnalisés, vous pouvez accéder à des variables pour les objets personnalisés de classe basés sur un modèle (schémas relationnels). [En savoir plus](../content/personalization.md#custom-datasets) |
 
 >[!NOTE]
 >
