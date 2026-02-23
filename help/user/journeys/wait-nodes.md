@@ -45,7 +45,7 @@ Avec une _étape d’attente avancée_, vous définissez **_quand_** la personne
 
 >[!AVAILABILITY]
 >
->Les paramètres d’attente avancés sont disponibles pour les environnements [!DNL Journey Optimizer B2B Edition] configurés sur l’architecture [ simplifiée](../simplified-architecture.md).
+>Les paramètres d’attente avancés sont disponibles pour les environnements [!DNL Journey Optimizer B2B Edition] configurés sur l’architecture [&#x200B; simplifiée](../simplified-architecture.md).
 
 ### Types d’attente
 
