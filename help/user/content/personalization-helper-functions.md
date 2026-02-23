@@ -1,25 +1,26 @@
 ---
-title: Fonctions d'assistance
+title: Fonctions d’assistance
 description: Guide de référence des fonctions d’assistance à la personnalisation dans Journey Optimizer B2B edition. Elle comprend une syntaxe et des exemples pour les chaînes, les dates, les mathématiques, etc.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4857'
-ht-degree: 44%
+source-wordcount: '4853'
+ht-degree: 47%
 
 ---
 
-# Fonctions d&#39;assistance
+# Fonctions d’assistance
 
 Utilisez les fonctions d’assistance de l’éditeur de personnalisation pour définir des expériences de contenu personnalisées avec précision et efficacité en manipulant les données, en effectuant des calculs et en formatant le contenu. Explorez et testez ces fonctions, opérateurs et assistants pour découvrir comment ils fonctionnent ensemble pour vous aider à créer des parcours sur mesure et pilotés par les données.
 
 >[!AVAILABILITY]
 >
->Les fonctions d’assistance sont disponibles pour les environnements B2B edition Journey Optimizer configurés sur l’[architecture simplifiée](../simplified-architecture.md).
+>Les fonctions d’assistance sont disponibles pour les environnements [!DNL Journey Optimizer B2B Edition] configurés sur l’[architecture simplifiée](../simplified-architecture.md).
 
 ## Fonctions d’agrégation
 
@@ -335,7 +336,7 @@ L&#39;opération suivante renvoie la première des cinq principales commandes au
 
 ### topN {#first-n}
 
-La fonction `topN` trie un tableau dans l’ordre décroissant en fonction de l’expression numérique donnée et renvoie les premiers éléments `N`. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
+La fonction `topN` trie un tableau par ordre décroissant en fonction de l’expression numérique donnée et renvoie les `N` premiers éléments. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
 
 +++Syntaxe
 
@@ -440,7 +441,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ### bottomN {#last-n}
 
-La fonction `bottomN` trie un tableau dans l’ordre croissant en fonction de l’expression numérique donnée et renvoie les premiers éléments `N`. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
+La fonction `bottomN` trie un tableau par ordre croissant en fonction de l’expression numérique donnée et renvoie les `N` premiers éléments. Si la taille du tableau est inférieure à `N`, il renvoie l’ensemble du tableau trié.
 
 +++Syntaxe
 
@@ -634,7 +635,7 @@ La fonction `addYears` ajuste une date donnée d’un nombre d’années spécif
 
 +++
 
-### âge {#age}
+### age {#age}
 
 Utilisez la fonction `age` pour récupérer l’âge à partir d’une date donnée.
 
@@ -950,10 +951,10 @@ L’opération suivante renvoie la date au format suivant : MM/JJ/AA.
 
 Certaines lettres motifs peuvent ressembler à d’autres, mais représentent des concepts différents.
 
-| Modèle | Signification | Exemple (par `2023-12-31T10:15:30Z`) |
+| Motif | Signification | Exemple (pour `2023-12-31T10:15:30Z`) |
 |---------|---------|--------------------------------------|
 | `y` | Année civile (année standard) | `2023` |
-| `Y` | Année basée sur une semaine (ISO 8601). Il peut varier selon les limites de l&#39;année. | `2024` (le 31 décembre 2023 tombe dans la première semaine de 2024) |
+| `Y` | Année basée sur les semaines (ISO 8601). Il peut varier selon les limites de l&#39;année. | `2024` (le 31 décembre 2023 tombe dans la première semaine de 2024) |
 | `M` | Mois de l’année (1-12 ou texte comme `Jan`, `January`) | `12` ou `Dec`. |
 | `m` | Minute de l’heure (0-59) | `15` |
 | `d` | Jour du mois (1-31) | `31` |
@@ -1271,7 +1272,7 @@ L&#39;opération suivante renvoie toutes les personnes ayant leur pays d&#39;ori
 
 +++
 
-### ou {#or}
+### or {#or}
 
 La fonction `or` est utilisée pour créer une disjonction logique.
 

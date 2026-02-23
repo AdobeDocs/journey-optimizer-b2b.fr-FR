@@ -3,9 +3,9 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 768820247354cf8eb3da23f118314317f3a1e93c
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4436'
+source-wordcount: '4474'
 ht-degree: 80%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2026.2
 
@@ -24,12 +24,12 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Champs XDM/schémas relationnels : prise en charge des objets personnalisés de personne | (Beta) Les administrateurs peuvent désormais sélectionner des objets personnalisés liés à une personne à l’aide d’une relation à un seul niveau avec un compte. Cette fonctionnalité permet à votre organisation marketing de représenter une vue plus riche de vos données commerciales réelles pour cibler, personnaliser et générer des rapports sur les entités au-delà du niveau de la personne ou du compte. [En savoir plus](../admin/xdm-field-management.md#relational-schemas) |
-| Fonctionnalité | rentrée de parcours | Vous pouvez désormais envoyer plusieurs fois des comptes/personnes par le biais d’un workflow de parcours. La rentrée prend en charge plusieurs scénarios, tels que la réévaluation des critères de qualification et les workflows de maturation réutilisables. [En savoir plus](../journeys/journey-re-entry.md) |
+| Fonctionnalité | Champs XDM/schémas relationnels : prise en charge des objets personnalisés de personne | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} (Beta) Les administrateurs peuvent désormais sélectionner des objets personnalisés liés à une personne à l’aide d’une relation un-à-un à un et à un seul niveau avec un compte. Cette fonctionnalité permet à votre organisation marketing de représenter une vue plus riche de vos données commerciales réelles pour cibler, personnaliser et générer des rapports sur les entités au-delà du niveau de la personne ou du compte. [En savoir plus](../admin/xdm-field-management.md#relational-schemas) |
+| Fonctionnalité | rentrée de parcours | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} vous pouvez désormais envoyer plusieurs fois des comptes/personnes par le biais d’un workflow de parcours. La rentrée prend en charge plusieurs scénarios, tels que la réévaluation des critères de qualification et les workflows de maturation réutilisables. [En savoir plus](../journeys/journey-re-entry.md) |
 | Fonctionnalité | Conception d’e-mails - Prise en charge de Firefly et des modèles Generative AI personnalisés | Vous pouvez désormais activer l’intégration de modèles Firefly standard et personnalisés, ainsi que de modèles d’image tiers approuvés (tels que NanoBanana). Les spécialistes marketing peuvent sélectionner le meilleur modèle pour chaque cas d’utilisation : Firefly standard pour les besoins généraux, Firefly personnalisé pour la génération sur marque ou modèles tiers approuvés pour des scénarios spécialisés ou expérimentaux. |
 | Amélioration | Conception d’e-mails - validation de la qualité du contenu | Outre l’alignement de la marque, vous pouvez évaluer la qualité globale du contenu pour identifier les problèmes potentiels de lisibilité, de cohésion et d’efficacité (indépendamment des directives de votre marque). Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. |
-| Amélioration | Parcours de compte et de personne - prise en charge des objets personnalisés de personne | (Beta) Tirez parti des données relationnelles liées aux comptes pour filtrer les personnes au sein d’un parcours de compte ou de personne. [En savoir plus](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| Amélioration | (Beta) Personnalisation du contenu : prise en charge des objets personnalisés d’une personne | Lorsque vous définissez la personnalisation du contenu à l’aide des objets personnalisés, vous pouvez accéder à des variables pour les objets personnalisés de classe basés sur un modèle (schémas relationnels). [En savoir plus](../content/personalization.md#custom-datasets) |
+| Amélioration | Parcours de compte et de personne - prise en charge des objets personnalisés de personne | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} (Beta) Tirez parti des données relationnelles liées aux comptes pour filtrer les personnes au sein d’un parcours de compte ou de personne. [En savoir plus](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Amélioration | (Beta) Personnalisation du contenu : prise en charge des objets personnalisés d’une personne | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} lorsque vous définissez la personnalisation du contenu à l’aide des objets personnalisés, vous pouvez accéder à des variables pour les objets personnalisés de classe basés sur un modèle (schémas relationnels). [En savoir plus](../content/personalization.md#custom-datasets) |
 | Amélioration | Activer vers les destinations : audiences réutilisables | Vous pouvez désormais réutiliser des audiences virtuelles dans les actions de parcours _Activer vers la destination_ au sein du même parcours et supprimer des comptes des audiences virtuelles. |
 
 >[!NOTE]
@@ -42,10 +42,10 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Kits de marque | (Beta) Définissez une marque dans Journey Optimizer B2B edition afin de fournir la source de vérité à votre équipe créative pour qu’elle l’utilise lorsqu’elle crée du contenu visuel ou écrit. Lorsque ces directives sont compilées et que les ressources de la marque sont partagées, n’importe quel membre de l’équipe ou collaborateur peut créer du contenu de marque pour votre produit. |
-| Fonctionnalité | Marques pour la génération de contenu d’e-mail | Vous pouvez définir les directives de votre marque et utiliser ces informations pour générer du contenu d’e-mail. Grâce à cette fonctionnalité, le contenu des e-mails est conforme aux directives, aux styles et au ton de rédaction propres à votre marque. |
-| Amélioration | Parcours _Nœud d’attente_ - Paramètres avancés | Pour un nœud _Wait_ dans un parcours, vous pouvez désormais spécifier des jours et des heures de sortie, puis sélectionner des fuseaux horaires. Cette amélioration vous permet de mieux contrôler l’orchestration des parcours et le timing des campagnes. |
-| Amélioration | Membre du groupe d&#39;achat filtre spécial - Est supprimé contrainte | Le filtre spécial _[!UICONTROL Membre du groupe d&#39;achat]_ inclut désormais la contrainte _Est supprimé_. Lorsque vous ajoutez cette contrainte au filtre, vous pouvez inclure les membres supprimés du groupe d&#39;achats ou les exclure. Elle est également prise en charge dans les listes dynamiques Marketo Engage, où vous pouvez utiliser cette nouvelle contrainte dans le filtre _[!UICONTROL Membre du groupe d’achat]_. |
+| Fonctionnalité | Kits de marque | (Beta) Définissez une marque dans Journey Optimizer B2B edition afin de fournir la source de vérité à votre équipe créative pour qu’elle l’utilise lorsqu’elle crée du contenu visuel ou écrit. Lorsque ces directives sont compilées et que les ressources de la marque sont partagées, n’importe quel membre de l’équipe ou collaborateur peut créer du contenu de marque pour votre produit. [En savoir plus](../content/brands-overview.md) |
+| Fonctionnalité | Marques pour la génération de contenu d’e-mail | Vous pouvez définir les directives de votre marque et utiliser ces informations pour générer du contenu d’e-mail. Grâce à cette fonctionnalité, le contenu des e-mails est conforme aux directives, aux styles et au ton de rédaction propres à votre marque. [En savoir plus](../content/ai-assistant-emails.md) |
+| Amélioration | Parcours _Nœud d’attente_ - Paramètres avancés | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible pour une architecture simplifiée"} Pour un nœud _Attente_ dans un parcours, vous pouvez désormais spécifier des jours et des heures de sortie, puis sélectionner des fuseaux horaires. Cette amélioration vous permet de mieux contrôler l’orchestration des parcours et le timing des campagnes. [En savoir plus](../journeys/wait-nodes.md#advanced-wait-settings) |
+| Amélioration | Membre du filtre Groupe d&#39;achat - Est supprimé | Pour un nœud _Partage du chemin par personnes_, le filtre _[!UICONTROL Membre du groupe d’achats]_ inclut désormais la contrainte _Est supprimé_. Lorsque vous le sélectionnez, le filtre peut inclure le membre du groupe d&#39;achats supprimé ou l&#39;exclure. Elle est également prise en charge dans les listes dynamiques Marketo Engage, où vous pouvez utiliser cette nouvelle contrainte dans le filtre _[!UICONTROL Membre du groupe d’achat]_. |
 | Amélioration | Conception d’e-mail - puces à plusieurs niveaux | Les outils de l’espace de conception de contenu d’e-mail prennent désormais en charge les sous-puces (niveaux de puce). |
 
 <!--

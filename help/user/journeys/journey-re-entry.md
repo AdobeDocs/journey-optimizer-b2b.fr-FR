@@ -4,19 +4,19 @@ description: Contrôlez quand et à quelle fréquence les comptes peuvent entrer
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
-
 
 # rentrée de parcours
 
 _parcours de compte uniquement_
 
-Lorsque vous activez la rentrée pour un parcours de compte, vous pouvez contrôler quand et à quelle fréquence un compte peut entrer à nouveau dans le même parcours. Utilisez les paramètres de reprise pour définir des critères, des limites et des temps d’attente afin que les comptes soient requalifiés de manière contrôlée.
+Lorsque vous activez la rentrée pour un parcours de compte, vous pouvez contrôler quand et à quelle fréquence un compte peut entrer à nouveau dans le même parcours. Utilisez les paramètres de rentrée pour définir des critères, des limites et des temps d’attente afin que les comptes soient à nouveau qualifiés pour le parcours de manière contrôlée.
 
 Un compte peut être requalifié pour un parcours lorsque les éléments suivants sont vrais :
 
