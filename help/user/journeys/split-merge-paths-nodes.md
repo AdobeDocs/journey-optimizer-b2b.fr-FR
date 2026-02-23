@@ -30,7 +30,7 @@ _(parcours de compte uniquement)_
 
 Les chemins de division par comptes peuvent inclure des actions et des événements de compte et de personnes. Ces chemins peuvent être divisés davantage.
 
-_**Fonctionnement d’un chemin de division par nœud de comptes**_
+_&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200B;_
 
 * Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
 * Les nœuds Fractionnés par compte peuvent être imbriqués (vous pouvez fractionner le chemin d’accès par comptes à plusieurs reprises).
@@ -45,7 +45,7 @@ _**Fonctionnement d’un chemin de division par nœud de comptes**_
 | Conditions de chemin | Description |
 | --------------- | ----------- |
 | [!UICONTROL Attributs de compte] | Attributs du profil de compte, notamment : <li>Chiffre d’affaires annuel <li>Ville <li>Pays <li>Nombre d’employés <li>Secteur industriel <li>Nom <li>Code SIC <li>État |
-| [!UICONTROL Attributs de compte] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ne possède pas d&#39;enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering).) |
+| [!UICONTROL Attributs de compte] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ne possède pas d&#39;enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering).) |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Le compte correspond au groupe d&#39;achats] | Le compte est associé à un ou plusieurs groupes d&#39;achats. Il peut être évalué par rapport à une ou plusieurs des contraintes suivantes pour un groupe d&#39;achat apparié : <li>Intérêt de la solution <li>Étape du groupe d&#39;achat <li>Statut du groupe d&#39;achat <li>Score d’engagement <li>Score d&#39;exhaustivité <li> Nombre de personnes dans le rôle de groupe d’achat |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Il peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution <li>Étape du groupe d&#39;achat <li>Statut du groupe d&#39;achat <li>Score d’engagement <li>Score d&#39;exhaustivité |
 
@@ -127,7 +127,7 @@ _(parcours de compte et de personne)_
 
 Les chemins fractionnés par personnes ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
 
-_**Fonctionnement d’un nœud de partage de chemin par personnes**_
+_&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x200B;_
 
 * Les nœuds fractionnés par personnes fonctionnent dans une combinaison _nœud groupé_ de division-fusion. Les chemins de division fusionnent automatiquement afin que toutes les personnes puissent passer à l’étape suivante sans perdre le contexte de leur compte.
 * Les nœuds Fractionné par personnes ne peuvent pas être imbriqués (vous ne pouvez pas ajouter de chemin de fractionnement pour les personnes sur un chemin qui se trouve dans ce nœud groupé).
@@ -147,7 +147,7 @@ _**Fonctionnement d’un nœud de partage de chemin par personnes**_
 | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance de [!DNL Marketo Engage] associée. Les contraintes sont les suivantes : <li>Étape<li>E-mail<li>Web <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas vécu de moment intéressant). |
 | [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance [!DNL Marketo Engage] associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date d’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Platform <li>Appareil <li>Min. nombre de fois <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas visité la page web). |
 | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement <li>Dispose de `<custom object>` (voir [Filtrage des données personnalisé](#custom-data-filtering).) |
-| [!UICONTROL Attributs De Personne] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} La personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering)) |
+| [!UICONTROL Attributs De Personne] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} La personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering)) |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est ou n’est pas membre d’une ou de plusieurs listes [!DNL Marketo Engage]. |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | La personne est ou n’est pas membre d’un ou de plusieurs programmes [!DNL Marketo Engage]. |
@@ -223,7 +223,7 @@ Pour un chemin de partage par personnes, vous pouvez définir un chemin en fonct
 
 >[!BEGINSHADEBOX « Filtrage d&#39;inactivité »]
 
-Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_ pour créer un chemin d’accès pour les personnes qui _**n’ont pas ouvert**_ un e-mail précédemment dans le parcours. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
+Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_ pour créer un chemin d’accès pour les personnes qui _&#x200B;**n’ont pas ouvert**&#x200B;_ un e-mail précédemment dans le parcours. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
 
 ![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
