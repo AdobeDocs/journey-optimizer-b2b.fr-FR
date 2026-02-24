@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
 workflow-type: tm+mt
-source-wordcount: '4474'
-ht-degree: 80%
+source-wordcount: '4371'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2026.2
 
@@ -26,11 +26,15 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | ---- | ---- | ----------- |
 | Fonctionnalité | Champs XDM/schémas relationnels : prise en charge des objets personnalisés de personne | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} (Beta) Les administrateurs peuvent désormais sélectionner des objets personnalisés liés à une personne à l’aide d’une relation un-à-un à un et à un seul niveau avec un compte. Cette fonctionnalité permet à votre organisation marketing de représenter une vue plus riche de vos données commerciales réelles pour cibler, personnaliser et générer des rapports sur les entités au-delà du niveau de la personne ou du compte. [En savoir plus](../admin/xdm-field-management.md#relational-schemas) |
 | Fonctionnalité | rentrée de parcours | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} vous pouvez désormais envoyer plusieurs fois des comptes/personnes par le biais d’un workflow de parcours. La rentrée prend en charge plusieurs scénarios, tels que la réévaluation des critères de qualification et les workflows de maturation réutilisables. [En savoir plus](../journeys/journey-re-entry.md) |
-| Fonctionnalité | Conception d’e-mails - Prise en charge de Firefly et des modèles Generative AI personnalisés | Vous pouvez désormais activer l’intégration de modèles Firefly standard et personnalisés, ainsi que de modèles d’image tiers approuvés (tels que NanoBanana). Les spécialistes marketing peuvent sélectionner le meilleur modèle pour chaque cas d’utilisation : Firefly standard pour les besoins généraux, Firefly personnalisé pour la génération sur marque ou modèles tiers approuvés pour des scénarios spécialisés ou expérimentaux. |
-| Amélioration | Conception d’e-mails - validation de la qualité du contenu | Outre l’alignement de la marque, vous pouvez évaluer la qualité globale du contenu pour identifier les problèmes potentiels de lisibilité, de cohésion et d’efficacité (indépendamment des directives de votre marque). Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. |
 | Amélioration | Parcours de compte et de personne - prise en charge des objets personnalisés de personne | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} (Beta) Tirez parti des données relationnelles liées aux comptes pour filtrer les personnes au sein d’un parcours de compte ou de personne. [En savoir plus](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Amélioration | (Beta) Personnalisation du contenu : prise en charge des objets personnalisés d’une personne | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} lorsque vous définissez la personnalisation du contenu à l’aide des objets personnalisés, vous pouvez accéder à des variables pour les objets personnalisés de classe basés sur un modèle (schémas relationnels). [En savoir plus](../content/personalization.md#custom-datasets) |
 | Amélioration | Activer vers les destinations : audiences réutilisables | Vous pouvez désormais réutiliser des audiences virtuelles dans les actions de parcours _Activer vers la destination_ au sein du même parcours et supprimer des comptes des audiences virtuelles. |
+
+<!-- wait for next release
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
+| Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
+| Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
+| -->
 
 >[!NOTE]
 >
@@ -47,10 +51,6 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Amélioration | Parcours _Nœud d’attente_ - Paramètres avancés | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible pour une architecture simplifiée"} Pour un nœud _Attente_ dans un parcours, vous pouvez désormais spécifier des jours et des heures de sortie, puis sélectionner des fuseaux horaires. Cette amélioration vous permet de mieux contrôler l’orchestration des parcours et le timing des campagnes. [En savoir plus](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Amélioration | Membre du filtre Groupe d&#39;achat - Est supprimé | Pour un nœud _Partage du chemin par personnes_, le filtre _[!UICONTROL Membre du groupe d’achats]_ inclut désormais la contrainte _Est supprimé_. Lorsque vous le sélectionnez, le filtre peut inclure le membre du groupe d&#39;achats supprimé ou l&#39;exclure. Elle est également prise en charge dans les listes dynamiques Marketo Engage, où vous pouvez utiliser cette nouvelle contrainte dans le filtre _[!UICONTROL Membre du groupe d’achat]_. |
 | Amélioration | Conception d’e-mail - puces à plusieurs niveaux | Les outils de l’espace de conception de contenu d’e-mail prennent désormais en charge les sous-puces (niveaux de puce). |
-
-<!--
-| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
-| -->
 
 >[!NOTE]
 >
