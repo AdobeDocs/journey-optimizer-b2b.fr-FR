@@ -4,10 +4,10 @@ description: 'Gérez l’accès des utilisateurs et utilisatrices avec Experienc
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: fed4ffe06d645784dc3f2adc84c15906e9816507
+source-git-commit: 00633bec3f5b9299208dc3e4523bcd97fb055be7
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 2%
+source-wordcount: '2012'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur l’utilisation des profils de produit pour les d
 
 Lorsque vous ajoutez un utilisateur au profil de produit Marketo Engage, il est ensuite ajouté au rôle _Utilisateur standard_ dans l’espace de travail Par défaut de l’abonnement Marketo Engage. Ce rôle leur accorde toutes les autorisations _Utilisateur standard_ pour Marketo Engage dans cet espace de travail. Actuellement, tous les utilisateurs de Journey Optimizer B2B edition doivent être des utilisateurs de Marketo Engage. Un administrateur ou une administratrice Marketo Engage peut restreindre l’accès en mettant à jour les autorisations pour le rôle _Utilisateur standard_ ou en déplaçant l’utilisateur ou l’utilisatrice vers un rôle d’utilisateur Marketo Engage différent avec des autorisations plus restrictives.
 
-Pour plus d’informations sur la gestion de ces autorisations dans Marketo Engage, voir [&#x200B; Gestion des rôles utilisateur et des autorisations &#x200B;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} dans la documentation de Marketo Engage.
+Pour plus d’informations sur la gestion de ces autorisations dans Marketo Engage, voir [ Gestion des rôles utilisateur et des autorisations ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} dans la documentation de Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -106,10 +106,10 @@ Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour
 
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Collecte de données dʼAdobe Experience Platform]
-   * [!UICONTROL Accès complet à la collecte de données]
+   * [!UICONTROL Collecte De Données Adobe Experience Platform - Collecte De Données Par Défaut Tous Les Accès]
+   * [!UICONTROL Adobe Experience Platform - Accès Tous À La Production Par Défaut]
 
-   ![Admin Console - groupe d’utilisateurs - ajout de produits](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
+   ![Admin Console - groupe d’utilisateurs - ajout de produits](./assets/admin-console-user-group-add-products.png){width="550" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
@@ -143,7 +143,7 @@ Les autorisations sont des droits unitaires qui vous permettent de définir les 
 
 La zone _Autorisations_ de Adobe Experience Platform permet aux administrateurs de définir des rôles d’utilisateur et des politiques d’accès afin de gérer les autorisations d’accès aux fonctionnalités et objets d’une application de produit. Dans cette application, vous pouvez créer et gérer des rôles, ainsi qu’attribuer les autorisations de ressources souhaitées pour ces rôles. Les autorisations vous permettent également de gérer les sandbox et les utilisateurs associés à un rôle spécifique.
 
-Pour plus d’informations sur les autorisations des rôles dans Experience Platform, voir [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} dans la documentation d’Experience Platform.
+Pour plus d’informations sur les autorisations des rôles dans Experience Platform, voir [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} dans la documentation d’Experience Platform.
 
 ### Autorisations des produits B2B
 
