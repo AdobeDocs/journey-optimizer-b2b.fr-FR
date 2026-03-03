@@ -5,9 +5,9 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2220'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Une page de destination est une page web autonome où vous pouvez diriger les contacts et les clients après qu&#39;ils ont cliqué sur un élément lié dans un e-mail, un SMS ou tout emplacement numérique. Vous pouvez incorporer ces pages dans les parcours de votre compte pour que vos prospects et clients voient vos messages sur le web et progressent dans les parcours de votre compte. Vous pouvez créer, personnaliser et prévisualiser des pages de destination dans l’espace de conception visuelle de la page de destination.
 
-Pour diriger vos clients vers une page web définie lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans Journey Optimizer B2B edition.
+Pour rediriger vos clients vers une page web définie lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans Journey Optimizer B2B edition :
 
 * Création de la page
 * Concevoir la page de destination et créer du contenu
@@ -114,13 +114,13 @@ Adobe Journey Optimizer B2B edition vous permet d’importer du contenu HTML exi
 
 Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide de l’espace de conception visuelle.
 
-### Sélectionner un modèle enregistré
+### Sélectionner un modèle enregistré ou un modèle type
 
 Vous pouvez choisir parmi les options suivantes :
 
-* **Exemples de modèles**. L’interface de Journey Optimizer propose un ensemble de modèles de page de destination prêts à l’emploi que vous pouvez choisir.
+* **Exemples de modèles**. L’interface B2B edition de Journey Optimizer propose un ensemble de modèles de page de destination prêts à l’emploi que vous pouvez utiliser comme point de départ pour concevoir votre page de destination.
 
-* **Modèles enregistrés**. Utilisez un modèle personnalisé enregistré créé par un membre de votre organisation à l’aide de l’_[!UICONTROL de menu]_ Modèles<!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
+* **Modèles enregistrés**. Utilisez un modèle personnalisé enregistré créé par un membre de votre organisation à l’aide de l’<!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. --> de menu _[!UICONTROL Modèles]_
 
 Utilisez la section _[!UICONTROL Sélectionner un modèle de conception]_ pour commencer à créer le contenu à partir d’un modèle. Vous pouvez utiliser un modèle type ou un modèle de page de destination personnalisé enregistré à partir de votre instance Journey Optimizer B2B edition.
 
@@ -271,7 +271,7 @@ Deux types d’alertes peuvent être détectés :
 
 Vous pouvez dupliquer une page de destination à l’aide de l’une des méthodes suivantes :
 
-* Dans la page de liste _[!UICONTROL Page de destination]_, cliquez sur l’icône _Plus_ (**...**) à côté du nom de la page de destination et sélectionnez **[!UICONTROL Dupliquer]**.
+* Sur la page de liste _[!UICONTROL Page de destination]_, cliquez sur l’icône _Plus_ (**...**) en regard du nom de la page de destination et choisissez **[!UICONTROL Dupliquer]**.
 * En haut à droite de la page de détails de la page de destination, cliquez sur **[!UICONTROL ... En plus]** et choisissez **[!UICONTROL Dupliquer]**.
 
 ![Dupliquer la landing page](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
@@ -286,7 +286,7 @@ La page dupliquée (nouvelle) apparaît alors dans la liste _Pages de destinatio
 
 Vous pouvez supprimer une page de destination à l’aide de l’une des méthodes suivantes :
 
-* Dans la page de liste _[!UICONTROL Page de destination]_, cliquez sur l’icône _Plus_ (**...**) à côté du nom de la page de destination et sélectionnez **[!UICONTROL Supprimer]**.
+* Sur la page de liste _[!UICONTROL Page de destination]_, cliquez sur l’icône _Plus_ (**...**) en regard du nom de la page de destination et choisissez **[!UICONTROL Supprimer]**.
 * En haut à droite de la page de détails de la page de destination, cliquez sur **[!UICONTROL ... Plus]** puis choisissez **[!UICONTROL Supprimer]**.
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.

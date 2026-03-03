@@ -4,10 +4,10 @@ description: 'Modifiez les images en mode natif avec Adobe Express dans Journey 
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 4%
+source-wordcount: '860'
+ht-degree: 5%
 
 ---
 
@@ -70,7 +70,7 @@ Si vous disposez d’une licence Enterprise pour Adobe Express, vous pouvez acc�
 
 ![Ouvrez l’image dans l’éditeur d’Adobe Express Enterprise](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-Le [Guide de l’utilisateur d’Adobe Express](https://helpx.adobe.com/fr/express/web.html){target="_blank"} fournit des informations détaillées sur les fonctionnalités de modification disponibles.
+Le [Guide de l’utilisateur d’Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} fournit des informations détaillées sur les fonctionnalités de modification disponibles.
 
 ## Actions rapides dans Adobe Express
 
@@ -88,7 +88,7 @@ Si vous ne disposez pas d’une licence Adobe Express Enterprise, vous avez acc�
 
 1. Lorsque vous revenez à l’éditeur d’actions rapides Adobe Express principal, cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le fichier image modifié dans le référentiel de ressources de Journey Optimizer B2B edition avec le même nom de fichier.
 
-## Redimensionner l’image
+### Redimensionner l’image
 
 1. Utilisez les paramètres de redimensionnement pour réduire ou développer l’image :
 
@@ -102,13 +102,13 @@ Si vous ne disposez pas d’une licence Adobe Express Enterprise, vous avez acc�
 
 1. Lorsque le résultat vous convient, cliquez sur **[!UICONTROL Appliquer]**.
 
-## Supprimer l’arrière-plan
+### Supprimer l’arrière-plan
 
 ![Modifier avec Adobe Express - Supprimer l’arrière-plan](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
 Adobe Express effectue une suppression automatique de l’arrière-plan pour isoler l’objet principal dans l’image. Si le résultat vous convient, cliquez sur **[!UICONTROL Appliquer]**.
 
-## Recadrer l’image
+### Recadrer l’image
 
 1. Faites glisser les poignées situées dans les coins de l’image pour supprimer les zones externes que vous ne souhaitez pas inclure dans la ressource d’image.
 
@@ -116,7 +116,7 @@ Adobe Express effectue une suppression automatique de l’arrière-plan pour iso
 
 1. Lorsque le résultat vous convient, cliquez sur **[!UICONTROL Appliquer]**.
 
-## Convertir le format de fichier
+### Convertir le format de fichier
 
 * **[!UICONTROL Convertir en JPEG]** - Pour une image PNG, vous pouvez convertir l’image en fichier image JPEG et l’enregistrer en tant que nouvelle ressource.
 * **[!UICONTROL Convertir en PNG]** - Pour une image JPEG, vous pouvez convertir l’image en fichier image PNG et l’enregistrer en tant que nouvelle ressource.

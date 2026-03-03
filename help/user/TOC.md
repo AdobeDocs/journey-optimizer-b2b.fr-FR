@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 79%
+source-wordcount: '415'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 79%
    + [Activer l’accès à l’assistant IA](./ai-assistant/enable-ai-assistant-access.md)
    + [Conseils sur les questions](./ai-assistant/question-guidance.md)
    + [Utiliser l’assistant IA](./ai-assistant/use-ai-assistant.md)
+   + [IA générative pour le contenu](./ai-assistant/generative-ai-content.md)
    + Agents {#ai-agents}
       + [Agent Audience](./agents/audience-agent-b2b.md)
       + [Parcours Build Agent B2B](./agents/journey-agent.md)
@@ -116,6 +117,7 @@ ht-degree: 79%
    + Pages de destination (Beta) {#landing-pages}
       + [Vue d’ensemble](./content/landing-pages.md)
       + [Création de la page de destination](./content/landing-page-design.md)
+      + [Assistant AI pour le contenu des pages de destination](./content/ai-assistant-landing-pages.md)
    + Outils de conception de contenu {#content-design}
       + [Composants de structure](./content/structure-components.md)
       + [Composants de contenu](./content/content-components.md)
@@ -151,7 +153,7 @@ ht-degree: 79%
       + [Configurations du canal web (Beta)](./admin/configure-channels-web.md)
       + [Paramètres de la page de destination (Beta)](./admin/landing-page-settings.md)
       + [Configurer des trains de données pour la collecte d’événements](./data/aep-event-collection.md)
-   + Configurations  {#configurations}
+   + Configurations {#configurations}
       + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
       + [Données d’intention](./admin/intent-data.md)
       + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
