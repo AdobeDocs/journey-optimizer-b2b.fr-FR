@@ -31,7 +31,7 @@ Vous pouvez générer des expériences de contenu complètes pour vos pages de d
 
 Avant de commencer à utiliser cette fonctionnalité, passez en revue les [directives et limites](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Un accord utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} une acceptation est également requis avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
 
-Avec l’engagement d’Adobe à promouvoir la transparence dans l’utilisation des outils d’IA génératifs dans la création de médias, Adobe applique les [&#x200B; informations d’identification de contenu &#x200B;](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par Firefly lorsqu’elle est téléchargée ou exportée.
+Avec l’engagement d’Adobe à promouvoir la transparence dans l’utilisation des outils d’IA génératifs dans la création de médias, Adobe applique les [&#x200B; informations d’identification de contenu &#x200B;](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par Firefly lorsqu’elle est téléchargée ou exportée.
 
 Les restrictions et instructions suivantes s’appliquent aux fonctionnalités de l’assistant AI utilisées pour la génération de contenu de page de destination dans [!DNL Journey Optimizer B2B Edition] :
 
