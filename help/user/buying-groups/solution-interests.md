@@ -4,10 +4,10 @@ description: Créez les intérêts des solutions pour les produits cibles, autom
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: e914d3a43c40bd6f4c60c7be0a9e91ff4e5838d1
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Dans l&#39;onglet _[!UICONTROL Intérêts de la solution]_, la colonne **[!UICON
 
 ![Achat de tâches de groupe à des fins de solution](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
-Vous pouvez supprimer un traitement de groupe d&#39;achats en cliquant sur les points de suspension (...) en regard du nom du traitement et en choisissant **[!UICONTROL Supprimer]**.
+Vous pouvez supprimer un traitement de groupe d&#39;achats en cliquant sur les points de suspension (...) en regard du nom de la tâche et en choisissant **[!UICONTROL Supprimer]**.
 
 ## Création d’un intérêt pour une solution
 
@@ -59,7 +59,7 @@ Avant de créer un intérêt pour la solution, vous devez disposer d’un modèl
 
 1. Activez le paramètre **[!UICONTROL Mettre à jour les groupes d&#39;achats existants]** (facultatif).
 
-   Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation de 7 jours.
+   Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation quotidien.
 
 1. Cliquez sur **[!UICONTROL Créer]** dans le coin supérieur droit.
 
@@ -72,7 +72,7 @@ Avant de créer un intérêt pour la solution, vous devez disposer d’un modèl
 1. Dans l’onglet _[!UICONTROL Intérêt de la solution]_, utilisez l’une des méthodes suivantes pour ouvrir les propriétés de l’intérêt de la solution que vous souhaitez modifier :
 
    * Cliquez sur le nom de la solution qui vous intéresse.
-   * Cliquez sur les points de suspension (**...**) en regard et choisissez **[!UICONTROL Modifier]**.
+   * Cliquez sur les points de suspension (**...**) en regard de celui-ci et choisissez **[!UICONTROL Modifier]**.
 
    ![Menu Plus d’intérêt pour la solution](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -86,7 +86,7 @@ Avant de créer un intérêt pour la solution, vous devez disposer d’un modèl
 
    * Modifiez le paramètre **[!UICONTROL Mettre à jour les groupes d&#39;achats existants]**.
 
-     Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation de 7 jours.
+     Lorsque cette option est activée, tous les groupes d&#39;achats existants associés à la solution recherchée sont mis à jour tout au long du cycle de synchronisation quotidien.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
@@ -94,7 +94,7 @@ Avant de créer un intérêt pour la solution, vous devez disposer d’un modèl
 
 Les intérêts de solution actuellement utilisés par un parcours de compte ou un traitement de groupe d&#39;achat ne peuvent pas être supprimés. En outre, un intérêt de solution supprimé ne peut pas être récupéré.
 
-1. Dans l’onglet _[!UICONTROL Intérêt de la solution]_, cliquez sur les points de suspension (**...**) en regard de l’intérêt de la solution et choisissez **[!UICONTROL Supprimer]**.
+1. Dans l’onglet _[!UICONTROL Intérêt de la solution]_, cliquez sur les points de suspension (**...**) en regard de l’intérêt de la solution, choisissez **[!UICONTROL Supprimer]**.
 
    Cette action ouvre une boîte de dialogue de confirmation.
 
@@ -102,6 +102,6 @@ Les intérêts de solution actuellement utilisés par un parcours de compte ou u
 
 1. Cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression, ou vous pouvez abandonner le processus en cliquant sur _[!UICONTROL Annuler]_.
 
-## Vidéo de vue d’ensemble
+## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3450115/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
