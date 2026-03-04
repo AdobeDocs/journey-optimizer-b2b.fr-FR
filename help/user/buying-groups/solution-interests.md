@@ -104,4 +104,4 @@ Les intérêts de solution actuellement utilisés par un parcours de compte ou u
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450115/?captions=fre_fr&learn=on)
