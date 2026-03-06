@@ -3,39 +3,39 @@ title: Activation de Marketo Engage pour prendre en charge les actions de Parcou
 description: Activez les connexions Marketo Engage pour prendre en charge les actions de parcours afin que les marketeurs puissent coordonner les campagnes entre Marketo Engage et Journey Optimizer B2B edition.
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
-source-git-commit: 9b77570ddb9b416251f38db51a57507a935a526a
+exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
+source-git-commit: cd11d96c80a8015fedd82d2c4db12e559da37f2c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 6%
 
 ---
-
 
 # Activation des instances Marketo Engage pour la prise en charge des actions
 
 Les actions Marketo Engage sont des actions _basées sur les personnes_ qui vous permettent de coordonner votre orchestration marketing _basée sur les comptes_ entre Journey Optimizer B2B edition et vos efforts marketing _basés sur les prospects_ dans Marketo Engage. Utilisez ces actions pour orchestrer l’appartenance à une liste statique et pour placer des personnes dans des campagnes.
 
-Pour utiliser les actions de parcours Marketo Engage, un administrateur doit d’abord créer un [service personnalisé](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} dans Marketo Engage, qui fournit les informations d’identification nécessaires à l’authentification. Ensuite, un administrateur de produit pour Journey Optimizer B2B edition utilise les informations d’identification pour créer une connexion à Marketo Engage. Les utilisateurs de Journey Optimizer B2B edition peuvent ensuite référencer la connexion pour configurer des actions Marketo Engage dans des parcours de compte <!-- person and -->, tels que l’ajout ou la suppression de personnes des listes Marketo Engage ou leur ajout à des campagnes de demandes.
+Pour utiliser les actions de parcours Marketo Engage, un administrateur doit d’abord créer un [service personnalisé](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} dans Marketo Engage, qui fournit les informations d’identification nécessaires à l’authentification. Ensuite, un administrateur de produit pour Journey Optimizer B2B edition utilise les informations d’identification pour créer une connexion à Marketo Engage. Les utilisateurs de Journey Optimizer B2B edition peuvent ensuite référencer la connexion pour configurer des actions Marketo Engage dans des parcours de compte <!-- person and -->, tels que l’ajout ou la suppression de personnes des listes Marketo Engage ou leur ajout à des campagnes de demandes.
 
-## Configurer une connexion Marketo Engage {#external-marketo-configure}
+## Configurer une connexion Marketo Engage {#external-marketo-configure}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_marketo-configure-connections"
->title="Connexions Marketo Engage externes"
->abstract="Les administrateurs de produit peuvent configurer des connexions à des instances Marketo Engage externes, ce qui les rend disponibles pour des actions de parcours."
+>title="Connexions Marketo Engage externes"
+>abstract="Les administrateurs et administratrices de produit peuvent configurer les connexions aux instances Marketo Engage externes, ce qui les rend disponibles pour les actions de parcours."
 
 Effectuez les tâches suivantes pour configurer une instance Marketo Engage externe à utiliser avec des actions de parcours.
 
 ### Création du service personnalisé Marketo Engage
 
-1. Connectez-vous à Marketo Engage en tant qu’administrateur et [créez un service personnalisé](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Connectez-vous à Marketo Engage en tant qu’administrateur et [créez un service personnalisé](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Copiez les valeurs suivantes à utiliser pour la connexion Journey Optimizer B2B edition :
 
    * ID Munchkin
    * Identifiant client
    * Secret client
 
-La visibilité de l’espace de travail Marketo Engage pour les ressources, telles que les listes et les campagnes, est régie par les [autorisations de rôle attribuées dans le service personnalisé](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Les marketeurs peuvent utiliser la même connexion plusieurs fois au sein d’un parcours et utiliser différentes connexions Marketo Engage dans le même parcours.
+La visibilité de l’espace de travail Marketo Engage pour les ressources, telles que les listes et les campagnes, est régie par les [autorisations de rôle attribuées dans le service personnalisé](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Les marketeurs peuvent utiliser la même connexion plusieurs fois au sein d’un parcours et utiliser différentes connexions Marketo Engage dans le même parcours.
 
 ### Ajouter l’intégration
 
@@ -55,7 +55,7 @@ La visibilité de l’espace de travail Marketo Engage pour les ressources, tell
 
    >[!NOTE]
    >
-   >Les utilisateurs passent par le parcours indépendamment de la correspondance, sauf en cas d’erreur.
+   >Une personne/un prospect passe par le parcours quelle que soit la correspondance, sauf en cas d’erreur. Une action de parcours ne crée pas d’enregistrement de nouvelle personne dans Marketo Engage lorsqu’il n’existe pas d’enregistrement correspondant.
 
 1. Saisissez l’ID Munchkin, l’ID client et le secret client pour le service créé dans l’instance Marketo Engage externe.
 1. Cliquez sur **[!UICONTROL Connexion à Marketo]**.
