@@ -24,7 +24,7 @@ Utilisez le navigateur et les modules externes d’e-mail pour accéder à Busin
 
 La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
 
 Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edition], mais il s’agit d’une application distincte dans Experience Platform Experience Cloud.
 
