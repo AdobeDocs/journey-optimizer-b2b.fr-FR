@@ -1,15 +1,15 @@
 ---
 title: Qualificateur de vente
 description: Automatisez la qualification et la sensibilisation des prospects B2B avec le qualificateur de vente. Il fournit des recherches optimisées par l’IA, la rédaction d’emails, l’intégration de CRM et des plans d’engagement pour les BDR.
-feature: AI Assistant, Sales Insights, Account Journeys
+feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
+exl-id: cc590444-41df-44fe-830b-92241718ee81
+source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1335'
 ht-degree: 1%
 
 ---
-
 
 # Qualificateur de vente
 
@@ -24,7 +24,7 @@ Utilisez le navigateur et les modules externes d’e-mail pour accéder à Busin
 
 La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edition], mais il s’agit d’une application distincte dans Experience Platform Experience Cloud.
 
@@ -34,7 +34,7 @@ Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edit
 
 Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L’AQA utilise l’IA pour lire vos comptes et déterminer lesquels sont prêts pour l’étape suivante. Il facilite la recherche, la rédaction d’e-mails et les mises à jour CRM.
 
-![&#x200B; Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
+![ Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
 
 * **Recherche de prospects**
 
@@ -54,7 +54,7 @@ Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L�
 
 ### Utilisation de base
 
-Les agents de l’IA d’Adobe utilisent des _requêtes en langage naturel_, ce qui signifie qu’ils utilisent la même langue dans l’invite de texte que vous le feriez lorsque vous parlez à une personne. Plus vous êtes détaillé, meilleurs sont les résultats.
+Les agents Adobe AI utilisent _requêtes en langage naturel_, ce qui signifie qu’ils utilisent la même langue dans l’invite de texte que vous le feriez lorsque vous parlez à une personne. Plus vous êtes détaillé, meilleurs sont les résultats.
 
 En utilisant le langage naturel, vous pouvez demander à l’agent de :
 
