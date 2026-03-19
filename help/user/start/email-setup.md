@@ -30,7 +30,7 @@ Modifiez les valeurs de l’e-mail et du libellé De afin que les nouveaux e-mai
 
 1. Dans le panneau _[!UICONTROL Paramètres]_, saisissez les valeurs par défaut souhaitées pour **[!UICONTROL E-mail de l’expéditeur]** et **[!UICONTROL Libellé de l’expéditeur]**.
 
-   ![Paramètres d’e-mail - Valeurs par défaut des libellés D’e-mail et De ](./assets/me-admin-email-settings-from.png){width="500"}
+   ![Paramètres d’e-mail - Valeurs par défaut des libellés D’e-mail et De &#x200B;](./assets/me-admin-email-settings-from.png){width="500"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
@@ -157,8 +157,8 @@ Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail a
 
 L’activité des robots d’e-mail, également appelée interactions non humaines (NHI), peut gonfler les données d’e-mail _ouvertures_ et _clics_, ce qui fausse les mesures d’engagement et déclenche la progression du parcours basée sur un événement. Utilisez le filtrage des robots d’e-mail pour conserver l’intégrité des mesures et des informations d’engagement des clics. Deux méthodes permettent d’identifier une activité de robot suspectée :
 
-* _**[!UICONTROL Correspondance avec la liste de robots IAB]**_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
-* _**[!UICONTROL Correspondance avec le modèle de proximité]**_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
+* _&#x200B;**[!UICONTROL Correspondance avec la liste de robots IAB]**&#x200B;_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
+* _&#x200B;**[!UICONTROL Correspondance avec le modèle de proximité]**&#x200B;_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
    * ID de lead (doit être le même)
    * Ressource e-mail (doit être la même)
    * Clic sur un lien ou ouverture d’un e-mail

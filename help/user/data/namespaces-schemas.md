@@ -18,7 +18,7 @@ La configuration de Journey Optimizer B2B edition sur l’architecture simplifi�
 >
 >- Vous devez avoir accès à [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} pour que vos schémas B2B soient qualifiés dans [Real-Time Customer Profile](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/home){target="_blank"}.
 >
->- Vos entités B2B Experience Platform doivent utiliser les relations standard décrites dans le guide [ Espaces de noms et schémas B2B ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
+>- Vos entités B2B Experience Platform doivent utiliser les relations standard décrites dans le guide [&#x200B; Espaces de noms et schémas B2B &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
 Consultez les informations suivantes sur la configuration sous-jacente des espaces de noms et des schémas à utiliser avec les sources B2B. Elle fournit également des détails sur la configuration de votre utilitaire d’automatisation Postman, qui est nécessaire pour générer des espaces de noms et des schémas B2B.
 
@@ -65,7 +65,7 @@ Une requête réussie crée les espaces de noms et les schémas B2B requis.
 
 ## Espaces de noms B2B
 
-Les espaces de noms d’identité sont des composants d’Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home){target="_blank"} qui servent à distinguer le contexte d’une identité. Une identité complète comprend une valeur d’identité et un espace de noms. Consultez [ Présentation des espaces de noms ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"} pour plus d’informations.
+Les espaces de noms d’identité sont des composants d’Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home){target="_blank"} qui servent à distinguer le contexte d’une identité. Une identité complète comprend une valeur d’identité et un espace de noms. Consultez [&#x200B; Présentation des espaces de noms &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"} pour plus d’informations.
 
 Les espaces de noms B2B sont utilisés dans l’identité principale de l’entité.
 

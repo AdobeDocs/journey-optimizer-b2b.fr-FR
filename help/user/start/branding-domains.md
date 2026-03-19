@@ -58,7 +58,7 @@ La première étape de l’utilisation des domaines de marque consiste à modifi
 
 1. Dans la boîte de dialogue _[!UICONTROL Modifier le domaine de branding]_, saisissez le nom de votre domaine par défaut dans le champ **[!UICONTROL Domaine]**.
 
-   ![ Boîte de dialogue Modifier le domaine de branding ](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
+   ![&#x200B; Boîte de dialogue Modifier le domaine de branding &#x200B;](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
 1. Si plusieurs espaces de travail sont définis pour votre instance Marketo Engage, cliquez sur **[!UICONTROL Suivant]**.
 
@@ -114,7 +114,7 @@ Pour activer SSL pour vos domaines existants, procédez comme suit.
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Confirmer]**.
 
-   ![ Boîte de dialogue de confirmation Générer un certificat SSL ](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
+   ![&#x200B; Boîte de dialogue de confirmation Générer un certificat SSL &#x200B;](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
 
 ## Messages d’erreur
 
