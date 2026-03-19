@@ -3,14 +3,12 @@ title: Configuration des pages de destination
 description: Configurez les sous-domaines de page de destination, les paramètres de préremplissage de formulaire et les flux de données pour activer la publication de pages web Campaign dans Journey Optimizer B2B edition.
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6719755db59ed79a4bd32e4f0df0ebb8207aecda
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 34%
+source-wordcount: '500'
+ht-degree: 38%
 
 ---
 
@@ -20,7 +18,7 @@ Les administrateurs doivent s’assurer que les paramètres de la page de destin
 
 ## Paramètres
 
-Pour passer en revue la configuration de la page de destination, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**. Sous _[!UICONTROL Pages de destination]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Paramètres]**.
+Pour passer en revue la configuration de la page de destination, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**. Sous _[!UICONTROL Pages de destination]_ dans le volet de navigation, sélectionnez **[!UICONTROL Paramètres]**.
 
 ![Paramètres de la page de destination](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -31,7 +29,7 @@ Pour passer en revue la configuration de la page de destination, accédez à **[
 >title="Chaîne de compte des pages de destination"
 >abstract="La chaîne de compte identifie l’instance Adobe Journey Optimizer B2B Edition qui héberge les pages de destination."
 
-La chaîne de compte identifie l’instance Adobe Journey Optimizer B2B edition qui héberge les pages de destination. Assurez-vous que votre équipe Systèmes ajoute et configure l’entrée DNS.
+La chaîne de compte identifie l’instance Adobe Journey Optimizer B2B Edition qui héberge les pages de destination. Assurez-vous que votre équipe Systèmes ajoute et configure l’entrée DNS.
 
 ### Préremplissage de formulaire {#form-prefill}
 
@@ -70,9 +68,9 @@ Définissez l’option **[!UICONTROL Flux de données]** pour configurer un flux
 
 Un sous-domaine de page de destination doit vous aider à identifier le type de contenu, le nom de produit ou la campagne, et à renforcer l’authenticité de la page. Avant de configurer les sous-domaines, définissez un ou plusieurs CNAME à utiliser pour vos pages de destination. Par exemple :
 
-* **produit**.[CompanyDomain].com
-* **allez**.[CompanyDomain].com
-* **inscription**.[CompanyDomain].com
+* **product**.[CompanyDomain].com
+* **go**.[CompanyDomain].com
+* **signup**.[CompanyDomain].com
 
 Dans ces exemples, la première partie (en gras) est la `LandingPageCNAME`.
 

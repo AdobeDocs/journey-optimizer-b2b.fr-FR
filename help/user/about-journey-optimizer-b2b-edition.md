@@ -2,10 +2,10 @@
 title: Vue d’ensemble d’Adobe Journey Optimizer B2B Edition
 description: 'Découvrez Adobe Journey Optimizer B2B Edition : orchestrez des parcours de compte avec des groupes d’achat, des informations basées sur l’IA et l’intégration d’Experience Platform pour le marketing B2B.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 96%
 
 ---
 
@@ -15,17 +15,17 @@ Avec Adobe Journey Optimizer B2B Edition, vous pouvez orchestrer des parcours
 
 ## Parcours de compte avec groupes d’achat
 
-Si l’on compare Adobe Journey Optimizer B2B Edition à Marketo Engage et à Adobe Journey Optimizer Standard, la principale différence est que les parcours de compte déplacent les comptes dans le parcours, et non les personnes. Une personne associée à un compte a généralement une progression non linéaire qui repose sur la progression du compte dans le parcours, et non sur ses actions individuelles. Par exemple, lorsqu’un compte se trouve dans une phase initiale du parcours d’achat, les informations envoyées peuvent concerner les fonctionnalités générales de la solution. Plus loin dans le processus d’achat, le contenu peut cibler davantage des offres particulières ou d’autres éléments visant à conclure une vente. Une fois la solution achetée, les informations peuvent être modifiées à nouveau afin de fournir des guides pratiques, des bonnes pratiques ou des informations sur les événements à venir, ou encore du contenu sur d’autres montées en gamme. Même si une personne n’a pas interagi avec le contenu de la phase initiale, il est toujours nécessaire de la faire progresser vers la phase actuelle en fonction non pas de ses propres actions, mais des actions des autres personnes au sein de son compte ou de son groupe d’achat.
+Lorsque vous comparez les parcours de compte aux fonctionnalités de parcours de Marketo Engage et Adobe Journey Optimizer standard, la distinction essentielle est que les parcours de compte déplacent les comptes à travers le parcours, et non les personnes. Une personne associée à un compte a généralement une progression non linéaire qui repose sur la progression du compte dans le parcours, et non sur ses actions individuelles. Par exemple, lorsqu’un compte se trouve dans une phase initiale du parcours d’achat, les informations envoyées peuvent concerner les fonctionnalités générales de la solution. Plus loin dans le processus d’achat, le contenu peut cibler davantage des offres particulières ou d’autres éléments visant à conclure une vente. Une fois la solution achetée, les informations peuvent être modifiées à nouveau afin de fournir des guides pratiques, des bonnes pratiques ou des informations sur les événements à venir, ou encore du contenu sur d’autres montées en gamme. Même si une personne n’a pas interagi avec le contenu de la phase initiale, il est toujours nécessaire de la faire progresser vers la phase actuelle en fonction non pas de ses propres actions, mais des actions des autres personnes au sein de son compte ou de son groupe d’achat.
 
 ## Architecture détaillée
 
-Adobe Journey Optimizer B2B Edition utilise les _Audiences de compte_ et les _Audiences de personnes_ d’Adobe Experience Platform pour alimenter un parcours de compte qui s’exécute dans Marketo Engage. Experience Platform est toujours la source de vérité pour ces données, mais l’exécution et le traitement du parcours de compte se font au sein de l’infrastructure marketing de Marketo Engage B2B. L’orchestration renvoie les données à Experience Platform en temps quasi réel grâce au connecteur source Marketo Engage - Adobe Real-Time CDP B2B Edition, qui diffuse les modifications de données de Marketo Engage vers Experience Platform.
+Adobe Journey Optimizer B2B Edition utilise les _Audiences de comptes_ et les _Audiences de personnes_ d’Adobe Experience Platform pour alimenter un parcours de compte qui s’exécute dans Marketo Engage. Experience Platform est toujours la source de vérité pour ces données, mais l’exécution et le traitement du parcours de compte se font au sein de l’infrastructure marketing de Marketo Engage B2B. L’orchestration renvoie les données à Experience Platform en temps quasi réel grâce au connecteur source Marketo Engage - Adobe Real-Time CDP B2B Edition, qui diffuse les modifications de données de Marketo Engage vers Experience Platform.
 
 ![Architecture de données détaillée](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 ### Modèle d’abonnement
 

@@ -5,10 +5,10 @@ feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait actuellement partie d’une version bêta limitée de l’architecture simplifiée"
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
+source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 1%
+source-wordcount: '1230'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Les champs de modèle de données d’expérience (XDM) sont des éléments de s
 
 Les schémas définissent des champs en fonction des classes XDM standard. Les classes XDM standard incluent le profil individuel, le compte professionnel et les événements d’expérience. Les schémas relationnels définissent également des champs qui vous permettent de modéliser des données structurées de la même manière que les bases de données relationnelles traditionnelles.
 
-Les schémas de Adobe Experience Platform (AEP) contiennent généralement de nombreux champs dans des hiérarchies complexes. La traversée des arborescences de schéma XDM prend du temps. La gestion des champs XDM rationalise la sélection des champs en affichant uniquement les champs pertinents à chaque parcours. Les administrateurs contrôlent les champs qui s’affichent pour les créateurs et créatrices de parcours. Les administrateurs définissent également les champs en lecture seule ou modifiables. Ces actions améliorent l’efficacité lors de la conception du parcours.
+Les schémas de Adobe Experience Platform (AEP) contiennent généralement de nombreux champs dans des hiérarchies complexes. La traversée des arborescences de schéma XDM prend du temps. La gestion des champs XDM rationalise la sélection des champs en affichant uniquement les champs pertinents pour vos parcours, vos groupes d’achats et votre personnalisation.  Les administrateurs et administratrices autorisent l’utilisation de ces champs dans Journey Optimizer B2B edition, y compris ceux qui sont en lecture seule ou modifiables.
 
 Les administrateurs qui comprennent XDM et collaborent avec les ingénieurs de données ou les parties prenantes de la modélisation des données de la plateforme de données client (CDP) B2B doivent suivre les étapes suivantes pour configurer les classes XDM pour [!DNL Journey Optimizer B2B Edition].
 
@@ -90,7 +90,9 @@ Lorsque vous choisissez **[!UICONTROL Champs gérés]**, la boîte de dialogue _
 
 #### Champs modifiables
 
-Avant de configurer des champs pouvant être mis à jour, ils doivent résider dans un jeu de données personnalisé. Pour une présentation du workflow du jeu de données personnalisé, voir [Création de jeux de données et ingestion de données](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} et utiliser l’option **[!UICONTROL Création d’un jeu de données à partir d’un schéma]**. Ce jeu de données est utilisé pour isoler les champs modifiables. Tous les champs pouvant être mis à jour doivent se trouver dans ce jeu de données.
+Définissez les champs pouvant être mis à jour pour choisir les champs qui peuvent être modifiés par le biais d’actions de parcours **[!UICONTROL Mettre à jour le profil de compte]** ou **[!UICONTROL Mettre à jour le profil de personne]**.
+
+Avant de configurer des champs pouvant être mis à jour, ils doivent résider dans un jeu de données personnalisé. Pour une présentation du workflow du jeu de données personnalisé, voir [Création de jeux de données et ingestion de données](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} et utiliser l’option **[!UICONTROL Création d’un jeu de données à partir d’un schéma]**. Ce jeu de données est utilisé pour isoler les champs modifiables. Tous les champs pouvant être mis à jour doivent se trouver dans ce jeu de données.
 
 >[!IMPORTANT]
 >
@@ -105,7 +107,7 @@ Créez un jeu de données pour Profil individuel et un autre pour Compte profess
 
 1. Choisissez les champs du jeu de données sélectionné.
 
-   ![&#x200B; Boîte de dialogue permettant de sélectionner des champs pouvant être mis à jour à partir des jeux de données dans la configuration de schéma XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
+   ![ Boîte de dialogue permettant de sélectionner des champs pouvant être mis à jour à partir des jeux de données dans la configuration de schéma XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer vos modifications.
 
@@ -117,7 +119,7 @@ Pour plus d’informations sur l’utilisation des champs sélectionnés pour la
 
 >[!AVAILABILITY]
 >
->Les [Schémas relationnels](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#) sont disponibles à l’[!DNL Journey Optimizer B2B Edition] dans une version à disponibilité limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence [!DNL Journey Optimizer Orchestrated Campaigns]. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs [!DNL Customer Journey Analytics], selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
+>Les [Schémas relationnels](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sont disponibles à l’[!DNL Journey Optimizer B2B Edition] dans une version à disponibilité limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence [!DNL Journey Optimizer Orchestrated Campaigns]. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs [!DNL Customer Journey Analytics], selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
 
 >[!NOTE]
 >
@@ -125,14 +127,20 @@ Pour plus d’informations sur l’utilisation des champs sélectionnés pour la
 
 Vous pouvez créer des schémas relationnels à l’aide de l’éditeur de schémas (accédez à **[!UICONTROL Gestion des données]** > **[!UICONTROL Schémas]** dans le volet de navigation de gauche).
 
+>[!BEGINSHADEBOX]
+
+**Exigences de schéma**
+
 Lors de la création d’un schéma à utiliser avec [!DNL Journey Optimizer B2B Edition], les valeurs de configuration suivantes sont requises :
 
 * Comportement : enregistrement
 * Segmentation : activée
 * Type de relation : plusieurs à un
-* Schéma de référence : compte B2B
+* Schéma de référence : [Compte B2B](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
 * Champs obligatoires : clé de Principal, clé étrangère et descripteur de version
 * Jeu de données associé : défini et mappé au schéma
+
+>[!ENDSHADEBOX]
 
 Pour sélectionner des champs de schéma relationnel à utiliser dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -154,7 +162,7 @@ Pour sélectionner des champs de schéma relationnel à utiliser dans [!DNL Jour
 
    Vous ne pouvez définir l’espace de noms qu’une seule fois et ne pouvez pas inverser cette action.
 
-   ![Espace de noms par défaut dans la boîte de dialogue Créer un espace de noms &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Espace de noms par défaut dans la boîte de dialogue Créer un espace de noms ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Examinez les champs de schéma relationnel .
 

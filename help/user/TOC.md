@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 76%
+source-wordcount: '423'
+ht-degree: 73%
 
 ---
 
@@ -15,9 +15,18 @@ ht-degree: 76%
 + [Notes de mise à jour](./release-notes/release-notes.md)
 + Commencer {#get-started}
    + [Vue d’ensemble de Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
+   + Architecture simplifiée {#simplified-architecture}
+      + [Liste de contrôle de configuration](./simplified-architecture.md)
+      + [Espaces de noms et schéma](./data/namespaces-schemas.md)
+      + [Sélection de champ XDM](./admin/xdm-field-management.md)
+      + [Événements d’expérience et champs](./admin/configure-aep-events.md)
+      + [Domaines de branding](./start/branding-domains.md)
+      + [Tracking et diffusion des e-mails](./start/email-protocols.md)
+      + [Configuration des e-mails](./start/email-setup.md)
+      + [Actions du parcours Marketo Engage](./admin/marketo-actions-connect.md)
+      + [Gestion des utilisateurs et utilisatrices](./admin/user-management.md)
+   + [Conseils d’intégration des utilisateurs](./start/get-started.md)
    + [Connexion et page d’accueil](home-page.md)
-   + [Conseils d’intégration](./start/get-started.md)
-   + [Protocoles de tracking et de messagerie e-mail](./start/email-protocols.md)
 + Assistant IA {#ai-assistant}
    + [Vue d’ensemble](./ai-assistant/ai-assistant-overview.md)
    + [Activer l’accès à l’assistant IA](./ai-assistant/enable-ai-assistant-access.md)
@@ -61,6 +70,7 @@ ht-degree: 76%
    + [Audiences Experience Platform](./audiences/account-audience-overview.md)
    + [Cibler des audiences externes](./audiences/target-external-audience.md)
    + [Audiences correspondantes du compte LinkedIn](./data/linkedin-account-matched-audiences.md)
+   + [Champs XDM par défaut](./admin/field-mapping.md)
 + Comptes {#accounts}
    + Groupes d’achat {#buying-groups}
       + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
@@ -140,13 +150,7 @@ ht-degree: 76%
    + [Tableau de bord des Parcours de compte](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
    + [Gouvernance](./admin/governance.md)
-   + [Configuration des actions Marketo](./admin/marketo-actions-connect.md)
    + [Mappage de persona](./admin/persona-mapping.md)
-   + [Gestion des utilisateurs et utilisatrices](./admin/user-management.md)
-   + Gestion des champs XDM {#xdm-field-management}
-      + [Classes XDM](admin/xdm-field-management.md)
-      + [Événements d’expérience et champs](./admin/configure-aep-events.md)
-      + [Champs XDM par défaut](./admin/field-mapping.md)
    + Canaux {#channels}
       + [Configurations des e-mails](./admin/configure-channels-emails.md)
       + [Configuration des SMS](./admin/configure-channels-sms.md)
@@ -157,4 +161,3 @@ ht-degree: 76%
       + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
       + [Données d’intention](./admin/intent-data.md)
       + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
-   + [Configuration de l’architecture simplifiée](simplified-architecture.md)

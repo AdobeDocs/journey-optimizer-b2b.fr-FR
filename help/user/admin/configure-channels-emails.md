@@ -4,10 +4,10 @@ description: Configurez les paramètres de diffusion par e-mail, les limites de 
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: cbd9117daffc3820196c1d8436af2a568e1140b7
+source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 0%
+source-wordcount: '1782'
+ht-degree: 2%
 
 ---
 
@@ -51,11 +51,11 @@ Pour passer en revue les domaines de branding, cliquez sur l’onglet **[!UICONT
 
 ![Accéder aux paramètres des domaines de branding](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Ce paramètre définit votre domaine principal pour un ou plusieurs espaces de travail dans l’instance Marketo Engage connectée. Les nouveaux e-mails utilisent ce domaine par défaut, mais les spécialistes du marketing peuvent [le remplacer pour chaque e-mail](../content/add-email.md#define-the-email-settings). Pour plus d&#39;informations sur la définition du domaine de marque par défaut, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Ce paramètre définit votre domaine principal pour un ou plusieurs espaces de travail dans l’instance Marketo Engage connectée. Les nouveaux e-mails utilisent ce domaine par défaut, mais les spécialistes du marketing peuvent [le remplacer pour chaque e-mail](../content/add-email.md#define-the-email-settings). Pour plus d&#39;informations sur la définition du domaine de marque par défaut, consultez la documentation de Marketo Engage [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Si vous commercialisez plusieurs marques et souhaitez que chacune d’elles possède ses propres liens de tracking de marque, vous pouvez ajouter un domaine de marque supplémentaire. Pour plus d&#39;informations sur l&#39;ajout de plusieurs domaines de branding, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Si vous commercialisez plusieurs marques et souhaitez que chacune d’elles possède ses propres liens de tracking de marque, vous pouvez ajouter un domaine de marque supplémentaire. Pour plus d&#39;informations sur l&#39;ajout de plusieurs domaines de branding, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Options d’en-tête personnalisé] {#custom-header-options}
 
@@ -75,7 +75,23 @@ Les limites de communication contrôlent le nombre d’e-mails qu’un contact r
 
 Par exemple, avec une limite définie de cinq e-mails par jour, le système garantit qu’un contact ne reçoit pas un sixième e-mail au cours de la journée en supprimant le sixième e-mail. Avec les limites de communication partagées entre Journey Optimizer B2B edition et Marketo Engage, les règles de limite de communication sont définies dans un emplacement. Le sixième e-mail est supprimé, quelle que soit l’action d’envoi provenant de Journey Optimizer B2B edition ou de Marketo Engage.
 
-Toutes les instances de production Marketo Engage ont des limites de communication définies par défaut (pour plus d’informations, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). Pour utiliser les limites de communication partagées, définissez les règles dans Journey Optimizer B2B edition et étendez le partage de ces limites aux codes Marketo Munchkin.
+Toutes les instances de production Marketo Engage ont des limites de communication définies par défaut (pour plus d’informations, consultez la documentation de Marketo Engage [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). Vous pouvez utiliser des limites de communication distinctes pour Journey Optimizer B2B edition et votre instance Marketo Engage de production. Pour utiliser les limites de communication partagées, définissez les règles dans Journey Optimizer B2B edition et étendez le partage de ces limites aux codes Marketo Munchkin.
+
+<!-- internal info only 
+
+Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
+
+For example, when:
+
+* The munchkinId of the Journey Optimizer B2B Edition instance is `JKL-567-MNO`.
+* The munchkinId of the Marketo Engage instance is `ABC-123-DEF` and it is in the SJ datacenter
+
+The API request should look similar to the following:
+
+```
+curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
+```
+-->
 
 >[!IMPORTANT]
 >
@@ -151,7 +167,7 @@ L’administrateur réseau doit ajouter la ligne suivante à vos entrées DNS :
 
 Dans cette entrée, remplacez `[domain]` par le domaine principal de votre site web (tel que `company.com`) et `[corpIP]` par l’adresse IP du serveur de messagerie de votre entreprise (tel que `255.255.255.255`). Si vous envoyez des e-mails provenant de plusieurs domaines via Marketo Engage, ajoutez cette entrée pour chaque domaine sur une seule ligne.
 
-Si votre entrée DNS contient déjà un enregistrement SPF, ajoutez-y les éléments suivants :
+Si vous avez déjà un enregistrement SPF existant dans l’entrée DNS, ajoutez-y ce qui suit :
 
 `include:mktomail.com`
 
@@ -194,4 +210,4 @@ Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Clique
 >
 >Pour accéder à ces paramètres et les modifier dans Adobe Marketo Engage, vous devez disposer des autorisations d’administrateur de produit.
 
-Pour plus d&#39;informations sur la configuration des options d&#39;activité des robots, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Pour plus d&#39;informations sur la configuration des options d&#39;activité des robots, consultez la documentation de Marketo Engage [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
