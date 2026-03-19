@@ -19,7 +19,7 @@ Une fois qu’un administrateur a terminé les [tâches de configuration](../sim
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 En tant que spécialiste du marketing ou _spécialiste en parcours de compte_, vous êtes responsable de la conception des parcours et de l’élaboration du contenu. Vous pouvez commencer à utiliser Adobe Journey Optimizer B2B Edition une fois que l’administration système et l’ingénierie des données ont préparé votre environnement et vous ont accordé l’accès.
 
