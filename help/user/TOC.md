@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
+source-git-commit: 7ebf73a1cb34143d20a49f5d1ba82568718e0ca4
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 73%
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 73%
       + [Configuration des e-mails](./start/email-setup.md)
       + [Actions du parcours Marketo Engage](./admin/marketo-actions-connect.md)
       + [Gestion des utilisateurs et utilisatrices](./admin/user-management.md)
-   + [Conseils d’intégration des utilisateurs](./start/get-started.md)
+   + [Intégration des utilisateurs](./start/get-started.md)
    + [Connexion et page d’accueil](home-page.md)
 + Assistant IA {#ai-assistant}
    + [Vue d’ensemble](./ai-assistant/ai-assistant-overview.md)
