@@ -219,4 +219,4 @@ Lorsque vous sélectionnez le nœud, cliquez sur le numéro pour afficher la lis
 
 ## Vidéo de présentation du parcours de compte {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443209/?captions=fre_fr&learn=on)
