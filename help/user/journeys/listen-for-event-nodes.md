@@ -152,7 +152,7 @@ _Pour inclure un événement d’expérience dans votre parcours :_
 
 1. Sélectionnez l’événement.
 
-   Pour un parcours de compte _**, cliquez sur la flèche du sélecteur**[!UICONTROL  Sélectionner un événement de personne ]**et faites défiler le menu vers la section**[!UICONTROL  Adobe Experience Platform ]**.**_
+   Pour un parcours de compte _&#x200B;**, cliquez sur la flèche du sélecteur**&#x200B;[!UICONTROL &#x200B; Sélectionner un événement de personne &#x200B;]&#x200B;**et faites défiler le menu vers la section**&#x200B;[!UICONTROL &#x200B; Adobe Experience Platform &#x200B;]&#x200B;**.**&#x200B;_
 
    ![Écouter un événement d’expérience](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
 
