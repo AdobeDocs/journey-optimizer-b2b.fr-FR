@@ -30,7 +30,7 @@ Le _mode sombre_ permet à un client de messagerie ou à une application de supp
 
 ![Diagramme de concept des modes clair et sombre présentant le rendu du contenu dans les thèmes clair et sombre](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-Lorsque vous [créez le contenu de votre e-mail](./email-authoring.md) dans l’espace de conception visuelle [!DNL Journey Optimizer B2B Edition], vous pouvez passer à la vue _**[!UICONTROL Mode sombre]**_. Dans cette vue, vous pouvez également définir des paramètres personnalisés spécifiques pour la prise en charge des clients de messagerie lorsque leur mode sombre est activé.
+Lorsque vous [créez le contenu de votre e-mail](./email-authoring.md) dans l’espace de conception visuelle [!DNL Journey Optimizer B2B Edition], vous pouvez passer à la vue _&#x200B;**[!UICONTROL Mode sombre]**&#x200B;_. Dans cette vue, vous pouvez également définir des paramètres personnalisés spécifiques pour la prise en charge des clients de messagerie lorsque leur mode sombre est activé.
 
 ## Remarques concernant le client de messagerie
 
