@@ -4,9 +4,10 @@ description: Analysez le comportement des visiteurs et visiteuses web à l’aid
 feature: Dashboards, Landing Pages
 level: Beginner
 role: User
-source-git-commit: 8192a9619ca0126125c32c2976482af316c1fc6a
+exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 3%
 
 ---
@@ -79,10 +80,10 @@ Cette visualisation affiche le nombre de visiteurs segmentés par secteur d’ac
 
 ## Utiliser les données
 
-Pour utiliser les données, utilisez le menu _Plus_ (**...**) en haut à droite de chaque graphique et choisissez **[!UICONTROL Afficher plus]** pour afficher des données et des informations étendues.
+Pour utiliser les données, utilisez le _Plus_ (**...**) dans le menu en haut à droite de chaque graphique, puis choisissez **[!UICONTROL Afficher plus]** pour afficher des données et des informations étendues.
 
 Le pop-up affiché comprend un graphique et un tableau qui montrent la répartition des données.
 
 Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite du tableau de données.
 
-![Le tableau des pages les plus vues Afficher plus de fenêtre contextuelle - Cliquez sur Télécharger CSV](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}
+![Tableau des pages les plus vues Voir plus de fenêtre contextuelle - Cliquez sur Télécharger CSV](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}
