@@ -1,5 +1,5 @@
 ---
-title: Score d’alignement des marques
+title: 'Marque : évaluation de l’alignement'
 description: Évaluez le contenu des e-mails avec le score d’alignement de la marque - validez les couleurs, les polices, les logos et le style d’écriture par rapport aux directives de la marque dans Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 23%
+source-wordcount: '472'
+ht-degree: 26%
 
 ---
 
@@ -46,9 +46,9 @@ L’évaluation et les scores d’alignement de la marque vous permettent de cr�
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible en version bêta privée et une disponibilité progressive est prévue pour tous les clients dans les prochaines versions.
+>Cette fonctionnalité est actuellement disponible en version bêta publique.
 >
->Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités optimisées par l’IA dans Adobe Journey Optimizer B2B edition. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités optimisées par l’IA dans Adobe Journey Optimizer B2B edition. Pour en savoir plus, contactez votre représentant Adobe.
 >
 >Consultez [Autorisations liées aux marques](./brands-overview.md#brand-related-permissions) pour plus d’informations sur la manière dont les administrateurs et administratrices de produit peuvent activer ces fonctionnalités.
 
@@ -58,7 +58,7 @@ Une fois votre marque bien définie et publiée, évaluez son score d’aligneme
 
 1. Après avoir créé le contenu de l’e-mail, cliquez sur l’icône _Alignement des marques_ ( ![Icône d’alignement des marques](../assets/do-not-localize/icon-brand-compliance.svg) ) à droite pour ouvrir le panneau de droite _Alignement des marques_ dans l’espace de conception d’e-mail.
 
-   La [&#x200B; marque par défaut &#x200B;](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
+   La [ marque par défaut ](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
 
    ![Accéder aux outils d’alignement des marques](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 

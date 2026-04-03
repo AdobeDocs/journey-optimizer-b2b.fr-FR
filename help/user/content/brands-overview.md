@@ -3,15 +3,13 @@ title: Utilisation des marques pour la génération de contenu et la cohérence
 description: 'Définissez des directives de marque pour une création de contenu cohérente : conservez l’identité visuelle, l’alignement des messages et une voix authentique dans Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 9%
+source-wordcount: '868'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 9%
 >title="Sélectionner votre marque"
 >abstract="Choisissez votre marque pour vous assurer que le contenu généré par l’IA est adapté aux spécifications et aux directives de votre marque."
 
-Les marques aident à définir votre _identité de marque_ et jouent un rôle essentiel pour assurer une création de contenu cohérente et efficace qui représente précisément votre identité, vos valeurs et votre message de marque. En adhérant à des styles de marque bien définis, les entreprises peuvent maintenir une présence de marque cohérente et reconnaissable sur l’ensemble des canaux et points de contact, et renforcer leur reconnaissance de marque, leur confiance et leur fidélité auprès de leurs audiences cibles.
+Les marques aident à définir votre _identité de marque_ et jouent un rôle essentiel pour assurer une création de contenu cohérente et efficace qui représente précisément votre identité, vos valeurs et votre message de marque. En adhérant à des styles de marque bien définis, les entreprises peuvent conserver une présence des marques cohérente et reconnaissable entre les canaux et les points de contact, et renforcer leur reconnaissance de marque, leur confiance et leur fidélité auprès de leurs audiences cibles.
 
 +++Avantages de l’utilisation des marques
 
@@ -47,9 +45,9 @@ Votre entreprise peut tirer parti d’une marque pour créer et évaluer du cont
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible en version bêta privée et une disponibilité progressive est prévue pour tous les clients dans les prochaines versions.
+>Cette fonctionnalité est actuellement disponible en version bêta publique.
 >
->Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités optimisées par l’IA dans Adobe Journey Optimizer B2B edition. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités optimisées par l’IA dans Adobe Journey Optimizer B2B edition. Pour en savoir plus, contactez votre représentant Adobe.
 
 Une marque définie constitue la _source de vérité_ que votre équipe créative peut utiliser lorsqu’elle crée du contenu visuel ou écrit. Lorsque ces directives sont compilées et que les ressources de la marque sont partagées, n’importe quel membre de l’équipe ou collaborateur peut créer du contenu de marque pour votre produit. Pour activer la création de contenu de marque dans Journey Optimizer B2B edition, procédez comme suit :
 
@@ -95,7 +93,7 @@ Les administrateurs de produit peuvent permettre l’accès aux fonctionnalités
 
    * Saisissez le nom d’utilisateur et l’adresse e-mail, ou choisissez un utilisateur existant dans la liste.
 
-     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
