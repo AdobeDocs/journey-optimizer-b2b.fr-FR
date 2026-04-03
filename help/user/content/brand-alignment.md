@@ -58,7 +58,7 @@ Une fois votre marque bien définie et publiée, évaluez son score d’aligneme
 
 1. Après avoir créé le contenu de l’e-mail, cliquez sur l’icône _Alignement des marques_ ( ![Icône d’alignement des marques](../assets/do-not-localize/icon-brand-compliance.svg) ) à droite pour ouvrir le panneau de droite _Alignement des marques_ dans l’espace de conception d’e-mail.
 
-   La [ marque par défaut ](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
+   La [&#x200B; marque par défaut &#x200B;](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
 
    ![Accéder aux outils d’alignement des marques](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
