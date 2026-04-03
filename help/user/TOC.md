@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 8113b0a7e081a95b45e46060502fe24263e63364
+source-git-commit: 74bfcc9cc2edae97133e54f076e43329c1399e5c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 99%
+source-wordcount: '429'
+ht-degree: 98%
 
 ---
 
@@ -52,6 +52,7 @@ ht-degree: 99%
    + [Détails du parcours](./journeys/journey-details.md)
 + Contenu de parcours {#journey-content}
    + [Canal SMS](./content/sms-authoring.md)
+   + [Canal WhatsApp](./content/whatsapp-authoring.md)
    + Canal e-mail {#email-channel}
       + [Ajouter un e-mail](./content/add-email.md)
       + [Optimisation de l’heure d’envoi](./content/email-send-time-optimization.md)
@@ -155,6 +156,7 @@ ht-degree: 99%
    + Canaux {#channels}
       + [Configurations des e-mails](./admin/configure-channels-emails.md)
       + [Configuration des SMS](./admin/configure-channels-sms.md)
+      + [Configurations WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configurations du canal web (Beta)](./admin/configure-channels-web.md)
       + [Paramètres de la page de destination (Beta)](./admin/landing-page-settings.md)
       + [Configurer des trains de données pour la collecte d’événements](./data/aep-event-collection.md)
