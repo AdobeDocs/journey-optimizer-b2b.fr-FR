@@ -63,7 +63,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 | Type | Conditions |
 | ---- | --------- |
 | [!UICONTROL Attributs de personne] | Attributs du [profil de la personne](../admin/field-mapping.md#xdm-business-person-attributes), notamment : <li>Ville <li>Pays <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite <li>Fonction <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État |
-| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ne possède pas d&#39;enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans les [Schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas). |
+| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ne possède pas d&#39;enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans les [Schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtres spéciaux | <li>Membre de la liste (obsolète) <li>Membre du programme (obsolète) |
 | Données d’intention | <li>Intention de la catégorie <li>Intention du produit <li><br/> d’intention du mot-clé (voir [_Données d’intention_](../admin/intent-data.md)) |
 
@@ -146,7 +146,7 @@ Voir la section [Scores d’exhaustivité](./completeness-scores.md) pour obteni
 
 1. Dans la boîte de dialogue, modifiez la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini, le cas échéant.
 
-   Vous pouvez saisir la valeur ou cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
+   Vous pouvez saisir la valeur ou cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Modèle de rôles - bouton Paramètres de score d&#39;exhaustivité](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
