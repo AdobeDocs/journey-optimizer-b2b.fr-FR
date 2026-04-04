@@ -93,7 +93,7 @@ Les administrateurs de produit peuvent permettre l’accès aux fonctionnalités
 
    * Saisissez le nom d’utilisateur et l’adresse e-mail, ou choisissez un utilisateur existant dans la liste.
 
-     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
