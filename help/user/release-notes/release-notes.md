@@ -3,9 +3,9 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '4894'
+source-wordcount: '4896'
 ht-degree: 70%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2026.3
 
@@ -27,7 +27,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Fonctionnalité | Pages de destination | Les marketeurs peuvent désormais créer et publier des pages de destination dans Journey Optimizer B2B edition pour prendre en charge les parcours et les programmes _(précédemment une fonctionnalité de programme Beta)_ |
 | Fonctionnalité | Formulaires | Les marketeurs peuvent désormais créer et publier des composants de formulaire réutilisables pour activer l’envoi de données à partir des pages de destination créées et publiées dans Journey Optimizer B2B edition _(précédemment une fonctionnalité de programme Beta)_ |
 | Fonctionnalité | Canal WhatsApp | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} les marketeurs peuvent désormais envoyer des messages WhatsApp directement à partir des parcours de compte via [!DNL Meta Cloud API]. Cette fonctionnalité permet une intégration transparente de la messagerie WhatsApp pour prendre en charge les canaux de contenu parcours. [En savoir plus](../admin/configure-channels-whatsapp.md) |
-| Fonctionnalité | Prise en charge de modèles d’IA générative [!DNL Firefly] et personnalisés | Les équipes marketing peuvent désormais activer l’intégration de modèles d’[!DNL Firefly] standard et personnalisés, ainsi que de modèles d’image tiers approuvés (tels que [!DNL NanoBanana]). Les concepteurs d’e-mails peuvent sélectionner le meilleur modèle pour chaque cas d’utilisation : [!DNL Firefly] standard pour les besoins généraux, [!DNL Firefly] personnalisés pour la génération sur marque ou modèles tiers approuvés pour les scénarios spécialisés ou expérimentaux. |
+| Fonctionnalité | Prise en charge de modèles d’IA générative [!DNL Firefly] et personnalisés | Les équipes marketing peuvent désormais activer l’intégration de modèles d’[!DNL Firefly] standard et personnalisés, ainsi que de modèles d’image tiers approuvés (tels que [!DNL NanoBanana]). Les concepteurs d’e-mails peuvent sélectionner le meilleur modèle pour chaque cas d’utilisation : [!DNL Firefly] standard pour les besoins généraux, [!DNL Firefly] personnalisés pour la génération sur marque ou modèles tiers approuvés pour les scénarios spécialisés ou expérimentaux. [En savoir plus](../content/generative-ai-models.md) |
 | Fonctionnalité | Actions externes personnalisées pour parcours | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} les développeurs peuvent désormais utiliser des API pour créer des intégrations avec leurs systèmes propriétaires. Grâce à ces intégrations personnalisées, les spécialistes marketing peuvent ajouter des nœuds _Action externe_ et _Chemin de partage externe_ pour effectuer des requêtes sortantes vers des services externes lors de l’exécution du parcours de compte. |
 | Fonctionnalité | Marques | (Beta) Les équipes marketing peuvent maintenir la cohérence de la marque dans leurs ressources de contenu d’e-mail en stockant et en gérant les profils de marque. En ajoutant des ressources, telles que des couleurs, des polices, des logos, des thèmes, du contenu visuel et des directives de conformité, ils peuvent utiliser le profil de marque pour la création de contenu d’IA générative. Ils peuvent également mesurer l’alignement de la marque pour garantir sa conformité. [En savoir plus](../content/brands-overview.md) |
 | Amélioration | Envoyer un e-mail - Optimisation de l’heure d’envoi | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} pour les nœuds d’action _Envoyer un e-mail_ en parcours personne, vous pouvez utiliser les options _Optimisation de l’heure d’envoi_ pour personnaliser le timing de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir. [En savoir plus](../content/email-send-time-optimization.md) |

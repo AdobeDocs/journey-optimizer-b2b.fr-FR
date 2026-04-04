@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 12%
 >title="Sélectionner votre marque"
 >abstract="Choisissez votre marque pour vous assurer que le contenu généré par l’IA est adapté aux spécifications et aux directives de votre marque."
 
-Les marques aident à définir votre _identité de marque_ et jouent un rôle essentiel pour assurer une création de contenu cohérente et efficace qui représente précisément votre identité, vos valeurs et votre message de marque. En adhérant à des styles de marque bien définis, les entreprises peuvent conserver une présence des marques cohérente et reconnaissable entre les canaux et les points de contact, et renforcer leur reconnaissance de marque, leur confiance et leur fidélité auprès de leurs audiences cibles.
+Les marques aident à définir une _identité de marque_ et jouent un rôle essentiel pour assurer une création de contenu cohérente et efficace qui représente précisément votre identité, vos valeurs et votre message de marque. En adhérant à des styles de marque bien définis, les entreprises peuvent conserver une présence des marques cohérente et reconnaissable entre les canaux et les points de contact, et renforcer leur reconnaissance de marque, leur confiance et leur fidélité auprès de leurs audiences cibles.
 
 +++Avantages de l’utilisation des marques
 
@@ -64,8 +64,8 @@ Une marque définie constitue la _source de vérité_ que votre équipe créativ
 1. Lorsqu’elle est prête à l’emploi, [publiez la marque](./brands-manage-create.md#publish-the-brand).
 
 1. Utilisez la marque pour [alignement du contenu des e-mails](./brand-alignment.md).
-<!-- 
-1. Use the brand to generate content. -->
+
+1. Utilisez la marque pour [générer le contenu de l’e-mail](./ai-assistant-emails.md).
 
 >[!BEGINSHADEBOX]
 
@@ -93,7 +93,7 @@ Les administrateurs de produit peuvent permettre l’accès aux fonctionnalités
 
    * Saisissez le nom d’utilisateur et l’adresse e-mail, ou choisissez un utilisateur existant dans la liste.
 
-     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
