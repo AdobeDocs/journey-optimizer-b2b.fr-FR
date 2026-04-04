@@ -8,7 +8,7 @@ exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
 source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -32,12 +32,12 @@ Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/i
 
 Sélectionnez autant de valeurs pour chaque attribut que vous souhaitez utiliser pour filtrer les données et cliquez sur **[!UICONTROL Appliquer]**.
 
-## [!UICONTROL Pages vues en haut] {#top-page-views}
+## [!UICONTROL Pages les plus vues] {#top-page-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_top_page_views"
 >title="Pages les plus vues"
->abstract="Pages les plus consultées de votre site Web, ce qui vous aide à identifier le contenu qui génère le plus de trafic."
+>abstract="Les pages les plus fréquemment consultées de votre site web, ce qui vous aide à identifier le contenu qui génère le plus de trafic."
 
 Ce tableau présente les 10 pages web les plus consultées et vous aide à identifier le contenu qui interpelle le plus les visiteurs. Les données incluent :
 
@@ -50,26 +50,26 @@ Ce tableau présente les 10 pages web les plus consultées et vous aide à ident
 
 ![Tableau des pages les plus vues](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
 
-## [!UICONTROL Pages vues par région de compte] {#page-views-by-region}
+## [!UICONTROL Pages vues par zone géographique de compte] {#page-views-by-region}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_region"
 >title="Pages vues par zone géographique des comptes"
->abstract="Répartition des visiteurs web segmentée par la zone géographique des comptes associés."
+>abstract="Répartition des visiteurs et visiteuses web segmentée par zone géographique des comptes associés."
 
 Cette visualisation affiche le nombre de visiteurs segmenté par la région du compte. Il illustre la manière dont le trafic web varie selon les différentes régions géographiques, ce qui vous permet d’adapter le contenu et les campagnes aux audiences régionales. Pointez sur une barre du graphique pour afficher les détails, notamment :
 
 * Nom de la région du compte
 * Nombre de pages vues
 
-![Pages vues par région de compte](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
+![Pages vues par zone géographique de compte](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
 
 ## [!UICONTROL Pages vues par secteur de compte] {#page-views-by-industry}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_industry"
 >title="Pages vues par secteur des comptes"
->abstract="Distribution des visiteurs web segmentée par la classification de secteur des comptes associés."
+>abstract="Répartition des visiteurs et visiteuses web segmentée selon la classification sectorielle des comptes associés."
 
 Cette visualisation affiche le nombre de visiteurs segmentés par secteur d’activité du compte. Utilisez ce graphique pour comprendre les variations du trafic web entre les différents secteurs d’activité, ce qui vous permet de développer des stratégies de contenu spécifiques au secteur. Pointez sur une barre du graphique pour afficher les détails, notamment :
 
@@ -80,10 +80,10 @@ Cette visualisation affiche le nombre de visiteurs segmentés par secteur d’ac
 
 ## Utiliser les données
 
-Pour utiliser les données, utilisez le _Plus_ (**...**) dans le menu en haut à droite de chaque graphique, puis choisissez **[!UICONTROL Afficher plus]** pour afficher des données et des informations étendues.
+Pour utiliser les données, utilisez le _Plus_ (**...**) dans le menu en haut à droite de chaque graphique, puis choisissez **[!UICONTROL Afficher plus]** pour afficher les données et informations étendues.
 
 Le pop-up affiché comprend un graphique et un tableau qui montrent la répartition des données.
 
 Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite du tableau de données.
 
-![Tableau des pages les plus vues Voir plus de fenêtre contextuelle - Cliquez sur Télécharger CSV](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}
+![Le tableau des pages les plus vues Afficher plus de fenêtre contextuelle - Cliquez sur Télécharger CSV](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}

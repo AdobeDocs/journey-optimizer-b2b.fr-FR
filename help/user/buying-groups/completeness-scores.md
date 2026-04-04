@@ -7,7 +7,7 @@ exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
 source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
 source-wordcount: '895'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_completeness_score"
 >title="Score d’exhaustivité"
->abstract="Les scores d&#39;exhaustivité reflètent la mesure dans laquelle l&#39;appartenance à un groupe d&#39;achat est alignée pour un groupe d&#39;achat prêt pour les ventes."
+>abstract="Les scores d’exhaustivité reflètent la façon dont l’appartenance au groupe d’achat est alignée pour un groupe d’achat prêt pour les ventes."
 
 Un score d&#39;exhaustivité est un pourcentage qui indique dans quelle mesure un groupe d&#39;achats est renseigné avec les membres requis dans ses rôles définis. Ces scores sont basés sur les seuils des membres du rôle que vous configurez dans le modèle de rôles et sur le nombre réel de membres affectés à chaque rôle dans le groupe d&#39;achat. Les scores obtenus aident les professionnels du marketing à évaluer leur niveau de préparation aux ventes et à identifier les écarts dans la composition du groupe d’achats. Le calcul du score se produit automatiquement lorsque l&#39;appartenance à un groupe d&#39;achat change.
 
@@ -24,9 +24,9 @@ Un score d&#39;exhaustivité est un pourcentage qui indique dans quelle mesure u
 
 Il existe deux types de scores d&#39;exhaustivité :
 
-* **Score de complétion du groupe d&#39;achat** - Le score de complétion du groupe d&#39;achat est un pourcentage compris entre 0 % et 100 % et représente la complétion globale du groupe d&#39;achat en fonction des calculs de complétion au niveau du rôle.
+* **Score d&#39;exhaustivité du groupe d&#39;achat** - Le score d&#39;exhaustivité du groupe d&#39;achat est un pourcentage compris entre 0 % et 100 % et représente l&#39;exhaustivité globale du groupe d&#39;achat en fonction des calculs d&#39;exhaustivité au niveau du rôle.
 
-  Le score d’exhaustivité du groupe d’achats est affiché sur la page [Détails du groupe d’achats](./buying-group-details.md). Ce score permet de voir en un coup d’œil si le groupe d’achat dispose des parties prenantes requises pour l’engagement commercial.
+  Le score d&#39;exhaustivité du groupe d&#39;achats est affiché sur la page [Détails du groupe d&#39;achats](./buying-group-details.md). Ce score permet de voir en un coup d’œil si le groupe d’achat dispose des parties prenantes requises pour l’engagement commercial.
 
 * **Score d&#39;exhaustivité du rôle** - Le score d&#39;exhaustivité du rôle est un pourcentage pour chaque rôle individuel au sein d&#39;un groupe d&#39;achats, en fonction du nombre de membres affectés à ce rôle.
 
@@ -64,19 +64,19 @@ The buying group completeness score is available to use for filtering in [journe
 
 >[!ENDSHADEBOX] -->
 
-## Calcul de l&#39;exhaustivité des rôles {#role-completeness-calculation}
+## Calcul d’exhaustivité de rôle {#role-completeness-calculation}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_role_completeness_calculation"
->title="Calcul de l&#39;exhaustivité des rôles"
->abstract="Les scores de complétion des rôles sont calculés sous la forme d&#39;un pourcentage en fonction du nombre de membres affectés à un rôle."
+>title="Calcul d’exhaustivité de rôle"
+>abstract="Les scores d’exhaustivité de rôle sont calculés en pourcentage en fonction du nombre de personnes membres affectées à un rôle."
 
-Journey Optimizer B2B edition calcule le score d&#39;exhaustivité pour chaque rôle de groupe d&#39;achats individuel sous la forme d&#39;un pourcentage. Basez ce score sur le nombre de membres affectés au rôle, par rapport au nombre [requis dans le modèle de rôles](./buying-groups-role-templates.md#change-the-completeness-score-settings) pour l’achèvement.
+Journey Optimizer B2B edition calcule le score d&#39;exhaustivité pour chaque rôle de groupe d&#39;achats individuel sous la forme d&#39;un pourcentage. Basez ce score sur le nombre de membres affectés au rôle, par rapport au nombre [requis dans le modèle de rôles](./buying-groups-role-templates.md#change-the-completeness-score-settings) pour l&#39;achèvement.
 
 Le calcul de l&#39;exhaustivité des rôles est un pourcentage linéaire compris entre zéro et le seuil spécifié (membres requis) :
 
-* Si le nombre de membres affectés est de **zéro**, l&#39;exhaustivité du rôle est de **0 %**.
-* Si le nombre de membres affectés est de **égal ou supérieur au seuil**, l&#39;exhaustivité du rôle est de **100 %**.
+* Si le nombre de membres affectés est **zéro**, l&#39;exhaustivité du rôle est de **0 %**.
+* Si le nombre de membres affectés est **égal ou supérieur au seuil**, l&#39;exhaustivité du rôle est de **100 %**.
 * Si le nombre de membres affectés est **compris entre un et le seuil**, la complétion est calculée proportionnellement.
 
 ### Formule de complétion du rôle
@@ -90,7 +90,7 @@ Role Completeness % = ((Assigned Members - Threshold) / (Threshold)) × 100
 Où :
 
 * `Assigned Members` = nombre actuel de membres dans le rôle
-* `Threshold` = valeur obligatoire membres définie dans le modèle de rôles
+* `Threshold` = valeur requise pour les membres définie dans le modèle de rôles
 
 ### Exemples d&#39;exhaustivité des rôles
 
@@ -126,7 +126,7 @@ Buying Group Completeness % = Σ(Role Completeness %) / Number of defined roles
 Où :
 
 * `Role Completeness %` = pourcentage d’exhaustivité des rôles individuels (0-100 %)
-* `Σ` = somme de tous les rôles du groupe d&#39;achat
+* `Σ` = Somme de tous les rôles du groupe d&#39;achat
 
 <!--
 
