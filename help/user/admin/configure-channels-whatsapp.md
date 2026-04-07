@@ -4,7 +4,7 @@ description: Connectez votre compte professionnel WhatsApp via l'API Meta Cloud 
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-source-git-commit: ce039c5e2a7dc836b434d9ab373ebdfe1d19fc3b
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 18%
@@ -69,10 +69,10 @@ Effectuez les tâches suivantes :
 1. Configurez vos informations d’identification dʼAPI comme indiqué ci-dessous :
 
    * **[!UICONTROL Nom]** - Saisissez un nom unique pour les informations d’identification
-   * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d&#39;informations, consultez la documentation de Meta [&#128279;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * **[!UICONTROL Identifiant de compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d&#39;informations, consultez la documentation de Meta [&#128279;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d&#39;informations, consultez la documentation de Meta [](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
+   * **[!UICONTROL Identifiant de compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d&#39;informations, consultez la documentation de Meta [](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Paramètres WhatsApp - Informations d’identification de l’API &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Paramètres WhatsApp - Informations d’identification de l’API ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
@@ -108,7 +108,7 @@ Si vous rencontrez une erreur HTTP 500 lors de la configuration des informations
 1. Validez les champs du compte professionnel - Vérifiez que tous les champs obligatoires sont corrects :
 
    * Jeton API : doit être un jeton d’accès [Meta valide avec les autorisations appropriées](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * Identifiant du compte professionnel - Doit correspondre exactement à votre [identifiant du compte professionnel &#x200B;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * Identifiant du compte professionnel - Doit correspondre exactement à votre [identifiant du compte professionnel ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
 1. Tester les informations d’identification en externe - Vérifiez vos informations d’identification directement avec l’API Meta pour confirmer que le problème concerne bien les informations d’identification ou la gestion des informations d’identification Journey Optimizer B2B edition.
 
@@ -212,11 +212,11 @@ Une configuration de canal définit les paramètres de diffusion utilisés lors 
 
 1. Pour **[!UICONTROL Sélectionner le canal]**, choisissez `WhatsApp`.
 
-<!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration.
+   <!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration. -->
 
-   Make sure to include all applicable marketing actions to ensure compliance with customer preferences.
+   <!-- Make sure to include all applicable marketing actions to ensure compliance with customer preferences. -->
 
-   All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
+   <!-- All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 
 1. Sous _[!UICONTROL Paramètres WhatsApp]_, sélectionnez la **[!UICONTROL Configuration WhatsApp]** (informations d’identification de l’API) que vous avez créée lors de la tâche précédente.
 

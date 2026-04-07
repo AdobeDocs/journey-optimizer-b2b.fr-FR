@@ -4,9 +4,9 @@ description: Suivez la progression du groupe d’achats avec les scores d’ach�
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Cette visualisation illustre la répartition des groupes d’achat en fonction d
 
 Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-![Visualisation du score d’engagement du groupe d’achats](./assets/buying-group-completion-score-chart.png){width="500"}
+![Visualisation du score d’engagement du groupe d’achats](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Groupes d’achat par intérêt de la solution
 
@@ -74,7 +74,7 @@ Sélectionnez autant de valeurs pour chaque attribut que vous souhaitez utiliser
 
 ## Utiliser les données
 
-Pour utiliser les données, utilisez le menu _Plus_ (**...**) en haut à droite de chaque graphique.
+Pour utiliser les données, utilisez le _Plus_ (**...**) dans le coin supérieur droit de chaque graphique.
 
 ### [!UICONTROL Exploration amont]
 
@@ -84,7 +84,7 @@ Choisissez **[!UICONTROL Analyser en amont]** pour une analyse approfondie des s
 
 Les filtres globaux appliqués au tableau de bord sont conservés. Cliquez sur l’icône _Filtre_ ( ![Icône Filtre](../assets/do-not-localize/icon-filter.svg) ) en haut à gauche pour [modifier les filtres d’attribut](#filter-the-data) pour la vue d’exploration amont.
 
-Vous pouvez cliquer sur le menu _Plus_ (**...**) en haut à droite et choisir **[!UICONTROL Afficher plus]** pour [afficher les données étendues](#view-more).
+Cliquez sur le bouton _Plus_ (**...**) dans le menu supérieur droit et choisissez **[!UICONTROL Afficher plus]** pour [afficher les données étendues](#view-more).
 
 ### [!UICONTROL En savoir plus]
 

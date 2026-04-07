@@ -4,9 +4,9 @@ description: Créez des SMS pour les parcours de compte avec la personnalisation
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 9a97682590d779c8b5f5b385efd912ee1f56ed31
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1328'
 ht-degree: 4%
 
 ---
@@ -78,8 +78,8 @@ Vous pouvez créer un message de 1 600 caractères maximum, tous les 160 caract�
 1. Après avoir saisi le texte de votre message, cliquez sur l’icône _Lien_ ( ![icône Lien](../assets/do-not-localize/icon-link.svg) ) à droite de la zone de message texte.
 
 1. Saisissez l’**[!UICONTROL URL]** du lien.
-<!--    
-1. In the dialog, choose the type of URLs to link:
+
+<!-- 1. In the dialog, choose the type of URLs to link:
 
    * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
 
@@ -94,7 +94,7 @@ Vous pouvez créer un message de 1 600 caractères maximum, tous les 160 caract�
      >[!NOTE]
      >
      >Lorsque vous autorisez le suivi mais désactivez _[!UICONTROL Inclure mkt_tok]_, l’URL de destination n’inclut pas le paramètre de chaîne de requête `mkt_tok` après la redirection. Ce paramètre est utilisé par les pages de destination et Munchkin de Marketo Engage pour s’assurer du suivi des activités des personnes (par exemple lorsqu’une personne se désinscrit d’un e-mail). Ne désactivez pas cette option, sauf si le paramètre entraîne des problèmes sur votre site web.<br/>
-     >Pour plus d’informations sur l’utilisation des codes de suivi Munchkin sur votre site web, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Pour plus d’informations sur l’utilisation des codes de suivi Munchkin sur votre site web, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Boîte de dialogue Ajouter un lien pour un SMS](./assets/sms-add-link-dialog.png){width="470"}
 

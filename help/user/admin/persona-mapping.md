@@ -3,10 +3,11 @@ title: Mappage de persona
 description: Découvrez comment configurer le mappage des rôles pour le marketing B2B. Mappez les attributs de personne dans Journey Optimizer B2B edition pour créer des modèles de rôle et optimiser le ciblage des groupes d’achats.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ Définition des rôles et limites d’utilisation :
 
 De nombreuses équipes marketing et commerciales utilisent les intitulés de poste pour identifier différentes personnes au sein d’un compte. Mais les titres des contacts peuvent être incohérents et utiliser de nombreuses variations pour des rôles similaires. Lors de la création de modèles de rôles de groupe d&#39;achats, vous devrez peut-être définir toutes les fonctions associées possibles pour un rôle donné. Vous pouvez simplifier ces définitions et regrouper des personnes ayant des titres de poste similaires sous une seule persona déduite, que vous pouvez ensuite exploiter dans différents modèles de rôles pour les groupes d&#39;achat.
 
-Par exemple, vous pouvez configurer une persona appelée _Gestion des produits_ et la définir à l’aide de l’attribut de titre de tâche pour les valeurs de _Gestionnaire des produits_, _Sr. Chef de produit_, _chef de produit principal_, _PM_, _Sr. PM_, _PM principal_ et _chef de produit principal_. Utilisez ensuite ce persona dans un modèle Rôles où la condition correspond sur _Persona est la gestion des produits_. En utilisant le persona configuré, la création de chaque modèle de rôle est rationalisée et ne nécessite pas de condition compliquée qui puisse correspondre à chaque fonction possible.
+Par exemple, vous pouvez configurer une persona appelée _Gestion des produits_ et la définir à l’aide de l’attribut de titre de la fonction pour les valeurs de _Gestionnaire de produits_, _Gestionnaire de produits principal_, _Gestionnaire de produits principal_, _PM_, _Sr. PM_, _Principal PM_ et _Gestionnaire de produits principal_. Utilisez ensuite ce persona dans un modèle Rôles où la condition correspond sur _Persona est la gestion des produits_. En utilisant le persona configuré, la création de chaque modèle de rôle est rationalisée et ne nécessite pas de condition compliquée qui puisse correspondre à chaque fonction possible.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +46,7 @@ Par exemple, vous pouvez configurer une persona appelée _Gestion des produits_ 
 
    La liste de mappage des personas est organisée sous la forme d’un tableau et affiche les personas les plus récemment mis à jour en haut (triés par _[!UICONTROL Dernière mise à jour]_). Vous pouvez personnaliser le tableau affiché en cliquant sur l’icône _Paramètres des colonnes_ ( ![Paramètres des colonnes](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit, puis en cochant ou décochant les cases des colonnes.
 
-![Colonnes à afficher dans la liste de mappage des rôles](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![Colonnes à afficher dans la liste de mappage des rôles](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Pour accéder aux détails d’un persona, cliquez sur son nom.
 
@@ -118,6 +119,6 @@ La suppression d’un persona le supprime de la liste _Mappage des personas_ et 
 
 1. Sur la page _[!UICONTROL Mappage de personas]_, recherchez le persona à supprimer.
 
-1. En regard du nom, cliquez sur l’icône représentant des points de suspension (**...**) et choisissez **[!UICONTROL Supprimer]**.
+1. En regard du nom, cliquez sur les points de suspension (**...**) pour et choisissez **[!UICONTROL Supprimer]**.
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.

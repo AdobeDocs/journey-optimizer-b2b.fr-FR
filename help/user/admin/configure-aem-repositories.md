@@ -4,10 +4,10 @@ description: Connectez les référentiels Experience Manager Assets à Journey O
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition] s’intègre à [!DNL Adobe Experience Manager Assets as a Cloud Service], ce qui permet d’utiliser des ressources dans le contenu de votre e-mail. Elle assure la transparence en échangeant des informations avec les [!DNL Experience Manager Assets]. Configurez la connexion à [!DNL Adobe Experience Assets] pour activer cette fonctionnalité.
 
-Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([&#x200B; En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
+Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([ En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
 
 {{aem-assets-licensing-note}}
 
 ## Conditions préalables
 
-* Générez les informations d’identification de service pour l’environnement souhaité sur le Developer Console découplé AEM ([En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Générez les informations d’identification de service pour l’environnement souhaité sur le Developer Console découplé AEM ([En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Procurez-vous les certificats nécessaires à la connexion. Il est recommandé de s’assurer que les certificats ont au moins six mois restants avant leur expiration. Les certificats expirent tous les 365 jours.
 * Adobe Journey Optimizer B2B edition prend en charge l’accès à une source de gestion des ressources numériques à la fois. Assurez-vous que les ressources requises sont disponibles dans Adobe Experience Manager avant de basculer.
 
@@ -33,15 +33,15 @@ Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque pr
 
 1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
 
-1. Cliquez sur **[!UICONTROL Assets]** dans le panneau intermédiaire.
+1. Cliquez sur **** dans le panneau intermédiaire.
 
    ![Accéder à l’espace de configuration Assets](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
-<!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
--->
-À partir de là, vous pouvez configurer une par une les connexions à chaque référentiel d’environnement AEM.
+   <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
+    -->
+   À partir de là, vous pouvez configurer une par une les connexions à chaque référentiel d’environnement AEM.
 
-1. Dans la zone _[!UICONTROL Adobe Experience Manager Assets]_, cliquez sur la flèche en regard de **[!UICONTROL Configurer un référentiel]** et sélectionnez le référentiel.
+1. Dans la zone __, cliquez sur la flèche en regard de **[!UICONTROL Configurer un référentiel]** et sélectionnez le référentiel.
 
    ![Choisir un référentiel AEM Assets](./assets/configure-assets-aem-choose-respository.png){width="500"}
 
@@ -77,13 +77,13 @@ Les certificats expirent tous les 365 jours à compter de la date de création. 
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer B2B Edition] communique avec [!DNL Experience Manager Assets] pour obtenir des informations d’utilisation. La connexion doit rester active pour une synchronisation fiable des données d’utilisation et pour éviter les incohérences de données. Les administrateurs reçoivent des notifications sur l’expiration des certificats via les notifications in-app. Les dates d’expiration sont également affichées dans la sous-section _Assets_ de la zone _[!UICONTROL Administration]_.
+>[!DNL Adobe Journey Optimizer B2B Edition] communique avec [!DNL Experience Manager Assets] pour obtenir des informations d’utilisation. La connexion doit rester active pour une synchronisation fiable des données d’utilisation et pour éviter les incohérences de données. Les administrateurs reçoivent des notifications sur l’expiration des certificats via les notifications in-app. Les dates d’expiration sont également affichées dans la sous-section __ de la zone _[!UICONTROL Administration]_.
 
 1. Sur la page de gestion des ressources numériques, recherchez la liste des référentiels configurés.
 
 1. Cliquez sur le référentiel de votre choix pour remplacer le certificat.
 
-1. Cliquez sur l’icône représentant des points de suspension (**...**) du fichier de certificat pour afficher les options d’actions correspondantes.
+1. Cliquez sur les points de suspension (**...**) pour le fichier de certificat afin d’afficher les options d’actions correspondantes.
 
    ![Accédez au menu des options du certificat du référentiel de ressources AEM](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
@@ -103,7 +103,7 @@ Vous pouvez afficher le fichier JSON de certificat associé à la connexion au r
 
 1. Cliquez sur le référentiel connecté.
 
-1. Cliquez sur l’icône représentant des points de suspension (**...**) du fichier de certificat pour afficher les options d’actions correspondantes.
+1. Cliquez sur les points de suspension (**...**) pour le fichier de certificat afin d’afficher les options d’actions correspondantes.
 
 1. Choisissez **[!UICONTROL Affichage]**.
 
@@ -119,11 +119,12 @@ La suppression d’un référentiel supprime l’accès des utilisateurs et util
 
 1. Cliquez sur le nom du référentiel souhaité pour modifier la connexion.
 
-1. Cliquez sur l’icône représentant des points de suspension (**...**) du fichier de certificat pour afficher les options d’actions correspondantes.
+1. Cliquez sur les points de suspension (**...**) pour le fichier de certificat afin d’afficher les options d’actions correspondantes.
 
 1. Choisissez **[!UICONTROL Supprimer]**.
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
+
 <!--
 
 ## Switch back to Adobe Marketo Engage Assets

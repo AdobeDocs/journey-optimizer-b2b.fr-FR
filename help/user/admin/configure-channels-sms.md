@@ -4,7 +4,7 @@ description: Connectez les fournisseurs SMS tels que Sinch, Twilio et Infobip au
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 5%
@@ -57,7 +57,7 @@ _Pour configurer Sinch en tant que fournisseur SMS avec Adobe Journey Optimizer 
 
 1. Configurez vos informations dʼidentification pour lʼAPI SMS :
 
-   ![Configurer les informations d’identification de l’API SMS Sinch](./assets/config-sms-api-sinch.png){width="500"}
+   ![Configurer les informations d’identification de l’API SMS Sinch](./assets/config-sms-api-sinch.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Fournisseur SMS]** - Choisissez `Sinch` comme fournisseur SMS.
 
@@ -79,7 +79,7 @@ _Pour configurer Twilio en tant que fournisseur SMS avec Adobe Journey Optimizer
 
 1. Configurez vos informations dʼidentification pour lʼAPI SMS :
 
-   ![Configurer les informations d’identification de l’API SMS Twilio](./assets/config-sms-api-twilio.png){width="500"}
+   ![Configurer les informations d’identification de l’API SMS Twilio](./assets/config-sms-api-twilio.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Fournisseur SMS]** - Choisissez `Twilio` comme fournisseur SMS.
 
@@ -101,7 +101,7 @@ _Pour configurer Infobip en tant que fournisseur SMS avec Adobe Journey Optimize
 
 1. Configurez vos informations dʼidentification pour lʼAPI SMS :
 
-   ![Configurer les informations d’identification de l’API SMS Infobip](./assets/config-sms-api-infobip.png){width="500"}
+   ![Configurer les informations d’identification de l’API SMS Infobip](./assets/config-sms-api-infobip.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Fournisseur SMS]** - Choisissez `Infobip` comme fournisseur SMS.
 
