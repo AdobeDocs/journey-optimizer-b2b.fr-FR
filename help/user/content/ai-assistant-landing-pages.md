@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Vous pouvez générer des expériences de contenu complètes pour vos pages de d
 
 Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
 
-Avec l’engagement d’Adobe à promouvoir la transparence dans l’utilisation des outils d’IA génératifs dans la création de médias, Adobe applique les [&#x200B; informations d’identification de contenu &#x200B;](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par Firefly lorsqu’elle est téléchargée ou exportée.
+Avec l’engagement d’Adobe à promouvoir la transparence dans l’utilisation des outils d’IA génératifs dans la création de médias, Adobe applique les [ informations d’identification de contenu ](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par Firefly lorsqu’elle est téléchargée ou exportée.
 
 Les restrictions et instructions suivantes s’appliquent aux fonctionnalités de l’assistant AI utilisées pour la génération de contenu de page de destination dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -134,7 +134,7 @@ Pour utiliser l’assistant AI afin de générer entièrement une page de destin
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
+   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
    Les paramètres de l’assistant d’IA sur la droite reflètent les paramètres de génération de la page de destination complète.
 
@@ -180,7 +180,7 @@ Pour utiliser l’assistant AI afin d’affiner ou d’améliorer le contenu tex
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    Les paramètres de droite reflètent les paramètres de génération de contenu du composant de texte.
 
@@ -222,7 +222,7 @@ Pour utiliser l’assistant AI afin d’affiner ou d’améliorer le contenu d�
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    Les paramètres de l’assistant AI à droite reflètent les paramètres de génération du composant d’image.
 
@@ -314,6 +314,6 @@ Faites des commentaires sur les variantes générées en cliquant sur l’icône
 
 L’évaluation et la notation de l’alignement de la marque vous permettent d’assurer la cohérence du ton, du message et de l’identité visuelle de vos campagnes, tout en servant de contrôle qualité avant la mise en ligne de votre contenu. Une fois le contenu de la page de destination terminé, cliquez sur l’icône _Alignement des marques_ ( ![Icône d’alignement des marques](../assets/do-not-localize/icon-brand-compliance.svg) ) à droite pour ouvrir le panneau de droite _Alignement des marques_ dans l’espace de conception de la page de destination.
 
-![Accéder aux outils d’alignement des marques](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![Accéder aux outils de notation de l’alignement des marques](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-Pour plus d’informations, voir [&#x200B; Valider l’alignement de votre marque &#x200B;](./brand-alignment.md#validate-your-brand-alignment)
+Pour plus d’informations, voir [_Score d’alignement des marques_](./content-evaluation.md#brand-alignment-score)

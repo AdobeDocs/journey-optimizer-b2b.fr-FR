@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '868'
 ht-degree: 12%
 
 ---
@@ -63,9 +63,9 @@ Une marque définie constitue la _source de vérité_ que votre équipe créativ
 
 1. Lorsqu’elle est prête à l’emploi, [publiez la marque](./brands-manage-create.md#publish-the-brand).
 
-1. Utilisez la marque pour [alignement du contenu des e-mails](./brand-alignment.md).
-
-1. Utilisez la marque pour [générer le contenu de l’e-mail](./ai-assistant-emails.md).
+1. Utilisez la marque pour [alignement du contenu des e-mails](./content-evaluation.md#brand-alignment-score).
+<!-- 
+1. Use the brand to generate content. -->
 
 >[!BEGINSHADEBOX]
 
@@ -93,7 +93,7 @@ Les administrateurs de produit peuvent permettre l’accès aux fonctionnalités
 
    * Saisissez le nom d’utilisateur et l’adresse e-mail, ou choisissez un utilisateur existant dans la liste.
 
-     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 

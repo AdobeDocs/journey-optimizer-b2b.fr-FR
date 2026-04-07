@@ -1,7 +1,7 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: dc98267c16fa0818f4b4a751696441c3b51c5fd3
+source-git-commit: c0770348a39a9041d3c96ed2b6f379865f3908f0
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 97%
@@ -137,9 +137,9 @@ ht-degree: 97%
    + Marques (version bêta) {#brands}
       + [Vue d’ensemble](./content/brands-overview.md)
       + [Gérer et créer](./content/brands-manage-create.md)
-      + [Alignement sur la marque](./content/brand-alignment.md)
       + [Modèles d’IA générative](./content/generative-ai-models.md)
    + [Thèmes de marque](./content/brand-themes.md)
+   + [Évaluation de contenu](./content/content-evaluation.md)
    + [Contenu conditionnel](./content/conditional-content.md)
    + Personnalisation {#personalization}
       + [Vue d’ensemble](./content/personalization.md)
