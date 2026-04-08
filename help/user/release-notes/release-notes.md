@@ -3,9 +3,9 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ceb3e1ffed8b3991305250d69de787e848a4ab1f
+source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
 workflow-type: tm+mt
-source-wordcount: '4898'
+source-wordcount: '4905'
 ht-degree: 70%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2026.3
 
@@ -31,7 +31,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Fonctionnalité | Actions externes personnalisées pour parcours | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} les développeurs peuvent désormais utiliser des API pour créer des intégrations avec leurs systèmes propriétaires. Grâce à ces intégrations personnalisées, les spécialistes marketing peuvent ajouter des nœuds _Action externe_ et _Chemin de partage externe_ pour effectuer des requêtes sortantes vers des services externes lors de l’exécution du parcours de compte. |
 | Fonctionnalité | Marques | (Beta) Les équipes marketing peuvent maintenir la cohérence de la marque dans leurs ressources de contenu d’e-mail en stockant et en gérant les profils de marque. En ajoutant des ressources, telles que des couleurs, des polices, des logos, des thèmes, du contenu visuel et des directives de conformité, ils peuvent utiliser le profil de marque pour la création de contenu d’IA générative. Ils peuvent également mesurer l’alignement de la marque pour garantir sa conformité. [En savoir plus](../content/brands-overview.md) |
 | Amélioration | Envoyer un e-mail - Optimisation de l’heure d’envoi | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} pour les nœuds d’action _Envoyer un e-mail_ en parcours personne, vous pouvez utiliser les options _Optimisation de l’heure d’envoi_ pour personnaliser le timing de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir. [En savoir plus](../content/email-send-time-optimization.md) |
-| Amélioration | Outils de conception d’e-mails - Mode expert | Grâce au _mode expert_ dans l’espace de conception d’e-mail, les utilisateurs peuvent apporter des modifications HTML/CSS mineures et ajouter des balises de script à un e-mail pour résoudre les problèmes de rendu. |
+| Amélioration | Outils de conception de modèles d’e-mail - Mode HTML avancé | Grâce au _mode HTML avancé_ dans l’espace de conception de modèle d’e-mail, les utilisateurs peuvent apporter des modifications HTML/CSS mineures et ajouter des balises de script à un modèle d’e-mail pour résoudre les problèmes de rendu. [En savoir plus](../content/email-template-advanced-html.md) |
 | Amélioration | Objets personnalisés de la personne - modèles de rôles de groupe d&#39;achat | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} lorsque les administrateurs configurent des objets personnalisés liés à un profil professionnel, les spécialistes marketing peuvent désormais définir des rôles de groupe d’achat à l’aide de ces objets personnalisés. [En savoir plus](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Amélioration | Score du contenu des emails - évaluation de la qualité du contenu | Outre l’alignement de la marque, vous pouvez évaluer la qualité globale du contenu pour identifier les problèmes potentiels de lisibilité, de cohésion et d’efficacité (indépendamment des directives de votre marque). Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content/content-evaluation.md) |
 
