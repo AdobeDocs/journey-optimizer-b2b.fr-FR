@@ -35,7 +35,7 @@ La configuration des actions externes nécessite une coordination entre trois r�
 
 ## Implémenter le service externe {#implement-service}
 
-Le développeur doit créer et publier un service web public conforme à l&#39;interface du fournisseur de services d&#39;actions externes de Adobe Journey Optimizer B2B edition [](https://developer.adobe.com/journey-optimizer-b2b-apis/).
+Le développeur doit créer et publier un service web public conforme à l&#39;interface du fournisseur de services d&#39;actions externes de Adobe Journey Optimizer B2B edition [&#128279;](https://developer.adobe.com/journey-optimizer-b2b-apis/).
 
 >[!NOTE]
 >
