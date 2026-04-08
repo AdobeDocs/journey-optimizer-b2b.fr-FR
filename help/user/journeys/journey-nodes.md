@@ -5,9 +5,9 @@ feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: f5170767a6df14874fab5de203264a5a5e3e245a
+source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '131'
 ht-degree: 12%
 
 ---
@@ -28,3 +28,4 @@ Créez votre parcours en combinant les différents nœuds d’action, d’évén
 * [Chemins partagés](./split-merge-paths-nodes.md)
 * [Attendre](./wait-nodes.md)
 * [Fusionner les chemins](./split-merge-paths-nodes.md)
+* [Externe](./external-nodes.md)

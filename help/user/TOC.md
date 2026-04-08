@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
+source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '439'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 96%
       + [Écouter un événement](./journeys/listen-for-event-nodes.md)
       + [Fractionner et fusionner les chemins](./journeys/split-merge-paths-nodes.md)
       + [Attente](./journeys/wait-nodes.md)
+      + [Nœuds externes](./journeys/external-nodes.md)
    + [Détails du parcours](./journeys/journey-details.md)
 + Contenu de parcours {#journey-content}
    + [Canal SMS](./content/sms-authoring.md)
@@ -155,6 +156,11 @@ ht-degree: 96%
 + Administration {#admin}
    + [Gouvernance](./admin/governance.md)
    + [Mappage de persona](./admin/persona-mapping.md)
+   + Configurations {#configurations}
+      + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
+      + [Données d’intention](./admin/intent-data.md)
+      + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
+      + [Actions externes](./admin/configure-external-actions.md)
    + Canaux {#channels}
       + [Configurations des e-mails](./admin/configure-channels-emails.md)
       + [Configuration des SMS](./admin/configure-channels-sms.md)
@@ -162,7 +168,3 @@ ht-degree: 96%
       + [Configurations du canal web (Beta)](./admin/configure-channels-web.md)
       + [Paramètres de la page de destination (Beta)](./admin/landing-page-settings.md)
       + [Configurer des trains de données pour la collecte d’événements](./data/aep-event-collection.md)
-   + Configurations {#configurations}
-      + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
-      + [Données d’intention](./admin/intent-data.md)
-      + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
