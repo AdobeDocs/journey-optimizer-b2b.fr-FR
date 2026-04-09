@@ -35,7 +35,7 @@ Où :
 
   >[!NOTE]
   >
-  >La structure des attributs est définie dans un schéma XDM Adobe Experience Platform [](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
+  >La structure des attributs est définie dans un schéma XDM Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Les identifiants peuvent être n’importe quel caractère Unicode, à l’exception des caractères suivants :
 

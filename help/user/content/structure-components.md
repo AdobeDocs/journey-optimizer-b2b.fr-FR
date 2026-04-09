@@ -97,7 +97,7 @@ Vous pouvez supprimer la désignation d’en-tête ou de pied de page en sélect
 
 Pour les écrans ou les fenêtres d’affichage plus petits, les colonnes du composant de structure s’affichent comme empilées, sauf si vous modifiez le paramètre par défaut. Lorsque le composant de structure à plusieurs colonnes est sélectionné, modifiez le paramètre **[!UICONTROL Ne pas empiler de colonnes sur un appareil mobile]** en déplaçant le curseur de basculement vers la droite.
 
-![Ne pas empiler les colonnes sur les ](./assets/structure-component-settings-stack-columns.png){width="250"} mobiles
+![Ne pas empiler les colonnes sur les &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"} mobiles
 
 ## Styles de composant
 
@@ -107,7 +107,7 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL  Couleur d’arrière-plan ]
+#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 
@@ -139,7 +139,7 @@ Sélectionnez le [type de source de ressource](./assets-overview.md) puis sélec
 
 +++
 
-Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
+Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [&#128279;](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
 
 ![Paramètres de l’image d’arrière-plan](./assets/structure-component-styles-background-image.png){width="250"}
 

@@ -43,7 +43,7 @@ Les administrateurs de produit peuvent autoriser l’accès aux outils de collab
 
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les autorisations.
 
-1. Ajoutez la ressource Assets B2B ]**, puis sélectionnez**[!UICONTROL  Gérer les e-mails B2B ]**.**[!UICONTROL 
+1. Ajoutez la ressource Assets B2B **, puis sélectionnez**&#x200B;[!UICONTROL &#x200B; Gérer les e-mails B2B &#x200B;]&#x200B;**.**
 
    ![Gérer les paramètres d’autorisation des e-mails B2B dans l’interface utilisateur des autorisations Adobe Experience Platform](./assets/emails-aep-permissions.png){width="700" zoomable="yes"}
 
@@ -55,7 +55,7 @@ Les administrateurs de produit peuvent autoriser l’accès aux outils de collab
 
    * Saisissez le nom d’utilisateur et l’adresse e-mail, ou choisissez un utilisateur existant dans la liste.
 
-     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
