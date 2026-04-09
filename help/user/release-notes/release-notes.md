@@ -3,10 +3,10 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ab1462bc8f81c6983e8e4a620f0502e799901c1b
+source-git-commit: 621ada36fac8b5d0796ab4474ac246f86235f798
 workflow-type: tm+mt
-source-wordcount: '4907'
-ht-degree: 70%
+source-wordcount: '4847'
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,19 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+
+<!-- ## 2026.4 release notes {#rel-2026-4}
+
+**Deployment date**: May 1, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
+| Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. | -->
+
+<!-- wait for release information
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 ## Notes de mise à jour 2026.3 {#rel-2026-3}
 
@@ -24,8 +36,6 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Pages de destination | Les marketeurs peuvent désormais créer et publier des pages de destination dans Journey Optimizer B2B edition pour prendre en charge les parcours et les programmes _(précédemment une fonctionnalité de programme Beta)_ |
-| Fonctionnalité | Formulaires | Les marketeurs peuvent désormais créer et publier des composants de formulaire réutilisables pour activer l’envoi de données à partir des pages de destination créées et publiées dans Journey Optimizer B2B edition _(précédemment une fonctionnalité de programme Beta)_ |
 | Fonctionnalité | Canal WhatsApp | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} les marketeurs peuvent désormais envoyer des messages WhatsApp directement à partir des parcours de compte via [!DNL Meta Cloud API]. Cette fonctionnalité permet une intégration transparente de la messagerie WhatsApp pour prendre en charge les canaux de contenu parcours. [En savoir plus](../admin/configure-channels-whatsapp.md) |
 | Fonctionnalité | Prise en charge de modèles d’IA générative [!DNL Firefly] et personnalisés | Les équipes marketing peuvent désormais activer l’intégration de modèles d’[!DNL Firefly] standard et personnalisés, ainsi que de modèles d’image tiers approuvés (tels que [!DNL NanoBanana]). Les concepteurs d’e-mails peuvent sélectionner le meilleur modèle pour chaque cas d’utilisation : [!DNL Firefly] standard pour les besoins généraux, [!DNL Firefly] personnalisés pour la génération sur marque ou modèles tiers approuvés pour les scénarios spécialisés ou expérimentaux. [En savoir plus](../content/generative-ai-models.md) |
 | Fonctionnalité | Actions externes personnalisées pour parcours | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} les développeurs peuvent désormais utiliser des API pour créer des intégrations avec leurs systèmes propriétaires. Grâce à ces intégrations personnalisées, les spécialistes marketing peuvent ajouter des nœuds _Action externe_ et _Chemin de partage externe_ pour effectuer des requêtes sortantes vers des services externes lors de l’exécution du parcours de compte. [En savoir plus](../admin/configure-external-actions.md) |
@@ -34,9 +44,6 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Amélioration | Outils de conception de modèles d’e-mail - Mode HTML avancé | Grâce au _mode HTML avancé_ dans l’espace de conception de modèle d’e-mail, les utilisateurs peuvent apporter des modifications HTML/CSS mineures et ajouter des balises de script à un modèle d’e-mail pour résoudre les problèmes de rendu. [En savoir plus](../content/email-template-advanced-html.md) |
 | Amélioration | Objets personnalisés de la personne - modèles de rôles de groupe d&#39;achat | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} lorsque les administrateurs configurent des objets personnalisés liés à un profil professionnel, les spécialistes marketing peuvent désormais définir des rôles de groupe d’achat à l’aide de ces objets personnalisés. [En savoir plus](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Amélioration | Score du contenu des emails - évaluation de la qualité du contenu | Outre l’alignement de la marque, vous pouvez évaluer la qualité globale du contenu pour identifier les problèmes potentiels de lisibilité, de cohésion et d’efficacité (indépendamment des directives de votre marque). Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content/content-evaluation.md) |
-
-<!-- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 >[!NOTE]
 >
