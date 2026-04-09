@@ -4,9 +4,9 @@ description: Surveillez les mesures d’engagement en temps réel pour les compt
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '561'
 ht-degree: 6%
 
 ---
@@ -90,7 +90,7 @@ Choisissez **[!UICONTROL Afficher plus]** pour obtenir des données et des infor
 En fonction du graphique, il existe des données étendues pour les éléments suivants :
 
 | Engagement par comptes / groupes d&#39;achat / personnes | Comptes / groupes d&#39;achat / personnes engagées dans le temps |
-| ----------------------------------------------- | -------------------------------------------------- | 
-| <li>Engagé <li>Non engagé | <li>Date <li>Comptes / Groupes d&#39;achat / Personnes (nombre) <li>Engagé/non engagé |
+| ----------------------------------------------- | -------------------------------------------------- |
+| <li>Engagement <li>Non engagé | <li>Date <li>Comptes / Groupes d&#39;achat / Personnes (nombre) <li>Engagé/non engagé |
 
 Pour copier les données étendues, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite.

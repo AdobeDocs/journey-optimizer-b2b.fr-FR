@@ -2,9 +2,9 @@
 title: Configuration de l’architecture simplifiée
 description: Configurez Journey Optimizer B2B edition sur l’architecture simplifiée. Configurez les schémas XDM, les canaux e-mail/SMS, les actions de parcours Marketo Engage et les utilisateurs et utilisatrices.
 feature: Setup, Administration
-role: Admin, Data Engineer
+role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
@@ -207,7 +207,8 @@ Pour envoyer des e-mails depuis [!DNL Journey Optimizer B2B Edition] sur l’arc
 </tbody>
 </table>
 
-<!-- TBD for later 
+<!--
+ TBD for later
 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
@@ -273,7 +274,7 @@ Pour aider les spécialistes du marketing à inclure d’autres canaux dans leur
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Configurez le site web de votre entreprise pour prendre en charge Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview">En savoir plus</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">En savoir plus</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>

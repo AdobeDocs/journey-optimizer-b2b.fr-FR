@@ -6,7 +6,7 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-source-git-commit: ce4df9a2726cf842c088738521b3e5dd88dd768f
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 32%
@@ -36,7 +36,8 @@ L’IA générative pour le contenu en [!DNL Adobe Journey Optimizer B2B Edition
 Utilisez les fonctionnalités d’IA générative pour la création de contenu dans [!DNL Journey Optimizer B2B Edition] pour exploiter les fonctionnalités d’IA générative d’Adobe. Créez du texte et des visuels personnalisés pour les e-mails, les SMS, les pages de destination, etc. Lorsque vous créez une campagne complète ou que vous affinez simplement des ressources spécifiques, ces fonctionnalités vous permettent d’aligner facilement le contenu avec les directives de votre marque tout en gagnant un temps précieux.
 
 <!--
-Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
+Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
+-->
 
 >[!IMPORTANT]
 >
@@ -45,11 +46,11 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 Les outils de l’assistant AI pour la génération de contenu sont pris en charge avec les types de ressources suivants :
 
 * [E-mails](../content/ai-assistant-emails.md)
-* [!BADGE Beta] [Pages de destination](../content/ai-assistant-landing-pages.md)
+* [!BADGE ] [Pages de destination](../content/ai-assistant-landing-pages.md)
 
 ## Directives générales et restrictions {#general-guidelines-and-limitations}
 
-Votre utilisation des fonctionnalités d’IA générative est soumise aux [Directives d’utilisation de l’IA générative de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Avec l’engagement d’Adobe en matière de transparence dans l’utilisation des outils d’IA génératifs pour la création de médias, Adobe applique les [&#x200B; informations d’identification de contenu &#x200B;](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par [!DNL Firefly] lorsqu’elle est téléchargée ou exportée.
+Votre utilisation des fonctionnalités d’IA générative est soumise aux [Directives d’utilisation de l’IA générative de ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Avec l’engagement d’Adobe en matière de transparence dans l’utilisation des outils d’IA génératifs pour la création de médias, Adobe applique les [ informations d’identification de contenu ](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par [!DNL Firefly] lorsqu’elle est téléchargée ou exportée.
 
 Consultez ces instructions générales pour l’utilisation de l’IA générative pour le contenu dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -243,7 +244,8 @@ Fournissez toujours le contexte et la proposition de valeur pour produire du con
 </tbody>
 </table>
 
-<!-- channels not yet supported
+<!--
+ channels not yet supported
 <tr>
 <td><strong>SMS</strong></td>
 <td>"Alert VIP customers about a 4-hour flash sale on premium electronics with 40% discount, limited to the first 100 customers"</td>
@@ -251,9 +253,11 @@ Fournissez toujours le contexte et la proposition de valeur pour produire du con
 <tr>
 <td><strong>Push Notifications</strong></td>
 <td>"Re-engage users who haven't opened the app in 7 days with personalized content recommendations based on their reading history"</td>
-</tr> -->
+</tr> 
+-->
 
-<!-- Wait on more B2B specific examples
+<!--
+ Wait on more B2B specific examples
 
 ### Industry-specific approaches {#industry-approaches}
 
@@ -291,7 +295,8 @@ Fournissez toujours le contexte et la proposition de valeur pour produire du con
 </tr>
 </tbody>
 </table>
- -->
+ 
+-->
 
 ### Nouveau contenu ou modification de contenu existant {#new-vs-modify}
 

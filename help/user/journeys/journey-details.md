@@ -4,9 +4,9 @@ description: Surveillez les performances du parcours de compte avec les taux d�
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,13 @@ Les tableaux de performances donnent un aperçu détaillé de l’efficacité de
 * _[!UICONTROL Envoyés]_ - nombre de SMS envoyés
 * _[!UICONTROL Taux de diffusion]_ - nombre de SMS diffusés divisé par le nombre envoyé
 * _[!UICONTROL Taux de clic publicitaire]_ - nombre de SMS ayant fait l’objet d’un clic divisé par le nombre diffusé
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+<!--
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
+-->
 
 ## Amélioration de l’interaction
 
-Exploitez davantage les données à l’aide de l’icône d’action (**...**) située en haut à droite de chaque graphique ou tableau.
+Exploitez davantage les données à l’aide de l’icône d’action (**...**) en haut à droite de chaque graphique ou tableau.
 
 ### Exploration amont
 
@@ -73,7 +74,8 @@ Pour le graphique de statut du Parcours __, choisissez **[!UICONTROL Analyser en
 
 ![Analyse en amont des données du graphique](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
+-->
 
 ### Afficher plus
 

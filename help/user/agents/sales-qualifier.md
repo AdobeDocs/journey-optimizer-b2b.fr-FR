@@ -4,7 +4,7 @@ description: Automatisez la qualification et la sensibilisation des prospects B2
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Utilisez le navigateur et les modules externes d’e-mail pour accéder à Busin
 
 La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edition], mais il s’agit d’une application distincte dans Experience Platform Experience Cloud.
 
@@ -34,7 +34,7 @@ Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edit
 
 Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L’AQA utilise l’IA pour lire vos comptes et déterminer lesquels sont prêts pour l’étape suivante. Il facilite la recherche, la rédaction d’e-mails et les mises à jour CRM.
 
-![&#x200B; Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
+![ Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](assets/acc-qualification-agent.png)
 
 * **Recherche de prospects**
 
@@ -209,7 +209,8 @@ Le panneau _[!UICONTROL Gestion des représentants]_ affiche les représentants 
 
 Ce panneau présente des analyses autour des réunions terminées.
 
-<!-- SHPHR-24341 remove section 
+<!--
+ SHPHR-24341 remove section
 ## Set up the Chrome plugin
 
 The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
@@ -220,7 +221,8 @@ When the plugin is installed in Chrome, the Adobe logo appears on the middle rig
 * Salesforce
 * Outlook
 * Microsoft Dynamics and web applications
-* Google applications -->
+* Google applications 
+-->
 
 ## Modification de la barre de navigation de gauche
 

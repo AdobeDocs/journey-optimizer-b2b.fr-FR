@@ -4,7 +4,7 @@ description: Découvrez comment configurer le mappage des rôles pour le marketi
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -15,9 +15,11 @@ ht-degree: 2%
 
 Les personas sont un aspect clé dans une approche de marketing basé sur les comptes (ABM), car ils aident les spécialistes marketing à ajuster leurs stratégies en fonction des besoins, des préférences et des problèmes spécifiques des individus au sein des comptes cibles. Les marketeurs peuvent créer des profils détaillés pour chaque persona, y compris son passé, ses responsabilités, ses points faibles et ses canaux de communication préférés. Grâce à ces définitions, les administrateurs et administratrices peuvent configurer les rôles en fonction des attributs de personne dans Journey Optimizer B2B edition, de sorte que les modèles de rôles puissent utiliser des conditions de rôle rationalisées et cohérentes qui capturent ces rôles.
 
-<!-- Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc. 
+<!--
+ Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc.
 
-Then based on what agent informed, users can create a template with those personas. -->
+Then based on what agent informed, users can create a template with those personas. 
+-->
 Définition des rôles et limites d’utilisation :
 
 * Vous pouvez définir jusqu’à 20 personnes dans la liste _[!UICONTROL Mappage des personnes]_.

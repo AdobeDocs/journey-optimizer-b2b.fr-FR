@@ -4,7 +4,7 @@ description: Créez des variantes de contenu dynamiques avec des règles conditi
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 13%
@@ -47,7 +47,7 @@ Lorsque vous créez un fragment ou un e-mail dans l’espace de conception visue
 
    La boîte de dialogue _[!UICONTROL Sélectionner une condition]_ s’ouvre et affiche la bibliothèque de conditions.
 
-   Si vous souhaitez afficher les détails d&#39;une condition pour vous assurer qu&#39;elle correspond à vos besoins, cliquez sur l&#39;icône _Plus de menu_ (**...**) et choisissez **[!UICONTROL Afficher les informations]**.
+   Si vous souhaitez afficher les détails d’une condition pour vous assurer qu’elle correspond à vos besoins, cliquez sur l’icône _Plus de menu_ (**...**) et choisissez **[!UICONTROL Afficher les informations]**.
 
    ![Détails des conditions d’accès à la bibliothèque](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
@@ -55,7 +55,7 @@ Lorsque vous créez un fragment ou un e-mail dans l’espace de conception visue
 
 1. Sélectionnez la règle conditionnelle et cliquez sur **[!UICONTROL Sélectionner]** pour l’associer à la variante.
 
-   Vous pouvez consulter la condition associée en cliquant sur l’icône _Plus_ (**...**) de la variante et en choisissant **[!UICONTROL Afficher la condition]**.
+   Vous pouvez consulter la condition associée en cliquant sur l’icône _Plus_ (**...**) pour la variante et en choisissant **[!UICONTROL Afficher la condition]**.
 
    ![Afficher la condition associée à la variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
@@ -63,11 +63,11 @@ Lorsque vous créez un fragment ou un e-mail dans l’espace de conception visue
 
    ![Afficher les détails de la condition associée](./assets/conditions-info-popup.png){width="500"}
 
-1. Pour une meilleure lisibilité, renommez la variante en cliquant sur l’icône _Plus de menu_ (**...**) de la variante et en choisissant **[!UICONTROL Renommer]**.
+1. Pour une meilleure lisibilité, renommez la variante en cliquant sur l’icône _Plus_ (**...**) pour la variante et en choisissant **[!UICONTROL Renommer]**.
 
    Saisissez un nom significatif pour la variante qui vous aide à identifier la variante et son intention.
 
-   ![&#x200B; Renommer la variante &#x200B;](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
+   ![ Renommer la variante ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. Avec la variante sélectionnée dans le volet de gauche, modifiez le composant pour modifier la manière dont il apparaît dans l’e-mail lorsque la condition est remplie.
 
@@ -87,7 +87,7 @@ Lorsque vous créez un fragment ou un e-mail dans l’espace de conception visue
    >
    >Si aucune des conditions de variante définies n’est vraie lors de l’envoi de l’e-mail, le composant de contenu s’affiche selon la **[!UICONTROL Variante par défaut]**.
 
-1. Pour supprimer une variante, cliquez sur l’icône _Plus_ (**...**) de la variante et choisissez **[!UICONTROL Supprimer]**.
+1. Pour supprimer une variante, cliquez sur l’icône _Plus_ (**...**) pour la variante et choisissez **[!UICONTROL Supprimer]**.
 
    Cliquez sur **[!UICONTROL Supprimer]** dans la boîte de dialogue de confirmation.
 
@@ -98,17 +98,18 @@ Les règles sont stockées dans la bibliothèque de conditions, où elles peuven
 <!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.
+-->
 
 ### Filtres de statut {#condition-filters}
 
 | Type de condition | Filtres | Description |
 | -------------- | ------- | ----------- |
-| **Compte** | Attributs du compte | Attributs du profil de compte, notamment : <li>Chiffre d’affaires annuel</li><li>Ville</li><li>Pays</li><li>Nombre d’employés</li><li>Secteur industriel</li><li>Nom</li><li>Code SIC</li><li>État</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Le filtre peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li> |
+| **Compte** | Attributs du compte | Attributs du profil de compte, notamment : <li>Revenus annuels</li><li>Ville</li><li>Pays</li><li>Taille de la personne employée</li><li>Secteur</li><li>Nom</li><li>Code SIC</li><li>État</li> |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Le filtre peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Évaluation de l’engagement</li> |
 | **Personne** | [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Activités e-mail associées au parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail]</li><li>E-mail ouvert</li><li>A reçu l’e-mail</li><li>A reçu un e-mail</li> Ces conditions sont évaluées à l’aide d’un e-mail sélectionné plus tôt dans le parcours. |
-|  | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Titre du traitement</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désabonné ou désabonnée</li><li>Raison désabonnement</li> |
-| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
+|  | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville</li><li>Pays</li><li>Date de naissance</li><li>Adresse e-mail</li><li>E-mail non valide</li><li>E-mail interrompu</li><li>Prénom</li><li>Région déduite</li><li>Fonction</li><li>Nom</li><li>Numéro téléphone mobile</li><li>Numéro de téléphone</li><li>Code postal</li><li>État</li><li>Désinscription</li><li>Raison désabonnement</li> |
+| | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Évaluation de l’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 
 ### Créer une règle conditionnelle {#create-condition}
 
@@ -126,7 +127,7 @@ Vous pouvez accéder au créateur de règles conditionnelles à partir de l’es
 
    ![Choisissez le type de condition à créer](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
-1. Créez la règle conditionnelle en fonction de vos besoins.
+1. Créez la règle conditionnelle selon vos besoins.
 
    Pour chaque attribut ou événement que vous souhaitez inclure dans la règle, faites glisser l’élément et déposez-le sur la zone de travail de la règle. Développez le filtre et terminez l’expression.
 
@@ -151,7 +152,7 @@ Vous pouvez accéder au créateur de règles conditionnelles à partir de l’es
 
 Les règles conditionnelles enregistrées dans la bibliothèque ne peuvent pas être modifiées. Cependant, vous pouvez dupliquer une règle existante et la modifier pour créer une nouvelle règle.
 
-1. Cliquez sur l’icône _Plus de menu_ (**...**) de la variante et choisissez **[!UICONTROL Dupliquer]**.
+1. Cliquez sur l’icône _Plus de menu_ (**...**) pour la variante et choisissez **[!UICONTROL Dupliquer]**.
 
    Un doublon de la règle s’ouvre dans le créateur de règles. Utilisez le doublon comme point de départ pour la règle que vous souhaitez créer.
 

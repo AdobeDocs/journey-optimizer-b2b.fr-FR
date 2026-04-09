@@ -4,7 +4,7 @@ description: Configurez les nœuds d’événement pour les déclencheurs de com
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 12%
@@ -58,7 +58,7 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 
 | Type d’entrée | Événement | Contraintes |
 | ---------- | ----- | ----------- |
-| Journey Optimizer édition B2B | [!UICONTROL Affecté au groupe d&#39;achat] | Intérêt de la solution<br/><br/>Contraintes supplémentaires (facultatif) : <li>Autorisations</li><li>Date d’activité</li><br/>Délai d’expiration (facultatif) |
+| Journey Optimizer édition B2B | [!UICONTROL Affecté au groupe d&#39;achat] | Intérêt de la solution<br/><br/>Contraintes supplémentaires (facultatif) : <li>Rôle</li><li>Date d’activité</li><br/>Délai d’expiration (facultatif) |
 | | [!UICONTROL Clics dans l’e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Plateforme</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
 | | [!UICONTROL Clics sur le lien dans les SMS] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>Appareil</li><li>Plateforme</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
 | | [!UICONTROL Modifications de la valeur des données] | Attribut de personne<br/><br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
@@ -135,14 +135,15 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 ### Écoute d’un événement d’expérience
 
-Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
+Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
 
 1. Un administrateur [sélectionne les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#select-an-event) pour les rendre disponibles dans les parcours.
 
 2. Dans un parcours, ajoutez un nœud _Écouter un événement_ et sélectionnez un type d’événement Experience Platform pour un événement basé sur des personnes.
 
 <!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
+-->
 
 _Pour inclure un événement d’expérience dans votre parcours :_
 
@@ -152,7 +153,7 @@ _Pour inclure un événement d’expérience dans votre parcours :_
 
 1. Sélectionnez l’événement.
 
-   Pour un parcours de compte _&#x200B;**, cliquez sur la flèche du sélecteur**&#x200B;[!UICONTROL &#x200B; Sélectionner un événement de personne &#x200B;]&#x200B;**et faites défiler le menu vers la section**&#x200B;[!UICONTROL &#x200B; Adobe Experience Platform &#x200B;]&#x200B;**.**&#x200B;_
+   Pour un parcours de compte _**, cliquez sur la flèche du sélecteur**[!UICONTROL  Sélectionner un événement de personne ]**et faites défiler le menu vers la section**[!UICONTROL  Adobe Experience Platform ]**.**_
 
    ![Écouter un événement d’expérience](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
 
@@ -222,6 +223,8 @@ Si nécessaire, définissez le temps d’attente du parcours pour l’événemen
 
    ![Nœud d’événement de Parcours : définissez le chemin de temporisation](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-<!-- ## Overview video
+<!--
+ ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443236/?captions=fre_fr&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
+-->

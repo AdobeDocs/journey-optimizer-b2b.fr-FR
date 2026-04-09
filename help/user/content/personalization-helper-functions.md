@@ -7,10 +7,10 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '4853'
-ht-degree: 47%
+source-wordcount: '4943'
+ht-degree: 48%
 
 ---
 
@@ -420,7 +420,9 @@ L&#39;opération suivante définit les personnes dont les couleurs préférées 
 
 +++
 
-<!-- ## Intersection{#intersection}
+<!--
+
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -450,7 +452,7 @@ La fonction `bottomN` trie un tableau par ordre croissant en fonction de l’exp
 ```
 
 | Argument | Description |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | Tableau ou liste à trier. |
 | `{VALUE}` | Propriété utilisée pour trier le tableau ou la liste. |
 | `{AMOUNT}` | Nombre d’éléments à renvoyer. |
@@ -976,9 +978,9 @@ Lorsque la première chaîne correspond à l’attribut date, la deuxième valeu
 >
 > Si un modèle de date n’est pas valide, la date revient au format ISO standard.
 >
-> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation [Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation [](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Exemple**
 
@@ -1693,7 +1695,7 @@ Au moment de l’exécution, la valeur des métadonnées est ajoutée au **[!UIC
 
 >[!IMPORTANT]
 >
->La limite supérieure est de 2 Ko sur les paires clé-valeur par action. Si vous dépassez la limite de 2 Ko, le message est toujours diffusé, mais toutes les paires clé-valeur peuvent être tronquées.
+>Il existe une limite supérieure de 2 Ko pour les paires clé-valeur par action. Si vous dépassez la limite de 2 Ko, le message est toujours diffusé, mais toutes les paires clé-valeur peuvent être tronquées.
 
 **Exemple**
 
@@ -1804,7 +1806,7 @@ Elle accepte un nombre et une chaîne représentant les paramètres régionaux e
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation d’[Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation d’[](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemple**
 

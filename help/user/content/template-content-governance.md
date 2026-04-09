@@ -4,7 +4,7 @@ description: 'Verrouiller les composants de modèle d’e-mail pour la conformit
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -48,14 +48,15 @@ Après avoir utilisé l’espace de conception visuelle pour [créer les composa
    ![Activer les ajouts de contenu](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    Lorsque ce mode est défini au niveau racine, tous les éléments du modèle sont verrouillés. L’arborescence à gauche affiche l’icône _Lecture seule_ ( ![Icône Lecture seule](../assets/do-not-localize/icon-tree-lock.svg) ) à côté des éléments racine et tous les éléments enfants.
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## Appliquer un verrouillage à une structure
 

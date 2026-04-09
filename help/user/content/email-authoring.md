@@ -4,20 +4,20 @@ description: Créez des e-mails avec des outils de conception visuelle, l’impo
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1175'
 ht-degree: 6%
 
 ---
 
 # Création d’un e-mail
 
-Après avoir [ajouté une ressource e-mail à un nœud d’action de parcours &#x200B;](./add-email.md), vous pouvez définir le contenu de l’e-mail.
+Après avoir [ajouté une ressource e-mail à un nœud d’action de parcours ](./add-email.md), vous pouvez définir le contenu de l’e-mail.
 
 Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** dans l’onglet _[!UICONTROL Détails]_ du panneau de droite.
 
-![Cliquez sur Modifier le contenu de l’e-mail &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Cliquez sur Modifier le contenu de l’e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Cette action lance les outils de conception d’e-mail, dans lesquels vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
@@ -51,11 +51,13 @@ Utilisez l’espace de conception visuelle du contenu pour définir la structure
 
 1. [Tester l’e-mail](#check-and-test-the-email).
 
-<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
+<!--
+ If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual design space for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. 
+-->
 
 Lorsque le contenu vous convient, cliquez sur **[!UICONTROL Enregistrer]**.
 

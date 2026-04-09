@@ -3,9 +3,9 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2ecef6ad487570024745693dc0c8ea7d8a3a3375
+source-git-commit: 7eacf9d3951e4d5a393cb2636cee0c6b40ecc050
 workflow-type: tm+mt
-source-wordcount: '4847'
+source-wordcount: '4891'
 ht-degree: 71%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 <!-- ## 2026.4 release notes {#rel-2026-4}
 
@@ -41,7 +41,13 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Amélioration | Envoyer un e-mail - Optimisation de l’heure d’envoi | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} pour les nœuds d’action _Envoyer un e-mail_ en parcours personne, vous pouvez utiliser les options _Optimisation de l’heure d’envoi_ pour personnaliser le timing de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir. [En savoir plus](../content/email-send-time-optimization.md) |
 | Amélioration | Outils de conception de modèles d’e-mail - Mode HTML avancé | Grâce au _mode HTML avancé_ dans l’espace de conception de modèle d’e-mail, les utilisateurs peuvent apporter des modifications HTML/CSS mineures et ajouter des balises de script à un modèle d’e-mail pour résoudre les problèmes de rendu. [En savoir plus](../content/email-template-advanced-html.md) |
 | Amélioration | Objets personnalisés de la personne - modèles de rôles de groupe d&#39;achat | [!BADGE Architecture simplifiée]{type=Informative tooltip="Disponible avec une architecture simplifiée"} lorsque les administrateurs configurent des objets personnalisés liés à un profil professionnel, les spécialistes marketing peuvent désormais définir des rôles de groupe d’achat à l’aide de ces objets personnalisés. [En savoir plus](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Amélioration | Score du contenu des e-mails - validation de la qualité du contenu | Outre l’alignement de la marque, vous pouvez évaluer la qualité globale du contenu pour identifier les problèmes potentiels de lisibilité, de cohésion et d’efficacité (indépendamment des directives de votre marque). Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. |
 | Amélioration | Score du contenu des emails - évaluation de la qualité du contenu | Outre l’alignement de la marque, vous pouvez évaluer la qualité globale du contenu pour identifier les problèmes potentiels de lisibilité, de cohésion et d’efficacité (indépendamment des directives de votre marque). Ces contrôles automatisés permettent d’identifier les messages peu clairs, le ton incohérent ou les lacunes structurelles. [En savoir plus](../content/content-evaluation.md) |
+
+<!--
+ wait for later release
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
+-->
 
 >[!NOTE]
 >
@@ -136,12 +142,14 @@ Grâce à l’architecture simplifiée, les nouvelles fonctionnalités et améli
 | Amélioration | Pondération du score d’engagement - Événements AEP | La pondération du score de l’engagement peut désormais inclure n’importe quel événement Experience Platform standard ou personnalisé et être pondérée en fonction de vos besoins. [En savoir plus](../admin/engagement-score-weighting.md) |
 | Amélioration | Limites de communication | Le système respecte désormais les limites de communication combinées de Marketo Engage et de Journey Optimizer B2B edition. [En savoir plus](../admin/configure-channels-emails.md#communication-limits) |
 
-<!-- There are additional functional changes with the simplified architecture:
+<!--
+ There are additional functional changes with the simplified architecture:
 
 | Item | Description |
 | ---- | ----------- |
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | | -->
+| | |
+-->
 
 ## Notes de mise à jour 2025.9 {#rel-2025-9}
 

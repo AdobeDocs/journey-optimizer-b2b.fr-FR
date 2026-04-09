@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 44%
+source-wordcount: '361'
+ht-degree: 49%
 
 ---
 
@@ -27,14 +28,14 @@ Exemple d’expression simple :
 {{account.accountName}}
 ```
 
-Où ce qui suit est vrai :
+Où :
 
 * `account` est un espace de noms.
 * `accountName` est un jeton composé par des attributs.
 
   >[!NOTE]
   >
-  >La structure des attributs est définie dans un schéma XDM Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
+  >La structure des attributs est définie dans un schéma XDM Adobe Experience Platform [](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Les identifiants peuvent être n’importe quel caractère Unicode, à l’exception des caractères suivants :
 
@@ -46,13 +47,15 @@ Où ce qui suit est vrai :
 
 * Les mots **true**, **false**, **null** et **undefined** ne sont autorisés que dans la première partie d&#39;une expression de chemin.
 
-* Dans Handlebars, les valeurs renvoyées par {\{expression}\} ont un échappement _HTML_. Si l’expression contient `&`, la sortie avec échappement HTML renvoyée est générée comme `&amp;`. Si vous ne souhaitez pas que Handlebars réalisent l’échappement d’une valeur, utilisez le signe +triple-stash_.
+* Dans Handlebars, les valeurs renvoyées par {\{expression}\} ont un échappement __. Si l’expression contient `&`, la sortie avec échappement HTML renvoyée est générée comme `&amp;`. Si vous ne souhaitez pas que Handlebars réalisent l’échappement d’une valeur, utilisez le signe +triple-stash_.
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
-* Pour les arguments de fonctions littérales, l’analyseur de langage de modèle ne prend pas en charge le symbole barre oblique inverse (`\`) sans échappement. Ce caractère doit être placé dans une séquence d’échappement avec une barre oblique inverse (`\`) supplémentaire. Par exemple :
+* Pour les arguments de fonctions littérales, l’analyseur de langage de modèle ne prend pas en charge le symbole barre oblique inverse (`\`) sans échappement. Ce caractère doit avoir fait l’objet d’un échappement avec une barre oblique inverse supplémentaire (`\`). Par exemple :
 
   ```
   {%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}
@@ -68,9 +71,11 @@ Une fonction d’assistance Handlebars est un identifiant simple qui peut être 
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
 Pour plus d’informations sur ces fonctions, voir [Fonctions d’assistance](./personalization-helper-functions.md).
 
@@ -82,8 +87,8 @@ Pour plus d’informations sur ces fonctions, voir [Fonctions d’assistance](./
 | ------- | ---------- |
 | Chaîne | Un type de données composé de caractères entourés par des guillemets doubles. <br>Exemples : `"prospect"`, `"jobs"`, `"articles"` |
 | Booléen | Un type de données qui est soit vrai soit faux. |
-| Entier | Un type de données représentant un nombre entier. Ce nombre peut être positif, négatif ou nul. <br>Exemples : `-201`, `0`, `412` |
-| Tableau | Un type de données composé d’un groupe d’autres valeurs littérales. Elle utilise des crochets pour regrouper et des virgules pour délimiter les différentes valeurs. <br> **Remarque :** vous ne pouvez pas accéder directement aux propriétés des éléments d’un tableau. <br> Exemples : `[1, 4, 7]`, `["US", "FR"]` |
+| Nombre entier | Un type de données représentant un nombre entier. Ce nombre peut être positif, négatif ou nul. <br>Exemples : `-201`, `0`, `412` |
+| Tableau | Un type de données composé d’un groupe d’autres valeurs littérales. Elle utilise des crochets pour regrouper et des virgules pour délimiter les différentes valeurs. <br> **Remarque :** vous ne pouvez pas accéder directement aux propriétés des éléments d’un tableau. <br> Exemples : `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >

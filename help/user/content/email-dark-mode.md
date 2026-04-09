@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, conception
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 21%
@@ -30,7 +30,7 @@ Le _mode sombre_ permet à un client de messagerie ou à une application de supp
 
 ![Diagramme de concept des modes clair et sombre présentant le rendu du contenu dans les thèmes clair et sombre](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-Lorsque vous [créez le contenu de votre e-mail](./email-authoring.md) dans l’espace de conception visuelle [!DNL Journey Optimizer B2B Edition], vous pouvez passer à la vue _&#x200B;**[!UICONTROL Mode sombre]**&#x200B;_. Dans cette vue, vous pouvez également définir des paramètres personnalisés spécifiques pour la prise en charge des clients de messagerie lorsque leur mode sombre est activé.
+Lorsque vous [créez le contenu de votre e-mail](./email-authoring.md) dans l’espace de conception visuelle [!DNL Journey Optimizer B2B Edition], vous pouvez passer à la vue _**[!UICONTROL Mode sombre]**_. Dans cette vue, vous pouvez également définir des paramètres personnalisés spécifiques pour la prise en charge des clients de messagerie lorsque leur mode sombre est activé.
 
 ## Remarques concernant le client de messagerie
 
@@ -92,10 +92,12 @@ Lorsque vous mettez en forme le contenu de votre e-mail pour le mode sombre en [
 
 ### Prévisualiser le mode sombre par défaut {#preview-dark-mode}
 
-<!-- Should work with templates and themes, NOT for LP and fragments - but TBC with eng. 
+<!--
+ Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
 >[!NOTE]
 >
->Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
+>Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).
+-->
 
 1. Ouvrez le contenu de l’e-mail dans l’espace de conception d’e-mail.
 
@@ -185,12 +187,16 @@ Le mode sombre peut modifier les couleurs, les arrière-plans et les images, par
 | Optimisation des images et des logos | Liste de vérification :<ul><li>Enregistrez les logos et les icônes en tant que fichiers PNG avec des arrière-plans transparents pour éviter les zones blanches visibles en mode sombre. <li>Évitez les images avec des arrière-plans blancs ou clairs codés en dur. <li>Si vous ne pouvez pas utiliser la transparence, placez les images sur un arrière-plan uni dans votre conception pour éviter des inversions de couleurs inappropriées. |
 | Surveiller vos antécédents | Liste de vérification :<ul><li>Vérifiez que le contraste entre le texte et les couleurs d’arrière-plan est suffisant pour garantir une bonne lisibilité en mode clair et en mode sombre. <li>Évitez de vous fier uniquement aux couleurs d’arrière-plan pour du contenu important. Certains clients remplacent les couleurs de fond en mode sombre, afin de s’assurer que les informations clés sont toujours visibles. |
 | Conception de contenu accessible en mode sombre | Liste de vérification :<ul><li>Utilisez des combinaisons de couleurs faciles à distinguer pour les personnes atteintes de daltonisme. <li>Utilisez une palette de tons moyens pour garantir un contraste adéquat par rapport à des arrière-plans clairs et sombres. <li>Utilisez des combinaisons de couleurs accessibles avec un contraste élevé pour améliorer la lisibilité et respecter les normes [!DNL Web Content Accessibility Guidelines (WCAG)]. Utilisez des outils tels que [!DNL WebAIM Contrast Checker] pour vérifier le contraste des couleurs. <li>Évitez les polices de caractères fines, car elles peuvent affecter la lisibilité. Si votre marque nécessite l’utilisation d’une police fine, mettez-la en gras en mode sombre. <li>Ignorez le blanc pur sur le noir pur, ce qui peut entraîner une fatigue oculaire et pourrait être inversé automatiquement dans certains clients de messagerie. <li>Fournissez un style de secours accessible si le mode sombre n’est pas pris en charge. |
-| Tester vos e-mails dans un environnement en mode sombre | Liste de vérification :<ul><li>Utilisez l’aperçu [&#x200B; mode sombre &#x200B;](#preview-dark-mode) dans l’espace de conception d’e-mail, qui utilise des modèles de couleurs inversés pour repérer les problèmes dès le début. <li>Utilisez un compte d’entreprise Litmus avec l’option [[!UICONTROL Rendu d’e-mail]](./email-test-rendering.md) pour simuler vos conceptions sur les principaux clients de messagerie (tels qu’Apple Mail, Gmail et Outlook) et voir comment les couleurs et les images se comportent en mode sombre. |
+| Tester vos e-mails dans un environnement en mode sombre | Liste de vérification :<ul><li>Utilisez l’aperçu [ mode sombre ](#preview-dark-mode) dans l’espace de conception d’e-mail, qui utilise des modèles de couleurs inversés pour repérer les problèmes dès le début. <li>Utilisez un compte d’entreprise Litmus avec l’option [[!UICONTROL Rendu d’e-mail]](./email-test-rendering.md) pour simuler vos conceptions sur les principaux clients de messagerie (tels qu’Apple Mail, Gmail et Outlook) et voir comment les couleurs et les images se comportent en mode sombre. |
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->

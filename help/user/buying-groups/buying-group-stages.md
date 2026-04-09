@@ -4,10 +4,10 @@ description: Créez des modèles d’étape de groupe d’achats personnalisés 
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 1%
+source-wordcount: '2357'
+ht-degree: 2%
 
 ---
 
@@ -77,7 +77,7 @@ Une fois le modèle créé, il s’ouvre dans l’espace de travail et vous ête
 
    >[!IMPORTANT]
    >
-   >**Une fois les étapes du groupe d&#39;achats enregistrées, elles ne peuvent pas être supprimées.** Cependant, vous pouvez modifier le nom et la description de n’importe quelle étape tant que le modèle conserve l’état _Brouillon_.
+   >**Une fois les étapes du groupe d&#39;achats enregistrées, elles ne peuvent pas être supprimées.** Cependant, vous pouvez modifier le nom et la description de n’importe quelle étape tant que le modèle conserve le statut _Brouillon_.
 
 ### Configurer le workflow et les règles de transition
 
@@ -120,7 +120,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 | **[!UICONTROL Nom de l’étape]** | Nom de l’étape. Cliquez sur l’icône d’informations pour afficher la description de l’étape. |
 | **[!UICONTROL Transit autorisé vers]** | Répertorie les étapes valides pour une action _déplacer vers_ dans le modèle. |
 | **[!UICONTROL Étape du point d’entrée]** | Indique si l’étape est valide comme étape de point d’entrée ([!UICONTROL Oui] ou [!UICONTROL Non]). |
-| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL &#x200B; Succès &#x200B;] ou [!UICONTROL &#x200B; Échec &#x200B;]). |
+| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL  Succès ] ou [!UICONTROL  Échec ]). |
 
 ![Étapes et règles de transition définies pour un modèle de brouillon](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -168,7 +168,7 @@ En l’absence d’erreur de validation, le modèle peut être publié. Lorsqu�
 
 >[!IMPORTANT]
 >
->**Une fois le modèle publié, il ne peut pas être mis à jour ni supprimé.** Assurez-vous que ce que vous avez est correct avant de publier le modèle.
+>**Une fois le modèle publié, il ne peut pas être mis à jour ni supprimé.** Assurez-vous que ce dont vous disposez est correct avant de publier le modèle.
 
 1. Examinez attentivement les étapes et transitions définies.
 
@@ -181,12 +181,14 @@ En l’absence d’erreur de validation, le modèle peut être publié. Lorsqu�
    Lorsque la page des détails du modèle est de nouveau affichée, le modèle est désigné comme _[!UICONTROL En ligne]_. Cliquez sur la flèche _Précédent_ en haut à gauche pour revenir à la page de l’onglet _[!UICONTROL Étapes]_.
 
 ![Modèle publié](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
-<!-- list these later when the Published columns are working correctly
+<!--
+ list these later when the Published columns are working correctly
 
 Columns - Name, Status, Created by, Created date, Last updated by, Last update, Published by, Published on.
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
-Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. 
+-->
 
 ## Supprimer le modèle d&#39;étapes du groupe d&#39;achats
 
@@ -196,7 +198,7 @@ Vous pouvez supprimer le modèle d’étapes du groupe d’achat lorsqu’il est
 
 1. Sur la page _Groupes d&#39;achat_, sélectionnez l&#39;onglet **[!UICONTROL Étapes]**.
 
-1. Cliquez sur l’icône du menu _Plus_ (**...**) à côté du nom du modèle d’étapes et choisissez **[!UICONTROL Supprimer]**.
+1. Cliquez sur l’icône de menu _Plus_ (**...**) en regard du nom du modèle de phases et choisissez **[!UICONTROL Supprimer]**.
 
    ![Achat de modèles d&#39;étapes de groupe Plus de menu](./assets/stages-model-list-more-menu.png){width="700"}
 
@@ -215,7 +217,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 1. Ouvrez l’intérêt de la solution à l’aide de l’une des méthodes suivantes pour ouvrir les propriétés de l’intérêt de la solution que vous souhaitez modifier :
 
    * Cliquez sur le nom de la solution qui vous intéresse.
-   * Cliquez sur les points de suspension (**...**) en regard et choisissez **[!UICONTROL Modifier]**.
+   * Cliquez sur les points de suspension (**...**) en regard de celui-ci et choisissez **[!UICONTROL Modifier]**.
 
    ![Menu Plus d’intérêt pour la solution](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -263,7 +265,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
    Le chemin de division est défini dans les propriétés de nœud sur la droite.
 
-   ![Propriétés du nœud de partage de Parcours &#x200B;](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
+   ![Propriétés du nœud de partage de Parcours ](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
 
 1. Continuez à définir d’autres chemins d’accès pour le nœud partagé et enregistrez le parcours.
 
@@ -363,6 +365,6 @@ Utilisez l&#39;occurrence d&#39;un changement d&#39;étape de groupe d&#39;achat
 
 1. Continuez pour apporter d’autres modifications et enregistrez le parcours.
 
-## Vidéo de vue d’ensemble
+## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3448696/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

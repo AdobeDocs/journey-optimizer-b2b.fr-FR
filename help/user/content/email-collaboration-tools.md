@@ -3,10 +3,11 @@ title: Outils de Collaboration des e-mails
 description: Collaborez sur des emails dans Journey Optimizer B2B edition. Ajoutez des commentaires, invitez des réviseurs et résolvez les commentaires et rationalisez les workflows de révision pour les équipes.
 feature: Email Authoring, Content
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 3%
+source-wordcount: '1213'
+ht-degree: 4%
 
 ---
 
@@ -24,11 +25,13 @@ L’[espace de conception d’e-mail](./email-authoring.md) comprend des outils 
 
 * **_Collaboration en contexte_** - Examinez la copie du corps de l’e-mail, les images et les éléments call-to-action (CTA) dans la mise en page.
 
-<!-- Enable asynchronous collaboration between team members for an email asset
+<!--
+ Enable asynchronous collaboration between team members for an email asset
 Allow users to attach comments to specific design elements
 Provide a unified interface for viewing and managing all comments within a project
 Support comment placement, editing, deleting, and navigation
-Display visual indicators (badges) for elements with associated comments -->
+Display visual indicators (badges) for elements with associated comments 
+-->
 
 ## Activer les outils de collaboration par e-mail pour les réviseurs
 
@@ -40,7 +43,7 @@ Les administrateurs de produit peuvent autoriser l’accès aux outils de collab
 
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les autorisations.
 
-1. Ajoutez la ressource **[!UICONTROL Assets B2B]**, puis sélectionnez **[!UICONTROL Gérer les e-mails B2B]**.
+1. Ajoutez la ressource Assets B2B ]**, puis sélectionnez**[!UICONTROL  Gérer les e-mails B2B ]**.**[!UICONTROL 
 
    ![Gérer les paramètres d’autorisation des e-mails B2B dans l’interface utilisateur des autorisations Adobe Experience Platform](./assets/emails-aep-permissions.png){width="700" zoomable="yes"}
 
@@ -52,7 +55,7 @@ Les administrateurs de produit peuvent autoriser l’accès aux outils de collab
 
    * Saisissez le nom d’utilisateur et l’adresse e-mail, ou choisissez un utilisateur existant dans la liste.
 
-     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
@@ -60,9 +63,9 @@ Les administrateurs de produit peuvent autoriser l’accès aux outils de collab
 
 ## Affichage des outils et commentaires de collaboration
 
-Lors de la création, de la modification ou de la révision du contenu dans l’espace de conception d’e-mail, vous pouvez accéder au panneau _Collaboration_ pour ajouter ou gérer des commentaires pour le contenu de l’e-mail.
+Lors de la création, de la modification ou de la révision du contenu dans l’espace de conception d’e-mail, vous pouvez accéder au panneau __ pour ajouter ou gérer des commentaires pour le contenu de l’e-mail.
 
-Cliquez sur l’icône _Collaboration_ ( ![icône Collaboration](../assets/do-not-localize/icon-comments.svg) ) dans le volet de navigation de droite.
+Cliquez sur l’icône __ ( ![icône Collaboration](../assets/do-not-localize/icon-comments.svg) ) dans le volet de navigation de droite.
 
 ![Icône du panneau Collaboration dans la navigation de droite de la conception d’e-mail](./assets/email-comments-right-nav-icon.png){width="700" zoomable="yes"}
 
@@ -93,7 +96,7 @@ Vous pouvez utiliser les outils de collaboration pour suivre un workflow de cont
 
 1. Sélectionnez le corps de l’e-mail.
 
-1. Cliquez sur l’icône _Collaboration_ ( ![icône Collaboration](../assets/do-not-localize/icon-comments.svg) ) dans le volet de navigation de droite.
+1. Cliquez sur l’icône __ ( ![icône Collaboration](../assets/do-not-localize/icon-comments.svg) ) dans le volet de navigation de droite.
 
 1. Dans la partie supérieure du panneau de droite, saisissez le texte de votre invitation pour que les utilisateurs puissent collaborer et fournir des commentaires.
 
@@ -113,13 +116,13 @@ Vous pouvez utiliser les outils de collaboration pour suivre un workflow de cont
 
 ### Ajouter des commentaires
 
-En tant que collaborateur ou réviseur d’e-mail, ouvrez l’e-mail dans l’espace de conception et ajoutez vos commentaires. Vous pouvez saisir des commentaires généraux dans le panneau _Collaboration_ ou sélectionner des composants dans la zone de travail et ajouter un commentaire spécifique à cet élément de conception. Balisez vos coéquipiers à l’aide de `@`, par exemple _@John Doe Veuillez mettre à jour la copie CTA_.
+En tant que collaborateur ou réviseur d’e-mail, ouvrez l’e-mail dans l’espace de conception et ajoutez vos commentaires. Vous pouvez saisir des commentaires généraux dans le panneau __ ou sélectionner des composants dans la zone de travail et ajouter un commentaire spécifique à cet élément de conception. Balisez vos coéquipiers à l’aide de `@`, par exemple _@John Doe Veuillez mettre à jour la copie CTA_.
 
 Chaque nouveau commentaire lance un thread dans lequel les collaborateurs peuvent utiliser _Répondre_ pour poursuivre la discussion. Chaque commentaire/thread associé à un élément de conception est numéroté afin que vous puissiez facilement identifier l’élément auquel il s’applique.
 
 #### Commentaires généraux et commentaires
 
-Dans le panneau _Collaboration_, utilisez le champ de texte en haut pour saisir un commentaire général sur le contenu de l’e-mail. Utilisez le symbole `@` pour adresser et avertir les utilisateurs.
+Dans le panneau __, utilisez le champ de texte en haut pour saisir un commentaire général sur le contenu de l’e-mail. Utilisez le symbole `@` pour adresser et avertir les utilisateurs.
 
 ![Champ commentaire général dans le panneau Collaboration pour les commentaires par e-mail et le balisage utilisateur](./assets/email-comments-general.png){width="400"}
 
@@ -129,7 +132,7 @@ Cliquez sur **[!UICONTROL Envoyer]** pour consigner le commentaire et envoyer de
 
 1. Sélectionnez une structure ou un composant de contenu.
 
-1. Dans la barre d&#39;outils, cliquez sur l&#39;outil _Collaboration_.
+1. Dans la barre d&#39;outils, cliquez sur l&#39;outil __.
 
    Icône de l’outil Collaboration ![dans la barre d’outils de l’éditeur d’email pour ajouter des commentaires spécifiques au composant](./assets/email-comments-canvas-toolbar.png){width="600"}
 
@@ -179,7 +182,7 @@ Vous pouvez nettoyer votre journal de commentaires en les supprimant. Cliquez su
 
 ### Commentaires résolus
 
-Par défaut, les commentaires résolus sont masqués dans le panneau _Collaboration_. Vous pouvez afficher les commentaires résolus à tout moment en effaçant le filtre. Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer les commentaires résolus](../assets/do-not-localize/icon-filter.svg) ) et décochez la case **[!UICONTROL Masquer les commentaires résolus]**.
+Par défaut, les commentaires résolus sont masqués dans le panneau __. Vous pouvez afficher les commentaires résolus à tout moment en effaçant le filtre. Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer les commentaires résolus](../assets/do-not-localize/icon-filter.svg) ) et décochez la case **[!UICONTROL Masquer les commentaires résolus]**.
 
 Panneau ![Collaboration affichant un filtre pour afficher les commentaires d’e-mail résolus](./assets/email-comments-filter-resolved.png){width="350"}
 

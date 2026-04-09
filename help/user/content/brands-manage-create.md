@@ -6,7 +6,7 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 19%
@@ -59,7 +59,7 @@ Vous pouvez désigner une marque par défaut à appliquer automatiquement lors d
 
 Dans la bibliothèque de marques, la vignette de marque par défaut est affichée avec un indicateur .
 
-![&#x200B; Indicateur de marque par défaut &#x200B;](./assets/brands-default-flag.png){width="200"}
+![ Indicateur de marque par défaut ](./assets/brands-default-flag.png){width="200"}
 
 Vous pouvez définir n’importe quelle marque publiée (_en direct_) comme marque par défaut. Sur la carte de marque, cliquez sur l’icône _Plus de menu_ ( ![Icône de menu Plus](../../assets/do-not-localize/icon-more-menu.svg) ) et choisissez **[!UICONTROL Marquer comme marque par défaut]**.
 
@@ -242,7 +242,7 @@ Sélectionnez l’onglet **[!UICONTROL Style d’écriture]** et passez en revue
 |                            | [!UICONTROL Mécanique de l&#39;écriture] | Gardez les phrases courtes et percutantes. | N’utilisez pas trop de jargon. |
 |                            | [!UICONTROL Ton situationnel] | Maintenez un ton professionnel dans les communications de crise. | Ne soyez pas dédaigneux dans les communications d’assistance. |
 |                            | [!UICONTROL Consignes relatives au choix de mots] | Utilisez des mots comme _innovant_ et _intelligent_. | Évitez les mots comme _pas cher_ ou _hack_. |
-|                            | [!UICONTROL &#x200B; Normes linguistiques &#x200B;] | Respectez les conventions françaises. | Faites attention à l’orthographe. |
+|                            | [!UICONTROL  Normes linguistiques ] | Respectez les conventions françaises. | Faites attention à l’orthographe. |
 | [!UICONTROL Normes de message de marque] | [!UICONTROL Normes de message de marque] | Mettez l’accent sur l’innovation et orientez les messages sur la clientèle. | Ne faites pas de promesses irréalistes sur les capacités du produit. |
 |                            | [!UICONTROL Utilisation des balises] | Placez le slogan sous le logo sur toutes les ressources marketing numériques. | Ne modifiez ni ne traduisez le slogan. |
 |                            | [!UICONTROL Messages principaux] | Mettez l&#39;accent sur l&#39;énoncé des principaux avantages, comme l&#39;amélioration de la productivité. | N’utilisez pas des propositions de valeur sans rapport. |
@@ -251,7 +251,8 @@ Sélectionnez l’onglet **[!UICONTROL Style d’écriture]** et passez en revue
 |                            | [!UICONTROL Normes relatives aux droits d’auteur] | Incluez les avis de copyright sur les supports marketing. | N’utilisez pas de contenu tiers sans autorisation. |
 |                            | [!UICONTROL Normes de non-responsabilité] | Affichez clairement les mentions légales sur les ressources numériques. | Ne masquez pas les mentions légales dans des zones non visibles. |
 
-<!-- #### Preferred and avoided terms
+<!--
+ #### Preferred and avoided terms
 
 Supplement your work choice guidelines by adding preferred and avoided terms. 
 
@@ -286,14 +287,14 @@ Sélectionnez l’onglet **[!UICONTROL Contenu visuel]** et passez en revue chaq
 | [!UICONTROL Normes des icônes] | Utilisez un système de grille cohérent de 24 px. | Ne mélangez pas les dimensions des icônes, n’utilisez pas d’épaisseurs de trait incohérentes et ne vous écartez pas des règles de grille. |
 | [!UICONTROL Instructions d’utilisation] | Choisissez des images de style de vie qui représentent des clientes et clients réels utilisant le produit dans des environnements professionnels. | N’utilisez pas d’images qui contredisent le ton de la marque ou semblent hors contexte. |
 
-<!-- #### Styles
+<!--
+ #### Styles
 
 To define the overall style for the category, click **[!UICONTROL Add style]**. In the popup dialog, enter the style type and description. 
 
 ![Add style for visual content category](./assets/brands-visual-content-add-style.png){width="500" zoomable="yes"}
 
 #### Specifications
-
 -->
 
 #### Exemples d’images
