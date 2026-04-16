@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4943'
+source-wordcount: '4930'
 ht-degree: 48%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 48%
 # Fonctions d’assistance
 
 Utilisez les fonctions d’assistance de l’éditeur de personnalisation pour définir des expériences de contenu personnalisées avec précision et efficacité en manipulant les données, en effectuant des calculs et en formatant le contenu. Explorez et testez ces fonctions, opérateurs et assistants pour découvrir comment ils fonctionnent ensemble pour vous aider à créer des parcours sur mesure et pilotés par les données.
-
->[!AVAILABILITY]
->
->Les fonctions d’assistance sont disponibles pour les environnements [!DNL Journey Optimizer B2B Edition] configurés sur l’[architecture simplifiée](../simplified-architecture.md).
 
 ## Fonctions d’agrégation
 
@@ -978,9 +974,9 @@ Lorsque la première chaîne correspond à l’attribut date, la deuxième valeu
 >
 > Si un modèle de date n’est pas valide, la date revient au format ISO standard.
 >
-> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [&#128279;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation [&#128279;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation [](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Exemple**
 
@@ -1806,7 +1802,7 @@ Elle accepte un nombre et une chaîne représentant les paramètres régionaux e
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation d’[&#128279;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation d’[](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemple**
 

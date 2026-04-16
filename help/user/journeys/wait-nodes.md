@@ -4,9 +4,9 @@ description: Utilisez les nœuds d’attente pour suspendre la progression du pa
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,6 @@ Activez l’option **[!UICONTROL Doit se terminer le]** pour configurer une _ét
 Avec une _étape d’attente avancée_, vous définissez **_quand_** la personne ou le compte doit quitter, et pas seulement combien de temps il doit attendre.
 
 ![nœud de Parcours - étape d’attente avancée](./assets/node-wait-advanced.png){width="500"}
-
->[!AVAILABILITY]
->
->Les paramètres d’attente avancés sont disponibles pour les environnements [!DNL Journey Optimizer B2B Edition] configurés sur l’architecture [&#x200B; simplifiée](../simplified-architecture.md).
 
 ### Types d’attente
 

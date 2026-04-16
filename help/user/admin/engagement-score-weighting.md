@@ -4,9 +4,9 @@ description: Créez des modèles de score d’engagement personnalisés avec des
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: ff635309749cfb7c065522a34b1228e71b144a9f
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,13 @@ Ouvrez la liste _[!UICONTROL pondération du score de l’engagement]_ pour affi
 
 ### Modèle de score par défaut
 
-Le système crée un modèle de score d’engagement initial nommé _modèle de pondération des activités 1_. Le statut du modèle et les activités d’engagement dépendent de l’architecture des données de votre environnement de [!DNL Journey Optimizer B2B Edition] :
+Le système crée un modèle de score d’engagement initial nommé _modèle de pondération des activités 1_. Les activités d’engagement sont basées sur des événements Experience Platform standard et personnalisés. Le poids de toutes les activités est de 0 par défaut.
 
-* **Architecture simplifiée** (Beta) - Si votre environnement utilise l’[architecture simplifiée](../simplified-architecture.md), les activités d’engagement sont basées sur des événements Experience Platform standard et personnalisés. Le poids de toutes les activités est de 0 par défaut.
+![Modèle de pondération du score d’engagement par défaut pour les événements Experience Platform](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-  ![Modèle de pondération du score d’engagement par défaut pour l’architecture simplifiée](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
 
-* **Architecture standard** - Si votre environnement utilise l’architecture standard, l’instance [!DNL Marketo Engage] connectée est la source des données d’activité d’engagement. Le modèle par défaut est actif jusqu’à ce que vous créiez une version personnalisée et l’activiez.
-
-  ![Modèle de pondération du score d’engagement par défaut pour l’architecture standard](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 Lorsque vous activez un modèle personnalisé, le modèle actif passe à un statut _Archivé_. Si vous décidez de revenir au modèle de score d’engagement par défaut, vous pouvez dupliquer le modèle par défaut d’origine, puis l’activer ou l’utiliser comme point de départ pour un autre modèle personnalisé.
 
@@ -69,7 +67,7 @@ Pour créer un modèle de score d’engagement personnalisé, dupliquez le modè
 
 1. Cliquez sur le nom du modèle pour ouvrir la page des détails du modèle, puis cliquez sur **[!UICONTROL Dupliquer]** en haut à droite.
 
-   ![&#x200B; Dupliquer le modèle actif &#x200B;](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
+   ![ Dupliquer le modèle actif ](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
 
    Vous pouvez également cliquer sur l’icône _Plus_ (***...***) en regard du nom du modèle de score dans la liste et choisir **[!UICONTROL Dupliquer]**.
 
@@ -92,7 +90,7 @@ Les paramètres de poids définissent les bandes que vous pouvez affecter à cha
 1. Pour chaque plage de poids, ajustez le nom ou les valeurs en fonction de vos besoins :
 
    * Modifiez le nom dans le champ _[!UICONTROL Bande de pondération]_.
-   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
+   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Paramètres de poids de l’engagement](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -110,9 +108,9 @@ Les paramètres de poids définissent les bandes que vous pouvez affecter à cha
 
 Chaque modèle de score comprend la liste complète des activités de score d’engagement prises en charge.
 
-+++Activités pour une architecture simplifiée
++++Activités pour les événements Experience Platform
 
-Le modèle par défaut de l’architecture simplifiée inclut les activités suivies par Experience Platform. Chaque activité a un poids nul (0) (non utilisé) jusqu’à ce que vous lui attribuiez un poids. Toutes les activités ont également une fréquence quotidienne maximale de 20, ce que vous ne pouvez pas modifier.
+Le modèle par défaut des événements Experience Platform inclut les activités suivies par Experience Platform. Chaque activité a un poids nul (0) (non utilisé) jusqu’à ce que vous lui attribuiez un poids. Toutes les activités ont également une fréquence quotidienne maximale de 20, ce que vous ne pouvez pas modifier.
 
 <table style="table-layout: fixed; width: 100%; border: 0;">
 <tbody>
@@ -124,7 +122,7 @@ Le modèle par défaut de l’architecture simplifiée inclut les activités sui
 <ul><li>Envoi de la proposition de prise de décision </li><li>Déclencheur de proposition de prise de décision </li><li>Retour d’informations de diffusion </li><li>E-mail de marketing direct non remis </li><li>E-mail de marketing direct non remis en erreur - Soft </li><li>E-mail de marketing direct sur lequel l’utilisateur a cliqué </li><li>E-Mail De Marketing Direct Diffusé </li><li>E-mail de marketing direct ouvert </li><li>E-mail de marketing direct envoyé </li><li>Désabonnement des e-mails de marketing direct </li><li>Message in-app ignoré </li><li>Le message in-app était affiché </li><li>Le message in-app a fait l’objet d’une interaction </li><li>Ajout D’Opération De Lead À La Campagne </li><li>Webhook D’Appel D’Opération De Lead </li><li>Flux de campagne de modification de l’opération de lead </li><li>Opération de lead Convertir le lead </li><li>Moment intéressant de l’opération de lead </li><li>Opération de lead - Fusionner les leads </li><li>Opération de lead Nouveau lead </li><li>Étape de revenu d’opération de lead modifiée </li><li>Score d’opération de lead modifié </li><li>Statut de l’opération de lead modifié dans la progression de la campagne </li></ul>
 </td>
 <td>
-<ul><li>Ajout De L’Opération De Lead À La Liste </li><li>Opération De Lead Supprimée De La Liste </li><li>Sortie de l’emplacement </li><li>adBreakComplete du média </li><li>Media adBreakStart </li><li>Media adComplete </li><li>Media adSkip </li><li>Media adStart </li><li>Modification du débit multimédia </li><li>Début de la mémoire tampon du média </li><li>Chapitre du média terminé </li><li>Chapitre de média ignoré </li><li>Début du chapitre du média </li><li>Suivi personnalisé des médias </li><li>Contenu multimédia téléchargé </li><li>Erreur de média </li><li>Media pauseStart </li><li>Ping du média </li><li>Media Play (Lecture du fichier multimédia) </li><li>Session multimédia terminée </li><li>Fin de session du média </li><li>Media sessionStart </li><li>Mise à jour des états du média </li><li>Retour d’informations du message </li><li>Données de rendu du message </li><li>Suivi des messages </li><li>Ajout D’Événement D’Opportunité À L’Opportunité </li><li>Opportunité d’événement d’opportunité mise à jour </li><li>Événement d’opportunité supprimé de l’opportunité </li><li>Application de suivi des notifications push ouverte </li><li>Action personnalisée de suivi des notifications push </li><li>Formulaire Web Rempli </li><li>Clics sur les liens d’interaction web </li><li>Pages Web Détaillées Vues</li></ul>
+<ul><li>Ajout De L’Opération De Lead À La Liste </li><li>Opération De Lead Supprimée De La Liste </li><li>Sortie de l’emplacement </li><li>adBreakComplete du média </li><li>Media adBreakStart </li><li>Media adComplete </li><li>Media adSkip </li><li>Media adStart </li><li>Modification du débit multimédia </li><li>Début de la mémoire tampon du média </li><li>Chapitre du média terminé </li><li>Chapitre de média ignoré </li><li>Début du chapitre du média </li><li>Suivi personnalisé des médias </li><li>Contenu multimédia téléchargé </li><li>Erreur de média </li><li>Media pauseStart </li><li>Ping du média </li><li>Lecture du média </li><li>Session multimédia terminée </li><li>Fin de session du média </li><li>Media sessionStart </li><li>Mise à jour des états du média </li><li>Retour d’informations du message </li><li>Données de rendu du message </li><li>Suivi des messages </li><li>Ajout D’Événement D’Opportunité À L’Opportunité </li><li>Opportunité d’événement d’opportunité mise à jour </li><li>Événement d’opportunité supprimé de l’opportunité </li><li>Application de suivi des notifications push ouverte </li><li>Action personnalisée de suivi des notifications push </li><li>Formulaire Web Rempli </li><li>Clics sur les liens d’interaction web </li><li>Pages Web Détaillées Vues</li></ul>
 </td>
 </tbody>
 </table>
