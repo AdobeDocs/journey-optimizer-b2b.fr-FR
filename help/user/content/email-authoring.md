@@ -4,7 +4,7 @@ description: Créez des e-mails avec des outils de conception visuelle, l’impo
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -13,15 +13,15 @@ ht-degree: 6%
 
 # Création d’un e-mail
 
-Après avoir [ajouté une ressource e-mail à un nœud d’action de parcours &#x200B;](./add-email.md), vous pouvez définir le contenu de l’e-mail.
+Après avoir [ajouté une ressource e-mail à un nœud d’action de parcours ](./add-email.md), vous pouvez définir le contenu de l’e-mail.
 
 Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** dans l’onglet _[!UICONTROL Détails]_ du panneau de droite.
 
-![Cliquez sur Modifier le contenu de l’e-mail &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Cliquez sur Modifier le contenu de l’e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Cette action lance les outils de conception d’e-mail, dans lesquels vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
-* [Concevez entièrement votre e-mail](#design-your-email-from-scratch) à l’aide de l’interface Email Designer.
+* [Concevez entièrement votre e-mail](#design-your-email-from-scratch) à l’aide de l’interface de conception visuelle.
 
 * [Importez du contenu HTML existant](#import-existing-html-content) à partir d’un fichier ou d’un dossier .zip.
 

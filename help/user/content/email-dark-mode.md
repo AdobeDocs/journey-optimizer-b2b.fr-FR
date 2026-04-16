@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, conception
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 21%
+source-wordcount: '1606'
+ht-degree: 20%
 
 ---
 
@@ -30,9 +30,9 @@ Le _mode sombre_ permet à un client de messagerie ou à une application de supp
 
 ![Diagramme de concept des modes clair et sombre présentant le rendu du contenu dans les thèmes clair et sombre](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-Lorsque vous [créez le contenu de votre e-mail](./email-authoring.md) dans l’espace de conception visuelle [!DNL Journey Optimizer B2B Edition], vous pouvez passer à la vue _&#x200B;**[!UICONTROL Mode sombre]**&#x200B;_. Dans cette vue, vous pouvez également définir des paramètres personnalisés spécifiques pour la prise en charge des clients de messagerie lorsque leur mode sombre est activé.
+Lorsque vous [créez le contenu de votre e-mail](./email-authoring.md) dans l’espace de conception visuelle [!DNL Journey Optimizer B2B Edition], vous pouvez passer à la vue _**[!UICONTROL Mode sombre]**_. Dans cette vue, vous pouvez également définir des paramètres personnalisés spécifiques pour la prise en charge des clients de messagerie lorsque leur mode sombre est activé.
 
-## Remarques concernant le client de messagerie
+## Remarques concernant le client de messagerie {#email-client-considerations}
 
 Il existe des différences significatives dans la manière dont les différents clients de messagerie et applications appliquent le mode sombre. Pour cette raison, prenez en compte les attentes en matière de rendu en mode sombre avec précaution. Avant d’utiliser le mode sombre dans l’espace de conception d’e-mail, tenez compte des cas d’utilisation de client de messagerie suivants :
 <!--
@@ -61,7 +61,7 @@ Certains clients de messagerie appliquent systématiquement leur propre mode som
 * Outlook Windows Mail
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
-Dans ce cas, les paramètres du mode sombre du client remplacent ceux que vous définissez dans [!DNL Journey Optimizer B2B Edition]
+Dans ce cas, les paramètres du mode sombre client remplacent les paramètres personnalisés du mode sombre que vous définissez dans [!DNL Journey Optimizer B2B Edition].
 
 +++
 
@@ -86,9 +86,9 @@ Pour des résultats optimaux, testez votre contenu avec les clients de messageri
 
 Lorsque vous mettez en forme le contenu de votre e-mail pour le mode sombre en [!DNL Journey Optimizer B2B Edition], l’espace de conception visuelle fournit deux types d’outils :
 
-* Utilisez la fonction [preview](#preview-default-dark-mode) pour passer en revue le rendu du mode sombre par défaut pour la plupart des clients de messagerie de support.
+* Utilisez la fonction [preview](#preview-dark-mode) pour passer en revue le rendu du mode sombre par défaut pour la plupart des clients de messagerie de support.
 
-* Si vous souhaitez remplacer les paramètres par défaut des clients de messagerie de prise en charge, définissez et appliquez des paramètres de mode sombre personnalisés à votre contenu d’e-mail. [En savoir plus](#define-custom-dark-mode)
+* Si vous souhaitez remplacer les paramètres par défaut des clients de messagerie de prise en charge, définissez et appliquez des paramètres de mode sombre personnalisés à votre contenu d’e-mail. [En savoir plus](#custom-dark-mode)
 
 ### Prévisualiser le mode sombre par défaut {#preview-dark-mode}
 
@@ -107,7 +107,7 @@ Lorsque vous mettez en forme le contenu de votre e-mail pour le mode sombre en [
 
 1. Remplacez le sélecteur par _Mode sombre_ (![icône Mode sombre](../assets/do-not-localize/icon-content-dark-mode.svg) ).
 
-   La zone de travail affiche le contenu à l’aide du mode sombre par défaut preview.x
+   La zone de travail affiche le contenu à l’aide de l’aperçu en mode sombre par défaut.
 
    Par défaut, l’aperçu en mode sombre applique le modèle de couleurs `full color invert` à tous les éléments, à l’exception des images et des icônes. Ce jeu de couleurs détecte les zones comportant des éléments clairs et sombres et les inverse. Les arrière-plans clairs deviennent sombres et le texte sombre devient clair, ou les arrière-plans sombres deviennent clairs et le texte clair devient sombre.
 
@@ -168,7 +168,7 @@ _Pour définir les paramètres personnalisés du mode sombre :_
 
    Utilisez les outils de prévisualisation et de relecture pour tester votre conception d’e-mail. Voir [Prévisualiser et tester le contenu de votre e-mail](./email-simulate-content.md) pour plus d’informations.
 
-1. Si vous disposez d’un compte d’entreprise Litmus, sélectionnez **[!UICONTROL Rendu d’e-mail]** pour afficher le rendu final en mode sombre pour divers clients de messagerie dans Litmus .
+1. Si vous disposez d’un compte Entreprise Litmus, sélectionnez **[!UICONTROL Rendu d’e-mail]** pour afficher le rendu final en mode sombre pour divers clients de messagerie dans l’intégration Litmus.
 
    Pour plus d’informations, consultez [Test du rendu des e-mails avec Litmus](./email-test-rendering.md) .
 
@@ -178,7 +178,7 @@ _Pour définir les paramètres personnalisés du mode sombre :_
 
 ## Bonnes pratiques {#best-practices}
 
-À mesure que l’adoption du mode sombre augmente dans les principaux clients de messagerie, il est essentiel d’examiner le rendu de vos e-mails à la fois dans les environnements clairs et sombres, que vous utilisiez le [mode sombre personnalisé](#define-custom-dark-mode) ou non.
+À mesure que l’adoption du mode sombre augmente dans les principaux clients de messagerie, il est essentiel d’examiner le rendu de vos e-mails à la fois dans les environnements clairs et sombres, que vous utilisiez le [mode sombre personnalisé](#custom-dark-mode) ou non.
 
 Le mode sombre peut modifier les couleurs, les arrière-plans et les images, parfois en remplaçant les choix définis lors de la conception. Pour garantir la cohérence visuelle, l’accessibilité et l’intégrité de la marque, appliquez les bonnes pratiques suivantes :
 
@@ -187,12 +187,12 @@ Le mode sombre peut modifier les couleurs, les arrière-plans et les images, par
 | Optimisation des images et des logos | Liste de vérification :<ul><li>Enregistrez les logos et les icônes en tant que fichiers PNG avec des arrière-plans transparents pour éviter les zones blanches visibles en mode sombre. <li>Évitez les images avec des arrière-plans blancs ou clairs codés en dur. <li>Si vous ne pouvez pas utiliser la transparence, placez les images sur un arrière-plan uni dans votre conception pour éviter des inversions de couleurs inappropriées. |
 | Surveiller vos antécédents | Liste de vérification :<ul><li>Vérifiez que le contraste entre le texte et les couleurs d’arrière-plan est suffisant pour garantir une bonne lisibilité en mode clair et en mode sombre. <li>Évitez de vous fier uniquement aux couleurs d’arrière-plan pour du contenu important. Certains clients remplacent les couleurs de fond en mode sombre, afin de s’assurer que les informations clés sont toujours visibles. |
 | Conception de contenu accessible en mode sombre | Liste de vérification :<ul><li>Utilisez des combinaisons de couleurs faciles à distinguer pour les personnes atteintes de daltonisme. <li>Utilisez une palette de tons moyens pour garantir un contraste adéquat par rapport à des arrière-plans clairs et sombres. <li>Utilisez des combinaisons de couleurs accessibles avec un contraste élevé pour améliorer la lisibilité et respecter les normes [!DNL Web Content Accessibility Guidelines (WCAG)]. Utilisez des outils tels que [!DNL WebAIM Contrast Checker] pour vérifier le contraste des couleurs. <li>Évitez les polices de caractères fines, car elles peuvent affecter la lisibilité. Si votre marque nécessite l’utilisation d’une police fine, mettez-la en gras en mode sombre. <li>Ignorez le blanc pur sur le noir pur, ce qui peut entraîner une fatigue oculaire et pourrait être inversé automatiquement dans certains clients de messagerie. <li>Fournissez un style de secours accessible si le mode sombre n’est pas pris en charge. |
-| Tester vos e-mails dans un environnement en mode sombre | Liste de vérification :<ul><li>Utilisez l’aperçu [&#x200B; mode sombre &#x200B;](#preview-dark-mode) dans l’espace de conception d’e-mail, qui utilise des modèles de couleurs inversés pour repérer les problèmes dès le début. <li>Utilisez un compte d’entreprise Litmus avec l’option [[!UICONTROL Rendu d’e-mail]](./email-test-rendering.md) pour simuler vos conceptions sur les principaux clients de messagerie (tels qu’Apple Mail, Gmail et Outlook) et voir comment les couleurs et les images se comportent en mode sombre. |
+| Tester vos e-mails dans un environnement en mode sombre | Liste de vérification :<ul><li>Utilisez l’aperçu [ mode sombre ](#preview-dark-mode) dans l’espace de conception d’e-mail, qui utilise des modèles de couleurs inversés pour repérer les problèmes dès le début. <li>Utilisez un compte d’entreprise Litmus avec l’option [_[!UICONTROL Rendu d’e-mail]_](./email-test-rendering.md) pour simuler vos conceptions sur les principaux clients de messagerie (tels qu’Apple Mail, Gmail et Outlook) et voir comment les couleurs et les images se comportent en mode sombre. |
 
 <!--
 KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+The best practices for designing accessible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
 -->
 
 <!--

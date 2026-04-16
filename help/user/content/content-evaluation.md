@@ -1,19 +1,19 @@
 ---
-title: Score du contenu
+title: Évaluation et notation de contenu
 description: Évaluez le contenu des e-mails avec le score d’alignement de la marque - validez les couleurs, les polices, les logos et le style d’écriture par rapport aux directives de la marque dans Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 37e4a7976d716f24edf2c2e92cbfa4c149aa66ec
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 9%
 
 ---
 
-# Notation du contenu {#content-scoring}
+# Évaluation et notation de contenu {#content-scoring}
 
 L’évaluation et la notation du contenu vous permettent de créer, de réviser et de gérer du contenu qui respecte les directives [définies dans la marque sélectionnée](./brands-manage-create.md#brand-definitions) et les normes de qualité générales. L’exécution d’une évaluation garantit la cohérence du ton, du message et de l’identité visuelle de vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
 
@@ -27,7 +27,7 @@ L’évaluation et la notation du contenu vous permettent de créer, de réviser
 
 1. Après avoir créé le contenu de l’e-mail, cliquez sur l’icône _Alignement des marques_ ( ![Icône d’alignement des marques](../assets/do-not-localize/icon-brand-compliance.svg) ) à droite pour ouvrir le panneau de droite _Alignement des marques_ dans l’espace de conception d’e-mail.
 
-   La [&#x200B; marque par défaut &#x200B;](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
+   La [ marque par défaut ](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
 
    ![Accéder aux outils d’alignement des marques](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
@@ -41,7 +41,7 @@ L’évaluation et la notation du contenu vous permettent de créer, de réviser
 
    ![Scores d’évaluation dans le panneau de droite](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## Score d’alignement de la marque {#brand-score}
+## Score d’alignement de la marque {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -81,7 +81,7 @@ Le score est calculé en fonction des violations identifiées dans le contenu de
 * 60-79 = Juste - Quelques violations importantes
 * En dessous de 60 = médiocre - Les violations majeures doivent être examinées
 
-Vous pouvez consulter les résultats de l’évaluation plus en détail pour vous aider à identifier les violations et à améliorer les scores d’alignement des catégories (_Élevé_, _Medium_ et _Faible_), puis consulter les détails.
+Vous pouvez consulter les résultats de l’évaluation plus en détail pour vous aider à identifier les violations et à améliorer les scores d’alignement des catégories (_Élevé_, _Medium_ et _Faible_).
 
 Dans le champ **[!UICONTROL Écriture de style]** ou **[!UICONTROL Contenu visuel]**, cliquez sur la flèche _Développer_ ( ![Flèche Développer](../assets/do-not-localize/icon-expand-right.svg) ) pour afficher les détails de l’évaluation.
 
@@ -110,7 +110,7 @@ Outre l’alignement de la marque, vous pouvez évaluer la qualité générale d
 
 Faites défiler jusqu’à la section **[!UICONTROL Qualité du contenu]** pour consulter les informations sur la qualité et les recommandations.
 
-![&#x200B; Évaluation de la qualité du contenu &#x200B;](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
+![ Évaluation de la qualité du contenu ](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
 
 Sélectionnez un élément avec indicateur pour afficher des commentaires spécifiques et des suggestions d’amélioration exploitables. Les scores sont basés sur les catégories suivantes :
 

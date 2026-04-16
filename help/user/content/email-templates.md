@@ -1,12 +1,12 @@
 ---
 title: Modèles d’e-mail
-description: Créez entièrement des modèles d’e-mail réutilisables, effectuez une importation HTML ou des conceptions existantes - gérez les modèles pour les parcours de compte dans Journey Optimizer B2B edition.
+description: Créez entièrement des modèles d’e-mail réutilisables, effectuez une importation HTML ou des conceptions existantes - gérez les modèles pour les parcours de compte dans Journey Optimizer B2B Edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1538'
 ht-degree: 4%
 
 ---
@@ -53,7 +53,7 @@ Utilisez l’éditeur visuel de contenu pour définir la structure du contenu de
 
 >[!NOTE]
 >
->Les outils de conception disponibles sont équivalents à ceux utilisés pour la [&#x200B; création d’e-mails &#x200B;](./email-authoring.md). La différence est que ce contenu est ensuite enregistré en tant que modèle pouvant être réutilisé sur plusieurs nœuds _envoyer un e-mail_ dans les parcours de compte.
+>Les outils de conception disponibles sont équivalents à ceux utilisés pour la [ création d’e-mails ](./email-authoring.md). La différence est que ce contenu est ensuite enregistré en tant que modèle pouvant être réutilisé sur plusieurs nœuds _envoyer un e-mail_ dans les parcours de compte.
 
 1. Sur la page d’accueil _[!UICONTROL Concevez votre modèle]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
 
@@ -83,7 +83,7 @@ Utilisez l’éditeur visuel de contenu pour définir la structure du contenu de
 
 ### Importer du contenu HTML
 
-Adobe Journey Optimizer B2B edition vous permet d’importer du contenu HTML existant afin de concevoir vos modèles d’e-mail.
+Adobe Journey Optimizer B2B Edition vous permet d’importer du contenu HTML existant afin de concevoir vos modèles d’e-mail.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -121,7 +121,7 @@ Dans la page de détails des modèles d’e-mail, cliquez sur l’onglet **[!UIC
 
 ![Cliquez sur l’onglet Utilisé par pour vérifier l’utilisation du modèle](./assets/template-details-used-by.png){width="400"}
 
-Les e-mails dans Journey Optimizer B2B edition sont incorporés et créés dans des parcours. De ce fait, le parcours parent de l’e-mail qui utilise le modèle est affiché dans les références.
+Les e-mails dans Journey Optimizer B2B Edition sont incorporés et créés dans des parcours. De ce fait, le parcours parent de l’e-mail qui utilise le modèle est affiché dans les références.
 
 * Cliquez sur le lien pour accéder à l’e-mail de parcours correspondant où le modèle d’e-mail est utilisé.
 
@@ -132,7 +132,7 @@ Les e-mails dans Journey Optimizer B2B edition sont incorporés et créés dans 
 Cette action peut être effectuée à partir de :
 
 * Page de détails - Cliquez sur **[!UICONTROL Modifier le modèle d’e-mail]**.
-* La page de liste : cliquez sur les points de suspension (**...**) à côté d’un modèle d’e-mail et choisissez **[!UICONTROL Modifier]**.
+* Page de liste : cliquez sur les points de suspension (**...**). en regard d’un modèle d’e-mail et choisissez **[!UICONTROL Modifier]**.
 
 Cette action vous conduit à la page _Concevoir votre modèle_ ou à la page de l’éditeur de contenu visuel (en fonction du dernier statut enregistré du modèle d’e-mail). À partir de là, vous pouvez modifier le contenu de votre modèle d’e-mail selon vos besoins. Voir [Créer des modèles d’e-mail](#create-email-templates) pour plus d’informations sur les options de modification.
 
@@ -175,7 +175,7 @@ Depuis l’écran _Créer votre e-mail_, utilisez la section _Sélectionner un m
 
 Pour commencer à créer votre contenu avec l’un des modèles d’e-mail créés, procédez comme suit :
 
-1. Accédez au Designer d’e-mail à partir de la page _Modifier le contenu_.
+1. Accédez à l’espace de conception visuelle à partir de la page _Modifier le contenu_.
 
    Sur la page _Créer votre e-mail_, l’onglet _Exemples de modèles_ est sélectionné par défaut.
 
