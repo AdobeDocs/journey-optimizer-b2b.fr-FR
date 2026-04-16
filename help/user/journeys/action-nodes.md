@@ -27,9 +27,9 @@ Dans un parcours de compte, utilisez une action sur les comptes lorsque vous sou
 | ------ | ----------- |
 | [!UICONTROL Moment intéressant du compte] | Type (e-mail, jalon ou web)<br/>Description (facultatif) |
 | [!UICONTROL Activer vers la destination] | Sélectionner une destination |
-| [!UICONTROL Ajouter un compte à un (autre) Parcours ] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Ajouter un compte à un (autre) Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste de comptes statiques actifs |
-| [!UICONTROL Supprimer un compte du Parcours ] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Supprimer un compte du Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
 | [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
 | [!UICONTROL Mettre à jour le profil de compte] | Sélectionner l’attribut<br/>Nouvelle valeur |
@@ -147,7 +147,7 @@ Lorsque vous sélectionnez cette action basée sur les personnes, vous pouvez cr
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez une présentation vidéo pour l’orchestration de médias payants](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-À partir de la version 2025.10, vous pouvez également orchestrer au moyen d’audiences externes créées dans [!DNL Experience Platform], telles que des destinations [!DNL Adobe Target]. Pour plus d’informations sur cette intégration d’audience, voir [Audiences externes ](../audiences/target-external-audience.md).
+À partir de la version 2025.10, vous pouvez également orchestrer au moyen d’audiences externes créées dans [!DNL Experience Platform], telles que des destinations [!DNL Adobe Target]. Pour plus d’informations sur cette intégration d’audience, voir [Audiences externes &#x200B;](../audiences/target-external-audience.md).
 
 _Pour créer une audience externe :_
 
@@ -229,7 +229,7 @@ Pour les parcours de personne, vous pouvez utiliser l’[optimisation de l’heu
 
 >[!NOTE]
 >
->Vous pouvez utiliser la déduplication des e-mails dans les parcours de compte pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail au sein d’un parcours. Pour plus d’informations, voir [ Déduplication des e-mails ](../content/email-deduplication.md).
+>Vous pouvez utiliser la déduplication des e-mails dans les parcours de compte pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail au sein d’un parcours. Pour plus d’informations, voir [&#x200B; Déduplication des e-mails &#x200B;](../content/email-deduplication.md).
 
 +++
 
