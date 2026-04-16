@@ -24,6 +24,7 @@ Les outils de conception de [!DNL Journey Optimizer B2B Edition] permettent aux 
 
 Les sections suivantes décrivent les bonnes pratiques pour concevoir du contenu accessible avec [!DNL Journey Optimizer B2B Edition]. Ces informations se concentrent sur la conception de contenu accessible à tous vos destinataires, de sorte que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination.
  
+
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. Pour plus d’informations sur le style des composants de texte, voir [_Composants de contenu_](content-components.md#text)
@@ -120,7 +121,7 @@ Pour vérifier l’accessibilité du contenu, vous pouvez utiliser les fonctionn
 
 * Prévisualisez votre contenu à l’aide de profils de test.
 
-* Utilisez l’option [ Rendu d’e-mail ](email-test-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible.
+* Utilisez l’option [&#x200B; Rendu d’e-mail &#x200B;](email-test-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible.
 
 * Envoyez des BAT pour tester le rendu de votre contenu avant de l’envoyer à votre audience réelle.
 
