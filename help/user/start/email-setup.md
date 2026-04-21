@@ -4,10 +4,10 @@ description: Configurez les options Marketo Engage pour la diffusion e-mail B2B 
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 83%
+source-wordcount: '1326'
+ht-degree: 73%
 
 ---
 
@@ -31,7 +31,7 @@ Modifiez les valeurs de l’e-mail et du libellé De afin que les nouveaux e-mai
 
 1. Dans le panneau _[!UICONTROL Paramètres]_, saisissez les valeurs par défaut souhaitées pour **[!UICONTROL E-mail de l’expéditeur]** et **[!UICONTROL Libellé de l’expéditeur]**.
 
-   ![Paramètres d’e-mail - Valeurs par défaut des libellés D’e-mail et De &#x200B;](./assets/me-admin-email-settings-from.png){width="500"}
+   ![Paramètres d’e-mail - Valeurs par défaut des libellés D’e-mail et De ](./assets/me-admin-email-settings-from.png){width="500"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
@@ -125,26 +125,26 @@ _Pour modifier la limite :_
 
 1. Accédez à la zone **[!UICONTROL Admin]** de l’instance Marketo Engage jointe et sélectionnez **[!UICONTROL E-mail]**.
 
-1. Faites défiler l’écran jusqu’au panneau _[!UICONTROL Limites de récupération d’objet personnalisées]_, puis saisissez une nouvelle valeur dans le **[!UICONTROL Limite de récupération du parent]**
+1. Faites défiler l’écran jusqu’au panneau _[!UICONTROL Limites de récupération d’objets personnalisés]_ et saisissez une nouvelle valeur dans le champ **[!UICONTROL Limite de récupération du parent]**
 champ .
 
    ![Administrateur de messagerie Marketo Engage - Valeurs par défaut des limites de récupération d’objet personnalisé](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
-   Les valeurs 10 à 100 sont prises en charge. La _[!UICONTROL limite de récupération enfant]_ est définie automatiquement en divisant 1 000 par la limite parent. Par exemple, si vous définissez la limite parente sur 50, la limite enfant est calculée sur 20 (1 000 ÷ 50 = 20).
+   Les valeurs 10 à 100 sont prises en charge. Le système définit automatiquement la _[!UICONTROL limite de récupération des enfants]_ en divisant 1 000 par la limite du parent. Par exemple, si vous définissez la limite parente sur 50, la limite enfant est calculée sur 20 (1 000 ÷ 50 = 20).
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
 ## Options d’en-tête personnalisé
 
-Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail afin de configurer les en-têtes des liens de suivi des e-mails. Activez ces options pour implémenter des liens de suivi sécurisés à l’aide de HTTPS avec Strict Transport.
+Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail afin de configurer les en-têtes des liens de suivi des e-mails. Activez ces options pour implémenter des liens de suivi sécurisés à l’aide de HTTPS avec transport strict.
 
 1. Accédez à la zone **[!UICONTROL Admin]** de l’instance Marketo Engage jointe et sélectionnez **[!UICONTROL E-mail]**.
 
 1. Faites défiler l’écran jusqu’au panneau _[!UICONTROL Options d’en-tête personnalisées]_, puis modifiez le paramètre en fonction de vos politiques de liens de suivi :
 
-   ![Administrateur de messagerie Marketo Engage - Paramètres par défaut des options d’en-tête personnalisées](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![Administrateur de messagerie Marketo Engage - Paramètres par défaut des options d’en-tête personnalisées](./assets/me-admin-email-custom-header-options.png){width="500"}
 
-   * **[!UICONTROL Sécurité de transport stricte]** - Définissez cette option sur Activé pour garantir que les liens de suivi sont toujours diffusés via HTTPS (doit uniquement être défini pour les abonnements dont les liens de suivi sont sécurisés par SSL).
+   * **[!UICONTROL Sécurité de transport stricte]** - Définissez cette option sur _Activé_ pour garantir que les liens de suivi sont toujours diffusés via HTTPS. Activez cette option uniquement pour les abonnements dont les liens de tracking sont sécurisés par SSL.
    * **[!UICONTROL Max-age]** - Ce champ prend en charge la directive obligatoire pour spécifier l’heure, en secondes, à laquelle le navigateur doit se rappeler pour accéder uniquement au domaine via HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Utilisez cette option pour inclure la directive qui applique la politique HSTS à tous les sous-domaines de l&#39;hôte.
 
@@ -158,8 +158,8 @@ Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail a
 
 L’activité des robots d’e-mail, également appelée interactions non humaines (NHI), peut gonfler les données d’e-mail _ouvertures_ et _clics_, ce qui fausse les mesures d’engagement et déclenche la progression du parcours basée sur un événement. Utilisez le filtrage des robots d’e-mail pour conserver l’intégrité des mesures et des informations d’engagement des clics. Deux méthodes permettent d’identifier une activité de robot suspectée :
 
-* _&#x200B;**[!UICONTROL Correspondance avec la liste de robots IAB]**&#x200B;_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
-* _&#x200B;**[!UICONTROL Correspondance avec le modèle de proximité]**&#x200B;_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
+* _**[!UICONTROL Correspondance avec la liste de robots IAB]**_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
+* _**[!UICONTROL Correspondance avec le modèle de proximité]**_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
    * ID de lead (doit être le même)
    * Ressource e-mail (doit être la même)
    * Clic sur un lien ou ouverture d’un e-mail
@@ -199,7 +199,7 @@ Pour les activités Clic sur les liens d’e-mail et Ouverture de l’e-mail , l
 
 ### IP, Place sur la liste bloquée
 
-Adobe a identifié une liste d’adresses IP responsables de la génération de millions de faux engagements, car ces engagements reçus de l’une des adresses IP suivantes sont automatiquement filtrés et ne sont pas ajoutés à votre instance Marketo Engage. Ce filtrage peut entraîner une réduction des ouvertures d’e-mail, des clics et d’autres activités associées. Cette liste peut être mise à jour périodiquement.
+Adobe a identifié des adresses IP responsables de la génération de faux engagements. L’engagement à partir de ces adresses IP est automatiquement filtré et exclu de votre instance Marketo Engage. Ce filtrage peut réduire les ouvertures d’e-mail, les clics et d’autres activités associées. Cette liste peut être mise à jour périodiquement.
 
 +++ Adresses IP bloquées
 

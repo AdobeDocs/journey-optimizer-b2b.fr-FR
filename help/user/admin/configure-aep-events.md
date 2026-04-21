@@ -6,23 +6,23 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1476'
 ht-degree: 13%
 
 ---
 
 # Sélectionner des événements d’expérience et des champs
 
-Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
+Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 L’utilisation des événements d’expérience AEP dans parcours est un processus en deux étapes :
 
 1. Un administrateur [ajoute des événements et des champs d’expérience AEP](#add-an-event) dans les configurations Journey Optimizer B2B edition.
 
-2. Dans un parcours, un spécialiste marketing ajoute un nœud _Écouter pour un événement_ et [&#x200B; sélectionne un événement d’expérience](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. Dans un parcours, un spécialiste marketing ajoute un nœud _Écouter pour un événement_ et [ sélectionne un événement d’expérience](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
    * Sélectionne l’événement à utiliser dans le nœud .
    * Sélectionne les champs à utiliser comme contraintes.
@@ -31,13 +31,13 @@ L’utilisation des événements d’expérience AEP dans parcours est un proces
 
 ## Instructions et restrictions
 
-Lorsque vous sélectionnez des événements pour atteindre les objectifs de votre organisation, tenez compte des points suivants :
+Lorsque vous sélectionnez des événements pour atteindre les objectifs de votre entreprise, tenez compte des points suivants :
 
 * Vous pouvez sélectionner jusqu’à 50 événements et 100 champs par événement.
 
 * Parcours peut écouter les événements d’expérience ingérés à l’aide des fonctionnalités de diffusion en continu d’Experience Platform, telles que l’API Web SDK ou HTTP.
 
-* Vous pouvez utiliser les événements d’expérience à des fins de prise de décision dans un parcours, mais ils ne sont pas conservés. Par conséquent, vous ne pouvez pas utiliser un enregistrement historique des événements d’expérience dans Journey Optimizer B2B edition.
+* Vous pouvez utiliser les événements d’expérience à des fins de prise de décision dans un parcours, mais ils ne sont pas conservés. Par conséquent, vous ne pouvez pas utiliser un enregistrement historique des événements d’expérience dans Journey Optimizer B2B Edition.
 
 * Lorsque vous utilisez un événement d’expérience et publiez le parcours, vous pouvez ajouter d’autres champs, mais vous ne pouvez pas supprimer les champs précédemment sélectionnés.
 
@@ -53,7 +53,7 @@ Lorsque vous sélectionnez des événements pour atteindre les objectifs de votr
 
    ![Accéder aux événements d’expérience sélectionnés](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   Le tableau est trié selon la colonne _[!UICONTROL Dernière mise à jour]_, les événements les plus récemment mis à jour étant en haut par défaut.
+   La liste s’affiche en fonction de la colonne _[!UICONTROL Dernière mise à jour]_, les événements les plus récemment mis à jour étant en haut par défaut.
 
    Sur cette page, vous pouvez [sélectionner](#add-an-event) et [modifier](#edit-an-event) les événements à utiliser dans les parcours.
 
@@ -113,7 +113,7 @@ Modifiez les détails de l’événement pour modifier les champs.
 
 1. Cliquez sur le nom de l’événement ou cliquez sur l’icône _Plus_ ( **...** ) et choisissez **[!UICONTROL Modifier]**.
 
-   ![Cliquez sur l’icône du menu Plus &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Cliquez sur l’icône du menu Plus ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Modifier les champs]** pour ajouter d’autres champs ou supprimer des sélections existantes dans la boîte de dialogue _[!UICONTROL Sélectionner les champs]_.
 
@@ -275,7 +275,7 @@ Type d’événement : `directMarketing.emailBounced`
 | Identifiant de l’instance source du mailing | `directMarketing.mailingKey.sourceInstanceID` |
 | Clé source du mailing | `directMarketing.mailingKey.sourceKey` |
 | Nom du publipostage | `directMarketing.mailingName` |
-| E-mail | `directMarketing.email` |
+| Adresse e-mail | `directMarketing.email` |
 | Code de rebond de l’e-mail | `directMarketing.emailBouncedCode` |
 | Détails de l’e-mail rebond | `directMarketing.emailBouncedDetails` |
 | ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
@@ -306,7 +306,7 @@ Type d’événement : `directMarketing.emailBouncedSoft`
 | Identifiant de l’instance source du mailing | `directMarketing.mailingKey.sourceInstanceID` |
 | Clé source du mailing | `directMarketing.mailingKey.sourceKey` |
 | Nom du publipostage | `directMarketing.mailingName` |
-| E-mail | `directMarketing.email` |
+| Adresse e-mail | `directMarketing.email` |
 | Code de rebond de l’e-mail | `directMarketing.emailBouncedCode` |
 | Détails de l’e-mail rebond | `directMarketing.emailBouncedDetails` |
 | ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
@@ -465,5 +465,5 @@ Type d’événement : `leadOperation.interestingMoment `
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448685/?captions=fre_fr&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

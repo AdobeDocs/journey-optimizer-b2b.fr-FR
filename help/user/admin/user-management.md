@@ -4,10 +4,10 @@ description: 'Gérez l’accès des utilisateurs et utilisatrices avec Experienc
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 91%
+source-wordcount: '2143'
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ Avant de pouvoir utiliser Admin Console pour administrer les utilisateurs au sei
 
    * Si votre accès est correctement configuré, la recherche renvoie votre enregistrement.
 
-   * Si la valeur de la colonne **[!UICONTROL RÔLE D’ADMINISTRATEUR]** s’affiche `System`, vous savez que vous (ou l’utilisateur affiché) êtes un administrateur ou une administratrice système.
+   * Si la valeur de la colonne **[!UICONTROL RÔLE D’ADMINISTRATEUR]** est `System`, l’utilisateur affiché est un administrateur système.
 
 ## Création du profil de produit Marketo Engage {#marketo-engage-profile}
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur l’utilisation des profils de produit pour les d
 
 Lorsque vous ajoutez un utilisateur au profil de produit Marketo Engage, il est ensuite ajouté au rôle _Utilisateur standard_ dans l’espace de travail Par défaut de l’abonnement Marketo Engage. Ce rôle leur accorde toutes les autorisations standard pour Marketo Engage dans cet espace de travail. Actuellement, tous les utilisateurs de Journey Optimizer B2B edition doivent être des utilisateurs de Marketo Engage. Un administrateur ou une administratrice Marketo Engage peut restreindre l’accès en mettant à jour les autorisations pour le rôle _Utilisateur standard_ ou en déplaçant l’utilisateur ou l’utilisatrice vers un rôle d’utilisateur Marketo Engage différent avec des autorisations plus restrictives.
 
-Pour plus d’informations sur la gestion de ces autorisations dans Marketo Engage, voir [&#x200B; Gestion des rôles utilisateur et des autorisations &#x200B;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} dans la documentation de Marketo Engage.
+Pour plus d’informations sur la gestion de ces autorisations dans Marketo Engage, voir [ Gestion des rôles utilisateur et des autorisations ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} dans la documentation de Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Un groupe d’utilisateurs est un ensemble d’utilisateurs auxquels est accord�
 
 >[!TIP]
 >
->Si vous migrez depuis un déploiement hérité et que vous souhaitez ajouter vos utilisateurs Journey Optimizer B2B Edition existants à Marketo Engage, vous pouvez ignorer les étapes de création de groupes d’utilisateurs et simplement ouvrir le groupe d’utilisateurs existant et ajouter le profil de produit Marketo Engage.
+>Lors de la migration depuis un déploiement hérité et de l’ajout d’utilisateurs existants à Marketo Engage, vous pouvez ignorer la création du groupe d’utilisateurs et simplement ouvrir le groupe existant et ajouter le profil de produit Marketo Engage.
 
 Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour gérer les autorisations, voir [Gérer les groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-groups.html){target="_blank"} dans la documentation d’Admin Console.
 
@@ -143,11 +143,11 @@ Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs 
 
 ## Modifier les rôles pour les autorisations de produit {#edit-roles-for-product-permissions}
 
-Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations attribuées à un profil de produit. Chaque autorisation est regroupée sous une fonctionnalité, telle que parcours ou groupes d’achats, qui représente les différentes fonctionnalités ou objets dans Journey Optimizer B2B edition.
+Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations attribuées à un profil de produit. Chaque autorisation est regroupée sous une fonctionnalité, telle que _parcours_ ou _groupes d’achat_. Ces fonctionnalités représentent des fonctions ou des objets dans Journey Optimizer B2B Edition.
 
 La zone _Autorisations_ de Adobe Experience Platform permet aux administrateurs de définir des rôles d’utilisateur et des politiques d’accès afin de gérer les autorisations d’accès aux fonctionnalités et objets d’une application de produit. Dans cette application, vous pouvez créer et gérer des rôles, ainsi qu’attribuer les autorisations de ressources souhaitées pour ces rôles. Les autorisations vous permettent également de gérer les sandbox et les utilisateurs associés à un rôle spécifique.
 
-Pour plus d’informations sur les autorisations des rôles dans Experience Platform, voir [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} dans la documentation d’Experience Platform.
+Pour plus d’informations sur les autorisations des rôles dans Experience Platform, voir [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} dans la documentation d’Experience Platform.
 
 ### Autorisations des produits B2B {#b2b-product-permissions}
 
@@ -177,9 +177,9 @@ Lorsque le produit Journey Optimizer B2B edition est configuré pour votre organ
 
 ### Modifier les autorisations de rôle
 
-Pour les rôles intégrés ou personnalisés, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations. Si vous modifiez un rôle par défaut ou personnalisé, cela a un impact sur chaque utilisateur affecté au rôle.
+Pour les rôles intégrés ou personnalisés, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations. Si vous modifiez un rôle par défaut ou personnalisé, cela affecte chaque utilisateur affecté au rôle.
 
-Dans l’exemple suivant, vous souhaitez ajouter des autorisations liées à la ressource Parcours B2B pour les utilisateurs affectés au rôle Gestionnaire de canaux B2B. Cette modification permet aux utilisateurs de ce rôle de gérer également les parcours de compte.
+Dans l’exemple suivant, vous souhaitez ajouter des autorisations liées à la ressource Parcours B2B pour les utilisateurs affectés au rôle Gestionnaire de canaux B2B. Cette modification permet aux utilisateurs et utilisatrices de ce rôle de gérer également les parcours de compte.
 
 >[!NOTE]
 >
