@@ -22,7 +22,7 @@ L’utilisation des événements d’expérience AEP dans parcours est un proces
 
 1. Un administrateur [ajoute des événements et des champs d’expérience AEP](#add-an-event) dans les configurations Journey Optimizer B2B edition.
 
-2. Dans un parcours, un spécialiste marketing ajoute un nœud _Écouter pour un événement_ et [ sélectionne un événement d’expérience](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. Dans un parcours, un spécialiste marketing ajoute un nœud _Écouter pour un événement_ et [&#x200B; sélectionne un événement d’expérience](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
    * Sélectionne l’événement à utiliser dans le nœud .
    * Sélectionne les champs à utiliser comme contraintes.
@@ -113,7 +113,7 @@ Modifiez les détails de l’événement pour modifier les champs.
 
 1. Cliquez sur le nom de l’événement ou cliquez sur l’icône _Plus_ ( **...** ) et choisissez **[!UICONTROL Modifier]**.
 
-   ![Cliquez sur l’icône du menu Plus ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Cliquez sur l’icône du menu Plus &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Modifier les champs]** pour ajouter d’autres champs ou supprimer des sélections existantes dans la boîte de dialogue _[!UICONTROL Sélectionner les champs]_.
 

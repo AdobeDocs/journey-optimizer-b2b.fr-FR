@@ -23,7 +23,7 @@ Consultez cet exemple des derniers ajouts et améliorations apportés à l’app
 
 >[!TAB Agents AI]
 
-Avec [](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, l&#39;interface de l&#39;assistant d&#39;IA peut automatiquement faire appel à des agents spécialisés pour vous obtenir les bonnes réponses et les bonnes informations. Agent Orchestrator se souvient de l’historique de vos conversations, ce qui lui permet de s’appuyer naturellement sur vos questions précédentes sans répéter le contexte et de combiner les informations issues de plusieurs agentes et agents afin de vous présenter des réponses claires et unifiées. Dans le contexte [!DNL Journey Optimizer B2B Edition], il existe trois agents spécialement conçus pour des tâches et des domaines B2B spécifiques :
+Avec [&#128279;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, l&#39;interface de l&#39;assistant d&#39;IA peut automatiquement faire appel à des agents spécialisés pour vous obtenir les bonnes réponses et les bonnes informations. Agent Orchestrator se souvient de l’historique de vos conversations, ce qui lui permet de s’appuyer naturellement sur vos questions précédentes sans répéter le contexte et de combiner les informations issues de plusieurs agentes et agents afin de vous présenter des réponses claires et unifiées. Dans le contexte [!DNL Journey Optimizer B2B Edition], il existe trois agents spécialement conçus pour des tâches et des domaines B2B spécifiques :
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
