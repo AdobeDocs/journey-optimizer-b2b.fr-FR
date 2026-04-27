@@ -1,10 +1,11 @@
 ---
 title: Mode HTML avancé pour la conception de modèles d’e-mail
-description: Utilisez le mode HTML avancé pour afficher et modifier directement la source HTML brute du contenu de votre modèle d’e-mail dans l’espace de conception d’e-mail de Journey Optimizer B2B edition.
+description: Utilisez le mode HTML avancé pour afficher et modifier directement la source HTML brute du contenu de votre modèle d’e-mail dans l’espace de conception d’e-mail de Journey Optimizer B2B Edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
-source-git-commit: 95dba963e08125370f998cf3960d51ede94c2fb9
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -15,10 +16,12 @@ ht-degree: 0%
 
 Le _mode HTML avancé_ fournit une vue qui permet aux utilisateurs expérimentés d’afficher et de modifier directement le code source brut du contenu du modèle d’e-mail. Ce mode est idéal lorsque vous souhaitez insérer des expressions sophistiquées, telles que la logique conditionnelle, directement dans la source. Il est également utile pour effectuer des ajustements structurels qui vont au-delà de ce que les outils de conception visuelle exposent.
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >
@@ -42,7 +45,7 @@ Le mode HTML avancé est accessible à partir de la barre d’outils située en 
 
 1. Ouvrez ou [créez un modèle d’e-mail](./email-templates.md#create-an-email-template) et ouvrez l’espace de conception pour modifier le contenu.
 
-1. Dans l’espace de conception, cliquez sur l’icône __ ( ![icône HTML](../assets/do-not-localize/icon-code.svg) ) dans la barre d’outils.
+1. Dans l’espace de conception, cliquez sur l’icône _[!UICONTROL HTML]_ ( ![icône HTML](../assets/do-not-localize/icon-code.svg) ) dans la barre d’outils.
 
    ![Cliquez sur l’icône HTML dans la barre d’outils de l’espace de conception du modèle d’e-mail](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
 

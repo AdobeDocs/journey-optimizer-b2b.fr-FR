@@ -1,16 +1,16 @@
 ---
 title: Modèles de pages de destination
-description: 'Créez, gérez et réutilisez des modèles de page de destination : concevez entièrement, importez HTML, dupliquez, supprimez et suivez l’utilisation pour les équipes marketing dans Journey Optimizer B2B edition.'
+description: 'Créez, gérez et réutilisez des modèles de page de destination : concevez entièrement, importez HTML, dupliquez, supprimez et suivez l’utilisation pour les équipes marketing dans Journey Optimizer B2B Edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 3%
+source-wordcount: '1290'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Pour accélérer et améliorer le processus de conception, vous pouvez créer de
 
 ## Accès et gestion des modèles de landing page
 
-Pour accéder aux modèles de landing page dans Adobe Journey Optimizer B2B edition, accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles]**. Sous _[!UICONTROL WEB]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Modèles de landing page]**.
+Pour accéder aux modèles de landing page dans Adobe Journey Optimizer B2B Edition, accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles]**. Sous _[!UICONTROL WEB]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Modèles de landing page]**.
 
 La page de liste affichée comprend tous les modèles de page de destination créés dans l’instance répertoriée au format tableau. Le tableau est trié par défaut en fonction de la colonne _[!UICONTROL Modifié]_, les modèles les plus récemment mis à jour étant affichés en haut. Cliquez sur le titre de la colonne pour passer d’un ordre croissant à un ordre décroissant.
 
@@ -64,7 +64,7 @@ Utilisez l’espace de conception visuelle pour définir la structure du contenu
 
 ### Importer du contenu HTML
 
-Adobe Journey Optimizer B2B edition vous permet d’importer du contenu HTML existant afin de concevoir des modèles de landing page.
+Adobe Journey Optimizer B2B Edition permet d’importer du contenu HTML existant afin de concevoir des modèles de landing page.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -111,7 +111,7 @@ Dans la page de détails des modèles, cliquez sur l’onglet **[!UICONTROL Util
 Cette action peut être effectuée à partir de :
 
 * La page de détails - Cliquez sur **[!UICONTROL Modifier le modèle de page de destination]**.
-* La page de liste : cliquez sur les points de suspension (**...**) à côté d’un modèle et choisissez **[!UICONTROL Modifier]**.
+* Page de liste : cliquez sur les points de suspension (**...**). en regard d’un modèle et choisissez **[!UICONTROL Modifier]**.
 
 Cette action vous conduit à la page _Concevoir votre modèle_ ou à la page de l’éditeur de contenu visuel (en fonction du dernier statut enregistré du modèle de page de destination). À partir de là, vous pouvez modifier le contenu de votre modèle de page de destination selon vos besoins. Voir [Création d’un modèle de page de destination](#create-a-landing-page-template) pour plus d’informations sur les options de modification.
 
@@ -134,7 +134,7 @@ Le modèle de page de destination dupliqué (nouveau) apparaît alors dans la li
 La suppression d’un modèle de page de destination est irréversible. Vérifiez-le avant de lancer une action de suppression. Vous pouvez supprimer un modèle de page de destination à l’aide de l’une des méthodes suivantes :
 
 * Dans les détails du modèle sur la droite, développez **[!UICONTROL Plus]** et cliquez sur **[!UICONTROL Supprimer]**.
-* Dans la page de liste _Modèles de page de destination_, cliquez sur les points de suspension (...) en regard du modèle et choisissez **[!UICONTROL Supprimer]**.
+* Dans la page de liste _Modèles de landing page_, cliquez sur les points de suspension (...) en regard du modèle et choisissez **[!UICONTROL Supprimer]**.
 
   ![Cliquez sur ... pour accéder aux actions Dupliquer et Supprimer](./assets/templates-list-more-menu.png){width="500"}
 
