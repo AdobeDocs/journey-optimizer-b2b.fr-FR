@@ -1,11 +1,10 @@
 ---
 title: Nœuds de parcours
-description: Créez des parcours avec des nœuds d’action, d’événement et d’orchestration (audience, attente, partage et fusion) pour le marketing cross-canal dans Journey Optimizer B2B Edition.
+description: Créez des parcours avec des nœuds d’action, d’événement et d’orchestration (audience, attente, partage et fusion) pour le marketing cross-canal dans Journey Optimizer B2B edition.
 feature: Account Journeys
 hide: true
-hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 12%
