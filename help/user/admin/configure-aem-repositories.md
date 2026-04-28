@@ -4,7 +4,7 @@ description: Connectez les référentiels Experience Manager Assets à Journey O
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+source-git-commit: a722a5ba7a0e70329032e2768c5fbaf63537a2b7
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -125,7 +125,6 @@ La suppression d’un référentiel supprime l’accès des utilisateurs et util
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
 
 <!--
-
 ## Switch back to Adobe Marketo Engage Assets
 
 Select Adobe Marketo Engage digital asset management in the Assets section.

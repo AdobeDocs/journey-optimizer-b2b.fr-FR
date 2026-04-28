@@ -1,13 +1,12 @@
 ---
 title: Modèles de pages de destination
-description: 'Créez, gérez et réutilisez des modèles de page de destination : concevez entièrement, importez HTML, dupliquez, supprimez et suivez l’utilisation pour les équipes marketing dans Journey Optimizer B2B Edition.'
+description: 'Créez, gérez et réutilisez des modèles de page de destination : concevez entièrement, importez HTML, dupliquez, supprimez et suivez l’utilisation pour les équipes marketing dans Journey Optimizer B2B edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 4%
@@ -20,7 +19,7 @@ Pour accélérer et améliorer le processus de conception, vous pouvez créer de
 
 ## Accès et gestion des modèles de landing page
 
-Pour accéder aux modèles de landing page dans Adobe Journey Optimizer B2B Edition, accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles]**. Sous _[!UICONTROL WEB]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Modèles de landing page]**.
+Pour accéder aux modèles de landing page dans Adobe Journey Optimizer B2B edition, accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles]**. Sous _[!UICONTROL WEB]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Modèles de landing page]**.
 
 La page de liste affichée comprend tous les modèles de page de destination créés dans l’instance répertoriée au format tableau. Le tableau est trié par défaut en fonction de la colonne _[!UICONTROL Modifié]_, les modèles les plus récemment mis à jour étant affichés en haut. Cliquez sur le titre de la colonne pour passer d’un ordre croissant à un ordre décroissant.
 
@@ -64,7 +63,7 @@ Utilisez l’espace de conception visuelle pour définir la structure du contenu
 
 ### Importer du contenu HTML
 
-Adobe Journey Optimizer B2B Edition permet d’importer du contenu HTML existant afin de concevoir des modèles de landing page.
+Adobe Journey Optimizer B2B edition vous permet d’importer du contenu HTML existant afin de concevoir des modèles de landing page.
 
 {{$include /help/_includes/content-design-import.md}}
 
