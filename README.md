@@ -29,7 +29,7 @@ Si vous contribuez à une mise à jour mineure, procédez comme suit :
 1. Dans le _Ce contenu a-t-il été utile ?_ dans la bannière située dans la partie inférieure de la fenêtre du navigateur, cliquez sur **Options détaillées relatives aux commentaires**.
 1. Cliquez sur **Suggérer une modification** et envoyez une requête de tirage (PR) avec vos modifications dans l’interface utilisateur GitHub.
 
-   Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+   Pour plus d’informations, consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/introduction).
 
 Les corrections mineures ou les clarifications que vous envoyez à titre d’exemple de documentation et de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
@@ -43,7 +43,7 @@ Si vous faites partie de la communauté Adobe et que vous souhaitez créer une r
 
 Les contributeurs de la communauté peuvent utiliser l’interface utilisateur de GitHub pour toute modification de base ou dupliquer le référentiel pour apporter des contributions importantes.
 
-Consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) pour plus de détails.
+Consultez le [Guide du contributeur de documents Adobe](https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/introduction) pour plus de détails.
 
 ## Contributeurs et contributrices internes
 
