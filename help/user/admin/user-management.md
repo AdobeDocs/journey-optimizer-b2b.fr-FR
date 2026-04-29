@@ -4,10 +4,10 @@ description: 'Gérez l’accès des utilisateurs et utilisatrices avec Experienc
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+source-git-commit: 18d38a3e03e1eb275f3aac01c315d0b7e3ddbfab
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 86%
+source-wordcount: '2178'
+ht-degree: 90%
 
 ---
 
@@ -50,7 +50,7 @@ Avant de pouvoir utiliser Admin Console pour administrer les utilisateurs au sei
 
    * Si votre accès est correctement configuré, la recherche renvoie votre enregistrement.
 
-   * Si la valeur de la colonne **[!UICONTROL RÔLE D’ADMINISTRATEUR]** est `System`, l’utilisateur affiché est un administrateur système.
+   * Si la valeur de la colonne **[!UICONTROL RÔLE D’ADMINISTRATEUR]** s’affiche `System`, vous savez que vous (ou l’utilisateur affiché) êtes un administrateur ou une administratrice système.
 
 ## Création du profil de produit Marketo Engage {#marketo-engage-profile}
 
@@ -86,7 +86,7 @@ Un groupe d’utilisateurs est un ensemble d’utilisateurs auxquels est accord�
 
 >[!TIP]
 >
->Lors de la migration depuis un déploiement hérité et de l’ajout d’utilisateurs existants à Marketo Engage, vous pouvez ignorer la création du groupe d’utilisateurs et simplement ouvrir le groupe existant et ajouter le profil de produit Marketo Engage.
+>Si vous souhaitez ajouter vos utilisateurs Journey Optimizer B2B edition existants à Marketo Engage, vous pouvez ignorer les étapes de création du groupe d’utilisateurs et simplement ouvrir le groupe d’utilisateurs existant et ajouter le profil de produit Marketo Engage.
 
 Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour gérer les autorisations, voir [Gérer les groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/user-groups.html){target="_blank"} dans la documentation d’Admin Console.
 
@@ -143,7 +143,7 @@ Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs 
 
 ## Modifier les rôles pour les autorisations de produit {#edit-roles-for-product-permissions}
 
-Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations attribuées à un profil de produit. Chaque autorisation est regroupée sous une fonctionnalité, telle que _parcours_ ou _groupes d’achat_. Ces fonctionnalités représentent des fonctions ou des objets dans Journey Optimizer B2B Edition.
+Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations attribuées à un profil de produit. Chaque autorisation est regroupée sous une fonctionnalité, telle que parcours ou groupes d’achats, qui représente les différentes fonctionnalités ou objets dans Journey Optimizer B2B edition.
 
 La zone _Autorisations_ de Adobe Experience Platform permet aux administrateurs de définir des rôles d’utilisateur et des politiques d’accès afin de gérer les autorisations d’accès aux fonctionnalités et objets d’une application de produit. Dans cette application, vous pouvez créer et gérer des rôles, ainsi qu’attribuer les autorisations de ressources souhaitées pour ces rôles. Les autorisations vous permettent également de gérer les sandbox et les utilisateurs associés à un rôle spécifique.
 
@@ -157,11 +157,11 @@ Les autorisations suivantes régissent l’accès aux fonctionnalités de Journe
 | -------- | ----------- | ---------- |
 | Listes de comptes B2B | Configurer, gérer, afficher et publier des autorisations pour les listes de comptes B2B. Ces autorisations incluent des actions telles que l’ajout, la suppression, l’importation et la suppression de comptes des listes de comptes. | <li>Gérer les listes de comptes B2B |
 | Configurations de l’administration B2B | Configurez, gérez et affichez les autorisations pour les configurations administratives B2B. Ces autorisations incluent les connexions de gestion des ressources numériques, les référentiels de ressources et les événements. | <li>Gérer les configurations d’administration B2B |
-| Assets B2B | Configurez, gérez et affichez les autorisations pour les ressources B2B. Ces autorisations incluent les e-mails, SMS, pages de destination, fragments, modèles et images. | <li>Gestion d’Assets B2B <li>Gestion des modèles B2B <li>Gestion des fragments B2B |
-| Groupes d&#39;achats B2B | Configurez, gérez et affichez les autorisations pour les groupes d’achats B2B. Ces autorisations incluent les intérêts de la solution, les modèles de rôles et le statut du groupe d&#39;achat. | <li>Gérer les groupes d&#39;achats B2B |
+| Assets B2B | Configurez, gérez et affichez les autorisations pour les ressources B2B. Ces autorisations incluent les e-mails, SMS, pages de destination, fragments, modèles et images. | <li>Gestion d’Assets B2B <li>Gestion des modèles B2B <li>Gestion des fragments B2B <li>Gérer Les E-Mails B2B |
+| Groupes d&#39;achats B2B | Configurez, gérez et affichez les autorisations pour les groupes d’achats B2B. Ces autorisations incluent les intérêts de la solution, les modèles de rôles et le statut du groupe d&#39;achat. | <li>Gérer les groupes d&#39;achats B2B <li>Gestion des centres d’intérêt des solutions B2B <li>Gérer les modèles de rôle B2B <li>Gérer les étapes B2B <li>Afficher les groupes d&#39;achats B2B |
 | Configurations du canal B2B | Configurez, gérez et affichez les autorisations pour les configurations de canal B2B. Ces autorisations incluent des paramètres pour les limites de communication, les informations d’identification d’API et les paramètres de sécurité. | <li>Gérer les configurations des canaux B2B |
-| Tableaux de bord B2B | Configurez et affichez les autorisations pour les tableaux de bord B2B. Ces autorisations incluent l’engagement du compte, les étapes du groupe d’achat, les comptes de forte demande et la couverture de contact. | <li>Gérer les tableaux de bord B2B |
-| Parcours B2B | Configurez, gérez, affichez et publiez des autorisations pour les parcours B2B. Ces autorisations incluent les actions de compte et de personne, les écouteurs d’événement et les chemins de partage. | <li>Gestion des Parcours B2B |
+| Tableaux de bord B2B | Configurez et affichez les autorisations pour les tableaux de bord B2B. Ces autorisations incluent l’engagement du compte, les étapes du groupe d’achat, les comptes de forte demande et la couverture de contact. | <li>Afficher le tableau de bord de l’engagement B2B |
+| Parcours B2B | Configurez, gérez, affichez et publiez des autorisations pour les parcours B2B. Ces autorisations incluent les actions de compte et de personne, les écouteurs d’événement et les chemins de partage. | <li>Gérer les Parcours de compte B2B |
 | Règles Journey Optimizer | Accéder aux règles de fréquence et les configurer (limites de communication). Ces autorisations doivent être limitées aux administrateurs de produit. | <li>Afficher les règles de fréquence <li>Gestion des règles de fréquence |
 
 ### Rôles intégrés B2B
@@ -173,13 +173,13 @@ Lorsque le produit Journey Optimizer B2B edition est configuré pour votre organ
 | Gestionnaire de Parcours B2B | <li>Gestion des Parcours B2B <li>Gérer les groupes d&#39;achats B2B <li>Gérer les listes de comptes B2B <li>Afficher le tableau de bord de l’engagement B2B <li>Afficher le tableau de bord des informations B2B |
 | Gestionnaire de canaux B2B | <li>Gestion d’Assets B2B <li>Gestion des modèles B2B <li>Gestion des fragments B2B |
 | Administrateur système B2B | <li>Gérer les configurations des canaux B2B <li>Gérer les configurations d’administration B2B |
-| Utilisateur commercial B2B | <li>Afficher le tableau de bord de l’engagement B2B <li>Accès aux informations dans le CRM |
+| Utilisateur commercial B2B | <li>Afficher le tableau de bord de l’engagement B2B <li>Afficher les groupes d&#39;achats B2B <li>Accès aux informations dans le CRM |
 
 ### Modifier les autorisations de rôle
 
-Pour les rôles intégrés ou personnalisés, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations. Si vous modifiez un rôle par défaut ou personnalisé, cela affecte chaque utilisateur affecté au rôle.
+Pour les rôles intégrés ou personnalisés, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations. Si vous modifiez un rôle par défaut ou personnalisé, cela a un impact sur chaque utilisateur affecté au rôle.
 
-Dans l’exemple suivant, vous souhaitez ajouter des autorisations liées à la ressource Parcours B2B pour les utilisateurs affectés au rôle Gestionnaire de canaux B2B. Cette modification permet aux utilisateurs et utilisatrices de ce rôle de gérer également les parcours de compte.
+Dans l’exemple suivant, vous souhaitez ajouter des autorisations liées à la ressource Parcours B2B pour les utilisateurs affectés au rôle Gestionnaire de canaux B2B. Cette modification permet aux utilisateurs de ce rôle de gérer également les parcours de compte.
 
 >[!NOTE]
 >
