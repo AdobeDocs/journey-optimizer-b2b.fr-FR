@@ -5,16 +5,16 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
+source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 9%
 
 ---
 
 # rentrée de parcours
 
-_parcours de compte uniquement_
+parcours de compte uniquement __
 
 Lorsque vous activez la rentrée pour un parcours de compte, vous pouvez contrôler quand et à quelle fréquence un compte peut entrer à nouveau dans le même parcours. Utilisez les paramètres de rentrée pour définir des critères, des limites et des temps d’attente afin que les comptes soient à nouveau qualifiés pour le parcours de manière contrôlée.
 
@@ -56,11 +56,14 @@ Vous pouvez activer la rentrée et modifier les paramètres de rentrée lorsque 
 
    Cette limite s’applique par compte pour ce parcours.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 ## Progression et activité du compte
 
-Pour un parcours de compte publié, la carte de parcours affiche [progression du compte](./journeys-overview.md#review-account-progression) pour les nœuds de parcours. Chaque nœud de la carte affiche le nombre de comptes à atteindre pour ce nœud et, pour les parcours en direct, le nombre de comptes actuellement sur ce nœud. Chaque fois qu’un compte entre à nouveau dans un parcours, il est comptabilisé comme une entrée distincte.
-<!-- You can see how many times accounts have entered the journey. ?? -->
+Pour un parcours de compte publié, la carte de parcours affiche [progression du compte](./journeys-overview.md#review-account-progression) pour les nœuds de parcours. Chaque nœud de la carte affiche le nombre de comptes à atteindre ce nœud et, pour les parcours actifs, le nombre de comptes actuellement sur ce nœud. Chaque fois qu’un compte entre à nouveau dans un parcours, il est comptabilisé comme une entrée distincte.
 
-Lorsque vous accédez aux [détails du compte](../accounts/account-details.md), l’activité du compte s’affiche à chaque fois que le compte a rejoint le parcours. Il comprend une activité explicite et un nombre de récurrences afin que vous puissiez voir clairement les réentrées.
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
+
+When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
