@@ -6,14 +6,14 @@ role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 12%
+source-wordcount: '1015'
+ht-degree: 14%
 
 ---
 
 # Audiences correspondantes du compte LinkedIn
 
-[!DNL Journey Optimizer B2B Edition] offre la possibilité de générer des audiences d’annonces LinkedIn par le biais d’audiences avec correspondance de compte. Il est conçu pour vous aider à remplir des rôles vides dans vos groupes d’achat. En définissant un ensemble de filtres de groupe d&#39;achat, vous pouvez gérer une Audience appariée LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d&#39;achat. Vous pouvez également activer une audience à partir d’un parcours de compte à partir d’un nœud _Prendre une action_.
+[!DNL Journey Optimizer B2B Edition] offre la possibilité de générer des audiences d’annonces LinkedIn par le biais d’audiences avec correspondance de compte. Il est conçu pour vous aider à remplir des rôles vides dans vos groupes d’achat. En définissant un ensemble de filtres de groupe d’achat, vous pouvez gérer une audience correspondante LinkedIn pour cibler les leads qui correspondent aux paramètres de votre groupe d’achat. Vous pouvez également activer une audience à partir d’un parcours de compte à partir d’un nœud _Prendre une action_.
 
 Cette fonctionnalité exploite les destinations Experience Platform pour gérer certains aspects de l’intégration. Il existe une limite de dix flux de données.
 
@@ -34,7 +34,7 @@ Avant de lancer un flux de données à partir de Journey Optimizer B2B edition, 
    >
    >Vous pouvez rapidement trouver le connecteur en saisissant `LinkedIn` dans la zone de recherche.
 
-1. Dans la carte de connecteur, cliquez sur l’icône _Plus_ (**...**) et choisissez **[!UICONTROL Configurer une nouvelle destination]**.
+1. Dans la carte de connecteur, cliquez sur le bouton _Plus_ (**...**) et choisissez **[!UICONTROL Configurer une nouvelle destination]**.
 
    ![Accéder au connecteur d’audience correspondante LinkedIn (entreprises)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 1. Accédez à **[!UICONTROL Connexions]** > **[!UICONTROL Destinations]** dans le volet de navigation de gauche, puis sélectionnez l’onglet **[!UICONTROL Comptes]**.
 
-1. Pour le nouveau compte que vous avez créé, cliquez sur le menu _Plus_ (**...**) et choisissez **[!UICONTROL Modifier les détails]**.
+1. Pour le nouveau compte que vous avez créé, cliquez sur le bouton _Plus_ (**...**) et choisissez **[!UICONTROL Modifier les détails]**.
 
    ![Modifier les détails du compte](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 1. Attribuez un nom et une description descriptifs au flux de données (facultatif).
 
-   Après l’avoir enregistré, le nom que vous spécifiez pour le flux de données est précédé de _AJOB2B_ pour faciliter l’identification du flux de données dans Experience Platform.
+   Après l’avoir enregistré, le nom que vous spécifiez pour le flux de données est précédé de __ pour faciliter l’identification du flux de données dans Experience Platform.
 
 1. Saisissez l’[Identifiant de compte de votre compte LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/a424270).
 

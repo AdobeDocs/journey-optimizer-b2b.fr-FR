@@ -1,6 +1,6 @@
 ---
 title: Mode sombre pour le contenu des e-mails
-description: Découvrez la conception d’e-mails en mode sombre dans Journey Optimizer B2B Edition. Prévisualisez le rendu, personnalisez les paramètres, assurez l’accessibilité et effectuez des tests sur divers clients de messagerie.
+description: Découvrez la conception d’e-mails en mode sombre dans Journey Optimizer B2B edition. Prévisualisez le rendu, personnalisez les paramètres, assurez l’accessibilité et effectuez des tests sur divers clients de messagerie.
 feature: Email Authoring
 topic: Content Management
 role: User
@@ -74,7 +74,7 @@ La plupart des clients de messagerie les plus populaires offrent la possibilité
 * MacOS Outlook
 * Outlook.com
 * Outlook iOS
-* Outlook Android™
+* Outlook ™
 
 Dans ce cas, les paramètres spécifiques que vous définissez dans le [!DNL Journey Optimizer B2B Edition] sont rendus. Cependant, certaines restrictions peuvent s’appliquer en fonction de chaque client de messagerie. Par exemple, certains clients (tels qu’Apple Mail 16 (macOS 13)) ne génèrent pas de mode sombre si des images sont présentes dans le contenu de l’e-mail.
 
