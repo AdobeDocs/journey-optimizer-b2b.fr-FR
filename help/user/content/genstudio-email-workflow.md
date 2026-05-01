@@ -9,8 +9,8 @@ badge: label="Disponibilité limitée" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 12%
+source-wordcount: '862'
+ht-degree: 16%
 
 ---
 
@@ -35,7 +35,7 @@ Par exemple, un spécialiste du marketing technique qui utilise Journey Optimize
 
 ## Fonctionnalités de génération de contenu GenStudio
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html){target="_blank"} est une application IA-first générative qui permet aux équipes marketing de créer des annonces et des e-mails personnalisés et percutants, conformes aux normes de la marque et aux politiques de l&#39;entreprise. La technologie d’IA d’Adobe met à votre disposition une suite complète d’outils qui simplifient la création et la gestion de contenu, ce qui permet aux personnes en charge de la création de se concentrer sur l’innovation.
+[](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html){target="_blank"} est une application IA-first générative qui permet aux équipes marketing de créer des annonces et des e-mails personnalisés et percutants, conformes aux normes de la marque et aux politiques de l&#39;entreprise. La technologie d’IA d’Adobe met à votre disposition une suite complète d’outils qui simplifient la création et la gestion de contenu, ce qui permet aux personnes en charge de la création de se concentrer sur l’innovation.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Créer des e-mails marketing sur la marque](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -73,7 +73,7 @@ GenStudio for Performance Marketing reconnaît certains éléments dans l’HTML
 
 Utilisez le fichier HTML pour créer un modèle dans GenStudio for Performance Marketing.
 
-Pour plus d’informations sur le téléchargement d’un modèle HTML dans GenStudio dans Adobe GenStudio for Performance Marketing, reportez-vous à la section [&#x200B; Ajouter un modèle &#x200B;](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) dans la documentation de GenStudio for Performance Marketing.
+Pour plus d’informations sur le téléchargement d’un modèle HTML dans GenStudio dans Adobe GenStudio for Performance Marketing, reportez-vous à la section [ Ajouter un modèle ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) dans la documentation de GenStudio for Performance Marketing.
 
 Lorsque vous chargez l’HTML exporté en tant que modèle, GenStudio for Performance Marketing analyse le fichier HTML à la recherche de champs reconnus. Utilisez l’aperçu pour passer en revue vos éléments de modèle et confirmer que vous les avez correctement identifiés avec les noms de champ reconnus.
 
