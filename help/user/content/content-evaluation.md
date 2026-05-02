@@ -27,7 +27,7 @@ L’évaluation et la notation du contenu vous permettent de créer, de réviser
 
 1. Après avoir créé le contenu de l’e-mail, cliquez sur l’icône _Alignement des marques_ ( ![Icône d’alignement des marques](../assets/do-not-localize/icon-brand-compliance.svg) ) à droite pour ouvrir le panneau de droite _Alignement des marques_ dans l’espace de conception d’e-mail.
 
-   La [&#x200B; marque par défaut &#x200B;](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
+   La [ marque par défaut ](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
 
    ![Accéder aux outils d’alignement des marques](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ Outre l’alignement de la marque, vous pouvez évaluer la qualité générale d
 
 Faites défiler jusqu’à la section **[!UICONTROL Qualité du contenu]** pour consulter les informations sur la qualité et les recommandations.
 
-![&#x200B; Évaluation de la qualité du contenu &#x200B;](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
+![ Évaluation de la qualité du contenu ](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
 
 Sélectionnez un élément avec indicateur pour afficher des commentaires spécifiques et des suggestions d’amélioration exploitables. Les scores sont basés sur les catégories suivantes :
 
