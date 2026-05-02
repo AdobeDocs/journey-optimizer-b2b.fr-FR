@@ -24,19 +24,19 @@ Il existe deux types de scores d’engagement :
 
 * **Score d’engagement du groupe d’achat** - Le score d’engagement du groupe d’achat est un score normalisé compris entre 0 et 100 et est basé sur le score d’engagement calculé au niveau de la personne.
 
-  Le score de l&#39;engagement du groupe d&#39;achats est affiché sur la page [ Détails du groupe d&#39;achats ](./buying-group-details.md). Vous pouvez également afficher les groupes d&#39;achats les plus engagés dans le tableau de bord Intelligent.
+  Le score de l&#39;engagement du groupe d&#39;achats est affiché sur la page [&#x200B; Détails du groupe d&#39;achats &#x200B;](./buying-group-details.md). Vous pouvez également afficher les groupes d&#39;achats les plus engagés dans le tableau de bord Intelligent.
 
   ![Groupes d&#39;achats les plus engagés](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
 
 * **Score d’engagement de la personne** - Le score d’engagement de la personne est basé sur les activités d’un membre individuel du groupe d’achats.
 
-  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres ]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
+  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres &#x200B;]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
 
   ![Membres du groupe d&#39;achat les plus engagés](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Le score d’engagement de la personne est un attribut disponible à utiliser pour le filtrage dans les [modèles de rôles](./buying-groups-role-templates.md#add-the-template-roles) et les [nœuds de chemin fractionné par parcours ](../journeys/split-merge-paths-nodes.md#people-path-filters).
+Le score d’engagement de la personne est un attribut disponible à utiliser pour le filtrage dans les [modèles de rôles](./buying-groups-role-templates.md#add-the-template-roles) et les [nœuds de chemin fractionné par parcours &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Accéder aux définitions d’événement configurées](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
