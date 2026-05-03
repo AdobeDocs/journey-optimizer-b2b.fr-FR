@@ -9,7 +9,7 @@ exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
-ht-degree: 32%
+ht-degree: 38%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
->title="Génération de contenu AI"
->abstract="Après avoir conçu votre mise en page, vous pouvez utiliser des outils d’IA génératifs dans [!DNL Journey Optimizer B2B Edition] pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en affinant le contenu en fonction de votre invite descriptive."
+>title="Génération de contenu par IA"
+>abstract="Après avoir conçu votre mise en page, vous pouvez utiliser des outils d’IA générative dans [!DNL Journey Optimizer B2B Edition] pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en affinant le contenu en fonction de votre invite descriptive."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Contenu de référence"
->abstract="Utilisez _Contenu de référence_ pour charger un fichier de ressource contenant du contenu qui fournit un contexte supplémentaire pour l’IA générative dans [!DNL Journey Optimizer B2B Edition], ou pour sélectionner un fichier précédemment chargé. Cette option permet de s’assurer que tous les documents nécessaires sont disponibles pour améliorer la qualité et la pertinence du contenu généré."
+>abstract="Utilisez la fonction _Contenu de référence_ pour charger un fichier de ressource comportant du contenu qui fournit un contexte supplémentaire pour l’IA générative dans [!DNL Journey Optimizer B2B Edition], ou pour sélectionner un fichier précédemment chargé. Cette option permet de s’assurer que tous les documents nécessaires sont disponibles pour améliorer la qualité et la pertinence du contenu généré."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
->title="Termes d’IA génératifs Adobe"
->abstract="L’accès à cette fonctionnalité est soumis à votre acceptation des directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Passez en revue toutes les sorties de cette fonctionnalité à des fins d’exactitude et assurez-vous qu’elles sont appropriées à votre cas d’utilisation."
+>title="Conditions de l’IA générative d’Adobe"
+>abstract="L’accès à cette fonctionnalité est soumis à votre acceptation des directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Vérifiez la précision des résultats produits par cette fonctionnalité et assurez-vous qu’ils sont adaptés à votre cas d’utilisation."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Directives à l’intention des utilisateurs de l’IA générative Adobe"
 
 L’IA générative pour le contenu en [!DNL Adobe Journey Optimizer B2B Edition], optimisée par Microsoft Azure OpenAI et Adobe Firefly, fournit des suggestions proactives de variation de contenu pour le texte et les images. Optimisez l’impact de votre contenu en expérimentant avec différents titres et images principaux.
@@ -46,11 +46,11 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 Les outils de l’assistant AI pour la génération de contenu sont pris en charge avec les types de ressources suivants :
 
 * [E-mails](../content/ai-assistant-emails.md)
-* [Pages de destination](../content/ai-assistant-landing-pages.md)
+* [!BADGE ] [Pages de destination](../content/ai-assistant-landing-pages.md)
 
 ## Directives générales et restrictions {#general-guidelines-and-limitations}
 
-Votre utilisation des fonctionnalités d’IA générative est soumise aux [Directives d’utilisation de l’IA générative de &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Avec l’engagement d’Adobe en matière de transparence dans l’utilisation des outils d’IA génératifs pour la création de médias, Adobe applique les [&#x200B; informations d’identification de contenu &#x200B;](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par [!DNL Firefly] lorsqu’elle est téléchargée ou exportée.
+Votre utilisation des fonctionnalités d’IA générative est soumise aux [Directives d’utilisation de l’IA générative de ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Avec l’engagement d’Adobe en matière de transparence dans l’utilisation des outils d’IA génératifs pour la création de médias, Adobe applique les [ informations d’identification de contenu ](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par [!DNL Firefly] lorsqu’elle est téléchargée ou exportée.
 
 Consultez ces instructions générales pour l’utilisation de l’IA générative pour le contenu dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -62,12 +62,12 @@ Consultez ces instructions générales pour l’utilisation de l’IA générati
 
 * Veillez à signaler les sorties problématiques à l&#39;aide des icônes de pouces vers le haut, vers le bas ou d&#39;indicateurs lors de la sélection de variantes.
 
-## Bonnes pratiques d’invite pour l’IA générative {#generative-ai-prompting-guide}
+## Bonnes pratiques en matière d’invite pour l’IA générative {#generative-ai-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai_content_prompt"
->title="Invite de guidage"
->abstract="Consultez [!DNL Journey Optimizer B2B Edition] documentation pour savoir comment créer des invites efficaces qui génèrent du contenu marketing de marque à conversion élevée."
+>title="Guidage pour les invites"
+>abstract="Pour découvrir comment créer des invites efficaces qui génèrent du contenu marketing conforme à la marque, à conversion élevée, consultez la documentation de [!DNL Journey Optimizer B2B Edition]."
 
 Ce guide vous aide à structurer vos requêtes, à communiquer l’intention avec clarté et à vous assurer que l’IA produit un message qui correspond aux directives de votre marque, aux besoins de l’audience et aux objectifs de votre campagne.
 
