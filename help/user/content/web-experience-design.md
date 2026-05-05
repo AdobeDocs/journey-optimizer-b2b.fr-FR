@@ -5,11 +5,21 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: '2026-04-29T23:47:13.174Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -50,8 +60,8 @@ Journey Optimizer B2B edition fournit deux types d’éditeurs pour la conceptio
 
 | Éditeur | Description | Idéal pour |
 | ------ | ----------- | -------- |
-| [éditeur visuel](#visual-editor) | Un éditeur WYSIWYG (_What You See Is What You Get_) qui affiche votre site web et vous permet de sélectionner et de modifier directement des éléments. Elle nécessite l’extension [ Visual Editing Helper ](./web-experiences.md#install-the-visual-editing-helper-extension) dans le navigateur web Google Chrome ou Microsoft Edge. | Apporter des modifications visuelles aux éléments de page visibles, tels que le texte, les images, les boutons et les bannières. |
-| [ Éditeur non visuel ](#non-visual-editor) | Éditeur basé sur le code pour appliquer des modifications qui ne peuvent pas être apportées via l’éditeur visuel. | Ciblage des éléments difficiles à sélectionner visuellement, application de modifications CSS avancées ou modification d’éléments masqués. |
+| [éditeur visuel](#visual-editor) | Un éditeur WYSIWYG (_What You See Is What You Get_) qui affiche votre site web et vous permet de sélectionner et de modifier directement des éléments. Elle nécessite l’extension [&#x200B; Visual Editing Helper &#x200B;](./web-experiences.md#install-the-visual-editing-helper-extension) dans le navigateur web Google Chrome ou Microsoft Edge. | Apporter des modifications visuelles aux éléments de page visibles, tels que le texte, les images, les boutons et les bannières. |
+| [&#x200B; Éditeur non visuel &#x200B;](#non-visual-editor) | Éditeur basé sur le code pour appliquer des modifications qui ne peuvent pas être apportées via l’éditeur visuel. | Ciblage des éléments difficiles à sélectionner visuellement, application de modifications CSS avancées ou modification d’éléments masqués. |
 
 Dans les propriétés de l’expérience web, utilisez l’option **[!UICONTROL Éditeur visuel]** pour déterminer le type d’éditeur. Activez l’option pour utiliser l’éditeur visuel ou désactivez-la pour utiliser l’éditeur non visuel.
 
@@ -90,7 +100,7 @@ L’éditeur visuel charge les pages web dans un iframe, où vous pouvez sélect
 
    * [Insérez de nouveaux composants](#insert-new-components) (séparateur, HTML, image, en-tête, paragraphe ou lien) dans la page pour l’expérience web.
 
-   * Sélectionnez un élément existant de la page, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête ou un lien, et modifiez-le [ l’expérience web](#modify-elements).
+   * Sélectionnez un élément existant de la page, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête ou un lien, et modifiez-le [&#x200B; l’expérience web](#modify-elements).
 
    * [Ajouter le suivi des clics](#click-tracking-for-web-experiences) pour les éléments permettant de mesurer l’engagement et de recueillir des informations.
 
@@ -173,7 +183,7 @@ Pour plus d’informations sur les options de style de texte des composants de t
 Lorsque vous sélectionnez l’icône **+** dans le volet de navigation de gauche Conception de l’éditeur visuel, vous pouvez ajouter les types de composants suivants à la page en tant que modification de l’expérience web :
 
 * **[!UICONTROL Diviseur]** - Utilisez ce composant pour insérer une ligne de séparation afin d’organiser la disposition et le contenu de votre e-mail. Vous pouvez ajuster les attributs de style, tels que la couleur, le style et la hauteur des lignes à partir des propriétés du panneau de droite. Voir [Diviseur](./content-components.md#divider) dans _Composants de contenu_ pour plus d’informations.
-* **** - Utilisez ce composant pour copier-coller le code HTML dans la structure existante. Il permet de créer des composants modulaires HTML gratuits pour réutiliser du contenu externe. Voir [](./content-components.md#html) dans _Composants de contenu_ pour plus d’informations.
+* **&#x200B;**&#x200B;- Utilisez ce composant pour copier-coller le code HTML dans la structure existante. Il permet de créer des composants modulaires HTML gratuits pour réutiliser du contenu externe. Voir [&#128279;](./content-components.md#html) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL Image]** - Utilisez ce composant pour insérer un fichier image dans la page. Vous pouvez ajuster les attributs de style, tels que la largeur et la hauteur, à partir des propriétés du panneau de droite. Voir [Image](./content-components.md#image) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL En-tête]** - Utilisez ce composant pour insérer du texte de classe d’en-tête. Vous pouvez ajuster les attributs de style, tels que la couleur, le style, la police et la taille du texte, à partir des propriétés du panneau de droite. Voir [Texte](./content-components.md#text) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL Paragraphe]** - Utilisez ce composant pour insérer un élément de texte standard. Vous pouvez ajuster les attributs de style, tels que la couleur, le style, la police et la taille du texte, à partir des propriétés du panneau de droite. Voir [Texte](./content-components.md#text) dans _Composants de contenu_ pour plus d’informations.
@@ -208,8 +218,8 @@ Utilisez l’éditeur non visuel lorsque vous devez apporter des modifications q
 
      | Type | Description |
      | ---- | ----------- |
-     | [**[!UICONTROL  Sélecteur CSS ]**](#css-selector-modifications) | Ciblez des éléments à l’aide d’une chaîne de sélecteur CSS. |
-     | [**[!UICONTROL  Page ]**](#page-modifications) | Insérez des HTML, CSS ou JavaScript personnalisés dans des éléments de niveau page, tels que `<head>` ou `<body>`. |
+     | [**[!UICONTROL &#x200B; Sélecteur CSS &#x200B;]**](#css-selector-modifications) | Ciblez des éléments à l’aide d’une chaîne de sélecteur CSS. |
+     | [**[!UICONTROL &#x200B; Page &#x200B;]**](#page-modifications) | Insérez des HTML, CSS ou JavaScript personnalisés dans des éléments de niveau page, tels que `<head>` ou `<body>`. |
 
    * Configurez les paramètres de modification en fonction du type :
 
@@ -335,7 +345,7 @@ Suivez les interactions des utilisateurs avec les éléments pour mesurer l’en
 
 Lorsque votre expérience web est activée (en direct), vous pouvez également créer des rapports à l’aide d’Adobe Customer Journey Analytics (qui nécessite un abonnement au produit). Pour améliorer le suivi de l’expérience web, vous pouvez également suivre les clics sur n’importe quel élément spécifique de votre site web. Le tracking permet d’afficher le nombre de clics effectués sur cet élément dans les rapports web.
 
-Pour plus d’informations sur Customer Journey Analytics et la création de rapports web, consultez la documentation de Customer Journey Analytics [](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing).
+Pour plus d’informations sur Customer Journey Analytics et la création de rapports web, consultez la documentation de Customer Journey Analytics [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing).
 
 1. Sélectionnez un élément dans l’éditeur d’expérience web, tel qu’une image ou un lien.
 

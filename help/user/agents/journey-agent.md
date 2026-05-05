@@ -4,12 +4,19 @@ description: Découvrez comment utiliser le Journey Agent optimisé par l’IA e
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -22,7 +29,7 @@ ht-degree: 0%
 
 Journey Agent B2B est un assistant optimisé par l’IA dans Adobe Journey Optimizer B2B edition qui vous aide à concevoir, exécuter, optimiser et surveiller les parcours B2B via le langage naturel. Il réduit le temps et la complexité nécessaires à la création et à la gestion des parcours clients en combinant l’automatisation, les recommandations basées sur les données et l’observabilité en temps réel.
 
-![Invite B2B ](./assets/journey-agent-prompt.png)
+![Invite B2B &#x200B;](./assets/journey-agent-prompt.png)
 
 Le B2B de Journey Agent fournit un ensemble de compétences en IA, chacune axée sur un aspect différent du cycle de vie du parcours B2B. Les compétences actuellement disponibles sont les suivantes :
 
