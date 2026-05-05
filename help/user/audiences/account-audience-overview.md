@@ -4,10 +4,16 @@ description: Créez des audiences de comptes avec une segmentation pour cibler d
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+autotag-review: '2026-03-30T19:50:18.033Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: 585
+ht-degree: 92%
 
 ---
 
@@ -52,14 +58,14 @@ Définissez l’audience de compte en créant une segmentation de compte. Vous a
 
    L’exemple suivant définit l’audience créée à l’aide de `Country Code`, `Revenue Amount` et `Market segment`. La requête en anglais serait la suivante : « I want all accounts in the US who are in the Finance Segment whose revenue exceeds $1M ».
 
-   ![Exemple de créateur de segments d’audience de compte](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   Exemple de créateur de segments d’audience ![account](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]
    >
    >L’attribut `Account Name` pour les enregistrements de compte doit contenir une valeur à inclure dans les parcours de compte. Si cet attribut est vide (nul), l’enregistrement de compte est exclu.<br/>
-   >Pour garantir que seuls les comptes dont le nom n’est pas vide sont inclus, ajoutez l’attribut **[!UICONTROL Nom du compte]** et sélectionnez _[!UICONTROL existe]_ comme condition de correspondance.<br/>
-   >![Attribut Nom du compte existe](./assets/audience-segment-builder-account-name-exists.png){width="600"}
+   >Pour vous assurer que seuls les comptes dont le nom de compte n’est pas vide sont inclus, ajoutez l’attribut **[!UICONTROL Nom du compte]** et sélectionnez _[!UICONTROL existe]_ comme condition de correspondance.<br/>
+   >![ L’attribut Nom du compte existe](./assets/audience-segment-builder-account-name-exists.png){width="600"}
    ><br/>Si vous utilisez un attribut personnalisé pour le nom du compte, utilisez votre nom d’attribut personnalisé au lieu de _[!UICONTROL Nom du compte]_.
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** en haut à droite.

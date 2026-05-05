@@ -2,9 +2,17 @@
 title: Convertir une image en modèle d’e-mail
 description: Transformez les fichiers image en modèles d’e-mail HTML avec Journey Optimizer B2B edition. Chargez des fichiers PNG/JPEG et générez automatiquement du contenu d’e-mail réutilisable.
 feature: Email Authoring, Content
-source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
+exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:06:11.745Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -42,7 +50,7 @@ Si votre organisation dispose de [thèmes de marque](./brand-themes.md) définis
 
 1. Assurez-vous que le fichier image ne contient aucune information d’identification personnelle ou donnée personnelle et cochez la case en bas de la boîte de dialogue pour confirmer.
 
-   Pour consulter les instructions, cliquez sur le lien **[!UICONTROL Instructions d’utilisation relatives à l’IA générative pour Adobe Experience Cloud]**.
+   Pour consulter les instructions, cliquez sur le lien **[!UICONTROL Instructions d’utilisation relatives à l’IA générative pour]**.
 
    ![Complétez les paramètres pour convertir un fichier image en modèle d’e-mail](./assets/email-template-convert-image-dialog.png){width="400" zoomable="yes"}
 

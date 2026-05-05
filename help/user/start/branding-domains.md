@@ -4,9 +4,15 @@ description: Configurez vos domaines de marque afin que chacune de vos marques d
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: 1014
 ht-degree: 89%
 
 ---
@@ -31,7 +37,7 @@ Vous pouvez partager le branding de domaine de chemin de retour entre votre inst
 
 >[!PREREQUISITES]
 >
->Avant de modifier ou d’ajouter un domaine dans l’interface utilisateur, vous devez disposer d’un [CNAME mappé à un domaine Marketo Engage fourni par Adobe](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Avant de modifier ou d’ajouter un domaine dans l’interface utilisateur, vous devez disposer d’un [CNAME mappé à un domaine Marketo Engage fourni par Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Lors de l’ajout d’un domaine, le système vérifie les SSL préexistants, qui peuvent avoir été créés manuellement au préalable. Si vous rencontrez cette validation, créez votre domaine sans sélectionner la création SSL, puis connectez-le en tant que procédure distincte.
 
@@ -59,7 +65,7 @@ La première étape de l’utilisation des domaines de marque consiste à modifi
 
 1. Dans la boîte de dialogue _[!UICONTROL Modifier le domaine de branding]_, saisissez le nom de votre domaine par défaut dans le champ **[!UICONTROL Domaine]**.
 
-   ![&#x200B; Boîte de dialogue Modifier le domaine de branding &#x200B;](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
+   ![ Boîte de dialogue Modifier le domaine de branding ](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
 1. Si plusieurs espaces de travail sont définis pour votre instance Marketo Engage, cliquez sur **[!UICONTROL Suivant]**.
 
@@ -71,7 +77,7 @@ La première étape de l’utilisation des domaines de marque consiste à modifi
 
 ## Définition d’un domaine supplémentaire
 
-Après avoir modifié le domaine par défaut, vous pouvez ajouter un autre domaine de branding pour prendre en charge plusieurs marques dans votre environnement Journey Optimizer B2B Edition, où chaque marque possède ses propres liens de suivi de marque. Lorsque vous ajoutez un domaine, vous disposez des options suivantes :
+Après avoir modifié le domaine par défaut, vous pouvez ajouter un autre domaine de branding pour prendre en charge plusieurs marques dans votre environnement Journey Optimizer B2B edition, où chaque marque possède ses propres liens de suivi de marque. Lorsque vous ajoutez un domaine, vous disposez des options suivantes :
 
 >* _Faire du domaine de Principal_ : faites de ce domaine le domaine principal de l’espace de travail. Lorsque vous sélectionnez cette option, tous les e-mails non envoyés existants sont définis sur le domaine principal par défaut et tous les nouveaux e-mails créés sont automatiquement définis sur ce domaine principal. Les marketeurs peuvent choisir un autre domaine de marque si nécessaire.
 >
@@ -93,7 +99,7 @@ _Pour ajouter le domaine :_
 
    >[!NOTE]
    >
-   >**_SSL personnalisés_** : si vous avez besoin d’un SSL personnalisé, vous pouvez envoyer un ticket de [support](https://experienceleague.adobe.com/fr/support){target="_blank"}. N’utilisez pas la case à cocher pour la création SSL.
+   >**_SSL personnalisés_** : si vous avez besoin d’un SSL personnalisé, vous pouvez envoyer un ticket de [support](https://experienceleague.adobe.com/en/support){target="_blank"}. N’utilisez pas la case à cocher pour la création SSL.
 
 1. Si plusieurs espaces de travail sont définis pour votre instance Marketo Engage, cliquez sur **[!UICONTROL Suivant]**.
 
@@ -115,7 +121,7 @@ Pour activer SSL pour vos domaines existants, procédez comme suit.
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Confirmer]**.
 
-   ![&#x200B; Boîte de dialogue de confirmation Générer un certificat SSL &#x200B;](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
+   ![ Boîte de dialogue de confirmation Générer un certificat SSL ](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
 
 ## Messages d’erreur
 

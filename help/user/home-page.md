@@ -4,9 +4,14 @@ description: 'Accédez à Journey Optimizer B2B Edition et parcourez des pages d
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-27T22:19:43.813Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 93%
 
 ---
@@ -28,7 +33,7 @@ Lorsque vous vous connectez à Adobe Experience Platform et sélectionnez l’
 
 ![Pages d’accueil de Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition comporte deux personas d’utilisateur ou d’utilisatrice principaux : _&#x200B;**spécialiste du marketing**&#x200B;_ et _&#x200B;**administrateur ou administratrice**&#x200B;_. Chaque persona possède une page d’accueil spécifique pour différents stades de maturité (nouveau ou avancé). Le contenu de la page est basé sur les besoins de chaque persona en termes d’informations et des prochaines actions à entreprendre.
+Journey Optimizer B2B Edition comporte deux personas d’utilisateur ou d’utilisatrice principaux : _**spécialiste du marketing**_ et _**administrateur ou administratrice**_. Chaque persona possède une page d’accueil spécifique pour différents stades de maturité (nouveau ou avancé). Le contenu de la page est basé sur les besoins de chaque persona en termes d’informations et des prochaines actions à entreprendre.
 
 * **Spécialiste marketing - nouvel utilisateur ou nouvelle utilisatrice** : la page d’accueil _Spécialiste marketing_ d’un nouvel utilisateur ou d’une nouvelle utilisatrice l’aide à se familiariser avec Journey Optimizer B2B et ses fonctionnalités. Elle comprend une présentation guidée destinée à l’intégration du nouveau ou de la nouvelle spécialiste marketing qui lui permet de comprendre les nuances du système et de développer efficacement des stratégies et des initiatives marketing B2B.
 * **Spécialiste marketing - utilisateur expérimenté ou utilisatrice expérimentée** : la page d’accueil _Spécialiste marketing_ d’une personne spécialiste marketing expérimentée affiche la progression de l’initiative actuelle, les actions recommandées à entreprendre et permet d’accéder rapidement aux sections pertinentes.

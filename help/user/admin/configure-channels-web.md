@@ -4,22 +4,29 @@ description: Découvrez comment configurer les paramètres du canal web pour dé
 feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
-source-git-commit: 2f9b007df233cf8a233c3646bf691b7cff139f86
+exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T23:15:46.632Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 3%
+source-wordcount: 1075
+ht-degree: 6%
 
 ---
 
 # Configurations du canal web
 
-Une configuration web est une propriété web identifiée par une URL où le contenu est diffusé. Elle peut correspondre à l’URL d’une ou de plusieurs pages, de sorte que les expériences web puissent diffuser des modifications sur une ou plusieurs pages web. Ces configurations sont requises pour que les spécialistes marketing [ajoutent des nœuds d’action de personnalisation web dans les parcours &#x200B;](../content/web-experiences.md#create-a-web-experience) et [conçoivent les modifications d’expérience](../content/web-experience-design.md) pour une campagne.
+Une configuration web est une propriété web identifiée par une URL où le contenu est diffusé. Elle peut correspondre à l’URL d’une ou de plusieurs pages, de sorte que les expériences web puissent diffuser des modifications sur une ou plusieurs pages web. Ces configurations sont requises pour que les spécialistes marketing [ajoutent des nœuds d’action de personnalisation web dans les parcours ](../content/web-experiences.md#create-a-web-experience) et [conçoivent les modifications d’expérience](../content/web-experience-design.md) pour une campagne.
 
 >[!BEGINSHADEBOX]
 
 **Conditions préalables**
 
-Pour utiliser les canaux web, le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview) (`alloy.js`) doit être implémenté pour l’identification des visiteurs et la diffusion de contenu sur votre site web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
+Pour utiliser les canaux web, le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) doit être implémenté pour l’identification des visiteurs et la diffusion de contenu sur votre site web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
 
 La configuration du canal web dans Journey Optimizer B2B edition nécessite les [autorisations](../admin/user-management.md#b2b-product-permissions) suivantes :
 
@@ -54,7 +61,7 @@ La configuration du canal web dans Journey Optimizer B2B edition nécessite les 
 
 1. Cliquez sur **[!UICONTROL Envoyer]** pour enregistrer vos modifications.
 
-Une fois la configuration enregistrée, elle passe au statut _Brouillon_ et est disponible pour les marketeurs lorsqu’ils utilisent un canal web dans leurs parcours. Vous pouvez continuer à modifier la configuration tant qu’elle reste à l’état de brouillon. Vous pouvez également supprimer un brouillon de configuration de canal web en cliquant sur l’icône _Plus_ (**...**) à côté du nom et en choisissant **[!UICONTROL Supprimer]**.
+Une fois la configuration enregistrée, elle passe au statut _Brouillon_ et est disponible pour les marketeurs lorsqu’ils utilisent un canal web dans leurs parcours. Vous pouvez continuer à modifier la configuration tant qu’elle reste à l’état de brouillon. Vous pouvez également supprimer un brouillon de configuration de canal web en cliquant sur l’icône _Plus_ (**...**) en regard du nom et en choisissant **[!UICONTROL Supprimer]**.
 
 Dès que le canal web est utilisé dans un parcours, il passe à un statut _Actif_. Dans cet état, vous pouvez modifier le nom et la description de la configuration. Vous ne pouvez pas modifier les paramètres web ni supprimer la configuration.
 
@@ -115,7 +122,7 @@ Par exemple, vous pouvez appliquer des modifications à une bannière principale
 
    ![Règles de correspondance de pages avec exclusion](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
-1. Saisissez l’**[!UICONTROL URL de création et d’aperçu par défaut]**.
+1. Sélectionnez l’**[!UICONTROL URL de création et de prévisualisation par défaut]**.
 
    Cette étape permet de s’assurer que les pages générées ou mises en correspondance par la règle possèdent une URL désignée à des fins de conception de contenu d’expérience web et de prévisualisation.
 
@@ -123,7 +130,7 @@ Par exemple, vous pouvez appliquer des modifications à une bannière principale
 
 Vous pouvez dupliquer une configuration de canal web existante et la modifier pour créer un canal web basé sur un canal existant. Une configuration de canal web active enregistrée dans la bibliothèque ne peut pas être modifiée.
 
-1. Cliquez sur l’icône _Plus de menu_ (**...**) de la variante et choisissez **[!UICONTROL Dupliquer]**.
+1. Cliquez sur l’icône _Plus de menu_ (**...**) pour la variante et choisissez **[!UICONTROL Dupliquer]**.
 
    ![Cliquez sur l’icône plus de menu pour dupliquer une configuration de canal web existante](./assets/config-web-channels-more-menu.png){width="450"}
 

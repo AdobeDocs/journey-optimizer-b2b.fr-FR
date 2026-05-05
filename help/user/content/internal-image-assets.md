@@ -4,9 +4,16 @@ description: 'Parcourez, gérez et utilisez des ressources Journey Optimizer B2B
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:14:12.746Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: 1765
 ht-degree: 1%
 
 ---
@@ -60,7 +67,7 @@ Cliquer sur le lien vous redirige vers l’e-mail, le modèle d’e-mail ou le f
 
 ## Ajout de ressources
 
-Dans la page de liste _Assets_, vous pouvez ajouter des ressources d’image au référentiel de ressources de Journey Optimizer B2B edition.
+Dans la page de liste __, vous pouvez ajouter des ressources d’image au référentiel de ressources de Journey Optimizer B2B edition.
 
 1. Cliquez sur **[!UICONTROL Ajouter Assets]** en haut à droite.
 
@@ -90,7 +97,7 @@ Utilisez l’une des méthodes suivantes pour supprimer une ressource :
 
   ![Actions d’accès à la ressource](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
-* Sur la page de liste _[!UICONTROL Assets]_, cliquez sur l’icône _Plus_ (**[!UICONTROL ...]**) à côté de l’élément de ressource et choisissez **[!UICONTROL Supprimer]** dans les options.
+* Sur la page de liste __, cliquez sur l’icône _Plus_ (**[!UICONTROL ...]**) en regard de l’élément de ressource et choisissez **[!UICONTROL Supprimer]** dans les options.
 
   ![Actions d’accès à la ressource](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
@@ -104,11 +111,11 @@ Utilisez l’une des méthodes suivantes pour remplacer une ressource résidant 
 
 * Accédez aux détails de la ressource, cliquez sur **[!UICONTROL ... Plus]** en haut à droite, puis choisissez **[!UICONTROL Remplacer]** dans les options.
 
-* Sur la page de liste _[!UICONTROL Assets]_, cliquez sur l’icône _Plus_ (**[!UICONTROL ...]**) à côté de l’élément de ressource et sélectionnez **[!UICONTROL Remplacer]** dans les options.
+* Sur la page de liste __, cliquez sur l’icône _Plus_ (**[!UICONTROL ...]**) à côté de l’élément de ressource et choisissez **[!UICONTROL Remplacer]** dans les options.
 
 Dans la boîte de dialogue _[!UICONTROL Remplacer la ressource]_, faites glisser le fichier de remplacement de votre système et déposez-le dans la zone de fichier. Vous pouvez également cliquer sur le lien _[!UICONTROL Sélectionner un fichier sur votre ordinateur]_ pour utiliser votre système de fichiers local afin de sélectionner un fichier. (Si vous sélectionnez plusieurs fichiers dans votre système local, le premier fichier sélectionné est utilisé pour le remplacement.)
 
-![&#x200B; Boîte de dialogue Remplacer la ressource &#x200B;](./assets/assets-replace-dialog.png){width="500"}
+![ Boîte de dialogue Remplacer la ressource ](./assets/assets-replace-dialog.png){width="500"}
 
 Pour continuer, cliquez sur **[!UICONTROL Remplacer]**. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]**.
 
@@ -120,7 +127,7 @@ Vous pouvez télécharger une ressource à l’aide de l’une des méthodes sui
 
 * Accédez aux détails de la ressource et cliquez sur **[!UICONTROL Télécharger]** en haut à droite.
 
-* Sur la page de liste _[!UICONTROL Assets]_, cliquez sur le _Points de suspension_ (**[!UICONTROL ...]**) à côté de l’élément de ressource et sélectionnez **[!UICONTROL Télécharger]** dans les options.
+* Sur la page de liste __, cliquez sur le _Points de suspension_ (**[!UICONTROL ...]**) à côté de l’élément de ressource et choisissez **[!UICONTROL Télécharger]** dans les options.
 
 Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Télécharger]** pour lancer le téléchargement de la ressource vers votre système local. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]**.
 
@@ -128,7 +135,7 @@ Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Téléchar
 
 Dans la page de liste (_[!UICONTROL Gestion de contenu]_ > _[!UICONTROL Assets]_), sélectionnez plusieurs ressources à la fois en cochant chaque case à gauche. Une bannière de message s’affiche en bas lorsque vous sélectionnez plusieurs ressources.
 
-![&#x200B; Ressources sélectionnées &#x200B;](./assets/assets-list-selected.png){width="700" zoomable="yes"}
+![ Ressources sélectionnées ](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
 Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélectionnées résidant dans le référentiel de ressources _[!UICONTROL Journey Optimizer B2B edition]_ :
 
@@ -162,13 +169,13 @@ Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélecti
 
 ## Création d’un dossier
 
-1. Sur la page de liste _[!UICONTROL Assets]_, cliquez sur **[!UICONTROL Créer un dossier]** en haut à droite.
+1. Sur la page de liste __, cliquez sur **[!UICONTROL Créer un dossier]** en haut à droite.
 
 1. Dans la boîte de dialogue, saisissez le nom du dossier et sélectionnez le dossier de destination (parent) pour le nouveau dossier.
 
    Les noms de dossier doivent être uniques, comporter un maximum de 100 caractères et ne peuvent pas contenir de caractères spéciaux, tels que `;`, `:`, `\`, `|`.
 
-   ![&#x200B; Boîte de dialogue Créer un dossier &#x200B;](./assets/assets-create-folder-dialog.png){width="500"}
+   ![ Boîte de dialogue Créer un dossier ](./assets/assets-create-folder-dialog.png){width="500"}
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -254,7 +261,7 @@ L’archivage d’un dossier rend les fichiers qu’il contient impossibles à r
 
 Assets peut être utilisé pour la création d’e-mails, de modèles d’e-mail ou de fragments visuels dans votre équipe à partir de l’éditeur de contenu visuel.
 
-Dans l’espace de conception visuelle, sélectionnez l’icône _Assets_ ( ![icône Assets](../../assets/do-not-localize/icon-assets-me.svg) ) dans la barre latérale gauche.
+Dans l’espace de conception visuelle, sélectionnez l’icône __ ( ![icône Assets](../../assets/do-not-localize/icon-assets-me.svg) ) dans la barre latérale gauche.
 
 Cette action modifie le panneau Outils qui affiche une liste des ressources disponibles. Il existe plusieurs méthodes pour ajouter une ressource d’image à la zone de travail visuelle :
 

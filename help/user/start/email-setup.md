@@ -4,9 +4,16 @@ description: Configurez les options Marketo Engage pour la diffusion e-mail B2B 
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f467931a-9b22-4ca8-869f-adfbd64061ceid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: 1326
 ht-degree: 73%
 
 ---
@@ -31,7 +38,7 @@ Modifiez les valeurs de l’e-mail et du libellé De afin que les nouveaux e-mai
 
 1. Dans le panneau _[!UICONTROL Paramètres]_, saisissez les valeurs par défaut souhaitées pour **[!UICONTROL E-mail de l’expéditeur]** et **[!UICONTROL Libellé de l’expéditeur]**.
 
-   ![Paramètres d’e-mail - Valeurs par défaut des libellés D’e-mail et De &#x200B;](./assets/me-admin-email-settings-from.png){width="500"}
+   ![Paramètres d’e-mail - Valeurs par défaut des libellés D’e-mail et De ](./assets/me-admin-email-settings-from.png){width="500"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
@@ -158,8 +165,8 @@ Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail a
 
 L’activité des robots d’e-mail, également appelée interactions non humaines (NHI), peut gonfler les données d’e-mail _ouvertures_ et _clics_, ce qui fausse les mesures d’engagement et déclenche la progression du parcours basée sur un événement. Utilisez le filtrage des robots d’e-mail pour conserver l’intégrité des mesures et des informations d’engagement des clics. Deux méthodes permettent d’identifier une activité de robot suspectée :
 
-* _&#x200B;**[!UICONTROL Correspondance avec la liste de robots IAB]**&#x200B;_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
-* _&#x200B;**[!UICONTROL Correspondance avec le modèle de proximité]**&#x200B;_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
+* _**[!UICONTROL Correspondance avec la liste de robots IAB]**_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
+* _**[!UICONTROL Correspondance avec le modèle de proximité]**_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
    * ID de lead (doit être le même)
    * Ressource e-mail (doit être la même)
    * Clic sur un lien ou ouverture d’un e-mail

@@ -4,16 +4,23 @@ description: 'Créer et gérer des jetons My personnalisés pour une personnalis
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+autotag-review: '2026-03-30T22:21:17.156Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: 605
 ht-degree: 2%
 
 ---
 
 # Jetons personnalisés pour la personnalisation des e-mails
 
-La personnalisation du contenu utilise des jetons comme espaces réservés ou variables qui sont renseignés lorsque l’artefact de contenu est généré. Des jetons de personnalisation standard sont disponibles pour les e-mails, les pages de destination, les fragments et les modèles. Vous pouvez également définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la [création d’e-mails de parcours &#x200B;](./email-authoring.md#content-authoring---personalization).
+La personnalisation du contenu utilise des jetons comme espaces réservés ou variables qui sont renseignés lorsque l’artefact de contenu est généré. Des jetons de personnalisation standard sont disponibles pour les e-mails, les pages de destination, les fragments et les modèles. Vous pouvez également définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la [création d’e-mails de parcours ](./email-authoring.md#content-authoring---personalization).
 
 Outre les jetons _Mes jetons_, spécifiques au parcours de compte, vous pouvez utiliser n’importe quel jeton standard (intégré) pour la personnalisation des e-mails.
 
@@ -59,7 +66,7 @@ _Accéder aux jetons personnalisés pour un parcours de compte :_
 
 Tant que le parcours de compte reste au statut de brouillon, vous pouvez modifier n’importe quel de mes jetons défini.
 
-1. Sur la page _[!UICONTROL Mes jetons]_, cliquez sur l’icône _Autres actions_ (**...**) à côté du nom du jeton et sélectionnez **[!UICONTROL Modifier]**.
+1. Sur la page _[!UICONTROL Mes jetons]_, cliquez sur l’icône _Autres actions_ (**...**) en regard du nom du jeton et choisissez **[!UICONTROL Modifier]**.
 
    ![Menu Autres actions du jeton](./assets/my-tokens-more-actions.png){width="430"}
 
@@ -73,7 +80,7 @@ Tant que le parcours de compte reste au statut de brouillon, vous pouvez modifie
 
 Vous pouvez supprimer un jeton personnalisé de la liste _Mes jetons_, mais vous devez vous assurer qu’il n’est pas actuellement utilisé dans le contenu de votre e-mail de parcours.
 
-1. Sur la page _[!UICONTROL Mes jetons]_, cliquez sur l’icône _Autres actions_ (**...**) à côté du nom du jeton et sélectionnez **[!UICONTROL Supprimer]**.
+1. Sur la page _[!UICONTROL Mes jetons]_, cliquez sur l’icône _Autres actions_ (**...**) en regard du nom du jeton et choisissez **[!UICONTROL Supprimer]**.
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
 

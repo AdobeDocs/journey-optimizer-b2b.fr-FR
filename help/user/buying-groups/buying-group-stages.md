@@ -4,9 +4,16 @@ description: Créez des modèles d’étape de groupe d’achats personnalisés 
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+autotag-review: '2026-03-30T21:47:43.205Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: 2357
 ht-degree: 2%
 
 ---
@@ -120,7 +127,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 | **[!UICONTROL Nom de l’étape]** | Nom de l’étape. Cliquez sur l’icône d’informations pour afficher la description de l’étape. |
 | **[!UICONTROL Transit autorisé vers]** | Répertorie les étapes valides pour une action _déplacer vers_ dans le modèle. |
 | **[!UICONTROL Étape du point d’entrée]** | Indique si l’étape est valide comme étape de point d’entrée ([!UICONTROL Oui] ou [!UICONTROL Non]). |
-| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL &#x200B; Succès &#x200B;] ou [!UICONTROL &#x200B; Échec &#x200B;]). |
+| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL  Succès ] ou [!UICONTROL  Échec ]). |
 
 ![Étapes et règles de transition définies pour un modèle de brouillon](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -265,7 +272,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
    Le chemin de division est défini dans les propriétés de nœud sur la droite.
 
-   ![Propriétés du nœud de partage de Parcours &#x200B;](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
+   ![Propriétés du nœud de partage de Parcours ](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
 
 1. Continuez à définir d’autres chemins d’accès pour le nœud partagé et enregistrez le parcours.
 
@@ -367,4 +374,4 @@ Utilisez l&#39;occurrence d&#39;un changement d&#39;étape de groupe d&#39;achat
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3448696/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

@@ -4,9 +4,16 @@ description: 'Créez, gérez et réutilisez des fragments de contenu visuel pour
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:25:36.421Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: 2748
 ht-degree: 3%
 
 ---
@@ -50,7 +57,7 @@ Le statut du fragment détermine sa disponibilité pour une utilisation dans un 
 | Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Le contenu du fragment publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, et le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 
-![&#x200B; Cycle de vie du statut du fragment &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![ Cycle de vie du statut du fragment ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -86,7 +93,7 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B edition en c
 
    * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
 
-   ![&#x200B; Boîte de dialogue Créer un fragment &#x200B;](./assets/assets-fragments-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un fragment ](./assets/assets-fragments-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -180,7 +187,7 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
 1. Modifiez l’un des détails, tels que le nom et la description.
 
-   ![Détails du fragment avec le statut Brouillon &#x200B;](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![Détails du fragment avec le statut Brouillon ](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. Pour modifier le contenu dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier le fragment]**.
 
@@ -263,7 +270,7 @@ Pour mettre à jour le contenu :
 
 Vous pouvez dupliquer un fragment à l’aide de l’une des méthodes suivantes :
 
-* Dans la page de liste _[!UICONTROL Fragments]_, cliquez sur l’icône _Plus_ (**...**) à côté du nom du fragment et sélectionnez **[!UICONTROL Dupliquer]**.
+* Sur la page de liste _[!UICONTROL Fragments]_, cliquez sur l’icône _Plus_ (**...**) en regard du nom du fragment et choisissez **[!UICONTROL Dupliquer]**.
 * En haut à droite de la page des détails du fragment, cliquez sur **[!UICONTROL ... En plus]** et choisissez **[!UICONTROL Dupliquer]**.
 
 ![Dupliquer le fragment](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -300,9 +307,9 @@ Les fragments sont conçus pour être réutilisés et peuvent être insérés po
 
 >[!TAB Ajouter des fragments à un email]
 
-1. Accédez à **[!UICONTROL Parcours de compte]** et ouvrez un parcours parcours existant ou créez-en un.
+1. Accédez à Parcours de compte ]**et ouvrez un parcours existant ou créez-en un.**[!UICONTROL 
 
-1. Créez un nœud [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Créez un nœud [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Créez ou modifiez le [contenu d’e-mail pour le nœud](./email-authoring.md).
 

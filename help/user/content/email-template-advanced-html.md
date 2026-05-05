@@ -1,13 +1,19 @@
 ---
 title: Mode HTML avancé pour la conception de modèles d’e-mail
-description: Utilisez le mode HTML avancé pour afficher et modifier directement la source HTML brute du contenu de votre modèle d’e-mail dans l’espace de conception d’e-mail de Journey Optimizer B2B Edition.
+description: Utilisez le mode HTML avancé pour afficher et modifier directement la source HTML brute du contenu de votre modèle d’e-mail dans l’espace de conception d’e-mail de Journey Optimizer B2B edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 583
 ht-degree: 0%
 
 ---
@@ -45,7 +51,7 @@ Le mode HTML avancé est accessible à partir de la barre d’outils située en 
 
 1. Ouvrez ou [créez un modèle d’e-mail](./email-templates.md#create-an-email-template) et ouvrez l’espace de conception pour modifier le contenu.
 
-1. Dans l’espace de conception, cliquez sur l’icône _[!UICONTROL HTML]_ ( ![icône HTML](../assets/do-not-localize/icon-code.svg) ) dans la barre d’outils.
+1. Dans l’espace de conception, cliquez sur l’icône __ ( ![icône HTML](../assets/do-not-localize/icon-code.svg) ) dans la barre d’outils.
 
    ![Cliquez sur l’icône HTML dans la barre d’outils de l’espace de conception du modèle d’e-mail](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
 

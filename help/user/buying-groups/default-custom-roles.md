@@ -4,10 +4,17 @@ description: Afficher les rôles de groupe d'achats par défaut et créer des r�
 feature: Buying Groups
 role: User
 exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:44:30.589Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 2%
+source-wordcount: 314
+ht-degree: 5%
 
 ---
 
@@ -51,12 +58,12 @@ Journey Optimizer B2B edition comprend un ensemble de rôles par défaut qui son
 
 1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** (obligatoire) et un **[!UICONTROL Description]** (facultatif) uniques pour le rôle.
 
-   ![&#x200B; Boîte de dialogue Créer un rôle &#x200B;](./assets/roles-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un rôle ](./assets/roles-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
 ## Gestion des rôles personnalisés
 
-Vous pouvez gérer vos rôles personnalisés dans l’onglet _[!UICONTROL Rôles]_ qui comprend la modification du nom et de la description du rôle, ainsi que la suppression d’un rôle de la liste des rôles. Cliquez sur l’icône du menu _Plus_ (**...**) à côté du nom du modèle de phases et choisissez **[!UICONTROL Modifier]** ou **[!UICONTROL Supprimer]**.
+Vous pouvez gérer vos rôles personnalisés dans l’onglet _[!UICONTROL Rôles]_ qui comprend la modification du nom et de la description du rôle, ainsi que la suppression d’un rôle de la liste des rôles. Cliquez sur l’icône de menu _Plus_ (**...**) en regard du nom du modèle d’étapes et choisissez **[!UICONTROL Modifier]** ou **[!UICONTROL Supprimer]**.
 
 ![Modifier ou supprimer un rôle personnalisé](./assets/roles-more-menu.png){width="600"}
