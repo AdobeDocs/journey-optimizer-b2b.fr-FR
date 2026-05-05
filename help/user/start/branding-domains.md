@@ -43,7 +43,7 @@ Vous pouvez partager le branding de domaine de chemin de retour entre votre inst
 
 >[!PREREQUISITES]
 >
->Avant de modifier ou d’ajouter un domaine dans l’interface utilisateur, vous devez disposer d’un [CNAME mappé à un domaine Marketo Engage fourni par Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Avant de modifier ou d’ajouter un domaine dans l’interface utilisateur, vous devez disposer d’un [CNAME mappé à un domaine Marketo Engage fourni par Adobe](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Lors de l’ajout d’un domaine, le système vérifie les SSL préexistants, qui peuvent avoir été créés manuellement au préalable. Si vous rencontrez cette validation, créez votre domaine sans sélectionner la création SSL, puis connectez-le en tant que procédure distincte.
 
@@ -105,7 +105,7 @@ _Pour ajouter le domaine :_
 
    >[!NOTE]
    >
-   >**_SSL personnalisés_** : si vous avez besoin d’un SSL personnalisé, vous pouvez envoyer un ticket de [support](https://experienceleague.adobe.com/en/support){target="_blank"}. N’utilisez pas la case à cocher pour la création SSL.
+   >**_SSL personnalisés_** : si vous avez besoin d’un SSL personnalisé, vous pouvez envoyer un ticket de [support](https://experienceleague.adobe.com/fr/support){target="_blank"}. N’utilisez pas la case à cocher pour la création SSL.
 
 1. Si plusieurs espaces de travail sont définis pour votre instance Marketo Engage, cliquez sur **[!UICONTROL Suivant]**.
 
