@@ -4,9 +4,18 @@ description: Exportez les listes de comptes filtrées au format CSV pour les pla
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
-source-wordcount: '259'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+autotag-review: '2026-03-30T19:51:33.392Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
+workflow-type: tm+mt
+source-wordcount: 261
 ht-degree: 100%
 
 ---
@@ -23,9 +32,9 @@ Utilisez la fonctionnalité _Exporter des comptes_ pour exporter tous les compte
 
    ![Modifier les détails du compte](./assets/export-accounts.png){width="800" zoomable="yes"}
 
-1. Dans la boîte de dialogue, définissez les paramètres des audiences de compte à exporter.
+1. Dans la boîte de dialogue, définissez les paramètres des audiences de comptes à exporter.
 
-   ![Spécifier le filtrage de l’audience du compte](./assets/export-accounts-dialog.png){width="400"}
+   ![Spécifier le filtrage de l’audience de comptes](./assets/export-accounts-dialog.png){width="400"}
 
    Pour le **[!UICONTROL score d’engagement]**, l’opérateur `Between` est inclusif, tout comme les plages de pourcentage. Par exemple, les paragraphes 5.1 et 5 sont tous deux compris _entre_ 5 et 6.
 

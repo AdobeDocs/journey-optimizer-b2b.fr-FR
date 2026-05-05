@@ -5,9 +5,20 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 895
 ht-degree: 1%
 
 ---
@@ -25,7 +36,7 @@ Les exemples de questions suivants sont regroupés en fonction des objectifs que
 | Apprendre les concepts et poursuivre les workflows | En tant qu’utilisateur débutant, vous pouvez utiliser l’assistant AI pour apprendre les concepts de Real-Time CDP et de Adobe Journey Optimizer B2B edition, et vous intégrer à des produits et fonctionnalités que vous ne connaissez pas. <br>En tant qu’utilisateur expérimenté, vous pouvez utiliser l’assistant AI pour résoudre un cas de figure susceptible de bloquer votre workflow. | <li>Racontez-moi quelques cas d’utilisation pour Real-Time CDP. <li>Expliquez-moi le concept de groupe d&#39;achat. |
 | Dépannage | Utilisez l’assistant AI pour savoir comment déboguer les erreurs de base que vous pouvez rencontrer dans votre workflow. | <li>A quoi correspond cette erreur &lt;MESSAGE_ERREUR> ? <li>Pourquoi ne puis-je pas supprimer l’audience nommée « ... » ? |
 | Hygiène des sandbox | Utilisez l’assistant AI pour identifier les doublons ou les objets inutilisés afin de gérer efficacement votre sandbox. | <li>Pouvez-vous m’afficher des audiences de compte similaires ? <li>Existe-t-il des schémas auxquels aucun jeu de données n’est associé ? |
-| Analyse des valeurs | Utilisez l’assistant AI pour identifier les objets de données les plus utilisés et évaluer les indicateurs de performance ou trouver les objets de données les plus précieux. | <li>Combien de comptes se trouvent dans notre définition de segment « ... » ? <li>Quand les audiences ont-elles été activées vers la destination Audiences Experience Cloud ? |
+| Analyse des valeurs | Utilisez l’assistant AI pour identifier les objets de données les plus utilisés et évaluer les indicateurs de performance ou trouver les objets de données les plus précieux. | <li>Combien y a-t-il de comptes dans notre « ... » ? définition du segment ? <li>Quand les audiences ont-elles été activées vers la destination Audiences Experience Cloud ? |
 | Recherche | Utilisez l’assistant AI pour rechercher les objets B2B edition Experience Platform et Adobe Journey Optimizer pris en charge, tels que les audiences de compte, les jeux de données, les destinations, les schémas, les sources, les parcours de compte, les modèles de groupe d’achats et les centres d’intérêt des solutions | <li>Répertoriez les audiences dont le nom contient « Luma » et qui ont été utilisées dans les parcours de compte. <li>Quels sont les attributs du schéma XDM « Luma : actions personnalisées » ? |
 | Analyse d&#39;impact | Utilisez l’assistant AI pour identifier les objets de données qui ont été utilisés dans certains workflows afin de pouvoir évaluer l’impact de toute modification. | <li>Quelles audiences de compte utilisent `workEmail.address` dans le schéma « Personne B2B » ? <li>Dans quels jeux de données les `jobTitle` ... sont-ils stockés ? |
 
@@ -39,13 +50,13 @@ Vous devez formuler vos questions à l’assistant AI avec clarté et contexte p
 
 Les tableaux suivants présentent quelques bonnes pratiques que vous pouvez suivre lors de l’utilisation de l’assistant AI :
 
-| Faire | Exemple |
+| Conseils | Exemple |
 | --- | --- |
 | <li>Soyez précis quant à l’objet ou aux informations que vous souhaitez récupérer ou analyser. <li>Essayez de placer les noms des objets de données entre guillemets. <li>Si vous ne connaissez qu’une partie du nom de l’objet, vous pouvez également la spécifier dans la question. | <li>Quels jeux de données utilisent le schéma « Compte B2B » ? <li>Montrez-moi les audiences activées dont le nom contient « Compte ». Classez-les par nombre de membres. |
 | <li>Évitez toute ambiguïté et utilisez un langage clair. <li>Utilisez une terminologie précise pour garantir une meilleure clarté dans votre requête. <li>Lorsque vous posez des questions concernant Adobe Experience Platform et Adobe Journey Optimizer B2B edition, utilisez une terminologie spécifique à Experience Platform ou Adobe Journey Optimizer B2B edition pour améliorer la pertinence des réponses. | <li>Combien de membres ai-je dans « Mon audience de compte » ? <li>Combien de parcours de compte utilisent l’audience de compte « Mon audience de compte » ? |
 | <li>Fournissez un contexte ou spécifiez un critère pour filtrer vos résultats. <li>Utilisez un critère de filtre dans les questions pour limiter le volume de données dans la réponse. | <li>Afficher les audiences de compte qui n’ont pas été activées et qui ont été créées il y a plus de 6 mois et qui n’ont jamais été modifiées. <li>Afficher les parcours de compte publiés au cours des 7 derniers jours et qui utilisent une audience de compte qui compte plus de 1 000 membres |
 
-| Ne pas | Exemple |
+| Erreurs à éviter | Exemple |
 | --- | --- |
 | Utilisez un langage vague ou ambigu. | <li>Me donner des informations sur les jeux de données. <li>Que fait parcours x ? <li>Combien d’utilisateurs ai-je dans « Audience ACME » ? <li>Afficher les segments. <li>Attributs de liste. |
 | Effectuer des demandes incomplètes | <li>« Luma - Jeu De Données De Fidélité » |

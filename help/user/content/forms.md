@@ -5,9 +5,22 @@ feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+autotag-review: '2026-03-30T22:51:56.324Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: 2374
 ht-degree: 1%
 
 ---
@@ -165,7 +178,7 @@ Les formulaires actuellement utilisés par une page de destination ou un modèle
 Vous pouvez supprimer un formulaire à l’aide de l’une des méthodes suivantes :
 
 * En haut à droite, cliquez sur **[!UICONTROL ... Plus]** puis choisissez **[!UICONTROL Supprimer]**.
-* Dans la page de liste _[!UICONTROL Forms]_, cliquez sur les points de suspension en regard du nom du formulaire et choisissez **[!UICONTROL Supprimer]**.
+* Dans la page de liste __, cliquez sur les points de suspension en regard du nom du formulaire et choisissez **[!UICONTROL Supprimer]**.
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
@@ -182,7 +195,7 @@ Dupliquez un formulaire comme moyen simple et rapide de créer un formulaire à 
 Vous pouvez dupliquer un formulaire à l’aide de l’une des méthodes suivantes :
 
 * En haut à droite de la page des détails du formulaire, cliquez sur **[!UICONTROL ... En plus]** et choisissez **[!UICONTROL Dupliquer]**.
-* Dans la page de liste _[!UICONTROL Forms]_, cliquez sur les points de suspension en regard du nom du formulaire et choisissez **[!UICONTROL Dupliquer]**.
+* Dans la page de liste __, cliquez sur les points de suspension en regard du nom du formulaire et choisissez **[!UICONTROL Dupliquer]**.
 
 ![Dupliquer le formulaire](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -204,7 +217,7 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 >[!TAB Brouillon]
 
-1. Dans la page de liste _[!UICONTROL Forms]_, cliquez sur le nom du formulaire pour l&#39;ouvrir.
+1. Dans la page de liste __, cliquez sur le nom du formulaire pour l&#39;ouvrir.
 
    Un aperçu du contenu du formulaire s’affiche avec les détails du formulaire à droite.
 
@@ -228,7 +241,7 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 >[!TAB Publié]
 
-1. Dans la page de liste _[!UICONTROL Forms]_, cliquez sur le nom du formulaire pour l&#39;ouvrir.
+1. Dans la page de liste __, cliquez sur le nom du formulaire pour l&#39;ouvrir.
 
    Un aperçu du contenu du formulaire s’affiche avec les détails du formulaire à droite.
 

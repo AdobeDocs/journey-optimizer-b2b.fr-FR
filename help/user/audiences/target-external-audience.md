@@ -3,10 +3,27 @@ title: '[!DNL Adobe Target] des audiences externes'
 description: Activer des audiences externes vers par le biais  [!DNL Adobe Target]  parcours de compte. Personnalisez les expériences web B2B et conservez la cohérence entre les plateformes.
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
-source-git-commit: 598546c62cb2d567f19b26f7f760aa43e4dd0bc9
+exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: '2026-03-30T19:48:50.374Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 1%
+source-wordcount: 720
+ht-degree: 2%
 
 ---
 
@@ -79,9 +96,9 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
 >[!BEGINSHADEBOX]
 
-![Icône Autorisations AEP](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les autorisations suivantes pour le rôle utilisateur qui vous a été attribué :
+![Icône Autorisations &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les autorisations suivantes pour le rôle utilisateur qui vous a été attribué :
 
-* **[!UICONTROL Experience Platform]** - Pour la ressource _[!UICONTROL Destinations]_ : `Activate Destinations`, `Manage and Activate Dataset Destination` et `View Destination`
+* **&#x200B;**&#x200B;- Pour la ressource _[!UICONTROL Destinations]_ : `Activate Destinations`, `Manage and Activate Dataset Destination` et `View Destination`
 * **[!DNL Target]** - `Approver`
 
 >[!ENDSHADEBOX]
@@ -106,5 +123,4 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
    ![Experience Platform - destinations - activer la destination - vérifier](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Lors de l’activation, vous pouvez voir l’audience dans [les audiences Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et les utiliser dans les activités Adobe Target.
-
+Lors de l’activation, vous pouvez voir l’audience dans [les audiences &#x200B;](https://experienceleague.adobe.com/fr/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et les utiliser dans les activités Adobe Target.

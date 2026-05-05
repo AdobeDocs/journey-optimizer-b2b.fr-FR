@@ -6,9 +6,24 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T22:58:08.848Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: 1476
 ht-degree: 13%
 
 ---
@@ -37,7 +52,7 @@ Lorsque vous sélectionnez des événements pour atteindre les objectifs de votr
 
 * Parcours peut écouter les événements d’expérience ingérés à l’aide des fonctionnalités de diffusion en continu d’Experience Platform, telles que l’API Web SDK ou HTTP.
 
-* Vous pouvez utiliser les événements d’expérience à des fins de prise de décision dans un parcours, mais ils ne sont pas conservés. Par conséquent, vous ne pouvez pas utiliser un enregistrement historique des événements d’expérience dans Journey Optimizer B2B Edition.
+* Vous pouvez utiliser les événements d’expérience à des fins de prise de décision dans un parcours, mais ils ne sont pas conservés. Par conséquent, vous ne pouvez pas utiliser un enregistrement historique des événements d’expérience dans Journey Optimizer B2B edition.
 
 * Lorsque vous utilisez un événement d’expérience et publiez le parcours, vous pouvez ajouter d’autres champs, mais vous ne pouvez pas supprimer les champs précédemment sélectionnés.
 

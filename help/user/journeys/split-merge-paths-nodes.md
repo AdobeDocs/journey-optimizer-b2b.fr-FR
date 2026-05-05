@@ -5,9 +5,23 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-30T23:10:13.939Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: 2744
 ht-degree: 4%
 
 ---
@@ -262,7 +276,7 @@ Pour utiliser l’appartenance à une liste dans une condition de partage, déve
 >
 >**Obsolescence de fonctionnalités**</br></br>
 >
->Dans la version actuelle de Journey Optimizer B2B Edition, le filtrage basé sur l’appartenance à une liste ou à un programme dans une instance Marketo Engage n’est pas pris en charge.
+>Dans la version actuelle de Journey Optimizer B2B edition, le filtrage basé sur l’appartenance à une liste ou à un programme dans une instance Marketo Engage n’est pas pris en charge.
 
 >[!ENDSHADEBOX]
 

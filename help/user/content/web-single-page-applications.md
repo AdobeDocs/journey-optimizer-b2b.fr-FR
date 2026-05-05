@@ -4,10 +4,28 @@ description: 'Créer des expériences web pour les applications monopages (SPA) 
 feature: Channels, Personalization
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
-source-git-commit: e50b6830736bf763d3aae6a58595e868bbac36e0
+exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: '2026-03-30T22:02:23.111Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 1%
+source-wordcount: 848
+ht-degree: 2%
 
 ---
 
@@ -109,7 +127,7 @@ Les expériences web Journey Optimizer B2B edition fonctionnent avec les framewo
 | Framework | Considérations |
 | --------- | -------------- |
 | **React** | Les modifications s’appliquent une fois que React a rendu les composants dans le DOM. Utilisez des noms de classe ou des attributs de données pour le ciblage. |
-| **Angular** | Éléments cibles après l’exécution de la détection des modifications d’Angular. Évitez de cibler les éléments avec des `*ngIf` avant leur rendu. |
+| **&#x200B;**&#x200B;| Éléments cibles après l’exécution de la détection des modifications d’Angular. Évitez de cibler les éléments avec des `*ngIf` avant leur rendu. |
 | **Vue.js** | Attendez la `nextTick` de Vue pour vous assurer que les éléments sont dans le DOM. Utilisez des références ou des attributs personnalisés pour un ciblage stable. |
 | **Next.js / Nuxt.js** | Pour les pages SSR/SSG, assurez-vous que l’hydratation de Web SDK est terminée avant d’attendre des modifications. |
 
