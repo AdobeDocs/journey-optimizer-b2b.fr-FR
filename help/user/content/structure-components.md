@@ -4,12 +4,18 @@ description: Utilisez les composants de structure pour créer des dispositions p
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: '2026-03-30T22:18:21.301Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
@@ -104,7 +110,7 @@ Vous pouvez supprimer la désignation d’en-tête ou de pied de page en sélect
 
 Pour les écrans ou les fenêtres d’affichage plus petits, les colonnes du composant de structure s’affichent comme empilées, sauf si vous modifiez le paramètre par défaut. Lorsque le composant de structure à plusieurs colonnes est sélectionné, modifiez le paramètre **[!UICONTROL Ne pas empiler de colonnes sur un appareil mobile]** en déplaçant le curseur de basculement vers la droite.
 
-![Ne pas empiler les colonnes sur les ](./assets/structure-component-settings-stack-columns.png){width="250"} mobiles
+![Ne pas empiler les colonnes sur les &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"} mobiles
 
 ## Styles de composant
 
@@ -114,7 +120,7 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL  Couleur d’arrière-plan ]
+#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 
@@ -146,7 +152,7 @@ Sélectionnez le [type de source de ressource](./assets-overview.md) puis sélec
 
 +++
 
-Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
+Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [&#128279;](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
 
 ![Paramètres de l’image d’arrière-plan](./assets/structure-component-styles-background-image.png){width="250"}
 
