@@ -4,16 +4,13 @@ description: Utilisez les listes de comptes dans parcours orchestration, ajoutez
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: '2026-03-27T22:29:03.719Z'
-source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: 2026-03-27T22:29:03.719Z
+TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 731
 ht-degree: 0%
@@ -86,7 +83,7 @@ Par exemple, vous pouvez avoir un chemin de parcours où vous envoyez un e-mail 
 
 En tant que spécialiste marketing, vous pouvez supprimer des programmes dans Marketo Engage pour les personnes qui font partie des listes de comptes dans Journey Optimizer B2B edition.
 
-Dans l’instance Marketo Engage connectée à Journey Optimizer B2B edition, vous pouvez utiliser le filtre _[!UICONTROL Membre de la liste des comptes]_ de vos listes dynamiques pour identifier ces prospects en fonction de votre stratégie de campagne. Pour plus d’informations sur les listes dynamiques, consultez la documentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+Dans l’instance Marketo Engage connectée à Journey Optimizer B2B edition, vous pouvez utiliser le filtre _[!UICONTROL Membre de la liste des comptes]_ de vos listes dynamiques pour identifier ces prospects en fonction de votre stratégie de campagne. Pour plus d’informations sur les listes dynamiques, consultez la documentation de [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Ajouter le filtre à une liste dynamique
 
@@ -104,7 +101,7 @@ Dans l’instance Marketo Engage connectée à Journey Optimizer B2B edition, vo
 
 1. Dans le flux de la campagne, ajoutez l’étape **[!UICONTROL Ajouter à la liste]** et choisissez la liste dans laquelle vous souhaitez renseigner les personnes de la liste des comptes Journey Optimizer B2B edition.
 
-   Pour plus d’informations sur l’ajout d’étapes à un flux[&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_consultez la section_ Ajouter une étape de flux à une campagne dynamique dans la documentation de Marketo Engage.
+   Pour plus d’informations sur l’ajout d’étapes à un flux](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_consultez la section_[ Ajouter une étape de flux à une campagne dynamique dans la documentation de Marketo Engage.
 
 ### Vérifier les membres
 

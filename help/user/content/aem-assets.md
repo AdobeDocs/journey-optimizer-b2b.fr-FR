@@ -4,24 +4,14 @@ description: 'Accédez aux images AEM Assets et utilisez-les dans la création d
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: '2026-03-30T22:38:14.175Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: d09181b5-a36a-43de-ba01-36641440bc43
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: da3860b0-d637-47df-bef0-273751180266
+autotag-review: 2026-03-30T22:38:14.175Z
+TQID: https://experienceleague.adobe.com/xcGhfHeUuvmdsUws17Kpb7w3HmM7LaB3C633HiicmJ0
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 592
 ht-degree: 2%
@@ -36,11 +26,11 @@ Lorsque [!DNL Adobe Experience Manager Assets as a Cloud Service] est intégré 
 
 Lorsque vous utilisez ces ressources numériques, les dernières modifications apportées à [!DNL Assets as a Cloud Service] se propagent automatiquement aux campagnes par e-mail actives par le biais de références liées. Si des images sont supprimées dans [!DNL Adobe Experience Manager Assets as a Cloud Service], elles apparaissent avec une référence rompue dans les e-mails. Lorsque des ressources actuellement utilisées dans les parcours de compte sont modifiées ou supprimées, les auteurs de parcours sont informés des modifications apportées à l’image et de la liste des parcours qui utilisent l’image. Toutes les modifications apportées aux ressources doivent être effectuées dans le référentiel central [!DNL Adobe Experience Manager Assets].
 
-Lorsque votre environnement dispose d’une ou de plusieurs connexions au référentiel Assets [&#128279;](../admin/configure-aem-repositories.md), les auteurs de contenu peuvent utiliser [!DNL Experience Manager Assets] comme source de ressources lors de la création d’un e-mail, d’un modèle d’e-mail ou d’un fragment visuel.
+Lorsque votre environnement dispose d’une ou de plusieurs connexions au référentiel Assets [](../admin/configure-aem-repositories.md), les auteurs de contenu peuvent utiliser [!DNL Experience Manager Assets] comme source de ressources lors de la création d’un e-mail, d’un modèle d’e-mail ou d’un fragment visuel.
 
 >[!IMPORTANT]
 >
->Un administrateur doit ajouter les utilisateurs qui doivent accéder à Assets aux profils de produit Utilisateurs consommateurs d’Assets et/ou Utilisateurs Assets . [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Un administrateur doit ajouter les utilisateurs qui doivent accéder à Assets aux profils de produit Utilisateurs consommateurs d’Assets et/ou Utilisateurs Assets . [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Accès aux images AEM Assets
 
@@ -50,7 +40,7 @@ Dans l’espace de conception de contenu, cliquez sur l’icône __ ( ![icône E
 
 >[!NOTE]
 >
->Actuellement, seules les ressources d’image d’[!DNL Adobe Experience Manager Assets] sont prises en charge dans [!DNL Adobe Journey Optimizer B2B Edition]. Les modifications apportées aux ressources doivent être effectuées à partir du référentiel central [!DNL Adobe Experience Manager Assets]. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Actuellement, seules les ressources d’image d’[!DNL Adobe Experience Manager Assets] sont prises en charge dans [!DNL Adobe Journey Optimizer B2B Edition]. Les modifications apportées aux ressources doivent être effectuées à partir du référentiel central [!DNL Adobe Experience Manager Assets]. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Modifier le référentiel affiché
 
@@ -70,7 +60,7 @@ Il existe plusieurs méthodes pour ajouter une ressource d’image à la zone de
 
 ## Rechercher et sélectionner une image
 
-1. Ajoutez un composant image à la zone de travail et cliquez sur **&#x200B;**&#x200B;pour ouvrir la boîte de dialogue _[!UICONTROL Sélectionner Assets]_.
+1. Ajoutez un composant image à la zone de travail et cliquez sur **** pour ouvrir la boîte de dialogue _[!UICONTROL Sélectionner Assets]_.
 
    ![Sélectionnez une ressource pour le composant d’image](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
 

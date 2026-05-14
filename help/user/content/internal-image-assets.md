@@ -4,20 +4,14 @@ description: 'Parcourez, gérez et utilisez des ressources Journey Optimizer B2B
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: '2026-03-30T22:14:12.746Z'
-source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1765
 ht-degree: 1%
@@ -121,7 +115,7 @@ Utilisez l’une des méthodes suivantes pour remplacer une ressource résidant 
 
 Dans la boîte de dialogue _[!UICONTROL Remplacer la ressource]_, faites glisser le fichier de remplacement de votre système et déposez-le dans la zone de fichier. Vous pouvez également cliquer sur le lien _[!UICONTROL Sélectionner un fichier sur votre ordinateur]_ pour utiliser votre système de fichiers local afin de sélectionner un fichier. (Si vous sélectionnez plusieurs fichiers dans votre système local, le premier fichier sélectionné est utilisé pour le remplacement.)
 
-![&#x200B; Boîte de dialogue Remplacer la ressource &#x200B;](./assets/assets-replace-dialog.png){width="500"}
+![ Boîte de dialogue Remplacer la ressource ](./assets/assets-replace-dialog.png){width="500"}
 
 Pour continuer, cliquez sur **[!UICONTROL Remplacer]**. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]**.
 
@@ -141,7 +135,7 @@ Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Téléchar
 
 Dans la page de liste (_[!UICONTROL Gestion de contenu]_ > _[!UICONTROL Assets]_), sélectionnez plusieurs ressources à la fois en cochant chaque case à gauche. Une bannière de message s’affiche en bas lorsque vous sélectionnez plusieurs ressources.
 
-![&#x200B; Ressources sélectionnées &#x200B;](./assets/assets-list-selected.png){width="700" zoomable="yes"}
+![ Ressources sélectionnées ](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
 Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélectionnées résidant dans le référentiel de ressources _[!UICONTROL Journey Optimizer B2B edition]_ :
 
@@ -181,7 +175,7 @@ Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélecti
 
    Les noms de dossier doivent être uniques, comporter un maximum de 100 caractères et ne peuvent pas contenir de caractères spéciaux, tels que `;`, `:`, `\`, `|`.
 
-   ![&#x200B; Boîte de dialogue Créer un dossier &#x200B;](./assets/assets-create-folder-dialog.png){width="500"}
+   ![ Boîte de dialogue Créer un dossier ](./assets/assets-create-folder-dialog.png){width="500"}
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 
