@@ -195,4 +195,4 @@ Le statut de la liste de comptes dynamique passe à _[!UICONTROL Actif]_ et peut
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448651/?captions=fre_fr&learn=on)
