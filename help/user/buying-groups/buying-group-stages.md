@@ -4,11 +4,17 @@ description: Créez des modèles d’étape de groupe d’achats personnalisés 
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -127,7 +133,7 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 | **[!UICONTROL Nom de l’étape]** | Nom de l’étape. Cliquez sur l’icône d’informations pour afficher la description de l’étape. |
 | **[!UICONTROL Transit autorisé vers]** | Répertorie les étapes valides pour une action _déplacer vers_ dans le modèle. |
 | **[!UICONTROL Étape du point d’entrée]** | Indique si l’étape est valide comme étape de point d’entrée ([!UICONTROL Oui] ou [!UICONTROL Non]). |
-| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL  Succès ] ou [!UICONTROL  Échec ]). |
+| **[!UICONTROL Destination]** | Indique si l’étape est désignée comme étape de destination ([!UICONTROL &#x200B; Succès &#x200B;] ou [!UICONTROL &#x200B; Échec &#x200B;]). |
 
 ![Étapes et règles de transition définies pour un modèle de brouillon](assets/stages-model-draft-details.png){width="700" zoomable="yes"}
 
@@ -272,7 +278,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
    Le chemin de division est défini dans les propriétés de nœud sur la droite.
 
-   ![Propriétés du nœud de partage de Parcours ](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
+   ![Propriétés du nœud de partage de Parcours &#x200B;](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
 
 1. Continuez à définir d’autres chemins d’accès pour le nœud partagé et enregistrez le parcours.
 
