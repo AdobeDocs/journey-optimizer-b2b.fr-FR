@@ -109,7 +109,7 @@ Vous pouvez créer un message de 1 600 caractères maximum, tous les 160 caract�
      >[!NOTE]
      >
      >Lorsque vous autorisez le suivi mais désactivez _[!UICONTROL Inclure mkt_tok]_, l’URL de destination n’inclut pas le paramètre de chaîne de requête `mkt_tok` après la redirection. Ce paramètre est utilisé par les pages de destination et Munchkin de Marketo Engage pour s’assurer du suivi des activités des personnes (par exemple lorsqu’une personne se désinscrit d’un e-mail). Ne désactivez pas cette option, sauf si le paramètre entraîne des problèmes sur votre site web.<br/>
-     >Pour plus d’informations sur l’utilisation des codes de suivi Munchkin sur votre site web, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Pour plus d’informations sur l’utilisation des codes de suivi Munchkin sur votre site web, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Boîte de dialogue Ajouter un lien pour un SMS](./assets/sms-add-link-dialog.png){width="470"}
 
