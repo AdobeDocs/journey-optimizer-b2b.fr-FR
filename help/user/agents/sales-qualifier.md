@@ -5,10 +5,17 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
 autotag-review: 2026-03-30T15:10:20.350Z
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
 source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
 workflow-type: tm+mt
@@ -35,7 +42,7 @@ Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edit
 
 Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L’AQA utilise l’IA pour lire vos comptes et déterminer lesquels sont prêts pour l’étape suivante. Il facilite la recherche, la rédaction d’e-mails et le contexte orienté CRM lorsque votre organisation a connecté le CRM (lecture seule).
 
-![ Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](./assets/acc-qualification-agent.png){width="800" zoomable="yes"}
+![&#x200B; Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](./assets/acc-qualification-agent.png){width="800" zoomable="yes"}
 
 * **Recherche de prospects**
 
@@ -595,7 +602,7 @@ L’**URL de l’instance** doit être l’URL de base de l’environnement util
 
 1. Pour le qualificateur de vente, utilisez le formulaire canonique : `https://{{mydomain}}.my.salesforce.com` .
 
-   N’utilisez **** une URL `lightning.force.com` comme URL d’instance.
+   N’utilisez **&#x200B;**&#x200B;une URL `lightning.force.com` comme URL d’instance.
 
 **Microsoft Dynamics 365**
 
@@ -646,7 +653,7 @@ ORDER BY LastModifiedDate DESC
 
 Le _[!UICONTROL Centre de connaissances]_ donne à AQA accès aux documents clients et aux connaissances connexes afin que Sales Qualifier puisse générer de meilleures informations en matière de recherche et de qualification à l’aide de vos propres documents. Chargez le contenu et les ressources d’information que vous souhaitez utiliser pour générer des e-mails.
 
-![ Intégrations - Centre de connaissances ](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
+![&#x200B; Intégrations - Centre de connaissances &#x200B;](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
 
 ## Paramètres de profil
 
