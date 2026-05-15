@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
-source-wordcount: 4757
+source-wordcount: 4594
 ht-degree: 1%
 
 ---
@@ -42,24 +42,6 @@ Le qualificateur de vente est inclus dans [!UICONTROL Journey Optimizer B2B edit
 
 Le Account Qualification Agent (AQA) est au cœur du qualificateur de vente. L’AQA utilise l’IA pour lire vos comptes et déterminer lesquels sont prêts pour l’étape suivante. Il facilite la recherche, la rédaction d’e-mails et le contexte orienté CRM lorsque votre organisation a connecté le CRM (lecture seule).
 
-![&#x200B; Tableau de bord Account Qualification Agent optimisé par l’IA pour les prospects et les recherches de compte](./assets/acc-qualification-agent.png){width="800" zoomable="yes"}
-
-* **Recherche de prospects**
-
-  Effectuez des recherches de prospects en utilisant la récupération et l&#39;affichage automatiques des informations clés sur les prospects (telles que la fonction, les engagements récents, l&#39;appartenance à un groupe d&#39;achat) pour fournir une image complète en quelques secondes.
-
-* **Étude de compte**
-
-  Effectuez des recherches sur les comptes à l’aide de la récupération et de l’affichage automatiques d’informations détaillées sur l’organisation d’un prospect. Ces informations comprennent les informations vitales de l’entreprise, les actualités récentes, les priorités stratégiques et les membres les plus engagés.
-
-* **Brouillons d’e-mails**
-
-  Générez des brouillons d’e-mails en synthétisant les recherches des prospects et des informations de compte afin de produire du contenu d’e-mail unique pertinent et personnalisé en fonction de l’objectif BDR.
-
-* **E-mails relatifs au plan d’engagement**
-
-  Créez des brouillons d’e-mails de plan d’engagement personnalisés pour chaque étape d’une cadence de sensibilisation définie par BDR, en veillant à ce que la séquence entière soit personnalisée.
-
 <!--
 ## Edit the left navigation bar
 
@@ -72,17 +54,15 @@ Les agents Adobe AI utilisent _requêtes en langage naturel_, ce qui signifie qu
 
 En utilisant le langage naturel, vous pouvez demander à l’agent de :
 
-* `Show me my assigned leads with no engagement yet`
-* `Show me all my leads that are not part of any autonomous engagement`
-* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
+* `Tell me the latest financial results of Bodea`
+* `Tell me more about hiring at TechNova`
+* `Tell me about the new AI features in Bodea LumaSecure4`
 
-Vous pouvez immédiatement comprendre quels comptes et leads sont les plus actifs et montrer la plus haute intention, afin que vous puissiez concentrer votre énergie là où elle a le plus d&#39;impact.
+Itérez vos workflows sortants en affinant vos invites pour obtenir les résultats dont vous avez besoin. Par exemple :
 
-Effectuez une itération sur votre parcours en affinant vos invites pour obtenir les résultats dont vous avez besoin. Par exemple :
+* _Rédiger un e-mail de relance à partir du contexte, comme des appels de rémunération ou des rapports._ Jusqu’à 120 mots. Objet : Captivant, intégrant un thème clé. Introduction : crochet avec citation directe de sources de contexte. Corps : permet de se connecter aux points faibles et aux propositions de valeur. CTA : proposez un bref appel pour en savoir plus._
 
-* _Rédiger un e-mail de relance à partir du contexte, comme des appels de rémunération ou des rapports. Jusqu’à 120 mots. Objet : Captivant, intégrant un thème clé. Introduction : crochet avec citation directe de sources de contexte. Corps : permet de se connecter aux points faibles et aux propositions de valeur. CTA : proposez un bref appel pour en savoir plus._
-
-* _L’objectif de cet e-mail est de commencer une conversation et de créer de la crédibilité. Rédigez un e-mail de 120 mots, au ton consultatif et empathique. Veillez à éviter une approche trop familière ou commerciale et à ne pas utiliser les expressions « j&#39;espère que vous allez bien », « je vous demande simplement de vous enregistrer » ou « s&#39;il vous plaît »_.
+* _L’objectif de cet e-mail est de commencer une conversation et de créer de la crédibilité._ Rédigez un e-mail de 120 mots, au ton consultatif et empathique. Veillez à éviter une approche trop familière ou commerciale et à ne pas utiliser les expressions « j&#39;espère que vous allez bien », « je vous demande simplement de vous enregistrer » ou « s&#39;il vous plaît ».
 
 ### Accès aux produits et groupes d’utilisateurs
 
@@ -114,21 +94,6 @@ Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche p
 ![Tableau des prospects affichant le statut du prospect et la dernière activité pour la gestion des prospects](./assets/prospects.png){width="800" zoomable="yes"}
 
 Cliquez sur l’icône _Filtrer_ ![Icône Filtrer](../../assets/do-not-localize/icon_filter-outline.svg) pour filtrer la liste affichée par statut de prospect.
-
-<!--
-## Engagement plans
-
-This window provides details about any defined Engagement plans.
-
-![Engagement plan dashboard showing plan details, selected leads, and schedule settings](assets/engagement-plans.png)
-
-To make a new Engagement plan, click **[!UICONTROL Create engagement plan]**.
-
-1. In the _Details_ stage, provide a name and optional description. Click **[!UICONTROL Save and Continue]**.
-1. In the _Select prospects_ stage, select the leads that should belong in this plan.
-1. In the _Define cadence_ stage, set the parameters for the plan.
-1. In the _Preview_ stage, ensure that everything is working as expected.
--->
 
 ## Workflows sortants
 
@@ -167,7 +132,7 @@ Les sections suivantes décrivent l’ensemble du cycle de vie : création d’u
 
 ### Création d’un workflow sortant
 
-La création de workflow est un assistant en cinq étapes : **Objectif**, **Ciblage**, **Générer des points de contact**, **Paramètres** et **Ajouter des prospects**. Chaque étape s’appuie sur la dernière, avec l’objectif que vous définissez en premier lieu pour façonner chaque décision ultérieure.
+La création de workflow est un assistant en cinq étapes : **Objectif**, **Ciblage**, **Générer des points de contact**, **Paramètres** et **Ajouter des prospects**. Chaque étape s’appuie sur la dernière ; votre objectif initial façonne chaque décision ultérieure.
 
 1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Workflow sortant]**.
 
@@ -209,7 +174,7 @@ Une fois le ciblage défini, l’IA crée la **_cadence_** : elle analyse votre 
 
 ![Cadence et invites de point de contact générées par le workflow sortant](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Développez un point de contact d’e-mail pour lire son invite, qui est l’instruction que l’IA suit lors de l’écriture de l’e-mail réel de chaque prospect (ton, longueur, focus et call to action).
+Développez un point de contact d’e-mail pour lire son invite. Ces instructions guident l’IA lors de l’écriture de l’e-mail de chaque prospect, y compris le ton, la longueur, le focus et le call to action.
 
 **Régénérer le rythme**
 
@@ -313,7 +278,7 @@ La validation active le rythme d’un prospect. Tant qu’un prospect n’est pa
 
 ![Workflow sortant : sélectionner et approuver les prospects](./assets/outbound-workflow-create-approve-enroll-prospects.png){width="700" zoomable="yes"}
 
-File d’attente des e-mails approuvés à envoyer pendant le workflow **fenêtre d’envoi**, dans le **fuseau horaire** configuré, le jour prévu de chaque point de contact par rapport à l’inscription. Les prospects que vous n’approuvez pas restent dans l’état **[!UICONTROL Prêt pour la révision]** jusqu’à ce que vous agissiez. Après approbation, le workflow s’exécute selon la cadence que vous avez définie.
+Les e-mails approuvés sont envoyés pendant le workflow **fenêtre d’envoi** dans le **fuseau horaire** configuré, le jour prévu de chaque point de contact par rapport à l’inscription. Les prospects que vous n’approuvez pas restent dans l’état **[!UICONTROL Prêt pour la révision]** jusqu’à ce que vous agissiez. Après approbation, le workflow s’exécute selon la cadence que vous avez définie.
 
 ### Gestion des workflows existants
 
@@ -322,10 +287,10 @@ Sur la page _[!UICONTROL Workflow sortant]_, l’onglet **[!UICONTROL Parcourir]
 ### Bonnes pratiques relatives au workflow sortant
 
 * **Investissez dans l’objectif.** Le ciblage en aval, la cadence et les e-mails remontent tous jusqu’à l’objectif. Les objectifs spécifiques axés sur les résultats surpassent les objectifs vagues.
-* **Finalisez les invites de point de contact avant la génération par prospect.** Après la génération en bloc, les modifications sont généralement apportées un prospect à la fois.
+* **Finalisez les invites de point de contact avant la génération par prospect.**&#x200B;** Après la génération en masse, les modifications sont généralement apportées un prospect à la fois.
 * **Utiliser le raisonnement comme contrôle de qualité.** Si le mauvais signal est souligné (ou si un signal évident est manquant), modifiez l’e-mail ou revenez à l’invite du point de contact et régénérez la cadence.
-* **Faire correspondre l’outil d’édition à la modification.** Modifications directes du libellé et du ton ; **[!UICONTROL Générer avec l’IA]** pour restructurer ou recadrer.
-* **Approuver uniquement ce que vous avez révisé.** Développez les points de contact, lisez le contenu et affinez-les si nécessaire avant l’inscription.
+* **Faire correspondre l’outil d’édition au changement.**&#x200B;**&#x200B; Modifier directement le libellé et le ton ; &#x200B;** [!UICONTROL Générer à l’aide de l’IA]** pour restructurer ou recadrer.
+* **Approuvez uniquement ce que vous avez révisé.**&#x200B;** Développez les points de contact, lisez le contenu et affinez-les si nécessaire avant l’inscription.
 
 ## Boîte d’envoi d’e-mail
 
@@ -348,7 +313,7 @@ You can interact with clients, and see summaries for the contact and the thread 
 
 ## Tâches
 
-La zone _Tâches_ dans le qualificateur de vente offre aux représentants du développement commercial (BDR) un espace dédié pour gérer et traiter leurs actions de workflow sortant. Les tâches sont générées automatiquement par le moteur de workflow sortant et représentent les actions spécifiques qu’un BDR doit effectuer avec chaque prospect (appels téléphoniques, LinkedInMails et révisions d’e-mail).
+La zone _Tâches_ dans le qualificateur de vente offre aux représentants du développement commercial (BDR) un espace dédié pour gérer et traiter leurs actions de workflow sortant. Le moteur de workflow sortant génère automatiquement des tâches qui représentent les actions spécifiques qu’un BDR doit effectuer avec chaque prospect (appels téléphoniques, LinkedInMails et révisions des e-mails).
 
 L’expérience de gestion des tâches est conçue comme une **file d’attente de traitement**, pas seulement une liste de tâches. Vous pouvez ouvrir une tâche, effectuer une action, la marquer comme terminée et passer à la suivante, le tout sans quitter la page.
 
@@ -368,7 +333,7 @@ Toutes les tâches sont liées aux étapes de workflow sortant. Il en existe tro
 
 **LinkedInMail** — Créé lorsqu’une séquence atteint une étape LinkedInMail. Le panneau des tâches affiche le contenu InMail suggéré que vous pouvez copier et envoyer en dehors du produit.
 
-**Révision d&#39;email** — Créé une fois que le système a fini de générer des emails personnalisés pour un prospect inscrit dans un workflow. Vous examinez et approuvez les e-mails avant le début de l’envoi pour ce prospect. Chaque prospect reçoit une tâche de révision d’e-mail distincte. Si vous inscrivez 10 prospects dans un workflow, vous verrez jusqu’à 10 tâches de révision d’e-mail au fur et à mesure de la génération.
+**Révision d&#39;email** — Créé une fois que le système a fini de générer des emails personnalisés pour un prospect inscrit dans un workflow. Vous examinez et approuvez les e-mails avant le début de l’envoi pour ce prospect. Chaque prospect reçoit une tâche de révision d’e-mail distincte. Si vous inscrivez 10 prospects à un workflow, vous voyez jusqu’à 10 tâches de révision d’e-mail à mesure que la génération est terminée.
 
 ### Gestion des tâches
 
@@ -393,13 +358,11 @@ Pour les tâches Appel téléphonique et LinkedInMail , un champ de notes intég
 
 Utilisez les actions suivantes pour gérer vos tâches :
 
-* **[!UICONTROL Marquer comme terminé]** - Action principale. Utilisez cette option après avoir exécuté la tâche : passé l’appel, envoyé l’InMail ou révisé et approuvé les e-mails. Une fois la tâche terminée, elle est enregistrée comme **Terminée** et la file d’attente avance automatiquement.
+* **[!UICONTROL Marquer comme terminé]** - Action principale. Utilisez cette action une fois la tâche exécutée : avez passé l’appel, envoyé l’InMail ou révisé et approuvé les e-mails. Une fois la tâche terminée, elle est enregistrée comme **Terminée** et la file d’attente avance automatiquement.
 
-* **[!UICONTROL Ignorer le point de contact]** - Disponible dans le menu de débordement du panneau de travail. Utilisez cette option lorsque vous ne pouvez pas terminer cette étape spécifique, mais que le prospect est toujours une cible valide et doit rester dans le workflow.
-
-  Lorsque vous ignorez un point de contact :
+* **[!UICONTROL Ignorer le point de contact]** - Disponible dans le menu de débordement du panneau de travail. Utilisez cette option lorsque vous ne pouvez pas terminer cette étape, mais que le prospect reste une cible valide dans le workflow.
    * Le prospect passe à l’étape suivante de la séquence. Les futures tâches sont toujours générées dans les délais.
-   * Vous devez sélectionner une raison : *Mauvaises informations de contact*, *Mauvais timing*, *Contenu non pertinent* ou *Autre* (avec un champ de texte libre).
+   * Sélectionnez une raison : *Informations de contact incorrectes*, *Mauvais timing*, *Contenu non pertinent* ou *Autre* (avec un champ de texte libre).
    * Le statut de la tâche est défini sur **Ignorée** et consignée avec la raison et l’horodatage.
    * S’il s’agissait de la dernière étape du workflow, l’exécution du workflow du prospect se termine. La tâche est toujours consignée comme Ignorée (non supprimée).
 
@@ -408,13 +371,13 @@ Utilisez les actions suivantes pour gérer vos tâches :
   Lorsque vous supprimez un prospect d&#39;un workflow :
    * Toutes les tâches en attente et futures pour ce prospect dans ce workflow sont annulées.
    * Le statut d&#39;inscription du prospect passe à **Supprimé par BDR**.
-   * Vous devez sélectionner un motif : *Société de gauche*, *Dupliquer*, *Mauvaise coupe*, *Déjà converti* ou *Autre* (avec un champ de texte).
-   * Une boîte de dialogue de confirmation s’affiche : *« Cette opération annule tous les points de contact restants pour [Prospect] dans [Nom du workflow]. Continuer ?«*
+   * Sélectionnez un motif : *Société de gauche*, *Dupliquer*, *Mauvaise coupe*, *Déjà converti* ou *Autre* (avec un champ de texte).
+   * Une boîte de dialogue de confirmation s’affiche : *« Cette action annule tous les points de contact restants pour [Prospect] dans [Nom du workflow]. Continuer ?«*
    * Le statut de la tâche est défini sur **Supprimé**. Toutes les tâches frères annulées sont également marquées **Supprimées**.
 
 >[!NOTE]
 >
->Ignorer et supprimer les flux de données de motif dans Analytics : taux d’omission par canal, taux de suppression par workflow et principales raisons. Cela permet d’améliorer la qualité des workflows et d’éclairer l’analyse des performances au fil du temps.
+>Les données de motif Ignorer et Supprimer informent les analyses, y compris le taux d’omission par canal, le taux de suppression par workflow et les principales raisons. Cela permet d’améliorer la qualité des workflows et d’éclairer l’analyse des performances au fil du temps.
 
 ### Statut de la tâche
 
@@ -437,9 +400,9 @@ Utilisez les onglets situés en haut de la liste des tâches pour basculer entre
 
 * **Aujourd&#39;hui** *(par défaut)* — Tâches dues aujourd&#39;hui qui ne sont pas terminées.
 
-* **En retard** — Tâches dont l&#39;échéance est dépassée et qui sont toujours en cours. Traitez-les en premier.
+* **En retard** — Tâches dont l&#39;échéance est dépassée et qui sont toujours en cours. Commencez par vous occuper de ces tâches.
 
-* **À venir** — Tâches à échéance future où l&#39;étape précédente du workflow est déjà terminée. Ils sont visibles de manière précoce, ce qui vous permet de planifier ou d&#39;agir plus tôt si le moment est propice (par exemple, si vous êtes déjà contacté par un prospect). La date d’échéance prévue s’affiche afin que vous connaissiez la planification.
+* **À venir** — Tâches à échéance future où l&#39;étape précédente du workflow est déjà terminée. Ces tâches sont visibles de manière anticipée, ce qui vous permet de planifier ou d&#39;agir plus tôt si le moment est propice (par exemple, si vous êtes déjà contacté par un prospect). La date d’échéance prévue s’affiche afin que vous connaissiez la planification.
 
 * **Terminé** — Enregistrement des tâches que vous avez terminées, ignorées ou supprimées. Utile à des fins de révision et d’audit.
 
@@ -477,7 +440,7 @@ Une tâche devient en retard le jour suivant sa date d&#39;échéance si elle n&
 
 ### Tâches à venir
 
-Les tâches à venir sont créées au moment où un prospect termine une étape de workflow, même si la date d’échéance de l’étape suivante se situe toujours dans le futur. Vous obtenez ainsi une visibilité précoce sur votre pipeline afin de pouvoir planifier ou agir rapidement lorsque l’opportunité se présente.
+Les tâches à venir sont créées au moment où un prospect termine une étape de workflow, même si la date d’échéance de l’étape suivante se situe toujours dans le futur. Cette visibilité vous permet d’intégrer rapidement insight à votre pipeline afin de planifier ou d’agir rapidement lorsque l’opportunité se présente.
 
 Les tâches à venir affichent leur date d&#39;échéance prévue, de sorte que vous sachiez toujours quand elles sont censées être traitées. Le moteur de workflow enregistre la date d&#39;achèvement effective et avance normalement le prospect afin de permettre l&#39;exécution anticipée d&#39;une tâche à venir.
 
@@ -500,7 +463,7 @@ Grâce aux intégrations, le qualificateur de vente peut utiliser votre CRM afin
 
 >[!IMPORTANT]
 >
->L’accès aux intégrations dans le qualificateur de vente nécessite l’appartenance au groupe d’utilisateurs `Sales Qualifier Admins`.
+>Pour accéder aux intégrations dans le qualificateur de vente, vous devez être membre du groupe d’utilisateurs `Sales Qualifier Admins`.
 
 ### Étendue de l’accès CRM
 
@@ -522,7 +485,7 @@ Contactez votre administrateur CRM avant de connecter le qualificateur de vente.
 
 1. Attribuez un rôle de sécurité qui accorde un accès **lecture** aux entités dont le qualificateur des ventes a besoin (par exemple, prospects, contacts, comptes, opportunités et activités).
 
-   Sans rôle, l’application ne peut pas lire les données.
+   L’application nécessite un rôle de sécurité avec un accès en lecture aux données de lecture.
 
 **Informations à fournir lors de la connexion de Dynamics :**
 
@@ -533,7 +496,7 @@ Contactez votre administrateur CRM avant de connecter le qualificateur de vente.
 
 #### Salesforce
 
-Dans Salesforce, [créez une application client externe](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm) (ou une _application connectée_) avec OAuth activé et des portées qui permettent à l’API d’accéder à l’identité et aux données, en respectant les normes de sécurité de votre organisation. L’utilisateur à l’origine de l’intégration (par exemple, lors de l’utilisation d’une configuration de style d’informations d’identification client) doit disposer d’un accès en lecture aux objets tels que les prospects, les comptes, les contacts, les tâches, les événements, les opportunités et les objets d’opportunité associés. Les tâches administratives nécessitent souvent qu’un utilisateur disposant de l’autorisation **[!UICONTROL Gérer les applications connectées]** (entre autres autorisations) affiche une clé de client et un secret après sa création.
+Dans Salesforce, [créez une application client externe](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) (ou une _application connectée_) avec OAuth activé et des portées qui permettent à l’API d’accéder à l’identité et aux données, en respectant les normes de sécurité de votre organisation. L’utilisateur à l’origine de l’intégration (par exemple, lors de l’utilisation d’une configuration de style d’informations d’identification client) doit disposer d’un accès en lecture aux objets tels que les prospects, les comptes, les contacts, les tâches, les événements, les opportunités et les objets d’opportunité associés. Les tâches administratives nécessitent souvent qu’un utilisateur disposant de l’autorisation **[!UICONTROL Gérer les applications connectées]** (entre autres autorisations) affiche une clé de client et un secret après sa création.
 
 >[!PREREQUISITES]
 >
@@ -686,7 +649,7 @@ Définissez votre fuseau horaire et votre disponibilité dans l’onglet **[!UIC
 Si vous déconnectez votre calendrier :
 
 * Les liens de réservation actifs sont désactivés.
-* La page de réservation indique un état convivial temporairement indisponible.
+* La page de réservation affiche un état convivial, temporairement indisponible.
 * La reconnexion conserve les paramètres.
 
 ### Disponibilité du calendrier
