@@ -18,7 +18,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 755
-ht-degree: 9%
+ht-degree: 16%
 
 ---
 
@@ -60,7 +60,7 @@ L’évaluation et la notation du contenu vous permettent de créer, de réviser
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Score d’alignement de la marque"
->abstract="Le score d’alignement de votre marque mesure dans quelle mesure votre contenu respecte les directives de la marque afin d’assurer la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
+>abstract="Le score d’alignement de votre marque mesure la concordance de votre contenu avec vos directives de marque pour assurer la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"

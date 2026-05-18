@@ -19,7 +19,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 1491
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -61,7 +61,7 @@ Avant d&#39;envoyer votre message WhatsApp, vous devez configurer votre environn
 Effectuez les tâches suivantes :
 
 1. [Créer les identifiants de l&#39;API WhatsApp](#create-whatsapp-api-credentials)
-1. [Ajouter les Webhooks WhatsApp](#configure-webhooks)
+1. [Ajouter les webhooks WhatsApp](#configure-webhooks)
 1. [Créer la configuration du canal WhatsApp](#create-channel-configuration)
 
 ### Créer des informations d’identification d’API WhatsApp
@@ -133,17 +133,17 @@ do we have advanced logs? How are they enabled?
 
 +++
 
-### Ajouter les Webhooks WhatsApp {#configure-webhooks}
+### Ajouter les webhooks WhatsApp {#configure-webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Catégorie de mots-clés entrants"
->abstract="<b>Opt-in</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice s’abonne. <br/><b>Opt-out</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice se désabonne. <br/><b>Aide</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice demande de l’aide ou de l’assistance. <br/><b>Par défaut</b> : envoie votre réponse automatique de secours lorsqu’aucun mot-clé ne correspond."
+>abstract="<b>Opt-in</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice s’abonne. <br/><b>Opt-out</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice se désabonne. <br/><b>Aide</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice demande de l’aide ou de l’assistance. <br/><b>Par défaut</b> : envoie votre réponse automatique de secours lorsqu’aucun mot-clé ne correspond."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="Saisir vos mots-clés"
->abstract="Vous pouvez définir des mots-clés pour déclencher des réponses automatiques spécifiques en fonction du texte des utilisateurs et utilisatrices. Les mots-clés ne sont pas sensibles à la casse (les arrêts et les arrêts sont traités de la même manière)."
+>abstract="Vous pouvez définir des mots-clés pour déclencher des réponses automatiques spécifiques en fonction du texte des utilisateurs et utilisatrices. Les mots-clés ne sont pas sensibles à la casse (arrêter et ARRÊTER sont traités de la même manière)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"

@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJ
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1606
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Basculer vers le mode sombre"
->abstract="Basculez vers le mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés spécifiques. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés spécifiques. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Sachez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
@@ -135,7 +135,7 @@ Lorsque vous mettez en forme le contenu de votre e-mail pour le mode sombre en [
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Utiliser une image spécifique pour le mode sombre"
->abstract="Vous pouvez sélectionner une autre image à afficher lorsque le mode sombre est activé. <br>L’ajout d’une image spécifique pour le mode sombre ne garantit pas qu’elle s’affiche correctement dans tous les clients de messagerie. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Vous pouvez sélectionner une autre image qui s’affichera lorsque le mode sombre sera activé. <br>L’ajout d’une image spécifique pour le mode sombre ne garantit pas qu’elle s’affichera correctement dans tous les clients de messagerie. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
 
 Après le passage en mode sombre, vous pouvez choisir de modifier des éléments de style spécifiques de votre contenu qui s’affichent uniquement lorsque le mode sombre est activé dans le client de messagerie du destinataire (à condition qu’il prenne en charge cette fonctionnalité).
 
