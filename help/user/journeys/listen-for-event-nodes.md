@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
 workflow-type: tm+mt
 source-wordcount: 1844
 ht-degree: 12%
@@ -149,7 +149,7 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
 
-1. Un administrateur [sélectionne les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#select-an-event) pour les rendre disponibles dans les parcours.
+1. Un administrateur [ajoute les types d’événements et les champs ciblés](../admin/configure-aep-events.md#add-an-event) pour les rendre disponibles dans les parcours.
 
 2. Dans un parcours, ajoutez un nœud _Écouter un événement_ et sélectionnez un type d’événement Experience Platform pour un événement basé sur des personnes.
 

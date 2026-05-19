@@ -20,9 +20,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: 1522
 ht-degree: 13%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 13%
 Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
+
+>[!PREREQUISITES]
+>
+>L’utilisation des événements d’expérience et des champs dans Journey Optimizer B2B edition nécessite des schémas d’événement d’expérience activés pour le profil. Pour plus d’informations, consultez [Activer les profils clients en temps réel](https://experienceleague.adobe.com/fr/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} dans les tutoriels d’Experience Platform.
+
 L’utilisation des événements d’expérience AEP dans parcours est un processus en deux étapes :
 
 1. Un administrateur [ajoute des événements et des champs d’expérience AEP](#add-an-event) dans les configurations Journey Optimizer B2B edition.
