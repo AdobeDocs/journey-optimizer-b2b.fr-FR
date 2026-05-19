@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: cba977f62f3d2a83bcf2487a8ec612b76a655954
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 412
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Journey Optimizer B2B edition évalue l’attribut XDM suivant pour le consentem
 
 Tenez compte des points suivants pour le consentement par e-mail :
 
-* Les personnes qui se sont désinscrites des e-mails peuvent toujours recevoir des e-mails marqués comme opérationnels.
+* Les personnes qui se sont désinscrites des e-mails peuvent recevoir des e-mails marqués comme opérationnels.
 * Les préférences au niveau de l’abonnement ne sont pas prises en charge.
 
 ## SMS {#sms}
