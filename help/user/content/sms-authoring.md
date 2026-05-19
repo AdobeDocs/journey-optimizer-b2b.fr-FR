@@ -17,9 +17,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 1328
+source-wordcount: 1343
 ht-degree: 4%
 
 ---
@@ -56,7 +56,7 @@ Vous pouvez configurer des diffusions de messages texte dans un parcours de comp
 >
 >**Gestion du consentement des SMS**<br/>
 >
->Conformément aux normes et réglementations du secteur, tous les SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. Tous les mots-clés standard d’opt-in et d’opt-out sont pris en charge et respectés. En outre, tous les mots-clés personnalisés configurés pour votre compte de fournisseur de services SMS sont pris en charge et respectés.
+>Conformément aux normes et réglementations du secteur, tous les SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. Tous les mots-clés standard d’opt-in et d’opt-out sont pris en charge et respectés. En outre, tous les mots-clés personnalisés configurés pour votre compte de fournisseur de services SMS sont pris en charge et respectés. Pour plus d’informations sur l’évaluation des préférences de consentement des SMS au moment de la diffusion, voir [Préférences de consentement](./channels-consent-preferences.md).
 
 Saisissez le texte à envoyer dans le champ **[!UICONTROL Message]**.
 
