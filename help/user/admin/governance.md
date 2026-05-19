@@ -4,21 +4,15 @@ description: Découvrez les fonctionnalités de gouvernance actuellement disponi
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: 418
 ht-degree: 3%
 
 ---
@@ -37,19 +31,21 @@ Avec Journey Optimizer B2B edition et l’accès au Adobe Admin Console, les adm
 
 ## Chiffrement des données
 
-**_Chiffrement des données au repos_** - Toutes les données de comptes et de profils de personnes transférées de Adobe Experience Platform vers Journey Optimizer B2B edition sont chiffrées afin de garantir la conformité existante d’Experience Platform. Toutes les entités provenant de Journey Optimizer B2B edition, telles que les parcours et les groupes d’achats, sont également chiffrées.
+**_Chiffrement des données au repos_** - Toutes les données de profil de compte et de personne transférées de Adobe Experience Platform vers Journey Optimizer B2B edition sont chiffrées afin de garantir la conformité existante d’Experience Platform. Toutes les entités provenant de Journey Optimizer B2B edition, telles que les parcours et les groupes d’achats, sont également chiffrées.
 
 **_Chiffrement des données en transit_** (sur un réseau public) : toutes les API et entités Journey Optimizer B2B edition sont chiffrées en transit à l’aide de TLS 1.2.
 
 ## Souscription au consentement/désinscription
 
-L’opt-in/opt-out du consentement est une forme de gouvernance où un profil peut se désinscrire d’un canal de communication, tel que les e-mails ou les SMS, et un profil est ensuite exclu du canal de communication.
+Journey Optimizer B2B edition lit les préférences de consentement par personne stockées dans les profils XDM Adobe Experience Platform et les applique au moment de la diffusion des messages pour les canaux e-mail, SMS et WhatsApp. Les personnes qui se sont exclues d’un canal sont exclues de la diffusion avant l’envoi du contenu depuis le canal ou le fournisseur de messagerie en aval.
 
-Avec Journey Optimizer B2B edition, vous pouvez créer et gérer des cas d’utilisation d’abonnement/de désabonnement pour vos cas d’utilisation de diffusion par e-mail et SMS. Ces préférences de consentement sont stockées dans le groupe de champs de consentement du profil XDM. Elles sont synchronisées dans et hors de Journey Optimizer B2B edition dans le cadre du framework de synchronisation des données. Ces préférences sont utilisées au moment de la diffusion pour exclure les profils exclus des diffusions.
+Le consentement est évalué au moment de la diffusion à l’aide des champs XDM du groupe de champs de consentement du profil. Le comportement de consentement par défaut diffère selon le canal : l’e-mail est activé par défaut lorsqu’aucune préférence n’est définie, tandis que les SMS et WhatsApp sont désactivés par défaut.
+
+Pour plus d’informations sur les attributs XDM évalués pour chaque canal et leurs comportements par défaut, voir [Préférences de consentement](../content/channels-consent-preferences.md).
 
 ## Réinitialisation du sandbox
 
-La réinitialisation du sandbox n’est **actuellement pas prise en charge** pour Adobe Journey Optimizer B2B edition. La réinitialisation ou la suppression d’un sandbox mappé à Journey Optimizer B2B edition peut entraîner une perte permanente de données dans Journey Optimizer B2B edition et peut nécessiter la mise en service d’une nouvelle instance Journey Optimizer B2B edition.
+La réinitialisation du sandbox n’est **actuellement pas prise en charge** pour Adobe Journey Optimizer B2B edition. La réinitialisation ou la suppression d’un sandbox mappé à Journey Optimizer B2B edition peut entraîner une perte de données permanente et nécessiter la mise en service d’une nouvelle instance.
 
 ## Pas encore disponible
 

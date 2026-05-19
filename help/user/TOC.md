@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 8be440c86b32a582891f0f30cae259e23028d336
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 93%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 93%
    + [Parcours compte et personne](./journeys/journeys-overview.md)
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [rentrée de parcours](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+   + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
       + [Audience de compte](./journeys/account-audience-nodes.md)
       + [Audience de la personne (Beta)](./journeys/person-audience-nodes.md)
@@ -69,6 +69,7 @@ ht-degree: 93%
       + [Conception d’expériences web](./content/web-experience-design.md)
       + [Applications monopages](./content/web-single-page-applications.md)
    + [Jetons de personnalisation sur mesure](./content/personalization-my-tokens.md)
+   + [Préférences de consentement](./content/channels-consent-preferences.md)
 + Audiences {#audiences}
    + [Audiences Experience Platform](./audiences/account-audience-overview.md)
    + [Cibler des audiences externes](./audiences/target-external-audience.md)
