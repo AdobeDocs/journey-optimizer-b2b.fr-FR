@@ -4,17 +4,12 @@ description: Créez des messages WhatsApp pour les parcours de compte à l’aid
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 20%
@@ -26,6 +21,7 @@ ht-degree: 20%
 Utilisez Adobe Journey Optimizer B2B edition pour envoyer des messages WhatsApp aux membres du compte sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages en utilisant des modèles de messages Meta approuvés à partir de l&#39;éditeur WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 Avant de créer des messages WhatsApp pour les parcours de compte, assurez-vous que le canal [WhatsApp](../admin/configure-channels-whatsapp.md) nécessaire est configuré dans les paramètres _[!UICONTROL Administrateur]_.
+
 
 >[!NOTE]
 >
@@ -58,6 +54,10 @@ Les options call-to-action suivantes sont disponibles pour vos messages WhatsApp
 
 ## Ajouter une action WhatsApp dans un parcours de compte
 
+>[!IMPORTANT]
+>
+>**Gestion du consentement de WhatsApp** : conformément aux politiques de Meta et aux réglementations applicables, tous les messages marketing de WhatsApp doivent être envoyés uniquement aux destinataires ayant accepté de recevoir des communications. Les destinataires de WhatsApp peuvent se désinscrire à tout moment en répondant avec un mot-clé de désinscription. Les réponses d’opt-out sont automatiquement honorées et les profils correspondants sont supprimés des audiences de messages marketing futures. Pour plus d&#39;informations sur la façon dont les préférences de consentement WhatsApp sont évaluées au moment de la diffusion, voir [Préférences de consentement](./channels-consent-preferences.md).
+
 Vous pouvez configurer des diffusions de messages WhatsApp dans un parcours de compte lorsque vous [ajoutez un nœud _[!UICONTROL Agir]_](../journeys/action-nodes.md) et que vous effectuez les opérations suivantes :
 
 1. Pour la cible _[!UICONTROL Action sur]_, choisissez **[!UICONTROL Personnes]**.
@@ -89,10 +89,6 @@ Vous pouvez configurer des diffusions de messages WhatsApp dans un parcours de c
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour passer aux paramètres et au texte du message.
 
 ### Sélectionner un modèle de message
-
->[!IMPORTANT]
->
->**Gestion du consentement de WhatsApp** : conformément aux politiques de Meta et aux réglementations applicables, tous les messages marketing de WhatsApp doivent être envoyés uniquement aux destinataires ayant accepté de recevoir des communications. Les destinataires de WhatsApp peuvent se désinscrire à tout moment en répondant avec un mot-clé de désinscription. Les réponses d’opt-out sont automatiquement honorées et les profils correspondants sont supprimés des audiences de messages marketing futures. Pour plus d&#39;informations sur la façon dont les préférences de consentement WhatsApp sont évaluées au moment de la diffusion, voir [Préférences de consentement](./channels-consent-preferences.md).
 
 Les messages WhatsApp sont envoyés à l&#39;aide de modèles de messages préapprouvés depuis votre compte professionnel Meta WhatsApp. **Les modèles doivent être examinés et approuvés par Meta** avant de pouvoir les utiliser dans Journey Optimizer B2B edition. Demandez à l’administrateur de votre compte [!DNL Meta Business Manager] de gérer et d’envoyer des modèles à approuver.
 
