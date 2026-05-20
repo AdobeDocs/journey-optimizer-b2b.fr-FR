@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 419
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Avec Journey Optimizer B2B edition et l’accès au Adobe Admin Console, les adm
 
 ## Souscription au consentement/désinscription
 
-Journey Optimizer B2B edition lit les préférences de consentement par personne stockées dans les profils XDM Adobe Experience Platform et les applique au moment de la diffusion des messages pour les canaux e-mail, SMS et WhatsApp. Les personnes qui se sont exclues d’un canal sont exclues de la diffusion avant l’envoi du contenu depuis le canal ou le fournisseur de messagerie en aval.
+Journey Optimizer B2B edition lit les préférences de consentement par personne stockées dans les profils XDM Adobe Experience Platform et les applique au moment de la diffusion des messages pour les canaux e-mail, SMS et WhatsApp. Une personne qui s’est désabonnée d’un canal est exclue de la diffusion avant que le contenu ne soit envoyé à partir du canal ou du fournisseur de messagerie en aval.
 
 Le consentement est évalué au moment de la diffusion à l’aide des champs XDM du groupe de champs de consentement du profil. Le comportement de consentement par défaut diffère selon le canal : l’e-mail est activé par défaut lorsqu’aucune préférence n’est définie, tandis que les SMS et WhatsApp sont désactivés par défaut.
 
