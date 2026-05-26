@@ -29,13 +29,13 @@ ht-degree: 13%
 
 # Sélectionner des événements d’expérience et des champs
 
-Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
+Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->L’utilisation des événements d’expérience et des champs dans Journey Optimizer B2B edition nécessite des schémas d’événement d’expérience activés pour le profil. Pour plus d’informations, consultez [Activer les profils clients en temps réel](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} dans les tutoriels d’Experience Platform.
+>L’utilisation des événements d’expérience et des champs dans Journey Optimizer B2B edition nécessite des schémas d’événement d’expérience activés pour le profil. Pour plus d’informations, consultez [Activer les profils clients en temps réel](https://experienceleague.adobe.com/fr/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} dans les tutoriels d’Experience Platform.
 
 L’utilisation des événements d’expérience AEP dans parcours est un processus en deux étapes :
 
