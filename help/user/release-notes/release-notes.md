@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 4582cce8bf46ca36c09c830a9a965da1d56b840a
+source-git-commit: 4cc24ff8a19aa1ec6888c7ef35c1a4c6ac93f344
 workflow-type: tm+mt
-source-wordcount: 5092
+source-wordcount: 5096
 ht-degree: 67%
 
 ---
@@ -45,7 +45,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Fonctionnalité | Filtre de liste des membres de compte | Utilisez l’appartenance à des listes de comptes comme point d’orchestration dans les parcours de compte. Les marketeurs peuvent créer des places sur la liste bloquée de comptes, des listes de priorités ou tout autre type de sous-ensemble de leur audience et fournir aux comptes des expériences uniques dans les parcours en fonction de leur appartenance. |
 | Fonctionnalité | Filtrage de l’historique des événements d’expérience | Cette fonctionnalité permet à l’orchestration des parcours B2B d’utiliser l’engagement historique pour orienter les décisions basées sur le comportement des membres de l’audience. |
 | Fonctionnalité | Prise de décision du chemin de partage du parcours | Vous pouvez optimiser la prise de décision de chemin partagé pour les parcours de compte et de personne, en affinant la manière dont les audiences sont acheminées entre les chemins avant l’activation du parcours ou au moment de l’exécution. |
-| Amélioration | Compétences Audience Agent | Les compétences Audience Agent sont mises à jour, y compris la création de modèles de groupe d’achats optimisés par l’IA. Utilisez le mappage d’intention et de personnage propriétaire pour générer des modèles de groupe d’achats, passer en revue les mappages rôle/personnage recommandés par l’IA et affiner les modèles avec le langage naturel avant de les publier. |
+| Amélioration | Compétences B2B Audience Agent | Les compétences B2B d’Audience Agent sont mises à jour, y compris la création de modèles de groupe d’achats optimisés par l’IA. Utilisez le mappage d’intention et de personnage propriétaire pour générer des modèles de groupe d’achats, passer en revue les mappages rôle/personnage recommandés par l’IA et affiner les modèles avec le langage naturel avant de les publier. [En savoir plus](../agents/audience-agent-b2b.md) |
 | Amélioration | Rapport Performances de l’engagement des e-mails | Le rapport Performance de l&#39;engagement des e-mails offre aux marketeurs une vue unifiée de l&#39;activité des e-mails sur tous les parcours dans Adobe Journey Optimizer B2B edition. |
 | Amélioration | Tableau de bord de présentation des Parcours de personne | Ce tableau de bord fournit une vue d’ensemble complète de vos parcours de personne actifs. |
 | Amélioration | Prise en charge des jeux de données relationnels d’AEP | De nouveaux jeux de données relationnels apparaissent désormais dans votre sandbox AEP, aux côtés des jeux de données existants. |
