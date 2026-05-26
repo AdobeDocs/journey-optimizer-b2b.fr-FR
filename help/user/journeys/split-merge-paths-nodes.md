@@ -1,31 +1,25 @@
 ---
 title: Fractionner et fusionner les chemins
-description: Créez des nœuds de chemin de division et de fusion pour segmenter les comptes et les personnes avec une logique conditionnelle, filtrer par groupes d’achats et recombiner les chemins dans Journey Optimizer B2B edition.
+description: Partagez et fusionnez les chemins de parcours pour segmenter les comptes ou les personnes par conditions, groupes d’achats et historique d’événements dans Journey Optimizer B2B edition.
 feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
 workflow-type: tm+mt
-source-wordcount: 2744
-ht-degree: 4%
+source-wordcount: 2550
+ht-degree: 3%
 
 ---
 
-# Fractionner et fusionner les chemins
+# Fractionner et fusionner les chemins {#split-paths}
 
 Utilisez les nœuds de chemin de division et de fusion pour segmenter les personnes ou les comptes en fonction des conditions que vous définissez. Créez des chemins d’accès pour l’audience ou la liste de comptes en fonction de conditions, définissez chaque chemin d’accès avec des nœuds d’action et d’événement pour le segment, puis combinez les chemins d’accès et poursuivez le parcours.
 
@@ -37,13 +31,13 @@ Un nœud _Chemins partagés_ définit un ou plusieurs chemins segmentés en fonc
 >
 >25 chemins au maximum sont pris en charge.
 
-## Fractionner les chemins par comptes
+## Fractionner les chemins par comptes {#split-paths-by-accounts}
 
-_(parcours de compte uniquement)_
+**_(parcours de compte uniquement)_**
 
 Les chemins de division par comptes peuvent inclure des actions et des événements de compte et de personnes. Ces chemins peuvent être divisés davantage.
 
-_&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200B;_
+_**Fonctionnement d’un chemin de division par nœud de comptes**_
 
 * Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
 * Les nœuds Fractionnés par compte peuvent être imbriqués (vous pouvez fractionner le chemin d’accès par comptes à plusieurs reprises).
@@ -53,18 +47,13 @@ _&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200
 
 ![Nœud de Parcours : fractionnez les chemins d’accès par compte](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-### Conditions de chemin du compte
+### Conditions de chemin du compte {#account-path-filters}
 
 | Conditions de chemin | Description |
 | --------------- | ----------- |
 | [!UICONTROL Attributs de compte] | Attributs du profil de compte, notamment : <li>Revenus annuels <li>Ville <li>Pays <li>Taille de la personne employée <li>Secteur <li>Nom <li>Code SIC <li>État |
-| [!UICONTROL Attributs de compte] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ne possède pas d&#39;enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering).) |
+| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ne possède pas d&#39;enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering).) |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Le compte correspond au groupe d&#39;achats] | Le compte est associé à un ou plusieurs groupes d&#39;achats. Il peut être évalué par rapport à une ou plusieurs des contraintes suivantes pour un groupe d&#39;achat apparié : <li>Intérêt de la solution <li>Étape du groupe d&#39;achat <li>Statut du groupe d&#39;achat <li>Évaluation de l’engagement <li>Score d&#39;exhaustivité <li> Nombre de personnes dans le rôle de groupe d’achat |
-| [!UICONTROL Filtres spéciaux] > [!UICONTROL A un groupe d&#39;achat] | Le compte a ou n&#39;a pas de membres de groupes d&#39;achat. Il peut également être évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution <li>Étape du groupe d&#39;achat <li>Statut du groupe d&#39;achat <li>Évaluation de l’engagement <li>Score d&#39;exhaustivité |
-
->[!NOTE]
->
->Le filtre _[!UICONTROL A un groupe d’achat]_ est marqué pour une obsolescence future. Pour les nouveaux parcours, utilisez le filtre _[!UICONTROL Le compte a apparié le groupe d’achats]_ qui inclut toutes les mêmes contraintes.
 
 ### Ajouter un chemin de division par nœud de compte
 
@@ -108,7 +97,7 @@ _&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200
 
 ### Filtrage des groupes d&#39;achats pour les comptes {#buying-group-filtering-accounts}
 
-Vous pouvez définir un chemin pour les comptes associés aux groupes d&#39;achats et filtrer le chemin à l&#39;aide des critères de groupe d&#39;achats. Utilisez le filtre **[!UICONTROL Le compte a un groupe d’achats apparié]** pour définir le segment de chemin d’accès à l’aide d’un groupe d’achats apparié. Ce filtre inclut également cette option pour identifier les comptes en fonction du nombre de rôles attribués au sein d&#39;un groupe d&#39;achats apparié.
+Vous pouvez définir un chemin pour les comptes associés aux groupes d&#39;achats et filtrer le chemin à l&#39;aide des critères de groupe d&#39;achats. Utilisez le filtre **[!UICONTROL Le compte a un groupe d’achats apparié]** pour définir le segment de chemin d’accès à l’aide d’un groupe d’achats apparié. Ce filtre inclut également la possibilité d&#39;identifier les comptes en fonction du nombre de rôles attribués au sein d&#39;un groupe d&#39;achat apparié.
 
 Par exemple, vous pouvez évaluer le niveau de préparation du groupe d’achat en fonction de la profondeur (nombre de personnes) qu’il a dans différents rôles, tels que trois décideurs et deux influenceurs. Dans ce cas, définissez la condition pour cibler les comptes avec un minimum de trois (3) Décideurs et deux (2) Influenceurs dans un groupe d&#39;achat apparié :
 
@@ -140,7 +129,7 @@ _(parcours de compte et de personne)_
 
 Les chemins fractionnés par personnes ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
 
-_&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x200B;_
+_**Fonctionnement d’un nœud de partage de chemin par personnes**_
 
 * Les nœuds fractionnés par personnes fonctionnent dans une combinaison _nœud groupé_ de division-fusion. Les chemins de division fusionnent automatiquement afin que toutes les personnes puissent passer à l’étape suivante sans perdre le contexte de leur compte.
 * Les nœuds Fractionné par personnes ne peuvent pas être imbriqués (vous ne pouvez pas ajouter de chemin de fractionnement pour les personnes sur un chemin qui se trouve dans ce nœud groupé).
@@ -150,17 +139,13 @@ _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x20
 
 ![Nœud de parcours de compte - Fractionner les chemins d’accès par personnes](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Filtres de chemin d’accès des personnes
+### Filtres de chemin d’accès des personnes {#people-path-filters}
 
 | Filtres | Description |
 | ------------ | ----------- |
-| [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Les activités d’e-mail basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs e-mails sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail] <li>E-mail ouvert <li>A reçu l’e-mail <li>E-mail envoyé <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer selon l’absence d’activité (une personne n’avait pas l’activité d’e-mail). |
-| [!UICONTROL Historique des activités] > [!UICONTROL Message SMS] | Activités SMS basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs messages SMS sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans le SMS] <li>[!UICONTROL SMS ayant fait l’objet d’un rebond] <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’avait pas l’activité SMS). |
-| [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur<li>Valeur précédente<li>Motif<li>Source<li>Date d’activité<li>Min. nombre de fois <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas modifié la valeur de ses données). |
-| [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance de [!DNL Marketo Engage] associée. Les contraintes sont les suivantes : <li>Étape<li>Adresse e-mail<li>Web <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas vécu de moment intéressant). |
-| [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance [!DNL Marketo Engage] associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date d’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Plateforme <li>Appareil <li>Min. nombre de fois <br>**[!UICONTROL Passer au filtre d’inactivité&#x200B;]**- Utilisez cette option pour filtrer par manque d’activité (une personne n’a pas visité la page web). |
+| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} La personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering)) |
+| [!UICONTROL  Historique des événements ] | Divise les personnes en fonction des événements d’expérience qui se sont produits avant l’entrée sur le parcours. Développez le dossier pour afficher tous les types d’événements configurés dans [Admin > Configuration des événements XDM](../admin/configure-aep-events.md) et sélectionnez-en un à ajouter en tant que filtre. Les contraintes comprennent les champs de l’événement sélectionné, un intervalle de temps de recherche en amont mesuré à partir du moment où la personne accède au parcours et un nombre minimum de fois facultatif. |
 | [!UICONTROL Attributs de personne] | Attributs du [profil de la personne](../admin/field-mapping.md#xdm-business-person-attributes), notamment : <li>Ville <li>Pays <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite <li>Fonction <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État |
-| [!UICONTROL Attributs De Personne] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} La personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering)) |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | (Obsolète) La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Évaluation de l’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | (Obsolète) La personne est membre ou non d’une ou de plusieurs listes [!DNL Marketo Engage]. |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | (Obsolète) La personne est membre ou non d’un ou de plusieurs programmes [!DNL Marketo Engage]. |
@@ -171,7 +156,7 @@ _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x20
 | --------------- | ----------- |
 | [!UICONTROL Rôle dans le compte] | Un rôle dans le compte est attribué ou non à la personne. Contraintes facultatives : <li>Nom du rôle |
 
-### Ajouter un nœud de partage de chemin par personnes
+### Ajouter un nœud de partage de chemin par personnes {#add-a-split-path-by-people-node}
 
 >[!NOTE]
 >
@@ -224,21 +209,27 @@ _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x20
 
    Lorsque des conditions sont définies pour chaque chemin d’accès afin de fractionner votre audience au niveau des personnes, vous pouvez ajouter des actions que vous souhaitez entreprendre sur les personnes.
 
-### Filtrage des activités
+### Filtrage de l’historique des événements d’expérience {#experience-event-history-filtering}
 
-Pour un chemin de partage par personnes, vous pouvez définir un chemin en fonction de l&#39;activité de la personne en rapport avec :
+Pour un chemin de partage par personnes, vous pouvez définir un chemin en fonction des événements d’expérience qui se sont produits avant que la personne ne rejoigne le parcours. Dans l’éditeur de conditions, développez le dossier **[!UICONTROL Historique des événements]** pour afficher la liste de tous les types d’événements configurés par votre administrateur. Sélectionnez un type d’événement pour l’ajouter en tant que condition de filtre.
 
-* Messages e-mail provenant d’une adresse antérieure dans le parcours
-* SMS provenant d’une adresse antérieure dans le parcours
-* Modification de la valeur des données dans le profil de personne
-* Moment intéressant (suivi en [!DNL Marketo Engage]) associé à un e-mail, une page web ou un jalon
-* Visite d’une page web (suivie en [!DNL Marketo Engage])
+L’intervalle de temps de recherche en amont de l’historique des événements est mesuré à partir du moment où la personne entre dans le parcours. Par exemple, une fenêtre de 30 jours évalue si l’événement éligible s’est produit au cours des 30 jours précédant l’entrée sur le parcours.
+
+Vous pouvez affiner davantage le filtre à l&#39;aide de contraintes spécifiques aux champs de l&#39;événement sélectionné. Les contraintes facultatives **[!UICONTROL Nombre minimum de fois]** et **[!UICONTROL Date de l’activité]** sont toutes deux évaluées dans l’intervalle de recherche en amont défini. Comme les données de l’historique des événements sont synchronisées à partir de Adobe Experience Platform, un bref délai peut s’écouler avant qu’un événement récent ne soit visible pour ce filtre.
+
+>[!NOTE]
+>
+>Les événements disponibles dans le dossier [!UICONTROL Historique des événements] sont déterminés par les configurations [Événements d’expérience et champs](../admin/configure-aep-events.md).
+
+**Exemple :** pour acheminer les personnes qui ont cliqué sur un lien dans un e-mail marketing avant d’entrer dans le parcours, sélectionnez l’événement de clic sur l’e-mail dans le dossier [!UICONTROL Historique des événements], définissez l’intervalle de recherche en amont pour couvrir la période pertinente et appliquez toutes les contraintes au niveau du champ (telles qu’une URL de lien spécifique) si nécessaire.
+
+![Condition de fractionnement du chemin par personne pour l’historique des événements](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX « Filtrage d&#39;inactivité »]
 
-Pour chacun des filtres _[!UICONTROL Historique des activités]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, ajoutez le filtre _[!UICONTROL E-mail]_ > _[!UICONTROL E-mail ouvert]_ pour créer un chemin d’accès pour les personnes qui _&#x200B;**n’ont pas ouvert**&#x200B;_ un e-mail précédemment dans le parcours. Activez l’option d’inactivité et indiquez l’adresse e-mail. Il est recommandé d&#39;utiliser la contrainte _[!UICONTROL Date de l&#39;activité]_ pour définir une période d&#39;inactivité.
+Pour chacun des filtres _[!UICONTROL Historique des événements]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Par exemple, ajoutez le filtre _[!UICONTROL E-mail de marketing direct ouvert]_ pour créer un chemin d’accès pour les personnes qui _**n’ont pas ouvert**_ d’e-mail. Activez l’option d’inactivité et indiquez l’adresse e-mail.
 
-![Condition de fractionnement du chemin par personne pour l’appartenance à un groupe d’achat](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+![Partage du chemin par condition d’inactivité des personnes](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -279,39 +270,21 @@ Pour utiliser l’appartenance à une liste dans une condition de partage, déve
 
 >[!ENDSHADEBOX]
 
-## Filtrage des données personnalisées
+## Filtrage des données personnalisées {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Fonctionnalité Beta"}
 
 Vous pouvez utiliser des schémas relationnels (classes basées sur des modèles) pour fractionner les chemins d’accès par compte ou personne. Les objets personnalisés sont définis dans _schémas relationnels_ et un administrateur de produit peut [configurer des champs de schéma relationnel](../admin/xdm-field-management.md#relational-schemas) dans [!DNL Journey Optimizer B2B Edition]. Les champs de schéma sélectionnés sont disponibles dans l’éditeur de conditions pour une utilisation dans les nœuds _fractionner le chemin par compte_ et _fractionner le chemin par personne_.
 
-Pour une condition **[!UICONTROL Partage du chemin par compte]**, utilisez le champ de recherche pour filtrer la liste selon le nom de l’objet personnalisé sous _[!UICONTROL Attributs du compte]_. Ajoutez la condition et définissez la valeur sur `true` ou `false`.
+Pour une condition **[!UICONTROL Fractionner le chemin par compte]** ou **[!UICONTROL Fractionner le chemin par personnes]**, développez _[!UICONTROL Objets personnalisés]_. Ajoutez la condition et définissez la valeur sur `true` ou `false`. Cliquez sur **[!UICONTROL Ajouter une contrainte]** pour utiliser les valeurs de champ pour le filtrage.
 
-![Exemple de conditions d’attributs de personne pour l’objet personnalisé de schéma relationnel](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+![Exemple de conditions de compte pour un objet personnalisé de schéma relationnel](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
 
-Pour une condition **[!UICONTROL Partage du chemin par personnes]**, utilisez le champ de recherche pour filtrer la liste selon le nom de l’objet personnalisé sous _[!UICONTROL Attributs de la personne]_.
-
-![Exemple de conditions d’attributs de personne pour l’objet personnalisé de schéma relationnel](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
-
-<!--
- SPHR-21734
-
-Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
--->
-
-## Fusionner les chemins
+## Fusionner les chemins {#merge-paths}
 
 Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins _fractionner les chemins par compte_ dans votre parcours.
 
-1. Accédez à la carte du parcours.
-
-1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Fractionner les chemins]**.
-
-1. Cliquez sur le nœud de partage pour ouvrir ses propriétés sur la droite.
-
-1. Cliquez sur [!UICONTROL Ajouter un chemin] pour créer trois chemins.
-
-1. Ajoutez une combinaison d’actions et d’événements à chaque chemin.
+1. Dans un mappage de parcours avec un nœud partagé qui comporte trois chemins ou plus, ajoutez une combinaison d’actions et d’événements à chaque chemin.
 
 1. Cliquez sur l’icône plus ( **+** ) pour l’un de ces chemins d’accès et choisissez **[!UICONTROL Fusionner]** dans les options affichées.
 
@@ -325,6 +298,6 @@ Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins _frac
 
 1. Si nécessaire, vous pouvez annuler la fusion des chemins en revenant aux propriétés du nœud de chemins de fusion et en décochant la case correspondant aux chemins que vous souhaitez supprimer.
 
-## Vidéo de présentation
+## Vidéo de présentation {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443258/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
