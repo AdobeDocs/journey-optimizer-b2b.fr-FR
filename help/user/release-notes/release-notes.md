@@ -3,24 +3,17 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dd5dae1845686654d2935d9d10b4cd61c5fc502f
+source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
 workflow-type: tm+mt
-source-wordcount: 5099
-ht-degree: 67%
+source-wordcount: 5116
+ht-degree: 66%
 
 ---
 
@@ -30,7 +23,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2026.5 {#rel-2026-5}
 
@@ -47,7 +40,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Fonctionnalité | Nœuds de parcours du meilleur chemin suivant | Vous pouvez optimiser la prise de décision de chemin partagé pour les parcours de personne, en affinant la manière dont les audiences sont acheminées entre les chemins avant l’activation du parcours ou au moment de l’exécution. [En savoir plus](../journeys/next-best-path-node.md) |
 | Amélioration | Compétences B2B Audience Agent | Les compétences B2B d’Audience Agent sont mises à jour, y compris la création de modèles de groupe d’achats optimisés par l’IA. Utilisez le mappage d’intention et de personnage propriétaire pour générer des modèles de groupe d’achats, passer en revue les mappages rôle/personnage recommandés par l’IA et affiner les modèles avec le langage naturel avant de les publier. [En savoir plus](../agents/audience-agent-b2b.md) |
 | Amélioration | Rapport Performances de l’engagement des e-mails | Le rapport Performance de l&#39;engagement des e-mails offre aux marketeurs une vue unifiée de l&#39;activité des e-mails sur tous les parcours dans Adobe Journey Optimizer B2B edition. |
-| Amélioration | Tableau de bord de présentation des Parcours de personne | Ce tableau de bord fournit une vue d’ensemble complète de vos parcours de personne actifs. |
+| Amélioration | Tableau de bord de présentation des parcours - parcours de personne | Les parcours de personne (Beta) incluent désormais un onglet _[!UICONTROL Aperçu]_ avec les mêmes analyses que les parcours de compte, y compris la répartition du taux d’achèvement des parcours, les parcours par type d’engagement et les actions d’exploration amont et d’exportation. <a href="../dashboards/journeys-dashboard.md">En savoir plus</a> |
 | Amélioration | Prise en charge des jeux de données relationnels d’AEP | De nouveaux jeux de données relationnels apparaissent désormais dans votre sandbox AEP, aux côtés des jeux de données existants. |
 
 >[!NOTE]
@@ -288,7 +281,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Fonctionnalité | Destinations de médias achetés | Qualifiez des personnes connues pour des campagnes de médias achetés à partir d’un parcours de compte afin de pouvoir les impliquer davantage sur les plateformes publicitaires telles que LinkedIn. Utilisez un nœud de partage de chemin pour segmenter les audiences de comptes en fonction d’un comportement spécifique et identifier les comptes qui nécessitent un engagement supplémentaire. Ajoutez ensuite les personnes de ces comptes à une audience cliente externe via Real-Time CDP vers une destination de médias achetés prise en charge. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">En savoir plus</a> |
 | Fonctionnalité | Tableau de bord intelligent | Affichez la progression des groupes d’achat à travers leurs parcours de compte, y compris les informations générées par l’IA pour une analyse plus intelligente et une hiérarchisation précise des comptes. <a href="../dashboards/intelligent-dashboard.md">En savoir plus</a> |
 | Fonctionnalité | Détails du groupe d’achat et du compte | Affichez des informations au niveau du groupe d’achat et du compte pour disposer de plus de données contextuelles et historiques lorsque vous commencez à interagir avec un client ou une cliente.<p>Les détails du groupe d’achat incluent toute intention propriétaire détectée. <a href="../buying-groups/buying-group-details.md">En savoir plus</a><p>La page des détails du compte met en évidence l’augmentation soudaine de l’intention d’engagement détectée, de sorte que les spécialistes marketing puissent avertir les ventes des comptes prêts pour un engagement personnalisé axé sur les ventes.  <a href="../accounts/account-details.md">En savoir plus</a> |
-| Fonctionnalité | Vue d’ensemble des parcours | Lorsque vous accédez aux parcours de compte, l’onglet Vue d’ensemble fournit un instantané complet de vos parcours de compte actifs, détaillant la progression des comptes à l’aide de diagrammes circulaires et de graphiques en barres qui catégorisent et quantifient les achèvements, ainsi que les activités d’engagement.  <a href="../dashboards/journeys-dashboard.md">En savoir plus</a> |
+| Fonctionnalité | Tableau de bord de présentation de Parcours | Pour les parcours de compte, l’onglet **[!UICONTROL Aperçu]** fournit un instantané complet de vos parcours actifs, avec des graphiques en cercle et à barres qui catégorisent et quantifient les tâches terminées et les activités d’engagement. <a href="../dashboards/journeys-dashboard.md">En savoir plus</a> |
 | Fonctionnalité | Modification d’images Adobe Express | Les actions rapides d’Adobe Express vous permettent d’apporter des modifications simples (recadrage et redimensionnement, par exemple) aux images pour améliorer l’aspect de votre contenu. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">En savoir plus</a>  <p>Pour obtenir un ensemble plus complet d’outils de conception, cette intégration permet d’obtenir une licence Adobe Express complète dans Journey Optimizer B2B Edition. Grâce à cette configuration, l’interface d’utilisation complète d’Adobe Express devient accessible dans l’espace de travail des ressources locales. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">En savoir plus</a> |
 | Fonctionnalité | Filtres d’intention pour les rôles de groupe d’achat | Lorsque vous envoyez vos mots-clés d’intention, le modèle de détection d’intention prédit une solution/un produit d’intérêt avec un degré de confiance suffisamment élevé en fonction de l’activité d’un lead. <a href="../admin/intent-data.md">En savoir plus</a> <p>Ces données d’intention sont disponibles pour définir les conditions de rôle du groupe d’achat <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">En savoir plus</a> |
 | Amélioration | Prise en charge des événements Marketo Engage dans les parcours | Le nœud de parcours _Écouter pour l’événement_ prend désormais en charge deux événements Marketo Engage au niveau des personnes : _Page web des visites_ et _Formulaire rempli_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">En savoir plus</a> |
