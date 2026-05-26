@@ -20,7 +20,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
 source-wordcount: 1191
 ht-degree: 79%
@@ -59,7 +59,7 @@ Appliquez les instructions suivantes pour effectuer des sélections de champs :
 * La suppression, le changement de nom ou la modification de types de champ peut entraîner des problèmes de fonctionnalité de parcours. Faites preuve de prudence lors de la manipulation des schémas.
 * Ne renommez pas et ne supprimez pas les schémas, et ne modifiez pas les clés des schémas relationnels.
 
-### Classes standard
+### Schémas standard
 
 Dans l’onglet _[!UICONTROL Standard]_, vous pouvez modifier _Champs gérés_ et _Champs modifiables_ pour les classes standard :
 
