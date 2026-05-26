@@ -17,7 +17,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 2037
 ht-degree: 3%
@@ -53,7 +53,7 @@ Dans un parcours de compte, utilisez une action sur les comptes lorsque vous sou
 >
 >L’action _[!UICONTROL Modifier la valeur des données du compte]_ est obsolète pour la version 2025.10. _[!UICONTROL Mettre à jour le profil de compte]_ remplace cette action dans Journey Optimizer B2B edition.<br/>
 >
->Un administrateur peut configurer les attributs disponibles pour le compte professionnel XDM en mettant à jour les champs dans les _[!UICONTROL Classes XDM]_ > _[!UICONTROL Classes standard]_. Pour plus d’informations, voir [Classes standard](../admin/xdm-field-management.md#standard-classes).
+>Un administrateur peut configurer les attributs disponibles pour le compte professionnel XDM en mettant à jour les champs dans les _[!UICONTROL Configurations XDM]_ > _[!UICONTROL Classes standard]_. Pour plus d’informations, voir [Classes standard](../admin/xdm-field-management.md#standard-classes).
 
 ### Ajout d’une action basée sur un compte
 
@@ -272,7 +272,7 @@ Utilisez cette action pour modifier la valeur d’un [attribut de profil de pers
 >
 >L’action _[!UICONTROL Mettre à jour le profil de la personne]_ remplace l’action _[!UICONTROL Modifier la valeur des données]_ dans la version actuelle de Journey Optimizer B2B edition.<br/>
 >
->Un administrateur peut configurer les attributs disponibles pour le profil individuel XDM en mettant à jour les champs dans les _[!UICONTROL Classes XDM]_ > [!UICONTROL Classes standard]. Pour plus d’informations, voir [Classes standard](../admin/xdm-field-management.md#standard-classes).
+>Un administrateur peut configurer les attributs disponibles pour le profil individuel XDM en mettant à jour les champs dans les _[!UICONTROL Configurations XDM]_ > [!UICONTROL Classes standard]. Pour plus d’informations, voir [Classes standard](../admin/xdm-field-management.md#standard-classes).
 
 +++
 

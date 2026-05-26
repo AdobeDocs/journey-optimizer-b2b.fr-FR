@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -76,9 +76,7 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 
    ![Saisir l’URL du service](./assets/configuration-external-actions-create-url.png){width="500"}
 
-   >[!NOTE]
-   >
-   >Votre service externe doit être actif et accessible pour que cette étape réussisse.
+   Le service externe doit être actif et accessible pour que cette étape réussisse. En cas d’erreur de validation, la boîte de dialogue affiche un message pour décrire l’erreur et une suggestion pour la résoudre. Pour plus d’informations, voir [_Dépannage_](#troubleshooting).
 
 1. Une fois l’URL résolue, passez en revue les **[!UICONTROL Détails du service]**.
 
@@ -127,7 +125,7 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 
    * **[!UICONTROL Champs sortants]** - Mappez chaque champ de la table à un [champ XDM](../admin/xdm-field-management.md). Ces champs sont envoyés au service externe dans le corps de la requête. Propriétés de définition de service : `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
-   ![Mapper les champs sortants d’action externe](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![Mapper les champs sortants d’action externe](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Champs entrants]** - Mappez chaque champ de la table à un [champ XDM modifiable](../admin/xdm-field-management.md#updatable-fields). Ces champs sont renseignés à partir de la réponse du service externe. Propriétés de définition de service : `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Modifiable après la création.
 
@@ -137,11 +135,50 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 
    * **[!UICONTROL Attributs globaux]** - Saisissez une valeur pour chaque ligne à inclure en tant que champ statique dans le corps de la requête. Propriété de définition du service : `invocationPayloadDef.globalAttributes`.
 
-   ![Paramètres d’en-tête d’action externe, délai d’expiration et attributs globaux](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+     ![Paramètres d’en-tête d’action externe, délai d’expiration et attributs globaux](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. Cliquez sur la _flèche Précédent_ pour revenir à la liste et conserver l’action à l’état _Brouillon_.
 
    Ou cliquez sur **[!UICONTROL Activer]** pour définir la configuration de l’action sur l’état _Actif_. L’action externe configurée doit être active pour pouvoir être utilisée dans les parcours de compte.
+
+### Dépannage {#troubleshooting}
+
+Lorsque vous saisissez l’URL de la spécification OpenAPI pour votre service externe et cliquez sur **[!UICONTROL Créer]**, le système effectue la validation du service. Lorsqu’elle rencontre une erreur, la boîte de dialogue affiche un message pour décrire l’erreur.
+
+![&#x200B; Message d’erreur de validation du service d’URL d’action externe &#x200B;](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>La plupart des erreurs suivantes nécessitent que vous collaboriez avec le développeur ou la développeuse qui a créé et publié le service web public pour les résoudre.
+
+#### Détails de l’erreur de validation
+
+| Erreur affichée | Pourquoi cela s’est produit | Que faire |
+|---|---|---|
+| `This URL is already used by another external action` | Cette URL de spécification est déjà enregistrée dans une autre action de votre organisation. | Utilisez une autre URL de spécification ou supprimez l’action existante qui l’utilise déjà. |
+| `An action with this name already exists` | La `info.title` de votre spécification correspond à une action qui existe déjà | Remplacez le titre du champ `info.title` de votre spécification par quelque chose d’unique. |
+| `Duplicate operation ID found in the specification` | Plusieurs opérations de votre spécification partagent la même `operationId`. | Attribuez un `operationId` unique à chaque opération. |
+| `Field in the specification exceeds the maximum allowed length` | Un champ de texte de votre spécification (tel qu’un titre ou une description) est trop long. | Raccourcissez le champ marqué. |
+| `The entity type value is invalid` | Une extension `x-` spécifique à Adobe pour le type d’entité a une valeur non reconnue | Corrigez le type d’entité sur une valeur prise en charge. Consultez la [documentation pour les développeurs](https://developer.adobe.com/journey-optimizer-b2b-apis/) pour connaître les options valides. |
+| `The provided document is not a valid OpenAPI specification` | La spécification ne peut pas être analysée structurellement. | Validez votre spécification par rapport au schéma OpenAPI 3.0 et corrigez les problèmes. |
+| `Required OpenAPI field is missing` | Il n’y a pas de champ obligatoire OpenAPI standard (`info` ou `paths`, par exemple). | Ajoutez le champ manquant. |
+| `Required endpoint is missing from the specification` | Un point d’entrée requis par Adobe Journey Optimizer B2B edition n’est pas défini dans votre spécification. | Ajoutez le point d’entrée requis. Pour connaître les points d’entrée nécessaires[&#128279;](https://developer.adobe.com/journey-optimizer-b2b-apis/) consultez la  documentation pour les développeurs et développeuses . |
+| `Required extension field is missing` | Un champ d’extension Adobe `x-` obligatoire est absent de votre spécification. | Ajoutez le champ d’extension manquant comme décrit dans la documentation. |
+| `Security schemes are missing from the specification` | Aucune spécification n’a `securitySchemes` définie sous `components`. | Définissez au moins un schéma de sécurité. |
+| `Multiple authentication types are not supported` | Votre spécification définit plusieurs schémas d’authentification. | Mettez à jour votre spécification pour utiliser un seul type d’authentification. |
+| `The authentication type is not supported` | Le type de schéma de sécurité que vous avez utilisé (`oauth2` ou `openIdConnect`, par exemple) n’est pas pris en charge. | Basculez vers un type d’authentification pris en charge. Consultez la documentation destinée aux développeurs pour connaître les options prises en charge. |
+| `The OpenAPI version is not supported` | Incompatibilité de version au niveau de la spécification | Mettez à jour votre spécification pour utiliser OpenAPI 3.0.x. |
+| `An unexpected error occurred` | Un problème non classé a été détecté dans votre spécification. | Vérifiez votre spécification pour tout élément inhabituel et réessayez. Si l’erreur persiste, contactez l’assistance. |
+
+<!--
+## Errors you'll see if something goes wrong with the request itself
+
+This error appears below the URL field (not in the alert banner) and means there was a network problem or an unexpected server response — not a problem with your URL or spec.
+
+| What you'll see | Why it happened | What to do |
+|---|---|---|
+| `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
+-->
 
 ## Ajouter un nœud externe à un parcours {#add-journey-node}
 
