@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
 workflow-type: tm+mt
-source-wordcount: 131
-ht-degree: 12%
+source-wordcount: 134
+ht-degree: 14%
 
 ---
 
@@ -37,6 +37,7 @@ Créez votre parcours en combinant les différents nœuds d’action, d’évén
 * [Entreprendre une action](./action-nodes.md)
 * [Écouter un événement](./listen-for-event-nodes.md)
 * [Chemins partagés](./split-merge-paths-nodes.md)
+* [Deuxième meilleur chemin](./next-best-path-node.md)
 * [Attendre](./wait-nodes.md)
 * [Fusionner les chemins](./split-merge-paths-nodes.md)
 * [Externe](./external-nodes.md)
