@@ -4,16 +4,11 @@ description: Créez des parcours de compte et de personne dans la zone de travai
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
 source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
@@ -33,8 +28,8 @@ Pour commencer à utiliser un parcours, créez le parcours, puis construisez les
 
 Sous **[!UICONTROL Gestion des Parcours]** dans le volet de navigation de gauche, sélectionnez le type de parcours à créer :
 
-* parcours de compte **&#x200B;**
-* parcours de personne **(Beta)**
+* parcours de compte ]****[!UICONTROL 
+* parcours de personne ]**(Beta)**[!UICONTROL 
 
 _Pour ajouter un nouveau parcours :_
 
@@ -44,7 +39,7 @@ _Pour ajouter un nouveau parcours :_
 
 1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![&#x200B; Boîte de dialogue Créer un Parcours de compte &#x200B;](./assets/account-journey-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un Parcours de compte ](./assets/account-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -56,7 +51,7 @@ _Pour ajouter un nouveau parcours :_
 
 1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![&#x200B; Boîte de dialogue Créer un Parcours &#x200B;](./assets/person-journey-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un Parcours ](./assets/person-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -178,4 +173,4 @@ Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois l
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443221/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

@@ -5,18 +5,12 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -43,7 +37,7 @@ L’assistant AI dans Journey Optimizer B2B edition est créé à partir de la m
 
 ## Fonctionnalités de l’assistant AI dans Journey Optimizer B2B edition
 
-Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes. Elle est également connue sous le nom de _&#x200B;**_graphique de connaissances_**&#x200B;_, un réseau complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
+Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes. Elle est également connue sous le nom de _**_graphique de connaissances_**_, un réseau complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
 
 * Documentation Experience League.
 * Artefacts opérationnels, tels que des schémas, des champs, des audiences et des parcours.
@@ -57,7 +51,7 @@ La connaissance des produits fait référence aux concepts et aux sujets abordé
 | Connaissances du produit | Exemples |
 | --- | --- |
 | Apprentissage par points | <li>Qu&#39;est-ce qu&#39;un groupe d&#39;achat ? <li> Me montrer un exemple de modèle de rôles de groupe d&#39;achat ? |
-| Ouvrir la découverte | <li>Quelles sont les étapes pour créer des groupes d&#39;achat ? <li>Comment utiliser les champs personnalisés dans un modèle de rôles de groupe d&#39;achats ? |
+| Découverte ouverte | <li>Quelles sont les étapes pour créer des groupes d&#39;achat ? <li>Comment utiliser les champs personnalisés dans un modèle de rôles de groupe d&#39;achats ? |
 | Dépannage | <li>Pourquoi les groupes d&#39;achat pour mon parcours n&#39;ont-ils pas été créés ? <li>Pourquoi ne puis-je pas trouver des événements d’expérience à écouter dans le parcours ? |
 
 ### Informations opérationnelles
@@ -75,10 +69,10 @@ Vous pouvez poser des questions à l’assistant d’IA sur vos informations op�
 | Attributs/champs | <li>Recherche de nom d’attribut <li>Attribut - relation de schéma <li>Attribut - relation du jeu de données <li>Attribut - Relation d’audience <li>Attribut - relation de destination | <li>Classe d’attribut <li>Journal <li>Statut d’obsolescence <li>Intitulés <li>Valeur stockée dans les attributs |
 | Audiences du compte <br><br>**_Remarque:_** dans le contexte du B2B edition Journey Optimizer, l’assistant AI ne peut répondre aux questions d’audience que pour les audiences du compte. Dans le contexte d’Experience Platform, l’assistant AI ne peut répondre qu’aux questions des personnes audiences. | <li>Nombre d’audiences <li>Type d’audience (diffusion en continu ou par lots) <li>Dates de création/modification <li>Statut d’activation <li>Nombre de membres <li>Dupliquer les audiences <li>Recherche par nom et ID | <li>Chevauchements des audiences <li>Activation d’audience <li>Journal <li>Créer/modifier <li>Intitulés <li>Tendances de qualification des membres |
 | Flux de données | <li>Nombre de flux de données <li>Statut du flux de données <li>Flux de données - Relation du jeu de données <li>Flux de données - Relation source | <li>Création/modification <li>Relations flux de données-lot <li>Ingérer le nombre de profils |
-| Jeux de données | <li>Nombre de jeux de données <li>Statut d’activation du profil <li>Date de création/modification <li>Jeu de données - Relation de schéma <li>Jeu de données - Relation d’audience <li>Relation jeu de données - attribut <li>Jeu de données - Relation de flux de données <li>Recherche de nom <li>Recherche par nom et ID | <li>Journal <li>Créé par <li>Jeu de données - Relation par lots <li>Création/modification de jeu de données <li>Taille du jeu de données <li>Nombre de profils <li>Nombre de lignes <li>Recherche de valeur |
+| Jeux de données | <li>Nombre de jeux de données <li>Statut d’activation du profil <li>Date de création/modification <li>Jeu de données - Relation de schéma <li>Jeu de données - Relation d’audience <li>Relation jeu de données - attribut <li>Jeu de données - Relation de flux de données <li>Recherche de nom <li>Recherche par nom et ID | <li>Journal <li>Création par <li>Jeu de données - Relation par lots <li>Création/modification de jeu de données <li>Taille du jeu de données <li>Nombre de profils <li>Nombre de lignes <li>Recherche de valeur |
 | Destinations | <li>Nombre de destinations configurées <li>Relation destination-audience <li>Relation d’attributs de destination | <li>Configuration du compte <li>Informations d’identification du compte <li>Profils uniques activés |
-| Parcours (Parcours de compte) | <li>Nombre <li>Recherche par nom et ID <li>Statut du parcours <li>Dates de création/modification | <li>Audit Attributs - Relations de parcours <li>Création/modification <li>Créé par |
-| Schémas | <li>Nombre de schémas <li>Date de création/modification <li>Schéma - Relation des attributs <li>Schéma - Relation du jeu de données <li>Schéma - Relation d’audience <li>Statut d’activation du profil <li>Recherche de nom <li>Recherche par nom et ID | <li>Journal <li>Création/modification <li>Créé par <li>Groupes de champs <li>Identités <li>Espaces de noms d’identité <li>Intitulés <li>Nombre de profils |
+| Parcours (Parcours de compte) | <li>Nombre <li>Recherche par nom et ID <li>Statut du parcours <li>Dates de création/modification | <li>Audit Attributs - Relations de parcours <li>Création/modification <li>Création par |
+| Schémas | <li>Nombre de schémas <li>Date de création/modification <li>Schéma - Relation des attributs <li>Schéma - Relation du jeu de données <li>Schéma - Relation d’audience <li>Statut d’activation du profil <li>Recherche de nom <li>Recherche par nom et ID | <li>Journal <li>Création/modification <li>Création par <li>Groupes de champs <li>Identités <li>Espaces de noms d’identité <li>Intitulés <li>Nombre de profils |
 | Sources | <li>Comptes <li>Statut du compte <li>Flux de données actifs/inactifs pour chaque compte <li>Connecteur Source - Relation de flux de données <li>Compte Source - relation du flux de données | <li>Informations d’identification du compte <li>Configuration du compte Mesures d’ingestion de données <li>Nombre de relations profilsSource - lot |
 | Modèle de groupe d&#39;achat | <li>Comptages <li>Statut <li>Rôles <li>Recherche par nom et ID | <li>Règles de rôle |
 | Intérêt de la solution | <li>Comptages <li>Statut <li>Intérêt de la solution - Relation du modèle de groupe d’achat <li>Recherche par nom et ID | <li>Intérêt de la solution - Relation du groupe d’achat |
@@ -105,7 +99,7 @@ L’assistant AI de Journey Optimizer B2B edition place la confidentialité, la 
 
 * Vous devez disposer d’autorisations explicites pour interagir avec l’assistant AI.
 
-   * Un administrateur peut définir des autorisations à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} et de [Admin Console](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un administrateur peut définir des autorisations à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} et de [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Les autorisations sont granulaires et votre administrateur de sandbox peut configurer les utilisateurs autorisés à poser différentes catégories de questions (questions basées sur les connaissances du produit avec l’assistant AI ou questions sur les informations opérationnelles).
 
