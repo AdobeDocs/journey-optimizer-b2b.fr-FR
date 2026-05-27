@@ -17,16 +17,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # Ajouter un e-mail à votre parcours
 
-Utilisez Adobe Journey Optimizer B2B edition pour envoyer des e-mails à vos clients par le biais de parcours de compte. Vous pouvez choisir de créer, de personnaliser et de prévisualiser des messages dans l’espace de conception d’e-mail. Vous pouvez également choisir d’envoyer un e-mail déjà défini dans l’instance Marketo Engage connectée.
+Utilisez Adobe Journey Optimizer B2B edition pour envoyer des e-mails à vos clients par le biais de parcours de compte. Vous pouvez choisir de créer, de personnaliser et de prévisualiser des messages dans l’espace de conception d’e-mail. Vous pouvez également choisir d’envoyer un e-mail déjà défini dans l’instance Marketo Engage connectée. Une fois que les e-mails sont en ligne dans parcours, surveillez l’envoi, la diffusion et l’engagement dans le rapport [&#x200B; Performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >

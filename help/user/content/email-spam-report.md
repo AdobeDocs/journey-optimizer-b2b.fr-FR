@@ -19,16 +19,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:30:57.478Z
 TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 378
 ht-degree: 2%
 
 ---
 
 # Consulter le rapport de spam
 
-De nombreux fournisseurs de boîte de réception et la plupart des systèmes d’entreprise utilisent un processus de filtrage du spam. L’envoi d’e-mails déclenchant ces filtres peut nuire gravement à la délivrabilité. Dans Journey Optimizer B2B edition, vous pouvez vérifier le score de spam du contenu des emails en générant un rapport sur les spams. Ce rapport utilise des [[!DNL SpamAssassin]](https://spamassassin.apache.org/) pour tester l&#39;e-mail et vous aide à déterminer si un message peut être considéré comme indésirable par les outils anti-spam. Vous pouvez utiliser les informations du rapport pour prendre des mesures qui améliorent le score et la délivrabilité du contenu des e-mails.
+De nombreux fournisseurs de boîte de réception et la plupart des systèmes d’entreprise utilisent un processus de filtrage du spam. L’envoi d’e-mails déclenchant ces filtres peut nuire gravement à la délivrabilité. Dans Journey Optimizer B2B edition, vous pouvez vérifier le score de spam du contenu des emails en générant un rapport sur les spams. Ce rapport utilise des [[!DNL SpamAssassin]](https://spamassassin.apache.org/) pour tester l&#39;e-mail et vous aide à déterminer si un message peut être considéré comme indésirable par les outils anti-spam. Vous pouvez utiliser les informations du rapport pour prendre des mesures qui améliorent le score et la délivrabilité du contenu des e-mails. Après avoir réglé le contenu, suivez le taux de rebond et la diffusion dans le [rapport sur les performances des e-mails](../dashboards/email-performance-dashboard.md).
 
 Lorsque vous passez en revue les paramètres de votre e-mail ou modifiez le contenu, ouvrez la page _[!UICONTROL Simuler]_ et générez un _Rapport sur les spams_ afin de passer en revue le score et les éléments marqués d&#39;un indicateur qui peuvent déclencher un filtrage anti-spam.
 

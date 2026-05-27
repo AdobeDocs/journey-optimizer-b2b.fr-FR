@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
+source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '445'
 ht-degree: 92%
 
 ---
@@ -153,6 +153,7 @@ ht-degree: 92%
    + [Tableau de bord des informations](./dashboards/intelligent-dashboard.md)
    + [Tableau de bord de l’engagement](./dashboards/engagement-dashboard.md)
    + [Tableau de bord d’engagement web](./dashboards/web-engagement-dashboard.md)
+   + [Rapport Performances des emails](./dashboards/email-performance-dashboard.md)
    + [Tableau de bord des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
    + [Tableau de bord Parcours](./dashboards/journeys-dashboard.md)
 + Administration {#admin}

@@ -19,16 +19,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
+source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: 449
 ht-degree: 2%
 
 ---
 
 # Tableau de bord de présentation de Parcours
 
-Le tableau de bord de présentation des parcours [compte et personne](../journeys/journeys-overview.md) fournit un instantané complet de vos parcours actifs. Les graphiques circulaires et à barres catégorisent et quantifient les activités d’achèvement et d’engagement afin que vous puissiez évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures clés de diffusion et d’engagement.
+Le tableau de bord de présentation des parcours [compte ou personne](../journeys/journeys-overview.md) fournit un instantané complet de vos parcours actifs. Les graphiques circulaires et à barres catégorisent et quantifient les activités d’achèvement et d’engagement afin que vous puissiez évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures clés de diffusion et d’engagement. Pour obtenir une vue d’ensemble des parcours des données d’engagement et de diffusion spécifiques aux e-mails, consultez le [&#x200B; Rapport sur les performances des e-mails](email-performance-dashboard.md).
 
 Cet aperçu est disponible pour les parcours publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
 

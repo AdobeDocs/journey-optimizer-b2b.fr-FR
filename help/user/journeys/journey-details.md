@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 568
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Lorsque vous cliquez sur le nom d’un parcours de compte actif, les détails du parcours s’affichent. L’onglet _[!UICONTROL Aperçu]_ fournit des informations utiles sur le parcours, y compris des résumés génératifs de l’IA.
 
-Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux spécialistes marketing d’évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures de diffusion et d’engagement clés.
+Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux professionnels du marketing d’évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures de diffusion et d’engagement clés. Pour les mesures d’e-mail agrégées sur tous les parcours, consultez le [&#x200B; Rapport sur les performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
 
 Cet aperçu est disponible pour les parcours de compte publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
 
@@ -55,7 +55,7 @@ Cette section présente deux mesures essentielles :
 
 ## Performances des e-mails et des SMS
 
-Les tableaux de performances donnent un aperçu détaillé de l’efficacité des canaux e-mail et SMS. Chaque tableau présente des mesures, telles que les taux de diffusion et les taux de clics, qui vous aident à évaluer l’impact de chaque point de contact de communication.
+Les tableaux de performances donnent un aperçu détaillé de l’efficacité des canaux e-mail et SMS. Chaque tableau présente des mesures, telles que les taux de diffusion et les taux de clics, qui vous aident à évaluer l’impact de chaque point de contact de communication. Les tableaux ci-dessous montrent les mesures relatives aux e-mails et SMS pour ce parcours uniquement. Pour obtenir les mêmes mesures d’e-mail sur tous les parcours, utilisez le [rapport sur les performances des e-mails](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL Performances des emails]** colonnes du tableau :
 
