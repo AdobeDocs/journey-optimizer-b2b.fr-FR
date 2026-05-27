@@ -4,17 +4,11 @@ description: 'Guide d’intégration pour les marketeurs : créez des groupes d�
 role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:05:00.531Z
 TQID: https://experienceleague.adobe.com/3gCGyaNUShU2ZHvIqc4FwsH7floQjrSy9fcdfevRYlE
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -32,7 +26,7 @@ Une fois qu’un administrateur a terminé les [tâches de configuration](../set
 
 >[!TIP]
 >
->Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
+>Vérifiez vos droits de licence et la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} correspondante à propos des mécanismes de sécurisation des performances et des limitations statiques.
 
 En tant que spécialiste du marketing ou _spécialiste en parcours de compte_, vous êtes responsable de la conception des parcours et de l’élaboration du contenu. Vous pouvez commencer à utiliser Adobe Journey Optimizer B2B Edition une fois que l’administration système et l’ingénierie des données ont préparé votre environnement et vous ont accordé l’accès.
 

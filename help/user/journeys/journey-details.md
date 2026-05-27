@@ -4,15 +4,10 @@ description: Surveillez les performances du parcours de compte avec les taux d�
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
 source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
@@ -26,7 +21,7 @@ ht-degree: 1%
 
 Lorsque vous cliquez sur le nom d’un parcours de compte actif, les détails du parcours s’affichent. L’onglet _[!UICONTROL Aperçu]_ fournit des informations utiles sur le parcours, y compris des résumés génératifs de l’IA.
 
-Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux professionnels du marketing d’évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures de diffusion et d’engagement clés. Pour les mesures d’e-mail agrégées sur tous les parcours, consultez le [&#x200B; Rapport sur les performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
+Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux professionnels du marketing d’évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures de diffusion et d’engagement clés. Pour les mesures d’e-mail agrégées sur tous les parcours, consultez le [ Rapport sur les performances des e-mails ](../dashboards/email-performance-dashboard.md).
 
 Cet aperçu est disponible pour les parcours de compte publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
 

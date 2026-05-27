@@ -4,16 +4,11 @@ description: Configurez les nœuds d’événement pour les déclencheurs de com
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
 source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
@@ -75,16 +70,16 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 | Type d’entrée | Événement | Contraintes |
 | ---------- | ----- | ----------- |
 | Journey Optimizer édition B2B | [!UICONTROL Affecté au groupe d&#39;achat] | Intérêt de la solution<br/><br/>Contraintes supplémentaires (facultatif) : <li>Autorisations</li><li>Date d’activité</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Clics dans l’e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Plateforme</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Clics sur le lien dans les SMS] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>Appareil</li><li>Plateforme</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Modifications de la valeur des données] | Attribut de personne<br/><br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Ouvre l&#39;e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Plateforme</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Clics dans l’e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Plateforme</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Clics sur le lien dans les SMS] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>Appareil</li><li>Plateforme</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Modifications de la valeur des données] | Attribut de personne<br/><br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Ouvre l&#39;e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Plateforme</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
 | | [!UICONTROL Supprimé du groupe d&#39;achat] | Intérêt de la solution<br/>Date de l’activité (facultatif)<br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Le score est modifié] | Nom du score<br/><br/>Contraintes supplémentaires (facultatif) :<li>Modifier</li><li>Nouveau score</li><li>Urgence</li><li>Priorité</li><li>Score relatif</li><li>Urgence relative</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Rebonds SMS] | Message SMS<br/><br/>Contraintes additionnelles (optionnel) : <li>Date d’activité</li><li>Nombre minimum de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Le score est modifié] | Nom du score<br/><br/>Contraintes supplémentaires (facultatif) :<li>Modifier</li><li>Nouveau score</li><li>Urgence</li><li>Priorité</li><li>Score relatif</li><li>Urgence relative</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Rebonds SMS] | Message SMS<br/><br/>Contraintes additionnelles (optionnel) : <li>Date de l’activité</li><li>Nombre minimum de fois</li><br/>Délai d’expiration (facultatif) |
 | Marketo Engage | [!UICONTROL Page Web Visites] | <br/> de page web Sélectionnez une ou plusieurs pages Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>User Agent</li><li>Moteur de recherche</li><li>Requête</li><li>Jeton</li><li>Navigateur</li><li>Plateforme</li><li>Appareil</li><li>Date d’activité</li> |
-| | [!UICONTROL Remplit le formulaire] | <br/> de formulaire Sélectionnez un ou plusieurs formulaires Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Date d’activité</li><li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Plateforme</li><li>Appareil</li><br/>Délai d’expiration (facultatif) |
-| Adobe Experience Platform | [!UICONTROL Définition de l’événement] | Type d&#39;événement <br/><br/>Contraintes additionnelles (optionnelles) : <li>Champs</li> <br/>Contraintes additionnelles (non prises en charge) : <li>Date d’activité</li><li>Min. nombre de fois</li>Délai d’expiration du <br/> (facultatif) |
+| | [!UICONTROL Remplit le formulaire] | <br/> de formulaire Sélectionnez un ou plusieurs formulaires Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Date de l’activité</li><li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Plateforme</li><li>Appareil</li><br/>Délai d’expiration (facultatif) |
+| Adobe Experience Platform | [!UICONTROL Définition de l’événement] | Type d&#39;événement <br/><br/>Contraintes additionnelles (optionnelles) : <li>Champs</li> <br/>Contraintes additionnelles (non prises en charge) : <li>Date de l’activité</li><li>Min. nombre de fois</li>Délai d’expiration du <br/> (facultatif) |
 
 ### Filtres d’événement de personne
 
@@ -92,9 +87,9 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 | ------------ | ----------- |
 | [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Les activités d’e-mail basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs e-mails sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail] <li>E-mail ouvert <li>A été diffusé par e-mail <li>A reçu un e-mail <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).--> |
 | [!UICONTROL Historique des activités] > [!UICONTROL Message SMS] | Activités SMS basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs messages SMS sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans le SMS] <li>[!UICONTROL SMS rebond] <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). --> |
-| [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur<li>Valeur précédente<li>Motif<li>Source<li>Date d’activité<li>Min. nombre de fois <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
+| [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur<li>Valeur précédente<li>Motif<li>Source<li>Date de l’activité<li>Min. nombre de fois <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape<li>E-mail<li><!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> Web |
-| [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date d’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Plateforme <li>Appareil <li>Min. nombre de fois <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
+| [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date de l’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Plateforme <li>Appareil <li>Min. nombre de fois <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
 | [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Fonction <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désinscription <li>Raison désabonnement |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Évaluation de l’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est membre ou non d’une ou de plusieurs listes Marketo Engage. |
@@ -151,7 +146,7 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 ### Écoute d’un événement d’expérience {#listen-for-an-experience-event}
 
-Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
+Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
 
 1. Un administrateur [ajoute les types d’événements et les champs ciblés](../admin/configure-aep-events.md#add-an-event) pour les rendre disponibles dans les parcours.
 
@@ -169,7 +164,7 @@ _Pour inclure un événement d’expérience dans votre parcours :_
 
 1. Sélectionnez l’événement.
 
-   Pour un parcours de compte _&#x200B;**, cliquez sur la flèche du sélecteur**&#x200B;[!UICONTROL &#x200B; Sélectionner un événement de personne &#x200B;]&#x200B;**et faites défiler le menu vers la section**&#x200B;[!UICONTROL &#x200B; Adobe Experience Platform &#x200B;]&#x200B;**.**&#x200B;_
+   Pour un parcours de compte _**, cliquez sur la flèche du sélecteur**[!UICONTROL  Sélectionner un événement de personne ]**et faites défiler le menu vers la section**[!UICONTROL  Adobe Experience Platform ]**.**_
 
    ![Écouter un événement d’expérience](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
 
@@ -242,5 +237,5 @@ Si nécessaire, définissez le temps d’attente du parcours pour l’événemen
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443236/?captions=fre_fr&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->
