@@ -7,21 +7,12 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 autotag-review: '2026-03-30T22:11:25.228Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -40,7 +31,6 @@ Les outils de conception de [!DNL Journey Optimizer B2B Edition] permettent aux 
 
 Les sections suivantes décrivent les bonnes pratiques pour concevoir du contenu accessible avec [!DNL Journey Optimizer B2B Edition]. Ces informations se concentrent sur la conception de contenu accessible à tous vos destinataires, de sorte que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination.
  
-
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. Pour plus d’informations sur le style des composants de texte, voir [_Composants de contenu_](content-components.md#text)
@@ -137,7 +127,7 @@ Pour vérifier l’accessibilité du contenu, vous pouvez utiliser les fonctionn
 
 * Prévisualisez votre contenu à l’aide de profils de test.
 
-* Utilisez l’option [&#x200B; Rendu d’e-mail &#x200B;](email-test-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible.
+* Utilisez l’option [ Rendu d’e-mail ](email-test-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible.
 
 * Envoyez des BAT pour tester le rendu de votre contenu avant de l’envoyer à votre audience réelle.
 

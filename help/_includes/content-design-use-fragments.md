@@ -31,7 +31,7 @@ L’exemple suivant décrit les étapes à suivre pour ajouter des fragments au 
 
    >[!TIP]
    >
-   >Pour ajouter le fragment afin qu’il occupe toute la disposition horizontale dans l’e-mail, ajoutez une structure de colonnes 1:1, puis faites-y glisser le fragment et déposez-le.
+   >Pour ajouter le fragment afin qu’il occupe toute la disposition horizontale dans l’e-mail, ajoutez une structure à 1 :1 colonne, puis faites-y glisser le fragment et déposez-le.
 
    Le contenu du fragment est mis à jour dynamiquement dans la structure pour afficher le contenu tel qu’il apparaît dans votre contenu.
 

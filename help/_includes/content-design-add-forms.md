@@ -3,7 +3,7 @@ title: Création de contenu - Ajout de formulaires
 description: Section réutilisée sur l’ajout de formulaires dans les landing pages et les modèles
 source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ L’exemple suivant décrit les étapes à suivre pour ajouter un formulaire lor
 
    >[!TIP]
    >
-   >Pour ajouter le formulaire de sorte qu’il occupe toute la disposition horizontale dans l’e-mail, ajoutez une structure de colonnes 1:1, puis faites-y glisser le formulaire et déposez-le.
+   >Pour ajouter le formulaire de sorte qu’il occupe toute la disposition horizontale dans l’e-mail, ajoutez une structure à 1 :1 colonne, puis faites-y glisser le formulaire et déposez-le.
 
 1. Cliquez sur l’icône _Formulaire_ dans la barre d’outils du composant ou utilisez les propriétés **[!UICONTROL Incorporer le formulaire]** à droite pour sélectionner le formulaire publié.
 

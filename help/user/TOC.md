@@ -41,7 +41,7 @@ ht-degree: 92%
    + [Parcours compte et personne](./journeys/journeys-overview.md)
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [rentrée de parcours](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+   + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
       + [Audience de compte](./journeys/account-audience-nodes.md)
       + [Audience de la personne (Beta)](./journeys/person-audience-nodes.md)
