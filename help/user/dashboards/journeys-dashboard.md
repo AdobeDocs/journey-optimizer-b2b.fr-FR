@@ -6,19 +6,12 @@ role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
 autotag-review: '2026-05-21T21:07:43.367Z'
 TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
 source-wordcount: 449
@@ -28,19 +21,19 @@ ht-degree: 2%
 
 # Tableau de bord de présentation de Parcours
 
-Le tableau de bord de présentation des parcours [compte ou personne](../journeys/journeys-overview.md) fournit un instantané complet de vos parcours actifs. Les graphiques circulaires et à barres catégorisent et quantifient les activités d’achèvement et d’engagement afin que vous puissiez évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures clés de diffusion et d’engagement. Pour obtenir une vue d’ensemble des parcours des données d’engagement et de diffusion spécifiques aux e-mails, consultez le [&#x200B; Rapport sur les performances des e-mails](email-performance-dashboard.md).
+Le tableau de bord de présentation des parcours [compte ou personne](../journeys/journeys-overview.md) fournit un instantané complet de vos parcours actifs. Les graphiques circulaires et à barres catégorisent et quantifient les activités d’achèvement et d’engagement afin que vous puissiez évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures clés de diffusion et d’engagement. Pour obtenir une vue d’ensemble des parcours des données d’engagement et de diffusion spécifiques aux e-mails, consultez le [ Rapport sur les performances des e-mails](email-performance-dashboard.md).
 
 Cet aperçu est disponible pour les parcours publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
 
 >[!BEGINTABS]
 
->[!TAB parcours de compte] 
+>parcours de compte][!TAB 
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion des Parcours]** puis cliquez sur **[!UICONTROL parcours de compte]**. Sélectionnez l’onglet **[!UICONTROL Aperçu]** s’il n’est pas affiché par défaut.
 
-![&#x200B; Présentation des parcours de compte &#x200B;](./assets/journey-overview-account.png){width="800" zoomable="yes"}
+![ Présentation des parcours de compte ](./assets/journey-overview-account.png){width="800" zoomable="yes"}
 
->[!TAB parcours de personne (Beta)] 
+>parcours de personne (Beta)][!TAB 
 
 [!BADGE Beta]{type=Informative tooltip="Disponible en tant que fonctionnalité bêta"}
 
@@ -56,7 +49,7 @@ Ce graphique illustre la répartition des parcours en fonction de leur taux d’
 
 Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-![distribution du taux d&#39;achèvement du Parcours &#x200B;](./assets/journey-completion-rate-distribution.png){width="500"}
+![distribution du taux d&#39;achèvement du Parcours ](./assets/journey-completion-rate-distribution.png){width="500"}
 
 ## Parcours par type d’engagement {#journeys-by-engagement-type}
 
