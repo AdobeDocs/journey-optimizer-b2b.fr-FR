@@ -5,17 +5,10 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
 autotag-review: 2026-03-30T15:10:20.350Z
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
 source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
@@ -30,7 +23,7 @@ Sales Qualifier est une application gérée par l’IA que vous pouvez utiliser 
 
 Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder à la Business Intelligence directement dans les CRM ou Outlook. La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Page de départ Application
 
@@ -287,10 +280,10 @@ Sur la page _[!UICONTROL Workflow sortant]_, l’onglet **[!UICONTROL Parcourir]
 ### Bonnes pratiques relatives au workflow sortant
 
 * **Investissez dans l’objectif.** Le ciblage en aval, la cadence et les e-mails remontent tous jusqu’à l’objectif. Les objectifs spécifiques axés sur les résultats surpassent les objectifs vagues.
-* **Finalisez les invites de point de contact avant la génération par prospect.**&#x200B;** Après la génération en masse, les modifications sont généralement apportées un prospect à la fois.
+* **Finalisez les invites de point de contact avant la génération par prospect.**** Après la génération en masse, les modifications sont généralement apportées un prospect à la fois.
 * **Utiliser le raisonnement comme contrôle de qualité.** Si le mauvais signal est souligné (ou si un signal évident est manquant), modifiez l’e-mail ou revenez à l’invite du point de contact et régénérez la cadence.
-* **Faire correspondre l’outil d’édition au changement.**&#x200B;**&#x200B; Modifier directement le libellé et le ton ; &#x200B;** [!UICONTROL Générer à l’aide de l’IA]** pour restructurer ou recadrer.
-* **Approuvez uniquement ce que vous avez révisé.**&#x200B;** Développez les points de contact, lisez le contenu et affinez-les si nécessaire avant l’inscription.
+* **Faire correspondre l’outil d’édition au changement.**** Modifier directement le libellé et le ton ; **[!UICONTROL Générer à l’aide de l’IA]** pour restructurer ou recadrer.
+* **Approuvez uniquement ce que vous avez révisé.**** Développez les points de contact, lisez le contenu et affinez-les si nécessaire avant l’inscription.
 
 ## Boîte d’envoi d’e-mail
 
@@ -565,7 +558,7 @@ L’**URL de l’instance** doit être l’URL de base de l’environnement util
 
 1. Pour le qualificateur de vente, utilisez le formulaire canonique : `https://{{mydomain}}.my.salesforce.com` .
 
-   N’utilisez **&#x200B;**&#x200B;une URL `lightning.force.com` comme URL d’instance.
+   N’utilisez **** une URL `lightning.force.com` comme URL d’instance.
 
 **Microsoft Dynamics 365**
 
@@ -616,7 +609,7 @@ ORDER BY LastModifiedDate DESC
 
 Le _[!UICONTROL Centre de connaissances]_ donne à AQA accès aux documents clients et aux connaissances connexes afin que Sales Qualifier puisse générer de meilleures informations en matière de recherche et de qualification à l’aide de vos propres documents. Chargez le contenu et les ressources d’information que vous souhaitez utiliser pour générer des e-mails.
 
-![&#x200B; Intégrations - Centre de connaissances &#x200B;](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
+![ Intégrations - Centre de connaissances ](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
 
 ## Paramètres de profil
 
