@@ -21,16 +21,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 80%
+source-wordcount: 849
+ht-degree: 74%
 
 ---
 
 # Liste de contrôle de configuration
 
-Adobe Journey Optimizer B2B edition repose sur Adobe Experience Platform. Avec cette implémentation, Journey Optimizer B2B edition et Marketo Engage ne sont pas sur le même système et le même magasin de données. Journey Optimizer B2B edition reçoit des données de Adobe Experience Platform. Cependant, il continue de dépendre des droits de Marketo Engage et de certaines fonctionnalités principales, telles que la diffusion d’e-mails, pour configurer le système.
+Adobe Journey Optimizer B2B edition repose sur Adobe Experience Platform. Avec cette implémentation, Journey Optimizer B2B edition et Marketo Engage ne sont pas sur le même système ou le même magasin de données. Journey Optimizer B2B edition reçoit des données de Adobe Experience Platform. Cependant, il continue de dépendre des droits de Marketo Engage et de certaines fonctionnalités principales, telles que la diffusion d’e-mails, pour configurer le système.
 
 <!-- 
 >>[!NOTE]
@@ -38,15 +38,15 @@ Adobe Journey Optimizer B2B edition repose sur Adobe Experience Platform. Avec c
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-Cette implémentation est la base qui déverrouille les fonctionnalités dans Journey Optimizer B2B edition :
+Cette implémentation est la base qui active des fonctionnalités dans Journey Optimizer B2B edition :
 
-* **Unifiez et mettez à l’échelle facilement vos données :** la plateforme prend en charge des modèles de données complexes, notamment des objets personnalisés, des groupes d’achats et des événements de compte.
+* **Unifier et mettre à l’échelle vos données :** le système prend en charge des modèles de données complexes, y compris les objets personnalisés, les groupes d’achats et les événements de compte.
 
-* **Connecter plusieurs instances Adobe Marketo Engage :** gérez et unifiez les données de plusieurs environnements Marketo Engage en un seul endroit.
+* **Connexion de plusieurs instances Adobe Marketo Engage :** permet de gérer et d’unifier les données de plusieurs environnements Marketo Engage.
 
-* **Protégez vos données :** fonctionnalités avancées de confidentialité et de sécurité qui vous aident à protéger vos informations client. (_Bientôt disponible_)
+* **Protection des données :** fonctionnalités avancées de confidentialité et de sécurité qui permettent de protéger les informations de vos clients. (_Bientôt disponible_)
 
-* **Conçu pour l’avenir :** cette configuration prend en charge les améliorations et innovations continues.
+* **Conception évolutive :** cette configuration prend en charge les améliorations et innovations continues.
 
 Suivez les instructions ci-dessous pour configurer .
 
@@ -262,7 +262,7 @@ Pour envoyer des e-mails depuis [!DNL Journey Optimizer B2B Edition], configurez
 
 ## &#x200B;4. Configuration de canaux de contenu supplémentaires
 
-Pour aider les spécialistes du marketing à inclure d’autres canaux dans leurs parcours, configurez des canaux supplémentaires.
+Pour prendre en charge les équipes marketing qui incluent d’autres canaux dans leurs parcours, configurez des canaux supplémentaires.
 
 <table>
 <thead>

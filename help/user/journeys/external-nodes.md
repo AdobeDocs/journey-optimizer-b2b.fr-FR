@@ -16,9 +16,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: 866
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ Le nœud _Action externe_ appelle un service externe et continue le long d’un 
 
 1. Continuez à créer le parcours à partir des chemins sortants du nœud.
 
-   Le chemin _[!UICONTROL Temporisation ou erreur]_ est automatiquement créé. Si le délai d’expiration (tel que configuré dans le service) expire avant la réception d’une réponse, le compte ou la personne emprunte ce chemin. Il en va de même si une réponse d’erreur est reçue. Vous pouvez ajouter des nœuds de parcours à ce chemin d’accès pour gérer ces scénarios, ou les extrémités de parcours pour le membre de l’audience.
+   Le chemin _[!UICONTROL Temporisation ou erreur]_ est automatiquement créé. Si le délai d’expiration (tel que configuré dans le service) expire avant la réception d’une réponse, le compte ou la personne emprunte ce chemin. Il en va de même si une réponse d’erreur est reçue. Pour gérer ces scénarios, vous pouvez ajouter des nœuds de parcours à ce chemin d’accès ou aux extrémités de parcours pour le membre de l’audience.
 
 ## Nœud de chemins de partage externes {#external-split-paths}
 
-Le nœud Chemins de division externes appelle un service externe et utilise la réponse pour déterminer le chemin d’accès que les comptes doivent emprunter ensuite. Chaque chemin est défini par une condition basée sur une variable (accesseur) renvoyée par le service externe. Le parcours évalue la réponse par rapport aux conditions de chemin définies et achemine chaque compte le long du premier chemin correspondant. Les conditions de chemin sont évaluées dans l’ordre décroissant. Chaque compte suit le premier chemin dont la condition correspond à la valeur renvoyée par le service externe.
+Le nœud Chemins de division externes appelle un service externe et utilise la réponse pour déterminer le chemin d’accès que les comptes doivent emprunter ensuite. Une condition basée sur une variable (accesseur) renvoyée par le service externe définit chaque chemin d’accès. Le parcours évalue la réponse par rapport aux conditions de chemin définies et achemine chaque compte le long du premier chemin correspondant. Les conditions de chemin sont évaluées dans l’ordre décroissant. Chaque compte suit le premier chemin dont la condition correspond à la valeur renvoyée par le service externe.
 
 1. Accédez au mappage du parcours de compte.
 
@@ -101,6 +101,6 @@ Le nœud Chemins de division externes appelle un service externe et utilise la r
 
 1. Continuez à créer le parcours à partir de chaque chemin sortant du nœud.
 
-   Le chemin _[!UICONTROL Temporisation ou erreur]_ est automatiquement créé. Si le délai d’expiration (tel que configuré dans le service) expire avant la réception d’une réponse, le compte ou la personne emprunte ce chemin. Il en va de même si une réponse d’erreur est reçue. Vous pouvez ajouter des nœuds de parcours à ce chemin d’accès pour gérer ces scénarios, ou les extrémités de parcours pour le membre de l’audience.
+   Le chemin _[!UICONTROL Temporisation ou erreur]_ est automatiquement créé. Si le délai d’expiration (tel que configuré dans le service) expire avant la réception d’une réponse, le compte ou la personne emprunte ce chemin. Il en va de même si une réponse d’erreur est reçue. Pour gérer ces scénarios, vous pouvez ajouter des nœuds de parcours à ce chemin d’accès ou aux extrémités de parcours pour le membre de l’audience.
 
-1. Pour _Fractionner par comptes_, vous pouvez ajouter un nœud [Fusionner les chemins](./split-merge-paths-nodes.md#merge-paths) afin de combiner deux chemins ou plus si nécessaire.
+1. Pour combiner plusieurs chemins selon les besoins pour _Fractionner par comptes_, vous pouvez ajouter un [nœud de chemins de fusion](./split-merge-paths-nodes.md#merge-paths).

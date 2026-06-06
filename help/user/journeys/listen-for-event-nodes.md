@@ -16,22 +16,22 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1879
+source-wordcount: 1880
 ht-degree: 12%
 
 ---
 
 # Écouter un événement
 
-Ajoutez le nœud _Écouter un événement_ pour faire passer votre audience à l’étape suivante du parcours lorsqu’un événement se produit.
+Pour déplacer votre audience vers l’étape suivante du parcours lorsqu’un événement se produit, ajoutez le nœud _Écouter un événement_.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width=« 30 », vertical-align=« middle »} [Regardez la vidéo de présentation](#overview-video)
 
 >[!NOTE]
 >
->Pour un parcours de compte, vous ne pouvez pas ajouter ce type de nœud sur le chemin de partage par personnes.
+>Pour un parcours de compte, vous ne pouvez pas ajouter ce type de nœud sur un chemin de partage par personnes.
 
 ## Événements de compte
 
@@ -68,23 +68,23 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 
 >[!TIP]
 >
->Pour acheminer les personnes en fonction des événements d’expérience qui se sont produits _avant_ elles sont entrées dans le parcours (par exemple un clic sur un e-mail précédent ou une interaction web), utilisez le nœud [!UICONTROL Historique des événements] dans un [Partage des chemins par personnes](./split-merge-paths-nodes.md#experience-event-history-filtering).
+>Les événements d’expérience peuvent se produire _avant_ que les personnes n’entrent dans le parcours (par exemple, un clic sur un e-mail précédent ou une interaction web). Pour acheminer des personnes en fonction de ces événements, utilisez le filtre [!UICONTROL Historique des événements] dans un nœud [Fractionner les chemins par les personnes](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
 ### Événements et contraintes
 
 | Type d’entrée | Événement | Contraintes |
 | ---------- | ----- | ----------- |
-| Journey Optimizer édition B2B | [!UICONTROL Affecté au groupe d&#39;achat] | Intérêt de la solution<br/><br/>Contraintes supplémentaires (facultatif) : <li>Autorisations</li><li>Date d’activité</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Clics dans l’e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Plateforme</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Clics sur le lien dans les SMS] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>Appareil</li><li>Plateforme</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Modifications de la valeur des données] | Attribut de personne<br/><br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Ouvre l&#39;e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Plateforme</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| Journey Optimizer édition B2B | [!UICONTROL Affecté au groupe d&#39;achat] | Intérêt de la solution<br/><br/>Contraintes supplémentaires (facultatif) : <li>Rôle</li><li>Date d’activité</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Clics dans l’e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Clics sur le lien dans les SMS] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>Appareil</li><li>Platform</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Modifications de la valeur des données] | Attribut de personne<br/><br/>Contraintes supplémentaires (facultatif) : <li>Nouvelle valeur</li><li>Valeur précédente</li><li>Motif</li><li>Source</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Ouvre l&#39;e-mail] | E-mail<br/><br/>Contraintes supplémentaires (facultatif) : <li>Lien</li><li>ID lien</li><li>Est un appareil mobile</li><li>Appareil</li><li>Platform</li><li>Navigateur</li><li>Est du contenu prédictif</li><li>Est une activité du bot</li><li>Modèle d’activité du bot</li><li>Navigateur</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
 | | [!UICONTROL Supprimé du groupe d&#39;achat] | Intérêt de la solution<br/>Date de l’activité (facultatif)<br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Le score est modifié] | Nom du score<br/><br/>Contraintes supplémentaires (facultatif) :<li>Modifier</li><li>Nouveau score</li><li>Urgence</li><li>Priorité</li><li>Score relatif</li><li>Urgence relative</li><li>Date de l’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
-| | [!UICONTROL Rebonds SMS] | Message SMS<br/><br/>Contraintes additionnelles (optionnel) : <li>Date de l’activité</li><li>Nombre minimum de fois</li><br/>Délai d’expiration (facultatif) |
-| Marketo Engage | [!UICONTROL Page Web Visites] | <br/> de page web Sélectionnez une ou plusieurs pages Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>User Agent</li><li>Moteur de recherche</li><li>Requête</li><li>Jeton</li><li>Navigateur</li><li>Plateforme</li><li>Appareil</li><li>Date d’activité</li> |
-| | [!UICONTROL Remplit le formulaire] | <br/> de formulaire Sélectionnez un ou plusieurs formulaires Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Date de l’activité</li><li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Plateforme</li><li>Appareil</li><br/>Délai d’expiration (facultatif) |
-| Adobe Experience Platform | [!UICONTROL Définition de l’événement] | Type d&#39;événement <br/><br/>Contraintes additionnelles (optionnelles) : <li>Champs</li> <br/>Contraintes additionnelles (non prises en charge) : <li>Date de l’activité</li><li>Min. nombre de fois</li>Délai d’expiration du <br/> (facultatif) |
+| | [!UICONTROL Le score est modifié] | Nom du score<br/><br/>Contraintes supplémentaires (facultatif) :<li>Changement</li><li>Nouveau score</li><li>Urgence</li><li>Priorité</li><li>Score relatif</li><li>Urgence relative</li><li>Date d’activité</li><li>Min. nombre de fois</li><br/>Délai d’expiration (facultatif) |
+| | [!UICONTROL Rebonds SMS] | Message SMS<br/><br/>Contraintes additionnelles (optionnel) : <li>Date d’activité</li><li>Nombre minimum de fois</li><br/>Délai d’expiration (facultatif) |
+| Marketo Engage | [!UICONTROL Page Web Visites] | <br/> de page web Sélectionnez une ou plusieurs pages Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Moteur de recherche</li><li>Requête</li><li>Jeton</li><li>Navigateur</li><li>Platform</li><li>Appareil</li><li>Date d’activité</li> |
+| | [!UICONTROL Remplit le formulaire] | <br/> de formulaire Sélectionnez un ou plusieurs formulaires Marketo Engage à faire correspondre. <br/><br/>Contraintes supplémentaires (facultatif) : <li>Date d’activité</li><li>Chaîne de requête</li><li>Adresse IP du client</li><li>Référent</li><li>Agent utilisateur</li><li>Platform</li><li>Appareil</li><br/>Délai d’expiration (facultatif) |
+| Adobe Experience Platform | [!UICONTROL Définition de l’événement] | Type d&#39;événement <br/><br/>Contraintes additionnelles (optionnelles) : <li>Champs</li> <br/>Contraintes additionnelles (non prises en charge) : <li>Date d’activité</li><li>Min. nombre de fois</li>Délai d’expiration du <br/> (facultatif) |
 
 ### Filtres d’événement de personne
 
@@ -92,11 +92,11 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 | ------------ | ----------- |
 | [!UICONTROL Historique des activités] > [!UICONTROL E-mail] | Les activités d’e-mail basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs e-mails sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans l’e-mail] <li>E-mail ouvert <li>A été diffusé par e-mail <li>A reçu un e-mail <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).--> |
 | [!UICONTROL Historique des activités] > [!UICONTROL Message SMS] | Activités SMS basées sur des conditions qui sont évaluées à l’aide d’un ou de plusieurs messages SMS sélectionnés plus haut dans le parcours : <li>[!UICONTROL Lien cliqué dans le SMS] <li>[!UICONTROL SMS rebond] <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). --> |
-| [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur<li>Valeur précédente<li>Motif<li>Source<li>Date de l’activité<li>Min. nombre de fois <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
+| [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur<li>Valeur précédente<li>Motif<li>Source<li>Date d’activité<li>Min. nombre de fois <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape<li>E-mail<li><!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> Web |
-| [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date de l’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Plateforme <li>Appareil <li>Min. nombre de fois <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Fonction <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désinscription <li>Raison désabonnement |
-| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Évaluation de l’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
+| [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date d’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Platform <li>Appareil <li>Min. nombre de fois <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
+| [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est membre ou non d’une ou de plusieurs listes Marketo Engage. |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | La personne est membre ou non d’un ou de plusieurs programmes Marketo Engage. |
 
@@ -139,7 +139,7 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
      ![Écouter un événement d’expérience](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
 
-     Vous pouvez répéter cette action pour inclure d’autres contraintes de champ, si nécessaire.
+     Pour inclure d’autres contraintes de champ si nécessaire, répétez cette action.
 
    * Si nécessaire, sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#add-a-filter-to-the-people-event).
 
@@ -211,7 +211,7 @@ _Pour inclure un événement d’expérience dans votre parcours :_
 
    ![Écouter le nœud d’événement par les personnes - Sélectionnez l’onglet Filtres pour modifier l’événement](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
-1. Ajoutez un ou plusieurs filtres pour cibler les personnes de l&#39;événement.
+1. Pour cibler les personnes de l&#39;événement, ajoutez un ou plusieurs filtres.
 
    * Effectuez un glisser-déposer de l’un des [filtres de personnes](#people-event-filters) à partir du volet de navigation de gauche et renseignez la définition de correspondance.
 
@@ -219,7 +219,7 @@ _Pour inclure un événement d’expérience dans votre parcours :_
      >
      >Si des champs de personne personnalisés sont définis dans le schéma d’audience du compte dans Experience Platform, ces champs sont également disponibles sous **[!UICONTROL Attributs]** pour être utilisés comme attributs de personne dans les filtres.
 
-   * Ajustez votre filtrage en appliquant la **[!UICONTROL logique de filtre]** en haut. Vous choisissez de faire correspondre tous les filtres ou n’importe quel filtre.
+   * Affinez votre filtrage en appliquant la **[!UICONTROL logique de filtre]** en haut. Vous pouvez choisir de faire correspondre tous les filtres ou n’importe quel filtre.
 
      ![Filtres de personne utilisés dans une définition d’événement](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 

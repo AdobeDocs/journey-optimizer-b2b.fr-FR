@@ -17,16 +17,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:05:00.531Z
 TQID: https://experienceleague.adobe.com/3gCGyaNUShU2ZHvIqc4FwsH7floQjrSy9fcdfevRYlE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 386
-ht-degree: 95%
+source-wordcount: 388
+ht-degree: 72%
 
 ---
 
 # Conseils d’intégration des utilisateurs
 
-Les fonctionnalités et outils que vous souhaiterez aborder dans Adobe Journey Optimizer B2B Edition dépendent de votre rôle au sein de votre équipe. Selon votre organisation, les administrateurs et administratrices peuvent définir plusieurs types d’utilisateurs et d’utilisatrices, puis leur accorder l’accès à certaines fonctionnalités selon leurs autorisations.
+Les fonctionnalités et outils que vous souhaitez utiliser dans Adobe Journey Optimizer B2B edition dépendent de votre rôle au sein de votre équipe. Selon votre organisation, les administrateurs et administratrices peuvent définir plusieurs types d’utilisateurs et d’utilisatrices, puis leur accorder l’accès à certaines fonctionnalités selon leurs autorisations.
 
 Une fois qu’un administrateur a terminé les [tâches de configuration](../setup-ultimate.md), utilisez ces informations pour l’intégration générale des utilisateurs.
 
@@ -38,17 +38,17 @@ En tant que spécialiste du marketing ou _spécialiste en parcours de compte_, v
 
 Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des ressources et envoyer du contenu :
 
-1. **Ajoutez des audiences de comptes**. Journey Optimizer B2B Edition vous permet de créer des audiences de comptes via les définitions de segments directement à partir de l’application, puis de les exploiter dans vos parcours de compte. [En savoir plus](../audiences/account-audience-overview.md)
+1. **Ajoutez des audiences de comptes**. Journey Optimizer B2B edition vous permet de créer des audiences de compte par le biais de définitions de segment directement à partir de l’application et de les exploiter dans vos parcours de compte. [En savoir plus](../audiences/account-audience-overview.md)
 
 1. **Créez des groupes d’achat**. Définissez les composants clés permettant d’atteindre les buts et objectifs de votre entreprise, puis créez des groupes d’achat qui identifient les membres de vos listes de comptes cibles. [En savoir plus](../buying-groups/buying-groups-overview.md)
 
-1. **Créez et gérez des ressources**. Adobe Experience Manager Assets fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages. [En savoir plus](../content/assets-overview.md)
+1. **Créez et gérez des ressources**. Adobe Experience Manager Assets fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser dans vos messages. [En savoir plus](../content/assets-overview.md)
 
-1. **Ajoutez des modèles d’e-mail personnalisés et dynamiques**. Profitez des fonctionnalités de personnalisation et du contenu dynamique de Journey Optimizer B2B Edition pour adapter votre message à votre audience. [En savoir plus](../content/email-templates.md)
+1. **Ajouter des modèles d’e-mail personnalisés et dynamiques**. Profitez des fonctionnalités de personnalisation et du contenu dynamique de Journey Optimizer B2B Edition pour adapter votre message à votre audience. [En savoir plus](../content/email-templates.md)
 
 1. **Concevez des parcours de compte pour offrir des expériences contextuelles personnalisées**. Journey Optimizer B2B Edition vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
-   * Envoyez des diffusions unitaires en temps réel déclenchées lors de la réception d’un événement ou par lots à l’aide d’audiences Adobe Experience Platform.
+   * Envoyez des diffusions unitaires en temps réel qui sont déclenchées lorsqu’un événement est reçu ou par lots à l’aide d’audiences Adobe Experience Platform.
 
    * Tirez parti des données contextuelles issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
 

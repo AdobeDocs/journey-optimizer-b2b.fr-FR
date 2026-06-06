@@ -16,16 +16,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 134
-ht-degree: 14%
+source-wordcount: 133
+ht-degree: 15%
 
 ---
 
 # Nœuds de parcours
 
-Après avoir créé un parcours (parcours de compte ou parcours de personne), ajoutez l’audience et créez le parcours à l’aide de nœuds . La carte de parcours fournit une zone de travail, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes.
+Après avoir créé un parcours (parcours de compte ou parcours de personne), ajoutez l’audience et construisez le parcours à l’aide de nœuds . La carte de parcours fournit une zone de travail dans laquelle vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes.
 
 Les nœuds d’audience sont automatiquement les premiers nœuds du parcours :
 

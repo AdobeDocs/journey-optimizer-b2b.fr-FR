@@ -17,7 +17,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 483
 ht-degree: 0%
@@ -61,7 +61,7 @@ Vous pouvez configurer l’optimisation de l’heure d’envoi lorsque vous [ajo
 
 1. Utilisez le bouton (bascule) **[!UICONTROL Optimisation de l’heure d’envoi]** pour activer la fonctionnalité.
 
-1. Définissez les options STO pour spécifier la fenêtre et la distribution de test :
+1. Pour spécifier la fenêtre et la distribution de test, définissez les options STO :
 
    * **[!UICONTROL Envoyer dans les prochains]** - Cette valeur détermine la fenêtre d’optimisation (en jours), qui correspond à la période pendant laquelle les e-mails peuvent être diffusés. Par exemple, pour un webinaire ayant lieu dans cinq jours, vous pouvez définir une fenêtre de quatre ou cinq jours. STO sélectionne l’heure d’envoi la mieux prévue pour chaque profil dans cette fenêtre.
 

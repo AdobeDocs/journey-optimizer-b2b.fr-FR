@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 1605
 ht-degree: 12%
@@ -125,7 +125,7 @@ L&#39;événement enregistré est affiché dans la liste de l&#39;onglet _[!UICO
 
 ### Modification d’un événement {#edit-an-event}
 
-Modifiez les détails de l’événement pour modifier les champs.
+Pour modifier les champs, modifiez les détails de l’événement.
 
 1. Cliquez sur le nom de l’événement ou cliquez sur l’icône _Plus_ ( **...** ) et choisissez **[!UICONTROL Modifier]**.
 
@@ -151,7 +151,7 @@ Pour empêcher l’utilisation d’un événement d’expérience dans un nœud 
 
 Par [!DNL Journey Optimizer B2B Edition], certaines activités au niveau des personnes sont capturées en tant qu’événements d’expérience [!DNL Experience Platform]. Ces événements sont stockés dans un jeu de données système qui utilise le schéma d’événement d’expérience XDM et inclut des groupes de champs spécifiques au parcours. Vous pouvez utiliser ces événements dans [!UICONTROL Journey Optimizer B2B edition] comme tout autre événement d’expérience.
 
-Chaque événement expose un ensemble défini de champs qui peuvent être utilisés dans le parcours _Écouter un événement_ nœuds (prise de décision basée sur des événements). Passez en revue les types d’événement disponibles et leurs champs pour déterminer l’événement et les champs à utiliser dans ces nœuds de parcours :
+Chaque événement expose un ensemble défini de champs qui peuvent être utilisés dans le parcours _Écouter un événement_ nœuds (prise de décision basée sur des événements). Pour déterminer les événements et les champs à utiliser dans ces nœuds de parcours, passez en revue les types d’événements disponibles et leurs champs :
 
 ### E-mail envoyé {#email-sent}
 
@@ -297,7 +297,7 @@ Type d’événement : `directMarketing.emailBounced`
 | Identifiant de l’instance source du mailing | `directMarketing.mailingKey.sourceInstanceID` |
 | Clé source du mailing | `directMarketing.mailingKey.sourceKey` |
 | Nom du publipostage | `directMarketing.mailingName` |
-| Adresse e-mail | `directMarketing.email` |
+| E-mail | `directMarketing.email` |
 | Code de rebond de l’e-mail | `directMarketing.emailBouncedCode` |
 | Détails de l’e-mail rebond | `directMarketing.emailBouncedDetails` |
 | ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
@@ -328,7 +328,7 @@ Type d’événement : `directMarketing.emailBouncedSoft`
 | Identifiant de l’instance source du mailing | `directMarketing.mailingKey.sourceInstanceID` |
 | Clé source du mailing | `directMarketing.mailingKey.sourceKey` |
 | Nom du publipostage | `directMarketing.mailingName` |
-| Adresse e-mail | `directMarketing.email` |
+| E-mail | `directMarketing.email` |
 | Code de rebond de l’e-mail | `directMarketing.emailBouncedCode` |
 | Détails de l’e-mail rebond | `directMarketing.emailBouncedDetails` |
 | ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |

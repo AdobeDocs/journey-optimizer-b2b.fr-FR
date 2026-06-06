@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 81%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +41,7 @@ Pour utiliser les actions de parcours Marketo Engage, un administrateur doit d�
 >title="Connexions Marketo Engage externes"
 >abstract="Les administrateurs et administratrices de produit peuvent configurer les connexions aux instances Marketo Engage externes, ce qui les rend disponibles pour les actions de parcours."
 
-Effectuez les tâches suivantes pour configurer une instance Marketo Engage externe à utiliser avec des actions de parcours.
+Pour configurer une instance Marketo Engage externe à utiliser avec des actions de parcours, effectuez les tâches suivantes.
 
 ### Création du service personnalisé Marketo Engage
 
@@ -86,6 +86,6 @@ Lorsqu’un spécialiste marketing utilise une action Marketo Engage dans un par
 >
 >Les actions Marketo Engage exécutées à partir d’un parcours ne s’appliquent pas aux limites de l’API REST pour l’instance Marketo Engage connectée.
 
-Une fois l’intégration terminée, les actions Marketo Engage sont disponibles à partir de l’**Actions sur** dans les propriétés de nœud.
+Une fois l’intégration terminée, les actions Marketo Engage sont disponibles à partir de **_Actions sur:_** dans les propriétés de nœud.
 
 ![Liste des actions Marketo](assets/marketo-actions-list.png){width="800" zoomable="yes"}

@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 96%
+source-wordcount: 1003
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ La configuration de Journey Optimizer B2B edition comprend la configuration des 
 
 >[!AVAILABILITY]
 >
->- Vous devez avoir accès à [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} pour que vos schémas B2B soient qualifiés dans [Real-Time Customer Profile](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/home){target="_blank"}.
+>- Pour que vos schémas B2B soient qualifiés dans [Real-Time Customer Profile](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/home){target="_blank"}, vous devez avoir accès à [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}.
 >
 >- Vos entités B2B Experience Platform doivent utiliser les relations standard décrites dans le guide [&#x200B; Espaces de noms et schémas B2B &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
@@ -104,7 +104,7 @@ Les espaces de noms B2B sont utilisés dans l’identité principale de l’enti
 
 Experience Platform utilise des schémas pour décrire la structure des données de manière cohérente et réutilisable. En définissant les données de manière cohérente sur l’ensemble des systèmes, il est plus simple de leur donner du sens et donc d’en tirer profit.
 
-Avant qu’Experience Platform puisse ingérer des données, un schéma doit décrire la structure des données et fournir des contraintes au type de données pouvant être contenu dans chaque champ. Les schémas se composent d’une classe de base et de zéro ou plusieurs groupes de champs.
+Avant qu’Experience Platform puisse ingérer des données, un schéma doit décrire la structure des données et fournir des contraintes sur le type de données pouvant être contenu dans chaque champ. Les schémas se composent d’une classe de base et de zéro ou plusieurs groupes de champs.
 
 Pour plus d’informations sur le modèle de composition de schémas, y compris sur les principes de conception et les bonnes pratiques, voir [_Principes de base de la composition de schémas_](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
@@ -387,7 +387,7 @@ Pour plus d’informations sur le modèle de composition de schémas, y compris 
 
 >[!NOTE]
 >
->Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 
@@ -431,7 +431,7 @@ Pour plus d’informations sur le modèle de composition de schémas, y compris 
 
 >[!NOTE]
 >
->Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 

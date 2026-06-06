@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Vous pouvez configurer des diffusions e-mail dans un parcours lorsque vous [ajou
 
    * Choisissez **[!UICONTROL Sélectionner un e-mail dans Adobe Marketo Engage]** pour utiliser l’un des e-mails précréés dans Marketo Engage et l’envoyer dans le cadre du parcours.
 
-     Si plusieurs espaces de travail sont disponibles dans l’instance Market Engage connectée, sélectionnez-les. Sélectionnez ensuite l’e-mail approuvé que vous souhaitez envoyer pour le nœud de parcours.
+     Si plusieurs espaces de travail sont disponibles dans l’instance Marketo Engage connectée, sélectionnez l’espace de travail. Sélectionnez ensuite l’e-mail approuvé que vous souhaitez envoyer pour le nœud de parcours.
 
      ![Sélectionner l’e-mail Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -138,7 +138,7 @@ Deux types d’alertes peuvent être détectés :
      >
      >Les e-mails de style marketing doivent inclure un lien d’opt-out, qui n’est pas obligatoire pour les messages transactionnels.
 
-   * `Text version of HTML is empty` : n’oubliez pas de définir une version texte du corps de votre email, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
+   * `Text version of HTML is empty` : définissez une version texte du corps de votre e-mail, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
    * `Empty link is present in email body` : vérifiez que tous les liens de votre e-mail sont corrects.
 

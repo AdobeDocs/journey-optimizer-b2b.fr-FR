@@ -21,9 +21,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: 846
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Pour personnaliser efficacement les SPA, vous devez configurer le suivi des vues
 
 ### Configurer les déclarations de vue
 
-Collaborez avec votre équipe de développement pour implémenter des déclarations d’affichage à l’aide du SDK Web Adobe. L’utilisation de ces déclarations d’affichage implique l’appel de la commande `sendEvent` avec des informations d’affichage chaque fois que la SPA accède à une nouvelle vue.
+Collaborez avec votre équipe de développement pour implémenter des déclarations d’affichage à l’aide du SDK Web Adobe. L’utilisation de ces déclarations d’affichage implique d’appeler la commande `sendEvent` avec des informations d’affichage chaque fois que la SPA accède à une nouvelle vue.
 
 **Exemple d’implémentation :**
 
@@ -115,9 +115,9 @@ Configurez les modifications pour attendre que les éléments cibles existent av
 
 1. La modification s’applique une fois que l’élément cible apparaît dans le DOM.
 
-#### Utilisation d’observateurs de mutation
+#### Mise en œuvre d’observateurs des mutations
 
-Pour un contenu hautement dynamique, le Web SDK inclut des observateurs de mutation intégrés qui détectent lorsque de nouveaux éléments sont ajoutés à la page. Ces observateurs s’assurent que les modifications sont appliquées même lorsque les éléments se chargent de manière asynchrone.
+Pour un contenu hautement dynamique, le Web SDK inclut des observateurs de mutation qui détectent lorsque de nouveaux éléments sont ajoutés à la page. Ces observateurs s’assurent que les modifications sont appliquées même lorsque les éléments se chargent de manière asynchrone.
 
 ### Structures SPA
 
@@ -170,12 +170,12 @@ Lors du test des expériences web SPA :
 Certaines SPA utilisent des animations ou des transitions entre les vues. Pensez-y :
 
 * **Minutage** - Assurez-vous que les modifications s’appliquent une fois les animations de transition terminées.
-* **Visibilité des éléments** - Les éléments peuvent exister mais être masqués lors des transitions.
+* **Visibilité des éléments** - Les éléments peuvent exister mais sont masqués lors des transitions.
 * **Scintillement** - Appliquez les modifications suffisamment tôt pour éviter les changements de contenu visibles.
 
 ## Dépannage
 
-Lorsque vous passez en revue les modifications de conception de la SPA, suivez les recommandations ci-après pour résoudre certains problèmes courants :
+Lorsque vous passez en revue les modifications de conception des SPA, suivez les recommandations suivantes pour résoudre certains problèmes courants :
 
 * **Les modifications n’apparaissent pas** - Si les modifications n’apparaissent pas sur votre SPA :
 

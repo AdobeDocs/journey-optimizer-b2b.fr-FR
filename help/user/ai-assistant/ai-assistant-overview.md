@@ -5,6 +5,8 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
+autotag-review: '2026-06-05T16:05:30.499Z'
+TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -17,17 +19,18 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1314
+source-wordcount: 1300
 ht-degree: 9%
 
 ---
 
 # Assistant d’IA dans Journey Optimizer B2B edition
 
-L’assistant AI dans Journey Optimizer B2B edition est créé à partir de la même base technologique que l’[assistant AI dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}. Il s’agit d’une expérience de conversation que vous pouvez utiliser pour accélérer vos workflows dans Adobe Journey Optimizer B2B edition. Vous pouvez utiliser l’assistant d’IA pour mieux comprendre les fonctionnalités du produit, résoudre les problèmes ou parcourir les informations et trouver des informations opérationnelles pour Journey Optimizer B2B edition.
+L’assistant AI de Journey Optimizer B2B edition est créé à partir de la même base technologique que l’[assistant AI de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}. Il s’agit d’une expérience de conversation que vous pouvez utiliser pour accélérer vos workflows dans Adobe Journey Optimizer B2B edition. Vous pouvez utiliser l’assistant d’IA pour mieux comprendre les fonctionnalités du produit, résoudre les problèmes ou parcourir les informations et trouver des informations opérationnelles pour Journey Optimizer B2B edition.
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,7 @@ L’assistant AI dans Journey Optimizer B2B edition est créé à partir de la m
 
 ## Fonctionnalités de l’assistant AI dans Journey Optimizer B2B edition
 
-Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes. Elle est également connue sous le nom de _&#x200B;**_graphique de connaissances_**&#x200B;_, un réseau complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
+Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes. Elle est également connue sous le nom de _&#x200B;**_graphique de connaissances_**&#x200B;_, c’est-à-dire un ensemble complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
 
 * Documentation Experience League.
 * Artefacts opérationnels, tels que des schémas, des champs, des audiences et des parcours.
@@ -62,7 +65,7 @@ La connaissance des produits fait référence aux concepts et aux sujets abordé
 
 ### Informations opérationnelles
 
-_Informations opérationnelles_ reportez-vous aux réponses que l’assistant AI génère sur vos objets de métadonnées (attributs, audiences de compte, flux de données, jeux de données, destinations, parcours de compte, schémas, sources, modèles de groupe d’achat et centres d’intérêt des solutions). Ces informations incluent les nombres, les recherches et l’impact de la parenté. Elles n’examinent aucune donnée dans le sandbox.
+_Informations opérationnelles_ se rapportent aux réponses générées par l’assistant IA sur vos objets de métadonnées (attributs, audiences de compte, flux de données, jeux de données, destinations, parcours de compte, schémas, sources, modèles de groupe d’achat et centres d’intérêt des solutions). Ces informations incluent les nombres, les recherches et l’impact de la parenté. Elles n’examinent aucune donnée dans le sandbox.
 
 * Quelle audience de compte a la plus grande taille d’audience et quelle est cette taille ?
 * Combien d’audiences de compte n’ont jamais été utilisées dans aucun parcours ?
@@ -72,13 +75,13 @@ Vous pouvez poser des questions à l’assistant d’IA sur vos informations op�
 
 | Domaine | Métadonnées prises en charge | Métadonnées non prises en charge |
 | --- | --- | --- |
-| Attributs/champs | <li>Recherche de nom d’attribut <li>Attribut - relation de schéma <li>Attribut - relation du jeu de données <li>Attribut - Relation d’audience <li>Attribut - relation de destination | <li>Classe d’attribut <li>Journal <li>Statut d’obsolescence <li>Intitulés <li>Valeur stockée dans les attributs |
-| Audiences du compte <br><br>**_Remarque:_** dans le contexte du B2B edition Journey Optimizer, l’assistant AI ne peut répondre aux questions d’audience que pour les audiences du compte. Dans le contexte d’Experience Platform, l’assistant AI ne peut répondre qu’aux questions des personnes audiences. | <li>Nombre d’audiences <li>Type d’audience (diffusion en continu ou par lots) <li>Dates de création/modification <li>Statut d’activation <li>Nombre de membres <li>Dupliquer les audiences <li>Recherche par nom et ID | <li>Chevauchements des audiences <li>Activation d’audience <li>Journal <li>Créer/modifier <li>Intitulés <li>Tendances de qualification des membres |
+| Attributs/champs | <li>Recherche de nom d’attribut <li>Attribut - relation de schéma <li>Attribut - relation du jeu de données <li>Attribut - Relation d’audience <li>Attribut - relation de destination | <li>Classe d’attribut <li>Journal <li>Statut d’obsolescence <li>Libellés <li>Valeur stockée dans les attributs |
+| Audiences du compte <br><br>**_Remarque:_** dans le contexte du B2B edition Journey Optimizer, l’assistant AI ne peut répondre aux questions d’audience que pour les audiences du compte. Dans le contexte d’Experience Platform, l’assistant AI ne peut répondre qu’aux questions des personnes audiences. | <li>Nombre d’audiences <li>Type d’audience (diffusion en continu ou par lots) <li>Dates de création/modification <li>Statut d’activation <li>Nombre de membres <li>Dupliquer les audiences <li>Recherche par nom et ID | <li>Chevauchements des audiences <li>Activation d’audience <li>Journal <li>Créer/modifier <li>Libellés <li>Tendances de qualification des membres |
 | Flux de données | <li>Nombre de flux de données <li>Statut du flux de données <li>Flux de données - Relation du jeu de données <li>Flux de données - Relation source | <li>Création/modification <li>Relations flux de données-lot <li>Ingérer le nombre de profils |
 | Jeux de données | <li>Nombre de jeux de données <li>Statut d’activation du profil <li>Date de création/modification <li>Jeu de données - Relation de schéma <li>Jeu de données - Relation d’audience <li>Relation jeu de données - attribut <li>Jeu de données - Relation de flux de données <li>Recherche de nom <li>Recherche par nom et ID | <li>Journal <li>Création par <li>Jeu de données - Relation par lots <li>Création/modification de jeu de données <li>Taille du jeu de données <li>Nombre de profils <li>Nombre de lignes <li>Recherche de valeur |
 | Destinations | <li>Nombre de destinations configurées <li>Relation destination-audience <li>Relation d’attributs de destination | <li>Configuration du compte <li>Informations d’identification du compte <li>Profils uniques activés |
 | Parcours (Parcours de compte) | <li>Nombre <li>Recherche par nom et ID <li>Statut du parcours <li>Dates de création/modification | <li>Audit Attributs - Relations de parcours <li>Création/modification <li>Création par |
-| Schémas | <li>Nombre de schémas <li>Date de création/modification <li>Schéma - Relation des attributs <li>Schéma - Relation du jeu de données <li>Schéma - Relation d’audience <li>Statut d’activation du profil <li>Recherche de nom <li>Recherche par nom et ID | <li>Journal <li>Création/modification <li>Création par <li>Groupes de champs <li>Identités <li>Espaces de noms d’identité <li>Intitulés <li>Nombre de profils |
+| Schémas | <li>Nombre de schémas <li>Date de création/modification <li>Schéma - Relation des attributs <li>Schéma - Relation du jeu de données <li>Schéma - Relation d’audience <li>Statut d’activation du profil <li>Recherche de nom <li>Recherche par nom et ID | <li>Journal <li>Création/modification <li>Création par <li>Groupes de champs <li>Identités <li>Espaces de noms d’identité <li>Libellés <li>Nombre de profils |
 | Sources | <li>Comptes <li>Statut du compte <li>Flux de données actifs/inactifs pour chaque compte <li>Connecteur Source - Relation de flux de données <li>Compte Source - relation du flux de données | <li>Informations d’identification du compte <li>Configuration du compte Mesures d’ingestion de données <li>Nombre de relations profilsSource - lot |
 | Modèle de groupe d&#39;achat | <li>Comptages <li>Statut <li>Rôles <li>Recherche par nom et ID | <li>Règles de rôle |
 | Intérêt de la solution | <li>Comptages <li>Statut <li>Intérêt de la solution - Relation du modèle de groupe d’achat <li>Recherche par nom et ID | <li>Intérêt de la solution - Relation du groupe d’achat |
@@ -97,9 +100,9 @@ Actuellement, la portée de l’assistant AI est la suivante :
 
 ### Confidentialité, sécurité et gouvernance
 
-L’assistant AI de Journey Optimizer B2B edition place la confidentialité, la sécurité et la gouvernance au premier plan. Consultez les informations suivantes pour en savoir plus sur les fonctionnalités axées sur la confiance du client que vous pouvez attendre de l’assistant AI :
+L’assistant AI dans Journey Optimizer B2B edition donne la priorité à la confidentialité, à la sécurité et à la gouvernance. Consultez les informations suivantes pour en savoir plus sur les fonctionnalités axées sur la confiance du client que vous pouvez attendre de l’assistant AI :
 
-* Aucune donnée personnelle n&#39;est actuellement utilisée par AI Assistant, même à des fins de formation.
+* AI Assistant n’utilise pas de données personnelles aujourd’hui, même à des fins de formation.
 
 * L’assistant AI ne connaît pas les données client, telles que les personnes, les comptes, les opportunités et les groupes d’achats.
 
@@ -109,7 +112,7 @@ L’assistant AI de Journey Optimizer B2B edition place la confidentialité, la 
 
    * Les autorisations sont granulaires et votre administrateur de sandbox peut configurer les utilisateurs autorisés à poser différentes catégories de questions (questions basées sur les connaissances du produit avec l’assistant AI ou questions sur les informations opérationnelles).
 
-* Vous pouvez consulter un journal de vos interactions précédentes avec l’assistant AI avec une politique de conservation de 30 jours.
+* Vous pouvez afficher un journal de 30 jours de vos interactions précédentes avec l’assistant AI.
 
 * L’assistant AI repose sur des données spécifiques aux sandbox et sur la documentation publique d’Adobe lorsqu’il répond aux invites des utilisateurs. Les données ne sont pas partagées entre les sandbox.
 
@@ -129,7 +132,7 @@ L’assistant AI peut répondre aux requêtes sur les connaissances des produits
 
 **L’assistant AI peut-il fournir des informations sur les données client ?**
 
-Non. L’assistant AI n’a pas accès aux données client et par conséquent, elles ne sont pas consultées ni utilisées par l’assistant AI.
+Non. L’assistant AI n’a pas accès aux données client et par conséquent, elles ne sont pas consultées ni utilisées.
 
 **Mes informations personnelles sont-elles utilisées dans les données de formation de l’assistant AI ?**
 

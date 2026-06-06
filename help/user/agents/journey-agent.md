@@ -4,6 +4,8 @@ description: Découvrez comment utiliser le Journey Agent optimisé par l’IA e
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
+autotag-review: '2026-06-05T16:42:46.785Z'
+TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -16,11 +18,13 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -59,7 +63,7 @@ Pour utiliser la compétence Journey Agent Build, saisissez dans la fenêtre d�
 
 ![Invite B2B de l’agent de Parcours pour la compétence Créer](./assets/journey-agent-tasks.png)
 
-Plus vous pouvez fournir de détails, mieux la réponse sera. Si des documents marketing existants décrivent l’événement, votre produit, etc., collez-les dans l’invite afin que l’agent ait une meilleure idée de l’objectif.
+Plus vous fournissez de détails, meilleure est la réponse. Si des documents marketing existants décrivent l’événement, votre produit, etc., collez-les dans l’invite afin que l’agent ait une meilleure compréhension de l’objectif.
 
 « Agissez en tant que stratégiste du parcours B2B pour créer un parcours de compte client à plusieurs étapes qui nourrit et implique les décideurs et les personnages marketing dans la phase d’exploration initiale de `<Solution Name>`. L’objectif est de convertir des visiteurs anonymes en contacts connus, d’approfondir l’engagement avec du contenu pertinent sur `<domain>`.com et de créer des prospects qualifiés pour la sensibilisation aux ventes `<Product Name>`. Utilisez des canaux tels que les e-mails et les médias achetés, en exploitant les segments d’audience et le contenu existants. Structurez le parcours entre les étapes de sensibilisation, de considération et d’évaluation sur 4 à 6 semaines, avec des déclencheurs, des actions et des objectifs clairs pour chaque étape. Incluez des KPI tels que les taux de conversion, les scores d’engagement et les demandes de démonstration, et renvoyez la sortie sous la forme d’un flux de parcours structuré. »
 
@@ -85,8 +89,7 @@ Exemples complets d’invites de Parcours :
 
 ### Parcours à plusieurs étapes
 
-Vous pouvez agir en tant que concepteur de parcours B2B pour créer un parcours de compte client à plusieurs étapes qui informe les décideurs et les personnages marketing dès le début de la phase d’exploration.
-L’objectif est de convertir des visiteurs anonymes en contacts connus, d’approfondir l’engagement avec du contenu pertinent et de créer des pistes qualifiées pour la sensibilisation des ventes.
+Vous pouvez agir en tant que concepteur de parcours B2B pour créer un parcours de compte client à plusieurs étapes qui informe les décideurs et les personnages marketing dès le début de la phase d’exploration. L’objectif est de convertir des visiteurs anonymes en contacts connus, d’approfondir l’engagement avec du contenu pertinent et de créer des pistes qualifiées pour la sensibilisation des ventes.
 
 * Utilisez des canaux tels que `Email`, `Paid media` et `Personalized web experiences` pour tirer parti des segments et du contenu d’audience existants.
 * Structurez le parcours entre les étapes `awareness`, `consideration` et `evaluation` sur 4 à 6 semaines, avec des déclencheurs, des actions et des objectifs clairs pour chaque étape.
@@ -145,7 +148,7 @@ Pour les parcours qui diffusent vers des canaux externes tels que LinkedIn, vous
 
 ### Synchronisation des données et observabilité du pipeline
 
-La compétence Observability peut également faire apparaître les informations d’intégrité de la synchronisation des données pour aider à résoudre les problèmes qui peuvent expliquer pourquoi un compte ou un prospect n’a pas été inclus dans un parcours :
+La compétence Observability peut également faire apparaître les informations d’intégrité de la synchronisation des données pour aider à résoudre les problèmes qui expliquent pourquoi un compte ou un prospect n’a pas été inclus dans un parcours :
 
 * Mesures et statut de la tâche d’exportation d’audience externe
 * Plannings de segmentation par lots et heures d’achèvement

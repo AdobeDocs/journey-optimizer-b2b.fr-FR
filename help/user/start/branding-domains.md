@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1014
-ht-degree: 89%
+source-wordcount: 1015
+ht-degree: 83%
 
 ---
 
@@ -29,15 +29,15 @@ Un domaine de marque dans Marketo Engage est un sous-domaine personnalisé (tel 
 
 * Il remplace les liens génériques par votre propre marque dans les liens hypertexte des e-mails.
 * Lorsqu’un prospect de compte clique sur un lien, il redirige via ce domaine personnalisé afin d’autoriser le suivi des performances tout en semblant légitime aux filtres d’e-mail.
-* Si vous disposez de plusieurs marques, vous pouvez configurer des domaines de marque supplémentaires pour prendre en charge différentes unités commerciales ou marques.
+* Pour prendre en charge différentes unités commerciales ou marques, vous pouvez configurer des domaines de marque supplémentaires si vous disposez de plusieurs marques.
 
 >[!BEGINSHADEBOX]
 
 **CNAME uniques pour les liens de suivi**
 
-Les liens de tracking e-mail doivent être nouveaux et uniques pour l’instance Marketo Engage jointe. Si vous disposez de CNAME pour le suivi des liens pointant vers une instance Marketo Engage préexistante (de production), ils ne peuvent pas être réutilisés sans modification.
+Les liens de tracking e-mail doivent être nouveaux et uniques pour l’instance Marketo Engage jointe. Si vous disposez de CNAME pour le suivi des liens pointant vers une instance Marketo Engage préexistante (de production), ils doivent être modifiés avant de pouvoir être réutilisés.
 
-Vous pouvez partager le branding de domaine de chemin de retour entre votre instance Marketo Engage de production et l’instance jointe, mais il s’agit d’une modification du serveur principal. Ouvrez un ticket d’assistance et fournissez votre préfixe Marketo Engage (Munchkin ID) ainsi que votre nouveau préfixe Journey Optimizer B2B edition (Munchkin ID) pour demander le branding de domaine de chemin de retour partagé.
+Vous pouvez partager le branding de domaine de chemin de retour entre votre instance Marketo Engage de production et l’instance jointe, mais cette modification correspond à une modification du serveur principal. Ouvrez un ticket d’assistance et fournissez votre préfixe Marketo Engage (Munchkin ID) ainsi que votre nouveau préfixe Journey Optimizer B2B edition (Munchkin ID) pour demander le branding de domaine de chemin de retour partagé.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Vous pouvez partager le branding de domaine de chemin de retour entre votre inst
 >
 >Avant de modifier ou d’ajouter un domaine dans l’interface utilisateur, vous devez disposer d’un [CNAME mappé à un domaine Marketo Engage fourni par Adobe](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
->Lors de l’ajout d’un domaine, le système vérifie les SSL préexistants, qui peuvent avoir été créés manuellement au préalable. Si vous rencontrez cette validation, créez votre domaine sans sélectionner la création SSL, puis connectez-le en tant que procédure distincte.
+>Lors de l’ajout d’un domaine, le système vérifie les SSL préexistants, qui ont été créés manuellement précédemment. Si vous rencontrez cette validation, créez votre domaine sans sélectionner la création SSL, puis connectez-le en tant que procédure distincte.
 
 ## Accès aux domaines de branding dans Marketo Engage
 

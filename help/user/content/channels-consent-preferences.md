@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 415
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ Journey Optimizer B2B edition évalue les attributs XDM suivants pour le consent
 | `consents.marketing.whatsApp.val` | Opt-in | Opt-out | Opt-out |
 | `consents.idSpecific.Phone.<number>.marketing.whatsApp.val` | Opt-in | Opt-out | Opt-out |
 
-Gardez à l’esprit les points suivants pour le consentement WhatsApp :
+Tenez compte des points suivants pour le consentement WhatsApp :
 
 * Si la valeur d’attribut WhatsApp globale (`consents.marketing.whatsApp.val`) est présente, elle est utilisée pour l’évaluation du consentement.
 * Si la valeur d’attribut globale n’est pas présente, mais qu’une entrée spécifique à l’expéditeur est présente, l’entrée spécifique à l’expéditeur est utilisée pour l’évaluation du consentement.

@@ -17,7 +17,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 1912
 ht-degree: 0%
@@ -30,7 +30,7 @@ Le nœud _Meilleur chemin suivant_ apporte la prise de décision de chemin parta
 
 >[!NOTE]
 >
->Les nœuds de meilleur chemin suivants sont disponibles uniquement dans les parcours de personne. Ils ne sont pas pris en charge dans les parcours de compte.
+>Les nœuds de meilleur chemin suivants sont disponibles uniquement dans les parcours personnels. Ils ne sont pas pris en charge dans les parcours de compte.
 
 Dans l’achat B2B, un profil peut sembler être un type d’acheteur, mais son comportement, ses données micrographiques et son contexte d’engagement révèlent une histoire plus nuancée. Le nœud de meilleur chemin suivant évalue ce contexte pour prendre une décision de routage intelligente, tout en vous permettant de réviser, de modifier ou de remplacer toute recommandation d’IA avant d’activer le parcours.
 

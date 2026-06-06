@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 6%
+source-wordcount: 1164
+ht-degree: 7%
 
 ---
 
@@ -44,11 +44,11 @@ Après avoir créé et personnalisé le contenu de l’e-mail, vous pouvez expor
 
 >[!TIP]
 >
->Utilisez l’assistant d’IA dans Adobe Journey Optimizer B2B edition, optimisé par l’IA générative pour élever votre contenu au niveau supérieur. L’assistant AI peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets, du contenu textuel ciblé et en obtenant des recommandations de l’assistant AI pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
+>Utilisez l’assistant d’IA dans Adobe Journey Optimizer B2B edition, optimisé par l’IA générative pour améliorer votre contenu. L’assistant AI peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets, du contenu textuel ciblé et en obtenant des recommandations de l’assistant AI pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
 
 ## Concevoir votre e-mail à partir de zéro {#design-from-scratch}
 
-Utilisez l’espace de conception visuelle du contenu pour définir la structure et le contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme du contenu d’e-mail réutilisable en quelques secondes.
+Utilisez l’espace de conception visuelle du contenu pour définir la structure et le contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la disposition et l’organisation du contenu de l’e-mail en quelques secondes.
 
 1. Sur la page d’accueil _[!UICONTROL Concevez votre modèle]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
 
@@ -156,9 +156,9 @@ Tirez parti des options d’affichage et de validation du contenu disponibles da
 
 * Effectuez un zoom avant/arrière sur le contenu dans les options de zoom prédéfinies.
 
-* Basculez vers l’affichage du contenu sur les ordinateurs de bureau, les appareils mobiles ou en texte seul/texte brut.
+* Basculez entre l’affichage du contenu sur les appareils de bureau, mobiles ou en texte seul/texte brut.
    * Cliquez sur l’icône _Affichage_ pour afficher un aperçu du contenu sur tous les appareils.
-   * Sélectionnez l’un des appareils prêts à l’emploi ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
+   * Sélectionnez l’un des appareils prédéfinis ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
 
 ## Plus d’options
 
@@ -166,7 +166,7 @@ Dans le menu _[!UICONTROL Plus...]_ situé en haut de l’espace de conception v
 
 ![Cliquez sur Plus pour accéder aux actions du modèle](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Réinitialiser l’e-mail]** - Cliquez sur cette option pour vider la zone de travail de conception d’e-mail et redémarrer la création de votre contenu.
+* **[!UICONTROL Réinitialiser l’e-mail]** - Cliquez sur cette option pour effacer le canevas de conception d’e-mail et redémarrer la création de votre contenu.
 * **[!UICONTROL Enregistrer en tant que fragment]** - Enregistrez l’intégralité ou une partie de l’e-mail en tant que fragment à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le fragment et enregistrez-le dans la liste des fragments disponibles.
 * **[!UICONTROL Modifier votre conception]** - Revenez à la page _Concevoir votre e-mail_. De là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception. Vous pouvez également choisir de concevoir le contenu à partir de zéro avec une zone de travail vierge (_mode classique_) ou à l’aide d’un [thème de marque](./brand-themes.md) (_mode thème_).
 * **[!UICONTROL Enregistrer en tant que modèle de contenu]** - Enregistrez le corps de l’e-mail en tant que modèle d’e-mail à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le modèle, puis enregistrez-le dans la liste des modèles d’e-mail enregistrés.
@@ -180,7 +180,7 @@ Pour [prévisualiser le contenu de l’e-mail](./email-simulate-content.md), cli
 
 ![Simuler le contenu de l’e-mail pour vérifier votre conception](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
-Vous pouvez accéder à des outils supplémentaires pour valider et réviser le contenu de l’e-mail :
+Pour valider et réviser le contenu de l’e-mail, accédez à des outils supplémentaires :
 
 * [Envoyer un BAT](./email-simulate-content.md#send-proofs)
 * [Test du rendu dans les clients de messagerie](./email-test-rendering.md)

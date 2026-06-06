@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:21:17.156Z
 TQID: https://experienceleague.adobe.com/PhcREmr9HfV-uGyGUB6YRATemaGn0du0VWaGaBHUmxY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 605
 ht-degree: 2%
@@ -100,7 +100,7 @@ Lorsque vous créez du contenu d’e-mail pour le parcours de votre compte, vous
 
    Cette action ouvre la boîte de dialogue _Modifier le Personalization_. La boîte de dialogue comprend un dossier _[!UICONTROL Mes jetons]_ dans la bibliothèque _[!UICONTROL Jetons Personalization]_ si des jetons personnalisés sont définis pour le parcours de compte.
 
-1. Développez le dossier **[!UICONTROL Mes jetons]**, puis cliquez sur **+** ou **...** pour ajouter l’un de vos jetons personnalisés à l’espace vide.
+1. Pour ajouter un de vos jetons personnalisés à l’espace vide, développez le dossier **[!UICONTROL Mes jetons]**, puis cliquez sur **+** ou **...**.
 
    Vous pouvez ajouter du texte statique supplémentaire si nécessaire.
 

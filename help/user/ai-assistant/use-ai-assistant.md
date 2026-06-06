@@ -5,11 +5,14 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+autotag-review: '2026-06-05T16:09:10.773Z'
+TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -17,11 +20,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-04-29T23:21:59.633Z
-TQID: https://experienceleague.adobe.com/nLvepx6T0xVR0KZqO-8zRgf2z63sJtGJLCVCCpYoNYk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 970
 ht-degree: 2%
 
 ---
@@ -32,13 +33,13 @@ Dans Journey Optimizer B2B edition, l’assistant d’IA est une fonctionnalité
 
 >[!IMPORTANT]
 >
->Un accord concernant les directives d’utilisation de Adobe Experience Cloud Generative AI est requis avant de pouvoir utiliser l’assistant AI. Pour plus d’informations sur ce contrat et les instructions d’utilisation, consultez les [instructions d’utilisation de Adobe Experience Cloud Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Un accord concernant les directives d’utilisation de l’IA générative d’Adobe Experience Cloud est requis avant de pouvoir utiliser l’assistant d’IA. Pour plus d’informations sur ce contrat et les directives d’utilisation, consultez les [Directives d’utilisation d’Adobe Experience Cloud Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 Pour accéder à l’assistant AI, cliquez sur l’icône dans l’en-tête. L’assistant d’IA s’ouvre dans un panneau à droite.
 
 ![Cliquez sur l’icône pour accéder à l’assistant AI](./assets/ai-assistant-icon-displayed.png){width="420"}
 
-L’interface de l’assistant d’IA s’affiche et vous fournit immédiatement des informations pour commencer. Vous pouvez utiliser les options fournies sous _Idées pour commencer_ afin de répondre aux questions et aux commandes, telles que :
+L’interface de l’assistant d’IA s’affiche et vous fournit immédiatement des informations pour commencer. Vous pouvez utiliser les options fournies sous _[!UICONTROL Idées pour commencer]_ afin de répondre aux questions et aux commandes, telles que :
 
 * Quels parcours ont été publiés ?
 * Quels intérêts de solution ont été créés ?
@@ -54,7 +55,7 @@ Les questions relatives à la connaissance des produits portent sur les concepts
 * Comment envoyer un email dans un parcours ?
 * Comment personnaliser le contenu de mon e-mail ?
 
-Pour poser une question sur un produit, saisissez-la dans le champ en bas du panneau et appuyez sur Entrée. Par exemple, lorsque vous devez apprendre à utiliser un groupe d&#39;achat dans un parcours. Dans ce cas, vous entrez _Comment utiliser un groupe d&#39;achat dans un parcours ?_ Après avoir envoyé la question, l’assistant AI interroge sa base de connaissances et compile une réponse en quelques secondes.
+Pour poser une question sur un produit, saisissez-la dans le champ en bas du panneau et appuyez sur Entrée. Par exemple, lorsque vous devez apprendre à utiliser un groupe d&#39;achat dans un parcours. Dans ce cas, vous entrez _Comment utiliser un groupe d&#39;achat dans un parcours ?_ Après avoir envoyé la question, l’assistant AI interroge sa base de connaissances et génère une réponse en quelques secondes.
 
 ![Saisissez une question dans la zone de texte](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -66,13 +67,13 @@ Pour poser une question sur un produit, saisissez-la dans le champ en bas du pan
 
 ## Poser des questions sur les informations opérationnelles
 
-Les questions sur les informations opérationnelles concernent les objets de parcours dans le sandbox de votre entreprise. Vous pouvez poser des questions sur les artefacts opérationnels, tels que l’audience du compte, le parcours du compte, l’intérêt de la solution et le modèle de groupe d’achat. Voici quelques exemples de questions ou d’invites d’informations opérationnelles :
+Les questions sur les informations opérationnelles concernent les objets de parcours dans le sandbox de votre entreprise. Vous pouvez poser des questions sur les artefacts opérationnels, tels que les audiences de compte, les parcours, les centres d’intérêt des solutions et les modèles de groupes d’achat. Voici quelques exemples de questions ou d’invites d’informations opérationnelles :
 
 * Combien de parcours en direct ai-je dans Adobe Journey Optimizer B2B edition ?
 * Écris-moi une liste de tous les parcours planifiés.
 * Combien de parcours ont été créés au cours des 7 derniers jours ?
 
-Vous devez être dans un sandbox actif pour que l’assistant AI puisse fournir une réponse suffisante à une question sur vos informations opérationnelles.
+Assurez-vous que vous êtes dans un sandbox actif pour que l’assistant AI puisse fournir une réponse suffisante à une question sur vos informations opérationnelles.
 
 >[!NOTE]
 >
@@ -106,13 +107,13 @@ L’assistant AI fournit des liens vers la documentation qui corrobore la répon
 
 Après avoir reçu une réponse à une question sur les informations opérationnelles, cliquez sur **[!UICONTROL Afficher la source]** puis sélectionnez **[!UICONTROL Afficher la requête source]**.
 
-Vous pouvez vérifier chaque réponse liée aux questions d’informations opérationnelles à l’aide d’une requête SQL fournie par l’assistant AI. Lorsqu’il est interrogé avec une question d’informations opérationnelles, l’assistant AI fournit une requête SQL que vous pouvez utiliser pour vérifier le processus nécessaire au calcul de la réponse. Cette requête source est fournie à des fins de vérification uniquement et n’est pas prise en charge sur Query Service.
+Vous pouvez vérifier chaque réponse liée aux questions d’informations opérationnelles à l’aide d’une requête SQL fournie par l’assistant AI. Lorsqu’il est interrogé avec une question d’informations opérationnelles, l’assistant AI fournit une requête SQL. Vous pouvez l’utiliser pour vérifier le processus nécessaire au calcul de la réponse. Cette requête source est fournie à des fins de vérification uniquement et n’est pas prise en charge sur Query Service.
 
 ![Résultats de la requête de l’assistant AI](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
 ## Fournir des commentaires
 
-Utilisez les icônes _Pouce vers le haut_ ( ![Pouce vers le haut](../assets/do-not-localize/icon-thumb-up.svg) ) ou _Pouce vers le bas_ ( ![Pouce vers le bas](../assets/do-not-localize/icon-thumb-down.svg) ) pour évaluer l’utilité et la qualité de la réponse. Remplissez le court formulaire de sondage en fonction de votre expérience et cliquez sur **[!UICONTROL Soumettre]**. Les informations que vous fournissez sont utilisées pour apporter des améliorations à l’assistant AI.
+Utilisez les icônes _Évaluation positive_ ( ![Pouce vers le haut](../assets/do-not-localize/icon-thumb-up.svg) ) ou _Évaluation négative_ ( ![Pouce vers le bas](../assets/do-not-localize/icon-thumb-down.svg) ) pour évaluer l’utilité et la qualité de la réponse. Remplissez le court formulaire de sondage en fonction de votre expérience et cliquez sur **[!UICONTROL Soumettre]**. Les informations que vous fournissez sont utilisées pour apporter des améliorations à l’assistant AI.
 
 Si vous remarquez quelque chose de problématique dans la réponse, cliquez sur l’icône _Indicateur_ ( ![Icône d’indicateur](../assets/do-not-localize/icon-flag.svg) ). Utilisez le formulaire pour décrire le problème et cliquez sur **[!UICONTROL Envoyer]** pour signaler le problème.
 

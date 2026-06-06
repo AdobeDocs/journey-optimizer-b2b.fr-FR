@@ -22,10 +22,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +55,7 @@ Modifiez les valeurs de l’e-mail et du libellé De afin que les nouveaux e-mai
 
 ### Désabonnement des messages
 
-Pour les e-mails marketing non opérationnels, le texte de désabonnement et les liens sont ajoutés en bas. En tant qu’administrateur de produit, vous devez configurer l’HTML et le texte par défaut qui sont renseignés lorsqu’un spécialiste marketing ne marque pas l’e-mail comme opérationnel.
+Pour les e-mails marketing non opérationnels, le texte de désabonnement et les liens sont ajoutés en bas. En tant qu’administrateur de produit, configurez l’HTML et le texte par défaut qui sont renseignés lorsqu’un spécialiste marketing ne marque pas l’e-mail comme opérationnel.
 
 1. Accédez à la zone **[!UICONTROL Admin]** de l’instance Marketo Engage jointe et sélectionnez **[!UICONTROL E-mail]**.
 
@@ -89,7 +89,7 @@ Si vous devez revenir au contenu système par défaut, copiez et collez les él�
 
 ### Afficher en tant que page web
 
-Le contenu des e-mails présente des fonctionnalités d’affichage limitées (CSS limité et aucun JavaScript ni formulaire). Les marketeurs peuvent utiliser l&#39;option _Afficher en tant que page web_ pour appliquer un cookie au destinataire de l&#39;e-mail à l&#39;aide de Marketo Munchkin. En tant qu’administrateur ou administratrice de produit, vous devez configurer l’HTML et le texte par défaut qui sont renseignés lorsqu’un ou une spécialiste marketing choisit cette option.
+Le contenu des e-mails présente des fonctionnalités d’affichage limitées (CSS limité et aucun JavaScript ni formulaire). Les marketeurs peuvent utiliser l&#39;option _Afficher en tant que page web_ pour appliquer un cookie au destinataire de l&#39;e-mail à l&#39;aide de Marketo Munchkin. En tant qu’administrateur ou administratrice de produit, configurez l’HTML et le texte par défaut qui sont renseignés lorsqu’un ou une spécialiste marketing choisit cette option.
 
 1. Accédez à la zone **[!UICONTROL Admin]** de l’instance Marketo Engage jointe et sélectionnez **[!UICONTROL E-mail]**.
 
@@ -163,7 +163,7 @@ Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail a
    ![Administrateur de messagerie Marketo Engage - Paramètres par défaut des options d’en-tête personnalisées](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL Sécurité de transport stricte]** - Définissez cette option sur _Activé_ pour garantir que les liens de suivi sont toujours diffusés via HTTPS. Activez cette option uniquement pour les abonnements dont les liens de tracking sont sécurisés par SSL.
-   * **[!UICONTROL Max-age]** - Ce champ prend en charge la directive obligatoire pour spécifier l’heure, en secondes, à laquelle le navigateur doit se rappeler pour accéder uniquement au domaine via HTTPS.
+   * **[!UICONTROL Max-age]** - Ce champ prend en charge la directive obligatoire pour spécifier le temps, en secondes, dont le navigateur se souvient pour accéder uniquement au domaine via HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Utilisez cette option pour inclure la directive qui applique la politique HSTS à tous les sous-domaines de l&#39;hôte.
 
    >[!IMPORTANT]

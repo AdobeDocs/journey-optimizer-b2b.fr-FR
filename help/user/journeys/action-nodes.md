@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2037
+source-wordcount: 2031
 ht-degree: 3%
 
 ---
 
 # Entreprendre une action
 
-Dans votre parcours, vous pouvez ajouter un nœud _[!UICONTROL Prendre une action]_ pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score, l’affectation à un groupe d’achats, etc. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
+Pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score, l’affectation à un groupe d’achats, etc., vous pouvez ajouter un nœud _[!UICONTROL Prendre une action]_ dans votre parcours. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
@@ -101,7 +101,7 @@ Pour plus d’informations sur l’utilisation des audiences avec correspondance
 
 ## Actions de personne
 
-Dans un parcours de compte ou de personne, utilisez une action sur les personnes lorsque vous souhaitez appliquer une modification à toutes les personnes sur le chemin de nœud. Pour un parcours de compte, ce type de nœud peut être utilisé dans le _chemin de partage par personnes_ ou _chemin de partage par comptes_.
+Dans un parcours de compte ou de personne, utilisez une action sur les personnes lorsque vous souhaitez appliquer une modification à toutes les personnes sur le chemin de nœud. Pour un parcours de compte, vous pouvez utiliser ce type de nœud dans le _chemin de partage par personnes_ ou _chemin de partage par comptes_.
 
 ### Actions et contraintes {#people-action-constraints}
 
@@ -238,7 +238,7 @@ Utilisez cette action pour envoyer un e-mail. Après avoir [créé l’e-mail](.
 
 ![Agir - Envoyer un e-mail](./assets/node-action-send-email-from-marketo.png){width="300"}
 
-Pour les parcours de personne, vous pouvez utiliser l’[optimisation de l’heure d’envoi](../content/email-send-time-optimization.md) pour personnaliser le délai de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir.
+Pour les parcours de personne, utilisez [Optimisation de l’heure d’envoi](../content/email-send-time-optimization.md) pour personnaliser le délai de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir.
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ Les actions basées sur les personnes de Marketo Engage sont conçues pour coord
 >
 >Les actions Marketo Engage nécessitent une intégration configurée à une ou plusieurs instances Marketo Engage externes. Pour plus d’informations sur cette configuration, voir [_Activer les connexions Marketo Engage pour prendre en charge les actions_](../admin/marketo-actions-connect.md).
 
-Par exemple, vous pouvez supprimer des campagnes dans Marketo Engage pour les personnes qui font partie de groupes d’achat dans Journey Optimizer B2B edition. Dans ce cas, vous pouvez créer une liste statique dans Marketo Engage spécifiquement pour la solution qui vous intéresse. Ensuite, sur un chemin de division par groupe d’achats, utilisez l’action _Ajouter à la liste Marketo_ à partir d’un nœud de parcours. Cette action ajoute les membres du groupe d&#39;achat à une liste statique particulière dans une instance Marketo Engage connectée. Ensuite, utilisez la liste statique axée sur les intérêts de la solution pour un filtre de liste dynamique dans Marketo Engage.
+Par exemple, supprimez les campagnes dans Marketo Engage pour les personnes qui font partie de groupes d’achat dans Journey Optimizer B2B edition. Dans ce cas, vous pouvez créer une liste statique dans Marketo Engage spécifiquement pour la solution qui vous intéresse. Ensuite, sur un chemin de division par groupe d’achats, utilisez l’action _Ajouter à la liste Marketo_ à partir d’un nœud de parcours. Cette action ajoute les membres du groupe d&#39;achat à une liste statique particulière dans une instance Marketo Engage connectée. Ensuite, utilisez la liste statique axée sur les intérêts de la solution pour un filtre de liste dynamique dans Marketo Engage.
 
 +++[!UICONTROL Ajouter à la campagne de requête Marketo]
 
