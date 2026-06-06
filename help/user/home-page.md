@@ -4,21 +4,16 @@ description: 'Accédez à Journey Optimizer B2B Edition et parcourez des pages d
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 93%
+source-wordcount: 415
+ht-degree: 83%
 
 ---
 
@@ -30,7 +25,7 @@ Avec Adobe Journey Optimizer B2B Edition, vous pouvez orchestrer des parcours
  Requirements?
 -->
 
-Pour accéder à [!DNL Adobe Journey Optimizer B2B Edition], connectez-vous à Adobe Experience Cloud avec votre Adobe ID, puis sélectionnez [!DNL Journey Optimizer B2B Edition].
+Pour accéder à [!DNL Adobe Journey Optimizer B2B Edition], connectez-vous à Adobe Experience Cloud avec votre Adobe ID, puis sélectionnez [!DNL Journey Optimizer B2B Edition].
 
 ![Applications Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
@@ -39,9 +34,9 @@ Lorsque vous vous connectez à Adobe Experience Platform et sélectionnez l’
 
 ![Pages d’accueil de Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition comporte deux personas d’utilisateur ou d’utilisatrice principaux : _&#x200B;**spécialiste du marketing**&#x200B;_ et _&#x200B;**administrateur ou administratrice**&#x200B;_. Chaque persona possède une page d’accueil spécifique pour différents stades de maturité (nouveau ou avancé). Le contenu de la page est basé sur les besoins de chaque persona en termes d’informations et des prochaines actions à entreprendre.
+Journey Optimizer B2B Edition comporte deux personas d’utilisateur ou d’utilisatrice principaux : _**spécialiste du marketing**_ et _**administrateur ou administratrice**_. Chaque persona possède une page d’accueil spécifique pour différents stades de maturité (nouveau ou avancé). Le contenu de la page est basé sur les besoins de chaque persona en termes d’informations et des prochaines actions à entreprendre.
 
-* **Spécialiste marketing - nouvel utilisateur ou nouvelle utilisatrice** : la page d’accueil _Spécialiste marketing_ d’un nouvel utilisateur ou d’une nouvelle utilisatrice l’aide à se familiariser avec Journey Optimizer B2B et ses fonctionnalités. Elle comprend une présentation guidée destinée à l’intégration du nouveau ou de la nouvelle spécialiste marketing qui lui permet de comprendre les nuances du système et de développer efficacement des stratégies et des initiatives marketing B2B.
+* **Spécialiste marketing - nouvel utilisateur ou nouvelle utilisatrice** : la page d’accueil _Spécialiste marketing_ d’un nouvel utilisateur ou d’une nouvelle utilisatrice l’aide à se familiariser avec Journey Optimizer B2B et ses fonctionnalités. Il comprend une présentation guidée pour le nouveau professionnel du marketing afin qu’il puisse comprendre les nuances du système et devenir efficace dans le développement de stratégies et d’initiatives marketing B2B.
 * **Spécialiste marketing - utilisateur expérimenté ou utilisatrice expérimentée** : la page d’accueil _Spécialiste marketing_ d’une personne spécialiste marketing expérimentée affiche la progression de l’initiative actuelle, les actions recommandées à entreprendre et permet d’accéder rapidement aux sections pertinentes.
 * **Administrateur ou administratrice – Nouvel utilisateur ou nouvelle utilisatrice** : la page d’accueil _Admin_ d’un nouvel administrateur ou d’une nouvelle administratrice l’aide à se familiariser avec Journey Optimizer B2B Edition et ses fonctionnalités. Elle comprend une présentation guidée destinée à l’intégration du nouvel administrateur ou de la nouvelle administratrice qui lui permet de comprendre les nuances du système et de développer efficacement des stratégies et des initiatives marketing B2B.
 * **Administrateur ou administratrice - Utilisateur expérimenté ou utilisatrice expérimentée** : la page d’accueil _Admin_ d’un administrateur expérimenté ou d’une administratrice expérimentée affiche le statut actuel de l’instance et les étapes exploitables pour améliorer l’efficacité pour les administrateurs et administratrices.

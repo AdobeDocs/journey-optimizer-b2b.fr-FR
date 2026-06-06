@@ -5,23 +5,16 @@ feature: Audiences
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 678
 ht-degree: 1%
 
 ---
@@ -42,15 +35,15 @@ Utilisez l’une des options d’entrée suivantes pour le nœud de parcours d�
 
 ## Ingestion de profil
 
-Dans Journey Optimizer B2B edition, une tâche d’ingestion d’audience chaque nuit synchronise les profils avec Experience Platform. Bien que les parcours de personne basés sur un événement puissent qualifier des profils qui ne font pas partie d’une audience de profil ou de compte ingérée/utilisée par Journey Optimizer B2B edition, les profils ingérés restent obsolètes, sauf s’ils font partie d’une audience utilisée par un parcours de personne, un parcours de compte ou un groupe d’achat. Si un profil est ingéré et ajouté ultérieurement à une audience, la combinaison de profils est effectuée et le profil reste synchronisé avec Experience Platform. Des améliorations de cette synchronisation des données de profil sont prévues pour les prochaines versions.
+Dans Journey Optimizer B2B edition, une tâche d’ingestion d’audience chaque nuit synchronise les profils avec Experience Platform. Les parcours de personne basés sur un événement peuvent qualifier des profils qui ne font pas partie d’une audience utilisée par Journey Optimizer B2B edition, mais ces profils restent obsolètes, à moins qu’ils ne rejoignent une audience utilisée par un parcours de personne, un parcours de compte ou un groupe d’achat. Si un profil est ingéré et ajouté ultérieurement à une audience, la combinaison de profils est effectuée et le profil reste synchronisé avec Experience Platform. Des améliorations de cette synchronisation des données de profil sont prévues pour les prochaines versions.
 
-Un profil nouvellement créé ingéré par un parcours de personne basé sur un événement peut ne pas disposer des informations de profil mises à jour au moment de l’ingestion. Par exemple, si un profil est créé par le biais d’un événement de remplissage de formulaire et qu’une personne parcours les ingère à partir de l’événement de remplissage de formulaire éligible, les données envoyées dans le formulaire peuvent ne pas encore être synchronisées avec le profil lorsque le parcours les a ingérées. Il peut en résulter des données incomplètes à personnaliser (comme dans le contenu des e-mails). Des améliorations de cette synchronisation des données d’événement de profil sont prévues pour les prochaines versions.
+Un profil nouvellement créé ingéré par un parcours de personne basé sur un événement peut ne pas disposer des informations de profil mises à jour au moment de l’ingestion. Par exemple, si un profil est créé par le biais d’un événement de remplissage de formulaire, les données envoyées peuvent ne pas être synchronisées avec le profil lorsque le parcours les ingère. Il peut en résulter des données incomplètes à personnaliser (comme dans le contenu des e-mails). Des améliorations de cette synchronisation des données d’événement de profil sont prévues pour les prochaines versions.
 
-Les parcours de personne basés sur un événement peuvent qualifier des profils qui sont toujours anonymes/sans adresses e-mail et qui contiennent uniquement des ECID. Cela se produit le plus souvent lorsque vous disposez d’une logique de qualification pour l’activité de page web. Une logique d’audience basée sur un événement trop large peut entraîner l’atteinte de la limite de 40 millions de profils de l’instance si trop de profils sont qualifiés. Limitez la portée possible de votre audience pour empêcher ce scénario.
+Les parcours de personne basés sur un événement peuvent qualifier des profils qui sont toujours anonymes/sans adresses e-mail et qui contiennent uniquement des ECID. Cela se produit le plus souvent lorsque vous disposez d’une logique de qualification pour l’activité de page web. Une logique d’audience basée sur un événement trop large peut entraîner l’atteinte de la limite de 40 millions de profils pour l’instance si trop de profils sont qualifiés. Pour éviter ce scénario, limitez la portée possible de votre audience.
 
 >[!IMPORTANT]
 >
->Au cours du programme bêta actuel, l’utilisation idéale des parcours de personne consiste à qualifier uniquement les profils que vous ciblez également dans les parcours de compte et les définitions de groupes d’achats. Cette utilisation garantit un profil complet qui reste synchronisé avec Experience Platform.
+>Au cours du programme bêta actuel, l’utilisation idéale des parcours de personne consiste à qualifier uniquement les profils que vous ciblez également dans les parcours de compte et les définitions de groupes d’achats. Cette utilisation permet d’assurer un profil complet qui reste synchronisé avec Experience Platform.
 
 ## Définissez l’audience pour le nœud audience de la personne .
 

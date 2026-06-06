@@ -4,19 +4,14 @@ description: Utilisez les nœuds d’attente pour suspendre la progression du pa
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:11:12.994Z
 TQID: https://experienceleague.adobe.com/a-dPU6YNtDv86OD-i35749QY4HCDFtVIVn9F6jm0zEA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -40,10 +35,10 @@ Vous pouvez définir le temps d’attente de deux manières différentes :
 
    ![Ajouter un nœud de parcours - attente](./assets/add-node-wait.png){width="440"}
 
-1. Dans les propriétés du nœud sur la droite, définissez le temps d’attente **[!UICONTROL Type]** avant que le parcours ne passe au nœud suivant dans le chemin d’accès.
+1. Pour définir le temps d’attente avant que le parcours ne passe au nœud suivant dans le chemin d’accès, utilisez les propriétés du nœud sur la droite pour définir le **[!UICONTROL Type]**.
 
    * **[!UICONTROL Durée]** - Définissez un nombre spécifique de jours, heures ou minutes entre l’entrée et la sortie du nœud d’attente.
-   * **[!UICONTROL Date]** - Spécifiez une date et une heure spécifiques pour la sortie.
+   * **[!UICONTROL Date]** - Spécifiez la date et l’heure de sortie.
 
    ![Nœud de Parcours - attente](./assets/node-wait.png){width="500"}
 
@@ -51,7 +46,7 @@ Vous pouvez définir le temps d’attente de deux manières différentes :
 
 Activez l’option **[!UICONTROL Doit se terminer le]** pour configurer une _étape d’attente avancée_ et vous assurer que vos messages atteignent les personnes et les membres du compte au moment optimal. Cette configuration vous donne un contrôle précis sur le moment où une personne ou un compte quitte une étape d’attente et passe au nœud suivant dans le parcours. Plutôt qu’un nombre fixe d’heures ou de jours entre l’entrée et la sortie, vous pouvez planifier des actions qui se produisent à des heures spécifiques et à des jours spécifiques de la semaine.
 
-Avec une _étape d’attente avancée_, vous définissez **_quand_** la personne ou le compte doit quitter, et pas seulement combien de temps il doit attendre.
+Avec une _étape d’attente avancée_, vous définissez **_quand_** la personne ou le compte se ferme, et pas simplement combien de temps elle doit attendre.
 
 ![nœud de Parcours - étape d’attente avancée](./assets/node-wait-advanced.png){width="500"}
 
@@ -66,11 +61,11 @@ Avec une _étape d’attente avancée_, vous définissez **_quand_** la personne
 
 ### Scénarios courants
 
-Les scénarios suivants illustrent la manière dont vous pouvez appliquer des scénarios classiques à la configuration de votre nœud d’attente :
+Les scénarios suivants illustrent comment appliquer des exemples typiques à la configuration de votre nœud d’attente :
 
 +++Arrivée des e-mails pendant les heures d’ouverture
 
-**Scénario :** vous commercialisez auprès des clients B2B qui lisent des e-mails au travail. Vous souhaitez que tous les e-mails arrivent pendant les heures de bureau.
+**Scénario :** vous commercialisez auprès des clients B2B qui lisent des e-mails pendant leur journée de travail. Vous souhaitez que tous les e-mails arrivent pendant les heures de bureau.
 
 **Solution :** configurez votre étape d’attente pour libérer les prospects à 9 :00 en semaine (du lundi au vendredi). Quel que soit le moment où un prospect accède au nœud d’attente, il reçoit votre e-mail pendant les heures de bureau.
 
@@ -86,7 +81,7 @@ Les scénarios suivants illustrent la manière dont vous pouvez appliquer des sc
 
 +++Tâches de suivi conformes à SLA
 
-**Scénario :** votre équipe des ventes dispose d’un SLA de deux jours ouvrables pour effectuer le suivi des prospects de compte qualifiés pour le marketing. Les week-ends ne comptent pas.
+**Scénario :** votre équipe des ventes dispose d’un SLA de deux jours ouvrables pour effectuer le suivi des prospects de compte qualifiés pour le marketing. Les week-ends sont exclus.
 
 **Solution :** configurez l’étape d’attente pour libérer les prospects uniquement les jours ouvrables. Un prospect qualifié le vendredi est acheminé pour un suivi le lundi ou le mardi, et non le week-end.
 

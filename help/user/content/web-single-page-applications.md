@@ -5,25 +5,16 @@ feature: Channels, Personalization
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: 846
 ht-degree: 2%
 
 ---
@@ -47,7 +38,7 @@ Pour personnaliser efficacement les SPA, vous devez configurer le suivi des vues
 
 ### Configurer les déclarations de vue
 
-Collaborez avec votre équipe de développement pour implémenter des déclarations d’affichage à l’aide du SDK Web Adobe. L’utilisation de ces déclarations d’affichage implique l’appel de la commande `sendEvent` avec des informations d’affichage chaque fois que la SPA accède à une nouvelle vue.
+Collaborez avec votre équipe de développement pour implémenter des déclarations d’affichage à l’aide du SDK Web Adobe. L’utilisation de ces déclarations d’affichage implique d’appeler la commande `sendEvent` avec des informations d’affichage chaque fois que la SPA accède à une nouvelle vue.
 
 **Exemple d’implémentation :**
 
@@ -115,9 +106,9 @@ Configurez les modifications pour attendre que les éléments cibles existent av
 
 1. La modification s’applique une fois que l’élément cible apparaît dans le DOM.
 
-#### Utilisation d’observateurs de mutation
+#### Mise en œuvre d’observateurs des mutations
 
-Pour un contenu hautement dynamique, le Web SDK inclut des observateurs de mutation intégrés qui détectent lorsque de nouveaux éléments sont ajoutés à la page. Ces observateurs s’assurent que les modifications sont appliquées même lorsque les éléments se chargent de manière asynchrone.
+Pour un contenu hautement dynamique, le Web SDK inclut des observateurs de mutation qui détectent lorsque de nouveaux éléments sont ajoutés à la page. Ces observateurs s’assurent que les modifications sont appliquées même lorsque les éléments se chargent de manière asynchrone.
 
 ### Structures SPA
 
@@ -126,7 +117,7 @@ Les expériences web Journey Optimizer B2B edition fonctionnent avec les framewo
 | Framework | Considérations |
 | --------- | -------------- |
 | **React** | Les modifications s’appliquent une fois que React a rendu les composants dans le DOM. Utilisez des noms de classe ou des attributs de données pour le ciblage. |
-| **&#x200B;**&#x200B;| Éléments cibles après l’exécution de la détection des modifications d’Angular. Évitez de cibler les éléments avec des `*ngIf` avant leur rendu. |
+| **** | Éléments cibles après l’exécution de la détection des modifications d’Angular. Évitez de cibler les éléments avec des `*ngIf` avant leur rendu. |
 | **Vue.js** | Attendez la `nextTick` de Vue pour vous assurer que les éléments sont dans le DOM. Utilisez des références ou des attributs personnalisés pour un ciblage stable. |
 | **Next.js / Nuxt.js** | Pour les pages SSR/SSG, assurez-vous que l’hydratation de Web SDK est terminée avant d’attendre des modifications. |
 
@@ -170,12 +161,12 @@ Lors du test des expériences web SPA :
 Certaines SPA utilisent des animations ou des transitions entre les vues. Pensez-y :
 
 * **Minutage** - Assurez-vous que les modifications s’appliquent une fois les animations de transition terminées.
-* **Visibilité des éléments** - Les éléments peuvent exister mais être masqués lors des transitions.
+* **Visibilité des éléments** - Les éléments peuvent exister mais sont masqués lors des transitions.
 * **Scintillement** - Appliquez les modifications suffisamment tôt pour éviter les changements de contenu visibles.
 
 ## Dépannage
 
-Lorsque vous passez en revue les modifications de conception de la SPA, suivez les recommandations ci-après pour résoudre certains problèmes courants :
+Lorsque vous passez en revue les modifications de conception des SPA, suivez les recommandations suivantes pour résoudre certains problèmes courants :
 
 * **Les modifications n’apparaissent pas** - Si les modifications n’apparaissent pas sur votre SPA :
 

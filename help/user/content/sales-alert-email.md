@@ -4,31 +4,25 @@ description: Configurez les e-mails d’alerte commerciale dans les parcours de 
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: fc1ff3b2-6614-41ad-a113-de48597598fd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:20:15.181Z
 TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 531
 ht-degree: 6%
 
 ---
 
 # E-mail d’alerte de vente
 
-Un _e-mail d’alerte de vente_ signale la remise des groupes d’achats au service des ventes. L&#39;e-mail contient un résumé du groupe d&#39;achat et des informations sur les membres du groupe d&#39;achat et leurs activités.
+Un _e-mail d’alerte de vente_ signale le transfert des groupes d’achats vers le service Ventes. L&#39;e-mail contient un résumé du groupe d&#39;achat et des informations sur les membres du groupe d&#39;achat et leurs activités.
 
-En tant que spécialiste marketing, vous pouvez configurer un nœud d’e-mail d’alerte de vente dans les parcours de votre compte pour avertir votre équipe des ventes de l’achèvement du parcours pour des groupes d’achats spécifiques. Dans le nœud , vous pouvez spécifier les adresses e-mail de l’équipe commerciale ou un alias de distribution qui atteint un ensemble de comptes.
+Pour avertir votre équipe des ventes de la fin du parcours pour des groupes d’achats particuliers, vous pouvez configurer un nœud d’e-mail d’alerte commerciale dans les parcours de votre compte. Dans le nœud , vous pouvez spécifier les adresses e-mail de l’équipe commerciale ou un alias de distribution qui atteint un ensemble de comptes.
 
 >[!IMPORTANT]
 >

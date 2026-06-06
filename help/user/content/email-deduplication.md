@@ -7,35 +7,30 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, déduplication, parcours, duplication
 exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: 2026-03-30T22:08:16.582Z
 TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: 327
 ht-degree: 1%
 
 ---
 
 # Déduplication des e-mails
 
-Utilisez la déduplication des e-mails dans les parcours de compte pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail au sein d’un parcours. Lorsque vous activez cette fonctionnalité, les adresses e-mail en double sont bloquées jusqu’à ce que le premier enregistrement avec cette adresse e-mail termine le parcours. Une fois qu’un compte a terminé un parcours, une personne peut se qualifier pour recevoir à nouveau des e-mails dans le cadre d’un nouveau compte entrant dans le parcours.
+Pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail dans un parcours, utilisez la déduplication des e-mails dans les parcours de compte. Lorsque vous activez cette fonctionnalité, les adresses e-mail en double sont bloquées jusqu’à ce que le premier enregistrement avec cette adresse e-mail termine le parcours. Une fois qu’un compte a terminé un parcours, une personne peut se qualifier pour recevoir à nouveau des e-mails dans le cadre d’un nouveau compte entrant dans le parcours.
 
 ## Quand utiliser la déduplication des e-mails
 
-Il existe plusieurs scénarios clés dans lesquels vous devez envisager d’activer la déduplication des e-mails :
+Voici quelques scénarios clés à prendre en compte pour activer la déduplication des e-mails :
 
 * **L’adresse e-mail n’est pas utilisée comme identité dans Real-Time CDP** - La même adresse e-mail peut apparaître dans plusieurs profils de personne. Si ces profils en double remplissent les critères du même parcours et que vous souhaitez empêcher l’envoi de l’e-mail plusieurs fois, activez cette fonctionnalité.
 
-* **Personne unique associée à plusieurs comptes** - Si votre modèle de données Real-Time CDP permet d’associer une seule personne à plusieurs comptes et que vous souhaitez éviter d’envoyer deux fois le même e-mail à cette personne lorsque plusieurs comptes (y compris des profils avec la même adresse e-mail) remplissent les critères pour le même parcours, activez cette fonctionnalité.
+* **Personne unique associée à plusieurs comptes** - Si votre modèle de données [!DNL Real-Time CDP] associe une seule personne à plusieurs comptes, activez cette fonctionnalité pour éviter d’envoyer deux fois le même e-mail lorsque plusieurs profils ayant la même adresse e-mail sont qualifiés pour le même parcours.
 
 >[!NOTE]
 >
@@ -59,4 +54,4 @@ Pour activer la déduplication des e-mails pour un parcours de compte :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
-Lorsque la déduplication des e-mails est activée, le parcours vérifie chaque adresse e-mail avant d’envoyer l’e-mail. Si un enregistrement de la même adresse e-mail a déjà été saisi dans ce nœud de parcours, la nouvelle entrée est bloquée jusqu’à ce que le premier enregistrement termine le parcours.
+Lorsque la déduplication des e-mails est activée, le parcours vérifie chaque adresse e-mail avant d’envoyer l’e-mail. Si un enregistrement ayant la même adresse e-mail a déjà accédé à ce nœud de parcours, la nouvelle entrée est bloquée jusqu’à ce que le premier enregistrement termine le parcours.

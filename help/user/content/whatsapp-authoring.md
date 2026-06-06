@@ -4,17 +4,12 @@ description: Créez des messages WhatsApp pour les parcours de compte à l’aid
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 20%
@@ -95,7 +90,7 @@ Vous pouvez configurer des diffusions de messages WhatsApp dans un parcours de c
 
 ### Sélectionner un modèle de message
 
-Les messages WhatsApp sont envoyés à l&#39;aide de modèles de messages préapprouvés depuis votre compte professionnel Meta WhatsApp. **Les modèles doivent être examinés et approuvés par Meta** avant de pouvoir les utiliser dans Journey Optimizer B2B edition. Demandez à l’administrateur de votre compte [!DNL Meta Business Manager] de gérer et d’envoyer des modèles à approuver.
+Les messages WhatsApp sont envoyés à l&#39;aide de modèles de messages préapprouvés depuis votre compte professionnel Meta WhatsApp. **Les modèles doivent être examinés et approuvés par Meta** avant de pouvoir les utiliser dans Journey Optimizer B2B edition. Pour gérer et envoyer des modèles à approuver, contactez l’administrateur de votre compte [!DNL Meta Business Manager].
 
 1. Pour **[!UICONTROL Sélectionner une catégorie de modèles]**, choisissez l’une des options suivantes :
 
@@ -109,7 +104,7 @@ Les messages WhatsApp sont envoyés à l&#39;aide de modèles de messages préap
 
    ![Modèle de message WhatsApp sélectionné avec le message chargé dans la fenêtre de prévisualisation](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   Les modèles sont organisés par catégorie (_Marketing_, _Utilitaire_ et _Authentification_) et par statut. Seuls les modèles **_Approuvés_** peuvent être sélectionnés. Pour plus d&#39;informations sur la création de modèles WhatsApp, voir [_Création de modèles de messages pour votre compte d&#39;entreprise WhatsApp_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) dans la documentation de Meta.
+   Le système organise les modèles par catégorie (_Marketing_, _Utilitaire_ et _Authentification_) et statut. Seuls les modèles **_Approuvés_** peuvent être sélectionnés. Pour plus d&#39;informations sur la création de modèles WhatsApp, voir [_Création de modèles de messages pour votre compte d&#39;entreprise WhatsApp_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) dans la documentation de Meta.
 
 ### URL des images
 

@@ -4,20 +4,15 @@ description: Surveillez les performances du parcours de compte avec les taux d�
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 566
 ht-degree: 1%
 
 ---
@@ -26,7 +21,7 @@ ht-degree: 1%
 
 Lorsque vous cliquez sur le nom d’un parcours de compte actif, les détails du parcours s’affichent. L’onglet _[!UICONTROL Aperçu]_ fournit des informations utiles sur le parcours, y compris des résumés génératifs de l’IA.
 
-Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux professionnels du marketing d’évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures de diffusion et d’engagement clés. Pour les mesures d’e-mail agrégées sur tous les parcours, consultez le [&#x200B; Rapport sur les performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
+Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux équipes marketing d’évaluer l’efficacité des canaux e-mail et SMS au moyen des principales mesures de diffusion et d’engagement. Pour les mesures d’e-mail agrégées sur tous les parcours, consultez le [ Rapport sur les performances des e-mails ](../dashboards/email-performance-dashboard.md).
 
 Cet aperçu est disponible pour les parcours de compte publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
 
@@ -41,9 +36,9 @@ Cette section présente deux mesures d’achèvement :
 
 ## Engagement du parcours
 
-Cette section présente deux mesures d’achèvement :
+Cette section présente deux mesures d’engagement :
 
-* **[!UICONTROL Engagement par comptes]** - Ce graphique en cercle segmente les comptes d’un parcours en _Engagés_ et _Non engagés_ catégories. La figure centrale affiche le nombre total. Cette visualisation permet de comprendre en un coup d’œil l’engagement global du compte.
+* **[!UICONTROL Engagement par comptes]** - Ce graphique en cercle segmente les comptes d’un parcours en _Engagés_ et _Non engagés_ catégories. La figure centrale affiche le nombre total. Cette visualisation permet de comprendre rapidement l’engagement global du compte.
 * **Engagement par les personnes** - Cette visualisation affiche le nombre total de personnes qualifiées _engagées_ dans un parcours.
 
 ## performance du parcours
@@ -55,29 +50,29 @@ Cette section présente deux mesures essentielles :
 
 ## Performances des e-mails et des SMS
 
-Les tableaux de performances donnent un aperçu détaillé de l’efficacité des canaux e-mail et SMS. Chaque tableau présente des mesures, telles que les taux de diffusion et les taux de clics, qui vous aident à évaluer l’impact de chaque point de contact de communication. Les tableaux ci-dessous montrent les mesures relatives aux e-mails et SMS pour ce parcours uniquement. Pour obtenir les mêmes mesures d’e-mail sur tous les parcours, utilisez le [rapport sur les performances des e-mails](../dashboards/email-performance-dashboard.md).
+Les tableaux de performances fournissent des informations détaillées sur l’efficacité des canaux e-mail et SMS. Chaque tableau présente des mesures, telles que les taux de diffusion et les taux de clics, qui vous aident à évaluer l’impact de chaque point de contact de communication. Les tableaux ci-dessous montrent les mesures relatives aux e-mails et SMS pour ce parcours uniquement. Pour obtenir les mêmes mesures d’e-mail sur tous les parcours, utilisez le [rapport sur les performances des e-mails](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL Performances des emails]** colonnes du tableau :
 
-* _[!UICONTROL Nom de la ressource]_ - nom de la ressource
-* _[!UICONTROL Envoyés]_ - nombre d’e-mails envoyés
-* _[!UICONTROL Taux de diffusion]_ - nombre d’e-mails diffusés divisé par le nombre envoyé
-* _[!UICONTROL Taux d’ouvertures]_ - nombre d’e-mails ouverts divisé par le nombre diffusé
-* _[!UICONTROL Taux de clic publicitaire]_ - nombre d’e-mails cliqués divisé par le nombre de messages diffusés
+* _[!UICONTROL Nom de la ressource]_ - Nom de la ressource
+* _[!UICONTROL Envoyés]_ - Nombre d’e-mails envoyés
+* _[!UICONTROL Taux de diffusion]_ - Nombre d’e-mails diffusés divisé par le nombre envoyé
+* _[!UICONTROL Taux d’ouvertures]_ - Nombre de messages ouverts divisé par le nombre de messages diffusés
+* _[!UICONTROL Taux de clic publicitaire]_ - Nombre d’e-mails cliqués divisé par le nombre diffusés
 
 **[!UICONTROL Performances des SMS]** colonnes du tableau :
 
-* _[!UICONTROL Nom de la ressource]_ - nom de la ressource
-* _[!UICONTROL Envoyés]_ - nombre de SMS envoyés
-* _[!UICONTROL Taux de diffusion]_ - nombre de SMS diffusés divisé par le nombre envoyé
-* _[!UICONTROL Taux de clic publicitaire]_ - nombre de SMS ayant fait l’objet d’un clic divisé par le nombre diffusé
+* _[!UICONTROL Nom de la ressource]_ - Nom de la ressource
+* _[!UICONTROL Envoyés]_ - Nombre de SMS envoyés
+* _[!UICONTROL Taux de diffusion]_ - Nombre de SMS diffusés divisé par le nombre envoyé
+* _[!UICONTROL Taux de clic publicitaire]_ - Nombre de SMS ayant fait l’objet d’un clic divisé par le nombre diffusé
 <!--
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
 ## Amélioration de l’interaction
 
-Exploitez davantage les données à l’aide de l’icône d’action (**...**) en haut à droite de chaque graphique ou tableau.
+Interagissez avec les données à l’aide de l’icône d’action (**...**) en haut à droite de chaque graphique ou tableau.
 
 ### Exploration amont
 

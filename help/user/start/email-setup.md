@@ -4,28 +4,17 @@ description: Configurez les options Marketo Engage pour la diffusion e-mail B2B 
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f467931a-9b22-4ca8-869f-adfbd64061ceid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -49,13 +38,13 @@ Modifiez les valeurs de l’e-mail et du libellé De afin que les nouveaux e-mai
 
 1. Dans le panneau _[!UICONTROL Paramètres]_, saisissez les valeurs par défaut souhaitées pour **[!UICONTROL E-mail de l’expéditeur]** et **[!UICONTROL Libellé de l’expéditeur]**.
 
-   ![Paramètres d’e-mail - Valeurs par défaut des libellés D’e-mail et De &#x200B;](./assets/me-admin-email-settings-from.png){width="500"}
+   ![Paramètres d’e-mail - Valeurs par défaut des libellés D’e-mail et De ](./assets/me-admin-email-settings-from.png){width="500"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
 ### Désabonnement des messages
 
-Pour les e-mails marketing non opérationnels, le texte de désabonnement et les liens sont ajoutés en bas. En tant qu’administrateur de produit, vous devez configurer l’HTML et le texte par défaut qui sont renseignés lorsqu’un spécialiste marketing ne marque pas l’e-mail comme opérationnel.
+Pour les e-mails marketing non opérationnels, le texte de désabonnement et les liens sont ajoutés en bas. En tant qu’administrateur de produit, configurez l’HTML et le texte par défaut qui sont renseignés lorsqu’un spécialiste marketing ne marque pas l’e-mail comme opérationnel.
 
 1. Accédez à la zone **[!UICONTROL Admin]** de l’instance Marketo Engage jointe et sélectionnez **[!UICONTROL E-mail]**.
 
@@ -89,7 +78,7 @@ Si vous devez revenir au contenu système par défaut, copiez et collez les él�
 
 ### Afficher en tant que page web
 
-Le contenu des e-mails présente des fonctionnalités d’affichage limitées (CSS limité et aucun JavaScript ni formulaire). Les marketeurs peuvent utiliser l&#39;option _Afficher en tant que page web_ pour appliquer un cookie au destinataire de l&#39;e-mail à l&#39;aide de Marketo Munchkin. En tant qu’administrateur ou administratrice de produit, vous devez configurer l’HTML et le texte par défaut qui sont renseignés lorsqu’un ou une spécialiste marketing choisit cette option.
+Le contenu des e-mails présente des fonctionnalités d’affichage limitées (CSS limité et aucun JavaScript ni formulaire). Les marketeurs peuvent utiliser l&#39;option _Afficher en tant que page web_ pour appliquer un cookie au destinataire de l&#39;e-mail à l&#39;aide de Marketo Munchkin. En tant qu’administrateur ou administratrice de produit, configurez l’HTML et le texte par défaut qui sont renseignés lorsqu’un ou une spécialiste marketing choisit cette option.
 
 1. Accédez à la zone **[!UICONTROL Admin]** de l’instance Marketo Engage jointe et sélectionnez **[!UICONTROL E-mail]**.
 
@@ -163,7 +152,7 @@ Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail a
    ![Administrateur de messagerie Marketo Engage - Paramètres par défaut des options d’en-tête personnalisées](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL Sécurité de transport stricte]** - Définissez cette option sur _Activé_ pour garantir que les liens de suivi sont toujours diffusés via HTTPS. Activez cette option uniquement pour les abonnements dont les liens de tracking sont sécurisés par SSL.
-   * **[!UICONTROL Max-age]** - Ce champ prend en charge la directive obligatoire pour spécifier l’heure, en secondes, à laquelle le navigateur doit se rappeler pour accéder uniquement au domaine via HTTPS.
+   * **[!UICONTROL Max-age]** - Ce champ prend en charge la directive obligatoire pour spécifier le temps, en secondes, dont le navigateur se souvient pour accéder uniquement au domaine via HTTPS.
    * **[!UICONTROL IncludeSubDomains]** - Utilisez cette option pour inclure la directive qui applique la politique HSTS à tous les sous-domaines de l&#39;hôte.
 
    >[!IMPORTANT]
@@ -176,8 +165,8 @@ Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail a
 
 L’activité des robots d’e-mail, également appelée interactions non humaines (NHI), peut gonfler les données d’e-mail _ouvertures_ et _clics_, ce qui fausse les mesures d’engagement et déclenche la progression du parcours basée sur un événement. Utilisez le filtrage des robots d’e-mail pour conserver l’intégrité des mesures et des informations d’engagement des clics. Deux méthodes permettent d’identifier une activité de robot suspectée :
 
-* _&#x200B;**[!UICONTROL Correspondance avec la liste de robots IAB]**&#x200B;_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
-* _&#x200B;**[!UICONTROL Correspondance avec le modèle de proximité]**&#x200B;_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
+* _**[!UICONTROL Correspondance avec la liste de robots IAB]**_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
+* _**[!UICONTROL Correspondance avec le modèle de proximité]**_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
    * ID de lead (doit être le même)
    * Ressource e-mail (doit être la même)
    * Clic sur un lien ou ouverture d’un e-mail

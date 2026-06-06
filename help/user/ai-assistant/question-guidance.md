@@ -5,20 +5,16 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -42,13 +38,13 @@ Les exemples de questions suivants sont regroupés en fonction des objectifs que
 
 ## Formulation de vos questions
 
-Vous devez formuler vos questions à l’assistant AI avec clarté et contexte pour obtenir une réponse aussi précise que possible. Consultez la liste suivante de conseils pour savoir comment poser une question claire avec du contexte :
+Pour obtenir une réponse aussi précise que possible, posez vos questions à l’assistant AI avec clarté et contexte. Consultez la liste suivante de conseils pour savoir comment poser une question claire avec du contexte :
 
 * Exposez votre tâche et/ou question de façon concise.
 * Évitez le langage ambigu ou une syntaxe trop complexe pour faciliter la compréhension.
 * Fournissez un contexte pertinent concernant votre tâche et/ou question, car le contexte peut aider l’assistant d’IA à générer des réponses plus pertinentes.
 
-Les tableaux suivants présentent quelques bonnes pratiques que vous pouvez suivre lors de l’utilisation de l’assistant AI :
+Les tableaux suivants contiennent quelques recommandations que vous pouvez suivre lors de l’utilisation de l’assistant AI :
 
 | Conseils | Exemple |
 | --- | --- |
@@ -68,7 +64,7 @@ Les tableaux suivants présentent quelques bonnes pratiques que vous pouvez suiv
 
 La liste suivante inclut des exemples de questions que l’assistant AI dans Journey Optimizer B2B edition ne prend actuellement pas en charge :
 
-* Quelles audiences de compte utilisent le champ workEmail.address du groupe de champs ... dans sa condition ? 
+* Quelles audiences de compte utilisent le champ workEmail.address du groupe de champs ... dans leur condition ? 
 * Montrez-moi le nombre de parcours actifs utilisant des audiences de compte d’une taille supérieure à 10 000, comprise entre 5 000 et 10 000, entre 1 000 et 5 000, et inférieure à 1 000, dans un visuel de répartition
 * Qui a effectué la dernière mise à jour du parcours de compte x ?
 * Combien de parcours actifs ajoutent des membres du groupe d&#39;achat pour l&#39;intérêt de la solution x ?

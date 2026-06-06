@@ -4,22 +4,17 @@ description: Automatisez la qualification et la sensibilisation des prospects B2
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
-autotag-review: 2026-03-30T15:10:20.350Z
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
-source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
+autotag-review: '2026-06-05T16:42:16.451Z'
+TQID: 'https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2: id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 4594
+source-wordcount: 4580
 ht-degree: 1%
 
 ---
@@ -30,7 +25,7 @@ Sales Qualifier est une application gérée par l’IA que vous pouvez utiliser 
 
 Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder à la Business Intelligence directement dans les CRM ou Outlook. La vidéo suivante présente brièvement le qualificateur de vente et le Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Page de départ Application
 
@@ -50,7 +45,7 @@ At the bottom left of the application, click the _Edit_ ( ![Edit icon](../assets
 
 ### Utilisation de base de l’agent
 
-Les agents Adobe AI utilisent _requêtes en langage naturel_, ce qui signifie qu’ils utilisent la même langue dans l’invite de texte que vous le feriez lorsque vous parlez à une personne. Plus vous êtes détaillé, meilleurs sont les résultats.
+Les agents Adobe AI utilisent _requêtes en langage naturel_, ce qui signifie qu’ils utilisent la même langue dans l’invite de texte que vous lorsque vous parlez à une personne. Plus vous êtes détaillé, meilleurs sont les résultats.
 
 En utilisant le langage naturel, vous pouvez demander à l’agent de :
 
@@ -62,7 +57,7 @@ Itérez vos workflows sortants en affinant vos invites pour obtenir les résulta
 
 * _Rédiger un e-mail de relance à partir du contexte, comme des appels de rémunération ou des rapports._ Jusqu’à 120 mots. Objet : Captivant, intégrant un thème clé. Introduction : crochet avec citation directe de sources de contexte. Corps : permet de se connecter aux points faibles et aux propositions de valeur. CTA : proposez un bref appel pour en savoir plus._
 
-* _L’objectif de cet e-mail est de commencer une conversation et de créer de la crédibilité._ Rédigez un e-mail de 120 mots, au ton consultatif et empathique. Veillez à éviter une approche trop familière ou commerciale et à ne pas utiliser les expressions « j&#39;espère que vous allez bien », « je vous demande simplement de vous enregistrer » ou « s&#39;il vous plaît ».
+* _L’objectif de cet e-mail est de commencer une conversation et de créer de la crédibilité._ Rédigez un e-mail de 120 mots, au ton consultatif et empathique. Évitez d&#39;adopter une approche trop familière ou commerciale et n&#39;utilisez pas les expressions « j&#39;espère que vous allez bien », « je vous demande simplement de vous enregistrer » ou « s&#39;il vous plaît ».
 
 ### Accès aux produits et groupes d’utilisateurs
 
@@ -89,7 +84,7 @@ Les utilisateurs standard de BDR doivent être membres du groupe d&#39;utilisate
 
 ## Prospects
 
-Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche pour afficher une liste de tous les prospects auxquels vous pouvez accéder. Il permet de vérifier rapidement des éléments, tels que le statut du prospect et la dernière activité.
+Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche pour afficher une liste de tous les prospects auxquels vous pouvez accéder. Il fournit un aperçu rapide des informations, telles que le statut du prospect et la dernière activité.
 
 ![Tableau des prospects affichant le statut du prospect et la dernière activité pour la gestion des prospects](./assets/prospects.png){width="800" zoomable="yes"}
 
@@ -174,7 +169,7 @@ Une fois le ciblage défini, l’IA crée la **_cadence_** : elle analyse votre 
 
 ![Cadence et invites de point de contact générées par le workflow sortant](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Développez un point de contact d’e-mail pour lire son invite. Ces instructions guident l’IA lors de l’écriture de l’e-mail de chaque prospect, y compris le ton, la longueur, le focus et le call to action.
+Développez un point de contact d’e-mail pour lire son invite. Ces instructions guident l’IA lors de l’écriture de l’e-mail de chaque prospect, y compris le ton, la longueur, le focus et __.
 
 **Régénérer le rythme**
 
@@ -238,7 +233,7 @@ Une fois la génération terminée, la vue détaillée du workflow affiche une b
 
 #### Lire le raisonnement de l’IA
 
-Pour chaque e-mail généré, la section **[!UICONTROL REASONING]** explique comment l’IA a conçu ce message, y compris les signaux, les attributs et les sources qui ont façonné le contenu et le call to action. Consultez ces informations pour valider la personnalisation avant d’approuver.
+Pour chaque e-mail généré, la section **[!UICONTROL REASONING]** explique comment l’IA a conçu ce message, y compris les signaux, les attributs et les sources qui ont façonné le contenu et le call to action. Passez en revue ces informations et validez la personnalisation avant d’approuver.
 
 ![Raisonnement de l’IA dédiée aux e-mails générés par le workflow sortant](./assets/outbound-workflow-create-review-generated-email-reasoning.png){width="600" zoomable="yes"}
 
@@ -287,10 +282,10 @@ Sur la page _[!UICONTROL Workflow sortant]_, l’onglet **[!UICONTROL Parcourir]
 ### Bonnes pratiques relatives au workflow sortant
 
 * **Investissez dans l’objectif.** Le ciblage en aval, la cadence et les e-mails remontent tous jusqu’à l’objectif. Les objectifs spécifiques axés sur les résultats surpassent les objectifs vagues.
-* **Finalisez les invites de point de contact avant la génération par prospect.**&#x200B;** Après la génération en masse, les modifications sont généralement apportées un prospect à la fois.
+* **Finalisez les invites de point de contact avant la génération par prospect.** Après la génération en bloc, les modifications sont généralement apportées un prospect à la fois.
 * **Utiliser le raisonnement comme contrôle de qualité.** Si le mauvais signal est souligné (ou si un signal évident est manquant), modifiez l’e-mail ou revenez à l’invite du point de contact et régénérez la cadence.
-* **Faire correspondre l’outil d’édition au changement.**&#x200B;**&#x200B; Modifier directement le libellé et le ton ; &#x200B;** [!UICONTROL Générer à l’aide de l’IA]** pour restructurer ou recadrer.
-* **Approuvez uniquement ce que vous avez révisé.**&#x200B;** Développez les points de contact, lisez le contenu et affinez-les si nécessaire avant l’inscription.
+* **Faire correspondre l’outil d’édition à la modification.** Modifications directes du libellé et du ton ; **[!UICONTROL Générer avec l’IA]** pour restructurer ou recadrer.
+* **Approuver uniquement ce que vous avez révisé.** Développez les points de contact, lisez le contenu et affinez-les si nécessaire avant l’inscription.
 
 ## Boîte d’envoi d’e-mail
 
@@ -317,7 +312,7 @@ La zone _Tâches_ dans le qualificateur de vente offre aux représentants du dé
 
 L’expérience de gestion des tâches est conçue comme une **file d’attente de traitement**, pas seulement une liste de tâches. Vous pouvez ouvrir une tâche, effectuer une action, la marquer comme terminée et passer à la suivante, le tout sans quitter la page.
 
-Sélectionnez **[!UICONTROL Tâches]** dans la barre de navigation de gauche pour ouvrir la page complète Tâches . Il s’agit de l’espace de travail principal pour le traitement des tâches une par une.
+Sélectionnez **[!UICONTROL Tâches]** dans la barre de navigation de gauche pour ouvrir la page complète des tâches. Cette page est l’espace de travail principal pour le traitement des tâches une par une.
 
 ![Page Tâches affichant la file d’attente de tâches et le panneau des détails](./assets/tasks.png){width="800" zoomable="yes"}
 
@@ -366,7 +361,7 @@ Utilisez les actions suivantes pour gérer vos tâches :
    * Le statut de la tâche est défini sur **Ignorée** et consignée avec la raison et l’horodatage.
    * S’il s’agissait de la dernière étape du workflow, l’exécution du workflow du prospect se termine. La tâche est toujours consignée comme Ignorée (non supprimée).
 
-* **[!UICONTROL Supprimer du workflow]** - Disponible à partir du menu de débordement dans le panneau de travail. Utilisez cette option lorsque le prospect ne doit plus du tout faire partie de ce workflow.
+* **[!UICONTROL Supprimer du workflow]** - Disponible à partir du menu de débordement dans le panneau de travail. Utilisez cette option lorsque le prospect n’appartient plus à ce workflow.
 
   Lorsque vous supprimez un prospect d&#39;un workflow :
    * Toutes les tâches en attente et futures pour ce prospect dans ce workflow sont annulées.
@@ -463,7 +458,7 @@ Grâce aux intégrations, le qualificateur de vente peut utiliser votre CRM afin
 
 >[!IMPORTANT]
 >
->Pour accéder aux intégrations dans le qualificateur de vente, vous devez être membre du groupe d’utilisateurs `Sales Qualifier Admins`.
+>L’accès aux intégrations dans le qualificateur de vente nécessite l’appartenance à un groupe d’utilisateurs `Sales Qualifier Admins`.
 
 ### Étendue de l’accès CRM
 
@@ -500,7 +495,7 @@ Dans Salesforce, [créez une application client externe](https://help.salesforce
 
 >[!PREREQUISITES]
 >
->Pour créer une application client externe, vous devez être administrateur système et vérifier que les éléments suivants sont activés (à partir du profil ou du jeu d’autorisations) :
+>Pour créer une application client externe, un administrateur de produit doit vérifier que les éléments suivants sont activés (à partir du profil ou du jeu d’autorisations) :
 >
 >* Personnaliser l’application
 >* Afficher l’installation et la configuration
@@ -545,7 +540,7 @@ Assurez-vous que l’utilisateur configuré dispose d’un accès en lecture aux
 
 1. Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]** et sélectionnez **[!UICONTROL Intégrations]**.
 
-   Vous devriez voir des cartes pour Salesforce et Microsoft Dynamics.
+   La page affiche des cartes pour Salesforce et Microsoft Dynamics.
 
    ![Page Intégrations avec les cartes de connexion Salesforce et Dynamics](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}
 
@@ -565,7 +560,7 @@ L’**URL de l’instance** doit être l’URL de base de l’environnement util
 
 1. Pour le qualificateur de vente, utilisez le formulaire canonique : `https://{{mydomain}}.my.salesforce.com` .
 
-   N’utilisez **&#x200B;**&#x200B;une URL `lightning.force.com` comme URL d’instance.
+   N’utilisez **** une URL `lightning.force.com` comme URL d’instance.
 
 **Microsoft Dynamics 365**
 
@@ -616,7 +611,7 @@ ORDER BY LastModifiedDate DESC
 
 Le _[!UICONTROL Centre de connaissances]_ donne à AQA accès aux documents clients et aux connaissances connexes afin que Sales Qualifier puisse générer de meilleures informations en matière de recherche et de qualification à l’aide de vos propres documents. Chargez le contenu et les ressources d’information que vous souhaitez utiliser pour générer des e-mails.
 
-![&#x200B; Intégrations - Centre de connaissances &#x200B;](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
+![ Intégrations - Centre de connaissances ](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
 
 ## Paramètres de profil
 
@@ -644,7 +639,7 @@ Définissez votre fuseau horaire et votre disponibilité dans l’onglet **[!UIC
 
 * **[!UICONTROL E-mail de confirmation de réunion]** - Lorsqu’un client confirme une réunion avec vous, il reçoit l’e-mail de confirmation en tant que réponse. Utilisez ces paramètres pour définir l’objet et le corps de l’e-mail.
 
-* **[!UICONTROL Préférences]** - Définissez la durée par défaut de votre réunion et le temps que vous souhaitez entre deux réunions consécutives.
+* **[!UICONTROL Préférences]** - Définissez la durée par défaut de votre réunion et la durée entre deux réunions consécutives.
 
 Si vous déconnectez votre calendrier :
 

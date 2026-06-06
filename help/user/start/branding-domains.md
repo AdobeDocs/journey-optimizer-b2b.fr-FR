@@ -4,22 +4,16 @@ description: Configurez vos domaines de marque afin que chacune de vos marques d
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1014
-ht-degree: 89%
+source-wordcount: 1015
+ht-degree: 83%
 
 ---
 
@@ -29,23 +23,23 @@ Un domaine de marque dans Marketo Engage est un sous-domaine personnalisé (tel 
 
 * Il remplace les liens génériques par votre propre marque dans les liens hypertexte des e-mails.
 * Lorsqu’un prospect de compte clique sur un lien, il redirige via ce domaine personnalisé afin d’autoriser le suivi des performances tout en semblant légitime aux filtres d’e-mail.
-* Si vous disposez de plusieurs marques, vous pouvez configurer des domaines de marque supplémentaires pour prendre en charge différentes unités commerciales ou marques.
+* Pour prendre en charge différentes unités commerciales ou marques, vous pouvez configurer des domaines de marque supplémentaires si vous disposez de plusieurs marques.
 
 >[!BEGINSHADEBOX]
 
 **CNAME uniques pour les liens de suivi**
 
-Les liens de tracking e-mail doivent être nouveaux et uniques pour l’instance Marketo Engage jointe. Si vous disposez de CNAME pour le suivi des liens pointant vers une instance Marketo Engage préexistante (de production), ils ne peuvent pas être réutilisés sans modification.
+Les liens de tracking e-mail doivent être nouveaux et uniques pour l’instance Marketo Engage jointe. Si vous disposez de CNAME pour le suivi des liens pointant vers une instance Marketo Engage préexistante (de production), ils doivent être modifiés avant de pouvoir être réutilisés.
 
-Vous pouvez partager le branding de domaine de chemin de retour entre votre instance Marketo Engage de production et l’instance jointe, mais il s’agit d’une modification du serveur principal. Ouvrez un ticket d’assistance et fournissez votre préfixe Marketo Engage (Munchkin ID) ainsi que votre nouveau préfixe Journey Optimizer B2B edition (Munchkin ID) pour demander le branding de domaine de chemin de retour partagé.
+Vous pouvez partager le branding de domaine de chemin de retour entre votre instance Marketo Engage de production et l’instance jointe, mais cette modification correspond à une modification du serveur principal. Ouvrez un ticket d’assistance et fournissez votre préfixe Marketo Engage (Munchkin ID) ainsi que votre nouveau préfixe Journey Optimizer B2B edition (Munchkin ID) pour demander le branding de domaine de chemin de retour partagé.
 
 >[!ENDSHADEBOX]
 
 >[!PREREQUISITES]
 >
->Avant de modifier ou d’ajouter un domaine dans l’interface utilisateur, vous devez disposer d’un [CNAME mappé à un domaine Marketo Engage fourni par Adobe](https://experienceleague.adobe.com/fr/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Avant de modifier ou d’ajouter un domaine dans l’interface utilisateur, vous devez disposer d’un [CNAME mappé à un domaine Marketo Engage fourni par Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
->Lors de l’ajout d’un domaine, le système vérifie les SSL préexistants, qui peuvent avoir été créés manuellement au préalable. Si vous rencontrez cette validation, créez votre domaine sans sélectionner la création SSL, puis connectez-le en tant que procédure distincte.
+>Lors de l’ajout d’un domaine, le système vérifie les SSL préexistants, qui ont été créés manuellement précédemment. Si vous rencontrez cette validation, créez votre domaine sans sélectionner la création SSL, puis connectez-le en tant que procédure distincte.
 
 ## Accès aux domaines de branding dans Marketo Engage
 
@@ -71,7 +65,7 @@ La première étape de l’utilisation des domaines de marque consiste à modifi
 
 1. Dans la boîte de dialogue _[!UICONTROL Modifier le domaine de branding]_, saisissez le nom de votre domaine par défaut dans le champ **[!UICONTROL Domaine]**.
 
-   ![&#x200B; Boîte de dialogue Modifier le domaine de branding &#x200B;](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
+   ![ Boîte de dialogue Modifier le domaine de branding ](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
 1. Si plusieurs espaces de travail sont définis pour votre instance Marketo Engage, cliquez sur **[!UICONTROL Suivant]**.
 
@@ -105,7 +99,7 @@ _Pour ajouter le domaine :_
 
    >[!NOTE]
    >
-   >**_SSL personnalisés_** : si vous avez besoin d’un SSL personnalisé, vous pouvez envoyer un ticket de [support](https://experienceleague.adobe.com/fr/support){target="_blank"}. N’utilisez pas la case à cocher pour la création SSL.
+   >**_SSL personnalisés_** : si vous avez besoin d’un SSL personnalisé, vous pouvez envoyer un ticket de [support](https://experienceleague.adobe.com/en/support){target="_blank"}. N’utilisez pas la case à cocher pour la création SSL.
 
 1. Si plusieurs espaces de travail sont définis pour votre instance Marketo Engage, cliquez sur **[!UICONTROL Suivant]**.
 
@@ -127,7 +121,7 @@ Pour activer SSL pour vos domaines existants, procédez comme suit.
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Confirmer]**.
 
-   ![&#x200B; Boîte de dialogue de confirmation Générer un certificat SSL &#x200B;](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
+   ![ Boîte de dialogue de confirmation Générer un certificat SSL ](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
 
 ## Messages d’erreur
 
