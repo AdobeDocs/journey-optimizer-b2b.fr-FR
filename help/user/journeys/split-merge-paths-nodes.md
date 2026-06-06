@@ -306,4 +306,4 @@ Ajoutez un nœud _Fusionner les chemins_ pour combiner différents chemins _frac
 
 ## Vidéo de présentation {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443258/?captions=fre_fr&learn=on)

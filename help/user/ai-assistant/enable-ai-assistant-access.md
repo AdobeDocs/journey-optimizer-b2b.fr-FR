@@ -60,7 +60,7 @@ Lorsque l’utilisateur dispose des autorisations nécessaires, il peut accéder
 
 Pour découvrir comment configurer l’accès à l’assistant AI pour votre entreprise et les utilisateurs, regardez la vidéo suivante.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475921/?captions=fre_fr&learn=on)
 
 ## Étapes suivantes
 
