@@ -7,23 +7,17 @@ role: User
 level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, conception
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:06:55.168Z
 TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1606
-ht-degree: 23%
+source-wordcount: 1564
+ht-degree: 16%
 
 ---
 
@@ -32,22 +26,22 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Basculer vers le mode sombre"
->abstract="Basculez vers le mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés spécifiques. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Sachez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Passez en mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés. <br>Le rendu dépend du client de messagerie du destinataire. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Basculer vers le mode sombre"
->abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
+>abstract="Passez en mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
 
 Le _mode sombre_ permet à un client de messagerie ou à une application de support d’afficher les e-mails avec des arrière-plans plus sombres et des couleurs plus claires pour le texte, les boutons et d’autres éléments visuels. Ce type d&#39;écran peut réduire la fatigue visuelle, économiser l&#39;autonomie de la batterie et améliorer la lisibilité dans les environnements à faible luminosité pour une expérience de visionnage plus confortable. Tendance croissante au sein des principaux systèmes d’exploitation et applications, il est désormais important de prendre en compte dans la conception d’e-mails modernes afin de s’assurer que le contenu reste lisible et visuellement attrayant pour tous les utilisateurs et utilisatrices.
 
 ![Diagramme de concept des modes clair et sombre présentant le rendu du contenu dans les thèmes clair et sombre](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-Lorsque vous [créez le contenu de votre e-mail](./email-authoring.md) dans l’espace de conception visuelle [!DNL Journey Optimizer B2B Edition], vous pouvez passer à la vue _&#x200B;**[!UICONTROL Mode sombre]**&#x200B;_. Dans cette vue, vous pouvez également définir des paramètres personnalisés spécifiques pour la prise en charge des clients de messagerie lorsque leur mode sombre est activé.
+Lorsque vous [créez le contenu de votre e-mail](./email-authoring.md) dans l’espace de conception visuelle [!DNL Journey Optimizer B2B Edition], vous pouvez passer à la vue _**[!UICONTROL Mode sombre]**_. Dans cette vue, vous pouvez également définir des paramètres personnalisés spécifiques pour la prise en charge des clients de messagerie lorsque leur mode sombre est activé.
 
 ## Remarques concernant le client de messagerie {#email-client-considerations}
 
-Il existe des différences significatives dans la manière dont les différents clients de messagerie et applications appliquent le mode sombre. Pour cette raison, prenez en compte les attentes en matière de rendu en mode sombre avec précaution. Avant d’utiliser le mode sombre dans l’espace de conception d’e-mail, tenez compte des cas d’utilisation de client de messagerie suivants :
+Il existe des différences significatives dans la manière dont les différents clients de messagerie et applications appliquent le mode sombre. Pour cette raison, soyez prudent quant aux attentes en matière de rendu en mode sombre. Avant d’utiliser le mode sombre dans l’espace de conception d’e-mail, tenez compte des cas d’utilisation de client de messagerie suivants :
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
@@ -128,14 +122,14 @@ Lorsque vous mettez en forme le contenu de votre e-mail pour le mode sombre en [
 
 >[!CAUTION]
 >
->Le rendu final peut varier en fonction du client de messagerie du destinataire. Pour voir une simulation qui se rapproche le plus possible du résultat final pour chaque client de messagerie, utilisez l’intégration [Rendu des e-mails de test Litmus](./email-test-rendering.md).
+>Le rendu final peut varier en fonction du client de messagerie du destinataire. Pour voir une simulation qui se rapproche le plus possible du résultat final pour chaque client de messagerie, utilisez l’intégration [Rendu des tests d’e-mail Litmus](./email-test-rendering.md).
 
 ### Définir les paramètres du mode sombre personnalisé {#custom-dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Utiliser une image spécifique pour le mode sombre"
->abstract="Vous pouvez sélectionner une autre image qui s’affichera lorsque le mode sombre sera activé. <br>L’ajout d’une image spécifique pour le mode sombre ne garantit pas qu’elle s’affichera correctement dans tous les clients de messagerie. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Sélectionnez une autre image pour le mode sombre. <br>L’ajout d’une image spécifique ne garantit pas un rendu correct dans tous les clients de messagerie. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
 
 Après le passage en mode sombre, vous pouvez choisir de modifier des éléments de style spécifiques de votre contenu qui s’affichent uniquement lorsque le mode sombre est activé dans le client de messagerie du destinataire (à condition qu’il prenne en charge cette fonctionnalité).
 
@@ -143,7 +137,7 @@ Après le passage en mode sombre, vous pouvez choisir de modifier des éléments
 >
 >Le rendu final en mode sombre dépend de chaque client de messagerie. Le résultat peut donc varier d’un client à l’autre. Pour plus d’informations, consultez les [considérations relatives au client de messagerie](#email-client-considerations) .
 
-Le style personnalisé en mode sombre de l’espace de conception d’e-mail utilise <!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` requête CSS, qui détecte si le client de messagerie est en mode sombre et applique la conception avec thème sombre définie dans votre e-mail.
+Le style du mode sombre personnalisé utilise la requête CSS `@media (prefers-color-scheme: dark)` pour détecter si le client de messagerie est en mode sombre et appliquer votre conception avec le thème sombre définie.
 
 _Pour définir les paramètres personnalisés du mode sombre :_
 
@@ -191,7 +185,7 @@ _Pour définir les paramètres personnalisés du mode sombre :_
 
 ## Bonnes pratiques {#best-practices}
 
-À mesure que l’adoption du mode sombre augmente dans les principaux clients de messagerie, il est essentiel d’examiner le rendu de vos e-mails à la fois dans les environnements clairs et sombres, que vous utilisiez le [mode sombre personnalisé](#custom-dark-mode) ou non.
+À mesure que l’adoption du mode sombre augmente parmi les principaux clients de messagerie, il est essentiel d’examiner la manière dont vos e-mails s’affichent dans les environnements clairs et sombres, que vous utilisiez le [mode sombre personnalisé](#custom-dark-mode) ou non.
 
 Le mode sombre peut modifier les couleurs, les arrière-plans et les images, parfois en remplaçant les choix définis lors de la conception. Pour garantir la cohérence visuelle, l’accessibilité et l’intégrité de la marque, appliquez les bonnes pratiques suivantes :
 
@@ -200,7 +194,7 @@ Le mode sombre peut modifier les couleurs, les arrière-plans et les images, par
 | Optimisation des images et des logos | Liste de vérification :<ul><li>Enregistrez les logos et les icônes en tant que fichiers PNG avec des arrière-plans transparents pour éviter les zones blanches visibles en mode sombre. <li>Évitez les images avec des arrière-plans blancs ou clairs codés en dur. <li>Si vous ne pouvez pas utiliser la transparence, placez les images sur un arrière-plan uni dans votre conception pour éviter des inversions de couleurs inappropriées. |
 | Surveiller vos antécédents | Liste de vérification :<ul><li>Vérifiez que le contraste entre le texte et les couleurs d’arrière-plan est suffisant pour garantir une bonne lisibilité en mode clair et en mode sombre. <li>Évitez de vous fier uniquement aux couleurs d’arrière-plan pour du contenu important. Certains clients remplacent les couleurs de fond en mode sombre, afin de s’assurer que les informations clés sont toujours visibles. |
 | Conception de contenu accessible en mode sombre | Liste de vérification :<ul><li>Utilisez des combinaisons de couleurs faciles à distinguer pour les personnes atteintes de daltonisme. <li>Utilisez une palette de tons moyens pour garantir un contraste adéquat par rapport à des arrière-plans clairs et sombres. <li>Utilisez des combinaisons de couleurs accessibles avec un contraste élevé pour améliorer la lisibilité et respecter les normes [!DNL Web Content Accessibility Guidelines (WCAG)]. Utilisez des outils tels que [!DNL WebAIM Contrast Checker] pour vérifier le contraste des couleurs. <li>Évitez les polices de caractères fines, car elles peuvent affecter la lisibilité. Si votre marque nécessite l’utilisation d’une police fine, mettez-la en gras en mode sombre. <li>Ignorez le blanc pur sur le noir pur, ce qui peut entraîner une fatigue oculaire et pourrait être inversé automatiquement dans certains clients de messagerie. <li>Fournissez un style de secours accessible si le mode sombre n’est pas pris en charge. |
-| Tester vos e-mails dans un environnement en mode sombre | Liste de vérification :<ul><li>Utilisez l’aperçu [&#x200B; mode sombre &#x200B;](#preview-dark-mode) dans l’espace de conception d’e-mail, qui utilise des modèles de couleurs inversés pour repérer les problèmes dès le début. <li>Utilisez un compte d’entreprise Litmus avec l’option [_[!UICONTROL Rendu d’e-mail]_](./email-test-rendering.md) pour simuler vos conceptions sur les principaux clients de messagerie (tels qu’Apple Mail, Gmail et Outlook) et voir comment les couleurs et les images se comportent en mode sombre. |
+| Tester vos e-mails dans un environnement en mode sombre | Liste de vérification :<ul><li>Utilisez l’aperçu [ mode sombre ](#preview-dark-mode) dans l’espace de conception d’e-mail, qui utilise des modèles de couleurs inversés pour repérer les problèmes dès le début. <li>Utilisez un compte d’entreprise Litmus avec l’option [_[!UICONTROL Rendu d’e-mail]_](./email-test-rendering.md) pour simuler vos conceptions sur les principaux clients de messagerie (tels qu’Apple Mail, Gmail et Outlook) et voir comment les couleurs et les images se comportent en mode sombre. |
 
 <!--
 KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
