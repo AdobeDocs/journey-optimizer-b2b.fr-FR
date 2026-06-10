@@ -4,21 +4,14 @@ description: Surveillez les mesures d’engagement en temps réel pour les compt
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:44:41.871Z
 TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 6%
@@ -57,7 +50,7 @@ Utilisez le filtre _[!UICONTROL Période]_ en haut à droite pour filtrer les do
 
 ![Filtrer les données affichées par période](./assets/engagement-date-filter.png){width="380"}
 
-Pour la plage **[!UICONTROL personnalisée]**, vous pouvez utiliser l’outil Calendrier pour spécifier une date de début et de fin. La date de fin par défaut est le jour en cours.
+Pour la plage **[!UICONTROL Personnalisée]**, cliquez sur l’icône _Calendrier_ ( ![icône Calendrier](../assets/do-not-localize/icon-calendar.svg) ) pour indiquer une date de début et de fin. La date de fin par défaut est le jour en cours.
 
 ![Filtrer les données affichées par attributs](./assets/engagement-date-filter-custom.png){width="380"}
 
@@ -105,6 +98,6 @@ En fonction du graphique, il existe des données étendues pour les éléments s
 
 | Engagement par comptes / groupes d&#39;achat / personnes | Comptes / groupes d&#39;achat / personnes engagées dans le temps |
 | ----------------------------------------------- | -------------------------------------------------- |
-| <li>Engagement <li>Non engagé | <li>Date <li>Comptes / Groupes d&#39;achat / Personnes (nombre) <li>Engagé/non engagé |
+| <li>Engagé <li>Non engagé | <li>Date <li>Comptes / Groupes d&#39;achat / Personnes (nombre) <li>Engagé/non engagé |
 
 Pour copier les données étendues, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite.

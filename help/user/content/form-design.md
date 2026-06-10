@@ -3,25 +3,19 @@ title: Conception de formulaire
 description: Concevez des formulaires avec des types de champs, une validation, un style et des attributs de schéma XDM pour la collecte de données métier dans Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T22:15:18.544Z
-TQID: https://experienceleague.adobe.com/xUMPdHtj6Z4LQjGZm-R0QtJXoEXkXbbl3L49ysIZBo0
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+autotag-review: '2026-05-27T16:10:55.800Z'
+TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 1%
+source-wordcount: 2190
+ht-degree: 2%
 
 ---
 
@@ -29,31 +23,37 @@ ht-degree: 1%
 
 Après avoir [créé un formulaire](./forms.md#create-forms), l’espace de conception visuelle ouvre un brouillon avec une définition de formulaire de base par défaut. Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur **[!UICONTROL Modifier le formulaire]** et utilisez l’espace de conception visuelle pour définir le style du formulaire et les composants de champ.
 
-![Accéder à la bibliothèque de formulaires](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+![Espace de conception de formulaire](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+
+Le bouton _**Envoyer**_ (champ de pied de page) fait partie du formulaire par défaut et ne peut pas être supprimé. Vous pouvez sélectionner le composant de bouton/pied de page dans le formulaire pour [modifier le texte et le style du bouton](#submit-button).
 
 ## Champs
 
-Les champs de formulaire sont utilisés pour capturer des données de profil de personne qui peuvent être utilisées pour cibler des personnes et les associer à des comptes et des groupes d’achats. Tous les nouveaux formulaires commencent par les champs suivants dans une seule disposition de colonne :
-
-* Prénom
-* Nom
-* Adresse e-mail
-
-Utilisez les outils de conception de champs pour construire l’ensemble des champs et la mise en page dont vous avez besoin pour collecter les données dont vous avez besoin pour vos activités marketing basées sur les comptes.
+Les champs de formulaire sont utilisés pour capturer des données de profil de personne qui peuvent être utilisées pour cibler des personnes et les associer à des comptes et des groupes d’achats. Utilisez les outils de conception de champs pour construire l’ensemble des champs et la mise en page dont vous avez besoin pour collecter les données dont vous avez besoin pour vos activités marketing basées sur les comptes.
 
 ### Ajouter un champ {#add-field}
 
 1. Dans le panneau _[!UICONTROL Composants]_ à gauche, faites glisser le composant de contenu **[!UICONTROL Champ]** et déposez-le sur la zone de travail.
 
-   ![Ajouter un composant de champ au formulaire](./assets/form-content-add-field.png){width="700" zoomable="yes"}
+   ![Ajouter un composant de champ au formulaire](./assets/form-content-add-field.png){width="800" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Sélectionner l’attribut de champ]**.
+1. Pour _[!UICONTROL Sélectionner l’attribut de champ]_, choisissez une option et définissez l’attribut du champ.
 
-1. Dans la boîte de dialogue _[!UICONTROL Sélectionner l’attribut de champ]_, cochez la case correspondant à l’attribut de profil de personne à utiliser pour le champ, puis cliquez sur **[!UICONTROL Sélectionner]**.
+   * **[!UICONTROL Sélectionner l’attribut de champ]** - Utilisez cette option pour sélectionner un attribut en fonction du schéma du jeu de données défini dans le préréglage de votre formulaire.
 
-   Les [schémas métier XDM](../admin/field-mapping.md#xdm-business-person-attributes) déterminent les attributs disponibles.  Tous les champs personnalisés définis pour votre instance Journey Optimizer B2B edition sont également disponibles. Utilisez la zone de texte Rechercher pour filtrer la liste par nom ou cliquez sur l’icône Filtrer pour filtrer la liste par schéma/type de données.
+     Dans la boîte de dialogue _[!UICONTROL Sélectionner l’attribut de champ]_, cochez la case correspondant à l’attribut que vous souhaitez utiliser pour le champ, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
-   ![Ajouter un composant de champ au formulaire](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+     ![Ajouter un composant de champ d’attribut sélectionné au formulaire](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+
+     Par exemple, vous pouvez définir les paramètres E-mail et Société. Lorsque les utilisateurs remplissent et envoient le formulaire, les informations saisies sont enregistrées dans le jeu de données sélectionné.
+
+     Pour mapper les données collectées avec un profil, sélectionnez un champ d’identité de profil. Les champs d’identité sont marqués comme **[!UICONTROL Obligatoires]** dans la liste des attributs. Vous pouvez les filtrer.
+
+   * **[!UICONTROL Ajouter un champ personnalisé]**
+
+     Avec cette option, vous pouvez définir un champ libre sans le mapper à un champ du jeu de données lié.
+
+     ![Ajouter un composant de champ personnalisé au formulaire](./assets/form-field-add-custom-field.png){width="600" zoomable="yes"}
 
    Sur la zone de travail, le libellé du champ par défaut pour l’attribut sélectionné est renseigné sur la zone de travail. Les **[!UICONTROL Détails du champ]** s’affichent dans le panneau de droite.
 
@@ -63,26 +63,28 @@ Utilisez les outils de conception de champs pour construire l’ensemble des cha
 
 1. Définissez **[!UICONTROL Type de champ]** en fonction du type de données du champ :
 
-   | Type de champ | Utilisation | Exemple |
-   | ---------- | ----- | ------- |
-   | **[!UICONTROL Case à cocher]** | Utilisez ce type afin que les visiteurs puissent sélectionner une valeur _true_ (cochée) ou _false_ (non cochée). | |
-   | **[!UICONTROL Groupe de cases à cocher]** | Utilisez ce type afin que les visiteurs puissent sélectionner une valeur _true_ (cochée) ou _false_ (non cochée) pour plusieurs éléments. | |
-   | **[!UICONTROL Devise]** | Utilisez ce type pour autoriser un champ flottant qui représente le type de devise par défaut sélectionné pour l’instance Journey Optimizer B2B edition. | |
-   | **[!UICONTROL Date]** | Utilisez ce type pour restreindre la saisie à un format de date et fournir un sélecteur de calendrier dans le champ. | |
-   | **[!UICONTROL Double]** |  | |
-   | **[!UICONTROL E-mail]** | Utilisez ce type pour restreindre la saisie à un format d’adresse électronique. | |
-   | **[!UICONTROL Nombre]** | Utilisez ce type pour restreindre le champ à une valeur numérique. | |
-   | **[!UICONTROL Groupe de cases d’option]** | Utilisez ce type pour permettre aux visiteurs de sélectionner l’une des options d’un ensemble. | |
-   | **[!UICONTROL Sélectionner]** | Utilisez ce type pour permettre aux visiteurs de sélectionner l’une des options d’un ensemble d’options à l’aide d’une liste déroulante. | |
-   | **[!UICONTROL Curseur]** | Utilisez ce type pour permettre aux visiteurs de définir une valeur numérique à l’aide d’un curseur. | |
-   | **[!UICONTROL Téléphone]** | Utilisez ce type pour un champ de saisie de numéro de téléphone. | |
-   | **[!UICONTROL Texte]** | Utilisez ce type pour un champ de saisie de texte standard (chaîne). | |
-   | **[!UICONTROL Zone de texte]** | Utilisez ce type pour prendre en charge une entrée de texte plus longue. | |
-   | **[!UICONTROL URL]** | Utilisez ce type pour limiter la saisie de texte à une URL, y compris le protocole d’URL standard. | |
+   | Type de champ | Utilisation |
+   | ---------- | ----- |
+   | **[!UICONTROL Case à cocher]** | Utilisez ce type afin que les visiteurs puissent sélectionner une valeur _true_ (cochée) ou _false_ (non cochée). |
+   | **[!UICONTROL Groupe de cases à cocher]** | Utilisez ce type afin que les visiteurs puissent sélectionner une valeur _true_ (cochée) ou _false_ (non cochée) pour plusieurs éléments. |
+   | **[!UICONTROL Devise]** | Utilisez ce type pour autoriser un champ flottant qui représente le type de devise par défaut sélectionné pour l’instance Journey Optimizer B2B edition. |
+   | **[!UICONTROL Date]** | Utilisez ce type pour restreindre la saisie à un format de date et fournir un sélecteur de calendrier dans le champ. |
+   | **[!UICONTROL Double]** | Variable double (virgule flottante double précision) stockée sous forme de nombres à virgule flottante IEEE 64 bits (8 octets). |
+   | **[!UICONTROL E-mail]** | Utilisez ce type pour restreindre la saisie à un format d’adresse électronique. |
+   | **[!UICONTROL Nombre]** | Utilisez ce type pour restreindre le champ à une valeur numérique. |
+   | **[!UICONTROL Groupe de cases d’option]** | Utilisez ce type pour permettre aux visiteurs de sélectionner l’une des options d’un ensemble. |
+   | **[!UICONTROL Sélectionner]** | Utilisez ce type pour permettre aux visiteurs de sélectionner l’une des options d’un ensemble d’options à l’aide d’une liste déroulante. |
+   | **[!UICONTROL Curseur]** | Utilisez ce type pour permettre aux visiteurs de définir une valeur numérique à l’aide d’un curseur. |
+   | **[!UICONTROL Téléphone]** | Utilisez ce type pour un champ de saisie de numéro de téléphone. |
+   | **[!UICONTROL Texte]** | Utilisez ce type pour un champ de saisie de texte standard (chaîne). |
+   | **[!UICONTROL Zone de texte]** | Utilisez ce type pour prendre en charge une entrée de texte plus longue. |
+   | **[!UICONTROL URL]** | Utilisez ce type pour limiter la saisie de texte à une URL, y compris le protocole d’URL standard. |
 
-1. Selon le type de champ sélectionné, définissez les autres options pour l’entrée de champ et la validation :
+1. Selon le type de champ sélectionné, définissez les autres options pour l’entrée de champ et la validation.
 
-   ![Définir des options pour le champ en fonction du type de champ sélectionné](./assets//form-field-details-text-type.png){width="400" zoomable="yes"}
+   ![Définir des options pour le champ en fonction du type de champ sélectionné](./assets/form-field-details-text-type.png){width="800" zoomable="yes"}
+
+   Par exemple, le type de champ _Texte_ comporte les options suivantes pour la saisie et la validation des champs :
 
    * **[!UICONTROL Espace réservé]** - Valeur d’espace réservé pour le champ qui donne au visiteur un exemple de ce qui est attendu pour le champ.
 
@@ -98,15 +100,21 @@ Utilisez les outils de conception de champs pour construire l’ensemble des cha
 
    * **[!UICONTROL Message de validation]** - Utilisez cette option pour spécifier un message de validation pour le champ. Ce message s’affiche si le visiteur saisit une valeur non valide pour le champ. Le message _[!UICONTROL Standard]_ est défini par défaut. Choisissez **[!UICONTROL Personnalisé]** et saisissez votre propre message.
 
-   * **Longueur maximale** - Saisissez le nombre maximal de caractères pouvant être saisis dans le champ.
+   * **[!UICONTROL Longueur maximale]** - Saisissez le nombre maximal de caractères pouvant être saisis dans le champ.
 
 1. Définissez la variable **[!UICONTROL Comportements de champ]** selon vos besoins :
 
-   * **Obligatoire** - Cochez la case pour que l’entrée de champ soit requise pour l’envoi du formulaire.
+   * **[!UICONTROL Obligatoire]** - Cochez la case pour que l’entrée de champ soit requise pour l’envoi du formulaire.
 
-   * **Activer le masque de saisie** - Cochez la case pour restreindre la saisie du visiteur à l’aide d’un masque de saisie. Par exemple, vous pouvez souhaiter que les visiteurs et visiteuses saisissent des numéros de téléphone dans un format spécifique. Dans la boîte de dialogue, saisissez le masque en utilisant `9` pour n’importe quel nombre, `a` pour n’importe quelle lettre et `*` pour l’un ou l’autre. Cliquez sur Enregistrer pour activer le masque de saisie spécifié.
+   * **[!UICONTROL Sensible]** - Cochez la case pour que le champ soit sensible à la casse.
 
-     ![Définir un masque de saisie pour le champ](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
+   * **[!UICONTROL Prérempli activé]** - Cochez la case pour renseigner le champ à partir des informations de profil, le cas échéant.
+
+   * **[!UICONTROL Activer le masque de saisie]** - Cochez la case pour restreindre la saisie du visiteur à l’aide d’un masque de saisie. Par exemple, vous pouvez souhaiter que les visiteurs et visiteuses saisissent des numéros de téléphone dans un format spécifique. Dans la boîte de dialogue, saisissez le masque en utilisant `9` pour n’importe quel nombre, `a` pour n’importe quelle lettre et `*` pour l’un ou l’autre.
+
+     ![Définir un masque de saisie pour le champ](./assets/form-field-mask-input-dialog.png){width="550" zoomable="yes"}
+
+     Cliquez sur **[!UICONTROL Enregistrer]** pour activer le masque de saisie spécifié.
 
 ### Modifier le style d’un champ {#field-styling}
 
@@ -128,7 +136,7 @@ Sélectionnez l’onglet **[!UICONTROL Styles]** dans le panneau de droite pour 
 
 * **[!UICONTROL Marge]** - Définissez des marges (en pixels) autour du champ. Vous pouvez définir la même marge sur les quatre côtés ou cocher la case **[!UICONTROL Marge différente pour chaque côté]** pour définir séparément les marges horizontale et verticale.
 
-* **[!UICONTROL Marge intérieure]** - Définissez la marge intérieure (en pixels) autour du champ. Vous pouvez définir la même marge sur les quatre côtés ou cocher la case **[!UICONTROL Marge intérieure différente pour chaque côté]** pour définir les marges horizontales et verticales séparément.
+* **[!UICONTROL Marge intérieure]** - Définissez la marge intérieure (en pixels) autour du champ. Vous pouvez définir la même marge intérieure sur les quatre côtés ou cocher la case **[!UICONTROL Marge intérieure différente pour chaque côté]** pour définir la marge intérieure horizontale et verticale séparément.
 
   ![Définissez la taille, la marge et les styles de remplissage du champ de formulaire](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
 
@@ -154,9 +162,9 @@ Le bouton d’envoi (champ de pied de page) fait partie du formulaire par défau
 
 ### Modifier le contenu du bouton {#button-content}
 
-Avec l’onglet _[!UICONTROL Contenu]_ affiché dans le panneau de droite, modifiez le texte dans le champ **[!UICONTROL Texte du bouton]**. Le dimensionnement du bouton s’ajuste en fonction de la longueur du texte.
+Une fois l’onglet _[!UICONTROL Contenu]_ affiché dans le panneau de droite, modifiez le texte dans le champ **[!UICONTROL Texte du bouton]**. Le dimensionnement du bouton s’ajuste en fonction de la longueur du texte.
 
-![Modifier le texte du bouton dans le formulaire](./assets//form-field-button-text.png){width="600" zoomable="yes"}
+![Modifier le texte du bouton dans le formulaire](./assets/form-field-button-text.png){width="600" zoomable="yes"}
 
 ### Donner un style au bouton d’envoi {#button-styles}
 
@@ -176,15 +184,15 @@ Sélectionnez l’onglet **[!UICONTROL Styles]** dans le panneau de droite pour 
 
 * **[!UICONTROL Alignement des boutons]** - Lorsque vous choisissez une taille _Demi-largeur_ ou _Auto_ pour le bouton, définissez l’alignement à gauche, à droite ou au centre. La marge intérieure s’ajuste en fonction de la taille et des paramètres d’alignement.
 
-* **[!UICONTROL Marge]** - Définissez des marges (en pixels) autour du champ. Vous pouvez définir la même marge sur les quatre côtés ou cocher la case **[!UICONTROL Marge différente pour chaque côté]** pour définir séparément les marges horizontale et verticale.
+* **[!UICONTROL Marge]** - Définissez des marges (en pixels) autour du bouton. Vous pouvez définir la même marge sur les quatre côtés ou cocher la case **[!UICONTROL Marge différente pour chaque côté]** pour définir séparément les marges horizontale et verticale.
 
-* **[!UICONTROL Marge intérieure]** - Définissez la marge intérieure (en pixels) autour du champ. Vous pouvez définir la même marge sur les quatre côtés ou cocher la case **[!UICONTROL Marge intérieure différente pour chaque côté]** pour définir les marges horizontales et verticales séparément. La marge intérieure s’ajuste si vous modifiez la taille et les paramètres d’alignement.
+* **[!UICONTROL Marge intérieure]** - Définissez la marge intérieure (en pixels) autour du bouton. Vous pouvez définir la même marge intérieure sur les quatre côtés ou cocher la case **[!UICONTROL Marge intérieure différente pour chaque côté]** pour définir la marge intérieure horizontale et verticale séparément. La marge intérieure s’ajuste si vous modifiez la taille et les paramètres d’alignement.
 
   ![Définir les styles d’alignement, de marge et de marge intérieure pour le bouton de formulaire](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
 
 ## Style du formulaire {#form-styling}
 
-Vous pouvez modifier les styles de la zone de formulaire lorsque vous cliquez en dehors des composants de structure ou de formulaire. Les composants de formulaire (champs et bouton) héritent des styles _Body_ définis au niveau supérieur, sauf si d’autres styles sont définis au niveau du champ ou du bouton/pied de page.
+Vous pouvez modifier les styles de la zone de formulaire lorsque vous cliquez en dehors des composants de structure ou de formulaire. Les composants de formulaire (champs et bouton) héritent des styles _Corps_ définis au niveau supérieur, sauf si d’autres styles sont définis au niveau du champ ou du bouton/pied de page.
 
 ![Définir les styles de niveau supérieur pour le corps du formulaire](./assets/form-body-styles.png){width="600" zoomable="yes"}
 
@@ -196,7 +204,7 @@ _Pour définir un CSS personnalisé pour le formulaire :_
 
 1. Cliquez sur **[!UICONTROL Affichage CSS]** dans le panneau de droite pour passer en revue le code CSS.
 
-   ![Définir les couleurs de fond du formulaire](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
+   ![Affichage CSS du formulaire](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
 
 1. Sélectionnez le code CSS dans la fenêtre de défilement et copiez-le dans le presse-papiers.
 
@@ -208,7 +216,7 @@ _Pour définir un CSS personnalisé pour le formulaire :_
 
 1. Collez le code CSS dans la fenêtre.
 
-   ![Définir les couleurs de fond du formulaire](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
+   ![Ajouter un CSS personnalisé pour le formulaire](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
 
    Vous pouvez modifier le texte collé dans cette fenêtre.
 

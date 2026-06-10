@@ -4,19 +4,15 @@ description: 'Créez, gérez et réutilisez des fragments de contenu visuel pour
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:25:36.421Z
-TQID: https://experienceleague.adobe.com/uSnmvOt0QVY4GbYxIfC0byCqvCZO8F4rMHmyoo3zIJ0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+autotag-review: '2026-05-27T16:13:50.677Z'
+TQID: 'https://experienceleague.adobe.com/Jvf48iWEQ2aOznKw2QEy33-X-q8cMfUQkbPAjgmgZqw'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 2748
 ht-degree: 3%
@@ -62,7 +58,7 @@ Le statut du fragment détermine sa disponibilité pour une utilisation dans un 
 | Publié | Lorsque vous publiez un fragment, il peut être utilisé dans un e-mail ou un modèle d’e-mail. Le contenu du fragment publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un fragment publié, la version publiée reste disponible pour une utilisation dans un e-mail ou un modèle d’e-mail, et le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les e-mails et les modèles d’e-mail où il est utilisé. Actions disponibles :<br/><ul><li>Modifier la description<li>Ajouter à un e-mail ou un modèle<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé) |
 
-![&#x200B; Cycle de vie du statut du fragment &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![ Cycle de vie du statut du fragment ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -98,7 +94,7 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B edition en c
 
    * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
 
-   ![&#x200B; Boîte de dialogue Créer un fragment &#x200B;](./assets/assets-fragments-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un fragment ](./assets/assets-fragments-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -106,7 +102,7 @@ Vous pouvez créer des fragments visuels dans Journey Optimizer B2B edition en c
 
 1. Utilisez les outils de conception de contenu pour créer le contenu du fragment visuel :
 
-   * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
+   * [Ajouter la structure et le contenu](./fragment-authoring.md#design-fragment)
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
@@ -192,13 +188,13 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
 1. Modifiez l’un des détails, tels que le nom et la description.
 
-   ![Détails du fragment avec le statut Brouillon &#x200B;](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![Détails du fragment avec le statut Brouillon ](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. Pour modifier le contenu dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier le fragment]**.
 
    Utilisez les outils de conception visuelle selon vos besoins :
 
-   * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
+   * [Ajouter la structure et le contenu](./fragment-authoring.md#design-fragment)
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
@@ -227,7 +223,7 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
    Utilisez les outils de conception visuelle selon vos besoins :
 
-   * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
+   * [Ajouter la structure et le contenu](./fragment-authoring.md#design-fragment)
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
@@ -256,7 +252,7 @@ Pour mettre à jour le contenu :
 
 1. Cliquez sur **[!UICONTROL Modifier le fragment]** en haut à droite. Utilisez les outils de conception visuelle selon vos besoins :
 
-   * [Ajouter la structure et le contenu](./fragment-authoring.md#add-structure-and-content)
+   * [Ajouter la structure et le contenu](./fragment-authoring.md#design-fragment)
    * [Ajout d’Assets](./fragment-authoring.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personnaliser le contenu](./fragment-authoring.md#personalize-content)
@@ -312,9 +308,9 @@ Les fragments sont conçus pour être réutilisés et peuvent être insérés po
 
 >[!TAB Ajouter des fragments à un email]
 
-1. Accédez à Parcours de compte **et ouvrez un parcours existant ou créez-en un.**
+1. Accédez à Parcours de compte ]**et ouvrez un parcours existant ou créez-en un.**[!UICONTROL 
 
-1. Créez un nœud [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Créez un nœud [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Créez ou modifiez le [contenu d’e-mail pour le nœud](./email-authoring.md).
 

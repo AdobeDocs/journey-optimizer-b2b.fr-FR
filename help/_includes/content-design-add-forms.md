@@ -1,7 +1,7 @@
 ---
 title: Création de contenu - Ajout de formulaires
 description: Section réutilisée sur l’ajout de formulaires dans les landing pages et les modèles
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%

@@ -5,22 +5,15 @@ feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T22:04:21.575Z
-TQID: https://experienceleague.adobe.com/tdFuPXow263TwebK-OF7bUenVrBuT1MYIG9FYC6gp-o
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+autotag-review: '2026-05-27T16:20:23.362Z'
+TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 7%
@@ -46,7 +39,7 @@ Avant de pouvoir créer des expériences web, assurez-vous que les exigences sui
 
 * Un administrateur de produit a configuré un ou plusieurs canaux web pour définir les URL (pages) à inclure pour une expérience web. Pour plus d’informations, voir [Configurations du canal web](../admin/configure-channels-web.md).
 
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
 
 * Vous disposez des [autorisations](../admin/user-management.md#b2b-product-permissions) nécessaires pour créer et gérer des expériences web dans un parcours :
    * _[!UICONTROL Campagnes]_ > _[!UICONTROL Gérer les campagnes]_ - Obligatoire pour ajouter ou mettre à jour un nœud d’action de personnalisation web.
@@ -69,7 +62,7 @@ Avant de pouvoir créer des expériences web, assurez-vous que les exigences sui
 
    Si vous utilisez [!DNL Microsoft Edge], sélectionnez _Autoriser les extensions_ dans d’autres magasins sur la bannière supérieure. L’activation de cette option vous permet d’ajouter des extensions du [!DNL Chrome Web Store] à [!DNL Microsoft Edge].
 
-1. Recherchez l’extension de navigateur _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;et accédez-y.
+1. Recherchez l’extension de navigateur _[!DNL Adobe Experience Cloud Visual Editing Helper]_et accédez-y.
 
    ![Extension Visual Editing Helper d’Adobe Experience Cloud pour Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -113,7 +106,7 @@ Vous pouvez configurer des expériences web dans un parcours lorsque vous [ajout
    >
    >Les champs Nom et Description prennent en charge les caractères alpha, numériques et spéciaux. Les caractères réservés (`\ / : * ? " < > |`) ne sont **_autorisés_**.
 
-   ![&#x200B; Boîte de dialogue Créer une expérience web &#x200B;](./assets/web-experience-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer une expérience web ](./assets/web-experience-create-dialog.png){width="400"}
 
 <!-- What is this for? 1. Properties? -->
 
@@ -193,7 +186,7 @@ Une fois la conception du contenu terminée pour l’expérience web, vous pouve
 
 ## Activer votre expérience web
 
-Votre expérience web est activée et rendue visible par l’audience lorsque vous [publiez le parcours &#x200B;](../journeys/create-publish-journey.md#publish-a-journey). Avant d’activer une expérience web par le biais d’un parcours, tenez compte des points suivants :
+Votre expérience web est activée et rendue visible par l’audience lorsque vous [publiez le parcours ](../journeys/create-publish-journey.md#publish-a-journey). Avant d’activer une expérience web par le biais d’un parcours, tenez compte des points suivants :
 
 * Si vous publiez un parcours avec une expérience web ayant un impact sur les mêmes pages qu’un autre parcours déjà actif, toutes les modifications sont appliquées aux pages web.
 
@@ -209,9 +202,9 @@ Pour activer la diffusion de l’expérience web, les paramètres suivants doive
 
 * Dans Adobe Experience Platform, assurez-vous d’avoir une politique de fusion avec l’option _[!UICONTROL Politique de fusion Active-On-Edge]_ activée.
 
-  Sélectionnez une politique sous le menu Client > Profils > Politiques de fusion dans Experience Platform. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Sélectionnez une politique sous le menu Client > Profils > Politiques de fusion dans Experience Platform. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Les canaux entrants Journey Optimizer B2B edition utilisent cette politique de fusion pour activer et publier correctement les expériences web entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/ui-guide)
+  Les canaux entrants Journey Optimizer B2B edition utilisent cette politique de fusion pour activer et publier correctement les expériences web entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Dépannage
 

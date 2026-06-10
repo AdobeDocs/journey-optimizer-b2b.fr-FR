@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 92%
    + [Parcours compte et personne](./journeys/journeys-overview.md)
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [rentrée de parcours](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+   + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
       + [Audience de compte](./journeys/account-audience-nodes.md)
       + [Audience de la personne (Beta)](./journeys/person-audience-nodes.md)
@@ -76,6 +76,7 @@ ht-degree: 92%
    + [Cibler des audiences externes](./audiences/target-external-audience.md)
    + [Audiences correspondantes du compte LinkedIn](./data/linkedin-account-matched-audiences.md)
    + [Champs XDM par défaut](./admin/field-mapping.md)
+   + [Profils de test](./audiences/test-profiles.md)
 + Comptes {#accounts}
    + Groupes d’achat {#buying-groups}
       + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
@@ -121,16 +122,17 @@ ht-degree: 92%
          + [Modification avancée d’HTML](./content/email-template-advanced-html.md)
          + [Convertir l’image en modèle](./content/email-template-image-convert.md)
       + Modèles de page de destination (version bêta) {#landing-page-templates}
-         + {hide-from-toc}[Vue d’ensemble](./content/landing-page-templates.md)
+         + [Vue d’ensemble](./content/landing-page-templates.md)
          + [Conception de modèle de page de destination](./content/landing-page-template-design.md)
    + Fragments {#visual-fragments}
       + [Vue d’ensemble](./content/fragments.md)
       + [Création de fragments](./content/fragment-authoring.md)
-   + Formulaires (version bêta) {#forms}
+   + Formulaires {#forms}
       + [Vue d’ensemble](./content/forms.md)
       + [Conception de formulaire](./content/form-design.md)
-   + Pages de destination (Beta) {#landing-pages}
+   + Pages de destination {#landing-pages}
       + [Vue d’ensemble](./content/landing-pages.md)
+      + [Créer et publier](./content/landing-pages-create-publish.md)
       + [Création de la page de destination](./content/landing-page-design.md)
       + [Assistant AI pour le contenu des pages de destination](./content/ai-assistant-landing-pages.md)
    + Outils de conception de contenu {#content-design}
@@ -170,4 +172,5 @@ ht-degree: 92%
       + [Configuration des SMS](./admin/configure-channels-sms.md)
       + [Configurations WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configurations du canal web (Beta)](./admin/configure-channels-web.md)
-      + [Paramètres de la page de destination (Beta)](./admin/landing-page-settings.md)
+      + [Configurations des pages de destination](./admin/configure-channels-landing-pages.md)
+      + [Configurations de Forms](./admin/configure-channels-forms.md)
