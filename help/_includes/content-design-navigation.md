@@ -1,10 +1,10 @@
 ---
 title: Création de contenu - navigation
 description: Section réutilisée sur l’utilisation de l’arborescence de navigation pour la création de contenu
-source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ L’exemple suivant décrit les étapes à suivre pour ajuster la marge intérie
 
 1. Dans la barre d’outils Colonne, cliquez sur l’outil _[!UICONTROL Sélectionner une colonne]_ et choisissez celle à modifier.
 
-   Vous pouvez également le sélectionner dans l’arborescence de la structure. Les paramètres modifiables de cette colonne sont affichés dans les onglets _[!UICONTROL Paramètres]_ et _[!UICONTROL Styles]_ sur la droite.
+   Vous pouvez également la sélectionner dans l&#39;arborescence. Les paramètres modifiables de cette colonne sont affichés dans les onglets _[!UICONTROL Paramètres]_ et _[!UICONTROL Styles]_ sur la droite.
 
    ![Composants de colonne affichés dans le concepteur visuel](../assets/content-design-shared/content-design-layers-column-select.png){width="800" zoomable="yes"}
 

@@ -1,10 +1,10 @@
 ---
 title: Création de contenu - Composants
 description: Section réutilisée sur l’utilisation de composants et d’éléments de contenu pour la création de contenu
-source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,19 @@ ht-degree: 0%
 
    La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Seules les colonnes vides peuvent être supprimées.
 
+   Pour plus d’informations sur l’utilisation et la mise en forme de ces composants, voir _[Composants de structure](../user/content/structure-components.md)_.
+
 1. Développez la section **[!UICONTROL Contenu]** et ajoutez autant de composants de contenu que nécessaire dans un ou plusieurs composants de structure.
 
    ![Faites glisser un élément de contenu sur la zone de travail et ajustez les paramètres](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   <!--
-   reference to the contents elements when we have a completed reference for each.
-   -->
+   * [Conteneur](../user/content/content-components.md#container)
+   * [Bouton](../user/content/content-components.md#button)
+   * [Texte](../user/content/content-components.md#text)
+   * [Diviseur](../user/content/content-components.md#divider)
+   * [Image](../user/content/content-components.md#image)
+   * [Social](../user/content/content-components.md#social)
+   * [Formulaire](../user/content/content-components.md#form) (pages de destination uniquement)
 
 1. Si nécessaire, vous pouvez effectuer des personnalisations supplémentaires pour chaque composant dans les onglets _[!UICONTROL Paramètres]_ ou _[!UICONTROL Style]_.
 

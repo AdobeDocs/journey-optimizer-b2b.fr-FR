@@ -3,7 +3,6 @@ title: Conception de la page de destination
 description: 'Concevoir des pages de destination avec des outils visuels : ajoutez des composants de contenu, des formulaires, des feuilles CSS personnalisées, une personnalisation et un aperçu d’appareil pour les parcours de compte dans Journey Optimizer B2B edition.'
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
@@ -19,16 +18,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 6%
+source-wordcount: 411
+ht-degree: 3%
 
 ---
 
 # Création de la page de destination
 
-Après avoir [créé une page de destination](./landing-pages.md#create-a-landing-page), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre page.
+Après avoir [créé une page de destination](./landing-pages-create-publish.md#create-landing-page), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre page.
 
 ## Ajouter la structure et le contenu {#structure-content-landing-page}
 
@@ -64,6 +63,18 @@ Avec au moins un composant de contenu dans la zone de travail, sélectionnez le 
 
 {{$include /help/_includes/content-design-links.md}}
 
+![Cliquez sur l’icône Modifier pour accéder au suivi des liens](./assets/landing-page-link-tracking.png){width="400"}
+
+Utilisez la variable **[!UICONTROL Type de tracking]** pour contrôler le tracking du lien :
+
+* **[!UICONTROL Tracké]** - Active le tracking sur l’URL du lien.
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL Jamais]** - N’active jamais le suivi de l’URL du lien.
+
 ### Enregistrer votre travail
 
 Cliquez sur **[!UICONTROL Enregistrer]** à tout moment pour enregistrer le brouillon de page de destination.
@@ -84,7 +95,7 @@ Tirez parti des options d’affichage et de validation du contenu disponibles da
 
 Dans le menu _[!UICONTROL Plus...]_ situé en haut de l’espace de conception visuelle, vous pouvez effectuer les actions suivantes :
 
-![Cliquez sur Plus pour accéder aux actions du modèle](./assets/landing-page-designer-more-menu.png){width="500"}
+![Cliquez sur Plus pour accéder aux actions de la page de destination](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Réinitialiser la page de destination]** - Cliquez sur cette option pour vider la zone de travail de conception visuelle de son contenu et redémarrer la création de votre contenu de page.
 * **[!UICONTROL Modifier votre conception]** - Revenez à la page d’accueil _[!UICONTROL Créer votre page de destination principale]_. À partir de là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception ou choisir de concevoir la page à partir de zéro dans une zone de travail vierge.

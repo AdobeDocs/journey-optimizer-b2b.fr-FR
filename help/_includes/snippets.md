@@ -1,9 +1,9 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2343'
 ht-degree: 5%
 
 ---
@@ -141,7 +141,7 @@ Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans
 
 Dans le panneau de droite avec l’onglet _[!UICONTROL Styles]_ sélectionné, développez la section **[!UICONTROL Marge]** et définissez les options d’espacement des marges dans le composant structurel. Ce style réplique le paramètre `margin` CSS, qui contrôle l’espace à l’extérieur d’une bordure de composant, le séparant des autres composants. Cela crée un espace autour du composant afin d’influencer son positionnement et la mise en page du contenu environnant.
 
-Définissez les valeurs de marge en pixels en fonction de vos besoins de conception. Vous pouvez définir la marge pour tous les côtés, le coin supérieur inférieur, le coin gauche droit ou chaque côté du composant indépendamment :
+Définissez les valeurs de marge en pixels en fonction de vos besoins de conception. Vous pouvez définir la marge pour tous les côtés, le coin supérieur inférieur, le coin gauche-droit ou chaque côté du composant indépendamment :
 
 * **Tous les côtés** - Pour définir une valeur à appliquer à tous les côtés, désélectionnez la case **[!UICONTROL Marge différente pour chaque côté]**. Cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels.
 
@@ -161,7 +161,7 @@ Définissez les valeurs de marge en pixels en fonction de vos besoins de concept
 
 Dans le panneau de droite avec l’onglet _[!UICONTROL Styles]_ sélectionné, développez la section **[!UICONTROL Marge intérieure]** et définissez les options de marge intérieure dans le composant structurel. Ce style réplique le paramètre `padding` CSS, qui correspond à l’espace entre le contenu d’un composant et sa bordure. La marge intérieure fournit un espacement interne que vous pouvez utiliser pour contrôler la distance entre le contenu et la bordure du composant.
 
-Définissez les valeurs de marge intérieure en pixels en fonction de vos besoins de conception. Vous pouvez définir la marge intérieure pour tous les côtés, le coin supérieur inférieur, le coin gauche droit ou chaque côté du composant indépendamment :
+Définissez les valeurs de marge intérieure en pixels en fonction de vos besoins de conception. Vous pouvez définir la marge intérieure pour tous les côtés, le coin supérieur inférieur, le coin gauche-droit ou chaque côté du composant indépendamment :
 
 * **Tous les côtés** - Pour définir une valeur à appliquer à tous les côtés, désélectionnez la case **[!UICONTROL Marge intérieure différente pour chaque côté]**. Cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels.
 

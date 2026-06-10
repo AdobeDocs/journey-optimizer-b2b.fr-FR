@@ -2,7 +2,6 @@
 title: Assistant AI pour le contenu de la page de destination
 description: 'Générer le contenu de la page de destination avec l’assistant AI : créez du texte et des images de page avec vos ressources de référence et le ciblage des rôles des groupes d’achat dans Journey Optimizer B2B edition.'
 feature: Generative AI, Landing Pages, Content
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 topic: Artificial Intelligence
 role: User
 level: Beginner
@@ -23,10 +22,10 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 2700
-ht-degree: 3%
+source-wordcount: 2690
+ht-degree: 2%
 
 ---
 
@@ -140,7 +139,7 @@ Procédez comme suit en fonction du type de génération de contenu de page de d
 
 Pour utiliser l’assistant AI afin de générer entièrement une page de destination, affinez un modèle de page de destination existant en procédant comme suit :
 
-1. Après avoir [créé la page de destination](./landing-pages.md#create-a-landing-page), cliquez sur **[!UICONTROL Modifier la page de destination]**.
+1. Après avoir [créé la page de destination](./landing-pages-create-publish.md#create-landing-page), cliquez sur **[!UICONTROL Modifier la page de destination]**.
 
 1. Sélectionnez un modèle.
 

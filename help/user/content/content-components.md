@@ -17,9 +17,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: 3064
 ht-degree: 7%
 
 ---
@@ -165,7 +165,7 @@ Chaque type de composant de contenu affiche une barre d’outils lorsque vous le
         <th style="width: 20%;">Composants</th>
     </tr>
     <tr>
-        <td><img width="160px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Outil Couleur de police"></td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Outil Couleur de police"></td>
         <td>Appliquer une couleur de police au texte sélectionné. Sélectionnez une couleur dans le sélecteur et utilisez le curseur de couleur et le champ de couleur pour sélectionner la couleur. Vous pouvez également saisir une valeur RGB, HSL, HSB ou hexadécimale connue. </td>
         <td><li>Bouton <li>Texte</td>
     </tr>
@@ -182,8 +182,8 @@ Chaque type de composant de contenu affiche une barre d’outils lorsque vous le
         <th style="width: 20%;">Composants</th>
     </tr>
     <tr>
-        <td><img width="120px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Outil Insérer un lien"></td>
-        <td>Créez un lien cliquable (URL externe ou page de destination) pour le texte ou l’élément sélectionné.</td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Outil Insérer un lien"></td>
+        <td>Créez un lien cliquable pour le texte ou l’élément sélectionné. <li>Contenu de l’e-mail - Spécifiez une URL externe ou une page de destination.<li>Contenu de la page de destination : indiquez un lien externe.</td>
         <td><li>Bouton <li>Texte <li>Image </td>
     </tr>
 </table>
@@ -200,7 +200,7 @@ Chaque type de composant de contenu affiche une barre d’outils lorsque vous le
     </tr>
     <tr>
         <td><img width="80px" src="../assets/do-not-localize/toolbar-button-remove-link.png" alt="Supprimer l’outil de lien"></td>
-        <td> Supprimez le lien cliquable (URL externe ou page de destination) du texte ou de l’élément sélectionné.</td>
+        <td> Supprimez le lien cliquable pour le texte ou l’élément sélectionné.</td>
         <td><li>Bouton <li>Texte <li>Image </td>
     </tr>
 </table>
@@ -312,7 +312,7 @@ Dans l’onglet _[!UICONTROL Paramètres]_, utilisez les options **[!UICONTROL L
 
    * **Page de destination** - Choisissez ce type pour sélectionner une page de destination publiée dans <!-- Journey Optimizer B2B Edition (_Beta_) or -->l’instance Marketo Engage connectée.
 
-     Pour l’option **[!UICONTROL Page de destination]**, sélectionnez la page de destination publiée. Cliquez sur l’icône _Sélectionner une page_ ( ![Afficher l’icône des liens](/help/assets/do-not-localize/icon-landing-page-select.svg) ) et [sélectionnez la page de destination publiée](./landing-pages.md#link-to-a-landing-page).
+     Pour l’option **[!UICONTROL Page de destination]**, sélectionnez la page de destination publiée. Cliquez sur l’icône _Sélectionner une page_ ( ![Afficher l’icône des liens](../assets/do-not-localize/icon-landing-page-select.svg) ) et [sélectionnez la page de destination publiée](./landing-pages.md#link-to-a-landing-page).
 
      ![Définir un lien vers une page de destination pour un composant Bouton](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -628,7 +628,7 @@ Dans l’onglet _[!UICONTROL Paramètres]_, utilisez les options **[!UICONTROL L
 
    * **Page de destination** - Choisissez ce type pour sélectionner une page de destination publiée dans <!-- Journey Optimizer B2B Edition (_Beta_) or -->l’instance Marketo Engage connectée.
 
-     Pour l’option **[!UICONTROL Page de destination]**, sélectionnez la page de destination publiée. Cliquez sur l’icône _Sélectionner une page_ ( ![Afficher l’icône des liens](/help/assets/do-not-localize/icon-landing-page-select.svg) ) et [sélectionnez la page de destination publiée](./landing-pages.md#link-to-a-landing-page).
+     Pour l’option **[!UICONTROL Page de destination]**, sélectionnez la page de destination publiée. Cliquez sur l’icône _Sélectionner une page_ ( ![Afficher l’icône des liens](../assets/do-not-localize/icon-landing-page-select.svg) ) et [sélectionnez la page de destination publiée](./landing-pages.md#link-to-a-landing-page).
 
      ![Définir un lien vers une page de destination pour un composant Bouton](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -756,7 +756,7 @@ Vous pouvez définir les options de style suivantes pour le composant _Social_ :
 
 +++
 
-### Formulaire (landing pages)
+### Formulaire (pages de destination uniquement) {#form}
 
 [!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Fonctionnalité Beta"}
 

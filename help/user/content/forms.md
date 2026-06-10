@@ -3,23 +3,24 @@ title: Formulaires
 description: 'Créez et gérez des formulaires réutilisables pour la collecte de données métier : concevez des champs, définissez des pages de remerciement, publiez et suivez l’utilisation dans Journey Optimizer B2B edition.'
 feature: Forms, Content
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
+autotag-review: '2026-05-27T16:11:44.937Z'
+TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-autotag-review: 2026-03-30T22:51:56.324Z
-TQID: https://experienceleague.adobe.com/ooUYR3UcoePXYZx3KYMN9jgSXPdkOjEDYZE6-0vDock
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 2374
+source-wordcount: 2466
 ht-degree: 1%
 
 ---
@@ -28,17 +29,27 @@ ht-degree: 1%
 
 Pour capturer des informations auprès des visiteurs et visiteuses de pages web, créez des formulaires et ajoutez-les à vos pages de destination. Un formulaire est un ensemble de champs que les visiteurs de la page remplissent et envoient pour obtenir un type de contenu ou d’offre, tel qu’un article technique, un webinaire à la demande ou une version d’essai gratuite.
 
-La quantité d’informations que le formulaire doit capturer dépend de la valeur du contenu ou de l’offre. Si vous proposez quelque chose de simple, comme un livre blanc, vous ne devez recueillir que des informations minimales, telles que leur nom, leur adresse e-mail et leur société. Si l’offre a une valeur supérieure, comme une démonstration ou une version d’essai gratuite, vous pouvez collecter davantage d’informations. L’exigence d’un formulaire envoyé pour permettre l’affichage du contenu est appelée _contenu contrôlé_. Votre entreprise décide du contenu à contrôler et de celui qui ne l’est pas (_libre_). La bonne pratique consiste à autoriser gratuitement certains contenus et à ne réserver qu’à votre contenu premium ou à forte demande.
+La quantité d’informations que le formulaire doit capturer dépend de la valeur du contenu ou de l’offre. Si vous proposez quelque chose de simple, comme un livre blanc, collectez uniquement des informations minimales, telles que le nom, l’adresse e-mail et la société. Si l’offre a une valeur supérieure, comme une démonstration ou une version d’essai gratuite, vous pouvez collecter davantage d’informations. L’exigence d’un formulaire envoyé pour permettre l’affichage du contenu est appelée _contenu contrôlé_. Votre entreprise décide du contenu à contrôler et de celui qui ne l’est pas (_libre_). La bonne pratique consiste à autoriser gratuitement certains contenus et à ne réserver qu’à votre contenu premium ou à forte demande.
 
-## Accéder aux formulaires et les gérer
+>[!PREREQUISITES]
+>
+>Avant que les équipes marketing puissent créer et utiliser des formulaires pour capturer des informations, un administrateur doit définir un ou plusieurs paramètres prédéfinis de formulaire. Pour plus d’informations, voir [_Configurations_](../admin/configure-channels-forms.md).
+>
+>La création d’un formulaire dans Journey Optimizer B2B edition nécessite les [autorisations](../admin/user-management.md#b2b-product-permissions) suivantes :
+>
+>* _[!UICONTROL Bibliothèque]_ > _[!UICONTROL Lire le Forms B2C]_ - Obligatoire pour accéder et afficher les formulaires.
+>* _[!UICONTROL Bibliothèque Journey Optimizer]_ > _[!UICONTROL Gérer le Forms B2C]_ - Requis pour créer, mettre à jour et supprimer des formulaires.
+>* _[!UICONTROL Bibliothèque]_ > _[!UICONTROL Publier le Forms B2C]_ - Requis pour publier des formulaires.
 
-Pour accéder aux formulaires dans Journey Optimizer B2B edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Forms]**. Cette action ouvre une page de liste répertoriant tous les formulaires créés dans l’instance répertoriée dans un tableau.
+## Accéder aux formulaires et les gérer {#view-forms}
 
-![Accéder à la bibliothèque de formulaires](./assets/forms-list.png){width="700" zoomable="yes"}
+Pour accéder aux formulaires dans Journey Optimizer B2B edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Forms]**. Cette action ouvre une page de liste qui affiche tous les formulaires créés dans l’instance.
 
-Le tableau est trié selon la colonne _[!UICONTROL Modifié]_, les formulaires les plus récemment mis à jour étant en haut par défaut. Cliquez sur le titre de la colonne pour passer d’un ordre croissant à un ordre décroissant.
+![Accéder à la bibliothèque de formulaires](./assets/forms-list.png){width="800" zoomable="yes"}
 
-### Statut et cycle de vie du formulaire
+Le système trie le tableau en fonction de la colonne _[!UICONTROL Modifié]_, affichant par défaut en haut les formulaires mis à jour le plus récemment. Cliquez sur le titre de la colonne pour passer d’un ordre croissant à un ordre décroissant.
+
+### Statut et cycle de vie du formulaire {#form-status}
 
 Le statut du formulaire détermine sa disponibilité pour une utilisation dans une page de destination ou un modèle de page de destination, ainsi que les modifications que vous pouvez y apporter.
 
@@ -50,13 +61,13 @@ Le statut du formulaire détermine sa disponibilité pour une utilisation dans u
 
 ![&#x200B; Cycle de vie du statut du formulaire &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
-### Filtrer la liste des formulaires
+### Filtrer la liste des formulaires {#filter-list}
 
 Pour rechercher une correspondance dans un formulaire par nom, saisissez une chaîne de texte dans la barre de recherche. Cliquez sur l’icône _Filtrer_ ( ![Afficher ou masquer l’icône des filtres](../assets/do-not-localize/icon-filter.svg) ) pour afficher les options de filtre disponibles et modifier les paramètres afin de filtrer les éléments affichés en fonction de vos critères spécifiés.
 
 ![Filtrer les formulaires affichés](./assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
-### Personnalisation de l’affichage des colonnes
+### Personnalisation de l’affichage des colonnes {#column-display}
 
 Personnalisez les colonnes à afficher dans le tableau en cliquant sur l’icône _Personnaliser le tableau_ ( ![Icône Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg) ) en haut à droite.
 
@@ -64,7 +75,7 @@ Dans la boîte de dialogue, sélectionnez les colonnes à afficher et cliquez su
 
 ![Colonnes à afficher dans la liste Forms](./assets/forms-customize-table-dialog.png){width="300"}
 
-## Création de formulaires
+## Création de formulaires {#create-forms}
 
 Avant de commencer à créer des formulaires réutilisables dans Journey Optimizer B2B edition, tenez compte des points suivants :
 
@@ -76,7 +87,7 @@ Avant de commencer à créer des formulaires réutilisables dans Journey Optimiz
 
   Envisagez d’utiliser des formulaires plus courts, car ils se sont avérés meilleurs pour les conversions. Lorsque vous réfléchissez à chaque formulaire, décidez quels champs sont raisonnables et nécessaires pour son objectif.
 
-  Indiquez s’il faut préremplir les champs du formulaire, de sorte que les informations de base, telles que le nom et l’adresse électronique, soient préremplies. Mais d’autres informations, telles que l’intitulé du poste et la taille de l’organisation, ne le sont pas. Ainsi, le visiteur n’a besoin de remplir que deux champs et d’envoyer le formulaire. Vous pouvez également utiliser un formulaire de réseau social rempli de données provenant de Facebook ou de Twitter.
+  Indiquez s’il faut préremplir les champs du formulaire, de sorte que les informations de base, telles que le nom et l’adresse e-mail, soient préremplies. Mais d’autres informations, telles que l’intitulé du poste et la taille de l’organisation, ne le sont pas. Ainsi, le visiteur n’a besoin de remplir que deux champs et d’envoyer le formulaire. Vous pouvez également utiliser un formulaire de réseau social rempli de données provenant de Facebook ou de Twitter.
 
 * Planifiez la page de relance qui s’affiche après l’envoi d’un formulaire par un visiteur (page _merci_).
 
@@ -86,7 +97,7 @@ Avant de commencer à créer des formulaires réutilisables dans Journey Optimiz
 
   Lorsque vous autorisez un contournement de formulaire pour une personne connue qui visite votre page de destination, elle peut simplement accéder directement au contenu. Le fait de contourner le formulaire offre une expérience du visiteur plus rationalisée.
 
-### Ajouter un nouveau formulaire
+### Ajouter un nouveau formulaire {#new-form}
 
 Vous pouvez créer un formulaire dans Journey Optimizer B2B edition en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
 
@@ -104,31 +115,35 @@ Vous pouvez créer un formulaire dans Journey Optimizer B2B edition en cliquant 
 
    ![&#x200B; Boîte de dialogue Créer un formulaire &#x200B;](./assets/forms-create-dialog.png){width="400"}
 
+1. Pour **[!UICONTROL Paramètre prédéfini]**, cliquez sur l’icône _Sélectionner les données_ ( ![Icône Sélectionner les données](../assets/do-not-localize/icon-select-data.svg) ) pour lier un paramètre prédéfini de formulaire configuré au formulaire.
+
+   Le paramètre prédéfini détermine l’emplacement de stockage et de réflexion des réponses du formulaire. Vous pouvez saisir une chaîne de texte pour rechercher un paramètre prédéfini spécifique ou le sélectionner dans la liste.
+
 1. Cliquez sur **[!UICONTROL Créer]**.
 
    La page de détails du formulaire s’ouvre avec une définition de formulaire de base par défaut.
 
    ![Contenu de formulaire par défaut](./assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### Modifier la conception de formulaire par défaut
+### Modifier la conception de formulaire par défaut {#design}
 
 Utilisez les outils de conception visuelle pour modifier le contenu du formulaire selon vos besoins :
 
-* [Ajouter des champs](./form-design.md#add-a-field)
-* [Modifier le style d’un champ](./form-design.md#change-field-styling)
-* [Réorganiser les champs](./form-design.md#reorder-fields)
-* [Modifier le texte et le style du bouton Envoyer](./form-design.md#edit-and-style-the-submit-button)
-* [Modifier le style du formulaire](./form-design.md#change-form-styling)
+* [Ajouter des champs](./form-design.md#add-field)
+* [Modifier le style d’un champ](./form-design.md#field-styling)
+* [Réorganiser les champs](./form-design.md#field-reorder)
+* [Modifier le texte et le style du bouton Envoyer](./form-design.md#submit-button)
+* [Modifier le style du formulaire](./form-design.md#form-styling)
 
 Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour enregistrer les modifications apportées à la conception du contenu du formulaire et accédez aux détails du formulaire.
 
-### Définir la page de remerciement
+### Définir la page de remerciement {#thank-you-page}
 
 Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran jusqu’à la section **[!UICONTROL Page de remerciement]** et utilisez le paramètre **[!UICONTROL Suivre avec]** pour définir ce qui se passe lorsqu’un visiteur envoie le formulaire :
 
 * **[!UICONTROL Rester sur la page]** - Sélectionnez cette option pour que le visiteur reste sur la même page lors de l’envoi du formulaire.
 
-* **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination Journey Optimizer B2B edition ou Marketo Engage comme suite.
+* **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination de Journey Optimizer B2B edition comme suivi.
 
 * **[!UICONTROL URL externe]** - Sélectionnez cette option pour spécifier n’importe quelle URL comme page de suivi. Une fois que le visiteur a envoyé le formulaire, le navigateur charge l’URL désignée.
 
@@ -136,7 +151,7 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran ju
   >
   >Si vous souhaitez utiliser le formulaire pour télécharger un fichier, vous pouvez spécifier une URL pour le fichier hébergé. Avec cette configuration, le bouton d’envoi fonctionne comme un bouton de téléchargement.
 
-### Publier le brouillon de formulaire
+### Publier le brouillon de formulaire {#publish}
 
 Lorsque vous êtes prêt à rendre le formulaire disponible pour une utilisation dans une page de destination ou un modèle de page de destination, cliquez sur **[!UICONTROL Publier]**.
 
@@ -144,17 +159,17 @@ Lorsque vous êtes prêt à rendre le formulaire disponible pour une utilisation
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus de publication en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Publier]** pour confirmer.
 
-## Afficher les détails du formulaire
+## Afficher les détails du formulaire {#view-details}
 
-Cliquez sur le nom d’un formulaire dans la page de liste pour ouvrir la page des détails du fragment. Vous pouvez choisir de modifier le formulaire, de le renommer ou de mettre à jour sa description. Effectuez des mises à jour et cliquez en dehors du champ de nom ou de description pour enregistrer automatiquement les modifications.
+Cliquez sur le nom d’un formulaire dans la page de liste pour ouvrir la page des détails du formulaire. Vous pouvez choisir de modifier le formulaire, de le renommer ou de mettre à jour sa description. Effectuez des mises à jour et cliquez en dehors du champ de nom ou de description pour enregistrer automatiquement les modifications.
 
 >[!NOTE]
 >
->Si un formulaire publié est utilisé par une page de destination ou un modèle de page de destination, vous ne pouvez pas modifier le contenu ni la page de remerciement. Vous pouvez créer un brouillon si vous souhaitez apporter des modifications aux formulaires.
+>Si un formulaire publié est utilisé par une page de destination ou un modèle de page de destination, vous ne pouvez pas modifier le contenu ni la page de remerciement. Vous pouvez créer un brouillon si vous souhaitez apporter des modifications au formulaire.
 
 ![Affichage des détails d’un formulaire publié](./assets/form-details-published.png){width="600" zoomable="yes"}
 
-Cliquez sur **[!UICONTROL Modifier le formulaire]** pour ouvrir le fragment dans l’espace de conception visuelle.
+Cliquez sur **[!UICONTROL Modifier le formulaire]** pour ouvrir le formulaire dans l’espace de conception visuelle.
 
 Quittez la vue à tout moment en cliquant sur la flèche _Précédent_ en haut à gauche, qui vous renvoie à la page de liste _[!UICONTROL Forms]_.
 
@@ -170,14 +185,14 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur l’onglet **[!UI
 
 Les références sont affichées selon la catégorie : _Page de destination_ ou _Modèle de page de destination_. Cliquez sur le lien pour ouvrir la page ou le modèle correspondant dans lequel le formulaire est utilisé.
 
-## Supprimer des formulaires
+## Supprimer des formulaires {#delete-forms}
 
 Les formulaires actuellement utilisés par une page de destination ou un modèle de page de destination ne peuvent pas être supprimés. Vous pouvez vérifier les références _utilisé par_ avant de lancer la suppression d’un formulaire. En outre, une suppression ne peut pas être annulée. Vérifiez-la avant de lancer une action de suppression.
 
 Vous pouvez supprimer un formulaire à l’aide de l’une des méthodes suivantes :
 
 * En haut à droite, cliquez sur **[!UICONTROL ... Plus]** puis choisissez **[!UICONTROL Supprimer]**.
-* Dans la page de liste __, cliquez sur les points de suspension en regard du nom du formulaire et choisissez **[!UICONTROL Supprimer]**.
+* Dans la page de liste __, cliquez sur le _Plus_ (**...**) à côté du nom du formulaire et choisissez **[!UICONTROL Supprimer]**.
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
@@ -187,14 +202,14 @@ Si le formulaire est en cours d’utilisation, l’action ouvre une boîte de di
 
 ![Boîte de dialogue Supprimer le formulaire - Impossible de supprimer le formulaire en cours d’utilisation](./assets/form-delete-dialog-in-use.png){width="400"}
 
-## Dupliquer les formulaires
+## Dupliquer les formulaires {#duplicate-forms}
 
-Dupliquez un formulaire comme moyen simple et rapide de créer un formulaire à partir d’un formulaire existant comme point de départ pour votre conception de formulaire.
+Dupliquez un formulaire comme moyen simple et rapide de créer un formulaire à l’aide d’un formulaire existant comme point de départ pour votre conception de formulaire.
 
 Vous pouvez dupliquer un formulaire à l’aide de l’une des méthodes suivantes :
 
 * En haut à droite de la page des détails du formulaire, cliquez sur **[!UICONTROL ... En plus]** et choisissez **[!UICONTROL Dupliquer]**.
-* Dans la page de liste __, cliquez sur les points de suspension en regard du nom du formulaire et choisissez **[!UICONTROL Dupliquer]**.
+* Dans la page de liste __, cliquez sur le _Plus_ (**...**) à côté du nom du formulaire et choisissez **[!UICONTROL Dupliquer]**.
 
 ![Dupliquer le formulaire](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -204,13 +219,13 @@ Dans la boîte de dialogue, saisissez un nom utile (unique) et une description. 
 
 Modifiez le duplicata de formulaire pour changer le nom si nécessaire et modifier le formulaire pour son utilisation prévue.
 
-## Modification de formulaires
+## Modification de formulaires {#edit-forms}
 
 Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 * Lorsqu’un formulaire a le statut _Brouillon_, vous pouvez modifier n’importe quel détail et contenu (champs, bouton et style).
 * Lorsqu’un formulaire a le statut _Publié_, vous pouvez modifier son nom ou sa description. Vous ne pouvez pas modifier le contenu.
-* Lorsqu’un formulaire est à l’état _Publié avec le statut Brouillon_, vous pouvez modifier le nom ou la description du formulaire. Dans le brouillon, vous pouvez également modifier le contenu et la ou les pages de remerciement
+* Lorsqu’un formulaire est à l’état _Publié avec le statut Brouillon_, vous pouvez modifier le nom ou la description du formulaire. Dans le brouillon, vous pouvez également modifier le contenu et la page de remerciement.
 
 >[!BEGINTABS]
 
@@ -222,17 +237,17 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 1. Modifiez l’un des détails, tels que le nom et la description.
 
-   ![Détails du fragment avec le statut Brouillon &#x200B;](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![Détails du formulaire au statut Brouillon](./assets/form-details-draft.png){width="600" zoomable="yes"}
 
 1. Pour apporter des modifications au formulaire dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier le formulaire]**.
 
    Utilisez les outils de conception visuelle selon vos besoins :
 
-   * [Ajouter des champs](./form-design.md#add-a-field)
-   * [Modifier le style d’un champ](./form-design.md#change-field-styling)
-   * [Réorganiser les champs](./form-design.md#reorder-fields)
+   * [Ajouter des champs](./form-design.md#add-field)
+   * [Modifier le style d’un champ](./form-design.md#field-styling)
+   * [Réorganiser les champs](./form-design.md#field-reorder)
    * [Modifier le texte et le style du bouton Envoyer](./form-design.md#submit-button)
-   * [Modifier le style du formulaire](./form-design.md#change-form-styling)
+   * [Modifier le style du formulaire](./form-design.md#form-styling)
 
    Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du formulaire.
 
@@ -252,11 +267,11 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 1. Utilisez les outils de conception visuelle nécessaires pour mettre à jour le contenu du formulaire :
 
-   * [Ajouter des champs](./form-design.md#add-a-field)
-   * [Modifier le style d’un champ](./form-design.md#change-field-styling)
-   * [Réorganiser les champs](./form-design.md#reorder-fields)
+   * [Ajouter des champs](./form-design.md#add-field)
+   * [Modifier le style d’un champ](./form-design.md#field-styling)
+   * [Réorganiser les champs](./form-design.md#field-reorder)
    * [Modifier le texte et le style du bouton Envoyer](./form-design.md#submit-button)
-   * [Modifier le style du formulaire](./form-design.md#change-form-styling)
+   * [Modifier le style du formulaire](./form-design.md#form-styling)
 
    Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du formulaire.
 
@@ -276,11 +291,11 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 1. Cliquez sur **[!UICONTROL Modifier le formulaire]** dans le volet _[!UICONTROL Résumé]_ à droite et utilisez les outils de conception visuelle nécessaires :
 
-   * [Ajouter des champs](./form-design.md#add-a-field)
-   * [Modifier le style d’un champ](./form-design.md#change-field-styling)
-   * [Réorganiser les champs](./form-design.md#reorder-fields)
+   * [Ajouter des champs](./form-design.md#add-field)
+   * [Modifier le style d’un champ](./form-design.md#field-styling)
+   * [Réorganiser les champs](./form-design.md#field-reorder)
    * [Modifier le texte et le style du bouton Envoyer](./form-design.md#submit-button)
-   * [Modifier le style du formulaire](./form-design.md#change-form-styling)
+   * [Modifier le style du formulaire](./form-design.md#form-styling)
 
    Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du formulaire.
 
@@ -290,18 +305,18 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 >[!ENDTABS]
 
-## Ajouter des formulaires à une page de destination ou à un modèle
+## Ajouter des formulaires à une page de destination ou à un modèle {#insert-forms}
 
 Les Forms sont conçues pour être réutilisées et peuvent être insérées lorsque vous concevez un [modèle de page de destination](./landing-page-design.md) ou de [page de destination](./landing-page-templates.md).
 
 {{$include /help/_includes/content-design-add-forms.md}}
 
-## Actions de formulaire pour la création de pages et de modèles
+## Actions de formulaire pour la création de pages et de modèles {#form-actions}
 
 Lorsqu’un formulaire est inclus dans une page de destination ou un modèle de page de destination, le contenu du formulaire ne peut pas être modifié dans la page ou le modèle. Vous pouvez toutefois appliquer les actions suivantes :
 
-* **[!UICONTROL Supprimer]** - Cette action supprime le formulaire de la page ou du contenu du modèle en cours (la source du fragment n’est pas affectée).
-* **[!UICONTROL Dupliquer]** - Cette action duplique le formulaire dans la même page ou le même modèle au sein de l’éditeur, avec les mêmes dimensions et ajouté juste en dessous.
+* **[!UICONTROL Supprimer]** - Cette action supprime le formulaire de la page ou du contenu du modèle en cours (la source du formulaire n’est pas affectée).
+* **[!UICONTROL Dupliquer]** - Cette action duplique le formulaire dans l’éditeur en conservant les mêmes dimensions.
 * **[!UICONTROL Afficher HTML]** - Cette action ouvre une fenêtre contextuelle contenant l’HTML du formulaire. Vous pouvez modifier l’HTML ou la copier pour l’utiliser dans d’autres contenus web.
 * **[!UICONTROL Modifier le formulaire]** - Cette action ouvre un nouvel onglet du navigateur avec la page de l’éditeur de formulaire et les détails.
 

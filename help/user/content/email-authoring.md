@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 7%
+source-wordcount: 1381
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ Utilisez l’espace de conception visuelle du contenu pour définir la structure
 
    * **[!UICONTROL Style manuel]** - Sélectionnez cette option pour créer l’e-mail en _mode manuel_. Dans ce mode, vous définissez manuellement la mise en forme de tous les composants de structure et de contenu que vous ajoutez à la zone de travail vierge.
 
-1. [Ajoutez la structure et le contenu](./email-authoring.md#add-structure-and-content) au modèle.
+1. [Ajoutez la structure et le contenu](./email-authoring.md#structure-content) au modèle.
 
 1. [Vérifier et mettre à jour les liens](#preview-and-edit-linked-urls).
 
@@ -141,6 +141,20 @@ Une fois l’e-mail enregistré, il s’affiche dans la page des détails du fra
 ### Modifier le tracking des URL liées
 
 {{$include /help/_includes/content-design-links.md}}
+
+![Cliquez sur l’icône Modifier pour accéder au suivi des liens](./assets/email-link-tracking.png){width="400"}
+
+Le système de diffusion par e-mail (via Marketo Engage) encapsule automatiquement toutes les URL dans les e-mails HTML avec une redirection de suivi unique lors de l&#39;envoi. Utilisez la variable **[!UICONTROL Type de tracking]** pour contrôler le tracking du lien :
+
+* **[!UICONTROL Suivi sans jeton]** - Le système enregistre le clic, mais suit ce que l’utilisateur fait ensuite sur la page web. Cela peut être important dans certains cas techniques, par exemple lorsque vous traitez avec des systèmes tiers qui ne gèrent pas correctement mkt_tok. Cependant, le tracking web suivant est limité.
+
+* **[!UICONTROL Suivi avec mkt-tok]** - Utilisez le jeton de suivi (mkt_tok) pour suivre les activités web suivantes via Munchkin. Lorsqu’un destinataire clique sur le lien, il enregistre un événement _Cliquer sur l’e-mail_ dans le journal des activités, suit son activité en toute sécurité et applique un cookie pour surveiller les interactions futures du site.
+
+* **[!UICONTROL Ne pas suivre]** - Le système ne suit pas l’activité associée au lien. Cela s’avère utile lorsque la page de destination ne prend pas en charge les paramètres d’URL et peut entraîner la rupture d’un lien.
+
+  >[!NOTE]
+  >
+  >Si un e-mail a été envoyé il y a plus de 365 jours et que personne n’a cliqué sur aucun de ses liens au cours des 180 derniers jours, le système élague l’itinéraire vers l’URL à partir de la base de données. Cette suppression entraîne la rupture du lien. Si vous souhaitez que le lien soit permanent, désactivez le suivi.
 
 ### Appliquer le style du mode sombre
 

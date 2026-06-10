@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: e1d68e75c6bcbab943f3ddf8326f4f9ffb4922c4
+source-git-commit: c556fb63675dfd1d6e03f6b0143b3d3bd619557e
 workflow-type: tm+mt
-source-wordcount: 5116
+source-wordcount: 5167
 ht-degree: 66%
 
 ---
@@ -40,14 +40,14 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Pages de destination | Les marketeurs peuvent désormais créer et publier des pages de destination dans Journey Optimizer B2B edition pour prendre en charge les parcours et les programmes _(précédemment une fonctionnalité de programme Beta)_ |
-| Fonctionnalité | Formulaires | Les marketeurs peuvent désormais créer et publier des composants de formulaire réutilisables pour activer l’envoi de données à partir des pages de destination créées et publiées dans Journey Optimizer B2B edition _(précédemment une fonctionnalité de programme Beta)_ |
+| Fonctionnalité | Pages de destination | Des pages de destination sont disponibles dans Journey Optimizer B2B edition pour prendre en charge les parcours et les programmes _(auparavant, il s’agissait d’une fonctionnalité de programme Beta)_. <ul><li>Les administrateurs peuvent configurer les sous-domaines et les préréglages de page de destination pour activer la publication des pages de destination. [En savoir plus](../admin/configure-channels-landing-pages.md)</li><li>Les marketeurs peuvent créer, concevoir et publier des pages de destination pour prendre en charge leurs parcours avec du contenu web personnalisé. [En savoir plus](../content/landing-pages.md)</li></ul> |
+| Fonctionnalité | Formulaires | Journey Optimizer B2B edition prend désormais en charge les composants de formulaire réutilisables pour activer l’envoi de données à partir des pages de destination _(auparavant une fonctionnalité de programme Beta)_. <ul><li>Les administrateurs peuvent configurer plusieurs paramètres prédéfinis de formulaire à l’aide de différentes combinaisons de jeux de données et de connexions en continu. [En savoir plus](../admin/configure-channels-forms.md)</li><li>Les marketeurs peuvent désormais définir des composants de formulaire réutilisables pour capturer les informations des visiteurs de la page web. [En savoir plus](../content/forms.md)</li></ul> |
 | Fonctionnalité | Filtre de liste des membres de compte | Utilisez l’appartenance à des listes de comptes comme point d’orchestration dans les parcours de compte. Les marketeurs peuvent créer des places sur la liste bloquée de comptes, des listes de priorités ou tout autre type de sous-ensemble de leur audience et fournir aux comptes des expériences uniques dans les parcours en fonction de leur appartenance. |
 | Fonctionnalité | Filtrage de l’historique des événements d’expérience | Cette fonctionnalité permet à l’orchestration des parcours B2B d’utiliser l’engagement historique pour orienter les décisions basées sur le comportement des membres de l’audience. [En savoir plus](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Fonctionnalité | Nœuds de parcours du meilleur chemin suivant | Vous pouvez optimiser la prise de décision de chemin partagé pour les parcours de personne, en affinant la manière dont les audiences sont acheminées entre les chemins avant l’activation du parcours ou au moment de l’exécution. [En savoir plus](../journeys/next-best-path-node.md) |
 | Fonctionnalité | Tableau de bord des performances des e-mails | Le tableau de bord Performances des e-mails offre aux marketeurs une vue unifiée de l&#39;activité des e-mails sur tous les parcours dans Adobe Journey Optimizer B2B edition. [En savoir plus](../dashboards/email-performance-dashboard.md) |
 | Amélioration | Compétences B2B Audience Agent | Les compétences B2B d’Audience Agent sont mises à jour, y compris la création de modèles de groupe d’achats optimisés par l’IA. Utilisez le mappage d’intention et de personnage propriétaire pour générer des modèles de groupe d’achats, passer en revue les mappages rôle/personnage recommandés par l’IA et affiner les modèles avec le langage naturel avant de les publier. [En savoir plus](../agents/audience-agent-b2b.md) |
-| Amélioration | Tableau de bord de présentation des parcours - parcours de personne | Les parcours de personne (Beta) incluent désormais un onglet _[!UICONTROL Aperçu]_ avec les mêmes analyses que les parcours de compte, y compris la répartition du taux d’achèvement des parcours, les parcours par type d’engagement et les actions d’exploration amont et d’exportation. <a href="../dashboards/journeys-dashboard.md">En savoir plus</a> |
+| Amélioration | Tableau de bord de présentation des parcours - parcours de personne | Les parcours de personne (Beta) incluent désormais un onglet _[!UICONTROL Aperçu]_ avec les mêmes analyses que les parcours de compte, y compris la répartition du taux d’achèvement des parcours, les parcours par type d’engagement et les actions d’exploration amont et d’exportation. [En savoir plus](../dashboards/journeys-dashboard.md) |
 | Amélioration | Prise en charge des jeux de données relationnels d’AEP | De nouveaux jeux de données relationnels apparaissent désormais dans votre sandbox AEP, aux côtés des jeux de données existants. |
 
 >[!NOTE]
@@ -296,7 +296,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Amélioration | Filtre d’abonnement à la liste Marketo Engage pour les parcours et les rôles | Dans Journey Optimizer B2B, vérifiez l’abonnement à la liste Marketo Engage comme condition d’un nœud _fractionner le chemin par personne_ afin d’éliminer les doublons dans les activités de parcours. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">En savoir plus</a> <p> Pour les modèles de rôles de groupe d’achat, utilisez l’abonnement à une liste comme condition de rôle. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">En savoir plus</a> |
 | Amélioration | Tableau de bord de vue d’ensemble de l’engagement | Ce tableau de bord est mis à jour afin de fournir une vue complète de l’engagement. Il présente des mesures en temps réel des interactions des comptes et des individus par le biais de graphiques circulaires instantanés et de graphiques linéaires révélateurs de tendances au fil du temps. <a href="../dashboards/engagement-dashboard.md">En savoir plus</a> |
 
-## Versions de 2024
+## Versions de 2024 {#2024-releases}
 
 Développez les listes suivantes pour connaître les fonctionnalités et améliorations de Journey Optimizer B2B Edition publiées en 2024.
 
