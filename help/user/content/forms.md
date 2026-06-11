@@ -18,10 +18,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
 workflow-type: tm+mt
-source-wordcount: 2466
-ht-degree: 1%
+source-wordcount: 2504
+ht-degree: 2%
 
 ---
 
@@ -98,6 +98,12 @@ Avant de commencer à créer des formulaires réutilisables dans Journey Optimiz
   Lorsque vous autorisez un contournement de formulaire pour une personne connue qui visite votre page de destination, elle peut simplement accéder directement au contenu. Le fait de contourner le formulaire offre une expérience du visiteur plus rationalisée.
 
 ### Ajouter un nouveau formulaire {#new-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_lp_form_preset"
+>title="Sélectionner un paramètre prédéfini"
+>abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Créer un paramètres prédéfini de formulaire"
 
 Vous pouvez créer un formulaire dans Journey Optimizer B2B edition en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
 
