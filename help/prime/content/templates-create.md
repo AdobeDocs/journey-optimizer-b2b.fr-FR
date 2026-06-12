@@ -1,10 +1,22 @@
 ---
 title: Créer des modèles d’e-mail
-description: 'Découvrez comment créer des modèles d’e-mail dans Journey Optimizer B2B Prime : concevoir entièrement, enregistrer un e-mail à partir d’un parcours en tant que modèle ou convertir une image de conception en modèle d’e-mail.'
+description: 'Découvrez comment créer des modèles d’e-mail dans Journey Optimizer B2B Prime : créez un e-mail, enregistrez-le à partir d’un parcours en tant que modèle ou convertissez une image de conception en modèle d’e-mail.'
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+autotag-review: '2026-06-12T22:55:41.432Z'
+TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: 875
 ht-degree: 1%
 
 ---
@@ -14,42 +26,55 @@ ht-degree: 1%
 
 Vous pouvez créer un modèle d’e-mail dans [!DNL Journey Optimizer B2B Edition Prime] de trois façons :
 
-* **Créer en partant de zéro** — Créez un nouveau modèle dans la bibliothèque de modèles à l&#39;aide de l&#39;espace visuel de conception d&#39;e-mail.
+* **Créer un modèle** — Créez un modèle dans la bibliothèque de modèles à l&#39;aide de l&#39;espace visuel de conception d&#39;e-mail.
 * **Enregistrer à partir d’un e-mail de parcours** — Enregistrez un e-mail que vous avez créé dans un parcours en tant que modèle réutilisable.
 * **Convertir une image** — Chargez une image de conception et utilisez l’IA générative pour la convertir en modèle d’e-mail modifiable.
 
->[!NOTE]
->
->Dans cette version de Beta, seuls les modèles d’e-mail sont pris en charge.
-
-## Concevoir un modèle à partir de zéro {#design-from-scratch}
+## Créer un nouveau modèle {#build-new}
 
 1. Accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles]**.
 1. Cliquez sur **[!UICONTROL Créer un modèle]**.
 1. Saisissez un **[!UICONTROL Nom du modèle]** et un **[!UICONTROL Description]** facultatif.
-1. Vous pouvez éventuellement ajouter des balises pour catégoriser le modèle.
+1. Définissez le **[!UICONTROL Canal]** (type) du modèle.
+
+   >[!NOTE]
+   >
+   >Dans cette version de Beta, seuls les modèles d’e-mail sont pris en charge.
+
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 1. Cliquez sur **[!UICONTROL Créer]** pour ouvrir l’espace de conception d’e-mail.
-1. Concevoir la disposition des e-mails à l’aide de structures et de composants de contenu. Pour une référence complète des outils disponibles, voir [Création d’e-mails](email-authoring.md).
-1. Vous pouvez éventuellement configurer le [verrouillage de contenu](template-content-locking.md) pour limiter les parties du modèle que les auteurs peuvent modifier lors de son utilisation dans un parcours.
+
+1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour accéder à l’espace de conception de contenu.
+
+   Voir [Création d’e-mails](email-authoring.md) pour plus d’informations sur la conception de contenu.
+
+1. Vous pouvez éventuellement activer **[!UICONTROL Gouvernance]** et configurer [verrouillage de contenu](template-content-governance.md) pour limiter les parties du modèle que les auteurs et autrices peuvent modifier lors de l’application du modèle.
+
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
-## Enregistrer un e-mail de parcours en tant que modèle {#save-as-template}
+## Enregistrer un e-mail en tant que modèle {#save-as-template}
 
-Lorsque vous concevez un e-mail dans un parcours que vous souhaitez réutiliser, enregistrez-le directement dans la bibliothèque de modèles à partir de l’espace de conception d’e-mail.
+Lorsque vous ouvrez le contenu de l’e-mail que vous souhaitez réutiliser, enregistrez-le directement dans la bibliothèque de modèles à partir de la page de contenu de l’e-mail.
 
-1. Dans l’espace de conception d’e-mail, ouvrez la liste déroulante **[!UICONTROL Enregistrer]** située en haut de l’éditeur.
+1. Cliquez sur **[!UICONTROL Modèle de contenu]** en haut de la page.
 1. Sélectionnez **[!UICONTROL Enregistrer comme modèle de contenu]**.
-1. Saisissez un **[!UICONTROL Nom du modèle]** et un **[!UICONTROL Description]** facultatif.
-1. Vous pouvez éventuellement ajouter des balises et configurer le [verrouillage de contenu](template-content-locking.md).
-1. Cliquez sur **[!UICONTROL Enregistrer]**
+1. Saisissez un **[!UICONTROL Nom]** et un **[!UICONTROL Description]** facultatif.
+1. Ajoutez éventuellement des **[!UICONTROL Balises]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
 
-L’e-mail de parcours d’origine n’est pas affecté. Le modèle enregistré est disponible dans la bibliothèque de modèles pour tous les utilisateurs dans le sandbox.
+L’e-mail de parcours d’origine n’est pas affecté. Le modèle enregistré est disponible dans la bibliothèque de modèles pour tous les utilisateurs dans le sandbox. Vous pouvez mettre à jour le modèle créé pour optimiser la réutilisation :
+
+* Modifiez le texte et ajoutez des jetons [personnalisation](email-authoring.md#personalization).
+* Mettez à jour ou remplacez des images et ajoutez des liens.
+* Configurez [verrouillage de contenu](template-content-governance.md).
 
 ## Convertir une image en modèle {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime] pouvez convertir une image statique, telle qu’une maquette de Figma ou de Photoshop, en modèle d’e-mail modifiable à l’aide de l’IA générative. Il n’est donc plus nécessaire de reconstruire manuellement les mises en page à partir des fichiers de conception.
+[!DNL Journey Optimizer B2B Edition Prime] pouvez convertir une image statique, telle qu’une maquette de Figma ou de Photoshop, en modèle d’e-mail modifiable à l’aide de l’IA générative. Cela élimine la nécessité de reconstruire manuellement les dispositions à partir des fichiers de conception et est idéal pour migrer les conceptions d’e-mail existantes à partir d’autres plateformes. Cette fonctionnalité est disponible uniquement pour les modèles de contenu d’e-mail.
 
-### Exigences
+>[!BEGINSHADEBOX]
+
+### Conditions préalables
 
 Avant de commencer :
 
@@ -65,34 +90,57 @@ Avant de commencer :
 >
 >L’image ne doit pas contenir d’informations d’identification personnelle (PII) ni de données sensibles.
 
-### Convertir une image
+>[!ENDSHADEBOX]
+
+### Création du modèle
 
 1. Accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles]**.
-1. Cliquez sur **[!UICONTROL Convertir l’image en modèle]** dans l’en-tête.
+1. Cliquez sur **[!UICONTROL Créer un modèle]**.
 1. Saisissez un **[!UICONTROL Nom du modèle]** et un **[!UICONTROL Description]** facultatif.
-1. Sélectionnez éventuellement un **[!UICONTROL thème de marque]** pour appliquer les couleurs, les polices et l’espacement de votre marque à la sortie générée.
-1. Chargez l’image par glisser-déposer ou à l’aide de l’explorateur de fichiers.
-1. Vérifiez que l’image ne contient aucune donnée personnelle.
-1. Consultez et acceptez les Directives d’utilisation d’Adobe Generative AI (pour la première fois uniquement).
-1. Cliquez sur **[!UICONTROL Convertir]**.
+1. Définissez le **[!UICONTROL Canal]** sur E-mail.
 
-   La conversion se termine généralement dans les cinq minutes. Les images complexes ou volumineuses peuvent prendre jusqu’à dix minutes. Vous pouvez quitter la page : le processus se poursuit en arrière-plan.
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+1. Cliquez sur **[!UICONTROL Créer]**.
 
-1. Une fois la conversion terminée, cliquez sur le nom du modèle pour prévisualiser et modifier le contenu généré.
+### Générer le contenu du modèle
 
->[!NOTE]
->
->Le résultat ne s’affiche pas automatiquement. Actualisez la page ou revenez à la bibliothèque de modèles pour afficher le modèle terminé.
+1. Dans la section **[!UICONTROL Convertir l’image en modèle]** :
 
-### Modifier après la conversion
+   * Sélectionnez éventuellement un **[!UICONTROL thème de marque]** pour appliquer les couleurs, les polices et l’espacement de votre marque à la sortie générée.
+   * Cochez la case accusé de réception pour confirmer que votre image ne contient aucune information d’identification personnelle (PII) ni d’autres données sensibles.
+   * Cliquez sur **[!UICONTROL Télécharger l’image]** et sélectionnez votre fichier image.
 
-Le modèle converti s’ouvre dans l’espace de conception des e-mails en tant qu’e-mail entièrement modifiable. Utilisez les outils de conception standard pour :
+   >[!CAUTION]
+   >
+   >Le chargement d’une image supprime tout contenu présent dans l’e-mail et le remplace par le modèle généré.
+
+1. Si vous y êtes invité, consultez et acceptez les instructions d’utilisation d’Adobe Generative AI.
+
+1. Cliquez sur **[!UICONTROL Ouvrir]** pour lancer le processus de conversion.
+
+   La conversion se termine généralement en cinq minutes environ. Les images complexes ou volumineuses peuvent prendre jusqu’à dix minutes. La conversion s’exécute en arrière-plan : vous pouvez quitter la page et le brouillon de modèle est enregistré automatiquement une fois la conversion terminée.
+
+1. Actualisez la page pour afficher le modèle terminé.
+
+   >[!NOTE]
+   >
+   >Le résultat ne s’affiche pas automatiquement. Actualisez la page ou revenez à la bibliothèque de modèles pour afficher le modèle terminé.
+
+1. Vous pouvez éventuellement utiliser la section **[!UICONTROL Commentaires du convertisseur d’images en modèles]** pour partager des suggestions avec Adobe.
+
+1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour ouvrir le modèle converti dans l’espace de conception d’e-mail afin de le modifier.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**
+
+### Modification du contenu converti
+
+Le contenu du modèle converti s’ouvre dans l’espace de conception sous la forme d’un modèle d’e-mail entièrement modifiable. Utilisez les outils de conception de contenu standard pour :
 
 * Modifiez le texte et ajoutez des jetons [personnalisation](email-authoring.md#personalization).
 * Mettez à jour ou remplacez des images et ajoutez des liens.
 * Ajustez les couleurs, les polices et l’espacement.
 * Ajouter, supprimer ou réorganiser des composants de contenu.
-* Configurez [verrouillage de contenu](template-content-locking.md).
+* Activez la gouvernance et configurez le [verrouillage de contenu](template-content-governance.md).
 
 >[!IMPORTANT]
 >
