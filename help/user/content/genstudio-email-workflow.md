@@ -7,11 +7,20 @@ level: Intermediate
 role: User
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:24:40.416Z
 TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
@@ -42,7 +51,7 @@ Par exemple, un spécialiste du marketing technique qui utilise Journey Optimize
 
 ## Fonctionnalités de génération de contenu GenStudio
 
-[](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"} est une application IA-first générative qui permet aux équipes marketing de créer des annonces et des e-mails personnalisés et percutants, conformes aux normes de la marque et aux politiques de l&#39;entreprise. En utilisant la technologie Adobe AI, il fournit une suite complète d’outils qui simplifient les complexités de la création et de la gestion de contenu afin que les créateurs de contenu puissent se concentrer sur l’innovation.
+[&#128279;](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"} est une application IA-first générative qui permet aux équipes marketing de créer des annonces et des e-mails personnalisés et percutants, conformes aux normes de la marque et aux politiques de l&#39;entreprise. En utilisant la technologie Adobe AI, il fournit une suite complète d’outils qui simplifient les complexités de la création et de la gestion de contenu afin que les créateurs de contenu puissent se concentrer sur l’innovation.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Créer des e-mails marketing sur la marque](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
