@@ -1,9 +1,15 @@
 ---
 title: Pages de destination
 description: 'Créez, concevez et publiez des pages de destination pour les parcours de personne : créez entièrement, importez des HTML, ajoutez des formulaires, personnalisez du contenu et des liens à partir d’e-mails dans Journey Optimizer B2B Prime.'
-source-git-commit: a2443f98ec7a8a5c1d4be2450042e2375f6150b7
+autotag-review: '2026-06-12T22:53:39.337Z'
+TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: 1461
 ht-degree: 6%
 
 ---
@@ -36,7 +42,6 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
-
 ## Accéder aux pages de destination et les gérer
 
 Pour accéder aux pages de destination dans Journey Optimizer B2B Prime, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]**. Cette action affiche la liste de toutes les pages de destination créées dans l’instance.

@@ -1,10 +1,11 @@
 ---
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
-source-git-commit: 8971313434bffc57472c11a3879b683a50686db9
+hide: true
+source-git-commit: b806577e0eeb57445809e33076a0c30689ecb5ab
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 37%
+source-wordcount: '114'
+ht-degree: 40%
 
 ---
 
@@ -31,15 +32,17 @@ ht-degree: 37%
    + [Qualification d’audience dynamique](./audiences/dynamic-audience-qualification.md)
    + [Audiences basées sur un événement](./audiences/event-based-audiences.md)
 + Contenu {#content}
-   + [E-mails](./content/email-authoring.md)
+   + E-mails {#emails}
+      + [Création d’e-mails](./content/email-authoring.md)
+      + [Conception du mode sombre](./content/email-dark-mode.md)
    + Modèles {#templates}
-      + [Modèles - Aperçu](./content/templates.md)
+      + [Vue d’ensemble](./content/templates.md)
       + [Création de modèles](./content/templates-create.md)
-      + [Verrouillage de contenu](./content/template-content-locking.md)
+      + [Gouvernance du contenu](./content/template-content-governance.md)
    + [Pages de destination](./content/landing-pages.md)
    + [Formulaires](./content/forms.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}

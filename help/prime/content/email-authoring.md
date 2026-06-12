@@ -1,30 +1,34 @@
 ---
 title: Création d’e-mails
-description: Utilisez les outils de conception d’e-mail de Journey Optimizer B2B Prime, notamment les modèles d’e-mail, les fragments, la personnalisation, les thèmes, le mode sombre et la validation.
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+description: Utilisez les outils de conception d’e-mail de Journey Optimizer B2B Prime, notamment les modèles d’e-mail, les fragments, la personnalisation, le mode sombre et la validation.
+autotag-review: '2026-06-12T22:51:19.543Z'
+TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: 2775
 ht-degree: 2%
 
 ---
 
 # Création d’e-mails
 
-Dans [!DNL Adobe Journey Optimizer B2B Edition] Prime, l’espace de conception d’e-mail fournit une zone de travail visuelle dans laquelle les spécialistes marketing créent des e-mails. Les outils de conception d’e-mail des panneaux de gauche et supérieur (structures, composants de contenu, modèles, fragments, etc.) prennent en charge la création à partir de zéro par glisser-déposer. Vous pouvez également choisir de commencer à partir d’un modèle, de coller des HTML brutes ou d’assembler des messages à partir de fragments visuels réutilisables.
+En [!DNL Adobe Journey Optimizer B2B Prime], l’espace de conception d’e-mail fournit une zone de travail visuelle dans laquelle les spécialistes marketing créent des e-mails. Les outils de conception d’e-mail des panneaux de gauche et supérieur (structures, composants de contenu, modèles, fragments, etc.) prennent en charge la création à partir de zéro par glisser-déposer. Vous pouvez également choisir de commencer à partir d’un modèle, de coller des HTML brutes ou d’assembler des messages à partir de fragments visuels réutilisables.
 
 >[!IMPORTANT]
 >
 >Pour la configuration par l&#39;administrateur des sous-domaines, de l&#39;authentification, des groupes d&#39;adresses IP et des canaux e-mail, voir [délivrabilité des e-mails et configuration des canaux](../admin/configuration-email-deliverability.md).
 
-Dans [!DNL Journey Optimizer B2B Edition] Prime, chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ au sein d’un parcours. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_](../marketing/person-journey-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus de conception du contenu de l’e-mail.
+En [!DNL Journey Optimizer B2B Prime], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_](../marketing/person-journey-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus de conception du contenu de l’e-mail.
 
-
-
-Cette action lance les outils de conception d’e-mail, dans lesquels vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
+Cette action lance l’espace de conception d’e-mail, dans lequel vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
 * [Concevez entièrement votre e-mail](#design-your-email-from-scratch) à l’aide de l’interface de conception visuelle. Créez le composant Disposition d’e-mail par composant en effectuant un glisser-déposer sur une zone de travail vierge. Cette méthode est recommandée pour créer de nouveaux modèles ou des e-mails ponctuels.
 
-* [Codez ou collez votre HTML brute](#html) dans l’éditeur de code ou travaillez côte à côte avec la zone de travail visuelle.
+* [Importez HTML](#html) dans l’éditeur de code ou travaillez côte à côte avec la zone de travail visuelle.
 
   <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
 
@@ -38,6 +42,20 @@ Cette action lance les outils de conception d’e-mail, dans lesquels vous pouve
 * **Rail de gauche :** Structures (dispositions de colonnes), Contenu (texte, bouton, image, séparateur, social, HTML), Fragments, Modèles, Arborescence de navigation (hiérarchie de style DOM de l’e-mail).
 * **Zone de travail centrale :** éditeur WYSIWYG avec aperçu pour ordinateur de bureau et appareil mobile.
 * **Rail de droite :** paramètres et styles du composant actuellement sélectionné, y compris les propriétés de contenu, l’arrière-plan, la bordure, la marge intérieure et la personnalisation.
+
+## Bonnes pratiques en matière de conception d’e-mail {#design-best-practices}
+
+Le respect des bonnes pratiques HTML et CSS permet d’assurer un rendu cohérent entre les clients de messagerie.
+
+| Approche | Instructions |
+| -------- | -------- |
+| **Recommandé** | Mises en page statiques basées sur des tableaux · Tableaux HTML et tableaux imbriqués · Largeurs de modèle de 600 à 800 px · CSS intégré simple · Polices sécurisées pour le Web |
+| **À utiliser avec précaution** | Images d’arrière-plan (prise en charge limitée des clients) · Polices web personnalisées (définissez toujours une police de secours) · Dispositions plus larges que 800 px · Cartes graphiques |
+| **Éviter** | JavaScript, iFrames ou Flash · Contenu audio ou vidéo intégré · Formulaires HTML · Dispositions basées sur des div |
+
+>[!NOTE]
+>
+>Le contenu des e-mails doit également répondre aux exigences applicables en matière d’accessibilité numérique. Structurez les en-têtes de manière logique, fournissez du texte secondaire pour toutes les images et vérifiez le contraste des couleurs dans les modes clair et sombre.
 
 ## Création d’un e-mail à partir d’un parcours {#email-from-journey}
 
@@ -119,7 +137,7 @@ Les modèles sont des dispositions d’e-mail réutilisables. Ils accélèrent l
 * **Exemples de modèles (prêts à l’emploi).** Environ 20 modèles prêts à l’emploi couvrant des cas d’utilisation courants (sensibilisation sur les comptes, invitations à des événements, formations, annonces de produits). Disponible immédiatement pour chaque client.
 * **Modèles enregistrés (personnalisés).** Modèles créés par votre équipe : créés entièrement sous **[!UICONTROL Gestion de contenu]** → **[!UICONTROL Modèles]** ou enregistrés à partir d’un e-mail existant à l’aide de l’option « Enregistrer en tant que modèle ».
 
-### Procédure : créer un e-mail à partir d’un modèle {#create-from-template}
+### Création d’un e-mail à partir d’un modèle {#create-from-template}
 
 1. Dans le nœud d’e-mail de parcours, cliquez sur **[!UICONTROL Modifier le contenu]** → **[!UICONTROL Modifier le corps de l’e-mail]**.
 1. Sur l’écran Créer votre e-mail , l’onglet **[!UICONTROL Exemples de modèles]** est sélectionné par défaut.
@@ -130,7 +148,7 @@ Les modèles sont des dispositions d’e-mail réutilisables. Ils accélèrent l
 1. Personnalisez le texte, les images et les liens. La structure héritée du modèle peut être modifiée comme un e-mail de A à Z.
 1. Cliquez sur **[!UICONTROL Enregistrer]** → **[!UICONTROL Précédent]** pour revenir aux propriétés de l’e-mail.
 
-### Procédure : créer un modèle réutilisable {#create-reusable-template}
+### Création d’un modèle réutilisable {#create-reusable-template}
 
 1. Accédez à **[!UICONTROL Gestion de contenu]** → **[!UICONTROL Modèles]**.
 1. Cliquez sur **[!UICONTROL Créer un modèle]**.
@@ -142,7 +160,7 @@ Les modèles sont des dispositions d’e-mail réutilisables. Ils accélèrent l
    * Verrouiller des composants spécifiques : permet de rendre des composants individuels en lecture seule lorsqu’ils sont utilisés dans un e-mail.
 1. Cliquez sur **[!UICONTROL Enregistrer]** Le modèle est désormais disponible pour tous les utilisateurs dans la galerie Modèles enregistrés .
 
-### Procédure : enregistrer un e-mail en tant que modèle {#save-as-template}
+### Enregistrer un e-mail en tant que modèle {#save-as-template}
 
 1. Ouvrez un e-mail existant dans l’espace de conception d’e-mail.
 1. Dans le menu déroulant **[!UICONTROL Enregistrer]**, cliquez sur **[!UICONTROL Enregistrer comme modèle]**.
@@ -158,7 +176,7 @@ Les modèles sont des dispositions d’e-mail réutilisables. Ils accélèrent l
 
 Un fragment visuel est un bloc de contenu réutilisable (en-tête, pied de page, CTA, clause de non-responsabilité, ensemble de liens sociaux) qui peut être inséré dans de nombreux e-mails. Lorsque vous mettez à jour un fragment, la modification se propage automatiquement à chaque e-mail qui l’utilise. Les fragments sont la méthode recommandée pour appliquer la cohérence de la marque et centraliser les mises à jour de contenu.
 
-### Procédure pas à pas : créer un fragment visuel {#create-fragment}
+### Création d’un fragment visuel {#create-fragment}
 
 1. Accédez à **[!UICONTROL Gestion de contenu]** → **[!UICONTROL Fragments]**.
 1. Cliquez sur **[!UICONTROL Créer un fragment]**.
@@ -171,7 +189,7 @@ Un fragment visuel est un bloc de contenu réutilisable (en-tête, pied de page,
    * Les auteurs d’e-mails utilisant le fragment peuvent remplacer ces champs sans rompre la structure du fragment.
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
-### Procédure : insérer un fragment dans un e-mail {#insert-fragment}
+### Insertion d’un fragment dans un e-mail {#insert-fragment}
 
 1. Ouvrez l’e-mail dans l’espace de conception d’e-mail.
 1. Dans le rail de gauche, cliquez sur **[!UICONTROL Fragments]**.
@@ -199,7 +217,7 @@ Prime utilise la syntaxe Handlebars pour la personnalisation. Les jetons sont re
 >
 >Seuls les attributs de profil sont disponibles dans l’éditeur Personalization dans cette version.
 
-### Procédure pas à pas : insérer un jeton de personnalisation {#insert-token}
+### Insérer un jeton de personnalisation {#insert-token}
 
 1. Dans l’espace de conception d’e-mail (ou dans l’écran des propriétés de l’e-mail pour l’objet), cliquez sur le champ dans lequel vous souhaitez insérer un jeton.
 1. Cliquez sur l’icône de personnalisation (souvent appelée **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** ou **[!UICONTROL Ajouter une expression]**).
@@ -217,6 +235,18 @@ Utilisez des expressions Handlebars telles que celles-ci (la personnalisation ut
 * **`{{profile.firstName}}, ready to take the next step?`** — Combiner le jeton et le texte statique en ligne.
 
 Pour un message d’accueil avec un prénom de secours en cas d’absence de valeur, utilisez l’assistant `default` comme indiqué dans les étapes de personnalisation précédentes (par exemple, prénom avec `"there"` par défaut).
+
+### Helpers Handlebars {#handlebars-helpers}
+
+En plus de `default`, l’éditeur de personnalisation comprend des assistants Handlebars intégrés pour la logique conditionnelle, la transformation du texte et la mise en forme de date. Utilisez le navigateur de fonctions de l’éditeur pour explorer les assistants disponibles et les insérer avec la syntaxe correcte.
+
+>[!TIP]
+>
+>Dans l’espace de conception d’e-mail, saisissez `{{` directement dans un champ de texte pour déclencher une liste déroulante de saisie automatique intégrée répertoriant les attributs de profil disponibles. Il n’est pas nécessaire d’ouvrir la boîte de dialogue de personnalisation complète pour les insertions rapides.
+
+### Expressions assistées par l’IA {#ai-personalization}
+
+L’assistant d’IA de l’éditeur de personnalisation peut générer des expressions Handlebars à partir d’une description en langage clair, expliquer le rôle d’une expression existante et identifier les problèmes potentiels. Utilisez-la pour accélérer la création d’expressions, en particulier pour la logique conditionnelle ou les assistants de formatage de date.
 
 ## Ajout de ressources à partir de Marketo Design Studio {#marketo-assets}
 
@@ -245,29 +275,11 @@ Prime rend vos ressources Marketo Design Studio existantes disponibles dans l’
    * Cible du lien — Rendez l&#39;image cliquable.
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
-## Thèmes et mode sombre {#themes-dark-mode}
+## Mode sombre {#dark-mode}
 
-### Thèmes {#themes}
+Le rendu en mode sombre est pris en charge par le biais de requêtes multimédias CSS `prefers-color-scheme`. Les outils de conception d’e-mail comprennent un aperçu en mode sombre et des options permettant de définir un style personnalisé pour la prise en charge des clients de messagerie. Vous pouvez ainsi vérifier que le texte reste lisible, que les logos sont visibles et que les couleurs de la marque s’affichent sur des arrière-plans sombres.
 
-Un thème est un paramètre prédéfini de style réutilisable qui définit les couleurs, la typographie, l’espacement, les styles de bouton et les séparateurs. Appliquez un thème à un e-mail pour appliquer instantanément le style de la marque à chaque composant.
-
-Pour appliquer ou modifier des thèmes :
-
-1. Dans l’espace de conception d’e-mail, cliquez sur **[!UICONTROL Thèmes]** (dans la barre d’outils supérieure ou le rail de droite, selon votre affichage).
-1. Choisissez **[!UICONTROL Appliquer le thème]** pour sélectionner un thème existant, ou **[!UICONTROL Créer un thème]** pour définir une palette de marque.
-1. Personnalisez les couleurs, les polices et les styles au niveau des composants. Les variantes claire/sombre sont toutes deux prises en charge.
-1. Appliquez-les globalement ; les remplacements locaux par composant restent possibles.
-1. Changez ultérieurement de thème pour changer l’image de marque sans effectuer de nouvelle création.
-
-### Mode sombre {#dark-mode}
-
-Le rendu en mode sombre est pris en charge par le biais de requêtes multimédias CSS `prefers-color-scheme`. Les outils de conception d’e-mail incluent un aperçu en mode sombre par client de messagerie pour aider les auteurs et les autrices à vérifier que le texte reste lisible, que les logos ne disparaissent pas et que les couleurs de la marque s’affichent sur des arrière-plans sombres.
-
-Pour prévisualiser le mode sombre, cliquez sur le bouton (bascule) mode sombre dans les commandes d’aperçu de la zone de travail.
-
->[!TIP]
->
->Pièges courants du mode sombre : logos sombres disparaissant sur des fonds sombres, texte à faible contraste et couleurs inversées sur les images transparentes. Prévisualisez toujours votre e-mail en mode sombre avant d’enregistrer la version finale.
+Pour obtenir des conseils détaillés sur la prévisualisation, la configuration des paramètres personnalisés du mode sombre, la prise en charge des clients de messagerie et les bonnes pratiques de test, voir [Mode sombre pour le contenu des e-mails](./email-dark-mode.md).
 
 ## Valider le contenu d’un e-mail {#validation}
 
@@ -285,7 +297,7 @@ Pour que votre parcours puisse être activé, le contenu de l’e-mail doit êtr
 | **Jeton de personnalisation non résolu** | Un jeton Handlebars fait référence à un attribut de profil sans solution de secours et l’attribut peut être manquant pour certains destinataires. | Ajoutez une version de secours à l’aide de l’assistant `default` Handlebars, comme décrit dans [Personalization](#personalization). Vous pouvez également limiter l’audience par parcours aux profils où l’attribut est garanti. |
 | **Image non chargée** | Un composant d’image fait référence à une ressource qui n’est plus disponible. | Cliquez sur l’image, ouvrez le sélecteur de ressources, puis sélectionnez à nouveau la ressource dans Marketo Design Studio. |
 
-### Procédure : examiner et résoudre les alertes {#resolve-alerts}
+### Vérifier et résoudre les alertes {#resolve-alerts}
 
 1. Ouvrez le parcours contenant le nœud d’e-mail. Les nœuds d’e-mail contenant des alertes non résolues sont marqués d’un badge rouge sur la zone de travail.
 1. Cliquez sur le nœud d’e-mail pour ouvrir le rail de propriétés.

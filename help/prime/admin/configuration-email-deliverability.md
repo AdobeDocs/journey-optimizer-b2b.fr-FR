@@ -1,9 +1,15 @@
 ---
 title: Délivrabilité des e-mails et configuration des canaux
 description: Configurez la délégation de sous-domaine, DMARC, SPF, DKIM, les pools d'adresses IP et les configurations de canal e-mail pour Journey Optimizer B2B Prime.
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+autotag-review: '2026-06-12T22:43:42.799Z'
+TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '3414'
+source-wordcount: 3414
 ht-degree: 1%
 
 ---
@@ -200,8 +206,8 @@ DMARC, SPF et DKIM sont des normes d’authentification de messagerie. Ensemble,
 | Enregistrement | Signifie | But |
 | ------ | ---------- | ------- |
 | **SPF** | Cadre de la politique de l&#39;expéditeur | Répertorie les adresses IP de serveur de messagerie autorisées à envoyer des e-mails à partir de votre domaine. Les serveurs de réception rejettent les e-mails provenant d’adresses IP qui ne figurent pas sur cette liste. Adobe crée et conserve automatiquement l’enregistrement SPF lorsque vous déléguez un sous-domaine (Délégation complète). |
-| **&#x200B;**&#x200B;| Message identifié DomainKeys | Une signature cryptographique ajoutée à chaque e-mail sortant. Le serveur de réception vérifie la signature par rapport à une clé publique publiée dans le DNS. Adobe génère automatiquement des clés DKIM et des enregistrements DNS lors de la délégation de sous-domaine. |
-| **&#x200B;**&#x200B;| Authentification, reporting et conformité des messages basés sur des domaines | Indique aux serveurs de réception ce qu’ils doivent faire en cas d’échec de SPF ou de DKIM et fournit des rapports sur les résultats de l’authentification. DMARC comporte trois modes de stratégie : aucun, mise en quarantaine et rejet. |
+| **** | Message identifié DomainKeys | Une signature cryptographique ajoutée à chaque e-mail sortant. Le serveur de réception vérifie la signature par rapport à une clé publique publiée dans le DNS. Adobe génère automatiquement des clés DKIM et des enregistrements DNS lors de la délégation de sous-domaine. |
+| **** | Authentification, reporting et conformité des messages basés sur des domaines | Indique aux serveurs de réception ce qu’ils doivent faire en cas d’échec de SPF ou de DKIM et fournit des rapports sur les résultats de l’authentification. DMARC comporte trois modes de stratégie : aucun, mise en quarantaine et rejet. |
 
 ### Modes de stratégie DMARC
 
