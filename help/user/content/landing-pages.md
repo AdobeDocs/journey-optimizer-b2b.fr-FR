@@ -6,12 +6,18 @@ role: User
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
 autotag-review: '2026-05-27T16:16:24.088Z'
 TQID: 'https://experienceleague.adobe.com/zAr9SwPBHxU50gD1ZRdJQo3M-qL-BEO6R1UYq7hSG-8'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: a2443f98ec7a8a5c1d4be2450042e2375f6150b7
 workflow-type: tm+mt
 source-wordcount: 1637
@@ -38,7 +44,7 @@ Pour diriger les membres d’une audience de parcours vers une page web définie
 1. [Créer la page](./landing-pages-create-publish.md) - Sélectionnez un paramètre prédéfini, configurez la page principale et ajoutez les sous-pages requises.
 1. [Concevoir le contenu de la page de destination](./landing-page-design.md) - Créez le contenu de la page à l’aide des composants de conception visuelle par glisser-déposer.
 1. [Tester et publier la page de destination](./landing-pages-create-publish.md) - Prévisualisez la page, testez le comportement du formulaire, puis publiez-la pour la rendre active.
-1. [Lien vers la page à partir de votre parcours ](#link-to-a-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
+1. [Lien vers la page à partir de votre parcours &#x200B;](#link-to-a-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
 
 Par exemple, vous pouvez créer et concevoir des pages de destination pour diriger vos utilisateurs vers des informations en ligne. La page peut inclure un formulaire dans lequel ils peuvent s’inscrire ou refuser de recevoir vos communications. Il peut également s’agir d’une opportunité de s’abonner à des communications récurrentes, telles qu’une newsletter.
 
