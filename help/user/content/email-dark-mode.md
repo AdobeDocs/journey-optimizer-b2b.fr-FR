@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 1564
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Basculer vers le mode sombre"
->abstract="Passez en mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés. <br>Le rendu dépend du client de messagerie du destinataire. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés. <br>Le rendu dépend du client de messagerie de la personne destinataire. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Basculer vers le mode sombre"
->abstract="Passez en mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Le rendu final dépend du client de messagerie de la personne destinataire. Notez que tous les clients de messagerie ne prennent pas en charge le mode sombre."
 
 Le _mode sombre_ permet à un client de messagerie ou à une application de support d’afficher les e-mails avec des arrière-plans plus sombres et des couleurs plus claires pour le texte, les boutons et d’autres éléments visuels. Ce type d&#39;écran peut réduire la fatigue visuelle, économiser l&#39;autonomie de la batterie et améliorer la lisibilité dans les environnements à faible luminosité pour une expérience de visionnage plus confortable. Tendance croissante au sein des principaux systèmes d’exploitation et applications, il est désormais important de prendre en compte dans la conception d’e-mails modernes afin de s’assurer que le contenu reste lisible et visuellement attrayant pour tous les utilisateurs et utilisatrices.
 
@@ -135,7 +135,7 @@ Lorsque vous mettez en forme le contenu de votre e-mail pour le mode sombre en [
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Utiliser une image spécifique pour le mode sombre"
->abstract="Sélectionnez une autre image pour le mode sombre. <br>L’ajout d’une image spécifique ne garantit pas un rendu correct dans tous les clients de messagerie. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
+>abstract="Sélectionnez une autre image pour le mode sombre. <br>L’ajout d’une image spécifique ne garantit pas que son rendu sera correct dans tous les clients de messagerie. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
 
 Après le passage en mode sombre, vous pouvez choisir de modifier des éléments de style spécifiques de votre contenu qui s’affichent uniquement lorsque le mode sombre est activé dans le client de messagerie du destinataire (à condition qu’il prenne en charge cette fonctionnalité).
 
