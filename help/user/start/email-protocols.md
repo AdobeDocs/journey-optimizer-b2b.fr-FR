@@ -4,11 +4,18 @@ description: 'Configurer les protocoles de diffusion par e-mail : configurez de
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
 source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
@@ -221,7 +228,7 @@ Si vous envoyez des e-mails via Marketo Engage sur une adresse IP dédiée et n
 
 **Migration des adresses IP dédiées vers Journey Optimizer B2B edition**
 
-Si vous disposez d’adresses IP dédiées, la nouvelle instance Journey Optimizer B2B edition doit être créée dans la même région que votre instance Marketo Engage existante. Si la nouvelle instance se trouve dans une autre région, le partage de l’adresse IP existante est impossible. Si la région correspond, ouvrez un ticket auprès de l’assistance [](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support){target="_blank"} et demandez que votre adresse IP et vos groupes de liaison existants soient partagés avec la nouvelle instance. Fournissez votre préfixe Marketo Engage (Munchkin ID) et votre nouveau préfixe Journey Optimizer B2B edition (Munchkin ID).
+Si vous disposez d’adresses IP dédiées, la nouvelle instance Journey Optimizer B2B edition doit être créée dans la même région que votre instance Marketo Engage existante. Si la nouvelle instance se trouve dans une autre région, le partage de l’adresse IP existante est impossible. Si la région correspond, ouvrez un ticket auprès de l’assistance [&#128279;](https://experienceleague.adobe.com/home?lang=fr&support-tab=home#support){target="_blank"} et demandez que votre adresse IP et vos groupes de liaison existants soient partagés avec la nouvelle instance. Fournissez votre préfixe Marketo Engage (Munchkin ID) et votre nouveau préfixe Journey Optimizer B2B edition (Munchkin ID).
 
 Avec cette requête, Adobe réplique les mêmes adresses IP, groupes de liaison et domaines de chemin de retour configurés que votre instance Marketo Engage existante. Lorsque les adresses IP sont partagées entre vos instances Marketo Engage et Journey Optimizer B2B edition, elles les utilisent simultanément.
 
