@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1186
-ht-degree: 72%
+source-wordcount: 1185
+ht-degree: 71%
 
 ---
 
@@ -55,7 +55,7 @@ Les administrateurs qui comprennent XDM et collaborent avec les ingénieurs de d
 
 Appliquez les instructions suivantes pour effectuer des sélections de champs :
 
-* Vous ne pouvez ajouter de nouveaux champs qu’après l’utilisation active d’un schéma dans un parcours.
+* Vous ne pouvez ajouter de nouveaux champs qu’après l’utilisation d’un schéma dans un parcours.
 * La suppression, le changement de nom ou la modification de types de champ peut entraîner des problèmes de fonctionnalité de parcours. Faites preuve de prudence lors de la manipulation des schémas.
 * Ne renommez pas et ne supprimez pas les schémas, et ne modifiez pas les clés des schémas relationnels.
 

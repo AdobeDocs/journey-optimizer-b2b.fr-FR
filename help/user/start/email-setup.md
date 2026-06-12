@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1321
 ht-degree: 70%
@@ -35,7 +35,7 @@ Pour prendre en charge l’infrastructure de diffusion par e-mail fournie par l�
 
 ## Paramètres d’e-mail
 
-Pour configurer les valeurs par défaut des e-mails pour l’instance Marketo Engage jointe, modifiez les valeurs configurées afin qu’elles reflètent l’utilisation par votre organisation marketing.
+Pour configurer les valeurs par défaut des e-mails pour l’instance Marketo Engage jointe, modifiez les valeurs configurées afin qu’elles reflètent l’utilisation par votre équipe marketing.
 
 ### E-mail et libellé de l’expéditeur
 

@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -144,7 +144,7 @@ Pour activer SSL pour vos domaines existants, procédez comme suit.
 
 >[!NOTE]
 >
->Si vous souhaitez supprimer le domaine de branding principal (dans un ou plusieurs espaces de travail), vous devez d’abord sélectionner un autre domaine de branding comme principal pour chaque espace de travail.
+>Si vous souhaitez supprimer le domaine de branding principal (dans un ou plusieurs espaces de travail), sélectionnez d’abord un autre domaine de branding comme principal pour chaque espace de travail.
 >
 >La suppression d’un domaine **_ne_** pasle certificat SSL. Ce mécanisme de sécurisation empêche les erreurs utilisateur qui entraînent la suppression des certificats SSL d’un site web. Si vous souhaitez supprimer les certificats SSL, contactez l’assistance Adobe.
 

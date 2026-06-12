@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 75%
+source-wordcount: 540
+ht-degree: 71%
 
 ---
 
@@ -80,7 +80,7 @@ Les [autorisations de rôle attribuées dans le service personnalisé](https://e
 
 ## Utiliser la connexion dans une action de parcours
 
-Lorsqu’un spécialiste marketing utilise une action Marketo Engage dans un parcours, il peut configurer le nœud à l’aide du nom de la connexion.
+Lorsqu’un spécialiste marketing utilise une action Marketo Engage dans un parcours, il configure le nœud à l’aide du nom de la connexion.
 
 >[!NOTE]
 >
