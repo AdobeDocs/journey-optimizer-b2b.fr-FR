@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
 workflow-type: tm+mt
 source-wordcount: 1461
 ht-degree: 6%
@@ -137,16 +137,6 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
 1. Pour apporter des modifications au contenu de l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier la page de destination]**.
 
-   <!-- 
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
 1. Lorsque la page répond à vos critères et que vous souhaitez la rendre disponible pour affichage, cliquez sur **[!UICONTROL Publier]**.
@@ -165,18 +155,6 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
    Cliquez sur **[!UICONTROL Créer un brouillon]** dans la boîte de dialogue pour ouvrir le brouillon dans l’espace de conception visuelle.
 
-   <!-- 
-   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
 1. Lorsque le brouillon de la page de destination répond à vos critères et que vous souhaitez que les modifications soient disponibles sur la page publiée, cliquez sur **[!UICONTROL Publier]**.
@@ -192,18 +170,6 @@ Lorsque vous ouvrez la page de destination, le brouillon s’affiche. Les onglet
 Pour mettre à jour le contenu :
 
 1. Cliquez sur **[!UICONTROL Modifier la page de destination]** en haut à droite.
-
-   <!--
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-
-   -->
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
