@@ -3,22 +3,14 @@ title: Configuration de Forms
 description: Espace réservé
 autotag-review: '2026-06-12T22:44:42.084Z'
 TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 23%
+source-wordcount: 541
+ht-degree: 22%
 
 ---
 
@@ -32,12 +24,12 @@ Lorsque des données arrivent sur le point d’entrée de diffusion en continu, 
 
 ## Conditions préalables
 
-Pour utiliser les formulaires web, vous devez disposer d’une ou de plusieurs connexions en continu d’API _&#x200B;**HTTP**&#x200B;_ définies dans Adobe Experience Platform. Assurez-vous que chaque connexion que vous souhaitez utiliser répond aux exigences suivantes :
+Pour utiliser les formulaires web, vous devez disposer d’une ou de plusieurs connexions en continu d’API _**HTTP**_ définies dans Adobe Experience Platform. Assurez-vous que chaque connexion que vous souhaitez utiliser répond aux exigences suivantes :
 
 * Le type de données doit être défini sur XDM (et non sur Données brutes).
 * L&#39;authentification doit être désactivée (connexion non authentifiée)
 
-Pour plus d’informations sur la création de connexions source par flux, consultez la documentation d’[__](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
+Pour plus d’informations sur la création de connexions source par flux, consultez la documentation d’[__](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
 <!-- 
 permissions coming in GA
@@ -65,7 +57,7 @@ Lors de la création d’un paramètre prédéfini :
    * _Connexion cible_ - emplacement de stockage ou d’utilisation des données.
    * _Flux Source_ - pipeline qui déplace les données de la connexion source vers Experience Platform. Il gère le mappage, la transformation et la validation.
 
-## Créer un paramètres prédéfini de formulaire
+## Créer un paramètres prédéfini de formulaire {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +88,7 @@ Lors de la création d’un paramètre prédéfini :
 
    Cette connexion est le point d’entrée de diffusion en continu utilisé pour envoyer les données lorsqu’une visionneuse web envoie un formulaire. Si la connexion en continu nécessaire n’apparaît pas dans la liste, vérifiez que les exigences sont remplies.
 
-1. Cliquez sur l’icône _Sélectionner un jeu de données_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) --> pour lier un jeu de données au formulaire.
+1. Cliquez sur l’icône _Sélectionner un jeu de données_ ( ![Icône Sélectionner un jeu de données](../../user/assets/do-not-localize/icon-select-data.svg) ) pour lier un jeu de données au formulaire.
 
    Le jeu de données est l’endroit où les réponses du formulaire sont stockées et reflétées. Vous pouvez saisir une chaîne de texte pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
@@ -104,7 +96,7 @@ Lors de la création d’un paramètre prédéfini :
 
    >[!NOTE]
    >
-   >Actuellement, seuls les jeux de données [Adobe Experience Platform activés et non activés pour Profil](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview) sont disponibles pour sélection. Un seul jeu de données peut être sélectionné à la fois. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire.
+   >Actuellement, seuls les jeux de données [Adobe Experience Platform activés et non activés pour Profil](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview) sont disponibles pour sélection. Vous pouvez sélectionner un jeu de données à la fois. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire.
 
    Cochez la case du jeu de données et cliquez sur **[!UICONTROL Sélectionner]**.
 

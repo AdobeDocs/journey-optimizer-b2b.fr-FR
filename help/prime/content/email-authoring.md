@@ -3,21 +3,13 @@ title: Création d’e-mails
 description: Utilisez les outils de conception d’e-mail de Journey Optimizer B2B Prime, notamment les modèles d’e-mail, les fragments, la personnalisation, le mode sombre et la validation.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: 2789
 ht-degree: 2%
 
 ---
@@ -34,17 +26,15 @@ En [!DNL Journey Optimizer B2B Prime], chaque e-mail est associé à une action 
 
 Cette action lance l’espace de conception d’e-mail, dans lequel vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
-* [Concevez entièrement votre e-mail](#design-your-email-from-scratch) à l’aide de l’interface de conception visuelle. Créez le composant Disposition d’e-mail par composant en effectuant un glisser-déposer sur une zone de travail vierge. Cette méthode est recommandée pour créer de nouveaux modèles ou des e-mails ponctuels.
+* [Concevez entièrement votre e-mail](#build-from-scratch) à l’aide de l’interface de conception visuelle. Créez le composant Disposition d’e-mail par composant en effectuant un glisser-déposer sur une zone de travail vierge. Cette méthode est recommandée pour créer de nouveaux modèles ou des e-mails ponctuels.
 
-* [Importez HTML](#html) dans l’éditeur de code ou travaillez côte à côte avec la zone de travail visuelle.
+* Importez HTML dans l’éditeur de code ou travaillez côte à côte avec la zone de travail visuelle. Le workflow d’importation complet d’HTML avec les chargements .html et .zip figure dans la feuille de route de Beta.
 
-  <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* [Sélectionnez un modèle existant](#select-a-template) dans une liste de modèles d’e-mail intégrés ou personnalisés. Cette méthode est recommandée pour les cas d’utilisation d’e-mails répétables.
+* [Sélectionnez un modèle existant](#create-from-template) dans une liste de modèles d’e-mail intégrés ou personnalisés. Cette méthode est recommandée pour les cas d’utilisation d’e-mails répétables.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## Outils de conception d’e-mails
+## Outils de conception d’e-mails {#email-design-tools}
 
 * **Barre d’outils supérieure :** Enregistrer, Précédent, Basculer vers l’éditeur de code, prévisualiser les contrôles.
 * **Rail de gauche :** Structures (dispositions de colonnes), Contenu (texte, bouton, image, séparateur, social, HTML), Fragments, Modèles, Arborescence de navigation (hiérarchie de style DOM de l’e-mail).
@@ -65,7 +55,7 @@ Le respect des bonnes pratiques HTML et CSS permet d’assurer un rendu cohéren
 >
 >Le contenu des e-mails doit également répondre aux exigences applicables en matière d’accessibilité numérique. Structurez les en-têtes de manière logique, fournissez du texte secondaire pour toutes les images et vérifiez le contraste des couleurs dans les modes clair et sombre.
 
-## Création d’un e-mail à partir d’un parcours {#email-from-journey}
+## Création d’un email à partir d’un parcours {#email-from-journey}
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier l’e-mail]** pour passer à l’étape de configuration de l’e-mail.
 1. Dans l’écran suivant, sélectionnez une configuration de canal créée précédemment dans le menu déroulant **[!UICONTROL Configuration du canal e-mail]**. Seules les configurations actives sont répertoriées.
@@ -140,7 +130,7 @@ Le pré-titre est l’extrait de texte affiché après la ligne d’objet dans l
 
 Les modèles sont des dispositions d’e-mail réutilisables. Ils accélèrent la création d’e-mails, assurent la cohérence de la marque et facilitent la collaboration entre les équipes.
 
-### Types de modèles
+### Types de modèles {#template-types}
 
 * **Exemples de modèles (prêts à l’emploi).** Environ 20 modèles prêts à l’emploi couvrant des cas d’utilisation courants (sensibilisation sur les comptes, invitations à des événements, formations, annonces de produits). Disponible immédiatement pour chaque client.
 * **Modèles enregistrés (personnalisés).** Modèles créés par votre équipe : créés entièrement sous **[!UICONTROL Gestion de contenu]** → **[!UICONTROL Modèles]** ou enregistrés à partir d’un e-mail existant à l’aide de l’option « Enregistrer en tant que modèle ».
@@ -214,7 +204,7 @@ Un fragment visuel est un bloc de contenu réutilisable (en-tête, pied de page,
 
 Prime utilise la syntaxe Handlebars pour la personnalisation. Les jetons sont remplacés au moment de l’envoi par des valeurs provenant des données de profil de chaque destinataire.
 
-### Emplacement de personnalisation
+### Emplacement de personnalisation {#where-you-can-personalize}
 
 * **Objet** — Point de personnalisation le plus courant.
 * **Pré-titre** : défini dans la zone de travail visuelle ; prend en charge les jetons d’attribut de profil.
