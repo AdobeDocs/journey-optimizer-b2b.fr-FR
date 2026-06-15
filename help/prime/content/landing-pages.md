@@ -3,10 +3,16 @@ title: Pages de destination
 description: 'Créez, concevez et publiez des pages de destination pour les parcours de personne : créez entièrement, importez des HTML, ajoutez des formulaires, personnalisez du contenu et des liens à partir d’e-mails dans Journey Optimizer B2B Prime.'
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
 source-wordcount: 2180
@@ -113,7 +119,7 @@ Pour créer une landing page, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   La page principale et ses propriétés s’affichent. Découvrez comment [ configurer les paramètres de la page principale ](#configure-primary-page).
+   La page principale et ses propriétés s’affichent. Découvrez comment [&#x200B; configurer les paramètres de la page principale &#x200B;](#configure-primary-page).
 
 1. Pour ajouter une sous-page (par exemple, une page de remerciement ou d’erreur), cliquez sur l’icône **+**.
 
