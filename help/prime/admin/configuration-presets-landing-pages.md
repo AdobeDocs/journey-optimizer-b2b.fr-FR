@@ -15,10 +15,10 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -249,7 +249,9 @@ Cliquez sur un nom de préréglage de page de destination pour en afficher les d
 
    Les paramètres correspondant au sous-domaine sélectionné s’affichent.
 
-1. Vous pouvez sélectionner le sous-domaine de la page de destination pour l’**[!UICONTROL URL de tracking]** en cochant l’option **[!UICONTROL Identique au sous-domaine de la page de destination]** <!-- [Learn more about tracking](../email/message-tracking.md) -->.
+1. Si vous souhaitez sélectionner le sous-domaine de page de destination comme **[!UICONTROL URL de suivi]**, cochez lʼoption **[!UICONTROL Identique au sous-domaine de page de destination]**.
+
+   <!-- [Learn more about tracking](../email/message-tracking.md) -->
 
    <!-- ![Landing page preset with subdomain settings](./assets/config-channels-landing-pages-preset-subdomain-settings.png){width="500" zoomable="yes"} -->
 

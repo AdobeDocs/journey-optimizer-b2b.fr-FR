@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
 source-wordcount: 1137
 ht-degree: 2%
@@ -48,7 +48,7 @@ Dans un parcours de personne, utilisez une action sur les personnes lorsque vous
 | **[!UICONTROL Envoyer un e-mail]** | <li>Créer un e-mail <li>Optimisation de l’heure d’envoi (facultatif) |
 | **[!UICONTROL Modifier la valeur des données]** | <li>Sélectionner l’attribut de personne <li>Définir une nouvelle valeur |
 
-### Ajouter un nœud d’action
+### Ajouter un nœud d’action {#add-an-action-node}
 
 1. Accédez à la carte du parcours.
 

@@ -15,10 +15,10 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 23%
+source-wordcount: 541
+ht-degree: 22%
 
 ---
 
@@ -65,7 +65,7 @@ Lors de la création d’un paramètre prédéfini :
    * _Connexion cible_ - emplacement de stockage ou d’utilisation des données.
    * _Flux Source_ - pipeline qui déplace les données de la connexion source vers Experience Platform. Il gère le mappage, la transformation et la validation.
 
-## Créer un paramètres prédéfini de formulaire
+## Créer un paramètres prédéfini de formulaire {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +96,7 @@ Lors de la création d’un paramètre prédéfini :
 
    Cette connexion est le point d’entrée de diffusion en continu utilisé pour envoyer les données lorsqu’une visionneuse web envoie un formulaire. Si la connexion en continu nécessaire n’apparaît pas dans la liste, vérifiez que les exigences sont remplies.
 
-1. Cliquez sur l’icône _Sélectionner un jeu de données_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) --> pour lier un jeu de données au formulaire.
+1. Cliquez sur l’icône _Sélectionner un jeu de données_ ( ![Icône Sélectionner un jeu de données](../../user/assets/do-not-localize/icon-select-data.svg) ) pour lier un jeu de données au formulaire.
 
    Le jeu de données est l’endroit où les réponses du formulaire sont stockées et reflétées. Vous pouvez saisir une chaîne de texte pour rechercher un jeu de données spécifique ou le sélectionner dans la liste.
 
@@ -104,7 +104,7 @@ Lors de la création d’un paramètre prédéfini :
 
    >[!NOTE]
    >
-   >Actuellement, seuls les jeux de données [Adobe Experience Platform activés et non activés pour Profil](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview) sont disponibles pour sélection. Un seul jeu de données peut être sélectionné à la fois. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire.
+   >Actuellement, seuls les jeux de données [Adobe Experience Platform activés et non activés pour Profil](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview) sont disponibles pour sélection. Vous pouvez sélectionner un jeu de données à la fois. Les jeux de données système ne peuvent pas être utilisés pour enregistrer les données de formulaire.
 
    Cochez la case du jeu de données et cliquez sur **[!UICONTROL Sélectionner]**.
 
