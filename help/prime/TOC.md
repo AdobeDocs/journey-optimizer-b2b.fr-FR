@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
 hide: true
-source-git-commit: 5342db511380b4aedcbbd5798800d3900e03045c
+source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 40%
+source-wordcount: '116'
+ht-degree: 41%
 
 ---
 
@@ -15,18 +15,19 @@ ht-degree: 40%
 + [Documentation Adobe Journey Optimizer B2B Prime](guide-overview.md)
 + [Configuration](./start/setup-prime.md)
 + [Accueil et informations](./home-insights/home-insights.md)
++ [Agents](./agents/agents.md)
 + Gestion marketing {#marketing-management}
    + {hide-from-toc}[Vue d’ensemble](./marketing/marketing-management.md)
    + [Programmes](./marketing/programs.md)
    + [Parcours de personne](./marketing/person-journeys.md)
    + Nœuds de parcours {#journey-nodes}
       + [Présentation des nœuds](./marketing/person-journey-nodes.md)
+      + [Audience de la personne](./marketing/person-audience-node.md)
       + [Entreprendre une action](./marketing/action-nodes.md)
       + [Écouter un événement](./marketing/listen-for-event-nodes.md)
       + [Attente](./marketing/wait-nodes.md)
       + [Fractionner et fusionner les chemins](./marketing/split-merge-paths-nodes.md)
       + [Deuxième meilleur chemin](./marketing/next-best-path.md)
-+ [Agents](./agents/agents.md)
 + Audiences {#audiences}
    + [Gestion des audiences](./audiences/audience-management.md)
    + [Qualification d’audience dynamique](./audiences/dynamic-audience-qualification.md)

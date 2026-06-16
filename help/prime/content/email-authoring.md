@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
 source-wordcount: 2789
 ht-degree: 2%
@@ -30,7 +30,7 @@ En [!DNL Adobe Journey Optimizer B2B Prime], l’espace de conception d’e-mail
 >
 >Pour la configuration par l&#39;administrateur des sous-domaines, de l&#39;authentification, des groupes d&#39;adresses IP et des canaux e-mail, voir [délivrabilité des e-mails et configuration des canaux](../admin/configuration-email-deliverability.md).
 
-En [!DNL Journey Optimizer B2B Prime], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_](../marketing/person-journey-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus de conception du contenu de l’e-mail.
+En [!DNL Journey Optimizer B2B Prime], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus de conception du contenu de l’e-mail.
 
 Cette action lance l’espace de conception d’e-mail, dans lequel vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 

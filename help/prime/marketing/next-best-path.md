@@ -16,10 +16,10 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
 workflow-type: tm+mt
-source-wordcount: 2205
-ht-degree: 0%
+source-wordcount: 1528
+ht-degree: 1%
 
 ---
 
@@ -114,119 +114,11 @@ Les affectations de chemins pilotés par l’IA ne prennent effet que lorsque vo
 
 Les exemples suivants montrent comment écrire des invites de chemin efficaces dans les cas d’utilisation marketing B2B courants. Utilisez-les comme points de départ et adaptez la langue en fonction du contexte du parcours et des données d’audience.
 
-+++Signaux de recherche et d&#39;achat actifs
+* « Identifiez les personnes qui ont un engagement sur les sites RH (shrm.org, hbr.org/topic/human-resource-management), qui s’intéressent à Journey Optimizer au cours des 30 derniers jours, et qui sont susceptibles d’assister à un webinaire sur l’IA dans les opérations RH. Ils auraient également dû manifester un certain intérêt pour les produits d’IA. »
 
-**Parcours 1 - Chercheurs actifs sur les produits**
-*Identifier les personnes qui recherchent activement un logiciel de CRM. Recherchez les visites répétées de pages produit, l’engagement avec le contenu de comparaison, les visites renouvelées fréquentes et les signaux d’intention de tiers élevés au cours des 30 derniers jours.*
+* Identifiez les personnes qui ont un engagement sur les sites de finance (wsj.com/finance,investopedia.com), qui s’intéressent à Marketo au cours des 30 derniers jours, et qui assisteront probablement au webinaire sur l’IA dans la planification financière. Ils auraient également dû manifester un certain intérêt pour les produits d’IA. »
 
-**Chemin 2 - Comportement de comparaison des prix**
-*Identifiez les utilisateurs qui ont consulté des pages de tarification ou de comparaison de plans plusieurs fois au cours des 14 derniers jours, en particulier ceux qui alternent entre les pages de tarification et de documentation sur les fonctionnalités.*
-
-**Chemin 3 : intention élevée, aucune conversion**
-*Identifiez les visiteurs à forte intention qui ont participé aux démonstrations de produit, aux pages de tarification ou à la documentation d’intégration au cours des 21 derniers jours, mais qui n’ont pas envoyé de formulaire ou converti*.
-
-**Chemin 4 - Comportement de passage en caisse hésitant**
-*Identifiez les utilisateurs qui ont commencé les flux de réservation de passage en caisse ou de démonstration mais ne les ont pas terminés et qui sont revenus au moins une fois par la suite sans effectuer de conversion.*
-
-+++
-
-+++Risque de perte et de rétention
-
-**Chemin 1 - Signaux de risque de résiliation**
-*Identifiez les clients présentant des signes de perte de clientèle en raison de la baisse de l’utilisation des produits, de la réduction de la fréquence de connexion, des pics de tickets d’assistance et de la diminution de l’engagement marketing au cours des 60 derniers jours.*
-
-**Chemin 2 - Désengagement des utilisateurs expérimentés**
-*Identifier les utilisateurs précédemment engagés dont la vitesse d’engagement a considérablement diminué au cours des 30 derniers jours par rapport à leur ligne de base historique.*
-
-+++
-
-+++Lacunes en matière d&#39;éducation à l&#39;évaluation
-
-**Parcours 1 - Recherche de la séquence de tarification**
-*Identifiez les utilisateurs qui ont téléchargé un livre électronique, puis qui ont visité la page de tarification dans les 7 jours, mais qui n’ont pas demandé de démonstration.*
-
-**Parcours 2 - Webinaire sans suivi**
-*Identifiez les personnes qui ont assisté à un webinaire et qui sont ensuite retournées sur les pages produit, mais qui n’ont jamais réservé de démonstration ou contacté les ventes.*
-
-**Parcours 3 - Évaluation basée sur la comparaison**
-*Identifiez les visiteurs qui ont consulté un article de comparaison de concurrents, puis qui ont consulté la documentation sur l’intégration ou la migration dans les 14 jours.*
-
-+++
-
-+++Séquences d’engagement des e-mails
-
-**Chemin 1 - S’ouvre sans clics**
-*Identifier les prospects qui ont ouvert trois e-mails marketing ou plus dans les 30 jours mais n’ont jamais cliqué sur le site web.*
-
-**Chemin 2 - Clic, mais pas d’engagement plus approfondi**
-*Identifier les utilisateurs qui ont cliqué d’un e-mail vers une page produit, mais n’ont pas exploré de pages supplémentaires ou ne sont pas revenus dans les 7 jours.*
-
-+++
-
-+++Modèles d’évaluation et de conversion
-
-**Chemin 1 - Convertisseurs rapides**
-*Identifier les clients qui ont effectué une mise à niveau dans les 30 jours suivant le début d’un essai et qui ont montré un engagement élevé du produit au cours de la période d’essai.*
-
-**Chemin 2 - Utilisateurs bloqués pour la version d’essai**
-*Identifier les utilisateurs de l’évaluation qui se sont connectés au cours de la première semaine mais qui ont présenté une activité minimale par la suite et qui n’ont pas effectué de conversion avant l’expiration de l’évaluation.*
-
-+++
-
-+++Acheteurs multicanaux
-
-**Chemin 1 - Convergence publicitaire et organique**
-*Identifiez les utilisateurs qui ont d’abord contacté par le biais d’annonces payantes, puis qui sont revenus par le biais de canaux directs ou organiques dans les 14 jours.*
-
-**Chemin 2 - Évaluation de l’événement en produit**
-*Identifier les comptes qui ont participé à un événement en personne ou virtuel et qui ont ensuite augmenté le comportement de recherche de produits dans les 30 jours.*
-
-**Chemin 3 - Chercheurs sur site**
-*Identifiez les utilisateurs qui ont interagi avec du contenu social et qui ont ensuite visité des pages à forte intention telles que les prix ou les réservations de démonstration.*
-
-+++
-
-+++Signaux d&#39;achat régionaux
-
-**Chemin 1 - Surtension dans une région spécifique**
-*Identifier les comptes en Amérique du Nord montrant une activité de recherche de produits accrue et des signaux d’intention de tiers élevés au cours des 30 derniers jours par rapport à leur référence historique.*
-
-**Trajectoire 2 - Dynamique des marchés émergents**
-*Identifier les comptes dans APAC où la vitesse d’engagement a considérablement augmenté au cours des 14 derniers jours, même si le volume d’engagement global est toujours modéré.*
-
-**Parcours 3 - Intérêt spécifique à une région**
-*Identifiez les comptes d’entreprise dans la zone EMEA ayant participé à la mise en conformité, au traitement des données ou à la documentation sur la sécurité au cours des 21 derniers jours.*
-
-**Chemin 4 - Territoire sous-pénétré**
-*Identifier les comptes les plus performants dans les territoires de vente attribués qui ont montré des signaux d&#39;intention mais que les ventes n&#39;ont pas encore contactés.*
-
-+++
-
-+++Ciblage des audiences de webinaire
-
-**Chemin 1 - Les leaders RH intéressés par l&#39;IA**
-*Identifiez les personnes qui ont un engagement sur les sites RH (shrm.org, hbr.org/topic/human-resource-management), qui s’intéressent à Journey Optimizer au cours des 30 derniers jours, et qui sont susceptibles d’assister à un webinaire sur « L’IA dans les opérations RH ». Ils auraient également dû manifester un certain intérêt pour les produits d’IA.*
-
-**Parcours 2 - Professionnels de la finance intéressés par l’IA**
-*Identifiez les personnes qui ont un engagement sur les sites de finance (wsj.com/finance, investopedia.com), qui s’intéressent à Marketo au cours des 30 derniers jours, et qui sont susceptibles d’assister à un webinaire sur « L’IA dans la planification financière ». Ils auraient également dû manifester un certain intérêt pour les produits d’IA.*
-
-**Parcours 3 - Praticiens des risques et de la recherche intéressés par l&#39;IA**
-*Identifier les personnes qui ont un engagement sur les sites de risque/recherche (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), qui s&#39;intéressent à GenStudio au cours des 30 derniers jours, et qui sont susceptibles d&#39;assister à un webinaire sur « l&#39;IA dans la gestion des risques ». Ils auraient également dû manifester un certain intérêt pour les produits d’IA.*
-
-+++
-
-+++Signaux de synchronisation comportementale
-
-**Parcours 1 - Chercheurs en dehors des heures de travail**
-*Identifier les utilisateurs qui interagissent de manière répétée avec les pages de produits et de prix en dehors des heures de bureau normales dans leur fuseau horaire local.*
-
-**Chemin 2 - Fenêtre de recherche compressée**
-*Identifiez les comptes présentant une densité d’engagement exceptionnellement élevée dans une courte fenêtre de 72 heures sur plusieurs domaines de produits.*
-
-**Chemin 3 - Pic d’activité de fin de trimestre**
-*Identifier les comptes avec une forte augmentation de l’activité au stade de l’évaluation au cours des 30 derniers jours du trimestre fiscal.*
-
-+++
+* « Identifiez les personnes qui ont un engagement sur les sites de risque/recherche (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), qui s’intéressent à GenStudio au cours des 30 derniers jours, et qui sont susceptibles d’assister à un webinaire sur l’IA dans la gestion des risques. Ils auraient également dû manifester un certain intérêt pour les produits d’IA. »
 
 ## Simuler la prise de décision avant la publication {#simulate}
 

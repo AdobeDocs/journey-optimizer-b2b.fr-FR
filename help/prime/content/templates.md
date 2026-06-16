@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 2%
@@ -55,7 +55,7 @@ Créez des dossiers pour regrouper les modèles par équipe, campagne, marque ou
 
 **Pour déplacer un modèle dans un dossier, procédez comme suit**
 
-1. Cliquez sur l’icône **[!UICONTROL Plus]** (⋯) en regard du modèle.
+1. Cliquez sur l’icône **[!UICONTROL Plus]** ( ... ) en regard du modèle.
 1. Sélectionnez **[!UICONTROL Déplacer vers le dossier]**.
 1. Sélectionnez le dossier de destination et cliquez sur **[!UICONTROL Déplacer]**.
 
@@ -67,15 +67,15 @@ Cliquez sur le nom d’un modèle pour ouvrir sa page de détails. À partir de 
 
 ### Modification d’un modèle
 
-Cliquez sur le nom d’un modèle pour ouvrir la page de détails, puis cliquez sur **[!UICONTROL Modifier le modèle d’e-mail]**. Vous pouvez également cliquer sur l’icône **[!UICONTROL Plus]** (⋯) dans la liste des modèles et sélectionner **[!UICONTROL Modifier]**.
+Cliquez sur le nom d’un modèle pour ouvrir la page de détails, puis cliquez sur **[!UICONTROL Modifier le modèle d’e-mail]**. Vous pouvez également cliquer sur l’icône **[!UICONTROL Plus]** ( ... ) dans la liste des modèles et sélectionner **[!UICONTROL Modifier]**.
 
 ### Dupliquer un modèle
 
-Cliquez sur l’icône **[!UICONTROL Plus]** (⋯) en regard du modèle et sélectionnez **[!UICONTROL Dupliquer]**. La copie s’ouvre afin que vous puissiez la renommer et effectuer des réglages.
+Cliquez sur l’icône **[!UICONTROL Plus]** ( ... ) à côté du modèle et sélectionnez **[!UICONTROL Dupliquer]**. La copie s’ouvre afin que vous puissiez la renommer et effectuer des réglages.
 
 ### Suppression d’un modèle
 
-Cliquez sur l’icône **[!UICONTROL Plus]** (⋯) en regard du modèle et sélectionnez **[!UICONTROL Supprimer]**. Confirmez la suppression lorsque vous y êtes invité.
+Cliquez sur l’icône **[!UICONTROL Plus]** ( ... ) à côté du modèle et sélectionnez **[!UICONTROL Supprimer]**. Confirmez la suppression lorsque vous y êtes invité.
 
 >[!NOTE]
 >
