@@ -3,25 +3,18 @@ title: Gestion de l’audience
 description: Page d’espace réservé pour les audiences.
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: 474
 ht-degree: 4%
 
 ---
 
 # Gestion des audiences
-
-Comment les audiences sont-elles lues dans AJO B2B Prime ?
 
 Dans le hub de gestion marketing, cliquez sur **[!UICONTROL Listes de personnes]** dans le volet de navigation de droite.
 
@@ -74,9 +67,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## Créer une liste de personnes
 
 
-Pour créer une liste dynamique ou statique, procédez comme suit :
+Pour créer une liste dynamique ou statique :
 
-1. Cliquez sur **Créer une liste** en haut à droite de la page _[!UICONTROL Listes de personnes]_.
+1. Cliquez sur **[!UICONTROL Créer une liste]** en haut à droite de la page _[!UICONTROL Listes de personnes]_.
 1. Sélectionnez un programme comme **[!UICONTROL Parent]** pour la liste.
 1. Saisissez une **[!UICONTROL Nom]** et une **[!UICONTROL Description]** dans la liste (facultatif).
 1. Choisissez puis listez **[!UICONTROL Type]** :
@@ -93,6 +86,10 @@ Pour créer une liste dynamique ou statique, procédez comme suit :
 ## Listes statiques
 
 L’appartenance à une liste statique est définie par des filtres simples qui référencent les attributs et les activités des personnes. L&#39;adhésion ne change que si vous remplissez ou disremplissez manuellement les conditions d&#39;adhésion.
+
+>[!NOTE]
+>
+>Les définitions de filtre de liste statique sont appliquées une seule fois lorsque vous ajoutez ou supprimez des membres de la liste. Le filtre défini n’est pas disponible par la suite. Si vous souhaitez conserver une définition d’audience cohérente à l’aide de filtres, utilisez plutôt une liste dynamique .
 
 ### Ajouter des membres
 

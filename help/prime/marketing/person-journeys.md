@@ -1,90 +1,112 @@
 ---
 title: Parcours de la personne
-description: Page d’espace réservé pour les parcours de personne.
+description: 'Créer, publier et gérer des parcours de personne dans Journey Optimizer B2B edition Prime : parcourez la liste des parcours, concevez des flux à plusieurs étapes et dupliquez ou supprimez des parcours.'
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
 workflow-type: tm+mt
-source-wordcount: 683
-ht-degree: 22%
+source-wordcount: 1426
+ht-degree: 21%
 
 ---
 
 # Parcours de la personne
 
-Dans Journey Optimizer B2B edition Prime, les parcours de personne sont des plans marketing automatisés, basés sur des prospects et à plusieurs étapes, qui utilisent des données Marketo Engage pour orchestrer des expériences personnalisées sur plusieurs canaux en réponse à l’engagement, aux événements métier ou aux campagnes planifiées.
+Dans [!DNL Adobe Journey Optimizer B2B Edition Prime], les parcours de personne sont des plans marketing automatisés, basés sur des prospects et à plusieurs étapes, qui orchestrent des expériences personnalisées sur plusieurs canaux. Ces parcours utilisent les données Marketo Engage pour exécuter ces plans marketing en réponse à l’engagement, aux événements métier ou aux campagnes planifiées.
 
-Pour commencer à utiliser votre parcours de première personne :
+>[!NOTE]
+>
+>Chaque parcours réside dans un [programme](./programs.md) défini. Vous devez avoir au moins un programme à utiliser comme parent avant de créer un parcours.
 
-1. Créez un parcours de personne.
+_Pour créer un nouveau parcours de personne :_
+
+1. Créez le parcours de personne.
 1. Ajoutez les nœuds et définissez le flux du parcours dans la carte du parcours.
-1. Publiez le parcours.
+1. [Publiez le parcours](#publish-a-journey).
 
-## Accès et navigation dans les parcours de personne
+## Accès et navigation dans les parcours de personne {#access-and-browse-person-journeys}
 
-Dans le volet de navigation de gauche, développez **[!UICONTROL Marketing Management]** et sélectionnez **[!UICONTROL parcours de personne]**.
+1. Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion marketing]**.
 
-Vous pouvez saisir du texte dans l’outil _Rechercher_ en haut de la liste pour filtrer la liste affichée par nom.
+1. À droite dans la liste de ressources **[!UICONTROL Marketing]**, sélectionnez **[!UICONTROL parcours de personne]**.
 
-### Colonnes de liste de parcours
+   La liste parcours de personne _s’affiche sous la forme d’une page à onglets dans l’espace de travail principal._
+
+   Vous pouvez saisir du texte dans l’outil _Rechercher_ en haut de la liste pour filtrer la liste affichée par nom.
+
+   ![Liste des parcours de personne](./assets/person-journeys-list-search.png){width="800" zoomable="yes"}
+
+1. Utilisez les outils de liste pour personnaliser la liste affichée :
+
+   * Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../../assets/do-not-localize/icon-react-filter.svg) ) pour filtrer la liste par statut.
+   * Cliquez sur l’icône _Personnaliser le tableau_ ( ![Icône Personnaliser le tableau](../../assets/do-not-localize/icon-falco-customize-table.svg) ) pour contrôler les colonnes affichées.
+   * Cliquez sur l’icône _Réinitialiser les colonnes_ ( ![Icône Réinitialiser la largeur des colonnes](../../assets/do-not-localize/icon-falco-reset-columns.svg) ) pour réinitialiser les largeurs de colonne.
+
+### Colonnes de liste de parcours {#journey-list-columns}
 
 La page de liste parcours comprend les colonnes suivantes :
 
-Nom (cliquez sur le nom pour afficher la carte de parcours à modifier)
-Statut
-Date de création
-Création par
-Dernière mise à jour
-Dernière mise à jour effectuée par
-Publication le
-Publication par
-Date de début
-Date de fin
+* [!UICONTROL Nom] (cliquez sur le nom pour ouvrir la carte de parcours à modifier)
+* [!UICONTROL Statut]
+* [!UICONTROL Date de création]
+* [!UICONTROL Créé par]
+* [!UICONTROL Dernière mise à jour]
+* [!UICONTROL Dernière mise à jour par]
+* [!UICONTROL Publié sur]
+* [!UICONTROL Publié par]
+* [!UICONTROL  Date de début ]
+* [!UICONTROL  Date de fin ]
 
-Vous pouvez trier la liste par Statut, Date de création ou Dernière mise à jour en cliquant sur l’en-tête de colonne.
+Vous pouvez trier la liste par _[!UICONTROL Statut]_, _[!UICONTROL Date de création]_ ou _[!UICONTROL Dernière mise à jour]_ en cliquant sur l’en-tête de colonne. Vous pouvez saisir et faire glisser les bordures d’en-tête pour modifier les largeurs de colonne affichées. Dans la boîte de dialogue _Personnaliser le tableau_, cochez ou décochez les cases, puis cliquez sur **[!UICONTROL Appliquer]**.
 
-Pour personnaliser (afficher/masquer) les colonnes affichées dans le tableau, cliquez sur l’icône Personnaliser le tableau ( ) dans le coin supérieur droit. Cochez ou décochez les cases de la boîte de dialogue, puis cliquez sur Appliquer.
+### Statut du parcours {#journey-status}
 
-### Statut du parcours
-
-Le statut d’un parcours peut changer en fonction des actions que vous appliquez. En fonction du statut d’un parcours, certaines actions peuvent être disponibles ou non dans l’en-tête.
+Le statut d’un parcours peut changer en fonction des actions que vous appliquez. En fonction du statut d’un parcours, certaines actions sont disponibles dans la partie droite de l’en-tête.
 
 | Statut | Description | Actions disponibles |
 | ------ | ----------- | ----------------- |
-| Brouillon | Parcours dépublié modifiable. | <li>Publier <li>Dupliquer <li>Supprimer |
-| Actif | Le statut du parcours passe de Brouillon à Actif lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <li>Dupliquer |
-| Terminé | Lorsque tous les membres de l’audience de compte ou de personne d’un parcours terminent le parcours, le statut passe de Actif ou Fermé à Nouvelles entrées et passe à Terminé. | <li>Dupliquer <li>Supprimer |
+| _**Brouillon**_ | Parcours dépublié modifiable. | [Publier](#publish-a-journey), [Dupliquer](#duplicate-a-journey), [Supprimer](#delete-a-journey) |
+| _**Actif**_ | Le statut du parcours passe de _Brouillon_ à _Actif_ lorsque vous publiez un parcours. Dans ce statut, il n’est plus modifiable. | [Dupliquer](#duplicate-a-journey), [Fermer aux nouvelles entrées](#close-to-new-entries), [Abandonner](#abort-a-journey) |
+| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _En ligne_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]** dans l’en-tête du parcours. | [Dupliquer](#duplicate-a-journey), [Abandonner](#abort-a-journey) |
+| _**Abandonné**_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | [Dupliquer](#duplicate-a-journey), [Supprimer](#delete-a-journey) |
+| _**Terminé**_ | Lorsque tous les membres de l’audience d’une personne dans un parcours terminent le parcours, le statut passe de _Actif_ ou _Fermé aux nouvelles entrées_ à _Terminé_. | [Dupliquer](#duplicate-a-journey), [Supprimer](#delete-a-journey) |
 
-## Créer un parcours de personne
+## Créer un parcours de personne {#create-a-person-journey}
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours]** en haut à droite de la liste des parcours.
 
-1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
+1. Dans la boîte de dialogue, sélectionnez le programme **[!UICONTROL Parent]** pour le parcours de personne.
 
-<!-- 
-   ![Create Journey dialog](./assets/person-journey-create-dialog.png){width="400"}
--->
+1. Saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
+
+   ![ Boîte de dialogue Créer un parcours de personne ](./assets/person-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-### Conception de parcours
+   Le canevas de parcours s’ouvre avec le nœud d’audience Personne de départ.
 
-La carte de parcours __ est la zone centrale de l&#39;espace de travail de parcours. C’est là que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir ses propriétés dans le panneau situé à droite de la disposition et les définir en fonction de votre conception. Un parcours de personne commence toujours par un nœud _[!UICONTROL Audience de personne]_, où vous pouvez définir l’entrée du parcours.
+   ![Zone de travail de Parcours pour le parcours de la nouvelle personne](./assets/person-journey-new.png){width="600" zoomable="yes"}
 
-<!--
-   ![Journey map for newly created journey](./assets/person-journey-create-dialog.png){width="400"}
--->
+### En-tête de parcours {#journey-header}
 
-Après avoir créé un parcours de personne et ajouté l’audience de personne, créez le parcours à l’aide de nœuds . La carte de parcours fournit une zone de travail, dans laquelle vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes à l’aide des types de nœuds suivants pour créer le parcours :
+L’en-tête de chaque mappage de parcours comprend le nom, le statut et le planning du parcours.
+
+![En-tête de parcours Personne](./assets/person-journey-header.png){width="600" zoomable="yes"}
+
+* Cliquez sur l’icône _Modifier_ ( ![icône Modifier](../../assets/do-not-localize/icon-react-edit.svg) ) pour modifier le nom du parcours ou les informations de description.
+* Cliquez sur **[!UICONTROL Paramètres du Parcours]** pour modifier le début et la périodicité du parcours.
+* Cliquez sur **[!UICONTROL Plus]** pour appliquer une action de parcours ou pour activer/désactiver le contrôle du trafic et la rentrée.
+* Si toutes les erreurs sont résolues et que vous souhaitez activer le parcours, cliquez sur **[!UICONTROL Publier]**.
+
+### Conception de parcours {#journey-design}
+
+La carte de parcours __ est la zone centrale de l&#39;espace de travail de parcours. C’est là que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir ses propriétés dans le panneau situé à droite de la disposition et les définir en fonction de votre conception. Un parcours de personne commence toujours par un nœud [_[!UICONTROL Audience de personne ]_](./person-audience-node.md), où vous pouvez définir l’entrée du parcours.
+
+Après avoir créé un parcours de personne et défini l’audience de personne, créez le parcours à l’aide de nœuds . La carte de parcours fournit une zone de travail, dans laquelle vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes à l’aide des types de nœuds suivants pour créer le parcours :
 
 * [Entreprendre une action](./action-nodes.md)
 * [Écouter un événement](./listen-for-event-nodes.md)
@@ -93,62 +115,107 @@ Après avoir créé un parcours de personne et ajouté l’audience de personne,
 * [Deuxième meilleur chemin](./next-best-path.md)
 * [Fusionner les chemins](./split-merge-paths-nodes.md)
 
+## Gestion des parcours {#journey-management}
 
-## Gestion des parcours
+Ouvrez la liste parcours pour consulter le statut des parcours, apporter des modifications et prendre des mesures.
 
+### Actions de parcours {#journey-actions}
 
+La page de liste parcours comprend tous les parcours de personne de votre instance Prime B2B Journey Optimizer. La page de liste vous permet d’appliquer plusieurs actions à un parcours.
 
-## Cartographie du parcours
+#### Publier un parcours {#publish-a-journey}
 
-Cliquez sur le nom (affiché sous forme de lien) dans la liste parcours pour passer en revue les détails, apporter des modifications et prendre des mesures.
+Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois le parcours publié, son statut passe à _Actif_. Si le parcours comporte des erreurs, le bouton **[!UICONTROL Publier]** est grisé avec le message `Resolve errors before publishing`.
 
-L’en-tête de chaque mappage de parcours comprend :
+1. Ouvrez le brouillon de parcours à partir de la liste _[!UICONTROL parcours de personne]_.
 
-Nom du parcours
-Outil d’édition du nom du parcours (icône Modifier )
-Etat du parcours
-À partir du mappage de parcours, vous pouvez Ajouter les nœuds et définir le flux de parcours.
+1. Dans la partie supérieure droite de la carte des parcours, cliquez sur **[!UICONTROL Publier]**.
 
-### Actions de parcours
+1. Dans la boîte de dialogue _[!UICONTROL Vérifier les paramètres du parcours]_, définissez les options de début du parcours.
 
-La page de liste parcours comprend tous les parcours de compte ou de personne de votre instance Journey Optimizer B2B edition. La page de liste vous permet d’appliquer plusieurs actions à un parcours.
+   Si vous avez déjà défini une planification dans les paramètres de **[!UICONTROL Parcours]**, vérifiez les paramètres.
 
+   Si vous devez définir l’activation du parcours, choisissez un type de planification :
 
+   * Pour activer le parcours au moment de la publication, choisissez **[!UICONTROL Immédiatement]**.
+   * Pour activer le parcours à une date ultérieure, choisissez **[!UICONTROL À une date spécifique]** et cliquez sur l’icône _Calendrier_ pour sélectionner la date.
 
-#### Dupliquer un parcours
+1. Si nécessaire, spécifiez la **[!UICONTROL date de fin]** pour le parcours.
+
+   ![Boîte de dialogue Vérifier les paramètres du parcours ](./assets/journey-settings.png){width="400" zoomable="no"}
+
+   Il peut s&#39;agir d&#39;un maximum de trois ans à compter de la date de début. Ce champ est obligatoire pour la publication.
+
+1. Cliquez sur **[!UICONTROL Suivant]**.
+
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Publier]**.
+
+#### Abandon d’un parcours {#abort-a-journey}
+
+Si vous abandonnez (arrêtez) un parcours actif ou un parcours planifié à une date de début ultérieure, les personnes du parcours arrêtent immédiatement leur progression et aucune nouvelle entrée au parcours ne peut se produire. Vous ne pouvez pas redémarrer un parcours abandonné.
+
+1. Ouvrez le parcours à partir de la liste _[!UICONTROL parcours de personne]_.
+
+1. Cliquez sur le menu **[!UICONTROL Plus...]** en haut à droite et choisissez **[!UICONTROL Abandonner]**.
+
+   ![En-tête de parcours de personne en direct](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
+
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Abandonner]**.
+
+#### Fermer aux nouvelles entrées {#close-to-new-entries}
+
+Si vous fermez un parcours actif à de nouvelles entrées, les personnes actuellement dans le parcours continuent leur chemin dans ce parcours et aucune autre entrée de parcours ne peut se produire. Vous ne pouvez pas redémarrer un parcours fermé. Vous pouvez dupliquer un parcours fermé.
+
+1. Ouvrez le parcours à partir de la liste _[!UICONTROL parcours de personne]_.
+
+1. Cliquez sur le menu **[!UICONTROL Plus...]** en haut à droite et choisissez **[!UICONTROL Fermer aux nouvelles entrées]**.
+
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]**.
+
+#### Dupliquer un parcours {#duplicate-a-journey}
 
 Une action de duplication est similaire à une fonction de clonage, mais le parcours dupliqué n’inclut aucune ressource de contenu de parcours créée. Vous pouvez dupliquer les détails du parcours ou simplement un squelette de la structure du flux et du chemin.
 
-REMARQUE
+1. Dans la liste parcours de personne ]_, cliquez sur l’icône_ Plus _(**...**) à côté du nom du parcours et choisissez **[!UICONTROL Dupliquer]**._[!UICONTROL 
 
-Cliquez sur l’icône Plus (...) à côté du nom du parcours et choisissez Dupliquer.
+   ![Brouillon du parcours de personne Menu Plus](./assets/person-journey-draft-more-menu.png){width="400"}
 
-Selon le statut du parcours, vous pouvez également accéder à l’action en double à partir des détails du parcours ou de la carte des parcours :
+   Selon le statut du parcours, vous pouvez également accéder à l’action en double à partir des détails du parcours ou de la carte des parcours :
 
-Pour un brouillon de parcours, cliquez sur le menu Plus... en haut à droite et choisissez Dupliquer.
-Pour tous les autres statuts de parcours, cliquez sur Dupliquer en haut à droite.
-Dans la boîte de dialogue Dupliquer le Parcours , définissez le Nom et la Description du nouveau parcours.
-Par défaut, la boîte de dialogue utilise le nom du parcours dupliqué suivi de _copy. Saisissez un autre nom unique pour le parcours, le cas échéant.
+   * Pour un brouillon de parcours, cliquez sur le menu **[!UICONTROL Plus]** en haut à droite et choisissez **[!UICONTROL Dupliquer]**.
+   * Pour tous les autres statuts de parcours, cliquez sur **[!UICONTROL Dupliquer]** en haut à droite.
 
-Choisissez le type de duplication :
-Duplication partielle du contenu - Utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage sont entièrement intacts.
-Dupliquer sans détails - Utiliser ce type pour copier uniquement la structure de nœud et les chemins d’accès. Tous les paramètres de nœud et conditions de chemin sont indéfinis (par défaut). Vous pouvez donc réutiliser le flux de base avec différents paramètres d’audience, d’actions et de segmentation de chemin. Tous les nœuds d’attente utilisent la valeur par défaut de cinq jours.
-Cliquez sur Dupliquer.
-Le parcours dupliqué s’ouvre dans la carte des parcours, où vous pouvez définir les détails et créer du contenu de parcours selon vos besoins.
+1. Dans la boîte de dialogue, sélectionnez le programme **[!UICONTROL Parent]** pour le parcours dupliqué.
 
-Supprimer un parcours
+1. Saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-Utilisez une action de suppression pour supprimer définitivement un parcours. Vous ne pouvez pas supprimer un parcours actif ou planifié.
+   Par défaut, la boîte de dialogue utilise le nom du parcours d’origine suivi de `_copy`. Saisissez un nom unique différent pour le parcours, si nécessaire.
 
-Cliquez sur l’icône Plus (...) à côté du nom du parcours et choisissez Supprimer.
-Selon le statut du parcours, vous pouvez également accéder à l’action de suppression à partir des détails du parcours ou de la carte des parcours :
+   ![ Boîte de dialogue Dupliquer le parcours ](./assets/journey-duplicate-dialog.png){width="370"}
 
-Pour un brouillon de parcours, cliquez sur le menu Plus... en haut à droite et choisissez Supprimer.
-Pour d’autres statuts de parcours, tels que Terminé ou Abandonné, cliquez sur Supprimer en haut à droite.
-Dans la boîte de dialogue de confirmation, cliquez sur Supprimer.
+1. Choisissez le **[!UICONTROL type]** de duplication :
 
+   * **[!UICONTROL Duplication partielle du contenu]** : utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage sont entièrement intacts.
 
+   * **[!UICONTROL Dupliquer sans détails]** - Utilisez ce type pour copier uniquement la structure de nœud et les chemins d’accès. Les paramètres de nœud et conditions de chemin ne sont pas définis (par défaut). Vous pouvez donc réutiliser le flux de base avec différents paramètres d’audience, d’actions et de segmentation de chemin. Tous les nœuds d’attente utilisent la valeur par défaut de cinq jours.
 
+1. Cliquez sur **[!UICONTROL Dupliquer]**.
 
+   Le parcours dupliqué s’ouvre dans la zone de travail du parcours, où vous pouvez définir les détails et créer du contenu de parcours selon vos besoins.
 
+#### Supprimer un parcours {#delete-a-journey}
 
+Utilisez une action de suppression pour supprimer définitivement un parcours. Vous ne pouvez pas supprimer un parcours actif ou un parcours planifié à une date de début ultérieure.
+
+>[!WARNING]
+>
+>La suppression d’un parcours est définitive et irréversible.
+
+1. Dans la liste parcours de personne ]_, cliquez sur l’icône_ Plus _(**...**) à côté du nom du parcours et choisissez **[!UICONTROL Supprimer]**._[!UICONTROL 
+
+   Selon le statut du parcours, vous pouvez également accéder à l’action de suppression à partir de l’en-tête du parcours :
+
+   * Pour un brouillon de parcours, cliquez sur **[!UICONTROL Plus...]** en haut à droite et choisissez **[!UICONTROL Supprimer]**.
+   * Pour d’autres statuts de parcours, tels que _Terminé_ ou _Abandonné_, cliquez sur **[!UICONTROL Supprimer]** en haut à droite.
+
+1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.

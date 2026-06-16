@@ -4,17 +4,11 @@ description: Découvrez comment accéder aux modèles d’e-mail et les gérer d
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
 autotag-review: '2026-06-12T22:56:19.345Z'
 TQID: 'https://experienceleague.adobe.com/TTr-0Pm7Jb0LLCHt6hZb8mkXdeC7PUqteYVDuyanfs0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 2%
@@ -55,7 +49,7 @@ Créez des dossiers pour regrouper les modèles par équipe, campagne, marque ou
 
 **Pour déplacer un modèle dans un dossier, procédez comme suit**
 
-1. Cliquez sur l’icône **[!UICONTROL Plus]** (⋯) en regard du modèle.
+1. Cliquez sur l’icône **[!UICONTROL Plus]** ( ... ) en regard du modèle.
 1. Sélectionnez **[!UICONTROL Déplacer vers le dossier]**.
 1. Sélectionnez le dossier de destination et cliquez sur **[!UICONTROL Déplacer]**.
 
@@ -67,15 +61,15 @@ Cliquez sur le nom d’un modèle pour ouvrir sa page de détails. À partir de 
 
 ### Modification d’un modèle
 
-Cliquez sur le nom d’un modèle pour ouvrir la page de détails, puis cliquez sur **[!UICONTROL Modifier le modèle d’e-mail]**. Vous pouvez également cliquer sur l’icône **[!UICONTROL Plus]** (⋯) dans la liste des modèles et sélectionner **[!UICONTROL Modifier]**.
+Cliquez sur le nom d’un modèle pour ouvrir la page de détails, puis cliquez sur **[!UICONTROL Modifier le modèle d’e-mail]**. Vous pouvez également cliquer sur l’icône **[!UICONTROL Plus]** ( ... ) dans la liste des modèles et sélectionner **[!UICONTROL Modifier]**.
 
 ### Dupliquer un modèle
 
-Cliquez sur l’icône **[!UICONTROL Plus]** (⋯) en regard du modèle et sélectionnez **[!UICONTROL Dupliquer]**. La copie s’ouvre afin que vous puissiez la renommer et effectuer des réglages.
+Cliquez sur l’icône **[!UICONTROL Plus]** ( ... ) à côté du modèle et sélectionnez **[!UICONTROL Dupliquer]**. La copie s’ouvre afin que vous puissiez la renommer et effectuer des réglages.
 
 ### Suppression d’un modèle
 
-Cliquez sur l’icône **[!UICONTROL Plus]** (⋯) en regard du modèle et sélectionnez **[!UICONTROL Supprimer]**. Confirmez la suppression lorsque vous y êtes invité.
+Cliquez sur l’icône **[!UICONTROL Plus]** ( ... ) à côté du modèle et sélectionnez **[!UICONTROL Supprimer]**. Confirmez la suppression lorsque vous y êtes invité.
 
 >[!NOTE]
 >
