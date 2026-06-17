@@ -2,9 +2,9 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
 hide: true
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 41%
 
 ---
@@ -29,13 +29,15 @@ ht-degree: 41%
       + [Fractionner et fusionner les chemins](./marketing/split-merge-paths-nodes.md)
       + [Deuxième meilleur chemin](./marketing/next-best-path.md)
 + Audiences {#audiences}
-   + [Gestion des audiences](./audiences/audience-management.md)
+   + [Listes de personnes](./audiences/people-lists.md)
+   + [Destinations](./audiences/destinations.md)
    + [Qualification d’audience dynamique](./audiences/dynamic-audience-qualification.md)
    + [Audiences basées sur un événement](./audiences/event-based-audiences.md)
 + Contenu {#content}
    + E-mails {#emails}
       + [Création d’e-mails](./content/email-authoring.md)
       + [Conception du mode sombre](./content/email-dark-mode.md)
+   + [Messages WhatsApp](./content/whatsapp-authoring.md)
    + Modèles {#templates}
       + [Vue d’ensemble](./content/templates.md)
       + [Création de modèles](./content/templates-create.md)
@@ -43,7 +45,7 @@ ht-degree: 41%
    + [Pages de destination](./content/landing-pages.md)
    + [Formulaires](./content/forms.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}

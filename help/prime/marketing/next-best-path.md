@@ -4,19 +4,11 @@ description: Utilisez le nœud de meilleur chemin suivant dans Journey Optimizer
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1528
 ht-degree: 1%
@@ -62,7 +54,7 @@ Si aucun chemin d’accès n’est une correspondance forte ou si l’invite ré
 
 ## Ajouter un nœud de meilleur chemin suivant {#add-node}
 
-1. Ouvrez le parcours de la personne et accédez à la carte du parcours.
+1. Ouvrez le parcours de la personne et accédez à la zone de travail du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin et choisissez **Meilleur chemin suivant**.
 
@@ -169,7 +161,7 @@ Après validation des résultats de la simulation :
 
 Une fois le parcours actif, le nœud de meilleur chemin suivant s’exécute au moment de l’exécution. Lorsque chaque personne atteint le nœud, l’IA les évalue en temps réel à l’aide des derniers signaux et les achemine vers le chemin le plus pertinent.
 
-Pour un parcours publié, ouvrez la carte des parcours et sélectionnez le nœud de meilleur chemin suivant pour afficher la section **_[!UICONTROL Résultats en direct]_** dans le panneau de droite. Les résultats en direct affichent :
+Pour un parcours publié, ouvrez la zone de travail du parcours et sélectionnez le nœud de meilleur chemin suivant pour afficher la section **_[!UICONTROL Résultats en direct]_** dans le panneau de droite. Les résultats en direct affichent :
 
 * Répartition en pourcentage des profils sur chaque chemin d’accès
 * Score de confiance pour chaque affectation de chemin
