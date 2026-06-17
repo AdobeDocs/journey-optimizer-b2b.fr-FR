@@ -3,10 +3,15 @@ title: Nœud d’attente
 description: 'Configurez les nœuds d’attente dans Journey Optimizer B2B edition Prime : mettez en pause la progression du parcours par durée, date ou planification avancée des jours et des heures.'
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
 source-wordcount: 690
@@ -29,7 +34,7 @@ Vous pouvez définir le temps d’attente de deux manières différentes :
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Attendre]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Pour définir le temps d’attente avant que le parcours ne passe au nœud suivant dans le chemin d’accès, utilisez les propriétés du nœud sur la droite pour définir le **[!UICONTROL Type]**.
 
