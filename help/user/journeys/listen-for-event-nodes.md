@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 12%
@@ -50,7 +50,7 @@ Dans un parcours de compte, vous pouvez écouter un événement en fonction du c
 
 ### Ajouter un événement de compte
 
-1. Accédez à la carte du parcours.
+1. Accédez à la zone de travail de parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin et choisissez **[!UICONTROL Écouter un événement]**.
 
@@ -102,7 +102,7 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 
 ### Ajouter un événement de personne
 
-1. Accédez à la carte du parcours.
+1. Accédez à la zone de travail de parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin et choisissez **[!UICONTROL Écouter un événement]**.
 
@@ -118,7 +118,7 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 
 Si vous disposez de pages web dans votre instance Marketo Engage connectée, vous pouvez déclencher un événement en fonction d’une visite ou d’une absence de visite de ces pages web, ainsi que des formulaires Marketo Engage qui ont été remplis ou non.
 
-1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans le mappage de parcours.
+1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans la zone de travail du parcours.
 
 1. Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]** pour le type d’événement.
 
@@ -147,7 +147,7 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 1. Si nécessaire, définissez l’option **[!UICONTROL Temporisation]** pour limiter la période d’écoute de l’événement (voir [Ajouter une temporisation à un nœud d’événement](#add-a-timeout-to-an-event-node)).
 
-1. Dans la carte de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
+1. Dans la zone de travail de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
 
 ### Écoute d’un événement d’expérience {#listen-for-an-experience-event}
 
@@ -163,7 +163,7 @@ Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Ex
 
 _Pour inclure un événement d’expérience dans votre parcours :_
 
-1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans le mappage de parcours.
+1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans la zone de travail du parcours.
 
 1. (parcours de compte uniquement) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]** pour le type d’événement.
 
@@ -197,7 +197,7 @@ _Pour inclure un événement d’expérience dans votre parcours :_
 
 1. Si nécessaire, définissez l’option **[!UICONTROL Temporisation]** pour limiter la période d’écoute de l’événement (voir [Ajouter une temporisation à un nœud d’événement](#add-a-timeout-to-an-event-node)).
 
-1. Dans la carte de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
+1. Dans la zone de travail de parcours, ajoutez le nœud suivant à exécuter lorsque l’événement se produit.
 
 1. Renseignez les nœuds restants pour votre parcours et [publiez-le](./journeys-overview.md).
 

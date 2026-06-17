@@ -1,6 +1,6 @@
 ---
 title: Nœud d’attente
-description: Espace réservé
+description: 'Configurez les nœuds d’attente dans Journey Optimizer B2B edition Prime : mettez en pause la progression du parcours par durée, date ou planification avancée des jours et des heures.'
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
 product_v2:
@@ -12,10 +12,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 1%
+source-wordcount: 690
+ht-degree: 0%
 
 ---
 
@@ -28,30 +28,30 @@ Vous pouvez définir le temps d’attente de deux manières différentes :
 * Date spécifique à laquelle vous souhaitez passer au nœud suivant du parcours
 * Une durée relative (nombre de minutes, heures, jours, semaines ou mois)
 
-## Ajouter le nœud d’attente
+## Ajouter le nœud d’attente {#add-wait-node}
 
-1. Accédez à la carte du parcours.
+1. Accédez à la zone de travail de parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Attendre]**.
 
-<!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Pour définir le temps d’attente avant que le parcours ne passe au nœud suivant dans le chemin d’accès, utilisez les propriétés du nœud sur la droite pour définir le **[!UICONTROL Type]**.
 
    * **[!UICONTROL Durée]** - Définissez un nombre spécifique de jours, heures ou minutes entre l’entrée et la sortie du nœud d’attente.
    * **[!UICONTROL Date]** - Spécifiez la date et l’heure de sortie.
 
-<!-- ![Journey node - wait](./assets/node-wait.png){width="500"} -->
+   ![Nœud de Parcours - attente](./assets/wait-node.png){width="500"}
 
-## Paramètres avancés de l’attente
+## Paramètres avancés de l’attente {#advanced-wait-settings}
 
 Activez l’option **[!UICONTROL Doit se terminer le]** pour configurer une _étape d’attente avancée_ et vous assurer que vos messages atteignent les personnes et les membres du compte au moment optimal. Cette configuration vous donne un contrôle précis sur le moment où une personne ou un compte quitte une étape d’attente et passe au nœud suivant dans le parcours. Plutôt qu’un nombre fixe d’heures ou de jours entre l’entrée et la sortie, vous pouvez planifier des actions qui se produisent à des heures spécifiques et à des jours spécifiques de la semaine.
 
 Avec une _étape d’attente avancée_, vous définissez **_quand_** la personne ou le compte se ferme, et pas simplement combien de temps elle doit attendre.
 
-<!-- ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"} -->
+![nœud de Parcours - étape d’attente avancée](./assets/wait-node-advanced.png){width="500"}
 
-### Types d’attente
+### Types d’attente {#wait-types}
 
 | Type d’attente | Description | Configuration |
 | --------- | ----------- | ------------- |
@@ -60,7 +60,7 @@ Avec une _étape d’attente avancée_, vous définissez **_quand_** la personne
 | **Période ou combinaison** | Conservez jusqu’à n’importe quel jour d’une plage (lundi-vendredi, par exemple) ou pendant l’un des jours spécifiés | Sélectionnez vos jours cibles. Si aucune heure n’est spécifiée, se ferme à minuit (pour le fuseau horaire sélectionné) le jour correspondant suivant. |
 | **Combinaison Heure + Jour** | Combinez les deux pour une planification précise (par exemple, mardi à 10 :00) | Sélectionnez vos jours cibles et définissez l’heure cible. Quitte à l’occurrence du jour/heure suivant (pour le fuseau horaire sélectionné). |
 
-### Scénarios courants
+### Scénarios courants {#common-scenarios}
 
 Les scénarios suivants illustrent comment appliquer des exemples typiques à la configuration de votre nœud d’attente :
 
@@ -88,7 +88,7 @@ Les scénarios suivants illustrent comment appliquer des exemples typiques à la
 
 +++
 
-### Exemples d’entrée et de sortie
+### Exemples d’entrée et de sortie {#entry-exit-examples}
 
 | Configuration de l’attente | Entrées de compte/lead | Sorties de compte/prospect |
 | ------------------ | ------------------- | ------------------ |

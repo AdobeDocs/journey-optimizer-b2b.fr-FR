@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1528
 ht-degree: 1%
@@ -62,7 +62,7 @@ Si aucun chemin d’accès n’est une correspondance forte ou si l’invite ré
 
 ## Ajouter un nœud de meilleur chemin suivant {#add-node}
 
-1. Ouvrez le parcours de la personne et accédez à la carte du parcours.
+1. Ouvrez le parcours de la personne et accédez à la zone de travail du parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin et choisissez **Meilleur chemin suivant**.
 
@@ -169,7 +169,7 @@ Après validation des résultats de la simulation :
 
 Une fois le parcours actif, le nœud de meilleur chemin suivant s’exécute au moment de l’exécution. Lorsque chaque personne atteint le nœud, l’IA les évalue en temps réel à l’aide des derniers signaux et les achemine vers le chemin le plus pertinent.
 
-Pour un parcours publié, ouvrez la carte des parcours et sélectionnez le nœud de meilleur chemin suivant pour afficher la section **_[!UICONTROL Résultats en direct]_** dans le panneau de droite. Les résultats en direct affichent :
+Pour un parcours publié, ouvrez la zone de travail du parcours et sélectionnez le nœud de meilleur chemin suivant pour afficher la section **_[!UICONTROL Résultats en direct]_** dans le panneau de droite. Les résultats en direct affichent :
 
 * Répartition en pourcentage des profils sur chaque chemin d’accès
 * Score de confiance pour chaque affectation de chemin

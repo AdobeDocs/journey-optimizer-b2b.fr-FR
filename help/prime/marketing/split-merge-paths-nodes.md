@@ -1,6 +1,6 @@
 ---
 title: Nœuds de chemins de division et de fusion
-description: Espace réservé
+description: Découvrez comment utiliser les nœuds de chemins d’accès fractionnés et fusionnés dans des parcours de personne pour segmenter les personnes en chemins d’accès distincts en fonction de conditions définies, puis les réunir en un point commun en aval.
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:
@@ -13,16 +13,16 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 658
 ht-degree: 0%
 
 ---
 
 # Nœuds de chemins de division et de fusion
 
-
+Utilisez les nœuds de chemins d’accès fractionnés et fusionnés dans des parcours de personne pour segmenter les personnes en chemins d’accès distincts en fonction des conditions que vous définissez, puis rassemblez ces chemins d’accès afin que le parcours puisse continuer. Les chemins fractionnés vous permettent d’adapter les actions et les événements à des segments d’audience spécifiques, tandis que les chemins fusionnés réunissent ces segments à un point commun en aval.
 
 ## Nœuds de chemins de partage
 
@@ -31,7 +31,6 @@ Utilisez des nœuds fractionnés pour segmenter les personnes en fonction des co
 Un nœud Chemins partagés définit un ou plusieurs chemins segmentés en fonction des filtres de personnes.
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
-
 
 _&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x200B;_
 
@@ -51,17 +50,11 @@ Pour chaque chemin d’accès que vous définissez pour le nœud, utilisez les t
 
 ### Ajouter un nœud de chemins de division
 
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
-1. Accédez à la carte du parcours.
+1. Accédez à la zone de travail de parcours.
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Fractionner les chemins]**.
 
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Pour définir une condition applicable à _[!UICONTROL Chemin 1]_, cliquez sur **[!UICONTROL Appliquer la condition]**.
 
@@ -95,13 +88,11 @@ Lorsque des conditions sont définies pour chaque chemin, vous pouvez ajouter de
 
 ## Nœuds de chemins de fusion
 
-1. Accédez à la carte du parcours et localisez le nœud de chemins de division avec plusieurs chemins d’accès.
+1. Accédez à la zone de travail de parcours et localisez le nœud de chemins de division avec plusieurs chemins d’accès.
 
    Chaque chemin doit comporter une combinaison d’actions et d’événements.
 
 1. Cliquez sur l’icône plus ( **+** ) à la fin de l’un de ces chemins et choisissez **[!UICONTROL Fusionner les chemins]** dans les options affichées.
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
 
 1. Dans les propriétés de nœud à droite, sélectionnez les chemins d’accès à fusionner.
 
