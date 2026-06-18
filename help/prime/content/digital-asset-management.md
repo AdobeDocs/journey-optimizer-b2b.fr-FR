@@ -6,10 +6,16 @@ role: User
 badge: label="Beta" type="Informative"
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975fid: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 495
@@ -24,12 +30,12 @@ Dans [!DNL Adobe Journey Optimizer B2B Prime], les ressources sont généralemen
 Formats de fichiers pris en charge : JPG, JPEG, GIF, PNG, EPS, SVG et RGB
 
 
->>
+&#x200B;>>
 L’importation de ressources à partir de systèmes externes tels que la gestion des ressources numériques Marketo Engage et l’accès à une bibliothèque de ressources préremplie ne sont pas encore disponibles. Les prochaines versions devraient inclure l’importation de ressources à partir des systèmes existants, la prise en charge de dossiers et des fonctionnalités étendues de gestion des ressources.
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
-La bibliothèque **** permet d’accéder au référentiel centralisé pour stocker et gérer les images et d’autres ressources de création. Il comprend des fonctionnalités optimisées par l’IA qui génèrent automatiquement des métadonnées et permettent la recherche en langage naturel.
+La bibliothèque **&#x200B;**&#x200B;permet d’accéder au référentiel centralisé pour stocker et gérer les images et d’autres ressources de création. Il comprend des fonctionnalités optimisées par l’IA qui génèrent automatiquement des métadonnées et permettent la recherche en langage naturel.
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de contenu]** et sélectionnez **[!UICONTROL Assets]**.
 
@@ -37,13 +43,13 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de cont
 >
 >Dans cette version de Beta, vous pouvez choisir des images et des ressources à partir d’une copie unique de votre bibliothèque de ressources Marketo Engage directement dans la zone de travail d’e-mail. Vous pouvez également charger des ressources d’image supplémentaires à partir de la bibliothèque __ ou de l’espace de conception de contenu. Ces ressources chargées ne peuvent être utilisées que dans l’instance [!DNL Adobe Journey Optimizer B2B Prime].
 
-![Bibliothèque ](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+![Bibliothèque &#x200B;](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
 La première fois que vous accédez à la bibliothèque __, consultez les _[!UICONTROL Conditions d’utilisation de Generative AI]_ et cliquez sur **[!UICONTROL Accepter et continuer]**.
 
-![Bibliothèque ](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+![Bibliothèque &#x200B;](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
 >[!ENDSHADEBOX]
 
