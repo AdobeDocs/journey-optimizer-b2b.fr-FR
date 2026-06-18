@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 880
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Vous pouvez créer un modèle d’e-mail dans [!DNL Journey Optimizer B2B Editio
 
 ## Créer un nouveau modèle {#build-new}
 
-1. Accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles]**.
+1. Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de contenu]** et sélectionnez **[!UICONTROL Modèles]**.
 1. Cliquez sur **[!UICONTROL Créer un modèle]**.
 1. Saisissez un **[!UICONTROL Nom du modèle]** et un **[!UICONTROL Description]** facultatif.
 1. Définissez le **[!UICONTROL Canal]** (type) du modèle.

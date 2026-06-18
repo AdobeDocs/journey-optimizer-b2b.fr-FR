@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1d0093ad5298593d291372d838794fe8cab5f646
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 2%
@@ -155,7 +155,7 @@ Utilisez cette action pour envoyer un e-mail aux personnes inscrites. Les person
 
 ![Agir - Envoyer un e-mail](./assets/person-action-node-send-email.png){width="450"}
 
-Vous pouvez créer un e-mail, modifier un e-mail existant ou utiliser un e-mail personnalisé par l’IA. Pour plus d&#39;informations sur la création et la modification d&#39;emails, voir [Création d&#39;emails](../content/email-authoring.md).
+Vous pouvez créer un e-mail, modifier un e-mail existant ou utiliser un e-mail personnalisé par l’IA. Pour plus d&#39;informations sur la création et la modification des emails, voir [Canal email](../marketing/email-channel.md).
 
 Vous pouvez utiliser l’[optimisation de l’heure d’envoi](../marketing/email-send-time-optimization.md) pour personnaliser le délai de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir.
 

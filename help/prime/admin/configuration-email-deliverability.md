@@ -14,46 +14,28 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
-source-wordcount: 3414
+source-wordcount: 3095
 ht-degree: 1%
 
 ---
 
 # Délivrabilité des e-mails et configuration des canaux
 
-[!DNL Adobe Journey Optimizer B2B Edition] Prime offre aux spécialistes du marketing B2B une expérience moderne de création et de diffusion d’e-mails de niveau professionnel. Cette version introduit des outils de conception d’e-mail repensés et un ensemble complet de contrôles de délivrabilité des e-mails.
-
 Les informations suivantes sont destinées aux administrateurs qui configurent l’infrastructure d’envoi pour prendre en charge les spécialistes marketing et les auteurs d’e-mails. Il décrit les fonctionnalités de délivrabilité, les rôles et autorisations, ainsi que la manière de configurer des sous-domaines, une authentification, des groupes d’adresses IP et des configurations de canal.
 
 Pour plus d’informations sur la création d’e-mails et de contenu d’e-mail dans l’espace de conception des e-mails, voir [Création d’e-mails](../content/email-authoring.md).
 
-## Présentation du canal e-mail {#overview}
-
-* **Outils visuels de conception d’e-mail par glisser-déposer** - Concevez le contenu de votre e-mail avec des structures, des composants de contenu, des thèmes, une prise en charge du mode sombre et des fragments visuels réutilisables.
-* **Configurations du canal e-mail** - Gérez l’identité de l’expéditeur, le comportement de réponse, les types de messages marketing par rapport aux messages transactionnels et le suivi.
-* **Contrôles de délivrabilité des e-mails** - Configurez votre canal de délivrabilité des e-mails, y compris la délégation de sous-domaines (méthodes Fully Delegated et CNAME), DMARC, la configuration automatique SPF/DKIM et la prise en charge du pool d’adresses IP partagées.
-* **Action Envoyer un e-mail** - À partir d’un parcours, ajoutez une action Envoyer un e-mail , y compris la personnalisation à l’aide d’attributs de profil (syntaxe Handlebars).
-* **Ressources Marketo Design Studio** — choisissez des images et des ressources à partir d’une copie ponctuelle de votre bibliothèque de ressources Marketo Engage directement dans la zone de travail d’e-mail.
-* **Modèles et fragments réutilisables** — Enregistrez les en-têtes, pieds de page, CTA et dispositions complètes d&#39;e-mail courants et réutilisez-les dans les parcours.
-* **Contrôle d’accès en fonction du rôle (RBAC)** — Appliquez des autorisations granulaires pour la création, la modification, l’approbation et l’envoi d’e-mails.
-
 ## Principaux concepts {#key-concepts}
 
-Avant de configurer les e-mails, passez en revue ces concepts qui s’appliquent aux fonctionnalités du canal e-mail dans l’ensemble du produit.
+Avant de configurer les e-mails, passez en revue les concepts qui s’appliquent aux fonctionnalités de délivrabilité des canaux e-mail :
 
 | Concept | Signification dans [!DNL Journey Optimizer B2B Edition] Prime |
 | ------- | ---------------------- |
 | **_Configuration du canal_** | Ensemble réutilisable de paramètres d’envoi d’e-mail, notamment l’identité de l’expéditeur, l’adresse de réponse, le sous-domaine, le groupe d’adresses IP, le type d’e-mail (marketing ou transactionnel) et le suivi, que vous joignez aux actions d’e-mail dans parcours. Vous pouvez avoir plusieurs configurations de canal nommé pour différentes marques, unités opérationnelles ou types d’envoi. |
 | **_Sous-domaine_** | Partie déléguée de votre domaine d’envoi (par exemple, `mail.contoso.com`) utilisée pour envoyer des e-mails via Prime. Les sous-domaines isolent votre réputation marketing B2B des e-mails d’entreprise ou transactionnels. |
 | **_Groupe d’adresses IP_** | Groupe d’adresses IP associées à un ou plusieurs sous-domaines. Prime prend en charge un groupe d’adresses IP partagé géré par Adobe dans cette version. Les groupes d’adresses IP dédiés figurent sur la feuille de route GA. |
-| **_Espace de conception des emails_** | Canevas visuel et outils de conception utilisés pour composer du contenu d’e-mail. Il comprend des composants de disposition à glisser-déposer, des modèles, des fragments, des thèmes et un éditeur de personnalisation. |
-| **_Modèle_** | Disposition d’e-mail réutilisable disponible pour la création d’un e-mail. Il peut s’agir d’un modèle type intégré fourni par Adobe ou d’un modèle personnalisé créé par votre équipe. |
-| **_Fragment visuel_** | Bloc de contenu réutilisable (par exemple, en-tête, pied de page, CTA, clause de non-responsabilité) pouvant être inséré dans plusieurs e-mails. La mise à jour d’un fragment propage la modification à chaque e-mail qui l’utilise. |
-| **_Thème_** | Paramètre prédéfini de style réutilisable (couleurs, typographie, espacement, styles de bouton) appliqué à un e-mail. |
-| **_Jeton_** | Une expression Handlebars, par exemple `{{profile.firstName}}`, résolue au moment de l’envoi à l’aide des données de profil de chaque destinataire. |
-| **_Action Envoyer un e-mail_** | Nœud d’action de parcours qui utilise une configuration de canal et du contenu d’e-mail pour diffuser un e-mail. |
 
 ## Rôles et autorisations {#roles-permissions}
 
@@ -84,7 +66,7 @@ La plupart des fonctionnalités d’e-mail suivent un modèle `view-*` (lecture)
 | **Gérer les ressources** | `manage-b2b-assets` | Tous les accès en lecture plus les futures actions de gestion des ressources (portée de Beta). |
 | **Exporter les données du message** | `manage-b2b-message-export` | Exportez les données et les rapports des messages au niveau des e-mails. |
 
-Dans un parcours, l’action **Envoyer un e-mail** nécessite une `manage-b2b-person-journeys` (pour ajouter l’action et activer le parcours). Un utilisateur disposant uniquement d’autorisations de messagerie peut créer du contenu, mais ne peut pas ajouter d’e-mail à un parcours.
+Dans un parcours de personne, l’action **Envoyer un e-mail** nécessite `manage-b2b-person-journeys` (pour ajouter l’action et activer le parcours). Un utilisateur disposant uniquement d’autorisations de messagerie peut créer du contenu, mais ne peut pas ajouter d’e-mail à un parcours.
 
 ### Autorisations de délivrabilité des emails {#email-deliverability-permissions}
 
