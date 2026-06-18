@@ -3,9 +3,16 @@ title: Optimisation de l’heure d’envoi des e-mails
 description: L’optimisation de l’heure d’envoi (STO) dans Adobe Journey Optimizer B2B Prime personnalise la diffusion d’e-mails pour les parcours de personne. Découvrez comment activer la STO et améliorer l’engagement.
 autotag-review: '2026-06-17T20:52:02.535Z'
 TQID: 'https://experienceleague.adobe.com/wlxhS7E8DnbThm5ge-wzTkMcn-eBzFUXfw3ZGrfcRHA'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 403
@@ -15,7 +22,7 @@ ht-degree: 0%
 
 # Optimisation de l’heure d’envoi des e-mails
 
-Utilisez la fonctionnalité d’optimisation de l’heure d’envoi (STO) pour personnaliser le délai de diffusion des e-mails pour les parcours de personne](./person-journeys.md) en prédisant le moment où chaque profil est le plus susceptible d’interagir. [Au lieu d’une heure d’envoi fixe, STO utilise des signaux d’engagement historiques des e-mails pour planifier la diffusion à l’heure optimale pour chaque destinataire, améliorant ainsi l’engagement global.
+Utilisez la fonctionnalité d’optimisation de l’heure d’envoi (STO) pour personnaliser le délai de diffusion des e-mails pour les parcours de personne[&#128279;](./person-journeys.md) en prédisant le moment où chaque profil est le plus susceptible d’interagir. Au lieu d’une heure d’envoi fixe, STO utilise des signaux d’engagement historiques des e-mails pour planifier la diffusion à l’heure optimale pour chaque destinataire, améliorant ainsi l’engagement global.
 
 STO analyse l&#39;engagement historique de chaque profil à l&#39;aide d&#39;un grand modèle linguistique. Il prédit et classe les heures d’envoi potentielles, puis planifie la diffusion au moment le plus élevé de la fenêtre d’optimisation.
 
