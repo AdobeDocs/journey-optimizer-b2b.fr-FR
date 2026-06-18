@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
 hide: true
-source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
+source-git-commit: f471a870b1e54b4588317d495eb7f7625051ac65
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 41%
+source-wordcount: '128'
+ht-degree: 42%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 41%
 # Guide de l’utilisateur de Journey Optimizer B2B Prime {#prime}
 
 + [Documentation Adobe Journey Optimizer B2B Prime](guide-overview.md)
-+ [Configuration](./start/setup-prime.md)
++ Commencer {#start}
+   + [Liste de contrôle de configuration](./start/setup-prime.md)
+   + [Gestion des utilisateurs et utilisatrices](./start/user-management.md)
 + [Accueil et informations](./home-insights/home-insights.md)
 + [Agents](./agents/agents.md)
 + Gestion marketing {#marketing-management}
@@ -28,6 +30,7 @@ ht-degree: 41%
       + [Attente](./marketing/wait-nodes.md)
       + [Fractionner et fusionner les chemins](./marketing/split-merge-paths-nodes.md)
       + [Deuxième meilleur chemin](./marketing/next-best-path.md)
+   + [Optimisation de l’heure d’envoi des e-mails](./marketing/email-send-time-optimization.md)
 + Audiences {#audiences}
    + [Listes de personnes](./audiences/people-lists.md)
    + [Destinations](./audiences/destinations.md)
@@ -45,7 +48,7 @@ ht-degree: 41%
    + [Pages de destination](./content/landing-pages.md)
    + [Formulaires](./content/forms.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}
