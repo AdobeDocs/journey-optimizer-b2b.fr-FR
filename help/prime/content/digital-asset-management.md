@@ -16,7 +16,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 85f61c8fa8eda07dfe8ea1e83f3c261c9159976f
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 495
 ht-degree: 3%
@@ -93,3 +93,4 @@ Sélectionnez une ressource dans la vue Liste ou Galerie pour ouvrir sa vue dét
 Une fois le chargement terminé, le système génère automatiquement une description, attribue des balises et des mots-clés et extrait les attributs visuels tels que l’objet et le paramètre. Aucun balisage manuel n’est requis. La nouvelle image affiche un statut _[!UICONTROL TRAITEMENT]_ jusqu’à ce que ce processus soit terminé.
 
 ![Nouvelle ressource image au statut de traitement](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+<!-- -->
