@@ -3,17 +3,11 @@ title: Prendre un nœud d’action
 description: Espace réservé
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1d0093ad5298593d291372d838794fe8cab5f646
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 2%
@@ -48,7 +42,7 @@ Dans un parcours de personne, utilisez une action sur les personnes lorsque vous
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Effectuer une action]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Dans les propriétés de nœud sur la droite, sélectionnez une action dans la liste et définissez ses valeurs.
 
@@ -60,11 +54,11 @@ Utilisez cette action pour activer des personnes vers des destinations Experienc
 
 +++
 
-+++[!UICONTROL &#x200B; Ajouter une personne au Parcours &#x200B;]
++++[!UICONTROL  Ajouter une personne au Parcours ]
 
 Utilisez cette action pour ajouter des personnes à d&#39;autres parcours planifiés ou en direct. Les personnes ajoutées par le biais de cette action sont immédiatement ajoutées à l’audience du parcours cible. Les critères d’audience du parcours ne sont pas appliqués.
 
-![Agir - Ajouter une personne au parcours &#x200B;](./assets/person-action-node-add-to-journey.png){width="450"}
+![Agir - Ajouter une personne au parcours ](./assets/person-action-node-add-to-journey.png){width="450"}
 
 +++
 
@@ -133,11 +127,11 @@ Utilisez cette action pour supprimer des personnes d’une liste statique dans M
 
 +++
 
-+++[!UICONTROL Supprimer une personne du Parcours &#x200B;]
++++[!UICONTROL Supprimer une personne du Parcours ]
 
 Utilisez cette action pour supprimer des personnes d’autres parcours de personnes actives. La personne est immédiatement retirée du parcours cible et aucune autre action n’est entreprise à son encontre. Si une personne n’est pas actuellement membre du parcours cible, l’action est ignorée pour cette personne.
 
-![Agir - Supprimer une personne du parcours &#x200B;](./assets/person-action-node-remove-from-journey.png){width="450"}
+![Agir - Supprimer une personne du parcours ](./assets/person-action-node-remove-from-journey.png){width="450"}
 
 +++
 
@@ -155,7 +149,7 @@ Utilisez cette action pour envoyer un e-mail aux personnes inscrites. Les person
 
 ![Agir - Envoyer un e-mail](./assets/person-action-node-send-email.png){width="450"}
 
-Vous pouvez créer un e-mail, modifier un e-mail existant ou utiliser un e-mail personnalisé par l’IA. Pour plus d&#39;informations sur la création et la modification d&#39;emails, voir [Création d&#39;emails](../content/email-authoring.md).
+Vous pouvez créer un e-mail, modifier un e-mail existant ou utiliser un e-mail personnalisé par l’IA. Pour plus d&#39;informations sur la création et la modification des emails, voir [Canal email](../marketing/email-channel.md).
 
 Vous pouvez utiliser l’[optimisation de l’heure d’envoi](../marketing/email-send-time-optimization.md) pour personnaliser le délai de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir.
 
