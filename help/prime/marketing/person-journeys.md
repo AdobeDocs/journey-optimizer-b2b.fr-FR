@@ -12,7 +12,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 19%
@@ -128,7 +128,7 @@ Ouvrez la liste parcours pour consulter le statut des parcours, apporter des mod
 
 La page de liste parcours comprend tous les parcours de personne de votre instance Prime B2B Journey Optimizer. La page de liste vous permet d’appliquer plusieurs actions à un parcours.
 
-#### Publier un parcours {#publish-a-journey}
+#### Publier un parcours {#publish}
 
 Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois le parcours publié, son statut passe à _Actif_. Si le parcours comporte des erreurs, le bouton **[!UICONTROL Publier]** est grisé avec le message `Resolve errors before publishing`.
 
