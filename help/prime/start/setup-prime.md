@@ -14,7 +14,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +42,22 @@ Une fois la mise en service terminée, les sandbox sont liés et les tâches de 
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Création d’un profil de produit Marketo Engage dans Adobe Admin Console (nouvelle instance Marketo Engage uniquement)</td>
 <td><a href="./user-management.md#create-profile">En savoir plus</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Ajouter un groupe d’utilisateurs pour le profil</td>
 <td><a href="./user-management.md#add-user-group">En savoir plus</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Configurer les rôles utilisateur B2B</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">En savoir plus</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Ajouter des utilisateurs et utilisatrices ou des groupes aux rôles</td>
 <td><a href="./user-management.md#add-users-to-a-role">En savoir plus</a></td>
 </tr>
@@ -81,26 +81,25 @@ Avant que les professionnels du marketing puissent envoyer des e-mails à partir
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Délégation d’un sous-domaine à Adobe</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Délégation complète</a> ou <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Configuration de DMARC pour le sous-domaine</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">En savoir plus</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Vérification et affectation d’un groupe d’adresses IP</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">En savoir plus</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Créer une configuration de canal e-mail</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">En savoir plus</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 

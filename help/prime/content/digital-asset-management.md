@@ -3,7 +3,7 @@ title: Ressources
 description: Gérez les ressources d’images à partir de Journey Optimizer B2B edition pour les e-mails, les modèles et les fragments visuels.
 feature: Assets, Content
 role: User
-badge: label="Beta" type="Informative"
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
 product_v2:
@@ -16,22 +16,26 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 3%
+source-wordcount: 524
+ht-degree: 5%
 
 ---
 
 # Ressources
 
-Dans [!DNL Adobe Journey Optimizer B2B Prime], les ressources sont généralement les images utilisées lors de la conception de contenu pour prendre en charge les parcours. Vous pouvez utiliser ces images dans vos e-mails, modèles d’e-mail et fragments visuels à partir du sélecteur de ressources ou une simple interface glisser-déposer dans l’espace de conception visuelle.
+Dans [!DNL Adobe Journey Optimizer B2B Prime], les ressources sont généralement les images utilisées lors de la conception de contenu pour prendre en charge les parcours. Vous pouvez utiliser ces images dans vos [e-mails](email-authoring.md), [modèles d’e-mail](templates.md) et [fragments visuels](email-authoring.md#visual-fragments) à partir du sélecteur de ressources ou une simple interface glisser-déposer dans l’espace de conception visuelle.
 
 Formats de fichiers pris en charge : JPG, JPEG, GIF, PNG, EPS, SVG et RGB
 
-
-&#x200B;>>
-L’importation de ressources à partir de systèmes externes tels que la gestion des ressources numériques Marketo Engage et l’accès à une bibliothèque de ressources préremplie ne sont pas encore disponibles. Les prochaines versions devraient inclure l’importation de ressources à partir des systèmes existants, la prise en charge de dossiers et des fonctionnalités étendues de gestion des ressources.
+>[!NOTE]
+>
+>Dans cette version de Beta, vous pouvez choisir des images et des ressources à partir d’une copie unique de votre bibliothèque de ressources Marketo Engage directement dans la zone de travail d’e-mail. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Journey Optimizer B2B Prime].
+>
+>Vous pouvez charger des ressources d’image supplémentaires à partir de la bibliothèque __ ou de l’espace de conception de contenu. Ces ressources chargées ne peuvent être utilisées que dans l’instance [!DNL Journey Optimizer B2B Prime].
+>
+>L’importation de ressources à partir de systèmes externes et l’accès à une bibliothèque de ressources préremplie ne sont pas encore disponibles. Les prochaines versions devraient inclure l’importation de ressources à partir des systèmes existants, la prise en charge de dossiers et des fonctionnalités étendues de gestion des ressources.
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
@@ -39,17 +43,13 @@ La bibliothèque **&#x200B;**&#x200B;permet d’accéder au référentiel centra
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de contenu]** et sélectionnez **[!UICONTROL Assets]**.
 
->[!NOTE]
->
->Dans cette version de Beta, vous pouvez choisir des images et des ressources à partir d’une copie unique de votre bibliothèque de ressources Marketo Engage directement dans la zone de travail d’e-mail. Vous pouvez également charger des ressources d’image supplémentaires à partir de la bibliothèque __ ou de l’espace de conception de contenu. Ces ressources chargées ne peuvent être utilisées que dans l’instance [!DNL Adobe Journey Optimizer B2B Prime].
-
-![Bibliothèque &#x200B;](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+![vue Liste de la bibliothèque Assets affichant les colonnes de métadonnées triables](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-La première fois que vous accédez à la bibliothèque __, consultez les _[!UICONTROL Conditions d’utilisation de Generative AI]_ et cliquez sur **[!UICONTROL Accepter et continuer]**.
+La première fois que vous accédez à la bibliothèque __, consultez les [_[!UICONTROL conditions d’utilisation de Generative AI &#x200B;]_](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) et confirmez votre accord.
 
-![Bibliothèque &#x200B;](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+![Boîte de dialogue des conditions d’utilisation de Generative AI dans la bibliothèque Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
 >[!ENDSHADEBOX]
 
@@ -72,11 +72,9 @@ Utilisez le champ _[!UICONTROL Rechercher]_ pour rechercher des ressources en d�
 
 ## Affichage des détails de la ressource {#view-details}
 
-Sélectionnez une ressource pour ouvrir sa vue détaillée. La vue détaillée affiche une description générée par l’IA, des balises et des mots-clés, ainsi que des champs de métadonnées supplémentaires. Ces informations sont générées automatiquement lorsque la ressource est chargée.
+Sélectionnez une ressource dans la vue Liste ou Galerie pour ouvrir sa vue détaillée à droite, qui affiche une description générée par l’IA, des balises, des mots-clés et des champs de métadonnées supplémentaires. Ces informations sont générées automatiquement lorsque la ressource est chargée. Sélectionnez l’onglet **[!UICONTROL Métadonnées d’IA]** pour consulter la description, les balises et les métadonnées générées.
 
-Sélectionnez une ressource dans la vue Liste ou Galerie pour ouvrir sa vue détaillée à droite. Sélectionnez l’onglet Métadonnées d’IA pour afficher la description, les balises et les métadonnées générées par l’IA.
-
-![Image sélectionnée dans les résultats de recherche de la bibliothèque Assets](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
+![Vue détaillée des ressources présentant les métadonnées et les balises générées par l’IA](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
 
 ## Chargement d’un élément {#upload}
 
@@ -93,4 +91,3 @@ Sélectionnez une ressource dans la vue Liste ou Galerie pour ouvrir sa vue dét
 Une fois le chargement terminé, le système génère automatiquement une description, attribue des balises et des mots-clés et extrait les attributs visuels tels que l’objet et le paramètre. Aucun balisage manuel n’est requis. La nouvelle image affiche un statut _[!UICONTROL TRAITEMENT]_ jusqu’à ce que ce processus soit terminé.
 
 ![Nouvelle ressource image au statut de traitement](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
-<!-- -->

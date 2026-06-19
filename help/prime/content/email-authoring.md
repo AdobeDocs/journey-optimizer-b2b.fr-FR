@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 2789
+source-wordcount: 2753
 ht-degree: 2%
 
 ---
@@ -260,7 +260,7 @@ Prime rend vos ressources Marketo Design Studio existantes disponibles dans l’
 
 >[!IMPORTANT]
 >
->La disponibilité des ressources dans Prime repose sur une **copie unique** vos ressources à partir de Marketo Design Studio. Le rechargement ou la modification de ressources dans Marketo après la copie initiale ne sera **pas** répercuté dans Prime. Les chargements d’images directement dans Prime ne sont pas non plus pris en charge dans cette version. La gestion native des ressources numériques dans Prime, notamment le chargement, la navigation dans les dossiers, la recherche et la modification d’images, fait partie de la portée de Beta.
+>La disponibilité des ressources dans Prime repose sur une **copie unique** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Journey Optimizer B2B Prime].
 
 ### Types de fichier pris en charge {#asset-file-types}
 

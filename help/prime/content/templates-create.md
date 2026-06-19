@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 880
 ht-degree: 1%
@@ -171,4 +171,3 @@ Suivez les instructions suivantes pour obtenir les meilleurs résultats de la co
 * Testez le rendu sur les clients de messagerie et les appareils avant d’utiliser le modèle dans un parcours.
 * Vérifiez l’alignement avec les couleurs, les polices et les directives de style de la marque.
 * Examiner et améliorer l’accessibilité, y compris le texte secondaire de l’image.
-<!-- -->

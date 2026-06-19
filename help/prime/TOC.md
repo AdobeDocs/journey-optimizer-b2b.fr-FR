@@ -2,7 +2,7 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
 hide: true
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 45%
@@ -85,4 +85,3 @@ For Content
    + {hide-from-toc} Forms
    + {hide-from-toc} Landing pages
 -->
-<!-- -->
