@@ -1,6 +1,7 @@
 ---
 title: Liste de contrôle d'installation
 description: Effectuez les tâches de configuration initiales pour votre instance Journey Optimizer B2B Prime, y compris la configuration de l’accès utilisateur et l’infrastructure de délivrabilité des e-mails.
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
 product_v2:
@@ -14,9 +15,9 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: de83abd4ca48e2dfda8a1900f7c8074232bb9d8e
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 218
+source-wordcount: 228
 ht-degree: 11%
 
 ---
@@ -83,21 +84,21 @@ Avant que les professionnels du marketing puissent envoyer des e-mails à partir
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
 <td>Déléguer un sous-domaine à Adobe (entièrement délégué ou CNAME)</td>
-<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Délégation complète</a> <br/> <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+<td><a href="./email-deliverability.md#delegate-fully-delegated">Délégation complète</a> <br/> <a href="./email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
 <td>Configuration de DMARC pour le sous-domaine</td>
-<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Configuration de DMARC</a></td>
+<td><a href="./email-deliverability.md#configure-dmarc">Configuration de DMARC</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
 <td>Vérification et affectation d’un groupe d’adresses IP</td>
-<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Vérifier le groupe d’adresses IP</a></td>
+<td><a href="./email-deliverability.md#review-ip-pool">Vérifier le groupe d’adresses IP</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
 <td>Créer une configuration de canal e-mail</td>
-<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Configurer le canal e-mail</a></td>
+<td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">Configurer le canal e-mail</a></td>
 </tr>
 </tbody>

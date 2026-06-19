@@ -1,7 +1,8 @@
 ---
-title: Canal e-mail
-description: 'Ajouter des nœuds d’action e-mail aux parcours de compte : créez des e-mails ou utilisez les e-mails Marketo Engage existants pour les communications ciblées dans Journey Optimizer B2B edition.'
-feature: Email Authoring, Account Journeys
+title: Ajouter des e-mails aux Parcours
+description: Ajoutez des nœuds d’action e-mail aux parcours de personne et créez des e-mails pour les communications ciblées dans Journey Optimizer B2B Prime.
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
+feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
@@ -16,36 +17,44 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 4%
+source-wordcount: 1037
+ht-degree: 1%
 
 ---
 
-# Canal e-mail
+# Ajouter des e-mails aux parcours
 
-[!DNL Adobe Journey Optimizer B2B Prime] offre aux spécialistes du marketing B2B une expérience moderne de création et de diffusion d’e-mails de niveau entreprise. Cette version introduit des outils de conception d’e-mail repensés et un ensemble complet de contrôles de délivrabilité des e-mails.
+[!DNL Adobe Journey Optimizer B2B Prime] offre aux spécialistes du marketing B2B une expérience moderne de création et de diffusion d’e-mails de niveau entreprise.
 
 >[!NOTE]
 >
->Si vous envoyez un e-mail pour la première fois, assurez-vous que le [canal e-mail et délivrabilité](../admin/configuration-email-deliverability.md) est configuré.
+>Si vous envoyez un e-mail pour la première fois, assurez-vous que [délivrabilité des e-mails](../start/email-deliverability.md) et le [canal e-mail](../admin/email-channel-configuration.md) nécessaire sont configurés.
 
-## Présentation du canal e-mail {#overview}
+<!-- 
+* **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
+* **Email deliverability controls** - Set up your email deliverability channel, including subdomain delegation (Fully Delegated and CNAME methods), DMARC, SPF/DKIM auto-configuration, and shared IP pool support.
+* **Send Email action** - From a journey, add a _Send email_ action node, including personalization using profile attributes (Handlebars syntax).
+* **Visual drag-and-drop email design tools** -  Design your email content with structures, content components, themes, dark-mode support, and reusable visual fragments.
+* **Marketo Design Studio assets** — Choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas.
+* **Reusable templates and fragments** — Save common headers, footers, CTAs, and full email layouts and reuse them across journeys.
+* **Role-Based Access Control (RBAC)** — Apply granular permissions for creating, editing, approving, and sending email. 
+-->
 
-* **Configurations du canal e-mail** - Gérez l’identité de l’expéditeur, le comportement de réponse, les types de messages marketing par rapport aux messages transactionnels et le suivi.
-* **Contrôles de délivrabilité des e-mails** - Configurez votre canal de délivrabilité des e-mails, y compris la délégation de sous-domaines (méthodes Fully Delegated et CNAME), DMARC, la configuration automatique SPF/DKIM et la prise en charge du pool d’adresses IP partagées.
-* **Action Envoyer un e-mail** - À partir d’un parcours, ajoutez un nœud d’action _Envoyer un e-mail_, y compris la personnalisation à l’aide d’attributs de profil (syntaxe Handlebars).
-* **Outils visuels de conception d’e-mail par glisser-déposer** - Concevez le contenu de votre e-mail avec des structures, des composants de contenu, des thèmes, une prise en charge du mode sombre et des fragments visuels réutilisables.
-* **Ressources Marketo Design Studio** — Sélectionnez des images et des ressources à partir d’une copie ponctuelle de votre bibliothèque de ressources Marketo Engage directement dans la zone de travail d’e-mail.
-* **Modèles et fragments réutilisables** — Enregistrez les en-têtes, pieds de page, CTA et dispositions complètes d&#39;e-mail courants et réutilisez-les dans les parcours.
-* **Contrôle d’accès en fonction du rôle (RBAC)** — Appliquez des autorisations granulaires pour créer, modifier, approuver et envoyer des e-mails.
+## Limites actuelles {#limitations}
+
+* **Les profils de test, Simuler du contenu et Envoyer un BAT** ne sont pas disponibles dans cette version. Le rendu Litmus et les rapports de spam basés sur SpamAssassin font partie de la feuille de route GA.
+* **La personnalisation au niveau du compte et les données d’objet personnalisé** ne sont pas disponibles dans cette version. Utilisez les attributs de profil.
+* **La migration automatisée Velocity-to-Handlebars** des modèles Marketo Engage existants est fournie en disponibilité générale.
+* **Les commentaires et la collaboration sur les e-mails** (commentaires intégrés, @mentions, workflow de demande-révision) sont fournis dans une version à venir.
+* **Les intégrations d’AEM Assets, des fragments de contenu AEM et d’Adobe Express** figurent sur la feuille de route _Suivi rapide_.
 
 ## Principaux concepts {#key-concepts}
 
 Avant de créer des e-mails pour les parcours de personne et de créer du contenu d’e-mail, passez en revue les concepts suivants :
 
-| Concept | Dans [!DNL Journey Optimizer B2B Prime] Prime |
+| Concept | En [!DNL Adobe Journey Optimizer B2B Prime] |
 | ------- | ---------------------- |
 | **_Espace de conception des emails_** | Canevas visuel et outils de conception utilisés pour composer du contenu d’e-mail. Il comprend des composants de disposition à glisser-déposer, des modèles, des fragments, des thèmes et un éditeur de personnalisation. |
 | **_Modèle_** | Disposition d’e-mail réutilisable disponible pour la création d’un e-mail. Il peut s’agir d’un modèle type intégré fourni par Adobe ou d’un modèle personnalisé créé par votre équipe. |
@@ -56,68 +65,67 @@ Avant de créer des e-mails pour les parcours de personne et de créer du conten
 
 ## Ajout d’un e-mail à partir d’un parcours
 
-Pour envoyer un e-mail à partir d’un parcours, ajoutez un nœud _Prendre une action_ et configurez-le pour envoyer un e-mail.
+Pour envoyer un e-mail à partir d’un parcours, [ajoutez un nœud _Prendre une action_ &#x200B;](action-nodes.md#add-an-action-node) et configurez-le pour envoyer un e-mail.
 
 1. Dans la zone de travail de parcours, cliquez sur l’icône **+** et sélectionnez **[!UICONTROL Effectuer une action]**.
 
 1. Dans les propriétés de nœud sur la droite, définissez l’action sur **[!UICONTROL Envoyer un e-mail]**.
 
-   ![Agir - Envoyer un e-mail](./assets/person-action-node-send-email.png){width="450"}
+   ![Agir - Envoyer un e-mail](./assets/person-action-node-send-email.png){width="500"}
 
 1. Choisissez la source de l’e-mail :
 
    * **Créer/modifier un e-mail** - Sélectionnez cette option pour définir le contenu de l’e-mail, y compris l’objet, les informations de l’expéditeur et le corps de l’e-mail dans l’espace de conception d’e-mail.
 
-   * **[!UICONTROL Utiliser un e-mail personnalisé par l’IA]** - Sélectionnez cette option pour affiner un e-mail généré par l’IA dans l’espace de conception d’e-mail. Ces e-mails sont optimisés de sorte que les clients de boîte de réception assistés par l’IA fondent leurs résumés et leurs réponses dans vos offres et appels à l’action.
+   * **[!UICONTROL Utiliser un e-mail personnalisé par l’IA]** - (_Non disponible pour Beta_) Sélectionnez cette option pour affiner un e-mail généré par l’IA dans l’espace de conception d’e-mail. Ces e-mails sont optimisés de sorte que les clients de boîte de réception assistés par l’IA fondent leurs résumés et leurs réponses dans vos offres et appels à l’action.
 
 1. Cliquez sur **[!UICONTROL Créer un e-mail]**.
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
+   ![&#x200B; Boîte de dialogue Créer un e-mail &#x200B;](./assets/email-channel-create-email-dialog.png){width="400"}
+
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-## Définir les propriétés et les actions de l’e-mail
+Pour l’option [optimisation de l’heure d’envoi](email-send-time-optimization.md), configurez le nœud d’action de parcours après avoir créé l’e-mail.
 
-1. Une fois le nœud _[!UICONTROL Envoyer un e-mail]_ sélectionné dans la zone de travail du parcours, cliquez sur **[!UICONTROL Modifier l’e-mail]** dans les propriétés du nœud à droite.
+## Définir les propriétés et les actions de l’e-mail {#define-email-properties}
 
-<!-- Staging environment broken -->
+La page e-mail s’ouvre lorsque vous créez un e-mail pour un nœud _[!UICONTROL Envoyer un e-mail]_. Vous pouvez également accéder à cette page après la création de l’e-mail en cliquant sur **[!UICONTROL Modifier l’e-mail]** dans les propriétés de nœud sur la droite.
 
-pour l’e-mail et une **[!UICONTROL ligne d’objet]**.
+1. (Facultatif) Dans l’onglet **[!UICONTROL Propriétés]**, saisissez les informations descriptives que vous souhaitez capturer pour l’e-mail.
 
-L’onglet **[!UICONTROL Actions]** s’ouvre, dans lequel vous pouvez sélectionner ou créer la configuration d’e-mail à utiliser.
+1. Sélectionnez l’onglet **[!UICONTROL Actions]** et renseignez les paramètres fonctionnels de l’e-mail :
 
-1. (Facultatif) Sélectionnez un ensemble de règles dans Règles de gestion pour appliquer des règles de limitation à votre action e-mail.
+   * **[!UICONTROL E-mail]** - Sélectionnez ou créez une **[!UICONTROL configuration du canal e-mail]** à utiliser.
 
-Vous pouvez utiliser l’option [Optimisation de l’heure d’envoi](./email-send-time-optimization.md) pour prévoir la meilleure heure d’envoi du message afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. Voici comment procéder
+     Il s’agit de l’ensemble réutilisable de paramètres de diffusion par e-mail qui définit l’identité de l’expéditeur, l’adresse de réponse, le sous-domaine, le groupe d’adresses IP, le type d’e-mail (marketing ou transactionnel) et le suivi. Cliquez sur l’icône _Affichage_ pour passer en revue les paramètres de la configuration sélectionnée.
 
-Sélectionnez le bouton Modifier le contenu et créez votre contenu selon vos besoins à l’aide du Designer d’e-mail.
+     Les administrateurs créent des configurations dans [configuration du canal e-mail](../admin/email-channel-configuration.md).
 
-Revenez à la zone de travail parcours. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires.
+   * **[!UICONTROL Règles métier]** - (Facultatif) Appliquez des règles de limitation à votre action e-mail en sélectionnant un ensemble de règles.
 
-Pour plus d’informations sur la création, la configuration et la publication d’un parcours, consultez cette page.
+   * **[!UICONTROL Suivi des actions]** - Cochez les cases correspondant aux actions que vous souhaitez suivre pour l’e-mail.
 
+   ![&#x200B; Canal e-mail - Onglet Actions &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
-### Définir les paramètres d’e-mail {#email-settings}
+1. Cliquez sur **[!UICONTROL Modifier le contenu]** ou sélectionnez l’onglet **[!UICONTROL Contenu]**.
 
-Configurez les paramètres dans l’onglet **[!UICONTROL Détails]** du panneau de résumé du nœud.
+1. Saisissez le texte **[!UICONTROL Objet]** que vous souhaitez afficher dans le champ Objet de l’e-mail.
 
-| Paramètre | Description |
-| ------- | ----------- |
-| **[!UICONTROL À partir du nom]** | Nom de l’expéditeur affiché dans l’en-tête de l’email. Prend en charge les jetons de personnalisation. |
-| **[!UICONTROL E-mail de l’expéditeur]** | Adresse e-mail de l’expéditeur. La valeur par défaut est issue de la configuration du canal. Prend en charge la personnalisation. |
-| **[!UICONTROL Adresse de réponse]** | Adresse qui reçoit les réponses des destinataires. Prend en charge la personnalisation. |
-| **[!UICONTROL Objet]** | Objet de l’e-mail. Modifiable à partir de la valeur saisie lors de la création. |
-| **[!UICONTROL Domaine de branding]** | Domaine utilisé pour l’envoi spécifique à la marque. |
-| **[!UICONTROL Adresse IP dédiée]** | Adresse IP spécifique pour le tracking de la délivrabilité. |
-| **[!UICONTROL E-mail opérationnel]** | Lorsqu’elle est activée, contourne la suppression du processus d’opt-out et du désabonnement. À utiliser uniquement pour les messages opérationnels légitimes. |
-| **[!UICONTROL Inclure l’affichage en tant que page web]** | Génère un lien vers une page web pour le contenu de l’e-mail. |
-| **[!UICONTROL Désactiver le suivi des ouvertures]** | Empêche le suivi de l’activité d’ouverture des e-mails. |
-| **[!UICONTROL Preheader]** | Texte de résumé court affiché après la ligne d’objet dans les aperçus de boîte de réception. |
-| **[!UICONTROL Adresses CC]** | Ajoutez jusqu’à 25 champs d’e-mail de prospect ou d’entreprise pour recevoir une copie. |
+   Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../../user/assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ.
+
+1. (Facultatif) Cochez la case **[!UICONTROL Optimiser la taille d’HTML]** pour réduire la taille de votre HTML de messagerie pendant le processus de publication.
+
+   Cela permet d’éviter l’extraction d’e-mails dans les clients tels que Gmail, qui tronque les messages de plus de 100 Ko. Pour plus d’informations, voir [_Optimiser la taille de l’e-mail HTML_](#optimize-html-size).
+
+1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour accéder aux outils de conception visuelle et commencer [à créer votre contenu](../content/email-authoring.md).
+
+   Vous pouvez également cliquer sur **[!UICONTROL Éditeur de code]** pour coder votre propre contenu dans HTML brut. Si vous disposez déjà d’HTML à réutiliser pour votre conception d’e-mail, vous pouvez le copier et le coller dans l’éditeur.
 
 ### Vérifier les alertes {#alerts}
 
-[!DNL Journey Optimizer B2B Prime] fait apparaître les problèmes dans le coin supérieur droit de l’éditeur d’e-mail. Résolvez toutes les erreurs avant d’activer le parcours ; les avertissements ne sont que des recommandations.
+[!DNL Adobe Journey Optimizer B2B Prime] fait apparaître les problèmes dans le coin supérieur droit de la page de l’e-mail. Résolvez toutes les erreurs avant d’activer le parcours. Les avertissements ne sont que des recommandations.
 
 **Erreurs** (empêcher l’activation du parcours) :
 
@@ -131,3 +139,62 @@ Configurez les paramètres dans l’onglet **[!UICONTROL Détails]** du panneau 
 * La version texte d’HTML est vide.
 * Liens vides détectés
 * E-mail dépasse 100 000
+
+## Optimiser la taille de l’e-mail HTML {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_email_minification"
+>title="Réduction de la taille d’HTML"
+>abstract="Activez cette option pour compresser votre HTML d’e-mail lors de la publication en supprimant les espaces blancs, les mises en retrait et les commentaires non indispensables. Cela permet d’éviter l’extraction d’e-mails dans les clients tels que Gmail, qui tronque les messages de plus de 100 Ko."
+
+[!DNL Journey Optimizer B2B Prime] vous permet de compresser votre version d’HTML par e-mail pendant le processus de publication en supprimant les espaces inutiles, la mise en retrait et les commentaires non indispensables. Conserver une petite taille pour HTML vous permet d’effectuer les opérations suivantes :
+
+* Évitez de **couper les e-mails** — certains clients comme Gmail tronquent les messages de plus de 100 Ko, empêchant les destinataires de voir le contenu complet.
+* Améliorer le **temps de chargement des emails** dans la boîte de réception du destinataire.
+* Améliorez la **délivrabilité** et réduisez l’utilisation de la bande passante.
+
+Cette optimisation n’est pas appliquée automatiquement. Vous devez l’activer dans l’onglet _[!UICONTROL Contenu]_.
+
+<!-- ![](assets/email-optimize-html-size.png) -->
+
+>[!IMPORTANT]
+>
+> La réduction de la taille d’HTML n’est appliquée qu’au moment de la publication.
+
+L’optimisation est sûre pour le client de messagerie :
+
+* Il conserve les commentaires conditionnels MSO/Outlook.
+* Il ne modifie pas le contenu, les images ou les vidéos.
+
+>[!NOTE]
+>
+>La réduction de la taille de l’e-mail dépend de la structure HTML d’origine de votre e-mail. Si le contenu est déjà compact ou si la payload de l’e-mail est très volumineuse, la réduction peut être minimale et il se peut que l’écrêtage ne soit pas complètement empêché dans tous les cas.
+
+<!-- 
+Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
+
+### Test HTML size optimization {#optimize-html-proof}
+
+If you have enabled the [HTML size optimization](#optimize-html-size) option, you can evaluate its impact before publishing when sending proofs. Follow the following steps.
+
+1. In the email design space, click the _Issues_ icon on the top right. If the rendered email size exceeds 100 KB, a message is displayed to warn you that this may cause truncation in some email clients.
+
+1. Click **[!UICONTROL Simulate content]**.
+
+1. To test the optimized version, click the **[!UICONTROL Send proof]** button and select the **[!UICONTROL Optimize HTML size]** option. This will send a proof with the reduced HTML size to your test recipients.
+
+    >[!NOTE]
+    >
+    >This setting is independent from the email editor — the proof reflects what you select in the proof, regardless of whether the option is enabled or disabled in the email itself.
+
+1. Select the test recipients and click **[!UICONTROL Send proof]**.
+
+1. Back in the **[!UICONTROL Simulate]** screen, click the **[!UICONTROL View Proof]** button.
+
+1. Click the _Information_ icon next to the status of the proof.
+
+   The optimization details are displayed in a pop-up window, including the original HTML size, the optimized HTML size, and the size reduction percentage.
+    
+    Use this information to validate the optimized output and confirm the email stays within the recommended 100 KB threshold before publishing.
+
+-->
