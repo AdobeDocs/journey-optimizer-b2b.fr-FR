@@ -1,36 +1,28 @@
 ---
-title: Création d’e-mails
+title: Contenu de l’e-mail
 description: Utilisez les outils de conception d’e-mail de Journey Optimizer B2B Prime, notamment les modèles d’e-mail, les fragments, la personnalisation, le mode sombre et la validation.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 2738
 ht-degree: 2%
 
 ---
 
-# Création d’e-mails
+# Création de contenu d’e-mail
 
 En [!DNL Adobe Journey Optimizer B2B Prime], l’espace de conception d’e-mail fournit une zone de travail visuelle dans laquelle les spécialistes marketing créent des e-mails. Les outils de conception d’e-mail des panneaux de gauche et supérieur (structures, composants de contenu, modèles, fragments, etc.) prennent en charge la création à partir de zéro par glisser-déposer. Vous pouvez également choisir de commencer à partir d’un modèle, de coller des HTML brutes ou d’assembler des messages à partir de fragments visuels réutilisables.
 
 >[!IMPORTANT]
 >
->Pour la configuration par l&#39;administrateur des sous-domaines, de l&#39;authentification, des groupes d&#39;adresses IP et des canaux e-mail, voir [délivrabilité des e-mails et configuration des canaux](../admin/configuration-email-deliverability.md).
+>Pour la configuration par l’administrateur des sous-domaines, de l’authentification, des groupes d’adresses IP et des canaux e-mail, consultez [Délivrabilité des e-mails](../start/email-deliverability.md) et [Configuration du canal e-mail](../admin/email-channel-configuration.md).
 
-En [!DNL Journey Optimizer B2B Prime], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus de conception du contenu de l’e-mail.
+En [!DNL Adobe Journey Optimizer B2B Prime], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_ ](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus de conception du contenu de l’e-mail.
 
 Cette action lance l’espace de conception d’e-mail, dans lequel vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
@@ -65,16 +57,13 @@ Le respect des bonnes pratiques HTML et CSS permet d’assurer un rendu cohéren
 
 ## Création d’un email à partir d’un parcours {#email-from-journey}
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier l’e-mail]** pour passer à l’étape de configuration de l’e-mail.
-1. Dans l’écran suivant, sélectionnez une configuration de canal créée précédemment dans le menu déroulant **[!UICONTROL Configuration du canal e-mail]**. Seules les configurations actives sont répertoriées.
-1. Saisissez un libellé pour l’action (visible sur le canevas de parcours) et un nom d’e-mail interne.
-1. Saisissez la ligne d&#39;objet.
-1. Basculez éventuellement **[!UICONTROL Activer le suivi des URL]** pour ce nœud d’e-mail.
-1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour ouvrir l’espace de conception d’e-mail.
+Pour ajouter une action _[!UICONTROL Envoyer un e-mail]_ à un parcours de personne, créer l’e-mail et configurer les paramètres de canal dans l’onglet **[!UICONTROL Actions]**, voir [Ajouter des e-mails aux parcours ](../marketing/email-channel.md).
+
+Une fois que vous avez configuré l’e-mail dans les onglets **[!UICONTROL Propriétés]**, **[!UICONTROL Actions]** et **[!UICONTROL Contenu]**, utilisez les sections de cette rubrique pour concevoir le corps de l’e-mail dans l’espace de conception d’e-mail.
 
 ### Écran Modifier le contenu {#edit-content-screen}
 
-À partir de cet écran, vous confirmez les détails de l’expéditeur (hérités de la configuration du canal), définissez la ligne d’objet et ouvrez l’espace de conception d’e-mail pour créer le corps. Le pré-titre est configuré dans l’espace de conception d’e-mail (voir [Définition du pré-titre](#preheader)).
+Dans l’onglet **[!UICONTROL Contenu]**, confirmez les détails de l’expéditeur (hérités de la [configuration du canal e-mail](../admin/email-channel-configuration.md)), définissez l’objet, puis ouvrez l’espace de conception d’e-mail pour créer le corps. Le pré-titre est configuré dans l’espace de conception d’e-mail (voir [Définition du pré-titre](#preheader)).
 
 * **Nom de l’expéditeur, Adresse électronique de l’expéditeur, Cci:** hérité de la configuration du canal. Lecture seule sur cet écran.
 * **Objet :** obligatoire. Personalization est pris en charge.
@@ -295,10 +284,10 @@ Pour que votre parcours puisse être activé, le contenu de l’e-mail doit êtr
 
 | Alerte | Signification | Comment résoudre |
 | ----- | ------------- | -------------- |
-| **L’objet est manquant** | Le champ Objet est vide. | Ouvrez l’e-mail et saisissez une ligne d’objet dans l’écran Modifier le contenu . Les jetons Personalization sont autorisés, mais le champ ne peut pas être vide. |
+| **L’objet est manquant** | Le champ Objet est vide. | Ouvrez l’e-mail et saisissez une ligne d’objet dans l’onglet **[!UICONTROL Contenu]**. Les jetons Personalization sont autorisés, mais le champ ne peut pas être vide. |
 | **Le corps de l’e-mail est vide** | La zone de travail de l’espace de conception d’e-mail n’a aucun contenu. | Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour ouvrir l’espace de conception d’e-mail. Faites glisser au moins un composant de structure et un composant de contenu sur la zone de travail, puis cliquez sur Enregistrer. |
-| **Configuration de canal non sélectionnée** | Aucune configuration d’e-mail n’a été choisie pour le nœud d’e-mail. | Sur l’écran des propriétés de l’e-mail, sélectionnez une configuration de canal actif dans le menu déroulant **[!UICONTROL Configuration du canal e-mail]**. |
-| **Configuration de canal supprimée** | La configuration de canal précédemment sélectionnée a été supprimée ou n’est plus active. | Ouvrez les propriétés de l’e-mail et sélectionnez une autre configuration de canal actif . Si aucun n’est disponible, un administrateur doit en créer ou en réactiver un. |
+| **Configuration de canal non sélectionnée** | Aucune configuration de canal e-mail n’a été choisie pour le nœud d’e-mail. | Dans l’onglet **[!UICONTROL Actions]**, sélectionnez une **[!UICONTROL ActiveConfiguration du canal Email]**. |
+| **Configuration de canal supprimée** | La configuration de canal précédemment sélectionnée a été supprimée ou n’est plus active. | Dans l’onglet **[!UICONTROL Actions]**, sélectionnez un autre actif **[!UICONTROL configuration du canal e-mail]**. Si aucun n’est disponible, un administrateur doit en créer ou en réactiver un dans [Configuration du canal e-mail](../admin/email-channel-configuration.md). |
 | **La taille de l’e-mail dépasse 100 Ko** | La taille totale de l’e-mail (HTML, CSS intégré, contenu codé) est supérieure à la limite des bonnes pratiques des FAI de 100 Ko. | Réduisez la taille de l’e-mail : remplacez les images intégrées volumineuses par des images hébergées en externe à partir de Marketo Design Studio, supprimez les CSS intégrés inutilisés et simplifiez les structures imbriquées. |
 | **Jeton de personnalisation non résolu** | Un jeton Handlebars fait référence à un attribut de profil sans solution de secours et l’attribut peut être manquant pour certains destinataires. | Ajoutez une version de secours à l’aide de l’assistant `default` Handlebars, comme décrit dans [Personalization](#personalization). Vous pouvez également limiter l’audience par parcours aux profils où l’attribut est garanti. |
 | **Image non chargée** | Un composant d’image fait référence à une ressource qui n’est plus disponible. | Cliquez sur l’image, ouvrez le sélecteur de ressources, puis sélectionnez à nouveau la ressource dans Marketo Design Studio. |

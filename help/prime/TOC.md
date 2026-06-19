@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
 hide: true
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 45%
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 45%
 + Commencer {#start}
    + [Liste de contrôle de configuration](./start/setup-prime.md)
    + [Gestion des utilisateurs et utilisatrices](./start/user-management.md)
+   + [Délivrabilité des e-mails](./start/email-deliverability.md)
 + [Accueil et informations](./home-insights/home-insights.md)
 + [Agents](./agents/agents.md)
 + Gestion marketing {#marketing-management}
@@ -33,7 +34,7 @@ ht-degree: 45%
    + Canal e-mail {#email-channel}
       + [Vue d’ensemble](./marketing/email-channel.md)
       + [Optimisation de l’heure d’envoi des e-mails](./marketing/email-send-time-optimization.md)
-      + [Création d’e-mails](./content/email-authoring.md)
+      + [Création de contenu](./content/email-authoring.md)
       + [Conception en mode sombre](./content/email-dark-mode.md)
    + [Canal WhatsApp](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
@@ -50,13 +51,13 @@ ht-degree: 45%
    + [Pages de destination](./content/landing-pages.md)
    + [Formulaires](./content/forms.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}
-      + [Délivrabilité des e-mails et configuration des canaux](./admin/configuration-email-deliverability.md)
-      + [Configuration du canal SMS](./admin/configuration-channels-sms.md)
-      + [Configuration du canal web](./admin/configuration-channels-web.md)
+      + [Configuration du canal e-mail](./admin/email-channel-configuration.md)
+      + {hide-from-toc}[Configuration du canal SMS](./admin/configuration-channels-sms.md)
+      + {hide-from-toc}[Configuration du canal web](./admin/configuration-channels-web.md)
       + [Configuration du canal WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configuration des pages de destination](./admin/configuration-presets-landing-pages.md)
       + [Configuration du préréglage de formulaire](./admin/configuration-presets-forms.md)
