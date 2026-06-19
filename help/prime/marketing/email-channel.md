@@ -6,10 +6,17 @@ feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
 source-wordcount: 1037
@@ -58,7 +65,7 @@ Avant de créer des e-mails pour les parcours de personne et de créer du conten
 
 ## Ajout d’un e-mail à partir d’un parcours
 
-Pour envoyer un e-mail à partir d’un parcours, [ajoutez un nœud _Prendre une action_ ](action-nodes.md#add-an-action-node) et configurez-le pour envoyer un e-mail.
+Pour envoyer un e-mail à partir d’un parcours, [ajoutez un nœud _Prendre une action_ &#x200B;](action-nodes.md#add-an-action-node) et configurez-le pour envoyer un e-mail.
 
 1. Dans la zone de travail de parcours, cliquez sur l’icône **+** et sélectionnez **[!UICONTROL Effectuer une action]**.
 
@@ -76,7 +83,7 @@ Pour envoyer un e-mail à partir d’un parcours, [ajoutez un nœud _Prendre une
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![ Boîte de dialogue Créer un e-mail ](./assets/email-channel-create-email-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un e-mail &#x200B;](./assets/email-channel-create-email-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -100,7 +107,7 @@ La page e-mail s’ouvre lorsque vous créez un e-mail pour un nœud _[!UICONTRO
 
    * **[!UICONTROL Suivi des actions]** - Cochez les cases correspondant aux actions que vous souhaitez suivre pour l’e-mail.
 
-   ![ Canal e-mail - Onglet Actions ](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
+   ![&#x200B; Canal e-mail - Onglet Actions &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** ou sélectionnez l’onglet **[!UICONTROL Contenu]**.
 

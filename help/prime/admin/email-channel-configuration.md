@@ -6,10 +6,17 @@ feature: Administration
 role: Admin
 autotag-review: '2026-06-19T18:24:06.835Z'
 TQID: 'https://experienceleague.adobe.com/LPzFkOpxHN0Fd5MnhBq2pAU8UubDjrjp2upyeO0t-eM'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: 636
@@ -79,7 +86,7 @@ Lorsque vous modifiez une configuration en cours d’utilisation :
 >
 >La suppression d’une configuration de canal est permanente. Vous ne pouvez pas supprimer une configuration référencée par un parcours actif. Supprimez ou réaffectez d’abord toutes les actions e-mail.
 
-Pour supprimer une configuration, supprimez ou mettez à jour chaque action d’e-mail qui y fait référence dans [Ajouter des e-mails aux parcours ](../marketing/email-channel.md#define-email-properties). [!DNL Journey Optimizer B2B Prime] ne supprime pas une configuration actuellement utilisée par un parcours actif.
+Pour supprimer une configuration, supprimez ou mettez à jour chaque action d’e-mail qui y fait référence dans [Ajouter des e-mails aux parcours &#x200B;](../marketing/email-channel.md#define-email-properties). [!DNL Journey Optimizer B2B Prime] ne supprime pas une configuration actuellement utilisée par un parcours actif.
 
 ## Configurations de plusieurs canaux {#multiple-channel-configurations}
 
