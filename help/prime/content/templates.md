@@ -4,19 +4,13 @@ description: Découvrez comment accéder aux modèles d’e-mail et les gérer d
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
 autotag-review: '2026-06-12T22:56:19.345Z'
 TQID: 'https://experienceleague.adobe.com/TTr-0Pm7Jb0LLCHt6hZb8mkXdeC7PUqteYVDuyanfs0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 492
 ht-degree: 2%
 
 ---
@@ -24,7 +18,7 @@ ht-degree: 2%
 
 # Modèles d’e-mail
 
-Les modèles d’e-mail dans [!DNL Journey Optimizer B2B Edition Prime] permettent aux spécialistes du contenu de créer indépendamment des dispositions d’e-mail réutilisables afin que les équipes marketing puissent les appliquer aux parcours de compte sans reconstruire les conceptions à chaque fois.
+Les modèles d’e-mail dans [!DNL Adobe Journey Optimizer B2B Prime] permettent aux spécialistes du contenu de créer indépendamment des dispositions d’e-mail réutilisables afin que les équipes marketing puissent les appliquer aux parcours de compte sans reconstruire les conceptions à chaque fois.
 
 >[!NOTE]
 >
@@ -87,4 +81,4 @@ Cochez la case en regard de chaque modèle à supprimer ou cochez la case en-tê
 
 ## Utiliser un modèle dans un email {#use-in-journey}
 
-Lors de la création d’un e-mail dans un parcours, la section **[!UICONTROL Sélectionner un modèle de conception]** vous permet de choisir parmi des modèles enregistrés ou des exemples de modèles. Cliquez sur la miniature d’un modèle pour le prévisualiser, puis cliquez sur **[!UICONTROL Utiliser ce modèle]** pour l’appliquer. Voir [Création d’e-mails](email-authoring.md#templates) pour découvrir l’ensemble du workflow.
+Lors de la création d’un e-mail dans un parcours, la section **[!UICONTROL Sélectionner un modèle de conception]** vous permet de choisir parmi des modèles enregistrés ou des exemples de modèles. Cliquez sur la miniature d’un modèle pour le prévisualiser, puis cliquez sur **[!UICONTROL Utiliser ce modèle]** pour l’appliquer. Pour savoir où la sélection de modèles s’inscrit dans le workflow global d’e-mail, voir [Création de contenu d’e-mail](./email-authoring.md).
