@@ -1,20 +1,25 @@
 ---
 title: Formulaires
 description: 'Créez et gérez des formulaires réutilisables pour la collecte de données métier : concevez des champs, définissez des pages de remerciement, publiez et suivez l’utilisation dans Journey Optimizer B2B Prime.'
-autotag-review: '2026-06-12T22:53:03.357Z'
+autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2281
+source-wordcount: 2261
 ht-degree: 2%
 
 ---
@@ -31,7 +36,7 @@ La quantité d’informations que le formulaire doit capturer dépend de la vale
 >
 
 <!-- 
->Form creation in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
+>Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
@@ -40,7 +45,7 @@ La quantité d’informations que le formulaire doit capturer dépend de la vale
 
 ## Accéder aux formulaires et les gérer {#view-forms}
 
-Pour accéder aux formulaires dans Journey Optimizer B2B edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Forms]**. Cette action ouvre une page de liste qui affiche tous les formulaires créés dans l’instance.
+Pour accéder aux formulaires dans [!DNL Journey Optimizer B2B Prime], accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Forms]**. Cette action ouvre une page de liste qui affiche tous les formulaires créés dans l’instance.
 
 <!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
 
@@ -74,7 +79,7 @@ Dans la boîte de dialogue, sélectionnez les colonnes à afficher et cliquez su
 
 ## Création de formulaires {#create-forms}
 
-Avant de commencer à créer des formulaires réutilisables dans Journey Optimizer B2B edition, tenez compte des points suivants :
+Avant de commencer à créer des formulaires réutilisables dans [!DNL Journey Optimizer B2B Prime], prenez en compte les points suivants :
 
 * Déterminez les formulaires dont vous avez besoin.
 
@@ -108,7 +113,7 @@ Add to context help when available
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
-Vous pouvez créer un formulaire dans Journey Optimizer B2B edition en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
+Vous pouvez créer un formulaire dans [!DNL Journey Optimizer B2B Prime] en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un formulaire]_, saisissez un **[!UICONTROL Nom]** utile (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
@@ -156,7 +161,7 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran ju
 
 * **[!UICONTROL Rester sur la page]** - Sélectionnez cette option pour que le visiteur reste sur la même page lors de l’envoi du formulaire.
 
-* **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination de Journey Optimizer B2B edition comme suivi.
+* **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination [!DNL Journey Optimizer B2B Prime] comme suite.
 
 * **[!UICONTROL URL externe]** - Sélectionnez cette option pour spécifier n’importe quelle URL comme page de suivi. Une fois que le visiteur a envoyé le formulaire, le navigateur charge l’URL désignée.
 
@@ -188,7 +193,7 @@ Quittez la vue à tout moment en cliquant sur la flèche _Précédent_ en haut �
 
 ## Afficher les références du formulaire utilisé par
 
-Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur l’onglet **[!UICONTROL Utilisé par]** pour afficher les détails de l’emplacement où le formulaire est actuellement utilisé dans Journey Optimizer B2B edition, sur les pages de destination et les modèles de page de destination.
+Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur l’onglet **[!UICONTROL Utilisé par]** pour afficher les détails sur l’emplacement où le formulaire est actuellement utilisé dans [!DNL Journey Optimizer B2B Prime], sur les pages de destination et les modèles de page de destination.
 
 >[!IMPORTANT]
 >

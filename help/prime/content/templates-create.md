@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 880
+source-wordcount: 885
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # Créer des modèles d’e-mail
 
-Vous pouvez créer un modèle d’e-mail dans [!DNL Journey Optimizer B2B Edition Prime] de trois façons :
+Vous pouvez créer un modèle d’e-mail dans [!DNL Adobe Journey Optimizer B2B Prime] de trois façons :
 
 * **Créer un modèle** — Créez un modèle dans la bibliothèque de modèles à l&#39;aide de l&#39;espace visuel de conception d&#39;e-mail.
 * **Enregistrer à partir d’un e-mail de parcours** — Enregistrez un e-mail que vous avez créé dans un parcours en tant que modèle réutilisable.
@@ -65,13 +65,13 @@ Lorsque vous ouvrez le contenu de l’e-mail que vous souhaitez réutiliser, enr
 
 L’e-mail de parcours d’origine n’est pas affecté. Le modèle enregistré est disponible dans la bibliothèque de modèles pour tous les utilisateurs dans le sandbox. Vous pouvez mettre à jour le modèle créé pour optimiser la réutilisation :
 
-* Modifiez le texte et ajoutez des jetons [personnalisation](email-authoring.md#personalization).
+* Modifiez le texte et ajoutez des jetons [personnalisation](email-authoring.md#personalize-content).
 * Mettez à jour ou remplacez des images et ajoutez des liens.
 * Configurez [verrouillage de contenu](template-content-governance.md).
 
 ## Convertir une image en modèle {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime] pouvez convertir une image statique, telle qu’une maquette de Figma ou de Photoshop, en modèle d’e-mail modifiable à l’aide de l’IA générative. Cela élimine la nécessité de reconstruire manuellement les dispositions à partir des fichiers de conception et est idéal pour migrer les conceptions d’e-mail existantes à partir d’autres plateformes. Cette fonctionnalité est disponible uniquement pour les modèles de contenu d’e-mail.
+[!DNL Adobe Journey Optimizer B2B Prime] pouvez convertir une image statique, telle qu’une maquette de Figma ou de Photoshop, en modèle d’e-mail modifiable à l’aide de l’IA générative. Cela élimine la nécessité de reconstruire manuellement les dispositions à partir des fichiers de conception et est idéal pour migrer les conceptions d’e-mail existantes à partir d’autres plateformes. Cette fonctionnalité est disponible uniquement pour les modèles de contenu d’e-mail.
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ Avant de commencer :
 
 ### Création du modèle
 
-1. Accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles]**.
+1. Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de contenu]** et sélectionnez **[!UICONTROL Modèles]**.
 1. Cliquez sur **[!UICONTROL Créer un modèle]**.
 1. Saisissez un **[!UICONTROL Nom du modèle]** et un **[!UICONTROL Description]** facultatif.
 1. Définissez le **[!UICONTROL Canal]** sur E-mail.
@@ -138,7 +138,7 @@ Avant de commencer :
 
 Le contenu du modèle converti s’ouvre dans l’espace de conception sous la forme d’un modèle d’e-mail entièrement modifiable. Utilisez les outils de conception de contenu standard pour :
 
-* Modifiez le texte et ajoutez des jetons [personnalisation](email-authoring.md#personalization).
+* Modifiez le texte et ajoutez des jetons [personnalisation](email-authoring.md#personalize-content).
 * Mettez à jour ou remplacez des images et ajoutez des liens.
 * Ajustez les couleurs, les polices et l’espacement.
 * Ajouter, supprimer ou réorganiser des composants de contenu.

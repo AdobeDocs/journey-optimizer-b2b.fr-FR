@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 492
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 # Modèles d’e-mail
 
-Les modèles d’e-mail dans [!DNL Journey Optimizer B2B Edition Prime] permettent aux spécialistes du contenu de créer indépendamment des dispositions d’e-mail réutilisables afin que les équipes marketing puissent les appliquer aux parcours de compte sans reconstruire les conceptions à chaque fois.
+Les modèles d’e-mail dans [!DNL Adobe Journey Optimizer B2B Prime] permettent aux spécialistes du contenu de créer indépendamment des dispositions d’e-mail réutilisables afin que les équipes marketing puissent les appliquer aux parcours de compte sans reconstruire les conceptions à chaque fois.
 
 >[!NOTE]
 >
@@ -87,4 +87,4 @@ Cochez la case en regard de chaque modèle à supprimer ou cochez la case en-tê
 
 ## Utiliser un modèle dans un email {#use-in-journey}
 
-Lors de la création d’un e-mail dans un parcours, la section **[!UICONTROL Sélectionner un modèle de conception]** vous permet de choisir parmi des modèles enregistrés ou des exemples de modèles. Cliquez sur la miniature d’un modèle pour le prévisualiser, puis cliquez sur **[!UICONTROL Utiliser ce modèle]** pour l’appliquer. Voir [Création d’e-mails](email-authoring.md#templates) pour découvrir l’ensemble du workflow.
+Lors de la création d’un e-mail dans un parcours, la section **[!UICONTROL Sélectionner un modèle de conception]** vous permet de choisir parmi des modèles enregistrés ou des exemples de modèles. Cliquez sur la miniature d’un modèle pour le prévisualiser, puis cliquez sur **[!UICONTROL Utiliser ce modèle]** pour l’appliquer. Pour savoir où la sélection de modèles s’inscrit dans le workflow global d’e-mail, voir [Création de contenu d’e-mail](./email-authoring.md).
