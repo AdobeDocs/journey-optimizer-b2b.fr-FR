@@ -4,10 +4,18 @@ description: Découvrez comment composer et concevoir du contenu d’e-mail dans
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2209
@@ -23,7 +31,7 @@ En [!DNL Adobe Journey Optimizer B2B Prime], l’espace de conception d’e-mail
 >
 >Pour la configuration par l’administrateur des sous-domaines, de l’authentification, des groupes d’adresses IP et des canaux e-mail, consultez [Délivrabilité des e-mails](../start/email-deliverability.md) et [Configuration du canal e-mail](../admin/email-channel-configuration.md).
 
-En [!DNL Journey Optimizer B2B Prime], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours de personne. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_ ](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus. Vous commencez par définir les actions et les paramètres de contenu de l’e-mail. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du contenu de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
+En [!DNL Journey Optimizer B2B Prime], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours de personne. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_ &#x200B;](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus. Vous commencez par définir les actions et les paramètres de contenu de l’e-mail. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du contenu de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
 * [Concevez entièrement votre e-mail](#design-from-scratch) à l’aide de l’interface de conception visuelle. Créez le composant Disposition d’e-mail par composant en effectuant un glisser-déposer sur une zone de travail vierge. Cette méthode est recommandée pour créer de nouveaux modèles ou des e-mails ponctuels.
 
@@ -134,7 +142,7 @@ Créez votre disposition d’e-mail en ajoutant [composants de structure](./stru
 
 Vous pouvez ajouter une page CSS personnalisée directement dans l’espace de conception d’e-mail pour un style avancé au-delà des paramètres standard des composants. Il est recommandé d’ajouter ce style de plus haut niveau avant d’inclure des composants de contenu, tels que des images, des boutons et du texte.
 
-Voir [ Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 >[!NOTE]
 >
@@ -189,7 +197,7 @@ Lorsque [!DNL Journey Optimizer B2B Prime] est configuré, les ressources Market
 
 >[!IMPORTANT]
 >
->La disponibilité des ressources dans [!DNL Journey Optimizer B2B Prime] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Journey Optimizer B2B Prime]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [](./digital-asset-management.md).
+>La disponibilité des ressources dans [!DNL Journey Optimizer B2B Prime] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Journey Optimizer B2B Prime]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [&#128279;](./digital-asset-management.md).
 
 Types de fichiers image pris en charge :
 
@@ -211,7 +219,7 @@ Pour plus d’informations sur l’utilisation des ressources, voir [_Utilisatio
 
 ### Parcourir les calques, paramètres et styles {#navigation-layers}
 
-Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [ Arborescence de navigation ](./structure-components.md#navigation-tree).
+Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [&#x200B; Arborescence de navigation &#x200B;](./structure-components.md#navigation-tree).
 
 ### Personnaliser le contenu {#personalize-content}
 
@@ -263,7 +271,7 @@ L’assistant d’IA de l’éditeur de personnalisation peut générer des expr
 
 +++
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions ](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions &#x200B;](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#preview-and-edit-linked-urls}
 
