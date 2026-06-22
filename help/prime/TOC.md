@@ -52,7 +52,7 @@ ht-degree: 44%
    + [Formulaires](./content/forms.md)
    + [Personnalisation](./content/personalization-expressions.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}
