@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
 hide: true
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: a08b8464deee93cc5c3cfcba392356b16cbbfae9
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 48%
+source-wordcount: '132'
+ht-degree: 44%
 
 ---
 
@@ -50,13 +50,9 @@ ht-degree: 48%
       + [Gouvernance du contenu](./content/template-content-governance.md)
    + [Pages de destination](./content/landing-pages.md)
    + [Formulaires](./content/forms.md)
-   + Outils de conception de contenu {#content-design}
-      + [Composants de structure](./content/structure-components.md)
-      + [Composants de contenu](./content/content-components.md)
-      + [CSS personnalisé](./content/design-custom-css.md)
    + [Personnalisation](./content/personalization-expressions.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}
@@ -70,6 +66,11 @@ ht-degree: 48%
 <!--
    + Business rules
    + Program types
+
+   + Content design tools {#content-design}
+      + [Structure components](./content/structure-components.md)
+      + [Content components](./content/content-components.md)
+      + [Custom CSS](./content/design-custom-css.md)
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
