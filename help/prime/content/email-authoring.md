@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: 2192
+source-wordcount: 2209
 ht-degree: 3%
 
 ---
@@ -136,7 +136,7 @@ Pour obtenir des conseils détaillés sur la prévisualisation, la configuration
 
 ### Ajouter des composants de structure et de contenu {#components}
 
-<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+Créez votre disposition d’e-mail en ajoutant [composants de structure](./structure-components.md) et [composants de contenu](./content-components.md) à la zone de travail.
 
 Faites glisser des éléments des sections **[!UICONTROL Structures]** et **[!UICONTROL Contenu]** dans le panneau de gauche, puis configurez chaque composant dans les onglets _[!UICONTROL Paramètres]_ et _[!UICONTROL Styles]_ sur la droite.
 
@@ -221,7 +221,7 @@ Pour plus d’informations sur l’utilisation des ressources, voir [_Utilisatio
 
 ### Parcourir les calques, paramètres et styles {#navigation-layers}
 
-Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
+Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [&#x200B; Arborescence de navigation &#x200B;](./structure-components.md#navigation-tree).
 
 ### Personnaliser le contenu {#personalize-content}
 
