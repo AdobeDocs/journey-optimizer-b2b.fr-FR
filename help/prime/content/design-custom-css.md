@@ -16,13 +16,14 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
+source-git-commit: 68ce728130c78df150ba3041859dcb593a9a709b
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: 573
 ht-degree: 9%
 
 ---
 
+# Ajout d’une page CSS personnalisée pour votre contenu
 
 Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception de l’e-mail ou de la page de destination. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu.
 
