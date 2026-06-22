@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
 hide: true
-source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
+source-git-commit: 68ce728130c78df150ba3041859dcb593a9a709b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 46%
+source-wordcount: '139'
+ht-degree: 47%
 
 ---
 
@@ -52,9 +52,10 @@ ht-degree: 46%
    + [Formulaires](./content/forms.md)
    + [Personnalisation](./content/personalization-expressions.md)
    + Outils de conception de contenu {#content-design}
+      + [Composants de structure](./content/structure-components.md)
       + [CSS personnalisé](./content/design-custom-css.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}
@@ -85,12 +86,4 @@ ht-degree: 46%
        + [Journey Agent B2B](./agents/journey-agent.md)
        + [Account Qualification](./agents/sales-qualifier.md)
 
-+ [Data and connections](./data/data.md)
-   + Destinations
-
-For Content
-   + {hide-from-toc} Assets
-   + {hide-from-toc} Fragments
-   + {hide-from-toc} Forms
-   + {hide-from-toc} Landing pages
 -->
