@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 5%
 >title="À propos des composants de structure"
 >abstract="Les composants de structure sont des éléments de mise en page que vous pouvez utiliser pour concevoir la structure d’un modèle."
 
-Utilisez la _Composants de structure_ dans l’espace de conception visuelle pour définir la structure de votre contenu. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez rapidement définir la forme de votre disposition de contenu. Chaque composant de structure s’étend sur l’espace horizontal et vous pouvez les empiler pour créer la disposition verticalement. Divisez chaque composant en colonnes pour former chaque bloc de contenu dont vous avez besoin, puis ajoutez-y des [composants de contenu](./content-components.md) pour remplir la disposition.
+Utilisez la _Composants de structure_ dans l’espace de conception visuelle pour définir la structure de votre contenu. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez rapidement définir la forme de votre disposition de contenu. Chaque composant de structure s’étend sur l’espace horizontal et vous pouvez les empiler pour créer la disposition verticalement. <!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## Bibliothèque de structures {#structure-library}
 

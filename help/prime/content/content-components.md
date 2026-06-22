@@ -16,9 +16,9 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: 2820
 ht-degree: 7%
 
 ---
@@ -45,7 +45,9 @@ ht-degree: 7%
 >title="À propos des composants de contenu"
 >abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour concevoir un modèle."
 
-Lorsque vous concevez du contenu pour des e-mails, des pages de destination, des modèles et des fragments visuels, utilisez les [!UICONTROL composants de contenu] pour ajouter des éléments de conception visuelle. Vous pouvez ajouter autant de composants de contenu que nécessaire dans un ou plusieurs [composants de structure](./structure-components.md), ce qui permet de définir la disposition.
+Lorsque vous concevez du contenu pour des e-mails, des pages de destination, des modèles et des fragments visuels, utilisez les [!UICONTROL composants de contenu] pour ajouter des éléments de conception visuelle.
+
+<!-- You can add as many content components as you need inside one or more [structure components](./structure-components.md), which define the layout. -->
 
 ## Bibliothèque de contenus
 

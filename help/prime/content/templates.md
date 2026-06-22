@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 224d6a6f8ca33d2f0d675254bf010f76a5c30e99
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: 495
 ht-degree: 2%
 
 ---
@@ -87,4 +87,4 @@ Cochez la case en regard de chaque modèle à supprimer ou cochez la case en-tê
 
 ## Utiliser un modèle dans un email {#use-in-journey}
 
-Lors de la création d’un e-mail dans un parcours, la section **[!UICONTROL Sélectionner un modèle de conception]** vous permet de choisir parmi des modèles enregistrés ou des exemples de modèles. Cliquez sur la miniature d’un modèle pour le prévisualiser, puis cliquez sur **[!UICONTROL Utiliser ce modèle]** pour l’appliquer. Pour savoir où la sélection de modèles s’inscrit dans le workflow global d’e-mail, voir [Création de contenu d’e-mail](./email-authoring.md).
+Lors de la création d’un e-mail dans un parcours, la section **[!UICONTROL Sélectionner un modèle de conception]** vous permet de choisir parmi des modèles enregistrés ou des exemples de modèles. Cliquez sur la miniature d’un modèle pour le prévisualiser, puis cliquez sur **[!UICONTROL Utiliser ce modèle]** pour l’appliquer. Pour plus d’informations sur l’utilisation de modèles dans votre workflow de création d’e-mail, voir [Création de contenu d’e-mail](./email-authoring.md#templates).
