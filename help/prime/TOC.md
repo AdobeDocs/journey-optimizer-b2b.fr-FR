@@ -1,11 +1,11 @@
 ---
 user-guide-title: Documentation Journey Optimizer B2B Prime
-user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
+user-guide-description: Découvrez Adobe Journey Optimizer B2B Prime et comment l’utiliser pour ?.
 hide: true
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 48%
+source-wordcount: '131'
+ht-degree: 51%
 
 ---
 
@@ -56,13 +56,9 @@ ht-degree: 48%
       + [Composants de contenu](./content/content-components.md)
       + [CSS personnalisé](./content/design-custom-css.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
-   + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}
       + [Configuration du canal e-mail](./admin/email-channel-configuration.md)
-      + {hide-from-toc}[Configuration du canal SMS](./admin/configuration-channels-sms.md)
-      + {hide-from-toc}[Configuration du canal web](./admin/configuration-channels-web.md)
       + [Configuration du canal WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configuration des pages de destination](./admin/configuration-presets-landing-pages.md)
       + [Configuration du préréglage de formulaire](./admin/configuration-presets-forms.md)
