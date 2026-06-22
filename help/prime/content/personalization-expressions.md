@@ -6,19 +6,13 @@ feature: Content Design Tools
 role: User
 autotag-review: '2026-06-20T00:27:51.436Z'
 TQID: 'https://experienceleague.adobe.com/ctl7dFJmmm1A4HtB-g2nTx37f4-A8GTUfWhLhdIq7DM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: edeafa25a378f340cca12b4af0a977baf4303698
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1015
 ht-degree: 50%
 
 ---
@@ -30,7 +24,7 @@ ht-degree: 50%
 >title="À propos de l’éditeur de personnalisation"
 >abstract="L’éditeur de personnalisation vous permet de sélectionner, d’organiser, de personnaliser et de valider des attributs de profil afin de créer du contenu personnalisé."
 
-L’éditeur de personnalisation est l’élément central de la personnalisation dans [!DNL Journey Optimizer B2B Prime]. Utilisez-le là où vous avez besoin de contenu dynamique (dans les champs [e-mails](./email-authoring.md#personalize-content), [Messages WhatsApp](./whatsapp-authoring.md#personalize-message-content), [Pages de destination](./landing-pages.md) et URL).
+L’éditeur de personnalisation est l’élément central de la personnalisation dans [!DNL Journey Optimizer B2B Prime]. Utilisez-le là où vous avez besoin de contenu dynamique (dans les e-mails, les messages WhatsApp, les landing pages et les champs d’URL).
 
 Dans l’interface de l’éditeur de personnalisation, vous pouvez sélectionner, organiser, personnaliser et valider des attributs de profil afin de créer du contenu personnalisé.
 
@@ -44,7 +38,7 @@ Vous pouvez ajouter de la personnalisation dans n’importe quel champ à l’ai
 
 +++E-mails et messages WhatsApp
 
-Dans les e-mails et les [messages WhatsApp](./whatsapp-authoring.md#personalize-message-content), la personnalisation peut être ajoutée à différents emplacements, tels que le champ **[!UICONTROL Objet]** dans un e-mail ou les paramètres dynamiques dans un modèle WhatsApp approuvé.
+Dans les messages [e-mails](./email-authoring.md#personalize-content) et [WhatsApp](./whatsapp-authoring.md#personalize-message-content), la personnalisation peut être ajoutée à différents emplacements, tels que le champ **[!UICONTROL Objet]** dans un e-mail ou les paramètres dynamiques dans un modèle WhatsApp approuvé.
 
 Il peut également être ajouté à d’autres sections de votre contenu, notamment au corps du texte de l’e-mail, aux pré-titres et aux URL des boutons.
 
@@ -174,8 +168,6 @@ Dans ce cas **jobTitle** est une chaîne, pas un tableau :
 * **Syntaxe des barres de contrôle non valide.`'[XYZ}}'`** trouvé
 
 Cette erreur se produit lorsque la syntaxe Handlebars utilisée est non valide.
-
-Les expressions des barres de contrôle sont entourées de `{{` et de `}}` uniquement.
 
 ```handlebars
 {{[profile.firstName}}
