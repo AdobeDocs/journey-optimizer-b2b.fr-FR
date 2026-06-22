@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B edition Prime et comment l’utiliser pour ?
 hide: true
-source-git-commit: 68ce728130c78df150ba3041859dcb593a9a709b
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 47%
+source-wordcount: '141'
+ht-degree: 48%
 
 ---
 
@@ -53,9 +53,10 @@ ht-degree: 47%
    + [Personnalisation](./content/personalization-expressions.md)
    + Outils de conception de contenu {#content-design}
       + [Composants de structure](./content/structure-components.md)
+      + [Composants de contenu](./content/content-components.md)
       + [CSS personnalisé](./content/design-custom-css.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}
@@ -69,11 +70,6 @@ ht-degree: 47%
 <!--
    + Business rules
    + Program types
-
-   + Content design tools {#content-design}
-      + [Structure components](./content/structure-components.md)
-      + [Content components](./content/content-components.md)
-      + [Custom CSS](./content/design-custom-css.md)
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
