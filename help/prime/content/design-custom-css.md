@@ -3,21 +3,16 @@ title: Ajout d’une page CSS personnalisée pour votre contenu
 description: Ajoutez une page CSS personnalisée aux e-mails et aux pages de destination pour un style avancé et un contrôle de conception précis allant au-delà des composants standard dans Journey Optimizer B2B Prime.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
 autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 567
 ht-degree: 9%
 
 ---
@@ -200,7 +195,7 @@ body {
 
 Si vous souhaitez utiliser un CSS personnalisé avec du contenu importé dans l’espace de conception d’e-mail ou de page de destination, tenez compte des points suivants :
 
-* Si vous importez du contenu HTML externe, y compris du contenu CSS, <!-- unless converting that content, -->il est renseigné en [!UICONTROL mode de compatibilité] et la section [!UICONTROL styles CSS] n’est pas disponible.
+* Si vous importez du contenu HTML externe, y compris du contenu CSS, il est renseigné en [!UICONTROL mode de compatibilité] et la section [!UICONTROL styles CSS] n’est pas disponible.
 
 * Si vous importez du contenu créé à l’origine dans l’espace de conception d’e-mail ou de page de destination à l’aide de l’option [!UICONTROL Ajouter un CSS personnalisé], le CSS appliqué est visible et modifiable à partir de la même option.
 
