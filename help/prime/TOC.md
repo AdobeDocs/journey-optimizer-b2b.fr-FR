@@ -54,7 +54,7 @@ ht-degree: 46%
    + Outils de conception de contenu {#content-design}
       + [CSS personnalisé](./content/design-custom-css.md)
 + {hide-from-toc}[Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
-+ {hide-from-toc}[](./brand-concierge/brand-concierge.md)
++ {hide-from-toc}[&#128279;](./brand-concierge/brand-concierge.md)
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Canaux {#channels}
