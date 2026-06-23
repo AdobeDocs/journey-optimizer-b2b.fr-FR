@@ -4,10 +4,14 @@ description: Découvrez comment utiliser les programmes pour organiser vos effor
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-12T23:03:51.812Z'
 TQID: 'https://experienceleague.adobe.com/uFHAUjFU2JVy8JZRWwX4nGp-KH8ReL6VDD0f8gg3o4U'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
 source-wordcount: 814
@@ -49,7 +53,7 @@ Chaque programme réside dans la structure de dossiers _[!UICONTROL Marketing]_ 
 
 1. Saisissez un **[!UICONTROL Nom]** unique (obligatoire).
 
-   ![ Boîte de dialogue Créer un programme ](./assets/program-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un programme &#x200B;](./assets/program-create-dialog.png){width="400"}
 
 1. Choisissez **[!UICONTROL Type de programme]**, qui détermine les attributs du programme et les statuts des membres.
 
@@ -79,7 +83,7 @@ Dans le type de programme, les statuts sélectionnés _[!UICONTROL Marquer comme
 
 ### Modifier le statut du programme {#change-program-status}
 
-Pour ajouter une personne à un programme ou modifier son statut, elle doit passer par une **_[!UICONTROL Modifier le statut du programme]_** [action dans un parcours ](./action-nodes.md). Cela en fait un membre du programme et lui attribue un statut dans ce programme.
+Pour ajouter une personne à un programme ou modifier son statut, elle doit passer par une **_[!UICONTROL Modifier le statut du programme]_** [action dans un parcours &#x200B;](./action-nodes.md). Cela en fait un membre du programme et lui attribue un statut dans ce programme.
 
 ### Corriger le statut d’un programme {#correct-program-status}
 
@@ -103,7 +107,7 @@ _Vous êtes invité à participer à notre exposition le 2026-01-01._
 
 Mes jetons peuvent également être affectés au niveau du dossier. Les dossiers et les programmes héritent tous deux de tous mes jetons définis pour un parent dans l’arborescence. Un jeton hérité peut être remplacé si une autre valeur est pour le même jeton est définie à un niveau inférieur. Par exemple, vous pouvez définir un pied de page d’e-mail en haut de votre structure de dossiers, mais modifier la langue de copyright d’un événement de co-marketing avec un partenaire ou modifier l’URL d’une bannière promotionnelle pour un programme spécifique à un produit.
 
-Pour plus d’informations sur la définition et l’utilisation de mes jetons, voir [ Jetons personnalisés pour la personnalisation ](./personalization-my-tokens.md).
+Pour plus d’informations sur la définition et l’utilisation de mes jetons, voir [&#x200B; Jetons personnalisés pour la personnalisation &#x200B;](./personalization-my-tokens.md).
 
 ## Filtre Membre du programme {#member-of-program}
 
