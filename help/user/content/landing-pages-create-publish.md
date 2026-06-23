@@ -5,23 +5,16 @@ feature: Landing Pages, Content
 role: User
 autotag-review: '2026-05-27T16:10:09.537Z'
 TQID: 'https://experienceleague.adobe.com/e-tguY-9v6CPOehYL7vI22fzQBk3L0h1EOpa-e54q7A'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -84,7 +77,7 @@ Avant que les marketeurs puissent créer des pages de destination pour prendre e
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="Définissez les paramètres de votre page principale."
->abstract="Définissez la page principale, qui s’affiche immédiatement lorsqu’un destinataire clique sur le lien de la page de destination, par exemple à partir d’un e-mail ou d’un site web."
+>abstract="Définissez la page principale, qui s’affiche immédiatement lorsqu’un ou une destinataire clique sur le lien de la page de destination, par exemple à partir d’un e-mail ou d’un site web."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
@@ -113,7 +106,7 @@ Avant que les marketeurs puissent créer des pages de destination pour prendre e
 
    * **[!UICONTROL URL de redirection]** - Saisissez l’URL de la page à utiliser comme redirection.
 
-     ![&#x200B; Expiration de la page de destination - URL de redirection &#x200B;](./assets/landing-page-expiry-redirect-url.png){width="400"}
+     ![ Expiration de la page de destination - URL de redirection ](./assets/landing-page-expiry-redirect-url.png){width="400"}
 
      <!-- * **[!UICONTROL Custom page]** - Configure a subpage and select it from the list. -->
    * **[!UICONTROL Erreur de navigateur]** - Saisissez le texte de l’erreur à afficher à la place de la page.
@@ -246,7 +239,7 @@ Il existe deux types d’alertes :
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="Prévisualiser et tester votre page de destination"
->abstract="Une fois que vous avez défini les paramètres et le contenu de votre page de destination, utilisez des profils de test pour prévisualiser la page."
+>abstract="Après avoir défini les paramètres et le contenu de votre page de destination, utilisez des profils de test pour prévisualiser la page."
 
 Lorsque les paramètres et le contenu de la page de destination sont définis, vous pouvez utiliser des profils de test pour prévisualiser la page. Si vous avez inséré du [contenu personnalisé](./personalization.md), vous pouvez vérifier l’affichage de celui-ci dans la page de destination à l’aide des données de profil de test.
 

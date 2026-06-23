@@ -3,22 +3,14 @@ title: Configuration de Forms
 description: Espace réservé
 autotag-review: '2026-06-12T22:44:42.084Z'
 TQID: 'https://experienceleague.adobe.com/aJKRaYBEdieyIUsuszVy4g2LANEVLQP9aQfhhrKOhx0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 22%
+ht-degree: 26%
 
 ---
 
@@ -32,12 +24,12 @@ Lorsque des données arrivent sur le point d’entrée de diffusion en continu, 
 
 ## Conditions préalables
 
-Pour utiliser les formulaires web, vous devez disposer d’une ou de plusieurs connexions en continu d’API _&#x200B;**HTTP**&#x200B;_ définies dans Adobe Experience Platform. Assurez-vous que chaque connexion que vous souhaitez utiliser répond aux exigences suivantes :
+Pour utiliser les formulaires web, vous devez disposer d’une ou de plusieurs connexions en continu d’API _**HTTP**_ définies dans Adobe Experience Platform. Assurez-vous que chaque connexion que vous souhaitez utiliser répond aux exigences suivantes :
 
 * Le type de données doit être défini sur XDM (et non sur Données brutes).
 * L&#39;authentification doit être désactivée (connexion non authentifiée)
 
-Pour plus d’informations sur la création de connexions source par flux, consultez la documentation d’[__](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
+Pour plus d’informations sur la création de connexions source par flux, consultez la documentation d’[__](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
 <!-- 
 permissions coming in GA
@@ -65,7 +57,7 @@ Lors de la création d’un paramètre prédéfini :
    * _Connexion cible_ - emplacement de stockage ou d’utilisation des données.
    * _Flux Source_ - pipeline qui déplace les données de la connexion source vers Experience Platform. Il gère le mappage, la transformation et la validation.
 
-## Créer un paramètres prédéfini de formulaire {#create-preset}
+## Créer un paramètre prédéfini de formulaire {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -76,7 +68,7 @@ Lors de la création d’un paramètre prédéfini :
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="Sélectionner un jeu de données"
->abstract="Définissez un jeu de données dans lequel les réponses du formulaire sont stockées et reflétées. Saisissez du texte pour rechercher un jeu de données spécifique ou sélectionnez-le dans la liste."
+>abstract="Définissez un jeu de données dans lequel les réponses au formulaire sont stockées et reflétées. Saisissez le nom d’un jeu de données pour le rechercher ou le sélectionner directement dans la liste."
 
 1. Dans le volet de navigation de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**.
 
