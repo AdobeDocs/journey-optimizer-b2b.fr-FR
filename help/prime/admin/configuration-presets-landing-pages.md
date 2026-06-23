@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
-ht-degree: 29%
+ht-degree: 42%
 
 ---
 
@@ -35,7 +35,7 @@ Les administrateurs doivent s’assurer que les configurations de la page de des
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_subdomain_lp_header"
 >title="Déléguer un sous-domaine de page de destination"
->abstract="Configurez un sous-domaine pour l’utilisation d’une page de destination. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre."
+>abstract="Configurez un sous-domaine pour une page de destination. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_subdomain_lp"
@@ -45,7 +45,7 @@ Les administrateurs doivent s’assurer que les configurations de la page de des
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain"
 >title="Créer un préréglage de la page de destination"
->abstract="Pour créer un préréglage de page de destination, assurez-vous de disposer d’au moins un sous-domaine de page de destination configuré à choisir dans la liste Nom du sous-domaine."
+>abstract="Pour créer un préréglage de la page de destination, vérifiez que vous avez déjà configuré au moins un sous-domaine de la page de destination à sélectionner dans la liste Nom du sous-domaine."
 
 Pour passer en revue les sous-domaines de page de destination configurés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**. Sous _[!UICONTROL Pages de destination]_ dans le volet de navigation, sélectionnez **[!UICONTROL Sous-domaines de la page de destination]**.
 
@@ -119,7 +119,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_lp_subdomain_dns"
 >title="Générer l’enregistrement DNS correspondant"
->abstract="Pour configurer un nouveau sous-domaine de page de destination, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface B2B de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour créer des préréglages de page de destination."
+>abstract="Pour configurer un nouveau sous-domaine de page de destination, vous devez copier les informations du serveur de noms d’Adobe affichées dans l’interface B2B de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Lorsque les vérifications sont effectuées, le sous-domaine est prêt à être utilisé pour créer des préréglages de page de destination."
 
 1. Cliquez sur **[!UICONTROL Configurer le sous-domaine de la page de destination]**.
 
@@ -214,12 +214,12 @@ _To add a landing page subdomain:_
 
 -->
 
-## Paramètres prédéfinis {#lp-presets}
+## Préréglages {#lp-presets}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain_header"
 >title="Créer un préréglage de la page de destination"
->abstract="Pour créer une page de destination et l’exploiter via Journey Optimizer B2B edition, vous devez créer un préréglage de page de destination qui inclut le sous-domaine à utiliser."
+>abstract="Pour créer une page de destination et l’utiliser via Journey Optimizer B2B Edition, vous devez créer un préréglage de page de destination qui inclura le sous-domaine à utiliser."
 
 Lorsque les professionnels du marketing créent une page de destination, ils doivent sélectionner un préréglage de page de destination pour pouvoir créer la page de destination et l’exploiter via [!DNL Journey Optimizer B2B Edition]. Le préréglage comprend le sous-domaine à utiliser pour la page de destination.
 

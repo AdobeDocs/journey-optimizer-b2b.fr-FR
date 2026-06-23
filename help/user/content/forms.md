@@ -103,7 +103,7 @@ Avant de commencer à créer des formulaires réutilisables dans Journey Optimiz
 >id="ajo-b2b_lp_form_preset"
 >title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Créer un paramètres prédéfini de formulaire"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Créer un paramètre prédéfini de formulaire"
 
 Vous pouvez créer un formulaire dans Journey Optimizer B2B edition en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
 

@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 22%
+ht-degree: 26%
 
 ---
 
@@ -65,7 +65,7 @@ Lors de la création d’un paramètre prédéfini :
    * _Connexion cible_ - emplacement de stockage ou d’utilisation des données.
    * _Flux Source_ - pipeline qui déplace les données de la connexion source vers Experience Platform. Il gère le mappage, la transformation et la validation.
 
-## Créer un paramètres prédéfini de formulaire {#create-preset}
+## Créer un paramètre prédéfini de formulaire {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -76,7 +76,7 @@ Lors de la création d’un paramètre prédéfini :
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="Sélectionner un jeu de données"
->abstract="Définissez un jeu de données dans lequel les réponses du formulaire sont stockées et reflétées. Saisissez du texte pour rechercher un jeu de données spécifique ou sélectionnez-le dans la liste."
+>abstract="Définissez un jeu de données dans lequel les réponses au formulaire sont stockées et reflétées. Saisissez le nom d’un jeu de données pour le rechercher ou le sélectionner directement dans la liste."
 
 1. Dans le volet de navigation de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**.
 

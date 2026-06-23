@@ -16,7 +16,7 @@ role_v2:
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -136,7 +136,7 @@ Une fois que vous avez configuré et conçu la page principale et les sous-pages
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_primary_page"
 >title="Définissez les paramètres de votre page principale."
->abstract="Définissez la page principale, qui s’affiche immédiatement lorsqu’un destinataire clique sur le lien de la page de destination, par exemple à partir d’un e-mail ou d’un site web."
+>abstract="Définissez la page principale, qui s’affiche immédiatement lorsqu’un ou une destinataire clique sur le lien de la page de destination, par exemple à partir d’un e-mail ou d’un site web."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
@@ -173,7 +173,7 @@ Pour définir les paramètres de la page principale, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_preview_lp_profiles"
 >title="Prévisualiser et tester votre page de destination"
->abstract="Une fois que vous avez défini les paramètres et le contenu de votre page de destination, utilisez des profils de test pour prévisualiser la page."
+>abstract="Après avoir défini les paramètres et le contenu de votre page de destination, utilisez des profils de test pour prévisualiser la page."
 
 Lorsque les paramètres et le contenu de la page de destination sont définis, vous pouvez utiliser des profils de test pour prévisualiser la page. Si vous avez inséré du [contenu personnalisé](email-authoring.md#personalize-content), vous pouvez vérifier l’affichage de celui-ci dans la page de destination à l’aide des données de profil de test.
 

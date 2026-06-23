@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -84,7 +84,7 @@ Avant que les marketeurs puissent créer des pages de destination pour prendre e
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="Définissez les paramètres de votre page principale."
->abstract="Définissez la page principale, qui s’affiche immédiatement lorsqu’un destinataire clique sur le lien de la page de destination, par exemple à partir d’un e-mail ou d’un site web."
+>abstract="Définissez la page principale, qui s’affiche immédiatement lorsqu’un ou une destinataire clique sur le lien de la page de destination, par exemple à partir d’un e-mail ou d’un site web."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
@@ -246,7 +246,7 @@ Il existe deux types d’alertes :
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="Prévisualiser et tester votre page de destination"
->abstract="Une fois que vous avez défini les paramètres et le contenu de votre page de destination, utilisez des profils de test pour prévisualiser la page."
+>abstract="Après avoir défini les paramètres et le contenu de votre page de destination, utilisez des profils de test pour prévisualiser la page."
 
 Lorsque les paramètres et le contenu de la page de destination sont définis, vous pouvez utiliser des profils de test pour prévisualiser la page. Si vous avez inséré du [contenu personnalisé](./personalization.md), vous pouvez vérifier l’affichage de celui-ci dans la page de destination à l’aide des données de profil de test.
 
