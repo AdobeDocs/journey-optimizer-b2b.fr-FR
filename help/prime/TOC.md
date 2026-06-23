@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Prime et comment l’utiliser pour ?.
 hide: true
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 53%
+source-wordcount: '138'
+ht-degree: 51%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 53%
 + [Qualificateur de vente](./sales-qualifier/sales-qualifier.md)
 + Gestion marketing {#marketing-management}
    + [Vue d’ensemble](./marketing/marketing-management.md)
-   + [Programmes](./marketing/programs.md)
+   + Programmes {#programs}
+      + [Vue d’ensemble](./marketing/programs.md)
+      + [Jetons personnalisés pour la personnalisation](./marketing/personalization-my-tokens.md)
    + [Parcours de personne](./marketing/person-journeys.md)
    + Nœuds de parcours {#journey-nodes}
       + [Présentation des nœuds](./marketing/person-journey-nodes.md)
@@ -36,7 +38,7 @@ ht-degree: 53%
       + [Vue d’ensemble](./marketing/email-channel.md)
       + [Optimisation de l’heure d’envoi des e-mails](./marketing/email-send-time-optimization.md)
       + [Création de contenu](./content/email-authoring.md)
-      + [Conception en mode sombre](./content/email-dark-mode.md)
+      + [Conception du mode sombre](./content/email-dark-mode.md)
    + [Canal WhatsApp](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [Listes de personnes](./audiences/people-lists.md)
@@ -62,10 +64,10 @@ ht-degree: 53%
       + [Configuration du canal WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configuration des pages de destination](./admin/configuration-presets-landing-pages.md)
       + [Configuration du préréglage de formulaire](./admin/configuration-presets-forms.md)
+   + [Types de programme](./admin/program-types.md)
 
 <!--
    + Business rules
-   + Program types
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
