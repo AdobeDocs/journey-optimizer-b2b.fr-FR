@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: 650
 ht-degree: 2%
 
 ---
@@ -53,15 +53,15 @@ Pour la version Beta de Journey Optimizer B2B Prime, les rôles par défaut suiv
 
 ## Filtrer par persona dérivé {#derived-persona-filter}
 
-Le Prime B2B de Journey Optimizer dérive un persona pour chaque enregistrement de personne en évaluant les attributs de l’enregistrement par rapport aux personas définis. _Vous pouvez utiliser le résultat déduit (« Persona dérivé_) comme filtre lors de la définition de l’audience pour une liste de personnes ou un parcours de personnes.
+Le Prime B2B de Journey Optimizer dérive un persona pour chaque enregistrement de personne en évaluant les attributs de l’enregistrement par rapport aux personas définis. _Vous pouvez utiliser le résultat déduit (« Persona dérivé_) comme filtre lors de la définition de l’audience pour une liste de personnes ou pour la segmentation dans un parcours de personnes.
 
 Le filtre _[!UICONTROL Persona dérivé]_ s’affiche dans le panneau de filtrage sous la catégorie **[!UICONTROL Attributs de personne]**.
-
-![Accéder aux rôles configurés](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
 ### Listes de personnes {#people-lists}
 
 Lorsque vous ajoutez ou supprimez des membres d’une [liste de personnes statique](./people-lists.md#static-list), ou lorsque vous définissez les règles d’appartenance à une [liste de personnes dynamique](./people-lists.md#dynamic-lists), vous pouvez filtrer par persona dérivé pour cibler toutes les personnes dont les attributs correspondent à une personne configurée spécifique.
+
+![Filtrage des personas dérivé pour une liste de personnes](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
 
 **Liste statique — Ajouter des membres**
 
@@ -90,6 +90,8 @@ Lorsque vous ajoutez ou supprimez des membres d’une [liste de personnes statiq
 ### Parcours de personne {#person-journeys}
 
 Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ &#x200B;](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser un persona dérivé comme filtre de profil de personne pour contrôler quelles personnes entrent dans le chemin du parcours.
+
+![Filtrage des personas dérivés pour une condition de chemin de partage](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
 
 1. Cliquez sur le nœud **[!UICONTROL Chemins fractionnés]** dans la zone de travail du parcours.
 
