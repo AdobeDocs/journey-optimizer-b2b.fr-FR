@@ -4,20 +4,13 @@ description: Utilisez les rôles dérivés dans Journey Optimizer B2B Prime pour
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-23T22:01:21.605Z'
 TQID: 'https://experienceleague.adobe.com/OZ4GDkaqg9a5Aikic-m-f0MtHSpc3BO0h41fTAL1Rww'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: 650
 ht-degree: 2%
 
 ---
@@ -53,15 +46,15 @@ Pour la version Beta de Journey Optimizer B2B Prime, les rôles par défaut suiv
 
 ## Filtrer par persona dérivé {#derived-persona-filter}
 
-Le Prime B2B de Journey Optimizer dérive un persona pour chaque enregistrement de personne en évaluant les attributs de l’enregistrement par rapport aux personas définis. _Vous pouvez utiliser le résultat déduit (« Persona dérivé_) comme filtre lors de la définition de l’audience pour une liste de personnes ou un parcours de personnes.
+Le Prime B2B de Journey Optimizer dérive un persona pour chaque enregistrement de personne en évaluant les attributs de l’enregistrement par rapport aux personas définis. _Vous pouvez utiliser le résultat déduit (« Persona dérivé_) comme filtre lors de la définition de l’audience pour une liste de personnes ou pour la segmentation dans un parcours de personnes.
 
 Le filtre _[!UICONTROL Persona dérivé]_ s’affiche dans le panneau de filtrage sous la catégorie **[!UICONTROL Attributs de personne]**.
-
-![Accéder aux rôles configurés](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
 ### Listes de personnes {#people-lists}
 
 Lorsque vous ajoutez ou supprimez des membres d’une [liste de personnes statique](./people-lists.md#static-list), ou lorsque vous définissez les règles d’appartenance à une [liste de personnes dynamique](./people-lists.md#dynamic-lists), vous pouvez filtrer par persona dérivé pour cibler toutes les personnes dont les attributs correspondent à une personne configurée spécifique.
+
+![Filtrage des personas dérivé pour une liste de personnes](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
 
 **Liste statique — Ajouter des membres**
 
@@ -89,7 +82,9 @@ Lorsque vous ajoutez ou supprimez des membres d’une [liste de personnes statiq
 
 ### Parcours de personne {#person-journeys}
 
-Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ &#x200B;](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser un persona dérivé comme filtre de profil de personne pour contrôler quelles personnes entrent dans le chemin du parcours.
+Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ ](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser un persona dérivé comme filtre de profil de personne pour contrôler quelles personnes entrent dans le chemin du parcours.
+
+![Filtrage des personas dérivés pour une condition de chemin de partage](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
 
 1. Cliquez sur le nœud **[!UICONTROL Chemins fractionnés]** dans la zone de travail du parcours.
 
