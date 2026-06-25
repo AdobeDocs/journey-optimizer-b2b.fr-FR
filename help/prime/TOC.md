@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Prime et comment l’utiliser pour ?.
 hide: true
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 46%
+source-wordcount: '149'
+ht-degree: 47%
 
 ---
 
@@ -49,7 +49,6 @@ ht-degree: 46%
    + [Scores d’engagement des personnes](./audiences/engagement-scores.md)
    + [Personnages dérivés](./audiences/personas.md)
    + [Destinations](./audiences/destinations.md)
-   + [Qualification d’audience dynamique](./audiences/dynamic-audience-qualification.md)
 + Contenu {#content}
    + [Ressources](./content/digital-asset-management.md)
    + Modèles {#templates}
