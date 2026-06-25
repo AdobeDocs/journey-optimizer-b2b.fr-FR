@@ -15,16 +15,16 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: 225
 ht-degree: 4%
 
 ---
 
 # Nœud d’audience de personne
 
-Le nœud _audience personne_ spécifie les profils de personnes qui rejoignent le parcours. Lorsque vous [créez un parcours de personne](./person-journeys.md), le parcours commence toujours par un nœud d’audience de personne qui définit son entrée. Le nœud d’audience de personne peut avoir l’un des deux types d’entrée d’audience suivants : une liste de personnes statique ou une liste de personnes dynamique.
+Le nœud _audience personne_ spécifie les profils de personnes qui rejoignent le parcours. Lorsque vous [créez un parcours de personne](./person-journeys.md), le parcours commence toujours par un nœud d’audience de personne qui définit son entrée. Le nœud d’audience de personne peut avoir l’un des deux types d’entrée d’audience suivants : une liste de personnes dynamique ou un déclencheur d’événement.
 
 Si la liste de personnes dynamique dont vous avez besoin pour le parcours de personnes n’existe pas déjà, [créez la liste de personnes](../audiences/people-lists.md#create-a-people-list) puis configurez le nœud Audience de la personne .
 

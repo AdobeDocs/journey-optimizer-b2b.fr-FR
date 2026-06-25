@@ -2,7 +2,7 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Prime et comment l’utiliser pour ?.
 hide: true
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 47%
@@ -12,7 +12,7 @@ ht-degree: 47%
 
 # Guide de l’utilisateur de Journey Optimizer B2B Prime {#prime}
 
-+ [Documentation Adobe Journey Optimizer B2B Prime](guide-overview.md)
++ [Documentation de Adobe Journey Optimizer B2B Prime](guide-overview.md)
 + Commencer {#start}
    + [Liste de contrôle de configuration](./start/setup-prime.md)
    + [Gestion des utilisateurs et utilisatrices](./start/user-management.md)

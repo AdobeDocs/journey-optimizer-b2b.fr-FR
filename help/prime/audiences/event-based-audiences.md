@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 Dans [!DNL Adobe Journey Optimizer B2B Prime], les _audiences basées sur un événement_ vous permettent d’ajouter des membres de l’audience à un parcours [personne](../marketing/person-journeys.md) en direct en temps quasi réel lorsqu’une activité de [!DNL Marketo Engage] se produit. Vous configurez les audiences basées sur un événement sur le nœud Audience de la zone de travail de parcours :
 
-* Sélectionnez une ou plusieurs activités Marketo (standard ou personnalisées) comme événements de qualification.
+* Sélectionnez une ou plusieurs activités [!DNL Marketo Engage] (standard ou personnalisées) comme événements de qualification.
 * Vous pouvez éventuellement ajouter des filtres de profil de personne (par exemple, secteur, région ou étape du cycle de vie) pour limiter les personnes pouvant entrer.
 * Vous pouvez éventuellement définir des contraintes d’attribut d’activité (comme un formulaire, une URL ou un programme spécifique) pour limiter les occurrences de chaque activité à qualifier.
 
