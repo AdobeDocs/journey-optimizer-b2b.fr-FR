@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 641
 ht-degree: 5%
 
 ---
@@ -31,6 +31,10 @@ La personnalisation du contenu utilise des jetons comme espaces réservés ou va
 Lorsque vous ajoutez un jeton personnalisé à un e-mail, il s’affiche sous la forme `{{my.TokenName}}`. Par exemple, vous pouvez avoir créé des jetons `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` pour gérer le contenu des e-mails liés aux webinaires à venir.
 
 Outre les jetons _Mes jetons_, qui sont spécifiques au programme ou au dossier, vous pouvez utiliser l’un des jetons standard (intégrés) pour la personnalisation.
+
+>[!NOTE]
+>
+>_Mes jetons_ ne sont actuellement pas activés dans l’éditeur Personalization pour cette version de Beta.
 
 ## Jetons d’accès
 

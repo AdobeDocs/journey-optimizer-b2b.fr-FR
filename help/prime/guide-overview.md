@@ -1,6 +1,6 @@
 ---
 title: Documentation Adobe Journey Optimizer B2B Prime
-description: Documentation complète pour Journey Optimizer B2B Prime - explorez les ressources disponibles pour l’intégration, à déterminer.
+description: Documentation complète pour Journey Optimizer B2B Prime - explorez les ressources disponibles pour l’intégration, l’automatisation marketing optimisée par l’IA, les parcours de personne et la gestion de l’audience.
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-12T22:37:55.790Z'
 TQID: 'https://experienceleague.adobe.com/qIeIKMJLaBkBTuh7qpwer-2MTRlzrELRVtYFzAIcdjw'
@@ -14,34 +14,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 103
-ht-degree: 30%
+source-wordcount: 257
+ht-degree: 20%
 
 ---
 
 # Documentation Adobe Journey Optimizer B2B Prime
 
-[!DNL Adobe Journey Optimizer B2B Prime] est ?
+[!DNL Adobe Journey Optimizer B2B Prime] est une solution d’automatisation marketing IA-first qui permet aux spécialistes du marketing et aux représentants du développement commercial de planifier des programmes, d’orchestrer des parcours de personnes personnalisés et de qualifier les prospects. Utilisez l’IA conversationnelle pour créer des campagnes, gérer des audiences et diffuser du contenu sur les canaux e-mail et WhatsApp.
 
-<!--
-## What's new
-
-Review this sampling of the latest additions and enhancements in the [!DNL Journey Optimizer B2B Prime] application and documentation. 
-
->[!BEGINTABS]
-
->[!TAB Generative AI models]
-
-Email designers can now select from standard [!DNL Firefly] models, custom [!DNL Firefly] models trained on brand-specific assets, and approved third-party image models when generating images for email content. This selection gives teams control over which model fits their specific design scenario, from general content needs to branded or specialized use cases.
-
-[!BADGE Learn more]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Learn about generative AI model selection"}
-
->[!ENDTABS]
--->
-
-## Explorer les fonctionnalités du produit {#section-explore}
+## Explorer les principales fonctionnalités du produit {#section-explore}
 
 :::: landing-cards-container
 
@@ -50,84 +34,107 @@ Email designers can now select from standard [!DNL Firefly] models, custom [!DNL
 
 Commencer
 
-Consultez les conseils d’intégration au Prime B2B de Journey Optimizer destinés aux administrateurs et aux spécialistes marketing.
+Effectuez la configuration initiale, puis apprenez à naviguer dans l’application et à utiliser la page d’accueil.
 
-[Administrateurs](./start/setup-prime.md)
-[Utilisateurs](./start/get-started.md)
+[Configuration de l’administrateur](./start/setup-prime.md)
+[Page d’accueil](./home-insights/home-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=fr)
+
+Assistant IA
+
+Utilisez le langage naturel pour planifier des programmes, créer des parcours, gérer les audiences et créer du contenu avec des compétences d’IA agentique.
+
+Interface [Chat](./agents/chat-interface.md)
+[Compétences disponibles &#x200B;](./agents/skills.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+
+Qualificateur de vente
+
+Qualifiez les prospects avec l’IA, exécutez des workflows sortants et connectez les tâches CRM aux activités BDR.
+
+[En savoir plus sur le qualificateur de vente](./sales-qualifier/sales-qualifier.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
-Créer un parcours
+Marketing Management
 
-Concevez, orchestrez, gérez et optimisez des parcours personnalisés.
+Organisez les campagnes dans des programmes, concevez des parcours de personne avec du contenu multicanal et personnalisez-les à l’aide de jetons personnalisés.
 
-[Explorer les parcours](./marketing/person-journeys.md)
+[Présentation marketing](./marketing/marketing-management.md)
+parcours de personne[&#128279;](./marketing/person-journeys.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=fr)
 
-Audiences dynamiques
+Audiences
 
-Créer et tenir à jour des listes de personnes qui se mettent à jour automatiquement en fonction des attributs de profil et des comportements.
+Créez et conservez des listes de personnes, définissez des audiences basées sur des événements et suivez l’engagement avec des scores basés sur les rôles.
 
-[Découvrez les audiences dynamiques](./audiences/dynamic-audience-qualification.md)
+[Listes de personnes](./audiences/people-lists.md)
+[scores d’engagement](./audiences/engagement-scores.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=fr)
+
+Contenu
+
+Créez des e-mails et des messages WhatsApp, gérez des modèles et des ressources, créez des landing pages et des formulaires et appliquez une personnalisation.
+
+[Création d’e-mails](./content/email-authoring.md)
+[Modèles](./content/templates.md)
 :::
 
 ::::
 
-<!--
-## Overview demo
-
-Discover the components of a buying group and understand the basics of building an account journey.
-
->[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
-
-## Explore the documentation
+## Explorer la documentation
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Get started"><br/>
-      <strong>Get started</strong><br/><a href="home-page.md">Login and home page</a><br/><a href="./start/get-started.md">Onboarding guidance</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI Assistant</a>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Commencer"><br/>
+      <strong>Prise en main</strong><br/><a href="./start/setup-prime.md">Liste de contrôle de configuration</a><br/><a href="./start/user-management.md">Gestion des utilisateurs</a><br/><a href="./start/email-deliverability.md">Délivrabilité des e-mails</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
+      <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="Assistant IA"><br/>
+      <strong>AI Assistant</strong><br/><a href="./agents/chat-interface.md">Chat interface</a><br/><a href="./agents/skills.md">Skills</a><br/><a href="./agents/program-from-brief.md">Créer un programme à partir d'un brief</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Buying groups"><br/>
-      <strong>Buying groups</strong><br/><a href="./buying-groups/buying-groups-overview.md">Buying groups overview</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Role templates</a><br/><a href="./buying-groups/solution-interests.md">Solution interests</a><br/><a href="./buying-groups/buying-groups-create.md">Create buying groups</a>
-    </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Journeys"><br/>
-      <strong>Journeys</strong><br/><a href="./journeys/journeys-overview.md">Person journeys overview</a><br/><a href="./marketing/person-journeys.md">Create a person journey</a><br/><a href="./marketing/person-journey-nodes.md">Journey nodes</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Gestion marketing"><br/>
+      <strong>Gestion marketing</strong><br/><a href="./marketing/programs.md">Programmes</a><br/><a href="./marketing/person-journeys.md">parcours Personne</a><br/><a href="./marketing/email-channel.md">Canal e-mail</a><br/><a href="./content/whatsapp-authoring.md">Canal WhatsApp</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Journey content"><br/>
-      <strong>Journey content</strong><br/><a href="./content/add-email.md">Email channel</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant for email</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio email experiences</a><br/><a href="./content/sales-alert-email.md">Sales alert email</a><br/><a href="./content/sms-authoring.md">SMS channel</a>
-    </td>
-        <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content management"><br/>
-      <strong>Content management</strong><br/><a href="./content/assets-overview.md">Assets overview</a><br/><a href="./content/email-templates.md">Email templates</a><br/><a href="./content/fragments.md">Visual fragments</a><br/><a href="./content/conditional-content.md">Conditional content</a><br/><a href="./content/brand-themes.md">Brand themes</a>
+      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Audiences"><br/>
+      <strong>Audiences</strong><br/><a href="./audiences/people-lists.md">People</a><br/><a href="./audiences/event-based-audiences.md">Audiences basées sur des événements</a><br/><a href="./audiences/engagement-scores.md">Scores d’engagement</a><br/><a href="./audiences/personas.md">Personnages dérivés</a><br/><a href="./audiences/destinations.md">Destinations</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights and dashboards"><br/>
-      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Engagement dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Buying groups dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journeys dashboard</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM Insights</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Contenu"><br/>
+      <strong>Content</strong><br/><a href="./content/email-authoring.md">Email authoring</a><br/><a href="./content/templates.md">Templates</a><br/><a href="./content/landing-pages.md">Landing pages</a><br/><a href="./content/forms.md">Forms</a><br/><a href="./content/personalization-expressions.md">Personalization</a>
     </td>
-
+    <td>
+      <img src="../assets/do-not-localize/icon-configure.svg" width="35px" alt="Administration"><br/>
+      <strong>Administration</strong><br/><a href="./admin/email-channel-configuration.md">Configuration des e-mails</a><br/><a href="./admin/configuration-channels-whatsapp.md">Configuration de WhatsApp</a><br/><a href="./admin/program-types.md">Types de programmes</a>
+    </td>
   </tr>
 </table>
 
+<!-- >
 ## Additional resources
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a>
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
