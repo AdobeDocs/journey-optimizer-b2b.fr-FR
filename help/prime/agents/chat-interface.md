@@ -4,19 +4,13 @@ description: Utilisez le panneau de conversation de l’assistant AI dans Journe
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-12T22:46:23.441Z'
 TQID: 'https://experienceleague.adobe.com/XyBLmqv63kNBcw-Jo4hKvUKIn2la7kac7-kTbNEU5aE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a30218bb-f80a-4410-8ac4-b039e99a15b4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 878
 ht-degree: 1%
 
 ---
@@ -85,9 +79,11 @@ Les connecteurs ouvrent une boîte de dialogue modale au lieu d’insérer du te
 
 Une compétence est un workflow empaqueté que l’agent sait exécuter : les éléments de base à la fois du menu `/` et des requêtes en langage naturel. Chaque compétence regroupe des instructions détaillées et les outils spécifiques nécessaires pour une tâche (par exemple, « publier un parcours », « comparer deux listes de personnes », « créer un modèle de notation »).
 
+Consultez _[Compétences d’assistant AI](./skills.md)_ pour obtenir la liste complète des compétences actuellement prises en charge.
+
 Éléments clés à connaître concernant les compétences :
 
-* **Les compétences sont limitées au produit.** Dans AJO B2B Prime, vous verrez les compétences B2B d’AJO (parcours, listes de personnes, notation, canaux, optimisation de l’heure d’envoi, etc.). Quelques compétences sont limitées au Marketo et quelques-unes travaillent sur les deux produits (importation de lead, connaissance du produit). Vous ne voyez que les compétences pertinentes par rapport à l’endroit où vous êtes.
+* **Les compétences sont limitées au produit.** Dans [!DNL Journey Optimizer B2B Prime], vous verrez diverses compétences spécifiques au produit (parcours, listes de personnes, notation, canaux, optimisation de l’heure d’envoi, etc.). Quelques compétences sont en [!DNL Marketo Engage] seule et quelques-unes travaillent sur les deux produits (importation de lead, connaissance du produit). Vous ne voyez que les compétences pertinentes par rapport à l’endroit où vous êtes.
 * **Vous n’avez pas besoin de mémoriser les noms des compétences.** Décrivez votre objectif et l’agent sélectionne la compétence correspondante. Le menu `/` est un raccourci plus rapide et détectable vers les mêmes workflows.
 * **Certaines compétences ne font que lire, d’autres changent les choses.** Les compétences d’enquête et de rapport (par exemple, enquête de prospect, requête d’intention, rapport d’heure d’envoi) ne lisent que les données. Développez et configurez des compétences (par exemple, création de parcours, notation) pour créer ou modifier des données.
 
