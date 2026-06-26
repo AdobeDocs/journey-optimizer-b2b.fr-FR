@@ -14,10 +14,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,17 @@ Ajoutez le nœud _Écouter un événement_ pour faire passer votre audience à l
 
 ## Déclencheurs d’événement {#event-triggers}
 
-Obtenir la liste à partir du PM
+Vous pouvez créer des déclencheurs autour des activités [!DNL Marketo Engage], par exemple :
+
+* Remplit le formulaire : se déclenche lorsqu’une personne envoie un formulaire [!DNL Marketo Engage] sur votre page de destination.
+* Page web des visites - Se déclenche lorsqu’un prospect consulte une page web suivie (vous pouvez spécifier des URL exactes ou utiliser des caractères génériques).
+* Clics sur le lien : se déclenche lorsqu’un utilisateur clique sur un lien suivi dans un e-mail marketing.
+* Modifications de la valeur des données - Se déclenche lorsqu’un champ spécifique (comme le statut, la note ou le secteur du lead) est mis à jour dans l’enregistrement d’une personne.
+* Campagne demandée : souvent utilisé pour les intégrations d’API ou de webhook, ce déclencheur lance une campagne lorsqu’un autre programme ou service web l’appelle.
+* La note est modifiée - Se déclenche lorsque la note d’un prospect augmente ou diminue au-delà d’un certain seuil.
+* Mobile push activé : se déclenche dans les campagnes intelligentes de marketing mobile lorsqu’une notification push fait l’objet d’une interaction sur un appareil.
 
 ## Filtres d’événement {#event-filters}
-
-Obtenir la liste mise à jour à partir du PM
 
 | Filtres | Description |
 | ------- | ----------- |

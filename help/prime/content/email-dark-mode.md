@@ -15,7 +15,7 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1478
 ht-degree: 19%
@@ -53,7 +53,7 @@ Si vous définissez des paramètres personnalisés en mode sombre dans la concep
 
 +++
 
-+++Clients appliquant leurs propres {#default-support} en mode sombre
++++Clients qui appliquent leur propre mode sombre.
 
 Certains clients de messagerie appliquent systématiquement leur propre mode sombre par défaut à tous les e-mails reçus. Ils ajustent automatiquement les couleurs, les arrière-plans, les images et d’autres éléments en fonction de leurs paramètres de mode sombre. Les paramètres externes ne sont pas possibles. Ces clients sont les suivants :
 

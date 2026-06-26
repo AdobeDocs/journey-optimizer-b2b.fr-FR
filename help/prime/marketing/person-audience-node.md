@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -34,7 +34,7 @@ _Pour configurer l&#39;audience de parcours :_
 
    Cette action affiche les propriétés du nœud sur la droite.
 
-   ![Nœud de parcours d’audience de personne](./assets/person-audience-node-properties.png){width="500" zoomable="yes"}
+   ![Nœud de parcours d’audience de personne](./assets/person-audience-node-properties.png){width="600" zoomable="yes"}
 
 1. Utilisez l’une des options de configuration d’audience suivantes pour l’audience de personne :
 
