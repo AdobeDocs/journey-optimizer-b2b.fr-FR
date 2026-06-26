@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 0%
+source-wordcount: 365
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Le nœud _[!UICONTROL Personne]_ est automatiquement le premier nœud du parcour
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=fr) -->
+![Nœud d’audience de personne](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=fr)
 
 Nœud d’audience de personne
 
@@ -39,7 +39,7 @@ Le parcours commence toujours par un nœud d’audience de personne. Définissez
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr) -->
+![Nœuds d’action](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Nœuds d’action
 
@@ -49,7 +49,7 @@ Appliquez les modifications à chaque personne sur un chemin, comme l’envoi d�
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr) -->
+![Nœuds d’événement](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr) —>
 
 Nœuds d’événement
 
@@ -59,7 +59,7 @@ Faites passer l’utilisateur à l’étape de parcours suivante lorsqu’une ac
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr) -->
+![Nœuds d’attente](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
 
 Nœuds d’attente
 
@@ -69,7 +69,7 @@ Mettre en pause la progression du parcours pendant une durée définie ou jusqu�
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr) -->
+![Nœuds de chemins de division et de fusion](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Nœuds de chemins de division et de fusion
 
@@ -79,7 +79,7 @@ Segmentez les personnes dans des chemins distincts en fonction de conditions, ap
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=fr) -->
+![Meilleur nœud de chemin suivant](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=fr)
 
 Nœud du meilleur chemin suivant
 

@@ -15,7 +15,7 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -47,7 +47,7 @@ Il utilise les blocs de création suivants, configurés par un administrateur, g
 
 ## Limites actuelles {#limitations}
 
-* **Méthode de délégation personnalisée** pour la délégation de sous-domaine, n’est pas encore disponible — utilisez Fully Delegated ou CNAME. La délégation personnalisée est ciblée pour la version mise à disposition générale.
+* La **méthode de délégation personnalisée** pour la délégation de sous-domaine n’est pas encore disponible. Utilisez Fully Delegated ou CNAME. La délégation personnalisée est ciblée pour la version mise à disposition générale.
 * Les **Groupes d’adresses IP dédiés** ne sont pas disponibles dans Beta. Le pool d’adresses IP partagées est la seule option. Les adresses IP dédiées sont livrées à GA, y compris la planification du préchauffage des adresses IP et la gestion des enregistrements PTR.
 
 ## Principaux concepts {#key-concepts}

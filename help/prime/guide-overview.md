@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 20%
+source-wordcount: 494
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,7 @@ Commencer
 Effectuez la configuration initiale, puis apprenez à naviguer dans l’application et à utiliser la page d’accueil.
 
 [Configuration de l’administrateur](./start/setup-prime.md)
+
 [Page d’accueil](./home-insights/home-page.md)
 :::
 
@@ -47,8 +48,9 @@ Assistant IA
 
 Utilisez le langage naturel pour planifier des programmes, créer des parcours, gérer les audiences et créer du contenu avec des compétences d’IA agentique.
 
-Interface [Chat](./agents/chat-interface.md)
-[Compétences disponibles &#x200B;](./agents/skills.md)
+[Interface de conversation](./agents/chat-interface.md)
+
+[Compétences disponibles](./agents/skills.md)
 :::
 
 :::
@@ -69,7 +71,8 @@ Marketing Management
 Organisez les campagnes dans des programmes, concevez des parcours de personne avec du contenu multicanal et personnalisez-les à l’aide de jetons personnalisés.
 
 [Présentation marketing](./marketing/marketing-management.md)
-parcours de personne[&#128279;](./marketing/person-journeys.md)
+
+[Parcours de personne](./marketing/person-journeys.md)
 :::
 
 :::
@@ -80,7 +83,8 @@ Audiences
 Créez et conservez des listes de personnes, définissez des audiences basées sur des événements et suivez l’engagement avec des scores basés sur les rôles.
 
 [Listes de personnes](./audiences/people-lists.md)
-[scores d’engagement](./audiences/engagement-scores.md)
+
+[Scores d’engagement](./audiences/engagement-scores.md)
 :::
 
 :::
@@ -91,7 +95,9 @@ Contenu
 Créez des e-mails et des messages WhatsApp, gérez des modèles et des ressources, créez des landing pages et des formulaires et appliquez une personnalisation.
 
 [Création d’e-mails](./content/email-authoring.md)
+
 [Modèles](./content/templates.md)
+
 [Pages de destination](./content/landing-pages.md)
 :::
 
