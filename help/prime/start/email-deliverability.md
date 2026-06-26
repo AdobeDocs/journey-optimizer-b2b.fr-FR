@@ -4,18 +4,11 @@ description: Configurez la délégation de sous-domaines, DMARC, SPF, DKIM et le
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -27,19 +20,19 @@ ht-degree: 1%
 Les informations suivantes sont destinées aux administrateurs qui configurent l’infrastructure d’envoi pour prendre en charge les spécialistes marketing et les créateurs de contenu d’e-mail. Il décrit les fonctionnalités de délivrabilité et comment configurer des sous-domaines, l’authentification et les pools d’adresses IP. Consultez les rubriques suivantes pour plus d’informations sur les canaux e-mail :
 
 * Configuration des canaux e-mail - [Configuration du canal e-mail](../admin/email-channel-configuration.md)
-* Création d&#39;emails - [Ajouter des emails aux parcours &#x200B;](../marketing/email-channel.md)
+* Création d&#39;emails - [Ajouter des emails aux parcours ](../marketing/email-channel.md)
 * Conception de contenu d&#39;email - [Création de contenu d&#39;email](../content/email-authoring.md).
 
 Dans [!DNL Journey Optimizer B2B Prime], la délivrabilité des emails désigne l’ensemble des configurations d’infrastructure et d’authentification qui permettent aux emails d’atteindre la boîte de réception du destinataire, et non le dossier des spams, et qui ne sont pas bloqués par les FAI (fournisseurs d’accès Internet).
 
 Il utilise les blocs de création suivants, configurés par un administrateur, généralement dans l’ordre suivant :
 
-1. [&#x200B; Déléguer un ou plusieurs sous-domaines &#x200B;](#subdomain-delegation) à Adobe.
+1. [ Déléguer un ou plusieurs sous-domaines ](#subdomain-delegation) à Adobe.
 1. [Configurez les enregistrements DMARC, SPF et DKIM](#dmarc-spf-dkim) sur chaque sous-domaine.
 1. [Confirmez le groupe d’adresses IP](#ip-pools) utilisé pour envoyer un e-mail pour votre sous-domaine.
 1. [Créez une ou plusieurs configurations de canal e-mail](../admin/email-channel-configuration.md#create-email-channel-configuration) qui lient un sous-domaine, un groupe d’adresses IP et une identité d’expéditeur.
 
-![Configuration de la délivrabilité des e-mails pour Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
+![Configuration de la délivrabilité des e-mails pour Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
 >[!TIP]
 >
@@ -209,8 +202,8 @@ DMARC, SPF et DKIM sont des normes d’authentification de messagerie. Ensemble,
 | Enregistrement | Signifie | But |
 | ------ | ---------- | ------- |
 | **SPF** | Cadre de la politique de l&#39;expéditeur | Répertorie les adresses IP de serveur de messagerie autorisées à envoyer des e-mails à partir de votre domaine. Les serveurs de réception rejettent les e-mails provenant d’adresses IP qui ne figurent pas sur cette liste. Adobe crée et conserve automatiquement l’enregistrement SPF lorsque vous déléguez un sous-domaine (Délégation complète). |
-| **&#x200B;**&#x200B;| Message identifié DomainKeys | Une signature cryptographique ajoutée à chaque e-mail sortant. Le serveur de réception vérifie la signature par rapport à une clé publique publiée dans le DNS. Adobe génère automatiquement des clés DKIM et des enregistrements DNS lors de la délégation de sous-domaine. |
-| **&#x200B;**&#x200B;| Authentification, reporting et conformité des messages basés sur des domaines | Indique aux serveurs de réception ce qu’ils doivent faire en cas d’échec de SPF ou de DKIM et fournit des rapports sur les résultats de l’authentification. DMARC comporte trois modes de stratégie : aucun, mise en quarantaine et rejet. |
+| **** | Message identifié DomainKeys | Une signature cryptographique ajoutée à chaque e-mail sortant. Le serveur de réception vérifie la signature par rapport à une clé publique publiée dans le DNS. Adobe génère automatiquement des clés DKIM et des enregistrements DNS lors de la délégation de sous-domaine. |
+| **** | Authentification, reporting et conformité des messages basés sur des domaines | Indique aux serveurs de réception ce qu’ils doivent faire en cas d’échec de SPF ou de DKIM et fournit des rapports sur les résultats de l’authentification. DMARC comporte trois modes de stratégie : aucun, mise en quarantaine et rejet. |
 
 ### Modes de stratégie DMARC {#dmarc-policy-modes}
 

@@ -4,20 +4,14 @@ description: 'Examinez les compétences de l’assistant AI dans Journey Optimiz
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-24T23:55:36.649Z'
 TQID: 'https://experienceleague.adobe.com/iIi07OBWKxxa-oW-A6VrlkoTS02kmCx8kfMaCe-C-4o'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 8%
+source-wordcount: 582
+ht-degree: 7%
 
 ---
 
@@ -33,7 +27,7 @@ Une _compétence_ est un workflow empaqueté que l’agent sait exécuter, c’e
 
 | Compétence | Ce qu&#39;il fait | Accès | Surface de produit | Impact / flux de données |
 |---|---|---|---|---|
-| `falco-program-creation` | Création de programmes [!DNL Journey Optimizer B2B Prime] de bout en bout : programme, sous-dossiers, jetons, listes, parcours. | Écriture | [!DNL Journey Optimizer B2B Prime] | Lit + écrit [!DNL Journey Optimizer B2B Prime] |
+| `falco-program-creation` | Création de programmes [!DNL Journey Optimizer B2B Prime] de bout en bout : programme, sous-dossiers, jetons, listes, parcours. | Écriture | [!DNL Journey Optimizer B2B Prime] | Lit + écrit [!DNL Journey Optimizer B2B Prime]. Voir _[Créer un programme à partir d’un brief](./program-from-brief.md)_. |
 | `adapt-program` | Générer des récits de migration à partir de programmes [!DNL Marketo Engage] pour l&#39;adaptation [!DNL Journey Optimizer B2B Prime]. | Lecture | [!DNL Journey Optimizer B2B Prime] | Lit [!DNL Marketo Engage], écrit [!DNL Journey Optimizer B2B Prime] |
 | `folder-creation` | Créez des dossiers d’organisation dans l’arborescence de ressources. | Écriture | [!DNL Journey Optimizer B2B Prime] | Lit + écrit [!DNL Journey Optimizer B2B Prime] |
 | `program-creation` *(Créer des programmes)* | Créez des programmes Marketo à partir d’un résumé de campagne. | Écriture | [!DNL Marketo Engage] | Lit + écrit [!DNL Marketo Engage] |
@@ -56,7 +50,7 @@ Une _compétence_ est un workflow empaqueté que l’agent sait exécuter, c’e
 
 | Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
 |---|---|---|---|---|
-| `audience-creation` | Adapter une liste dynamique de [!DNL Marketo Engage], créer une liste de personnes ou ajouter/mettre à jour des règles. | Écriture | [!DNL Journey Optimizer B2B Prime] | Lit [!DNL Marketo Engage] + lit/écrit [!DNL Journey Optimizer B2B Prime] |
+| `audience-creation` | Adapter une liste dynamique de [!DNL Marketo Engage], créer une liste de personnes ou ajouter/mettre à jour des règles. | Écriture | [!DNL Journey Optimizer B2B Prime] | Lit [!DNL Marketo Engage] + lit/écrit [!DNL Journey Optimizer B2B Prime].  Voir _[Création d’audiences pour les programmes](./audience-creation.md)_. |
 | `people-list-comparison` | Comparer deux listes de personnes et afficher les membres qui se chevauchent | Lecture | [!DNL Journey Optimizer B2B Prime] | Lit [!DNL Journey Optimizer B2B Prime] |
 | `import-leads` | Inspectez la qualité des données CSV et validez les importations dans [!DNL Marketo Engage]. | Lecture+Écriture | Les deux | Lit + écrit [!DNL Marketo Engage] |
 | `lead-investigation` *(Enquêter sur les leads)* | Examiner l’activité, la notation, la qualification et le cycle de vie d’un prospect. | Lecture | [!DNL Marketo Engage] | Lit [!DNL Marketo Engage] |
@@ -73,7 +67,7 @@ Une _compétence_ est un workflow empaqueté que l’agent sait exécuter, c’e
 
 | Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
 |---|---|---|---|---|
-| `scoring-studio` | Répertorier/obtenir des modèles de notation et les créer/publier. | Lecture+Écriture | [!DNL Journey Optimizer B2B Prime] | Lit + écrit des [!DNL Journey Optimizer B2B Prime] (service de notation) ; lit [!DNL Marketo Engage] champs de prospect/types d’activité |
+| `scoring-studio` | Répertorier/obtenir des modèles de notation et les créer/publier. | Lecture+Écriture | [!DNL Journey Optimizer B2B Prime] | Lit + écrit des [!DNL Journey Optimizer B2B Prime] (service de notation) ; lit [!DNL Marketo Engage] champs de prospect/types d’activité. Voir _[Création de modèles de notation personnalisés](./lead-scoring-model.md)_. |
 | `engagementconfiguration` | Afficher la configuration de l&#39;engagement et modifier/mettre à jour les poids. | Lecture+Écriture | [!DNL Journey Optimizer B2B Prime] | Lit + écrit [!DNL Journey Optimizer B2B Prime] |
 | `intentconfiguration` | Afficher la configuration d&#39;intention et définir/mettre à jour les poids. | Lecture+Écriture | [!DNL Journey Optimizer B2B Prime] | Lit + écrit [!DNL Journey Optimizer B2B Prime] |
 | `intent-query` | Interroger et expliquer les scores d’intention par personne/segment/liste. | Lecture | [!DNL Journey Optimizer B2B Prime] | Lit [!DNL Journey Optimizer B2B Prime] |
