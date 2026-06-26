@@ -29,7 +29,7 @@ Le nœud _[!UICONTROL Personne]_ est automatiquement le premier nœud du parcour
 :::: landing-cards-container
 
 :::
-![Nœud d’audience de personne](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![Nœud d’audience de personne](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=fr)
 
 Nœud d’audience de personne
 
@@ -39,7 +39,7 @@ Le parcours commence toujours par un nœud d’audience de personne. Définissez
 :::
 
 :::
-![Nœuds d’action](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![Nœuds d’action](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Nœuds d’action
 
@@ -49,7 +49,7 @@ Appliquez les modifications à chaque personne sur un chemin, comme l’envoi d�
 :::
 
 :::
-![Nœuds d’événement](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) —>
+![Nœuds d’événement](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr) —>
 
 Nœuds d’événement
 
@@ -59,7 +59,7 @@ Faites passer l’utilisateur à l’étape de parcours suivante lorsqu’une ac
 :::
 
 :::
-![Nœuds d’attente](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![Nœuds d’attente](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
 
 Nœuds d’attente
 
@@ -69,7 +69,7 @@ Mettre en pause la progression du parcours pendant une durée définie ou jusqu�
 :::
 
 :::
-![Nœuds de chemins de division et de fusion](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![Nœuds de chemins de division et de fusion](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Nœuds de chemins de division et de fusion
 
@@ -79,7 +79,7 @@ Segmentez les personnes dans des chemins distincts en fonction de conditions, ap
 :::
 
 :::
-![Meilleur nœud de chemin suivant](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![Meilleur nœud de chemin suivant](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=fr)
 
 Nœud du meilleur chemin suivant
 
