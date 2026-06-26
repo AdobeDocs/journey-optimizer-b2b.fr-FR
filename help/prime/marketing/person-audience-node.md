@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -41,3 +41,4 @@ _Pour configurer l&#39;audience de parcours :_
    * **[!UICONTROL Liste dynamique]** - Utilisez une liste de personnes dynamique, basée sur des règles. Les règles de liste sont évaluées au moment de l’exécution du parcours pour qualifier les membres du parcours. Les personnes qui seront ultérieurement disqualifiées pour la liste dynamique ne seront pas supprimées du parcours. Voir _[Listes dynamiques](../audiences/people-lists.md#dynamic-lists)_.
 
    * **[!UICONTROL Audience de l’événement]** - Utilisez une audience d’événement pour définir l’audience du parcours en fonction des événements admissibles. Définissez des membres d’audience à l’aide du filtrage de profil de personne et déclenchez une entrée de parcours selon des critères d’événement. Voir _[Audiences basées sur un événement](../audiences/event-based-audiences.md)_.
+
