@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: 5905973b2fc677d6e6d9a24ac68691237c837037
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -283,13 +283,11 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 1. Utilisez les outils de conception visuelle nécessaires pour mettre à jour le contenu du formulaire :
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du formulaire.
@@ -310,13 +308,11 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 1. Cliquez sur **[!UICONTROL Modifier le formulaire]** dans le volet _[!UICONTROL Résumé]_ à droite et utilisez les outils de conception visuelle nécessaires :
 
    <!--
-
    * [Add fields](./form-design.md#add-field)
    * [Change field styling](./form-design.md#field-styling)
    * [Reorder fields](./form-design.md#field-reorder)
    * [Change submit button text and styling](./form-design.md#submit-button)
    * [Change the form styling](./form-design.md#form-styling)
-
    -->
 
    Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du formulaire.
