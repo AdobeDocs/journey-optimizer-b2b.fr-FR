@@ -3,21 +3,12 @@ title: Formulaires
 description: 'Créez et gérez des formulaires réutilisables pour la collecte de données métier : concevez des champs, définissez des pages de remerciement, publiez et suivez l’utilisation dans Journey Optimizer B2B Prime.'
 autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -33,7 +24,6 @@ La quantité d’informations que le formulaire doit capturer dépend de la vale
 >[!PREREQUISITES]
 >
 >Avant que les équipes marketing puissent créer et utiliser des formulaires pour capturer des informations, un administrateur doit définir un ou plusieurs paramètres prédéfinis de formulaire. Pour plus d’informations, voir [_Configurations_](../admin/configuration-presets-forms.md)
->
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -110,7 +100,7 @@ Avant de commencer à créer des formulaires réutilisables dans [!DNL Journey O
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Vous pouvez créer un formulaire dans [!DNL Journey Optimizer B2B Prime] en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
@@ -120,11 +110,8 @@ Vous pouvez créer un formulaire dans [!DNL Journey Optimizer B2B Prime] en cliq
    Exigences de formulaire :
 
    * Nom : 100 caractères maximum, doit être unique et ne pas respecter la casse.
-
    * Description - 300 caractères maximum
-
    * Les caractères Alpha, numériques et spéciaux sont autorisés
-
    * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
 
    <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
@@ -160,9 +147,7 @@ Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour enregistrer les modifica
 Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran jusqu’à la section **[!UICONTROL Page de remerciement]** et utilisez le paramètre **[!UICONTROL Suivre avec]** pour définir ce qui se passe lorsqu’un visiteur envoie le formulaire :
 
 * **[!UICONTROL Rester sur la page]** - Sélectionnez cette option pour que le visiteur reste sur la même page lors de l’envoi du formulaire.
-
 * **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination [!DNL Journey Optimizer B2B Prime] comme suite.
-
 * **[!UICONTROL URL externe]** - Sélectionnez cette option pour spécifier n’importe quelle URL comme page de suivi. Une fois que le visiteur a envoyé le formulaire, le navigateur charge l’URL désignée.
 
   >[!TIP]
@@ -259,7 +244,7 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 1. Pour apporter des modifications au formulaire dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier le formulaire]**.
 
-<!--
+   <!--
    Use the visual design tools as needed:
 
    * [Add fields](./form-design.md#add-field)
@@ -270,7 +255,7 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
    -->
 
-Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du formulaire.
+   Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du formulaire.
 
 1. Lorsque le formulaire répond à vos critères et que vous souhaitez le rendre disponible pour une utilisation dans une page de destination ou un modèle de page de destination, cliquez sur **[!UICONTROL Publier]**.
 
@@ -307,7 +292,6 @@ Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du 
 >[!TAB Publié avec le brouillon]
 
 1. Cliquez sur le nom du formulaire pour l’ouvrir.
-
 1. Sélectionnez l’onglet **[!UICONTROL Brouillon]**.
 
    Un aperçu du contenu du formulaire de version préliminaire s’affiche, avec les détails du formulaire à droite.
@@ -354,4 +338,3 @@ Lorsqu’un formulaire est inclus dans une page de destination ou un modèle de 
 Lorsque vous sélectionnez le formulaire dans l’espace de conception de la page de destination, ces actions sont disponibles dans la barre d’outils contextuelle et le panneau des propriétés à droite.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
-
