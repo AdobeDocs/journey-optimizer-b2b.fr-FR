@@ -1,7 +1,7 @@
 ---
 title: Création de contenu - Ajout de formulaires
 description: Section réutilisée sur l’ajout de formulaires dans les landing pages et les modèles
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -40,7 +40,7 @@ L’exemple suivant décrit les étapes à suivre pour ajouter un formulaire lor
      >
      >Si vous souhaitez utiliser le formulaire pour télécharger un fichier, vous pouvez spécifier une URL pour le fichier hébergé. Avec cette configuration, le bouton d’envoi fonctionne comme un bouton de téléchargement.
 
-   ![Modifier le paramètre de relance](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![Modifier le paramètre de relance](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. Si vous souhaitez limiter l’affichage du formulaire par type d’appareil, modifiez le paramètre **[!UICONTROL Options d’affichage]** :
 
