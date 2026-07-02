@@ -6,20 +6,14 @@ feature: Content Design Tools
 role: User
 autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
 workflow-type: tm+mt
 source-wordcount: 1634
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -38,7 +32,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_fragment"
 >title="À propos des composants de structure"
->abstract="Les composants de structure sont des éléments de disposition que vous pouvez utiliser pour concevoir la structure d’un fragment."
+>abstract="Les composants de structure sont des éléments de mise en page que vous pouvez utiliser pour concevoir la structure d’un fragment."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_template"
@@ -119,7 +113,7 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
+#### [!UICONTROL  Couleur d’arrière-plan ]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 
@@ -133,13 +127,13 @@ Déplacez le sélecteur pour activer les paramètres de l’image d’arrière-p
 
 Cliquez sur **[!UICONTROL Sélectionner une ressource]** pour ouvrir le sélecteur de ressources, où vous pouvez choisir une image dans la [bibliothèque Assets](./digital-asset-management.md#assets-authoring).
 
-Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [&#128279;](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
+Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
 
 ![Aperçu du positionnement de l’image d’arrière-plan sur un composant de structure](../../user/content/assets/structure-component-styles-background-image.png){width="250"}
 
 ### Autres styles {#other-styles}
 
-Vous pouvez appliquer d’autres styles de composant de structure pour ajuster son affichage dans l’e-mail ou la page de destination. Pour définir un style qui va au-delà de ces options intégrées, consultez la section [&#x200B; Ajouter un CSS personnalisé pour votre contenu &#x200B;](./design-custom-css.md).
+Vous pouvez appliquer d’autres styles de composant de structure pour ajuster son affichage dans l’e-mail ou la page de destination. Pour définir un style qui va au-delà de ces options intégrées, consultez la section [ Ajouter un CSS personnalisé pour votre contenu ](./design-custom-css.md).
 
 +++Bord
 
