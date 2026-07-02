@@ -20,7 +20,7 @@ role_v2:
 source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
 source-wordcount: 1037
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -117,7 +117,7 @@ La page e-mail s’ouvre lorsque vous créez un e-mail pour un nœud _[!UICONTRO
 
 1. (Facultatif) Cochez la case **[!UICONTROL Optimiser la taille d’HTML]** pour réduire la taille de votre HTML de messagerie pendant le processus de publication.
 
-   Cela permet d’éviter l’extraction d’e-mails dans les clients tels que Gmail, qui tronque les messages de plus de 100 Ko. Pour plus d’informations, voir [_Optimiser la taille de l’e-mail HTML_](#optimize-html-size).
+   Cela permet d’éviter l’écrêtage d’e-mails dans des clients tels que Gmail, qui tronque les messages de plus de 100 Ko. Pour plus d’informations, voir [_Optimiser la taille de l’e-mail HTML_](#optimize-html-size).
 
 1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour accéder aux outils de conception visuelle et commencer [à créer votre contenu](../content/email-authoring.md).
 
@@ -140,12 +140,12 @@ La page e-mail s’ouvre lorsque vous créez un e-mail pour un nœud _[!UICONTRO
 * Liens vides détectés
 * E-mail dépasse 100 000
 
-## Optimiser la taille de l’e-mail HTML {#optimize-html-size}
+## Optimiser la taille du HTML de l’e-mail {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
->title="Réduction de la taille d’HTML"
->abstract="Activez cette option pour compresser votre HTML d’e-mail lors de la publication en supprimant les espaces blancs, les mises en retrait et les commentaires non indispensables. Cela permet d’éviter l’extraction d’e-mails dans les clients tels que Gmail, qui tronque les messages de plus de 100 Ko."
+>title="Réduire la taille du HTML"
+>abstract="Activez cette option pour compresser le HTML de votre e-mail lors de la publication en supprimant les espaces blancs, les mises en retrait et les commentaires non indispensables. Cela permet d’éviter l’écrêtage d’e-mails dans des clients tels que Gmail, qui tronque les messages de plus de 100 Ko."
 
 [!DNL Journey Optimizer B2B Prime] vous permet de compresser votre version d’HTML par e-mail pendant le processus de publication en supprimant les espaces inutiles, la mise en retrait et les commentaires non indispensables. Conserver une petite taille pour HTML vous permet d’effectuer les opérations suivantes :
 

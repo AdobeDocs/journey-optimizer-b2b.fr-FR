@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
 workflow-type: tm+mt
 source-wordcount: 1634
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_fragment"
 >title="À propos des composants de structure"
->abstract="Les composants de structure sont des éléments de disposition que vous pouvez utiliser pour concevoir la structure d’un fragment."
+>abstract="Les composants de structure sont des éléments de mise en page que vous pouvez utiliser pour concevoir la structure d’un fragment."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_structure_components_template"

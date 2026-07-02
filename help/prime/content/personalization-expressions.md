@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
 source-wordcount: 1015
-ht-degree: 50%
+ht-degree: 55%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
 >title="À propos de l’éditeur de personnalisation"
->abstract="L’éditeur de personnalisation vous permet de sélectionner, d’organiser, de personnaliser et de valider des attributs de profil afin de créer du contenu personnalisé."
+>abstract="L’éditeur de personnalisation vous permet de sélectionner, organiser, personnaliser et valider des attributs de profil pour créer du contenu personnalisé."
 
 L’éditeur de personnalisation est l’élément central de la personnalisation dans [!DNL Journey Optimizer B2B Prime]. Utilisez-le là où vous avez besoin de contenu dynamique (dans les e-mails, les messages WhatsApp, les landing pages et les champs d’URL).
 
