@@ -3,24 +3,17 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c556fb63675dfd1d6e03f6b0143b3d3bd619557e
+source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
 workflow-type: tm+mt
-source-wordcount: 5167
-ht-degree: 66%
+source-wordcount: 5271
+ht-degree: 65%
 
 ---
 
@@ -30,7 +23,23 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+
+## Notes de mise à jour 2026.6 {#rel-2026-6}
+
+**Date de déploiement** : 10 juillet 2026
+
+<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
+
+| Type | Élément | Description |
+| ---- | ---- | ----------- |
+| Amélioration | Nœuds de parcours de chemin de partage - Variantes | Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. |
+| Amélioration | Nœuds de parcours de chemin de partage externe - parcours de personne | La prise en charge des nœuds de parcours de chemin de partage externes est désormais disponible pour les parcours de personnes. |
+| Amélioration | Nœuds de parcours d’action externe - parcours de personne | La prise en charge des nœuds de parcours d’action externe est désormais disponible pour les parcours de personnes. |
+
+>[!NOTE]
+>
+>Ces modifications de version commencent le déploiement le 10 juillet 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ## Notes de mise à jour 2026.5 {#rel-2026-5}
 
@@ -42,7 +51,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | ---- | ---- | ----------- |
 | Fonctionnalité | Pages de destination | Des pages de destination sont disponibles dans Journey Optimizer B2B edition pour prendre en charge les parcours et les programmes _(auparavant, il s’agissait d’une fonctionnalité de programme Beta)_. <ul><li>Les administrateurs peuvent configurer les sous-domaines et les préréglages de page de destination pour activer la publication des pages de destination. [En savoir plus](../admin/configure-channels-landing-pages.md)</li><li>Les marketeurs peuvent créer, concevoir et publier des pages de destination pour prendre en charge leurs parcours avec du contenu web personnalisé. [En savoir plus](../content/landing-pages.md)</li></ul> |
 | Fonctionnalité | Formulaires | Journey Optimizer B2B edition prend désormais en charge les composants de formulaire réutilisables pour activer l’envoi de données à partir des pages de destination _(auparavant une fonctionnalité de programme Beta)_. <ul><li>Les administrateurs peuvent configurer plusieurs paramètres prédéfinis de formulaire à l’aide de différentes combinaisons de jeux de données et de connexions en continu. [En savoir plus](../admin/configure-channels-forms.md)</li><li>Les marketeurs peuvent désormais définir des composants de formulaire réutilisables pour capturer les informations des visiteurs de la page web. [En savoir plus](../content/forms.md)</li></ul> |
-| Fonctionnalité | Filtre de liste des membres de compte | Utilisez l’appartenance à des listes de comptes comme point d’orchestration dans les parcours de compte. Les marketeurs peuvent créer des places sur la liste bloquée de comptes, des listes de priorités ou tout autre type de sous-ensemble de leur audience et fournir aux comptes des expériences uniques dans les parcours en fonction de leur appartenance. |
+| Fonctionnalité | Filtre de liste des membres de compte | Utilisez l’appartenance à une liste de comptes comme point d’orchestration dans les parcours de compte. Les marketeurs peuvent créer des places sur la liste bloquée de comptes, des listes de priorités ou tout autre type de sous-ensemble de leur audience et fournir aux comptes des expériences uniques dans les parcours en fonction de leur appartenance. |
 | Fonctionnalité | Filtrage de l’historique des événements d’expérience | Cette fonctionnalité permet à l’orchestration des parcours B2B d’utiliser l’engagement historique pour orienter les décisions basées sur le comportement des membres de l’audience. [En savoir plus](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Fonctionnalité | Nœuds de parcours du meilleur chemin suivant | Vous pouvez optimiser la prise de décision de chemin partagé pour les parcours de personne, en affinant la manière dont les audiences sont acheminées entre les chemins avant l’activation du parcours ou au moment de l’exécution. [En savoir plus](../journeys/next-best-path-node.md) |
 | Fonctionnalité | Tableau de bord des performances des e-mails | Le tableau de bord Performances des e-mails offre aux marketeurs une vue unifiée de l&#39;activité des e-mails sur tous les parcours dans Adobe Journey Optimizer B2B edition. [En savoir plus](../dashboards/email-performance-dashboard.md) |
