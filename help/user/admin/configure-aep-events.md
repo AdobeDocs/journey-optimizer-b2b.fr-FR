@@ -5,36 +5,28 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: 1632
 ht-degree: 12%
 
 ---
 
 # Sélectionner des événements d’expérience et des champs
 
-Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
+Les administrateurs peuvent sélectionner des Adobe Experience Platform (AEP) spécifiques [Événements d’expérience](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->L’utilisation des événements d’expérience et des champs dans Journey Optimizer B2B edition nécessite des schémas d’événement d’expérience activés pour le profil. Pour plus d’informations, consultez [Activer les profils clients en temps réel](https://experienceleague.adobe.com/fr/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} dans les tutoriels d’Experience Platform.
+>L’utilisation des événements d’expérience et des champs dans Journey Optimizer B2B edition nécessite des schémas d’événement d’expérience activés pour le profil. Pour plus d’informations, consultez [Activer les profils clients en temps réel](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} dans les tutoriels d’Experience Platform.
 
 L’utilisation des événements d’expérience AEP dans parcours est un processus en deux étapes :
 
@@ -66,6 +58,10 @@ Lorsque vous sélectionnez des événements pour atteindre les objectifs de votr
 >[!ENDSHADEBOX]
 
 ## Gestion des événements d’expérience {#manage-experience-events}
+
+>[!NOTE]
+>
+>Lors de la sélection de champs XDM pour _[!UICONTROL Standard]_, [!UICONTROL Relationnel] ou [!UICONTROL Événements], seuls les types de données de base sont pris en charge (chaîne, entier, double et booléen). Les tableaux et les objets ne sont pas autorisés.
 
 1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
@@ -129,7 +125,7 @@ Pour modifier les champs, modifiez les détails de l’événement.
 
 1. Cliquez sur le nom de l’événement ou cliquez sur l’icône _Plus_ ( **...** ) et choisissez **[!UICONTROL Modifier]**.
 
-   ![Cliquez sur l’icône du menu Plus &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Cliquez sur l’icône du menu Plus ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Modifier les champs]** pour ouvrir la boîte de dialogue _[!UICONTROL Sélectionner des champs]_ et ajouter d’autres champs.
 
@@ -487,5 +483,5 @@ Type d’événement : `leadOperation.interestingMoment`
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448685/?captions=fre_fr&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->
