@@ -4,22 +4,14 @@ description: Calculez les scores d’engagement des personnes pour les prospects
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,8 +19,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
->title="Score d’engagement de la personne"
->abstract="Les scores d’engagement des personnes reflètent le niveau d’engagement des prospects individuels en fonction de leurs activités récentes."
+>title="Score d’engagement des personnes"
+>abstract="Les scores d’engagement des personnes reflètent le niveau d’engagement des leads individuels en fonction de leurs activités récentes."
 
 Un score d’engagement de la personne est un nombre qui reflète le niveau d’engagement d’un prospect individuel. Les scores sont basés sur les activités qu’une personne effectue, chaque type d’activité comportant une valeur pondérée. Les scores sont normalisés au sein de votre instance (client) pour permettre une comparaison cohérente et obtenir des informations exploitables.
 
@@ -133,7 +125,7 @@ Lorsque vous ajoutez ou supprimez des membres d’une [liste de personnes statiq
 
 ### Parcours de personne {#person-journeys}
 
-Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ &#x200B;](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser le score d’engagement de la personne comme filtre de profil de personne pour contrôler quelles personnes rejoignent le chemin du parcours.
+Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ ](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser le score d’engagement de la personne comme filtre de profil de personne pour contrôler quelles personnes rejoignent le chemin du parcours.
 
 ![Filtrage de l’engagement des personnes pour une condition de chemin de partage](./assets/engagement-score-filter-split-path.png){width="700" zoomable="yes"}
 
@@ -151,7 +143,7 @@ Lorsque vous configurez la segmentation d’un parcours de personne dans un nœu
 
 Dans [!DNL Journey Optimizer B2B Prime], vous pouvez configurer la pondération du score d’engagement directement à partir de l’interface de chat de l’assistant [AI](../agents/chat-interface.md).
 
-Pour obtenir des informations sur les modèles de score d’engagement, les bandes de pondération et les poids d’activité, voir [Configurer la pondération de score d’engagement personnalisé](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Pour obtenir des informations sur les modèles de score d’engagement, les bandes de pondération et les poids d’activité, voir [Configurer la pondération de score d’engagement personnalisé](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Ouvrez le panneau de conversation **[!UICONTROL Assistant AI]** dans la partie gauche de l’écran (icône de conversation).
 
@@ -222,3 +214,4 @@ L’activation d’un brouillon archive automatiquement le modèle précédemmen
 1. Cliquez sur **[!UICONTROL Activer]** en haut à droite.
 
 1. Confirmez dans la boîte de dialogue.
+
