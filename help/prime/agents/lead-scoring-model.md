@@ -14,7 +14,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 2%
@@ -61,11 +61,11 @@ Le modèle créé est organisé en _dimensions_ et _signaux_. Vous pouvez config
 * **Activité ou attribut** — Élément spécifique à noter
 * **Paramètres du signal** — Paramètres réglables pour le signal
 
-Vous pouvez créer et configurer des modèles entièrement via l’agent en utilisant le langage naturel ou interagir directement avec les commandes de l’interface utilisateur.
+Vous pouvez créer et configurer des modèles entièrement via l’assistant AI en utilisant le langage naturel ou interagir directement avec les commandes de l’interface utilisateur.
 
 ## Publication d’un modèle de notation {#publish-model}
 
-Une fois votre modèle finalisé, demandez à l’agent de le publier. Le processus de publication gère automatiquement les éléments suivants :
+Une fois votre modèle finalisé, demandez à l’assistant AI de le publier. Le processus de publication gère automatiquement les éléments suivants :
 
 | Étape | Ce qui se passe |
 |---|---|
