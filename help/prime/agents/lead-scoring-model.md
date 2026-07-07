@@ -4,17 +4,11 @@ description: Créez, prévisualisez et publiez des modèles de notation de prosp
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-25T21:20:26.754Z'
 TQID: 'https://experienceleague.adobe.com/-D5EaJ-3GQ5iwaE6hChscZGEdflKmZ3tdp6VUNuPjWk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 2%
@@ -28,7 +22,7 @@ ht-degree: 2%
 >title="Studio de notation"
 >abstract="Utilisez les compétences de Scoring Studio pour créer, configurer et publier des modèles de notation de prospect personnalisés via l’interface de chat de l’assistant AI."
 
-La compétence [_Studio de notation_ &#x200B;](./skills.md#scoring-signals) de [!DNL Adobe Journey Optimizer B2B Prime] fournit une solution de notation de prospect native à l’IA qui vous permet de créer, de configurer et de publier des modèles de notation de prospect. Studio associe un workflow piloté par les agents à une interface utilisateur visuelle. Vous pouvez créer des modèles de notation à l’aide d’invites en langage naturel dans l’interface de chat de l’assistant [AI](./chat-interface.md) ou en interagissant directement avec les commandes de l’interface utilisateur.
+La compétence [_Studio de notation_ ](./skills.md#scoring-signals) de [!DNL Adobe Journey Optimizer B2B Prime] fournit une solution de notation de prospect native à l’IA qui vous permet de créer, de configurer et de publier des modèles de notation de prospect. Studio associe un workflow piloté par les agents à une interface utilisateur visuelle. Vous pouvez créer des modèles de notation à l’aide d’invites en langage naturel dans l’interface de chat de l’assistant [AI](./chat-interface.md) ou en interagissant directement avec les commandes de l’interface utilisateur.
 
 * **Compétences** - `scoring-studio`
 * **Invocation** - Utilisez une barre oblique pour ouvrir Scoring Studio. Par exemple : _« open Scoring Studio.«_
@@ -61,11 +55,11 @@ Le modèle créé est organisé en _dimensions_ et _signaux_. Vous pouvez config
 * **Activité ou attribut** — Élément spécifique à noter
 * **Paramètres du signal** — Paramètres réglables pour le signal
 
-Vous pouvez créer et configurer des modèles entièrement via l’agent en utilisant le langage naturel ou interagir directement avec les commandes de l’interface utilisateur.
+Vous pouvez créer et configurer des modèles entièrement via l’assistant AI en utilisant le langage naturel ou interagir directement avec les commandes de l’interface utilisateur.
 
 ## Publication d’un modèle de notation {#publish-model}
 
-Une fois votre modèle finalisé, demandez à l’agent de le publier. Le processus de publication gère automatiquement les éléments suivants :
+Une fois votre modèle finalisé, demandez à l’assistant AI de le publier. Le processus de publication gère automatiquement les éléments suivants :
 
 | Étape | Ce qui se passe |
 |---|---|
