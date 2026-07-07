@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
+source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 12%
@@ -63,13 +63,13 @@ Lorsque vous sélectionnez des événements pour atteindre les objectifs de votr
 
 * Vous pouvez référencer un événement d’expérience dans plusieurs parcours ou l’utiliser plusieurs fois dans le même parcours.
 
+>[!NOTE]
+>
+>Lors de la sélection de champs XDM pour _[!UICONTROL Standard]_, _[!UICONTROL Relationnel]_ ou _[!UICONTROL Événements]_, seuls les types de données de base sont pris en charge (chaîne, entier, double et booléen). Les tableaux et les objets ne sont pas autorisés.
+
 >[!ENDSHADEBOX]
 
 ## Gestion des événements d’expérience {#manage-experience-events}
-
->[!NOTE]
->
->Lors de la sélection de champs XDM pour _[!UICONTROL Standard]_, [!UICONTROL Relationnel] ou [!UICONTROL Événements], seuls les types de données de base sont pris en charge (chaîne, entier, double et booléen). Les tableaux et les objets ne sont pas autorisés.
 
 1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
