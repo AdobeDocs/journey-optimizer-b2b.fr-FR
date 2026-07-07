@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
->title="Score d’engagement de la personne"
->abstract="Les scores d’engagement des personnes reflètent le niveau d’engagement des prospects individuels en fonction de leurs activités récentes."
+>title="Score d’engagement des personnes"
+>abstract="Les scores d’engagement des personnes reflètent le niveau d’engagement des leads individuels en fonction de leurs activités récentes."
 
 Un score d’engagement de la personne est un nombre qui reflète le niveau d’engagement d’un prospect individuel. Les scores sont basés sur les activités qu’une personne effectue, chaque type d’activité comportant une valeur pondérée. Les scores sont normalisés au sein de votre instance (client) pour permettre une comparaison cohérente et obtenir des informations exploitables.
 
@@ -222,3 +222,4 @@ L’activation d’un brouillon archive automatiquement le modèle précédemmen
 1. Cliquez sur **[!UICONTROL Activer]** en haut à droite.
 
 1. Confirmez dans la boîte de dialogue.
+
