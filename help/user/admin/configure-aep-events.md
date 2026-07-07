@@ -19,16 +19,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: 1632
 ht-degree: 12%
 
 ---
 
 # Sélectionner des événements d’expérience et des champs
 
-Les administrateurs peuvent sélectionner des [événements d’expérience AEP spécifiques](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
+Les administrateurs peuvent sélectionner des Adobe Experience Platform (AEP) spécifiques [Événements d’expérience](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
@@ -66,6 +66,10 @@ Lorsque vous sélectionnez des événements pour atteindre les objectifs de votr
 >[!ENDSHADEBOX]
 
 ## Gestion des événements d’expérience {#manage-experience-events}
+
+>[!NOTE]
+>
+>Lors de la sélection de champs XDM pour _[!UICONTROL Standard]_, [!UICONTROL Relationnel] ou [!UICONTROL Événements], seuls les types de données de base sont pris en charge (chaîne, entier, double et booléen). Les tableaux et les objets ne sont pas autorisés.
 
 1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
