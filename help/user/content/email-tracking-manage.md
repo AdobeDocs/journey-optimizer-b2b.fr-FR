@@ -7,11 +7,20 @@ role: User
 level: Beginner, Intermediate
 autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
 workflow-type: tm+mt
 source-wordcount: 712
@@ -35,7 +44,7 @@ Utilisez cette option pour qu’un e-mail spécifique ne signale jamais l’acti
 
    ![Désactiver le suivi des ouvertures d’e-mail](./assets/email-tracking-disable-all.png){width="500" zoomable="yes"}
 
-   Pour obtenir la liste complète des propriétés d’e-mail](./add-email.md#define-the-email-settings) voir [ Définir les paramètres d’e-mail .
+   Pour obtenir la liste complète des propriétés d’e-mail[&#128279;](./add-email.md#define-the-email-settings) voir  Définir les paramètres d’e-mail .
 
 ## Segmenter les personnes en fonction des préférences de tracking {#segment-people-tracking-preference}
 
@@ -73,7 +82,7 @@ Le workflow comporte trois parties :
 
 ### Ajouter un chemin de partage pour le suivi des désinscriptions {#add-split-path-tracking}
 
-Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ ](../journeys/split-merge-paths-nodes.md#split-paths-by-people) et définissez un chemin pour chaque valeur de préférence de suivi.
+Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ &#x200B;](../journeys/split-merge-paths-nodes.md#split-paths-by-people) et définissez un chemin pour chaque valeur de préférence de suivi.
 
 1. Ajoutez un nœud **[!UICONTROL Chemins partagés]** et choisissez **[!UICONTROL Personnes]** pour le partage.
 
@@ -89,7 +98,7 @@ Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ ](../jou
 
 ### Configuration des variantes d’e-mail de tracking et de non-tracking {#configure-tracking-and-non-tracking-email-variants}
 
-Ajoutez un nœud d’action [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md) à chaque chemin d’accès afin que chaque personne reçoive la variante d’e-mail correspondant à sa préférence de suivi.
+Ajoutez un nœud d’action [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md) à chaque chemin d’accès afin que chaque personne reçoive la variante d’e-mail correspondant à sa préférence de suivi.
 
 1. Sur le chemin activé pour le suivi, ajoutez une action **[!UICONTROL Envoyer un e-mail]** et sélectionnez ou créez l’e-mail comme d’habitude, en laissant **[!UICONTROL Désactiver le suivi des ouvertures]** effacé dans les propriétés d’e-mail.
 
