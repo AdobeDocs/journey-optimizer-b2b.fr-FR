@@ -1,18 +1,18 @@
 ---
 title: Création de contenu - Ajout de formulaires
 description: Section réutilisée sur l’ajout de formulaires dans les landing pages et les modèles
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Création de contenu - Ajout de formulaires
 
-Un formulaire est un composant réutilisable pouvant être référencé par plusieurs pages de destination et modèles de page de destination dans Adobe Journey Optimizer B2B edition. Il s’agit d’un bloc de champs et d’un bouton d’envoi qui peuvent être précréés et rapidement insérés pour accélérer la conception des pages et la rendre plus cohérente.
+Un formulaire est un composant réutilisable pouvant être référencé par plusieurs pages de destination et modèles de page de destination. Il s’agit d’un bloc de champs et d’un bouton d’envoi qui peuvent être précréés et rapidement insérés pour accélérer la conception des pages et la rendre plus cohérente.
 
-L’exemple suivant décrit les étapes à suivre pour ajouter un formulaire lors de la conception de votre page.
+L’exemple suivant décrit les étapes à suivre pour ajouter un formulaire lors de la conception de votre page de destination.
 
 1. Sous la section **[!UICONTROL Contenu]**, faites glisser l’élément **[!UICONTROL Formulaire]** et déposez-le dans un composant structurel de l’espace de conception de page.
 
@@ -28,11 +28,11 @@ L’exemple suivant décrit les étapes à suivre pour ajouter un formulaire lor
 
 1. Si vous souhaitez remplacer le **[!UICONTROL type de suivi]** par défaut pour le formulaire, modifiez le paramètre en fonction des exigences de la page ou du modèle.
 
-   Il s’agit également de la page _Merci_ pour le formulaire. Ce paramètre détermine ce qui se passe lorsqu’un visiteur envoie le formulaire :
+   Il s’agit également de la _page de remerciement_ pour le formulaire. Ce paramètre détermine ce qui se passe lorsqu’un visiteur envoie le formulaire :
 
    * **[!UICONTROL Rester sur la page]** - Sélectionnez cette option pour que le visiteur reste sur la même page lors de l’envoi du formulaire.
 
-   * **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination Journey Optimizer B2B edition ou Marketo Engage comme suite.
+   * **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle autre page de destination comme suite.
 
    * **[!UICONTROL URL externe]** - Sélectionnez cette option pour spécifier n’importe quelle URL comme page de suivi. Une fois que le visiteur a envoyé le formulaire, le navigateur charge l’URL désignée.
 
