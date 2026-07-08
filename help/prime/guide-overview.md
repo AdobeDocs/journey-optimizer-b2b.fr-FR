@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 64ff7b95a5d96376be096ba4d957fdb8020d4e7e
+source-git-commit: 966789b4ea702ab057da6dec419f6128b1d0c093
 workflow-type: tm+mt
 source-wordcount: 436
 ht-degree: 5%
@@ -29,11 +29,11 @@ ht-degree: 5%
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
-  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr"  alt="Liste de contrôle de configuration"></a> </td>
-  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="https://cdn.experienceleague.adobe.com/icons/home.svg?lang=fr"  alt="Page d’accueil"></a> </td>
-  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=fr"  alt="Interface de chat de l’assistant AI"></a> </td>
-  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/users-gear.svg?lang=fr"  alt="Hub des activités marketing"></a> </td>
-  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="https://cdn.experienceleague.adobe.com/icons/images.svg?lang=fr"  alt="Gestion des ressources numériques"></a> </td>
+  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="../assets/do-not-localize/setup-teal.svg"  alt="Liste de contrôle de configuration"></a> </td>
+  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="../assets/do-not-localize/home-page-teal.svg"  alt="Page d’accueil"></a> </td>
+  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="../assets/do-not-localize/ai-assistant-teal.svg"  alt="Interface de chat de l’assistant AI"></a> </td>
+  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="../assets/do-not-localize/marketing-hub-teal.svg"  alt="Hub des activités marketing"></a> </td>
+  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="../assets/do-not-localize/asset-management-teal.svg"  alt="Gestion des ressources numériques"></a> </td>
   <tr style="border: 0;">
     <td valign="top">
     <div><strong>Configuration</strong><br/><br/>Effectuez l’installation et la configuration initiales afin que votre équipe marketing puisse commencer.</div>
