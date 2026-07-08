@@ -15,7 +15,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 2%
@@ -102,3 +102,4 @@ Lorsque vous configurez la segmentation d’un parcours de personne dans un nœu
 1. Dans la condition de filtre, choisissez **[!UICONTROL is]** et sélectionnez une ou plusieurs personnes dans la liste.
 
 1. Cliquez sur **[!UICONTROL Terminé]** pour enregistrer le filtre du chemin d’accès.
+
