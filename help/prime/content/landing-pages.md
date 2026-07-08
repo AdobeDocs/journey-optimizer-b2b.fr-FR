@@ -1,28 +1,23 @@
 ---
 title: Pages de destination
 description: 'Créez, concevez et publiez des pages de destination pour les parcours de personne : créez entièrement, importez des HTML, ajoutez des formulaires, personnalisez du contenu et des liens à partir d’e-mails dans Journey Optimizer B2B Prime.'
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
-source-wordcount: 2164
-ht-degree: 9%
+source-wordcount: 1599
+ht-degree: 3%
 
 ---
 
 # Pages de destination
 
-Une page de destination est une page web autonome où vous pouvez diriger les contacts et les clients après qu&#39;ils ont cliqué sur un élément lié dans un e-mail, un SMS ou tout emplacement numérique. Vous pouvez incorporer ces pages dans vos parcours pour que vos prospects et vos clients voient vos messages sur le web et progressent dans vos parcours. Vous pouvez créer, personnaliser et prévisualiser des pages de destination dans l’espace de conception visuelle de la page de destination.
+Une page de destination est une page web autonome où vous pouvez diriger les contacts et les clients après qu&#39;ils ont cliqué sur un élément lié dans un e-mail, un SMS ou tout emplacement numérique. Vous pouvez incorporer ces pages dans vos parcours pour que vos prospects et vos clients voient vos messages sur le web et progressent dans vos parcours.
 
 Cas d’utilisation courants des pages de destination :
 
@@ -32,26 +27,23 @@ Cas d’utilisation courants des pages de destination :
 * Dirigez les personnes vers des informations spécifiques à une campagne conçues pour votre orchestration de parcours.
 * Rediriger les personnes vers un formulaire web dédié sans créer de page externe en dehors de [!DNL Journey Optimizer B2B Prime].
 
-<!-- 
-## Landing page workflow
+## Workflow de la page de destination {#workflow}
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
+Pour diriger les membres d&#39;une audience de parcours vers une page web définie lorsqu&#39;ils cliquent sur un lien spécifique, créez une landing page dans [!DNL Journey Optimizer B2B Prime] :
 
+1. [Créer la page](./landing-pages-create-publish.md#create-landing-page) - Sélectionnez un paramètre prédéfini, configurez la page principale et ajoutez les sous-pages requises.
+1. [Concevoir le contenu de la page de destination](./landing-page-design.md) - Créez le contenu de la page à l’aide des composants de conception visuelle par glisser-déposer.
+1. [Tester la page de destination](./landing-pages-create-publish.md#test-landing-page) - Prévisualisez la page et testez le comportement du formulaire.
+1. [Publier la page de destination](./landing-pages-create-publish.md#publish-landing-page) - Publier pour rendre la page active et disponible pour la liaison.
+1. [Lien vers la page à partir de votre parcours ](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
 
-1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
-1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
-1. [Test the landing page](./landing-pages-create.md) - Preview the page, test form behavior, and then publish to make it live.
-1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
-
-
-For example, you can create and design landing pages to direct your users to online information. The page could include a form where they can opt in or opt out from receiving your communications. Or it could be an opportunity to subscribe to a recurring communications, such as a newsletter. 
-
-You can create, personalize, and preview landing pages in the visual design space.
--->
+Par exemple, vous pouvez créer et concevoir des pages de destination pour diriger vos utilisateurs vers des informations en ligne. La page peut inclure un formulaire dans lequel ils peuvent s’inscrire ou refuser de recevoir vos communications. Il peut également s’agir d’une opportunité de s’abonner à une communication récurrente, telle qu’une newsletter.
 
 ## Accéder aux pages de destination et les gérer {#access-manage-landing-pages}
 
 Pour accéder aux pages de destination dans [!DNL Journey Optimizer B2B Prime], accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]**. Cette action affiche la liste de toutes les pages de destination créées dans l’instance.
+
+![Accéder à la bibliothèque de pages de destination](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
 La liste est triée en fonction de la colonne _[!UICONTROL Modifié]_, les éléments les plus récemment mis à jour étant en haut. Cliquez sur le titre de la colonne pour passer d’un ordre croissant à un ordre décroissant.
 
@@ -81,131 +73,7 @@ Le statut de la page de destination détermine sa disponibilité pour la liaison
 | Publié | Lorsque vous publiez une landing page, elle est hébergée sur l&#39;instance [!DNL Journey Optimizer B2B Prime] et vous pouvez la lier dans le contenu d&#39;un e-mail ou d&#39;un SMS. Actions disponibles :<br/><ul><li>Modifier le nom ou la description</li><li>Modifier l&#39;URL du lien</li><li>Ajouter un lien dans le contenu d’un e-mail ou d’un SMS</li><li>Créer une version brouillon</li><li>Dupliquer</li><li>Supprimer</li></ul> |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’une page de destination publiée, la version publiée est conservée et le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans la page hébergée. Actions disponibles :<br/><ul><li>Modifier le nom ou la description</li><li>Modifier l&#39;URL du lien</li><li>Ajouter un lien dans le contenu d’un e-mail ou d’un SMS</li><li>Modifier le brouillon dans l’espace de conception visuelle</li><li>Publier le brouillon</li><li>Dupliquer</li><li>Supprimer (supprime les deux versions)</li><li>Ignorer le brouillon (revient au statut publié)</li></ul> |
 
-<!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
-
-## Créer une page de destination {#create-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b-prime_lp_create"
->title="Définissez et configurez votre page de destination."
->abstract="Pour créer une page de destination, vous devez sélectionner un préréglage, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier."
-
-Pour diriger les membres d’une audience de parcours de personnes vers une page web définie lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans [!DNL Journey Optimizer B2B Prime]. Vous sélectionnez un paramètre prédéfini, configurez la page principale et les sous-pages, [testez la page](#test-landing-page) et publiez-la.
-
->[!IMPORTANT]
->
->Avant de créer votre première page de destination, effectuez sa configuration. Cela inclut la configuration d’un sous-domaine pour héberger vos pages de destination et la définition d’au moins un préréglage qui spécifie le sous-domaine et d’autres paramètres de canal. Vous sélectionnez un préréglage lors de la création de la page de destination. Pour la configuration de l’administrateur, voir [Configuration de la page de destination](../admin/configuration-presets-landing-pages.md).
->
->Pour les cas d’utilisation de capture de données, créez un [formulaire](./forms.md) avant de l’incorporer dans une page de destination.
-
-Pour créer une landing page, procédez comme suit :
-
-1. Accédez au volet de navigation de gauche et sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]**.
-
-1. Dans la liste des pages de destination, cliquez sur **[!UICONTROL Créer une page de destination]**.
-
-1. Saisissez un **[!UICONTROL Titre]** (obligatoire) et un **[!UICONTROL Description]** (facultatif).
-
-   Critères de titre et de description :
-
-   * **Titre** — 100 caractères maximum. Doit être unique (non-respect de la casse).
-   * **Description** — 300 caractères maximum.
-   * Les caractères Alpha, numériques et spéciaux sont autorisés.
-   * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
-
-1. Sélectionnez un **[!UICONTROL paramètre prédéfini]**.
-
-   Un administrateur [crée des préréglages de page de destination](../admin/configuration-presets-landing-pages.md#lp-presets) pour définir le sous-domaine et les autres paramètres utilisés pour les pages de destination. Sélectionnez un paramètre prédéfini, puis cliquez sur **[!UICONTROL Afficher le paramètre prédéfini]** pour consulter ses paramètres et confirmer qu’ils correspondent aux exigences de votre page de destination.
-
-1. Cliquez sur **[!UICONTROL Créer]**.
-
-   La page principale et ses propriétés s’affichent. Découvrez comment [&#x200B; configurer les paramètres de la page principale &#x200B;](#configure-primary-page).
-
-1. Pour ajouter une sous-page (par exemple, une page de remerciement ou d’erreur), cliquez sur l’icône **+**.
-
-   Vous pouvez ajouter jusqu’à deux sous-pages par page de destination.
-
-Une fois que vous avez configuré et conçu la page principale et les sous-pages, [testez votre page de destination](#test-landing-page) avant de la publier.
-
->[!CAUTION]
->
->Vous ne pouvez pas accéder à votre page de destination en copiant-collant l’URL définie dans un navigateur web, même si la page est publiée. Testez la page à l’aide de la fonction d’aperçu, comme décrit dans [Tester la page de destination](#test-landing-page).
-
-## Configurer la page principale {#configure-primary-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b-prime_lp_primary_page"
->title="Définissez les paramètres de votre page principale."
->abstract="Définissez la page principale, qui s’affiche immédiatement lorsqu’un ou une destinataire clique sur le lien de la page de destination, par exemple à partir d’un e-mail ou d’un site web."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b-prime_lp_access_settings"
->title="Définissez lʼURL de votre page de destination."
->abstract="Dans cette section, définissez une URL de page de destination unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du préréglage que vous avez sélectionné."
-
-La page principale est la page qui s’affiche immédiatement lorsqu’un destinataire clique sur le lien de la page de destination, par exemple à partir d’un e-mail ou d’un site web.
-
-Pour définir les paramètres de la page principale, procédez comme suit :
-
-1. Modifiez le **[!UICONTROL Nom de la page]** en fonction de vos besoins, qui est par défaut la page de Principal __.
-
-1. Définissez la partie de fin de l’URL de la page.
-
-   Le préréglage que vous avez sélectionné détermine la première partie de l’URL. Un administrateur configure le [sous-domaine de page de destination](../admin/configuration-presets-landing-pages.md#lp-subdomains) dans le cadre du préréglage.
-
-   >[!CAUTION]
-   >
-   >LʼURL de la page de destination doit être unique.
-   >
-   >Vous ne pouvez pas accéder à votre page de destination en copiant-collant cette URL dans un navigateur web, même si la page est publiée. Testez-la à l’aide de la fonction d’aperçu, comme décrit dans [Tester la page de destination](#test-landing-page).
-
-1. Si vous souhaitez une page de destination anonyme, désactivez l’option **[!UICONTROL Exiger des utilisateurs identifiés]**.
-
-1. Cliquez sur l’icône _Calendrier_ pour définir le **[!UICONTROL Expiration de la page]**.
-
-   Après avoir sélectionné une date d’expiration, choisissez l’action lors de l’expiration de la page :
-
-   * **[!UICONTROL URL de redirection]** - Saisissez l’URL de la page à utiliser comme redirection.
-   * **[!UICONTROL Erreur de navigateur]** - Saisissez le texte de l’erreur à afficher à la place de la page.
-
-## Tester la page de destination {#test-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b-prime_preview_lp_profiles"
->title="Prévisualiser et tester votre page de destination"
->abstract="Après avoir défini les paramètres et le contenu de votre page de destination, utilisez des profils de test pour prévisualiser la page."
-
-Lorsque les paramètres et le contenu de la page de destination sont définis, vous pouvez utiliser des profils de test pour prévisualiser la page. Si vous avez inséré du [contenu personnalisé](email-authoring.md#personalize-content), vous pouvez vérifier l’affichage de celui-ci dans la page de destination à l’aide des données de profil de test.
-
->[!PREREQUISITES]
->
->Pour prévisualiser et tester des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]** et d’un jeu de données défini contenant des profils de test.
-
-1. Cliquez sur **[!UICONTROL Aperçu et test]** pour ouvrir la sélection du profil de test.
-
-   >[!NOTE]
-   >
-   >Vous pouvez également utiliser la fonction **[!UICONTROL Simuler du contenu]** lorsque vous vous trouvez dans l’espace de conception visuelle.
-
-1. Dans l’écran _[!UICONTROL Simuler]_, sélectionnez un profil de test.
-
-   Si les profils dont vous avez besoin ne sont pas répertoriés, cliquez sur **[!UICONTROL Gérer les profils de test]** pour utiliser une adresse e-mail de profil de test connu et l’ajouter à la liste.
-
-   +++Ajout de profils de test
-
-   Pour **[!UICONTROL Espace de noms d’identité]**, cliquez sur l’icône _Sélectionner_ ( ![Icône Sélectionner](../../user/assets/do-not-localize/icon-select-data.svg) ) et choisissez l’espace de noms d’`Email` à utiliser pour tester les profils.
-
-   Dans le champ **[!UICONTROL Valeur d’identité]**, saisissez l’adresse e-mail pour identifier le profil de test et cliquez sur **[!UICONTROL Ajouter un profil]**. Vous pouvez répéter cette opération pour ajouter plusieurs profils.
-
-   Cliquez sur la flèche vers l’arrière en haut à gauche pour revenir à la page _[!UICONTROL Simuler]_.
-
-   +++
-
-1. Sélectionnez **[!UICONTROL Ouvrir l’aperçu]** pour tester votre page de destination.
-
-   L’aperçu de la page de destination s’ouvre dans un nouvel onglet. Les données du profil de test sélectionné remplacent les éléments personnalisés.
-
-1. Sélectionnez dʼautres profils de test pour prévisualiser le rendu de chaque variante de votre page de destination.
+![Cycle de vie du statut de la page de destination](../../user/content/assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ## Modification d’une page de destination {#edit-landing-page}
 
@@ -225,9 +93,17 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
 1. Modifiez l’un des détails, tels que le nom et la description.
 
-   <!-- ![Details for landing page with Draft status](./assets/landing-page-draft-details.png){width="700" zoomable="yes"} -->
+   ![Détails de la page de destination avec le statut Brouillon](../../user/content/assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
 1. Pour apporter des modifications au contenu de l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier la page de destination]**.
+
+   Utilisez les outils de conception visuelle selon vos besoins :
+
+   * [Ajouter la structure et le contenu](./landing-page-design.md#structure-content-landing-page)
+   * [Ajout de ressources](./landing-page-design.md#add-assets)
+   * [Parcourir les calques, paramètres et styles](./landing-page-design.md#navigate-layers-settings-styles)
+   * [Personnaliser le contenu](./landing-page-design.md#personalize-content)
+   * [Modifier le tracking des URL liées](./landing-page-design.md#linked-url-tracking)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
@@ -247,6 +123,14 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
    Cliquez sur **[!UICONTROL Créer un brouillon]** dans la boîte de dialogue pour ouvrir le brouillon dans l’espace de conception visuelle.
 
+   Utilisez les outils de conception visuelle selon vos besoins :
+
+   * [Ajouter la structure et le contenu](./landing-page-design.md#structure-content-landing-page)
+   * [Ajout de ressources](./landing-page-design.md#add-assets)
+   * [Parcourir les calques, paramètres et styles](./landing-page-design.md#navigate-layers-settings-styles)
+   * [Personnaliser le contenu](./landing-page-design.md#personalize-content)
+   * [Modifier le tracking des URL liées](./landing-page-design.md#linked-url-tracking)
+
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
 1. Lorsque le brouillon de la page de destination répond à vos critères et que vous souhaitez que les modifications soient disponibles sur la page publiée, cliquez sur **[!UICONTROL Publier]**.
@@ -257,11 +141,17 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
 Lorsque vous ouvrez la page de destination, le brouillon s’affiche. Les onglets situés en haut de l’espace d’aperçu vous permettent de basculer l’affichage entre les versions publiées et les brouillons. Les actions de brouillon et les détails s’affichent à droite.
 
-<!-- ![Preview and details for the landing page draft version](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"} -->
+![Aperçu et détails de la version brouillon de la page de destination](../../user/content/assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
 
-Pour mettre à jour le contenu :
+_Pour mettre à jour le contenu :_
 
-1. Cliquez sur **[!UICONTROL Modifier la page de destination]** en haut à droite.
+1. Cliquez sur **[!UICONTROL Modifier la page de destination]** en haut à droite. Utilisez les outils de conception visuelle selon vos besoins :
+
+   * [Ajouter la structure et le contenu](./landing-page-design.md#structure-content-landing-page)
+   * [Ajout de ressources](./landing-page-design.md#add-assets)
+   * [Parcourir les calques, paramètres et styles](./landing-page-design.md#navigate-layers-settings-styles)
+   * [Personnaliser le contenu](./landing-page-design.md#personalize-content)
+   * [Modifier le tracking des URL liées](./landing-page-design.md#linked-url-tracking)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails de la page de destination.
 
@@ -278,11 +168,11 @@ Vous pouvez dupliquer une page de destination à l’aide de l’une des méthod
 * Sur la page de liste _[!UICONTROL Page de destination]_, cliquez sur l’icône _Plus_ (**...**) en regard du nom de la page de destination et choisissez **[!UICONTROL Dupliquer]**.
 * En haut à droite de la page de détails de la page de destination, cliquez sur **[!UICONTROL ... En plus]** et choisissez **[!UICONTROL Dupliquer]**.
 
-<!-- ![Duplicate the landing page](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"} -->
+![Dupliquer la landing page](../../user/content/assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
 
 Dans la boîte de dialogue, saisissez un nom utile (unique) et une description (facultatif). Cliquez sur **[!UICONTROL Dupliquer]** pour terminer l’action.
 
-<!-- ![Enter a name and description for the duplicated landing page](./assets/landing-page-duplicate-dialog.png){width="350"} -->
+![Saisissez un nom et une description pour la page de destination dupliquée](../../user/content/assets/landing-page-duplicate-dialog.png){width="350"}
 
 La page dupliquée (nouvelle) apparaît alors dans la liste _Pages de destination_.
 
@@ -295,7 +185,7 @@ Vous pouvez supprimer une page de destination à l’aide de l’une des méthod
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
-<!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
+![Boîte de dialogue Supprimer la page de destination](../../user/content/assets/landing-page-delete-dialog.png){width="400"}
 
 ## Lien vers une landing page {#link-to-landing-page}
 
@@ -307,13 +197,13 @@ En tant que spécialiste marketing ou créatif qui produit du contenu d’e-mail
 
 1. Pour l’option **[!UICONTROL Type]**, choisissez **[!UICONTROL Page de destination]**.
 
-   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
+   ![Options de lien pour une landing page](../../assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
 
 1. Pour l&#39;option **[!UICONTROL Landing page]**, cliquez sur l&#39;icône _Sélectionner une page_ ( ![Icône Afficher les liens](../../user/assets/do-not-localize/icon-landing-page-select.svg) ).
 
 1. Dans la boîte de dialogue Sélectionner une page de destination , définissez la **[!UICONTROL Source de la page de destination]** en tant que **[!UICONTROL B2B edition Journey Optimizer]**, cochez la case de la page de destination dans la liste des pages publiées, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
-   <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"} -->
+   ![Options de lien pour une landing page](../../assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 
 1. Pour l’option **[!UICONTROL Cible]**, choisissez le comportement de la cible du lien :
 
