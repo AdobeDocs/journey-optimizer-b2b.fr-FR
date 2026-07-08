@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '453'
 ht-degree: 86%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 86%
    + [Parcours compte et personne](./journeys/journeys-overview.md)
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [rentrée de parcours](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+   + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
       + [Audience de compte](./journeys/account-audience-nodes.md)
       + [Audience de la personne (Beta)](./journeys/person-audience-nodes.md)
@@ -65,7 +65,7 @@ ht-degree: 86%
       + [Modèles régis](./content/email-authoring-governance.md)
       + [E-mail d’alerte de vente](./content/sales-alert-email.md)
       + [Déduplication des e-mails](./content/email-deduplication.md)
-      + {hide-from-toc}[Tracking des e-mails](./content/email-tracking-manage.md)
+      + [Suivi des e-mails](./content/email-tracking-manage.md)
    + Canal web (Beta) {#web-channel}
       + [Vue d’ensemble](./content/web-experiences.md)
       + [Conception d’expériences web](./content/web-experience-design.md)
@@ -160,7 +160,7 @@ ht-degree: 86%
    + [Tableau de bord des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
    + [Tableau de bord Parcours](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
-   + [Gouvernance](./admin/governance.md)
+   + [Gouvernance et confidentialité](./admin/governance.md)
    + [Mappage de persona](./admin/persona-mapping.md)
    + Configurations {#configurations}
       + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
