@@ -22,14 +22,14 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: 2690
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Assistant AI pour le contenu de la page de destination {#generative-full-content}
+# Assistant AI pour le contenu des pages de destination {#generative-full-content}
 
 L’assistant AI pour le contenu de page de destination dans [!DNL Adobe Journey Optimizer B2B Edition] utilise des fonctionnalités de génération de contenu optimisées par l’IA d’Adobe et révolutionne la façon dont les spécialistes marketing créent du contenu de page de destination professionnel et cohérent avec la marque. Grâce à des modèles d’IA génératifs avancés et à une compréhension approfondie des directives de la marque, AI Assistant génère automatiquement du contenu personnalisé, attrayant et efficace. Il utilise votre objectif marketing et optimise le contenu pour les styles de contour de la marque, les mises en page, le ton, etc. L’assistant AI rend la création et l’exécution de campagnes et de programmes plus intuitives, plus simples et plus simples. L’ajout de cette fonctionnalité à vos workflows peut vous faire gagner du temps, améliorer l’efficacité et générer de meilleurs résultats.
 
