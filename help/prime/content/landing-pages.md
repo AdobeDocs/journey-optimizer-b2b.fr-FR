@@ -4,10 +4,16 @@ description: 'Créez, concevez et publiez des pages de destination pour les parc
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: 1599
@@ -35,7 +41,7 @@ Pour diriger les membres d&#39;une audience de parcours vers une page web défin
 1. [Concevoir le contenu de la page de destination](./landing-page-design.md) - Créez le contenu de la page à l’aide des composants de conception visuelle par glisser-déposer.
 1. [Tester la page de destination](./landing-pages-create-publish.md#test-landing-page) - Prévisualisez la page et testez le comportement du formulaire.
 1. [Publier la page de destination](./landing-pages-create-publish.md#publish-landing-page) - Publier pour rendre la page active et disponible pour la liaison.
-1. [Lien vers la page à partir de votre parcours ](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
+1. [Lien vers la page à partir de votre parcours &#x200B;](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
 
 Par exemple, vous pouvez créer et concevoir des pages de destination pour diriger vos utilisateurs vers des informations en ligne. La page peut inclure un formulaire dans lequel ils peuvent s’inscrire ou refuser de recevoir vos communications. Il peut également s’agir d’une opportunité de s’abonner à une communication récurrente, telle qu’une newsletter.
 

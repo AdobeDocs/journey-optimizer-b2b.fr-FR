@@ -6,10 +6,17 @@ feature: Landing Pages, Content Design Tools
 role: User
 autotag-review: '2026-07-08T20:36:05.221Z'
 TQID: 'https://experienceleague.adobe.com/M8OA0CPihuuX5h9J-ZrGJOPHkHLwatX5VhBa8co4r4Y'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: 568
@@ -33,7 +40,7 @@ Avec au moins un composant de contenu dans la zone de travail, sélectionnez le 
 
 ![Accès aux styles de corps](../../user/content/assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
-Voir [ Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 ### Ajout de ressources {#add-assets}
 
@@ -60,7 +67,7 @@ _Pour ajouter de la personnalisation :_
 1. Ajoutez une valeur de secours pour gérer les données manquantes, si nécessaire.
 1. Cliquez sur **[!UICONTROL Confirmer]** ou **[!UICONTROL Insérer]**. L’expression apparaît en ligne dans le champ.
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Éditeur ](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Éditeur &#x200B;](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#linked-url-tracking}
 
