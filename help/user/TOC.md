@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: dc6942ca34b730ce4104e588ec198ce7a4ec7cea
+source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '451'
+ht-degree: 86%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
    + [Parcours compte et personne](./journeys/journeys-overview.md)
    + [Créer et publier un parcours](./journeys/create-publish-journey.md)
    + [rentrée de parcours](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+   + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
    + Nœuds de parcours {#journey-nodes}
       + [Audience de compte](./journeys/account-audience-nodes.md)
       + [Audience de la personne (Beta)](./journeys/person-audience-nodes.md)
@@ -65,6 +65,7 @@ ht-degree: 87%
       + [Modèles régis](./content/email-authoring-governance.md)
       + [E-mail d’alerte de vente](./content/sales-alert-email.md)
       + [Déduplication des e-mails](./content/email-deduplication.md)
+      + {hide-from-toc}[Tracking des e-mails](./content/email-tracking-manage.md)
    + Canal web (Beta) {#web-channel}
       + [Vue d’ensemble](./content/web-experiences.md)
       + [Conception d’expériences web](./content/web-experience-design.md)
