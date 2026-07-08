@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
+source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
 workflow-type: tm+mt
-source-wordcount: 5271
+source-wordcount: 5232
 ht-degree: 65%
 
 ---
@@ -40,13 +40,17 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Amélioration | Nœuds de parcours de chemin de partage - Variantes | Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. |
-| Amélioration | Nœuds de parcours de chemin de partage externe - parcours de personne | La prise en charge des nœuds de parcours de chemin de partage externes est désormais disponible pour les parcours de personnes. |
-| Amélioration | Nœuds de parcours d’action externe - parcours de personne | La prise en charge des nœuds de parcours d’action externe est désormais disponible pour les parcours de personnes. |
+| Fonctionnalité | Nœuds de parcours de chemin de partage - Variantes | (Beta) Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. |
 
 >[!NOTE]
 >
 >Ces modifications de version commencent le déploiement le 10 juillet 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+
+<!-- 
+Add for 2026.8 release
+| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
+| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+-->
 
 ## Notes de mise à jour 2026.5 {#rel-2026-5}
 
