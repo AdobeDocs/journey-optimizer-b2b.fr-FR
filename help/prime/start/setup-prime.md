@@ -15,10 +15,10 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 0f264f00c8018324abf1d409ddc381c6dcc9c08a
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 11%
+source-wordcount: 261
+ht-degree: 10%
 
 ---
 
@@ -51,6 +51,16 @@ Une fois la mise en service terminée et les sandbox liés, configurez l’accè
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
 <td>Ajout d’un groupe d’utilisateurs dans Admin Console</td>
 <td><a href="./user-management.md#add-user-group">Ajouter un groupe d’utilisateurs</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
+<td>Affectez le profil de produit au groupe d’utilisateurs dans l’Admin Console</td>
+<td><a href="./user-management.md#assign-profile">Attribuer un profil de produit</a></td>
+</tr>
+<tr>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
+<td>Ajout d’utilisateurs au groupe d’utilisateurs dans Admin Console</td>
+<td><a href="./user-management.md#add-users">Ajouter des utilisateurs et utilisatrices</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
