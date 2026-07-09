@@ -6,10 +6,16 @@ feature: Landing Pages, Content Design Tools
 role: User
 autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: 1471
@@ -73,7 +79,7 @@ _Pour créer une landing page :_
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   La page principale et ses propriétés s’affichent. Découvrez comment [ configurer les paramètres de la page principale ](#configure-primary-page).
+   La page principale et ses propriétés s’affichent. Découvrez comment [&#x200B; configurer les paramètres de la page principale &#x200B;](#configure-primary-page).
 
    ![Nouvelle page de destination - Propriétés de la page principale](../../user/content/assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
@@ -123,7 +129,7 @@ _Pour définir les paramètres de la page principale :_
 
    * **[!UICONTROL URL de redirection]** - Saisissez l’URL de la page à utiliser comme redirection.
 
-     ![ Expiration de la page de destination - URL de redirection ](../../user/content/assets/landing-page-expiry-redirect-url.png){width="400"}
+     ![&#x200B; Expiration de la page de destination - URL de redirection &#x200B;](../../user/content/assets/landing-page-expiry-redirect-url.png){width="400"}
 
    * **[!UICONTROL Erreur de navigateur]** - Saisissez le texte de l’erreur à afficher à la place de la page.
 
