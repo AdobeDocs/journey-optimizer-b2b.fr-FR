@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 415cfd2d9bdeee87364fa8935bc8a2a8259174ba
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1601
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ Par exemple, vous pouvez créer et concevoir des pages de destination pour dirig
 
 ## Accéder aux pages de destination et les gérer {#access-manage-landing-pages}
 
-Pour accéder aux pages de destination dans [!DNL Journey Optimizer B2B Prime], accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]**. Cette action affiche la liste de toutes les pages de destination créées dans l’instance.
+Pour accéder aux pages de destination dans [!DNL Journey Optimizer B2B Prime], accédez au volet de navigation de gauche et développez **[!UICONTROL Gestion de contenu]**. Sélectionnez ensuite **[!UICONTROL Pages de destination]**. Cette action affiche la liste de toutes les pages de destination créées dans l’instance.
 
 ![Accéder à la bibliothèque de pages de destination](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
@@ -105,7 +105,7 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
    Utilisez les outils de conception visuelle selon vos besoins :
 
-   * [Ajouter la structure et le contenu](./landing-page-design.md#structure-content-landing-page)
+   * [Ajouter une structure et du contenu](./landing-page-design.md#structure-content-landing-page)
    * [Ajout de ressources](./landing-page-design.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./landing-page-design.md#navigate-layers-settings-styles)
    * [Personnaliser le contenu](./landing-page-design.md#personalize-content)
@@ -131,7 +131,7 @@ Les modifications apportées à une landing page dépendent de son statut actuel
 
    Utilisez les outils de conception visuelle selon vos besoins :
 
-   * [Ajouter la structure et le contenu](./landing-page-design.md#structure-content-landing-page)
+   * [Ajouter une structure et du contenu](./landing-page-design.md#structure-content-landing-page)
    * [Ajout de ressources](./landing-page-design.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./landing-page-design.md#navigate-layers-settings-styles)
    * [Personnaliser le contenu](./landing-page-design.md#personalize-content)
@@ -153,7 +153,7 @@ _Pour mettre à jour le contenu :_
 
 1. Cliquez sur **[!UICONTROL Modifier la page de destination]** en haut à droite. Utilisez les outils de conception visuelle selon vos besoins :
 
-   * [Ajouter la structure et le contenu](./landing-page-design.md#structure-content-landing-page)
+   * [Ajouter une structure et du contenu](./landing-page-design.md#structure-content-landing-page)
    * [Ajout de ressources](./landing-page-design.md#add-assets)
    * [Parcourir les calques, paramètres et styles](./landing-page-design.md#navigate-layers-settings-styles)
    * [Personnaliser le contenu](./landing-page-design.md#personalize-content)

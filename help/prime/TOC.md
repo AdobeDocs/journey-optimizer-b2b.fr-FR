@@ -2,10 +2,10 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Prime et comment l’utiliser pour ?.
 hide: true
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 415cfd2d9bdeee87364fa8935bc8a2a8259174ba
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 53%
+source-wordcount: '173'
+ht-degree: 54%
 
 ---
 
@@ -57,6 +57,9 @@ ht-degree: 53%
       + [Vue d’ensemble](./content/templates.md)
       + [Création de modèles](./content/templates-create.md)
       + [Gouvernance du contenu](./content/template-content-governance.md)
+   + Fragments {#visual-fragments}
+      + [Vue d’ensemble](./content/fragments.md)
+      + [Création de fragments](./content/fragment-authoring.md)
    + Pages de destination {#landing-pages}
       + [Vue d’ensemble](./content/landing-pages.md)
       + [Créer et publier des pages de destination](./content/landing-pages-create-publish.md)
