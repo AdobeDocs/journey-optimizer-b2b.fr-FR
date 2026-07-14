@@ -4,18 +4,10 @@ description: Créez des variantes de contenu dynamiques avec des règles conditi
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité fait partie d’une version bêta limitée."
 autotag-review: '2026-07-13T21:02:30.764Z'
 TQID: 'https://experienceleague.adobe.com/wIrQj4XBtWxHoru-GwZrRkvbakm5xA9FgWHTjvnM9w0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e1663313-7961-4100-bea9-fa9f4edf8493
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e1663313-7961-4100-bea9-fa9f4edf8493id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: edb7bf983c8eba432604cf9bffc65e0be1ddee99
 workflow-type: tm+mt
 source-wordcount: 1093
@@ -86,7 +78,7 @@ Lorsque vous créez un [fragment](./fragment-authoring.md) ou un [e-mail](./emai
 
    Saisissez un nom significatif pour la variante qui vous permet d’identifier la variante et son intention.
 
-   ![&#x200B; Renommer la variante &#x200B;](../../user/content/assets/conditions-variant-rename.png){width="600" zoomable="yes"}
+   ![ Renommer la variante ](../../user/content/assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. Avec la variante sélectionnée dans le volet de gauche, modifiez le composant pour modifier la manière dont il apparaît dans le message lorsque la condition est remplie.
 
@@ -151,7 +143,7 @@ Accédez au créateur de règles conditionnelles à partir de l’espace de conc
 
    * **[!UICONTROL Audiences]** - Répertorie toutes les audiences générées à partir des définitions de segment créées dans le service Adobe Experience Platform Segmentation.
 
-   ![&#x200B; Boîte de dialogue Créer une condition &#x200B;](./assets/conditions-rule-create.png){width="700" zoomable="yes"}
+   ![ Boîte de dialogue Créer une condition ](./assets/conditions-rule-create.png){width="700" zoomable="yes"}
 
 1. Créez la règle conditionnelle selon vos besoins.
 
