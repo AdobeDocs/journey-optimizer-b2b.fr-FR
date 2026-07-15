@@ -2,9 +2,9 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Prime et comment l’utiliser pour ?.
 hide: true
-source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '179'
 ht-degree: 55%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 55%
    + [Canal WhatsApp](./content/whatsapp-authoring.md)
 + Audiences {#audiences}
    + [Listes de personnes](./audiences/people-lists.md)
+   + [Détails de la personne](./audiences/person-details.md)
    + [Audiences basées sur un événement](./audiences/event-based-audiences.md)
    + [Scores d’engagement des personnes](./audiences/engagement-scores.md)
    + [Personnages dérivés](./audiences/personas.md)
