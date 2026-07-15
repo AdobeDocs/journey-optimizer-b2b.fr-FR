@@ -7,10 +7,14 @@ role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-07-06T23:50:12.985Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 11e6c1954e3a99f3da6fc0967038d1c316991d07
 workflow-type: tm+mt
 source-wordcount: 1439
@@ -24,7 +28,7 @@ Utilisez un nœud _Chemins de division de variante_ pour répartir les comptes d
 
 >[!AVAILABILITY]
 >
->Le nœud de chemins de partage des variantes est actuellement disponible pour certains clients sous la forme d’une version bêta limitée, pour les parcours de compte uniquement _**.**_ La prise en charge des parcours de personne est prévue pour une version ultérieure. Pour obtenir l’accès, contactez votre représentant Adobe.
+>Le nœud de chemins de partage des variantes est actuellement disponible pour certains clients sous la forme d’une version bêta limitée, pour les parcours de compte uniquement _&#x200B;**.**&#x200B;_ La prise en charge des parcours de personne est prévue pour une version ultérieure. Pour obtenir l’accès, contactez votre représentant Adobe.
 
 ## Comparaison avec les chemins de division {#compare-split-paths}
 
@@ -73,7 +77,7 @@ Examinez ces limitations avant d’utiliser des chemins de division de variantes
 | **Ne convient pas aux expériences contrôlées** | Comme l’affectation de chemins n’est pas déterministe, les chemins de division des variantes ne sont **pas adaptés** pour les expériences A/B ou les scénarios d’attribution qui nécessitent un compte donné pour recevoir systématiquement le même traitement. Les cas d’utilisation qui dépendent de la cohérence par compte, comme la mesure des taux de réponse ou l’attribution des résultats à une expérience spécifique, peuvent produire des résultats non fiables. |
 | **Dérive d’arrondi mineure** | Lorsque le nombre total de comptes n’est pas divisible de manière égale par les pourcentages configurés, la distribution peut être désactivée par un compte au maximum par chemin d’accès. Ce comportement d’arrondi est attendu et n’est pas une erreur. |
 | **L’affectation de chemin n’est pas idempotent** | La rentrée dans le parcours peut générer une affectation de chemin d’accès différente pour le même compte. Si votre conception de parcours suppose qu’un compte suit toujours le même chemin d’accès après le nœud de partage, cette hypothèse ne tient pas. |
-| parcours de compte uniquement **** | Les chemins de division des variantes sont pris en charge dans les parcours de compte uniquement. Les parcours de personne ne sont actuellement pas pris en charge. |
+| parcours de compte uniquement **&#x200B;**&#x200B;| Les chemins de division des variantes sont pris en charge dans les parcours de compte uniquement. Les parcours de personne ne sont actuellement pas pris en charge. |
 | **Aucun filtrage conditionnel** | Contrairement aux _chemins partagés_, les variantes de chemins partagés n’appliquent pas de conditions. Chaque compte qui atteint le nœud est affecté à un chemin d’accès. |
 
 ## Fractionner par personnes {#split-by-people}
