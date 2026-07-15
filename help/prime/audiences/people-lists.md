@@ -4,10 +4,15 @@ description: Créez et gérez des listes de personnes dans Journey Optimizer B2B
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
 source-wordcount: 891
@@ -212,6 +217,6 @@ Pour une liste dynamique, une action en double est similaire à une fonction de 
 
    Par défaut, la boîte de dialogue utilise le nom de la liste d’origine suivie de `_copy`. Saisissez un nom unique différent pour la liste, le cas échéant.
 
-   ![ Boîte de dialogue Dupliquer la liste ](./assets/people-list-duplicate-dialog.png){width="375"}
+   ![&#x200B; Boîte de dialogue Dupliquer la liste &#x200B;](./assets/people-list-duplicate-dialog.png){width="375"}
 
 1. Cliquez sur **[!UICONTROL Dupliquer]**.

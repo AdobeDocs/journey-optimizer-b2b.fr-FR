@@ -4,10 +4,15 @@ description: Affichez le résumé du profil, de l’engagement et de l’intenti
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 autotag-review: '2026-07-15T18:38:26.025Z'
 TQID: 'https://experienceleague.adobe.com/pPq1KsFRDCjVUB5yYXeEXa1HFrIzF7etLI-vLHe-mE4'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
 source-wordcount: 710
@@ -79,7 +84,7 @@ Utilisez les commandes du panneau pour utiliser la chronologie :
 
 ## Onglet Attributs {#attributes-tab}
 
-![ Détails de la personne - Onglet Attributs ](./assets/people-list-person-details-attributes-tab.png){width="700" zoomable="yes"}
+![&#x200B; Détails de la personne - Onglet Attributs &#x200B;](./assets/people-list-person-details-attributes-tab.png){width="700" zoomable="yes"}
 
 L’onglet **[!UICONTROL Attributs]** affiche les champs de profil stockés de la personne sous la forme d’une liste de libellés/valeurs :
 
