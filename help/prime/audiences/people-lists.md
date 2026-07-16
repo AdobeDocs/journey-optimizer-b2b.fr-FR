@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 891
 ht-degree: 3%
 
 ---
@@ -203,7 +203,7 @@ L’appartenance à une liste dynamique est définie à l’aide de filtres simp
 
    Après un bref instant, les membres admissibles apparaissent dans la liste.
 
-Pour ouvrir la page des détails du profil de prospect dans laquelle vous pouvez afficher le résumé et les activités récentes, cliquez sur le nom d’une personne dans la liste.
+Pour ouvrir la page [détails de la personne](./person-details.md) où vous pouvez afficher le résumé et les activités récentes, cliquez sur le nom d’une personne dans la liste.
 
 ### Duplication de liste dynamique
 

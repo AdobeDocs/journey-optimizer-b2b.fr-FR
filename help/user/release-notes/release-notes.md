@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
+source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
 workflow-type: tm+mt
-source-wordcount: 5232
+source-wordcount: 5234
 ht-degree: 65%
 
 ---
@@ -36,11 +36,9 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 **Date de déploiement** : 10 juillet 2026
 
-<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
-
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Nœuds de parcours de chemin de partage - Variantes | (Beta) Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. |
+| Fonctionnalité | Nœuds de parcours de chemin de partage - Variantes | (Beta) Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. [En savoir plus](../journeys/variant-split-paths-nodes.md) |
 
 >[!NOTE]
 >

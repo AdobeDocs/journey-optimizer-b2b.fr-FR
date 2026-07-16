@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: d7237ad4dfb17b8177315d942bb273422153ce23
 workflow-type: tm+mt
-source-wordcount: 1185
-ht-degree: 71%
+source-wordcount: 1140
+ht-degree: 70%
 
 ---
 
@@ -124,17 +124,13 @@ Créez un jeu de données pour Profil individuel et un autre pour Compte profess
 
 ### Schémas relationnels
 
-Les schémas relationnels vous permettent de créer des classes de données personnalisées. Grâce à l’accès à plusieurs jeux de données, vous pouvez créer des classes spécialement adaptées à vos besoins en matière de données. Utilisez des schémas relationnels pour les entités commerciales, telles que les achats, les licences et les enregistrements d’événement, dans les décisions de parcours et la personnalisation des e-mails. Vous pouvez sélectionner jusqu’à 20 schémas et 50 champs par schéma.
+Les schémas relationnels vous permettent de créer des classes de données personnalisées. Grâce à l’accès à plusieurs jeux de données, vous pouvez créer des classes spécialement adaptées à vos besoins en matière de données. Utilisez des [schémas relationnels](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#) pour les entités commerciales, telles que les achats, les licences et les enregistrements d’événement, dans les décisions de parcours et la personnalisation des e-mails. Vous pouvez sélectionner jusqu’à 20 schémas et 50 champs par schéma.
 
 Plusieurs fonctionnalités prennent en charge l’utilisation des schémas et champs relationnels configurés :
 
 * [Personnalisation du contenu](../content/personalization.md#custom-datasets)
 * [Prise de décision par parcours (chemins de partage)](../journeys/split-merge-paths-nodes.md#custom-data-filtering)
 * [Rôles de groupe d’achat](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) (personne B2B uniquement)
-
->[!AVAILABILITY]
->
->Les [schémas relationnels](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/relational#) sont disponibles pour [!DNL Journey Optimizer B2B Edition] dans une version à disponibilité limitée. Les schémas Data Mirror et relationnels sont disponibles pour les détenteurs de licence [!DNL Journey Optimizer Orchestrated Campaigns]. Les schémas relationnels sont également disponibles en tant que version limitée pour les utilisateurs [!DNL Customer Journey Analytics], selon votre licence et l’activation de la fonctionnalité. Contactez votre représentant Adobe pour obtenir l’accès.
 
 >[!NOTE]
 >

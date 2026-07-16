@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: 1060
 ht-degree: 7%
 
 ---
@@ -103,7 +103,9 @@ La page e-mail s’ouvre lorsque vous créez un e-mail pour un nœud _[!UICONTRO
 
      Les administrateurs créent des configurations dans [configuration du canal e-mail](../admin/email-channel-configuration.md).
 
-   * **[!UICONTROL Règles métier]** - (Facultatif) Appliquez des règles de limitation à votre action e-mail en sélectionnant un ensemble de règles.
+   * **[!UICONTROL Règles métier]** - (Facultatif) Appliquez des règles de limitation ou d’interruption à votre action d’e-mail en sélectionnant un ensemble de règles.
+
+     Pour plus d’informations sur les règles métier et sur la définition et l’activation d’ensembles de règles pour les communications de canal, voir [_Règles métier_](../admin/business-rules.md).
 
    * **[!UICONTROL Suivi des actions]** - Cochez les cases correspondant aux actions que vous souhaitez suivre pour l’e-mail.
 
