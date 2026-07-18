@@ -16,18 +16,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: e369d695d565c361738b045211c5012d20b1a1a0
 workflow-type: tm+mt
-source-wordcount: 1880
+source-wordcount: 1834
 ht-degree: 12%
 
 ---
 
-# Écouter un événement
+# Écouter un évènement
 
 Pour déplacer votre audience vers l’étape suivante du parcours lorsqu’un événement se produit, ajoutez le nœud _Écouter un événement_.
 
-![Vidéo](../../assets/do-not-localize/icon-video.svg){width=« 30 », vertical-align=« middle »} [Regardez la vidéo de présentation](#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
+-->
 
 >[!NOTE]
 >
@@ -95,7 +97,7 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 | [!UICONTROL Historique des activités] > [!UICONTROL Valeur des données modifiée] | Pour un attribut de personne sélectionné, une modification de valeur s’est produite. Ces types de modifications sont les suivants : <li>Nouvelle valeur<li>Valeur précédente<li>Motif<li>Source<li>Date d’activité<li>Min. nombre de fois <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL Historique des activités] > [!UICONTROL Moment intéressant] | Activité de moment intéressante définie dans l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Étape<li>E-mail<li><!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> Web |
 | [!UICONTROL Historique des activités] > [!UICONTROL Page web visitée] | Activité de page web qui, pour une ou plusieurs pages web, est gérée par l’instance Marketo Engage associée. Les contraintes sont les suivantes : <li>Page web (obligatoire)<li>Date d’activité<li>Adresse IP du client <li>Chaîne de requête <li>Référent <li>Agent utilisateur <li>Moteur de recherche <li>Requête <li>URL personnalisée <li>Jeton <li>Navigateur <li>Platform <li>Appareil <li>Min. nombre de fois <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement de la personne <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
+| [!UICONTROL Attributs de personne] | Attributs du profil de la personne, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de la liste] | La personne est membre ou non d’une ou de plusieurs listes Marketo Engage. |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du programme] | La personne est membre ou non d’un ou de plusieurs programmes Marketo Engage. |
@@ -151,17 +153,11 @@ Si vous disposez de pages web dans votre instance Marketo Engage connectée, vou
 
 ### Écoute d’un événement d’expérience {#listen-for-an-experience-event}
 
-Les administrateurs peuvent sélectionner [Événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, ce qui permet aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel. L’utilisation d’événements d’expérience dans les parcours est un processus en deux étapes :
-
-1. Un administrateur [ajoute les types d’événements et les champs ciblés](../admin/configure-aep-events.md#add-an-event) pour les rendre disponibles dans les parcours.
-
-2. Dans un parcours, ajoutez un nœud _Écouter un événement_ et sélectionnez un type d’événement Experience Platform pour un événement basé sur des personnes.
-
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
--->
-
-_Pour inclure un événement d’expérience dans votre parcours :_
+>[!PREREQUISITES]
+>
+>Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
+>
+>Pour rendre les événements d’expérience disponibles pour les parcours, un administrateur de produit doit d’abord [ajouter les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#add-an-event) dans [!DNL Journey Optimizer B2B Edition].
 
 1. Sélectionnez un nœud **[!UICONTROL Écouter un événement]** dans la zone de travail du parcours.
 

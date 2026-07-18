@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 20%
 
 ---
@@ -105,7 +105,7 @@ L’en-tête de chaque zone de travail de parcours comprend le nom, le statut et
 
 * Cliquez sur l’icône _Modifier_ ( ![icône Modifier](../../assets/do-not-localize/icon-react-edit.svg) ) pour modifier le nom du parcours ou les informations de description.
 * Cliquez sur **[!UICONTROL Paramètres du Parcours]** pour modifier le début et la périodicité du parcours.
-* Cliquez sur **[!UICONTROL ... Plus]** pour appliquer une action de parcours ou pour activer/désactiver le contrôle du trafic et la rentrée.
+* Cliquez sur **[!UICONTROL ... Plus]** pour appliquer une action de parcours ou pour activer/désactiver le contrôle du trafic de parcours [&#128279;](./journey-traffic-control.md) et la rentrée.
 * Si toutes les erreurs sont résolues et que vous souhaitez activer le parcours, cliquez sur **[!UICONTROL Publier]**.
 
 ### Conception de parcours {#journey-design}
@@ -170,7 +170,7 @@ Si vous abandonnez (arrêtez) un parcours actif ou un parcours planifié à une 
 
 #### Fermer aux nouvelles entrées {#close-to-new-entries}
 
-Si vous fermez un parcours actif à de nouvelles entrées, les personnes actuellement dans le parcours continuent leur chemin dans ce parcours et aucune autre entrée de parcours ne peut se produire. Vous ne pouvez pas redémarrer un parcours fermé. Vous pouvez dupliquer un parcours fermé.
+Si vous fermez un parcours actif à de nouvelles entrées, les personnes actuellement dans le parcours continuent leur chemin dans ce parcours et aucune autre entrée de parcours ne peut se produire. Vous ne pouvez pas redémarrer un parcours fermé. Vous pouvez dupliquer un parcours clôturé.
 
 1. Ouvrez le parcours à partir de la liste _[!UICONTROL parcours de personne]_.
 
@@ -201,7 +201,7 @@ Une action de duplication est similaire à une fonction de clonage, mais le parc
 
 1. Choisissez le **[!UICONTROL type]** de duplication :
 
-   * **[!UICONTROL Duplication partielle du contenu]** : utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage sont entièrement intacts.
+   * **[!UICONTROL Duplication partielle du contenu]** : utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage restent pleinement intacts.
 
    * **[!UICONTROL Dupliquer sans détails]** - Utilisez ce type pour copier uniquement la structure de nœud et les chemins d’accès. Les paramètres de nœud et conditions de chemin ne sont pas définis (par défaut). Vous pouvez donc réutiliser le flux de base avec différents paramètres d’audience, d’actions et de segmentation de chemin. Tous les nœuds d’attente utilisent la valeur par défaut de cinq jours.
 
