@@ -102,7 +102,7 @@ Dans un parcours de compte, vous pouvez écouter un événement basé sur des pe
 
 >[!PREREQUISITES]
 >
->Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
+>Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
 >
 >Pour rendre les événements d’expérience disponibles pour les parcours, un administrateur de produit doit d’abord [ajouter les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#add-an-event) dans [!DNL Journey Optimizer B2B Edition].
 
@@ -224,7 +224,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 >[!PREREQUISITES]
 >
->Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
+>Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
 >
 >Pour rendre les événements d’expérience disponibles pour les parcours, un administrateur de produit doit d’abord [ajouter les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#add-an-event) dans [!DNL Journey Optimizer B2B Edition].
 
