@@ -3,24 +3,17 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les fonctionnalités, améliorations et correctifs de bugs qui viennent de sortir dans Adobe Journey Optimizer B2B Edition. Informez-vous des nouvelles fonctionnalités et des améliorations apportées aux produits.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
+source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
 workflow-type: tm+mt
-source-wordcount: 5234
-ht-degree: 65%
+source-wordcount: 5349
+ht-degree: 64%
 
 ---
 
@@ -30,7 +23,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2026.6 {#rel-2026-6}
 
@@ -38,7 +31,10 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Nœuds de parcours de chemin de partage - Variantes | (Beta) Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. [En savoir plus](../journeys/variant-split-paths-nodes.md) |
+| Fonctionnalité | _Chemin de partage_ nœuds de parcours - Variantes | (Beta) Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. [En savoir plus](../journeys/variant-split-paths-nodes.md) |
+| Amélioration | _Écouter un événement_ nœuds de parcours | Dans les parcours en personne, les nœuds d’écouteur d’événement peuvent désormais être configurés avec plusieurs événements à déclencher. Le premier événement éligible avance le record sur le parcours. (Prise en charge prévue des parcours de compte pour la prochaine version.) [En savoir plus](../journeys/listen-for-event-nodes.md#person-journeys) |
+| Amélioration | _Écouter un événement_ nœuds de parcours | L’onglet _[!UICONTROL Filtres]_ pour les événements personnes/personne est remplacé par un sélecteur d’action unique dans une interface de créateur de règles. Cela permet de prendre en charge plusieurs configurations d’activité à l’aide d’événements d’expérience configurés. [En savoir plus](../journeys/listen-for-event-nodes.md#filters-people-event) |
+| Amélioration | _Action à effectuer_ nœuds de parcours | D’autres actions sont désormais disponibles pour le parcours Personnes du compte et depuis un parcours Personne : _Ajouter au parcours Personne_ et _Supprimer du parcours Personne_. |
 
 >[!NOTE]
 >
