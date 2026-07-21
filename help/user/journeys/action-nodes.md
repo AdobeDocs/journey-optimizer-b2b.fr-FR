@@ -4,12 +4,18 @@ description: 'Configurez les nœuds d’action pour les actions de compte et de 
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
@@ -34,9 +40,9 @@ Dans un parcours de compte, utilisez une action sur les comptes lorsque vous sou
 | ------ | ----------- |
 | [!UICONTROL Moment intéressant du compte] | Type (e-mail, jalon ou web)<br/>Description (facultatif) |
 | [!UICONTROL Activer vers la destination] | Sélectionner une destination |
-| [!UICONTROL Ajouter un compte à un (autre) Parcours ] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Ajouter un compte à un (autre) Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste de comptes statiques actifs |
-| [!UICONTROL Supprimer un compte du Parcours ] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Supprimer un compte du Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
 | [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
 | [!UICONTROL Mettre à jour le profil de compte] | Sélectionner l’attribut<br/>Nouvelle valeur |
@@ -97,7 +103,7 @@ Dans un parcours de compte ou de personne, utilisez une action sur les personnes
 
 | Contexte | Action | Type de parcours | Contraintes |
 | ------- | ------ | ------------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Ajouter une personne à (un autre) parcours ] | <li>Parcours de compte (Action sur les personnes) <li>Parcours d’une personne | <li>Sélectionner un parcours de personne actif |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Ajouter une personne à (un autre) parcours &#x200B;] | <li>Parcours de compte (Action sur les personnes) <li>Parcours d’une personne | <li>Sélectionner un parcours de personne actif |
 | | [!UICONTROL Ajouter à une audience client externe] | <li>Parcours de compte <li>Parcours d’une personne | <li>Sélectionner une audience externe dédiée à la clientèle |
 | | [!UICONTROL Affecter au groupe d&#39;achat] | <li>Parcours de compte | <li>Sélectionner l’intérêt de la solution <li>Sélectionner un rôle |
 | | [!UICONTROL Modifier le score] | <li>Parcours de compte | <li>Nom du score <li>Modification du score |
@@ -124,7 +130,7 @@ Dans un parcours de compte ou de personne, utilisez une action sur les personnes
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Effectuer une action]**.
 
-1. (parcours de compte uniquement _) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]**pour le contexte de l’action._
+1. (parcours de compte uniquement _) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]**&#x200B;pour le contexte de l’action._
 
 1. Sélectionnez une action dans la liste et définissez ses valeurs.
 
@@ -134,13 +140,13 @@ Dans un parcours de compte ou de personne, utilisez une action sur les personnes
 
 Les actions basées sur les personnes B2B de Journey Optimizer sont conçues pour gérer les communications par le biais des canaux configurés et gérer la catégorisation des personnes au sein de vos groupes d’achats et comptes. Le parcours applique l’action lorsqu’un compte qualifié avec des profils de personnes atteint le nœud .
 
-+++[!UICONTROL Ajouter une personne à (un autre) Parcours ]
++++[!UICONTROL Ajouter une personne à (un autre) Parcours &#x200B;]
 
 Utilisez cette action pour ajouter un profil de personne à un parcours de personne en direct. Lorsqu’une personne accède au nœud d’action, le système l’ajoute en tant que membre d’audience pour le parcours de personne spécifié.
 
 Utilisez le sélecteur **[!UICONTROL Sélectionner un Parcours de personne actif]** pour spécifier le parcours de personne dans lequel vous souhaitez ajouter le profil de personne. Vous pouvez saisir du texte dans le champ pour filtrer la liste.
 
-![Agir - Ajouter une personne à un (autre) Parcours ](./assets/node-action-add-to-person-journey.png){width="300"}
+![Agir - Ajouter une personne à un (autre) Parcours &#x200B;](./assets/node-action-add-to-person-journey.png){width="300"}
 
 +++
 
@@ -161,7 +167,7 @@ Lorsque vous sélectionnez cette action basée sur les personnes, vous pouvez cr
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez une présentation vidéo pour l’orchestration de médias payants](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-À partir de la version 2025.10, vous pouvez également orchestrer au moyen d’audiences externes créées dans [!DNL Experience Platform], telles que des destinations [!DNL Adobe Target]. Pour plus d’informations sur cette intégration d’audience, voir [Audiences externes ](../audiences/target-external-audience.md).
+À partir de la version 2025.10, vous pouvez également orchestrer au moyen d’audiences externes créées dans [!DNL Experience Platform], telles que des destinations [!DNL Adobe Target]. Pour plus d’informations sur cette intégration d’audience, voir [Audiences externes &#x200B;](../audiences/target-external-audience.md).
 
 _Pour créer une audience externe :_
 
@@ -233,13 +239,13 @@ Utilisez cette action pour supprimer des profils de personnes d&#39;un [groupe d
 
 +++
 
-+++[!UICONTROL Supprimer une personne du Parcours ]
++++[!UICONTROL Supprimer une personne du Parcours &#x200B;]
 
 Utilisez cette action pour supprimer un profil de personne d’un parcours de personnes. Lorsqu’une personne accède au nœud d’action, le système la supprime en tant que membre d’audience pour le parcours de personne spécifié.
 
 Utilisez le sélecteur **[!UICONTROL Sélectionner le Parcours de personne]** pour spécifier le parcours de personne dans lequel vous souhaitez supprimer le profil de personne. Vous pouvez saisir du texte dans le champ pour filtrer la liste.
 
-![Agir - Supprimer une personne du Parcours ](./assets/node-action-remove-from-person-journey.png){width="300"}
+![Agir - Supprimer une personne du Parcours &#x200B;](./assets/node-action-remove-from-person-journey.png){width="300"}
 
 +++
 
@@ -253,7 +259,7 @@ Pour les parcours de personne, utilisez [Optimisation de l’heure d’envoi](..
 
 >[!NOTE]
 >
->Vous pouvez utiliser la déduplication des e-mails dans les parcours de compte pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail au sein d’un parcours. Pour plus d’informations, voir [ Déduplication des e-mails ](../content/email-deduplication.md).
+>Vous pouvez utiliser la déduplication des e-mails dans les parcours de compte pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail au sein d’un parcours. Pour plus d’informations, voir [&#x200B; Déduplication des e-mails &#x200B;](../content/email-deduplication.md).
 
 +++
 
