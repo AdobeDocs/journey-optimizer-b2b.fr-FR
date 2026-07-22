@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
-source-wordcount: 5349
+source-wordcount: 5351
 ht-degree: 64%
 
 ---
@@ -41,7 +41,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Fonctionnalité | _Chemin de partage_ nœuds de parcours - Variantes | (Beta) Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. [En savoir plus](../journeys/variant-split-paths-nodes.md) |
 | Amélioration | _Écouter un événement_ nœuds de parcours | Dans les parcours en personne, les nœuds d’écouteur d’événement peuvent désormais être configurés avec plusieurs événements à déclencher. Le premier événement éligible avance le record sur le parcours. (Prise en charge prévue des parcours de compte pour la prochaine version.) [En savoir plus](../journeys/listen-for-event-nodes.md#person-journeys) |
 | Amélioration | _Écouter un événement_ nœuds de parcours | L’onglet _[!UICONTROL Filtres]_ pour les événements personnes/personne est remplacé par un sélecteur d’action unique dans une interface de créateur de règles. Cela permet de prendre en charge plusieurs configurations d’activité à l’aide d’événements d’expérience configurés. [En savoir plus](../journeys/listen-for-event-nodes.md#filters-people-event) |
-| Amélioration | _Action à effectuer_ nœuds de parcours | D’autres actions sont désormais disponibles pour le parcours Personnes du compte et depuis un parcours Personne : _Ajouter au parcours Personne_ et _Supprimer du parcours Personne_. |
+| Amélioration | _Action à effectuer_ nœuds de parcours | D’autres actions sont désormais disponibles pour le parcours Personnes du compte et depuis un parcours Personne : _Ajouter au parcours Personne_ et _Supprimer du parcours Personne_. [En savoir plus](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >
