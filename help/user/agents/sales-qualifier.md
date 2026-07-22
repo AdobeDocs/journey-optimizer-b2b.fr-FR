@@ -6,12 +6,22 @@ role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
 autotag-review: '2026-06-05T16:42:16.451Z'
 TQID: 'https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-subfeature_v2: id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: a5145b53d6b5c9462392f7c540a81b7d85abdd7b
 workflow-type: tm+mt
 source-wordcount: 6084
@@ -94,7 +104,7 @@ Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche p
 
 La liste des prospects regroupe des personnes provenant de plusieurs sources :
 
-* **Prospects provenant d’un CRM** - Lorsque vous connectez un CRM, celui-ci importe automatiquement les prospects appartenant à l’utilisateur connecté. Voir [ Intégrations et CRM ](#integrations-and-crm).
+* **Prospects provenant d’un CRM** - Lorsque vous connectez un CRM, celui-ci importe automatiquement les prospects appartenant à l’utilisateur connecté. Voir [&#x200B; Intégrations et CRM &#x200B;](#integrations-and-crm).
 * **Prospects importés** - Importez une liste de prospects à partir d’un fichier CSV.
 * **Prospects ajoutés manuellement** - Ajoutez une personne directement dans l’application.
 
@@ -118,7 +128,7 @@ Sélectionnez l’icône _Filtrer_ ![Icône Filtrer](../../assets/do-not-localiz
 * Score d&#39;étoile et score de flamme
 * Offres associées
 
-Les administrateurs peuvent également rendre les champs CRM mappés disponibles en tant que filtres. Dans **[!UICONTROL Paramètres d’administration]**, ils activent **[!UICONTROL Filtrable]** pour les champs que les représentants utilisent pour rechercher des prospects. Voir [ Mappage des champs CRM ](#map-crm-fields-inbound-mapping).
+Les administrateurs peuvent également rendre les champs CRM mappés disponibles en tant que filtres. Dans **[!UICONTROL Paramètres d’administration]**, ils activent **[!UICONTROL Filtrable]** pour les champs que les représentants utilisent pour rechercher des prospects. Voir [&#x200B; Mappage des champs CRM &#x200B;](#map-crm-fields-inbound-mapping).
 
 ### Consulter les détails du prospect
 
@@ -136,7 +146,7 @@ La présentation du compte résume des éléments essentiels tels que le chiffre
 
 * **Opportunités ouvertes** - Les opportunités ouvertes associées au compte, provenant de votre CRM connecté, afin que vous puissiez aligner la portée sur le pipeline actif.
 * **Membres les plus engagés** - Les contacts du compte avec l’engagement le plus récent, de sorte que vous sachiez qui prioriser au sein du groupe d’achat.
-* **Entrées CRM** - Champs de compte, opportunités et informations sur le ou la propriétaire sont apparus à partir de votre CRM connecté. Consultez [ Intégrations et CRM ](#integrations-and-crm) pour savoir comment ces données sont mappées.
+* **Entrées CRM** - Champs de compte, opportunités et informations sur le ou la propriétaire sont apparus à partir de votre CRM connecté. Consultez [&#x200B; Intégrations et CRM &#x200B;](#integrations-and-crm) pour savoir comment ces données sont mappées.
 
 ### Séance d’immersion dans le compte
 
@@ -348,7 +358,7 @@ Sur la page _[!UICONTROL Workflow sortant]_, l’onglet **[!UICONTROL Parcourir]
 
 ### Synchronisation globale du processus d’opt-out
 
-Les administrateurs peuvent ajouter un pied de page de désabonnement léger qui utilise un verbiage [!DNL Marketo] préapprouvé à chaque e-mail sortant. Lorsqu’un prospect sélectionne le lien d’exclusion, le qualificateur de vente le supprime définitivement des autres e-mails et synchronise le statut d’exclusion avec le CRM connecté. Voir [ Configuration du processus d’opt-out global des e-mails](#configure-global-email-opt-out).
+Les administrateurs peuvent ajouter un pied de page de désabonnement léger qui utilise un verbiage [!DNL Marketo] préapprouvé à chaque e-mail sortant. Lorsqu’un prospect sélectionne le lien d’exclusion, le qualificateur de vente le supprime définitivement des autres e-mails et synchronise le statut d’exclusion avec le CRM connecté. Voir [&#x200B; Configuration du processus d’opt-out global des e-mails](#configure-global-email-opt-out).
 
 ## Boîte d’envoi d’e-mail
 
@@ -533,7 +543,7 @@ Suivez les résultats de la réservation dans la section [Performances](#perform
 
 Le _[!UICONTROL Centre de connaissances]_ permet au Account Qualification Agent (AQA) d’accéder à vos propres supports commerciaux, de sorte que le qualificateur des ventes puisse générer des recherches, des informations sur les qualifications et des activités de sensibilisation qui reflètent les ventes de votre entreprise. La création et la gestion du playbook sont une tâche d’administration.
 
-![ Centre de connaissances ](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
+![&#x200B; Centre de connaissances &#x200B;](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
 
 ### Chargement du dérivé de vente
 
@@ -554,14 +564,14 @@ Une fois vos documents chargés, sélectionnez **[!UICONTROL Créer un playbook]
 
 Lorsque le manuel est prêt, il fournit à la fois des informations et de l’aide :
 
-* **Invites d’e-mails sortants** - Référencez le playbook lors de la génération des e-mails en nommant le document et le contexte dans votre invite. Voir [ Générer et réviser des points de contact](#step-3-generate-and-review-touchpoints).
+* **Invites d’e-mails sortants** - Référencez le playbook lors de la génération des e-mails en nommant le document et le contexte dans votre invite. Voir [&#x200B; Générer et réviser des points de contact](#step-3-generate-and-review-touchpoints).
 * **Assistant de vente conversationnel** - Pour extraire du manuel, pointez l’assistant vers le centre de connaissances. Voir [Assistant commercial de conversation](#conversational-sales-assistant).
 
 ## Assistant commercial de conversation
 
 L’assistant de vente conversationnel est une expérience de conversation où vous posez des questions en langage naturel et obtenez des réponses ancrées dans votre contexte de vente. L&#39;assistant s&#39;appuie sur :
 
-* Votre base de connaissances interne, y compris tout playbook [ Centre de connaissances ](#knowledge-center)
+* Votre base de connaissances interne, y compris tout playbook [&#x200B; Centre de connaissances &#x200B;](#knowledge-center)
 * Signaux CRM de votre CRM connecté
 * [!DNL Marketo] des données d’activité et d’engagement
 * Recherche sur le Web
@@ -711,7 +721,7 @@ L’**URL de l’instance** doit être l’URL de base de l’environnement util
 
 1. Pour le qualificateur de vente, utilisez le formulaire canonique : `https://{{mydomain}}.my.salesforce.com` .
 
-   N’utilisez **** une URL `lightning.force.com` comme URL d’instance.
+   N’utilisez **&#x200B;**&#x200B;une URL `lightning.force.com` comme URL d’instance.
 
 **Microsoft Dynamics 365**
 
