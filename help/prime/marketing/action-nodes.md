@@ -3,10 +3,16 @@ title: Prendre un nœud d’action
 description: Configurez un nœud Action dans Journey Optimizer B2B edition Prime pour ajouter, supprimer ou mettre à jour des personnes, des listes, des programmes et des destinations, ou pour envoyer des messages, lorsqu’ils atteignent le nœud dans un parcours de personne.
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
 source-wordcount: 1125
@@ -42,7 +48,7 @@ Dans un parcours de personne, utilisez une action sur les personnes lorsque vous
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Effectuer une action]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Dans les propriétés de nœud sur la droite, sélectionnez une action dans la liste et définissez ses valeurs.
 
@@ -62,13 +68,13 @@ Sous **[!UICONTROL Ajouter à la liste]**, choisissez l’une des options suivan
 
   Sélectionnez un programme parent pour la liste et saisissez un **[!UICONTROL Nom]** (obligatoire) et un **[!UICONTROL Description]** (facultatif). Cliquez sur **[!UICONTROL Créer]** pour ajouter la nouvelle liste pour le nœud.
 
-  ![Créer une liste statique à utiliser pour le nœud de parcours ](./assets/person-action-node-destination-create-list.png){width="375"}
+  ![Créer une liste statique à utiliser pour le nœud de parcours &#x200B;](./assets/person-action-node-destination-create-list.png){width="375"}
 
 * **[!UICONTROL Sélectionner]** — Sélectionnez une liste statique existante dans laquelle vous souhaitez ajouter les personnes qui atteignent le nœud.
 
   Cochez la case de la liste statique existante, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-  ![Sélectionnez une liste statique à utiliser pour le nœud de parcours ](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+  ![Sélectionnez une liste statique à utiliser pour le nœud de parcours &#x200B;](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
 
 Quiconque atteint le nœud est ajouté à la liste statique sélectionnée, mais l’action n’est pas terminée tant que la liste n’est pas activée vers une destination :
 
@@ -83,11 +89,11 @@ Toute personne atteignant le nœud est ajoutée à la liste statique sélectionn
 
 +++
 
-+++[!UICONTROL  Ajouter une personne au Parcours ]
++++[!UICONTROL &#x200B; Ajouter une personne au Parcours &#x200B;]
 
 Utilisez cette action pour ajouter des personnes à d&#39;autres parcours planifiés ou en direct. Les personnes ajoutées par le biais de cette action sont immédiatement ajoutées à l’audience du parcours cible. Les critères d’audience du parcours cible ne sont pas appliqués.
 
-![Agir - Ajouter une personne au parcours ](./assets/person-action-node-add-to-journey.png){width="450"}
+![Agir - Ajouter une personne au parcours &#x200B;](./assets/person-action-node-add-to-journey.png){width="450"}
 
 +++
 
@@ -156,11 +162,11 @@ Utilisez cette action pour supprimer des personnes d’une liste statique dans M
 
 +++
 
-+++[!UICONTROL Supprimer une personne du Parcours ]
++++[!UICONTROL Supprimer une personne du Parcours &#x200B;]
 
 Utilisez cette action pour supprimer des personnes d’autres parcours de personnes actives. La personne est immédiatement retirée du parcours cible et aucune autre action n’est entreprise à son encontre. Si une personne n’est pas actuellement membre du parcours cible, l’action est ignorée pour cette personne.
 
-![Agir - Supprimer une personne du parcours ](./assets/person-action-node-remove-from-journey.png){width="450"}
+![Agir - Supprimer une personne du parcours &#x200B;](./assets/person-action-node-remove-from-journey.png){width="450"}
 
 +++
 
