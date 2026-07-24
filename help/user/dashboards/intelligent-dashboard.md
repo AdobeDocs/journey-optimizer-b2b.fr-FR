@@ -4,21 +4,14 @@ description: Accédez à des informations optimisées par l’IA pour les groupe
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:43:58.948Z
 TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
 source-wordcount: 1682
 ht-degree: 16%
@@ -27,7 +20,7 @@ ht-degree: 16%
 
 # Tableau de bord intelligent
 
-Le tableau de bord intelligent offre une vue complète des mesures de groupe d’achats et de compte, ce qui vous permet de surveiller et de planifier vos efforts marketing de manière plus efficace.
+Le tableau de bord intelligent offre une vue complète des mesures de [groupe d’achats](../buying-groups/buying-groups-overview.md) et de compte, ce qui vous permet de surveiller et de planifier vos efforts marketing de manière plus efficace.
 
 Pour accéder au _Tableau de bord intelligent_, sélectionnez l’élément **[!UICONTROL Tableau de bord]** dans le volet de navigation de gauche.
 
@@ -132,9 +125,9 @@ Chaque carte contient les données suivantes :
 
   ![Données d’intention de groupe d’achat](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
-   * La fenêtre contextuelle des détails affiche le nom de la catégorie avec le niveau d’intention en haut.
-   * Les données de chaque ligne sont organisées en colonnes : nom du produit, intensité de l’intention du produit et principaux mots-clés par intensité de l’intention.
-   * L’ordre de tri est compris entre haut et bas pour la catégorie, le produit et les mots-clés. Si un ou plusieurs types ont la même intensité d’intention, le tri utilise l’ordre alphabétique.
+  * La fenêtre contextuelle des détails affiche le nom de la catégorie avec le niveau d’intention en haut.
+  * Les données de chaque ligne sont organisées en colonnes : nom du produit, intensité de l’intention du produit et principaux mots-clés par intensité de l’intention.
+  * L’ordre de tri est compris entre haut et bas pour la catégorie, le produit et les mots-clés. Si un ou plusieurs types ont la même intensité d’intention, le tri utilise l’ordre alphabétique.
 
   {{intent-data-note}}
 
@@ -226,9 +219,9 @@ Chaque carte contient les données suivantes :
 
   ![Données d’intention du compte](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
-   * La fenêtre contextuelle des détails affiche le nom de la catégorie avec le niveau d’intention en haut.
-   * Les données de chaque ligne sont organisées en colonnes : nom du produit, intensité de l’intention du produit et principaux mots-clés par intensité de l’intention.
-   * L’ordre de tri est compris entre haut et bas pour la catégorie, le produit et les mots-clés. Si un ou plusieurs types ont la même intensité d’intention, le tri utilise l’ordre alphabétique.
+  * La fenêtre contextuelle des détails affiche le nom de la catégorie avec le niveau d’intention en haut.
+  * Les données de chaque ligne sont organisées en colonnes : nom du produit, intensité de l’intention du produit et principaux mots-clés par intensité de l’intention.
+  * L’ordre de tri est compris entre haut et bas pour la catégorie, le produit et les mots-clés. Si un ou plusieurs types ont la même intensité d’intention, le tri utilise l’ordre alphabétique.
 
   {{intent-data-note}}
 <!--
