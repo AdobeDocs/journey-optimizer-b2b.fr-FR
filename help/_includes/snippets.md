@@ -1,9 +1,9 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2355'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Les données d’intention sont incluses lorsqu’elles sont configurées pour votre instance Journey Optimizer B2B edition. Elle nécessite également un ou plusieurs parcours publiés **ou** groupes d&#39;achats créés. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, des produits et des catégories, voir [Données d’intention](../user/admin/intent-data.md).
+>Les données d’intention sont incluses lorsqu’elles sont configurées pour votre instance Journey Optimizer B2B edition. Elle nécessite également un ou plusieurs parcours publiés **ou** groupes d&#39;achats créés. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, des produits et des catégories, voir [Données d’intention](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## Remarque sur les licences AEM Assets {#aem-assets-licensing-note}
 
@@ -185,13 +185,13 @@ Dans le panneau de droite avec l’onglet _[!UICONTROL Styles]_ sélectionné, d
 
 * **[!UICONTROL Largeur]** - Utilisez le bouton (bascule) pour définir la largeur en pixels ou en pourcentage.
 
-   * Pour un pourcentage de largeur, utilisez le curseur pour définir la valeur de pourcentage. Le pourcentage détermine la taille de l’élément en fonction de la zone de contenu du bloc conteneur, ce qui exclut la marge intérieure et les bordures. Par exemple, une valeur de 50 définit la largeur de l’élément sur 50 % de la largeur du contenu du bloc qui le contient.
+  * Pour un pourcentage de largeur, utilisez le curseur pour définir la valeur de pourcentage. Le pourcentage détermine la taille de l’élément en fonction de la zone de contenu du bloc conteneur, ce qui exclut la marge intérieure et les bordures. Par exemple, une valeur de 50 définit la largeur de l’élément sur 50 % de la largeur du contenu du bloc qui le contient.
 
-     ![Style de largeur en pourcentage](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+    ![Style de largeur en pourcentage](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
 
-   * Pour une largeur en pixels, cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels. Une valeur vide (Auto) est la valeur par défaut et dimensionne la largeur de l’élément en fonction de son contenu.
+  * Pour une largeur en pixels, cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels. Une valeur vide (Auto) est la valeur par défaut et dimensionne la largeur de l’élément en fonction de son contenu.
 
-     ![Style de largeur en pixels](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+    ![Style de largeur en pixels](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
 
 ## Composants de contenu - Styles de texte {#styles-text}
 
@@ -267,13 +267,13 @@ Cliquez sur **[!UICONTROL Importer]**.
 
 ## Activités relatives au score de l’engagement - Marketo {#engagement-activities-me}
 
-| Nom de l’activité | Description | Fréquences quotidiennes maximales | Poids d’activité du modèle par défaut |
+| Nom de l’activité | Description | Nombre maximal d’occurrences par jour | Poids d’activité du modèle par défaut |
 | --- | --- | --- | --- |
 | [!UICONTROL Participer à un événement] | Un membre a participé à un événement. | 20 | 60 |
 | [!UICONTROL E-mail cliqué] | Un membre clique sur un lien dans un e-mail. | 20 | 30 |
 | [!UICONTROL E-mail ouvert] | Un membre ouvre un e-mail. | 20 | 30 |
 | [!UICONTROL Formulaire complété] | Un membre remplit et envoie un formulaire sur une page web. | 20 | 40 |
-| [!UICONTROL Moment significatif] | Un membre vit un moment significatif. | 20 | 60 |
+| [!UICONTROL Moment significatif] | Un membre connaît un moment intéressant. | 20 | 60 |
 | [!UICONTROL Clics sur les liens] | Un membre clique sur un lien d’une page web. | 20 | 40 |
 | [!UICONTROL Pages vues] | Un membre consulte une page web | 20 | 40 |
 | [!UICONTROL S’inscrire à l’événement] | Un membre inscrit à un événement | 20 | 60 |

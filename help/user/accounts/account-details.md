@@ -1,6 +1,6 @@
 ---
 title: Détails du compte
-description: Affichez les informations sur le compte avec des résumés d’IA, la détection d’intention, l’analyse de couverture des contacts et les communications par e-mail dans Journey Optimizer B2B edition.
+description: Affichez les informations sur le compte avec des résumés générés par l’IA, la détection d’intention, l’analyse de couverture des contacts et les communications par e-mail dans Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 641
-ht-degree: 6%
+source-wordcount: 642
+ht-degree: 7%
 
 ---
 
@@ -71,7 +71,7 @@ La section _[!UICONTROL Couverture des contacts]_ affiche le nombre de contacts 
 * Compte
 * Titre du traitement
 * Groupe d’achat
-* Score d’engagement de la personne
+* Score d’engagement des personnes
 * Dernière activité
 * Détails
 
