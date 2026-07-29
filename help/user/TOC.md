@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
+source-git-commit: 32756215b4df116f3a70b494820ad91a4feeb46a
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 85%
 
 ---
@@ -14,165 +14,166 @@ ht-degree: 85%
 + [Documentation Adobe Journey Optimizer B2B Ultimate](guide-overview.md)
 + [Notes de mise à jour](./release-notes/release-notes.md)
 + Commencer {#get-started}
-   + [Vue d’ensemble de Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
-   + Configuration de l’environnement {#admin-setup}
-      + [Liste de contrôle de configuration](./setup-ultimate.md)
-      + [Espaces de noms et schéma](./data/namespaces-schemas.md)
-      + [Sélection de champ XDM](./admin/xdm-field-management.md)
-      + [Événements d’expérience et champs](./admin/configure-aep-events.md)
-      + [Domaines de branding](./start/branding-domains.md)
-      + [Tracking et diffusion des e-mails](./start/email-protocols.md)
-      + [Configuration des e-mails](./start/email-setup.md)
-      + [Actions du parcours Marketo Engage](./admin/marketo-actions-connect.md)
-      + [Gestion des utilisateurs et utilisatrices](./admin/user-management.md)
-   + [Intégration des utilisateurs](./start/get-started.md)
-   + [Connexion et page d’accueil](home-page.md)
+  + [Vue d’ensemble de Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
+  + Configuration de l’environnement {#admin-setup}
+    + [Liste de contrôle de configuration](./setup-ultimate.md)
+    + [Espaces de noms et schéma](./data/namespaces-schemas.md)
+    + [Sélection de champ XDM](./admin/xdm-field-management.md)
+    + [Événements d’expérience et champs](./admin/configure-aep-events.md)
+    + [Domaines de branding](./start/branding-domains.md)
+    + [Tracking et diffusion des e-mails](./start/email-protocols.md)
+    + [Configuration des e-mails](./start/email-setup.md)
+    + [Actions du parcours Marketo Engage](./admin/marketo-actions-connect.md)
+    + [Gestion des utilisateurs et utilisatrices](./admin/user-management.md)
+  + [Intégration des utilisateurs](./start/get-started.md)
+  + [Connexion et page d’accueil](home-page.md)
 + Assistant IA {#ai-assistant}
-   + [Vue d’ensemble](./ai-assistant/ai-assistant-overview.md)
-   + [Activer l’accès à l’assistant IA](./ai-assistant/enable-ai-assistant-access.md)
-   + [Conseils sur les questions](./ai-assistant/question-guidance.md)
-   + [Utiliser l’assistant IA](./ai-assistant/use-ai-assistant.md)
-   + [IA générative pour le contenu](./ai-assistant/generative-ai-content.md)
-   + Agents {#ai-agents}
-      + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-      + [Journey Agent B2B](./agents/journey-agent.md)
-      + [Qualificateur de vente](./agents/sales-qualifier.md)
+  + [Vue d’ensemble](./ai-assistant/ai-assistant-overview.md)
+  + [Activer l’accès à l’assistant IA](./ai-assistant/enable-ai-assistant-access.md)
+  + [Conseils sur les questions](./ai-assistant/question-guidance.md)
+  + [Utiliser l’assistant IA](./ai-assistant/use-ai-assistant.md)
+  + [IA générative pour le contenu](./ai-assistant/generative-ai-content.md)
+  + Agents {#ai-agents}
+    + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+    + [Journey Agent B2B](./agents/journey-agent.md)
+    + [Qualificateur de vente](./agents/sales-qualifier.md)
 + Gestion des parcours {#journeys}
-   + [Parcours compte et personne](./journeys/journeys-overview.md)
-   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
-   + [rentrée de parcours](./journeys/journey-re-entry.md)
-   + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
-   + Nœuds de parcours {#journey-nodes}
-      + [Audience de compte](./journeys/account-audience-nodes.md)
-      + [Audience de la personne (Beta)](./journeys/person-audience-nodes.md)
-      + [Entreprendre une action](./journeys/action-nodes.md)
-      + [Écouter un événement](./journeys/listen-for-event-nodes.md)
-      + [Fractionner et fusionner les chemins](./journeys/split-merge-paths-nodes.md)
-      + [Chemins de division des variantes (Beta)](./journeys/variant-split-paths-nodes.md)
-      + [Deuxième meilleur chemin](./journeys/next-best-path-node.md)
-      + [Attente](./journeys/wait-nodes.md)
-      + [Nœuds externes](./journeys/external-nodes.md)
-   + [Détails du parcours](./journeys/journey-details.md)
+  + [Parcours compte et personne](./journeys/journeys-overview.md)
+  + [Créer et publier un parcours](./journeys/create-publish-journey.md)
+  + [rentrée de parcours](./journeys/journey-re-entry.md)
+  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + Nœuds de parcours {#journey-nodes}
+    + [Audience de compte](./journeys/account-audience-nodes.md)
+    + [Audience de la personne (Beta)](./journeys/person-audience-nodes.md)
+    + [Entreprendre une action](./journeys/action-nodes.md)
+    + [Écouter un événement](./journeys/listen-for-event-nodes.md)
+    + [Fractionner et fusionner les chemins](./journeys/split-merge-paths-nodes.md)
+    + [Chemins de division des variantes (Beta)](./journeys/variant-split-paths-nodes.md)
+    + [Deuxième meilleur chemin](./journeys/next-best-path-node.md)
+    + [Attente](./journeys/wait-nodes.md)
+    + [Nœuds externes](./journeys/external-nodes.md)
+  + [Détails du parcours](./journeys/journey-details.md)
 + Contenu de parcours {#journey-content}
-   + [Canal SMS](./content/sms-authoring.md)
-   + [Canal WhatsApp](./content/whatsapp-authoring.md)
-   + Canal e-mail {#email-channel}
-      + [Ajouter un e-mail](./content/add-email.md)
-      + [Optimisation de l’heure d’envoi](./content/email-send-time-optimization.md)
-      + [Création d’e-mails](./content/email-authoring.md)
-      + [Assistant IA pour la création d’e-mails](./content/ai-assistant-emails.md)
-      + [Workflows GenStudio](./content/genstudio-email-workflow.md)
-      + [Mode sombre pour la conception d’e-mail](./content/email-dark-mode.md)
-      + [Modèles régis](./content/email-authoring-governance.md)
-      + [E-mail d’alerte de vente](./content/sales-alert-email.md)
-      + [Déduplication des e-mails](./content/email-deduplication.md)
-      + [Suivi des e-mails](./content/email-tracking-manage.md)
-   + Canal web (Beta) {#web-channel}
-      + [Vue d’ensemble](./content/web-experiences.md)
-      + [Conception d’expériences web](./content/web-experience-design.md)
-      + [Applications monopages](./content/web-single-page-applications.md)
-   + [Jetons de personnalisation sur mesure](./content/personalization-my-tokens.md)
-   + [Préférences de consentement](./content/channels-consent-preferences.md)
+  + [Canal SMS](./content/sms-authoring.md)
+  + [Canal WhatsApp](./content/whatsapp-authoring.md)
+  + Canal e-mail {#email-channel}
+    + [Ajouter un e-mail](./content/add-email.md)
+    + [Optimisation de l’heure d’envoi](./content/email-send-time-optimization.md)
+    + [Création d’e-mails](./content/email-authoring.md)
+    + [Assistant IA pour la création d’e-mails](./content/ai-assistant-emails.md)
+    + [Workflows GenStudio](./content/genstudio-email-workflow.md)
+    + [Mode sombre pour la conception d’e-mail](./content/email-dark-mode.md)
+    + [Modèles régis](./content/email-authoring-governance.md)
+    + [E-mail d’alerte de vente](./content/sales-alert-email.md)
+    + [Déduplication des e-mails](./content/email-deduplication.md)
+    + [Suivi des e-mails](./content/email-tracking-manage.md)
+  + Canal web (Beta) {#web-channel}
+    + [Vue d’ensemble](./content/web-experiences.md)
+    + [Conception d’expériences web](./content/web-experience-design.md)
+    + [Applications monopages](./content/web-single-page-applications.md)
+  + [Jetons de personnalisation sur mesure](./content/personalization-my-tokens.md)
+  + [Préférences de consentement](./content/channels-consent-preferences.md)
 + Audiences {#audiences}
-   + [Audiences Experience Platform](./audiences/account-audience-overview.md)
-   + [Cibler des audiences externes](./audiences/target-external-audience.md)
-   + [Audiences correspondantes du compte LinkedIn](./data/linkedin-account-matched-audiences.md)
-   + [Champs XDM par défaut](./admin/field-mapping.md)
-   + [Profils de test](./audiences/test-profiles.md)
+  + [Audiences Experience Platform](./audiences/account-audience-overview.md)
+  + [Cibler des audiences externes](./audiences/target-external-audience.md)
+  + [Audiences correspondantes du compte LinkedIn](./data/linkedin-account-matched-audiences.md)
+  + [Champs XDM par défaut](./admin/field-mapping.md)
+  + [Profils de test](./audiences/test-profiles.md)
 + Comptes {#accounts}
-   + Groupes d’achat {#buying-groups}
-      + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
-      + [Intérêts de la solution](./buying-groups/solution-interests.md)
-      + [Modèles de rôle](./buying-groups/buying-groups-role-templates.md)
-      + [Rôles par défaut et personnalisés](./buying-groups/default-custom-roles.md)
-      + [Informations sur les rôles](./buying-groups/buying-group-role-insights.md)
-      + Notation du groupe d’achat {#scoring}
-         + [Scores d’engagement](./buying-groups/engagement-scores.md)
-         + [Scores d’exhaustivité](./buying-groups/completeness-scores.md)
-      + [Étapes des groupes d’achat](./buying-groups/buying-group-stages.md)
-      + [Créer des groupes d’achat](./buying-groups/buying-groups-create.md)
-      + [Exporter des comptes](./audiences/account-list-export.md)
-      + [Filtres de groupe d’achat dans Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-      + [Insights In-CRM](./buying-groups/incrm-insights.md)
-   + Listes de comptes {#account-lists}
-      + [Vue d’ensemble](./accounts/account-lists.md)
-      + [Utilisation dans les parcours et les programmes](./accounts/account-lists-journeys.md)
-   + Expérience commerciale {#sales-experience}
-      + [Détails du compte](./accounts/account-details.md)
-      + [Détails du groupe d’achat](./buying-groups/buying-group-details.md)
-      + [Détails de la personne](./accounts/person-details.md)
-      + [Liaison CRM](./accounts/crm-linking.md)
+  + Groupes d’achat {#buying-groups}
+    + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
+    + [Intérêts de la solution](./buying-groups/solution-interests.md)
+    + [Modèles de rôle](./buying-groups/buying-groups-role-templates.md)
+    + [Rôles par défaut et personnalisés](./buying-groups/default-custom-roles.md)
+    + [Informations sur les rôles](./buying-groups/buying-group-role-insights.md)
+    + Notation du groupe d’achat {#scoring}
+      + [Scores d’engagement](./buying-groups/engagement-scores.md)
+      + [Scores d’exhaustivité](./buying-groups/completeness-scores.md)
+    + [Étapes des groupes d’achat](./buying-groups/buying-group-stages.md)
+    + [Créer des groupes d’achat](./buying-groups/buying-groups-create.md)
+    + [Exporter des comptes](./audiences/account-list-export.md)
+    + [Filtres de groupe d’achat dans Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+    + [Insights In-CRM](./buying-groups/incrm-insights.md)
+  + Listes de comptes {#account-lists}
+    + [Vue d’ensemble](./accounts/account-lists.md)
+    + [Utilisation dans les parcours et les programmes](./accounts/account-lists-journeys.md)
+  + Expérience commerciale {#sales-experience}
+    + [Détails du compte](./accounts/account-details.md)
+    + [Détails du groupe d’achat](./buying-groups/buying-group-details.md)
+    + [Détails de la personne](./accounts/person-details.md)
+    + [Liaison CRM](./accounts/crm-linking.md)
 + Gestion de contenu {#content-management}
-   + E-mails {#emails}
-      + [Utiliser le contenu de l’e-mail](./content/emails-list.md)
-      + Prévisualisation et validation {#preview}
-         + [Simuler du contenu](./content/email-simulate-content.md)
-         + [Tester le rendu des e-mails](./content/email-test-rendering.md)
-         + [Rapport sur les spams](./content/email-spam-report.md)
-      + [Collaboration par e-mail](./content/email-collaboration-tools.md)
-   + Ressources {#assets}
-      + [Vue d’ensemble](./content/assets-overview.md)
-      + Ressources internes {#internal-dam}
-         + [Utilisation des ressources internes](./content/internal-image-assets.md)
-         + [Modifier des images à l’aide d’Adobe Express](./content/image-edit-adobe-express.md)
-      + [Ressources d’image Experience Manager](./content/aem-assets.md)
-   + Modèles {#templates}
-      + [Gouvernance du contenu](./content/template-content-governance.md)
-      + Modèles d’e-mail {#email-templates}
-         + [Vue d’ensemble](./content/email-templates.md)
-         + [Création de modèle d’e-mail](./content/email-template-authoring.md)
-         + [Modification avancée d’HTML](./content/email-template-advanced-html.md)
-         + [Convertir l’image en modèle](./content/email-template-image-convert.md)
-      + Modèles de page de destination (version bêta) {#landing-page-templates}
-         + [Vue d’ensemble](./content/landing-page-templates.md)
-         + [Conception de modèle de page de destination](./content/landing-page-template-design.md)
-   + Fragments {#visual-fragments}
-      + [Vue d’ensemble](./content/fragments.md)
-      + [Création de fragments](./content/fragment-authoring.md)
-   + Formulaires {#forms}
-      + [Vue d’ensemble](./content/forms.md)
-      + [Conception de formulaire](./content/form-design.md)
-   + Pages de destination {#landing-pages}
-      + [Vue d’ensemble](./content/landing-pages.md)
-      + [Créer et publier](./content/landing-pages-create-publish.md)
-      + [Création de la page de destination](./content/landing-page-design.md)
-      + [Assistant AI pour le contenu des pages de destination](./content/ai-assistant-landing-pages.md)
-   + Outils de conception de contenu {#content-design}
-      + [Composants de structure](./content/structure-components.md)
-      + [Composants de contenu](./content/content-components.md)
-      + [CSS personnalisé](./content/design-custom-css.md)
-   + Marques (version bêta) {#brands}
-      + [Vue d’ensemble](./content/brands-overview.md)
-      + [Gérer et créer](./content/brands-manage-create.md)
-      + [Modèles d’IA générative](./content/generative-ai-models.md)
-   + [Thèmes de marque](./content/brand-themes.md)
-   + [Évaluation de contenu](./content/content-evaluation.md)
-   + [Contenu conditionnel](./content/conditional-content.md)
-   + [Accessibilité du contenu](./content/accessible-content.md)
-   + Personnalisation {#personalization}
-      + [Vue d’ensemble](./content/personalization.md)
-      + [Syntaxe de personnalisation](./content/personalization-syntax.md)
-      + [Liste des fonctions d’assistance](./content/personalization-helper-functions.md)
+  + E-mails {#emails}
+    + [Travailler avec le contenu des e-mails](./content/emails-list.md)
+    + Prévisualisation et validation {#preview}
+      + [Simuler du contenu](./content/email-simulate-content.md)
+      + [Tester le rendu des e-mails](./content/email-test-rendering.md)
+      + [Rapport sur les spams](./content/email-spam-report.md)
+    + [Collaboration par e-mail](./content/email-collaboration-tools.md)
+  + Ressources {#assets}
+    + [Vue d’ensemble](./content/assets-overview.md)
+    + Ressources internes {#internal-dam}
+      + [Travailler avec des ressources internes](./content/internal-image-assets.md)
+      + [Modifier des images à l’aide d’Adobe Express](./content/image-edit-adobe-express.md)
+    + [Ressources d’images Experience Manager](./content/aem-assets.md)
+  + Modèles {#templates}
+    + [Gouvernance du contenu](./content/template-content-governance.md)
+    + Modèles d’e-mail {#email-templates}
+      + [Vue d’ensemble](./content/email-templates.md)
+      + [Création de modèle d’e-mail](./content/email-template-authoring.md)
+      + [Modification avancée d’HTML](./content/email-template-advanced-html.md)
+      + [Convertir l’image en modèle](./content/email-template-image-convert.md)
+    + Modèles de page de destination (version bêta) {#landing-page-templates}
+      + [Vue d’ensemble](./content/landing-page-templates.md)
+      + [Conception de modèle de page de destination](./content/landing-page-template-design.md)
+  + Fragments {#visual-fragments}
+    + [Vue d’ensemble](./content/fragments.md)
+    + [Création de fragments](./content/fragment-authoring.md)
+  + Formulaires {#forms}
+    + [Vue d’ensemble](./content/forms.md)
+    + [Conception de formulaire](./content/form-design.md)
+  + Pages de destination {#landing-pages}
+    + [Vue d’ensemble](./content/landing-pages.md)
+    + [Créer et publier](./content/landing-pages-create-publish.md)
+    + [Création de la page de destination](./content/landing-page-design.md)
+    + [Assistant IA pour le contenu des pages de destination](./content/ai-assistant-landing-pages.md)
+  + Outils de conception de contenu {#content-design}
+    + [Composants de structure](./content/structure-components.md)
+    + [Composants de contenu](./content/content-components.md)
+    + [CSS personnalisé](./content/design-custom-css.md)
+  + Marques (version bêta) {#brands}
+    + [Vue d’ensemble](./content/brands-overview.md)
+    + [Gérer et créer](./content/brands-manage-create.md)
+    + [Modèles d’IA générative](./content/generative-ai-models.md)
+  + [Thèmes de marque](./content/brand-themes.md)
+  + [Évaluation de contenu](./content/content-evaluation.md)
+  + [Contenu conditionnel](./content/conditional-content.md)
+  + [Accessibilité du contenu](./content/accessible-content.md)
+  + Personnalisation {#personalization}
+    + [Vue d’ensemble](./content/personalization.md)
+    + [Syntaxe de personnalisation](./content/personalization-syntax.md)
+    + [Liste des fonctions d’assistance](./content/personalization-helper-functions.md)
+    + [Créateur de scripts (Beta)](./content/script-builder.md)
 + Tableaux de bord intelligents {#dashboards}
-   + [Tableau de bord des informations](./dashboards/intelligent-dashboard.md)
-   + [Tableau de bord de l’engagement](./dashboards/engagement-dashboard.md)
-   + [Tableau de bord d’engagement web](./dashboards/web-engagement-dashboard.md)
-   + [Rapport Performances des emails](./dashboards/email-performance-dashboard.md)
-   + [Tableau de bord des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
-   + [Tableau de bord Parcours](./dashboards/journeys-dashboard.md)
+  + [Tableau de bord des informations](./dashboards/intelligent-dashboard.md)
+  + [Tableau de bord de l’engagement](./dashboards/engagement-dashboard.md)
+  + [Tableau de bord d’engagement web](./dashboards/web-engagement-dashboard.md)
+  + [Rapport Performances des emails](./dashboards/email-performance-dashboard.md)
+  + [Tableau de bord des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
+  + [Tableau de bord Parcours](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
-   + [Gouvernance et confidentialité](./admin/governance.md)
-   + [Mappage de persona](./admin/persona-mapping.md)
-   + Configurations {#configurations}
-      + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
-      + [Données d’intention](./admin/intent-data.md)
-      + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
-      + [Actions externes](./admin/configure-external-actions.md)
-      + {hide-from-toc}[Configurer des flux de données pour la collecte d’événements](./data/aep-event-collection.md)
-   + Canaux {#channels}
-      + [Configurations des e-mails](./admin/configure-channels-emails.md)
-      + [Configuration des SMS](./admin/configure-channels-sms.md)
-      + [Configurations WhatsApp](./admin/configure-channels-whatsapp.md)
-      + [Configurations du canal web (Beta)](./admin/configure-channels-web.md)
-      + [Configurations des pages de destination](./admin/configure-channels-landing-pages.md)
-      + [Configurations de Forms](./admin/configure-channels-forms.md)
+  + [Gouvernance et confidentialité](./admin/governance.md)
+  + [Mappage de persona](./admin/persona-mapping.md)
+  + Configurations {#configurations}
+    + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
+    + [Données d’intention](./admin/intent-data.md)
+    + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
+    + [Actions externes](./admin/configure-external-actions.md)
+    + {hide-from-toc}[Configurer des flux de données pour la collecte d’événements](./data/aep-event-collection.md)
+  + Canaux {#channels}
+    + [Configurations des e-mails](./admin/configure-channels-emails.md)
+    + [Configuration des SMS](./admin/configure-channels-sms.md)
+    + [Configurations WhatsApp](./admin/configure-channels-whatsapp.md)
+    + [Configurations du canal web (Beta)](./admin/configure-channels-web.md)
+    + [Configurations des pages de destination](./admin/configure-channels-landing-pages.md)
+    + [Configurations de Forms](./admin/configure-channels-forms.md)
