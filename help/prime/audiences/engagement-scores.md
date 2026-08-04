@@ -1,24 +1,16 @@
 ---
 title: Scores d’engagement des personnes
 description: Calculez les scores d’engagement des personnes pour les prospects à l’aide des activités pondérées et d’une fenêtre de notation de 30 jours dans Journey Optimizer B2B edition Prime.
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version Beta limitée."
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -38,7 +30,7 @@ Les données de score de l’engagement sont disponibles à partir de **[!UICONT
 
 ![Données de rapport sur le score d’engagement des personnes](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-Le score d’engagement de la personne est un attribut que vous pouvez utiliser comme [condition de filtrage](#engagement-score-filter) dans les listes de personnes et dans les nœuds de chemin de division au sein des parcours de personnes.
+Le score d’engagement de la personne est un attribut que vous pouvez utiliser comme [condition de filtrage](#engagement-score-filter) dans les listes de personnes et les nœuds de chemin de division dans les parcours de personnes.
 
 ## Activités utilisées pour la notation de l’engagement {#activities}
 
@@ -89,11 +81,11 @@ Le système applique un processus de normalisation à plusieurs étapes pour pro
 
 1. Calculez le score brut d’engagement en additionnant l’activité quotidienne par type d’activité, en la multipliant par le poids associé, puis en additionnant les résultats pour tous les jours de l’intervalle de recherche en amont.
 
-1. Appliquez une _Transformation de puissance_ (racine carrée) pour stabiliser la variance en réduisant l’impact des valeurs aberrantes.
+1. Pour stabiliser la variance en réduisant l’impact des valeurs aberrantes, appliquez une _Transformation de puissance_ (racine carrée).
 
    Cette transformation réduit l’asymétrie et rend les modèles des données plus linéaires.
 
-1. Appliquez une transformation _Normalisation mise à l’échelle_ pour vous assurer que les scores utilisent la plage complète comprise entre 0 et 100.
+1. Pour vous assurer que les scores utilisent la plage complète comprise entre 0 et 100, appliquez une transformation _Normalisation mise à l’échelle_.
 
 ## Filtrer par score d’engagement {#engagement-score-filter}
 
@@ -103,7 +95,7 @@ Le filtre _[!UICONTROL Score d’engagement de la personne]_ s’affiche dans le
 
 ### Listes de personnes {#people-lists}
 
-Lorsque vous ajoutez ou supprimez des membres d’une [liste de personnes statique](./people-lists.md#static-list), ou lorsque vous définissez les règles d’appartenance à une [liste de personnes dynamique](./people-lists.md#dynamic-lists), vous pouvez filtrer par score d’engagement de la personne afin de cibler toutes les personnes dont les attributs correspondent à vos critères de score.
+Lors de la gestion des membres dans une [liste de personnes statique](./people-lists.md#static-lists) ou de la définition de règles pour une [liste de personnes dynamique](./people-lists.md#dynamic-lists), vous pouvez filtrer par score d’engagement des personnes pour cibler les personnes correspondant à vos critères.
 
 ![Filtrage du score d’engagement des personnes pour une liste de personnes](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -133,7 +125,7 @@ Lorsque vous ajoutez ou supprimez des membres d’une [liste de personnes statiq
 
 ### Parcours de personne {#person-journeys}
 
-Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ &#x200B;](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser le score d’engagement de la personne comme filtre de profil de personne pour contrôler quelles personnes rejoignent le chemin du parcours.
+Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ ](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser le score d’engagement de la personne comme filtre de profil de personne pour contrôler quelles personnes rejoignent le chemin du parcours.
 
 ![Filtrage de l’engagement des personnes pour une condition de chemin de partage](./assets/engagement-score-filter-split-path.png){width="700" zoomable="yes"}
 
@@ -151,7 +143,7 @@ Lorsque vous configurez la segmentation d’un parcours de personne dans un nœu
 
 Dans [!DNL Journey Optimizer B2B Prime], vous pouvez configurer la pondération du score d’engagement directement à partir de l’interface de chat de l’assistant [AI](../agents/chat-interface.md).
 
-Pour obtenir des informations sur les modèles de score d’engagement, les bandes de pondération et les poids d’activité, voir [Configurer la pondération de score d’engagement personnalisé](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Pour obtenir des informations sur les modèles de score d’engagement, les bandes de pondération et les poids d’activité, voir [Configurer la pondération de score d’engagement personnalisé](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Ouvrez le panneau de conversation **[!UICONTROL Assistant AI]** dans la partie gauche de l’écran (icône de conversation).
 
@@ -211,7 +203,7 @@ Les brouillons de modèles comportent des options modifiables _[!UICONTROL Pond�
 
 >[!NOTE]
 >
->Pour modifier un modèle actif ou archivé, vous pouvez le dupliquer afin de créer un nouveau brouillon de modèle, puis modifier et activer le doublon. Vous ne pouvez pas modifier un modèle actif sur place.
+>Pour modifier un modèle actif ou archivé, dupliquez-le afin de créer un nouveau modèle de brouillon, puis modifiez et activez le doublon. Vous ne pouvez pas modifier un modèle actif sur place.
 
 ### Activer un modèle de brouillon {#activate-weighting-model}
 

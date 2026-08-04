@@ -4,22 +4,16 @@ description: 'Concevez des e-mails, des pages de destination et des fragments av
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3074
 ht-degree: 7%
 
 ---
@@ -58,9 +52,9 @@ La section **[!UICONTROL Contenu]** située au bas de la bibliothèque de compos
 | ![Icône Bouton](../../assets/do-not-localize/icon-content-component-button.svg) | [Bouton](#button) | Ajoutez ce composant à votre conception pour inclure un élément bouton cliquable. |
 | ![Icône Texte](../../assets/do-not-localize/icon-content-component-text.svg) | [Texte](#text) | Ajoutez ce composant à votre conception pour inclure un corps de texte. |
 | ![Icône Diviseur](../../assets/do-not-localize/icon-content-component-divider.svg) | [Diviseur](#divider) | Ajoutez ce composant à votre conception afin d’inclure une ligne horizontale pour séparer les zones de votre contenu. |
-| ![Icône &#x200B;](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Ajoutez ce composant à votre conception pour copier-coller les différentes parties de votre HTML existante. Utilisez ce composant pour créer un bloc HTML modulaire libre afin de réutiliser du contenu externe. |
-| ![&#x200B; Icône Image &#x200B;](../../assets/do-not-localize/icon-content-component-image.svg) | [Image](#image) | Ajoutez ce composant à votre conception pour insérer un fichier image. |
-| ![&#x200B; Icône Social &#x200B;](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Ajoutez ce composant à votre conception pour insérer des liens vers des pages de réseaux sociaux. |
+| ![Icône ](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Ajoutez ce composant à votre conception pour copier-coller les différentes parties de votre HTML existante. Utilisez ce composant pour créer un bloc HTML modulaire libre afin de réutiliser du contenu externe. |
+| ![ Icône Image ](../../assets/do-not-localize/icon-content-component-image.svg) | [Image](#image) | Ajoutez ce composant à votre conception pour insérer un fichier image. |
+| ![ Icône Social ](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Ajoutez ce composant à votre conception pour insérer des liens vers des pages de réseaux sociaux. |
 | ![Icône de formulaire](../../assets/do-not-localize/icon-content-component-form.svg) | [Form](#form) (Formulaire) | **_Disponible uniquement pour les pages de destination._** Ajoutez ce composant à votre conception pour insérer un formulaire créé. |
 
 ## Barres d’outils des composants de contenu
@@ -207,7 +201,7 @@ Chaque type de composant de contenu affiche une barre d’outils lorsque vous le
 
 +++
 
-### Outils fonctionnels
+### Outils fonctionnels {#functional-tools}
 
 | Outil | Nom | Utilisation |
 | ---- | ---- | ----- |
@@ -221,7 +215,7 @@ Chaque type de composant de contenu affiche une barre d’outils lorsque vous le
 
 1. Dans l’espace de conception visuelle, utilisez un modèle existant ou ajoutez les composants de structure nécessaires dans une zone de travail vide pour définir la disposition.
 
-1. Dans la bibliothèque **[!UICONTROL Composants]**, saisissez la _Poignée de glisser_ ![Poignée de glisser](../../assets/do-not-localize/icon-drag-handle.svg) pour le composant de contenu de votre choix, puis faites-la glisser et déposez-la sur les composants de structure.
+1. Dans la bibliothèque **[!UICONTROL Composants]**, sélectionnez la _Poignée de glisser_ ![Poignée de glisser](../../assets/do-not-localize/icon-drag-handle.svg) pour le composant de contenu de votre choix, puis faites-la glisser et déposez-la sur les composants de structure.
 
    Vous pouvez ajouter plusieurs composants dans un seul composant de structure et dans chaque colonne d’un composant de structure.
 
@@ -233,7 +227,7 @@ Chaque type de composant de contenu affiche une barre d’outils lorsque vous le
 
    ![Définissez les paramètres et les styles du composant de contenu](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-Lorsque vous travaillez sur votre conception, vous pouvez également [supprimer](#remove-a-content-component) ou [dupliquer](#duplicate-a-content-component) un composant.
+Lorsque vous travaillez sur votre conception, vous pouvez également supprimer ou dupliquer un composant à l’aide des outils **Supprimer** et **Dupliquer** dans la section [Outils fonctionnels](#functional-tools).
 
 ## Paramètres et styles des composants de contenu
 
@@ -250,7 +244,7 @@ Si vous souhaitez exclure le composant de l’affichage du bureau ou de l’appa
 
 ### Conteneur
 
-Utilisez un conteneur pour appliquer un style spécifique à un groupe de composants de contenu. Ajoutez un composant [!UICONTROL Conteneur], puis ajoutez d’autres composants de contenu à l’intérieur. Ce composant est similaire à la manière dont vous pouvez utiliser un élément `div` dans HTML. Vous pouvez appliquer au conteneur un style distinct qui diffère du style appliqué aux composants de contenu qu’il contient.
+Utilisez un conteneur pour appliquer un style spécifique à un groupe de composants de contenu. Ajoutez un composant [!UICONTROL Conteneur], puis ajoutez d’autres composants de contenu à l’intérieur. Ce composant est similaire à l’utilisation d’un élément `div` dans HTML. Vous pouvez appliquer au conteneur un style distinct qui diffère du style appliqué aux composants de contenu qu’il contient.
 
 Par exemple, ajoutez un composant _[!UICONTROL Conteneur]_, puis ajoutez un composant _[!UICONTROL Bouton]_ à l’intérieur de ce conteneur. Vous pouvez utiliser un style de zone spécifique pour le conteneur et appliquer un style au bouton et à son arrière-plan selon vos besoins.
 
@@ -438,7 +432,7 @@ Ces styles sont appliqués à l’ensemble du bloc de texte. Vous pouvez appliqu
 
 ### Diviseur
 
-Ajoutez un composant _Diviseur_ pour incorporer une division linéaire entre les sections de votre contenu.
+Pour incorporer une division linéaire entre les sections de votre contenu, ajoutez un composant _Diviseur_.
 
 +++Contexte
 
@@ -456,13 +450,13 @@ Dans le panneau de droite avec l’onglet _[!UICONTROL Styles]_ sélectionné, d
 
 * **[!UICONTROL Largeur]** - Utilisez le bouton (bascule) pour définir la largeur en pixels ou en pourcentage.
 
-   * Pour un pourcentage de largeur, utilisez le curseur pour définir la valeur de pourcentage. Le pourcentage détermine la taille de l’élément en fonction de la zone de contenu du bloc conteneur, ce qui exclut la marge intérieure et les bordures. Par exemple, une valeur de 50 définit la largeur de l’élément sur 50 % de la largeur du contenu du bloc qui le contient.
+  * Pour un pourcentage de largeur, utilisez le curseur pour définir la valeur de pourcentage. Le pourcentage détermine la taille de l’élément en fonction de la zone de contenu du bloc conteneur, ce qui exclut la marge intérieure et les bordures. Par exemple, une valeur de 50 définit la largeur de l’élément sur 50 % de la largeur du contenu du bloc qui le contient.
 
   ![Définition du style de ligne pour un composant diviseur](./assets/component-divider-line-options.png){width="250"}
 
-   * Pour une largeur en pixels, cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels. Une valeur vide (Auto) est la valeur par défaut et dimensionne la largeur de l’élément en fonction de son contenu.
+  * Pour une largeur en pixels, cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels. Une valeur vide (Auto) est la valeur par défaut et dimensionne la largeur de l’élément en fonction de son contenu.
 
-* **[!UICONTROL Style]** - Sélectionnez une valeur dans la liste des valeurs de `line-style` CSS standard, telles que _Continu_, _En pointillés_ et _En tirets_.
+* **[!UICONTROL Style]** - Sélectionnez une valeur dans la liste des valeurs de `line-style` CSS standard, telles que _Continu_, _Pointillé_ et _Tiret_.
 
 +++
 
@@ -502,11 +496,11 @@ Utilisez le composant HTML pour ajouter des parties de votre HTML existant. Ce c
 
 1. Sélectionnez le composant sur la zone de travail et cliquez sur l’icône _Afficher le code source_ dans la barre d’outils.
 
-   [Ouvrez l’éditeur de code pour ajouter HTML](./assets/content-components-html-show-code.png){width="450"}
+   [Pour ajouter HTML, ouvrez l’éditeur de code](./assets/content-components-html-show-code.png){width="450"}
 
 1. Collez l’HTML dans la zone de texte, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   [&#x200B; Boîte de dialogue Modifier HTML &#x200B;](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
+   [ Boîte de dialogue Modifier HTML ](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
    Si l’HTML est valide, elle effectue le rendu de l’élément sur la zone de travail. S’il s’agit d’un élément qui correspond à l’un des autres composants de contenu, vous pouvez modifier les paramètres et les styles dans le panneau de droite en fonction du type de composant. Dans le cas contraire, il reste en tant que composant HTML.
 
@@ -564,7 +558,7 @@ Utilisez le composant [!UICONTROL Image] pour insérer une ressource image dans 
 
 Sélectionnez le [type de source de ressource](./assets-overview.md) puis sélectionnez un fichier image :
 
-* **[!UICONTROL Marketo Engage Assets]** - Choisissez ce type pour parcourir et sélectionner une ressource image dans la bibliothèque Journey Optimizer B2B edition ou dans l’instance Market Engage connectée.
+* **[!UICONTROL Marketo Engage Assets]** - Choisissez ce type pour parcourir et sélectionner une ressource image dans la bibliothèque Journey Optimizer B2B edition ou dans l’instance Marketo Engage connectée.
 
   ![Parcourir les ressources d’image disponibles](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -572,31 +566,31 @@ Sélectionnez le [type de source de ressource](./assets-overview.md) puis sélec
 
   Plusieurs outils sont disponibles pour vous aider à localiser la ressource dont vous avez besoin :
 
-   * Cliquez sur l’icône _Filtrer_ en haut à gauche pour filtrer les éléments affichés en fonction de vos critères.
+  * Cliquez sur l’icône _Filtrer_ en haut à gauche pour filtrer les éléments affichés en fonction de vos critères.
 
-   * Saisissez du texte dans le champ _Rechercher_ pour filtrer les éléments affichés afin qu’ils correspondent au nom de la ressource.
+  * Saisissez du texte dans le champ _Rechercher_ pour filtrer les éléments affichés afin qu’ils correspondent au nom de la ressource.
 
-     ![Utilisez les filtres et le champ de recherche pour trouver la ressource dont vous avez besoin](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+    ![Utilisez les filtres et le champ de recherche pour trouver la ressource dont vous avez besoin](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
-* **&#x200B;**&#x200B;- Choisissez ce type pour parcourir et sélectionner une ressource image dans un [référentiel Experience Manager Assets configuré](../admin/configure-aem-repositories.md).
+* **** - Choisissez ce type pour parcourir et sélectionner une ressource image dans un [référentiel Experience Manager Assets configuré](../admin/configure-aem-repositories.md).
 
   Dans la boîte de dialogue _[!UICONTROL Sélectionner Assets]_, choisissez une image à l’aide des outils disponibles pour localiser la ressource dont vous avez besoin, puis cliquez sur **[!UICONTROL Sélectionner]**. :
 
-   * Modifiez le **[!UICONTROL Référentiel]** en haut à droite.
+  * Modifiez le **[!UICONTROL Référentiel]** en haut à droite.
 
-   * Cliquez sur **[!UICONTROL Gérer les ressources]** en haut à droite pour ouvrir le référentiel Assets dans un autre onglet du navigateur et utiliser les outils de gestion d’AEM Assets.
+  * Cliquez sur **[!UICONTROL Gérer les ressources]** en haut à droite pour ouvrir le référentiel Assets dans un autre onglet du navigateur et utiliser les outils de gestion d’AEM Assets.
 
-   * Cliquez sur le sélecteur _Type de vue_ en haut à droite pour remplacer l’affichage par **[!UICONTROL Vue Liste]**, **[!UICONTROL Vue Grille]**, **[!UICONTROL Vue Galerie]** ou **[!UICONTROL Vue Cascade]**.
+  * Cliquez sur le sélecteur _Type de vue_ en haut à droite pour remplacer l’affichage par **[!UICONTROL Vue Liste]**, **[!UICONTROL Vue Grille]**, **[!UICONTROL Vue Galerie]** ou **[!UICONTROL Vue Cascade]**.
 
-   * Cliquez sur l’icône _Ordre de tri_ pour modifier l’ordre de tri entre croissant et décroissant.
+  * Cliquez sur l’icône _Ordre de tri_ pour modifier l’ordre de tri entre croissant et décroissant.
 
-     ![Utilisez les outils de la boîte de dialogue Sélectionner Assets pour rechercher et sélectionner une ressource image](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+    ![Utilisez les outils de la boîte de dialogue Sélectionner Assets pour rechercher et sélectionner une ressource image](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
-   * Cliquez sur la flèche du menu **[!UICONTROL Trier par]** pour remplacer les critères de tri par **[!UICONTROL Nom]**, **[!UICONTROL Taille]** ou **[!UICONTROL Modifié]**.
+  * Cliquez sur la flèche du menu **[!UICONTROL Trier par]** pour remplacer les critères de tri par **[!UICONTROL Nom]**, **[!UICONTROL Taille]** ou **[!UICONTROL Modifié]**.
 
-   * Cliquez sur l’icône _Filtrer_ en haut à gauche pour filtrer les éléments affichés en fonction de vos critères.
+  * Cliquez sur l’icône _Filtrer_ en haut à gauche pour filtrer les éléments affichés en fonction de vos critères.
 
-   * Saisissez du texte dans le champ _Rechercher_ pour filtrer les éléments affichés afin qu’ils correspondent au nom de la ressource.
+  * Saisissez du texte dans le champ _Rechercher_ pour filtrer les éléments affichés afin qu’ils correspondent au nom de la ressource.
 
   ![Utilisez les filtres et le champ de recherche pour localiser la ressource](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
@@ -604,7 +598,7 @@ Sélectionnez le [type de source de ressource](./assets-overview.md) puis sélec
 
   Dans la boîte de dialogue _[!UICONTROL Télécharger l’image]_, effectuez un glisser-déposer d’un fichier de votre système dans la zone de fichier. La taille de fichier maximale est de 100 Mo.
 
-  ![Importer un fichier image dans &#x200B;](./assets/email-designer-image-upload.png){width="450"}
+  ![Importer un fichier image dans ](./assets/email-designer-image-upload.png){width="450"}
 
   Les noms de fichier des images sélectionnées s’affichent dans la boîte de dialogue. Les noms de fichiers de ressources doivent être uniques (dans plusieurs dossiers) et, si un fichier portant ce nom existe déjà, un message s’affiche. Les noms peuvent contenir au maximum 100 caractères et ne peuvent pas contenir de caractères spéciaux (par exemple `;`, `:`, `\` et `|`).
 
@@ -705,7 +699,7 @@ Utilisez le composant _Social_ pour insérer des liens vers des pages de réseau
 Une fois le type de réseau social sélectionné, définissez les options pour ce type :
 
 * **[!UICONTROL URL]** - Saisissez l’URL du réseau social que vous souhaitez lier au graphique ou à l’icône du réseau social.
-* **&#x200B;**&#x200B;- Si vous souhaitez utiliser votre propre image au lieu de la valeur par défaut, choisissez et ressource d’image. Vous pouvez sélectionner une image à partir du référentiel de ressources Marketo Engage connecté ou d’un référentiel Experience Manager Assets (s’il est configuré), ou importer un fichier image de votre système. Pour plus d’informations sur la sélection et l’importation de ressources d’image[&#128279;](#add-the-image-asset) consultez les informations sur les composants d’image .
+* **** - Si vous souhaitez utiliser votre propre image au lieu de la valeur par défaut, choisissez une ressource d’image. Vous pouvez sélectionner une image à partir du référentiel de ressources Marketo Engage connecté ou d’un référentiel Experience Manager Assets (s’il est configuré), ou importer un fichier image de votre système. Pour plus d’informations sur la sélection et l’importation de ressources d’image](#add-the-image-asset) consultez les informations sur les composants d’image [.
 * **[!UICONTROL Texte secondaire]** - Saisissez le texte secondaire de l’image affichée.
 
   ![Paramètres du type de réseau social sélectionné](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -760,7 +754,7 @@ Vous pouvez définir les options de style suivantes pour le composant _Social_ :
 
 [!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Fonctionnalité Beta"}
 
-Utilisez le composant _Formulaire_ pour ajouter un formulaire publié à une page de destination ou à un modèle de page de destination. Pour plus d&#39;informations sur la création et la publication de formulaires, voir [&#128279;](./forms.md).
+Utilisez le composant _Formulaire_ pour ajouter un formulaire publié à une page de destination ou à un modèle de page de destination. Pour plus d&#39;informations sur la création et la publication de formulaires, voir [](./forms.md).
 
 1. Cliquez sur l’outil _Formulaire_ dans la barre d’outils du composant, ou utilisez les propriétés **[!UICONTROL Incorporer le formulaire]** à droite pour sélectionner le formulaire publié.
 

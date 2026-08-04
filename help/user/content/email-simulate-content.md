@@ -1,31 +1,25 @@
 ---
-title: Prévisualiser et tester le contenu de votre e-mail
+title: Aperçu et test du contenu de votre e-mail
 description: Prévisualisez les e-mails avec des profils de test, vérifiez le rendu sur les ordinateurs de bureau et les appareils mobiles, envoyez des BAT aux destinataires et validez la personnalisation dans Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 577
-ht-degree: 7%
+source-wordcount: 574
+ht-degree: 8%
 
 ---
 
-# Prévisualiser et tester le contenu de votre e-mail {#preview-simulate}
+# Aperçu et test du contenu de votre e-mail {#preview-simulate}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
@@ -36,11 +30,11 @@ Utilisez la fonctionnalité _Simuler du contenu_ pour prévisualiser le contenu 
 
 >[!IMPORTANT]
 >
->Vous ne pouvez pas prévisualiser l’e-mail en cas d’erreur. Vérifiez le _Alertes_ pour vous assurer qu’aucune erreur ne bloque les fonctions d’aperçu. Les avertissements ne bloquent pas la prévisualisation, mais vous devez y remédier avant de publier le parcours qui déclenche la diffusion par e-mail.
+>Vous ne pouvez pas prévisualiser l’e-mail en cas d’erreur. Pour vous assurer qu’aucune erreur ne bloque les fonctions d’aperçu, cochez la case _Alertes_. Les avertissements ne bloquent pas la prévisualisation, mais y répondent avant de publier le parcours qui déclenche la diffusion par e-mail.
 
 ## Affichage de l’aperçu de l’e-mail
 
-Vous pouvez accéder à l’aperçu du rendu depuis l’[espace de conception des e-mails](./email-authoring.md) ou depuis le _[!UICONTROL Résumé]_ lorsque vous [ouvrez un e-mail à partir de la liste E-mails](./emails-list.md#edit-emails).
+Vous pouvez accéder à l’aperçu du rendu depuis l’[espace de conception des e-mails](./email-authoring.md) ou depuis le _[!UICONTROL Résumé]_ lorsque vous [ouvrez un e-mail à partir de la liste E-mails](./emails-list.md#open-and-edit-emails).
 
 1. Cliquez sur **[!UICONTROL Simuler du contenu]** dans la partie supérieure.
 
@@ -100,7 +94,7 @@ Un BAT est un message de test diffusé qui vous permet, ainsi qu’aux membres d
 
 1. Dans la boîte de dialogue _[!UICONTROL Ajouter des personnes à tester]_, saisissez l’adresse e-mail complète du contact.
 
-   Pour ajouter plusieurs contacts, saisissez plusieurs adresses séparées par une virgule.
+   Pour ajouter plusieurs contacts, saisissez plusieurs adresses séparées par des virgules.
 
 1. Cochez la case de chaque contact correspondant que vous souhaitez ajouter à la liste des profils de test.
 

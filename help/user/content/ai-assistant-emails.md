@@ -4,33 +4,23 @@ description: Générer du contenu d’e-mail avec l’assistant AI - Créez du c
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3592
+source-wordcount: 3582
 ht-degree: 1%
 
 ---
 
 # Assistant AI pour le contenu des e-mails
 
-Alors que le secteur du marketing devient plus compétitif, les marques cherchent des moyens efficaces de générer rapidement et efficacement du contenu percutant. L’assistant AI pour la création d’email dans [!DNL Adobe Journey Optimizer B2B Edition] est une fonctionnalité de génération de contenu optimisée par l’IA d’Adobe qui révolutionne la façon dont les spécialistes marketing créent du contenu d’email professionnel et cohérent pour la marque. Grâce à des modèles d’IA génératifs avancés et à une compréhension approfondie des directives de la marque, AI Assistant génère automatiquement du contenu personnalisé, attrayant et efficace. Il utilise votre objectif marketing et optimise le contenu pour les styles de contour de la marque, les mises en page, le ton, etc. L’assistant AI rend la création et l’exécution des campagnes de marketing par e-mail intuitives, simples et sans tracas. L’ajout de cette fonctionnalité à vos workflows peut vous faire gagner du temps, améliorer l’efficacité et générer de meilleurs résultats.
+Alors que le secteur du marketing devient plus compétitif, les marques cherchent des moyens efficaces de générer rapidement et efficacement du contenu percutant. L’assistant AI pour la création d’email dans [!DNL Adobe Journey Optimizer B2B Edition] est une fonctionnalité de génération de contenu optimisée par l’IA d’Adobe qui révolutionne la façon dont les spécialistes marketing créent du contenu d’email professionnel et cohérent pour la marque. Grâce à des modèles d’IA génératifs avancés et à une compréhension approfondie des directives de la marque, AI Assistant génère automatiquement du contenu personnalisé, attrayant et efficace. Il utilise votre objectif marketing et optimise le contenu pour les styles de contour de la marque, les mises en page, le ton, etc. L’assistant AI rend la création et l’exécution de campagnes marketing par e-mail intuitives, simples et efficaces. L’ajout de cette fonctionnalité à vos workflows peut vous faire gagner du temps, améliorer l’efficacité et générer de meilleurs résultats.
 
 Cette nouvelle fonctionnalité fournit une génération de contenu basée sur les invites pour une génération complète d&#39;email ou ciblée dans les composants structurels d&#39;email. Pour les images, vous pouvez générer de nouvelles ressources d’image ou des recommandations à partir du catalogue d’images dans la ressource de marque d’entrée. Vous pouvez également utiliser cette fonctionnalité pour générer des lignes d’objet et des pré-titres optimaux afin d’affecter le taux d’ouverture des e-mails.
 
@@ -40,9 +30,9 @@ Cette nouvelle fonctionnalité fournit une génération de contenu basée sur le
 
 ## Instructions et restrictions
 
-Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
+Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
 
-Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation afin de promouvoir la transparence.
+Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation afin de promouvoir la transparence.
 
 Les restrictions et instructions suivantes s’appliquent aux fonctionnalités de l’assistant AI utilisées pour la génération de contenu d’e-mail dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -56,9 +46,9 @@ Les restrictions et instructions suivantes s’appliquent aux fonctionnalités d
 
 Vous pouvez générer du contenu complet pour un e-mail ou pour des composants sélectionnés dans l’e-mail. Lorsque vous utilisez les outils de l’assistant d’IA, vous fournissez des invites, du contenu de référence et des paramètres pour le texte et les images.
 
-### Invites
+### Prompts
 
-Utilisez des invites bien définies pour que le modèle d’IA générative l’interprète avec précision. L’objectif/invite marketing que vous fournissez a une forte incidence sur la qualité du contenu généré.
+Utilisez des invites bien définies pour que le modèle d’IA générative l’interprète avec précision. L’objectif/invite marketing que vous fournissez a une incidence sur la qualité du contenu généré.
 
 ![Champ d’invite](./assets/gen-ai-prompt.png){width="320"}
 
@@ -72,7 +62,7 @@ Une invite efficace est essentielle pour générer le meilleur contenu possible.
 
 ![Assistant AI - Accès à la bibliothèque d’invites](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Sélectionnez l’invite qui reflète le mieux vos objectifs prévus et cliquez sur **[!UICONTROL Essayer cette invite]**. Dans le champ _[!UICONTROL Invite]_, remplacez tous les espaces réservés (tels que `[Key Feature/Information]`) par les valeurs nécessaires qui spécifient votre marque, votre offre, votre campagne et vos cas d’utilisation.
+Sélectionnez l’invite qui reflète le mieux vos objectifs prévus et cliquez sur **[!UICONTROL Essayer cette invite]**. Dans le champ _[!UICONTROL Invite]_, remplacez les espaces réservés (tels que `[Key Feature/Information]`) par des valeurs spécifiant votre marque, votre offre, votre campagne et vos cas d’utilisation.
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +70,7 @@ Sélectionnez l’invite qui reflète le mieux vos objectifs prévus et cliquez 
 
 Développez le **[!UICONTROL Paramètres de texte]** dans le panneau de droite, puis définissez les options du texte généré.
 
-* **[!UICONTROL Groupe d’achat]** - Choisissez le [rôle du groupe d’achat](../buying-groups/buying-groups-role-templates.md) à utiliser pour le ciblage de vos messages. [!DNL Journey Optimizer B2B Edition] offre cinq rôles de groupe d’achat B2B standard prêts à l’emploi. Chaque rôle de groupe d&#39;achat a un objectif de messagerie distinct :
+* **[!UICONTROL Groupe d’achat]** - Choisissez le [rôle du groupe d’achat](../buying-groups/buying-groups-role-templates.md) à utiliser pour le ciblage de vos messages. [!DNL Journey Optimizer B2B Edition] offre cinq rôles de groupe d’achat B2B standard préconfigurés. Chaque rôle de groupe d&#39;achat a un objectif de messagerie distinct :
 
   | Rôle | Thème de la messagerie |
   | ---- | --------------- |
@@ -93,7 +83,7 @@ Développez le **[!UICONTROL Paramètres de texte]** dans le panneau de droite, 
 * **[!UICONTROL Étape du parcours marketing]** - Choisissez l’étape [étape du groupe d’achat](../buying-groups/buying-group-stages.md) à utiliser pour le ciblage du message.
 * **[!UICONTROL Stratégie de communication]** - Choisissez le style de communication le plus adapté à votre texte généré.
 * **[!UICONTROL Langue]** - Sélectionnez la langue du contenu généré.
-* **[!UICONTROL Ton]** - Le ton doit résonner auprès de votre audience. Par exemple, vous pouvez ajuster le message pour qu’il ait un son informatif, ludique ou persuasif.
+* **[!UICONTROL Ton]** - Le ton qui résonne avec votre audience. Par exemple, vous pouvez ajuster le message pour qu’il ait un son informatif, ludique ou persuasif.
 
 ![Panneau de paramètres de texte affichant le groupe d’achat, l’étape du parcours marketing, la stratégie de communication, la langue et les options de tonalité](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -106,7 +96,7 @@ Pour inclure des images dans le contenu généré, développez le **[!UICONTROL 
 Le système désactive par défaut l’option **[!UICONTROL Générer des images à l’aide de l’IA]**. Activez cette fonctionnalité et définissez les options suivantes pour inclure les images générées dans les variations de contenu proposées :
 
 * **[!UICONTROL Modèle génératif]** : faites votre choix parmi le modèle prêt à l’emploi fourni par Adobe, le modèle de partenaire pour les fonctionnalités spécialisées ou les modèles personnalisés configurés, entraînés sur vos ressources de marque. Pour plus d’informations sur les modèles génératifs, voir _[Modèles IA génératifs pour l’alignement des marques](generative-ai-models.md)_.
-* **[!UICONTROL Format]** : lorsqu’un composant d’image est sélectionné, ce paramètre détermine la largeur et la hauteur de la ressource. Choisissez parmi les ratios courants tels que 16:9, 4:3, 3:2 ou 1:1, ou saisissez une taille personnalisée.
+* **[!UICONTROL Format]** : lorsqu’un composant d’image est sélectionné, ce paramètre détermine la largeur et la hauteur de la ressource. Choisissez parmi les ratios courants tels que 16:9, 4:3, 3:2 ou 1:1, ou saisissez un ratio personnalisé.
 * **[!UICONTROL Type de contenu]** : le type classe la nature de l’élément visuel, en distinguant différentes formes de représentation visuelle, telles que des photos, des graphiques ou des illustrations.
 * **[!UICONTROL Intensité visuelle]** : contrôlez l’impact de l’image en ajustant son intensité. Un paramètre inférieur (2, par exemple) donne un aspect plus doux et plus sobre, tandis qu’un paramètre supérieur (10, par exemple) donne à l’image une plus grande intensité et une plus grande puissance visuelle.
 * **[!UICONTROL Couleur et ton]** : l’aspect général des couleurs dans une image et l’ambiance ou l’atmosphère qu’elle véhicule.
@@ -188,7 +178,7 @@ Les étapes suivantes décrivent la séquence de tâches pour l’utilisation de
 
 >[!TAB Génération du pré-titre]
 
-Un pré-titre d’e-mail est le texte de résumé court qui suit l’objet d’un e-mail lorsqu’il est affiché dans la boîte de réception. Il s’agit d’un élément facultatif pour un e-mail, mais d’une excellente occasion d’améliorer l’engagement. Les étapes suivantes décrivent la séquence de tâches pour l’utilisation de l’assistant AI afin de générer un pré-titre optimisé pour votre e-mail :
+Un pré-titre d’e-mail est le texte de résumé court qui suit l’objet d’un e-mail lorsqu’il est affiché dans la boîte de réception. Il s’agit d’un élément facultatif pour un e-mail, mais c’est une occasion efficace d’améliorer l’engagement. Les étapes suivantes décrivent la séquence de tâches pour l’utilisation de l’assistant AI afin de générer un pré-titre optimisé pour votre e-mail :
 
 1. Dans le panneau _Résumé_ avec l’onglet _Détails_ sélectionné, faites défiler l’écran vers le bas et cochez la case **[!UICONTROL Pré-titre]**.
 
@@ -213,7 +203,7 @@ Un pré-titre d’e-mail est le texte de résumé court qui suit l’objet d’u
 
 1. Faites défiler le panneau de l’assistant d’IA et parcourez les variations générées pour déterminer celle qui convient le mieux.
 
-   Vous pouvez [envoyer des commentaires](#submit-variation-feedback) pour une variante générée en cliquant sur l’icône _Pouces vers le haut_, _Pouces vers le bas_ ou _Indicateur_ et choisir la raison qui résume le mieux vos commentaires.
+   Vous pouvez [envoyer des commentaires](#submit-variation-feedback) pour une variante générée en cliquant sur l’icône _Pouces vers le haut_, _Pouces vers le bas_ ou _Indicateur_ et en choisissant la raison qui résume le mieux vos commentaires.
 
 1. Cliquez sur l’option **[!UICONTROL Affiner]** pour accéder à des fonctions de personnalisation supplémentaires :
 
@@ -235,7 +225,7 @@ Un pré-titre d’e-mail est le texte de résumé court qui suit l’objet d’u
 
 ## Générer le contenu du corps de l’e-mail avec l’assistant AI {#generative-ai-email-design}
 
-Une fois que vous avez [créé et personnalisé votre e-mail](./email-authoring.md), utilisez l’assistant AI dans [!DNL Journey Optimizer B2B Edition], optimisé par l’IA générative pour élever le contenu de votre corps d’e-mail au niveau supérieur.
+Une fois que vous avez [créé et personnalisé votre e-mail](./email-authoring.md), utilisez l’assistant AI dans [!DNL Journey Optimizer B2B Edition], optimisé par l’IA générative pour améliorer le contenu du corps de votre e-mail.
 
 Dans l’espace de conception d’e-mail, l’assistant AI peut vous aider à optimiser l’impact de vos diffusions en générant le corps complet de l’e-mail, le contenu de texte ciblé et les images qui résonnent avec votre audience. Cette optimisation de vos campagnes par e-mail est conçue pour produire un meilleur engagement. Sélectionnez l’_assistant AI_ ( bouton bascule du menu de l’assistant ![AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) pour afficher les outils de génération de contenu disponibles pour la sélection de contenu actuelle.
 
@@ -247,7 +237,7 @@ Procédez comme suit en fonction du type de génération de contenu d’e-mail q
 
 >[!TAB Génération d’e-mail complet]
 
-Pour utiliser l’assistant AI afin de générer entièrement l’e-mail, procédez comme suit en affinant un modèle d’e-mail existant :
+Pour utiliser l’assistant AI pour générer entièrement un e-mail en affinant un modèle d’e-mail existant, procédez comme suit :
 
 1. Après avoir [créé l’e-mail](./add-email.md), cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]**.
 
@@ -275,7 +265,7 @@ Pour utiliser l’assistant AI afin de générer entièrement l’e-mail, procé
    >
    >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
 
-1. Définissez les paramètres du guide de contenu pour adapter le contenu généré :
+1. Pour personnaliser le contenu généré, définissez les paramètres de guidage de contenu :
 
    * [**[!UICONTROL Paramètres de texte]**](#text-settings) - Fournissez des conseils pour le contenu de texte généré.
    * [**[!UICONTROL Paramètres d’image]**](#image-settings) - Si vous souhaitez inclure des images dans le contenu généré, activez la génération d’images et fournissez des conseils.
@@ -285,11 +275,11 @@ Pour utiliser l’assistant AI afin de générer entièrement l’e-mail, procé
 
    Les variations générées s’affichent dans le panneau de droite.
 
-1. Parcourez les variations générées ou cliquez sur l’icône _Plein écran_ ( ![&#x200B; Icône Plein écran &#x200B;](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer un e-mail]_.
+1. Parcourez les variations générées ou cliquez sur l’icône _Plein écran_ ( ![ Icône Plein écran ](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer un e-mail]_.
 
    La boîte de dialogue offre un espace supplémentaire pour comparer les variations, ajuster votre texte et les paramètres de contenu de référence (si nécessaire), et régénérer les variations.
 
-   Vous pouvez également affiner une variation en appliquant des actions d’affinement et envoyer des commentaires pour les variations générées. Consultez _[Prévisualisation et amélioration du contenu](#preview-and-content-refinement)_ pour plus d’informations sur l’amélioration des variations et les commentaires.
+   Vous pouvez également affiner une variation en appliquant des actions d’affinement et envoyer des commentaires pour les variations générées. Consultez _[Prévisualisation et amélioration du contenu](#refine-finalize)_ pour plus d’informations sur l’amélioration des variations et les commentaires.
 
    ![Aperçu de l’assistant AI des options de variation et d’affinement des e-mails](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
 
@@ -303,7 +293,7 @@ Pour utiliser l’assistant AI afin d’affiner ou d’améliorer le contenu tex
 
 1. Dans l’espace de conception d’e-mail, sélectionnez un composant _Texte_ pour cibler le contenu spécifique.
 
-1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( bouton bascule du menu de l’Assistant ![&#x200B; AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
+1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( bouton bascule du menu de l’Assistant ![ AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
 
    Les paramètres de droite reflètent les paramètres de génération de contenu du composant de texte.
 
@@ -317,7 +307,7 @@ Pour utiliser l’assistant AI afin d’affiner ou d’améliorer le contenu tex
 
    Utilisez la [bibliothèque d&#39;invites](#prompt-library) si vous avez besoin d&#39;aide pour concevoir une invite efficace.
 
-1. Définissez les paramètres du guide de contenu pour adapter le contenu généré :
+1. Pour personnaliser le contenu généré, définissez les paramètres de guidage de contenu :
 
    * [**[!UICONTROL Paramètres de texte]**](#text-settings) - Fournissez des conseils pour le contenu de texte généré.
 
@@ -343,7 +333,7 @@ Pour utiliser l’assistant AI afin d’affiner ou d’améliorer le contenu d�
 
 1. Dans l’espace de conception d’e-mail, sélectionnez un composant _Image_ pour cibler le contenu spécifique.
 
-1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( bouton bascule du menu de l’Assistant ![&#x200B; AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
+1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( bouton bascule du menu de l’Assistant ![ AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
 
    Les paramètres de l’assistant AI à droite reflètent les paramètres de génération du composant d’image.
 
@@ -357,7 +347,7 @@ Pour utiliser l’assistant AI afin d’affiner ou d’améliorer le contenu d�
 
    Utilisez la [bibliothèque d&#39;invites](#prompt-library) si vous avez besoin d&#39;aide pour concevoir une invite efficace.
 
-1. Définissez les paramètres du guide de contenu pour adapter le contenu généré :
+1. Pour personnaliser le contenu généré, définissez les paramètres de guidage de contenu :
 
    * [**[!UICONTROL Paramètres d’image]**](#image-settings) - Si vous souhaitez inclure des images dans le contenu généré, activez la génération d’images et utilisez les paramètres de guidage.
 
@@ -407,9 +397,9 @@ Cliquez sur l’option **[!UICONTROL Affiner]** pour accéder à des fonctionnal
 
 * **[!UICONTROL Développer]** - L’assistant d’IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
 
-* **[!UICONTROL Résumer]** - La longueur des informations peut surcharger les visionneuses de pages. Utilisez l’Assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et incitent à poursuivre la lecture.
+* **[!UICONTROL Résumer]** - La longueur des informations peut surcharger les lecteurs. Utilisez l’Assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et incitent à poursuivre la lecture.
 
-* **[!UICONTROL Reformuler]** - Réécrivez le message tout en préservant sa signification. Cette option vous permet de générer une autre formulation, d’améliorer le flux ou d’ajuster les expressions sans modifier le message principal.
+* **[!UICONTROL Reformuler]** - Réécrivez le message tout en préservant sa signification. Cette option vous permet de générer d’autres formulations, d’améliorer la fluidité du texte ou d’ajuster la formulation sans modifier le message principal.
 
 * **[!UICONTROL Utiliser un langage plus simple]** - Simplifiez le langage, en assurant la clarté et l’accessibilité pour une audience plus large.
 
@@ -425,7 +415,7 @@ Cliquez sur l’option **[!UICONTROL Affiner]** pour accéder à des fonctionnal
 
 ### Envoyer le retour d’informations sur la variation
 
-Faites des commentaires sur les variantes générées en cliquant sur l’icône _Pouces vers le haut_, _Pouces vers le bas_ ou _Indicateur_ et sélectionnez la raison qui résume le mieux vos commentaires.
+Faites des commentaires sur les variantes générées en cliquant sur l’icône _Pouces vers le haut_, _Pouces vers le bas_ ou _Indicateur_ et choisissez la raison qui résume le mieux vos commentaires.
 
 ![Assistant AI - Prévisualiser les variations générées](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 

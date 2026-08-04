@@ -7,23 +7,17 @@ role: User
 level: Beginner, Intermediate
 keywords: Thèmes des e-mails, réutilisation, alignement des marques, conception d’e-mail
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 autotag-review: 2026-03-30T21:49:24.359Z
 TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3107
-ht-degree: 3%
+source-wordcount: 3111
+ht-degree: 4%
 
 ---
 
@@ -32,7 +26,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Appliquer un thème de marque à votre e-mail ou modèle d’e-mail"
->abstract="Sélectionnez un thème pour votre e-mail ou votre modèle d’e-mail afin d’appliquer un style adapté à votre marque et à votre conception."
+>abstract="Sélectionnez un thème pour votre e-mail ou votre modèle d’e-mail afin d’appliquer un style adapté à votre marque et à votre identité visuelle."
 
 Grâce aux thèmes, les concepteurs non techniques ont la possibilité de créer des directives de conception de contenu d’e-mail réutilisables qui s’alignent sur une marque et un style spécifiques. Les thèmes permettent aux spécialistes du marketing d’utiliser plus rapidement et à moindre effort des e-mails visuellement attrayants et cohérents avec la marque, et fournissent des options de personnalisation avancées pour des besoins de conception uniques.
 
@@ -40,11 +34,11 @@ Grâce aux thèmes, les concepteurs non techniques ont la possibilité de créer
 
 Lorsque vous utilisez des thèmes, gardez à l’esprit les instructions et limites suivantes :
 
-* Lorsque vous créez un e-mail ou un modèle d’e-mail à partir d’une zone de travail vierge (_conception en partant de zéro_), vous pouvez choisir le _mode Thème_ pour commencer à créer votre contenu à l’aide d’un thème afin d’appliquer un style spécifique adapté à votre marque et à votre conception. Si vous choisissez _mode manuel_, vous ne pouvez pas appliquer un thème, sauf si vous réinitialisez la conception de l’e-mail ou du modèle d’e-mail.
+* Lorsque vous créez un e-mail ou un modèle d’e-mail à partir d’un canevas vierge (_conception en partant de zéro_), vous pouvez choisir le _mode Thème_ pour créer du contenu à l’aide d’un thème qui correspond à votre marque. Pour appliquer un thème si vous choisissez _mode manuel_, vous devez réinitialiser la conception de l’e-mail ou du modèle d’e-mail.
 
 * Les [fragments](./fragments.md) ne sont pas compatibles entre le _mode Thème_ et le _mode Manuel_ dans le contenu de l’e-mail. Pour utiliser un fragment dans le contenu d’e-mail auquel un thème est appliqué, le fragment doit également être créé en _mode Thème_.
 
-* Les modifications apportées à un thème personnalisé ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui l’utilisent déjà. Modifiez le contenu de chaque pour actualiser le thème.
+* Les modifications apportées à un thème personnalisé ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui l’utilisent déjà. Pour actualiser le thème, modifiez le contenu de chaque élément.
 
 * Si vous supprimez un thème, cela n’a aucune incidence sur les e-mails ou les modèles d’e-mail auxquels il a déjà été appliqué.
 <!--
@@ -53,7 +47,7 @@ Lorsque vous utilisez des thèmes, gardez à l’esprit les instructions et limi
 
 ## Créer un thème de marque {#create-theme}
 
-Définissez votre propre thème de marque que vous pouvez appliquer à votre contenu d’e-mail et de modèle d’e-mail dans le contenu de votre futur e-mail.
+Définissez votre propre thème de marque que vous pouvez appliquer à votre e-mail et au contenu de votre modèle d’e-mail.
 
 1. Accédez aux outils de thème à l’aide de l’une des méthodes suivantes :
 
@@ -87,7 +81,7 @@ Définissez votre propre thème de marque que vous pouvez appliquer à votre con
    * [Couleurs](#colors)
    * [Paramètres de texte](#text-settings)
    * [Espacement et bordure](#spacing-and-border)
-   * [Bouton](#button)
+   * [Bouton](#buttons)
    * [Diviseur](#divider)
    * [Tableau](#grid)
 
@@ -126,7 +120,7 @@ Sélectionnez l’onglet **[!UICONTROL Couleurs]** et utilisez les paramètres p
 
   Cliquez sur la flèche _Précédent_ pour fermer les outils de palette de couleurs.
 
-* Cliquez sur **[!UICONTROL Ajouter une variante]** pour créer plusieurs variantes de couleurs, telles qu’un mode _clair_ et _sombre_, où chaque variante a sa propre palette de couleurs et ses propres commandes de nuance.
+* Cliquez sur **[!UICONTROL Ajouter une variante]** pour créer plusieurs variantes de couleurs, telles que les modes _clair_ et _sombre_, chacune ayant sa propre palette et ses propres commandes.
 
   >[!NOTE]
   >
@@ -149,7 +143,7 @@ Sélectionnez l’onglet **[!UICONTROL Couleurs]** et utilisez les paramètres p
   | [!UICONTROL Général] | ![Paramètres généraux des couleurs pour une variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Ces paramètres déterminent les couleurs du corps, des structures, des conteneurs, des arrière-plans, des liens, des grilles et des bordures. |
   | [!UICONTROL En-têtes] | ![Paramètres de couleur d’en-tête pour une variante](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | Ces paramètres s’appliquent aux éléments de `Heading`, où vous pouvez définir le texte et les couleurs de bordure pour chacun des six niveaux d’en-tête. Développez chaque niveau d’en-tête pour lequel vous souhaitez définir la couleur de la variante. |
   | [!UICONTROL Paragraphes] | ![Paramètres de couleur de paragraphe pour une variante](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | Ces paramètres s’appliquent aux éléments de `Paragraph`, où vous pouvez définir le texte et les couleurs de bordure pour chacun des trois types de paragraphe. Développez chaque type de paragraphe dont vous souhaitez définir la couleur pour la variante. |
-  | [!UICONTROL &#x200B; Boutons &#x200B;] | ![Paramètres de couleur des boutons pour une variante](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | Les paramètres s’appliquent aux éléments de bouton, où vous pouvez définir la couleur de remplissage, la couleur de bordure et la couleur de texte pour chacun des trois paramètres prédéfinis de bouton : _Principal_, _Secondaire_ et _Tertiaire_. |
+  | [!UICONTROL  Boutons ] | ![Paramètres de couleur des boutons pour une variante](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | Les paramètres s’appliquent aux éléments de bouton, où vous pouvez définir la couleur de remplissage, la couleur de bordure et la couleur de texte pour chacun des trois paramètres prédéfinis de bouton : _Principal_, _Secondaire_ et _Tertiaire_. |
 
   +++
 
@@ -179,7 +173,7 @@ Dans l&#39;onglet **[!UICONTROL Espacement]**, vous pouvez définir la marge int
 
 | Type | Paramètres | Description |
 | ---- | -------- | ----------- |
-| [!UICONTROL &#x200B; Marges &#x200B;] | ![Paramètres de marge](./assets/email-theme-spacing-settings-margins.png){width="300"} | Sélectionnez l’icône _Marge_ pour afficher les paramètres qui répliquent le paramètre de `margin` CSS, qui contrôle l’espace en dehors d’une bordure de composant et le sépare des autres composants/éléments. Cela crée un espace autour du composant afin d’influencer son positionnement et la mise en page du contenu environnant. Définissez les valeurs de marge en pixels en fonction de vos besoins de conception. Vous pouvez définir la marge pour tous les côtés, le coin supérieur inférieur, le coin gauche-droit ou chaque côté du composant indépendamment. Cliquez sur les icônes _Verrouiller_ et _Déverrouiller_ pour synchroniser ou désynchroniser les valeurs des marges supérieure inférieure et gauche-droite. |
+| [!UICONTROL  Marges ] | ![Paramètres de marge](./assets/email-theme-spacing-settings-margins.png){width="300"} | Sélectionnez l’icône _Marge_ pour afficher les paramètres qui répliquent le paramètre de `margin` CSS, qui contrôle l’espace en dehors d’une bordure de composant et le sépare des autres composants/éléments. Cela crée un espace autour du composant afin d’influencer son positionnement et la mise en page du contenu environnant. Définissez les valeurs de marge en pixels en fonction de vos besoins de conception. Vous pouvez définir la marge pour tous les côtés, le coin supérieur inférieur, le coin gauche-droit ou chaque côté du composant indépendamment. Cliquez sur les icônes _Verrouiller_ et _Déverrouiller_ pour synchroniser ou désynchroniser les valeurs des marges supérieure inférieure et gauche-droite. |
 | [!UICONTROL Marges Intérieures] | ![Paramètres de remplissage](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Sélectionnez l’icône _Marge intérieure_ pour afficher les paramètres qui répliquent le paramètre de `padding` CSS, à savoir l’espace entre le contenu d’un composant/élément et sa bordure. La marge intérieure fournit un espacement interne que vous pouvez utiliser pour contrôler la distance entre le contenu et la bordure du composant. Définissez les valeurs de marge intérieure en pixels en fonction de vos besoins de conception. Vous pouvez définir la marge intérieure pour tous les côtés, le coin supérieur inférieur, le coin gauche-droit ou chaque côté du composant indépendamment. Cliquez sur les icônes _Verrouiller_ et _Déverrouiller_ pour synchroniser ou désynchroniser les valeurs de marge intérieure supérieure inférieure et gauche-droite. |
 | [!UICONTROL Coins] | ![Paramètres des coins](./assets/email-theme-spacing-settings-corners.png){width="300"} | Sélectionnez l’icône _Coins_ pour afficher les paramètres qui répliquent le paramètre de `border-radius` CSS, qui définit le rayon des coins du composant/de l’élément. Définissez la valeur numérique en fonction de la courbe que vous souhaitez pour les coins. Une valeur de 0 (par défaut) génère un coin carré. |
 
@@ -195,7 +189,7 @@ Déplacez le bouton bascule **[!UICONTROL Bordure]** vers la droite pour activer
 
 * Pour déterminer l’emplacement d’affichage de la bordure, cochez chaque case **[!UICONTROL Position de la bordure]**.
 
-![&#x200B; Styles de bordure &#x200B;](./assets/email-theme-spacing-settings-borders.png){width="250"}
+![ Styles de bordure ](./assets/email-theme-spacing-settings-borders.png){width="250"}
 
 +++
 
@@ -210,7 +204,7 @@ Dans l’onglet **[!UICONTROL Boutons]**, vous pouvez définir différents attri
 | Type | Paramètres | Description |
 | ---- | -------- | ----------- |
 | [!UICONTROL Texte] | ![Paramètres de texte des boutons](./assets/email-theme-button-settings-text.png){width="300"} | Définissez la **[!UICONTROL Bibliothèque de polices]** sur _[!UICONTROL Standard]_ ou _[!UICONTROL Polices Google]_. Choisissez ensuite la famille, la taille et le style de la police. Choisissez le **[!UICONTROL Alignement du texte]** : _Gauche_, _Centré_, _Droite_ ou _Justifié_. |
-| [!UICONTROL &#x200B; Bordure &#x200B;] | ![Paramètres de bordure de bouton](./assets/email-theme-button-settings-border.png){width="300"} | Déplacez le bouton bascule **[!UICONTROL Bordure]** vers la droite pour activer les options d’affichage des bordures des boutons et les définir en fonction de vos critères de conception. Définissez la **[!UICONTROL Taille de la bordure]** (largeur de ligne) en augmentant ou en réduisant le nombre de pixels. Définissez le **[!UICONTROL Style de bordure]** en choisissant une valeur dans la liste des valeurs de `border-style` CSS standard, telles que _Continu_, _Pointillé_ et _Tiret_. |
+| [!UICONTROL  Bordure ] | ![Paramètres de bordure de bouton](./assets/email-theme-button-settings-border.png){width="300"} | Déplacez le bouton bascule **[!UICONTROL Bordure]** vers la droite pour activer les options d’affichage des bordures des boutons et les définir en fonction de vos critères de conception. Définissez la **[!UICONTROL Taille de la bordure]** (largeur de ligne) en augmentant ou en réduisant le nombre de pixels. Définissez le **[!UICONTROL Style de bordure]** en choisissant une valeur dans la liste des valeurs de `border-style` CSS standard, telles que _Continu_, _Pointillé_ et _Tiret_. |
 | [!UICONTROL Taille] | ![Paramètres de taille des boutons](./assets/email-theme-button-settings-size.png){width="300"} | Pour l’option **[!UICONTROL Hauteur]**, cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels. Une valeur vide (Auto) est la valeur par défaut et mesure la hauteur du bouton en fonction de son contenu. Pour l’option **[!UICONTROL Largeur]**, utilisez le bouton (bascule) pour définir la largeur en pixels ou en pourcentage. Pour un pourcentage de largeur, utilisez le curseur pour définir la valeur de pourcentage. Le pourcentage détermine la taille du bouton en fonction de la zone de contenu du bloc conteneur, ce qui exclut la marge intérieure et les bordures. Par exemple, une valeur de 50 définit la largeur du bouton sur 50 % de celle du contenu du bloc qui le contient. Pour une largeur en pixels, cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels. Une valeur vide (_Auto_) est la valeur par défaut et mesure la largeur du bouton en fonction de son contenu. |
 
 +++
@@ -226,7 +220,7 @@ Dans l’onglet **[!UICONTROL Diviseur]**, vous pouvez définir le style de lign
 | Type | Paramètres | Description |
 | ---- | -------- | ----------- |
 | [!UICONTROL Line] | ![Paramètres de ligne de séparation](./assets/email-theme-divider-settings-line.png){width="300"} | Définissez le **[!UICONTROL Style de bordure]** en choisissant une valeur dans la liste des valeurs de `border-style` CSS standard, telles que _Continu_, _Pointillé_ et _Tiret_. |
-| [!UICONTROL &#x200B; Taille du conteneur &#x200B;] | ![Paramètres de taille de conteneur du diviseur](./assets/email-theme-divider-settings-container-size.png){width="300"} | Pour l’option **[!UICONTROL Hauteur]**, cliquez sur les icônes fléchées haut et bas pour augmenter ou réduire le nombre de pixels pour le composant/l’élément. Une valeur vide (Auto) est la valeur par défaut et dimensionne la hauteur en fonction de son contenu (style de ligne). Pour l’option **[!UICONTROL Largeur]**, utilisez le bouton (bascule) pour définir la largeur en pixels ou en pourcentage. Pour un pourcentage de largeur, utilisez le curseur pour définir la valeur de pourcentage. Le pourcentage détermine la largeur de l’élément en fonction de la zone de contenu du bloc conteneur. Par exemple, une valeur de 50 définit la largeur du séparateur sur 50 % de la largeur du contenu du bloc qui le contient. Pour une largeur en pixels, cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels. Une valeur vide (_Auto_) est la valeur par défaut et mesure la largeur du séparateur en fonction de son contenu. |
+| [!UICONTROL  Taille du conteneur ] | ![Paramètres de taille de conteneur du diviseur](./assets/email-theme-divider-settings-container-size.png){width="300"} | Pour l’option **[!UICONTROL Hauteur]**, cliquez sur les icônes fléchées haut et bas pour augmenter ou réduire le nombre de pixels pour le composant/l’élément. Une valeur vide (Auto) est la valeur par défaut et dimensionne la hauteur en fonction de son contenu (style de ligne). Pour l’option **[!UICONTROL Largeur]**, utilisez le bouton (bascule) pour définir la largeur en pixels ou en pourcentage. Pour un pourcentage de largeur, utilisez le curseur pour définir la valeur de pourcentage. Le pourcentage détermine la largeur de l’élément en fonction de la zone de contenu du bloc conteneur. Par exemple, une valeur de 50 définit la largeur du séparateur sur 50 % de la largeur du contenu du bloc qui le contient. Pour une largeur en pixels, cliquez sur les icônes fléchées vers le haut et vers le bas pour augmenter ou réduire le nombre de pixels. Une valeur vide (_Auto_) est la valeur par défaut et mesure la largeur du séparateur en fonction de son contenu. |
 | [!UICONTROL Alignement] | ![Paramètres d’alignement des séparateurs](./assets/email-theme-divider-settings-alignment.png){width="300"} | Sélectionnez l’alignement horizontal dans le bloc conteneur : _Gauche_, _Centré_ ou _Droite_. |
 
 +++
@@ -253,7 +247,7 @@ Utilisez le rail à droite pour parcourir les différents onglets et modifier le
 * [Couleurs](#colors)
 * [Paramètres de texte](#text-settings)
 * [Espacement et bordure](#spacing-and-border)
-* [Bouton](#button)
+* [Bouton](#buttons)
 * [Diviseur](#divider)
 * [Tableau](#grid)
 
@@ -265,7 +259,7 @@ Une fois les modifications du thème effectuées, cliquez sur **[!UICONTROL Enre
 
 >[!NOTE]
 >
->Les modifications enregistrées ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui utilisent actuellement le thème. Modifiez le contenu de chaque pour actualiser le thème et faire correspondre les styles mis à jour.
+>Les modifications enregistrées ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui utilisent actuellement le thème. Pour actualiser le thème et correspondre aux styles mis à jour, modifiez le contenu de chaque élément.
 
 ## Gestion des thèmes personnalisés
 
@@ -287,7 +281,7 @@ Si vous disposez d’une liste volumineuse de thèmes personnalisés, utilisez l
    * [Couleurs](#colors)
    * [Paramètres de texte](#text-settings)
    * [Espacement et bordure](#spacing-and-border)
-   * [Bouton](#button)
+   * [Bouton](#buttons)
    * [Diviseur](#divider)
    * [Tableau](#grid)
 
@@ -299,7 +293,7 @@ Si vous disposez d’une liste volumineuse de thèmes personnalisés, utilisez l
 
 >[!NOTE]
 >
->Les modifications du thème enregistrées ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui utilisent actuellement le thème. Modifiez le contenu de chaque pour actualiser le thème et faire correspondre les styles mis à jour.
+>Les modifications du thème enregistrées ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui utilisent actuellement le thème. Pour actualiser le thème et correspondre aux styles mis à jour, modifiez le contenu de chaque élément.
 
 ### Supprimer ou dupliquer un thème
 
@@ -317,7 +311,7 @@ Lorsque vous localisez le thème, cliquez sur le menu _Plus_ (**...**) dans le c
 
 ## Utiliser un thème pour la création de contenu d’e-mail {#use-email-theme}
 
-Lorsque vous créez un e-mail ou un modèle d’e-mail, vous pouvez choisir d’utiliser un thème de marque qui simplifie le processus de création de contenu et garantit que la conception s’aligne sur les normes définies. Pour un nouveau fragment, vous pouvez également appliquer un thème avant d’enregistrer le fragment. Le fragment reste en _mode Thème_ à partir de ce point et est compatible avec les e-mails et les modèles d’e-mail qui sont également en _mode Thème_.
+Lorsque vous créez un e-mail ou un modèle d’e-mail, vous pouvez choisir d’utiliser un thème de marque qui simplifie le processus de création de contenu et garantit que la conception s’aligne sur les normes définies. Pour un nouveau fragment, vous pouvez également appliquer un thème avant d’enregistrer le fragment. Le fragment reste en _mode thème_ à partir de ce point et est compatible pour être ajouté aux e-mails et aux modèles d’e-mail qui sont également en _mode thème_.
 
 1. Sélectionnez l’une des actions suivantes :
 

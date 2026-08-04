@@ -4,27 +4,17 @@ description: Activer des audiences externes vers par le biais  [!DNL Adobe Targe
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -32,14 +22,14 @@ ht-degree: 2%
 
 Vous pouvez activer et personnaliser des expériences pour des audiences externes dans [!DNL Adobe Target] par le biais de parcours de compte. Utilisez cette intégration pour obtenir une personnalisation avancée et personnalisée qui accroît l’engagement et pour maintenir la cohérence entre les plateformes sur l’ensemble des [!DNL Target] et des [!DNL Journey Optimizer B2B Edition]. Cette cohérence permet aux équipes d’aligner et de personnaliser les canaux web pour les groupes d’achats sur l’ensemble du parcours des acheteurs B2B.
 
-Il s’agit d’un workflow en deux étapes permettant d’activer une audience externe via Adobe Target :
+Il existe un workflow en deux étapes pour activer une audience externe via Adobe Target :
 
 1. [Ajouter à une audience client externe](#add-to-customer-external-audience-from-a-journey) à partir d’un parcours.
 2. [Activez l’audience externe](#activate-the-external-audience-to-target-as-a-destination) pour la [!DNL Target] en tant que destination dans Experience Platform.
 
 ## Ajouter à l’audience externe du client à partir d’un parcours
 
-Dans votre parcours, [ajoutez un nœud _Prendre une action_](../journeys/action-nodes.md) pour exécuter l’action _[!UICONTROL Ajouter à l’audience externe du client]_. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente. Le parcours exécute l’action lorsqu’un compte qualifié avec des profils de personne atteint le nœud .
+Dans votre parcours, [ajoutez un nœud _Prendre une action_](../journeys/action-nodes.md) pour exécuter l’action _[!UICONTROL Ajouter à l’audience externe du client]_. Les actions sont généralement le résultat d’un déclencheur, tel qu’un événement ou une action précédente. Le parcours exécute l’action lorsqu’un compte qualifié avec des profils de personne atteint le nœud .
 
 >[!NOTE]
 >
@@ -53,7 +43,7 @@ Dans votre parcours, [ajoutez un nœud _Prendre une action_](../journeys/action-
 
 1. Dans les propriétés de nœud sur la droite, définissez l’audience externe.
 
-   * Si une ou plusieurs audiences externes sont déjà créées, vous pouvez choisir **[!UICONTROL Sélectionner une audience existante]** et [sélectionner l’audience à utiliser](#choose-an-external-audience).
+   * Si une ou plusieurs audiences externes sont déjà créées, vous pouvez choisir **[!UICONTROL Sélectionner une audience existante]** et [sélectionner l’audience à utiliser](#select-an-external-audience).
 
    * Si vous souhaitez [créer une audience](#create-an-external-audience) à utiliser pour le nœud, choisissez **[!UICONTROL Créer]**.
 
@@ -87,7 +77,7 @@ Dans votre parcours, [ajoutez un nœud _Prendre une action_](../journeys/action-
 
 ## Activation de l’audience externe vers Target en tant que destination
 
-L’activation de l’audience externe vers Adobe Target nécessite que vous ayez configuré [!DNL Adobe Target] comme destination dans [!DNL Real-time Customer Data Platform (RTCDP)]. Pour plus d&#39;informations sur cette configuration, consultez la documentation de RTCDP [&#128279;](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}.
+L’activation de l’audience externe vers Adobe Target nécessite que vous ayez configuré [!DNL Adobe Target] comme destination dans [!DNL Real-time Customer Data Platform (RTCDP)]. Pour plus d&#39;informations sur cette configuration, consultez la documentation de RTCDP [](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -97,9 +87,9 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
 >[!BEGINSHADEBOX]
 
-![Icône Autorisations &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les autorisations suivantes pour le rôle utilisateur qui vous a été attribué :
+![Icône Autorisations ](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les autorisations suivantes pour le rôle utilisateur qui vous a été attribué :
 
-* **&#x200B;**&#x200B;- Pour la ressource _[!UICONTROL Destinations]_ : `Activate Destinations`, `Manage and Activate Dataset Destination` et `View Destination`
+* **** - Pour la ressource _[!UICONTROL Destinations]_ : `Activate Destinations`, `Manage and Activate Dataset Destination` et `View Destination`
 * **[!DNL Target]** - `Approver`
 
 >[!ENDSHADEBOX]
@@ -112,11 +102,11 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
    Saisissez du texte dans le champ _[!UICONTROL Rechercher]_ pour filtrer les destinations affichées pour une correspondance par nom.
 
-   ![Experience Platform - destinations - parcourir les destinations Target - menu plus &#x200B;](./assets/aep-destinations-activate-target-audience.png){width="800" zoomable="yes"}
+   ![Experience Platform - destinations - parcourir les destinations Target - menu plus ](./assets/aep-destinations-activate-target-audience.png){width="800" zoomable="yes"}
 
 1. Dans la liste _[!UICONTROL Audiences disponibles]_, sélectionnez votre audience externe et cliquez sur **[!UICONTROL Suivant]**.
 
-   ![Experience Platform - destinations - parcourir les destinations Target - menu plus &#x200B;](./assets/aep-destinations-activate-target-audience-available-audiences.png){width="700" zoomable="yes"}
+   ![Experience Platform - destinations - parcourir les destinations Target - menu plus ](./assets/aep-destinations-activate-target-audience-available-audiences.png){width="700" zoomable="yes"}
 
 1. Effectuez un mappage de champs supplémentaire à la destination (facultatif) et cliquez sur **[!UICONTROL Suivant]**.
 
@@ -124,4 +114,4 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
    ![Experience Platform - destinations - activer la destination - vérifier](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Lors de l’activation, vous pouvez voir l’audience dans [les audiences &#x200B;](https://experienceleague.adobe.com/fr/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et les utiliser dans les activités Adobe Target.
+Lors de l’activation, vous pouvez voir l’audience dans [Audiences ](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et l’utiliser dans les activités Adobe Target.

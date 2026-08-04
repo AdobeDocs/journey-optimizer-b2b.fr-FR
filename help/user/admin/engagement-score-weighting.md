@@ -4,21 +4,15 @@ description: Créez des modèles de score d’engagement personnalisés avec des
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -35,13 +29,13 @@ En tant qu’administrateur ou administratrice, vous pouvez définir plusieurs m
 
 ## Accéder aux modèles de pondération de score de l’engagement
 
-Ouvrez la liste _[!UICONTROL pondération du score de l’engagement]_ pour afficher les modèles actifs, brouillons et archivés :
+Pour afficher les modèles actifs, brouillons et archivés, ouvrez la liste _[!UICONTROL pondération du score de l’engagement]_ :
 
 1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
 1. Cliquez sur **[!UICONTROL Pondération de score de l’engagement]** dans le panneau intermédiaire pour afficher la liste des modèles de score.
 
-   À partir de cette page, vous pouvez [créer (dupliquer)](#create-an-engagement-score-model), [activer](#activate-a-score-model) et [modifier](#change-the-engagement-weighting-settings) des modèles de score d’engagement.
+   À partir de cette page, vous pouvez [créer (dupliquer)](#create-a-custom-engagement-scoring-model), [activer](#activate-a-score-model) et [modifier](#change-the-engagement-weighting-settings) des modèles de score d’engagement.
 
    ![Accéder aux modèles de score d’engagement définis](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -79,7 +73,7 @@ Pour créer un modèle de score d’engagement personnalisé, dupliquez le modè
 
 1. Cliquez sur le nom du modèle pour ouvrir la page des détails du modèle, puis cliquez sur **[!UICONTROL Dupliquer]** en haut à droite.
 
-   ![&#x200B; Dupliquer le modèle actif &#x200B;](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
+   ![ Dupliquer le modèle actif ](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
 
    Vous pouvez également cliquer sur l’icône _Plus_ (***...***) en regard du nom du modèle de score dans la liste et choisir **[!UICONTROL Dupliquer]**.
 
@@ -93,7 +87,7 @@ Pour créer un modèle de score d’engagement personnalisé, dupliquez le modè
 
 ### Modifier les paramètres de pondération de l’engagement
 
-Les paramètres de poids définissent les bandes que vous pouvez affecter à chaque activité du modèle. Vous pouvez modifier les bandes pour refléter les stratégies de votre organisation pour évaluer l’engagement. Par exemple, vous pouvez ajuster la plage de pondération _Normale_ à une valeur de 65 si vous souhaitez attribuer une valeur plus élevée aux activités normales. Vous pouvez également ajouter une bande de pondération conçue pour capturer les activités comprises entre _Normale_ et _Importante_. Dans ce cas, vous pouvez ajouter une bande et l’étiqueter comme _Significatif_ et attribuer une valeur de bande de poids de 75.
+Les paramètres de poids définissent les bandes que vous pouvez affecter à chaque activité du modèle. Pour refléter les stratégies de votre organisation en matière d&#39;évaluation de l&#39;engagement, modifiez les bandes. Par exemple, définissez la plage de pondération _Normale_ sur la valeur 65 si vous souhaitez attribuer une valeur plus élevée aux activités normales. Vous pouvez également ajouter une bande de pondération conçue pour capturer les activités comprises entre _Normale_ et _Importante_. Dans ce cas, ajoutez une bande, étiquetez-la comme _Significative_ et attribuez une valeur de bande de poids de 75.
 
 1. Dans la page des détails du modèle de score, cliquez sur **[!UICONTROL Paramètres de poids de l’engagement]** dans la partie supérieure.
 
@@ -102,7 +96,7 @@ Les paramètres de poids définissent les bandes que vous pouvez affecter à cha
 1. Pour chaque plage de poids, ajustez le nom ou les valeurs en fonction de vos besoins :
 
    * Modifiez le nom dans le champ _[!UICONTROL Bande de pondération]_.
-   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
+   * Saisissez une nouvelle valeur. Vous pouvez également cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Paramètres de poids de l’engagement](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -161,7 +155,7 @@ Vos modifications sont enregistrées automatiquement.
 
 Lorsque vous activez un modèle de score de brouillon, il remplace le modèle actif. Le modèle actuellement actif est automatiquement archivé.
 
-1. Ouvrez un modèle de score de brouillon pour afficher la page de détails.
+1. Pour afficher la page de détails, ouvrez un brouillon de modèle de score.
 
 1. Cliquez sur **[!UICONTROL Activer]**.
 

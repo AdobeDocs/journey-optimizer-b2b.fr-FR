@@ -6,21 +6,15 @@ role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: 1625
 ht-degree: 7%
 
 ---
@@ -47,7 +41,7 @@ ht-degree: 7%
 >title="À propos des composants de structure"
 >abstract="Les composants de structure sont des éléments de mise en page que vous pouvez utiliser pour concevoir la structure d’un modèle."
 
-Utilisez la _Composants de structure_ dans l’espace de conception visuelle pour définir la structure de votre contenu. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez rapidement définir la forme de votre disposition de contenu. Chaque composant de structure s’étend sur l’espace horizontal et vous pouvez les empiler pour créer la disposition verticalement. Divisez chaque composant en colonnes afin de former chaque bloc de contenu dont vous avez besoin.
+Utilisez la _Composants de structure_ dans l’espace de conception visuelle pour définir la structure de votre contenu. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez rapidement définir la structure de votre disposition de contenu. Chaque composant de structure s’étend sur l’espace horizontal et vous pouvez les empiler pour créer la disposition verticalement. Pour former chaque bloc de contenu dont vous avez besoin, divisez chaque composant en colonnes.
 
 ## Bibliothèque de structures
 
@@ -55,14 +49,14 @@ Dans la partie supérieure de la bibliothèque _[!UICONTROL Composants]_, la sec
 
 | Icône | Composant. | Description |
 | ----- | ----------- | ----------- |
-| ![1:1 icône de colonne](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 colonne] | Conteneur à une seule colonne qui remplit la largeur de l’espace. |
-| ![1:2 icône de colonne](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 colonne gauche] | Conteneur à deux colonnes qui utilise un rapport de 1:2 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe un tiers de la largeur et la seconde (à droite) occupe les deux tiers restants. |
-| ![1:3 icône de colonne](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 colonne gauche] | Conteneur à deux colonnes qui utilise un rapport de 1:3 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe un quart de la largeur et la seconde (à droite) occupe les trois quarts restants. |
-| ![2:1 icône de colonne](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 colonne droite] | Conteneur à deux colonnes qui utilise un rapport de 2:1 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe les deux tiers de la largeur et la seconde (à droite) occupe le tiers restant. |
-| ![2:2 icône de colonne](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 colonne] | Conteneur à deux colonnes qui utilise un rapport de 2:2 pour remplir la largeur de l’espace. Les colonnes de gauche et de droite ont la même largeur. |
-| ![3:1 icône de colonne](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 colonne droite] | Conteneur à deux colonnes qui utilise un rapport de 3:1 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe les trois quarts (75 %) de la largeur et la seconde (à droite) occupe le quart restant (25 %). |
-| ![3:3 icône de colonne](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 colonne] | Conteneur à trois colonnes qui utilise un rapport de 3:3 pour remplir la largeur de l’espace. Les trois colonnes ont la même largeur. |
-| ![4:4 icône de colonne](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 colonne] | Conteneur à quatre colonnes qui utilise un rapport de 4:4 pour remplir la largeur de l’espace. Les quatre colonnes ont la même largeur. |
+| ![icône de colonne 1:1](../assets/do-not-localize/icon-design-structure-1-1.png) | Colonne [!UICONTROL 1:1] | Conteneur à une seule colonne qui remplit la largeur de l’espace. |
+| ![icône de colonne 1:2](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 colonne gauche] | Conteneur à deux colonnes qui utilise un rapport de 1:2 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe un tiers de la largeur et la seconde (à droite) occupe les deux tiers restants. |
+| ![icône de colonne 1:3](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 colonne gauche] | Conteneur à deux colonnes qui utilise un rapport de 1:3 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe un quart de la largeur et la seconde (à droite) occupe les trois quarts restants. |
+| ![icône de colonne 2:1](../assets/do-not-localize/icon-design-structure-2-1.png) | Colonne [!UICONTROL 2:1 droite] | Conteneur à deux colonnes qui utilise un rapport de 2:1 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe les deux tiers de la largeur et la seconde (à droite) occupe le tiers restant. |
+| ![icône de colonne 2:2](../assets/do-not-localize/icon-design-structure-2-2.png) | Colonne [!UICONTROL 2:2] | Conteneur à deux colonnes qui utilise un rapport de 2:2 pour remplir la largeur de l’espace. Les colonnes de gauche et de droite ont la même largeur. |
+| ![icône de colonne 3:1](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 colonne droite] | Conteneur à deux colonnes qui utilise un rapport de 3:1 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe les trois quarts (75 %) de la largeur et la seconde (à droite) occupe le quart restant (25 %). |
+| Icône de colonne ![3:3](../assets/do-not-localize/icon-design-structure-3-3.png) | Colonne [!UICONTROL 3:3] | Conteneur à trois colonnes qui utilise un rapport de 3:3 pour remplir la largeur de l’espace. Les trois colonnes ont la même largeur. |
+| ![icône de colonne 4:4](../assets/do-not-localize/icon-design-structure-4-4.png) | Colonne [!UICONTROL 4:4] | Conteneur à quatre colonnes qui utilise un rapport de 4:4 pour remplir la largeur de l’espace. Les quatre colonnes ont la même largeur. |
 | ![n:n icône de colonne](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n colonne] | Structure de colonnes personnalisable qui remplit l’espace en fonction des colonnes que vous définissez. Vous définissez le nombre de colonnes (entre deux et dix) et définissez la largeur de chaque colonne individuellement. [En savoir plus](#change-nn-columns) |
 
 ## Ajouter des composants de structure
@@ -86,7 +80,7 @@ La barre d’outils s’affiche dans la zone de travail lorsque vous la sélecti
 
 ### Paramètres de composant
 
-Après avoir ajouté un composant, il est sélectionné dans l’espace de conception visuelle et ses propriétés s’affichent dans le panneau de droite. L’onglet _[!UICONTROL Paramètres]_ s’affiche par défaut. Vous pouvez également sélectionner un composant de structure à tout moment pour modifier les paramètres.
+Après avoir ajouté un composant, il est sélectionné dans l’espace de conception visuelle et ses propriétés s’affichent dans le panneau de droite. Par défaut, le système affiche l’onglet _[!UICONTROL Paramètres]_. Vous pouvez également sélectionner un composant de structure à tout moment pour modifier les paramètres.
 
 #### Options d’affichage
 
@@ -111,7 +105,7 @@ Vous pouvez supprimer la désignation d’en-tête ou de pied de page en sélect
 
 Pour les écrans ou les fenêtres d’affichage plus petits, les colonnes du composant de structure s’affichent comme empilées, sauf si vous modifiez le paramètre par défaut. Lorsque le composant de structure à plusieurs colonnes est sélectionné, modifiez le paramètre **[!UICONTROL Ne pas empiler de colonnes sur un appareil mobile]** en déplaçant le curseur de basculement vers la droite.
 
-![Ne pas empiler les colonnes sur les &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"} mobiles
+![Ne pas empiler les colonnes sur les ](./assets/structure-component-settings-stack-columns.png){width="250"} mobiles
 
 ## Styles de composant
 
@@ -121,15 +115,15 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
+#### [!UICONTROL  Couleur d’arrière-plan ]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 
 ![Sélecteur de couleurs d’arrière-plan](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL Image d’arrière-plan]
+#### [!UICONTROL Image d’arrière-plan] {#background-image}
 
-Déplacez le sélecteur pour activer les paramètres de l’image d’arrière-plan.
+Pour activer les paramètres de l’image d’arrière-plan, déplacez le sélecteur de bascule.
 
 ![Paramètres de l’image d’arrière-plan](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -153,13 +147,13 @@ Sélectionnez le [type de source de ressource](./assets-overview.md) puis sélec
 
 +++
 
-Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [&#128279;](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
+Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
 
 ![Paramètres de l’image d’arrière-plan](./assets/structure-component-styles-background-image.png){width="250"}
 
 ### Autres styles
 
-Vous pouvez appliquer d’autres styles de composant de structure pour ajuster son affichage dans l’e-mail ou la page de destination.
+Pour ajuster son affichage dans l’e-mail ou la page de destination, vous pouvez appliquer d’autres styles de composant de structure.
 
 +++Bord
 
@@ -209,7 +203,7 @@ Dans la zone de travail, déplacez l’icône de redimensionnement de colonne po
 
 ### Styles de colonne
 
-Lorsque la colonne est sélectionnée dans la zone de travail, vous pouvez définir des styles à appliquer à cette colonne.
+Pour définir les styles à appliquer à cette colonne, sélectionnez-la dans la zone de travail.
 
 +++Contexte
 
@@ -217,7 +211,7 @@ Lorsque la colonne est sélectionnée dans la zone de travail, vous pouvez défi
 
   ![Sélecteur de couleurs d’arrière-plan](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL Image d’arrière-plan]** - Déplacez le sélecteur pour activer les paramètres d’image d’arrière-plan.
+* **[!UICONTROL Image d’arrière-plan]** - Pour activer les paramètres d’image d’arrière-plan, déplacez le sélecteur de bascule.
 
   ![Paramètres de l’image d’arrière-plan](./assets/structure-components-background-image-settings.png){width="250"}
 

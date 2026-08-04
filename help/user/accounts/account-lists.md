@@ -4,24 +4,16 @@ description: Créez des listes de comptes statiques et dynamiques avec des filtr
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1339
 ht-degree: 2%
 
 ---
@@ -31,7 +23,7 @@ ht-degree: 2%
 Dans Journey Optimizer B2B edition, une liste de comptes est un ensemble de comptes nommés que les spécialistes du marketing peuvent utiliser pour l’orchestration des parcours ciblés. Une liste de comptes peut cibler des comptes nommés selon vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. Il existe deux types de listes de comptes :
 
 * **Statique** - Avec une liste de comptes statique, la liste ne change que lorsque vous ajoutez les comptes. Vous pouvez ajouter manuellement des comptes en appliquant un jeu de filtres pour renseigner la liste en fonction des données du compte actuel, ou ajouter et supprimer des comptes par le biais d’un parcours de compte.
-* **Dynamique** - Avec une liste de comptes dynamique, vous définissez un jeu de filtres pour traiter automatiquement la liste. Le système utilise ce jeu de filtres pour ajouter et supprimer des comptes en fonction des modifications apportées aux informations du compte. Cette gestion de liste est similaire à la [segmentation d’audience dans Real-time Customer Data Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dynamique** - Avec une liste de comptes dynamique, vous définissez un jeu de filtres pour traiter automatiquement la liste. Le système utilise ce jeu de filtres pour ajouter et supprimer des comptes en fonction des modifications apportées aux informations du compte. Cette gestion de liste est similaire à la [segmentation d’audience dans Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Lorsqu’une liste de comptes est à l’état _En ligne_ (publiée), elle peut être [utilisée dans les parcours de compte et les programmes Marketo Engage](./account-lists-journeys.md).
 
@@ -69,9 +61,9 @@ Pour afficher la description d’une liste de comptes, cliquez sur l’icône _I
 
 Lorsque vous créez une liste de comptes, vous définissez un ensemble de filtres pour générer la liste. Vous pouvez, par exemple, l’utiliser pour générer une liste de comptes dont le secteur est Healthcare et les recettes dépassent 100 millions de dollars.
 
-1. Sur la page _[!UICONTROL Listes des comptes]_, cliquez sur la liste **[!UICONTROL Créer un compte]** en haut à droite de la page.
+1. Dans la page _[!UICONTROL Listes de comptes]_, cliquez sur **[!UICONTROL Créer une liste de comptes]** en haut à droite de la page.
 
-   ![Cliquez sur Créer un compte &#x200B;](./assets/account-lists-create.png){width="700" zoomable="yes"}
+   ![Cliquez sur Créer un compte ](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer une liste de comptes]_, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
@@ -87,25 +79,25 @@ Lorsque vous créez une liste de comptes, vous définissez un ensemble de filtre
 
 Pour une liste statique, vous pouvez procéder à la publication de la liste de comptes vide et ajouter des comptes par le biais d’un parcours de compte. Vous pouvez également ajouter manuellement des comptes en appliquant un jeu de filtres avant de le publier.
 
-Pour une liste de comptes dynamique, vous devez ajouter le jeu de filtres que vous souhaitez utiliser pour gérer automatiquement la liste avant de la publier.
+Pour gérer automatiquement la liste pour une liste de comptes dynamiques, ajoutez le jeu de filtres avant de le publier.
 
 >[!BEGINTABS]
 
 >[!TAB Liste des comptes statiques]
 
-Après avoir créé la liste des comptes statiques, vous pouvez la remplir en appliquant un jeu de filtres. Vous pouvez également appliquer un jeu de filtres pour ajouter des comptes à une liste de comptes statique une fois qu’elle a été publiée (_en direct_).
+Après avoir créé la liste des comptes statiques, vous pouvez la remplir en appliquant un jeu de filtres. Pour ajouter des comptes à une liste de comptes statique après sa publication (_en direct_), appliquez un jeu de filtres.
 
 >[!NOTE]
 >
->Si vous souhaitez que la liste des comptes commence vide, ne sélectionnez aucun filtre et publiez simplement la liste des comptes. Il est utile de commencer avec une liste vide lorsque vous prévoyez d’ajouter des membres par le biais d’une action de parcours de compte (voir [Nœud Prendre une action - Ajouter au compte](#take-an-action-node---add-to-account)).
+>Si vous souhaitez que la liste des comptes commence vide, ne sélectionnez aucun filtre et publiez la liste des comptes. Il est utile de commencer avec une liste vide lorsque vous prévoyez d’ajouter des membres par le biais d’une action de parcours de compte (voir [Nœud Prendre une action - Ajouter au compte](../journeys/action-nodes.md#account-action-constraints)).
 
 1. Cliquez sur **[!UICONTROL Ajouter des comptes]**.
 
-   ![Ajouter un filtre de compte pour renseigner le &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"} de liste
+   ![Ajouter un filtre de compte pour renseigner le ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"} de liste
 
    Vous pouvez accéder à cette fonction dans la page de liste vide ou en haut à droite.
 
-1. Dans la boîte de dialogue _[!UICONTROL Ajouter des comptes par filtre]_, utilisez le menu **[!UICONTROL Filtres de compte]** pour ajouter les attributs et les activités à utiliser pour créer le jeu de filtres :
+1. Dans la boîte de dialogue _[!UICONTROL Ajouter des comptes par filtre]_, utilisez le menu **[!UICONTROL Filtres de compte]** pour ajouter les attributs et activités nécessaires à la création du jeu de filtres :
 
    Les filtres sont imbriqués dans des dossiers de catégories. Vous pouvez développer chaque dossier et faire défiler les listes de filtres disponibles. Vous pouvez également utiliser l’outil _Recherche_ dans la partie supérieure pour localiser le filtre dont vous avez besoin.
 
@@ -113,7 +105,7 @@ Après avoir créé la liste des comptes statiques, vous pouvez la remplir en ap
    * Complétez la définition de l’évaluation de correspondance.
    * Répétez ces actions pour chaque filtre que vous souhaitez inclure.
 
-     ![Ajoutez des filtres pour renseigner la liste des comptes &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Ajoutez des filtres pour renseigner la liste des comptes ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Vous pouvez affiner vos conditions en appliquant la logique **[!UICONTROL Filtre]** en haut. Vous pouvez choisir de correspondre à toutes les conditions d’attribut ou à n’importe quelle condition.
 
@@ -121,7 +113,7 @@ Après avoir créé la liste des comptes statiques, vous pouvez la remplir en ap
 
 1. Une fois le jeu de filtres et la logique terminés, cliquez sur **[!UICONTROL Renseigner les comptes]**.
 
-   Le processus de population peut prendre un certain temps, selon le nombre de comptes à évaluer et à remplir (la taille de votre base de données et les critères de filtre que vous avez sélectionnés). Le remplissage des comptes dans votre liste peut prendre jusqu’à deux heures.
+   Le processus de population prend du temps, selon le nombre de comptes à évaluer et à remplir (la taille de votre base de données et les critères de filtre que vous avez sélectionnés). Le remplissage des comptes dans votre liste peut prendre jusqu’à deux heures.
 
 Vous pouvez procéder à la publication de la liste afin de la rendre disponible pour les actions d’ajout et de suppression dans un parcours de compte.
 
@@ -131,7 +123,7 @@ Après avoir créé une liste de comptes dynamique, vous définissez le jeu de f
 
 1. Cliquez sur **[!UICONTROL Sélectionner des filtres]**.
 
-   ![Sélection des filtres utilisés pour remplir la liste de manière dynamique &#x200B;](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![Sélection des filtres utilisés pour remplir la liste de manière dynamique ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. Dans la boîte de dialogue _[!UICONTROL Ajouter des comptes par filtre]_, utilisez le menu **[!UICONTROL Filtres de compte]** pour ajouter les attributs et les filtres spéciaux que vous souhaitez utiliser pour créer le jeu de filtres :
 
@@ -141,7 +133,7 @@ Après avoir créé une liste de comptes dynamique, vous définissez le jeu de f
    * Complétez la définition de l’évaluation de correspondance.
    * Répétez ces actions pour chaque filtre que vous souhaitez inclure.
 
-     ![Ajoutez des filtres pour renseigner la liste des comptes &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Ajoutez des filtres pour renseigner la liste des comptes ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Vous pouvez affiner vos conditions en appliquant la logique **[!UICONTROL Filtre]** en haut. Vous pouvez choisir de correspondre à toutes les conditions d’attribut ou à n’importe quelle condition.
 
@@ -149,7 +141,7 @@ Après avoir créé une liste de comptes dynamique, vous définissez le jeu de f
 
 1. Une fois le jeu de filtres et la logique terminés, cliquez sur **[!UICONTROL Terminé]**.
 
-   Si le jeu de filtres vous convient, vous pouvez procéder à la [publication de la liste](#publish-an-account-list) afin de la rendre disponible pour le nœud de départ [audience du compte](#account-audience-node) dans un parcours de compte.
+   Si le jeu de filtres vous convient, vous pouvez procéder à la [publication de la liste](#publish-an-account-list) afin de la rendre disponible pour le nœud de départ [audience du compte](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node) dans un parcours de compte.
 
    >[!NOTE]
    >
@@ -175,7 +167,7 @@ Vous pouvez procéder à la publication d’une liste de comptes dès que le jeu
 
    ![Confirmer la publication pour une liste de comptes statiques](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-Le statut de la liste de comptes statique passe à _[!UICONTROL Actif]_ et peut être [&#x200B; utilisé dans un parcours de compte](#account-list-usage-in-account-journeys).
+Le statut de la liste de comptes statique passe à _[!UICONTROL Actif]_ et peut être [ utilisé dans un parcours de compte](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!TAB Liste dynamique des comptes]
 
@@ -189,10 +181,10 @@ Vous pouvez procéder à la publication d’une liste de comptes dynamique dès 
 
    ![Confirmer la publication pour une liste de comptes dynamiques](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-Le statut de la liste de comptes dynamique passe à _[!UICONTROL Actif]_ et peut être [&#x200B; utilisé dans un parcours de compte](#account-list-usage-in-account-journeys).
+Le statut de la liste de comptes dynamique passe à _[!UICONTROL Actif]_ et peut être [ utilisé dans un parcours de compte](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!ENDTABS]
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3448651/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
