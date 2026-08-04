@@ -2,9 +2,9 @@
 user-guide-title: Documentation Journey Optimizer B2B Prime
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Prime et comment l’utiliser pour ?.
 hide: true
-source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
+source-git-commit: e009878c46054b6df033ced369423b32cdaa89cf
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '187'
 ht-degree: 54%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 54%
 # Guide de l’utilisateur de Journey Optimizer B2B Prime {#prime}
 
 + [Documentation de Adobe Journey Optimizer B2B Prime](guide-overview.md)
-+ Commencer {#start}
++ Prise en main {#start}
   + [Liste de contrôle de configuration](./start/setup-prime.md)
   + [Gestion des utilisateurs et utilisatrices](./start/user-management.md)
   + [Délivrabilité des e-mails](./start/email-deliverability.md)
@@ -36,7 +36,7 @@ ht-degree: 54%
     + [Audience de la personne](./marketing/person-audience-node.md)
     + [Entreprendre une action](./marketing/action-nodes.md)
     + [Écouter un événement](./marketing/listen-for-event-nodes.md)
-    + [Attente](./marketing/wait-nodes.md)
+    + [Attendre](./marketing/wait-nodes.md)
     + [Fractionner et fusionner les chemins](./marketing/split-merge-paths-nodes.md)
     + [Deuxième meilleur chemin](./marketing/next-best-path.md)
   + Canal e-mail {#email-channel}
@@ -54,7 +54,9 @@ ht-degree: 54%
   + [Personnages dérivés](./audiences/personas.md)
   + [Destinations](./audiences/destinations.md)
 + Contenu {#content}
-  + [Ressources](./content/digital-asset-management.md)
+  + Ressources {#assets}
+    + [Vue d’ensemble](./content/digital-asset-management.md)
+    + [Content Credentials](./content/content-credentials.md)
   + Modèles {#templates}
     + [Vue d’ensemble](./content/templates.md)
     + [Création de modèles](./content/templates-create.md)
