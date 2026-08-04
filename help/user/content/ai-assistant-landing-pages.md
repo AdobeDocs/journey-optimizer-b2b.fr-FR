@@ -6,12 +6,21 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
@@ -140,7 +149,7 @@ Pour générer une page de destination complète en affinant un modèle existant
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
+   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
    Les paramètres de l’assistant d’IA sur la droite reflètent les paramètres de génération de la page de destination complète.
 
@@ -186,7 +195,7 @@ Pour affiner ou améliorer le contenu textuel d’une page de destination exista
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    Les paramètres de droite reflètent les paramètres de génération de contenu du composant de texte.
 
@@ -228,7 +237,7 @@ Pour affiner ou améliorer le contenu d’image d’une page de destination exis
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    Les paramètres de l’assistant AI à droite reflètent les paramètres de génération du composant d’image.
 
