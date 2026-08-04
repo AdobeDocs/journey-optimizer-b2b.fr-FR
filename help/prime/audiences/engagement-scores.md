@@ -151,7 +151,7 @@ Lorsque vous configurez la segmentation d’un parcours de personne dans un nœu
 
 Dans [!DNL Journey Optimizer B2B Prime], vous pouvez configurer la pondération du score d’engagement directement à partir de l’interface de chat de l’assistant [AI](../agents/chat-interface.md).
 
-Pour obtenir des informations sur les modèles de score d’engagement, les bandes de pondération et les poids d’activité, voir [Configurer la pondération de score d’engagement personnalisé](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Pour obtenir des informations sur les modèles de score d’engagement, les bandes de pondération et les poids d’activité, voir [Configurer la pondération de score d’engagement personnalisé](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Ouvrez le panneau de conversation **[!UICONTROL Assistant AI]** dans la partie gauche de l’écran (icône de conversation).
 
