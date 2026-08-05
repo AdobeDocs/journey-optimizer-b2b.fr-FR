@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 # Détails du groupe d’achat
 
-Lorsque vous cliquez sur le nom d&#39;un groupe d&#39;achats à partir de n&#39;importe quel emplacement de Journey Optimizer B2B edition, les détails de ce groupe s&#39;affichent. Cet aperçu fournit des informations utiles sur le groupe d’achats, y compris des résumés IA génératifs. Vous pouvez également exécuter des [actions](#buying-group-actions) pour les contacts associés au compte.
+Lorsque vous cliquez sur le nom d&#39;un groupe d&#39;achats à partir de n&#39;importe quel emplacement de Journey Optimizer B2B edition, les détails de ce groupe s&#39;affichent. Cet aperçu fournit des informations utiles sur le groupe d’achats, y compris des résumés IA génératifs. Vous pouvez également exécuter des [actions](#members-tab) pour les contacts associés au compte.
 
 ![Accéder aux détails du groupe d&#39;achat](./assets/buying-group-details.png){width="800" zoomable="yes"}
 

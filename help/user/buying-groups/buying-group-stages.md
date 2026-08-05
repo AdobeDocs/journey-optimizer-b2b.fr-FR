@@ -17,9 +17,9 @@ topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 Les étapes de groupes d&#39;achat sont conçues pour suivre l&#39;évolution des groupes d&#39;achat dans la conversion des opportunités en clients. Utilisez cette fonctionnalité pour suivre la progression du groupe d&#39;achat et identifier les meilleures actions suivantes pour les membres du groupe d&#39;achat.
 
-Définissez les étapes dans un modèle d’évaluation unique, en définissant plusieurs étapes et le flux de transition entre elles. Une ou plusieurs étapes sont désignées pour l&#39;entrée dans le cycle de vie. Le modèle permet également une progression non linéaire, où vous pouvez spécifier des transitions d&#39;une étape à une autre, par exemple de l&#39;étape A vers les étapes B, C ou D. Il est nécessaire qu’une étape soit désignée comme étape de succès, par exemple un achat ou un contrat signé. Il est facultatif qu’une autre étape soit désignée comme une étape d’échec, par exemple un contrat rejeté ou l’achat d’une solution concurrente auprès d’un autre fournisseur. Surveillez ces étapes au moyen de [tableaux de bord intelligents](../dashboards/intelligent-dashboard.md) qui montrent comment les groupes d&#39;achats progressent en termes de réalisation d&#39;une opportunité de vente ou de conversion d&#39;une opportunité en client.
+Définissez les étapes dans un modèle d’évaluation unique, en définissant plusieurs étapes et le flux de transition entre elles. Une ou plusieurs étapes sont désignées pour l&#39;entrée dans le cycle de vie. Le modèle permet une progression non linéaire, par exemple de l’étape A vers les étapes B, C ou D. Une étape doit être désignée comme étape de succès, comme un achat ou un contrat signé. Il est facultatif de désigner une autre étape comme une étape d’échec, par exemple un contrat rejeté ou l’achat d’une solution concurrente auprès d’un autre fournisseur. Surveillez ces étapes au moyen de [tableaux de bord intelligents](../dashboards/intelligent-dashboard.md) qui montrent comment les groupes d&#39;achats progressent en termes de réalisation d&#39;une opportunité de vente ou de conversion d&#39;une opportunité en client.
 
 ![Exemple d’étapes de groupe d’achat](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Vous créez et configurez un modèle d&#39;étapes de groupe d&#39;achats en :
 * Définir les flux de transition
 * Désigner les étapes d&#39;entrée et de destination
 
-Un seul modèle est pris en charge. Il est donc important de travailler avec vos équipes marketing et vente pour planifier le modèle optimal pour votre organisation avant de le créer et de le publier dans Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Un seul modèle est pris en charge. Pour planifier le modèle optimal, collaborez avec vos équipes marketing et commerciales avant de le créer et de le publier dans Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 Lorsque vous créez le modèle d&#39;étape de groupe d&#39;achats, il est automatiquement à l&#39;état _Brouillon_ et ne peut pas être supprimé ou renommé. Il reste dans ce statut lorsque vous définissez les étapes et configurez le flux de transition entre les étapes. Lorsque le modèle a le statut Publié (_Actif_), il ne peut pas être modifié.
 
@@ -118,11 +118,11 @@ Les règles de transition déterminent comment un groupe d&#39;achat peut passer
 
 1. Pour chaque étape hors destination, définissez une ou plusieurs étapes qui viennent ensuite dans le flux (transition).
 
-   Toutes les étapes hors destination doivent avoir au moins une étape **[!UICONTROL transit autorisé vers]** sélectionnée. Dans le cas contraire, la logique du modèle n’est pas valide et les comptes peuvent être _bloqués_ à ce stade, sans possibilité de réussite ou d’échec.
+   Toutes les étapes hors destination doivent avoir au moins une étape **[!UICONTROL transit autorisé vers]** sélectionnée. Dans le cas contraire, la logique du modèle n’est pas valide et les comptes peuvent rester à cette étape sans possibilité de réussite ou d’échec.
 
    ![Configuration des transitions entre les étapes non-destination](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   Vous pouvez éventuellement définir une transition à partir d’une étape d’échec. Par exemple, vous pouvez désigner une étape nommée _Aucune réponse_ comme étape d’échec. Mais aussi désigner une étape appelée _Résurgence_ comme transition possible pour identifier les cas où un compte inactif est réactivé.
+   Vous pouvez éventuellement définir une transition à partir d’une étape d’échec. Par exemple, désignez une étape nommée _Aucune réponse_ comme étape d’échec. Mais aussi désigner une étape appelée _Résurgence_ comme transition possible pour identifier les cas où un compte inactif est réactivé.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
@@ -227,7 +227,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
 1. Sélectionnez l’onglet _[!UICONTROL Intérêt de la solution]_.
 
-1. Ouvrez l’intérêt de la solution à l’aide de l’une des méthodes suivantes pour ouvrir les propriétés de l’intérêt de la solution que vous souhaitez modifier :
+1. Utilisez l’une des méthodes suivantes pour ouvrir les propriétés pour le centre d’intérêt de la solution que vous souhaitez modifier :
 
    * Cliquez sur le nom de la solution qui vous intéresse.
    * Cliquez sur les points de suspension (**...**) en regard de celui-ci et choisissez **[!UICONTROL Modifier]**.
@@ -246,7 +246,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
 ### Chemins partagés
 
-À l’aide d’un [nœud de chemin de partage](../journeys/journey-nodes.md#split-paths), vous pouvez filtrer au niveau du compte ou au niveau des personnes en fonction des étapes du groupe d’achat. Par exemple, ajoutez une étape de groupe d’achats comme condition de chemin lors du fractionnement de chemins par membre de groupe d’achats.
+À l’aide d’un [nœud de chemin de partage](../journeys/split-merge-paths-nodes.md#split-paths), vous pouvez filtrer au niveau du compte ou au niveau des personnes en fonction des étapes du groupe d’achat. Par exemple, ajoutez une étape de groupe d’achats comme condition de chemin lors du fractionnement de chemins par membre de groupe d’achats.
 
 >[!BEGINTABS]
 
@@ -264,7 +264,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
    ![Nœud de chemin de partage - Ajouter une condition](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. Dans l’éditeur de conditions, ajoutez le filtre Groupe d’achats pour définir le chemin de partage.
+1. Pour définir le chemin de partage, ajoutez le filtre Groupe d’achats dans l’éditeur de conditions.
 
    * Sur la gauche, développez l’attribut **[!UICONTROL Filtres spéciaux]** en bas et faites glisser l’attribut **[!UICONTROL A un groupe d’achat]** sur l’espace de travail des filtres.
 
@@ -298,7 +298,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
    ![Nœud de chemin de partage - Ajouter une condition](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. Dans l’éditeur de conditions, ajoutez le filtre Groupe d’achats pour définir le chemin de partage.
+1. Pour définir le chemin de partage, ajoutez le filtre Groupe d’achats dans l’éditeur de conditions.
 
    * Sur la gauche, développez l’attribut **[!UICONTROL Filtres spéciaux]** en bas et faites glisser l’attribut **[!UICONTROL Membre du groupe d’achat]** sur l’espace de travail des filtres.
 
@@ -320,7 +320,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
 ### Mettre à jour l&#39;action du compte d&#39;étape du groupe d&#39;achats
 
-À l’aide d’un [nœud d’action de compte](../journeys/journey-nodes.md#add-an-account-action), vous pouvez mettre à jour l’étape du groupe d’achats. La définition de ce nœud implique la sélection de la solution qui vous intéresse et la définition de la nouvelle étape pour le groupe d&#39;achat.
+À l’aide d’un [nœud d’action de compte](../journeys/action-nodes.md#add-an-account-based-action), vous pouvez mettre à jour l’étape du groupe d’achats. La définition de ce nœud implique la sélection de la solution qui vous intéresse et la définition de la nouvelle étape pour le groupe d&#39;achat.
 
 >[!NOTE]
 >
@@ -334,7 +334,7 @@ Pour chaque intérêt de solution existant auquel vous souhaitez associer le mod
 
 1. Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Comptes]** pour l’action.
 
-1. Définissez l&#39;action de mise à jour de l&#39;étape du groupe d&#39;achats.
+1. Pour mettre à jour l&#39;étape du groupe d&#39;achats, définissez l&#39;action.
 
    * Pour **[!UICONTROL Action sur les comptes]**, sélectionnez **[!UICONTROL Mettre à jour l&#39;étape du groupe d&#39;achats]**.
 

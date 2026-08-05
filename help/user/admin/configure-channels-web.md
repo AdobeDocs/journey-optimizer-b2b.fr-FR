@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ La configuration du canal web dans Journey Optimizer B2B edition nécessite les 
 
    >[!NOTE]
    >
-   >Les noms doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser des `_` de soulignement, des `.` de point et des tirets `-`.
+   >Les noms doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d’union `-`.
 
 1. Dans la section **[!UICONTROL Paramètres Web]**, sélectionnez l’une des options suivantes :
 
@@ -63,7 +63,7 @@ La configuration du canal web dans Journey Optimizer B2B edition nécessite les 
 
      ![Sélection d’une URL de page pour une configuration de canal web monopage](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Règle de correspondance de pages]** - Pour cibler plusieurs URL correspondant à la même règle, créez une [règle de correspondance de pages](#build-a-pages-matching-rule) et saisissez une **[!UICONTROL URL de création et d’aperçu par défaut]**.
+   * **[!UICONTROL Règle de correspondance de pages]** - Pour cibler plusieurs URL correspondant à la même règle, créez une [règle de correspondance de pages](#build-a-rule) et saisissez une **[!UICONTROL URL de création et d’aperçu par défaut]**.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** pour enregistrer vos modifications.
 
@@ -75,7 +75,7 @@ Dès que le canal web est utilisé dans un parcours, il passe à un statut _Acti
 
 Lors de la création d’une configuration web, vous pouvez créer une _[!UICONTROL règle de correspondance de pages]_ pour cibler plusieurs URL correspondant à la même règle. Ces règles vous permettent d’appliquer les mêmes modifications de contenu sur plusieurs pages.
 
-Par exemple, vous pouvez appliquer des modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale affichée sur toutes les pages de produits.
+Par exemple, appliquez des modifications à une bannière principale sur l’ensemble d’un site web ou ajoutez une image principale affichée sur toutes les pages de produits.
 
 ### Créer une règle
 
@@ -122,9 +122,9 @@ Par exemple, vous pouvez appliquer des modifications à une bannière principale
 
    * Utilisez les opérateurs **[!UICONTROL Or]** ou **[!UICONTROL Exclude]** entre les différentes règles.
 
-     _[!UICONTROL Or]_ est l’opérateur par défaut pour définir plusieurs règles et est utile pour ajouter plusieurs définitions de critères qui peuvent être mises en correspondance.
+     _[!UICONTROL Or]_ L’opérateur [!UICONTROL Or] est l’opérateur par défaut pour définir plusieurs règles et il est utile d’ajouter plusieurs définitions de critère qui peuvent être mises en correspondance.
 
-     L’option _[!UICONTROL Exclure]_ est utile lorsque l’une des pages correspondant à la règle définie ne doit pas être ciblée. Vous pouvez, par exemple, cibler toutes les pages `bodea.com` qui contiennent des `lumasecure`, mais en excluant les pages de blog (comme les `bodea.com/blogs/lumasecure/latest-release`).
+     _[!UICONTROL Exclure]_ L’opérateur [!UICONTROL Exclure] est utile lorsque l’une des pages correspondant à la règle définie ne doit pas être ciblée. Par exemple, vous pouvez cibler toutes les pages de `bodea.com` qui contiennent des `lumasecure`, mais exclure les pages de blog (comme les `bodea.com/blogs/lumasecure/latest-release`).
 
    ![Règles de correspondance de pages avec exclusion](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Vous pouvez dupliquer une configuration de canal web existante et la modifier po
 
 1. Cliquez sur le nom du canal web dupliqué pour modifier les paramètres.
 
-   * Modifiez le nom et la description pour qu’ils correspondent à l’objectif ou aux éléments de la règle.
+   * Pour correspondre à l’objectif ou aux éléments de la règle, modifiez le nom et la description.
    * Si nécessaire, modifiez l’URL d’une seule page.
    * Si nécessaire, modifiez la règle de correspondance de pages en fonction de vos besoins.
 

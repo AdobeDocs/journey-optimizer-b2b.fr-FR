@@ -15,16 +15,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 7%
 
 ---
 
 # Détails du compte
 
-Lorsque vous cliquez sur le nom d’un compte n’importe où dans Journey Optimizer B2B edition, la page _Détails du compte_ s’affiche. Cette page fournit des informations utiles sur le compte, y compris des résumés d’IA génératifs. Vous pouvez également exécuter des [actions](#account-actions) pour les contacts associés au compte.
+Lorsque vous cliquez sur le nom d’un compte n’importe où dans Journey Optimizer B2B edition, la page _Détails du compte_ s’affiche. Cette page fournit des informations sur le compte, y compris des résumés d’IA génératifs. Vous pouvez également exécuter des [actions](#send-email) pour les contacts associés au compte.
 
 ![Accéder aux détails du compte](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Dans Journey Optimizer B2B edition, le modèle de détection des intentions pré
 
 ![Couverture de contact du compte](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-La section _[!UICONTROL Couverture des contacts]_ affiche le nombre de contacts du compte avec un rôle spécifique associé à un intérêt pour la solution. L&#39;affectation du rôle et de l&#39;intérêt de la solution est basée sur le modèle rôles du groupe d&#39;achat. Cliquez sur une cellule pour afficher les détails suivants :
+La section _[!UICONTROL Couverture des contacts]_ affiche le nombre de contacts de compte avec un rôle spécifique associé à un intérêt pour la solution. L&#39;affectation du rôle et de l&#39;intérêt de la solution est basée sur le modèle rôles du groupe d&#39;achat. Cliquez sur une cellule pour afficher les détails suivants :
 
 * Description, au format suivant : _x personnes ont le rôle y pour z intérêt pour la solution_
 * Colonnes
@@ -91,7 +91,7 @@ La section _[!UICONTROL Chevauchement des contacts]_ affiche les contacts du com
 * Compte
 * Intérêt de la solution
 
-Cliquez sur l’_Informations_ ( ![icône Informations](../assets/do-not-localize/icon-info.svg) ) en regard du nom du contact pour afficher un tableau contenant les détails suivants :
+Cliquez sur l’icône _Informations_ ( ![Icône Informations](../assets/do-not-localize/icon-info.svg) ) en regard du nom du contact pour afficher un tableau contenant les détails suivants :
 
 * Groupe d&#39;achat (cliquez sur le nom pour ouvrir le [détails du groupe d&#39;achat](../buying-groups/buying-group-details.md))
 * Rôle

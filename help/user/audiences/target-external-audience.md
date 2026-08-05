@@ -21,10 +21,10 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 2%
 
 Vous pouvez activer et personnaliser des expériences pour des audiences externes dans [!DNL Adobe Target] par le biais de parcours de compte. Utilisez cette intégration pour obtenir une personnalisation avancée et personnalisée qui accroît l’engagement et pour maintenir la cohérence entre les plateformes sur l’ensemble des [!DNL Target] et des [!DNL Journey Optimizer B2B Edition]. Cette cohérence permet aux équipes d’aligner et de personnaliser les canaux web pour les groupes d’achats sur l’ensemble du parcours des acheteurs B2B.
 
-Il s’agit d’un workflow en deux étapes permettant d’activer une audience externe via Adobe Target :
+Il existe un workflow en deux étapes pour activer une audience externe via Adobe Target :
 
 1. [Ajouter à une audience client externe](#add-to-customer-external-audience-from-a-journey) à partir d’un parcours.
 2. [Activez l’audience externe](#activate-the-external-audience-to-target-as-a-destination) pour la [!DNL Target] en tant que destination dans Experience Platform.
 
 ## Ajouter à l’audience externe du client à partir d’un parcours
 
-Dans votre parcours, [ajoutez un nœud _Prendre une action_](../journeys/action-nodes.md) pour exécuter l’action _[!UICONTROL Ajouter à l’audience externe du client]_. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente. Le parcours exécute l’action lorsqu’un compte qualifié avec des profils de personne atteint le nœud .
+Dans votre parcours, [ajoutez un nœud _Prendre une action_](../journeys/action-nodes.md) pour exécuter l’action _[!UICONTROL Ajouter à l’audience externe du client]_. Les actions sont généralement le résultat d’un déclencheur, tel qu’un événement ou une action précédente. Le parcours exécute l’action lorsqu’un compte qualifié avec des profils de personne atteint le nœud .
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Dans votre parcours, [ajoutez un nœud _Prendre une action_](../journeys/action-
 
 1. Dans les propriétés de nœud sur la droite, définissez l’audience externe.
 
-   * Si une ou plusieurs audiences externes sont déjà créées, vous pouvez choisir **[!UICONTROL Sélectionner une audience existante]** et [sélectionner l’audience à utiliser](#choose-an-external-audience).
+   * Si une ou plusieurs audiences externes sont déjà créées, vous pouvez choisir **[!UICONTROL Sélectionner une audience existante]** et [sélectionner l’audience à utiliser](#select-an-external-audience).
 
    * Si vous souhaitez [créer une audience](#create-an-external-audience) à utiliser pour le nœud, choisissez **[!UICONTROL Créer]**.
 
@@ -124,4 +124,4 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
    ![Experience Platform - destinations - activer la destination - vérifier](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Lors de l’activation, vous pouvez voir l’audience dans [les audiences &#x200B;](https://experienceleague.adobe.com/fr/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et les utiliser dans les activités Adobe Target.
+Lors de l’activation, vous pouvez voir l’audience dans [Audiences &#x200B;](https://experienceleague.adobe.com/fr/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et l’utiliser dans les activités Adobe Target.

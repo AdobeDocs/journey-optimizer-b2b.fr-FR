@@ -17,7 +17,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1399
 ht-degree: 0%
@@ -54,17 +54,17 @@ Vous pouvez configurer des diffusions e-mail dans un parcours lorsque vous [ajou
 
      Lorsque vous souhaitez créer un e-mail à l’aide d’une zone de travail vide ou d’un modèle d’e-mail, utilisez l’option _[!UICONTROL Nouvel e-mail]_.
 
-      1. Dans la boîte de dialogue, choisissez **[!UICONTROL Nouvel e-mail]**.
+     1. Dans la boîte de dialogue, choisissez **[!UICONTROL Nouvel e-mail]**.
 
-      1. Saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
+     1. Saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
 
-         ![Boîte de dialogue Créer un e-mail - Nouvel e-mail](assets/create-new-email.png){width="400"}
+        ![Boîte de dialogue Créer un e-mail - Nouvel e-mail](assets/create-new-email.png){width="400"}
 
-      1. Cliquez sur **[!UICONTROL Créer]**.
+     1. Cliquez sur **[!UICONTROL Créer]**.
 
-         Dans la section _[!UICONTROL Propriétés de l’e-mail]_ de la page de contenu de l’e-mail, les champs _[!UICONTROL De l’e-mail]_ et _[!UICONTROL Répondre à l’adresse]_ sont déjà configurés. Vous pouvez saisir des valeurs pour les champs _[!UICONTROL Nom de l’expéditeur]_ et _[!UICONTROL Description]_ (facultatif).
+        Dans la section _[!UICONTROL Propriétés de l’e-mail]_ de la page de contenu de l’e-mail, les champs _[!UICONTROL De l’e-mail]_ et _[!UICONTROL Répondre à l’adresse]_ sont déjà configurés. Vous pouvez saisir des valeurs pour les champs _[!UICONTROL Nom de l’expéditeur]_ et _[!UICONTROL Description]_ (facultatif).
 
-      1. Cliquez sur **[!UICONTROL Modifier l’e-mail]** pour définir les [paramètres](#define-the-email-settings) de l’e-mail et concevoir le [contenu](./email-authoring.md).
+     1. Cliquez sur **[!UICONTROL Modifier l’e-mail]** pour définir les [paramètres](#define-the-email-settings) de l’e-mail et concevoir le [contenu](./email-authoring.md).
 
      +++
 
@@ -72,25 +72,25 @@ Vous pouvez configurer des diffusions e-mail dans un parcours lorsque vous [ajou
 
      Lorsque vous souhaitez créer un e-mail à partir d’un e-mail existant du parcours actuel ou d’un autre parcours, utilisez l’option _[!UICONTROL Dupliquer l’e-mail existant]_. Vous pouvez apporter des modifications à l’e-mail dupliqué en fonction de votre objectif pour le nœud de parcours.
 
-      1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, choisissez **[!UICONTROL Dupliquer l’e-mail existant]**.
+     1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, choisissez **[!UICONTROL Dupliquer l’e-mail existant]**.
 
-      1. Pour **[!UICONTROL E-mail existant à dupliquer]**, cliquez sur l’icône _Sélection_ ( ![Icône de sélection](../assets/do-not-localize/icon-email-select.svg) ) et sélectionnez l’e-mail à dupliquer et à utiliser pour le nœud de parcours.
+     1. Pour **[!UICONTROL E-mail existant à dupliquer]**, cliquez sur l’icône _Sélection_ ( ![Icône de sélection](../assets/do-not-localize/icon-email-select.svg) ) et sélectionnez l’e-mail à dupliquer et à utiliser pour le nœud de parcours.
 
-         Vous pouvez filtrer la liste des e-mails en saisissant une chaîne de texte dans le champ de recherche pour correspondre au nom de l’e-mail.
+        Vous pouvez filtrer la liste des e-mails en saisissant une chaîne de texte dans le champ de recherche pour correspondre au nom de l’e-mail.
 
-         ![Sélectionner un e-mail](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+        ![Sélectionner un e-mail](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-         Cochez la case de l’e-mail à dupliquer et cliquez sur **[!UICONTROL Sélectionner]**.
+        Cochez la case de l’e-mail à dupliquer et cliquez sur **[!UICONTROL Sélectionner]**.
 
-      1. Saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
+     1. Saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
 
-         ![Boîte de dialogue Créer un e-mail - Dupliquer l’e-mail existant](assets/create-new-email-duplicate.png){width="400"}
+        ![Boîte de dialogue Créer un e-mail - Dupliquer l’e-mail existant](assets/create-new-email-duplicate.png){width="400"}
 
-      1. Cliquez sur **[!UICONTROL Créer]**.
+     1. Cliquez sur **[!UICONTROL Créer]**.
 
-         Dans la section _[!UICONTROL Propriétés de l’e-mail]_ de la page de contenu de l’e-mail, les champs _[!UICONTROL De l’e-mail]_ et _[!UICONTROL Répondre à l’adresse]_ sont déjà configurés. Vous pouvez saisir des valeurs pour les champs _[!UICONTROL Nom de l’expéditeur]_ et _[!UICONTROL Description]_ (facultatif).
+        Dans la section _[!UICONTROL Propriétés de l’e-mail]_ de la page de contenu de l’e-mail, les champs _[!UICONTROL De l’e-mail]_ et _[!UICONTROL Répondre à l’adresse]_ sont déjà configurés. Vous pouvez saisir des valeurs pour les champs _[!UICONTROL Nom de l’expéditeur]_ et _[!UICONTROL Description]_ (facultatif).
 
-      1. Si nécessaire, cliquez sur **[!UICONTROL Modifier l’e-mail]** pour modifier les e-mails [paramètres](#define-the-email-settings) et [contenu](./email-authoring.md).
+     1. Si nécessaire, cliquez sur **[!UICONTROL Modifier l’e-mail]** pour modifier les e-mails [paramètres](#define-the-email-settings) et [contenu](./email-authoring.md).
 
      +++
 
@@ -118,7 +118,7 @@ Une fois l’onglet **[!UICONTROL Détails]** sélectionné dans le panneau _Ré
 | [!UICONTROL Adresse IP dédiée] | Si plusieurs adresses IP dédiées sont définies, sélectionnez une adresse IP dédiée à utiliser pour l’envoi de l’e-mail. Lorsque vous utilisez une adresse IP dédiée spécifique pour vos programmes, vous pouvez suivre et surveiller plus étroitement la délivrabilité et répondre rapidement à toute modification de vos mesures de diffusion. Pour plus d’informations sur l’ajout d’une adresse IP dédiée pour l’instance Marketo Engage connectée, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL &#x200B; E-mail opérationnel &#x200B;] | Cochez la case si vous souhaitez désigner l’e-mail comme opérationnel. Les e-mails opérationnels sont exclus des listes de désinscription et des limites de communication. Sélectionnez cette option uniquement lorsque le destinataire ne peut pas considérer l’e-mail comme un message commercial non sollicité (SPAM). |
 | [!UICONTROL Inclure l’affichage en tant que page web] | Cochez la case pour inclure un lien vers une page web générée à partir du contenu de l’e-mail. Les e-mails disposent de fonctionnalités plus limitées que les pages web. Ils sont donc utiles pour JavaScript, les feuilles CSS étendues et les formulaires. Le texte utilisé pour générer le lien est configuré dans les [paramètres de diffusion du canal e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Afficher en tant qu&#39;HTML de page web] et [!UICONTROL Afficher en tant que texte de page web]). |
-| [!UICONTROL Désactiver le suivi des ouvertures] | Cochez la case lorsque vous ne souhaitez pas suivre l’activité d’ouverture des e-mails. Lorsque la fonction est désactivée, le nombre d’activités d’ouverture d’e-mail est incrémenté uniquement lorsqu’une personne unique ouvre l’e-mail. Vous pouvez [gérer le suivi des liens de contenu d’e-mail](./email-authoring.md#content-authoring---link-tracking) lorsque vous concevez le contenu du corps de l’e-mail. |
+| [!UICONTROL Désactiver le suivi des ouvertures] | Cochez la case lorsque vous ne souhaitez pas suivre l’activité d’ouverture des e-mails. Lorsque la fonction est désactivée, le nombre d’activités d’ouverture d’e-mail est incrémenté uniquement lorsqu’une personne unique ouvre l’e-mail. Vous pouvez [gérer le suivi des liens de contenu d’e-mail](./email-authoring.md#edit-linked-url-tracking) lorsque vous concevez le contenu du corps de l’e-mail. |
 | [!UICONTROL Preheader] | Cochez la case pour inclure un pré-titre. Un pré-titre est le texte de résumé court affiché après la ligne d&#39;objet dans certains clients de messagerie. Il fournit généralement un bref résumé de l’e-mail et se compose généralement d’une seule phrase. Saisissez le texte récapitulatif dans le champ<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
 | [!UICONTROL Champs utilisés comme adresses CC] | Le cas échéant, sélectionnez jusqu’à 25 champs Lead ou Société configurés dans Marketo Engage à l’aide du type de `Email`. |
 
@@ -132,22 +132,22 @@ Deux types d’alertes peuvent être détectés :
 
 * **_avertissements_** qui se rapportent aux recommandations et aux bonnes pratiques telles que :
 
-   * `The opt-out link is not present in the email body` : une bonne pratique consiste à ajouter un lien de désinscription dans le corps de votre e-mail.
+  * `The opt-out link is not present in the email body` : une bonne pratique consiste à ajouter un lien de désabonnement dans le corps de votre e-mail.
 
-     >[!NOTE]
-     >
-     >Les e-mails de style marketing doivent inclure un lien d’opt-out, qui n’est pas obligatoire pour les messages transactionnels.
+    >[!NOTE]
+    >
+    >Les e-mails de style marketing doivent inclure un lien d’opt-out, qui n’est pas obligatoire pour les messages transactionnels.
 
-   * `Text version of HTML is empty` : définissez une version texte du corps de votre e-mail, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
+  * `Text version of HTML is empty` : définissez une version texte du corps de votre e-mail, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
-   * `Empty link is present in email body` : vérifiez que tous les liens de votre e-mail sont corrects.
+  * `Empty link is present in email body` : vérifiez que tous les liens de votre e-mail sont corrects.
 
-   * `Email size has exceeded the limit of 100KB` : pour une diffusion optimale, veillez à ce que la taille de votre e-mail ne dépasse pas 100KB.
+  * `Email size has exceeded the limit of 100KB` : pour une diffusion optimale, veillez à ce que la taille de votre e-mail ne dépasse pas 100KB.
 
 * **_Erreurs_** qui vous empêchent de tester ou d’activer le parcours/la campagne tant qu’elles ne sont pas corrigées, telles que :
 
-   * `From name is empty` : le champ e-mail _De_ (obligatoire) n’est pas défini.
+  * `From name is empty` : le champ e-mail _De_ (obligatoire) n’est pas défini.
 
-   * `The subject line is missing` : l’objet de l’e-mail (obligatoire) n’est pas défini.
+  * `The subject line is missing` : l’objet de l’e-mail (obligatoire) n’est pas défini.
 
-   * `The email version of the message is empty` : le contenu de l’e-mail n’est pas défini.
+  * `The email version of the message is empty` : le contenu de l’e-mail n’est pas défini.

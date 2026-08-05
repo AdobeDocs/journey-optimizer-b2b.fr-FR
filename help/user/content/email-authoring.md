@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1380
 ht-degree: 5%
 
 ---
@@ -44,11 +44,11 @@ Après avoir créé et personnalisé le contenu de l’e-mail, vous pouvez expor
 
 >[!TIP]
 >
->Utilisez l’assistant d’IA dans Adobe Journey Optimizer B2B edition, optimisé par l’IA générative pour améliorer votre contenu. L’assistant AI peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets, du contenu textuel ciblé et en obtenant des recommandations de l’assistant AI pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
+>Utilisez l’assistant d’IA dans Adobe Journey Optimizer B2B edition, optimisé par l’IA générative, pour améliorer votre contenu. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets et du contenu textuel ciblé, et en fournissant des recommandations pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
 
 ## Concevoir votre e-mail à partir de zéro {#design-from-scratch}
 
-Utilisez l’espace de conception visuelle du contenu pour définir la structure et le contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la disposition et l’organisation du contenu de l’e-mail en quelques secondes.
+Utilisez l’espace de conception visuelle du contenu pour définir la structure et le contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir rapidement la disposition et l’organisation du contenu de l’e-mail.
 
 1. Sur la page d’accueil _[!UICONTROL Concevez votre modèle]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
 
@@ -60,7 +60,7 @@ Utilisez l’espace de conception visuelle du contenu pour définir la structure
 
 1. [Ajoutez la structure et le contenu](./email-authoring.md#structure-content) au modèle.
 
-1. [Vérifier et mettre à jour les liens](#preview-and-edit-linked-urls).
+1. [Vérifier et mettre à jour les liens](#edit-linked-url-tracking).
 
 1. [Tester l’e-mail](#check-and-test-the-email).
 
@@ -146,11 +146,11 @@ Une fois l’e-mail enregistré, il s’affiche dans la page des détails du fra
 
 Le système de diffusion par e-mail (via Marketo Engage) encapsule automatiquement toutes les URL dans les e-mails HTML avec une redirection de suivi unique lors de l&#39;envoi. Utilisez la variable **[!UICONTROL Type de tracking]** pour contrôler le tracking du lien :
 
-* **[!UICONTROL Suivi sans jeton]** - Le système enregistre le clic, mais suit ce que l’utilisateur fait ensuite sur la page web. Cela peut être important dans certains cas techniques, par exemple lorsque vous traitez avec des systèmes tiers qui ne gèrent pas correctement mkt_tok. Cependant, le tracking web suivant est limité.
+* **[!UICONTROL Suivi sans jeton]** - Le système enregistre le clic, mais ne suit pas ce que l’utilisateur fait ensuite sur la page web. Ce comportement est important dans certains cas techniques, par exemple lorsque vous traitez avec des systèmes tiers qui ne gèrent pas correctement mkt_tok. Cependant, le tracking web suivant est limité.
 
 * **[!UICONTROL Suivi avec mkt-tok]** - Utilisez le jeton de suivi (mkt_tok) pour suivre les activités web suivantes via Munchkin. Lorsqu’un destinataire clique sur le lien, il enregistre un événement _Cliquer sur l’e-mail_ dans le journal des activités, suit son activité en toute sécurité et applique un cookie pour surveiller les interactions futures du site.
 
-* **[!UICONTROL Ne pas suivre]** - Le système ne suit pas l’activité associée au lien. Cela s’avère utile lorsque la page de destination ne prend pas en charge les paramètres d’URL et peut entraîner la rupture d’un lien.
+* **[!UICONTROL Ne pas suivre]** - Le système ne suit pas l’activité associée au lien. Cette option est utile lorsque la page de destination ne prend pas en charge les paramètres d’URL et génère un lien rompu.
 
   >[!NOTE]
   >
@@ -171,8 +171,8 @@ Tirez parti des options d’affichage et de validation du contenu disponibles da
 * Effectuez un zoom avant/arrière sur le contenu dans les options de zoom prédéfinies.
 
 * Basculez entre l’affichage du contenu sur les appareils de bureau, mobiles ou en texte seul/texte brut.
-   * Cliquez sur l’icône _Affichage_ pour afficher un aperçu du contenu sur tous les appareils.
-   * Sélectionnez l’un des appareils prédéfinis ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
+  * Cliquez sur l’icône _Affichage_ pour afficher un aperçu du contenu sur tous les appareils.
+  * Sélectionnez l’un des appareils prédéfinis ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
 
 ## Plus d’options
 

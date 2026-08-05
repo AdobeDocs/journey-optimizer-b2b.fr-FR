@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ La remise des ventes comprend :
 * **Transfert de données** : le service marketing identifie les données cibles _prêtes_ et les rend accessibles aux ventes au format CSV. 
 * **Acceptation des ventes** : les ventes examinent et incorporent manuellement les cibles _prêtes_ dans leur pipeline.
 
-Pour accéder à ce tableau de bord, développez **[!UICONTROL Comptes]** dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Groupes d’achats]**. Sélectionnez l’onglet **[!UICONTROL Aperçu]** s’il n’est pas affiché par défaut.
+Pour accéder à ce tableau de bord, développez **[!UICONTROL Comptes]** dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Groupes d’achats]**. Sélectionnez l’onglet **[!UICONTROL Aperçu]** si le système ne l’affiche pas par défaut.
 
 ![Présentation des groupes d&#39;achat](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +51,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## Distribution du score d’achèvement du groupe d’achat
 
-Cette visualisation illustre la répartition des groupes d’achats en fonction des scores d’achèvement et est classée en quatre bandes de scores distinctes. Le chiffre central représente le nombre total de groupes d&#39;achat et fournit un instantané rapide de la progression globale. Les couleurs segmentées indiquent la proportion de groupes d&#39;achat dans chaque plage de notes, ce qui vous permet d&#39;évaluer les tendances d&#39;achèvement en un coup d&#39;œil.
+Cette visualisation illustre la répartition des groupes d’achats en fonction des scores d’achèvement et est classée en quatre bandes de scores distinctes. Le chiffre central représente le nombre total de groupes d&#39;achat et fournit une synthèse de l&#39;avancement global. Les couleurs segmentées indiquent la proportion de groupes d&#39;achat dans chaque plage de notes, ce qui vous permet d&#39;évaluer les tendances d&#39;achèvement en un coup d&#39;œil.
 
 Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
@@ -65,7 +65,7 @@ Pour afficher des informations plus détaillées, cliquez sur l’icône de menu
 
 ![Visualisation du score d’engagement du groupe d’achats](./assets/buying-group-engagement-score-chart.png){width="500"}
 
-## Groupes d’achat par intérêt de la solution
+## Groupes d’achat selon l’intérêt pour une solution
 
 Cette visualisation illustre la répartition des groupes d’achat par intérêt pour une solution et vous aide à identifier les solutions qui suscitent le plus d’intérêt. Chaque barre représente une solution spécifique, sa longueur indiquant le nombre de groupes d’achat associés à cet intérêt. Ce graphique à barres offre une compréhension claire et immédiate des tendances de la demande en solutions.
 
@@ -84,7 +84,7 @@ Cliquez sur l’icône _Filtrer_ ( ![Icône Filtrer](../assets/do-not-localize/i
 
 ![Filtrer les données affichées par attributs](./assets/buying-group-overview-filters.png){width="500"}
 
-Sélectionnez autant de valeurs pour chaque attribut que vous souhaitez utiliser pour filtrer les données et cliquez sur **[!UICONTROL Appliquer]**.
+Sélectionnez autant de valeurs pour chaque attribut que vous souhaitez utiliser pour filtrer les données, puis cliquez sur **[!UICONTROL Appliquer]**.
 
 ## Utiliser les données
 
@@ -100,7 +100,7 @@ Les filtres globaux appliqués au tableau de bord sont conservés. Cliquez sur l
 
 Cliquez sur le bouton _Plus_ (**...**) dans le menu supérieur droit et choisissez **[!UICONTROL Afficher plus]** pour [afficher les données étendues](#view-more).
 
-### [!UICONTROL En savoir plus]
+### [!UICONTROL En savoir plus] {#view-more}
 
 Choisissez **[!UICONTROL Afficher plus]** pour afficher des données et des informations étendues.
 

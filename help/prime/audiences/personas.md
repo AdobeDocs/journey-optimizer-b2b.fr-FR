@@ -1,7 +1,7 @@
 ---
 title: Personnages dérivés
 description: Utilisez les rôles dérivés dans Journey Optimizer B2B Prime pour cibler les listes de personnes et les chemins d’accès aux parcours. Découvrez les mappages de persona par défaut et le filtre de persona dérivé.
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version Beta limitée."
 autotag-review: '2026-06-23T22:01:21.605Z'
 TQID: 'https://experienceleague.adobe.com/OZ4GDkaqg9a5Aikic-m-f0MtHSpc3BO0h41fTAL1Rww'
 product_v2:
@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: 639
 ht-degree: 2%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 2%
 La classification des personas transforme les données client brutes en une compréhension sémantique des acheteurs que l’IA peut utiliser pour générer du contexte et orienter des décisions personnalisées sur chaque canal et parcours. Ce profil unifié permet d’effectuer les opérations suivantes :
 
 * _Embranchement de Parcours_ - Partagez les chemins d’accès des prospects par rôle, personne et profondeur d’engagement
-* _Arbitrage de Parcours_ - Détermine à quelle culture un prospect appartient en ce moment, évitant les collisions de messages entre les programmes simultanés
-* _Personnalisation du contenu_ - Contenu comprenant des récits spécifiques au rôle (« pour un cadre » ou « pour un professionnel ou une professionnelle »)
-* _Contexte du qualificateur de vente_ - Les BDR reçoivent un résumé sur un seul écran qui indique « qui est cette personne, ce qui leur importe, où elle se trouve sur le parcours des acheteurs »
+* _Arbitrage de Parcours_ - Détermine à quel parcours de maturation un prospect appartient actuellement, évitant les collisions de messages entre les programmes simultanés
+* _Personnalisation du contenu_ - Contenu qui est un récit spécifique à un rôle (« pour un cadre » ou « pour un praticien »)
+* _Contexte du qualificateur de vente_ - Les représentants du développement des affaires (RDE) reçoivent un résumé sur un seul écran indiquant l&#39;identité de la personne, ses intérêts et son stade actuel sur le parcours des acheteurs
 
 ## Personnages par défaut {#default-ersonas}
 
@@ -49,17 +49,17 @@ Pour la version Beta de Journey Optimizer B2B Prime, les rôles par défaut suiv
 
 >[!NOTE]
 >
->Dans la mise à jour de disponibilité générale, vous pourrez modifier l’une de ces personnalités par défaut en fonction des besoins de votre entreprise. Il prend également en charge les définitions de persona personnalisées et le mappage.
+>Dans la prochaine mise à jour de la disponibilité générale, vous pouvez modifier l’un de ces rôles par défaut en fonction des besoins de votre entreprise. Il prend également en charge les définitions de persona personnalisées et le mappage.
 
 ## Filtrer par persona dérivé {#derived-persona-filter}
 
-Le Prime B2B de Journey Optimizer dérive un persona pour chaque enregistrement de personne en évaluant les attributs de l’enregistrement par rapport aux personas définis. _Vous pouvez utiliser le résultat déduit (« Persona dérivé_) comme filtre lors de la définition de l’audience pour une liste de personnes ou pour la segmentation dans un parcours de personnes.
+[!DNL Journey Optimizer B2B Prime] dérive un persona pour chaque enregistrement de personne en évaluant les attributs d’enregistrement par rapport aux personas définis. _Vous pouvez utiliser le résultat déduit (« Persona dérivé_) comme filtre lors de la définition de l’audience pour une liste de personnes ou pour la segmentation dans un parcours de personnes.
 
 Le filtre _[!UICONTROL Persona dérivé]_ s’affiche dans le panneau de filtrage sous la catégorie **[!UICONTROL Attributs de personne]**.
 
 ### Listes de personnes {#people-lists}
 
-Lorsque vous ajoutez ou supprimez des membres d’une [liste de personnes statique](./people-lists.md#static-list), ou lorsque vous définissez les règles d’appartenance à une [liste de personnes dynamique](./people-lists.md#dynamic-lists), vous pouvez filtrer par persona dérivé pour cibler toutes les personnes dont les attributs correspondent à une personne configurée spécifique.
+Lors de la gestion des membres dans une [liste de personnes statique](./people-lists.md#static-lists) ou de la définition de règles pour une [liste de personnes dynamique](./people-lists.md#dynamic-lists), vous pouvez filtrer par _persona dérivé_ pour cibler toutes les personnes dont les attributs correspondent à une personne configurée spécifique.
 
 ![Filtrage des personas dérivé pour une liste de personnes](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 

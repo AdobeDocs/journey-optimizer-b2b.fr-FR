@@ -20,9 +20,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 393
 ht-degree: 6%
 
 ---
@@ -55,15 +55,15 @@ Pour plus d’informations, voir [_Contenu conditionnel_](./conditional-content.
 
 ## Activer la personnalisation des fragments
 
-Lorsqu’un auteur ajoute un fragment à un [e-mail](./email-authoring.md#content-authoring---use-visual-fragments) ou [modèle d’e-mail](./email-template-authoring.md#content-authoring---use-visual-fragments), le contenu du fragment est verrouillé par défaut. Toutes les modifications apportées au fragment publié sont automatiquement propagées à toutes les ressources de contenu dans lesquelles le fragment est utilisé. Lorsque vous désignez un paramètre pour un composant du fragment comme modifiable, l’auteur de l’e-mail ou du modèle peut spécifier une valeur de champ personnalisé spécifique à ses besoins. Cette option de personnalisation est limitée aux composants visuels d’image, de texte et de bouton.
+Lorsqu’un auteur ajoute un fragment à un [e-mail](./email-authoring.md#add-fragments) ou [modèle d’e-mail](./email-template-authoring.md#add-fragments), le système verrouille le contenu du fragment par défaut. Toutes les modifications apportées au fragment publié sont automatiquement propagées à toutes les ressources de contenu dans lesquelles le fragment est utilisé. Lorsque vous désignez un paramètre pour un composant du fragment comme modifiable, l’auteur de l’e-mail ou du modèle peut spécifier une valeur de champ personnalisé spécifique à ses besoins. Cet indicateur de personnalisation est limité aux composants visuels d’image, de texte et de bouton.
 
-Par exemple, si vous concevez une bannière réutilisable qui comprend un bouton cliquable, vous pouvez désigner le paramètre d’URL du bouton comme étant modifiable. Les auteurs d’e-mails peuvent ensuite utiliser une URL plus spécifique à leur campagne par e-mail. Grâce à ces champs personnalisables, les marketeurs peuvent gérer et personnaliser du contenu réutilisable sans avoir à créer des blocs de contenu entièrement nouveaux ou à interrompre les mises à jour héritées du fragment d’origine.
+Par exemple, si vous concevez une bannière réutilisable qui comprend un bouton cliquable, vous pouvez désigner le paramètre d’URL du bouton comme étant modifiable. Les auteurs d’e-mails peuvent ensuite utiliser une URL plus spécifique à leur campagne par e-mail. Grâce à ces champs personnalisables, les équipes marketing peuvent gérer et personnaliser du contenu réutilisable sans avoir à créer des blocs de contenu entièrement nouveaux ou à interrompre les mises à jour héritées du fragment d’origine.
 
 1. Dans l’éditeur de contenu visuel, sélectionnez l’image, le texte ou l’élément de bouton sur lequel vous souhaitez activer la personnalisation.
 
 1. Dans les détails du composant sur la droite, sélectionnez l’onglet **[!UICONTROL Champs modifiables]**.
 
-1. Cliquez sur le bouton (bascule) de l’option **[!UICONTROL Activer l’édition]** et définissez les champs modifiables.
+1. Cliquez sur le bouton (bascule) de l’option **[!UICONTROL Activer la modification]** et définissez les champs modifiables.
 
    ![Activer les champs modifiables pour un composant d’image de fragment](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 

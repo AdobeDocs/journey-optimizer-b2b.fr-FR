@@ -18,16 +18,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # Jetons personnalisés pour la personnalisation des e-mails
 
-La personnalisation du contenu utilise des jetons comme espaces réservés ou variables qui sont renseignés lorsque l’artefact de contenu est généré. Des jetons de personnalisation standard sont disponibles pour les e-mails, les pages de destination, les fragments et les modèles. Vous pouvez également définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation lors de la [création d’e-mails de parcours &#x200B;](./email-authoring.md#content-authoring---personalization).
+La personnalisation du contenu utilise des jetons comme espaces réservés ou variables qui sont renseignés lorsque l’artefact de contenu est généré. Des jetons de personnalisation standard sont disponibles pour les e-mails, les pages de destination, les fragments et les modèles. Vous pouvez également définir un ensemble de jetons personnalisés avec des valeurs spécifiques au parcours de compte. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés peut être utilisé pour la personnalisation lors de la [&#x200B; création d’e-mails de parcours &#x200B;](./email-authoring.md#personalize-content).
 
 Outre les jetons _Mes jetons_, spécifiques au parcours de compte, vous pouvez utiliser n’importe quel jeton standard (intégré) pour la personnalisation des e-mails.
 
@@ -35,7 +35,7 @@ Outre les jetons _Mes jetons_, spécifiques au parcours de compte, vous pouvez u
 
 Les _Mes jetons_ sont des variables personnalisées que vous créez ou modifiez pour un parcours de compte à l’état de brouillon. Ce jeu de jetons personnalisé prend actuellement en charge les définitions de jeton de texte et de nombre.
 
-Lorsque vous ajoutez un jeton personnalisé à un e-mail, il s’affiche sous la forme `{{my.TokenName}}`. Par exemple, vous pouvez avoir créé des jetons `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` pour gérer le contenu des e-mails liés aux webinaires à venir.
+Lorsque vous ajoutez un jeton personnalisé à un e-mail, il s’affiche sous la forme `{{my.TokenName}}`. Par exemple, des jetons `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` ont été créés pour gérer le contenu des e-mails relatif aux webinaires à venir.
 
 _Accéder aux jetons personnalisés pour un parcours de compte :_
 
@@ -61,7 +61,7 @@ _Accéder aux jetons personnalisés pour un parcours de compte :_
 
    ![Saisissez un nom et une valeur pour le jeton de texte](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   Vous ne pouvez pas utiliser d’espaces ni de caractères spéciaux dans le nom du jeton. Vous pouvez utiliser _casse mixte_ comme `EventType`, pour utiliser un nom composé de plusieurs mots faciles à identifier.
+   Vous ne pouvez pas utiliser d’espaces ni de caractères spéciaux dans le nom du jeton. Vous pouvez utiliser la casse mixte, telle que `EventType`, pour utiliser un nom composé de plusieurs mots faciles à identifier.
 
    Si vous définissez un jeton _Nombre_, la valeur ne peut contenir que des caractères numériques. Vous pouvez utiliser une valeur décimale.
 

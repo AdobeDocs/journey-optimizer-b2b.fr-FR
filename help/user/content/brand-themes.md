@@ -20,10 +20,10 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 autotag-review: 2026-03-30T21:49:24.359Z
 TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3107
-ht-degree: 3%
+source-wordcount: 3111
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Appliquer un thème de marque à votre e-mail ou modèle d’e-mail"
->abstract="Sélectionnez un thème pour votre e-mail ou votre modèle d’e-mail afin d’appliquer un style adapté à votre marque et à votre conception."
+>abstract="Sélectionnez un thème pour votre e-mail ou votre modèle d’e-mail afin d’appliquer un style adapté à votre marque et à votre identité visuelle."
 
 Grâce aux thèmes, les concepteurs non techniques ont la possibilité de créer des directives de conception de contenu d’e-mail réutilisables qui s’alignent sur une marque et un style spécifiques. Les thèmes permettent aux spécialistes du marketing d’utiliser plus rapidement et à moindre effort des e-mails visuellement attrayants et cohérents avec la marque, et fournissent des options de personnalisation avancées pour des besoins de conception uniques.
 
@@ -40,11 +40,11 @@ Grâce aux thèmes, les concepteurs non techniques ont la possibilité de créer
 
 Lorsque vous utilisez des thèmes, gardez à l’esprit les instructions et limites suivantes :
 
-* Lorsque vous créez un e-mail ou un modèle d’e-mail à partir d’une zone de travail vierge (_conception en partant de zéro_), vous pouvez choisir le _mode Thème_ pour commencer à créer votre contenu à l’aide d’un thème afin d’appliquer un style spécifique adapté à votre marque et à votre conception. Si vous choisissez _mode manuel_, vous ne pouvez pas appliquer un thème, sauf si vous réinitialisez la conception de l’e-mail ou du modèle d’e-mail.
+* Lorsque vous créez un e-mail ou un modèle d’e-mail à partir d’un canevas vierge (_conception en partant de zéro_), vous pouvez choisir le _mode Thème_ pour créer du contenu à l’aide d’un thème qui correspond à votre marque. Pour appliquer un thème si vous choisissez _mode manuel_, vous devez réinitialiser la conception de l’e-mail ou du modèle d’e-mail.
 
 * Les [fragments](./fragments.md) ne sont pas compatibles entre le _mode Thème_ et le _mode Manuel_ dans le contenu de l’e-mail. Pour utiliser un fragment dans le contenu d’e-mail auquel un thème est appliqué, le fragment doit également être créé en _mode Thème_.
 
-* Les modifications apportées à un thème personnalisé ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui l’utilisent déjà. Modifiez le contenu de chaque pour actualiser le thème.
+* Les modifications apportées à un thème personnalisé ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui l’utilisent déjà. Pour actualiser le thème, modifiez le contenu de chaque élément.
 
 * Si vous supprimez un thème, cela n’a aucune incidence sur les e-mails ou les modèles d’e-mail auxquels il a déjà été appliqué.
 <!--
@@ -53,7 +53,7 @@ Lorsque vous utilisez des thèmes, gardez à l’esprit les instructions et limi
 
 ## Créer un thème de marque {#create-theme}
 
-Définissez votre propre thème de marque que vous pouvez appliquer à votre contenu d’e-mail et de modèle d’e-mail dans le contenu de votre futur e-mail.
+Définissez votre propre thème de marque que vous pouvez appliquer à votre e-mail et au contenu de votre modèle d’e-mail.
 
 1. Accédez aux outils de thème à l’aide de l’une des méthodes suivantes :
 
@@ -87,7 +87,7 @@ Définissez votre propre thème de marque que vous pouvez appliquer à votre con
    * [Couleurs](#colors)
    * [Paramètres de texte](#text-settings)
    * [Espacement et bordure](#spacing-and-border)
-   * [Bouton](#button)
+   * [Bouton](#buttons)
    * [Diviseur](#divider)
    * [Tableau](#grid)
 
@@ -126,7 +126,7 @@ Sélectionnez l’onglet **[!UICONTROL Couleurs]** et utilisez les paramètres p
 
   Cliquez sur la flèche _Précédent_ pour fermer les outils de palette de couleurs.
 
-* Cliquez sur **[!UICONTROL Ajouter une variante]** pour créer plusieurs variantes de couleurs, telles qu’un mode _clair_ et _sombre_, où chaque variante a sa propre palette de couleurs et ses propres commandes de nuance.
+* Cliquez sur **[!UICONTROL Ajouter une variante]** pour créer plusieurs variantes de couleurs, telles que les modes _clair_ et _sombre_, chacune ayant sa propre palette et ses propres commandes.
 
   >[!NOTE]
   >
@@ -253,7 +253,7 @@ Utilisez le rail à droite pour parcourir les différents onglets et modifier le
 * [Couleurs](#colors)
 * [Paramètres de texte](#text-settings)
 * [Espacement et bordure](#spacing-and-border)
-* [Bouton](#button)
+* [Bouton](#buttons)
 * [Diviseur](#divider)
 * [Tableau](#grid)
 
@@ -265,7 +265,7 @@ Une fois les modifications du thème effectuées, cliquez sur **[!UICONTROL Enre
 
 >[!NOTE]
 >
->Les modifications enregistrées ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui utilisent actuellement le thème. Modifiez le contenu de chaque pour actualiser le thème et faire correspondre les styles mis à jour.
+>Les modifications enregistrées ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui utilisent actuellement le thème. Pour actualiser le thème et correspondre aux styles mis à jour, modifiez le contenu de chaque élément.
 
 ## Gestion des thèmes personnalisés
 
@@ -287,7 +287,7 @@ Si vous disposez d’une liste volumineuse de thèmes personnalisés, utilisez l
    * [Couleurs](#colors)
    * [Paramètres de texte](#text-settings)
    * [Espacement et bordure](#spacing-and-border)
-   * [Bouton](#button)
+   * [Bouton](#buttons)
    * [Diviseur](#divider)
    * [Tableau](#grid)
 
@@ -299,7 +299,7 @@ Si vous disposez d’une liste volumineuse de thèmes personnalisés, utilisez l
 
 >[!NOTE]
 >
->Les modifications du thème enregistrées ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui utilisent actuellement le thème. Modifiez le contenu de chaque pour actualiser le thème et faire correspondre les styles mis à jour.
+>Les modifications du thème enregistrées ne sont pas automatiquement répercutées en cascade sur tous les e-mails ou modèles d’e-mail qui utilisent actuellement le thème. Pour actualiser le thème et correspondre aux styles mis à jour, modifiez le contenu de chaque élément.
 
 ### Supprimer ou dupliquer un thème
 
@@ -317,7 +317,7 @@ Lorsque vous localisez le thème, cliquez sur le menu _Plus_ (**...**) dans le c
 
 ## Utiliser un thème pour la création de contenu d’e-mail {#use-email-theme}
 
-Lorsque vous créez un e-mail ou un modèle d’e-mail, vous pouvez choisir d’utiliser un thème de marque qui simplifie le processus de création de contenu et garantit que la conception s’aligne sur les normes définies. Pour un nouveau fragment, vous pouvez également appliquer un thème avant d’enregistrer le fragment. Le fragment reste en _mode Thème_ à partir de ce point et est compatible avec les e-mails et les modèles d’e-mail qui sont également en _mode Thème_.
+Lorsque vous créez un e-mail ou un modèle d’e-mail, vous pouvez choisir d’utiliser un thème de marque qui simplifie le processus de création de contenu et garantit que la conception s’aligne sur les normes définies. Pour un nouveau fragment, vous pouvez également appliquer un thème avant d’enregistrer le fragment. Le fragment reste en _mode thème_ à partir de ce point et est compatible pour être ajouté aux e-mails et aux modèles d’e-mail qui sont également en _mode thème_.
 
 1. Sélectionnez l’une des actions suivantes :
 

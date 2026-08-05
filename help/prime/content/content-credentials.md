@@ -17,16 +17,16 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: 562
 ht-degree: 1%
 
 ---
 
 # Content Credentials
 
-Les organisations marketing sont plus que jamais préoccupées par la transparence du contenu, la divulgation de l’IA et la prévention de l’altération des ressources. Le Content Authenticity Initiative (CAI) d’Adobe crée des outils conformes à la norme technique C2PA ([&#x200B; Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model). __, chiffrées et infalsifiables, peuvent aider les visiteurs à comprendre la traçabilité du contenu et à assurer l’intégrité des ressources de la marque. Ces informations incluent :
+Les organisations marketing sont plus que jamais préoccupées par la transparence du contenu, la divulgation de l’IA et la prévention de l’altération des ressources. Le Content Authenticity Initiative (CAI) d’Adobe crée des outils conformes à la norme technique C2PA ([&#x200B; Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model). __ est l’ensemble de métadonnées chiffrées et infalsifiables qui peuvent aider les visiteurs et les visiteuses à comprendre la traçabilité du contenu et à assurer l’intégrité des ressources de la marque. Ces informations incluent :
 
 * Émetteur ou signataire : informations sur l’entité ou la société qui a émis la signature numérique pour certifier ou signer la ressource.
 * Date d&#39;émission — Date à laquelle le Content Credential a été appliqué à la ressource.
@@ -34,7 +34,7 @@ Les organisations marketing sont plus que jamais préoccupées par la transparen
 * Processus — Enregistrements de toute modification apportée à l&#39;actif.
 * Détails de l’appareil : informations sur l’application ou l’appareil utilisé pour créer ou modifier la ressource.
 * Outil d’IA utilisé : si l’IA générative a été utilisée pour créer la ressource, le nom du modèle utilisé peut être inclus.
-* Autres informations pertinentes : des données supplémentaires peuvent également être incluses pour aider à fournir plus de contexte sur l’historique d’un actif.
+* Autres informations pertinentes : des données supplémentaires sont également incluses pour aider à fournir plus de contexte sur l’historique d’une ressource.
 
 Pour obtenir des informations complètes sur l’historique des ressources, vous pouvez utiliser l’outil [inspection](https://contentauthenticity.adobe.com/inspect) d’Adobe Content Authenticity.
 
@@ -48,10 +48,10 @@ Les Content Credentials sont conservées avec le fichier image. Lorsqu’une ima
 
 ## Persistance de Content Credentials par le biais des canaux {#channels}
 
-Lorsque vous incluez des images dans vos e-mails ou messages WhatsApp, les Content Credentials des images diffusées sont également conservées :
+Lorsque vous incluez des images dans vos e-mails ou messages WhatsApp, le Content Credentials des images diffusées est également conservé :
 
 * **E-mail** - Lorsque vous utilisez une action de parcours _Envoyer un e-mail_, ajoutez l’image au contenu de votre e-mail à partir de la bibliothèque _Assets_. Lorsque l’e-mail est diffusé, le destinataire peut télécharger l’image à partir du message et le Content Credentials est intact.
-* **WhatsApp** - Ajoutez l&#39;image à votre modèle de message WhatsApp dans votre compte professionnel Meta. Vous pouvez l&#39;ajouter directement à partir de votre propre système ou télécharger un fichier image à partir de la bibliothèque __. Utilisez le modèle pour une action de parcours _Send WhatsApp_. Lorsque le message WhatsApp est diffusé, le destinataire peut télécharger l&#39;image à partir du message et le Content Credentials est intact.
+* **WhatsApp** - Ajoutez l&#39;image à votre modèle de message WhatsApp dans votre compte professionnel Meta. Vous pouvez l&#39;ajouter directement depuis votre système ou télécharger un fichier image à partir de la bibliothèque __. Utilisez le modèle pour une action de parcours _Send WhatsApp_. Lorsque le message WhatsApp est diffusé, le destinataire peut télécharger l&#39;image à partir du message et le Content Credentials est intact.
 
 >[!ENDSHADEBOX]
 

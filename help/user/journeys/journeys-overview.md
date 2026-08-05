@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1512
+source-wordcount: 1504
 ht-degree: 42%
 
 ---
@@ -33,7 +33,7 @@ Journey Optimizer B2B edition prend en charge deux types de parcours :
 
   ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation du parcours de compte](#overview-video)
 
-* parcours de personne **- (Beta) Orchestrez le marketing basé sur les prospects à l’aide des audiences et des données Experience Platform.** Avec les parcours de personne, vos opérations marketing ne dépendent pas de Marketo Engage ou de solutions de contournement pour les chaînes d’outils Adobe Campaign/B2C afin qu’elles puissent fonctionner avec les cas d’utilisation B2B.
+* parcours de personne **- (Beta) Orchestrez le marketing basé sur les prospects à l’aide des audiences et des données Experience Platform.** Avec les parcours de personne, vos opérations marketing ne dépendent pas de Marketo Engage ou de solutions de contournement pour les chaînes d’outils Adobe Campaign/B2C afin qu’elles puissent prendre en charge les cas d’utilisation B2B.
 
   Utilisé de concert avec les parcours de compte et les groupes d’achat, un parcours de personne peut fournir aux marketeurs le pouvoir d’appliquer une orchestration complète au parcours d’achat.
 
@@ -41,21 +41,21 @@ Journey Optimizer B2B edition prend en charge deux types de parcours :
 
   Certaines limitations peuvent bloquer certains cas d’utilisation ou entraîner des difficultés pour créer des parcours de personne. De nombreux problèmes résultent de la mise en œuvre initiale du programme bêta et devront être résolus ultérieurement.
 
-   * Les événements ne peuvent pas être combinés avec des attributs de profil pour réduire les définitions d’audience.
-   * Le contexte de l’événement qui qualifie un profil pour un parcours ne peut pas être utilisé pour la personnalisation ou l’orchestration.
-   * Parcours ne peut actuellement pas avoir à la fois un événement et un critère d’entrée de segment de profil.
-   * Les écouteurs d’événements ne peuvent pas écouter plusieurs événements.
-   * Les nœuds d’attente ne disposent actuellement pas d’une suite complète d’options pour les critères de sortie de jour de la semaine ou d’heure de la journée.
-   * L’éditeur d’e-mail fait référence de manière incorrecte à des fonctionnalités et attributs qui ne sont disponibles que pour les Parcours de compte
-   * La prise en charge des jetons de parcours personnalisés (_Mes jetons_) n’est pas encore disponible.
-   * Les nœuds de parcours Ajouter et Supprimer de la personne ne sont actuellement disponibles dans aucun des types de parcours.
-   * L’historique des événements ne peut pas être utilisé pour l’orchestration ou la personnalisation.
-   * Les objets associés (tels que le compte, le groupe d’achat, l’opportunité et les objets personnalisés) ne peuvent pas être utilisés pour l’orchestration ou la personnalisation.
-   * Les canaux web, SMS et de plateforme publicitaire ne sont actuellement pas pris en charge.
+  * Les événements ne peuvent pas être combinés avec des attributs de profil pour réduire les définitions d’audience.
+  * Le contexte de l’événement qui qualifie un profil pour un parcours ne peut pas être utilisé pour la personnalisation ou l’orchestration.
+  * Parcours ne peut actuellement pas avoir à la fois un événement et un critère d’entrée de segment de profil.
+  * Les écouteurs d’événements ne peuvent pas écouter plusieurs événements.
+  * Les nœuds d’attente ne disposent actuellement pas d’une suite complète d’options pour les critères de sortie de jour de la semaine ou d’heure de la journée.
+  * L’éditeur d’e-mail fait référence de manière incorrecte à des fonctionnalités et attributs qui ne sont disponibles que pour les Parcours de compte
+  * La prise en charge des jetons de parcours personnalisés (_Mes jetons_) n’est pas encore disponible.
+  * Les nœuds de parcours Ajouter et Supprimer de la personne ne sont actuellement disponibles dans aucun des types de parcours.
+  * L’historique des événements ne peut pas être utilisé pour l’orchestration ou la personnalisation.
+  * Les objets associés (compte, groupe d’achat, opportunité et objets personnalisés) ne peuvent pas être utilisés pour l’orchestration ou la personnalisation.
+  * Les canaux web, SMS et de plateforme publicitaire ne sont actuellement pas pris en charge.
 
   +++
 
-## Commencer avec un parcours
+## Commencer un parcours
 
 Pour commencer à utiliser votre premier parcours :
 
@@ -156,7 +156,7 @@ Si vous abandonnez (arrêtez) un parcours actif ou planifié, les comptes ou les
 
 ### Fermer aux nouvelles entrées
 
-Si vous fermez un parcours actif, les comptes actuellement dans le parcours continuent leur chemin et aucune autre entrée dans le parcours ne peut se produire. Vous ne pouvez pas redémarrer un parcours fermé. Vous pouvez dupliquer un parcours fermé.
+Si vous fermez un parcours actif, les comptes actuellement dans le parcours continuent leur chemin et aucune autre entrée dans le parcours ne peut se produire. Vous ne pouvez pas redémarrer un parcours fermé. Vous pouvez dupliquer un parcours clôturé.
 
 >[!IMPORTANT]
 >
@@ -192,7 +192,7 @@ Une action de duplication est similaire à une fonction de clonage, mais le parc
 
 1. Choisissez le **[!UICONTROL type]** de duplication :
 
-   * **[!UICONTROL Duplication partielle du contenu]** : utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage sont entièrement intacts.
+   * **[!UICONTROL Duplication partielle du contenu]** : utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage restent pleinement intacts.
 
    * **[!UICONTROL Dupliquer sans détails]** - Utilisez ce type pour copier uniquement la structure de nœud et les chemins d’accès. Les paramètres de nœud et conditions de chemin ne sont pas définis (par défaut). Vous pouvez donc réutiliser le flux de base avec différents paramètres d’audience, d’actions et de segmentation de chemin. Tous les nœuds d’_attente_ utilisent la valeur par défaut de cinq jours.
 
@@ -200,7 +200,7 @@ Une action de duplication est similaire à une fonction de clonage, mais le parc
 
    Le parcours dupliqué s’ouvre dans la carte des parcours, où vous pouvez définir les détails et créer du contenu de parcours selon vos besoins.
 
-### Supprimer un parcours
+### Supprimer un parcours {#delete-journey}
 
 Utilisez une action de suppression pour supprimer définitivement un parcours. Vous ne pouvez pas supprimer un parcours actif ou planifié.
 
@@ -216,7 +216,7 @@ Utilisez une action de suppression pour supprimer définitivement un parcours. V
 
 ## Vérifier la progression du compte
 
-Pour un parcours de compte publié dont le statut est défini sur _En ligne_, _Fermé aux nouvelles entrées_, _Abandonné_ ou _Terminé_, vous pouvez ouvrir le mappage de parcours pour consulter la progression du compte pour les nœuds de parcours. Chaque nœud de la carte affiche le nombre de comptes à atteindre ce nœud et, pour les parcours actifs, le nombre de comptes actuellement sur ce nœud.
+Pour un parcours de compte publié avec le statut _En ligne_, _Fermé aux nouvelles entrées_, _Abandonné_ ou _Terminé_, ouvrez le mappage de parcours afin de consulter la progression du compte pour les nœuds de parcours. Chaque nœud de la carte affiche le nombre de comptes à atteindre ce nœud et, pour les parcours actifs, le nombre de comptes actuellement sur ce nœud.
 
 ![Informations sur la progression du compte pour les nœuds de parcours &#x200B;](./assets/node-account-progression-observability.png){width="400"}
 
