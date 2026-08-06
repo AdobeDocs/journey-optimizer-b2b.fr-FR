@@ -3,24 +3,17 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités, améliorations et corrections de bugs d’Adobe Journey Optimizer B2B Edition. Restez informé des nouvelles fonctionnalités et des améliorations apportées au produit.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
 workflow-type: tm+mt
-source-wordcount: 5351
-ht-degree: 64%
+source-wordcount: 5552
+ht-degree: 62%
 
 ---
 
@@ -30,7 +23,25 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+
+## notes de mise à jour 2026.8 {#rel-2026-8}
+
+**Date de déploiement** : 14 août 2026
+
+| Type | Élément | Description |
+| ---- | ---- | ----------- |
+| Fonctionnalité | Listes de personnes | Des listes de personnes statiques et dynamiques sont désormais disponibles afin que vous puissiez cibler les profils selon vos critères définis, tels que les attributs démographiques et l’historique des événements d’expérience. |
+| Fonctionnalité | _Chemins de division variants_ nœuds de parcours | (Précédemment Beta pour les parcours de compte) Les marketeurs peuvent désormais tester les variations au sein d’un parcours de compte ou de personne en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. |
+| Amélioration | Parcours de rentrée - parcours de personnes | La prise en charge de la rentrée des parcours est désormais disponible pour les parcours de personnes. |
+| Amélioration | Écoute des déclencheurs d’événement et des filtres - parcours de compte | La prise en charge de plusieurs déclencheurs et filtres dans un nœud _Écouter l’événement_ est désormais disponible pour les parcours de compte. |
+| Amélioration | Nœuds de chemin de partage externes - parcours de personne | La prise en charge des nœuds _Chemins de division externes_ est désormais disponible pour les parcours de personnes. |
+| Amélioration | Nœuds d’action externe - parcours de personne | La prise en charge des nœuds _Action externe_ est désormais disponible pour les parcours de personnes. |
+| Amélioration | Jeux de données de relations AEP | De nouveaux jeux de données relationnels apparaissent désormais dans votre sandbox AEP, aux côtés des jeux de données existants. |
+
+>[!NOTE]
+>
+>Ces modifications de version commencent le déploiement le 14 août 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
 
 ## Notes de mise à jour 2026.6 {#rel-2026-6}
 
@@ -38,7 +49,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | _Chemin de partage_ nœuds de parcours - Variantes | (Beta) Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. [En savoir plus](../journeys/variant-split-paths-nodes.md) |
+| Fonctionnalité | _Chemins de division variés_ nœuds de parcours - parcours de compte | (Beta) Les marketeurs peuvent désormais tester les variations au sein d’un parcours en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. [En savoir plus](../journeys/variant-split-paths-nodes.md) |
 | Amélioration | _Écouter un événement_ nœuds de parcours | Dans les parcours en personne, les nœuds d’écouteur d’événement peuvent désormais être configurés avec plusieurs événements à déclencher. Le premier événement éligible avance le record sur le parcours. (Prise en charge prévue des parcours de compte pour la prochaine version.) [En savoir plus](../journeys/listen-for-event-nodes.md#person-journeys) |
 | Amélioration | _Écouter un événement_ nœuds de parcours | L’onglet _[!UICONTROL Filtres]_ pour les événements personnes/personne est remplacé par un sélecteur d’action unique dans une interface de créateur de règles. Cela permet de prendre en charge plusieurs configurations d’activité à l’aide d’événements d’expérience configurés. [En savoir plus](../journeys/listen-for-event-nodes.md#filters-people-event) |
 | Amélioration | _Action à effectuer_ nœuds de parcours | D’autres actions sont désormais disponibles pour le parcours Personnes du compte et depuis un parcours Personne : _Ajouter au parcours Personne_ et _Supprimer du parcours Personne_. [En savoir plus](../journeys/action-nodes.md#people-actions) |
@@ -46,12 +57,6 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 >[!NOTE]
 >
 >Ces modifications de version commencent le déploiement le 10 juillet 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
-
-<!-- 
-Add for 2026.8 release
-| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
-| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
--->
 
 ## Notes de mise à jour 2026.5 {#rel-2026-5}
 
@@ -165,7 +170,7 @@ Les fonctionnalités d’IA agentique suivantes sont désormais disponibles pour
 
 ### Architecture mise à jour
 
-Avec l’architecture mise à jour, Journey Optimizer B2B edition et Marketo Engage ne sont pas sur le même système et magasin de données. Journey Optimizer B2B edition reçoit des données de Adobe Experience Platform. Cependant, il continue de s’appuyer sur les droits d’utilisation de Marketo Engage et sur certaines fonctionnalités de configuration pour approvisionner et configurer le système.
+Avec l’architecture mise à jour, Journey Optimizer B2B edition et Marketo Engage ne sont plus sur le même système et magasin de données. Journey Optimizer B2B edition reçoit des données de Adobe Experience Platform. Cependant, il continue de s’appuyer sur les droits d’utilisation de Marketo Engage et sur certaines fonctionnalités de configuration pour approvisionner et configurer le système.
 
 >[!NOTE]
 >
@@ -176,7 +181,7 @@ Cette implémentation offre plusieurs avantages :
 * **Unifier et mettre à l’échelle facilement vos données** : la plateforme mise à jour prend en charge des modèles de données complexes, y compris les objets personnalisés, les groupes d’achats et les événements de compte.
 * **Connecter plusieurs instances Adobe Marketo Engage** : gérez et unifiez les données de plusieurs environnements Adobe Marketo Engage en un seul endroit.
 * **Protéger vos données** : les fonctionnalités avancées de confidentialité et de sécurité vous aident à protéger les informations de votre clientèle.
-* **Conçue pour une évolutivité à long terme** : cette mise à jour prépare votre organisation à des améliorations et innovations continues.
+* **Conçue pour une évolutivité à long terme** : cette mise à jour prépare votre entreprise aux améliorations et innovations continues.
 
 >[!NOTE]
 >
