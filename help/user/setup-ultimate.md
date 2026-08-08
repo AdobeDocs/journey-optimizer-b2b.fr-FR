@@ -297,7 +297,7 @@ Pour prendre en charge les équipes marketing qui incluent d’autres canaux dan
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
 <td>Configurez le site web de votre entreprise pour prendre en charge Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">En savoir plus</a></td>
+<td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview">En savoir plus</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
