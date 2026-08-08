@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +33,9 @@ Journey Optimizer B2B edition prend en charge deux types de parcours :
 
   ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez la vidéo de présentation du parcours de compte](#overview-video)
 
-* parcours de personne **- (Beta) Orchestrez le marketing basé sur les prospects à l’aide des audiences et des données Experience Platform.** Avec les parcours de personne, vos opérations marketing ne dépendent pas de Marketo Engage ou de solutions de contournement pour les chaînes d’outils Adobe Campaign/B2C afin qu’elles puissent prendre en charge les cas d’utilisation B2B.
+* parcours de personne **- Orchestrez le marketing basé sur les prospects à l’aide des audiences et des données Experience Platform.** Avec les parcours de personne, vos opérations marketing ne dépendent pas de Marketo Engage ou de solutions de contournement pour les chaînes d’outils Adobe Campaign/B2C afin qu’elles puissent prendre en charge les cas d’utilisation B2B.
 
   Utilisé de concert avec les parcours de compte et les groupes d’achat, un parcours de personne peut fournir aux marketeurs le pouvoir d’appliquer une orchestration complète au parcours d’achat.
-
-  +++Limites actuelles des parcours de personne
-
-  Certaines limitations peuvent bloquer certains cas d’utilisation ou entraîner des difficultés pour créer des parcours de personne. De nombreux problèmes résultent de la mise en œuvre initiale du programme bêta et devront être résolus ultérieurement.
-
-  * Les événements ne peuvent pas être combinés avec des attributs de profil pour réduire les définitions d’audience.
-  * Le contexte de l’événement qui qualifie un profil pour un parcours ne peut pas être utilisé pour la personnalisation ou l’orchestration.
-  * Parcours ne peut actuellement pas avoir à la fois un événement et un critère d’entrée de segment de profil.
-  * Les écouteurs d’événements ne peuvent pas écouter plusieurs événements.
-  * Les nœuds d’attente ne disposent actuellement pas d’une suite complète d’options pour les critères de sortie de jour de la semaine ou d’heure de la journée.
-  * L’éditeur d’e-mail fait référence de manière incorrecte à des fonctionnalités et attributs qui ne sont disponibles que pour les Parcours de compte
-  * La prise en charge des jetons de parcours personnalisés (_Mes jetons_) n’est pas encore disponible.
-  * Les nœuds de parcours Ajouter et Supprimer de la personne ne sont actuellement disponibles dans aucun des types de parcours.
-  * L’historique des événements ne peut pas être utilisé pour l’orchestration ou la personnalisation.
-  * Les objets associés (compte, groupe d’achat, opportunité et objets personnalisés) ne peuvent pas être utilisés pour l’orchestration ou la personnalisation.
-  * Les canaux web, SMS et de plateforme publicitaire ne sont actuellement pas pris en charge.
-
-  +++
 
 ## Commencer un parcours
 
@@ -75,9 +57,7 @@ Saisissez du texte dans l’outil _Rechercher_ en haut de la liste pour filtrer 
 
 ![Filtrage de la liste des parcours de compte](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB parcours de personne (Beta)] 
-
-[!BADGE Beta]{type=Informative tooltip="Disponible en tant que fonctionnalité bêta"}
+>[!TAB parcours de personne] 
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion des Parcours]** puis cliquez sur **[!UICONTROL parcours de personne]**.
 
@@ -194,7 +174,7 @@ Une action de duplication est similaire à une fonction de clonage, mais le parc
 
    * **[!UICONTROL Duplication partielle du contenu]** : utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage restent pleinement intacts.
 
-   * **[!UICONTROL Dupliquer sans détails]** - Utilisez ce type pour copier uniquement la structure de nœud et les chemins d’accès. Les paramètres de nœud et conditions de chemin ne sont pas définis (par défaut). Vous pouvez donc réutiliser le flux de base avec différents paramètres d’audience, d’actions et de segmentation de chemin. Tous les nœuds d’_attente_ utilisent la valeur par défaut de cinq jours.
+   * **[!UICONTROL Dupliquer sans détails]** - Utilisez ce type pour copier uniquement la structure de nœud et les chemins d’accès. Tous les paramètres de nœud et conditions de chemin sont indéfinis (par défaut). Vous pouvez donc réutiliser le flux de base avec différents paramètres d’audience, d’actions et de segmentation de chemin. Tous les nœuds d’_attente_ utilisent la valeur par défaut de cinq jours.
 
 1. Cliquez sur **[!UICONTROL Dupliquer]**.
 

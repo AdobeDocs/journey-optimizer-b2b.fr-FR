@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ Pour commencer à utiliser un parcours, créez le parcours, puis construisez les
 Sous **[!UICONTROL Gestion des Parcours]** dans le volet de navigation de gauche, sélectionnez le type de parcours à créer :
 
 * parcours de compte **&#x200B;**
-* parcours de personne **(Beta)**
+* parcours de personne **&#x200B;**
 
 _Pour ajouter un nouveau parcours :_
 
@@ -50,7 +50,7 @@ _Pour ajouter un nouveau parcours :_
 
 +++
 
-+++Parcours Personne (Beta)
++++Parcours d’une personne
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours]** en haut à droite de la page.
 

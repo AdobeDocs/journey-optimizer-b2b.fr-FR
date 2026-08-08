@@ -19,9 +19,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 448
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion des Par
 
 ![&#x200B; Présentation des parcours de compte &#x200B;](./assets/journey-overview-account.png){width="800" zoomable="yes"}
 
->[!TAB parcours de personne (Beta)] 
+>[!TAB parcours de personne] 
 
 [!BADGE Beta]{type=Informative tooltip="Disponible en tant que fonctionnalité bêta"}
 
@@ -50,7 +50,7 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion des Par
 
 >[!ENDTABS]
 
-## Répartition du taux d’achèvement du parcours {#journey-completion-rate-distribution}
+## Répartition du taux d’achèvement des parcours {#journey-completion-rate-distribution}
 
 Ce graphique illustre la répartition des parcours en fonction de leur taux d’achèvement et est classé en quatre tranches de score distinctes. La figure centrale représente le nombre total de parcours et fournit un instantané rapide de la progression globale. Les couleurs segmentées indiquent la proportion de parcours dans chaque plage de notes, ce qui vous permet d’évaluer les tendances d’achèvement en un coup d’œil.
 

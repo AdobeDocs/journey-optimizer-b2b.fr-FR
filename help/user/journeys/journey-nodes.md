@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 16%
+source-wordcount: 135
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ Après avoir créé un parcours (parcours de compte ou parcours de personne), aj
 Les nœuds d’audience sont automatiquement les premiers nœuds du parcours :
 
 * [Audience de compte](./account-audience-nodes.md)
-* [Audience personne](./person-audience-nodes.md) (Beta)
+* [Audience de la personne](./person-audience-nodes.md)
 
 Créez votre parcours en combinant les différents nœuds d’action, d’événement et d’orchestration en tant que scénario cross-canal à plusieurs étapes. Chaque nœud d’un parcours représente une étape le long d’un chemin logique. Utilisez les types de nœuds suivants pour créer un parcours de compte :
 

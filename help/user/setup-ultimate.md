@@ -21,10 +21,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 848
-ht-degree: 74%
+source-wordcount: 847
+ht-degree: 73%
 
 ---
 
@@ -68,7 +68,7 @@ Utilisez cette liste de contrôle pour terminer la configuration de Journey Opti
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
-<td>Téléchargez l’utilitaire de génération automatique d’espace de noms et de schéma depuis GitHub .</td>
+<td>Téléchargez l’utilitaire de génération automatique d’espaces de noms et de schémas depuis GitHub.</td>
 <td><a href="./data/namespaces-schemas.md#set-up-the-auto-generation-utility">En savoir plus</a></td>
 </tr>
 <tr>
@@ -109,7 +109,7 @@ Utilisez cette liste de contrôle pour terminer la configuration de Journey Opti
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
-<td>Sélectionnez les champs gérés à exposer pour les parcours, les groupes d’achats et la personnalisation des e-mails.</td>
+<td>Sélectionnez les champs gérés à exposer pour les parcours, les groupes d’achat et la personnalisation des e-mails.</td>
 <td><a href="./admin/xdm-field-management.md#standard-classes">En savoir plus</a></td>
 </tr>
 <tr>
@@ -132,7 +132,7 @@ Utilisez cette liste de contrôle pour terminer la configuration de Journey Opti
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
-<td>Configurez chaque type d’événement Experience Platform avec des champs à prendre en charge dans les chemins de prise de décision/partage de parcours.</td>
+<td>Configurez chaque type d’évènement Experience Platform avec les champs à prendre en compte pour la prise de décision de parcours et le fractionnement des chemins.</td>
 <td><a href="./admin/configure-aep-events.md">En savoir plus</a></td>
 </tr>
 </tbody>
@@ -161,7 +161,7 @@ Pour envoyer des e-mails depuis [!DNL Journey Optimizer B2B Edition], configurez
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
-<td>Configuration des domaines de branding pour l’instance Marketo Engage associée</td>
+<td>Configurez les domaines de branding pour l’instance Marketo Engage associée</td>
 <td><a href="./start/branding-domains.md">En savoir plus</a></td>
 </tr>
 <tr>
@@ -181,7 +181,7 @@ Pour envoyer des e-mails depuis [!DNL Journey Optimizer B2B Edition], configurez
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
-<td>Ajout d’adresses IP sortantes aux places sur la liste autorisée</td>
+<td>Ajoutez les adresses IP sortantes aux listes autorisées.</td>
 <td><a href="./start/email-protocols.md#outbound-ip-addresses">En savoir plus</a></td>
 </tr>
 <tr>
@@ -260,7 +260,7 @@ Pour envoyer des e-mails depuis [!DNL Journey Optimizer B2B Edition], configurez
 </tr>
 -->
 
-## &#x200B;4. Configuration de canaux de contenu supplémentaires
+## &#x200B;4. Configurez des canaux de contenu supplémentaires
 
 Pour prendre en charge les équipes marketing qui incluent d’autres canaux dans leurs parcours, configurez des canaux supplémentaires.
 
@@ -282,7 +282,7 @@ Pour prendre en charge les équipes marketing qui incluent d’autres canaux dan
 <td><a href="./admin/configure-channels-sms.md">En savoir plus</a></td>
 </tr>
 <tr>
-<td colspan="2">Configuration du canal <strong>Pages de destination</strong> (Beta) pour Journey Optimizer B2B edition.</td>
+<td colspan="2"><strong>Pages de destination</strong> configuration des canaux pour Journey Optimizer B2B edition.</td>
 <td></td>
 </tr>
 <tr>
@@ -306,7 +306,7 @@ Pour prendre en charge les équipes marketing qui incluent d’autres canaux dan
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
-<td>Demandez aux auteurs et autrices d’expérience web d’installer l’extension de navigateur Visual Editing Helper de Adobe Experience Cloud.</td>
+<td>Demandez aux créateurs d’expériences web d’installer l’extension « Visual Editing » Helper d’Adobe Experience Cloud.</td>
 <td><a href="./content/web-experiences.md#install-the-visual-editing-helper-extension">En savoir plus</a></td>
 </tr>
 </tbody>
@@ -314,7 +314,7 @@ Pour prendre en charge les équipes marketing qui incluent d’autres canaux dan
 
 ## &#x200B;5. Connecter une instance Marketo Engage pour prendre en charge les actions de parcours (facultatif)
 
-Si vous prévoyez de compléter les fonctionnalités de Journey Optimizer B2B edition avec des campagnes et des programmes dans Marketo Engage, configurez la prise en charge des actions Marketo Engage. Ces actions permettent à vos équipes marketing de coordonner leurs efforts marketing _basés sur un compte_ dans Journey Optimizer B2B edition et _basés sur un prospect_ dans Marketo Engage.
+Si vous prévoyez de compléter les fonctionnalités de Journey Optimizer B2B Edition avec des campagnes et des programmes dans Marketo Engage, configurez la prise en charge des actions Marketo Engage. Ces actions permettent à vos équipes marketing de coordonner leurs efforts marketing _basés sur un compte_ dans Journey Optimizer B2B edition et _basés sur un prospect_ dans Marketo Engage.
 
 <table>
 <thead>
@@ -335,7 +335,7 @@ Si vous prévoyez de compléter les fonctionnalités de Journey Optimizer B2B ed
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher"/></td>
-<td>Ajouter l’intégration dans Journey Optimizer B2B edition</td>
+<td>Ajoutez l’intégration dans Journey Optimizer B2B Edition</td>
 <td><a href="./admin/marketo-actions-connect.md#add-the-integration">En savoir plus</a></td>
 </tr>
 </tbody>
@@ -343,7 +343,7 @@ Si vous prévoyez de compléter les fonctionnalités de Journey Optimizer B2B ed
 
 ## &#x200B;6. Activer l’accès utilisateur
 
-Une fois la mise en service terminée, les sandbox sont liés et les tâches de configuration initiales terminées, configurez l’accès de Journey Optimizer B2B edition et Marketo Engage pour votre équipe et les utilisateurs.
+Une fois l’approvisionnement terminé, les sandbox liés et les tâches de configuration initiales terminées, configurez l’accès à Journey Optimizer B2B Edition et Marketo Engage pour votre équipe et vos utilisateurs.
 
 <table>
 <thead>
