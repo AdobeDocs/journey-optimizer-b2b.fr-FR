@@ -3,23 +3,16 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités, améliorations et corrections de bugs d’Adobe Journey Optimizer B2B Edition. Restez informé des nouvelles fonctionnalités et des améliorations apportées au produit.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 5552
+source-wordcount: 5580
 ht-degree: 62%
 
 ---
@@ -30,7 +23,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## notes de mise à jour 2026.8 {#rel-2026-8}
 
@@ -38,8 +31,9 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
+| Fonctionnalité | Parcours de personne | (Auparavant Beta, déploiement anticipé pour la disponibilité générale) Vous pouvez désormais créer des parcours pour orchestrer le marketing basé sur les prospects à l’aide des audiences et des données Experience Platform. [En savoir plus](../journeys/journeys-overview.md) |
 | Fonctionnalité | Listes de personnes | Des listes de personnes statiques et dynamiques sont désormais disponibles afin que vous puissiez cibler les profils selon vos critères définis, tels que les attributs démographiques et l’historique des événements d’expérience. |
-| Fonctionnalité | _Chemins de division variants_ nœuds de parcours | (Précédemment Beta pour les parcours de compte) Les marketeurs peuvent désormais tester les variations au sein d’un parcours de compte ou de personne en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. |
+| Fonctionnalité | _Chemins de division variants_ nœuds de parcours | (Anciennement Beta pour les parcours de compte) Les marketeurs peuvent désormais tester les variations au sein d’un parcours de compte ou de personne en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. |
 | Amélioration | Parcours de rentrée - parcours de personnes | La prise en charge de la rentrée des parcours est désormais disponible pour les parcours de personnes. |
 | Amélioration | Écoute des déclencheurs d’événement et des filtres - parcours de compte | La prise en charge de plusieurs déclencheurs et filtres dans un nœud _Écouter l’événement_ est désormais disponible pour les parcours de compte. |
 | Amélioration | Nœuds de chemin de partage externes - parcours de personne | La prise en charge des nœuds _Chemins de division externes_ est désormais disponible pour les parcours de personnes. |
