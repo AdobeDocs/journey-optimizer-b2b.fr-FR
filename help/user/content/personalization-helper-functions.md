@@ -9,24 +9,15 @@ keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
 autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 47%
 
 ---
@@ -405,7 +396,7 @@ Utilisez la fonction `includes` pour déterminer si un tableau ou une liste cont
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes dont le rouge est l&#39;une des couleurs préférées.
+L’opération suivante définit les personnes ayant le rouge parmi leurs couleurs préférées.
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
@@ -425,7 +416,7 @@ La fonction `intersects` permet de déterminer si deux tableaux ou deux listes o
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes dont les couleurs préférées comprennent au moins le rouge, le bleu ou le vert.
+L’opération suivante définit les personnes dont les couleurs préférées incluent au moins l’une des couleurs suivantes : rouge, bleu ou vert.
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -684,7 +675,7 @@ La fonction `ageInDays` calcule le nombre de jours écoulés entre la date donn�
 
 **Exemple**
 
-currentDate = 2025-01-07T12:17:10.720122+05:30 (Asie/Calcutta)
+currentDate = 2025-01-:17:10.720122+05:30 (Asie/Calcutta)
 
 * Entrée : `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * Sortie : `5`
@@ -703,7 +694,7 @@ La fonction `ageInMonths` calcule le nombre de mois écoulés entre la date donn
 
 **Exemple**
 
-currentDate = 2025-01-07T12:22:46.993748+05:30(Asie/Calcutta)
+currentDate = 2025-01-:22:46.993748+05:30(Asie/Calcutta)
 
 * Entrée : `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Sortie : `12`
@@ -991,9 +982,9 @@ Lorsque la première chaîne correspond à l’attribut date, la deuxième valeu
 >
 > Si un modèle de date n’est pas valide, la date revient au format ISO standard.
 >
-> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [&#128279;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation [&#128279;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation [](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Exemple**
 
@@ -1158,7 +1149,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfDay {#truncate-day}
 
-Utilisez la fonction `truncateToStartOfDay` pour modifier une date-heure donnée en définissant au début de la journée l&#39;heure à 00:00.
+Utilisez la fonction `truncateToStartOfDay` pour modifier une date-heure donnée en la définissant sur le début de la journée avec une heure à 00:00.
 
 +++Syntaxe
 
@@ -1468,8 +1459,8 @@ Dans cet exemple, la valeur `there` s&#39;affiche si l&#39;attribut `firstName` 
 
 ### if (conditions) {#if-function}
 
-L&#39;assistant `if` est utilisé pour définir un bloc conditionnel.
-Si l’évaluation de l’expression renvoie true, le bloc est rendu, sinon il est ignoré.
+L&#39;helper `if` est utilisé pour définir un bloc conditionnel.
+Si l’évaluation de l’expression renvoie « rai », le bloc est rendu, sinon il est ignoré.
 
 +++Syntaxe
 
@@ -1478,7 +1469,7 @@ Si l’évaluation de l’expression renvoie true, le bloc est rendu, sinon il e
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-À la suite de l&#39;assistant `if`, vous pouvez saisir une instruction `else` pour spécifier un bloc de code à exécuter, si la même condition est false.
+À la suite de l&#39;helper `if`, vous pouvez saisir une instruction `else` pour spécifier un bloc de code à exécuter, si la même condition est false.
 L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la première instruction renvoie false.
 
 
@@ -1664,7 +1655,7 @@ L&#39;exemple suivant permet de calculer la somme totale des prix des produits d
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant Adobe pour obtenir l’accès.
 
 Utilisez le `executionMetadata` pour capturer et stocker dynamiquement des paires clé-valeur personnalisées dans le contexte d’exécution du message.
 
@@ -1674,7 +1665,7 @@ Cette fonction vous permet d’ajouter des informations contextuelles à toute a
 >
 >Les actions personnalisées ne prennent pas en charge la fonction `executionMetadata`.
 
-Vous pouvez, par exemple, utiliser l’assistant `executionMetadata` pour ajouter un identifiant spécifique à chaque diffusion envoyée à chaque profil. Ces informations sont générées lors de l’exécution, puis vous pouvez importer les métadonnées d’exécution enrichies pour la réconciliation en aval à l’aide d’une plateforme de création de rapports externe.
+Vous pouvez, par exemple, utiliser l’assistant `executionMetadata` pour ajouter un identifiant spécifique à chaque diffusion envoyée à chaque profil. Ces informations sont générées lors de l’exécution et les métadonnées d’exécution enrichies peuvent ensuite être exportées pour la réconciliation en aval avec une plateforme de création de rapports externe.
 
 +++Syntaxe
 
@@ -1819,7 +1810,7 @@ Elle accepte un nombre et une chaîne représentant les paramètres régionaux e
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation d’[&#128279;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation d’[](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemple**
 
@@ -1987,7 +1978,7 @@ La fonction `isNotNull` détermine si une référence d&#39;objet existe.
 
 **Exemple**
 
-L&#39;opération suivante vérifie si l&#39;adresse de la personne existe.
+L’opération suivante vérifie si l’adresse du domicile de la personne existe.
 
 ```sql
 {%= isNotNull(person.homeAddress) %}
@@ -2073,7 +2064,7 @@ Utilisez la fonction `contains` pour déterminer si une chaîne contient une sou
 | --------- | ----------- |
 | `STRING_1` | La chaîne à vérifier. |
 | `STRING_2` | La chaîne à rechercher dans la première chaîne. |
-| `CASE_SENSITIVE` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
+| `CASE_SENSITIVE` | Un paramètre facultatif permettant de déterminer si la vérification respecte la casse. Valeurs possibles : vrai (par défaut)/faux. |
 
 **Exemples**
 
@@ -2105,7 +2096,7 @@ Utilisez la fonction `doesNotContain` pour déterminer si une chaîne ne contien
 | --------- | ----------- |
 | `STRING_1` | La chaîne à vérifier. |
 | `STRING_2` | La chaîne à rechercher dans la première chaîne. |
-| `CASE_SENSITIVE` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
+| `CASE_SENSITIVE` | Un paramètre facultatif permettant de déterminer si la vérification respecte la casse. Valeurs possibles : vrai (par défaut)/faux. |
 
 **Exemple**
 
@@ -2131,7 +2122,7 @@ Utilisez la fonction `doesNotEndWith` pour déterminer si une chaîne ne se term
 | --------- | ----------- |
 | `{STRING_1}` | La chaîne à vérifier. |
 | `{STRING_2}` | La chaîne à rechercher dans la première chaîne. |
-| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
+| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification respecte la casse. Valeurs possibles : vrai (par défaut)/faux. |
 
 **Exemple**
 
@@ -2157,7 +2148,7 @@ Utilisez la fonction `doesNotStartWith` pour déterminer si une chaîne ne comme
 | --------- | ----------- |
 | `{STRING_1}` | La chaîne à vérifier. |
 | `{STRING_2}` | La chaîne à rechercher dans la première chaîne. |
-| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
+| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification respecte la casse. Valeurs possibles : vrai (par défaut)/faux. |
 
 **Exemple**
 
@@ -2195,7 +2186,7 @@ Utilisez la fonction `endsWith` pour déterminer si une chaîne se termine par u
 | --------- | ----------- |
 | `{STRING_1}` | La chaîne à vérifier. |
 | `{STRING_2}` | La chaîne à rechercher dans la première chaîne. |
-| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
+| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification respecte la casse. Valeurs possibles : vrai (par défaut)/faux. |
 
 **Exemple**
 
@@ -2370,7 +2361,7 @@ Utilisez la fonction `indexOf` pour renvoyer la position (dans le premier argume
 | Argument | Description |
 | --------- | ----------- |
 | `{STRING_1}` | La chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à rechercher dans le premier paramètre |
+| `{STRING_2}` | La chaîne à rechercher dans le premier paramètre |
 
 **Exemple**
 
@@ -2394,7 +2385,7 @@ Utilisez la fonction `isEmpty` pour déterminer si une chaîne est vide.
 
 **Exemple**
 
-La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone mobile du profil est vide. Sinon, elle renvoie `false`.
+La fonction suivante renvoie « vrai » si le numéro de téléphone mobile du profil est vide. Sinon, elle renvoie `false`.
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
@@ -2414,7 +2405,7 @@ Utilisez la fonction `isNotEmpty` pour déterminer si une chaîne n’est pas vi
 
 **Exemple**
 
-La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone mobile du profil n’est pas vide. Sinon, elle renvoie `false`.
+La fonction suivante renvoie « vrai » si le numéro de téléphone mobile du profil n’est pas vide. Sinon, elle renvoie `false`.
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
@@ -2435,7 +2426,7 @@ Utilisez la fonction `lastIndexOf` pour renvoyer la position (dans le premier ar
 | Argument | Description |
 | --------- | ----------- |
 | `{STRING_1}` | La chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à rechercher dans le premier paramètre |
+| `{STRING_2}` | La chaîne à rechercher dans le premier paramètre |
 
 **Exemple**
 
@@ -2556,7 +2547,7 @@ Utilisez la fonction `mask` pour remplacer une partie d’une chaîne par des ca
 
 **Exemple**
 
-La requête suivante remplace la chaîne « 123456789 » par des caractères « X », à l’exception des deux premiers et derniers caractères.
+La requête suivante remplace la chaîne « 123456789 » par des caractères « X », à l’exception des deux premiers et des deux derniers caractères.
 
 ```sql
 {%= mask("123456789",1,2) %}
@@ -2765,7 +2756,7 @@ Utilisez la fonction `startsWith` pour déterminer si une chaîne commence par u
 | --------- | ----------- |
 | `{STRING_1}` | La chaîne à vérifier. |
 | `{STRING_2}` | La chaîne à rechercher dans la première chaîne. |
-| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Par défaut, elle est définie sur true. |
+| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification respecte la casse. Par défaut, elle est définie sur true. |
 
 **Exemple**
 
@@ -2809,7 +2800,7 @@ Utilisez la fonction `string_to_integer` pour convertir une valeur de chaîne en
 
 ### stringToNumber {#string-to-number}
 
-Utilisez la fonction `stringToNumber` pour convertir une chaîne en nombre. Elle renvoie la même chaîne que la sortie pour une entrée non valide.
+Utilisez la fonction `stringToNumber` pour convertir une chaîne en nombre. Elle renvoie la même chaîne en sortie en cas d’entrée non valide.
 
 +++Syntaxe
 
@@ -2865,7 +2856,7 @@ Utilisez la fonction `toBool` pour convertir une valeur d’argument en valeur b
 
 ### toDateTime {#to-date-time}
 
-Utilisez la fonction `toDateTime` pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
+Utilisez la fonction `toDateTime` pour convertir une chaîne en date. Elle renvoie la date d’époque en sortie en cas d’entrée non valide.
 
 +++Syntaxe
 
@@ -2877,7 +2868,7 @@ Utilisez la fonction `toDateTime` pour convertir une chaîne en date. Elle renvo
 
 ### toDateTimeOnly {#to-date-time-only}
 
-Utilisez la fonction `toDateTimeOnly` pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide. Cette fonction accepte les types de champs chaîne, date, long et entier.
+Utilisez la fonction `toDateTimeOnly` pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date d’époque en sortie en cas d’entrée non valide. Cette fonction accepte les types de champs chaîne, date, long et entier.
 
 +++Syntaxe
 
