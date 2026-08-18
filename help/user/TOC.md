@@ -1,7 +1,7 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 85%
@@ -41,7 +41,7 @@ ht-degree: 85%
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)
@@ -112,7 +112,7 @@ ht-degree: 85%
     + [Collaboration par e-mail](./content/email-collaboration-tools.md)
   + Ressources {#assets}
     + [Vue d’ensemble](./content/assets-overview.md)
-    + [Content Credentials](./content/content-credentials.md)
+    + [Métadonnées C2PA](./content/c2pa-metadata.md)
     + Ressources internes {#internal-dam}
       + [Travailler avec des ressources internes](./content/internal-image-assets.md)
       + [Modifier des images à l’aide d’Adobe Express](./content/image-edit-adobe-express.md)
