@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa687e409812e70b80c366b7c9bb0274a7a179f7
+source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
 workflow-type: tm+mt
-source-wordcount: 5580
+source-wordcount: 5599
 ht-degree: 62%
 
 ---
@@ -40,12 +40,13 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | ---- | ---- | ----------- |
 | Fonctionnalité | Parcours de personne | (Auparavant Beta, déploiement anticipé pour la disponibilité générale) Vous pouvez désormais créer des parcours pour orchestrer le marketing basé sur les prospects à l’aide des audiences et des données Experience Platform. [En savoir plus](../journeys/journeys-overview.md) |
 | Fonctionnalité | Listes de personnes | Des listes de personnes statiques et dynamiques sont désormais disponibles afin que vous puissiez cibler les profils selon vos critères définis, tels que les attributs démographiques et l’historique des événements d’expérience. |
-| Fonctionnalité | _Chemins de division des variantes_ nœuds de parcours | (Anciennement Beta pour les parcours de compte) Les marketeurs peuvent désormais tester les variations au sein d’un parcours de compte ou de personne en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. |
+| Fonctionnalité | _Chemins de division des variantes_ nœuds de parcours | (Anciennement Beta pour les parcours de compte) Les marketeurs peuvent désormais tester les variations au sein d’un parcours de compte ou de personne en attribuant des comptes ou des personnes à différents chemins de parcours en fonction de pourcentages définis. [En savoir plus](../journeys/variant-split-paths-nodes.md) |
 | Amélioration | Parcours de rentrée - parcours de personnes | La prise en charge de la rentrée des parcours est désormais disponible pour les parcours de personnes. |
 | Amélioration | Écoute des déclencheurs d’événement et des filtres - parcours de compte | La prise en charge de plusieurs déclencheurs et filtres dans un nœud _Écouter l’événement_ est désormais disponible pour les parcours de compte. |
 | Amélioration | Nœuds de chemin de partage externes - parcours de personne | La prise en charge des nœuds _Chemins de division externes_ est désormais disponible pour les parcours de personnes. |
 | Amélioration | Nœuds d’action externe - parcours de personne | La prise en charge des nœuds _Action externe_ est désormais disponible pour les parcours de personnes. |
-| Amélioration | Jeux de données de relations AEP | De nouveaux jeux de données relationnels apparaissent désormais dans votre sandbox AEP, aux côtés des jeux de données existants. |
+| Amélioration | Jeux de données relationnels AEP | De nouveaux jeux de données relationnels apparaissent désormais dans votre sandbox AEP, aux côtés des jeux de données existants. |
+| Amélioration | Autorisations de produit - Canal WhatsApp | Les administrateurs de produit peuvent désormais définir les autorisations `Manage B2B WhatsApp Settings` et `Manage B2B WhatsApp Presets` pour les configurations de canal _[!UICONTROL B2B]_. |
 
 >[!NOTE]
 >
