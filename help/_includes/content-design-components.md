@@ -1,10 +1,10 @@
 ---
 title: Création de contenu - Composants
 description: Section réutilisée sur l’utilisation de composants et d’éléments de contenu pour la création de contenu
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 2%
+source-wordcount: '373'
+ht-degree: 1%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 2%
 
    La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Seules les colonnes vides peuvent être supprimées.
 
-   Pour plus d’informations sur l’utilisation et la mise en forme de ces composants, voir _[Composants de structure](../user/content/structure-components.md)_.
+   Pour plus d’informations sur l’utilisation et la mise en forme de ces composants, voir _[Composants de structure](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/structure-components)_.
 
 1. Développez la section **[!UICONTROL Contenu]** et ajoutez autant de composants de contenu que nécessaire dans un ou plusieurs composants de structure.
 
    ![Faites glisser un élément de contenu sur la zone de travail et ajustez les paramètres](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   * [Conteneur](../user/content/content-components.md#container)
-   * [Bouton](../user/content/content-components.md#button)
-   * [Texte](../user/content/content-components.md#text)
-   * [Diviseur](../user/content/content-components.md#divider)
-   * [Image](../user/content/content-components.md#image)
-   * [Social](../user/content/content-components.md#social)
-   * [Formulaire](../user/content/content-components.md#form) (pages de destination uniquement)
+   * [Conteneur](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#container)
+   * [Bouton](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#button)
+   * [Texte](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#text)
+   * [Diviseur](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#divider)
+   * [Image](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#image)
+   * [Social](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#social)
+   * [Formulaire](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#form) (pages de destination uniquement)
 
 1. Si nécessaire, vous pouvez effectuer des personnalisations supplémentaires pour chaque composant dans les onglets _[!UICONTROL Paramètres]_ ou _[!UICONTROL Style]_.
 
@@ -42,4 +42,4 @@ ht-degree: 2%
 
 1. Pour ajouter du contenu conditionnel et adapter le contenu aux profils ciblés en fonction de règles conditionnelles, sélectionnez un composant de contenu et cliquez sur l’icône **[!UICONTROL Activer le contenu conditionnel]** dans la barre d’outils du composant.
 
-   Pour plus d’informations, voir [_Contenu conditionnel_](../user/content/conditional-content.md).
+   Pour plus d’informations, voir [_Contenu conditionnel_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components).

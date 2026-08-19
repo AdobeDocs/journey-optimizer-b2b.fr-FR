@@ -1,17 +1,17 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
 
-# Guide de l’utilisateur Journey Optimizer B2B Ultimate {#user}
+# Guide d’utilisation de Journey Optimizer B2B Edition {#user}
 
-+ [Documentation Adobe Journey Optimizer B2B Ultimate](guide-overview.md)
++ [Documentation d’Adobe Journey Optimizer B2B Edition](guide-overview.md)
 + [Notes de mise à jour](./release-notes/release-notes.md)
 + Commencer {#get-started}
   + [Vue d’ensemble de Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
@@ -41,7 +41,7 @@ ht-degree: 85%
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)

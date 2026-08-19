@@ -1,9 +1,9 @@
 ---
 title: Création de contenu - personnalisation
 description: Section réutilisée sur l’utilisation de la personnalisation pour la création de contenu
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ Journey Optimizer B2B edition utilise une syntaxe simple intégrée qui vous per
 
 Par exemple, vous pouvez ajouter une expression de personnalisation en tant que `Hello {{lead.firstName}} {{lead.lastName}}`. Lors du traitement du contenu, Journey Optimizer B2B edition remplace l’expression par les données contenues dans la base de données Experience Platform. Donc, le premier exemple devient _Bonjour John Doe_.
 
-Consultez [Personnalisation de contenu](../user/content/personalization.md) pour obtenir des informations plus complètes sur l’utilisation des outils de personnalisation dans Journey Optimizer B2B edition.
+Consultez [Personnalisation de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/personalization/personalization) pour obtenir des informations plus complètes sur l’utilisation des outils de personnalisation dans Journey Optimizer B2B edition.
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition suit la syntaxe _casse mixte_ pour les jetons de personnalisation dans les e-mails afin de correspondre aux autres applications Adobe Experience Platform pour une expérience cohérente. Ce format de jeton est entièrement compatible avec le [&#x200B; langage de modèle Handlebars &#x200B;](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Tous les jetons ajoutés avant cette modification sont automatiquement mis à jour.
+>Journey Optimizer B2B edition suit la syntaxe _casse mixte_ pour les jetons de personnalisation dans les e-mails afin de correspondre aux autres applications Adobe Experience Platform pour une expérience cohérente. Ce format de jeton est entièrement compatible avec le [ langage de modèle Handlebars ](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Tous les jetons ajoutés avant cette modification sont automatiquement mis à jour.
 
 L’exemple suivant décrit les étapes de personnalisation du contenu à l’aide de jetons de personne et de système. Il reflète la version actuelle de Journey Optimizer B2B edition.
 
