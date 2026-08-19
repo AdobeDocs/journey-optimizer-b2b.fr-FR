@@ -14,7 +14,7 @@ Journey Optimizer B2B edition utilise une syntaxe simple intégrée qui vous per
 
 Par exemple, vous pouvez ajouter une expression de personnalisation en tant que `Hello {{lead.firstName}} {{lead.lastName}}`. Lors du traitement du contenu, Journey Optimizer B2B edition remplace l’expression par les données contenues dans la base de données Experience Platform. Donc, le premier exemple devient _Bonjour John Doe_.
 
-Consultez [Personnalisation de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/personalization/personalization) pour obtenir des informations plus complètes sur l’utilisation des outils de personnalisation dans Journey Optimizer B2B edition.
+Consultez [Personnalisation de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/content-management/personalization/personalization) pour obtenir des informations plus complètes sur l’utilisation des outils de personnalisation dans Journey Optimizer B2B edition.
 
 >[!NOTE]
 >

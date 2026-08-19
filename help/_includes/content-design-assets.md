@@ -24,4 +24,4 @@ Dans l’éditeur de contenu visuel, sélectionnez l’icône __ ( ![icône Asse
 
   ![Sélectionnez une ressource dans la bibliothèque source](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-Pour plus d’informations sur l’utilisation des ressources de votre type de source, voir [Utilisation des ressources pour la création de contenu](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).
+Pour plus d’informations sur l’utilisation des ressources de votre type de source, voir [Utilisation des ressources pour la création de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).
