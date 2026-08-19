@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2319
 ht-degree: 3%
 
 ---
 
 # Entreprendre une action
 
-Pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score, l’affectation à un groupe d’achats, etc., vous pouvez ajouter un nœud _[!UICONTROL Prendre une action]_ dans votre parcours. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
+Pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score ou l’affectation d’un groupe d’achats, vous pouvez ajouter un nœud _[!UICONTROL Prendre une action]_ dans votre parcours. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
@@ -42,6 +42,7 @@ Dans un parcours de compte, utilisez une action sur les comptes lorsque vous sou
 | [!UICONTROL Activer vers la destination] | Sélectionner une destination |
 | [!UICONTROL Ajouter un compte à un (autre) Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste de comptes statiques actifs |
+| [!UICONTROL Désactiver de la destination] | Sélectionner une audience virtuelle existante<br/>Sélectionner une destination |
 | [!UICONTROL Supprimer un compte du Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
 | [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
@@ -71,13 +72,19 @@ Dans un parcours de compte, utilisez une action sur les comptes lorsque vous sou
 
 >[!BEGINSHADEBOX]
 
-### Activer vers une destination LinkedIn
+### Activer vers une destination ou le désactiver {#activate-deactivate-destination}
 
 Utilisez l’action _Activer vers la destination_ pour activer des comptes vers des destinations Experience Platform directement à partir de votre parcours. Cette action vous permet d’envoyer les comptes qualifiés (en fonction des filtres du groupe d’achats, des scores d’engagement et d’autres critères) dans les audiences correspondantes sur les destinations prises en charge.
 
-À compter de la version 2025.10, **_LinkedIn_** est le premier type de destination pris en charge. Utilisez l’action pour une destination LinkedIn afin de rationaliser l’exécution des campagnes en éliminant les transferts multisystèmes et en réduisant la latence. Par exemple, en tant que spécialiste marketing, vous pouvez activer automatiquement les comptes à forte intention sur LinkedIn à des fins de reciblage lorsque des rôles d’achat clés sont manquants ou réengager des comptes inactifs en fonction de filtres d’inactivité.
+Vous pouvez associer cette action à l’action _Désactiver à partir de la destination_ plus tard dans le même parcours pour arrêter le ciblage des comptes après leur conversion ou leur non-qualification.
 
-Pour plus d’informations sur l’utilisation des audiences avec correspondance de compte pour une destination LinkedIn, voir [Audiences avec correspondance de compte LinkedIn](../data/linkedin-account-matched-audiences.md).
+>[!NOTE]
+>
+>À compter de la version 2025.10, **_LinkedIn_** est le premier type de destination pris en charge. Utilisez l’action pour une destination LinkedIn afin de rationaliser l’exécution des campagnes en éliminant les transferts multisystèmes et en réduisant la latence. Par exemple, en tant que spécialiste marketing, vous pouvez activer automatiquement les comptes à forte intention sur LinkedIn à des fins de reciblage lorsque des rôles d’achat clés sont manquants ou réengager des comptes inactifs en fonction de filtres d’inactivité.
+>
+>Pour plus d’informations sur l’utilisation des audiences avec correspondance de compte pour une destination LinkedIn, voir [Audiences avec correspondance de compte LinkedIn](../data/linkedin-account-matched-audiences.md).
+
+_Pour ajouter un nœud Activer au nœud de destination :_
 
 1. Avec le nœud _Prendre une action_ sélectionné dans la zone de travail du parcours, définissez **[!UICONTROL Action sur les comptes]** sur **[!UICONTROL Activer vers la destination]**.
 
@@ -93,11 +100,23 @@ Pour plus d’informations sur l’utilisation des audiences avec correspondance
 
    ![nœud de Parcours - agir sur les comptes - activer vers la destination - paramètres terminés](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+_Pour ajouter un nœud Désactiver à partir de la destination :_
+
+1. Avec le nœud _Prendre une action_ sélectionné dans la zone de travail du parcours, définissez **[!UICONTROL Action sur les comptes]** sur **[!UICONTROL Désactiver à partir de la destination]**.
+
+   ![nœud de Parcours - agir sur les comptes - désactiver dans le menu destination](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. Sous **[!UICONTROL Audience virtuelle]**, cliquez sur **[!UICONTROL Sélectionner une audience virtuelle existante]** et choisissez l’audience virtuelle dont vous souhaitez supprimer les comptes de la destination.
+
+1. Sous **[!UICONTROL Désactiver à partir de la destination]**, cliquez sur **[!UICONTROL Sélectionner la destination]** et choisissez la destination depuis laquelle supprimer des comptes.
+
+   Une fois que vous avez configuré le nœud _Désactiver à partir de la destination_, il affiche l’audience virtuelle et la destination sélectionnées.
+
 >[!ENDSHADEBOX]
 
 ## Actions de personne {#people-actions}
 
-Dans un parcours de compte ou de personne, utilisez une action sur les personnes lorsque vous souhaitez appliquer une modification à toutes les personnes sur le chemin de nœud. Pour un parcours de compte, vous pouvez utiliser ce type de nœud dans le _chemin de partage par personnes_ ou _chemin de partage par comptes_.
+Dans un parcours de compte ou de personne, utilisez une action sur les personnes lorsque vous souhaitez appliquer une modification à toutes les personnes sur le chemin de nœud. Pour un parcours de compte, vous pouvez utiliser ce type de nœud dans les nœuds _Partage du chemin par personnes_ ou _Partage du chemin par comptes_.
 
 ### Actions et contraintes {#people-action-constraints}
 
@@ -295,7 +314,7 @@ Utilisez cette action pour modifier la valeur d’un [attribut de profil de pers
 
 ### Actions de Marketo Engage
 
-Les actions basées sur les personnes de Marketo Engage sont conçues pour coordonner votre orchestration marketing basée sur les comptes dans Journey Optimizer B2B edition avec vos efforts marketing basés sur les prospects dans Marketo Engage. Utilisez ces actions pour orchestrer l’appartenance à une liste et demander des campagnes.
+Les actions basées sur les personnes [!DNL Marketo Engage] sont conçues pour coordonner votre orchestration Account-Based Marketing en [!DNL Journey Optimizer B2B Edition] avec vos efforts marketing basés sur les prospects dans Marketo Engage. Utilisez ces actions pour orchestrer l’appartenance à une liste et demander des campagnes.
 
 >[!NOTE]
 >
