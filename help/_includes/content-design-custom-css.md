@@ -1,9 +1,9 @@
 ---
 title: Création de contenu - CSS personnalisé
 description: Section réutilisée à propos de l’utilisation de CSS personnalisé pour la création de contenu
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. Saisissez votre code CSS dans l’éditeur.
 
-   Assurez-vous que le code CSS personnalisé est valide et suit la syntaxe appropriée. Si la page CSS saisie n’est pas valide, un message d’erreur s’affiche et la page CSS ne peut pas être enregistrée. Pour en savoir plus, voir [Validité CSS](../user/content/design-custom-css.md#css-validity).
+   Assurez-vous que le code CSS personnalisé est valide et suit la syntaxe appropriée. Si la page CSS saisie n’est pas valide, un message d’erreur s’affiche et la page CSS ne peut pas être enregistrée. Pour en savoir plus, voir [Validité CSS](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le fichier CSS personnalisé.
 
-   La feuille de style personnalisée est appliquée au contenu existant. Vous pouvez vérifier que votre CSS personnalisé est appliqué en fonction de vos besoins. Pour plus d&#39;informations sur la façon d&#39;apporter des modifications et d&#39;ajuster l&#39;application de la feuille de style, voir [Dépannage](../user/content/design-custom-css.md#troubleshooting).
+   La feuille de style personnalisée est appliquée au contenu existant. Vous pouvez vérifier que votre CSS personnalisé est appliqué en fonction de vos besoins. Pour plus d&#39;informations sur la façon d&#39;apporter des modifications et d&#39;ajuster l&#39;application de la feuille de style, voir [Dépannage](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting).
 
 >[!NOTE]
 >

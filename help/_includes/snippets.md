@@ -1,9 +1,9 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2430'
 ht-degree: 5%
 
 ---
@@ -231,7 +231,7 @@ Plusieurs outils sont disponibles pour vous aider à localiser la ressource dont
 
 ## Contenu - sélection d’images - AEM Assets {#aem-assets-dam}
 
-Choisissez ce type pour parcourir et sélectionner une ressource image dans un référentiel [Experience Manager Assets configuré](../user/admin/configure-aem-repositories.md).
+Choisissez ce type pour parcourir et sélectionner une ressource image dans un référentiel [Experience Manager Assets configuré](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
 
 Dans la boîte de dialogue _[!UICONTROL Sélectionner Assets]_, choisissez une image à l’aide des outils disponibles pour localiser la ressource dont vous avez besoin, puis cliquez sur **[!UICONTROL Sélectionner]**. :
 

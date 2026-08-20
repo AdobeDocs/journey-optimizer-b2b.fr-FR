@@ -1,9 +1,9 @@
 ---
 title: Création de contenu - personnalisation
 description: Section réutilisée sur l’utilisation de la personnalisation pour la création de contenu
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ Journey Optimizer B2B edition utilise une syntaxe simple intégrée qui vous per
 
 Par exemple, vous pouvez ajouter une expression de personnalisation en tant que `Hello {{lead.firstName}} {{lead.lastName}}`. Lors du traitement du contenu, Journey Optimizer B2B edition remplace l’expression par les données contenues dans la base de données Experience Platform. Donc, le premier exemple devient _Bonjour John Doe_.
 
-Consultez [Personnalisation de contenu](../user/content/personalization.md) pour obtenir des informations plus complètes sur l’utilisation des outils de personnalisation dans Journey Optimizer B2B edition.
+Consultez [Personnalisation de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/content-management/personalization/personalization) pour obtenir des informations plus complètes sur l’utilisation des outils de personnalisation dans Journey Optimizer B2B edition.
 
 >[!NOTE]
 >
