@@ -7,35 +7,28 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 970
+source-wordcount: 954
 ht-degree: 2%
 
 ---
 
-# Utilisation de l’assistant AI dans Journey Optimizer B2B edition
+# Utiliser l’interface de conversation
 
-Dans Journey Optimizer B2B edition, l’assistant d’IA est une fonctionnalité d’interface utilisateur que vous pouvez utiliser pour comprendre les concepts de produit, parcourir rapidement les fonctionnalités de produit et en apprendre plus, ainsi qu’obtenir des informations opérationnelles sur votre environnement. Il est également disponible dans plusieurs produits dans Adobe Experience Cloud.
+Dans Journey Optimizer B2B edition, l’assistant AI fournit une interface de conversation que vous pouvez utiliser pour comprendre les concepts de produit, naviguer rapidement et en savoir plus sur les fonctionnalités du produit, ainsi qu’obtenir des informations opérationnelles sur votre environnement. Il est également disponible dans plusieurs produits dans Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Un accord concernant les directives d’utilisation de l’IA générative d’Adobe Experience Cloud est requis avant de pouvoir utiliser l’assistant d’IA. Pour plus d’informations sur ce contrat et les directives d’utilisation, consultez les [Directives d’utilisation d’Adobe Experience Cloud Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Un accord concernant les directives d’utilisation de l’IA générative d’Adobe Experience Cloud est requis avant de pouvoir utiliser l’assistant d’IA. Pour plus d’informations sur ce contrat et les directives d’utilisation, consultez les [Directives d’utilisation d’Adobe Experience Cloud Generative AI](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-Pour accéder à l’assistant AI, cliquez sur l’icône dans l’en-tête. L’assistant d’IA s’ouvre dans un panneau à droite.
+Pour accéder à l’interface de conversation, cliquez sur l’icône dans l’en-tête.
 
 ![Cliquez sur l’icône pour accéder à l’assistant AI](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -67,10 +60,10 @@ Pour poser une question sur un produit, saisissez-la dans le champ en bas du pan
 
 ## Poser des questions sur les informations opérationnelles
 
-Les questions sur les informations opérationnelles concernent les objets de parcours dans le sandbox de votre entreprise. Vous pouvez poser des questions sur les artefacts opérationnels, tels que les audiences de compte, les parcours, les centres d’intérêt des solutions et les modèles de groupes d’achat. Voici quelques exemples de questions ou d’invites d’informations opérationnelles :
+Les questions sur les informations opérationnelles concernent les objets de parcours dans le sandbox de votre entreprise. Vous pouvez poser des questions sur les artefacts opérationnels, tels que les audiences, les parcours, les centres d’intérêt des solutions et les modèles de groupes d’achat. Voici quelques exemples de questions ou d’invites d’informations opérationnelles :
 
 * Combien de parcours en direct ai-je dans Adobe Journey Optimizer B2B edition ?
-* Écris-moi une liste de tous les parcours planifiés.
+* Donne-moi la liste de tous les parcours planifiés.
 * Combien de parcours ont été créés au cours des 7 derniers jours ?
 
 Assurez-vous que vous êtes dans un sandbox actif pour que l’assistant AI puisse fournir une réponse suffisante à une question sur vos informations opérationnelles.
@@ -81,7 +74,7 @@ Assurez-vous que vous êtes dans un sandbox actif pour que l’assistant AI puis
 
 Pour poser une question sur les informations opérationnelles, saisissez-la dans le champ au bas du panneau et appuyez sur Entrée. Par exemple, lorsque vous souhaitez en savoir plus sur les audiences de votre sandbox. Dans ce cas, vous saisissez _Combien y a-t-il d’audiences ?_.  L’assistant AI fournit un nombre d’audiences dans votre sandbox et une explication de la manière dont il a calculé la réponse. Dans l’exemple de réponse suivant, l’assistant AI fournit un lien pour accéder aux audiences dans l’interface utilisateur et décrit les étapes effectuées pour identifier le nombre d’audiences.
 
-![Réponse de l’assistant AI pour combien d’audiences &#x200B;](./assets/ai-assistant-insights-answer.png){width="420"}
+![Réponse de l’assistant AI pour combien d’audiences ](./assets/ai-assistant-insights-answer.png){width="420"}
 
 Vous pouvez suivre votre recherche initiale en demandant une liste d’artefacts, telle que _Liste des 5 premiers par taille_. L’assistant AI renvoie une table avec les cinq premiers éléments de la requête et leurs identifiants correspondants. Cliquez sur l’icône _Télécharger_ ( ![icône Télécharger](../assets/do-not-localize/icon-download.svg) ) pour télécharger le tableau au format CSV.
 
@@ -93,7 +86,7 @@ Pour afficher le tableau entier dans l’assistant AI, cliquez sur l’icône _M
 
 ## Vérifier les réponses
 
-L’assistant AI comprend des outils que vous pouvez utiliser pour vérifier et valider les réponses.
+L’interface de conversation comprend des outils que vous pouvez utiliser pour vérifier et valider les réponses.
 
 ### Sources de connaissance des produits
 

@@ -1,22 +1,16 @@
 ---
 title: Interface de conversation
 description: Utilisez le panneau de conversation de l’assistant AI dans Journey Optimizer B2B Prime pour créer des programmes, des parcours et des listes à l’aide du langage naturel ou du menu barre oblique (/).
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version Beta limitée."
 autotag-review: '2026-06-12T22:46:23.441Z'
 TQID: 'https://experienceleague.adobe.com/XyBLmqv63kNBcw-Jo4hKvUKIn2la7kac7-kTbNEU5aE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a30218bb-f80a-4410-8ac4-b039e99a15b4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: 955
 ht-degree: 1%
 
 ---
@@ -38,6 +32,16 @@ Au bas du panneau se trouve la boîte de message dans laquelle vous pouvez :
 
 * Ajoutez un message et appuyez sur **Entrée** pour l’envoyer (**Maj+Entrée** insère une nouvelle ligne).
 * Joignez un fichier à l’aide de l’icône _Joindre_ (formats pris en charge : `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Utilisez les chargements de feuilles de calcul et de fichiers CSV pour démarrer une importation de prospect.
+
+>[!BEGINSHADEBOX]
+
+## Qualificateur de vente
+
+Sales Qualifier est une application gérée par l’IA que vous pouvez utiliser avec Journey Optimizer B2B Prime. Il met en œuvre Account Qualification Agent et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). Sales Qualifier automatise les workflows de qualification, de sensibilisation et d’engagement des acheteurs des prospects sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
+
+Pour plus d&#39;informations, consultez la documentation de [](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Assistant Demander l’IA
 
