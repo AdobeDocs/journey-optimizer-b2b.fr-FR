@@ -20,22 +20,22 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 970
+source-wordcount: 954
 ht-degree: 2%
 
 ---
 
-# Utilisation de l’assistant AI dans Journey Optimizer B2B edition
+# Utiliser l’interface de conversation
 
-Dans Journey Optimizer B2B edition, l’assistant d’IA est une fonctionnalité d’interface utilisateur que vous pouvez utiliser pour comprendre les concepts de produit, parcourir rapidement les fonctionnalités de produit et en apprendre plus, ainsi qu’obtenir des informations opérationnelles sur votre environnement. Il est également disponible dans plusieurs produits dans Adobe Experience Cloud.
+Dans Journey Optimizer B2B edition, l’assistant AI fournit une interface de conversation que vous pouvez utiliser pour comprendre les concepts de produit, naviguer rapidement et en savoir plus sur les fonctionnalités du produit, ainsi qu’obtenir des informations opérationnelles sur votre environnement. Il est également disponible dans plusieurs produits dans Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Un accord concernant les directives d’utilisation de l’IA générative d’Adobe Experience Cloud est requis avant de pouvoir utiliser l’assistant d’IA. Pour plus d’informations sur ce contrat et les directives d’utilisation, consultez les [Directives d’utilisation d’Adobe Experience Cloud Generative AI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Un accord concernant les directives d’utilisation de l’IA générative d’Adobe Experience Cloud est requis avant de pouvoir utiliser l’assistant d’IA. Pour plus d’informations sur ce contrat et les directives d’utilisation, consultez les [Directives d’utilisation d’Adobe Experience Cloud Generative AI](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-Pour accéder à l’assistant AI, cliquez sur l’icône dans l’en-tête. L’assistant d’IA s’ouvre dans un panneau à droite.
+Pour accéder à l’interface de conversation, cliquez sur l’icône dans l’en-tête.
 
 ![Cliquez sur l’icône pour accéder à l’assistant AI](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -67,10 +67,10 @@ Pour poser une question sur un produit, saisissez-la dans le champ en bas du pan
 
 ## Poser des questions sur les informations opérationnelles
 
-Les questions sur les informations opérationnelles concernent les objets de parcours dans le sandbox de votre entreprise. Vous pouvez poser des questions sur les artefacts opérationnels, tels que les audiences de compte, les parcours, les centres d’intérêt des solutions et les modèles de groupes d’achat. Voici quelques exemples de questions ou d’invites d’informations opérationnelles :
+Les questions sur les informations opérationnelles concernent les objets de parcours dans le sandbox de votre entreprise. Vous pouvez poser des questions sur les artefacts opérationnels, tels que les audiences, les parcours, les centres d’intérêt des solutions et les modèles de groupes d’achat. Voici quelques exemples de questions ou d’invites d’informations opérationnelles :
 
 * Combien de parcours en direct ai-je dans Adobe Journey Optimizer B2B edition ?
-* Écris-moi une liste de tous les parcours planifiés.
+* Donne-moi la liste de tous les parcours planifiés.
 * Combien de parcours ont été créés au cours des 7 derniers jours ?
 
 Assurez-vous que vous êtes dans un sandbox actif pour que l’assistant AI puisse fournir une réponse suffisante à une question sur vos informations opérationnelles.
@@ -93,7 +93,7 @@ Pour afficher le tableau entier dans l’assistant AI, cliquez sur l’icône _M
 
 ## Vérifier les réponses
 
-L’assistant AI comprend des outils que vous pouvez utiliser pour vérifier et valider les réponses.
+L’interface de conversation comprend des outils que vous pouvez utiliser pour vérifier et valider les réponses.
 
 ### Sources de connaissance des produits
 

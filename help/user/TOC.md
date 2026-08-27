@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
+source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 87%
+source-wordcount: '458'
+ht-degree: 86%
 
 ---
 
@@ -27,16 +27,15 @@ ht-degree: 87%
     + [Gestion des utilisateurs et utilisatrices](./admin/user-management.md)
   + [Intégration des utilisateurs](./start/get-started.md)
   + [Connexion et page d’accueil](home-page.md)
-+ Assistant IA {#ai-assistant}
++ Fonctionnalités d’IA {#ai-assistant}
   + [Vue d’ensemble](./ai-assistant/ai-assistant-overview.md)
   + [Activer l’accès à l’assistant IA](./ai-assistant/enable-ai-assistant-access.md)
   + [Conseils sur les questions](./ai-assistant/question-guidance.md)
-  + [Utiliser l’assistant IA](./ai-assistant/use-ai-assistant.md)
+  + [Interface de conversation](./ai-assistant/use-ai-assistant.md)
   + [IA générative pour le contenu](./ai-assistant/generative-ai-content.md)
   + Agents {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
-    + [Qualificateur de vente](./agents/sales-qualifier.md)
 + Gestion des parcours {#journeys}
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
