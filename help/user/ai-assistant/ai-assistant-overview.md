@@ -50,7 +50,7 @@ L’interface de chat de Adobe Journey Optimizer B2B edition est alimentée par 
 
 Sales Qualifier est une application gérée par l’IA que vous pouvez utiliser avec Journey Optimizer B2B edition. Il met en œuvre Account Qualification Agent et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). Sales Qualifier automatise les workflows de qualification, de sensibilisation et d’engagement des acheteurs des prospects sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
 
-Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -118,7 +118,7 @@ L’assistant AI dans Journey Optimizer B2B edition donne la priorité à la con
 
 * Vous devez disposer d’autorisations explicites pour interagir avec l’assistant AI.
 
-  * Un administrateur peut définir des autorisations à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} et de [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+  * Un administrateur peut définir des autorisations à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} et de [Admin Console](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
   * Les autorisations sont granulaires et votre administrateur de sandbox peut configurer les utilisateurs autorisés à poser différentes catégories de questions (questions basées sur les connaissances du produit avec l’assistant AI ou questions sur les informations opérationnelles).
 
