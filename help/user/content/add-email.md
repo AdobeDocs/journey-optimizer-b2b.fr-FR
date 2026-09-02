@@ -1,108 +1,76 @@
 ---
 title: Ajouter un e-mail à votre Parcours
-description: 'Ajouter des nœuds d’action e-mail aux parcours de compte : créez des e-mails ou utilisez les e-mails Marketo Engage existants pour les communications ciblées dans Journey Optimizer B2B edition.'
+description: Pour un nœud d’action Envoyer un e-mail dans un parcours, créez des e-mails ou dupliquez des e-mails existants à utiliser pour les communications ciblées dans Journey Optimizer B2B edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1399
+source-wordcount: 1042
 ht-degree: 0%
 
 ---
 
 # Ajouter un e-mail à votre parcours
 
-Utilisez Adobe Journey Optimizer B2B edition pour envoyer des e-mails à vos clients par le biais de parcours de compte. Vous pouvez choisir de créer, de personnaliser et de prévisualiser des messages dans l’espace de conception d’e-mail. Vous pouvez également choisir d’envoyer un e-mail déjà défini dans l’instance Marketo Engage connectée. Une fois que les e-mails sont en ligne dans parcours, surveillez l’envoi, la diffusion et l’engagement dans le rapport [&#x200B; Performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
+Utilisez Adobe Journey Optimizer B2B edition pour envoyer des e-mails à vos clients par le biais de parcours de compte. Vous pouvez choisir de créer, de personnaliser et de prévisualiser des messages dans l’espace de conception d’e-mail. Une fois que les e-mails sont en ligne dans parcours, surveillez l’envoi, la diffusion et l’engagement dans le rapport [ Performances des e-mails ](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >
->Si vous envoyez un e-mail pour la première fois, assurez-vous que le canal e-mail est configuré depuis Adobe Marketo Engage. Pour en savoir plus, voir [Protocoles de tracking et de diffusion e-mail](../start/email-protocols.md).
+>Si vous envoyez un e-mail pour la première fois, assurez-vous que le canal e-mail est configuré. Pour en savoir plus, voir [Protocoles de tracking et de diffusion e-mail](../start/email-protocols.md).
 >
->Pour plus d’informations sur l’évaluation des préférences de consentement des e-mails au moment de la diffusion, voir [&#x200B; Préférences de consentement &#x200B;](./channels-consent-preferences.md).
+>Pour plus d’informations sur l’évaluation des préférences de consentement des e-mails au moment de la diffusion, voir [ Préférences de consentement ](./channels-consent-preferences.md).
 
-## Ajout d’un nœud d’action d’e-mail dans un parcours
+## Ajouter un nœud d’action d’envoi d’e-mail {#send-email-node}
 
-Vous pouvez configurer des diffusions e-mail dans un parcours lorsque vous [ajoutez un nœud _[!UICONTROL Prendre une action]_ &#x200B;](../journeys/action-nodes.md) et que vous effectuez les opérations suivantes :
+Vous pouvez configurer des diffusions e-mail dans un parcours lorsque vous [ajoutez un nœud _[!UICONTROL Prendre une action]_ ](../journeys/action-nodes.md) et que vous effectuez les opérations suivantes :
 
-1. Pour la cible _[!UICONTROL Action sur]_, choisissez **[!UICONTROL Personnes]**.
+1. _(parcours de compte uniquement)_ Pour la cible _[!UICONTROL Action sur]_, choisissez **[!UICONTROL Personnes]**.
 
-1. Pour l’_[!UICONTROL Action sur les personnes]_, choisissez **[!UICONTROL Envoyer un e-mail]**.
+1. Pour l’action, choisissez **[!UICONTROL Envoyer un e-mail]**.
 
-1. Pour l’option _[!UICONTROL Source de l’e-mail]_, choisissez la manière dont vous souhaitez générer l’e-mail à envoyer.
+1. Cliquez sur **[!UICONTROL Créer un e-mail]**.
 
-   ![Agir - Envoyer un e-mail](assets/journey-node-send-email.png){width="700" zoomable="yes"}
+   ![Agir - Envoyer un e-mail](assets/journey-node-send-email.png){width="500"}
 
-   * Choisissez **[!UICONTROL Créer un e-mail]** pour créer l’e-mail en mode natif dans Journey Optimizer B2B edition.
+1. Dans la boîte de dialogue _Créer un e-mail_, choisissez de créer une ressource de contenu d’e-mail ou de dupliquer une ressource de contenu d’e-mail existante.
 
-     Cette option permet de gérer le contenu de l’e-mail de manière native dans Journey Optimizer B2B edition. Cliquez sur **[!UICONTROL Créer un e-mail]** pour ouvrir la boîte de dialogue _Créer un e-mail_. Vous pouvez créer une ressource de contenu d’e-mail ou dupliquer une ressource de contenu d’e-mail existante.
+   * Choisissez l’option **[!UICONTROL Nouvel e-mail]** lorsque vous souhaitez créer un e-mail à l’aide d’une zone de travail vide ou d’un modèle d’e-mail.
 
-     +++Nouvel e-mail
+     ![Boîte de dialogue Créer un e-mail - Nouvel e-mail](assets/create-new-email.png){width="400"}
 
-     Lorsque vous souhaitez créer un e-mail à l’aide d’une zone de travail vide ou d’un modèle d’e-mail, utilisez l’option _[!UICONTROL Nouvel e-mail]_.
+     * Saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
 
-     1. Dans la boîte de dialogue, choisissez **[!UICONTROL Nouvel e-mail]**.
+     * Cliquez sur **[!UICONTROL Créer]**.
 
-     1. Saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
+   * Choisissez l’option **[!UICONTROL Dupliquer l’e-mail existant]** lorsque vous souhaitez créer un e-mail à partir d’un e-mail existant du parcours actuel ou d’un autre parcours.
 
-        ![Boîte de dialogue Créer un e-mail - Nouvel e-mail](assets/create-new-email.png){width="400"}
+     Vous pouvez apporter des modifications à l’e-mail dupliqué en fonction de votre objectif pour le nœud de parcours.
 
-     1. Cliquez sur **[!UICONTROL Créer]**.
+     * Pour **[!UICONTROL E-mail existant à dupliquer]**, cliquez sur l’icône _Sélection_ ( ![Icône de sélection](../assets/do-not-localize/icon-email-select.svg) ) et sélectionnez l’e-mail à dupliquer et à utiliser pour le nœud de parcours.
 
-        Dans la section _[!UICONTROL Propriétés de l’e-mail]_ de la page de contenu de l’e-mail, les champs _[!UICONTROL De l’e-mail]_ et _[!UICONTROL Répondre à l’adresse]_ sont déjà configurés. Vous pouvez saisir des valeurs pour les champs _[!UICONTROL Nom de l’expéditeur]_ et _[!UICONTROL Description]_ (facultatif).
+       Vous pouvez filtrer la liste des e-mails en saisissant une chaîne de texte dans le champ de recherche pour correspondre au nom de l’e-mail. Cochez la case de l’e-mail à dupliquer et cliquez sur **[!UICONTROL Sélectionner]**.
 
-     1. Cliquez sur **[!UICONTROL Modifier l’e-mail]** pour définir les [paramètres](#define-the-email-settings) de l’e-mail et concevoir le [contenu](./email-authoring.md).
+       ![Sélectionner un e-mail](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-     +++
+     * Saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
 
-     +++Dupliquer l’e-mail existant
+       ![Boîte de dialogue Créer un e-mail - Dupliquer l’e-mail existant](assets/create-new-email-duplicate.png){width="400"}
 
-     Lorsque vous souhaitez créer un e-mail à partir d’un e-mail existant du parcours actuel ou d’un autre parcours, utilisez l’option _[!UICONTROL Dupliquer l’e-mail existant]_. Vous pouvez apporter des modifications à l’e-mail dupliqué en fonction de votre objectif pour le nœud de parcours.
+     * Cliquez sur **[!UICONTROL Créer]**.
 
-     1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, choisissez **[!UICONTROL Dupliquer l’e-mail existant]**.
+1. Cliquez sur **[!UICONTROL Modifier l’e-mail]** pour définir l’e-mail [paramètres](#email-settings) et [contenu](./email-authoring.md).
 
-     1. Pour **[!UICONTROL E-mail existant à dupliquer]**, cliquez sur l’icône _Sélection_ ( ![Icône de sélection](../assets/do-not-localize/icon-email-select.svg) ) et sélectionnez l’e-mail à dupliquer et à utiliser pour le nœud de parcours.
+   ![Nœud de parcours Envoyer un e-mail - Modifier l’e-mail](assets/journey-node-send-email-edit-email.png){width="500"}
 
-        Vous pouvez filtrer la liste des e-mails en saisissant une chaîne de texte dans le champ de recherche pour correspondre au nom de l’e-mail.
-
-        ![Sélectionner un e-mail](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
-
-        Cochez la case de l’e-mail à dupliquer et cliquez sur **[!UICONTROL Sélectionner]**.
-
-     1. Saisissez un **[!UICONTROL Nom]** unique pour l’e-mail et un **[!UICONTROL Objet]**.
-
-        ![Boîte de dialogue Créer un e-mail - Dupliquer l’e-mail existant](assets/create-new-email-duplicate.png){width="400"}
-
-     1. Cliquez sur **[!UICONTROL Créer]**.
-
-        Dans la section _[!UICONTROL Propriétés de l’e-mail]_ de la page de contenu de l’e-mail, les champs _[!UICONTROL De l’e-mail]_ et _[!UICONTROL Répondre à l’adresse]_ sont déjà configurés. Vous pouvez saisir des valeurs pour les champs _[!UICONTROL Nom de l’expéditeur]_ et _[!UICONTROL Description]_ (facultatif).
-
-     1. Si nécessaire, cliquez sur **[!UICONTROL Modifier l’e-mail]** pour modifier les e-mails [paramètres](#define-the-email-settings) et [contenu](./email-authoring.md).
-
-     +++
-
-   * Choisissez **[!UICONTROL Sélectionner un e-mail dans Adobe Marketo Engage]** pour utiliser l’un des e-mails précréés dans Marketo Engage et l’envoyer dans le cadre du parcours.
-
-     Si plusieurs espaces de travail sont disponibles dans l’instance Marketo Engage connectée, sélectionnez l’espace de travail. Sélectionnez ensuite l’e-mail approuvé que vous souhaitez envoyer pour le nœud de parcours.
-
-     ![Sélectionner l’e-mail Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
-
-     Avec cette option, le nœud est défini et le contenu de l’e-mail n’a pas besoin d’être défini davantage dans le parcours.
-
-## Définition des paramètres d’e-mail
+## Définition des paramètres d’e-mail {#email-settings}
 
 Une fois l’onglet **[!UICONTROL Détails]** sélectionné dans le panneau _Résumé_ à droite, faites défiler l’écran vers le bas pour afficher et définir les paramètres de l’e-mail.
 
@@ -111,24 +79,28 @@ Une fois l’onglet **[!UICONTROL Détails]** sélectionné dans le panneau _Ré
 | Option | Description |
 | ------ | ----------- |
 | [!UICONTROL À partir du nom] | Nom de l’expéditeur utilisé dans l’en-tête de l’e-mail. Saisissez le nom de l’expéditeur tel que vous souhaitez qu’il apparaisse au destinataire. Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
-| [!UICONTROL E-mail de l’expéditeur] | Adresse expéditeur utilisée dans l’en-tête de l’e-mail. La valeur par défaut est renseignée à partir des [&#x200B; paramètres de diffusion du canal e-mail &#x200B;](../admin/configure-channels-emails.md#delivery-settings). Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
-| [!UICONTROL &#x200B; Adresse de réponse &#x200B;] | Adresse expéditeur utilisée dans l’en-tête de l’e-mail. La valeur par défaut est renseignée à partir des [paramètres de diffusion du canal e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL libellé de l’expéditeur]). Saisissez l’adresse e-mail à renseigner si le destinataire utilise la fonction de réponse (il peut s’agir d’une adresse différente ou identique à l’adresse expéditeur). Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
+| [!UICONTROL E-mail de l’expéditeur] | Adresse expéditeur utilisée dans l’en-tête de l’e-mail. La valeur par défaut est renseignée à partir des [ paramètres de diffusion du canal e-mail ](../admin/configure-channels-emails.md#delivery-settings). Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
+| [!UICONTROL  Adresse de réponse ] | Adresse expéditeur utilisée dans l’en-tête de l’e-mail. La valeur par défaut est renseignée à partir des [paramètres de diffusion du canal e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL libellé de l’expéditeur]). Saisissez l’adresse e-mail à renseigner si le destinataire utilise la fonction de réponse (il peut s’agir d’une adresse différente ou identique à l’adresse expéditeur). Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ. |
 | [!UICONTROL Objet] | Texte affiché dans le champ Objet de l’e-mail. La valeur par défaut est renseignée à partir du texte que vous avez saisi dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_. Vous pouvez modifier le texte si nécessaire. Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation dans le champ.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
-| [!UICONTROL Domaine de branding] | Si plusieurs domaines de branding [&#x200B; sont définis dans le système](../admin/configure-channels-emails.md#branding-domains) sélectionnez le domaine de branding à utiliser pour envoyer l’e-mail. Utilisez un domaine de marque spécifique pour envoyer des e-mails qui semblent provenir de votre marque plutôt que de la société dans son ensemble. Il établit la confiance avec la marque, personnalise l’expérience par e-mail et augmente les taux d’ouverture et de réponse. |
-| [!UICONTROL Adresse IP dédiée] | Si plusieurs adresses IP dédiées sont définies, sélectionnez une adresse IP dédiée à utiliser pour l’envoi de l’e-mail. Lorsque vous utilisez une adresse IP dédiée spécifique pour vos programmes, vous pouvez suivre et surveiller plus étroitement la délivrabilité et répondre rapidement à toute modification de vos mesures de diffusion. Pour plus d’informations sur l’ajout d’une adresse IP dédiée pour l’instance Marketo Engage connectée, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
-| [!UICONTROL &#x200B; E-mail opérationnel &#x200B;] | Cochez la case si vous souhaitez désigner l’e-mail comme opérationnel. Les e-mails opérationnels sont exclus des listes de désinscription et des limites de communication. Sélectionnez cette option uniquement lorsque le destinataire ne peut pas considérer l’e-mail comme un message commercial non sollicité (SPAM). |
+| [!UICONTROL Domaine de branding] | Si plusieurs domaines de branding [ sont définis dans le système](../admin/configure-channels-emails.md#branding-domains) sélectionnez le domaine de branding à utiliser pour envoyer l’e-mail. Utilisez un domaine de marque spécifique pour envoyer des e-mails qui semblent provenir de votre marque plutôt que de la société dans son ensemble. Il établit la confiance avec la marque, personnalise l’expérience par e-mail et augmente les taux d’ouverture et de réponse. |
+| [!UICONTROL  E-mail opérationnel ] | Cochez la case si vous souhaitez désigner l’e-mail comme opérationnel. Les e-mails opérationnels sont exclus des listes de désinscription et des limites de communication. Sélectionnez cette option uniquement lorsque le destinataire ne peut pas considérer l’e-mail comme un message commercial non sollicité (SPAM). |
 | [!UICONTROL Inclure l’affichage en tant que page web] | Cochez la case pour inclure un lien vers une page web générée à partir du contenu de l’e-mail. Les e-mails disposent de fonctionnalités plus limitées que les pages web. Ils sont donc utiles pour JavaScript, les feuilles CSS étendues et les formulaires. Le texte utilisé pour générer le lien est configuré dans les [paramètres de diffusion du canal e-mail](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Afficher en tant qu&#39;HTML de page web] et [!UICONTROL Afficher en tant que texte de page web]). |
 | [!UICONTROL Désactiver le suivi des ouvertures] | Cochez la case lorsque vous ne souhaitez pas suivre l’activité d’ouverture des e-mails. Lorsque la fonction est désactivée, le nombre d’activités d’ouverture d’e-mail est incrémenté uniquement lorsqu’une personne unique ouvre l’e-mail. Vous pouvez [gérer le suivi des liens de contenu d’e-mail](./email-authoring.md#edit-linked-url-tracking) lorsque vous concevez le contenu du corps de l’e-mail. |
 | [!UICONTROL Preheader] | Cochez la case pour inclure un pré-titre. Un pré-titre est le texte de résumé court affiché après la ligne d&#39;objet dans certains clients de messagerie. Il fournit généralement un bref résumé de l’e-mail et se compose généralement d’une seule phrase. Saisissez le texte récapitulatif dans le champ<!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
-| [!UICONTROL Champs utilisés comme adresses CC] | Le cas échéant, sélectionnez jusqu’à 25 champs Lead ou Société configurés dans Marketo Engage à l’aide du type de `Email`. |
 
-## Vérifier les alertes
+<!-- 
+Removed, but may reappear elsewhere
+| [!UICONTROL Dedicated IP] | If you have more than one dedicated IP addresses defined, select a dedicated IP address to use for sending the email. When you use a specific dedicated IP for your programs, you can track and monitor deliverability more closely and respond quickly to any changes in your delivery metrics. For more information about adding a dedicated IP for the connected Marketo Engage instance, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}.|
+| [!UICONTROL Fields used as CC addresses] | If available, select up to 25 Lead or Company fields that are set up in Marketo Engage using the `Email` type.  |
+-->
 
-Lorsque vous concevez le contenu de votre e-mail, des alertes s’affichent dans l’interface (en haut à droite de la page) lorsque des paramètres clés sont manquants. Si ce bouton ne s’affiche pas, aucun problème n’est détecté.
+## Vérifier les alertes {#check-alerts}
+
+Lorsque vous définissez le contenu et les paramètres de votre e-mail, des alertes s’affichent dans l’interface (en haut à droite de la page) lorsque des paramètres clés sont manquants. Si ce bouton ne s’affiche pas, aucun problème n’est détecté.
 
 ![Alertes par e-mail](./assets/email-alerts.png){width="600" zoomable="yes"}
 
-Deux types d’alertes peuvent être détectés :
+Il existe deux types d’alertes :
 
 * **_avertissements_** qui se rapportent aux recommandations et aux bonnes pratiques telles que :
 

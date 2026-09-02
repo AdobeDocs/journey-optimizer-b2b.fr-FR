@@ -5,22 +5,16 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 568
 ht-degree: 8%
 
 ---
@@ -38,7 +32,7 @@ Utilisez la fonctionnalité _Simuler du contenu_ pour prévisualiser le contenu 
 >
 >Vous ne pouvez pas prévisualiser l’e-mail en cas d’erreur. Pour vous assurer qu’aucune erreur ne bloque les fonctions d’aperçu, cochez la case _Alertes_. Les avertissements ne bloquent pas la prévisualisation, mais y répondent avant de publier le parcours qui déclenche la diffusion par e-mail.
 
-## Affichage de l’aperçu de l’e-mail
+## Affichage de l’aperçu de l’e-mail {#display-preview}
 
 Vous pouvez accéder à l’aperçu du rendu depuis l’[espace de conception des e-mails](./email-authoring.md) ou depuis le _[!UICONTROL Résumé]_ lorsque vous [ouvrez un e-mail à partir de la liste E-mails](./emails-list.md#open-and-edit-emails).
 
@@ -56,13 +50,13 @@ Vous pouvez accéder à l’aperçu du rendu depuis l’[espace de conception de
 
    ![Sélectionnez un profil de personne pour effectuer le rendu de la simulation](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   Si la liste _[!UICONTROL Personnes]_ sur la gauche est vide, [ajoutez des personnes](#add-people-to-the-profiles-list) en utilisant des contacts de l’instance Marketo Engage connectée.
+   Si la liste _[!UICONTROL Personnes]_ sur la gauche est vide, [ajoutez des personnes](#add-people) en utilisant des contacts.
 
    >[!TIP]
    >
    >Vous pouvez également utiliser l’intégration de rendu de test [Litmus](./email-test-rendering.md) pour vérifier le rendu des e-mails sur les clients de bureau, mobiles et web les plus courants.
 
-## Réglage des options d’affichage
+## Réglage des options d’affichage {#display-options}
 
 Utilisez les outils d’affichage pour modifier l’aperçu en fonction du type d’appareil ou du niveau de zoom :
 
@@ -72,7 +66,7 @@ Utilisez les outils d’affichage pour modifier l’aperçu en fonction du type 
 
 ![Ajuster l’affichage de l’aperçu](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
-## Envoyer des BAT
+## Envoyer des BAT {#send-proofs}
 
 Un BAT est un message de test diffusé qui vous permet, ainsi qu’aux membres de votre équipe, de vérifier un e-mail avant de l’envoyer aux membres d’une audience. Les destinataires du BAT peuvent vérifier le rendu, le contenu, les paramètres de personnalisation et la configuration du message. Vous pouvez envoyer des BAT à l’aide d’un profil de test sélectionné.
 
@@ -92,7 +86,7 @@ Un BAT est un message de test diffusé qui vous permet, ainsi qu’aux membres d
 
 1. Cliquez sur **[!UICONTROL Envoyer un BAT]**.
 
-## Ajouter des personnes à la liste des profils
+## Ajouter des personnes à la liste des profils {#add-people}
 
 1. En haut de la liste _[!UICONTROL Personnes]_, cliquez sur **[!UICONTROL Ajouter des personnes]**.
 
@@ -100,7 +94,7 @@ Un BAT est un message de test diffusé qui vous permet, ainsi qu’aux membres d
 
 1. Dans la boîte de dialogue _[!UICONTROL Ajouter des personnes à tester]_, saisissez l’adresse e-mail complète du contact.
 
-   Pour ajouter plusieurs contacts, saisissez plusieurs adresses séparées par des virgules.
+   Pour ajouter plusieurs contacts, saisissez les adresses séparées par des virgules.
 
 1. Cochez la case de chaque contact correspondant que vous souhaitez ajouter à la liste des profils de test.
 

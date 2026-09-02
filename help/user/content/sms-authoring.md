@@ -6,26 +6,16 @@ role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1306
-ht-degree: 4%
+source-wordcount: 1207
+ht-degree: 5%
 
 ---
 
@@ -39,9 +29,9 @@ Avant de créer des SMS pour les parcours de compte, assurez-vous que le [fourni
 >
 >**Gestion du consentement des SMS**<br/>
 >
->Conformément aux normes et réglementations du secteur, tous les SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. Tous les mots-clés standard d’opt-in et d’opt-out sont pris en charge et respectés. En outre, tous les mots-clés personnalisés configurés pour votre compte de fournisseur de services SMS sont pris en charge et respectés. Pour plus d’informations sur l’évaluation des préférences de consentement des SMS au moment de la diffusion, voir [Préférences de consentement](./channels-consent-preferences.md).
+>Conformément aux normes et réglementations du secteur, tous les SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre à l’aide de mots-clés d’opt-in et d’opt-out. Tous les mots-clés standard d’opt-in et d’opt-out sont pris en charge et respectés. En outre, tous les mots-clés personnalisés configurés pour votre compte de fournisseur de services SMS sont pris en charge et respectés. Pour plus d’informations sur l’évaluation des préférences de consentement des SMS au moment de la diffusion, voir [Préférences de consentement](./channels-consent-preferences.md).
 
-## Ajout d’une action SMS dans un parcours de compte
+## Ajout d’une action SMS dans un parcours de compte {#add-action}
 
 Vous pouvez configurer des diffusions de messages texte dans un parcours de compte lorsque vous ajoutez un nœud _[!UICONTROL Agir]_ et que vous effectuez les opérations suivantes :
 
@@ -61,7 +51,7 @@ Vous pouvez configurer des diffusions de messages texte dans un parcours de comp
 
    Le mappage de Parcours __ s’ouvre et vous pouvez créer le message et définir les propriétés SMS pour l’envoi.
 
-### Créer le SMS
+### Créer le SMS {#create-message}
 
 Saisissez le texte à envoyer dans le champ **[!UICONTROL Message]**.
 
@@ -69,7 +59,7 @@ Vous pouvez créer un message de 1 600 caractères maximum, tous les 160 caract�
 
 ![Composer le SMS](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-#### Personnaliser le message texte
+#### Personnaliser le message texte {#personalize}
 
 1. Placez le curseur à l’emplacement du message où vous souhaitez ajouter le jeton de personnalisation.
 
@@ -91,36 +81,39 @@ Vous pouvez créer un message de 1 600 caractères maximum, tous les 160 caract�
 
    Vous pouvez continuer à modifier le message avec les jetons selon vos besoins.
 
-#### Ajouter des liens (URL) au message texte
+#### Ajouter des liens (URL) au message texte {#add-links}
 
 1. Après avoir saisi le texte de votre message, cliquez sur l’icône _Lien_ ( ![icône Lien](../assets/do-not-localize/icon-link.svg) ) à droite de la zone de message texte.
 
 1. Saisissez l’**[!UICONTROL URL]** du lien.
 
+
+1. Dans la boîte de dialogue, choisissez le type d’URL à lier :
+
+   * **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner l’une des pages de destination publiées.
+
+   * **[!UICONTROL URL externe]** - Il s’agit de toute URL externe que vous saisissez dans la zone de texte.
+
 <!--
-1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
+1. If you choose to use a Marketo Engage landing page, set the tracking options.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
+   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
+
+      >[!NOTE] 
+      >
+      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+
 -->
 
-1. Si vous choisissez d’utiliser une page de destination Marketo Engage, définissez les options de suivi.
-
-   * **[!UICONTROL Activer le tracking]** - Cochez cette case pour activer le tracking, ce qui nécessite _raccourcissement_ de l’URL. Pour une landing page, elle utilise le sous-domaine Marketo Engage pour l&#39;URL raccourcie. Un exemple du format d’URL raccourci s’affiche. L’URL réelle est créée lorsque le SMS est envoyé au destinataire.
-
-   * **[!UICONTROL Inclure mkt_tok]** - Cochez cette case pour effectuer le suivi de l’activité par rapport à un utilisateur.</br>
-
-     >[!NOTE]
-     >
-     >Lorsque vous autorisez le suivi mais désactivez _[!UICONTROL Inclure mkt_tok]_, l’URL de destination n’inclut pas le paramètre de chaîne de requête `mkt_tok` après la redirection. Ce paramètre est utilisé par les pages de destination et Munchkin de Marketo Engage pour s’assurer du suivi des activités des personnes (par exemple lorsqu’une personne se désinscrit d’un e-mail). Ne désactivez pas cette option, sauf si le paramètre entraîne des problèmes sur votre site web.<br/>
-     >Pour plus d’informations sur l’utilisation des codes de suivi Munchkin sur votre site web, consultez la documentation de [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
-
-   ![Boîte de dialogue Ajouter un lien pour un SMS](./assets/sms-add-link-dialog.png){width="470"}
+![Boîte de dialogue Ajouter un lien pour un SMS](./assets/sms-add-link-dialog.png){width="470"}
 
 1. Une fois les options de lien renseignées, cliquez sur **[!UICONTROL Ajouter]** pour enregistrer les modifications et ajouter le lien URL au SMS.
 
-### Définir les propriétés du SMS
+### Définir les propriétés du SMS {#sms-properties}
 
 1. Dans la section _[!UICONTROL Propriétés du SMS]_ , saisissez un **[!UICONTROL Nom]** (obligatoire, 100 caractères maximum) et un **[!UICONTROL Description]** (facultatif, 300 caractères maximum) pour votre message.
 
@@ -160,7 +153,7 @@ Lorsque le contenu de votre message est défini, vous pouvez utiliser des profil
 
 1. Utilisez la page _Simuler du contenu_ pour gérer les prospects utilisés pour votre profil de test.
 
-   Dans la liste qui s’affiche, vous pouvez rechercher et ajouter n’importe quel prospect (jusqu’à 10 à la fois) de la base de données de prospects Marketo Engage.
+   Dans la liste affichée, vous pouvez rechercher et ajouter n’importe quel prospect (jusqu’à 10 à la fois).
 
    Pour effectuer une recherche, saisissez l’adresse e-mail complète, puis appuyez sur _Entrée_. Le profil de prospect correspondant est affiché pour la sélection.
 
@@ -178,9 +171,9 @@ Lorsque le contenu de votre message est défini, vous pouvez utiliser des profil
 
 1. Pour quitter la page _[!UICONTROL Simuler du contenu]_ et revenir à l’espace de travail de création de SMS, cliquez sur **[!UICONTROL Fermer]** en haut à droite.
 
-## Gestion du consentement des SMS
+## Gestion du consentement des SMS {#consent-management}
 
-La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque et de respecter leur choix est une exigence légale. Le non-respect de ces réglementations introduit des risques juridiques pour votre marque. Cette fonction vous permet d&#39;éviter d&#39;envoyer des communications non sollicitées à vos destinataires, ce qui pourrait les amener à marquer vos messages comme spam et nuire à votre réputation.
+La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque et de respecter leur choix est une exigence légale. Le non-respect de ces réglementations introduit des risques juridiques pour votre marque. Cette fonction vous permet d’éviter d’envoyer des communications non sollicitées à vos destinataires. Cela les empêche de marquer vos messages comme spam et de nuire à votre réputation.
 
 Lorsque vous fournissez cette option, les destinataires de SMS peuvent répondre avec des mots-clés d’opt-in et d’opt-out. Tous les mots-clés standard d’opt-in et d’opt-out sont pris en charge et respectés, comme tous les mots-clés personnalisés configurés avec le fournisseur de services SMS. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
 
@@ -188,4 +181,4 @@ Journey Optimizer B2B edition permet de gérer les désinscriptions des SMS à l
 
 * Par défaut, si un prospect s’est opposé à la réception des communications de votre part, le profil correspondant est exclu des diffusions SMS suivantes
 
-* Ce consentement de prospect provenant de différentes sources (telles qu’AEP ou le fournisseur de services SMS) est synchronisé avec Journey Optimizer B2B edition. Actuellement, il ne prend en charge qu’un seul état de consentement par prospect au niveau de l’instance (un prospect « John Doe » est abonné ou désabonné de tous les SMS promotionnels de l’instance). Actuellement, il ne prend pas en charge le double opt-in au niveau de la marque/du consentement au niveau de la liste d’abonnements individuelle.
+* Ce consentement de prospect, provenant de différentes sources (telles qu’AEP ou le fournisseur de services SMS), est synchronisé avec Journey Optimizer B2B edition. Actuellement, il ne prend en charge qu’un seul état de consentement par prospect au niveau de l’instance (un prospect « John Doe » est abonné ou désabonné de tous les SMS promotionnels de l’instance). Actuellement, il ne prend pas en charge le double opt-in au niveau de la marque/du consentement au niveau de la liste d’abonnements individuelle.

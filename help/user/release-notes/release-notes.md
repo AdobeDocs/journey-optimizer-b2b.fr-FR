@@ -3,21 +3,14 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités, améliorations et corrections de bugs d’Adobe Journey Optimizer B2B Edition. Restez informé des nouvelles fonctionnalités et des améliorations apportées au produit.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
 source-wordcount: 5635
 ht-degree: 61%
@@ -30,7 +23,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## notes de mise à jour 2026.8 {#rel-2026-8}
 
@@ -154,7 +147,7 @@ Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais dispon
 | ----- | ------ | ----------- |
 | Agent de création de parcours | Nouveau et mis à jour | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
 | Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
-| Qualificateur de vente | Nouveau | Le qualificateur de vente est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient le Account Qualification Agent et qui est conçue pour rationaliser les workflows pour les représentants au développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificateur de vente | Nouveau | Le qualificateur de vente est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient le Account Qualification Agent et qui est conçue pour rationaliser les workflows pour les représentants au développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Notes de mise à jour 2025.10 {#rel-2025-10}
 
@@ -254,7 +247,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Fonctionnalité | Accéder aux pages de détails dans CRM | Vous pouvez désormais configurer des liens directs vers les pages de détails de Journey Optimizer B2B Edition pour les comptes, contacts et leads dans votre outil de gestion de la relation clientèle (CRM), tel que Salesforce ou Microsoft Dynamics. [En savoir plus](../accounts/crm-linking.md) |
 | Fonctionnalité | Prise en charge de CSS personnalisé pour la conception de contenu | Vous pouvez désormais ajouter votre propre CSS personnalisé lorsque vous créez du contenu d’e-mail et de page de destination dans l’espace de conception. [En savoir plus](../content/design-custom-css.md) |
 | Fonctionnalité | Configuration du mappage de mots-clés d’intention | Pour activer et gérer le modèle de détection des intentions, les administrateurs peuvent désormais charger une feuille de calcul pour définir une catégorie de mappage des données d’intention. [En savoir plus](../admin/intent-data.md) |
-| Amélioration | Simuler le contenu à partir du résumé de l’e-mail | Vous pouvez désormais accéder aux outils _Simuler le contenu_ à partir du résumé de l’e-mail (détails et propriétés) lorsque vous ouvrez un e-mail à partir de la liste E-mails. Cet accès s’ajoute à l’espace de conception des e-mails. [En savoir plus](../content/email-simulate-content.md#display-the-email-preview) |
+| Amélioration | Simuler le contenu à partir du résumé de l’e-mail | Vous pouvez désormais accéder aux outils _Simuler le contenu_ à partir du résumé de l’e-mail (détails et propriétés) lorsque vous ouvrez un e-mail à partir de la liste E-mails. Cet accès s’ajoute à l’espace de conception des e-mails. [En savoir plus](../content/email-simulate-content.md#display-preview) |
 | Amélioration | Affichage du nombre total pour la liste des modèles de rôle | La page de liste _[!UICONTROL Modèles de rôle]_ est améliorée avec l’affichage du nombre total à côté de la barre de recherche. |
 
 ## Notes de mise à jour 2025.5 {#rel-2025-5}
