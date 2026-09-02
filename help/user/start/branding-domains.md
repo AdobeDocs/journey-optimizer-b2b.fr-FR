@@ -4,11 +4,17 @@ description: Configurez vos domaines de marque afin que chacune de vos marques d
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
@@ -63,7 +69,7 @@ La première étape de la gestion des domaines de branding consiste à modifier 
 
 1. Dans la boîte de dialogue _[!UICONTROL Modifier le domaine de branding]_, saisissez le nom de votre domaine par défaut dans le champ **[!UICONTROL Domaine]**.
 
-   ![ Boîte de dialogue Modifier le domaine de branding ](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
+   ![&#x200B; Boîte de dialogue Modifier le domaine de branding &#x200B;](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
 <!--
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
@@ -124,7 +130,7 @@ Pour activer SSL pour vos domaines existants, procédez comme suit :
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Confirmer]**.
 
-   ![ Boîte de dialogue de confirmation Générer un certificat SSL ](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
+   ![&#x200B; Boîte de dialogue de confirmation Générer un certificat SSL &#x200B;](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
 
 ## Messages d’erreur
 
