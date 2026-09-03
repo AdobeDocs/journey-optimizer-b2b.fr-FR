@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Les données d’intention sont incluses lorsqu’elles sont configurées pour votre instance Journey Optimizer B2B edition. Elle nécessite également un ou plusieurs parcours publiés **ou** groupes d&#39;achats créés. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, des produits et des catégories, voir [Données d’intention](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
+>Les données d’intention sont incluses lorsqu’elles sont configurées pour votre instance Journey Optimizer B2B edition. Elle nécessite également un ou plusieurs parcours publiés **ou** groupes d&#39;achats créés. Pour plus d’informations sur le modèle de détection d’intention et sur la manière d’envoyer des mots-clés, des produits et des catégories, voir [Données d’intention](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## Remarque sur les licences AEM Assets {#aem-assets-licensing-note}
 
@@ -231,7 +231,7 @@ Plusieurs outils sont disponibles pour vous aider à localiser la ressource dont
 
 ## Contenu - sélection d’images - AEM Assets {#aem-assets-dam}
 
-Choisissez ce type pour parcourir et sélectionner une ressource image dans un référentiel [Experience Manager Assets configuré](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
+Choisissez ce type pour parcourir et sélectionner une ressource image dans un référentiel [Experience Manager Assets configuré](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
 
 Dans la boîte de dialogue _[!UICONTROL Sélectionner Assets]_, choisissez une image à l’aide des outils disponibles pour localiser la ressource dont vous avez besoin, puis cliquez sur **[!UICONTROL Sélectionner]**. :
 

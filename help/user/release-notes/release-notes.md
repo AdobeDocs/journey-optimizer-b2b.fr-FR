@@ -30,7 +30,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## notes de mise à jour 2026.8 {#rel-2026-8}
 
@@ -154,7 +154,7 @@ Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais dispon
 | ----- | ------ | ----------- |
 | Agent de création de parcours | Nouveau et mis à jour | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
 | Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
-| Qualificateur de vente | Nouveau | Sales Qualifier est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient Account Qualification Agent et est conçue pour rationaliser les workflows pour les représentants du développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificateur de vente | Nouveau | Sales Qualifier est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient Account Qualification Agent et est conçue pour rationaliser les workflows pour les représentants du développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Notes de mise à jour 2025.10 {#rel-2025-10}
 
