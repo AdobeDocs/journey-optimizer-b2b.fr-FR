@@ -4,21 +4,16 @@ description: 'Rationalisez la génération de la demande avec les parcours : cr�
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1312
+source-wordcount: 1308
 ht-degree: 46%
 
 ---
@@ -49,7 +44,7 @@ Pour commencer à utiliser votre premier parcours :
 
 >[!BEGINTABS]
 
->[!TAB parcours de compte] 
+>parcours de compte][!TAB 
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion des Parcours]** puis cliquez sur **[!UICONTROL parcours de compte]**.
 
@@ -57,7 +52,7 @@ Saisissez du texte dans l’outil _Rechercher_ en haut de la liste pour filtrer 
 
 ![Filtrage de la liste des parcours de compte](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB parcours de personne] 
+>parcours de personne][!TAB 
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion des Parcours]** puis cliquez sur **[!UICONTROL parcours de personne]**.
 
@@ -79,14 +74,14 @@ La page de liste parcours comprend les colonnes suivantes :
 * [!UICONTROL Dernière mise à jour par]
 * [!UICONTROL Publié sur]
 * [!UICONTROL Publié par]
-* [!UICONTROL &#x200B; Date de début &#x200B;]
-* [!UICONTROL &#x200B; Date de fin &#x200B;]
+* [!UICONTROL  Date de début ]
+* [!UICONTROL  Date de fin ]
 
 Vous pouvez trier la liste par _[!UICONTROL Statut]_, _[!UICONTROL Date de création]_ ou _[!UICONTROL Dernière mise à jour]_ en cliquant sur l’en-tête de colonne.
 
 Pour personnaliser (afficher/masquer) les colonnes affichées dans le tableau, cliquez sur l’icône _Personnaliser le tableau_ ( ![Personnaliser le tableau](../assets/do-not-localize/icon-column-settings.svg) ) dans le coin supérieur droit. Cochez ou décochez les cases de la boîte de dialogue, puis cliquez sur **[!UICONTROL Appliquer]**.
 
-![Choisissez les colonnes à afficher dans la liste parcours &#x200B;](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
+![Choisissez les colonnes à afficher dans la liste parcours ](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
 ### Statut du parcours
 
@@ -94,11 +89,11 @@ Le statut d’un parcours peut changer en fonction des actions que vous applique
 
 | Statut | Description | Actions disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Brouillon**&#x200B;_ | Parcours dépublié modifiable. | <li>[Publier](./create-publish-journey.md#publish-a-journey)<li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
-| _&#x200B;**Actif**&#x200B;_ | Le statut du parcours passe de _Brouillon_ à _Actif_ lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <li>[Dupliquer](#duplicate-journey)<li>[Fermer aux nouvelles entrées](#close-to-new-entries) <li>[Abandonner](#abort-journey) |
-| _&#x200B;**Fermé aux nouvelles entrées**&#x200B;_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <li>[Dupliquer](#duplicate-journey) <li>[Abandonner](#abort-journey) |
-| _&#x200B;**Abandonné**&#x200B;_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
-| _&#x200B;**Terminé**&#x200B;_ | Lorsque tous les membres de l’audience de compte ou de personne d’un parcours ont terminé le parcours, le statut passe de _Actif_ ou _Fermé aux nouvelles entrées_ à _Terminé_. | <li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _**Brouillon**_ | Parcours dépublié modifiable. | <li>[Publier](./create-publish-journey.md#publish-a-journey)<li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _**Actif**_ | Le statut du parcours passe de _Brouillon_ à _Actif_ lorsqu’un parcours est publié. Dans ce statut, il n’est plus modifiable. | <li>[Dupliquer](#duplicate-journey)<li>[Fermer aux nouvelles entrées](#close-to-new-entries) <li>[Abandonner](#abort-journey) |
+| _**Fermé aux nouvelles entrées**_ | Le statut du parcours passe de _Actif_ à _Fermé aux nouvelles entrées_ lorsque vous cliquez sur [!UICONTROL Fermer aux nouvelles entrées] dans le volet de navigation supérieur. | <li>[Dupliquer](#duplicate-journey) <li>[Abandonner](#abort-journey) |
+| _**Abandonné**_ | Le statut du parcours passe de _Actif_ ou _Fermé aux nouvelles entrées_ lorsque vous abandonnez un parcours. Vous ne pouvez pas redémarrer un parcours abandonné. | <li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
+| _**Terminé**_ | Lorsque tous les membres de l’audience de compte ou de personne d’un parcours ont terminé le parcours, le statut passe de _Actif_ ou _Fermé aux nouvelles entrées_ à _Terminé_. | <li>[Dupliquer](#duplicate-journey) <li>[Supprimer](#delete-journey) |
 
 ## Mappages de parcours
 
@@ -112,7 +107,7 @@ L’en-tête de chaque mappage de parcours comprend :
 * Outil de modification du nom du parcours (![icône Modifier](../assets/do-not-localize/icon-edit.svg) _Icône Modifier_)
 * [Statut](#journey-status) du parcours
 
-À partir du mappage de parcours, vous pouvez [Ajouter les nœuds](./create-publish-journey.md#add-a-node) et [définir le flux de parcours &#x200B;](./create-publish-journey.md#add-and-delete-a-path).
+À partir du mappage de parcours, vous pouvez [Ajouter les nœuds](./create-publish-journey.md#add-a-node) et [définir le flux de parcours ](./create-publish-journey.md#add-and-delete-a-path).
 
 ## Actions de parcours
 
@@ -172,7 +167,7 @@ Une action de duplication est similaire à une fonction de clonage, mais le parc
 
 1. Choisissez le **[!UICONTROL type]** de duplication :
 
-   * **[!UICONTROL Duplication partielle du contenu]** : utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un e-mail ou un SMS Marketo Engage restent pleinement intacts.
+   * **[!UICONTROL Duplication partielle du contenu]** : utilisez ce type pour copier tout le contenu du parcours, à l’exclusion des e-mails ou des SMS créés. Les nœuds qui font référence à un SMS sont entièrement intacts.
 
    * **[!UICONTROL Dupliquer sans détails]** - Utilisez ce type pour copier uniquement la structure de nœud et les chemins d’accès. Tous les paramètres de nœud et conditions de chemin sont indéfinis (par défaut). Vous pouvez donc réutiliser le flux de base avec différents paramètres d’audience, d’actions et de segmentation de chemin. Tous les nœuds d’_attente_ utilisent la valeur par défaut de cinq jours.
 
@@ -198,7 +193,7 @@ Utilisez une action de suppression pour supprimer définitivement un parcours. V
 
 Pour un parcours de compte publié avec le statut _En ligne_, _Fermé aux nouvelles entrées_, _Abandonné_ ou _Terminé_, ouvrez le mappage de parcours afin de consulter la progression du compte pour les nœuds de parcours. Chaque nœud de la carte affiche le nombre de comptes à atteindre ce nœud et, pour les parcours actifs, le nombre de comptes actuellement sur ce nœud.
 
-![Informations sur la progression du compte pour les nœuds de parcours &#x200B;](./assets/node-account-progression-observability.png){width="400"}
+![Informations sur la progression du compte pour les nœuds de parcours ](./assets/node-account-progression-observability.png){width="400"}
 
 Lorsque vous sélectionnez le nœud, cliquez sur le numéro pour afficher la liste des comptes qui y sont entrés ou qui se trouvent actuellement à cette étape du parcours.
 
@@ -206,4 +201,4 @@ Lorsque vous sélectionnez le nœud, cliquez sur le numéro pour afficher la lis
 
 ## Vidéo de présentation du parcours de compte {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443209/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

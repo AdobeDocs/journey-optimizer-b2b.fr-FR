@@ -3,23 +3,16 @@ title: Notes de mise à jour de Journey Optimizer B2B Edition
 description: Découvrez les dernières fonctionnalités, améliorations et corrections de bugs d’Adobe Journey Optimizer B2B Edition. Restez informé des nouvelles fonctionnalités et des améliorations apportées au produit.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -30,7 +23,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## notes de mise à jour 2026.8 {#rel-2026-8}
 
@@ -154,7 +147,7 @@ Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais dispon
 | ----- | ------ | ----------- |
 | Agent de création de parcours | Nouveau et mis à jour | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
 | Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
-| Qualificateur de vente | Nouveau | Le qualificateur de vente est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient le Account Qualification Agent et qui est conçue pour rationaliser les workflows pour les représentants au développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificateur de vente | Nouveau | Sales Qualifier est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient Account Qualification Agent et est conçue pour rationaliser les workflows pour les représentants du développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Notes de mise à jour 2025.10 {#rel-2025-10}
 
@@ -162,7 +155,7 @@ Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais dispon
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Activer vers la destination pour les parcours | Utilisez l’action de compte d’entreprise _Activer vers la destination_ pour une activation directe vers les entreprises plutôt que vers les individus. (Limité aux sociétés LinkedIn pour cette version.) [En savoir plus](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Fonctionnalité | Activer vers la destination pour les parcours | Utilisez l’action de compte d’entreprise _Activer vers la destination_ pour une activation directe vers les entreprises plutôt que vers les individus. (Limité aux sociétés LinkedIn pour cette version.) [En savoir plus](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Fonctionnalité | Thèmes de marque | Les thèmes de marque permettent désormais aux profils non techniques de créer du contenu réutilisable adapté à une marque et à un langage de conception spécifiques en ajoutant des styles personnalisés aux modèles standard. [En savoir plus](../content/brand-themes.md) |
 | Fonctionnalité | Modèles d’e-mail - convertir l’image en HTML | Vous pouvez désormais utiliser vos fichiers de conception stockés en tant que fichiers image JPG ou PNG et générer automatiquement des modèles d’e-mail. [En savoir plus](../content/email-template-image-convert.md) |
 | Fonctionnalité | Mappage de persona | Liez les membres de compte aux personas établies avec le mappage d’attributs. [En savoir plus](../admin/persona-mapping.md) |
@@ -280,7 +273,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | ---- | ---- | ----------- |
 | Fonctionnalité | Listes de comptes | Vous pouvez désormais créer une liste de comptes statiques ou dynamiques pour cibler les comptes nommés en fonction de vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. <a href="../accounts/account-lists.md">En savoir plus</a> |
 | Fonctionnalité | Orchestration de parcours de listes de comptes | Utilisez les nœuds d’action de parcours pour ajouter et supprimer des comptes pour les listes de comptes statiques. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">En savoir plus</a> |
-| Amélioration | Filtrer l’appartenance à un parcours dans Marketo Engage | Utilisez les listes de comptes Adobe Journey Optimizer B2B Edition pour l’audience de parcours, puis utilisez le filtre _Membre d’une liste de comptes_ dans les listes intelligentes Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">En savoir plus</a> |
+| Amélioration | Filtrer l’appartenance à un parcours dans Marketo Engage | Utilisez les listes de comptes Adobe Journey Optimizer B2B Edition pour l’audience de parcours, puis utilisez le filtre _Membre d’une liste de comptes_ dans les listes intelligentes Marketo Engage. |
 | Fonctionnalité | Filtres d’inactivité | Orchestrez des parcours en fonction de l’inactivité dans les campagnes et programmes Marketo Engage, y compris l’inactivité des e-mails, les moments intéressants, les modifications de valeur des données et les pages web visitées. |
 | Amélioration | Filtre des pages web visitées | Orchestrez des parcours en fonction de l’activité des pages web visitées associées aux campagnes et programmes Marketo Engage. |
 | Amélioration | Liste des e-mails | Consultez une liste globale des e-mails actifs et des brouillons d’e-mail pour les rechercher, les examiner et les mettre à jour dans les parcours de compte associés. <a href="../content/emails-list.md">En savoir plus</a> |

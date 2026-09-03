@@ -1,27 +1,23 @@
 ---
-title: Utiliser les listes de comptes dans Parcours et les programmes
-description: Utilisez les listes de comptes dans parcours orchestration, ajoutez/supprimez des comptes dynamiquement et filtrez les listes dynamiques Marketo Engage dans Journey Optimizer B2B edition.
+title: Utilisation des listes de comptes dans Parcours
+description: Utilisez les listes de comptes dans parcours orchestration et ajoutez/supprimez des comptes de manière dynamique dans Journey Optimizer B2B edition.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-27T22:29:03.719Z
 TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: 417
 ht-degree: 0%
 
 ---
 
-# Utiliser les listes de comptes dans les parcours et les programmes
+# Utilisation des listes de comptes dans parcours
 
 Vous pouvez incorporer des listes de comptes dynamiques (publiés) de différentes manières dans les parcours de votre compte.
 
@@ -45,7 +41,7 @@ Tous les parcours de compte commencent par un nœud [_Audience du compte_](../jo
 
 Dans un parcours de compte, ajoutez des comptes à une liste de comptes statique à l’aide d’[un nœud _Prendre une action_](../journeys/action-nodes.md).
 
-Par exemple, vous pouvez avoir un chemin de parcours où vous envoyez un e-mail et où certains comptes prennent différentes actions en tant qu’actions de réponse. Vous considérez cette activité comme un point de qualification dans le parcours. Avec la qualification, vous souhaitez les ajouter à une liste de comptes utilisée comme audience pour un autre parcours avec un flux différent pour les comptes qualifiés.
+Par exemple, vous disposez d’un chemin de parcours où vous envoyez un e-mail et certains comptes prennent différentes actions en réponse. Vous considérez cette activité comme un point de qualification dans le parcours. Avec la qualification, vous souhaitez les ajouter à une liste de comptes utilisée comme audience pour un autre parcours avec un flux différent pour les comptes qualifiés.
 
 >[!NOTE]
 >
@@ -67,7 +63,7 @@ Par exemple, vous pouvez avoir un chemin de parcours où vous envoyez un e-mail 
 
 Dans un parcours de compte, supprimez des comptes d’une liste de comptes statique à l’aide d’[un nœud _Prendre une action_](../journeys/action-nodes.md).
 
-Par exemple, vous pouvez avoir un chemin de parcours où vous envoyez un e-mail et où certains comptes prennent différentes actions en tant qu’actions de réponse. Vous considérez cette activité comme un point de qualification dans le parcours. Avec cette qualification, vous souhaitez les supprimer d’une liste de comptes utilisée comme audience pour un autre parcours qui envoie des e-mails supplémentaires afin de ne pas dupliquer vos communications de qualification.
+Par exemple, vous disposez d’un chemin de parcours où vous envoyez un e-mail et certains comptes prennent différentes actions en réponse. Vous considérez cette activité comme un point de qualification dans le parcours. Avec cette qualification, vous souhaitez les supprimer d’une liste de comptes. Cette liste est utilisée comme audience pour un autre parcours qui envoie des e-mails supplémentaires afin que vous ne dupliquiez pas vos communications de qualification.
 
 >[!NOTE]
 >
@@ -77,38 +73,8 @@ Par exemple, vous pouvez avoir un chemin de parcours où vous envoyez un e-mail 
 
 1. Pour _[!UICONTROL Action sur les comptes]_, choisissez **[!UICONTROL Supprimer de la liste des comptes]**.
 
-   ![Sélectionnez Ajouter à la liste des comptes](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
+   ![Sélectionnez Supprimer de la liste des comptes](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
 1. Pour **[!UICONTROL Sélectionner la liste des comptes statiques actifs]**, choisissez la liste des comptes dans laquelle vous souhaitez supprimer des comptes.
 
-   ![Sélectionnez Ajouter à la liste des comptes](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
-## Programme Marketo Engage - Membre de la liste des comptes
-
-En tant que spécialiste marketing, vous pouvez supprimer des programmes dans Marketo Engage pour les personnes qui font partie des listes de comptes dans Journey Optimizer B2B edition.
-
-Dans l’instance Marketo Engage connectée à Journey Optimizer B2B edition, vous pouvez utiliser le filtre _[!UICONTROL Membre de la liste des comptes]_ de vos listes dynamiques pour identifier ces prospects en fonction de votre stratégie de campagne. Pour plus d’informations sur les listes dynamiques, consultez la documentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
-
-### Ajouter le filtre à une liste dynamique
-
-1. Dans Marketo Engage, sélectionnez une campagne et cliquez sur l’onglet **[!UICONTROL Liste dynamique]**.
-
-1. Dans la liste Filtres affichée à droite, saisissez `Member` et recherchez le filtre **[!UICONTROL Liste des membres de compte]**.
-
-1. Faites glisser le filtre sur la zone de travail de la liste dynamique.
-
-1. Dans la zone de travail Liste dynamique , définissez la valeur de liste **[!UICONTROL Membre du compte]**.
-
-   Cliquez sur la flèche vers le bas pour afficher toutes les listes de comptes ou saisissez une partie du nom de la liste de comptes pour vous aider à localiser la liste de comptes dont vous avez besoin.
-
-   ![Filtre de liste dynamique Marketo Engage pour l&#39;appartenance à la liste des comptes](./assets/account-lists-marketo-engage-smart-list.png){width="800" zoomable="yes"}
-
-1. Dans le flux de la campagne, ajoutez l’étape **[!UICONTROL Ajouter à la liste]** et choisissez la liste dans laquelle vous souhaitez renseigner les personnes de la liste des comptes Journey Optimizer B2B edition.
-
-   Pour plus d’informations sur l’ajout d’étapes à un flux[&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_consultez la section_ Ajouter une étape de flux à une campagne dynamique dans la documentation de Marketo Engage.
-
-### Vérifier les membres
-
-Une fois le flux exécuté, vous pouvez afficher la liste des personnes renseignées dans la liste. Ouvrez la liste et sélectionnez l’onglet Personnes .
-
-![liste de campagnes Marketo Engage renseignée à partir d&#39;une liste de comptes](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
+   ![Sélectionnez Supprimer de la liste des comptes](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
