@@ -17,10 +17,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
-ht-degree: 30%
+source-wordcount: 1229
+ht-degree: 29%
 
 ---
 
@@ -63,7 +63,7 @@ La notation du groupe d&#39;achats n&#39;est pas _basée sur le déclenchement_.
 
 La limite de fréquence quotidienne est de 20 pour chaque activité. Si un membre d&#39;un groupe d&#39;achat effectue la même activité plus de 20 fois au cours d&#39;une seule journée, le nombre pour l&#39;activité est plafonné à 20.
 
-| Nom de l’activité | Description | Type d’engagement | Fréquences quotidiennes maximales | Poids d’activité du modèle par défaut |
+| Nom de l’activité | Description | Type d’engagement | Nombre maximal d’occurrences par jour | Poids d’activité du modèle par défaut |
 |---------------|-------------|-----------------|---------------------------|-------------------------------|
 | Participer à l’événement | Un membre a participé à un événement. | Événement | 20 | 60 |
 | E-mail sur lequel l’utilisateur a cliqué | Un membre clique sur un lien dans un e-mail. | E-mail | 20 | 30 |
@@ -115,10 +115,6 @@ La limite de fréquence quotidienne est de 20 pour chaque activité. Si un membr
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
-
->[!NOTE]
->
->Les activités Score d’engagement sont enregistrées dans le journal d’activité Marketo Engage d’une personne. Vous pouvez accéder à ce journal dans l’instance Marketo Engage connectée. Pour plus d’informations, voir [Rechercher le journal d’activité d’une personne](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} dans la documentation de Marketo Engage.
 
 ## Pondération du modèle de rôle {#engagement-score-weighting}
 

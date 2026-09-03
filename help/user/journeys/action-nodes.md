@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2184
 ht-degree: 3%
 
 ---
@@ -125,7 +125,6 @@ Dans un parcours de compte ou de personne, utilisez une action sur les personnes
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Ajouter une personne à (un autre) parcours &#x200B;] | <li>Parcours de compte (Action sur les personnes) <li>Parcours d’une personne | <li>Sélectionner un parcours de personne actif |
 | | [!UICONTROL Ajouter à une audience client externe] | <li>Parcours de compte <li>Parcours d’une personne | <li>Sélectionner une audience externe dédiée à la clientèle |
 | | [!UICONTROL Affecter au groupe d&#39;achat] | <li>Parcours de compte | <li>Sélectionner l’intérêt de la solution <li>Sélectionner un rôle |
-| | [!UICONTROL Modifier le score] | <li>Parcours de compte | <li>Nom du score <li>Modification du score |
 | | [!UICONTROL Moment intéressant] | <li>Parcours de compte <li>Parcours d’une personne | <li>Type <li>Description |
 | | [!UICONTROL Personnaliser l’expérience web] (Beta) | <li>Parcours de compte | <li>Créer/modifier une expérience web |
 | | [!UICONTROL Supprimer du groupe d&#39;achat] | <li>Parcours de compte | <li>Sélectionner l’intérêt de la solution |

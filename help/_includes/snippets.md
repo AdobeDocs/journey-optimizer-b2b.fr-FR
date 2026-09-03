@@ -1,10 +1,10 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 5%
+source-wordcount: '2318'
+ht-degree: 2%
 
 ---
 
@@ -264,16 +264,3 @@ Dans la boîte de dialogue _[!UICONTROL Télécharger l’image]_, effectuez un 
 Les noms de fichier des images sélectionnées s’affichent dans la boîte de dialogue. Les noms de fichiers de ressources doivent être uniques (dans plusieurs dossiers) et, si un fichier portant ce nom existe déjà, un message s’affiche. Les noms peuvent contenir au maximum 100 caractères et ne peuvent pas contenir de caractères spéciaux (par exemple `;`, `:`, `\` et `|`).
 
 Cliquez sur **[!UICONTROL Importer]**.
-
-## Activités relatives au score de l’engagement - Marketo {#engagement-activities-me}
-
-| Nom de l’activité | Description | Nombre maximal d’occurrences par jour | Poids d’activité du modèle par défaut |
-| --- | --- | --- | --- |
-| [!UICONTROL Participer à un événement] | Un membre a participé à un événement. | 20 | 60 |
-| [!UICONTROL E-mail cliqué] | Un membre clique sur un lien dans un e-mail. | 20 | 30 |
-| [!UICONTROL E-mail ouvert] | Un membre ouvre un e-mail. | 20 | 30 |
-| [!UICONTROL Formulaire complété] | Un membre remplit et envoie un formulaire sur une page web. | 20 | 40 |
-| [!UICONTROL Moment significatif] | Un membre connaît un moment intéressant. | 20 | 60 |
-| [!UICONTROL Clics sur les liens] | Un membre clique sur un lien d’une page web. | 20 | 40 |
-| [!UICONTROL Pages vues] | Un membre consulte une page web | 20 | 40 |
-| [!UICONTROL S’inscrire à l’événement] | Un membre inscrit à un événement | 20 | 60 |
