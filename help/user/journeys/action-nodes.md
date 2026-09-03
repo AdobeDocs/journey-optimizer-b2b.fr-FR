@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 2319
+source-wordcount: 2193
 ht-degree: 3%
 
 ---
 
 # Entreprendre une action
 
-Pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score ou l’affectation d’un groupe d’achats, vous pouvez ajouter un nœud _[!UICONTROL Prendre une action]_ dans votre parcours. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
+Pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score ou l’affectation d’un groupe d’achats, ajoutez un nœud _[!UICONTROL Prendre une action]_ dans votre parcours. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
@@ -137,12 +137,6 @@ Dans un parcours de compte ou de personne, utilisez une action sur les personnes
 | | [!UICONTROL Ajouter à la liste Marketo] | <li>Parcours de compte <li>Parcours d’une personne | <li>Nom de la connexion Marketo externe <li>Nom de la liste |
 | | [!UICONTROL Supprimer de la liste Marketo] | <li>Parcours de compte <li>Parcours d’une personne | <li>Nom de la connexion Marketo externe <li>Nom de la liste |
 
->[!NOTE]
->
->Les actions _[!UICONTROL Modifier la partition des personnes dans Marketo Engage]_ et _[!UICONTROL Modifier le score]_ sont obsolètes pour la version 2025.10 et ne sont plus disponibles dans Journey Optimizer B2B edition.<br/>
->
->L’action _[!UICONTROL Modifier la valeur des données]_ est obsolète pour la version 2025.10. Il est remplacé par _[!UICONTROL Mettre à jour le profil de la personne]_ dans la version actuelle de Journey Optimizer B2B edition.
-
 ### Ajouter une action basée sur les personnes
 
 1. Accédez à la carte du parcours.
@@ -226,14 +220,6 @@ Utilisez cette action pour ajouter des profils de personnes à un [groupe d&#39;
 
 +++
 
-+++[!UICONTROL Modifier le score]
-
-Utilisez cette action pour modifier le score de personne dans Marketo Engage. [En savoir plus](https://experienceleague.adobe.com/fr/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
-
-![Agir - Modifier le score](./assets/node-action-change-score.png){width="300"}
-
-+++
-
 +++[!UICONTROL Moment intéressant]
 
 Utilisez cette action pour consigner un moment intéressant pour les personnes. Choisissez un type (E-mail, Jalon ou Web) et ajoutez une description (facultatif).
@@ -254,7 +240,7 @@ Utilisez cette action pour [créer des expériences personnalisées](../content/
 
 Utilisez cette action pour supprimer des profils de personnes d&#39;un [groupe d&#39;achat](../buying-groups/buying-groups-overview.md) en fonction d&#39;un intérêt de solution sélectionné.
 
-![Agir - Ajouter au groupe d&#39;achat](./assets/node-action-remove-from-buying-group.png){width="300"}
+![Effectuer une action - Supprimer du groupe d&#39;achat](./assets/node-action-remove-from-buying-group.png){width="300"}
 
 +++
 
@@ -270,9 +256,9 @@ Utilisez le sélecteur **[!UICONTROL Sélectionner le Parcours de personne]** po
 
 +++[!UICONTROL Envoyer un e-mail]
 
-Utilisez cette action pour envoyer un e-mail. Après avoir [créé l’e-mail](../content/add-email.md#add-an-email-action-node-in-a-journey) pour le nœud , vous pouvez concevoir, personnaliser et prévisualiser des e-mails dans l’espace de conception d’e-mail (voir [Création d’e-mail](../content/email-authoring.md)). Vous pouvez également envoyer un [e-mail à partir de Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Sélectionnez l’espace de travail Marketo Engage , puis l’e-mail à envoyer.
+Utilisez cette action pour envoyer un e-mail. Après avoir [créé l’e-mail](../content/add-email.md#send-email-node) pour le nœud , vous pouvez concevoir, personnaliser et prévisualiser des e-mails dans l’espace de conception d’e-mail (voir [Création d’e-mail](../content/email-authoring.md)).
 
-![Agir - Envoyer un e-mail](./assets/node-action-send-email-from-marketo.png){width="300"}
+![Agir - Envoyer un e-mail](./assets/node-action-send-email.png){width="300"}
 
 Pour les parcours de personne, utilisez [Optimisation de l’heure d’envoi](../content/email-send-time-optimization.md) pour personnaliser le délai de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir.
 
@@ -308,7 +294,7 @@ Utilisez cette action pour modifier la valeur d’un [attribut de profil de pers
 >
 >L’action _[!UICONTROL Mettre à jour le profil de la personne]_ remplace l’action _[!UICONTROL Modifier la valeur des données]_ dans la version actuelle de Journey Optimizer B2B edition.<br/>
 >
->Un administrateur peut configurer les attributs disponibles pour le profil individuel XDM en mettant à jour les champs dans les _[!UICONTROL Configurations XDM]_ > [!UICONTROL Classes standard]. Pour plus d’informations, voir [Schémas standard](../admin/xdm-field-management.md#standard-schemas).
+>Un administrateur peut configurer les attributs disponibles pour le profil individuel XDM en mettant à jour les champs dans les _[!UICONTROL Configurations XDM]_ > _[!UICONTROL Classes standard]_. Pour plus d’informations, voir [Schémas standard](../admin/xdm-field-management.md#standard-schemas).
 
 +++
 
@@ -318,7 +304,7 @@ Les actions basées sur les personnes [!DNL Marketo Engage] sont conçues pour c
 
 >[!NOTE]
 >
->Les actions Marketo Engage nécessitent une intégration configurée à une ou plusieurs instances Marketo Engage externes. Pour plus d’informations sur cette configuration, voir [_Activer les connexions Marketo Engage pour prendre en charge les actions_](../admin/marketo-actions-connect.md).
+>Les actions Marketo Engage nécessitent une intégration configurée à une ou plusieurs instances Marketo Engage externes. Pour obtenir des informations détaillées sur cette configuration, voir [_Activer les connexions Marketo Engage pour prendre en charge les actions_](../admin/marketo-actions-connect.md).
 
 Par exemple, supprimez les campagnes dans Marketo Engage pour les personnes qui font partie de groupes d’achat dans Journey Optimizer B2B edition. Dans ce cas, vous pouvez créer une liste statique dans Marketo Engage spécifiquement pour la solution qui vous intéresse. Ensuite, sur un chemin de division par groupe d’achats, utilisez l’action _Ajouter à la liste Marketo_ à partir d’un nœud de parcours. Cette action ajoute les membres du groupe d&#39;achat à une liste statique particulière dans une instance Marketo Engage connectée. Ensuite, utilisez la liste statique axée sur les intérêts de la solution pour un filtre de liste dynamique dans Marketo Engage.
 

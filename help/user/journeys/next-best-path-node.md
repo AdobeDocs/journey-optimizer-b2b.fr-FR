@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1913
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ Pour chaque chemin, définissez un nom et une invite en langage naturel qui déc
 
      **Exemple d’invite de division en trois chemins :**
 
-      * _Chemin 1 - Chefs des RH :_Identifiez les personnes occupant des rôles de leadership dans les RH les plus susceptibles de participer à la gestion des talents et au contenu de l&#39;expérience des employés.
-      * _Chemin 2 - Évaluateurs techniques :_identifiez les parties prenantes techniques les plus susceptibles d’interagir avec l’architecture du produit, les intégrations et le contenu de mise en œuvre.
-      * _Chemin 3 - Décideurs d’entreprise :_identifiez les parties prenantes les plus susceptibles d’impliquer le retour sur investissement, les résultats commerciaux et le contenu d’études de cas.
+     * _Chemin 1 - Chefs des RH :_Identifiez les personnes occupant des rôles de leadership dans les RH les plus susceptibles de participer à la gestion des talents et au contenu de l&#39;expérience des employés.
+     * _Chemin 2 - Évaluateurs techniques :_identifiez les parties prenantes techniques les plus susceptibles d’interagir avec l’architecture du produit, les intégrations et le contenu de mise en œuvre.
+     * _Chemin 3 - Décideurs d’entreprise :_identifiez les parties prenantes les plus susceptibles d’impliquer le retour sur investissement, les résultats commerciaux et le contenu d’études de cas.
 
 1. Si nécessaire, réorganisez les chemins pour définir l’ordre de priorité de la correspondance.
 
@@ -274,7 +274,7 @@ Utilisez la simulation pour tester la manière dont l’IA évalue vos invites p
 1. Dans la boîte de dialogue, choisissez l&#39;audience à utiliser pour la simulation :
 
    * **[!UICONTROL Listes de personnes d’origine]** - Utilisez l’audience à partir du nœud d’audience. Spécifiez une taille d’échantillon lorsque l’audience complète dépasse le seuil de simulation.
-   * **[!UICONTROL Listes dynamiques et statiques]** - Utilisez une liste [!DNL Marketo Engage] statique ou dynamique.
+   * **[!UICONTROL Listes dynamiques et statiques]** - Utilisez une liste de personnes statique ou dynamique.
    * **[!UICONTROL Enregistrements de test]** - Utilisez des profils de test suggérés par l’IA.
 
    ![Meilleur chemin suivant - Simuler - choisir l’audience](./assets/node-next-best-path-simulate-dialog.png){width="300"}

@@ -1,9 +1,9 @@
 ---
 title: Extraits
 description: Notes et éléments visuels réutilisés pour noter une fonctionnalité ou une page s’appliquant à une édition spécifique
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 5%
 
 ---
@@ -213,9 +213,9 @@ Dans le panneau de droite avec l’onglet _[!UICONTROL Styles]_ sélectionné, d
 
   ![Sélecteur de couleurs de police](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## Contenu - sélection d’images - Marketo DAM {#me-dam}
+## Contenu - sélection d’images - Gestion des ressources numériques interne {#internal-dam}
 
-Choisissez ce type pour parcourir et sélectionner une ressource d’image dans la bibliothèque B2B edition Journey Optimizer ou dans l’instance Market Engage connectée.
+Choisissez ce type pour parcourir et sélectionner une ressource image dans la bibliothèque B2B edition Journey Optimizer.
 
 ![Parcourir les ressources d’image disponibles](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

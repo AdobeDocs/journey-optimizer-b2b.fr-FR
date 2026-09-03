@@ -18,10 +18,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 7%
+source-wordcount: 1624
+ht-degree: 6%
 
 ---
 
@@ -135,21 +135,21 @@ Pour activer les paramètres de l’image d’arrière-plan, déplacez le sélec
 
 Sélectionnez le [type de source de ressource](./assets-overview.md) puis sélectionnez le fichier image :
 
-+++[!UICONTROL Ressources Marketo Engage]
++++[!UICONTROL Sélectionner une ressource]
 
-{{me-dam}}
-
-+++
-
-+++[!UICONTROL Experience Manager Assets]
-
-{{aem-assets-dam}}
+{{internal-dam}}
 
 +++
 
 +++[!UICONTROL Importer un média]
 
 {{image-upload}}
+
++++
+
++++[!UICONTROL Experience Manager Assets]
+
+{{aem-assets-dam}}
 
 +++
 

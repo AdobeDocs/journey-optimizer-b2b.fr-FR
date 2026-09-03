@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 80%
+source-wordcount: 913
+ht-degree: 75%
 
 ---
 
@@ -28,16 +28,14 @@ ht-degree: 80%
 Un domaine de marque dans Marketo Engage est un sous-domaine personnalisé (tel que `links.yourcompany.com`) utilisé pour réécrire les liens et effectuer le suivi des clics sur les e-mails. Il permet également de s’assurer qu’ils reflètent votre marque plutôt qu’un domaine générique. Chaque domaine de marque agit comme un domaine de suivi des clics pour améliorer la délivrabilité et la confiance en faisant correspondre vos e-mails et liens de page de destination avec votre domaine.
 
 * Il remplace les liens génériques par votre propre marque dans les liens hypertexte des e-mails.
-* Lorsqu’un prospect de compte clique sur un lien, il redirige via ce domaine personnalisé afin d’autoriser le suivi des performances tout en semblant légitime aux filtres d’e-mail.
+* Lorsqu’un prospect clique sur un lien, il le redirige vers ce domaine personnalisé afin d’autoriser le suivi des performances tout en semblant légitime aux filtres d’e-mail.
 * Pour prendre en charge différentes unités commerciales ou marques, vous pouvez configurer des domaines de marque supplémentaires si vous disposez de plusieurs marques.
 
 >[!BEGINSHADEBOX]
 
 **CNAME uniques pour les liens de suivi**
 
-Les liens de tracking e-mail doivent être nouveaux et uniques pour l’instance Marketo Engage jointe. Si vous disposez de CNAME pour le suivi des liens pointant vers une instance Marketo Engage préexistante (de production), ils doivent être modifiés avant de pouvoir être réutilisés.
-
-Vous pouvez partager le branding de domaine de chemin de retour entre votre instance Marketo Engage de production et l’instance jointe, mais cette modification correspond à une modification du serveur principal. Ouvrez un ticket d’assistance et fournissez votre préfixe Marketo Engage (Munchkin ID) ainsi que votre nouveau préfixe Journey Optimizer B2B edition (Munchkin ID) pour demander le branding de domaine de chemin de retour partagé.
+Les liens de tracking e-mail doivent être nouveaux et uniques pour l’instance Marketo Engage jointe. Vous pouvez partager le branding de domaine de chemin de retour entre votre instance Marketo Engage de production et l’instance jointe, mais cette modification est une modification du système interne. Ouvrez un ticket d’assistance et fournissez votre préfixe Marketo Engage (Munchkin ID) ainsi que votre nouveau préfixe Journey Optimizer B2B edition (Munchkin ID) pour demander le branding de domaine de chemin de retour partagé.
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +45,7 @@ Vous pouvez partager le branding de domaine de chemin de retour entre votre inst
 >
 >Lors de l’ajout d’un domaine, le système vérifie les SSL préexistants, qui ont été créés manuellement précédemment. Si vous rencontrez cette validation, créez votre domaine sans sélectionner la création SSL, puis connectez-le en tant que procédure distincte.
 
-## Accès aux domaines de branding dans Marketo Engage
+## Accéder aux domaines de branding dans Marketo Engage
 
 1. Accédez à la zone **[!UICONTROL Admin]** de votre instance Marketo Engage et sélectionnez **[!UICONTROL E-mail]**.
 
@@ -57,9 +55,9 @@ Vous pouvez partager le branding de domaine de chemin de retour entre votre inst
 
    La liste affiche le domaine par défaut de l’instance Marketo Engage.
 
-## Modifier votre domaine de marque par défaut
+## Modifier votre domaine de branding par défaut
 
-La première étape de l’utilisation des domaines de marque consiste à modifier le domaine de marque par défaut défini dans votre instance Marketo Engage.
+La première étape de la gestion des domaines de branding consiste à modifier le domaine de branding par défaut défini dans votre instance Marketo Engage.
 
 >[!NOTE]
 >
@@ -73,19 +71,22 @@ La première étape de l’utilisation des domaines de marque consiste à modifi
 
    ![&#x200B; Boîte de dialogue Modifier le domaine de branding &#x200B;](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
-1. Si plusieurs espaces de travail sont définis pour votre instance Marketo Engage, cliquez sur **[!UICONTROL Suivant]**.
+<!--
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   Sélectionnez chacun des espaces de travail auxquels vous souhaitez appliquer le domaine principal mis à jour.
+   Select each of the workspaces where you want to apply the updated primary domain.
 
-   ![Boîte de dialogue Modifier le domaine de branding avec sélection de l’espace de travail pour le domaine principal](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
+   ![Edit Branding Domain dialog with workspace selection for primary domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**
+-->
+
+1. Cliquez sur **[!UICONTROL Suivant]** puis sur **[!UICONTROL Enregistrer]**.
 
 ## Définition d’un domaine supplémentaire
 
-Après avoir modifié le domaine par défaut, vous pouvez ajouter un autre domaine de branding pour prendre en charge plusieurs marques dans votre environnement Journey Optimizer B2B edition, où chaque marque possède ses propres liens de suivi de marque. Lorsque vous ajoutez un domaine, vous disposez des options suivantes :
+Pour prendre en charge plusieurs marques dans votre environnement Journey Optimizer B2B edition, où chaque marque possède ses propres liens de suivi, vous pouvez ajouter un autre domaine de marque après avoir modifié le domaine par défaut. Lorsque vous ajoutez un domaine, vous disposez des options suivantes :
 
->* _Faire du domaine de Principal_ : faites de ce domaine le domaine principal de l’espace de travail. Lorsque vous sélectionnez cette option, tous les e-mails non envoyés existants sont définis sur le domaine principal par défaut et tous les nouveaux e-mails créés sont automatiquement définis sur ce domaine principal. Les marketeurs peuvent choisir un autre domaine de marque si nécessaire.
+>* _Faire du domaine de Principal_ : faites de ce domaine le domaine principal de l’espace de travail. Lorsque vous sélectionnez cette option, tous les e-mails existants qui n’ont pas encore été envoyés sont associés au domaine principal par défaut, et tous les nouveaux e-mails utilisent automatiquement ce domaine principal par défaut. Les responsables marketing peuvent choisir un autre domaine de branding si nécessaire.
 >
 >* _Générer un certificat SSL_ : créez un protocole SSL (Secure Sockets Layer) avec la création du domaine. Le premier domaine de suivi lance une configuration unique de l’infrastructure qui peut prendre quelques heures. Une fois l’opération terminée, le système envoie une notification.
 
@@ -107,17 +108,19 @@ _Pour ajouter le domaine :_
    >
    >**_SSL personnalisés_** : si vous avez besoin d’un SSL personnalisé, vous pouvez envoyer un ticket de [support](https://experienceleague.adobe.com/fr/support){target="_blank"}. N’utilisez pas la case à cocher pour la création SSL.
 
-1. Si plusieurs espaces de travail sont définis pour votre instance Marketo Engage, cliquez sur **[!UICONTROL Suivant]**.
+<!-- 
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   Si nécessaire, sélectionnez chacun des espaces de travail auxquels vous souhaitez appliquer le nouveau domaine en tant que domaine principal.
+   If needed, select each of the workspaces where you want to apply the new domain as the primary domain.
 
-   ![Boîte de dialogue Nouveau domaine de branding avec sélection de l’espace de travail pour appliquer le domaine principal](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+    ![New Branding Domain dialog with workspace selection for applying the primary domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+-->
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**
+1. Cliquez sur **[!UICONTROL Suivant]** puis sur **[!UICONTROL Enregistrer]**.
 
-## Modifier les SSL pour les domaines de branding existants
+## Modifier les certificats SSL pour les domaines de branding existants
 
-Pour activer SSL pour vos domaines existants, procédez comme suit.
+Pour activer SSL pour vos domaines existants, procédez comme suit :
 
 1. Dans la zone _[!UICONTROL Admin]_, sélectionnez **[!UICONTROL Email]**.
 
@@ -135,12 +138,12 @@ Pour activer SSL pour vos domaines existants, procédez comme suit.
 | ----- | ------- |
 | `Domain already exists.` | Un domaine du même nom existe déjà. |
 | `Domain is not mapped to the default domain.` | Le domaine personnalisé n’est pas correctement mappé au domaine par défaut. Vérifiez les paramètres de mappage de domaine et assurez-vous que la configuration DNS pointe vers le domaine par défaut approprié. |
-| `SSL certificates could not be issued due to unsupported CAA records. Request your IT to update your CAA records.` | Les enregistrements CAA ne sont pas à jour. Pour les utilisateurs et utilisatrices qui utilisent des certificats SSL gérés par Adobe, les enregistrements CAA doivent être mis à jour vers les certificats recommandés par le fournisseur. |
+| `SSL certificates could not be issued due to unsupported CAA records. Request your IT to update your CAA records.` | Les enregistrements CAA ne sont pas à jour. Pour les personnes qui utilisent des certificats SSL gérés par Adobe, les enregistrements CAA doivent être mis à jour vers les certificats recommandés par le fournisseur. |
 | `SSL certificate has already been issued.` | Un certificat SSL existe déjà pour ce domaine personnalisé. Aucune autre action n’est nécessaire, sauf si le certificat a expiré ou doit être réémis. |
 | `The default domain was not found. Please contact Support for assistance.` | Un problème s’est produit lors de la recherche du domaine par défaut. Contactez l’assistance Adobe pour déclencher une enquête. |
 | `Unexpected error encountered while creating a domain. Please contact Support for assistance.` | Une erreur inattendue sʼest produite. Rassemblez les journaux et les détails de l’erreur, puis transmettez le problème à l’assistance Adobe. |
 
-## Suppression d’un domaine de branding
+## Supprimer un domaine de branding
 
 >[!NOTE]
 >

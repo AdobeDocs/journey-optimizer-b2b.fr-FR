@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -154,7 +154,7 @@ Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais dispon
 | ----- | ------ | ----------- |
 | Agent de création de parcours | Nouveau et mis à jour | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
 | Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
-| Qualificateur de vente | Nouveau | Le qualificateur de vente est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient le Account Qualification Agent et qui est conçue pour rationaliser les workflows pour les représentants au développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"} |
+| Qualificateur de vente | Nouveau | Sales Qualifier est une application complémentaire pilotée par l’IA pour Adobe Journey Optimizer B2B edition qui contient Account Qualification Agent et est conçue pour rationaliser les workflows pour les représentants du développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Notes de mise à jour 2025.10 {#rel-2025-10}
 
@@ -162,7 +162,7 @@ Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais dispon
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
-| Fonctionnalité | Activer vers la destination pour les parcours | Utilisez l’action de compte d’entreprise _Activer vers la destination_ pour une activation directe vers les entreprises plutôt que vers les individus. (Limité aux sociétés LinkedIn pour cette version.) [En savoir plus](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Fonctionnalité | Activer vers la destination pour les parcours | Utilisez l’action de compte d’entreprise _Activer vers la destination_ pour une activation directe vers les entreprises plutôt que vers les individus. (Limité aux sociétés LinkedIn pour cette version.) [En savoir plus](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Fonctionnalité | Thèmes de marque | Les thèmes de marque permettent désormais aux profils non techniques de créer du contenu réutilisable adapté à une marque et à un langage de conception spécifiques en ajoutant des styles personnalisés aux modèles standard. [En savoir plus](../content/brand-themes.md) |
 | Fonctionnalité | Modèles d’e-mail - convertir l’image en HTML | Vous pouvez désormais utiliser vos fichiers de conception stockés en tant que fichiers image JPG ou PNG et générer automatiquement des modèles d’e-mail. [En savoir plus](../content/email-template-image-convert.md) |
 | Fonctionnalité | Mappage de persona | Liez les membres de compte aux personas établies avec le mappage d’attributs. [En savoir plus](../admin/persona-mapping.md) |
@@ -254,7 +254,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Fonctionnalité | Accéder aux pages de détails dans CRM | Vous pouvez désormais configurer des liens directs vers les pages de détails de Journey Optimizer B2B Edition pour les comptes, contacts et leads dans votre outil de gestion de la relation clientèle (CRM), tel que Salesforce ou Microsoft Dynamics. [En savoir plus](../accounts/crm-linking.md) |
 | Fonctionnalité | Prise en charge de CSS personnalisé pour la conception de contenu | Vous pouvez désormais ajouter votre propre CSS personnalisé lorsque vous créez du contenu d’e-mail et de page de destination dans l’espace de conception. [En savoir plus](../content/design-custom-css.md) |
 | Fonctionnalité | Configuration du mappage de mots-clés d’intention | Pour activer et gérer le modèle de détection des intentions, les administrateurs peuvent désormais charger une feuille de calcul pour définir une catégorie de mappage des données d’intention. [En savoir plus](../admin/intent-data.md) |
-| Amélioration | Simuler le contenu à partir du résumé de l’e-mail | Vous pouvez désormais accéder aux outils _Simuler le contenu_ à partir du résumé de l’e-mail (détails et propriétés) lorsque vous ouvrez un e-mail à partir de la liste E-mails. Cet accès s’ajoute à l’espace de conception des e-mails. [En savoir plus](../content/email-simulate-content.md#display-the-email-preview) |
+| Amélioration | Simuler le contenu à partir du résumé de l’e-mail | Vous pouvez désormais accéder aux outils _Simuler le contenu_ à partir du résumé de l’e-mail (détails et propriétés) lorsque vous ouvrez un e-mail à partir de la liste E-mails. Cet accès s’ajoute à l’espace de conception des e-mails. [En savoir plus](../content/email-simulate-content.md#display-preview) |
 | Amélioration | Affichage du nombre total pour la liste des modèles de rôle | La page de liste _[!UICONTROL Modèles de rôle]_ est améliorée avec l’affichage du nombre total à côté de la barre de recherche. |
 
 ## Notes de mise à jour 2025.5 {#rel-2025-5}
@@ -280,7 +280,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | ---- | ---- | ----------- |
 | Fonctionnalité | Listes de comptes | Vous pouvez désormais créer une liste de comptes statiques ou dynamiques pour cibler les comptes nommés en fonction de vos critères définis, tels que le secteur d’activité, l’emplacement ou la taille de l’entreprise. <a href="../accounts/account-lists.md">En savoir plus</a> |
 | Fonctionnalité | Orchestration de parcours de listes de comptes | Utilisez les nœuds d’action de parcours pour ajouter et supprimer des comptes pour les listes de comptes statiques. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">En savoir plus</a> |
-| Amélioration | Filtrer l’appartenance à un parcours dans Marketo Engage | Utilisez les listes de comptes Adobe Journey Optimizer B2B Edition pour l’audience de parcours, puis utilisez le filtre _Membre d’une liste de comptes_ dans les listes intelligentes Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">En savoir plus</a> |
+| Amélioration | Filtrer l’appartenance à un parcours dans Marketo Engage | Utilisez les listes de comptes Adobe Journey Optimizer B2B Edition pour l’audience de parcours, puis utilisez le filtre _Membre d’une liste de comptes_ dans les listes intelligentes Marketo Engage. |
 | Fonctionnalité | Filtres d’inactivité | Orchestrez des parcours en fonction de l’inactivité dans les campagnes et programmes Marketo Engage, y compris l’inactivité des e-mails, les moments intéressants, les modifications de valeur des données et les pages web visitées. |
 | Amélioration | Filtre des pages web visitées | Orchestrez des parcours en fonction de l’activité des pages web visitées associées aux campagnes et programmes Marketo Engage. |
 | Amélioration | Liste des e-mails | Consultez une liste globale des e-mails actifs et des brouillons d’e-mail pour les rechercher, les examiner et les mettre à jour dans les parcours de compte associés. <a href="../content/emails-list.md">En savoir plus</a> |

@@ -16,10 +16,10 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 61%
+source-wordcount: 848
+ht-degree: 62%
 
 ---
 
@@ -35,7 +35,7 @@ Si vous disposez d’[!DNL Adobe Experience Manager as a Cloud Services] et qu�
 
 ### Ressources internes
 
-Le référentiel de ressources interne est fourni par défaut avec chaque abonnement [!DNL Journey Optimizer B2B Edition]. Cela signifie que vous avez accès à l’une des ressources d’image stockées dans le système de fichiers de ressources d’[!DNL Adobe Marketo Engage] connecté. Vous pouvez utiliser ce référentiel comme votre bibliothèque de ressources locale, y compris les fonctions de chargement et de téléchargement de ressources. Vous pouvez également utiliser ces ressources dans le contenu de votre parcours.
+Le référentiel de ressources interne est fourni par défaut avec chaque abonnement [!DNL Journey Optimizer B2B Edition]. Vous pouvez utiliser ce référentiel comme votre bibliothèque de ressources locale, y compris les fonctions de chargement et de téléchargement de ressources. Vous pouvez également utiliser ces ressources dans le contenu de votre parcours.
 
 Vous pouvez [modifier ces ressources à l’aide d’Adobe Express](./image-edit-adobe-express.md) et les déplacer dans des dossiers pour les organiser afin de les utiliser dans vos e-mails, modèles et fragments.
 
@@ -43,7 +43,7 @@ Formats de fichiers pris en charge : JPG, JPEG, GIF, PNG, EPS, SVG et RGB
 
 ### Adobe Experience Manager Assets as a Cloud Service
 
-Rassemblez les workflows marketing et créatifs à l’aide de [!DNL Adobe Experience Manager Assets]. Il est nativement intégré à [!DNL Journey Optimizer B2B Edition], ce qui vous permet d’accéder facilement à Assets as a Cloud Service pour découvrir et utiliser des ressources numériques. Vous avez ainsi accès à votre référentiel Assets de ressources que vous pouvez utiliser pour renseigner vos messages.
+Rassemblez les workflows marketing et créatifs à l’aide de [!DNL Adobe Experience Manager Assets]. Il est nativement intégré à [!DNL Journey Optimizer B2B Edition], ce qui vous permet d’accéder facilement à Assets as a Cloud Service pour découvrir et utiliser des ressources numériques. Il donne accès à votre référentiel Assets, qui contient des ressources que vous pouvez utiliser pour renseigner vos messages.
 
 [!DNL Adobe Journey Optimizer B2B Edition] peut se connecter à [!DNL Adobe Experience Manager Assets as a Cloud Service] pour une gestion centralisée des ressources, étendant votre système de création et unifiant les ressources numériques pour la diffusion d’expériences. [!DNL Adobe Experience Manager Assets as a Cloud Service] offre une solution cloud facile à utiliser pour une gestion efficace des ressources numériques et des opérations Dynamic Media. Il intègre de manière transparente des fonctionnalités avancées, notamment l’intelligence artificielle et le machine learning.
 
@@ -73,7 +73,7 @@ Vous pouvez choisir la source de l’image lorsque vous modifiez les paramètres
 
   ![Utiliser la barre d’outils afin de choisir une source et sélectionner un fichier image pour le composant d’image](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-Vous pouvez ajouter une ressource d’image au fur et à mesure que vous créez votre contenu, selon la source celle-ci. Vous pouvez également choisir une ressource d’image dans les paramètres d’arrière-plan d’un composant de structure.
+Vous pouvez ajouter une ressource d’image au fur et à mesure que vous créez votre contenu, selon la source de cette ressource. Vous pouvez également choisir une ressource d’image dans les paramètres d’arrière-plan d’un composant de structure.
 
 >[!BEGINTABS]
 

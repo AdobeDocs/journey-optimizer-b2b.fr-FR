@@ -22,7 +22,7 @@ role_v2:
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
 source-wordcount: 2975
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -39,8 +39,8 @@ Vous pouvez créer deux types de jeux de règles :
 
 * Les jeux de règles de **Canal** appliquent des règles aux canaux de communication. Ils vous permettent de définir les éléments suivants :
 
-   * **Règles de limitation de la fréquence** - Exemple : *n’envoyez pas plus d’une communication par e-mail, SMS, notification push, courrier ou WhatsApp par jour.*
-   * **Règles relatives aux heures calmes** - Exemple : *n’envoyez pas d’e-mails en dehors de l’intervalle de 8 h à 21 h.*
+  * **Règles de limitation de la fréquence** - Exemple : *n’envoyez pas plus d’une communication par e-mail, SMS, notification push, courrier ou WhatsApp par jour.*
+  * **Règles relatives aux heures calmes** - Exemple : *n’envoyez pas d’e-mails en dehors de l’intervalle de 8 h à 21 h.*
 
 * Les jeux de règles de **Parcours** appliquent des règles de limitation d’entrée et de simultanéité à un parcours. (Pas encore pris en charge pour la version Beta.)
 
@@ -83,7 +83,7 @@ Pour désactiver une règle, cliquez sur l’icône _Désactiver_ ( ![Icône Dé
 >
 >La désactivation d’une règle ou d’un jeu de règles n’affecte ou ne réinitialise aucun comptage sur les profils individuels.
 
-## Création et activation d’ensembles de règles personnalisés {#create}
+## Créer et activer des ensembles de règles personnalisées {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -98,12 +98,12 @@ Pour désactiver une règle, cliquez sur l’icône _Désactiver_ ( ![Icône Dé
 >[!CONTEXTUALHELP]
 >id="ajob2b-prime_rule_type"
 >title="Type de règle"
->abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’une communication par e-mail ou SMS par jour. Sélectionnez **Heures creuses** pour définir des exclusions basées sur l’heure afin de vous assurer qu’aucun message n’est envoyé pendant certaines périodes."
+>abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’un e-mail ou d’un SMS par jour. Sélectionnez **Heures creuses** pour définir des exclusions basées sur l’heure afin de vous assurer qu’aucun message n’est envoyé pendant certaines périodes."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
->title="Réinitialiser la fréquence de limitation"
->abstract="Sélectionnez la période de calendrier utilisée pour réinitialiser le compteur de limitation : horaire, quotidien, hebdomadaire ou mensuel. Le compteur se réinitialise automatiquement à 0 au début de chaque nouvelle période."
+>title="Réinitialiser le capping de la fréquence"
+>abstract="Sélectionnez la période de calendrier utilisée pour réinitialiser le compteur de capping de la fréquence : horaire, quotidien, hebdomadaire ou mensuel. Le compteur se réinitialise automatiquement à 0 au début de chaque nouvelle période."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_rule_capping"
@@ -117,7 +117,7 @@ Pour désactiver une règle, cliquez sur l’icône _Désactiver_ ( ![Icône Dé
 
 >[!NOTE]
 >
->Vous pouvez créer jusqu’à 10 ensembles de règles pour le domaine de canal et 10 ensembles de règles pour le domaine de parcours, pour un total de 20 ensembles de règles.
+>Vous pouvez créer jusqu’à 10 jeux de règles pour le domaine de canal et 10 jeux de règles pour le domaine de parcours, pour un total de 20 jeux de règles.
 
 1. Développez **[!UICONTROL Administration]** dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Règles métier]**.
 
@@ -192,7 +192,7 @@ Vous pouvez appliquer l’ensemble de règles actif à un message ou à un parco
 
 ## Capping de la fréquence par canal {#frequency-capping}
 
-Définissez des limites de fréquence par canal et type de communication pour limiter le nombre de messages reçus par un profil et éviter de surcharger les clients avec des communications similaires. Les ensembles de règles de canal appliquent des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’une communication par e-mail ou SMS par jour.
+Définissez des limites de fréquence par canal et type de communication pour limiter le nombre de messages reçus par un profil et éviter de surcharger les clients avec des communications similaires. Les ensembles de règles de canal appliquent des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’un e-mail ou d’un SMS par jour.
 
 L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de _communications promotionnelles_ envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de _newsletters_ qu’elle reçoit. Vous pouvez ensuite choisir d’appliquer l’ensemble de règles de communication promotionnelle ou de newsletters.
 
@@ -200,11 +200,11 @@ L’utilisation des jeux de règles de canal vous permet de définir un capping 
 >
 >Pour garantir le bon fonctionnement de la limitation au niveau des canaux, veillez à choisir l’espace de noms avec la priorité la plus élevée lors de la création d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le [guide sur le service d’identités Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
 
-### Créer une règle de limitation de canal {#create-capping-rule}
+### Créer une règle de capping de la fréquence de canal {#create-capping-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="Définir les canaux auxquels la règle s’applique"
+>title="Définissez les canaux auxquels la règle s’applique."
 >abstract="Sélectionnez au moins un canal. La limitation est calculée sur l’ensemble des canaux."
 
 1. Sélectionnez l’ensemble de règles de canal auquel vous souhaitez ajouter la règle de limitation ou créez un ensemble de règles de canal.
@@ -256,7 +256,7 @@ L’utilisation des jeux de règles de canal vous permet de définir un capping 
 
    Sélectionnez plusieurs canaux si vous souhaitez appliquer une limitation sur tous les canaux sélectionnés en tant que nombre total.
 
-   Par exemple, définissez la limitation sur 5 et sélectionnez les canaux E-mail et SMS. Si un profil a déjà reçu trois e-mails marketing et deux SMS marketing pour la période sélectionnée, ce profil est exclu de la prochaine diffusion de tout e-mail ou SMS marketing.
+   Par exemple, définissez le capping de la fréquence sur 5 et sélectionnez les canaux e-mail et SMS. Si un profil a déjà reçu trois e-mails marketing et deux SMS marketing pour la période sélectionnée, ce profil est exclu de la prochaine diffusion de tout e-mail ou SMS marketing.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer la création de la règle.
 
@@ -352,9 +352,9 @@ Vous pouvez appliquer des heures calmes par le biais d’ensembles de règles et
 
    * Cliquez sur l’icône _Calendrier_ et indiquez la période pendant laquelle les heures calmes doivent s’appliquer.
 
-      * **[!UICONTROL Hebdomadaire]** : sélectionnez des jours spécifiques de la semaine et un créneau horaire. Vous pouvez également appliquer la règle **[!UICONTROL Toute la journée]**.
+     * **[!UICONTROL Hebdomadaire]** : sélectionnez des jours spécifiques de la semaine et un créneau horaire. Vous pouvez également appliquer la règle **[!UICONTROL Toute la journée]**.
 
-      * **[!UICONTROL Date personnalisée]** : sélectionnez des dates spécifiques dans le calendrier et un créneau horaire. Vous pouvez également appliquer la règle **[!UICONTROL Toute la journée]**.
+     * **[!UICONTROL Date personnalisée]** : sélectionnez des dates spécifiques dans le calendrier et un créneau horaire. Vous pouvez également appliquer la règle **[!UICONTROL Toute la journée]**.
 
      ![Boîte de dialogue Calendrier pour définir les dates et heures d’inactivité](./assets/business-rules-quiet-hours-dates-times-calendar.png){width="450"}
 
@@ -368,13 +368,13 @@ Vous pouvez appliquer des heures calmes par le biais d’ensembles de règles et
 
      >[!NOTE]
      >
-     >Si un message reste dans la file d’attente pour un profil pendant plus de 7 jours, le message est ignoré.
+     >Si un message reste dans la file d’attente pour un profil pendant plus de 7 jours, le message est ignoré.
 
    * **[!UICONTROL Ignorer le message]** : les messages ne sont jamais envoyés.
 
      >[!NOTE]
      >
-     >Si vous sélectionnez **[!UICONTROL Ignorer]** et appliquez cette règle à une action de parcours, le profil est supprimé de la diffusion du message et quitté le parcours.
+     >Si vous sélectionnez **[!UICONTROL Ignorer]** et appliquez cette règle à une action de parcours, le profil est supprimé de la diffusion du message et exclu du parcours.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer la création de la règle.
 
