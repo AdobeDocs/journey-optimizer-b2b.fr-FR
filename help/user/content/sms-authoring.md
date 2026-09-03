@@ -6,26 +6,16 @@ role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 1207
-ht-degree: 5%
+source-wordcount: 1251
+ht-degree: 4%
 
 ---
 
@@ -95,33 +85,29 @@ Vous pouvez créer un message de 1 600 caractères maximum, tous les 160 caract�
 
 1. Après avoir saisi le texte de votre message, cliquez sur l’icône _Lien_ ( ![icône Lien](../assets/do-not-localize/icon-link.svg) ) à droite de la zone de message texte.
 
-1. Saisissez l’**[!UICONTROL URL]** du lien.
-
-
 1. Dans la boîte de dialogue, choisissez le type d’URL à lier :
 
    * **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner l’une des pages de destination publiées.
 
-   * **[!UICONTROL URL externe]** - Il s’agit de toute URL externe que vous saisissez dans la zone de texte.
+   * **[!UICONTROL URL externe]** - Sélectionnez cette option pour lier une URL externe. Saisissez l’**[!UICONTROL URL]** du lien.
+
+     ![Boîte de dialogue Ajouter un lien pour un SMS](./assets/sms-add-link-dialog.png){width="470"}
+
+1. (Facultatif) Définissez les options de suivi.
+
+   * **[!UICONTROL Activer le suivi des liens]** - Cochez cette case pour activer le suivi, qui nécessite _raccourcissement_ de l’URL. Un exemple du format d’URL raccourci s’affiche. L’URL réelle est créée lorsque le SMS est envoyé au destinataire.
+
+   * **[!UICONTROL Activer le suivi des leads]** - Cochez cette case pour suivre l’activité par rapport à un utilisateur.</br>
 
 <!--
-
-1. If you choose to use a Marketo Engage landing page, set the tracking options.
-
-   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
-
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
-
       >[!NOTE] 
       >
-      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
-      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+      >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
-![Boîte de dialogue Ajouter un lien pour un SMS](./assets/sms-add-link-dialog.png){width="470"}
-
-1. Une fois les options de lien renseignées, cliquez sur **[!UICONTROL Ajouter]** pour enregistrer les modifications et ajouter le lien URL au SMS.
+1. Une fois les options de lien renseignées, cliquez sur **[!UICONTROL Ajouter]** pour ajouter le lien URL au SMS.
 
 ### Définir les propriétés du SMS {#sms-properties}
 
@@ -183,7 +169,7 @@ Lorsque le contenu de votre message est défini, vous pouvez utiliser des profil
 
 ## Gestion du consentement des SMS {#consent-management}
 
-La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque et de respecter leur choix est une exigence légale. Le non-respect de ces réglementations introduit des risques juridiques pour votre marque. Cette fonction vous permet d’éviter d’envoyer des communications non sollicitées à vos destinataires. Cela les empêche de marquer vos messages comme spam et de nuire à votre réputation.
+La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque et de respecter leur choix est une exigence légale. Le non-respect de ces réglementations introduit des risques juridiques pour votre marque. Cette fonction vous permet d’éviter d’envoyer des communications non sollicitées à vos destinataires. Cela les empêche de marquer vos messages comme spam et d&#39;endommager votre réputation.
 
 Lorsque vous fournissez cette option, les destinataires de SMS peuvent répondre avec des mots-clés d’opt-in et d’opt-out. Tous les mots-clés standard d’opt-in et d’opt-out sont pris en charge et respectés, comme tous les mots-clés personnalisés configurés avec le fournisseur de services SMS. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
 
