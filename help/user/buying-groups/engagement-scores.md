@@ -4,23 +4,17 @@ description: Calculez les scores d’engagement du groupe d’achats et de la pe
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
-ht-degree: 30%
+source-wordcount: 1229
+ht-degree: 29%
 
 ---
 
@@ -37,19 +31,19 @@ Il existe deux types de scores d’engagement :
 
 * **Score d’engagement du groupe d’achat** - Le score d’engagement du groupe d’achat est un score normalisé compris entre 0 et 100 et est basé sur le score d’engagement calculé au niveau de la personne.
 
-  Le score de l&#39;engagement du groupe d&#39;achats est affiché sur la page [&#x200B; Détails du groupe d&#39;achats &#x200B;](./buying-group-details.md). Vous pouvez également afficher les groupes d&#39;achats les plus engagés dans le tableau de bord Intelligent.
+  Le score de l&#39;engagement du groupe d&#39;achats est affiché sur la page [ Détails du groupe d&#39;achats ](./buying-group-details.md). Vous pouvez également afficher les groupes d&#39;achats les plus engagés dans le tableau de bord Intelligent.
 
   ![Groupes d&#39;achats les plus engagés](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
 
 * **Score d’engagement de la personne** - Le score d’engagement de la personne est basé sur les activités d’un membre individuel du groupe d’achats.
 
-  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres &#x200B;]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
+  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres ]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
 
   ![Membres du groupe d&#39;achat les plus engagés](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Le score d’engagement de la personne est un attribut disponible à utiliser pour le filtrage dans les [modèles de rôles](./buying-groups-role-templates.md#add-the-template-roles) et les [nœuds de chemin fractionné par parcours &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters).
+Le score d’engagement de la personne est un attribut disponible à utiliser pour le filtrage dans les [modèles de rôles](./buying-groups-role-templates.md#add-the-template-roles) et les [nœuds de chemin fractionné par parcours ](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Accéder aux définitions d’événement configurées](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
@@ -63,7 +57,7 @@ La notation du groupe d&#39;achats n&#39;est pas _basée sur le déclenchement_.
 
 La limite de fréquence quotidienne est de 20 pour chaque activité. Si un membre d&#39;un groupe d&#39;achat effectue la même activité plus de 20 fois au cours d&#39;une seule journée, le nombre pour l&#39;activité est plafonné à 20.
 
-| Nom de l’activité | Description | Type d’engagement | Fréquences quotidiennes maximales | Poids d’activité du modèle par défaut |
+| Nom de l’activité | Description | Type d’engagement | Nombre maximal d’occurrences par jour | Poids d’activité du modèle par défaut |
 |---------------|-------------|-----------------|---------------------------|-------------------------------|
 | Participer à l’événement | Un membre a participé à un événement. | Événement | 20 | 60 |
 | E-mail sur lequel l’utilisateur a cliqué | Un membre clique sur un lien dans un e-mail. | E-mail | 20 | 30 |
@@ -115,10 +109,6 @@ La limite de fréquence quotidienne est de 20 pour chaque activité. Si un membr
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
-
->[!NOTE]
->
->Les activités Score d’engagement sont enregistrées dans le journal d’activité Marketo Engage d’une personne. Vous pouvez accéder à ce journal dans l’instance Marketo Engage connectée. Pour plus d’informations, voir [Rechercher le journal d’activité d’une personne](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} dans la documentation de Marketo Engage.
 
 ## Pondération du modèle de rôle {#engagement-score-weighting}
 

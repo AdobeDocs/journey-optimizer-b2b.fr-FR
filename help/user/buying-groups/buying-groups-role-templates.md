@@ -4,19 +4,15 @@ description: Créez des modèles de rôle avec affectation automatique condition
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -99,7 +95,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 | Type | Conditions |
 | ---- | --------- |
 | [!UICONTROL Attributs de personne] | Attributs du [profil de la personne](../admin/field-mapping.md#xdm-business-person-attributes), notamment : <li>Ville <li>Pays <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État |
-| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ou la personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans les [Schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas). |
+| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ou la personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans les [Schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtres spéciaux | <li>Membre de la liste (obsolète) <li>Membre du programme (obsolète) |
 | Données d’intention | <li>Intention de la catégorie <li>Intention du produit <li><br/> d’intention du mot-clé (voir [_Données d’intention_](../admin/intent-data.md)) |
 
@@ -157,23 +153,6 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
    Vos modifications sont enregistrées automatiquement au statut _Brouillon_. Si vous n’êtes pas prêt à publier le modèle de rôles, cliquez sur la flèche de gauche (arrière) en haut de la page et revenez à la liste _[!UICONTROL Modèles de rôles]_.
 
->[!BEGINSHADEBOX « Appartenance à une liste Marketo Engage« ]
-
-Dans Marketo Engage, les _campagnes intelligentes_ vérifient l’adhésion aux programmes pour vous assurer que les prospects ne reçoivent pas d’e-mails en double et ne sont pas membres de plusieurs flux d’e-mails en même temps. Dans Journey Optimizer B2B, vous pouvez vérifier l’appartenance à la liste Marketo Engage en tant que condition de votre modèle de rôles afin d’éliminer la duplication dans l’appartenance à un groupe d’achat et les activités de parcours.
-
-Pour utiliser l’appartenance à une liste comme condition de rôle, développez **[!UICONTROL Filtres spéciaux]** et faites glisser la condition **[!UICONTROL Membre de la liste]** dans l’espace de filtrage. Pour évaluer l’appartenance à une ou plusieurs listes Marketo Engage, renseignez la définition du filtre .
-
-![Condition de modèle des rôles pour l’appartenance à une liste Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Obsolescence de fonctionnalités**
->
->Dans la version actuelle de Journey Optimizer B2B edition, le filtrage basé sur l’appartenance à une liste ou à un programme dans une instance Marketo Engage n’est plus pris en charge.
-
->[!ENDSHADEBOX]
-
 ### Modifier les paramètres de score d&#39;exhaustivité {#change-the-completeness-score-settings}
 
 Par défaut, l&#39;exhaustivité d&#39;un rôle est définie comme un membre affecté au rôle. Lorsque vous utilisez l&#39;exhaustivité du groupe d&#39;achats pour indiquer le niveau de préparation des ventes, utilisez ces paramètres pour aligner le score sur le nombre de membres requis pour fermer une opportunité.
@@ -188,7 +167,7 @@ Voir la section [Scores d’exhaustivité](./completeness-scores.md) pour obteni
 
 1. Dans la boîte de dialogue, modifiez la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini, le cas échéant.
 
-   Vous pouvez saisir la valeur ou cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
+   Vous pouvez saisir la valeur ou cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Boîte de dialogue Paramètres de score d’exhaustivité du modèle de rôles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -232,7 +211,7 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 1. Cliquez sur **[!UICONTROL Supprimer]** en haut à droite.
 
-   ![&#x200B; Boîte de dialogue de confirmation Supprimer le modèle de rôle &#x200B;](./assets/roles-template-delete.png){width="700"}
+   ![ Boîte de dialogue de confirmation Supprimer le modèle de rôle ](./assets/roles-template-delete.png){width="700"}
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Supprimer]** pour confirmer.
 
@@ -240,4 +219,4 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 ## Vidéo de présentation {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '450'
 ht-degree: 85%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 85%
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)
@@ -91,7 +91,6 @@ ht-degree: 85%
     + [Étapes des groupes d’achat](./buying-groups/buying-group-stages.md)
     + [Créer des groupes d’achat](./buying-groups/buying-groups-create.md)
     + [Exporter des comptes](./audiences/account-list-export.md)
-    + [Filtres de groupe d’achat dans Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
     + [Insights In-CRM](./buying-groups/incrm-insights.md)
   + Listes de comptes {#account-lists}
     + [Vue d’ensemble](./accounts/account-lists.md)
