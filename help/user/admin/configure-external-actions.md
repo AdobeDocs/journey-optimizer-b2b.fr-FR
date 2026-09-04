@@ -1,38 +1,29 @@
 ---
 title: Configuration des actions externes
-description: Découvrez comment les développeurs, les administrateurs et les spécialistes du marketing travaillent ensemble pour implémenter, configurer et utiliser des actions externes qui connectent Journey Optimizer B2B edition à des services externes dans les parcours de compte.
+description: Découvrez comment les développeurs, les administrateurs et les spécialistes du marketing travaillent ensemble pour implémenter, configurer et utiliser des actions externes qui connectent Journey Optimizer B2B edition à des services externes dans parcours.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1278
 ht-degree: 1%
 
 ---
 
 # Configuration des actions externes
 
-Les actions externes permettent aux parcours de compte dans Journey Optimizer B2B edition de se connecter à des systèmes externes directement à partir de la zone de travail de parcours. Lorsqu’une audience de compte atteint un nœud d’action externe, le système effectue un appel sortant asynchrone vers un service externe configuré, en transmettant les données d’attribut d’audience pour les comptes, les personnes ou les deux. Le service externe traite les données et répond à l’aide d’un rappel , renvoyant les données et métadonnées de l’audience qui peuvent être utilisées pour guider l’exécution du parcours.
+Les actions externes permettent aux parcours de compte et de personne dans [!DNL Journey Optimizer B2B Edition] de se connecter à des systèmes externes directement à partir de la zone de travail de parcours. Lorsqu’une audience atteint un nœud d’action externe, le système effectue un appel sortant asynchrone vers un service externe configuré, en transmettant les données d’attribut d’audience. Le service externe traite les données et répond à l’aide d’un rappel , renvoyant les données et métadonnées de l’audience qui peuvent être utilisées pour guider l’exécution du parcours.
 
 Cette fonctionnalité prend en charge deux types de nœuds de parcours :
 
-* **Action externe** - Appelle un service externe et continue le long d’un seul chemin sortant. Idéal pour les intégrations _à déclenchement et à oubli_ telles que la mise à jour d’un enregistrement CRM ou le déclenchement d’une notification en aval.
-* **Chemins de partage externes** - Appelle un service externe et évalue la réponse pour acheminer les comptes le long de l’un des chemins définis.
-
->[!NOTE]
->
->Les services d’action externe sont pris en charge uniquement pour les parcours de compte. Ces types de nœuds ne sont pas disponibles pour les parcours de personnes.
+* **Action externe** - Appelle un service externe et continue le long d’un seul chemin sortant. Idéal pour les intégrations asynchrones, telles que la mise à jour d’un enregistrement CRM ou le déclenchement d’une notification en aval.
+* **Chemins de partage externes** - Appelle un service externe et évalue la réponse pour acheminer les comptes ou les personnes le long de l’un des chemins définis.
 
 ## Présentation de l’implémentation
 
@@ -42,11 +33,11 @@ La configuration des actions externes nécessite une coordination entre trois r�
 | ---- | ---- | ---- |
 | 1 | Développeur | [Implémenter et publier le service externe](#implement-service) |
 | 2 | Administrateur | [Configurer l’action dans Journey Optimizer B2B edition](#configure-action) |
-| 3 | Spécialiste marketing | [Ajouter un nœud externe à un parcours de compte](#add-journey-node) |
+| 3 | Spécialiste marketing | [Ajouter un nœud externe à un parcours ](#add-journey-node) |
 
 ## Implémenter le service externe {#implement-service}
 
-Le développeur doit créer et publier un service web public conforme à l&#39;interface du fournisseur de services d&#39;actions externes de Adobe Journey Optimizer B2B edition [&#128279;](https://developer.adobe.com/journey-optimizer-b2b-apis/).
+Le développeur doit créer et publier un service web public conforme à l&#39;interface du fournisseur de services d&#39;actions externes de Adobe Journey Optimizer B2B edition [](https://developer.adobe.com/journey-optimizer-b2b-apis/).
 
 >[!NOTE]
 >
@@ -64,7 +55,7 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 >
 >Pour définir et activer une action externe, vous devez disposer de l’autorisation _[!UICONTROL Gérer les configurations d’administration B2B]_ [produit](./user-management.md#b2b-product-permissions).
 
-1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
+1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
 1. Cliquez sur **[!UICONTROL Actions externes]** dans le panneau intermédiaire.
 
@@ -100,7 +91,7 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
-1. Définissez les propriétés **[!UICONTROL Configurations]** pour définir la manière dont l’action échange des données avec le service externe.
+1. Pour définir la manière dont l’action échange des données avec le service externe, définissez les propriétés **[!UICONTROL Configurations]**.
 
    >[!NOTE]
    >
@@ -108,8 +99,8 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 
    * **[!UICONTROL Type d’action]** (_statique_) - Le type de nœud de parcours pris en charge :
 
-      * [!UICONTROL Action externe] (`enableSplitPath` = false)
-      * [!UICONTROL Chemin de partage de l’action externe] (`enableSplitPath` = true)
+     * [!UICONTROL Action externe] (`enableSplitPath` = false)
+     * [!UICONTROL Chemin de partage de l’action externe] (`enableSplitPath` = true)
 
      Vous ne pouvez pas modifier le type d’action après avoir créé la configuration d’action.
 
@@ -117,11 +108,11 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 
    * **[!UICONTROL Contexte du Parcours]** (_Statique_) - Portée des données d’audience envoyées dans la requête (`supportedEntityType`) :
 
-      * [!UICONTROL Compte] - Envoie uniquement les comptes
+     * [!UICONTROL Compte] - Envoie uniquement les comptes
 
-      * [!UICONTROL Personnes] - Envoie uniquement des personnes
+     * [!UICONTROL Personnes] - Envoie uniquement des personnes
 
-      * [!UICONTROL Personnes sur le compte] - Envoie les comptes et les personnes associées au compte
+     * [!UICONTROL Personnes sur le compte] - Envoie les comptes et les personnes associées au compte
 
    * **[!UICONTROL Champs sortants]** - Mappez chaque champ de la table à un [champ XDM](../admin/xdm-field-management.md). Ces champs sont envoyés au service externe dans le corps de la requête. Propriétés de définition de service : `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
@@ -139,13 +130,13 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 
 1. Cliquez sur la _flèche Précédent_ pour revenir à la liste et conserver l’action à l’état _Brouillon_.
 
-   Ou cliquez sur **[!UICONTROL Activer]** pour définir la configuration de l’action sur l’état _Actif_. L’action externe configurée doit être active pour pouvoir être utilisée dans les parcours de compte.
+   Ou cliquez sur **[!UICONTROL Activer]** pour définir la configuration de l’action sur l’état _Actif_. L’action externe configurée doit être active pour pouvoir être utilisée dans les parcours.
 
 ### Dépannage {#troubleshooting}
 
 Lorsque vous saisissez l’URL de la spécification OpenAPI pour votre service externe et cliquez sur **[!UICONTROL Créer]**, le système effectue la validation du service. Lorsqu’elle rencontre une erreur, la boîte de dialogue affiche un message pour décrire l’erreur.
 
-![&#x200B; Message d’erreur de validation du service d’URL d’action externe &#x200B;](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+![ Message d’erreur de validation du service d’URL d’action externe ](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -162,7 +153,7 @@ Lorsque vous saisissez l’URL de la spécification OpenAPI pour votre service e
 | `The entity type value is invalid` | Une extension `x-` spécifique à Adobe pour le type d’entité a une valeur non reconnue | Corrigez le type d’entité sur une valeur prise en charge. Consultez la [documentation pour les développeurs](https://developer.adobe.com/journey-optimizer-b2b-apis/) pour connaître les options valides. |
 | `The provided document is not a valid OpenAPI specification` | La spécification ne peut pas être analysée structurellement. | Validez votre spécification par rapport au schéma OpenAPI 3.0 et corrigez les problèmes. |
 | `Required OpenAPI field is missing` | Il n’y a pas de champ obligatoire OpenAPI standard (`info` ou `paths`, par exemple). | Ajoutez le champ manquant. |
-| `Required endpoint is missing from the specification` | Un point d’entrée requis par Adobe Journey Optimizer B2B edition n’est pas défini dans votre spécification. | Ajoutez le point d’entrée requis. Pour connaître les points d’entrée nécessaires[&#128279;](https://developer.adobe.com/journey-optimizer-b2b-apis/) consultez la  documentation pour les développeurs et développeuses . |
+| `Required endpoint is missing from the specification` | Un point d’entrée requis par Adobe Journey Optimizer B2B edition n’est pas défini dans votre spécification. | Ajoutez le point d’entrée requis. Pour connaître les points d’entrée nécessaires](https://developer.adobe.com/journey-optimizer-b2b-apis/) consultez la [ documentation pour les développeurs et développeuses . |
 | `Required extension field is missing` | Un champ d’extension Adobe `x-` obligatoire est absent de votre spécification. | Ajoutez le champ d’extension manquant comme décrit dans la documentation. |
 | `Security schemes are missing from the specification` | Aucune spécification n’a `securitySchemes` définie sous `components`. | Définissez au moins un schéma de sécurité. |
 | `Multiple authentication types are not supported` | Votre spécification définit plusieurs schémas d’authentification. | Mettez à jour votre spécification pour utiliser un seul type d’authentification. |
@@ -182,4 +173,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## Ajouter un nœud externe à un parcours {#add-journey-node}
 
-Une fois qu’une action est activée, les spécialistes marketing peuvent ajouter un nœud _[!UICONTROL Action externe]_ ou _[!UICONTROL Chemin de partage externe]_ à n’importe quel parcours de compte. Pour plus d’informations sur l’ajout et l’utilisation de ces nœuds dans la zone de travail du parcours de compte, voir [Nœuds externes](../journeys/external-nodes.md).
+Une fois qu’une action est activée, les spécialistes marketing peuvent ajouter un nœud _[!UICONTROL Action externe]_ ou _[!UICONTROL Chemin de partage externe]_ à n’importe quel parcours de compte ou de personne. Pour plus d’informations sur l’ajout et l’utilisation de ces nœuds dans la zone de travail de parcours, voir [Nœuds externes](../journeys/external-nodes.md).
