@@ -4,10 +4,16 @@ description: Découvrez les fonctionnalités de gouvernance actuellement disponi
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
 source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
@@ -27,7 +33,7 @@ Diverses réglementations s’appliquent aux utilisateurs de [!DNL Journey Optim
 
 ### RGPD
 
-Le Règlement général sur la protection des données (RGPD) est la loi de l’Union européenne (UE) sur la protection de la vie privée qui harmonise et modernise les [ exigences en matière de protection des données ](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} pour les pays de l’UE.
+Le Règlement général sur la protection des données (RGPD) est la loi de l’Union européenne (UE) sur la protection de la vie privée qui harmonise et modernise les [&#x200B; exigences en matière de protection des données &#x200B;](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} pour les pays de l’UE.
 
 [!DNL Journey Optimizer B2B Edition] utilise la fonctionnalité de gouvernance existante du RGPD d’Experience Platform fournie par Privacy Service. Pour plus d’informations sur l’envoi et la gestion des demandes d’accès et de suppression, voir [_Gestion de la confidentialité_](./privacy-management.md).
 
