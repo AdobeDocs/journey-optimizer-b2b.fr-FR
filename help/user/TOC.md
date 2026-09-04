@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 85%
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)
@@ -161,7 +161,8 @@ ht-degree: 85%
   + [Tableau de bord des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
   + [Tableau de bord Parcours](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
-  + [Gouvernance et confidentialité](./admin/governance.md)
+  + [Gouvernance](./admin/governance.md)
+  + [Gestion de la confidentialité](./admin/privacy-management.md)
   + [Mappage de persona](./admin/persona-mapping.md)
   + Configurations {#configurations}
     + [Référentiels AEM Assets](./admin/configure-aem-repositories.md)
