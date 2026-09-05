@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +44,8 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Fonctionnalité | Métadonnées C2PA | Les images générées ou modifiées à l’aide d’outils d’IA génératifs sont désormais automatiquement signées avec des métadonnées C2PA, ce qui vous aide à respecter les exigences de transparence du contenu et de divulgation de l’IA. [En savoir plus](../content/c2pa-metadata.md) |
 | Amélioration | Parcours de rentrée - parcours de personnes | La prise en charge de la rentrée des parcours est désormais disponible pour les parcours de personnes. |
 | Amélioration | Écoute des déclencheurs d’événement et des filtres - parcours de compte | La prise en charge de plusieurs déclencheurs et filtres dans un nœud _Écouter l’événement_ est désormais disponible pour les parcours de compte. |
-| Amélioration | Nœuds de chemin de partage externes - parcours de personne | La prise en charge des nœuds _Chemins de division externes_ est désormais disponible pour les parcours de personnes. |
-| Amélioration | Nœuds d’action externe - parcours de personne | La prise en charge des nœuds _Action externe_ est désormais disponible pour les parcours de personnes. |
+| Amélioration | Nœuds de chemin de partage externes - parcours de personne | La prise en charge des nœuds _Chemins de division externes_ est désormais disponible pour les parcours de personnes. [En savoir plus](../journeys/external-nodes.md#external-action) |
+| Amélioration | Nœuds d’action externe - parcours de personne | La prise en charge des nœuds _Action externe_ est désormais disponible pour les parcours de personnes. [En savoir plus](../journeys/external-nodes.md#external-split-paths) |
 | Amélioration | Jeux de données relationnels AEP | De nouveaux jeux de données relationnels apparaissent désormais dans votre sandbox AEP, aux côtés des jeux de données existants. |
 | Amélioration | Autorisations de produit - Canal WhatsApp | Les administrateurs de produit peuvent désormais définir les autorisations `Manage B2B WhatsApp Settings` et `Manage B2B WhatsApp Presets` pour les configurations de canal _[!UICONTROL B2B]_. |
 

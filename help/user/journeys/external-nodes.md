@@ -1,9 +1,11 @@
 ---
 title: Nœuds externes
-description: Découvrez comment utiliser les nœuds Action externe et Chemin de partage externe dans les parcours de compte pour établir une connexion avec des services externes et acheminer les comptes et les personnes en fonction de la réponse du service.
-feature: Account Journeys, Integrations
+description: Découvrez comment utiliser les nœuds de parcours Action externe et Chemin de partage externe pour établir une connexion avec des services externes et acheminer les comptes et les personnes en fonction de la réponse du service.
+feature: Account Journeys, Person Journeys, Integrations
 role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
+autotag-review: '2026-08-05T21:23:02.338Z'
+TQID: 'https://experienceleague.adobe.com/SM3jr1AuPhUHuSHFUpf35omVUPOdubXbOrC8ZnJYdWE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -11,44 +13,42 @@ feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Nœuds externes
 
-Utilisez des nœuds externes pour connecter votre parcours de compte à un service externe. Lorsqu’une audience de compte atteint l’un de ces nœuds, Journey Optimizer B2B edition envoie de manière asynchrone les données d’attribut d’audience au service externe. Le service traite les données et répond à l’aide d’un rappel , renvoyant les informations et les métadonnées de l’audience que le parcours utilise pour continuer.
+Utilisez des nœuds externes pour connecter votre parcours à un service externe. Lorsqu’une audience atteint l’un de ces nœuds, [!DNL Journey Optimizer B2B Edition] envoie de manière asynchrone les données d’attribut d’audience au service externe. Le service traite les données et répond à l’aide d’un rappel , renvoyant les informations et les métadonnées de l’audience que le parcours utilise pour continuer.
 
 >[!NOTE]
 >
->Les nœuds d’action externe sont disponibles uniquement dans les parcours de compte. Ils ne sont pas pris en charge dans les parcours en personne.
->
->Un administrateur doit [configurer et activer l’action externe](../admin/configure-external-actions.md) avant que les spécialistes marketing n’ajoutent et n’implémentent ces nœuds dans un parcours.
+>Un administrateur doit [configurer et activer l’action externe](../admin/configure-external-actions.md) avant que les spécialistes marketing puissent ajouter et implémenter ces nœuds dans un parcours.
 
 Il existe deux types de nœuds d’action externe :
 
 * **[Action externe](#external-action)** - Appelle un service externe et continue le long d’un seul chemin sortant. Utilisez ce nœud lorsque vous souhaitez déclencher un processus externe sans logique de branchement, comme la mise à jour d’un enregistrement dans un système externe ou l’envoi d’un signal à un service en aval.
-* **[Chemins de partage externes](#external-split-paths)** - Appelle un service externe et évalue la réponse pour acheminer les comptes le long de l’un des chemins définis. Utilisez ce nœud lorsque le service externe renvoie une valeur, telle qu’une note, un niveau ou une classification, qui détermine l’étape suivante du parcours.
+* **[Chemins de partage externes](#external-split-paths)** - Appelle un service externe et évalue la réponse pour acheminer les comptes ou les personnes le long de l’un des chemins définis. Utilisez ce nœud lorsque le service externe renvoie une valeur, telle qu’un score ou un niveau, qui détermine l’étape suivante du parcours.
 
 ## Nœud d&#39;action externe {#external-action}
 
 Le nœud _Action externe_ appelle un service externe et continue le long d’un seul chemin sortant, quel que soit le contenu de la réponse. Utilisez-le pour les intégrations pour lesquelles aucun embranchement n’est nécessaire après l’appel externe.
 
-1. Accédez au mappage du parcours de compte.
+1. Accédez à la zone de travail du parcours Compte ou Personne .
 
 1. Cliquez sur l’icône plus ( **+** ) sur un chemin d’accès et choisissez **[!UICONTROL Action externe]**.
 
    ![Ajouter un nœud Action externe](./assets/node-external-action.png){width="400"}
 
-1. Dans les propriétés de nœud à droite, définissez le contexte **[!UICONTROL Action sur]** de l’action externe :
+1. (parcours de compte uniquement) Dans les propriétés de nœud sur la droite, définissez le contexte **[!UICONTROL Action sur]** pour l’action externe :
 
    * Choisissez **[!UICONTROL Comptes]** lorsque vous souhaitez appliquer l’action externe à toutes les personnes qui font partie des comptes sur le chemin du nœud.
    * Choisissez **[!UICONTROL Personnes]** lorsque vous souhaitez appliquer une modification à toutes les personnes sur le chemin du nœud.
@@ -63,19 +63,19 @@ Le nœud _Action externe_ appelle un service externe et continue le long d’un 
 
 1. Continuez à créer le parcours à partir des chemins sortants du nœud.
 
-   Le chemin _[!UICONTROL Temporisation ou erreur]_ est automatiquement créé. Si le délai d’expiration (tel que configuré dans le service) expire avant la réception d’une réponse, le compte ou la personne emprunte ce chemin. Il en va de même si une réponse d’erreur est reçue. Pour gérer ces scénarios, vous pouvez ajouter des nœuds de parcours à ce chemin d’accès ou aux extrémités de parcours pour le membre de l’audience.
+   Le chemin _[!UICONTROL Temporisation ou erreur]_ est automatiquement créé. Si le délai d’expiration (tel que configuré dans le service) expire avant la réception d’une réponse, le compte ou la personne emprunte ce chemin. Il en va de même si une réponse d’erreur est reçue. Pour gérer ces scénarios, vous pouvez ajouter des nœuds de parcours à ce chemin d’accès ou le parcours s’arrête pour le membre de l’audience.
 
 ## Nœud de chemins de partage externes {#external-split-paths}
 
-Le nœud Chemins de division externes appelle un service externe et utilise la réponse pour déterminer le chemin d’accès que les comptes doivent emprunter ensuite. Une condition basée sur une variable (accesseur) renvoyée par le service externe définit chaque chemin d’accès. Le parcours évalue la réponse par rapport aux conditions de chemin définies et achemine chaque compte le long du premier chemin correspondant. Les conditions de chemin sont évaluées dans l’ordre décroissant. Chaque compte suit le premier chemin dont la condition correspond à la valeur renvoyée par le service externe.
+Le nœud Chemins d’accès partagés externes appelle un service externe et utilise la réponse pour déterminer le chemin d’accès suivant suivi par les comptes ou les personnes. Une condition basée sur une variable (accesseur) renvoyée par le service externe définit chaque chemin d’accès. Le parcours évalue la réponse par rapport aux conditions de chemin définies et achemine chaque compte ou personne le long du premier chemin correspondant. Les conditions de chemin sont évaluées dans l’ordre décroissant. Chaque compte ou personne suit le premier chemin dont la condition correspond à la valeur renvoyée par le service externe.
 
-1. Accédez au mappage du parcours de compte.
+1. Accédez à la zone de travail du parcours Compte ou Personne .
 
 1. Cliquez sur l’icône plus ( **+** ) sur un chemin d’accès et choisissez **[!UICONTROL Chemins de partage externes]**.
 
    ![Ajouter un nœud de chemin de partage externe](./assets/node-external-split-path.png){width="400"}
 
-1. Dans les propriétés de nœud sur la droite, choisissez un type **[!UICONTROL Fractionner les chemins par]** :
+1. (parcours de compte uniquement) Dans les propriétés de nœud sur la droite, choisissez un type **[!UICONTROL Fractionner les chemins par]** :
 
    * **[!UICONTROL Comptes]** - Pour les chemins de division par comptes, vous pouvez ajouter des nœuds de compte et de personne dans les chemins définis.
    * **[!UICONTROL Personnes]** - Pour les chemins partagés par personnes, vous ne pouvez ajouter que des nœuds d’action de personnes dans les chemins définis. Une division basée sur les personnes est automatiquement fermée avec un nœud _[!UICONTROL Fusionner les chemins]_ afin que toutes les personnes puissent passer à l’étape suivante sans perdre le contexte de leur compte.
