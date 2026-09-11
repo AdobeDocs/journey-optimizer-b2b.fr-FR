@@ -6,23 +6,14 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2626
 ht-degree: 1%
@@ -45,9 +36,9 @@ Vous pouvez générer des expériences de contenu complètes pour vos pages de d
 
 ## Instructions et restrictions
 
-Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
+Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
 
-Pour promouvoir la transparence dans l’IA générative, Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation.
+Pour promouvoir la transparence dans l’IA générative, Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation.
 
 Les restrictions et instructions suivantes s’appliquent aux fonctionnalités de l’assistant AI utilisées pour la génération de contenu de page de destination dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -67,7 +58,7 @@ Utilisez des invites bien définies pour que le modèle d’IA générative l’
 
 ![Champ d’invite](./assets/gen-ai-prompt.png){width="320"}
 
-Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bonnes pratiques relatives aux invites](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bonnes pratiques relatives aux invites](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 >[!BEGINSHADEBOX]
 
@@ -115,7 +106,7 @@ Cliquez sur la flèche de gauche pour revenir à la _[!UICONTROL Paramètres]_ p
 
 ### Contenu de référence
 
-Chargez des ressources de contenu de référence pour générer du contenu précis et intégré à la marque. Dans le cas contraire, le contenu généré est basé sur des informations disponibles publiquement. Le contenu de référence sert de source pour la génération de contenu et les recommandations d’images. Pour obtenir des instructions et connaître les bonnes pratiques, voir _[Contenu de référence optimisé](../ai-assistant/generative-ai-content.md#reference-content)_.
+Chargez des ressources de contenu de référence pour générer du contenu précis et intégré à la marque. Dans le cas contraire, le contenu généré est basé sur des informations disponibles publiquement. Le contenu de référence sert de source pour la génération de contenu et les recommandations d’images. Pour obtenir des instructions et connaître les bonnes pratiques, voir _[Contenu de référence optimisé](../ai-coworker/generative-ai-content.md#reference-content)_.
 
 Dans les paramètres **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter toute ressource contenant du contenu que vous souhaitez utiliser pour un contexte supplémentaire.
 
@@ -149,7 +140,7 @@ Pour générer une page de destination complète en affinant un modèle existant
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
+   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
    Les paramètres de l’assistant d’IA sur la droite reflètent les paramètres de génération de la page de destination complète.
 
@@ -165,7 +156,7 @@ Pour générer une page de destination complète en affinant un modèle existant
 
    >[!TIP]
    >
-   >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+   >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 1. Pour personnaliser le contenu généré, définissez les paramètres de guidage de contenu :
 
@@ -195,7 +186,7 @@ Pour affiner ou améliorer le contenu textuel d’une page de destination exista
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    Les paramètres de droite reflètent les paramètres de génération de contenu du composant de texte.
 
@@ -237,7 +228,7 @@ Pour affiner ou améliorer le contenu d’image d’une page de destination exis
 
 1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![ L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    Les paramètres de l’assistant AI à droite reflètent les paramètres de génération du composant d’image.
 

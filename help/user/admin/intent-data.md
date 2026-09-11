@@ -1,38 +1,29 @@
 ---
-title: Données d’intention
+title: Configuration des données d’intention
 description: Configurez les données d’intention avec le mappage par mot-clé pour prédire l’intérêt du client et les signaux d’achat pour le marketing basé sur les comptes dans Journey Optimizer B2B edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# Données d’intention
+# Configuration des données d’intention
 
-Dans Journey Optimizer B2B edition, le modèle de détection des intentions prédit une solution/un produit ciblé avec un degré de confiance suffisamment élevé en fonction de l’activité du prospect. Il tire également parti des activités des autres membres du compte, ainsi que du contenu balisé. L’intention d’une personne peut être interprétée comme la probabilité d’avoir un intérêt dans un produit.
+En [!DNL Adobe Journey Optimizer B2B Edition], le modèle de détection d’intention prédit une solution/un produit ciblé avec un degré de confiance suffisamment élevé en fonction de l’activité du prospect. Il tire également parti des activités des autres membres du compte, ainsi que du contenu balisé. L’intention d’une personne peut être interprétée comme la probabilité d’avoir un intérêt dans un produit.
 
-* Niveaux d’intention - Disponibles au niveau du prospect, du compte et du groupe d’achat connus.
-* Types de signal d’intention : mots-clés, produit et solution
+Pour plus d’informations sur le calcul de la note d’intention, voir [_Notes d’intention_](../ai-coworker/intent-scores.md).
 
 Les données d’intention sont utilisées dans les [_Tableau de bord intelligent_](../dashboards/intelligent-dashboard.md), [_Détails du compte_ page](../accounts/account-details.md), [_Détails du groupe d’achat_ page](../buying-groups/buying-group-details.md) et [_Détails de la personne_ page](../accounts/person-details.md).
-
-![Visualisation des données intentionnelles](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## Préparation des données de mappage d’intention
 

@@ -4,24 +4,14 @@ description: Générer du contenu d’e-mail avec l’assistant AI - Créez du c
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 1%
@@ -40,9 +30,9 @@ Cette nouvelle fonctionnalité fournit une génération de contenu basée sur le
 
 ## Instructions et restrictions
 
-Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
+Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
 
-Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation afin de promouvoir la transparence.
+Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation afin de promouvoir la transparence.
 
 Les restrictions et instructions suivantes s’appliquent aux fonctionnalités de l’assistant AI utilisées pour la génération de contenu d’e-mail dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -62,7 +52,7 @@ Utilisez des invites bien définies pour que le modèle d’IA générative l’
 
 ![Champ d’invite](./assets/gen-ai-prompt.png){width="320"}
 
-Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bonnes pratiques relatives aux invites](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bonnes pratiques relatives aux invites](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 >[!BEGINSHADEBOX]
 
@@ -119,7 +109,7 @@ Cliquez sur la flèche de gauche pour revenir à la _[!UICONTROL Paramètres]_ p
 
 ### Contenu de référence
 
-Chargez des ressources de contenu de référence pour générer du contenu précis et intégré à la marque. Dans le cas contraire, le contenu généré est basé sur des informations disponibles publiquement. Le contenu de référence sert de source pour la génération de contenu et les recommandations d’images. Pour obtenir des instructions et connaître les bonnes pratiques, voir _[Contenu de référence optimisé](../ai-assistant/generative-ai-content.md#reference-content)_.
+Chargez des ressources de contenu de référence pour générer du contenu précis et intégré à la marque. Dans le cas contraire, le contenu généré est basé sur des informations disponibles publiquement. Le contenu de référence sert de source pour la génération de contenu et les recommandations d’images. Pour obtenir des instructions et connaître les bonnes pratiques, voir _[Contenu de référence optimisé](../ai-coworker/generative-ai-content.md#reference-content)_.
 
 Dans les paramètres **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter toute ressource contenant du contenu que vous souhaitez utiliser pour un contexte supplémentaire.
 
@@ -273,7 +263,7 @@ Pour utiliser l’assistant AI pour générer entièrement un e-mail en affinant
 
    >[!TIP]
    >
-   >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+   >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 1. Pour personnaliser le contenu généré, définissez les paramètres de guidage de contenu :
 
@@ -285,7 +275,7 @@ Pour utiliser l’assistant AI pour générer entièrement un e-mail en affinant
 
    Les variations générées s’affichent dans le panneau de droite.
 
-1. Parcourez les variations générées ou cliquez sur l’icône _Plein écran_ ( ![&#x200B; Icône Plein écran &#x200B;](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer un e-mail]_.
+1. Parcourez les variations générées ou cliquez sur l’icône _Plein écran_ ( ![ Icône Plein écran ](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer un e-mail]_.
 
    La boîte de dialogue offre un espace supplémentaire pour comparer les variations, ajuster votre texte et les paramètres de contenu de référence (si nécessaire), et régénérer les variations.
 
@@ -303,7 +293,7 @@ Pour utiliser l’assistant AI afin d’affiner ou d’améliorer le contenu tex
 
 1. Dans l’espace de conception d’e-mail, sélectionnez un composant _Texte_ pour cibler le contenu spécifique.
 
-1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( bouton bascule du menu de l’Assistant ![&#x200B; AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
+1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( bouton bascule du menu de l’Assistant ![ AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
 
    Les paramètres de droite reflètent les paramètres de génération de contenu du composant de texte.
 
@@ -343,7 +333,7 @@ Pour utiliser l’assistant AI afin d’affiner ou d’améliorer le contenu d�
 
 1. Dans l’espace de conception d’e-mail, sélectionnez un composant _Image_ pour cibler le contenu spécifique.
 
-1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( bouton bascule du menu de l’Assistant ![&#x200B; AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
+1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( bouton bascule du menu de l’Assistant ![ AI](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
 
    Les paramètres de l’assistant AI à droite reflètent les paramètres de génération du composant d’image.
 
