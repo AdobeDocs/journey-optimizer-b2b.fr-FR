@@ -4,11 +4,17 @@ description: Connectez votre compte professionnel WhatsApp via l'API Meta Cloud 
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2: id: a7692144-1dc6-426f-b00f-fe187797f61d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2:
+  - id: a7692144-1dc6-426f-b00f-fe187797f61d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: eec5558d6065501576a91097182201726020213c
 workflow-type: tm+mt
@@ -75,10 +81,10 @@ Effectuez les tâches suivantes :
 1. Configurez vos informations d’identification dʼAPI comme indiqué ci-dessous :
 
    * **[!UICONTROL Nom]** - Saisissez un nom unique pour les informations d’identification
-   * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d&#39;informations, consultez la documentation de Meta [](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * **[!UICONTROL Identifiant de compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d&#39;informations, consultez la documentation de Meta [](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d&#39;informations, consultez la documentation de Meta [&#128279;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
+   * **[!UICONTROL Identifiant de compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d&#39;informations, consultez la documentation de Meta [&#128279;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Paramètres WhatsApp - Informations d’identification de l’API ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Paramètres WhatsApp - Informations d’identification de l’API &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
@@ -116,7 +122,7 @@ Si vous rencontrez une erreur HTTP 500 lors de la configuration des informations
 1. Validez les champs du compte professionnel - Vérifiez que tous les champs obligatoires sont corrects :
 
    * Jeton API : doit être un jeton d’accès [Meta valide avec les autorisations appropriées](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * Identifiant du compte professionnel - Doit correspondre exactement à votre [identifiant du compte professionnel ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * Identifiant du compte professionnel - Doit correspondre exactement à votre [identifiant du compte professionnel &#x200B;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
 1. Tester les informations d’identification en externe - Pour confirmer si le problème concerne les informations d’identification ou la gestion des informations d’identification Journey Optimizer B2B edition, vérifiez vos informations d’identification à l’aide de l’API Meta.
 
@@ -153,7 +159,7 @@ do we have advanced logs? How are they enabled?
 
 >[!BEGINSHADEBOX]
 
-![Icône Autorisations ](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform ](./user-management.md#b2b-product-permissions) :
+![Icône Autorisations &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform &#x200B;](./user-management.md#b2b-product-permissions) :
 
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B Channels`
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B WhatsApp Settings`
@@ -218,7 +224,7 @@ Une fois le webhook envoyé, vous pouvez récupérer les valeurs du jeton et de 
 
 >[!BEGINSHADEBOX]
 
-![Icône Autorisations ](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform ](./user-management.md#b2b-product-permissions) :
+![Icône Autorisations &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform &#x200B;](./user-management.md#b2b-product-permissions) :
 
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B Channels`
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B WhatsApp Settings`
