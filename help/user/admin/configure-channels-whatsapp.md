@@ -19,7 +19,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: eec5558d6065501576a91097182201726020213c
 workflow-type: tm+mt
 source-wordcount: 1515
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -140,7 +140,7 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Catégorie de mots-clés entrants"
->abstract="<b>Opt-in</b> : envoie des réponses automatiques pour les abonnements. <br/><b>Opt-out</b> : envoie des réponses automatiques pour les désabonnements. <br/><b>Aide</b> : envoie des réponses automatiques aux demandes d’aide. <br/><b>Par défaut</b> : envoie des réponses automatiques de secours pour les mots-clés non correspondants."
+>abstract="<b>Opt-in</b> : envoie des réponses automatiques pour les abonnements. <br/><b>Opt-out</b> : envoie des réponses automatiques pour les désabonnements. <br/><b>Aide</b> : envoie des réponses automatiques aux demandes d’aide. <br/><b>Par défaut</b> : envoie des réponses automatiques de secours pour les mots-clés non correspondants."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
