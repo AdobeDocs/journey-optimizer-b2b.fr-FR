@@ -5,6 +5,7 @@ feature: AI Assistant, Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
+nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 autotag-review: '2026-06-05T16:07:36.688Z'
 TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
@@ -25,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 37%
@@ -69,7 +70,7 @@ Les outils de l’assistant AI pour la génération de contenu sont pris en char
 
 ## Directives générales et restrictions {#general-guidelines-and-limitations}
 
-Votre utilisation des fonctionnalités d’IA générative est soumise aux [Directives d’utilisation de l’IA générative de &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Avec l’engagement d’Adobe en matière de transparence dans l’utilisation des outils d’IA génératifs pour la création de médias, Adobe applique les [&#x200B; informations d’identification de contenu &#x200B;](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par [!DNL Firefly] lorsqu’elle est téléchargée ou exportée.
+Votre utilisation des fonctionnalités d’IA générative est soumise aux [Directives d’utilisation de l’IA générative d’Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Avec l’engagement d’Adobe en matière de transparence dans l’utilisation des outils d’IA génératifs pour la création de médias, Adobe applique les [&#x200B; informations d’identification de contenu &#x200B;](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} à tout contenu ou projet qui inclut une ressource générée par [!DNL Firefly] lorsqu’elle est téléchargée ou exportée.
 
 Consultez ces instructions générales pour l’utilisation de l’IA générative pour le contenu dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -81,7 +82,7 @@ Consultez ces instructions générales pour l’utilisation de l’IA générati
 
 * Veillez à signaler les sorties problématiques à l&#39;aide des icônes de pouces vers le haut, vers le bas ou d&#39;indicateurs lors de la sélection de variantes.
 
-## Bonnes pratiques en matière d’invite pour l’IA générative {#generative-ai-prompting-guide}
+## Bonnes pratiques relatives à la rédaction de prompts pour l’IA générative {#generative-ai-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai_content_prompt"
@@ -99,7 +100,7 @@ Pour obtenir de meilleurs résultats avec le contenu généré, organisez vos in
 | Composant | Signification | Importance de ces éléments |
 | --- | ---- | ------ |
 | **C - Contexte** | Contexte de votre campagne, produit ou situation | Permet de mieux comprendre le contexte dans son ensemble |
-| **O - Objectif** | Votre objectif marketing spécifique | Détermine l’objectif du contenu. |
+| **O - Objectif** | Votre objectif marketing spécifique | Détermine l’objectif que le contenu doit atteindre. |
 | **S - Style** | Comment vous voulez communiquer | Définit l’approche. |
 | **T - Ton** | Style émotionnel et voix | Détermine comment votre message est perçu. |
 | **A - Audience** | L’audience ciblée | Garantit que le message trouve un écho auprès des personnes appropriées |
@@ -123,7 +124,7 @@ Pour obtenir de meilleurs résultats avec le contenu généré, organisez vos in
 <li>Distinguer le nouveau contenu du contenu existant
 <li>Orienter l’utilisation des documents avec des conseils d’extraction spécifiques
 <li>Effectuer des sélections pour le ton, la stratégie et le paramètre régional
-<li>Adapter les objectifs marketing aux fonctionnalités de type de contenu
+<li>Faire correspondre les objectifs marketing aux fonctionnalités des différents types de contenu
 <li>Générer plusieurs variantes pour les tests A/B</ul>
 </td>
 <td>
@@ -157,7 +158,7 @@ Les requêtes suivantes ne sont **_pas prises en charge_** et doivent être trai
 <tr style="border: 0;">
 <td>
 <ul>
-<li>Sélection des sections spécifiques à modifier</li>
+<li>Sélectionner des sections spécifiques à modifier</li>
 <li>Suppression ou clonage d’éléments</li>
 <li>Sélections conditionnelles</li>
 <li>Ajout ou suppression de sections de disposition</li>
@@ -167,7 +168,7 @@ Les requêtes suivantes ne sont **_pas prises en charge_** et doivent être trai
 <ul>
 <li>Mise en forme du texte (gras, italique, taille de police)</li>
 <li>Modifications de couleur</li>
-<li>Style de disposition (bordures, marge intérieure, marges)</li>
+<li>Style de la mise en page (bordures, marges intérieures, marges)</li>
 <li>Effets visuels (ombres)</li>
 </ul>
 </td>
@@ -387,7 +388,7 @@ Passez en revue les options de tonalité disponibles, y compris le moment où ch
 | ---- | ----- | ----- |
 | Professionnel | Communications B2B, annonces formelles | « Nous avons le plaisir d’annoncer notre partenariat stratégique… » |
 | Empathique | Assistance clientèle, sujets sensibles | « Nous comprenons à quel point cette question doit être frustrante pour vous... » |
-| Humoristique | Campagnes attrayantes, contenu léger | « Avertissement : peut entraîner de sérieux gains de productivité ! » |
+| Humoristique | Campagnes attrayantes, contenu léger | « Avertissement : peut entraîner de sérieux gains de productivité ! » |
 | Enthousiaste | Lancements de produits, promotions d’événements | « C&#39;est le moment que vous attendiez ! » |
 | Inspirant | Campagnes de motivation, objectif de la marque | « Ensemble, nous pouvons changer le monde… » |
 | Persuasif | Campagnes commerciales, conversions | « Ne manquez pas cette occasion unique de… » |
@@ -395,7 +396,7 @@ Passez en revue les options de tonalité disponibles, y compris le moment où ch
 | Formel | Communications juridiques, notifications officielles | « Il s’agit d’une notification des modifications suivantes... » |
 | D’excuse | Rétablissement du service, résolution des problèmes | « Bodea s’excuse sincèrement pour tout désagrément causé... » |
 | Affirmé | Contenu de leadership, messages faisant autorité | « Voici ce que vous devez faire maintenant… » |
-| Storytelling | Narrations sur la marque, liens émotionnels | « Tout a commencé par une simple question… » |
+| Storytelling | Récits de marque, liens émotionnels | « Tout a commencé par une simple question… » |
 | Conversationnel | Campagnes d’accompagnement, création de relations | « Parlons de la façon dont ce programme peut vous aider... » |
 
 ## Contenu de référence optimisé {#reference-content}
@@ -420,7 +421,7 @@ Une fois le contenu généré, utilisez la fonction **_[!UICONTROL Affiner]_** p
 
 * **[!UICONTROL Résumer]** - La longueur des informations peut surcharger les visionneuses de pages. Utilisez l’Assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et incitent à poursuivre la lecture.
 
-* **[!UICONTROL Reformuler]** - Réécrivez le message tout en préservant sa signification. Cette option vous permet de générer une autre formulation, d’améliorer le flux ou d’ajuster les expressions sans modifier le message principal.
+* **[!UICONTROL Reformuler]** - Réécrivez le message tout en préservant sa signification. Cette option vous permet de générer d’autres formulations, d’améliorer la fluidité du texte ou d’ajuster la formulation sans modifier le message principal.
 
 * **[!UICONTROL Utiliser un langage plus simple]** - Simplifiez le langage, en assurant la clarté et l’accessibilité pour une audience plus large.
 

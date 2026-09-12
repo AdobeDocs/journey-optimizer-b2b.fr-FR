@@ -19,7 +19,7 @@ topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2070
 ht-degree: 19%
@@ -83,7 +83,7 @@ Vous pouvez définir n’importe quelle marque publiée (_en direct_) comme marq
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="Créer votre marque"
->abstract="Saisissez votre nom de marque et chargez votre fichier de directives de marque. L’outil extrait automatiquement les détails clés, ce qui facilite le maintien de l’identité de votre marque."
+>abstract="Saisissez votre nom de marque et chargez votre fichier de directives de marque. L’outil extrait automatiquement les détails clés, ce qui facilite le maintien de votre identité de marque."
 
 Pour créer et définir vos directives de marque, vous pouvez saisir les détails ou charger vos documents de directives de marque à utiliser pour l’extraction automatique.
 
@@ -93,7 +93,7 @@ Pour créer et définir vos directives de marque, vous pouvez saisir les détail
 
 1. Saisissez le **[!UICONTROL Nom]** de votre marque.
 
-1. Effectuez un glisser-déposer ou sélectionnez votre fichier pour charger vos directives de marque et extraire automatiquement les informations pertinentes sur la marque.
+1. Glissez-déposez votre fichier ou sélectionnez-le afin de charger vos directives de marque et d’extraire automatiquement les informations pertinentes sur votre marque.
 
    ![Définir une nouvelle marque](./assets/brands-create-new.png){width="500"}
 
@@ -169,7 +169,7 @@ Pour créer et définir vos directives de marque, vous pouvez saisir les détail
 
 Lorsque votre marque comprend un ensemble complet de définitions et répond à vos exigences, cliquez sur **[!UICONTROL Publier]** pour rendre vos directives de marque disponibles pour l’alignement et la génération du contenu.
 
-Les marques publiées sont accessibles à partir de l’option **[!UICONTROL Marque]** dans l’IA [score d’alignement de la marque](./content-evaluation.md#brand-alignment-score) et [outils de génération de contenu](../ai-assistant/generative-ai-content.md).
+Les marques publiées sont accessibles à partir de l’option **[!UICONTROL Marque]** dans l’IA [score d’alignement de la marque](./content-evaluation.md#brand-alignment-score) et [outils de génération de contenu](../ai-coworker/generative-ai-content.md).
 
 ![Options de marque pour le contenu](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -211,13 +211,13 @@ Utilisez l’onglet **[!UICONTROL À propos de la marque]** pour établir l’id
 
      ![À propos de la marque - Principes directeurs - valeur ajoutée](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL Valeur]** - Saisissez le nom de la valeur de marque principale.
+     * **[!UICONTROL Valeur]** - Saisissez le nom de la valeur de marque principale.
 
-      * **[!UICONTROL Description]** - Expliquez ce que cette valeur signifie pour votre marque.
+     * **[!UICONTROL Description]** - Expliquez ce que cette valeur signifie pour votre marque.
 
-      * **[!UICONTROL Comportements]** - Décrivez les actions ou attitudes qui reflètent cette valeur dans la pratique.
+     * **[!UICONTROL Comportements]** - Décrivez les actions ou attitudes qui reflètent cette valeur dans la pratique.
 
-      * **[!UICONTROL Manifestations]** - Fournissez des exemples de la manière dont cette valeur est exprimée dans l’image de marque du monde réel.
+     * **[!UICONTROL Manifestations]** - Fournissez des exemples de la manière dont cette valeur est exprimée dans l’image de marque du monde réel.
 
    * Pour modifier ou supprimer une valeur de base, cliquez sur l’icône _Modifier_ ( ![icône Modifier](../assets/do-not-localize/icon-edit.svg) ) pour mettre à jour ou supprimer une valeur de marque de base.
 

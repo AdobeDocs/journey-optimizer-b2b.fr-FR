@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 86%
 
 ---
@@ -28,14 +28,22 @@ ht-degree: 86%
   + [Intégration des utilisateurs](./start/get-started.md)
   + [Connexion et page d’accueil](home-page.md)
 + Fonctionnalités d’IA {#ai-assistant}
-  + [Vue d’ensemble](./ai-assistant/ai-assistant-overview.md)
-  + [Activer l’accès à l’assistant IA](./ai-assistant/enable-ai-assistant-access.md)
-  + [Conseils sur les questions](./ai-assistant/question-guidance.md)
-  + [Interface de conversation](./ai-assistant/use-ai-assistant.md)
-  + [IA générative pour le contenu](./ai-assistant/generative-ai-content.md)
+  + [Présentation](./ai-coworker/ai-assistant-overview.md)
+  + [Activer l’accès à l’assistant IA](./ai-coworker/enable-ai-assistant-access.md)
+  + [Conseils sur les questions](./ai-coworker/question-guidance.md)
+  + [Interface de conversation](./ai-coworker/use-ai-assistant.md)
+  + [IA générative pour le contenu](./ai-coworker/generative-ai-content.md)
+  + [Scores d’intention](./ai-coworker/intent-scores.md)
   + Agents {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
++ Tableaux de bord intelligents {#dashboards}
+  + [Tableau de bord des informations](./dashboards/intelligent-dashboard.md)
+  + [Tableau de bord de l’engagement](./dashboards/engagement-dashboard.md)
+  + [Tableau de bord d’engagement web](./dashboards/web-engagement-dashboard.md)
+  + [Rapport Performances des emails](./dashboards/email-performance-dashboard.md)
+  + [Tableau de bord des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
+  + [Tableau de bord Parcours](./dashboards/journeys-dashboard.md)
 + Gestion des parcours {#journeys}
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
@@ -93,7 +101,7 @@ ht-degree: 86%
     + [Exporter des comptes](./audiences/account-list-export.md)
     + [Insights In-CRM](./buying-groups/incrm-insights.md)
   + Listes de comptes {#account-lists}
-    + [Vue d’ensemble](./accounts/account-lists.md)
+    + [Présentation](./accounts/account-lists.md)
     + [Utilisation dans les parcours](./accounts/account-lists-journeys.md)
   + Expérience commerciale {#sales-experience}
     + [Détails du compte](./accounts/account-details.md)
@@ -109,7 +117,7 @@ ht-degree: 86%
       + [Rapport sur les spams](./content/email-spam-report.md)
     + [Collaboration par e-mail](./content/email-collaboration-tools.md)
   + Ressources {#assets}
-    + [Vue d’ensemble](./content/assets-overview.md)
+    + [Présentation](./content/assets-overview.md)
     + [Métadonnées C2PA](./content/c2pa-metadata.md)
     + Ressources internes {#internal-dam}
       + [Travailler avec des ressources internes](./content/internal-image-assets.md)
@@ -129,10 +137,10 @@ ht-degree: 86%
     + [Vue d’ensemble](./content/fragments.md)
     + [Création de fragments](./content/fragment-authoring.md)
   + Formulaires {#forms}
-    + [Vue d’ensemble](./content/forms.md)
+    + [Présentation](./content/forms.md)
     + [Conception de formulaire](./content/form-design.md)
   + Pages de destination {#landing-pages}
-    + [Vue d’ensemble](./content/landing-pages.md)
+    + [Présentation](./content/landing-pages.md)
     + [Créer et publier](./content/landing-pages-create-publish.md)
     + [Création de la page de destination](./content/landing-page-design.md)
     + [Assistant IA pour le contenu des pages de destination](./content/ai-assistant-landing-pages.md)
@@ -153,13 +161,6 @@ ht-degree: 86%
     + [Syntaxe de personnalisation](./content/personalization-syntax.md)
     + [Liste des fonctions d’assistance](./content/personalization-helper-functions.md)
     + [Créateur de scripts (Beta)](./content/script-builder.md)
-+ Tableaux de bord intelligents {#dashboards}
-  + [Tableau de bord des informations](./dashboards/intelligent-dashboard.md)
-  + [Tableau de bord de l’engagement](./dashboards/engagement-dashboard.md)
-  + [Tableau de bord d’engagement web](./dashboards/web-engagement-dashboard.md)
-  + [Rapport Performances des emails](./dashboards/email-performance-dashboard.md)
-  + [Tableau de bord des groupes d&#39;achat](./dashboards/buying-groups-dashboard.md)
-  + [Tableau de bord Parcours](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
   + [Gouvernance](./admin/governance.md)
   + [Gestion de la confidentialité](./admin/privacy-management.md)

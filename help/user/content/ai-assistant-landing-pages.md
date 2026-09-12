@@ -22,7 +22,7 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2626
 ht-degree: 1%
@@ -45,7 +45,7 @@ Vous pouvez générer des expériences de contenu complètes pour vos pages de d
 
 ## Instructions et restrictions
 
-Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
+Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
 
 Pour promouvoir la transparence dans l’IA générative, Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation.
 
@@ -67,7 +67,7 @@ Utilisez des invites bien définies pour que le modèle d’IA générative l’
 
 ![Champ d’invite](./assets/gen-ai-prompt.png){width="320"}
 
-Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bonnes pratiques relatives aux invites](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bonnes pratiques relatives aux invites](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 >[!BEGINSHADEBOX]
 
@@ -115,7 +115,7 @@ Cliquez sur la flèche de gauche pour revenir à la _[!UICONTROL Paramètres]_ p
 
 ### Contenu de référence
 
-Chargez des ressources de contenu de référence pour générer du contenu précis et intégré à la marque. Dans le cas contraire, le contenu généré est basé sur des informations disponibles publiquement. Le contenu de référence sert de source pour la génération de contenu et les recommandations d’images. Pour obtenir des instructions et connaître les bonnes pratiques, voir _[Contenu de référence optimisé](../ai-assistant/generative-ai-content.md#reference-content)_.
+Chargez des ressources de contenu de référence pour générer du contenu précis et intégré à la marque. Dans le cas contraire, le contenu généré est basé sur des informations disponibles publiquement. Le contenu de référence sert de source pour la génération de contenu et les recommandations d’images. Pour obtenir des instructions et connaître les bonnes pratiques, voir _[Contenu de référence optimisé](../ai-coworker/generative-ai-content.md#reference-content)_.
 
 Dans les paramètres **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter toute ressource contenant du contenu que vous souhaitez utiliser pour un contexte supplémentaire.
 
@@ -165,7 +165,7 @@ Pour générer une page de destination complète en affinant un modèle existant
 
    >[!TIP]
    >
-   >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+   >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 1. Pour personnaliser le contenu généré, définissez les paramètres de guidage de contenu :
 

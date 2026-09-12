@@ -8,10 +8,10 @@ product_v2:
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 1163
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -165,7 +165,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Commencer"><br/>
-<strong>Commencer</strong><br/><a href="home-page.md">Connexion et page d’accueil</a><br/><a href="./start/get-started.md">Conseils d’intégration</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Assistant IA</a>
+<strong>Commencer</strong><br/><a href="home-page.md">Connexion et page d’accueil</a><br/><a href="./start/get-started.md">Conseils d’intégration</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">Assistant IA</a>
     </td>
     <!--
     <td>
