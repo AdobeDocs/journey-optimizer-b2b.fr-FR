@@ -72,7 +72,7 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 Les outils de génération de contenu sont pris en charge avec les types de ressources suivants :
 
 * [E-mails](./generate-content-emails.md)
-* [!BADGE ] [Pages de destination](./generate-content-landing-pages.md)
+* [Pages de destination](./generate-content-landing-pages.md)
 
 ## Directives générales et restrictions {#general-guidelines-and-limitations}
 

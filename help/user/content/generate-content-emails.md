@@ -270,7 +270,7 @@ Pour générer un e-mail complet en affinant un modèle d’e-mail existant, pro
 
    Pour plus d’informations sur l’utilisation d’un modèle d’e-mail, voir _[Sélectionner un modèle](./email-authoring.md#select-a-template)_.
 
-1. Dans l’espace de conception d’e-mail, cliquez sur l’icône _Générer le contenu_ ![ (bouton bascule du menu Générer le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ) à droite.
+1. Dans l’espace de conception d’e-mail, cliquez sur l’icône _Générer le contenu_ ![&#x200B; (bouton bascule du menu Générer le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ) à droite.
 
    Les paramètres à droite indiquent _Générer un e-mail_.
 
@@ -298,7 +298,7 @@ Pour générer un e-mail complet en affinant un modèle d’e-mail existant, pro
 
    Les variations générées s’affichent dans le panneau de droite.
 
-1. Parcourez les variations générées ou cliquez sur l’icône _Plein écran_ ( ![ Icône Plein écran ](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer un e-mail]_.
+1. Parcourez les variations générées ou cliquez sur l’icône _Plein écran_ ( ![&#x200B; Icône Plein écran &#x200B;](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer un e-mail]_.
 
    La boîte de dialogue offre un espace supplémentaire pour comparer les variations, ajuster votre texte et les paramètres de contenu de référence (si nécessaire), puis générer de nouveau les variations.
 
