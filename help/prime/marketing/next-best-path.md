@@ -1,28 +1,34 @@
 ---
 title: Nœud du meilleur chemin suivant
 description: Utilisez le nœud de meilleur chemin suivant dans Journey Optimizer B2B Prime pour le routage de parcours piloté par l’IA avec des invites en langage naturel, la simulation de chemin, les scores de confiance et les résultats de chemin de partage en direct.
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version Beta limitée."
 autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+    internal-label: Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1528'
 ht-degree: 1%
-
 ---
-
 # Nœud du meilleur chemin suivant
 
 Dans le Prime B2B de Journey Optimizer, le nœud *Meilleur chemin suivant* permet de prendre des décisions de chemin partagé piloté par l’IA directement dans la zone de travail de parcours. Au lieu de configurer des conditions de filtrage sur un nœud [chemins partagés](./split-merge-paths-nodes.md), vous décrivez votre intention en langage naturel et laissez le système déterminer le chemin le plus pertinent pour chaque personne.
@@ -84,9 +90,9 @@ Pour chaque chemin, définissez un nom et une invite en langage naturel qui déc
 
      **Exemple d’invite de division en trois chemins :**
 
-      * *Chemin 1 - Chefs des ressources humaines :* identifier les personnes occupant des rôles de leadership dans les ressources humaines les plus susceptibles de participer à la gestion des talents et au contenu de l’expérience des employés.
-      * *Chemin 2 - Évaluateurs techniques :* identifiez les parties prenantes techniques les plus susceptibles d’interagir avec l’architecture du produit, les intégrations et le contenu d’implémentation.
-      * *Chemin 3 - Décideurs d’entreprise :* identifiez les parties prenantes les plus susceptibles d’impliquer le retour sur investissement, les résultats commerciaux et le contenu d’études de cas.
+     * *Chemin 1 - Chefs des ressources humaines :* identifier les personnes occupant des rôles de leadership dans les ressources humaines les plus susceptibles de participer à la gestion des talents et au contenu de l’expérience des employés.
+     * *Chemin 2 - Évaluateurs techniques :* identifiez les parties prenantes techniques les plus susceptibles d’interagir avec l’architecture du produit, les intégrations et le contenu d’implémentation.
+     * *Chemin 3 - Décideurs d’entreprise :* identifiez les parties prenantes les plus susceptibles d’impliquer le retour sur investissement, les résultats commerciaux et le contenu d’études de cas.
 
 1. Si nécessaire, réorganisez les chemins pour définir l’ordre de priorité de la correspondance.
 
