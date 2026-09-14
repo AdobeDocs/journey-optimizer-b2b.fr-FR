@@ -1,13 +1,11 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 86%
-
+source-wordcount: '446'
+ht-degree: 84%
 ---
-
 
 # Guide d’utilisation de Journey Optimizer B2B Edition {#user}
 
@@ -32,7 +30,6 @@ ht-degree: 86%
   + [Activer l’accès à l’assistant IA](./ai-coworker/enable-ai-assistant-access.md)
   + [Conseils sur les questions](./ai-coworker/question-guidance.md)
   + [Interface de conversation](./ai-coworker/use-ai-assistant.md)
-  + [IA générative pour le contenu](./ai-coworker/generative-ai-content.md)
   + [Scores d’intention](./ai-coworker/intent-scores.md)
   + Agents {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
@@ -48,7 +45,7 @@ ht-degree: 86%
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)
@@ -67,7 +64,7 @@ ht-degree: 86%
     + [Ajouter un e-mail](./content/add-email.md)
     + [Optimisation de l’heure d’envoi](./content/email-send-time-optimization.md)
     + [Création d’e-mails](./content/email-authoring.md)
-    + [Assistant IA pour la création d’e-mails](./content/ai-assistant-emails.md)
+    + [Générer le contenu d’un e-mail](./content/generate-content-emails.md)
     + [Workflows GenStudio](./content/genstudio-email-workflow.md)
     + [Mode sombre pour la conception d’e-mail](./content/email-dark-mode.md)
     + [Modèles régis](./content/email-authoring-governance.md)
@@ -143,7 +140,7 @@ ht-degree: 86%
     + [Présentation](./content/landing-pages.md)
     + [Créer et publier](./content/landing-pages-create-publish.md)
     + [Création de la page de destination](./content/landing-page-design.md)
-    + [Assistant IA pour le contenu des pages de destination](./content/ai-assistant-landing-pages.md)
+    + [Générer le contenu de la landing page](./content/generate-content-landing-pages.md)
   + Outils de conception de contenu {#content-design}
     + [Composants de structure](./content/structure-components.md)
     + [Composants de contenu](./content/content-components.md)
@@ -153,6 +150,7 @@ ht-degree: 86%
     + [Gérer et créer](./content/brands-manage-create.md)
     + [Modèles d’IA générative](./content/generative-ai-models.md)
   + [Thèmes de marque](./content/brand-themes.md)
+  + [IA générative pour le contenu](./content/generative-ai-content.md)
   + [Évaluation de contenu](./content/content-evaluation.md)
   + [Contenu conditionnel](./content/conditional-content.md)
   + [Accessibilité du contenu](./content/accessible-content.md)

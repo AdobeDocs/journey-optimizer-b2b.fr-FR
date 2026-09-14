@@ -8,24 +8,28 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2070
-ht-degree: 19%
-
+source-wordcount: '2039'
+ht-degree: 15%
 ---
-
 # Créer et gérer vos marques {#brand-library}
 
 Définissez une marque afin de fournir un ensemble détaillé de règles et de normes qui établissent une identité visuelle et verbale. Ces directives fournissent une référence pour maintenir une représentation cohérente de la marque sur toutes les plateformes de marketing et de communication. En s’appuyant sur des directives de marque bien définies, les entreprises peuvent s’assurer que tous les efforts de création de contenu sont alignés sur les objectifs stratégiques et l’identité de marque globale. Cette cohérence améliore non seulement la reconnaissance et la confiance de la marque, mais contribue également à une expérience client plus cohérente et plus percutante à tous les points de contact.
@@ -38,7 +42,7 @@ Dans Journey Optimizer B2B edition, vous pouvez définir et organiser manuelleme
 >
 ><br>
 >
->Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités optimisées par l’IA dans Adobe Journey Optimizer B2B edition. Pour en savoir plus, contactez votre représentant Adobe.
+>Un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités optimisées par l’IA dans Adobe Journey Optimizer B2B edition. Pour en savoir plus, contactez votre représentant Adobe.
 >
 ><br>
 >
@@ -68,11 +72,11 @@ Pour chaque carte, vous pouvez cliquer sur l’icône _Plus de menu_ ( ![Icône 
 
 ### Marque par défaut
 
-Vous pouvez désigner une marque par défaut à appliquer automatiquement lors de la génération du contenu et du calcul des scores d’alignement lors de la création du contenu. Seule une marque publiée (_en direct_) peut être la marque par défaut.
+Pour appliquer automatiquement une marque lors de la génération de contenu et du calcul des scores d’alignement lors de la création de contenu, désignez une marque par défaut. Seule une marque publiée (_en direct_) peut être la marque par défaut.
 
 Dans la bibliothèque de marques, la vignette de marque par défaut est affichée avec un indicateur .
 
-![&#x200B; Indicateur de marque par défaut &#x200B;](./assets/brands-default-flag.png){width="200"}
+![ Indicateur de marque par défaut ](./assets/brands-default-flag.png){width="200"}
 
 Vous pouvez définir n’importe quelle marque publiée (_en direct_) comme marque par défaut. Sur la carte de marque, cliquez sur l’icône _Plus de menu_ ( ![Icône de menu Plus](../../assets/do-not-localize/icon-more-menu.svg) ) et choisissez **[!UICONTROL Marquer comme marque par défaut]**.
 
@@ -93,7 +97,7 @@ Pour créer et définir vos directives de marque, vous pouvez saisir les détail
 
 1. Saisissez le **[!UICONTROL Nom]** de votre marque.
 
-1. Glissez-déposez votre fichier ou sélectionnez-le afin de charger vos directives de marque et d’extraire automatiquement les informations pertinentes sur votre marque.
+1. Effectuez un glisser-déposer ou sélectionnez votre fichier pour charger les directives de votre marque et extraire automatiquement les informations pertinentes sur la marque.
 
    ![Définir une nouvelle marque](./assets/brands-create-new.png){width="500"}
 
@@ -111,7 +115,7 @@ Pour créer et définir vos directives de marque, vous pouvez saisir les détail
 
 ### Affiner et mettre à jour les directives de la marque
 
-1. Parcourez les différents onglets pour vous adapter et définir des informations plus détaillées si nécessaire.
+1. Pour adapter et définir des informations plus détaillées selon les besoins, parcourez les différents onglets.
 
    * [!UICONTROL Vue d’ensemble]
 
@@ -163,7 +167,7 @@ Pour créer et définir vos directives de marque, vous pouvez saisir les détail
 
 1. Lorsque tout est défini, cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Vous pouvez continuer à apporter des modifications au brouillon de marque jusqu’à ce que vous décidiez qu’il est prêt à être publié.
+   Vous pouvez continuer à apporter des modifications au brouillon de la marque. Continuez jusqu’à ce que vous décidiez qu’elle est prête à être publiée.
 
 ### Publier la marque
 
@@ -241,9 +245,9 @@ Vous pouvez affiner le [style d’écriture](#writing-style) ou le [contenu visu
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Score d’alignement du style d’écriture"
->abstract="La section Style d’écriture définit des normes de langue, de mise en forme et de structure pour garantir un contenu clair et cohérent. Le score d’alignement, noté d’élevé à faible, montre dans quelle mesure votre contenu suit ces directives et met en évidence les domaines à améliorer."
+>abstract="La section Style d’écriture définit des normes de langue, de mise en forme et de structure. Le score d’alignement montre dans quelle mesure votre contenu suit ces directives et met en évidence les domaines à améliorer."
 
-Les définitions _[!UICONTROL Style d’écriture]_ décrivent les normes d’écriture du contenu et expliquent comment la langue, le formatage et la structure doivent être utilisés pour garantir la clarté, la cohérence et l’homogénéité de l’ensemble des ressources.
+Les définitions _[!UICONTROL Style d’écriture]_ décrivent les normes d’écriture de contenu et expliquent en détail comment la langue, le formatage et la structure doivent être utilisés pour garantir la clarté, la cohérence et l’homogénéité de l’ensemble des ressources.
 
 Sélectionnez l’onglet **[!UICONTROL Style d’écriture]** et passez en revue chaque catégorie.
 
@@ -255,7 +259,7 @@ Sélectionnez l’onglet **[!UICONTROL Style d’écriture]** et passez en revue
 |                            | [!UICONTROL Mécanique de l&#39;écriture] | Gardez les phrases courtes et percutantes. | N’utilisez pas trop de jargon. |
 |                            | [!UICONTROL Ton situationnel] | Maintenez un ton professionnel dans les communications de crise. | Ne soyez pas dédaigneux dans les communications d’assistance. |
 |                            | [!UICONTROL Consignes relatives au choix de mots] | Utilisez des mots comme _innovant_ et _intelligent_. | Évitez les mots comme _pas cher_ ou _hack_. |
-|                            | [!UICONTROL &#x200B; Normes linguistiques &#x200B;] | Respectez les conventions françaises. | Faites attention à l’orthographe. |
+|                            | [!UICONTROL  Normes linguistiques ] | Respectez les conventions françaises. | Faites attention à l’orthographe. |
 | [!UICONTROL Normes de message de marque] | [!UICONTROL Normes de message de marque] | Mettez l’accent sur l’innovation et orientez les messages sur la clientèle. | Ne faites pas de promesses irréalistes sur les capacités du produit. |
 |                            | [!UICONTROL Utilisation des balises] | Placez le slogan sous le logo sur toutes les ressources marketing numériques. | Ne modifiez ni ne traduisez le slogan. |
 |                            | [!UICONTROL Messages principaux] | Mettez l&#39;accent sur l&#39;énoncé des principaux avantages, comme l&#39;amélioration de la productivité. | N’utilisez pas des propositions de valeur sans rapport. |
@@ -285,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Score d’alignement du contenu visuel"
->abstract="Le score d’alignement du contenu visuel indique dans quelle mesure votre contenu correspond aux directives configurées de votre marque. Noté d’élevé à faible, il vous permet d’évaluer l’alignement en un seul coup d’œil. Explorez les différentes catégories pour identifier les domaines à améliorer et déterminer les éléments qui peuvent ne pas être conformes à la marque."
+>abstract="Le score d’alignement du contenu visuel indique dans quelle mesure votre contenu correspond aux directives configurées de votre marque. Cela vous permet d’évaluer l’alignement et d’identifier les domaines à améliorer."
 
 Les définitions _[!UICONTROL Contenu visuel]_ décrivent les normes en matière d’imagerie et de conception, et détaillent les spécifications nécessaires pour conserver une apparence de marque unifiée et cohérente.
 
@@ -326,9 +330,9 @@ Vous ne pouvez pas apporter de modifications à une marque publiée (en direct),
 
    Cette action crée un brouillon de la marque.
 
-1. Parcourez les différents onglets pour mettre à jour les informations de marque si nécessaire.
+1. Parcourez les différents onglets et mettez à jour les informations de marque si nécessaire.
 
-   * Vue d’ensemble
+   * Présentation
 
    * [À propos de la marque](#about-the-brand)
 

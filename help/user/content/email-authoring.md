@@ -1,36 +1,41 @@
 ---
 title: Création d'un e-mail
-description: Créez des e-mails avec des outils de conception visuelle, l’importation d’HTML ou des modèles. Utilisez la génération de contenu de l’assistant AI, le code CSS personnalisé et la personnalisation dans Journey Optimizer B2B edition.
+description: Créez des e-mails avec des outils de conception visuelle, une importation HTML ou des modèles. Utilisez la génération de contenu, le code CSS personnalisé et la personnalisation dans Journey Optimizer B2B edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1380
+source-wordcount: '1371'
 ht-degree: 5%
-
 ---
-
 # Création d’un e-mail
 
-Après avoir [ajouté une ressource e-mail à un nœud d’action de parcours &#x200B;](./add-email.md), vous pouvez définir le contenu de l’e-mail.
+Après avoir [ajouté une ressource e-mail à un nœud d’action de parcours ](./add-email.md), vous pouvez définir le contenu de l’e-mail.
 
 Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** dans l’onglet _[!UICONTROL Détails]_ du panneau de droite.
 
-![Cliquez sur Modifier le contenu de l’e-mail &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Cliquez sur Modifier le contenu de l’e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Cette action lance les outils de conception d’e-mail, dans lesquels vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
@@ -44,7 +49,7 @@ Après avoir créé et personnalisé le contenu de l’e-mail, vous pouvez expor
 
 >[!TIP]
 >
->Utilisez l’assistant d’IA dans Adobe Journey Optimizer B2B edition, optimisé par l’IA générative, pour améliorer votre contenu. L’assistant d’IA peut vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets et du contenu textuel ciblé, et en fournissant des recommandations pour les images qui résonnent avec votre audience. [En savoir plus](./ai-assistant-emails.md)
+>Utilisez les outils de génération de contenu pour améliorer votre contenu. Ces outils peuvent vous aider à optimiser l’impact de vos diffusions en générant des e-mails complets et du contenu textuel ciblé, ainsi qu’en fournissant des recommandations pour les images pertinentes pour votre audience. [En savoir plus](./generate-content-emails.md)
 
 ## Concevoir votre e-mail à partir de zéro {#design-from-scratch}
 
