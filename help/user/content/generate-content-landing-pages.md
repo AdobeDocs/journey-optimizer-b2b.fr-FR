@@ -1,37 +1,45 @@
 ---
-title: Assistant AI pour le contenu de la page de destination
-description: 'Générer le contenu de la page de destination avec l’assistant AI : créez du texte et des images de page avec vos ressources de référence et le ciblage des rôles des groupes d’achat dans Journey Optimizer B2B edition.'
+title: Générer le contenu de la page de destination
+description: 'Générer le contenu de la page de destination : créez du texte et des images de page avec vos ressources de référence et le ciblage des rôles de groupe d’achat dans Journey Optimizer B2B edition.'
 feature: Generative AI, Landing Pages, Content
 topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
+autotag-review: '2026-08-06T18:46:13.525Z'
+TQID: 'https://experienceleague.adobe.com/TopyHYvXF86q4VFnuV2lDP007QpQJbnRWweZioXa7d0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Content production
+source-git-commit: d8451ab306de70decd11909676d6d9aaf667d466
 workflow-type: tm+mt
-source-wordcount: 2626
+source-wordcount: '2599'
 ht-degree: 1%
-
 ---
+# Générer le contenu de la landing page
 
-# Assistant IA pour le contenu des pages de destination {#generative-full-content}
-
-L’assistant AI pour le contenu de page de destination dans [!DNL Adobe Journey Optimizer B2B Edition] utilise des fonctionnalités de génération de contenu optimisées par l’IA d’Adobe et révolutionne la façon dont les spécialistes marketing créent du contenu de page de destination professionnel et cohérent avec la marque. Grâce à des modèles d’IA génératifs avancés et à une compréhension approfondie des directives de la marque, AI Assistant génère automatiquement du contenu personnalisé, attrayant et efficace. Il utilise votre objectif marketing et optimise le contenu pour les styles de contour de la marque, les mises en page, le ton, etc. L’assistant AI rend la création et l’exécution de campagnes et de programmes plus intuitives, simples et efficaces. L’ajout de cette fonctionnalité à vos workflows peut vous faire gagner du temps, améliorer l’efficacité et générer de meilleurs résultats.
+L’IA générative pour le contenu des pages de destination dans [!DNL Adobe Journey Optimizer B2B Edition], optimisée par Microsoft Azure OpenAI et Adobe Firefly, révolutionne la façon dont les professionnels du marketing créent du contenu professionnel et cohérent pour la marque des pages de destination. Optimisez l’impact de votre contenu en expérimentant avec différents titres et images principaux. Grâce à des modèles d’IA génératifs avancés et à une compréhension approfondie des directives de la marque, ces outils peuvent générer automatiquement du contenu personnalisé, attrayant et efficace. Ces outils d’IA génératifs rendent la création et l’exécution de campagnes et de programmes plus intuitives, simples et efficaces. L’ajout de cette fonctionnalité à vos workflows peut vous faire gagner du temps, améliorer l’efficacité et générer de meilleurs résultats.
 
 Vous pouvez générer des expériences de contenu complètes pour vos pages de destination, y compris du texte et des images. Cette fonctionnalité robuste vous permet de créer du contenu attrayant et sur la marque qui se connecte à votre audience.
 
@@ -45,21 +53,21 @@ Vous pouvez générer des expériences de contenu complètes pour vos pages de d
 
 ## Instructions et restrictions
 
-Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
+Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](./generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
 
 Pour promouvoir la transparence dans l’IA générative, Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation.
 
-Les restrictions et instructions suivantes s’appliquent aux fonctionnalités de l’assistant AI utilisées pour la génération de contenu de page de destination dans [!DNL Journey Optimizer B2B Edition] :
+Les restrictions et instructions suivantes s’appliquent aux fonctionnalités de génération de contenu utilisées pour les pages de destination dans [!DNL Journey Optimizer B2B Edition] :
 
 * L’anglais est la seule langue prise en charge.
 * Le contenu généré peut ne pas être précis. Partagez vos commentaires afin que les ingénieurs Adobe puissent affiner les modèles.
-* Vous pouvez charger plusieurs ressources de référence de contenu, mais ne pouvez en exploiter qu’une seule pour une génération spécifique.
+* Vous pouvez charger plusieurs ressources de référence de contenu, mais ne pouvez en utiliser qu’une pour une génération spécifique.
 * Utilisez un modèle personnalisé ou spécifique à la marque pour générer du contenu pour une page de destination complète. Des modèles de page de destination contenant jusqu’à 8 à 10 images sont recommandés.
 * Veillez à signaler les sorties problématiques à l&#39;aide des icônes de pouces vers le haut, vers le bas ou d&#39;indicateurs lors de la sélection des variantes générées.
 
 ## Entrée et paramètres pour la génération de contenu
 
-Vous pouvez générer du contenu complet pour une page de destination ou pour des composants sélectionnés dans la page. Lorsque vous utilisez l’assistant AI, saisissez du texte et des images, y compris des entrées, des invites, du contenu de référence et des paramètres.
+Vous pouvez générer du contenu complet pour une page de destination ou pour des composants sélectionnés dans la page. Lors de l’utilisation de ces outils, fournissez des entrées, des invites, du contenu de référence et des paramètres pour le texte et les images.
 
 ### Prompts
 
@@ -67,7 +75,7 @@ Utilisez des invites bien définies pour que le modèle d’IA générative l’
 
 ![Champ d’invite](./assets/gen-ai-prompt.png){width="320"}
 
-Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bonnes pratiques relatives aux invites](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
+Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bonnes pratiques relatives aux invites](./generative-ai-content.md#generative-ai-prompting-guide)_.
 
 >[!BEGINSHADEBOX]
 
@@ -75,7 +83,7 @@ Pour plus d&#39;informations sur la création d&#39;invites efficaces, voir _[Bo
 
 Une invite efficace est essentielle pour générer le meilleur contenu possible. Si vous souhaitez obtenir de l&#39;aide pour concevoir votre invite, cliquez sur l&#39;icône _Bibliothèque d&#39;invites_ ![Icône de bibliothèque d&#39;invites](../assets/do-not-localize/icon-library.svg) pour accéder à une bibliothèque d&#39;idées d&#39;invites organisées en fonction des objectifs. Saisissez du texte dans le champ de recherche pour trouver une invite basée sur une chaîne de mot-clé.
 
-![Assistant AI - Accès à la bibliothèque d’invites](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
+![Générer le contenu - Accéder à la bibliothèque d’invites](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
 Sélectionnez l’invite qui reflète le mieux vos objectifs prévus et cliquez sur **[!UICONTROL Essayer cette invite]**. Dans le champ _[!UICONTROL Invite]_, remplacez les espaces réservés (tels que `[Key Feature/Information]`) par les détails de votre marque, de votre offre, de votre campagne et du cas d’utilisation.
 
@@ -115,7 +123,7 @@ Cliquez sur la flèche de gauche pour revenir à la _[!UICONTROL Paramètres]_ p
 
 ### Contenu de référence
 
-Chargez des ressources de contenu de référence pour générer du contenu précis et intégré à la marque. Dans le cas contraire, le contenu généré est basé sur des informations disponibles publiquement. Le contenu de référence sert de source pour la génération de contenu et les recommandations d’images. Pour obtenir des instructions et connaître les bonnes pratiques, voir _[Contenu de référence optimisé](../ai-coworker/generative-ai-content.md#reference-content)_.
+Chargez des ressources de contenu de référence pour générer du contenu précis et intégré à la marque. Dans le cas contraire, le contenu généré est basé sur des informations disponibles publiquement. Le contenu de référence sert de source pour la génération de contenu et les recommandations d’images. Pour obtenir des instructions et connaître les bonnes pratiques, voir _[Contenu de référence optimisé](./generative-ai-content.md#reference-content)_.
 
 Dans les paramètres **[!UICONTROL Contenu de référence]**, cliquez sur **[!UICONTROL Télécharger le fichier]** pour ajouter toute ressource contenant du contenu que vous souhaitez utiliser pour un contexte supplémentaire.
 
@@ -129,7 +137,7 @@ Si vous souhaitez sélectionner un fichier précédemment chargé, développez l
 
 ## Utiliser les outils d’IA générative {#gen-ai-tools}
 
-Pour commencer à générer votre contenu, ouvrez l’éditeur de contenu de la page de destination et accédez aux outils d’IA générative sur le rail extérieur du panneau de droite. Sélectionnez l’_assistant AI_ ( ![assistant AI pour le bouton de contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) pour afficher les outils de génération de contenu disponibles pour la sélection de contenu actuelle.
+Pour commencer à générer votre contenu, ouvrez l’éditeur de contenu de la page de destination et accédez aux outils d’IA générative sur le rail extérieur du panneau de droite. Sélectionnez l’option _Générer le contenu_ ( ![bascule Générer le contenu pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) pour afficher les outils de génération de contenu disponibles pour la sélection de contenu actuelle.
 
 Procédez comme suit en fonction du type de génération de contenu de page de destination que vous souhaitez utiliser :
 
@@ -147,11 +155,11 @@ Pour générer une page de destination complète en affinant un modèle existant
 
    Pour plus d’informations sur l’utilisation d’un modèle de landing page, voir _[Sélectionner un modèle](./landing-pages-create-publish.md#select-template)_.
 
-1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
+1. Sur le rail externe du panneau de droite, sélectionnez l’icône _Générer le contenu_ ( ![bouton Générer le contenu pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
+   ![Bouton Générer du contenu dans l’espace de conception de la page de destination](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
-   Les paramètres de l’assistant d’IA sur la droite reflètent les paramètres de génération de la page de destination complète.
+   Les paramètres de droite reflètent les paramètres de génération de la page de destination complète.
 
 1. (Beta) Sélectionnez votre **[!UICONTROL marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque.
 
@@ -161,11 +169,9 @@ Pour générer une page de destination complète en affinant un modèle existant
 
    Utilisez la [bibliothèque d&#39;invites](#prompts) si vous avez besoin d&#39;aide pour concevoir une invite efficace.
 
-   ![Assistant AI - Bibliothèque d’invites pour générer le contenu de la page de destination](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
-
    >[!TIP]
    >
-   >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
+   >Si vous n’êtes pas familier avec l’invite de contenu généré, consultez la _[Bonnes pratiques relatives à l’invite](./generative-ai-content.md#generative-ai-prompting-guide)_.
 
 1. Pour personnaliser le contenu généré, définissez les paramètres de guidage de contenu :
 
@@ -175,7 +181,7 @@ Pour générer une page de destination complète en affinant un modèle existant
 
 1. Lorsque l’invite et les paramètres sont prêts, cliquez sur **[!UICONTROL Générer]**.
 
-1. Faites défiler vers le bas le panneau de l’assistant d’IA et parcourez les variations générées pour déterminer celle qui convient le mieux.
+1. Faites défiler vers le bas le panneau Générer du contenu et parcourez les variations générées pour déterminer celle qui convient le mieux.
 
    * Cliquez sur l’icône _Plein écran_ ( ![Icône Plein écran](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer une page de destination]_
 
@@ -193,9 +199,9 @@ Pour affiner ou améliorer le contenu textuel d’une page de destination exista
 
 1. Dans l’espace de conception de la page de destination, sélectionnez un composant _Texte_ pour cibler le contenu spécifique.
 
-1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
+1. Sur le rail externe du panneau de droite, sélectionnez l’icône _Générer le contenu_ ( ![bouton Générer le contenu pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![Bouton (bascule) Générer le contenu dans l’espace de conception de la page de destination - Composant texte sélectionné](./assets/gen-ai-landing-page-text-ai-panel.png){width="600" zoomable="yes"}
 
    Les paramètres de droite reflètent les paramètres de génération de contenu du composant de texte.
 
@@ -204,8 +210,6 @@ Pour affiner ou améliorer le contenu textuel d’une page de destination exista
    S’il n’existe aucune marque publiée, cliquez sur **[!UICONTROL Créer une marque]** pour [définir vos directives de marque réutilisables](./brands-overview.md).
 
 1. Dans le champ **[!UICONTROL Invite]**, saisissez une description de ce que vous souhaitez générer.
-
-   ![Assistant AI - Paramètres de texte](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
    Utilisez la [bibliothèque d&#39;invites](#prompts) si vous avez besoin d&#39;aide pour concevoir une invite efficace.
 
@@ -217,7 +221,7 @@ Pour affiner ou améliorer le contenu textuel d’une page de destination exista
 
 1. Lorsque l’invite et les paramètres sont prêts, cliquez sur **[!UICONTROL Générer]**.
 
-1. Faites défiler vers le bas le panneau de l’assistant d’IA et parcourez les variations générées pour déterminer celle qui convient le mieux.
+1. Faites défiler vers le bas le panneau Générer du contenu et parcourez les variations générées pour déterminer celle qui convient le mieux.
 
    * Cliquez sur l’icône _Plein écran_ ( ![Icône Plein écran](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer du texte]_
 
@@ -235,19 +239,17 @@ Pour affiner ou améliorer le contenu d’image d’une page de destination exis
 
 1. Dans l’espace de conception de la page de destination, sélectionnez un composant _Image_ pour cibler le contenu spécifique.
 
-1. Sur le rail extérieur du panneau de droite, sélectionnez l’icône _Assistant AI_ ( ![Bouton bascule Assistant AI pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
+1. Sur le rail externe du panneau de droite, sélectionnez l’icône _Générer le contenu_ ( ![bouton Générer le contenu pour le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
 
-   ![&#x200B; L’assistant AI bascule dans l’espace de conception de la page de destination](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![Bouton (bascule) Générer le contenu dans l’espace de conception de la page de destination - composant image sélectionné](./assets/gen-ai-landing-page-image-ai-panel.png){width="600" zoomable="yes"}
 
-   Les paramètres de l’assistant AI à droite reflètent les paramètres de génération du composant d’image.
+   Les paramètres de droite reflètent les paramètres de génération du composant d’image.
 
 1. (Beta) Sélectionnez votre **[!UICONTROL marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque.
 
    S’il n’existe aucune marque publiée, cliquez sur **[!UICONTROL Créer une marque]** pour [définir vos directives de marque réutilisables](./brands-overview.md).
 
 1. Saisissez une description de votre choix dans le champ **[!UICONTROL Invite]**.
-
-   ![Assistant AI - Paramètres de texte](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
    Utilisez la [bibliothèque d&#39;invites](#prompts) si vous avez besoin d&#39;aide pour concevoir une invite efficace.
 
@@ -259,7 +261,7 @@ Pour affiner ou améliorer le contenu d’image d’une page de destination exis
 
 1. Une fois l’invite et les paramètres définis, cliquez sur **[!UICONTROL Générer]**.
 
-   L’assistant AI traite la demande et génère les images les mieux adaptées en fonction de l’invite et d’autres entrées.
+   L’option Générer le contenu traite la requête et génère les images les mieux adaptées en fonction de l’invite et d’autres entrées.
 
    >[!IMPORTANT]
    >
@@ -271,7 +273,7 @@ Pour affiner ou améliorer le contenu d’image d’une page de destination exis
 
    Vous pouvez sélectionner une variation et cliquer sur **[!UICONTROL Générer un similaire]** pour générer des images supplémentaires similaires à la variante sélectionnée. Ou cliquez sur **[!UICONTROL Modifier dans Adobe Express]** pour apporter vos propres modifications à l’image. Voir [Actions rapides dans Adobe Express](./image-edit-adobe-express.md#quick-actions-in-adobe-express) pour plus d’informations sur l’utilisation d’Adobe Express afin d’affiner vos images.
 
-   ![Aperçu de l’assistant AI des options de variation et d’affinement du texte](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![Générer un aperçu du contenu des options de variation et d’affinement du texte](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 
    Vous pouvez également [soumettre des commentaires](#submit-variation-feedback) pour les variations générées.
 
@@ -283,7 +285,7 @@ Pour affiner ou améliorer le contenu d’image d’une page de destination exis
 
 ## Prévisualisation et affinement du contenu {#refine-finalize}
 
-Après avoir généré des variations de contenu, vous pouvez affiner les résultats pour vous assurer qu’ils répondent exactement à vos besoins. Examinez l’alignement de la marque, ajustez le ton et la langue, puis préparez le contenu pour un brouillon révisable. Vous pouvez également envoyer des commentaires pour une variation afin de former l’assistant d’IA et d’améliorer les résultats futurs.
+Après avoir généré des variations de contenu, vous pouvez affiner les résultats pour vous assurer qu’ils répondent exactement à vos besoins. Examinez l’alignement de la marque, ajustez le ton et la langue, puis préparez le contenu pour un brouillon révisable. Vous pouvez également envoyer des commentaires pour une variation afin de former les outils d’IA génératifs et d’améliorer les résultats futurs.
 
 ### Ouvrir l’affichage plein écran
 
@@ -299,9 +301,9 @@ Après avoir généré des variations de contenu, vous pouvez affiner les résul
 
 Cliquez sur l’option **[!UICONTROL Affiner]** pour accéder à des fonctions de personnalisation supplémentaires pour les variations de page de destination et de texte :
 
-* **[!UICONTROL Développer]** - L’assistant d’IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
+* **[!UICONTROL Développer]** - Développez des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
 
-* **[!UICONTROL Résumer]** - La longueur des informations peut surcharger les visionneuses de pages. Utilisez l’assistant d’IA pour condenser les points clés en résumés clairs et concis qui attirent l’attention et encouragent les destinataires à lire davantage.
+* **[!UICONTROL Résumer]** - La longueur des informations peut être difficile à traiter pour les personnes qui consultent les pages. Utilisez cette option pour condenser les points clés en résumés clairs et concis qui encouragent les destinataires à lire davantage.
 
 * **[!UICONTROL Reformuler]** - Réécrivez le message tout en préservant sa signification. Cette option vous permet de générer d’autres formulations, d’améliorer la fluidité du texte ou d’ajuster la formulation sans modifier le message principal.
 
@@ -321,7 +323,7 @@ Cliquez sur l’option **[!UICONTROL Affiner]** pour accéder à des fonctions d
 
 Faites des commentaires sur les variantes générées en cliquant sur l’icône _Pouces vers le haut_, _Pouces vers le bas_ ou _Indicateur_ et sélectionnez la raison qui résume le mieux vos commentaires.
 
-![Assistant AI - Prévisualiser les variations générées](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
+![Générer le contenu : prévisualisez les variations générées](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 
 ### Vérifier l’alignement de votre marque (Beta)
 
@@ -331,4 +333,4 @@ L’évaluation et la notation de l’alignement de la marque vous permettent d�
 
 ![Accéder aux outils de notation de l’alignement des marques](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-Pour plus d’informations, voir [_Score d’alignement des marques_](./content-evaluation.md#brand-alignment-score)
+Pour plus d’informations, voir [_Score d’alignement des marques_](./content-evaluation.md#brand-alignment-score).
