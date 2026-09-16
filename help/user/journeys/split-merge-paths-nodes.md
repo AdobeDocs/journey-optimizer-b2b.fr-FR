@@ -47,7 +47,7 @@ Un nœud _Chemins partagés_ définit un ou plusieurs chemins segmentés en fonc
 
 Les chemins de division par comptes peuvent inclure des actions et des événements de compte et de personnes. Ces chemins peuvent être divisés davantage.
 
-_**Fonctionnement d’un chemin de division par nœud de comptes**_
+_&#x200B;**Fonctionnement d’un chemin de division par nœud de comptes**&#x200B;_
 
 * Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
 * Les nœuds Fractionnés par compte peuvent être imbriqués (vous pouvez fractionner le chemin d’accès par comptes à plusieurs reprises).
@@ -62,7 +62,7 @@ _**Fonctionnement d’un chemin de division par nœud de comptes**_
 | Conditions de chemin | Description |
 | --------------- | ----------- |
 | [!UICONTROL Attributs de compte] | Attributs du profil de compte, notamment : <li>Revenus annuels <li>Ville <li>Pays <li>Taille de la personne employée <li>Secteur industriel <li>Nom <li>Code SIC <li>État |
-| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ne possède pas d&#39;enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering).) |
+| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ne possède pas d&#39;enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering).) |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Le compte correspond au groupe d&#39;achats] | Le compte est associé à un ou plusieurs groupes d&#39;achats. Il peut être évalué par rapport à une ou plusieurs des contraintes suivantes pour un groupe d&#39;achat apparié : <li>Intérêt de la solution <li>Étape du groupe d&#39;achat <li>Statut du groupe d&#39;achat <li>Score d’engagement <li>Score d&#39;exhaustivité <li> Nombre de personnes dans le rôle de groupe d’achat |
 
 ### Ajouter un chemin de division par nœud de compte
@@ -139,7 +139,7 @@ _(parcours de compte et de personne)_
 
 Les chemins fractionnés par personnes ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
 
-_**Fonctionnement d’un nœud de partage de chemin par personnes**_
+_&#x200B;**Fonctionnement d’un nœud de partage de chemin par personnes**&#x200B;_
 
 * Les nœuds fractionnés par personnes fonctionnent dans une combinaison _nœud groupé_ de division-fusion. Les chemins de division fusionnent automatiquement afin que toutes les personnes puissent passer à l’étape suivante sans perdre le contexte de leur compte.
 * Les nœuds Fractionné par personnes ne peuvent pas être imbriqués (vous ne pouvez pas ajouter de chemin de fractionnement pour les personnes sur un chemin qui se trouve dans ce nœud groupé).
@@ -153,8 +153,8 @@ _**Fonctionnement d’un nœud de partage de chemin par personnes**_
 
 | Filtres | Description |
 | ------------ | ----------- |
-| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} La personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering)) |
-| [!UICONTROL  Historique des événements ] | Divise les personnes en fonction des événements d’expérience qui se sont produits avant l’entrée sur le parcours. Développez le dossier pour afficher tous les types d’événements configurés dans [Admin > Configuration des événements XDM](../admin/configure-aep-events.md) et sélectionnez-en un à ajouter en tant que filtre. Les contraintes comprennent les champs de l’événement sélectionné, un intervalle de temps de recherche en amont mesuré à partir du moment où la personne accède au parcours et un nombre minimum de fois facultatif. |
+| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} La personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans le [schéma relationnel XDM](../admin/xdm-field-management.md#relational-schemas). (Voir [Filtrage des données personnalisé](#custom-data-filtering)) |
+| [!UICONTROL &#x200B; Historique des événements &#x200B;] | Divise les personnes en fonction des événements d’expérience qui se sont produits avant l’entrée sur le parcours. Développez le dossier pour afficher tous les types d’événements configurés dans [Admin > Configuration des événements XDM](../admin/configure-aep-events.md) et sélectionnez-en un à ajouter en tant que filtre. Les contraintes comprennent les champs de l’événement sélectionné, un intervalle de temps de recherche en amont mesuré à partir du moment où la personne accède au parcours et un nombre minimum de fois facultatif. |
 | [!UICONTROL Attributs de personne] | Attributs du [profil de la personne](../admin/field-mapping.md#xdm-business-person-attributes), notamment : <li>Ville <li>Pays <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
 
@@ -235,7 +235,7 @@ Vous pouvez affiner davantage le filtre à l&#39;aide de contraintes spécifique
 
 >[!BEGINSHADEBOX « Filtrage d&#39;inactivité »]
 
-Pour chacun des filtres _[!UICONTROL Historique des événements]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Pour créer un chemin pour les personnes qui _**n’ont pas ouvert**_ d’e-mail, ajoutez le filtre _[!UICONTROL E-mail de marketing direct ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail.
+Pour chacun des filtres _[!UICONTROL Historique des événements]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Pour créer un chemin pour les personnes qui _&#x200B;**n’ont pas ouvert**&#x200B;_ d’e-mail, ajoutez le filtre _[!UICONTROL E-mail de marketing direct ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail.
 
 ![Partage du chemin par condition d’inactivité des personnes](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
