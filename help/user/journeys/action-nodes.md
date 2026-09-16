@@ -6,24 +6,28 @@ role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2184
+source-wordcount: '2176'
 ht-degree: 3%
-
 ---
-
 # Entreprendre une action
 
 Pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score ou l’affectation d’un groupe d’achats, ajoutez un nœud _[!UICONTROL Prendre une action]_ dans votre parcours. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
@@ -45,7 +49,6 @@ Dans un parcours de compte, utilisez une action sur les comptes lorsque vous sou
 | [!UICONTROL Désactiver de la destination] | Sélectionner une audience virtuelle existante<br/>Sélectionner une destination |
 | [!UICONTROL Supprimer un compte du Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
-| [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
 | [!UICONTROL Mettre à jour le profil de compte] | Sélectionner l’attribut<br/>Nouvelle valeur |
 | [!UICONTROL Mettre à jour l&#39;étape du groupe d&#39;achat] | Sélectionner l&#39;intérêt de la solution<br/>Sélectionner l&#39;étape du groupe d&#39;achat |
 | [!UICONTROL Mettre à jour le statut du groupe d&#39;achat] | Sélectionnez le statut <br/> la solution (obligatoire, 50 caractères max.). |

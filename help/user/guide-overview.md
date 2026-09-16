@@ -10,9 +10,9 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1151'
 ht-degree: 32%
 ---
 # Documentation d’Adobe Journey Optimizer B2B Edition
@@ -185,7 +185,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Contenu de parcours"><br/>
-      <strong>Contenu de Parcours </strong><br/><a href="./content/add-email.md">Canal e-mail</a><br/><a href="./content/generate-content-emails.md">Générer le contenu de l’e-mail</a><br/><a href="./content/genstudio-email-workflow.md">Expériences e-mail GenStudio</a><br/><a href="./content/sales-alert-email.md">Canal e-mail d’alerte commerciale</a><br/><a href="./content/sms-authoring.md">SMS</a>
+      <strong>Contenu Parcours </strong><br/><a href="./content/add-email.md">Canal e-mail</a><br/><a href="./content/generate-content-emails.md">Générer le contenu de l’e-mail</a><br/><a href="./content/genstudio-email-workflow.md">Expériences e-mail GenStudio</a><br/><a href="./content/sms-authoring.md">Canal SMS</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Gestion de contenu"><br/>

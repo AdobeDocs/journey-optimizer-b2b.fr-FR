@@ -7,24 +7,28 @@ role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: '2349'
 ht-degree: 4%
-
 ---
-
 # Partager et fusionner des chemins {#split-paths}
 
 Utilisez les nœuds de chemin de division et de fusion pour segmenter les personnes ou les comptes en fonction des conditions que vous définissez. Créez des chemins d’accès pour l’audience ou la liste de comptes en fonction de conditions, définissez chaque chemin d’accès avec des nœuds d’action et d’événement pour le segment, puis combinez les chemins d’accès et poursuivez le parcours.
@@ -127,7 +131,7 @@ Par exemple, évaluez la préparation du groupe d&#39;achat en fonction de la pr
 
 1. Cliquez sur **[!UICONTROL Terminé]** lorsque toutes les conditions du chemin d’accès sont définies.
 
-Pour mettre à jour le statut du groupe d’achats ou de l’étape, ou pour envoyer un e-mail d’alerte commerciale pour les comptes identifiés, ajoutez un nœud action dans le chemin d’accès.
+Pour mettre à jour le statut du groupe d&#39;achats ou de l&#39;étape pour les comptes identifiés, ajoutez un nœud action dans le chemin d&#39;accès.
 
 ## Fractionner les chemins par personnes
 

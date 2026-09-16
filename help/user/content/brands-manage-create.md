@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 15%
@@ -173,7 +173,7 @@ Pour créer et définir vos directives de marque, vous pouvez saisir les détail
 
 Lorsque votre marque comprend un ensemble complet de définitions et répond à vos exigences, cliquez sur **[!UICONTROL Publier]** pour rendre vos directives de marque disponibles pour l’alignement et la génération du contenu.
 
-Les marques publiées sont accessibles à partir de l’option **[!UICONTROL Marque]** dans l’IA [score d’alignement de la marque](./content-evaluation.md#brand-alignment-score) et [outils de génération de contenu](../ai-coworker/generative-ai-content.md).
+Les marques publiées sont accessibles à partir de l’option **[!UICONTROL Marque]** dans l’IA [score d’alignement de la marque](./content-evaluation.md#brand-alignment-score) et [outils de génération de contenu](./generative-ai-content.md).
 
 ![Options de marque pour le contenu](./assets/brand-menu-content-ai-tools.png){width="300"}
 
