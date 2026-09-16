@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 15%
@@ -76,7 +76,7 @@ Pour appliquer automatiquement une marque lors de la génération de contenu et 
 
 Dans la bibliothèque de marques, la vignette de marque par défaut est affichée avec un indicateur .
 
-![&#x200B; Indicateur de marque par défaut &#x200B;](./assets/brands-default-flag.png){width="200"}
+![ Indicateur de marque par défaut ](./assets/brands-default-flag.png){width="200"}
 
 Vous pouvez définir n’importe quelle marque publiée (_en direct_) comme marque par défaut. Sur la carte de marque, cliquez sur l’icône _Plus de menu_ ( ![Icône de menu Plus](../../assets/do-not-localize/icon-more-menu.svg) ) et choisissez **[!UICONTROL Marquer comme marque par défaut]**.
 
@@ -173,7 +173,7 @@ Pour créer et définir vos directives de marque, vous pouvez saisir les détail
 
 Lorsque votre marque comprend un ensemble complet de définitions et répond à vos exigences, cliquez sur **[!UICONTROL Publier]** pour rendre vos directives de marque disponibles pour l’alignement et la génération du contenu.
 
-Les marques publiées sont accessibles à partir de l’option **[!UICONTROL Marque]** dans l’IA [score d’alignement de la marque](./content-evaluation.md#brand-alignment-score) et [outils de génération de contenu](../ai-coworker/generative-ai-content.md).
+Les marques publiées sont accessibles à partir de l’option **[!UICONTROL Marque]** dans l’IA [score d’alignement de la marque](./content-evaluation.md#brand-alignment-score) et [outils de génération de contenu](./generative-ai-content.md).
 
 ![Options de marque pour le contenu](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -259,7 +259,7 @@ Sélectionnez l’onglet **[!UICONTROL Style d’écriture]** et passez en revue
 |                            | [!UICONTROL Mécanique de l&#39;écriture] | Gardez les phrases courtes et percutantes. | N’utilisez pas trop de jargon. |
 |                            | [!UICONTROL Ton situationnel] | Maintenez un ton professionnel dans les communications de crise. | Ne soyez pas dédaigneux dans les communications d’assistance. |
 |                            | [!UICONTROL Consignes relatives au choix de mots] | Utilisez des mots comme _innovant_ et _intelligent_. | Évitez les mots comme _pas cher_ ou _hack_. |
-|                            | [!UICONTROL &#x200B; Normes linguistiques &#x200B;] | Respectez les conventions françaises. | Faites attention à l’orthographe. |
+|                            | [!UICONTROL  Normes linguistiques ] | Respectez les conventions françaises. | Faites attention à l’orthographe. |
 | [!UICONTROL Normes de message de marque] | [!UICONTROL Normes de message de marque] | Mettez l’accent sur l’innovation et orientez les messages sur la clientèle. | Ne faites pas de promesses irréalistes sur les capacités du produit. |
 |                            | [!UICONTROL Utilisation des balises] | Placez le slogan sous le logo sur toutes les ressources marketing numériques. | Ne modifiez ni ne traduisez le slogan. |
 |                            | [!UICONTROL Messages principaux] | Mettez l&#39;accent sur l&#39;énoncé des principaux avantages, comme l&#39;amélioration de la productivité. | N’utilisez pas des propositions de valeur sans rapport. |

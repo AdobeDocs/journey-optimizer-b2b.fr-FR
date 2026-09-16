@@ -6,24 +6,28 @@ role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2184
+source-wordcount: '2176'
 ht-degree: 3%
-
 ---
-
 # Entreprendre une action
 
 Pour exécuter une action, telle que l’envoi d’un e-mail, la modification d’un score ou l’affectation d’un groupe d’achats, ajoutez un nœud _[!UICONTROL Prendre une action]_ dans votre parcours. Les actions sont généralement ce que vous souhaitez qu’il se produise à la suite d’un déclencheur, tel qu’un événement ou une action précédente.
@@ -40,12 +44,11 @@ Dans un parcours de compte, utilisez une action sur les comptes lorsque vous sou
 | ------ | ----------- |
 | [!UICONTROL Moment intéressant du compte] | Type (e-mail, jalon ou web)<br/>Description (facultatif) |
 | [!UICONTROL Activer vers la destination] | Sélectionner une destination |
-| [!UICONTROL Ajouter un compte à un (autre) Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Ajouter un compte à un (autre) Parcours ] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Ajouter à la liste des comptes] | Sélectionner la liste de comptes statiques actifs |
 | [!UICONTROL Désactiver de la destination] | Sélectionner une audience virtuelle existante<br/>Sélectionner une destination |
-| [!UICONTROL Supprimer un compte du Parcours &#x200B;] | Sélectionner le parcours de compte dynamique |
+| [!UICONTROL Supprimer un compte du Parcours ] | Sélectionner le parcours de compte dynamique |
 | [!UICONTROL Supprimer de la liste des comptes] | Sélectionner une liste de comptes statiques actifs |
-| [!UICONTROL Envoyer une alerte de vente] | Sélectionner la solution qui vous intéresse<br/>Envoyer un e-mail à |
 | [!UICONTROL Mettre à jour le profil de compte] | Sélectionner l’attribut<br/>Nouvelle valeur |
 | [!UICONTROL Mettre à jour l&#39;étape du groupe d&#39;achat] | Sélectionner l&#39;intérêt de la solution<br/>Sélectionner l&#39;étape du groupe d&#39;achat |
 | [!UICONTROL Mettre à jour le statut du groupe d&#39;achat] | Sélectionnez le statut <br/> la solution (obligatoire, 50 caractères max.). |
@@ -122,7 +125,7 @@ Dans un parcours de compte ou de personne, utilisez une action sur les personnes
 
 | Contexte | Action | Type de parcours | Contraintes |
 | ------- | ------ | ------------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Ajouter une personne à (un autre) parcours &#x200B;] | <li>Parcours de compte (Action sur les personnes) <li>Parcours d’une personne | <li>Sélectionner un parcours de personne actif |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Ajouter une personne à (un autre) parcours ] | <li>Parcours de compte (Action sur les personnes) <li>Parcours d’une personne | <li>Sélectionner un parcours de personne actif |
 | | [!UICONTROL Ajouter à une audience client externe] | <li>Parcours de compte <li>Parcours d’une personne | <li>Sélectionner une audience externe dédiée à la clientèle |
 | | [!UICONTROL Affecter au groupe d&#39;achat] | <li>Parcours de compte | <li>Sélectionner l’intérêt de la solution <li>Sélectionner un rôle |
 | | [!UICONTROL Moment intéressant] | <li>Parcours de compte <li>Parcours d’une personne | <li>Type <li>Description |
@@ -142,7 +145,7 @@ Dans un parcours de compte ou de personne, utilisez une action sur les personnes
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Effectuer une action]**.
 
-1. (parcours de compte uniquement _) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]**&#x200B;pour le contexte de l’action._
+1. (parcours de compte uniquement _) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Personnes]**pour le contexte de l’action._
 
 1. Sélectionnez une action dans la liste et définissez ses valeurs.
 
@@ -152,13 +155,13 @@ Dans un parcours de compte ou de personne, utilisez une action sur les personnes
 
 Les actions basées sur les personnes B2B de Journey Optimizer sont conçues pour gérer les communications par le biais des canaux configurés et gérer la catégorisation des personnes au sein de vos groupes d’achats et comptes. Le parcours applique l’action lorsqu’un compte qualifié avec des profils de personnes atteint le nœud .
 
-+++[!UICONTROL Ajouter une personne à (un autre) Parcours &#x200B;]
++++[!UICONTROL Ajouter une personne à (un autre) Parcours ]
 
 Utilisez cette action pour ajouter un profil de personne à un parcours de personne en direct. Lorsqu’une personne accède au nœud d’action, le système l’ajoute en tant que membre d’audience pour le parcours de personne spécifié.
 
 Utilisez le sélecteur **[!UICONTROL Sélectionner un Parcours de personne actif]** pour spécifier le parcours de personne dans lequel vous souhaitez ajouter le profil de personne. Vous pouvez saisir du texte dans le champ pour filtrer la liste.
 
-![Agir - Ajouter une personne à un (autre) Parcours &#x200B;](./assets/node-action-add-to-person-journey.png){width="300"}
+![Agir - Ajouter une personne à un (autre) Parcours ](./assets/node-action-add-to-person-journey.png){width="300"}
 
 +++
 
@@ -175,11 +178,11 @@ Utilisez cette action pour pousser les personnes vers une audience externe qui p
 Lorsque vous sélectionnez cette action basée sur les personnes, vous pouvez créer une nouvelle audience externe ou en sélectionner une dans la liste des audiences externes existantes.
 
 * Pour les audiences existantes, vous pouvez choisir parmi les audiences de clients externes qui ont été créées dans [!DNL Journey Optimizer B2B Edition] uniquement.
-* Lorsque vous créez une audience et que vous l’utilisez pour cette action de parcours, veillez à connecter la destination. Pour plus d’informations, consultez [Création d’une connexion de destination](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} et [Présentation de l’activation](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} dans la documentation de [!DNL Experience Platform].
+* Lorsque vous créez une audience et que vous l’utilisez pour cette action de parcours, veillez à connecter la destination. Pour plus d’informations, consultez [Création d’une connexion de destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} et [Présentation de l’activation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} dans la documentation de [!DNL Experience Platform].
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regardez une présentation vidéo pour l’orchestration de médias payants](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-À partir de la version 2025.10, vous pouvez également orchestrer au moyen d’audiences externes créées dans [!DNL Experience Platform], telles que des destinations [!DNL Adobe Target]. Pour plus d’informations sur cette intégration d’audience, voir [Audiences externes &#x200B;](../audiences/target-external-audience.md).
+À partir de la version 2025.10, vous pouvez également orchestrer au moyen d’audiences externes créées dans [!DNL Experience Platform], telles que des destinations [!DNL Adobe Target]. Pour plus d’informations sur cette intégration d’audience, voir [Audiences externes ](../audiences/target-external-audience.md).
 
 _Pour créer une audience externe :_
 
@@ -243,13 +246,13 @@ Utilisez cette action pour supprimer des profils de personnes d&#39;un [groupe d
 
 +++
 
-+++[!UICONTROL Supprimer une personne du Parcours &#x200B;]
++++[!UICONTROL Supprimer une personne du Parcours ]
 
 Utilisez cette action pour supprimer un profil de personne d’un parcours de personnes. Lorsqu’une personne accède au nœud d’action, le système la supprime en tant que membre d’audience pour le parcours de personne spécifié.
 
 Utilisez le sélecteur **[!UICONTROL Sélectionner le Parcours de personne]** pour spécifier le parcours de personne dans lequel vous souhaitez supprimer le profil de personne. Vous pouvez saisir du texte dans le champ pour filtrer la liste.
 
-![Agir - Supprimer une personne du Parcours &#x200B;](./assets/node-action-remove-from-person-journey.png){width="300"}
+![Agir - Supprimer une personne du Parcours ](./assets/node-action-remove-from-person-journey.png){width="300"}
 
 +++
 
@@ -263,7 +266,7 @@ Pour les parcours de personne, utilisez [Optimisation de l’heure d’envoi](..
 
 >[!NOTE]
 >
->Vous pouvez utiliser la déduplication des e-mails dans les parcours de compte pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail au sein d’un parcours. Pour plus d’informations, voir [&#x200B; Déduplication des e-mails &#x200B;](../content/email-deduplication.md).
+>Vous pouvez utiliser la déduplication des e-mails dans les parcours de compte pour vous assurer que le même e-mail n’est pas envoyé plusieurs fois à la même adresse e-mail au sein d’un parcours. Pour plus d’informations, voir [ Déduplication des e-mails ](../content/email-deduplication.md).
 
 +++
 
@@ -309,7 +312,7 @@ Par exemple, supprimez les campagnes dans Marketo Engage pour les personnes qui 
 
 +++[!UICONTROL Ajouter à la campagne de requête Marketo]
 
-Utilisez cette action pour ajouter des profils de personnes à une campagne [request](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} dans une instance Marketo Engage connectée.
+Utilisez cette action pour ajouter des profils de personnes à une campagne [request](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} dans une instance Marketo Engage connectée.
 
 Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionnez ensuite le nom de la campagne de requête.
 
@@ -319,7 +322,7 @@ Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionn
 
 +++[!UICONTROL Ajouter à la liste Marketo]
 
-Utilisez cette action pour ajouter des personnes à une [liste statique](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} dans une instance Marketo Engage connectée.
+Utilisez cette action pour ajouter des personnes à une [liste statique](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} dans une instance Marketo Engage connectée.
 
 Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionnez ensuite le nom de la liste.
 
@@ -329,7 +332,7 @@ Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionn
 
 +++[!UICONTROL Supprimer de la liste Marketo]
 
-Utilisez cette action pour supprimer des personnes d’une [liste statique](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} dans Marketo Engage.
+Utilisez cette action pour supprimer des personnes d’une [liste statique](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} dans Marketo Engage.
 
 Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionnez ensuite le nom de la liste.
 
@@ -339,4 +342,4 @@ Sélectionnez tout d’abord une instance Marketo Engage connectée. Sélectionn
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443247/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

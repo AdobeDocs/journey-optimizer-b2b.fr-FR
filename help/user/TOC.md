@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '445'
 ht-degree: 84%
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 84%
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)
@@ -68,7 +68,6 @@ ht-degree: 84%
     + [Workflows GenStudio](./content/genstudio-email-workflow.md)
     + [Mode sombre pour la conception d’e-mail](./content/email-dark-mode.md)
     + [Modèles régis](./content/email-authoring-governance.md)
-    + [E-mail d’alerte de vente](./content/sales-alert-email.md)
     + [Déduplication des e-mails](./content/email-deduplication.md)
     + [Suivi des e-mails](./content/email-tracking-manage.md)
   + Canal web (Beta) {#web-channel}
