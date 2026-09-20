@@ -133,7 +133,7 @@ Les expériences web Journey Optimizer B2B Edition fonctionnent avec les framewo
 | Framework | Considérations |
 | --------- | -------------- |
 | **React** | Les modifications s’appliquent une fois que React a rendu les composants dans le DOM. Utilisez des noms de classe ou des attributs de données pour le ciblage. |
-| **** | Éléments cibles après l’exécution de la détection des modifications d’Angular. Évitez de cibler les éléments avec des `*ngIf` avant leur rendu. |
+| **&#x200B;**&#x200B;| Éléments cibles après l’exécution de la détection des modifications d’Angular. Évitez de cibler les éléments avec des `*ngIf` avant leur rendu. |
 | **Vue.js** | Attendez la `nextTick` de Vue pour vous assurer que les éléments sont dans le DOM. Utilisez des références ou des attributs personnalisés pour un ciblage stable. |
 | **Next.js / Nuxt.js** | Pour les pages SSR/SSG, assurez-vous que l’hydratation de Web SDK est terminée avant d’attendre des modifications. |
 
