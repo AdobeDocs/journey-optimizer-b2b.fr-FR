@@ -1,34 +1,42 @@
 ---
 title: Conception d’expérience web
-description: Concevez des expériences web avec des éditeurs visuels et non visuels. Ajoutez des modifications, gérez les mises à jour de contenu, activez le suivi des clics et personnalisez le contenu dans Journey Optimizer B2B edition.
+description: Concevez des expériences web avec des éditeurs visuels et non visuels. Ajoutez des modifications, gérez les mises à jour de contenu, activez le suivi des clics et personnalisez le contenu dans Journey Optimizer B2B Edition.
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+badge: label="Disponibilité limitée" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 2339
-ht-degree: 8%
-
+source-wordcount: '2317'
+ht-degree: 7%
 ---
-
 # Conception d’expériences web
 
 Après avoir [créé une expérience web](./web-experiences.md#create-a-web-experience), utilisez l’espace de conception de contenu pour définir les modifications à appliquer à vos pages web.
@@ -41,28 +49,29 @@ Avant de pouvoir concevoir des expériences web, assurez-vous que les exigences 
 
 * Un administrateur de produit a configuré un ou plusieurs canaux web pour définir les URL (pages) à inclure pour une expérience web. Pour plus d’informations, voir [Configurations du canal web](../admin/configure-channels-web.md).
 
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Adobe Experience Platform Web SDK version 2.16 ou ultérieure est requis.
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Adobe Experience Platform Web SDK version 2.16 ou ultérieure est requis.
 
 * Vous disposez des [autorisations](../admin/user-management.md#b2b-product-permissions) nécessaires pour créer et gérer des expériences web dans un parcours :
-   * _[!UICONTROL Campagnes]_ > _[!UICONTROL Gérer les campagnes]_ - Obligatoire pour ajouter ou mettre à jour un nœud d’action de personnalisation web.
-   * _[!UICONTROL Campagnes]_ > _[!UICONTROL Afficher les campagnes]_ - Obligatoire pour afficher les détails d’un nœud d’action de personnalisation web.
+  * _[!UICONTROL Créer Des Expériences Web B2B]_
+  * _[!UICONTROL Gérer les Parcours de personne B2B]_
+  * _[!UICONTROL Gérer les Parcours de compte B2B]_
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Avant de concevoir une expérience web, assurez-vous que l’extension de navigateur Visual Editing Helper d’Adobe Experience Cloud est installée pour votre navigateur web. Cette extension est nécessaire pour ouvrir, créer et prévisualiser vos pages web de manière fiable dans l’espace de conception d’expérience web de Journey Optimizer B2B edition.<br/>
+>Avant de concevoir une expérience web, assurez-vous que l’extension de navigateur Visual Editing Helper d’Adobe Experience Cloud est installée pour votre navigateur web. Cette extension est nécessaire pour ouvrir, créer et prévisualiser vos pages web de manière fiable dans l’espace de conception d’expérience web Journey Optimizer B2B Edition.<br/>
 >
->Google Chrome et Microsoft Edge sont actuellement les seuls navigateurs qui prennent en charge l’extension et la création d’expériences web dans Journey Optimizer B2B edition. Pour plus d’informations, voir [Installation de l’extension Visual Editing Helper](./web-experiences.md#install-the-visual-editing-helper-extension).
+>Google Chrome et Microsoft Edge sont actuellement les seuls navigateurs qui prennent en charge l’extension et la création d’expériences web dans Journey Optimizer B2B Edition. Pour plus d’informations, voir [Installation de l’extension Visual Editing Helper](./web-experiences.md#install-the-visual-editing-helper-extension).
 
 ## Éditeurs d’expérience web
 
-Journey Optimizer B2B edition fournit deux types d’éditeurs pour la conception de modifications web :
+Journey Optimizer B2B Edition fournit deux types d’éditeurs pour concevoir des modifications web :
 
 | Éditeur | Description | Idéal pour |
 | ------ | ----------- | -------- |
-| [éditeur visuel](#visual-editor) | Un éditeur WYSIWYG (_What You See Is What You Get_) qui affiche votre site web et vous permet de sélectionner et de modifier directement des éléments. Elle nécessite l’extension [&#x200B; Visual Editing Helper &#x200B;](./web-experiences.md#install-the-visual-editing-helper-extension) dans le navigateur web Google Chrome ou Microsoft Edge. | Apporter des modifications visuelles aux éléments de page visibles, tels que le texte, les images, les boutons et les bannières. |
-| [&#x200B; Éditeur non visuel &#x200B;](#non-visual-editor) | Éditeur basé sur le code pour appliquer des modifications qui ne peuvent pas être apportées via l’éditeur visuel. | Ciblage des éléments difficiles à sélectionner visuellement, application de modifications CSS avancées ou modification d’éléments masqués. |
+| [éditeur visuel](#visual-editor) | Un éditeur WYSIWYG (_What You See Is What You Get_) qui affiche votre site web et vous permet de sélectionner et de modifier directement des éléments. Elle nécessite l’extension [ Visual Editing Helper ](./web-experiences.md#install-the-visual-editing-helper-extension) dans le navigateur web Google Chrome ou Microsoft Edge. | Apporter des modifications visuelles aux éléments de page visibles, tels que le texte, les images, les boutons et les bannières. |
+| [ Éditeur non visuel ](#non-visual-editor) | Éditeur basé sur le code pour appliquer des modifications qui ne peuvent pas être apportées via l’éditeur visuel. | Ciblage des éléments difficiles à sélectionner visuellement, application de modifications CSS avancées ou modification d’éléments masqués. |
 
 Dans les propriétés de l’expérience web, utilisez l’option **[!UICONTROL Éditeur visuel]** pour déterminer le type d’éditeur. Activez l’option pour utiliser l’éditeur visuel ou désactivez-la pour utiliser l’éditeur non visuel.
 
@@ -73,7 +82,7 @@ Dans les propriétés de l’expérience web, utilisez l’option **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_browse"
 >title="Utiliser le mode de navigation"
->abstract="Dans ce mode, vous pouvez accéder à la page exacte à personnaliser pour la configuration de canal web sélectionnée."
+>abstract="Dans ce mode, vous pouvez accéder à la page exacte que vous souhaitez personnaliser pour la configuration du canal web sélectionné."
 
 L’éditeur visuel charge les pages web dans un iframe, où vous pouvez sélectionner des éléments et appliquer des modifications directement dans l’aperçu de la page. Pour utiliser l’éditeur visuel afin de concevoir votre expérience web, procédez comme suit :
 
@@ -103,7 +112,7 @@ L’éditeur visuel charge les pages web dans un iframe, où vous pouvez sélect
 
    * Sélectionnez un élément existant dans la page et [modifiez-le pour l’expérience web](#modify-elements).
 
-   * [Ajouter le suivi des clics](#click-tracking-for-web-experiences) pour les éléments permettant de mesurer l’engagement et de recueillir des informations.
+   * [Ajouter le suivi des clics](#web-click-tracking) pour les éléments permettant de mesurer l’engagement et de recueillir des informations.
 
 1. Répétez l’étape 2 pour charger d’autres pages que vous souhaitez inclure dans l’expérience web. Répétez l’étape 3 pour définir les modifications de page.
 
@@ -131,7 +140,7 @@ Les options de la barre d’outils dépendent du type de composant sélectionné
 
 Pour un élément sélectionné, les propriétés du panneau de droite changent pour refléter les styles et actions disponibles. Cliquez sur une icône d’action en haut du panneau pour dupliquer, suivre un clic, supprimer ou masquer l’élément sélectionné.
 
-![cliquez sur une icône d’action pour l’élément sélectionné](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
+![Cliquez sur une icône d’action pour l’élément sélectionné](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
 
 +++Éléments de texte
 
@@ -171,7 +180,7 @@ Pour plus d’informations sur les options de style de texte des composants de t
 
 +++
 
-+++ Éléments de conteneur
++++Éléments de conteneur
 
 1. Sélectionnez un élément de conteneur sur la page.
 
@@ -184,7 +193,7 @@ Pour plus d’informations sur les options de style de texte des composants de t
 Lorsque vous sélectionnez l’icône **+** dans le volet de navigation de gauche Conception de l’éditeur visuel, vous pouvez ajouter les types de composants suivants à la page en tant que modification de l’expérience web :
 
 * **[!UICONTROL Diviseur]** - Utilisez ce composant pour insérer une ligne de séparation afin d’organiser la disposition et le contenu de votre e-mail. Vous pouvez ajuster les attributs de style, tels que la couleur, le style et la hauteur des lignes à partir des propriétés du panneau de droite. Voir [Diviseur](./content-components.md#divider) dans _Composants de contenu_ pour plus d’informations.
-* **&#x200B;**&#x200B;- Utilisez ce composant pour copier-coller le code HTML dans la structure existante. Il permet de créer des composants modulaires HTML gratuits pour réutiliser du contenu externe. Voir [&#128279;](./content-components.md#html) dans _Composants de contenu_ pour plus d’informations.
+* **** - Utilisez ce composant pour copier-coller le code HTML dans la structure existante. Il permet de créer des composants modulaires HTML gratuits pour réutiliser du contenu externe. Voir [](./content-components.md#html) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL Image]** - Utilisez ce composant pour insérer un fichier image dans la page. Vous pouvez ajuster les attributs de style, tels que la largeur et la hauteur, à partir des propriétés du panneau de droite. Voir [Image](./content-components.md#image) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL En-tête]** - Utilisez ce composant pour insérer du texte de classe d’en-tête. Vous pouvez ajuster les attributs de style, tels que la couleur, le style, la police et la taille du texte, à partir des propriétés du panneau de droite. Voir [Texte](./content-components.md#text) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL Paragraphe]** - Utilisez ce composant pour insérer un élément de texte standard. Vous pouvez ajuster les attributs de style, tels que la couleur, le style, la police et la taille du texte, à partir des propriétés du panneau de droite. Voir [Texte](./content-components.md#text) dans _Composants de contenu_ pour plus d’informations.
@@ -196,8 +205,8 @@ Sélectionnez un type de composant à gauche, puis passez la souris sur un élé
 
 Cliquez sur l’un des boutons affichés pour placer le composant :
 
-* ***[!UICONTROL Insérer avant]** - Insérez le composant avant l’élément sélectionné.
-* ***[!UICONTROL Insérer après]** - Insérez le composant après l’élément sélectionné.
+* **[!UICONTROL Insérer avant]** - Insérez le composant avant l’élément sélectionné.
+* **[!UICONTROL Insérer après]** - Insérez le composant après l’élément sélectionné.
 
 Pour désélectionner un type de composant à insérer, cliquez sur **[!UICONTROL Échap]** dans la bannière contextuelle bleue affichée en haut de la page.
 
@@ -219,14 +228,14 @@ Utilisez l’éditeur non visuel lorsque vous devez apporter des modifications q
 
      | Type | Description |
      | ---- | ----------- |
-     | [**[!UICONTROL &#x200B; Sélecteur CSS &#x200B;]**](#css-selector-modifications) | Ciblez des éléments à l’aide d’une chaîne de sélecteur CSS. |
-     | [**[!UICONTROL &#x200B; Page &#x200B;]**](#page-modifications) | Insérez des HTML, CSS ou JavaScript personnalisés dans des éléments de niveau page, tels que `<head>` ou `<body>`. |
+     | [**[!UICONTROL  Sélecteur CSS ]**](#css-selector-modifications) | Ciblez des éléments à l’aide d’une chaîne de sélecteur CSS. |
+     | [**[!UICONTROL  Page ]**](#page-modifications) | Insérez des HTML, CSS ou JavaScript personnalisés dans des éléments de niveau page, tels que `<head>` ou `<body>`. |
 
    * Configurez les paramètres de modification en fonction du type :
 
-      * **[!UICONTROL Sélecteur CSS]** - Saisissez un sélecteur CSS valide pour cibler des éléments spécifiques.
-      * **[!UICONTROL Type d’action]** - Sélectionnez l’action à effectuer (modifier, masquer, supprimer, insérer, remplacer).
-      * **[!UICONTROL Contenu]** - Fournissez le contenu ou le style à appliquer.
+     * **[!UICONTROL Sélecteur CSS]** - Saisissez un sélecteur CSS valide pour cibler des éléments spécifiques.
+     * **[!UICONTROL Type d’action]** - Sélectionnez l’action à effectuer (modifier, masquer, supprimer, insérer, remplacer).
+     * **[!UICONTROL Contenu]** - Fournissez le contenu ou le style à appliquer.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer la modification.
 
@@ -261,7 +270,7 @@ Les modifications du sélecteur CSS vous permettent de cibler des éléments pr�
 
 ### Modifications de page
 
-Vous pouvez ajouter du code personnalisé à l’aide du type de modification Page `<head>` . L’élément `<head>` est un conteneur pour les métadonnées et est placé entre la balise `<html>` et la balise `<body>`. Dans ce cas, le code n’attend pas les événements de chargement de page ou de corps, il est exécuté au début du chargement de la page.
+Vous pouvez ajouter du code personnalisé à l’aide du type de modification Page `<head>` . L’élément `<head>` est un conteneur pour les métadonnées et est placé entre la balise `<html>` et la balise `<body>`. Dans ce cas, le code n’attend pas les événements de chargement du corps de la page ou de la page elle-même ; il est exécuté au début du chargement de la page.
 
 L’élément `<head>` est généralement utilisé pour ajouter du code JavaScript ou CSS en haut de la page. Les sélecteurs pour les actions visuelles suivantes dépendent des éléments HTML ajoutés dans cet onglet.
 
@@ -346,7 +355,7 @@ Suivez les interactions des utilisateurs avec les éléments pour mesurer l’en
 
 Lorsque votre expérience web est activée (en direct), vous pouvez également créer des rapports à l’aide d’Adobe Customer Journey Analytics (qui nécessite un abonnement au produit). Pour améliorer le suivi de l’expérience web, vous pouvez également suivre les clics sur n’importe quel élément spécifique de votre site web. Le tracking permet d’afficher le nombre de clics effectués sur cet élément dans les rapports web.
 
-Pour plus d’informations sur Customer Journey Analytics et la création de rapports web, consultez la documentation de Customer Journey Analytics [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing).
+Pour plus d’informations sur Customer Journey Analytics et la création de rapports web, consultez la documentation de Customer Journey Analytics [](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing).
 
 1. Sélectionnez un élément dans l’éditeur d’expérience web, tel qu’une image ou un lien.
 

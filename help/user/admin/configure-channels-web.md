@@ -1,43 +1,46 @@
 ---
 title: Configurations du canal web
-description: Découvrez comment configurer les paramètres du canal web pour définir les propriétés web et les règles de correspondance de page pour la diffusion de contenu dans Journey Optimizer B2B edition.
+description: Découvrez comment configurer les paramètres du canal web pour définir les propriétés web et les règles de correspondance de page pour la diffusion de contenu dans Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
+badge: label="Disponibilité limitée" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: '1049'
 ht-degree: 6%
-
 ---
-
 # Configurations du canal web
 
-Une configuration web est une propriété web identifiée par une URL où le contenu est diffusé. Elle peut correspondre à l’URL d’une ou de plusieurs pages, de sorte que les expériences web puissent diffuser des modifications sur une ou plusieurs pages web. Ces configurations sont requises pour que les spécialistes marketing [ajoutent des nœuds d’action de personnalisation web dans les parcours &#x200B;](../content/web-experiences.md#create-a-web-experience) et [conçoivent les modifications d’expérience](../content/web-experience-design.md) pour une campagne.
+Une configuration web est une propriété web identifiée par une URL où le contenu est diffusé. Elle peut correspondre à l’URL d’une ou de plusieurs pages, de sorte que les expériences web puissent diffuser des modifications sur une ou plusieurs pages web. Ces configurations sont requises pour que les spécialistes marketing [ajoutent des nœuds d’action de personnalisation web dans les parcours ](../content/web-experiences.md#create-a-web-experience) et [conçoivent les modifications d’expérience](../content/web-experience-design.md) pour une campagne.
 
 >[!BEGINSHADEBOX]
 
 **Conditions préalables**
 
-Pour utiliser les canaux web, le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview) (`alloy.js`) doit être implémenté pour l’identification des visiteurs et la diffusion de contenu sur votre site web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
+Pour utiliser les canaux web, le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) doit être implémenté pour l’identification des visiteurs et la diffusion de contenu sur votre site web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
 
-La configuration du canal web dans Journey Optimizer B2B edition nécessite les [autorisations](../admin/user-management.md#b2b-product-permissions) suivantes :
+La configuration du canal web dans Journey Optimizer B2B Edition nécessite l’autorisation [permission](../admin/user-management.md#b2b-product-permissions) suivante :
 
-* _[!UICONTROL Configurations de canal]_ > _[!UICONTROL Gérer les préréglages de message]_ - Obligatoire pour créer, mettre à jour et supprimer des configurations de canal web.
-* _[!UICONTROL Configurations de canal]_ > _[!UICONTROL Afficher les préréglages de message]_ - Obligatoire pour afficher les configurations de canal web.
+* _[!UICONTROL Gérer les configurations des canaux B2B]_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +48,7 @@ La configuration du canal web dans Journey Optimizer B2B edition nécessite les 
 
 1. Dans le volet de navigation de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**.
 
-1. Sous _[!UICONTROL Web]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Configurations de canal]**.
+1. Sous _[!UICONTROL Paramètres généraux]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Configurations de canal]**.
 
    ![Accéder aux configurations du canal web](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -138,7 +141,7 @@ Vous pouvez dupliquer une configuration de canal web existante et la modifier po
 
 1. Cliquez sur l’icône _Plus de menu_ (**...**) pour la variante et choisissez **[!UICONTROL Dupliquer]**.
 
-   ![Cliquez sur l’icône plus de menu pour dupliquer une configuration de canal web existante](./assets/config-web-channels-more-menu.png){width="450"}
+   ![Cliquez sur l’icône plus pour dupliquer une configuration de canal web existante](./assets/config-web-channels-more-menu.png){width="350"}
 
    Cette action crée un canal web dupliqué avec `_Copy_nnn` ajouté au nom.
 
