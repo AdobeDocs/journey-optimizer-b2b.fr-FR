@@ -1,28 +1,31 @@
 ---
 title: Écoute d’un événement
-description: Configurez les nœuds d’événement pour les déclencheurs de compte et de personnes. Soyez à l’écoute des modifications des groupes d’achats, des clics sur les e-mails, des remplissages de formulaires et des événements Experience Platform dans Journey Optimizer B2B edition.
+description: Configurez les nœuds d’événement pour les déclencheurs de compte et de personnes. Écoutez les modifications du groupe d’achats, les clics sur les e-mails, les remplissages de formulaires et les événements Experience Platform dans Journey Optimizer B2B Edition.
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: '1783'
 ht-degree: 5%
-
 ---
-
 # Écouter un évènement
 
 Pour déplacer l’audience vers l’étape suivante de votre parcours [&#128279;](./journeys-overview.md) lorsqu’un événement se produit, ajoutez le nœud _Écouter pour un événement_. Selon le type de parcours, vous pouvez utiliser ce nœud pour déclencher le nœud suivant dans le parcours en fonction des personnes ou des événements de compte.
@@ -45,80 +48,49 @@ Pour déplacer l’audience vers l’étape suivante de votre parcours [&#128279
 
 1. Dans les propriétés de nœud sur la droite, utilisez le sélecteur _Type d’événement_ pour choisir entre **[!UICONTROL Comptes]** et **[!UICONTROL Personnes]**.
 
-1. Sélectionnez un événement dans la liste.
-
-   * Pour le type d’événement _Personnes_, choisissez le [événement personnes](#people-events) que vous souhaitez utiliser pour le déclencheur.
-
-     ![nœud de Parcours - écoutez les événements sur les personnes](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
+1. Définissez le déclencheur d’événement pour le type d’événement sélectionné :
 
    * Pour le type d’événement _Comptes_, sélectionnez l’événement [compte](#account-events) que vous souhaitez utiliser pour le déclencheur.
 
      ![nœud de Parcours - écoutez les événements sur le compte](./assets/node-listen-events-account.png){width="500" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Modifier l’événement]** et définissez les détails de l’événement.
+     Cliquez sur **[!UICONTROL Modifier l’événement]** et définissez les critères correspondants pour l’[événement de compte](#account-events).
 
-   Selon le type d’événement et l’événement sélectionnés, définissez les critères de correspondance d’événement.
+   * Pour le type d&#39;événement _Personnes_, cliquez sur **[!UICONTROL Ajouter des critères d&#39;événement]**.
 
-   * [Événements Personnes](#people-events)
-   * [Événements de compte](#account-events)
+     ![nœud de Parcours - écoutez les événements sur les personnes](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
-   Vous pouvez également inclure des [filtres](#filters-people-event) pour l’événement.
+     Dans la boîte de dialogue _Modifier l’événement_, effectuez un glisser-déposer d’un ou de plusieurs [événements de personnes](#people-events) dans l’espace du créateur et définissez la définition de chacun d’eux. Cliquez sur **[!UICONTROL Ajouter une contrainte]** pour chaque contrainte que vous souhaitez utiliser pour affiner la correspondance d’événement.
+
+     Vous pouvez ajouter plusieurs événements de personnes à faire correspondre. Le premier événement éligible avance le compte à terme dans le parcours.
+
+     ![Nœud de parcours de compte - Écouter les événements - Type d’événement personne - Modifier l’événement](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
+
+     (Facultatif) Sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#filters-people-event).
 
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
-   Les définitions d’événement et de filtre s’affichent dans le nœud et dans les propriétés du nœud.
+   Les définitions d’événement et de filtre s’affichent dans les propriétés du nœud.
 
-   ![Nœud parcours de compte - Écoute des événements - Événement et filtres](./assets/node-listen-events-account-complete.png){width="500"}
+   ![Nœud de parcours de compte - Écouter les événements - Événements définis](./assets/node-listen-events-account-complete.png){width="500"}
 
 ### Événements Personnes pour les parcours de compte {#people-events}
 
-Dans un parcours de compte, vous pouvez écouter un événement basé sur des personnes lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par l’activité des personnes. Vous pouvez également filtrer les événements en fonction de l’historique des événements et des attributs des personnes.
+Dans un parcours de compte, vous pouvez écouter un événement en fonction des personnes lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par des activités de personne (prospect). Vous pouvez également filtrer les événements en fonction de l’historique des événements et des attributs de personne.
 
 >[!TIP]
 >
 >Les événements d’expérience peuvent se produire _avant_ que les personnes n’entrent dans le parcours (par exemple, un clic sur un e-mail précédent ou une interaction web). Pour acheminer des personnes en fonction de ces événements, utilisez le filtre [!UICONTROL Historique des événements] dans un nœud [Fractionner les chemins par les personnes](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
+Pour plus d’informations sur l’utilisation des événements d’expérience, voir [Déclencheurs d’événement d’expérience](#experience-event-triggers).
+
 #### Événements B2B Journey Optimizer {#events-account-people}
 
 | Événement | Contraintes |
 | ----- | ----------- |
-| [!UICONTROL Affecté au groupe d&#39;achat] | Intérêt de la solution (obligatoire)<br/><br/>contraintes supplémentaires (facultatif) : <li>Rôle</li><li>Date d’activité</li><br/>Délai d’expiration (facultatif) |
+| [!UICONTROL Lead ajouté au groupe d&#39;achat] | Intérêt de la solution (obligatoire)<br/><br/>contraintes supplémentaires (facultatif) : <li>Rôle</li><li>Date d’activité</li> |
+| [!UICONTROL Lead supprimé du groupe d&#39;achat] | Intérêt de la solution (obligatoire)<br/>Date de l’activité (facultatif) |
 | [!UICONTROL Modifications du profil de la personne] | Attribut (obligatoire)<br/>Date de l’activité (facultatif)<br/>Nouvelle valeur (facultatif)<br/>Valeur précédente (facultatif)<br/>Raison (facultatif)<br/>Source (facultatif) |
-| [!UICONTROL Supprimé du groupe d&#39;achat] | Intérêt de la solution (obligatoire)<br/>Date de l’activité (facultatif)<br/>Délai d’expiration (facultatif) |
-
-1. Définissez la valeur requise pour correspondre à l’événement.
-
-   Si nécessaire, définissez l’opérateur pour l’évaluation.
-
-1. Pour chaque contrainte facultative que vous souhaitez inclure pour la correspondance d’événement, cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez une contrainte dans la liste.
-
-   ![Boîte de dialogue Modifier l’événement pour un événement de personnes B2B Journey Optimizer dans un parcours de compte](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
-
-1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#filters-people-event).
-
-1. Cliquez sur **[!UICONTROL Terminé]**.
-
-#### Événements d’expérience {#experience-events-account-people}
-
->[!PREREQUISITES]
->
->Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
->
->Pour rendre les événements d’expérience disponibles pour les parcours, un administrateur de produit doit d’abord [ajouter les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#add-an-event) dans [!DNL Journey Optimizer B2B Edition].
-
-1. Cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez le champ à utiliser pour la contrainte.
-
-   Les contraintes disponibles sont définies en tant que champs gérés pour la configuration de l&#39;événement.
-
-1. Renseignez la condition de la contrainte.
-
-   Vous pouvez utiliser l’opérateur **[!UICONTROL is]** par défaut pour faire correspondre une ou plusieurs valeurs de champ. Vous pouvez également utiliser l’opérateur **[!UICONTROL n’est pas]** pour faire correspondre sur toutes les valeurs avec l’exclusion d’une ou de plusieurs valeurs spécifiées.
-
-   ![Boîte de dialogue Modifier l’événement pour un Événement d’expérience dans un parcours de compte](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
-
-1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#filters-people-event).
-
-1. Cliquez sur **[!UICONTROL Terminé]**.
 
 ### Événements de compte {#account-events}
 
@@ -133,7 +105,7 @@ Dans un parcours de compte, vous pouvez écouter un événement en fonction du c
 | [!UICONTROL Modification du score d’exhaustivité] | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
 | [!UICONTROL Modification du score d’engagement] | Intérêt de la solution<br/>Contraintes supplémentaires (facultatif) : <li>Nouveau score</li><li>Score précédent</li><li>Date d’activité</li>Délai d’expiration du <br/> (facultatif) |
 
-1. Définissez la contrainte requise pour qu’elle corresponde à l’événement.
+1. Pour correspondre à l’événement, définissez la contrainte requise.
 
 1. Pour chaque contrainte facultative à inclure pour la correspondance d’événement, cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez le champ.
 
@@ -206,7 +178,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Ajoutez un événement et définissez les contraintes que vous souhaitez faire correspondre au déclencheur.
 
-   Vous pouvez utiliser [Événements d’expérience](#experience-events-person) et [Modifications du profil de la personne](#person-profile-changes) pour définir le déclencheur d’événement.
+   Vous pouvez utiliser [Événements d’expérience](#experience-event-triggers) et [Modifications du profil de la personne](#person-profile-changes) pour définir le déclencheur d’événement.
 
    Faites glisser et déposez le déclencheur d’événement dans l’espace du créateur et définissez la définition. Cliquez sur **[!UICONTROL Ajouter une contrainte]** pour chaque contrainte que vous souhaitez utiliser pour affiner la correspondance d’événement.
 
@@ -216,19 +188,39 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
-   Les définitions d’événement et de filtre s’affichent dans le nœud et dans les propriétés du nœud.
+   Les définitions d’événement et de filtre s’affichent dans les propriétés du nœud.
 
    ![Nœud de Parcours - Écoute des événements - Événement et filtres](./assets/node-listen-events-person-complete.png){width="450"}
 
-### Événements d’expérience pour les parcours de personne {#experience-events-person}
+### Modifications du profil de la personne {#person-profile-changes}
+
+Pour les parcours de personne, vous pouvez utiliser une modification des attributs de profil de personne B2B pour déclencher le nœud _Écouter pour un événement_.
+
+1. **&#x200B; Effectuez un glisser-déposer des modifications du profil de la personne &#x200B;** [!UICONTROL &#x200B; de la liste _[!UICONTROL Triggers]_ vers l]espace du créateur correspondant à l’événement.
+
+1. Cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez la modification d’attribut à utiliser pour le déclencheur d’événement.
+
+   Définissez la valeur du champ en fonction de la modification que vous souhaitez faire correspondre.
+
+   parcours Personne - Écouter un événement de changement de profil de personne![&#128279;](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+
+1. (Facultatif) Ajoutez un autre attribut _Modification du profil de personne_ que vous souhaitez utiliser comme déclencheur d’événement ou [Événement d’expérience](#experience-event-triggers).
+
+   Lorsque vous ajoutez plusieurs événements à faire correspondre, le premier événement de qualification avance le profil de personne vers l&#39;avant dans le parcours.
+
+1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#filters-people-event).
+
+1. Cliquez sur **[!UICONTROL Terminé]**.
+
+## Déclencheurs d’événement d’expérience {#experience-event-triggers}
+
+Les événements d’expérience sont disponibles pour les parcours de personne ou lorsque vous utilisez le type d’événement _Personnes_ dans les parcours de compte. Utilisez la boîte de dialogue _[!UICONTROL Modifier l’événement]_ pour ajouter un ou plusieurs événements d’expérience afin de déclencher le nœud _Écouter pour un événement_.
 
 >[!PREREQUISITES]
 >
 >Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
 >
 >Pour rendre les événements d’expérience disponibles pour les parcours, un administrateur de produit doit d’abord [ajouter les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#add-an-event) dans [!DNL Journey Optimizer B2B Edition].
-
-Vous pouvez utiliser des événements d’expérience pour déclencher les parcours du nœud en personne dans la boîte de dialogue _[!UICONTROL Modifier l’événement]_.
 
 1. Développez **[!UICONTROL Événements Sapphire AEP]** dans la liste _[!UICONTROL Triggers]_ sur la gauche.
 
@@ -242,31 +234,15 @@ Vous pouvez utiliser des événements d’expérience pour déclencher les parco
 
    ![Boîte de dialogue Modifier l’événement pour un Événement d’expérience dans un parcours de personne](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
 
-1. Définissez l’opérateur et les valeurs à faire correspondre pour le champ d’événement.
+1. Pour correspondre au champ d’événement, définissez l’opérateur et les valeurs.
 
-1. (Facultatif) Ajoutez un autre événement d’expérience ou une [modification du profil de la personne](#person-profile-changes).
+1. (Facultatif) Ajoutez un autre événement.
 
-   Lorsque vous ajoutez plusieurs événements à faire correspondre. Le premier événement éligible avance le profil de la personne vers l’avant dans le parcours.
+   Vous pouvez utiliser plusieurs événements d’expérience pour déclencher le nœud.
 
-1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#filters-people-event).
+   Pour un parcours de personne, vous pouvez également ajouter des [modifications du profil de personne](#person-profile-changes). Pour un parcours de compte (type d’événement Personnes), vous pouvez également ajouter [des événements B2B Journey Optimizer](#events-account-people).
 
-1. Cliquez sur **[!UICONTROL Terminé]**.
-
-### Modifications du profil de la personne {#person-profile-changes}
-
-Vous pouvez utiliser une modification des attributs de profil de personne B2B pour déclencher les parcours de nœud en personne dans la boîte de dialogue _[!UICONTROL Modifier l’événement]_.
-
-1. **&#x200B; Effectuez un glisser-déposer des modifications du profil de la personne &#x200B;** [!UICONTROL &#x200B; de la liste _[!UICONTROL Triggers]_ vers l]espace du créateur correspondant à l’événement.
-
-1. Cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez la modification d’attribut à utiliser pour le déclencheur d’événement.
-
-   Définissez la valeur du champ en fonction de la modification que vous souhaitez faire correspondre.
-
-   parcours Personne - Écouter un événement de changement de profil de personne![&#128279;](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
-
-1. (Facultatif) Ajoutez un autre attribut _Modification du profil de personne_ que vous souhaitez utiliser comme déclencheur d’événement ou [Événement d’expérience](#experience-events-person).
-
-   Lorsque vous ajoutez plusieurs événements à faire correspondre. Le premier événement éligible avance le profil de la personne vers l’avant dans le parcours.
+   Lorsque vous ajoutez plusieurs événements à faire correspondre, le premier événement de qualification avance le profil de personne vers l&#39;avant dans le parcours.
 
 1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#filters-people-event).
 
@@ -306,12 +282,11 @@ Lorsque vous définissez un [événement personnes dans un parcours de compte](#
 
 1. Une fois les définitions d’événement et de filtre terminées, cliquez sur **[!UICONTROL Terminé]**.
 
-
 ## Ajouter une temporisation à un nœud d’événement {#timeouts}
 
 Si nécessaire, définissez le temps d’attente du parcours pour l’événement. Le parcours se termine après une temporisation, sauf si vous définissez un chemin de temporisation dans lequel vous pouvez ajouter d’autres nœuds.
 
-Activez l’option **[!UICONTROL Temporisation]** dans les propriétés de nœud pour spécifier une temporisation pour le nœud _Écouter l’événement_.
+Activez l’option **[!UICONTROL Temporisation]** dans les propriétés de nœud pour spécifier une temporisation pour le nœud _Écouter un événement_.
 
 1. Lorsque les options sont activées, choisissez le _Type_ et spécifiez les paramètres de la temporisation :
 
@@ -333,7 +308,7 @@ Activez l’option **[!UICONTROL Temporisation]** dans les propriétés de nœud
 
 1. Définissez l’itinéraire de temporisation.
 
-   L’option **[!UICONTROL Définir l’itinéraire de temporisation]** est sélectionnée par défaut. Vous pouvez utiliser ce chemin d’accès pour définir ce qui se passe si le nœud Écouter pour l’événement expire. Vous pouvez ajouter d’autres actions et événements qui s’appliquent aux profils de personnes lorsque l’événement ne se produit pas.
+   Le système sélectionne par défaut l’option **[!UICONTROL Définir le chemin d’accès à la temporisation]**. Vous pouvez utiliser ce chemin d’accès pour définir ce qui se passe si le nœud _Écouter pour un événement_ expire. Vous pouvez ajouter d’autres actions et événements qui s’appliquent aux profils de personnes lorsque l’événement ne se produit pas.
 
    ![Nœud d’événement de Parcours : définissez le chemin de temporisation](./assets/node-event-timeout-set-path.png){width="600" zoomable="yes"}
 
