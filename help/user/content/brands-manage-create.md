@@ -1,6 +1,6 @@
 ---
 title: Création de marques pour la génération et la cohérence de contenu
-description: 'Créer et gérer des directives de marque avec une extraction automatique à partir de documents ou une saisie manuelle : définissez les marques par défaut pour un contenu cohérent dans Journey Optimizer B2B edition.'
+description: 'Créer et gérer des directives de marque avec une extraction automatique à partir de documents ou une saisie manuelle : définissez les marques par défaut pour un contenu cohérent dans Journey Optimizer B2B Edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -28,13 +28,13 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 15%
+ht-degree: 16%
 ---
 # Créer et gérer vos marques {#brand-library}
 
 Définissez une marque afin de fournir un ensemble détaillé de règles et de normes qui établissent une identité visuelle et verbale. Ces directives fournissent une référence pour maintenir une représentation cohérente de la marque sur toutes les plateformes de marketing et de communication. En s’appuyant sur des directives de marque bien définies, les entreprises peuvent s’assurer que tous les efforts de création de contenu sont alignés sur les objectifs stratégiques et l’identité de marque globale. Cette cohérence améliore non seulement la reconnaissance et la confiance de la marque, mais contribue également à une expérience client plus cohérente et plus percutante à tous les points de contact.
 
-Dans Journey Optimizer B2B edition, vous pouvez définir et organiser manuellement vos ressources et définitions de marque ou charger des documents de directives de marque pour obtenir des informations automatiques et extraire visuellement des ressources.
+Dans Journey Optimizer B2B Edition, vous pouvez définir et organiser manuellement vos ressources et définitions de marque ou charger des documents de recommandations de marque pour obtenir des informations automatiques et extraire visuellement des ressources.
 
 >[!AVAILABILITY]
 >
@@ -42,7 +42,7 @@ Dans Journey Optimizer B2B edition, vous pouvez définir et organiser manuelleme
 >
 ><br>
 >
->Un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités optimisées par l’IA dans Adobe Journey Optimizer B2B edition. Pour en savoir plus, contactez votre représentant Adobe.
+>Un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités basées sur l’IA dans Adobe Journey Optimizer B2B Edition. Pour en savoir plus, contactez votre représentant Adobe.
 >
 ><br>
 >
@@ -50,7 +50,7 @@ Dans Journey Optimizer B2B edition, vous pouvez définir et organiser manuelleme
 
 ## Accéder à votre bibliothèque de marques
 
-Pour accéder aux kits de marques dans Adobe Journey Optimizer B2B edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Marques]**. Cette action ouvre une page où les marques créées sont affichées sous forme de cartes.
+Pour accéder aux kits de marques dans Adobe Journey Optimizer B2B Edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Marques]**. Cette action ouvre une page où les marques créées sont affichées sous forme de cartes.
 
 ![Accéder à la bibliothèque de marques](./assets/brands-library.png){width="800" zoomable="yes"}
 
@@ -76,7 +76,7 @@ Pour appliquer automatiquement une marque lors de la génération de contenu et 
 
 Dans la bibliothèque de marques, la vignette de marque par défaut est affichée avec un indicateur .
 
-![&#x200B; Indicateur de marque par défaut &#x200B;](./assets/brands-default-flag.png){width="200"}
+![ Indicateur de marque par défaut ](./assets/brands-default-flag.png){width="200"}
 
 Vous pouvez définir n’importe quelle marque publiée (_en direct_) comme marque par défaut. Sur la carte de marque, cliquez sur l’icône _Plus de menu_ ( ![Icône de menu Plus](../../assets/do-not-localize/icon-more-menu.svg) ) et choisissez **[!UICONTROL Marquer comme marque par défaut]**.
 
@@ -259,7 +259,7 @@ Sélectionnez l’onglet **[!UICONTROL Style d’écriture]** et passez en revue
 |                            | [!UICONTROL Mécanique de l&#39;écriture] | Gardez les phrases courtes et percutantes. | N’utilisez pas trop de jargon. |
 |                            | [!UICONTROL Ton situationnel] | Maintenez un ton professionnel dans les communications de crise. | Ne soyez pas dédaigneux dans les communications d’assistance. |
 |                            | [!UICONTROL Consignes relatives au choix de mots] | Utilisez des mots comme _innovant_ et _intelligent_. | Évitez les mots comme _pas cher_ ou _hack_. |
-|                            | [!UICONTROL &#x200B; Normes linguistiques &#x200B;] | Respectez les conventions françaises. | Faites attention à l’orthographe. |
+|                            | [!UICONTROL  Normes linguistiques ] | Respectez les conventions françaises. | Faites attention à l’orthographe. |
 | [!UICONTROL Normes de message de marque] | [!UICONTROL Normes de message de marque] | Mettez l’accent sur l’innovation et orientez les messages sur la clientèle. | Ne faites pas de promesses irréalistes sur les capacités du produit. |
 |                            | [!UICONTROL Utilisation des balises] | Placez le slogan sous le logo sur toutes les ressources marketing numériques. | Ne modifiez ni ne traduisez le slogan. |
 |                            | [!UICONTROL Messages principaux] | Mettez l&#39;accent sur l&#39;énoncé des principaux avantages, comme l&#39;amélioration de la productivité. | N’utilisez pas des propositions de valeur sans rapport. |
