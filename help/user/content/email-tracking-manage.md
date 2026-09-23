@@ -9,36 +9,43 @@ autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+    internal-label: Intermediate
+source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '896'
 ht-degree: 0%
-
 ---
-
 # Gérer le suivi des ouvertures d’e-mail
 
 Vous pouvez désactiver le suivi des ouvertures pour un e-mail individuel ou capturer les préférences de suivi de chaque personne dans Adobe Experience Platform et utiliser un chemin de partage pour acheminer les personnes vers des variantes d’e-mail de suivi et de non-suivi.
 
->[!BEGINSHADEBOX « Conseils de la CNIL sur les pixels de tracking email »]
+>[!BEGINSHADEBOX « Conseils sur les pixels de tracking email »]
 
-Le 14 avril 2026, la *Commission nationale de l&#39;informatique et des libertés* (CNIL) a publié une [recommandation sur l&#39;utilisation des pixels de tracking dans les emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Ces conseils clarifient le moment où le consentement est requis et soulignent l’importance de bonnes pratiques de consentement pour le suivi des pixels d’e-mail. Cette politique peut avoir un impact sur les pratiques d’envoi pour toute entité diffusant des e-mails aux abonnés basés en France.
+Le 14 avril 2026, la *Commission nationale de l&#39;informatique et des libertés* (CNIL), l&#39;autorité française de protection des données, a publié une [recommandation sur l&#39;utilisation des pixels de tracking dans les emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Peu de temps après, l&#39;autorité italienne indépendante chargée de la protection des données (« Garante ») a publié [disposition no. 284](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10241943) (la « Disposition Garante ») le 17 avril 2026. Bien qu’elles ne soient pas juridiquement contraignantes, ces directives clarifient le moment où le consentement est requis et soulignent l’importance de bonnes pratiques de consentement pour le tracking des pixels d’e-mail. Cette politique peut avoir un impact sur les pratiques d’envoi de toute entité diffusant des e-mails aux abonnés en vertu de la législation européenne applicable en matière de confidentialité.
 
 Un pixel de tracking d’e-mail est une image transparente 1x1 incorporée dans l’HTML d’un e-mail. Lorsque le client de messagerie du destinataire charge cette image, le pixel envoie un ping à un serveur qui enregistre des données telles qu’une date et une heure, un type d’appareil, un client de messagerie et parfois une adresse IP pour un emplacement approximatif. Ce journal est ensuite lié à l’enregistrement d’un destinataire, ce qui permet aux spécialistes marketing de savoir si un e-mail est ouvert.
 
-Les fonctionnalités du produit [!UICONTROL Journey Optimizer B2B edition] décrites ici sont des blocs de construction qui, configurés et utilisés de manière appropriée, peuvent prendre en charge une implémentation conforme. Chaque client est responsable de déterminer et de respecter ses obligations en vertu de la loi applicable.
+Les fonctionnalités [!DNL Journey Optimizer B2B Edition] du produit décrites ici sont des blocs de création qui, configurés et utilisés de manière appropriée, peuvent contribuer à soutenir les efforts de conformité des clients. Les clients sont seuls responsables de déterminer et de respecter leurs obligations en vertu des directives applicables et d&#39;autres lois.
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +59,7 @@ Utilisez cette option pour qu’un e-mail spécifique ne signale jamais l’acti
 
    ![Désactiver le suivi des ouvertures d’e-mail](./assets/email-tracking-disable-all.png){width="500" zoomable="yes"}
 
-   Pour obtenir la liste complète des propriétés d’e-mail[&#128279;](./add-email.md#define-the-email-settings) voir  Définir les paramètres d’e-mail .
+   Pour obtenir la liste complète des propriétés d’e-mail](./add-email.md#define-the-email-settings) voir [ Définir les paramètres d’e-mail .
 
 ## Segmenter les personnes en fonction des préférences de tracking {#segment-people-tracking-preference}
 
@@ -90,7 +97,7 @@ Le workflow comporte trois parties :
 
 ### Ajouter un chemin de partage pour le suivi des désinscriptions {#add-split-path-tracking}
 
-Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ &#x200B;](../journeys/split-merge-paths-nodes.md#split-paths-by-people) et définissez un chemin pour chaque valeur de préférence de suivi.
+Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ ](../journeys/split-merge-paths-nodes.md#split-paths-by-people) et définissez un chemin pour chaque valeur de préférence de suivi.
 
 1. Ajoutez un nœud **[!UICONTROL Chemins partagés]** et choisissez **[!UICONTROL Personnes]** pour le partage.
 
@@ -106,7 +113,7 @@ Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ &#x200B;
 
 ### Configuration des variantes d’e-mail de tracking et de non-tracking {#configure-tracking-and-non-tracking-email-variants}
 
-Ajoutez un nœud d’action [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md) à chaque chemin d’accès afin que chaque personne reçoive la variante d’e-mail correspondant à sa préférence de suivi.
+Ajoutez un nœud d’action [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md) à chaque chemin d’accès afin que chaque personne reçoive la variante d’e-mail correspondant à sa préférence de suivi.
 
 1. Sur le chemin activé pour le suivi, ajoutez une action **[!UICONTROL Envoyer un e-mail]** et sélectionnez ou créez l’e-mail comme d’habitude, en laissant **[!UICONTROL Désactiver le suivi des ouvertures]** effacé dans les propriétés d’e-mail.
 
