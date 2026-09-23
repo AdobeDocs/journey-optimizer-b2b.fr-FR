@@ -59,7 +59,7 @@ Utilisez cette option pour qu’un e-mail spécifique ne signale jamais l’acti
 
    ![Désactiver le suivi des ouvertures d’e-mail](./assets/email-tracking-disable-all.png){width="500" zoomable="yes"}
 
-   Pour obtenir la liste complète des propriétés d’e-mail](./add-email.md#define-the-email-settings) voir [ Définir les paramètres d’e-mail .
+   Pour obtenir la liste complète des propriétés d’e-mail[&#128279;](./add-email.md#define-the-email-settings) voir  Définir les paramètres d’e-mail .
 
 ## Segmenter les personnes en fonction des préférences de tracking {#segment-people-tracking-preference}
 
@@ -97,7 +97,7 @@ Le workflow comporte trois parties :
 
 ### Ajouter un chemin de partage pour le suivi des désinscriptions {#add-split-path-tracking}
 
-Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ ](../journeys/split-merge-paths-nodes.md#split-paths-by-people) et définissez un chemin pour chaque valeur de préférence de suivi.
+Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ &#x200B;](../journeys/split-merge-paths-nodes.md#split-paths-by-people) et définissez un chemin pour chaque valeur de préférence de suivi.
 
 1. Ajoutez un nœud **[!UICONTROL Chemins partagés]** et choisissez **[!UICONTROL Personnes]** pour le partage.
 
@@ -113,7 +113,7 @@ Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ ](../jou
 
 ### Configuration des variantes d’e-mail de tracking et de non-tracking {#configure-tracking-and-non-tracking-email-variants}
 
-Ajoutez un nœud d’action [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md) à chaque chemin d’accès afin que chaque personne reçoive la variante d’e-mail correspondant à sa préférence de suivi.
+Ajoutez un nœud d’action [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md) à chaque chemin d’accès afin que chaque personne reçoive la variante d’e-mail correspondant à sa préférence de suivi.
 
 1. Sur le chemin activé pour le suivi, ajoutez une action **[!UICONTROL Envoyer un e-mail]** et sélectionnez ou créez l’e-mail comme d’habitude, en laissant **[!UICONTROL Désactiver le suivi des ouvertures]** effacé dans les propriétés d’e-mail.
 
