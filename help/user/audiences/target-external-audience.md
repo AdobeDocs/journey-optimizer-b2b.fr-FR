@@ -1,33 +1,41 @@
 ---
 title: '[!DNL Adobe Target] des audiences externes'
-description: Activer des audiences externes vers par le biais  [!DNL Adobe Target]  parcours de compte. Personnalisez les expériences web B2B et conservez la cohérence entre les plateformes.
+description: Activer les audiences externes à [!DNL Adobe Target] via les parcours de compte. Personnalisez les expériences web B2B et conservez la cohérence entre les plateformes.
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
 source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: '716'
 ht-degree: 3%
-
 ---
-
 # [!DNL Adobe Target] des audiences externes
 
 Vous pouvez activer et personnaliser des expériences pour des audiences externes dans [!DNL Adobe Target] par le biais de parcours de compte. Utilisez cette intégration pour obtenir une personnalisation avancée et personnalisée qui accroît l’engagement et pour maintenir la cohérence entre les plateformes sur l’ensemble des [!DNL Target] et des [!DNL Journey Optimizer B2B Edition]. Cette cohérence permet aux équipes d’aligner et de personnaliser les canaux web pour les groupes d’achats sur l’ensemble du parcours des acheteurs B2B.

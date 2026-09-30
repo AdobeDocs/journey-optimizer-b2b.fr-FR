@@ -1,6 +1,6 @@
 ---
 title: Prendre une action
-description: 'Configurez les nœuds d’action pour les actions de compte et de personnes : envoyez des e-mails, mettez à jour les groupes d’achats, modifiez les scores et intégrez à Marketo Engage dans Journey Optimizer B2B edition.'
+description: 'Configurez les nœuds d’action pour les actions de compte et de personnes : envoyez des e-mails, mettez à jour les groupes d’achats, modifiez les scores et intégrez à Marketo Engage dans Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
@@ -55,7 +55,7 @@ Dans un parcours de compte, utilisez une action sur les comptes lorsque vous sou
 
 >[!NOTE]
 >
->L’action _[!UICONTROL Modifier la valeur des données du compte]_ est obsolète pour la version 2025.10. _[!UICONTROL Mettre à jour le profil de compte]_ remplace cette action dans Journey Optimizer B2B edition.<br/>
+>L’action _[!UICONTROL Modifier la valeur des données du compte]_ est obsolète pour la version 2025.10. _[!UICONTROL Mettre à jour le profil de compte]_ remplace cette action dans Journey Optimizer B2B Edition.<br/>
 >
 >Un administrateur peut configurer les attributs disponibles pour le compte professionnel XDM en mettant à jour les champs dans les _[!UICONTROL Configurations XDM]_ > _[!UICONTROL Classes standard]_. Pour plus d’informations, voir [Schémas standard](../admin/xdm-field-management.md#standard-schemas).
 
@@ -294,7 +294,7 @@ Utilisez cette action pour modifier la valeur d’un [attribut de profil de pers
 
 >[!NOTE]
 >
->L’action _[!UICONTROL Mettre à jour le profil de la personne]_ remplace l’action _[!UICONTROL Modifier la valeur des données]_ dans la version actuelle de Journey Optimizer B2B edition.<br/>
+>L’action _[!UICONTROL Mettre à jour le profil de la personne]_ remplace l’action _[!UICONTROL Modifier la valeur des données]_ dans la version actuelle de Journey Optimizer B2B Edition.<br/>
 >
 >Un administrateur peut configurer les attributs disponibles pour le profil individuel XDM en mettant à jour les champs dans les _[!UICONTROL Configurations XDM]_ > _[!UICONTROL Classes standard]_. Pour plus d’informations, voir [Schémas standard](../admin/xdm-field-management.md#standard-schemas).
 
@@ -308,7 +308,7 @@ Les actions basées sur les personnes [!DNL Marketo Engage] sont conçues pour c
 >
 >Les actions Marketo Engage nécessitent une intégration configurée à une ou plusieurs instances Marketo Engage externes. Pour obtenir des informations détaillées sur cette configuration, voir [_Activer les connexions Marketo Engage pour prendre en charge les actions_](../admin/marketo-actions-connect.md).
 
-Par exemple, supprimez les campagnes dans Marketo Engage pour les personnes qui font partie de groupes d’achat dans Journey Optimizer B2B edition. Dans ce cas, vous pouvez créer une liste statique dans Marketo Engage spécifiquement pour la solution qui vous intéresse. Ensuite, sur un chemin de division par groupe d’achats, utilisez l’action _Ajouter à la liste Marketo_ à partir d’un nœud de parcours. Cette action ajoute les membres du groupe d&#39;achat à une liste statique particulière dans une instance Marketo Engage connectée. Ensuite, utilisez la liste statique axée sur les intérêts de la solution pour un filtre de liste dynamique dans Marketo Engage.
+Par exemple, supprimez les campagnes dans Marketo Engage pour les personnes qui font partie de groupes d’achat dans Journey Optimizer B2B Edition. Dans ce cas, vous pouvez créer une liste statique dans Marketo Engage spécifiquement pour la solution qui vous intéresse. Ensuite, sur un chemin de division par groupe d’achats, utilisez l’action _Ajouter à la liste Marketo_ à partir d’un nœud de parcours. Cette action ajoute les membres du groupe d&#39;achat à une liste statique particulière dans une instance Marketo Engage connectée. Ensuite, utilisez la liste statique axée sur les intérêts de la solution pour un filtre de liste dynamique dans Marketo Engage.
 
 +++[!UICONTROL Ajouter à la campagne de requête Marketo]
 
