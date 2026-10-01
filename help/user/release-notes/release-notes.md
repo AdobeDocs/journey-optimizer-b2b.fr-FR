@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
+source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 61%
+source-wordcount: '5744'
+ht-degree: 60%
 ---
 # Notes de mise à jour de Journey Optimizer B2B Edition
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## notes de mise à jour 2026.9 {#rel-2026-9}
 
@@ -45,6 +45,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | ---- | ---- | ----------- |
 | Fonctionnalité | Listes de personnes | Des listes de personnes statiques et dynamiques sont désormais disponibles afin que vous puissiez cibler les profils selon vos critères définis, tels que les attributs démographiques et l’historique des événements d’expérience. |
 | Fonctionnalité | Tableaux de bord d’intégrité des services | Effectuez le suivi de l’intégrité opérationnelle des actions externes en collectant des mesures de succès et d’erreur et en fournissant des tableaux de bord aux administrateurs pour surveiller les performances des services. |
+| Amélioration | Membre du filtre Audience de profil | Ce filtre est désormais disponible pour les conditions de chemin de partage du parcours de personnes, les conditions de chemin de partage de la personne du parcours de comptes et les listes de personnes à inclure ou à exclure des profils en fonction de l’appartenance à l’audience. |
 | Amélioration | Parcours de rentrée - parcours de personnes | La prise en charge de la rentrée des parcours est désormais disponible pour les parcours de personnes. |
 
 >[!NOTE]
