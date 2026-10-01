@@ -5,12 +5,10 @@ source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 2%
-
 ---
-
 # Création de contenu - personnalisation
 
-Journey Optimizer B2B edition utilise une syntaxe simple intégrée qui vous permet de créer des expressions avec du contenu personnalisé placé entre des accolades doubles `{}`. Vous pouvez ajouter plusieurs expressions dans le même contenu ou champ sans restriction.
+Journey Optimizer B2B Edition utilise une syntaxe simple intégrée qui vous permet de créer des expressions avec du contenu personnalisé placé entre des accolades doubles `{}`. Vous pouvez ajouter plusieurs expressions dans le même contenu ou champ sans restriction.
 
 Exemples :
 
@@ -18,7 +16,7 @@ Exemples :
 
 * `Hello {{profile.person.name.fullName}}`
 
-Lors du traitement du contenu, Journey Optimizer B2B edition remplace l’expression par les données contenues dans la base de données Experience Platform. Donc, le premier exemple devient _Bonjour John Doe_.
+Lors du traitement du contenu, Journey Optimizer B2B Edition remplace l’expression par les données contenues dans la base de données Experience Platform. Donc, le premier exemple devient _Bonjour John Doe_.
 
 L’exemple suivant décrit les étapes de personnalisation du contenu à l’aide d’attributs de lead/compte et de jetons système.
 
@@ -32,4 +30,4 @@ L’exemple suivant décrit les étapes de personnalisation du contenu à l’ai
 
    ![Créer du texte personnalisé à l’aide de jetons](../assets/content-design-shared/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
