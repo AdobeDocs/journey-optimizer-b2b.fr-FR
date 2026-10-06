@@ -84,7 +84,7 @@ Pour installer le package Insights dans le CRM, suivez les étapes pour Salesfor
 1. Recherchez et chargez le package du programme d’installation, puis cliquez sur **[!UICONTROL Suivant]**.
 1. Vérifiez les détails du package et cliquez sur **[!UICONTROL Suivant]**.
 1. Sous _Variables d’environnement_, vérifiez que la valeur est définie sur `prod` (ne modifiez pas la valeur), puis cliquez sur **[!UICONTROL Importer]**.
-1. Une fois l’installation terminée, **** > **[!UICONTROL Groupes d’achats]** s’affiche sur la barre de navigation de gauche.
+1. Une fois l’installation terminée, **&#x200B;**&#x200B;> **[!UICONTROL Groupes d’achats]** s’affiche sur la barre de navigation de gauche.
 
    ![Insights in-CRM disponibles dans Microsoft Dynamics](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
 

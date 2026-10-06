@@ -74,7 +74,7 @@ Pour passer en revue les domaines de branding, cliquez sur l’onglet **[!UICONT
 
 ![Accéder aux paramètres des domaines de branding](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Ce paramètre définit votre domaine principal pour un ou plusieurs espaces de travail dans l’instance Marketo Engage connectée. Les nouveaux e-mails utilisent ce domaine par défaut, mais les spécialistes du marketing peuvent [le remplacer pour chaque e-mail](../content/add-email.md#define-the-email-settings). Pour plus d&#39;informations sur la définition du domaine de marque par défaut, consultez la documentation de Marketo Engage [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Ce paramètre définit votre domaine principal pour un ou plusieurs espaces de travail dans l’instance Marketo Engage connectée. Les nouveaux e-mails utilisent ce domaine par défaut, mais les spécialistes du marketing peuvent [le remplacer pour chaque e-mail](../content/add-email.md#define-the-email-settings). Pour plus d&#39;informations sur la définition du domaine de marque par défaut, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Les limites de communication contrôlent le nombre d’e-mails qu’un contact r
 
 >[!BEGINSHADEBOX]
 
-![Icône Autorisations ](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform ](../admin/user-management.md#b2b-product-permissions) :
+![Icône Autorisations &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform &#x200B;](../admin/user-management.md#b2b-product-permissions) :
 
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B Channels`
 * **[!UICONTROL Règles Journey Optimizer]** - `View Frequency Rules` et `Manage Frequency Rules`
@@ -107,7 +107,7 @@ Les limites de communication contrôlent le nombre d’e-mails qu’un contact r
 
 Par exemple, avec une limite définie de cinq e-mails par jour, le système garantit qu’un contact ne reçoit pas un sixième e-mail au cours de la journée en supprimant le sixième e-mail. Lorsque les limites de communication sont partagées entre Journey Optimizer B2B Edition et Marketo Engage, les règles de limitation des communications sont définies à un seul endroit. Le sixième e-mail est supprimé, quelle que soit l’action d’envoi provenant de Journey Optimizer B2B Edition ou de Marketo Engage.
 
-Toutes les instances de production Marketo Engage ont des limites de communication définies par défaut (pour plus d’informations, consultez la documentation de Marketo Engage [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). Vous pouvez utiliser des limites de communication distinctes pour Journey Optimizer B2B Edition et votre instance Marketo Engage de production. Pour utiliser les limites de communication partagées, définissez les règles dans Journey Optimizer B2B Edition, puis étendez leur application aux codes Munchkin de Marketo.
+Toutes les instances de production Marketo Engage ont des limites de communication définies par défaut (pour plus d’informations, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). Vous pouvez utiliser des limites de communication distinctes pour Journey Optimizer B2B Edition et votre instance Marketo Engage de production. Pour utiliser les limites de communication partagées, définissez les règles dans Journey Optimizer B2B Edition, puis étendez leur application aux codes Munchkin de Marketo.
 
 >[!IMPORTANT]
 >
@@ -226,4 +226,4 @@ Les paramètres sont en lecture seule dans Journey Optimizer B2B Edition. Cliqu
 >
 >Pour accéder à ces paramètres et les modifier dans Adobe Marketo Engage, vous devez disposer des autorisations d’administrateur de produit.
 
-Pour plus d&#39;informations sur la configuration des options d&#39;activité des robots, consultez la documentation de Marketo Engage [](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Pour plus d&#39;informations sur la configuration des options d&#39;activité des robots, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

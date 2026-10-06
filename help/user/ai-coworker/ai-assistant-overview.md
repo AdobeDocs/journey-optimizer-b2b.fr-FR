@@ -38,7 +38,7 @@ ht-degree: 9%
 ---
 # Fonctionnalités d’IA dans Journey Optimizer B2B Edition
 
-L’interface de chat d’Adobe Journey Optimizer B2B Edition est alimentée par la même base technologique que l’[assistant AI de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}. Vous pouvez utiliser cette expérience de conversation pour accélérer vos workflows dans Journey Optimizer B2B Edition. Vous pouvez utiliser l’interface de conversation pour mieux comprendre les fonctionnalités du produit, résoudre les problèmes ou parcourir les informations et obtenir des informations opérationnelles sur Journey Optimizer B2B Edition. Vous pouvez également utiliser cette interface pour appeler les [](../agents/journey-agent.md) et [Audience Agent](../agents/audience-agent-b2b.md).
+L’interface de chat d’Adobe Journey Optimizer B2B Edition est alimentée par la même base technologique que l’[assistant AI de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}. Vous pouvez utiliser cette expérience de conversation pour accélérer vos workflows dans Journey Optimizer B2B Edition. Vous pouvez utiliser l’interface de conversation pour mieux comprendre les fonctionnalités du produit, résoudre les problèmes ou parcourir les informations et obtenir des informations opérationnelles sur Journey Optimizer B2B Edition. Vous pouvez également utiliser cette interface pour appeler les [&#128279;](../agents/journey-agent.md) et [Audience Agent](../agents/audience-agent-b2b.md).
 
 >[!IMPORTANT]
 >
@@ -58,13 +58,13 @@ L’interface de chat d’Adobe Journey Optimizer B2B Edition est alimentée par
 
 Sales Qualifier est une application pilotée par l’IA que vous pouvez utiliser avec Journey Optimizer B2B Edition. Il met en œuvre Account Qualification Agent et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). Sales Qualifier automatise les workflows de qualification, de sensibilisation et d’engagement des acheteurs des prospects sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
 
-Pour plus d&#39;informations, consultez la documentation de [](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"}.
+Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 ## Fonctionnalités de l’assistant AI dans Journey Optimizer B2B Edition
 
-Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes, le _**graphique de connaissances**_, et fournit un ensemble complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
+Pour formuler une réponse à vos questions envoyées, l’assistant AI interroge une base de données et traduit les données de la base de données en une réponse lisible par l’utilisateur. Cette réponse est une représentation interne des données sous-jacentes, le _&#x200B;**graphique de connaissances**&#x200B;_, et fournit un ensemble complet de concepts, de données et de métadonnées pour une réponse donnée. Le graphique de connaissances se compose de sous-graphiques qui sont référencés chaque fois que des requêtes sont envoyées :
 
 * Documentation Adobe Experience League.
 * Artefacts opérationnels, tels que des schémas, des champs, des audiences et des parcours.

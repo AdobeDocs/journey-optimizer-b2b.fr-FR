@@ -34,7 +34,7 @@ ht-degree: 1%
 
 Lorsque vous cliquez sur le nom d’un parcours de compte actif, les détails du parcours s’affichent. L’onglet _[!UICONTROL Aperçu]_ fournit des informations utiles sur le parcours, y compris des résumés génératifs de l’IA.
 
-Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux équipes marketing d’évaluer l’efficacité des canaux e-mail et SMS au moyen des principales mesures de diffusion et d’engagement. Pour les mesures d’e-mail agrégées sur tous les parcours, consultez le [ Rapport sur les performances des e-mails ](../dashboards/email-performance-dashboard.md).
+Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux équipes marketing d’évaluer l’efficacité des canaux e-mail et SMS au moyen des principales mesures de diffusion et d’engagement. Pour les mesures d’e-mail agrégées sur tous les parcours, consultez le [&#x200B; Rapport sur les performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
 
 Cet aperçu est disponible pour les parcours de compte publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
 

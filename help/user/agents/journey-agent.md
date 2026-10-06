@@ -45,7 +45,7 @@ ht-degree: 0%
 
 Journey Agent B2B est un assistant optimisé par l’IA dans Adobe Journey Optimizer B2B Edition qui vous aide à concevoir, exécuter, optimiser et surveiller les parcours B2B via le langage naturel. Il réduit le temps et la complexité nécessaires à la création et à la gestion des parcours clients en combinant l’automatisation, les recommandations basées sur les données et l’observabilité en temps réel.
 
-![Invite B2B ](./assets/journey-agent-prompt.png)
+![Invite B2B &#x200B;](./assets/journey-agent-prompt.png)
 
 Le B2B de Journey Agent fournit un ensemble de compétences en IA, chacune axée sur un aspect différent du cycle de vie du parcours B2B. Les compétences actuellement disponibles sont les suivantes :
 

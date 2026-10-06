@@ -46,11 +46,11 @@ La configuration des actions externes nécessite une coordination entre trois r�
 | ---- | ---- | ---- |
 | 1 | Développeur | [Implémenter et publier le service externe](#implement-service) |
 | 2 | Administrateur | [Configurer l’action dans Journey Optimizer B2B Edition](#configure-action) |
-| 3 | Spécialiste marketing | [Ajouter un nœud externe à un parcours ](#add-journey-node) |
+| 3 | Spécialiste marketing | [Ajouter un nœud externe à un parcours &#x200B;](#add-journey-node) |
 
 ## Implémenter le service externe {#implement-service}
 
-Le développeur doit créer et publier un service web public conforme à l’[interface du fournisseur de services d’actions externes ](https://developer.adobe.com/journey-optimizer-b2b-apis/).
+Le développeur doit créer et publier un service web public conforme à l’[interface du fournisseur de services d’actions externes &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/).
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 
 Lorsque vous saisissez l’URL de la spécification OpenAPI pour votre service externe et cliquez sur **[!UICONTROL Créer]**, le système effectue la validation du service. Lorsqu’elle rencontre une erreur, la boîte de dialogue affiche un message pour décrire l’erreur.
 
-![ Message d’erreur de validation du service d’URL d’action externe ](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+![&#x200B; Message d’erreur de validation du service d’URL d’action externe &#x200B;](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ Lorsque vous saisissez l’URL de la spécification OpenAPI pour votre service e
 | `The entity type value is invalid` | Une extension `x-` spécifique à Adobe pour le type d’entité a une valeur non reconnue | Corrigez le type d’entité sur une valeur prise en charge. Consultez la [documentation pour les développeurs](https://developer.adobe.com/journey-optimizer-b2b-apis/) pour connaître les options valides. |
 | `The provided document is not a valid OpenAPI specification` | La spécification ne peut pas être analysée structurellement. | Validez votre spécification par rapport au schéma OpenAPI 3.0 et corrigez les problèmes. |
 | `Required OpenAPI field is missing` | Il n’y a pas de champ obligatoire OpenAPI standard (`info` ou `paths`, par exemple). | Ajoutez le champ manquant. |
-| `Required endpoint is missing from the specification` | Un point d’entrée requis par Adobe Journey Optimizer B2B Edition n’est pas défini dans votre spécification. | Ajoutez le point d’entrée requis. Pour connaître les points d’entrée nécessaires](https://developer.adobe.com/journey-optimizer-b2b-apis/) consultez la [ documentation pour les développeurs et développeuses . |
+| `Required endpoint is missing from the specification` | Un point d’entrée requis par Adobe Journey Optimizer B2B Edition n’est pas défini dans votre spécification. | Ajoutez le point d’entrée requis. Pour connaître les points d’entrée nécessaires[&#128279;](https://developer.adobe.com/journey-optimizer-b2b-apis/) consultez la  documentation pour les développeurs et développeuses . |
 | `Required extension field is missing` | Un champ d’extension Adobe `x-` obligatoire est absent de votre spécification. | Ajoutez le champ d’extension manquant comme décrit dans la documentation. |
 | `Security schemes are missing from the specification` | Aucune spécification n’a `securitySchemes` définie sous `components`. | Définissez au moins un schéma de sécurité. |
 | `Multiple authentication types are not supported` | Votre spécification définit plusieurs schémas d’authentification. | Mettez à jour votre spécification pour utiliser un seul type d’authentification. |

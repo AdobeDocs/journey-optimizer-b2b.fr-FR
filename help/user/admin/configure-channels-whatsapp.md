@@ -89,10 +89,10 @@ Effectuez les tâches suivantes :
 1. Configurez vos informations d’identification dʼAPI comme indiqué ci-dessous :
 
    * **[!UICONTROL Nom]** - Saisissez un nom unique pour les informations d’identification
-   * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d&#39;informations, consultez la documentation de Meta [](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * **[!UICONTROL Identifiant de compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d&#39;informations, consultez la documentation de Meta [](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d&#39;informations, consultez la documentation de Meta [&#128279;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
+   * **[!UICONTROL Identifiant de compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d&#39;informations, consultez la documentation de Meta [&#128279;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Paramètres WhatsApp - Informations d’identification de l’API ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Paramètres WhatsApp - Informations d’identification de l’API &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
@@ -130,7 +130,7 @@ Si vous rencontrez une erreur HTTP 500 lors de la configuration des informations
 1. Validez les champs du compte professionnel - Vérifiez que tous les champs obligatoires sont corrects :
 
    * Jeton API : doit être un jeton d’accès [Meta valide avec les autorisations appropriées](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * Identifiant du compte professionnel - Doit correspondre exactement à votre [identifiant du compte professionnel ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * Identifiant du compte professionnel - Doit correspondre exactement à votre [identifiant du compte professionnel &#x200B;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
 1. Tester les informations d’identification en externe - Pour confirmer si le problème implique la gestion des informations d’identification ou des informations d’identification Journey Optimizer B2B Edition, vérifiez vos informations d’identification à l’aide de l’API Meta.
 
@@ -167,7 +167,7 @@ do we have advanced logs? How are they enabled?
 
 >[!BEGINSHADEBOX]
 
-![Icône Autorisations ](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform ](./user-management.md#b2b-product-permissions) :
+![Icône Autorisations &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform &#x200B;](./user-management.md#b2b-product-permissions) :
 
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B Channels`
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B WhatsApp Settings`
@@ -232,7 +232,7 @@ Une fois le webhook envoyé, vous pouvez récupérer les valeurs du jeton et de 
 
 >[!BEGINSHADEBOX]
 
-![Icône Autorisations ](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform ](./user-management.md#b2b-product-permissions) :
+![Icône Autorisations &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les [autorisations suivantes pour le rôle utilisateur affecté dans Experience Platform &#x200B;](./user-management.md#b2b-product-permissions) :
 
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B Channels`
 * **[!UICONTROL Configurations de canal B2B]** - `Manage B2B WhatsApp Settings`

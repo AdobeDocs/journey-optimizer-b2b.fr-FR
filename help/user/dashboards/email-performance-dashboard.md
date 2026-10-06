@@ -41,7 +41,7 @@ Le rapport **Performances des emails** offre aux marketeurs une vue unifiée de 
 1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Tableau de bord]**.
 1. Sélectionnez l’onglet **[!UICONTROL Performances des e-mails]** en haut du tableau de bord de création de rapports.
 
-![ Rapport sur les performances des e-mails ](./assets/email-performance-dashboard.png){width="800" zoomable="yes"}
+![&#x200B; Rapport sur les performances des e-mails &#x200B;](./assets/email-performance-dashboard.png){width="800" zoomable="yes"}
 
 ## Filtrer les données
 

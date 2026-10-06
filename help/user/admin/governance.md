@@ -40,7 +40,7 @@ Diverses réglementations s’appliquent aux utilisateurs de [!DNL Journey Optim
 
 ### RGPD
 
-Le Règlement général sur la protection des données (RGPD) est la loi de l’Union européenne (UE) sur la protection de la vie privée qui harmonise et modernise les [ exigences en matière de protection des données ](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} pour les pays de l’UE.
+Le Règlement général sur la protection des données (RGPD) est la loi de l’Union européenne (UE) sur la protection de la vie privée qui harmonise et modernise les [&#x200B; exigences en matière de protection des données &#x200B;](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} pour les pays de l’UE.
 
 [!DNL Journey Optimizer B2B Edition] utilise la fonctionnalité de gouvernance existante du RGPD d’Experience Platform fournie par Privacy Service. Pour plus d’informations sur l’envoi et la gestion des demandes d’accès et de suppression, voir [_Gestion de la confidentialité_](./privacy-management.md).
 

@@ -39,8 +39,8 @@ Pour commencer à utiliser un parcours, créez le parcours, puis construisez les
 
 Sous **[!UICONTROL Gestion des Parcours]** dans le volet de navigation de gauche, sélectionnez le type de parcours à créer :
 
-* parcours de compte ]****[!UICONTROL 
-* parcours de personne ]****[!UICONTROL 
+* parcours de compte **&#x200B;**
+* parcours de personne **&#x200B;**
 
 _Pour ajouter un nouveau parcours :_
 
@@ -50,7 +50,7 @@ _Pour ajouter un nouveau parcours :_
 
 1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![ Boîte de dialogue Créer un Parcours de compte ](./assets/account-journey-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un Parcours de compte &#x200B;](./assets/account-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -62,7 +62,7 @@ _Pour ajouter un nouveau parcours :_
 
 1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![ Boîte de dialogue Créer un Parcours ](./assets/person-journey-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un Parcours &#x200B;](./assets/person-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 

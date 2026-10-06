@@ -35,19 +35,19 @@ ht-degree: 2%
 ---
 # Tableau de bord de présentation de Parcours
 
-Le tableau de bord de présentation des parcours [compte ou personne](../journeys/journeys-overview.md) fournit un instantané complet de vos parcours actifs. Les graphiques circulaires et à barres catégorisent et quantifient les activités d’achèvement et d’engagement afin que vous puissiez évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures clés de diffusion et d’engagement. Pour obtenir une vue d’ensemble des parcours des données d’engagement et de diffusion spécifiques aux e-mails, consultez le [ Rapport sur les performances des e-mails](email-performance-dashboard.md).
+Le tableau de bord de présentation des parcours [compte ou personne](../journeys/journeys-overview.md) fournit un instantané complet de vos parcours actifs. Les graphiques circulaires et à barres catégorisent et quantifient les activités d’achèvement et d’engagement afin que vous puissiez évaluer l’efficacité des canaux e-mail et SMS par le biais de mesures clés de diffusion et d’engagement. Pour obtenir une vue d’ensemble des parcours des données d’engagement et de diffusion spécifiques aux e-mails, consultez le [&#x200B; Rapport sur les performances des e-mails](email-performance-dashboard.md).
 
 Cet aperçu est disponible pour les parcours publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
 
 >[!BEGINTABS]
 
->parcours de compte][!TAB 
+>[!TAB parcours de compte] 
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion des Parcours]** puis cliquez sur **[!UICONTROL parcours de compte]**. Sélectionnez l’onglet **[!UICONTROL Aperçu]** s’il n’est pas affiché par défaut.
 
-![ Présentation des parcours de compte ](./assets/journey-overview-account.png){width="800" zoomable="yes"}
+![&#x200B; Présentation des parcours de compte &#x200B;](./assets/journey-overview-account.png){width="800" zoomable="yes"}
 
->parcours de personne][!TAB 
+>[!TAB parcours de personne] 
 
 [!BADGE Beta]{type=Informative tooltip="Disponible en tant que fonctionnalité bêta"}
 
@@ -63,7 +63,7 @@ Ce graphique illustre la répartition des parcours en fonction de leur taux d’
 
 Pour afficher des informations plus détaillées, cliquez sur l’icône de menu **...** en haut à droite.
 
-![distribution du taux d&#39;achèvement du Parcours ](./assets/journey-completion-rate-distribution.png){width="500"}
+![distribution du taux d&#39;achèvement du Parcours &#x200B;](./assets/journey-completion-rate-distribution.png){width="500"}
 
 ## Parcours par type d’engagement {#journeys-by-engagement-type}
 

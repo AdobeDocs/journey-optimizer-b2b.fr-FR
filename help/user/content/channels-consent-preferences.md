@@ -59,11 +59,11 @@ Tenez compte des points suivants pour le consentement par e-mail :
 * Les personnes qui se sont désinscrites des e-mails peuvent recevoir des e-mails marqués comme opérationnels.
 * Les préférences au niveau de l’abonnement ne sont pas prises en charge.
 
-Pour consulter l’activité de désabonnement des e-mails envoyés, consultez le rapport [ Performances des e-mails ](../dashboards/email-performance-dashboard.md).
+Pour consulter l’activité de désabonnement des e-mails envoyés, consultez le rapport [&#x200B; Performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
 
 ## SMS {#sms}
 
-Journey Optimizer B2B Edition évalue les attributs XDM suivants pour le consentement par SMS lors de l’envoi de messages par le biais du [ canal SMS ](../admin/configure-channels-sms.md) :
+Journey Optimizer B2B Edition évalue les attributs XDM suivants pour le consentement par SMS lors de l’envoi de messages par le biais du [&#x200B; canal SMS &#x200B;](../admin/configure-channels-sms.md) :
 
 | Attribut XDM | `y` | `n` | Aucune valeur |
 | --- | --- | --- | --- |

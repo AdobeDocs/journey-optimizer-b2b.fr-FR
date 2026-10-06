@@ -60,7 +60,7 @@ En tant qu’administrateur, vous pouvez :
 
 ![Attribuer des autorisations à l’assistant AI](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Utilisez l’interface utilisateur Autorisations pour accorder des autorisations d’utilisation de l’assistant AI dans Journey Optimizer B2B Edition. Pour plus d’informations sur l’accès à l’assistant AI dans Experience Platform et d’autres applications Experience Cloud, reportez-vous à la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Utilisez l’interface utilisateur Autorisations pour accorder des autorisations d’utilisation de l’assistant AI dans Journey Optimizer B2B Edition. Pour plus d’informations sur l’accès à l’assistant AI dans Experience Platform et d’autres applications Experience Cloud, reportez-vous à la documentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 Lorsque l’utilisateur dispose des autorisations nécessaires, il peut accéder à l’assistant AI en sélectionnant l’icône _Assistant AI_ dans l’en-tête supérieur de l’application que vous utilisez.
 

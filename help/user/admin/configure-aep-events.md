@@ -138,7 +138,7 @@ Pour modifier les champs, modifiez les détails de l’événement.
 
 1. Cliquez sur le nom de l’événement ou cliquez sur l’icône _Plus_ ( **...** ) et choisissez **[!UICONTROL Modifier]**.
 
-   ![Cliquez sur l’icône du menu Plus ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Cliquez sur l’icône du menu Plus &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Modifier les champs]** pour ouvrir la boîte de dialogue _[!UICONTROL Sélectionner des champs]_ et ajouter d’autres champs.
 
