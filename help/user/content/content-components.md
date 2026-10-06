@@ -1,29 +1,35 @@
 ---
 title: Composants de contenu
-description: 'Concevez des e-mails, des pages de destination et des fragments avec des composants de contenu : ajoutez des boutons, du texte, des images, des formulaires et des conteneurs dans Journey Optimizer B2B edition.'
+description: 'Concevez des e-mails, des pages de destination et des fragments avec des composants de contenu : ajoutez des boutons, du texte, des images, des formulaires et des conteneurs dans Journey Optimizer B2B Edition.'
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+autotag-review: 2026-03-30T22:16:05.946Z
+TQID: 'https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-autotag-review: 2026-03-30T22:16:05.946Z
-TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Experience design
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2658
+source-wordcount: '2658'
 ht-degree: 8%
-
 ---
-
 # Composants de contenu {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -58,9 +64,9 @@ La section **[!UICONTROL Contenu]** située au bas de la bibliothèque de compos
 | ![Icône Bouton](../../assets/do-not-localize/icon-content-component-button.svg) | [Bouton](#button) | Ajoutez ce composant à votre conception pour inclure un élément bouton cliquable. |
 | ![Icône Texte](../../assets/do-not-localize/icon-content-component-text.svg) | [Texte](#text) | Ajoutez ce composant à votre conception pour inclure un corps de texte. |
 | ![Icône Diviseur](../../assets/do-not-localize/icon-content-component-divider.svg) | [Diviseur](#divider) | Ajoutez ce composant à votre conception afin d’inclure une ligne horizontale pour séparer les zones de votre contenu. |
-| ![Icône &#x200B;](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Ajoutez ce composant à votre conception pour copier-coller les différentes parties de votre HTML existante. Utilisez ce composant pour créer un bloc HTML modulaire libre afin de réutiliser du contenu externe. |
-| ![&#x200B; Icône Image &#x200B;](../../assets/do-not-localize/icon-content-component-image.svg) | [Image](#image) | Ajoutez ce composant à votre conception pour insérer un fichier image. |
-| ![&#x200B; Icône Social &#x200B;](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Ajoutez ce composant à votre conception pour insérer des liens vers des pages de réseaux sociaux. |
+| ![Icône ](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Ajoutez ce composant à votre conception pour copier-coller les différentes parties de votre HTML existante. Utilisez ce composant pour créer un bloc HTML modulaire libre afin de réutiliser du contenu externe. |
+| ![ Icône Image ](../../assets/do-not-localize/icon-content-component-image.svg) | [Image](#image) | Ajoutez ce composant à votre conception pour insérer un fichier image. |
+| ![ Icône Social ](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Ajoutez ce composant à votre conception pour insérer des liens vers des pages de réseaux sociaux. |
 | ![Icône de formulaire](../../assets/do-not-localize/icon-content-component-form.svg) | [Form](#form) (Formulaire) | **_Disponible uniquement pour les pages de destination._** Ajoutez ce composant à votre conception pour insérer un formulaire créé. |
 
 ## Barres d’outils des composants de contenu
@@ -506,7 +512,7 @@ Utilisez le composant HTML pour ajouter des parties de votre HTML existant. Ce c
 
 1. Collez l’HTML dans la zone de texte, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   [&#x200B; Boîte de dialogue Modifier HTML &#x200B;](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
+   [ Boîte de dialogue Modifier HTML ](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
    Si l’HTML est valide, elle effectue le rendu de l’élément sur la zone de travail. S’il s’agit d’un élément qui correspond à l’un des autres composants de contenu, vous pouvez modifier les paramètres et les styles dans le panneau de droite en fonction du type de composant. Dans le cas contraire, il reste en tant que composant HTML.
 
@@ -677,7 +683,7 @@ Utilisez le composant _Social_ pour insérer des liens vers des pages de réseau
 Une fois le type de réseau social sélectionné, définissez les options pour ce type :
 
 * **[!UICONTROL URL]** - Saisissez l’URL du réseau social que vous souhaitez lier au graphique ou à l’icône du réseau social.
-* **&#x200B;**&#x200B;- Si vous souhaitez utiliser votre propre image au lieu de la valeur par défaut, sélectionnez une ressource image ou importez un fichier image à partir de votre système. Pour plus d’informations sur la sélection et l’importation de ressources d’image[&#128279;](#add-the-image-asset) consultez les informations sur les composants d’image .
+* **** - Si vous souhaitez utiliser votre propre image au lieu de la valeur par défaut, sélectionnez une ressource image ou importez un fichier image à partir de votre système. Pour plus d’informations sur la sélection et l’importation de ressources d’image](#add-the-image-asset) consultez les informations sur les composants d’image [.
 * **[!UICONTROL Texte secondaire]** - Saisissez le texte secondaire de l’image affichée.
 
   ![Paramètres du type de réseau social sélectionné](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -730,7 +736,7 @@ Vous pouvez définir les options de style suivantes pour le composant _Social_ :
 
 ### Formulaire (pages de destination uniquement) {#form}
 
-Utilisez le composant _Formulaire_ pour ajouter un formulaire publié à une page de destination ou à un modèle de page de destination. Pour plus d&#39;informations sur la création et la publication de formulaires, voir [&#128279;](./forms.md).
+Utilisez le composant _Formulaire_ pour ajouter un formulaire publié à une page de destination ou à un modèle de page de destination. Pour plus d&#39;informations sur la création et la publication de formulaires, voir [](./forms.md).
 
 1. Cliquez sur l’outil _Formulaire_ dans la barre d’outils du composant, ou utilisez les propriétés **[!UICONTROL Incorporer le formulaire]** à droite pour sélectionner le formulaire publié.
 
@@ -742,7 +748,7 @@ Utilisez le composant _Formulaire_ pour ajouter un formulaire publié à une pag
 
    * **[!UICONTROL Rester sur la page]** - Sélectionnez cette option pour que le visiteur reste sur la même page lors de l’envoi du formulaire.
 
-   * **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination de Journey Optimizer B2B edition comme suivi.
+   * **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination Journey Optimizer B2B Edition comme suite.
 
    * **[!UICONTROL URL externe]** - Sélectionnez cette option pour spécifier n’importe quelle URL comme page de suivi. Une fois que le visiteur a envoyé le formulaire, le navigateur charge l’URL désignée.
 

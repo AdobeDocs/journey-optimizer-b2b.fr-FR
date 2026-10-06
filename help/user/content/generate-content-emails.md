@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
@@ -36,7 +38,7 @@ topic_v2:
     internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '3509'
 ht-degree: 1%
@@ -49,13 +51,13 @@ Cette nouvelle fonctionnalité fournit une génération de contenu basée sur le
 
 >[!PREREQUISITES]
 >
->Pour accéder à ces fonctionnalités dans Adobe Journey Optimizer B2B edition, vous devez disposer de l’autorisation _[!UICONTROL Assistant IA]_ > _[!UICONTROL Générer du contenu]_. Pour plus d’informations sur la manière dont un administrateur de produit peut accorder des autorisations de fonctionnalité, voir [Modifier les rôles pour les autorisations de produit](../admin/user-management.md#edit-roles-for-product-permissions).
+>Pour accéder à ces fonctionnalités dans Adobe Journey Optimizer B2B Edition, vous devez disposer de l’autorisation _[!UICONTROL Assistant IA]_ > _[!UICONTROL Générer du contenu]_. Pour plus d’informations sur la manière dont un administrateur de produit peut accorder des autorisations de fonctionnalité, voir [Modifier les rôles pour les autorisations de produit](../admin/user-management.md#edit-roles-for-product-permissions).
 
 ## Instructions et restrictions
 
 Avant de commencer à utiliser cette fonctionnalité, passez en revue les [instructions et limites](./generative-ai-content.md#general-guidelines-and-limitations). [Accord utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} l’acceptation est également requise avant de pouvoir utiliser les fonctionnalités d’IA dans [!DNL Journey Optimizer B2B Edition]. Pour en savoir plus, contactez votre représentant Adobe.
 
-Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/fr/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation afin de promouvoir la transparence.
+Adobe applique les [informations d’identification de contenu](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} aux ressources générées par Firefly lors du téléchargement ou de l’exportation afin de promouvoir la transparence.
 
 Les restrictions et instructions suivantes s’appliquent à la génération de contenu d’e-mail dans [!DNL Journey Optimizer B2B Edition] :
 
@@ -270,7 +272,7 @@ Pour générer un e-mail complet en affinant un modèle d’e-mail existant, pro
 
    Pour plus d’informations sur l’utilisation d’un modèle d’e-mail, voir _[Sélectionner un modèle](./email-authoring.md#select-a-template)_.
 
-1. Dans l’espace de conception d’e-mail, cliquez sur l’icône _Générer le contenu_ ![&#x200B; (bouton bascule du menu Générer le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ) à droite.
+1. Dans l’espace de conception d’e-mail, cliquez sur l’icône _Générer le contenu_ ![ (bouton bascule du menu Générer le contenu](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ) à droite.
 
    Les paramètres à droite indiquent _Générer un e-mail_.
 
@@ -298,7 +300,7 @@ Pour générer un e-mail complet en affinant un modèle d’e-mail existant, pro
 
    Les variations générées s’affichent dans le panneau de droite.
 
-1. Parcourez les variations générées ou cliquez sur l’icône _Plein écran_ ( ![&#x200B; Icône Plein écran &#x200B;](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer un e-mail]_.
+1. Parcourez les variations générées ou cliquez sur l’icône _Plein écran_ ( ![ Icône Plein écran ](../assets/do-not-localize/icon-full-screen.svg) ) pour ouvrir la boîte de dialogue _[!UICONTROL Générer un e-mail]_.
 
    La boîte de dialogue offre un espace supplémentaire pour comparer les variations, ajuster votre texte et les paramètres de contenu de référence (si nécessaire), puis générer de nouveau les variations.
 

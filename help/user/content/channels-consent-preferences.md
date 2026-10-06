@@ -1,41 +1,54 @@
 ---
 title: Consentement de la messagerie de canal
-description: Découvrez comment Journey Optimizer B2B edition lit les préférences de consentement du profil XDM AEP et applique les processus d’opt-in et d’opt-out au moment de la diffusion des messages pour les canaux e-mail, SMS et WhatsApp.
+description: Découvrez comment Journey Optimizer B2B Edition lit les préférences de consentement du profil XDM AEP et applique les processus d’opt-in et d’opt-out au moment de la diffusion des messages pour les canaux e-mail, SMS et WhatsApp.
 feature: Setup, Channels
 role: Admin, User
 autotag-review: '2026-05-19T16:18:37.228Z'
 TQID: 'https://experienceleague.adobe.com/-c0dJnpfiIcj0B5gViyEQ7E1Ws0BwP864OLF003rOjw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 2%
-
 ---
-
 # Consentement des messages de canal
 
-Adobe Journey Optimizer B2B edition lit les préférences de consentement par personne stockées dans les profils XDM Adobe Experience Platform et les applique au moment de la diffusion des messages, dans le cadre des [contrôles de gouvernance](../admin/governance.md) de l’application. Les personnes qui se sont exclues d’un canal sont exclues de la diffusion avant l’envoi du contenu depuis le canal ou le fournisseur de messagerie en aval.
+Adobe Journey Optimizer B2B Edition lit les préférences de consentement par personne stockées dans les profils XDM Adobe Experience Platform et les applique au moment de la diffusion des messages, dans le cadre des [contrôles de gouvernance](../admin/governance.md) de l’application. Les personnes qui se sont exclues d’un canal sont exclues de la diffusion avant l’envoi du contenu depuis le canal ou le fournisseur de messagerie en aval.
 
-Les sections suivantes décrivent comment Journey Optimizer B2B edition évalue le consentement au moment de l’envoi du message pour chaque canal pris en charge.
+Les sections suivantes décrivent comment Journey Optimizer B2B Edition évalue le consentement à l’heure d’envoi du message pour chaque canal pris en charge.
 
 ## Adresse e-mail {#email}
 
-Journey Optimizer B2B edition évalue l’attribut XDM suivant pour le consentement par e-mail lors de l’envoi de messages sur le [canal e-mail](../admin/configure-channels-emails.md) :
+Journey Optimizer B2B Edition évalue l’attribut XDM suivant pour le consentement par e-mail lors de l’envoi de messages sur le [canal e-mail](../admin/configure-channels-emails.md) :
 
 | Attribut XDM | `y` | `n` | Aucune valeur |
 | --- | --- | --- | --- |
@@ -46,11 +59,11 @@ Tenez compte des points suivants pour le consentement par e-mail :
 * Les personnes qui se sont désinscrites des e-mails peuvent recevoir des e-mails marqués comme opérationnels.
 * Les préférences au niveau de l’abonnement ne sont pas prises en charge.
 
-Pour consulter l’activité de désabonnement des e-mails envoyés, consultez le rapport [&#x200B; Performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
+Pour consulter l’activité de désabonnement des e-mails envoyés, consultez le rapport [ Performances des e-mails ](../dashboards/email-performance-dashboard.md).
 
 ## SMS {#sms}
 
-Journey Optimizer B2B edition évalue les attributs XDM suivants pour le consentement par SMS lors de l’envoi de messages par le biais du [&#x200B; canal SMS &#x200B;](../admin/configure-channels-sms.md) :
+Journey Optimizer B2B Edition évalue les attributs XDM suivants pour le consentement par SMS lors de l’envoi de messages par le biais du [ canal SMS ](../admin/configure-channels-sms.md) :
 
 | Attribut XDM | `y` | `n` | Aucune valeur |
 | --- | --- | --- | --- |
@@ -67,7 +80,7 @@ Tenez compte des points suivants pour le consentement par SMS :
 
 ## WhatsApp {#whatsapp}
 
-Journey Optimizer B2B edition évalue les attributs XDM suivants pour le consentement WhatsApp lors de l’envoi de messages par le biais d’un canal [WhatsApp](../admin/configure-channels-whatsapp.md) configuré :
+Journey Optimizer B2B Edition évalue les attributs XDM suivants pour le consentement WhatsApp lors de l’envoi de messages par le biais d’un canal [WhatsApp](../admin/configure-channels-whatsapp.md) configuré :
 
 | Attribut XDM | `y` | `n` | Aucune valeur |
 | --- | --- | --- | --- |
@@ -82,7 +95,7 @@ Tenez compte des points suivants pour le consentement WhatsApp :
 
 ## Non pris en charge {#not-supported}
 
-Les fonctionnalités suivantes liées au consentement ne sont actuellement pas prises en charge dans Journey Optimizer B2B edition :
+Les fonctionnalités suivantes liées au consentement ne sont actuellement pas prises en charge dans Journey Optimizer B2B Edition :
 
 * Politiques de consentement d’AEP
 * Attributs de préférences marketing (`consents.marketing.preferred`)

@@ -4,12 +4,17 @@ description: Configurez les nœuds d’événement pour les déclencheurs de com
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+autotag-review: 2026-03-30T23:08:46.228Z
+TQID: 'https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,16 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: 2026-03-30T23:08:46.228Z
-TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 5%
 ---
 # Écouter un évènement
 
-Pour déplacer l’audience vers l’étape suivante de votre parcours [&#128279;](./journeys-overview.md) lorsqu’un événement se produit, ajoutez le nœud _Écouter pour un événement_. Selon le type de parcours, vous pouvez utiliser ce nœud pour déclencher le nœud suivant dans le parcours en fonction des personnes ou des événements de compte.
+Pour déplacer l’audience vers l’étape suivante de votre parcours [](./journeys-overview.md) lorsqu’un événement se produit, ajoutez le nœud _Écouter pour un événement_. Selon le type de parcours, vous pouvez utiliser ce nœud pour déclencher le nœud suivant dans le parcours en fonction des personnes ou des événements de compte.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -109,7 +112,7 @@ Dans un parcours de compte, vous pouvez écouter un événement en fonction du c
 
 1. Pour chaque contrainte facultative à inclure pour la correspondance d’événement, cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez le champ.
 
-   parcours de compte - Écouter un événement de compte![&#128279;](./assets/node-listen-events-account-edit-event.png){width="700" zoomable="yes"}
+   parcours de compte - Écouter un événement de compte](./assets/node-listen-events-account-edit-event.png){width="700" zoomable="yes"}![
 
    Définissez l’opérateur et la valeur de l’évaluation.
 
@@ -196,13 +199,13 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 Pour les parcours de personne, vous pouvez utiliser une modification des attributs de profil de personne B2B pour déclencher le nœud _Écouter pour un événement_.
 
-1. **&#x200B; Effectuez un glisser-déposer des modifications du profil de la personne &#x200B;** [!UICONTROL &#x200B; de la liste _[!UICONTROL Triggers]_ vers l]espace du créateur correspondant à l’événement.
+1. ** Effectuez un glisser-déposer des modifications du profil de la personne **[!UICONTROL  de la liste _[!UICONTROL Triggers]_ vers l]espace du créateur correspondant à l’événement.
 
 1. Cliquez sur **[!UICONTROL Ajouter une contrainte]** et sélectionnez la modification d’attribut à utiliser pour le déclencheur d’événement.
 
    Définissez la valeur du champ en fonction de la modification que vous souhaitez faire correspondre.
 
-   parcours Personne - Écouter un événement de changement de profil de personne![&#128279;](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+   parcours Personne - Écouter un événement de changement de profil de personne](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}![
 
 1. (Facultatif) Ajoutez un autre attribut _Modification du profil de personne_ que vous souhaitez utiliser comme déclencheur d’événement ou [Événement d’expérience](#experience-event-triggers).
 
@@ -218,7 +221,7 @@ Les événements d’expérience sont disponibles pour les parcours de personne 
 
 >[!PREREQUISITES]
 >
->Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
+>Les administrateurs configurent les [événements d’expérience Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, qui permettent aux spécialistes marketing de créer des parcours de compte et de personne qui réagissent aux événements en temps quasi réel.
 >
 >Pour rendre les événements d’expérience disponibles pour les parcours, un administrateur de produit doit d’abord [ajouter les types d’événements et les champs d’intérêt](../admin/configure-aep-events.md#add-an-event) dans [!DNL Journey Optimizer B2B Edition].
 
@@ -254,7 +257,7 @@ Lorsque vous définissez un [événement personnes dans un parcours de compte](#
 
 | Filtres | Description |
 | ------------ | ----------- |
-| [!UICONTROL &#x200B; Historique des événements &#x200B;] | Événements d’expérience configurés par un administrateur. Voir _[Sélection des événements d’expérience et des champs](../admin/configure-aep-events.md)_. |
+| [!UICONTROL  Historique des événements ] | Événements d’expérience configurés par un administrateur. Voir _[Sélection des événements d’expérience et des champs](../admin/configure-aep-events.md)_. |
 | [!UICONTROL Attributs de personne] | Attributs du profil de personne B2B, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
 | [!UICONTROL Attributs de personne] | (parcours de personne uniquement) Valeur d’attribut |
 | [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
@@ -317,5 +320,5 @@ Activez l’option **[!UICONTROL Temporisation]** dans les propriétés de nœud
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443236/?captions=fre_fr&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

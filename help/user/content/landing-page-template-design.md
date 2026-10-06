@@ -1,6 +1,6 @@
 ---
 title: Conception du modèle de page de destination
-description: 'Concevez des modèles de page de destination à réutiliser : ajoutez des composants de contenu, des formulaires, du code CSS personnalisé, de la personnalisation et un aperçu d’appareil dans Journey Optimizer B2B edition.'
+description: 'Concevez des modèles de page de destination à réutiliser : ajoutez des composants de contenu, des formulaires, du code CSS personnalisé, de la personnalisation et un aperçu d’appareil dans Journey Optimizer B2B Edition.'
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
@@ -9,24 +9,33 @@ autotag-review: '2026-05-27T16:15:29.609Z'
 TQID: 'https://experienceleague.adobe.com/vWu6NGGG-pyhypi4RR76gMO8Jx3YnumXuJlDdbS9qTc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 7%
-
 ---
-
 # Conception de modèle de page de destination
 
 Après avoir [créé un modèle de page de destination](./landing-page-templates.md#create-a-landing-page-template), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre modèle de page.
@@ -79,8 +88,8 @@ Tirez parti des options d’affichage et de validation du contenu disponibles da
 * Effectuez un zoom avant/arrière sur le contenu dans les options de zoom prédéfinies.
 
 * Basculez vers l’affichage du contenu sur les ordinateurs de bureau, les appareils mobiles ou en texte seul/texte brut.
-   * Cliquez sur l’icône _Affichage_ pour afficher un aperçu du contenu sur tous les appareils.
-   * Sélectionnez l’un des appareils prêts à l’emploi ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
+  * Cliquez sur l’icône _Affichage_ pour afficher un aperçu du contenu sur tous les appareils.
+  * Sélectionnez l’un des appareils prêts à l’emploi ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
 
 ### Plus d’options
 

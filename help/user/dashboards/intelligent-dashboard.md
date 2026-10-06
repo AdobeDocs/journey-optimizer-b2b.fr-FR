@@ -1,30 +1,37 @@
 ---
 title: Tableau de bord intelligent
-description: Accédez à des informations optimisées par l’IA pour les groupes d’achat et les comptes avec des mesures d’engagement, une détection d’intention et une analyse prédictive dans Journey Optimizer B2B edition.
+description: Accédez à des informations optimisées par l’IA pour les groupes d’achat et les comptes avec des mesures d’engagement, une détection d’intention et une analyse prédictive dans Journey Optimizer B2B Edition.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+autotag-review: 2026-03-30T22:43:58.948Z
+TQID: 'https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T22:43:58.948Z
-TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1682
+source-wordcount: '1682'
 ht-degree: 16%
-
 ---
-
 # Tableau de bord intelligent
 
 Le tableau de bord intelligent offre une vue complète des mesures de [groupe d’achats](../buying-groups/buying-groups-overview.md) et de compte, ce qui vous permet de surveiller et de planifier vos efforts marketing de manière plus efficace.
@@ -40,7 +47,7 @@ Le tableau de bord intelligent permet également d’accéder aux pages de déta
 
 {{intent-data-note}}
 
-Pour utiliser les informations fournies par le tableau de bord intelligent, votre instance Journey Optimizer B2B edition doit disposer des éléments requis :
+Pour utiliser les informations fournies par le tableau de bord intelligent, votre instance Journey Optimizer B2B Edition doit disposer des éléments requis :
 
 | Type | Exigence |
 | ---- | ----------- |
@@ -167,7 +174,7 @@ La section _[!UICONTROL Surging des comptes]_ affiche une visualisation des comp
 
 >[!NOTE]
 >
->Les données sur l’afflux de comptes incluent uniquement les comptes ingérés par Journey Optimizer B2B edition par le biais de parcours de compte ou de groupes d’achat.
+>Les données sur l’afflux de comptes incluent uniquement les comptes ingérés par Journey Optimizer B2B Edition par le biais de parcours de compte ou de groupes d’achat.
 
 ![Visualisation des données d’afflux de comptes](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -211,7 +218,7 @@ La section _[!UICONTROL Comptes mis en surbrillance]_ est organisée en deux lig
 
 >[!NOTE]
 >
->Les données Compte mettent en évidence incluent uniquement les comptes ingérés par Journey Optimizer B2B edition par le biais de parcours de compte ou de groupes d’achat.
+>Les données Compte mettent en évidence incluent uniquement les comptes ingérés par Journey Optimizer B2B Edition par le biais de parcours de compte ou de groupes d’achat.
 
 ![Principaux comptes](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -261,7 +268,7 @@ La section _[!UICONTROL Couverture des contacts]_ affiche une visualisation du n
 
 >[!NOTE]
 >
->Les données de couverture des contacts sont basées sur les groupes d’achats créés dans l’instance Journey Optimizer B2B edition.
+>Les données de couverture des contacts sont basées sur les groupes d’achats créés dans l’instance Journey Optimizer B2B Edition.
 
 ![Visualisation des données d’afflux de comptes](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -293,7 +300,7 @@ La section _[!UICONTROL Chevauchement des contacts]_ affiche une liste de contac
 
 >[!NOTE]
 >
->Les données de chevauchement des contacts sont basées sur les groupes d’achat créés dans l’instance B2B edition de Journey Optimizer.
+>Les données de chevauchement des contacts sont basées sur les groupes d’achats créés dans l’instance Journey Optimizer B2B Edition.
 
 ![Table de chevauchement des contacts](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

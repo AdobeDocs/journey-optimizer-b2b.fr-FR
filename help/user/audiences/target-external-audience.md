@@ -4,6 +4,8 @@ description: Activer les audiences externes à [!DNL Adobe Target] via les parco
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
+autotag-review: 2026-03-30T19:48:50.374Z
+TQID: 'https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,6 +16,9 @@ feature_v2:
     internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
     internal-label: Integrations
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,9 +34,7 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-autotag-review: 2026-03-30T19:48:50.374Z
-TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 3%
@@ -95,7 +98,7 @@ Dans votre parcours, [ajoutez un nœud _Prendre une action_](../journeys/action-
 
 ## Activation de l’audience externe vers Target en tant que destination
 
-L’activation de l’audience externe vers Adobe Target nécessite que vous ayez configuré [!DNL Adobe Target] comme destination dans [!DNL Real-time Customer Data Platform (RTCDP)]. Pour plus d&#39;informations sur cette configuration, consultez la documentation de RTCDP [&#128279;](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}.
+L’activation de l’audience externe vers Adobe Target nécessite que vous ayez configuré [!DNL Adobe Target] comme destination dans [!DNL Real-time Customer Data Platform (RTCDP)]. Pour plus d&#39;informations sur cette configuration, consultez la documentation de RTCDP [](https://experienceleague.adobe.com/fr/docs/platform-learn/tutorials/destinations/target/configure-the-target-destination){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -105,9 +108,9 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
 >[!BEGINSHADEBOX]
 
-![Icône Autorisations &#x200B;](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les autorisations suivantes pour le rôle utilisateur qui vous a été attribué :
+![Icône Autorisations ](../../assets/do-not-localize/icon_permissions-outline.svg) Ces étapes nécessitent les autorisations suivantes pour le rôle utilisateur qui vous a été attribué :
 
-* **&#x200B;**&#x200B;- Pour la ressource _[!UICONTROL Destinations]_ : `Activate Destinations`, `Manage and Activate Dataset Destination` et `View Destination`
+* **** - Pour la ressource _[!UICONTROL Destinations]_ : `Activate Destinations`, `Manage and Activate Dataset Destination` et `View Destination`
 * **[!DNL Target]** - `Approver`
 
 >[!ENDSHADEBOX]
@@ -120,11 +123,11 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
    Saisissez du texte dans le champ _[!UICONTROL Rechercher]_ pour filtrer les destinations affichées pour une correspondance par nom.
 
-   ![Experience Platform - destinations - parcourir les destinations Target - menu plus &#x200B;](./assets/aep-destinations-activate-target-audience.png){width="800" zoomable="yes"}
+   ![Experience Platform - destinations - parcourir les destinations Target - menu plus ](./assets/aep-destinations-activate-target-audience.png){width="800" zoomable="yes"}
 
 1. Dans la liste _[!UICONTROL Audiences disponibles]_, sélectionnez votre audience externe et cliquez sur **[!UICONTROL Suivant]**.
 
-   ![Experience Platform - destinations - parcourir les destinations Target - menu plus &#x200B;](./assets/aep-destinations-activate-target-audience-available-audiences.png){width="700" zoomable="yes"}
+   ![Experience Platform - destinations - parcourir les destinations Target - menu plus ](./assets/aep-destinations-activate-target-audience-available-audiences.png){width="700" zoomable="yes"}
 
 1. Effectuez un mappage de champs supplémentaire à la destination (facultatif) et cliquez sur **[!UICONTROL Suivant]**.
 
@@ -132,4 +135,4 @@ Le processus d’activation nécessite l’ajout de [!DNL Adobe Target] en tant 
 
    ![Experience Platform - destinations - activer la destination - vérifier](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Lors de l’activation, vous pouvez voir l’audience dans [Audiences &#x200B;](https://experienceleague.adobe.com/fr/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et l’utiliser dans les activités Adobe Target.
+Lors de l’activation, vous pouvez voir l’audience dans [Audiences ](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} et l’utiliser dans les activités Adobe Target.

@@ -1,46 +1,56 @@
 ---
 title: Concevoir du contenu accessible
-description: Découvrez comment concevoir du contenu accessible pour vos e-mails et landing pages dans Journey Optimizer B2B edition
+description: Découvrez comment concevoir du contenu accessible pour vos e-mails et landing pages dans Journey Optimizer B2B Edition
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 48%
-
 ---
-
 # Concevoir du contenu accessible {#accessible-content}
 
 L’[Acte législatif européen sur l’accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} est une directive visant à renforcer le marché intérieur des produits et services accessibles en éliminant les obstacles dus aux divergences entre les règles nationales des États membres.
 
-Cette directive stipule que toutes les communications numériques, y compris les e-mails, les bulletins d’information, les fichiers PDF et le contenu téléchargeable, doivent être accessibles. Lors de la création de contenu pour vos destinataires, vous devez donc respecter des consignes précises, telles que l’utilisation de polices accessibles, de formats lisibles et d’un texte secondaire pour les images.
+Cette directive stipule que toutes les communications numériques, y compris les e-mails, les bulletins d’information, les fichiers PDF et le contenu téléchargeable, doivent être accessibles. Lors de la création de contenu pour vos destinataires, vous devez donc respecter des consignes précises, telles que l’utilisation de polices accessibles, de formats lisibles et de texte alternatif pour les images.
 
 Les outils de conception de [!DNL Journey Optimizer B2B Edition] permettent aux marketeurs de créer du contenu pour les **_e-mails_** et **_landing pages_**. Utilisez ces outils pour vous conformer à cette directive, basée sur le document Web Content Accessibility Guidelines (WCAG) 2.1, niveau AA.
 
 Les sections suivantes décrivent les bonnes pratiques pour concevoir du contenu accessible avec [!DNL Journey Optimizer B2B Edition]. Ces informations se concentrent sur la conception de contenu accessible à tous vos destinataires, de sorte que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination.
  
-
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. Pour plus d’informations sur le style des composants de texte, voir [_Composants de contenu_](content-components.md#text)
@@ -52,7 +62,7 @@ Pour les polices et le texte, suivez ces instructions :
 ### Sélection de polices
 
 * Utilisez des polices sans-serif, telles qu’Arial, Verdana, Tahoma, Helvetica ou Open Sans.
-* Évitez les polices avec empattement, cursives ou décoratives dans le contenu du corps.
+* Évitez les polices avec empattement, cursives ou décoratives dans le corps du texte.
 * Utilisez un petit nombre de polices pour garantir la cohérence et disposer d’une solution de remplacement (par exemple : `font-family: Arial, Helvetica, sans-serif;`).
 
 ### Dimensionnement de police
@@ -62,7 +72,7 @@ Pour les polices et le texte, suivez ces instructions :
 
 ### Contraste des couleurs
 
-* Utilisez un rapport de contraste d’au moins 4,5:1 entre le texte et l’arrière-plan.
+* Conservez un rapport de contraste d’au moins 4.5:1 entre le texte et l’arrière-plan.
 * Pour les grands textes (≥24 px ou 18 px en gras), assurez-vous d’utiliser un contraste d’au moins 3:1.
 * Évitez le texte gris clair ou pastel sur fond blanc.
 * Ne vous reposez pas uniquement sur la couleur pour transmettre un message, mais utilisez plutôt des soulignements, des icônes, etc.
@@ -70,7 +80,7 @@ Pour les polices et le texte, suivez ces instructions :
 ### Accessibilité du texte
 
 * Évitez le texte dans les images.
-* N’utilisez pas de majuscules dans le corps du texte.
+* N’utilisez pas de texte entièrement en majuscules dans le corps du texte.
 * Assurez-vous que le texte peut être zoomé à 200 % sans interrompre la mise en page.
 
 ## Garantir l’accessibilité visuelle {#visual-accessibility}
@@ -78,7 +88,7 @@ Pour les polices et le texte, suivez ces instructions :
 Pour vous assurer que votre contenu est accessible visuellement, suivez ces bonnes pratiques :
 
 * Évitez d’utiliser des indicateurs de couleur uniquement pour les informations importantes.
-* Utilisez des libellés ou des icônes de texte pour garantir la clarté.
+* Utilisez des libellés textuels ou des icônes pour garantir la clarté.
 * Optimisez votre conception pour les mises en page mobiles et réactives en vous assurant que les boutons sont grands et suffisamment espacés.
 * Effectuez des tests réguliers sur différents appareils et tailles d’écran pour garantir l’accessibilité.
 
@@ -96,7 +106,7 @@ Les outils de conception visuelle [!DNL Journey Optimizer B2B Edition] vous perm
 >
 >Le mode en direct est une prévisualisation générique conçue pour comparer l’aspect du rendu sur différentes tailles d’appareils. Le rendu final peut varier en fonction du client de messagerie ou du navigateur web du destinataire.
 
-## Utiliser un texte secondaire pour les images {#alt-text}
+## Utilisez du texte alternatif pour les images {#alt-text}
 
 Utilisez le composant **[!UICONTROL Image]** pour fournir un texte secondaire pour les images. Pour plus d’informations sur les paramètres des composants d’image, voir [_Composants de contenu_](content-components.md#image)
 
@@ -106,7 +116,7 @@ Pour un texte secondaire efficace dans les produits numériques, suivez ces dire
 
 * Décrivez l’objectif de l’image de manière concise et contextuelle.
 * Évitez les expressions redondantes telles que « Image de ... ». et utilisez du texte de remplacement vide pour les images décoratives.
-* Pour les icônes significatives, fournissez des libellés significatifs. Pour les images complexes, utilisez un bref texte secondaire ainsi qu’une description plus détaillée ailleurs.
+* Pour les icônes porteuses de sens, fournissez des libellés explicites. Pour les images complexes, utilisez un bref texte alternatif ainsi qu’une description plus détaillée ailleurs.
 
 ## Utiliser un format lisible {#readable-format}
 
@@ -137,7 +147,7 @@ Pour vérifier l’accessibilité du contenu, vous pouvez utiliser les fonctionn
 
 * Prévisualisez votre contenu à l’aide de profils de test.
 
-* Utilisez l’option [&#x200B; Rendu d’e-mail &#x200B;](email-test-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible.
+* Utilisez l’option [ Rendu d’e-mail ](email-test-rendering.md) qui utilise Litmus pour simuler vos conceptions sur les principaux clients de messagerie (Apple Mail, Gmail, Outlook) et voir si le texte, les couleurs et les images rendent votre contenu accessible.
 
 * Envoyez des BAT pour tester le rendu de votre contenu avant de l’envoyer à votre audience réelle.
 
@@ -159,7 +169,7 @@ Pour la conception en mode sombre, utilisez des images PNG ou SVG transparentes 
 
 Pour plus d’informations sur l’utilisation du _mode sombre_ dans l’espace de conception des e-mails, voir [_Mode sombre pour le contenu des e-mails_](./email-dark-mode.md).
 
-## Utiliser des attributs spécifiques pour l’accessibilité {#attributes}
+## Utilisez des attributs spécifiques pour l’accessibilité {#attributes}
 
 Les attributs HTML aident les technologies d’assistance à interpréter la structure, le langage et les relations dans votre contenu. Les sections suivantes couvrent la langue et l’orientation du texte, les tableaux utilisés pour la mise en page et les données, ainsi que le texte du lien que les lecteurs d’écran annoncent aux utilisateurs.
 
@@ -304,27 +314,27 @@ Les lecteurs d’écran lisent :
 Pour les pages de destination, la prise en charge de la navigation au clavier et du focus permet aux personnes qui ne peuvent pas utiliser de souris d’accéder au contenu et d’interagir avec celui-ci. Elles améliorent également la convivialité globale en offrant à l’ensemble des utilisateurs et utilisatrices un moyen clair et cohérent de parcourir les informations.
 
 * Navigation au clavier et sélection
-   * Assurez-vous que tous les éléments interactifs (tels que les boutons, les cases à cocher et les liens) ont des `tabindex="0"` afin qu’ils soient inclus dans l’ordre de tabulation naturel.
-   * Autorisez la navigation à l’aide de la touche de tabulation et des touches fléchées (↑ ↓ ← →), qui doivent mettre en surbrillance de manière visible l’élément sélectionné.
+  * Assurez-vous que tous les éléments interactifs (tels que les boutons, les cases à cocher et les liens) ont des `tabindex="0"` afin qu’ils soient inclus dans l’ordre de tabulation naturel.
+  * Autorisez la navigation à l’aide de la touche de tabulation et des touches fléchées (↑ ↓ ← →), qui doivent mettre en surbrillance de manière visible l’élément sélectionné.
 * Style de focus personnalisé
-   * Appliquez des styles clairs que l’on puisse distinguer afin de mettre en évidence les éléments interactifs :
-     +++Exemple (CSS)
+  * Appliquez des styles clairs et identifiables pour la mise au point sur les éléments activables :
+    +++Exemple (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * Assurez-vous que les indicateurs de focus respectent les normes d’apparence de focus WCAG 2.2, notamment :
-      * Surface minimum : contour de 2 pixels CSS d’épaisseur.
-      * Rapport de contraste : ≥ 3 :1 entre l’état sélectionné et non sélectionné.
+  * Assurez-vous que les indicateurs de focus respectent les normes d’apparence de focus WCAG 2.2, notamment :
+    * Surface minimum : contour de 2 pixels CSS d’épaisseur.
+    * Rapport de contraste : ≥ 3.1 entre l’état sélectionné et non sélectionné.
 
 * Prise en charge de l’activation au clavier
-   * Assurez-vous que les cases à cocher et les boutons répondent aux touches Entrée et Espace.
-   * Validez l’interaction à l’aide du clavier uniquement :
-      * Touches Entrée ou Espace pour cocher/décocher les cases.
-      * Appuyez sur Entrée ou Espace pour déclencher les boutons.
+  * Assurez-vous que les cases à cocher et les boutons répondent aux touches Entrée et Espace.
+  * Validez l’interaction à l’aide du clavier uniquement :
+    * Les touches Entrée ou Espace doivent permettre de cocher et décocher les cases.
+    * Appuyez sur Entrée ou Espace pour déclencher les boutons.

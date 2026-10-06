@@ -4,35 +4,43 @@ description: Découvrez comment connecter un compte LinkedIn et activer un flux 
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
+autotag-review: 2026-03-30T22:49:08.608Z
+TQID: 'https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:49:08.608Z
-TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '1015'
 ht-degree: 14%
-
 ---
-
 # Audiences correspondantes du compte LinkedIn
 
-[!DNL Journey Optimizer B2B Edition] offre la possibilité de générer des audiences d’annonces LinkedIn par le biais d’audiences avec correspondance de compte. Il est conçu pour vous aider à remplir des rôles vides dans vos groupes d’achat. En définissant un ensemble de filtres de groupe d’achat, vous pouvez gérer une audience correspondante LinkedIn pour cibler les leads qui correspondent aux paramètres de votre groupe d’achat. Vous pouvez également activer une audience à partir d’un parcours de compte à partir d’un nœud _Prendre une action_.
+[!DNL Journey Optimizer B2B Edition] offre la possibilité de générer des audiences d’annonces LinkedIn par le biais d’audiences avec correspondance de compte. Il est conçu pour vous aider à remplir des rôles vides dans vos groupes d’achat. En définissant un ensemble de filtres de groupe d’achat, vous pouvez gérer une Matched Audience LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d’achat. Vous pouvez également activer une audience à partir d’un parcours de compte à partir d’un nœud _Prendre une action_.
 
-Cette fonctionnalité exploite les destinations Experience Platform pour gérer certains aspects de l’intégration. Il existe une limite de dix flux de données.
+Cette fonctionnalité tire parti des destinations d’Experience Platform pour gérer certains aspects de l’intégration. Il existe une limite de dix flux de données.
 
-Avant de lancer un flux de données à partir de Journey Optimizer B2B edition, vous devez disposer d’au moins une instance du connecteur de destination [(Entreprises) LinkedIn Matched Audience](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} avec un compte LinkedIn Campaign Manager configuré dans votre application Experience Platform.
+Avant de lancer un flux de données à partir de Journey Optimizer B2B Edition, vous devez disposer d’au moins une instance du connecteur de destination [(Entreprises) LinkedIn Matched Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} avec un compte LinkedIn Campaign Manager configuré dans votre application Experience Platform.
 
 ## Configurer une nouvelle connexion à un compte LinkedIn {#linkedin-destination-setup}
 
@@ -69,7 +77,7 @@ Avant de lancer un flux de données à partir de Journey Optimizer B2B edition, 
 
 ## Mettre à jour les détails du compte
 
-Le nom et la description du compte LinkedIn sont visibles pour les groupes d’achats dans Journey Optimizer B2B edition. Il est recommandé de mettre à jour ces informations afin qu’elles soient facilement identifiables pour vos spécialistes marketing travaillant avec des groupes d’achats. Vous pouvez modifier les détails du compte dans l’interface utilisateur d’Experience Platform ou de Journey Optimizer B2B edition.
+Le nom et la description du compte LinkedIn sont visibles pour les groupes d’achats dans Journey Optimizer B2B Edition. Il est recommandé de mettre à jour ces informations afin qu’elles soient facilement identifiables pour vos spécialistes marketing travaillant avec des groupes d’achats. Vous pouvez modifier les détails du compte dans l’interface utilisateur Experience Platform ou Journey Optimizer B2B Edition.
 
 1. Accédez à **[!UICONTROL Connexions]** > **[!UICONTROL Destinations]** dans le volet de navigation de gauche, puis sélectionnez l’onglet **[!UICONTROL Comptes]**.
 
@@ -87,7 +95,7 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 >[!NOTE]
 >
->Si vous disposez déjà de dix flux de données, vous ne pouvez pas en créer d’autres. Si vous avez atteint le maximum, supprimez-en un dans Experience Platform avant d’en créer un nouveau dans Journey Optimizer B2B edition.
+>Si vous disposez déjà de dix flux de données, vous ne pouvez pas en créer d’autres. Si vous avez atteint le maximum, supprimez-en un dans Experience Platform avant d’en créer un nouveau dans Journey Optimizer B2B Edition.
 
 1. Dans Journey Optimizer B2B Edition, accédez à **[!UICONTROL Comptes]** > **[!UICONTROL Groupes d’achat]** dans le volet de navigation de gauche.
 
@@ -163,4 +171,4 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 Vous pouvez interagir avec les membres du compte par le biais d’un canal de média payant, tel que les audiences d’annonces LinkedIn, afin de les acquérir, de les entretenir et de les qualifier pour les ventes. Utilisez un nœud _Agir_ dans un parcours de compte pour automatiser l’engagement avec les membres importants d’un compte par le biais d’un canal externe adapté aux différents membres du compte.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448674/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

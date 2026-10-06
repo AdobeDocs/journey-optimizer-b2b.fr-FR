@@ -1,31 +1,37 @@
 ---
 title: Outils de Collaboration des e-mails
-description: Collaborez sur des emails dans Journey Optimizer B2B edition. Ajoutez des commentaires, invitez des réviseurs et résolvez les commentaires et rationalisez les workflows de révision pour les équipes.
+description: Collaborez sur des emails dans Journey Optimizer B2B Edition. Ajoutez des commentaires, invitez des réviseurs et résolvez les commentaires et rationalisez les workflows de révision pour les équipes.
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+autotag-review: 2026-03-30T22:09:19.178Z
+TQID: 'https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:09:19.178Z
-TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 4%
-
 ---
-
 # Outils de collaboration par e-mail
 
-L’[espace de conception d’e-mail](./email-authoring.md) comprend des outils de collaboration pour la formulation de commentaires et la résolution afin que les équipes marketing puissent examiner, discuter et finaliser en toute transparence les ressources d’e-mail directement dans [!DNL Journey Optimizer B2B Edition]. Au lieu de partager des brouillons sur des outils externes (tels que le chat, les threads d’e-mail ou les feuilles de calcul), les utilisateurs et utilisatrices peuvent commenter, suggérer des modifications et résoudre les commentaires dans l’espace de conception d’e-mail. Utilisez ces outils pour rationaliser votre workflow, réduire les erreurs et vous assurer que les parties prenantes sont alignées avant de lancer votre campagne par e-mail dans un parcours de compte :
+L’[espace de conception d’e-mail](./email-authoring.md) comprend des outils de collaboration pour la formulation de commentaires et la résolution afin que les équipes marketing puissent examiner, discuter et finaliser en toute transparence les ressources d’e-mail directement dans [!DNL Journey Optimizer B2B Edition]. Au lieu de partager des brouillons au moyen d’outils externes (comme la conversation, les fils de discussion par e-mail ou les feuilles de calcul), les utilisateurs peuvent ajouter des commentaires, suggérer des modifications et traiter le feedback directement dans l’espace de conception des e-mails. Utilisez ces outils pour rationaliser votre workflow, réduire les erreurs et vous assurer que les parties prenantes sont alignées avant de lancer votre campagne par e-mail dans un parcours de compte :
 
 * **_Retour d’informations centralisé_** - Collectez et suivez tous les retours en un seul endroit.
 
@@ -55,7 +61,7 @@ Les administrateurs de produit peuvent autoriser l’accès aux outils de collab
 
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les autorisations.
 
-1. Ajoutez la ressource Assets B2B **, puis sélectionnez**&#x200B;[!UICONTROL &#x200B; Gérer les e-mails B2B &#x200B;]&#x200B;**.**
+1. Ajoutez la ressource Assets B2B ]**, puis sélectionnez**[!UICONTROL  Gérer les e-mails B2B ]**.**[!UICONTROL 
 
    ![Gérer les paramètres d’autorisation des e-mails B2B dans l’interface utilisateur des autorisations Adobe Experience Platform](./assets/emails-aep-permissions.png){width="700" zoomable="yes"}
 
@@ -67,7 +73,7 @@ Les administrateurs de produit peuvent autoriser l’accès aux outils de collab
 
    * Saisissez le nom d’utilisateur et l’adresse e-mail, ou choisissez un utilisateur existant dans la liste.
 
-     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Si l’utilisateur n’est pas encore créé, consultez la documentation d’[](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 

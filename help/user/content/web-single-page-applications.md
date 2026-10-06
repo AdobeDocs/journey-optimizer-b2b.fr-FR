@@ -5,6 +5,8 @@ feature: Channels, Personalization
 role: User
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
+autotag-review: 2026-03-30T22:02:23.111Z
+TQID: 'https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -13,6 +15,11 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,9 +35,7 @@ topic_v2:
     internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-autotag-review: 2026-03-30T22:02:23.111Z
-TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 2%
@@ -133,7 +138,7 @@ Les expériences web Journey Optimizer B2B Edition fonctionnent avec les framewo
 | Framework | Considérations |
 | --------- | -------------- |
 | **React** | Les modifications s’appliquent une fois que React a rendu les composants dans le DOM. Utilisez des noms de classe ou des attributs de données pour le ciblage. |
-| **&#x200B;**&#x200B;| Éléments cibles après l’exécution de la détection des modifications d’Angular. Évitez de cibler les éléments avec des `*ngIf` avant leur rendu. |
+| **** | Éléments cibles après l’exécution de la détection des modifications d’Angular. Évitez de cibler les éléments avec des `*ngIf` avant leur rendu. |
 | **Vue.js** | Attendez la `nextTick` de Vue pour vous assurer que les éléments sont dans le DOM. Utilisez des références ou des attributs personnalisés pour un ciblage stable. |
 | **Next.js / Nuxt.js** | Pour les pages SSR/SSG, assurez-vous que l’hydratation de Web SDK est terminée avant d’attendre des modifications. |
 

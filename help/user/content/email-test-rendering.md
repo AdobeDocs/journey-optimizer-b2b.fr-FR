@@ -1,38 +1,45 @@
 ---
 title: Tester le rendu des e-mails
-description: Testez le rendu des e-mails sur les clients de bureau, mobiles et web avec l’intégration Litmus pour garantir la compatibilité des boîtes de réception dans Journey Optimizer B2B edition.
+description: Testez le rendu des e-mails sur les clients de bureau, mobiles et web avec l’intégration Litmus pour garantir la compatibilité des boîtes de réception dans Journey Optimizer B2B Edition.
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
+autotag-review: 2026-03-30T22:28:13.343Z
+TQID: 'https://experienceleague.adobe.com/G9c2TdbEje4HgE82tKURAn-UYz5wB-9iLsT9805m1JI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:28:13.343Z
-TQID: https://experienceleague.adobe.com/G9c2TdbEje4HgE82tKURAn-UYz5wB-9iLsT9805m1JI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: '376'
 ht-degree: 5%
-
 ---
-
 # Tester le rendu des e-mails avec Litmus
 
-Pour tester vos e-mails, vous pouvez utiliser un compte [Litmus](https://www.litmus.com/email-testing){target="_blank"} Enterprise de Journey Optimizer B2B edition. Grâce à cette intégration, vous pouvez prévisualiser votre rendu d’e-mail dans les clients de messagerie les plus courants. Cet outil vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception.
+Pour tester vos e-mails, vous pouvez utiliser un compte [Litmus](https://www.litmus.com/email-testing){target="_blank"} Enterprise de Journey Optimizer B2B Edition. Grâce à cette intégration, vous pouvez prévisualiser votre rendu d’e-mail dans les clients de messagerie les plus courants. Cet outil vous permet de vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne comme prévu dans chaque boîte de réception.
 
 >[!AVAILABILITY]
 >
->Cette intégration est uniquement disponible pour les utilisateurs de Journey Optimizer B2B edition disposant de comptes Litmus Enterprise. Pour plus d&#39;informations, consultez la page [solution sur le site web de Litmus](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
+>Cette intégration n’est disponible que pour les utilisateurs de Journey Optimizer B2B Edition disposant de comptes Litmus Enterprise. Pour plus d&#39;informations, consultez la page [solution sur le site web de Litmus](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
 
 1. Une fois votre conception d’e-mail terminée et prête à être testée, cliquez sur **[!UICONTROL Simuler du contenu]** dans l’espace de conception d’e-mail.
 
@@ -40,7 +47,7 @@ Pour tester vos e-mails, vous pouvez utiliser un compte [Litmus](https://www.lit
 
    ![Bouton Rendu d’e-mail](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
 
-   Si vous ne vous êtes pas encore connecté à votre compte Litmus à partir de Journey Optimizer B2B edition, la page affichée propose une option pour démarrer un compte d’évaluation ou vous connecter à votre compte existant.
+   Si vous ne vous êtes pas encore connecté à votre compte Litmus à partir de Journey Optimizer B2B Edition, la page affichée propose une option permettant de démarrer un compte d’évaluation ou de vous connecter à votre compte existant.
 
 1. Cliquez sur **[!UICONTROL Connecter votre compte Litmus]** en haut à droite, ou utilisez le lien à l’intérieur de la page.
 
@@ -48,11 +55,11 @@ Pour tester vos e-mails, vous pouvez utiliser un compte [Litmus](https://www.lit
 
 1. Saisissez les identifiants de votre compte Litmus et cliquez sur **[!UICONTROL Se connecter]**.
 
-1. Cliquez sur **[!UICONTROL Connexion]** pour confirmer la connexion entre Litmus et Journey Optimizer B2B edition et envoyer le contenu de l’e-mail pour le rendu.
+1. Cliquez sur **[!UICONTROL Connexion]** pour confirmer la connexion entre Litmus et Journey Optimizer B2B Edition et envoyer le contenu de l’e-mail pour le rendu.
 
    >[!IMPORTANT]
    >
-   >Lorsque vous connectez votre compte Litmus à Journey Optimizer B2B edition, vous acceptez que les messages de test soient envoyés à Litmus. Ce contenu est ensuite géré dans Litmus et non dans Adobe. Par conséquent, la politique e-mail de rétention des données de Litmus s&#39;applique à ces e-mails, y compris les données de personnalisation qui peuvent être incluses dans les messages de test.
+   >Lorsque vous connectez votre compte Litmus à Journey Optimizer B2B Edition, vous acceptez que les messages de test soient envoyés à Litmus. Ce contenu est ensuite géré dans Litmus et non dans Adobe. Par conséquent, la politique e-mail de rétention des données de Litmus s&#39;applique à ces e-mails, y compris les données de personnalisation qui peuvent être incluses dans les messages de test.
 
 1. Cliquez sur **[!UICONTROL Exécuter le test]** en haut à droite pour générer des aperçus d’e-mail.
 

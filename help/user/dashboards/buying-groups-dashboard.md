@@ -1,29 +1,35 @@
 ---
 title: Tableau de bord de présentation des groupes d'achat
-description: Suivez la progression du groupe d’achats avec les scores d’achèvement, les mesures d’engagement et des analyses de l’intérêt de la solution pour permettre la remise des ventes dans Journey Optimizer B2B edition.
+description: Suivez la progression du groupe d’achats avec les scores d’achèvement, les mesures d’engagement et des analyses de l’intérêt de la solution pour permettre la remise des ventes dans Journey Optimizer B2B Edition.
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
+autotag-review: 2026-03-30T22:45:21.856Z
+TQID: 'https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T22:45:21.856Z
-TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 594
+source-wordcount: '594'
 ht-degree: 3%
-
 ---
-
 # Tableau de bord de présentation des groupes d&#39;achat
 
 Le tableau de bord Aperçu pour les groupes d’achats est conçu pour le processus de remise des ventes B2B. Il permet à l’équipe marketing de partager les groupes d’achats _prêts_ et leurs membres, ainsi que les données essentielles, à l’équipe commerciale pour exécution. Ce processus simplifie la transition du marketing aux ventes.

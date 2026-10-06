@@ -1,36 +1,42 @@
 ---
 title: E-mails
-description: 'Gérez votre bibliothèque d’e-mails avec des actions de recherche, de filtrage et en masse : modifiez le contenu, les paramètres et testez les e-mails en dehors des parcours dans Journey Optimizer B2B edition.'
+description: 'Gérez votre bibliothèque d’e-mails avec des actions de recherche, de filtrage et en masse : modifiez le contenu, les paramètres et testez les e-mails en dehors des parcours dans Journey Optimizer B2B Edition.'
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
+autotag-review: 2026-03-30T22:28:57.542Z
+TQID: 'https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-autotag-review: 2026-03-30T22:28:57.542Z
-TQID: https://experienceleague.adobe.com/mx0dF-BCApRTQ4KnMr-KnXHq27tWZa2oh-l9qFRLqlI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Email marketing
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # E-mails
 
 Lorsque vous [créez des e-mails](./add-email.md), vous les ajoutez dans le cadre d’un nœud de parcours. Lorsque vous souhaitez utiliser le contenu d’un e-mail en dehors de la carte de parcours, utilisez la liste _[!UICONTROL E-mails]_ pour localiser et mettre à jour l’e-mail. Vous pouvez consulter les e-mails ou apporter des mises à jour aux paramètres et au contenu.
 
 ## Accéder aux e-mails et les gérer
 
-Pour accéder aux e-mails dans Adobe Journey Optimizer B2B edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL E-mails]**. Cette action ouvre une page de liste contenant tous les e-mails créés pour l’instance répertoriée dans un tableau.
+Pour accéder aux e-mails dans Adobe Journey Optimizer B2B Edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL E-mails]**. Cette action ouvre une page de liste contenant tous les e-mails créés pour l’instance répertoriée dans un tableau.
 
 Le tableau est trié par défaut en fonction de la colonne _[!UICONTROL Modifié]_, les e-mails les plus récemment mis à jour étant affichés en haut. Cliquez sur le titre de la colonne pour passer d’un ordre croissant à un ordre décroissant.
 
@@ -40,7 +46,7 @@ Pour rechercher un e-mail par nom, saisissez une chaîne de texte dans la barre 
 
 ## Ouvrir et modifier des e-mails
 
-Cliquez sur le nom de l’e-mail dans la liste pour l’ouvrir. Vous pouvez vérifier et modifier les [&#x200B; paramètres d’e-mail &#x200B;](./add-email.md#define-the-email-settings). Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** pour effectuer [mises à jour du contenu](./email-authoring.md).
+Cliquez sur le nom de l’e-mail dans la liste pour l’ouvrir. Vous pouvez vérifier et modifier les [ paramètres d’e-mail ](./add-email.md#define-the-email-settings). Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** pour effectuer [mises à jour du contenu](./email-authoring.md).
 
 Si des [alertes sont affichées](./add-email.md#check-alerts) en haut à droite de la page, cliquez sur pour passer en revue les avertissements ou les erreurs et traiter les éléments selon les besoins.
 

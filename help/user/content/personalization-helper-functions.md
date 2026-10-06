@@ -1,6 +1,6 @@
 ---
 title: Fonctions d’assistance
-description: Guide de référence des fonctions d’assistance à la personnalisation dans Journey Optimizer B2B edition. Elle comprend une syntaxe et des exemples pour les chaînes, les dates, les mathématiques, etc.
+description: Guide de référence des fonctions d’assistance à la personnalisation dans Journey Optimizer B2B Edition. Elle comprend une syntaxe et des exemples pour les chaînes, les dates, les mathématiques, etc.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,26 +11,35 @@ autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 4937
-ht-degree: 47%
-
+source-wordcount: '4937'
+ht-degree: 49%
 ---
-
 # Fonctions d’assistance
 
 Utilisez les fonctions d’assistance de l’éditeur de personnalisation pour définir des expériences de contenu personnalisées avec précision et efficacité en manipulant les données, en effectuant des calculs et en formatant le contenu. Explorez et testez ces fonctions, opérateurs et assistants pour découvrir comment ils fonctionnent ensemble pour vous aider à créer des parcours sur mesure et pilotés par les données.
@@ -39,7 +48,7 @@ Utilisez les fonctions d’assistance de l’éditeur de personnalisation pour d
 
 Utilisez des fonctions d’agrégation pour regrouper plusieurs valeurs afin de former une seule valeur de synthèse. Vous pouvez également utiliser des fonctions de tableau et de liste pour définir plus facilement des interactions avec des tableaux, des listes et des chaînes.
 
-### moyenne {#average}
+### average {#average}
 
 Utilisez la fonction `average` pour renvoyer la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.
 
@@ -327,7 +336,7 @@ Renvoie 3.
 
 +++
 
-### tête {#head}
+### head {#head}
 
 Utilisez la fonction `head` pour renvoyer le premier élément dans un tableau ou une liste.
 
@@ -393,7 +402,7 @@ L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en 
 
 +++
 
-### inclut {#includes}
+### includes {#includes}
 
 Utilisez la fonction `includes` pour déterminer si un tableau ou une liste contient un élément donné.
 
@@ -413,7 +422,7 @@ L’opération suivante définit les personnes ayant le rouge parmi leurs couleu
 
 +++
 
-### intersectes {#intersects}
+### intersects {#intersects}
 
 La fonction `intersects` permet de déterminer si deux tableaux ou deux listes ont au moins un membre commun.
 
@@ -524,7 +533,7 @@ L&#39;opération suivante définit les personnes qui ont visité toutes leurs vi
 
 +++
 
-### sur-ensemble de {#superset}
+### supersetOf {#superset}
 
 Utilisez la fonction `supersetOf` pour déterminer si un tableau spécifique (tableau A) est un sur-ensemble d&#39;un autre tableau (tableau B). En d&#39;autres termes, elle permet de déterminer si le tableau A contient tous les éléments du tableau B.
 
@@ -684,7 +693,7 @@ La fonction `ageInDays` calcule le nombre de jours écoulés entre la date donn�
 
 **Exemple**
 
-currentDate = 2025-01-:17:10.720122+05:30 (Asie/Calcutta)
+currentDate = 2025-01-07T12:17:10.720122+05:30 (Asia/Kolkata)
 
 * Entrée : `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * Sortie : `5`
@@ -703,7 +712,7 @@ La fonction `ageInMonths` calcule le nombre de mois écoulés entre la date donn
 
 **Exemple**
 
-currentDate = 2025-01-:22:46.993748+05:30(Asie/Calcutta)
+currentDate = 2025-01-07T12:22:46.993748+05:30(Asia/Kolkata)
 
 * Entrée : `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Sortie : `12`
@@ -991,9 +1000,9 @@ Lorsque la première chaîne correspond à l’attribut date, la deuxième valeu
 >
 > Si un modèle de date n’est pas valide, la date revient au format ISO standard.
 >
-> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [&#128279;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation [&#128279;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation [](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Exemple**
 
@@ -1795,7 +1804,7 @@ L’opération suivante récupère toutes les valeurs du `identityMap` de mappag
 
 Découvrez comment utiliser des fonctions mathématiques dans l’éditeur de personnalisation.
 
-### absolu {#absolute}
+### absolute {#absolute}
 
 Utilisez la fonction `absolute` pour convertir un nombre en valeur absolue.
 
@@ -1819,7 +1828,7 @@ Elle accepte un nombre et une chaîne représentant les paramètres régionaux e
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation d’[&#128279;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la documentation d’[](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemple**
 
@@ -2091,7 +2100,7 @@ Utilisez la fonction `contains` pour déterminer si une chaîne contient une sou
 
 +++
 
-### neContientPas {#doesNotContain}
+### doesNotContain {#doesNotContain}
 
 Utilisez la fonction `doesNotContain` pour déterminer si une chaîne ne contient pas une sous-chaîne spécifiée.
 
@@ -2117,7 +2126,7 @@ La requête suivante détermine si l’adresse e-mail de la personne ne contient
 
 +++
 
-### doNotEndWith {#doesNotEndWith}
+### doesNotEndWith {#doesNotEndWith}
 
 Utilisez la fonction `doesNotEndWith` pour déterminer si une chaîne ne se termine pas par une sous-chaîne spécifiée.
 
@@ -2143,7 +2152,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 +++
 
-### doNotStartWith {#doesNotStartWith}
+### doesNotStartWith {#doesNotStartWith}
 
 Utilisez la fonction `doesNotStartWith` pour déterminer si une chaîne ne commence pas par une sous-chaîne spécifiée.
 
@@ -2181,7 +2190,7 @@ Utilisez la fonction `encode64` pour coder une chaîne afin de conserver les inf
 
 +++
 
-### se termine par {#endsWith}
+### endsWith {#endsWith}
 
 Utilisez la fonction `endsWith` pour déterminer si une chaîne se termine par une sous-chaîne spécifiée.
 
@@ -2479,7 +2488,7 @@ La fonction suivante renvoie la longueur du nom de ville du profil.
 
 +++
 
-### J&#39;aime {#like}
+### like {#like}
 
 Utilisez la fonction `like` pour déterminer si une chaîne correspond à un modèle donné.
 
@@ -2544,7 +2553,7 @@ La requête suivante détermine si le nom de la personne commence par `John` san
 
 +++
 
-### masque {#mask}
+### mask {#mask}
 
 Utilisez la fonction `mask` pour remplacer une partie d’une chaîne par des caractères « X ».
 

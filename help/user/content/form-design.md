@@ -1,6 +1,6 @@
 ---
 title: Conception de formulaire
-description: Concevez des formulaires avec des types de champs, une validation, un style et des attributs de schéma XDM pour la collecte de données métier dans Journey Optimizer B2B edition.
+description: Concevez des formulaires avec des types de champs, une validation, un style et des attributs de schéma XDM pour la collecte de données métier dans Journey Optimizer B2B Edition.
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,32 +8,42 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 2%
-
 ---
-
 # Conception de formulaire
 
 Après avoir [créé un formulaire](./forms.md#create-forms), l’espace de conception visuelle ouvre un brouillon avec une définition de formulaire de base par défaut. Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur **[!UICONTROL Modifier le formulaire]** et utilisez l’espace de conception visuelle pour définir le style du formulaire et les composants de champ.
 
 ![Espace de conception de formulaire](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Le bouton _&#x200B;**Envoyer**&#x200B;_ (champ de pied de page) fait partie du formulaire par défaut et ne peut pas être supprimé. Vous pouvez sélectionner le composant de bouton/pied de page dans le formulaire pour [modifier le texte et le style du bouton](#submit-button).
+Le bouton _**Envoyer**_ (champ de pied de page) fait partie du formulaire par défaut et ne peut pas être supprimé. Vous pouvez sélectionner le composant de bouton/pied de page dans le formulaire pour [modifier le texte et le style du bouton](#submit-button).
 
 ## Champs
 
@@ -75,7 +85,7 @@ Les champs de formulaire sont utilisés pour capturer des données de profil de 
    | ---------- | ----- |
    | **[!UICONTROL Case à cocher]** | Utilisez ce type afin que les visiteurs puissent sélectionner une valeur _true_ (cochée) ou _false_ (non cochée). |
    | **[!UICONTROL Groupe de cases à cocher]** | Utilisez ce type afin que les visiteurs puissent sélectionner une valeur _true_ (cochée) ou _false_ (non cochée) pour plusieurs éléments. |
-   | **[!UICONTROL Devise]** | Utilisez ce type pour autoriser un champ flottant qui représente le type de devise par défaut sélectionné pour l’instance Journey Optimizer B2B edition. |
+   | **[!UICONTROL Devise]** | Utilisez ce type pour autoriser un champ flottant qui représente le type de devise par défaut sélectionné pour l’instance Journey Optimizer B2B Edition. |
    | **[!UICONTROL Date]** | Utilisez ce type pour restreindre la saisie à un format de date et fournir un sélecteur de calendrier dans le champ. |
    | **[!UICONTROL Double]** | Variable double (virgule flottante double précision) stockée sous forme de nombres à virgule flottante IEEE 64 bits (8 octets). |
    | **[!UICONTROL E-mail]** | Utilisez ce type pour restreindre la saisie à un format d’adresse électronique. |

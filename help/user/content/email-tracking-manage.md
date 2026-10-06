@@ -19,9 +19,13 @@ feature_v2:
     internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
     internal-label: Email channel
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +34,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -59,7 +65,7 @@ Utilisez cette option pour qu’un e-mail spécifique ne signale jamais l’acti
 
    ![Désactiver le suivi des ouvertures d’e-mail](./assets/email-tracking-disable-all.png){width="500" zoomable="yes"}
 
-   Pour obtenir la liste complète des propriétés d’e-mail[&#128279;](./add-email.md#define-the-email-settings) voir  Définir les paramètres d’e-mail .
+   Pour obtenir la liste complète des propriétés d’e-mail](./add-email.md#define-the-email-settings) voir [ Définir les paramètres d’e-mail .
 
 ## Segmenter les personnes en fonction des préférences de tracking {#segment-people-tracking-preference}
 
@@ -97,7 +103,7 @@ Le workflow comporte trois parties :
 
 ### Ajouter un chemin de partage pour le suivi des désinscriptions {#add-split-path-tracking}
 
-Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ &#x200B;](../journeys/split-merge-paths-nodes.md#split-paths-by-people) et définissez un chemin pour chaque valeur de préférence de suivi.
+Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ ](../journeys/split-merge-paths-nodes.md#split-paths-by-people) et définissez un chemin pour chaque valeur de préférence de suivi.
 
 1. Ajoutez un nœud **[!UICONTROL Chemins partagés]** et choisissez **[!UICONTROL Personnes]** pour le partage.
 
@@ -113,7 +119,7 @@ Ajoutez à votre parcours un nœud [_Partage des chemins par personnes_ &#x200B;
 
 ### Configuration des variantes d’e-mail de tracking et de non-tracking {#configure-tracking-and-non-tracking-email-variants}
 
-Ajoutez un nœud d’action [_[!UICONTROL Envoyer un e-mail &#x200B;]_](./add-email.md) à chaque chemin d’accès afin que chaque personne reçoive la variante d’e-mail correspondant à sa préférence de suivi.
+Ajoutez un nœud d’action [_[!UICONTROL Envoyer un e-mail ]_](./add-email.md) à chaque chemin d’accès afin que chaque personne reçoive la variante d’e-mail correspondant à sa préférence de suivi.
 
 1. Sur le chemin activé pour le suivi, ajoutez une action **[!UICONTROL Envoyer un e-mail]** et sélectionnez ou créez l’e-mail comme d’habitude, en laissant **[!UICONTROL Désactiver le suivi des ouvertures]** effacé dans les propriétés d’e-mail.
 

@@ -1,28 +1,35 @@
 ---
 title: Mode HTML avancé pour la conception de modèles d’e-mail
-description: Utilisez le mode HTML avancé pour afficher et modifier directement la source HTML brute du contenu de votre modèle d’e-mail dans l’espace de conception d’e-mail de Journey Optimizer B2B edition.
+description: Utilisez le mode HTML avancé pour afficher et modifier directement la source HTML brute du contenu de votre modèle d’e-mail dans l’espace de conception d’e-mail de Journey Optimizer B2B Edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+    internal-label: Experienced
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 0%
-
+source-wordcount: '583'
+ht-degree: 1%
 ---
-
 # Mode HTML avancé pour la conception de modèles d’e-mail
 
 Le _mode HTML avancé_ fournit une vue qui permet aux utilisateurs expérimentés d’afficher et de modifier directement le code source brut du contenu du modèle d’e-mail. Ce mode est idéal lorsque vous souhaitez insérer des expressions sophistiquées, telles que la logique conditionnelle, directement dans la source. Il est également utile pour effectuer des ajustements structurels qui vont au-delà de ce que les outils de conception visuelle exposent.

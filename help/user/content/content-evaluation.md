@@ -1,34 +1,40 @@
 ---
 title: Évaluation et notation de contenu
-description: Évaluez le contenu des e-mails avec le score d’alignement de la marque - validez les couleurs, les polices, les logos et le style d’écriture par rapport aux directives de la marque dans Journey Optimizer B2B edition.
+description: Évaluez le contenu des e-mails avec le score d’alignement de la marque - validez les couleurs, les polices, les logos et le style d’écriture par rapport aux directives de la marque dans Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 16%
-
 ---
-
 # Évaluation et notation de contenu {#content-scoring}
 
 L’évaluation et la notation du contenu vous permettent de créer, de réviser et de gérer du contenu qui respecte les directives [définies dans la marque sélectionnée](./brands-manage-create.md#brand-definitions) et les normes de qualité générales. L’exécution d’une évaluation garantit la cohérence du ton, du message et de l’identité visuelle de vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
 
 >[!AVAILABILITY]
 >
->Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités optimisées par l’IA dans Adobe Journey Optimizer B2B edition. Pour en savoir plus, contactez votre représentant Adobe.
+>Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités basées sur l’IA dans Adobe Journey Optimizer B2B Edition. Pour en savoir plus, contactez votre représentant Adobe.
 >
 >Consultez [Autorisations liées aux marques](./brands-overview.md#brand-related-permissions) pour plus d’informations sur la manière dont les administrateurs et administratrices de produit peuvent activer ces fonctionnalités.
 
@@ -36,7 +42,7 @@ L’évaluation et la notation du contenu vous permettent de créer, de réviser
 
 1. Après avoir créé le contenu de l’e-mail, cliquez sur l’icône _Alignement des marques_ ( ![Icône d’alignement des marques](../assets/do-not-localize/icon-brand-compliance.svg) ) à droite pour ouvrir le panneau de droite _Alignement des marques_ dans l’espace de conception d’e-mail.
 
-   La [&#x200B; marque par défaut &#x200B;](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
+   La [ marque par défaut ](./brands-manage-create.md#default-brand) est automatiquement sélectionnée.
 
    ![Accéder aux outils d’alignement des marques](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
@@ -119,7 +125,7 @@ Outre l’alignement de la marque, vous pouvez évaluer la qualité générale d
 
 Faites défiler jusqu’à la section **[!UICONTROL Qualité du contenu]** pour consulter les informations sur la qualité et les recommandations.
 
-![&#x200B; Évaluation de la qualité du contenu &#x200B;](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
+![ Évaluation de la qualité du contenu ](./assets/content-scoring-quality-insights.png){width="600" zoomable="yes"}
 
 Sélectionnez un élément avec indicateur pour afficher des commentaires spécifiques et des suggestions d’amélioration exploitables. Les scores sont basés sur les catégories suivantes :
 

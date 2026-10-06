@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1634
+source-wordcount: '1657'
 ht-degree: 6%
-
 ---
-
 # Composants de structure {#structure-components}
 
 >[!CONTEXTUALHELP]
@@ -53,14 +59,14 @@ Dans la partie supérieure de la bibliothèque _[!UICONTROL Composants]_, la sec
 
 | Icône | Composant | Description |
 | ----- | ----------- | ----------- |
-| ![1:1 icône de colonne](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 colonne] | Conteneur à une seule colonne qui remplit la largeur de l’espace. |
-| ![1:2 icône de colonne](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 colonne gauche] | Conteneur à deux colonnes qui utilise un rapport de 1:2 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe un tiers de la largeur et la seconde (à droite) occupe les deux tiers restants. |
-| ![1:3 icône de colonne](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 colonne gauche] | Conteneur à deux colonnes qui utilise un rapport de 1:3 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe un quart de la largeur et la seconde (à droite) occupe les trois quarts restants. |
-| ![2:1 icône de colonne](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 colonne droite] | Conteneur à deux colonnes qui utilise un rapport de 2:1 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe les deux tiers de la largeur et la seconde (à droite) occupe le tiers restant. |
-| ![2:2 icône de colonne](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 colonne] | Conteneur à deux colonnes qui utilise un rapport de 2:2 pour remplir la largeur de l’espace. Les colonnes de gauche et de droite ont la même largeur. |
-| ![3:1 icône de colonne](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 colonne droite] | Conteneur à deux colonnes qui utilise un rapport de 3:1 pour remplir la largeur de l’espace. La première colonne (gauche) occupe les trois quarts (75 %) de la largeur et la seconde (droite) occupe le quart restant (25 %). |
-| ![3:3 icône de colonne](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 colonne] | Conteneur à trois colonnes qui utilise un rapport de 3:3 pour remplir la largeur de l’espace. Les trois colonnes ont la même largeur. |
-| ![4:4 icône de colonne](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 colonne] | Conteneur à quatre colonnes qui utilise un rapport de 4:4 pour remplir la largeur de l’espace. Les quatre colonnes ont la même largeur. |
+| ![icône de colonne 1:1](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | Colonne [!UICONTROL 1:1] | Conteneur à une seule colonne qui remplit la largeur de l’espace. |
+| ![icône de colonne 1:2](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 colonne gauche] | Conteneur à deux colonnes qui utilise un rapport de 1:2 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe un tiers de la largeur et la seconde (à droite) occupe les deux tiers restants. |
+| ![icône de colonne 1:3](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 colonne gauche] | Conteneur à deux colonnes qui utilise un rapport de 1:3 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe un quart de la largeur et la seconde (à droite) occupe les trois quarts restants. |
+| ![icône de colonne 2:1](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | Colonne [!UICONTROL 2:1 droite] | Conteneur à deux colonnes qui utilise un rapport de 2:1 pour remplir la largeur de l’espace. La première colonne (à gauche) occupe les deux tiers de la largeur et la seconde (à droite) occupe le tiers restant. |
+| ![icône de colonne 2:2](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | Colonne [!UICONTROL 2:2] | Conteneur à deux colonnes qui utilise un rapport de 2:2 pour remplir la largeur de l’espace. Les colonnes de gauche et de droite ont la même largeur. |
+| ![icône de colonne 3:1](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 colonne droite] | Conteneur à deux colonnes qui utilise un rapport de 3:1 pour remplir la largeur de l’espace. La première colonne (gauche) occupe les trois quarts (75 %) de la largeur et la seconde (droite) occupe le quart restant (25 %). |
+| Icône de colonne ![3:3](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | Colonne [!UICONTROL 3:3] | Conteneur à trois colonnes qui utilise un rapport de 3:3 pour remplir la largeur de l’espace. Les trois colonnes ont la même largeur. |
+| ![icône de colonne 4:4](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | Colonne [!UICONTROL 4:4] | Conteneur à quatre colonnes qui utilise un rapport de 4:4 pour remplir la largeur de l’espace. Les quatre colonnes ont la même largeur. |
 | ![n:n icône de colonne](../../user/assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n colonne] | Structure de colonnes personnalisable qui remplit l’espace en fonction des colonnes que vous définissez. Vous définissez le nombre de colonnes (entre deux et dix) et définissez la largeur de chaque colonne individuellement. [En savoir plus](#change-nn-columns) |
 
 ## Ajouter des composants de structure {#add-structure-components}
@@ -119,7 +125,7 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
+#### [!UICONTROL  Couleur d’arrière-plan ]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 
@@ -133,13 +139,13 @@ Déplacez le sélecteur pour activer les paramètres de l’image d’arrière-p
 
 Cliquez sur **[!UICONTROL Sélectionner une ressource]** pour ouvrir le sélecteur de ressources, où vous pouvez choisir une image dans la [bibliothèque Assets](./digital-asset-management.md#assets-authoring).
 
-Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [&#128279;](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
+Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
 
 ![Aperçu du positionnement de l’image d’arrière-plan sur un composant de structure](../../user/content/assets/structure-component-styles-background-image.png){width="250"}
 
 ### Autres styles {#other-styles}
 
-Vous pouvez appliquer d’autres styles de composant de structure pour ajuster son affichage dans l’e-mail ou la page de destination. Pour définir un style qui va au-delà de ces options intégrées, consultez la section [&#x200B; Ajouter un CSS personnalisé pour votre contenu &#x200B;](./design-custom-css.md).
+Vous pouvez appliquer d’autres styles de composant de structure pour ajuster son affichage dans l’e-mail ou la page de destination. Pour définir un style qui va au-delà de ces options intégrées, consultez la section [ Ajouter un CSS personnalisé pour votre contenu ](./design-custom-css.md).
 
 +++Bord
 

@@ -1,44 +1,54 @@
 ---
 title: Configuration des référentiels de ressources Experience Manager
-description: Connectez les référentiels Experience Manager Assets à Journey Optimizer B2B edition pour un accès transparent aux ressources numériques dans la création de contenu.
+description: Connectez les référentiels Experience Manager Assets à Journey Optimizer B2B Edition pour un accès transparent aux ressources numériques dans la création de contenu.
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
+autotag-review: 2026-03-27T23:16:47.648Z
+TQID: 'https://experienceleague.adobe.com/SCUDOEQRJb1cx-zj1oC2Qac4tPyZZg2l130MO5ds-DQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T23:16:47.648Z
-TQID: https://experienceleague.adobe.com/SCUDOEQRJb1cx-zj1oC2Qac4tPyZZg2l130MO5ds-DQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 750
-ht-degree: 1%
-
+source-wordcount: '750'
+ht-degree: 4%
 ---
-
 # Configuration des référentiels de ressources Experience Manager
 
 [!DNL Adobe Journey Optimizer B2B Edition] s’intègre à [!DNL Adobe Experience Manager Assets as a Cloud Service], ce qui permet d’utiliser des ressources dans le contenu de votre e-mail. Elle assure la transparence en échangeant des informations avec les [!DNL Experience Manager Assets]. Configurez la connexion à [!DNL Adobe Experience Assets] pour activer cette fonctionnalité.
 
-Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([&#x200B; En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
+Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque programme comporte plusieurs environnements et référentiels ([ En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Lorsque vous configurez Adobe Experience Manager Assets dans Adobe Journey Optimizer B2B Edition, vous configurez des connexions à chaque référentiel que vous souhaitez utiliser pour accéder aux ressources numériques.
 
 {{aem-assets-licensing-note}}
 
 ## Conditions préalables
 
-* Générez les informations d’identification de service pour l’environnement souhaité sur le Developer Console découplé AEM ([En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Générez les informations d’identification de service pour l’environnement souhaité sur le Developer Console découplé AEM ([En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Procurez-vous les certificats nécessaires à la connexion. Il est recommandé de s’assurer que les certificats ont au moins six mois restants avant leur expiration. Les certificats expirent tous les 365 jours.
-* Adobe Journey Optimizer B2B edition prend en charge l’accès à une source de gestion des ressources numériques à la fois. Assurez-vous que les ressources requises sont disponibles dans Adobe Experience Manager avant de basculer.
+* Adobe Journey Optimizer B2B Edition prend en charge l’accès à une source de gestion des ressources numériques à la fois. Assurez-vous que les ressources requises sont disponibles dans Adobe Experience Manager avant de basculer.
 
 >[!IMPORTANT]
 >
@@ -48,7 +58,7 @@ Adobe Experience Manager Cloud Manager est organisé en programmes, et chaque pr
 
 1. Dans le volet de navigation de gauche, choisissez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]**.
 
-1. Cliquez sur **&#x200B;**&#x200B;dans le panneau intermédiaire.
+1. Cliquez sur **** dans le panneau intermédiaire.
 
    ![Accéder à l’espace de configuration Assets](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
@@ -83,7 +93,7 @@ Une fois la configuration des référentiels terminée, les membres de l’équi
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B edition prend en charge l’accès à une source de gestion des ressources numériques à la fois lors de la création de contenu. 
+>Adobe Journey Optimizer B2B Edition prend en charge l’accès à une source de gestion des ressources numériques à la fois lors de la création de contenu. 
 
 ## Remplacer un certificat
 
@@ -127,7 +137,7 @@ Vous pouvez afficher le fichier JSON de certificat associé à la connexion au r
 
 ## Supprimer une connexion au référentiel
 
-La suppression d’un référentiel supprime l’accès des utilisateurs et utilisatrices à l’environnement Experience Manager Assets dans Journey Optimizer B2B edition.
+La suppression d’un référentiel supprime l’accès des utilisateurs et utilisatrices à l’environnement Experience Manager Assets dans Journey Optimizer B2B Edition.
 
 1. Sur la page _[!UICONTROL Gestion des ressources numériques]_, recherchez la liste des référentiels de ressources configurés.
 

@@ -1,35 +1,43 @@
 ---
-title: Accéder aux pages de détails dans CRM
+title: Accès aux pages de détail dans la GRC
 description: Ajoutez des liens personnalisés pour les détails du compte et des contacts afin d’activer l’accès direct aux informations B2B de Journey Optimizer à partir de Salesforce et de Dynamics CRM.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+autotag-review: 2026-03-27T22:24:19.286Z
+TQID: 'https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: addf009e-030a-4310-8534-776a3e62ed48
-autotag-review: 2026-03-27T22:24:19.286Z
-TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer lifecycle
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1470'
 ht-degree: 2%
-
 ---
-
 # Accéder aux pages de détails dans CRM
 
-Adobe Journey Optimizer B2B edition permet aux membres de l’équipe des ventes et de l’équipe des comptes d’accéder à des pages détaillées pour les informations sur le compte et le groupe d’achats directement à partir de leur outil de gestion de la relation client (CRM), tel que Salesforce ou Microsoft Dynamics. Grâce à cette intégration, les commerciaux peuvent rapidement accéder aux informations en temps réel sur le compte et le groupe d’achats, telles que l’historique de l’engagement, les signaux d’intention et les recommandations générées par l’IA. Cette fonctionnalité permet à l’équipe commerciale d’atteindre plus rapidement les clients, de hiérarchiser plus intelligemment les priorités et de mieux s’aligner sur le marketing.
+Adobe Journey Optimizer B2B Edition permet aux membres de l’équipe des ventes et de l’équipe des comptes d’accéder aux pages détaillées pour les informations sur le compte et le groupe d’achats directement à partir de leur outil de gestion de la relation client (GRC), tel que Salesforce ou Microsoft Dynamics. Grâce à cette intégration, les commerciaux peuvent rapidement accéder aux informations en temps réel sur le compte et le groupe d’achats, telles que l’historique de l’engagement, les signaux d’intention et les recommandations générées par l’IA. Cette fonctionnalité permet à l’équipe commerciale d’atteindre plus rapidement les clients, de hiérarchiser plus intelligemment les priorités et de mieux s’aligner sur le marketing.
 
-Pour permettre aux membres de l’équipe des ventes et du compte d’afficher les pages [détails du compte](account-details.md) et [détails de la personne](person-details.md) dans Journey Optimizer B2B edition à partir du CRM, l’administrateur Salesforce ou Dynamics peut ajouter un lien à partir de la vue du compte, du contact ou du prospect.
+Pour permettre aux membres de l’équipe des ventes et du compte d’afficher les pages [détails du compte](account-details.md) et [détails de la personne](person-details.md) dans Journey Optimizer B2B Edition à partir du CRM, l’administrateur de Salesforce ou de Dynamics peut ajouter un lien à partir de la vue du compte, du contact ou du prospect.
 
 Lorsqu’un membre de l’équipe commerciale utilise le lien de l’instance CRM, le sandbox doit être _Prod_ et l’organisation IMS est déterminée selon la logique ordonnée suivante :
 
@@ -39,7 +47,7 @@ Lorsqu’un membre de l’équipe commerciale utilise le lien de l’instance CR
 
 ## Liens Salesforce
 
-Un administrateur Salesforce disposant de l’autorisation _Personnaliser l’application_ peut configurer le lien dans la disposition Compte, Contact ou Prospect. Les liens configurés permettent aux utilisateurs du service commercial d’accéder aux détails du compte ou de la personne correspondants dans Adobe Journey Optimizer B2B edition.
+Un administrateur Salesforce disposant de l’autorisation _Personnaliser l’application_ peut configurer le lien dans la disposition Compte, Contact ou Prospect. Les liens configurés permettent aux utilisateurs du service commercial d’accéder à la page des détails du compte ou de la personne correspondante dans Adobe Journey Optimizer B2B Edition.
 
 Dans Salesforce, ajoutez le lien personnalisé sous la forme d’un bouton, d’un lien hypertexte ou d’une icône liée et personnalisez-le en fonction des préférences de votre équipe.
 
@@ -47,7 +55,7 @@ Dans Salesforce, ajoutez le lien personnalisé sous la forme d’un bouton, d’
 
 Pour plus d’informations sur l’ajout d’un lien personnalisé dans Salesforce, reportez-vous à la section [Définir des boutons et des liens personnalisés](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5) dans la documentation de Salesforce.
 
-Lorsque vous définissez l’URL cible du lien, vous pouvez utiliser la mise en page du compte, du contact ou du prospect et la lier à la page de détails correspondante dans Journey Optimizer B2B edition :
+Lorsque vous définissez l’URL cible du lien, vous pouvez utiliser la mise en page du compte, du contact ou du prospect et la lier à la page de détails correspondante dans Journey Optimizer B2B Edition :
 
 * **Compte** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[18-character ID of account]`
 
@@ -130,7 +138,7 @@ Utilisez l’objet `Account` pour récupérer l’ID de 18 caractères du compte
 
 ## Liens Microsoft Dynamics
 
-Un développeur ou une développeuse Dynamics peut étendre l’entité Compte, Contact ou Lead pour ajouter un champ de lien. Les liens configurés permettent aux utilisateurs du service commercial d’accéder aux détails du compte ou de la personne correspondants dans Adobe Journey Optimizer B2B edition.
+Un développeur ou une développeuse Dynamics peut étendre l’entité Compte, Contact ou Lead pour ajouter un champ de lien. Les liens configurés permettent aux utilisateurs du service commercial d’accéder à la page des détails du compte ou de la personne correspondante dans Adobe Journey Optimizer B2B Edition.
 
 Ajoutez le lien personnalisé sous la forme d’un bouton, d’un lien hypertexte ou d’un lien d’icône lié et personnalisez-le en fonction des préférences de votre équipe.
 
@@ -138,7 +146,7 @@ Ajoutez le lien personnalisé sous la forme d’un bouton, d’un lien hypertext
 
 Utilisez les applications Power pour personnaliser les applications Microsoft pilotées par des modèles, telles que les composants Dynamics. Pour plus d’informations sur l’utilisation de Power Apps pour ajouter un lien personnalisé dans Dynamics, consultez la [documentation de PowerApps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources).
 
-Lorsque vous définissez l’URL cible du lien, vous pouvez utiliser la vue Compte, Contact ou Prospect et la lier à la page de détails correspondante dans Journey Optimizer B2B edition :
+Lorsque vous définissez l’URL cible du lien, vous pouvez utiliser la vue Compte, Contact ou Prospect et la lier à la page de détails correspondante dans Journey Optimizer B2B Edition :
 
 * **Compte** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[Account ID]`
 
@@ -195,7 +203,7 @@ Suivez cette séquence de tâches pour ajouter le lien personnalisé sous la for
 1. Dans l’onglet _Solution_, sélectionnez **[!UICONTROL Entités]** > **[!UICONTROL Compte]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]** > **[!UICONTROL Forms]** > **[!UICONTROL Account]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]**.
 1. Faites glisser le nouveau champ que vous avez créé lors de la première tâche depuis **[!UICONTROL Explorateur de champs]** vers la section **[!UICONTROL Résumé]**.
 
-   ![Ajoutez le champ Lien URL à la section Résumé &#x200B;](./assets/crm-linking-dynamics-url-field-forms.png){width="800" zoomable="yes"}
+   ![Ajoutez le champ Lien URL à la section Résumé ](./assets/crm-linking-dynamics-url-field-forms.png){width="800" zoomable="yes"}
 
 1. Double-cliquez sur le champ dans la section _Résumé_ et configurez ses propriétés.
 

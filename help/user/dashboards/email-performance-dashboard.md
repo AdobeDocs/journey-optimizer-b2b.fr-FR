@@ -1,40 +1,47 @@
 ---
 title: Rapport des performances des e-mails
-description: Utilisez le rapport Performance des e-mails dans Journey Optimizer B2B edition pour surveiller les mesures d’envoi, de diffusion, d’engagement et de désinscription des e-mails sur tous les parcours dans une vue unifiée.
+description: Utilisez le rapport Performances des e-mails dans Journey Optimizer B2B Edition pour surveiller les mesures d’envoi, de diffusion, d’engagement et de désinscription des e-mails sur tous les parcours dans une vue unifiée.
 feature: Dashboards, Reporting
 role: User
 autotag-review: '2026-05-21T15:04:51.176Z'
 TQID: 'https://experienceleague.adobe.com/hA63o9-2-atw0kRNFeEu6H449WmZ59CjL3uiVS7nEcA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: '833'
 ht-degree: 5%
-
 ---
-
 # Rapport Performances des emails
 
-Le rapport **Performances des e-mails** offre aux marketeurs une vue unifiée de l&#39;activité des e-mails sur tous les parcours dans Adobe Journey Optimizer B2B edition. Il agrège les mesures d’envoi, de diffusion, d’engagement et de désinscription. En faisant apparaître le nombre brut et les taux calculés, vous pouvez surveiller l’intégrité de la campagne, comparer les performances des e-mails et identifier en un coup d’œil les problèmes de délivrabilité ou d’engagement. Pour les mesures au niveau du parcours sur les canaux e-mail et SMS, reportez-vous au tableau de bord [Parcours de compte](./journeys-dashboard.md).
+Le rapport **Performances des emails** offre aux marketeurs une vue unifiée de l&#39;activité des emails sur tous les parcours dans Adobe Journey Optimizer B2B Edition. Il agrège les mesures d’envoi, de diffusion, d’engagement et de désinscription. En faisant apparaître le nombre brut et les taux calculés, vous pouvez surveiller l’intégrité de la campagne, comparer les performances des e-mails et identifier en un coup d’œil les problèmes de délivrabilité ou d’engagement. Pour les mesures au niveau du parcours sur les canaux e-mail et SMS, reportez-vous au tableau de bord [Parcours de compte](./journeys-dashboard.md).
 
 ## Accès au rapport
 
 1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Tableau de bord]**.
 1. Sélectionnez l’onglet **[!UICONTROL Performances des e-mails]** en haut du tableau de bord de création de rapports.
 
-![&#x200B; Rapport sur les performances des e-mails &#x200B;](./assets/email-performance-dashboard.png){width="800" zoomable="yes"}
+![ Rapport sur les performances des e-mails ](./assets/email-performance-dashboard.png){width="800" zoomable="yes"}
 
 ## Filtrer les données
 

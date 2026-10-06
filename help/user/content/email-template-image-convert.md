@@ -1,27 +1,32 @@
 ---
 title: Convertir une image en modèle d’e-mail
-description: Transformez les fichiers image en modèles d’e-mail HTML avec Journey Optimizer B2B edition. Chargez des fichiers PNG/JPEG et générez automatiquement du contenu d’e-mail réutilisable.
+description: Transformez les fichiers image en modèles d’e-mail HTML avec Journey Optimizer B2B Edition. Chargez des fichiers PNG/JPEG et générez automatiquement du contenu d’e-mail réutilisable.
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+autotag-review: 2026-03-30T22:06:11.745Z
+TQID: 'https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:06:11.745Z
-TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # Convertir une image en modèle d’e-mail
 
 La création et la mise à jour de modèles d’e-mail sont des composants fondamentaux dans votre supply chain de contenu marketing, mais ces tâches nécessitent souvent du temps et des ressources importants en raison du codage manuel d’HTML. Les équipes marketing s’appuient généralement sur les agences ou les équipes informatiques pour développer ces modèles. Le nouvel outil image en HTML pour les modèles d’e-mail simplifie ce processus en permettant aux spécialistes marketing de convertir les fichiers de conception en modèles de code HTML. L’HTML convertie est prête à être modifiée davantage dans l’espace de conception d’e-mail. Cet outil prend en charge les types de fichiers JPEG et PNG et propose une interface glisser-déposer.
@@ -32,7 +37,7 @@ Vous pouvez facilement convertir des fichiers de conception enregistrés en tant
 
 **Utilisation d’un thème de marque**
 
-Si votre organisation dispose de [thèmes de marque](./brand-themes.md) définis dans Journey Optimizer B2B edition, vous pouvez sélectionner un thème de marque comme entrée afin que la sortie générée HTML soit mise en forme en fonction des paramètres de thème de marque. Avec cette entrée, les styles tels que la couleur d’arrière-plan, la couleur du bouton, les polices, l’espacement des lignes, les marges, la marge intérieure sont appliqués au modèle généré.  L’utilisation d’un thème de marque permet d’éliminer le travail de conception supplémentaire pour le style et la mise en forme et de produire un modèle prêt à l’emploi avec un minimum de modifications.
+Si votre organisation dispose de [thèmes de marque](./brand-themes.md) définis dans Journey Optimizer B2B Edition, vous pouvez sélectionner un thème de marque comme entrée afin que la sortie générée dans HTML soit mise en forme en fonction des paramètres de thème de marque. Avec cette entrée, les styles tels que la couleur d’arrière-plan, la couleur du bouton, les polices, l’espacement des lignes, les marges, la marge intérieure sont appliqués au modèle généré.  L’utilisation d’un thème de marque permet d’éliminer le travail de conception supplémentaire pour le style et la mise en forme et de produire un modèle prêt à l’emploi avec un minimum de modifications.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +60,7 @@ Si votre organisation dispose de [thèmes de marque](./brand-themes.md) définis
 
 1. Assurez-vous que le fichier image ne contient aucune information d’identification personnelle ou donnée personnelle et cochez la case en bas de la boîte de dialogue pour confirmer.
 
-   Pour consulter les instructions, cliquez sur le lien **[!UICONTROL Instructions d’utilisation relatives à l’IA générative pour]**.
+   Pour consulter les instructions, cliquez sur le lien **[!UICONTROL Instructions d’utilisation relatives à l’IA générative Adobe Experience Cloud]**.
 
    ![Complétez les paramètres pour convertir un fichier image en modèle d’e-mail](./assets/email-template-convert-image-dialog.png){width="400" zoomable="yes"}
 

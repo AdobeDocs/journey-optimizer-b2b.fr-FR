@@ -1,29 +1,36 @@
 ---
 title: Scores d'engagement pour les groupes d'achat
-description: Calculez les scores d’engagement du groupe d’achats et de la personne à l’aide des activités pondérées, des calculs basés sur les rôles et des fenêtres de notation sur 30 jours dans Journey Optimizer B2B edition.
+description: Calculez les scores d’engagement du groupe d’achats et de la personne à l’aide des activités pondérées, des calculs basés sur les rôles et des fenêtres de notation sur 30 jours dans Journey Optimizer B2B Edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+autotag-review: 2026-03-30T21:43:47.624Z
+TQID: 'https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T21:43:47.624Z
-TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: '1229'
 ht-degree: 29%
-
 ---
-
 # Scores d’engagement {#engagement-scores}
 
 >[!CONTEXTUALHELP]
@@ -31,25 +38,25 @@ ht-degree: 29%
 >title="Score d’engagement"
 >abstract="Les scores d’engagement déterminent le niveau d’engagement des membres du groupe d’achat."
 
-Un score d’engagement est un nombre qui indique le niveau d’engagement des membres d’un groupe d’achat. Ces scores sont basés sur les activités des membres du groupe d&#39;achat, les actions pondérées et les rôles pondérés. Les scores obtenus sont normalisés au sein d’un client (instance) afin de permettre une comparaison cohérente et de disposer d’informations exploitables. Le calcul de la note débute dès la création du groupe d&#39;achat. Le système de hub de données Journey Optimizer B2B edition calcule les scores quotidiennement et les charge dans le système MySQL de marketing multiniveau (MLM) à l’aide du service d’ingestion.
+Un score d’engagement est un nombre qui indique le niveau d’engagement des membres d’un groupe d’achat. Ces scores sont basés sur les activités des membres du groupe d&#39;achat, les actions pondérées et les rôles pondérés. Les scores obtenus sont normalisés au sein d’un client (instance) afin de permettre une comparaison cohérente et de disposer d’informations exploitables. Le calcul de la note débute dès la création du groupe d&#39;achat. Le système de hub de données Journey Optimizer B2B Edition calcule les scores quotidiennement et les charge dans le système MySQL de marketing multiniveau (MLM) à l’aide du service d’ingestion.
 
 Il existe deux types de scores d’engagement :
 
 * **Score d’engagement du groupe d’achat** - Le score d’engagement du groupe d’achat est un score normalisé compris entre 0 et 100 et est basé sur le score d’engagement calculé au niveau de la personne.
 
-  Le score de l&#39;engagement du groupe d&#39;achats est affiché sur la page [&#x200B; Détails du groupe d&#39;achats &#x200B;](./buying-group-details.md). Vous pouvez également afficher les groupes d&#39;achats les plus engagés dans le tableau de bord Intelligent.
+  Le score de l&#39;engagement du groupe d&#39;achats est affiché sur la page [ Détails du groupe d&#39;achats ](./buying-group-details.md). Vous pouvez également afficher les groupes d&#39;achats les plus engagés dans le tableau de bord Intelligent.
 
   ![Groupes d&#39;achats les plus engagés](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
 
 * **Score d’engagement de la personne** - Le score d’engagement de la personne est basé sur les activités d’un membre individuel du groupe d’achats.
 
-  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres &#x200B;]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
+  Le score d&#39;engagement de la personne pour chaque membre du groupe d&#39;achats est affiché dans la page des détails du groupe d&#39;achats [_[!UICONTROL onglet Membres ]_](./buying-group-details.md#buying-group-members). Ces scores sont également affichés dans les pages et les tableaux de bord qui incluent les membres les plus engagés et les informations de contacts qui se chevauchent.
 
   ![Membres du groupe d&#39;achat les plus engagés](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Le score d’engagement de la personne est un attribut disponible à utiliser pour le filtrage dans les [modèles de rôles](./buying-groups-role-templates.md#add-the-template-roles) et les [nœuds de chemin fractionné par parcours &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters).
+Le score d’engagement de la personne est un attribut disponible à utiliser pour le filtrage dans les [modèles de rôles](./buying-groups-role-templates.md#add-the-template-roles) et les [nœuds de chemin fractionné par parcours ](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Accéder aux définitions d’événement configurées](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 

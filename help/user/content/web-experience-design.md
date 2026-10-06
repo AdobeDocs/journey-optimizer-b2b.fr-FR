@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
     internal-label: Communication channels
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
     internal-label: Web channel
@@ -32,7 +36,7 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 7%
@@ -49,7 +53,7 @@ Avant de pouvoir concevoir des expériences web, assurez-vous que les exigences 
 
 * Un administrateur de produit a configuré un ou plusieurs canaux web pour définir les URL (pages) à inclure pour une expérience web. Pour plus d’informations, voir [Configurations du canal web](../admin/configure-channels-web.md).
 
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Adobe Experience Platform Web SDK version 2.16 ou ultérieure est requis.
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Adobe Experience Platform Web SDK version 2.16 ou ultérieure est requis.
 
 * Vous disposez des [autorisations](../admin/user-management.md#b2b-product-permissions) nécessaires pour créer et gérer des expériences web dans un parcours :
   * _[!UICONTROL Créer Des Expériences Web B2B]_
@@ -70,8 +74,8 @@ Journey Optimizer B2B Edition fournit deux types d’éditeurs pour concevoir de
 
 | Éditeur | Description | Idéal pour |
 | ------ | ----------- | -------- |
-| [éditeur visuel](#visual-editor) | Un éditeur WYSIWYG (_What You See Is What You Get_) qui affiche votre site web et vous permet de sélectionner et de modifier directement des éléments. Elle nécessite l’extension [&#x200B; Visual Editing Helper &#x200B;](./web-experiences.md#install-the-visual-editing-helper-extension) dans le navigateur web Google Chrome ou Microsoft Edge. | Apporter des modifications visuelles aux éléments de page visibles, tels que le texte, les images, les boutons et les bannières. |
-| [&#x200B; Éditeur non visuel &#x200B;](#non-visual-editor) | Éditeur basé sur le code pour appliquer des modifications qui ne peuvent pas être apportées via l’éditeur visuel. | Ciblage des éléments difficiles à sélectionner visuellement, application de modifications CSS avancées ou modification d’éléments masqués. |
+| [éditeur visuel](#visual-editor) | Un éditeur WYSIWYG (_What You See Is What You Get_) qui affiche votre site web et vous permet de sélectionner et de modifier directement des éléments. Elle nécessite l’extension [ Visual Editing Helper ](./web-experiences.md#install-the-visual-editing-helper-extension) dans le navigateur web Google Chrome ou Microsoft Edge. | Apporter des modifications visuelles aux éléments de page visibles, tels que le texte, les images, les boutons et les bannières. |
+| [ Éditeur non visuel ](#non-visual-editor) | Éditeur basé sur le code pour appliquer des modifications qui ne peuvent pas être apportées via l’éditeur visuel. | Ciblage des éléments difficiles à sélectionner visuellement, application de modifications CSS avancées ou modification d’éléments masqués. |
 
 Dans les propriétés de l’expérience web, utilisez l’option **[!UICONTROL Éditeur visuel]** pour déterminer le type d’éditeur. Activez l’option pour utiliser l’éditeur visuel ou désactivez-la pour utiliser l’éditeur non visuel.
 
@@ -193,7 +197,7 @@ Pour plus d’informations sur les options de style de texte des composants de t
 Lorsque vous sélectionnez l’icône **+** dans le volet de navigation de gauche Conception de l’éditeur visuel, vous pouvez ajouter les types de composants suivants à la page en tant que modification de l’expérience web :
 
 * **[!UICONTROL Diviseur]** - Utilisez ce composant pour insérer une ligne de séparation afin d’organiser la disposition et le contenu de votre e-mail. Vous pouvez ajuster les attributs de style, tels que la couleur, le style et la hauteur des lignes à partir des propriétés du panneau de droite. Voir [Diviseur](./content-components.md#divider) dans _Composants de contenu_ pour plus d’informations.
-* **&#x200B;**&#x200B;- Utilisez ce composant pour copier-coller le code HTML dans la structure existante. Il permet de créer des composants modulaires HTML gratuits pour réutiliser du contenu externe. Voir [&#128279;](./content-components.md#html) dans _Composants de contenu_ pour plus d’informations.
+* **** - Utilisez ce composant pour copier-coller le code HTML dans la structure existante. Il permet de créer des composants modulaires HTML gratuits pour réutiliser du contenu externe. Voir [](./content-components.md#html) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL Image]** - Utilisez ce composant pour insérer un fichier image dans la page. Vous pouvez ajuster les attributs de style, tels que la largeur et la hauteur, à partir des propriétés du panneau de droite. Voir [Image](./content-components.md#image) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL En-tête]** - Utilisez ce composant pour insérer du texte de classe d’en-tête. Vous pouvez ajuster les attributs de style, tels que la couleur, le style, la police et la taille du texte, à partir des propriétés du panneau de droite. Voir [Texte](./content-components.md#text) dans _Composants de contenu_ pour plus d’informations.
 * **[!UICONTROL Paragraphe]** - Utilisez ce composant pour insérer un élément de texte standard. Vous pouvez ajuster les attributs de style, tels que la couleur, le style, la police et la taille du texte, à partir des propriétés du panneau de droite. Voir [Texte](./content-components.md#text) dans _Composants de contenu_ pour plus d’informations.
@@ -228,8 +232,8 @@ Utilisez l’éditeur non visuel lorsque vous devez apporter des modifications q
 
      | Type | Description |
      | ---- | ----------- |
-     | [**[!UICONTROL &#x200B; Sélecteur CSS &#x200B;]**](#css-selector-modifications) | Ciblez des éléments à l’aide d’une chaîne de sélecteur CSS. |
-     | [**[!UICONTROL &#x200B; Page &#x200B;]**](#page-modifications) | Insérez des HTML, CSS ou JavaScript personnalisés dans des éléments de niveau page, tels que `<head>` ou `<body>`. |
+     | [**[!UICONTROL  Sélecteur CSS ]**](#css-selector-modifications) | Ciblez des éléments à l’aide d’une chaîne de sélecteur CSS. |
+     | [**[!UICONTROL  Page ]**](#page-modifications) | Insérez des HTML, CSS ou JavaScript personnalisés dans des éléments de niveau page, tels que `<head>` ou `<body>`. |
 
    * Configurez les paramètres de modification en fonction du type :
 
@@ -355,7 +359,7 @@ Suivez les interactions des utilisateurs avec les éléments pour mesurer l’en
 
 Lorsque votre expérience web est activée (en direct), vous pouvez également créer des rapports à l’aide d’Adobe Customer Journey Analytics (qui nécessite un abonnement au produit). Pour améliorer le suivi de l’expérience web, vous pouvez également suivre les clics sur n’importe quel élément spécifique de votre site web. Le tracking permet d’afficher le nombre de clics effectués sur cet élément dans les rapports web.
 
-Pour plus d’informations sur Customer Journey Analytics et la création de rapports web, consultez la documentation de Customer Journey Analytics [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing).
+Pour plus d’informations sur Customer Journey Analytics et la création de rapports web, consultez la documentation de Customer Journey Analytics [](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing).
 
 1. Sélectionnez un élément dans l’éditeur d’expérience web, tel qu’une image ou un lien.
 

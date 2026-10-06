@@ -1,6 +1,6 @@
 ---
 title: Formulaires
-description: 'Créez et gérez des formulaires réutilisables pour la collecte de données métier : concevez des champs, définissez des pages de remerciement, publiez et suivez l’utilisation dans Journey Optimizer B2B edition.'
+description: 'Créez et gérez des formulaires réutilisables pour la collecte de données métier : concevez des champs, définissez des pages de remerciement, publiez et suivez l’utilisation dans Journey Optimizer B2B Edition.'
 feature: Forms, Content
 role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2504
+source-wordcount: '2504'
 ht-degree: 2%
-
 ---
-
 # Formulaires
 
 Pour capturer des informations auprès des visiteurs et visiteuses de pages web, créez des formulaires et ajoutez-les à vos pages de destination. Un formulaire est un ensemble de champs que les visiteurs de la page remplissent et envoient pour obtenir un type de contenu ou d’offre, tel qu’un article technique, un webinaire à la demande ou une version d’essai gratuite.
@@ -35,7 +41,7 @@ La quantité d’informations que le formulaire doit capturer dépend de la vale
 >
 >Avant que les équipes marketing puissent créer et utiliser des formulaires pour capturer des informations, un administrateur doit définir un ou plusieurs paramètres prédéfinis de formulaire. Pour plus d’informations, voir [_Configurations_](../admin/configure-channels-forms.md).
 >
->La création d’un formulaire dans Journey Optimizer B2B edition nécessite les [autorisations](../admin/user-management.md#b2b-product-permissions) suivantes :
+>La création d’un formulaire dans Journey Optimizer B2B Edition nécessite les [autorisations](../admin/user-management.md#b2b-product-permissions) suivantes :
 >
 >* _[!UICONTROL Bibliothèque]_ > _[!UICONTROL Lire le Forms B2C]_ - Obligatoire pour accéder et afficher les formulaires.
 >* _[!UICONTROL Bibliothèque Journey Optimizer]_ > _[!UICONTROL Gérer le Forms B2C]_ - Requis pour créer, mettre à jour et supprimer des formulaires.
@@ -43,7 +49,7 @@ La quantité d’informations que le formulaire doit capturer dépend de la vale
 
 ## Accéder aux formulaires et les gérer {#view-forms}
 
-Pour accéder aux formulaires dans Journey Optimizer B2B edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Forms]**. Cette action ouvre une page de liste qui affiche tous les formulaires créés dans l’instance.
+Pour accéder aux formulaires dans Journey Optimizer B2B Edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Forms]**. Cette action ouvre une page de liste qui affiche tous les formulaires créés dans l’instance.
 
 ![Accéder à la bibliothèque de formulaires](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -59,7 +65,7 @@ Le statut du formulaire détermine sa disponibilité pour une utilisation dans u
 | Publié | Lorsque vous publiez un formulaire, il peut être utilisé dans une page de destination ou un modèle de page de destination. Le contenu du formulaire publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou la page de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un formulaire publié, la version publiée reste disponible pour être utilisée dans une page de destination ou un modèle. Le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les pages de destination ou les modèles de page de destination où il est utilisé. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou les pages de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 
-![&#x200B; Cycle de vie du statut du formulaire &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![ Cycle de vie du statut du formulaire ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### Filtrer la liste des formulaires {#filter-list}
 
@@ -77,7 +83,7 @@ Dans la boîte de dialogue, sélectionnez les colonnes à afficher et cliquez su
 
 ## Création de formulaires {#create-forms}
 
-Avant de commencer à créer des formulaires réutilisables dans Journey Optimizer B2B edition, tenez compte des points suivants :
+Avant de commencer à créer des formulaires réutilisables dans Journey Optimizer B2B Edition, tenez compte des points suivants :
 
 * Déterminez les formulaires dont vous avez besoin.
 
@@ -105,7 +111,7 @@ Avant de commencer à créer des formulaires réutilisables dans Journey Optimiz
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Créer un paramètre prédéfini de formulaire"
 
-Vous pouvez créer un formulaire dans Journey Optimizer B2B edition en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
+Vous pouvez créer un formulaire dans Journey Optimizer B2B Edition en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un formulaire]_, saisissez un **[!UICONTROL Nom]** utile (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
@@ -119,7 +125,7 @@ Vous pouvez créer un formulaire dans Journey Optimizer B2B edition en cliquant 
 
    * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
 
-   ![&#x200B; Boîte de dialogue Créer un formulaire &#x200B;](./assets/forms-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un formulaire ](./assets/forms-create-dialog.png){width="400"}
 
 1. Pour **[!UICONTROL Paramètre prédéfini]**, cliquez sur l’icône _Sélectionner les données_ ( ![Icône Sélectionner les données](../assets/do-not-localize/icon-select-data.svg) ) pour lier un paramètre prédéfini de formulaire configuré au formulaire.
 
@@ -149,7 +155,7 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran ju
 
 * **[!UICONTROL Rester sur la page]** - Sélectionnez cette option pour que le visiteur reste sur la même page lors de l’envoi du formulaire.
 
-* **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination de Journey Optimizer B2B edition comme suivi.
+* **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination Journey Optimizer B2B Edition comme suite.
 
 * **[!UICONTROL URL externe]** - Sélectionnez cette option pour spécifier n’importe quelle URL comme page de suivi. Une fois que le visiteur a envoyé le formulaire, le navigateur charge l’URL désignée.
 
@@ -161,7 +167,7 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran ju
 
 Lorsque vous êtes prêt à rendre le formulaire disponible pour une utilisation dans une page de destination ou un modèle de page de destination, cliquez sur **[!UICONTROL Publier]**.
 
-![&#x200B; Boîte de dialogue Publier le formulaire &#x200B;](./assets/form-publish-dialog.png){width="400"}
+![ Boîte de dialogue Publier le formulaire ](./assets/form-publish-dialog.png){width="400"}
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus de publication en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Publier]** pour confirmer.
 
@@ -181,7 +187,7 @@ Quittez la vue à tout moment en cliquant sur la flèche _Précédent_ en haut �
 
 ## Afficher les références du formulaire utilisé par
 
-Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur l’onglet **[!UICONTROL Utilisé par]** pour afficher les détails de l’emplacement où le formulaire est actuellement utilisé dans Journey Optimizer B2B edition, sur les pages de destination et les modèles de page de destination.
+Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur l’onglet **[!UICONTROL Utilisé par]** pour afficher les détails sur l’emplacement où le formulaire est actuellement utilisé dans Journey Optimizer B2B Edition, sur les pages de destination et les modèles de page de destination.
 
 >[!IMPORTANT]
 >
@@ -202,7 +208,7 @@ Vous pouvez supprimer un formulaire à l’aide de l’une des méthodes suivant
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
-![&#x200B; Boîte de dialogue Supprimer le formulaire &#x200B;](./assets/form-delete-dialog.png){width="400"}
+![ Boîte de dialogue Supprimer le formulaire ](./assets/form-delete-dialog.png){width="400"}
 
 Si le formulaire est en cours d’utilisation, l’action ouvre une boîte de dialogue d’information qui vous avertit qu’il ne peut pas être supprimé. Cliquez sur **[!UICONTROL OK]** pour annuler la suppression.
 

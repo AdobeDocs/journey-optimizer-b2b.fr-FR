@@ -1,6 +1,6 @@
 ---
 title: Syntaxe de personnalisation
-description: Découvrez la syntaxe de personnalisation basée sur les barres de contrôle dans Journey Optimizer B2B edition, y compris les expressions, les assistants, les types littéraux et les règles de mise en forme.
+description: Découvrez la syntaxe de personnalisation basée sur les barres de contrôle dans Journey Optimizer B2B Edition, y compris les expressions, les assistants, les types littéraux et les règles de mise en forme.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,27 +11,34 @@ autotag-review: '2026-05-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 49%
-
 ---
-
 # Syntaxe de personnalisation {#personalization-syntax}
 
-Les expressions dans l’[!DNL Journey Optimizer B2B Edition] [éditeur de personnalisation](./personalization.md#personalization-editor) sont basées sur la syntaxe de modèle _Handlebars_. Cette syntaxe utilise un modèle et un objet d&#39;entrée pour générer du code HTML ou d&#39;autres formats de texte. Les modèles Handlebars ressemblent à du texte normal avec des expressions Handlebars incorporées.
+Les expressions dans l’[!DNL Journey Optimizer B2B Edition] [éditeur de personnalisation](./personalization.md#personalization-editor) sont basées sur la syntaxe de modèle _Handlebars_. Cette syntaxe utilise un modèle et un objet d&#39;entrée pour générer du code HTML ou d&#39;autres formats de texte. Les modèles Handlebars ressemblent à du texte ordinaire avec des expressions Handlebars intégrées.
 
 Pour plus d’informations sur Handlebars et son fonctionnement, reportez-vous à la [documentation HandlebarsJS](https://handlebarsjs.com/){target="_blank"}.
 
@@ -50,7 +57,7 @@ Où :
 
   >[!NOTE]
   >
-  >La structure des attributs est définie dans un schéma XDM Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
+  >La structure des attributs est définie dans un schéma XDM Adobe Experience Platform [](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Les identifiants peuvent être n’importe quel caractère Unicode, à l’exception des caractères suivants :
 
@@ -58,7 +65,7 @@ Où :
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
   ```
 
-* La syntaxe est sensible à la casse.
+* La syntaxe respecte la casse.
 
 * Les mots **true**, **false**, **null** et **undefined** ne sont autorisés que dans la première partie d&#39;une expression de chemin.
 
@@ -103,7 +110,7 @@ Pour plus d’informations sur ces fonctions, voir [Fonctions d’assistance](./
 | Chaîne | Un type de données composé de caractères entourés par des guillemets doubles. <br>Exemples : `"prospect"`, `"jobs"`, `"articles"` |
 | Booléen | Un type de données qui est soit vrai soit faux. |
 | Nombre entier | Un type de données représentant un nombre entier. Ce nombre peut être positif, négatif ou nul. <br>Exemples : `-201`, `0`, `412` |
-| Tableau | Un type de données composé d’un groupe d’autres valeurs littérales. Elle utilise des crochets pour regrouper et des virgules pour délimiter les différentes valeurs. <br> **Remarque :** vous ne pouvez pas accéder directement aux propriétés des éléments d’un tableau. <br> Exemples : `[1, 4, 7]`, `["US", "FR"]` |
+| Tableau | Un type de données composé d’un groupe d’autres valeurs littérales. Elle utilise des crochets pour regrouper et des virgules pour délimiter les différentes valeurs. <br> **Remarque :** vous ne pouvez pas accéder directement aux propriétés des éléments d’un tableau. <br> Exemples : `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >

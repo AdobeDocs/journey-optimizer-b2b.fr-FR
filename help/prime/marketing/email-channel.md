@@ -8,22 +8,31 @@ autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 7%
-
+source-wordcount: '1060'
+ht-degree: 20%
 ---
-
 # Ajouter des e-mails aux parcours
 
 [!DNL Adobe Journey Optimizer B2B Prime] offre aux spécialistes du marketing B2B une expérience moderne de création et de diffusion d’e-mails de niveau entreprise.
@@ -65,7 +74,7 @@ Avant de créer des e-mails pour les parcours de personne et de créer du conten
 
 ## Ajout d’un e-mail à partir d’un parcours
 
-Pour envoyer un e-mail à partir d’un parcours, [ajoutez un nœud _Prendre une action_ &#x200B;](action-nodes.md#add-an-action-node) et configurez-le pour envoyer un e-mail.
+Pour envoyer un e-mail à partir d’un parcours, [ajoutez un nœud _Prendre une action_ ](action-nodes.md#add-an-action-node) et configurez-le pour envoyer un e-mail.
 
 1. Dans la zone de travail de parcours, cliquez sur l’icône **+** et sélectionnez **[!UICONTROL Effectuer une action]**.
 
@@ -83,7 +92,7 @@ Pour envoyer un e-mail à partir d’un parcours, [ajoutez un nœud _Prendre une
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
-   ![&#x200B; Boîte de dialogue Créer un e-mail &#x200B;](./assets/email-channel-create-email-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un e-mail ](./assets/email-channel-create-email-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -109,7 +118,7 @@ La page e-mail s’ouvre lorsque vous créez un e-mail pour un nœud _[!UICONTRO
 
    * **[!UICONTROL Suivi des actions]** - Cochez les cases correspondant aux actions que vous souhaitez suivre pour l’e-mail.
 
-   ![&#x200B; Canal e-mail - Onglet Actions &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
+   ![ Canal e-mail - Onglet Actions ](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** ou sélectionnez l’onglet **[!UICONTROL Contenu]**.
 
@@ -149,11 +158,11 @@ La page e-mail s’ouvre lorsque vous créez un e-mail pour un nœud _[!UICONTRO
 >title="Réduire la taille du HTML"
 >abstract="Activez cette option pour compresser le HTML de votre e-mail lors de la publication en supprimant les espaces blancs, les mises en retrait et les commentaires non indispensables. Cela permet d’éviter l’écrêtage d’e-mails dans des clients tels que Gmail, qui tronque les messages de plus de 100 Ko."
 
-[!DNL Journey Optimizer B2B Prime] vous permet de compresser votre version d’HTML par e-mail pendant le processus de publication en supprimant les espaces inutiles, la mise en retrait et les commentaires non indispensables. Conserver une petite taille pour HTML vous permet d’effectuer les opérations suivantes :
+[!DNL Journey Optimizer B2B Prime] permet de compresser la version HTML de votre e-mail pendant le processus de publication en supprimant les espaces inutiles, la mise en retrait et les commentaires non indispensables. Conserver un contenu HTML de petite taille permet d’effectuer les opérations suivantes :
 
-* Évitez de **couper les e-mails** — certains clients comme Gmail tronquent les messages de plus de 100 Ko, empêchant les destinataires de voir le contenu complet.
-* Améliorer le **temps de chargement des emails** dans la boîte de réception du destinataire.
-* Améliorez la **délivrabilité** et réduisez l’utilisation de la bande passante.
+* Éviter de **couper les e-mails** - Certains clients tels que Gmail tronquent les messages de plus de 100 Ko, ce qui empêche les destinataires de voir le contenu complet.
+* Améliorer le **temps de chargement des e-mails** dans la boîte de réception de la personne destinataire.
+* Améliorer la **délivrabilité** et réduire l’utilisation de la bande passante.
 
 Cette optimisation n’est pas appliquée automatiquement. Vous devez l’activer dans l’onglet _[!UICONTROL Contenu]_.
 
@@ -161,16 +170,16 @@ Cette optimisation n’est pas appliquée automatiquement. Vous devez l’active
 
 >[!IMPORTANT]
 >
-> La réduction de la taille d’HTML n’est appliquée qu’au moment de la publication.
+> La réduction de la taille du contenu HTML n’est appliquée qu’au moment de la publication.
 
-L’optimisation est sûre pour le client de messagerie :
+L’optimisation s’adapte au client de messagerie :
 
-* Il conserve les commentaires conditionnels MSO/Outlook.
-* Il ne modifie pas le contenu, les images ou les vidéos.
+* Elle conserve les commentaires conditionnels MSO/Outlook.
+* Elle ne modifie pas le contenu, les images ou les vidéos.
 
 >[!NOTE]
 >
->La réduction de la taille de l’e-mail dépend de la structure HTML d’origine de votre e-mail. Si le contenu est déjà compact ou si la payload de l’e-mail est très volumineuse, la réduction peut être minimale et il se peut que l’écrêtage ne soit pas complètement empêché dans tous les cas.
+>La réduction de la taille de l’e-mail dépend de la structure HTML d’origine de votre e-mail. Si le contenu est déjà compact ou si la payload de l’e-mail est très volumineuse, la réduction peut être minimale et il se peut que l’e-mail soit malgré tout découpé.
 
 <!-- 
 Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
