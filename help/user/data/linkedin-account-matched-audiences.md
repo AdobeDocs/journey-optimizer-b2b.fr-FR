@@ -40,7 +40,7 @@ ht-degree: 14%
 
 Cette fonctionnalité tire parti des destinations d’Experience Platform pour gérer certains aspects de l’intégration. Il existe une limite de dix flux de données.
 
-Avant de lancer un flux de données à partir de Journey Optimizer B2B Edition, vous devez disposer d’au moins une instance du connecteur de destination [(Entreprises) LinkedIn Matched Audience](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} avec un compte LinkedIn Campaign Manager configuré dans votre application Experience Platform.
+Avant de lancer un flux de données à partir de Journey Optimizer B2B Edition, vous devez disposer d’au moins une instance du connecteur de destination [(Entreprises) LinkedIn Matched Audience](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} avec un compte LinkedIn Campaign Manager configuré dans votre application Experience Platform.
 
 ## Configurer une nouvelle connexion à un compte LinkedIn {#linkedin-destination-setup}
 
