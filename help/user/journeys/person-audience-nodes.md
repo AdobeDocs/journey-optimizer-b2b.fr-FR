@@ -1,31 +1,35 @@
 ---
 title: Nœuds d’audience de personne
-description: Configurez les nœuds d’audience de personne avec des audiences basées sur des segments ou des événements afin de définir des points d’entrée de parcours de personne pour l’orchestration ciblée dans Journey Optimizer B2B edition.
+description: Configurez les nœuds d’audience de personne avec des audiences basées sur des segments ou des événements afin de définir des points d’entrée de parcours de personne pour l’orchestration ciblée dans Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Cette fonctionnalité est actuellement en version bêta limitée"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 1%
-
+source-wordcount: '641'
+ht-degree: 0%
 ---
-
 # Nœuds du parcours d’audience de la personne
 
 Le nœud _audience personne_ spécifie les profils de personnes qui rejoignent le parcours. Lorsque vous [créez un parcours de personne](./create-publish-journey.md#create-a-journey), le parcours commence toujours par un nœud d’audience de personne qui définit son entrée. Le nœud d’audience de personne peut avoir l’un des deux types d’entrée d’audience suivants : segments CDP ou abonnement basé sur un événement. Les définitions d’audience basées sur un segment et un événement ne peuvent pas être combinées.
@@ -36,13 +40,9 @@ Utilisez l’une des options d’entrée suivantes pour le nœud de parcours d�
 
 * **Audience de l’événement** - Utilisez les événements admissibles pour définir l’audience. Ces événements sont définis dans la configuration du nœud et doivent utiliser les événements [XDM configurés dans les paramètres d’administration](../admin/configure-aep-events.md). Jusqu’à 10 événements sont pris en charge pour l’adhésion d’audience basée sur un événement. Un profil est immédiatement éligible pour le parcours après le premier événement correspondant qu’il prend.
 
-  >[!NOTE]
-  >
-  >Les événements ne peuvent pas être combinés avec des attributs de profil pour réduire les définitions d’audience. Des améliorations visant à résoudre cette limitation sont prévues pour les prochaines versions.
-
 ## Ingestion de profil
 
-Dans Journey Optimizer B2B edition, une tâche d’ingestion d’audience chaque nuit synchronise les profils avec Experience Platform. Les parcours de personne basés sur un événement peuvent qualifier des profils qui ne font pas partie d’une audience utilisée par Journey Optimizer B2B edition, mais ces profils restent obsolètes, à moins qu’ils ne rejoignent une audience utilisée par un parcours de personne, un parcours de compte ou un groupe d’achat. Si un profil est ingéré et ajouté ultérieurement à une audience, la combinaison de profils est effectuée et le profil reste synchronisé avec Experience Platform. Des améliorations de cette synchronisation des données de profil sont prévues pour les prochaines versions.
+Dans Journey Optimizer B2B Edition, une tâche d’ingestion d’audience chaque nuit synchronise les profils avec Experience Platform. Les parcours de personnes basés sur un événement peuvent qualifier des profils qui ne font pas partie d’une audience utilisée par Journey Optimizer B2B Edition, mais ces profils restent obsolètes à moins de rejoindre une audience utilisée par un parcours de personnes, un parcours de comptes ou un groupe d’achat. Si un profil est ingéré et ajouté ultérieurement à une audience, la combinaison de profils est effectuée et le profil reste synchronisé avec Experience Platform. Des améliorations de cette synchronisation des données de profil sont prévues pour les prochaines versions.
 
 Un profil nouvellement créé ingéré par un parcours de personne basé sur un événement peut ne pas disposer des informations de profil mises à jour au moment de l’ingestion. Par exemple, si un profil est créé par le biais d’un événement de remplissage de formulaire, les données envoyées peuvent ne pas être synchronisées avec le profil lorsque le parcours les ingère. Il peut en résulter des données incomplètes à personnaliser (comme dans le contenu des e-mails). Des améliorations de cette synchronisation des données d’événement de profil sont prévues pour les prochaines versions.
 
@@ -50,7 +50,7 @@ Les parcours de personne basés sur un événement peuvent qualifier des profils
 
 >[!IMPORTANT]
 >
->Au cours du programme bêta actuel, l’utilisation idéale des parcours de personne consiste à qualifier uniquement les profils que vous ciblez également dans les parcours de compte et les définitions de groupes d’achats. Cette utilisation permet d’assurer un profil complet qui reste synchronisé avec Experience Platform.
+>L’utilisation idéale des parcours de personne consiste à qualifier uniquement les profils que vous ciblez également dans les parcours de compte et les définitions de groupe d’achat. Cette utilisation permet d’assurer un profil complet qui reste synchronisé avec Experience Platform.
 
 ## Définissez l’audience pour le nœud audience de la personne .
 
