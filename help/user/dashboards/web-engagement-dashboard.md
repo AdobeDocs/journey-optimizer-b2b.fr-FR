@@ -5,26 +5,37 @@ feature: Dashboards, Landing Pages
 level: Beginner
 role: User
 exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
+autotag-review: 2026-03-30T22:41:52.137Z
+TQID: 'https://experienceleague.adobe.com/Uq-9dwXH-k9Y0jmVDXoSfI29i-8gw384J8dXTG07EZk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-autotag-review: 2026-03-30T22:41:52.137Z
-TQID: https://experienceleague.adobe.com/Uq-9dwXH-k9Y0jmVDXoSfI29i-8gw384J8dXTG07EZk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 15%
-
 ---
-
 # Tableau de bord d’engagement web
 
 Le tableau de bord de l’engagement web offre une visibilité sur la manière dont les visiteurs web interagissent avec le contenu clé. Il segmente les données entre les secteurs de compte et les régions afin de vous aider à comprendre les tendances d’engagement. Utilisez ce tableau de bord pour prendre en charge la prise de décision stratégique en affichant les modèles de comportement web qui éclairent la stratégie de contenu et le ciblage des comptes.
@@ -68,7 +79,7 @@ Ce tableau présente les 10 pages web les plus consultées et vous aide à ident
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_region"
 >title="Pages vues par zone géographique des comptes"
->abstract="Répartition des visiteurs et visiteuses web segmentée par zone géographique des comptes associés."
+>abstract="Répartition des visiteurs web par zone géographique des comptes associés."
 
 Cette visualisation affiche le nombre de visiteurs segmenté par la région du compte. Il illustre la manière dont le trafic web varie selon les différentes régions géographiques, ce qui vous permet d’adapter le contenu et les campagnes aux audiences régionales. Pointez sur une barre du graphique pour afficher les détails, notamment :
 
@@ -81,8 +92,8 @@ Cette visualisation affiche le nombre de visiteurs segmenté par la région du c
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_industry"
->title="Pages vues par secteur des comptes"
->abstract="Répartition des visiteurs et visiteuses web segmentée selon la classification sectorielle des comptes associés."
+>title="Pages vues par secteur d’activité des comptes"
+>abstract="Répartition des visiteurs web par secteur d’activité des comptes associés.&#x200B;"
 
 Cette visualisation affiche le nombre de visiteurs segmentés par secteur d’activité du compte. Utilisez ce graphique pour comprendre les variations du trafic web entre les différents secteurs d’activité, ce qui vous permet de développer des stratégies de contenu spécifiques au secteur. Pointez sur une barre du graphique pour afficher les détails, notamment :
 

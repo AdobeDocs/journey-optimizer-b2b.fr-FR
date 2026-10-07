@@ -1,33 +1,39 @@
 ---
 title: Gestion des parcours
-description: 'Rationalisez la génération de la demande avec les parcours : créez, publiez, gérez l’engagement des groupes d’achats par e-mail, SMS et événements dans Journey Optimizer B2B edition.'
+description: 'Rationalisez la génération de la demande avec les parcours : créez, publiez, gérez l’engagement des groupes d’achats par e-mail, SMS et événements dans Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 46%
-
 ---
-
 # Gestion des parcours
 
-Dans Journey Optimizer B2B edition, les parcours sont des plans marketing automatisés, à comptes à plusieurs étapes et basés sur des prospects qui orchestrent des expériences personnalisées sur plusieurs canaux en réponse à l’engagement, aux événements métier ou aux campagnes planifiées. Définissez un engagement axé sur les ventes qui inclut des e-mails, des SMS, etc. pour coordonner le marketing entrant avec les activités de vente sortantes pour chaque membre du groupe d’achat.
+Dans Journey Optimizer B2B Edition, les parcours sont des plans marketing automatisés, à comptes à plusieurs étapes et basés sur des prospects qui orchestrent des expériences personnalisées sur plusieurs canaux en réponse à l’engagement, aux événements métier ou aux campagnes planifiées. Définissez un engagement axé sur les ventes qui inclut des e-mails, des SMS, etc. pour coordonner le marketing entrant avec les activités de vente sortantes pour chaque membre du groupe d’achat.
 
-Journey Optimizer B2B edition prend en charge deux types de parcours :
+Journey Optimizer B2B Edition prend en charge deux types de parcours :
 
 * parcours de compte **- Rationalisez la génération de la demande et la qualification des groupes d’achat et stimulez la demande qualifiée pour vos programmes d’acquisition, de vente incitative/croisée et de rétention.** Paramétrez des parcours personnalisés pour chaque groupe d’achat et membre du groupe d’achat à l’aide d’un engagement automatisé par e-mail, SMS, événement, etc.
 
@@ -116,7 +122,7 @@ L’en-tête de chaque mappage de parcours comprend :
 
 ## Actions de parcours
 
-La page de liste parcours comprend tous les parcours de compte ou de personne de votre instance Journey Optimizer B2B edition. La page de liste vous permet d’appliquer plusieurs actions à un parcours.
+La page de liste parcours comprend tous les parcours de compte ou de personne de votre instance Journey Optimizer B2B Edition. La page de liste vous permet d’appliquer plusieurs actions à un parcours.
 
 ### Abandonner le parcours
 

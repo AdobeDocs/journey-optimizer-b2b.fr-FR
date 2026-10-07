@@ -4,25 +4,33 @@ description: Utilisez les nœuds d’attente pour suspendre la progression du pa
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+autotag-review: 2026-03-30T23:11:12.994Z
+TQID: 'https://experienceleague.adobe.com/a-dPU6YNtDv86OD-i35749QY4HCDFtVIVn9F6jm0zEA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:11:12.994Z
-TQID: https://experienceleague.adobe.com/a-dPU6YNtDv86OD-i35749QY4HCDFtVIVn9F6jm0zEA
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: '706'
 ht-degree: 0%
-
 ---
-
 # Nœuds d’attente
 
 Utilisez un nœud _Attente_ lorsque vous souhaitez suspendre la progression du parcours pendant une certaine durée avant de passer à l’étape suivante.
@@ -59,10 +67,10 @@ Avec une _étape d’attente avancée_, vous définissez **_quand_** la personne
 
 | Type d’attente | Description | Configuration |
 | --------- | ----------- | ------------- |
-| **Heure spécifique de la journée** | Maintenir jusqu’à une heure spécifique (par exemple, à 9 :00) | Réglez l’heure (heure et minute). Se ferme à l’occurrence suivante de cette heure (pour le fuseau horaire sélectionné). |
+| **Heure spécifique de la journée** | Maintenir jusqu’à une heure spécifique (par exemple, à 9 h) | Réglez l’heure (heure et minute). Se ferme à l’occurrence suivante de cette heure (pour le fuseau horaire sélectionné). |
 | **Jour spécifique de la semaine** | Attendre jusqu’à un jour particulier (tel que le mardi) | Sélectionnez un jour de la semaine. Si aucune heure n’est spécifiée, se ferme à minuit (pour le fuseau horaire sélectionné) le jour correspondant suivant. |
 | **Période ou combinaison** | Conservez jusqu’à n’importe quel jour d’une plage (lundi-vendredi, par exemple) ou pendant l’un des jours spécifiés | Sélectionnez vos jours cibles. Si aucune heure n’est spécifiée, se ferme à minuit (pour le fuseau horaire sélectionné) le jour correspondant suivant. |
-| **Combinaison Heure + Jour** | Combinez les deux pour une planification précise (par exemple, mardi à 10 :00) | Sélectionnez vos jours cibles et définissez l’heure cible. Quitte à l’occurrence du jour/heure suivant (pour le fuseau horaire sélectionné). |
+| **Combinaison Heure + Jour** | Combinez les deux pour une planification précise (par exemple, mardi à 10 h) | Sélectionnez vos jours cibles et définissez l’heure cible. Quitte à l’occurrence du jour/heure suivant (pour le fuseau horaire sélectionné). |
 
 ### Scénarios courants
 
@@ -72,7 +80,7 @@ Les scénarios suivants illustrent comment appliquer des exemples typiques à la
 
 **Scénario :** vous commercialisez auprès des clients B2B qui lisent des e-mails pendant leur journée de travail. Vous souhaitez que tous les e-mails arrivent pendant les heures de bureau.
 
-**Solution :** configurez votre étape d’attente pour libérer les prospects à 9 :00 en semaine (du lundi au vendredi). Quel que soit le moment où un prospect accède au nœud d’attente, il reçoit votre e-mail pendant les heures de bureau.
+**Solution :** configurez votre étape d’attente pour libérer les prospects à 9 h du matin les jours de semaine (du lundi au vendredi). Quel que soit le moment où un prospect accède au nœud d’attente, il reçoit votre e-mail pendant les heures de bureau.
 
 +++
 
@@ -80,7 +88,7 @@ Les scénarios suivants illustrent comment appliquer des exemples typiques à la
 
 **Scénario :** votre audience change tous les jours à mesure que de nouveaux comptes ou prospects sont qualifiés. Vous souhaitez que tous les prospects reçoivent le premier e-mail en même temps, quelle que soit la date à laquelle ils remplissent les critères.
 
-**Solution :** définissez l’étape d’attente pour qu’elle se termine à une heure spécifique (par exemple à 10 :00). Tous les prospects, qu’ils se soient qualifiés à minuit ou à midi, sortent ensemble de l’étape d’attente à 10 :00.
+**Solution :** définissez l’étape d’attente pour qu’elle se termine à une heure spécifique (par exemple à 10 h). Toutes les pistes, qu&#39;elles se soient qualifiées à minuit ou à midi, sortent de l&#39;étape d&#39;attente ensemble à 10h00.
 
 +++
 
@@ -96,8 +104,8 @@ Les scénarios suivants illustrent comment appliquer des exemples typiques à la
 
 | Configuration de l’attente | Entrées de compte/lead | Sorties de compte/prospect |
 | ------------------ | ------------------- | ------------------ |
-| 9 :00, n&#39;importe quel jour | Lundi 11:00 | Mardi 9:00 |
-| 9 :00, n&#39;importe quel jour | Lundi 7:00 | Lundi 9:00 |
-| Mardi, pas d&#39;heure fixée | Vendredi 15:00 | Mardi 12:00 |
-| 10 :00, du lundi au vendredi | Samedi 14:00 | Lundi 10:00 |
-| 10 :00, du lundi au vendredi | Mercredi 8:00 | Mercredi 10:00 |
+| 09:00, Tous les jours | Lundi 11:00 | Mardi 9:00 |
+| 09:00, Tous les jours | Lundi 7:00 | Lundi 9:00 |
+| Mardi, pas d&#39;heure fixée | Vendredi 15:00 | Mardi, 00:00 |
+| 10 h, du lundi au vendredi | Samedi 14:00 | Lundi 10:00 |
+| 10 h, du lundi au vendredi | Mercredi 8:00 | Mercredi 10:00 |

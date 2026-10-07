@@ -1,32 +1,40 @@
 ---
 title: Mode sombre pour le contenu des e-mails
-description: Découvrez la conception d’e-mails en mode sombre dans Journey Optimizer B2B edition. Prévisualisez le rendu, personnalisez les paramètres, assurez l’accessibilité et effectuez des tests sur divers clients de messagerie.
+description: Découvrez la conception d’e-mails en mode sombre dans Journey Optimizer B2B Edition. Prévisualisez le rendu, personnalisez les paramètres, assurez l’accessibilité et effectuez des tests sur divers clients de messagerie.
 feature: Email Authoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, conception
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
+autotag-review: 2026-03-30T22:06:55.168Z
+TQID: 'https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: 2026-03-30T22:06:55.168Z
-TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Content production
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1564'
 ht-degree: 19%
-
 ---
-
 # Mode sombre pour le contenu des e-mails {#dark-mode}
 
 >[!CONTEXTUALHELP]
@@ -103,7 +111,7 @@ Lorsque vous mettez en forme le contenu de votre e-mail pour le mode sombre en [
 
 * Si vous souhaitez remplacer les paramètres par défaut des clients de messagerie de prise en charge, définissez et appliquez des paramètres de mode sombre personnalisés à votre contenu d’e-mail. [En savoir plus](#custom-dark-mode)
 
-### Prévisualiser le mode sombre par défaut {#preview-dark-mode}
+### Aperçu du mode sombre par défaut {#preview-dark-mode}
 
 <!--
  Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
@@ -173,7 +181,7 @@ _Pour définir les paramètres personnalisés du mode sombre :_
 
    >[!CAUTION]
    >
-   >Le mode en direct est une prévisualisation générique conçue pour comparer l’aspect du rendu sur différentes tailles d’appareils. Le rendu final peut varier en fonction du client de messagerie du destinataire.
+   >La vue en direct est un aperçu générique conçu pour comparer le rendu sur différents formats d’appareil. Le rendu final peut varier en fonction du client de messagerie du destinataire.
 
 1. Une fois les modifications du mode sombre effectuées, cliquez sur **[!UICONTROL Simuler du contenu]**.
 

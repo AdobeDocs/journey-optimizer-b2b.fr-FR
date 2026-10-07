@@ -4,25 +4,31 @@ description: Configurez vos domaines de marque afin que chacune de vos marques d
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: '913'
 ht-degree: 75%
-
 ---
-
 # Configuration des domaines de branding
 
 Un domaine de marque dans Marketo Engage est un sous-domaine personnalisé (tel que `links.yourcompany.com`) utilisé pour réécrire les liens et effectuer le suivi des clics sur les e-mails. Il permet également de s’assurer qu’ils reflètent votre marque plutôt qu’un domaine générique. Chaque domaine de marque agit comme un domaine de suivi des clics pour améliorer la délivrabilité et la confiance en faisant correspondre vos e-mails et liens de page de destination avec votre domaine.
@@ -84,7 +90,7 @@ La première étape de la gestion des domaines de branding consiste à modifier 
 
 ## Définition d’un domaine supplémentaire
 
-Pour prendre en charge plusieurs marques dans votre environnement Journey Optimizer B2B edition, où chaque marque possède ses propres liens de suivi, vous pouvez ajouter un autre domaine de marque après avoir modifié le domaine par défaut. Lorsque vous ajoutez un domaine, vous disposez des options suivantes :
+Pour prendre en charge plusieurs marques dans votre environnement Journey Optimizer B2B Edition, où chaque marque possède ses propres liens de suivi, vous pouvez ajouter un autre domaine de marque après avoir modifié le domaine par défaut. Lorsque vous ajoutez un domaine, vous disposez des options suivantes :
 
 >* _Faire du domaine de Principal_ : faites de ce domaine le domaine principal de l’espace de travail. Lorsque vous sélectionnez cette option, tous les e-mails existants qui n’ont pas encore été envoyés sont associés au domaine principal par défaut, et tous les nouveaux e-mails utilisent automatiquement ce domaine principal par défaut. Les responsables marketing peuvent choisir un autre domaine de branding si nécessaire.
 >

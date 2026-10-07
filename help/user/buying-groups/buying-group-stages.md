@@ -1,29 +1,36 @@
 ---
 title: Étapes du groupe d'achat
-description: Créez des modèles d’étape de groupe d’achats personnalisés avec les étapes d’entrée, de succès et d’échec pour suivre la progression et déclencher des actions de parcours de compte dans Journey Optimizer B2B edition.
+description: Créez des modèles d’étape de groupe d’achats personnalisés avec les étapes d’entrée, de succès et d’échec pour suivre la progression et déclencher des actions de parcours de compte dans Journey Optimizer B2B Edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+autotag-review: 2026-03-30T21:47:43.205Z
+TQID: 'https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
-autotag-review: 2026-03-30T21:47:43.205Z
-TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Automated decisioning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2326'
 ht-degree: 2%
-
 ---
-
 # Étapes des groupes d’achat
 
 Les étapes de groupes d&#39;achat sont conçues pour suivre l&#39;évolution des groupes d&#39;achat dans la conversion des opportunités en clients. Utilisez cette fonctionnalité pour suivre la progression du groupe d&#39;achat et identifier les meilleures actions suivantes pour les membres du groupe d&#39;achat.
@@ -42,7 +49,7 @@ Vous créez et configurez un modèle d&#39;étapes de groupe d&#39;achats en :
 * Définir les flux de transition
 * Désigner les étapes d&#39;entrée et de destination
 
-Un seul modèle est pris en charge. Pour planifier le modèle optimal, collaborez avec vos équipes marketing et commerciales avant de le créer et de le publier dans Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Un seul modèle est pris en charge. Pour planifier le modèle optimal, collaborez avec vos équipes marketing et commerciales avant de le créer et de le publier dans Journey Optimizer B2B Edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 Lorsque vous créez le modèle d&#39;étape de groupe d&#39;achats, il est automatiquement à l&#39;état _Brouillon_ et ne peut pas être supprimé ou renommé. Il reste dans ce statut lorsque vous définissez les étapes et configurez le flux de transition entre les étapes. Lorsque le modèle a le statut Publié (_Actif_), il ne peut pas être modifié.
 

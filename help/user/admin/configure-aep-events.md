@@ -5,27 +5,32 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: 'https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:58:08.848Z
-TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1632
+source-wordcount: '1632'
 ht-degree: 12%
-
 ---
-
 # Sélectionner des événements d’expérience et des champs
 
 Les administrateurs peuvent sélectionner des Adobe Experience Platform (AEP) spécifiques [Événements d’expérience](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
@@ -34,11 +39,11 @@ Les administrateurs peuvent sélectionner des Adobe Experience Platform (AEP) sp
 
 >[!PREREQUISITES]
 >
->L’utilisation des événements d’expérience et des champs dans Journey Optimizer B2B edition nécessite des schémas d’événement d’expérience activés pour le profil. Pour plus d’informations, consultez [Activer les profils clients en temps réel](https://experienceleague.adobe.com/fr/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} dans les tutoriels d’Experience Platform.
+>L’utilisation des événements d’expérience et des champs dans Journey Optimizer B2B Edition nécessite des schémas d’événement d’expérience activés pour le profil. Pour plus d’informations, consultez [Activer les profils clients en temps réel](https://experienceleague.adobe.com/fr/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} dans les tutoriels d’Experience Platform.
 
 L’utilisation des événements d’expérience AEP dans parcours est un processus en deux étapes :
 
-1. Un administrateur [ajoute les champs et événements d’expérience AEP](#add-an-event) dans les configurations Journey Optimizer B2B edition.
+1. Un administrateur [ajoute les événements d’expérience et les champs AEP](#add-an-event) dans les configurations Journey Optimizer B2B Edition.
 
 1. Dans un parcours, un marketeur utilise les événements configurés de l&#39;une des deux façons suivantes :
 
@@ -55,7 +60,7 @@ Lorsque vous sélectionnez des événements pour atteindre les objectifs de votr
 
 * Parcours peut écouter les événements d’expérience ingérés à l’aide des fonctionnalités de diffusion en continu d’Experience Platform, telles que l’API Web SDK ou HTTP.
 
-* Les données d’événement d’expérience historique commencent à s’accumuler pour une personne lorsque l’événement existe dans la base de données B2B edition de Journey Optimizer. Pour les personnes qui existent déjà lorsqu’un type d’événement est configuré pour la première fois, le renvoi commence au moment de la configuration. Pour les nouvelles personnes, l’accumulation commence lorsque la personne est ajoutée pour la première fois (leurs antécédents ne sont pas disponibles rétroactivement).
+* Les données d’événement d’expérience historique commencent à s’accumuler pour une personne lorsque l’événement existe dans la base de données Journey Optimizer B2B Edition. Pour les personnes qui existent déjà lorsqu’un type d’événement est configuré pour la première fois, le renvoi commence au moment de la configuration. Pour les nouvelles personnes, l’accumulation commence lorsque la personne est ajoutée pour la première fois (leurs antécédents ne sont pas disponibles rétroactivement).
 
 * Il n’existe actuellement aucun mécanisme de suppression pour l’historique des événements accumulés. La politique de rétention à long terme peut changer.
 
@@ -153,7 +158,7 @@ Pour empêcher l’utilisation d’un événement d’expérience dans un nœud 
 
 ## Événements et champs {#events-and-fields}
 
-Par [!DNL Journey Optimizer B2B Edition], certaines activités au niveau des personnes sont capturées en tant qu’événements d’expérience [!DNL Experience Platform]. Ces événements sont stockés dans un jeu de données système qui utilise le schéma d’événement d’expérience XDM et inclut des groupes de champs spécifiques au parcours. Vous pouvez utiliser ces événements dans [!UICONTROL Journey Optimizer B2B edition] comme tout autre événement d’expérience.
+Par [!DNL Journey Optimizer B2B Edition], certaines activités au niveau des personnes sont capturées en tant qu’événements d’expérience [!DNL Experience Platform]. Ces événements sont stockés dans un jeu de données système qui utilise le schéma d’événement d’expérience XDM et inclut des groupes de champs spécifiques au parcours. Vous pouvez utiliser ces événements dans  comme tout autre événement d’expérience.
 
 Chaque événement expose un ensemble défini de champs qui peuvent être utilisés dans le parcours _Écouter un événement_ nœuds (prise de décision basée sur des événements). Pour déterminer les événements et les champs à utiliser dans ces nœuds de parcours, passez en revue les types d’événements disponibles et leurs champs :
 

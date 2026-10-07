@@ -1,35 +1,47 @@
 ---
 title: Scores d’intention
-description: Découvrez comment Journey Optimizer B2B edition calcule les scores d’intention à partir de l’engagement de la personne et de la pertinence du contenu, et comment les scores s’agrègent aux comptes.
+description: Découvrez comment Journey Optimizer B2B Edition calcule les scores d’intention à partir de l’engagement de la personne et de la pertinence du contenu, et comment les scores s’agrègent aux comptes.
 feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
 subfeature_v2:
   - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+    internal-label: Person insights
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Machine learning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 
 # Scores d’intention {#intent-scores}
 
-Une note d’intention mesure l’intérêt d’une personne ou d’un compte pour un mot-clé, un produit ou une catégorie de produits. Adobe Journey Optimizer B2B edition calcule le score à l’aide du machine learning qui mesure la similarité de signification, plutôt que des règles manuelles ou un système de points fixes. Chaque score est normalisé de 0 à 1, avec des nombres plus élevés indiquant une intention plus forte.
+Une note d’intention mesure l’intérêt d’une personne ou d’un compte pour un mot-clé, un produit ou une catégorie de produits. Adobe Journey Optimizer B2B Edition calcule le score à l’aide du machine learning qui mesure la similarité de signification, plutôt que des règles manuelles ou un système de points fixes. Chaque score est normalisé de 0 à 1, avec des nombres plus élevés indiquant une intention plus forte.
 
 La pertinence du contenu s’actualise environ toutes les 12 heures et les scores d’intention sont recalculés quotidiennement. Les scores s’agrégent du mot-clé au produit et de la personne au compte. Les scores d’intention apparaissent dans le [tableau de bord intelligent](../dashboards/intelligent-dashboard.md) et dans les pages [détails du compte](../accounts/account-details.md), [_détails du groupe d’achat_ page](../buying-groups/buying-group-details.md) et [détails de la personne](../accounts/person-details.md).
 
@@ -55,7 +67,7 @@ Vous pouvez vérifier et mettre à jour les mappages de taxonomie à tout moment
 
 ### Pertinence du contenu {#content-relevance}
 
-Journey Optimizer B2B edition traduit le contenu et la taxonomie en une représentation mathématique de leur signification, puis utilise un modèle de similarité pour mesurer à quel point ils s’alignent. Le contenu qui correspond étroitement à un mot-clé ou à un produit reçoit un score de pertinence élevé. Le contenu sans rapport reçoit un score faible.
+Journey Optimizer B2B Edition traduit le contenu et la taxonomie en une représentation mathématique de leur signification, puis utilise un modèle de similarité pour mesurer à quel point ils s’alignent. Le contenu qui correspond étroitement à un mot-clé ou à un produit reçoit un score de pertinence élevé. Le contenu sans rapport reçoit un score faible.
 
 Le modèle de similarité est pré-entraîné sur la langue générale, de sorte qu’aucune formation spécifique au client n’est nécessaire pour commencer.
 
@@ -75,7 +87,7 @@ Chaque point de contact significatif d’une personne est capturé au fur et à 
 
 ### Extraction de contenu {#content-extraction}
 
-Avant que le contenu puisse être noté pour la pertinence, Journey Optimizer B2B edition extrait et lit son texte.
+Avant que le contenu puisse être noté pour sa pertinence, Journey Optimizer B2B Edition extrait et lit son texte.
 
 * Pour chaque nouvel élément de contenu, le système extrait le texte sous-jacent, qu’il réside sur une page web ou dans un e-mail.
 * Certains types d’activité, tels que les remplissages de formulaire, comportent déjà leur propre contenu descriptif et ignorent cette étape.

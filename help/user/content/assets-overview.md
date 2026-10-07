@@ -1,28 +1,34 @@
 ---
 title: Ressources
-description: Gérez les ressources d’images de Journey Optimizer B2B edition et AEM Assets pour les e-mails, les modèles et les fragments.
+description: Gérez les ressources d’images de Journey Optimizer B2B Edition et d’AEM Assets pour les e-mails, les modèles et les fragments.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
+autotag-review: 2026-03-30T22:17:01.501Z
+TQID: 'https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:17:01.501Z
-TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: '848'
 ht-degree: 62%
-
 ---
-
 # Ressources
 
 Dans [!DNL Adobe Journey Optimizer B2B Edition], les ressources sont généralement les images utilisées lors de la conception du contenu pour accompagner les parcours de compte. Vous pouvez utiliser ces images dans vos e-mails, modèles d’e-mail et fragments du sélecteur de ressources, ou une simple interface glisser-déposer dans l’espace de conception visuelle.
@@ -79,7 +85,7 @@ Vous pouvez ajouter une ressource d’image au fur et à mesure que vous créez 
 
 >[!TAB Sélectionner une ressource]
 
-Cliquez sur **[!UICONTROL Sélectionner une ressource]** pour ouvrir le sélecteur de ressources, où vous pouvez choisir une image dans le référentiel de ressources B2B edition Journey Optimizer.
+Cliquez sur **[!UICONTROL Sélectionner une ressource]** pour ouvrir le sélecteur de ressources, où vous pouvez choisir une image dans le référentiel de ressources Journey Optimizer B2B Edition.
 
 ![Sélectionner une ressource image](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 

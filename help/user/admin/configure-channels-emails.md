@@ -1,40 +1,50 @@
 ---
 title: Configurations du canal e-mail
-description: Configurez les paramètres de diffusion par e-mail, les limites de communication et les protocoles d’authentification pour optimiser la délivrabilité dans Journey Optimizer B2B edition.
+description: Configurez les paramètres de diffusion par e-mail, les limites de communication et les protocoles d’authentification afin d’optimiser la délivrabilité dans Journey Optimizer B2B Edition.
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+autotag-review: 2026-03-27T22:54:31.660Z
+TQID: 'https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:54:31.660Z
-TQID: https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 97%
-
 ---
-
 # Configurations du canal e-mail
 
-Adobe Journey Optimizer B2B edition exploite les fonctions de canal et le suivi des événements dans Marketo Engage. Les administrateurs doivent s’assurer que les configurations de diffusion et de suivi sont en place pour activer la diffusion de canal pour les marketeurs. Pour plus d’informations sur les protocoles nécessaires à la diffusion et au suivi des e-mails via Marketo Engage, voir [Protocoles de suivi et de diffusion des e-mails](../start/email-protocols.md).
+Adobe Journey Optimizer B2B Edition tire parti des fonctions de canal et du suivi des événements de Marketo Engage. Les administrateurs doivent s’assurer que les configurations de diffusion et de suivi sont en place pour activer la diffusion via ce canal pour les responsables marketing. Pour plus d’informations sur les protocoles nécessaires à la diffusion et au suivi des e-mails via Marketo Engage, voir [Protocoles de suivi et de diffusion des e-mails](../start/email-protocols.md).
 
 ## Paramètres de diffusion
 
-Les paramètres d’e-mail par défaut sont utilisés lorsque les marketeurs créent un e-mail dans un parcours de compte. Pour consulter les paramètres de diffusion des e-mails, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**. Sous _[!UICONTROL E-mail]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Paramètres de diffusion]**.
+Les paramètres d’e-mail par défaut sont utilisés lorsque les responsables marketing créent un e-mail dans un parcours de compte. Pour consulter les paramètres de diffusion des e-mails, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**. Sous _[!UICONTROL E-mail]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Paramètres de diffusion]**.
 
 ![Accéder aux paramètres de diffusion par e-mail](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
-Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Cliquez sur **[!UICONTROL Modifier les paramètres]** en haut à droite pour accéder aux options de configuration de l’instance Marketo Engage connectée.
+Les paramètres sont en lecture seule dans Journey Optimizer B2B Edition. Cliquez sur **[!UICONTROL Modifier les paramètres]** en haut à droite pour accéder aux options de configuration de l’instance Marketo Engage connectée.
 
 >[!NOTE]
 >
@@ -44,7 +54,7 @@ Sélectionnez chacun des onglets suivants pour passer en revue les paramètres a
 
 ### [!UICONTROL Paramètres d&#39;en-tête des emails] {#email-header}
 
-Les paramètres d&#39;en-tête des emails définissent les valeurs par défaut des éléments suivants :
+Les paramètres d’en-tête des e-mails définissent les valeurs par défaut des éléments suivants :
 
 * **[!UICONTROL E-mail de l’expéditeur]** - Adresse e-mail répertoriée dans le champ _De_ de l’en-tête de l’e-mail.
 
@@ -80,11 +90,11 @@ Lorsque l’option _[!UICONTROL Strict Transport Security]_ est activée, elle g
 
 ## Limites de communication
 
-Les limites de communication contrôlent le nombre d’e-mails qu’un contact reçoit de votre organisation. Les limites que vous définissez sont partagées entre Journey Optimizer B2B edition et l’instance Marketo Engage connectée. La définition de ces limites garantit qu’un prospect ne reçoit pas plus d’un nombre maximal d’e-mails sur une période donnée.
+Les limites de communication contrôlent le nombre d’e-mails qu’un contact reçoit de votre organisation. Les limites que vous définissez sont partagées entre Journey Optimizer B2B Edition et l’instance Marketo Engage connectée. La définition de ces limites garantit qu’un même lead ne reçoit pas plus que le nombre maximal d’e-mails autorisé sur une période donnée.
 
 >[!AVAILABILITY]
 >
->Contactez l’assistance Adobe ou ouvrez un ticket d’assistance pour permettre le partage des limites de communication entre Journey Optimizer B2B edition et une ou plusieurs instances Marketo Engage.
+>Contactez l’assistance Adobe ou ouvrez un ticket d’assistance pour permettre le partage des limites de communication entre Journey Optimizer B2B Edition et une ou plusieurs instances Marketo Engage.
 
 >[!BEGINSHADEBOX]
 
@@ -95,19 +105,19 @@ Les limites de communication contrôlent le nombre d’e-mails qu’un contact r
 
 >[!ENDSHADEBOX]
 
-Par exemple, avec une limite définie de cinq e-mails par jour, le système garantit qu’un contact ne reçoit pas un sixième e-mail au cours de la journée en supprimant le sixième e-mail. Avec les limites de communication partagées entre Journey Optimizer B2B edition et Marketo Engage, les règles de limite de communication sont définies dans un emplacement. Le sixième e-mail est supprimé, quelle que soit l’action d’envoi provenant de Journey Optimizer B2B edition ou de Marketo Engage.
+Par exemple, avec une limite définie de cinq e-mails par jour, le système garantit qu’un contact ne reçoit pas un sixième e-mail au cours de la journée en supprimant le sixième e-mail. Lorsque les limites de communication sont partagées entre Journey Optimizer B2B Edition et Marketo Engage, les règles de limitation des communications sont définies à un seul endroit. Le sixième e-mail est supprimé, quelle que soit l’action d’envoi provenant de Journey Optimizer B2B Edition ou de Marketo Engage.
 
-Toutes les instances de production Marketo Engage ont des limites de communication définies par défaut (pour plus d’informations, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). Vous pouvez utiliser des limites de communication distinctes pour Journey Optimizer B2B edition et votre instance Marketo Engage de production. Pour utiliser les limites de communication partagées, définissez les règles dans Journey Optimizer B2B edition et étendez le partage de ces limites aux codes Marketo Munchkin.
+Toutes les instances de production Marketo Engage ont des limites de communication définies par défaut (pour plus d’informations, consultez la documentation de Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}). Vous pouvez utiliser des limites de communication distinctes pour Journey Optimizer B2B Edition et votre instance Marketo Engage de production. Pour utiliser les limites de communication partagées, définissez les règles dans Journey Optimizer B2B Edition, puis étendez leur application aux codes Munchkin de Marketo.
 
 >[!IMPORTANT]
 >
->Pour étendre l’ensemble de règles de communication aux codes Marketo Munchkin, contactez votre équipe de gestion de compte Adobe. Cette configuration fait généralement partie du processus d’intégration.
+>Pour étendre le jeu de règles de communication aux codes Munchkin de Marketo, contactez votre équipe de gestion de compte Adobe. Cette configuration fait généralement partie du processus d’intégration.
 
 Pour vérifier ou définir les règles de limite de communication, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**. Sous _[!UICONTROL E-mail]_ dans le panneau de navigation, sélectionnez **[!UICONTROL Limites de communication]**.
 
 ![Accéder à la configuration des limites de communication](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
-Par défaut, il existe un ensemble global de règles dans lequel vous pouvez définir, activer et désactiver plusieurs règles en fonction de vos besoins. Cliquez sur le nom de l’ensemble de règles pour afficher la liste des règles.
+Par défaut, il existe un jeu de règles global dans lequel vous pouvez définir, activer et désactiver plusieurs règles en fonction de vos besoins. Cliquez sur le nom du jeu de règles pour afficher la liste des règles.
 
 ### Créer une règle
 
@@ -159,7 +169,7 @@ Pour consulter les paramètres actuels, accédez à **[!UICONTROL Administration
 
 ![Accéder à la configuration SPF/DKIM](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
-Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Cliquez sur **[!UICONTROL Modifier les paramètres]** en haut à droite pour accéder aux options de configuration de l’instance Marketo Engage connectée.
+Les paramètres sont en lecture seule dans Journey Optimizer B2B Edition. Cliquez sur **[!UICONTROL Modifier les paramètres]** en haut à droite pour accéder aux options de configuration de l’instance Marketo Engage connectée.
 
 >[!NOTE]
 >
@@ -167,13 +177,13 @@ Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Clique
 
 ### Configuration SPF
 
-L’administrateur réseau doit ajouter la ligne suivante à vos entrées DNS :
+L’administrateur réseau doit ajouter la ligne suivante à vos entrées DNS :
 
 `[domain] IN TXT v=spf1 mx ip4:[corpIP] include:mktomail.com ~all`
 
 Dans cette entrée, remplacez `[domain]` par le domaine principal de votre site web (tel que `company.com`) et `[corpIP]` par l’adresse IP du serveur de messagerie de votre entreprise (tel que `255.255.255.255`). Si vous envoyez des e-mails provenant de plusieurs domaines via Marketo Engage, ajoutez cette entrée pour chaque domaine sur une seule ligne.
 
-Si vous avez déjà un enregistrement SPF existant dans l’entrée DNS, ajoutez-y ce qui suit :
+Si votre entrée DNS contient déjà un enregistrement SPF, ajoutez-y ce qui suit :
 
 `include:mktomail.com`
 
@@ -189,18 +199,18 @@ Pour plus d&#39;informations sur la configuration d&#39;une signature DKIM perso
 
 L’activité de robots d’e-mail peut gonfler par erreur les données d’ouverture et de clic de votre e-mail.
 
-Marketo Engage utilise deux méthodes pour confirmer l’activité des robots :
+Marketo Engage utilise deux méthodes pour confirmer l’activité des robots :
 
 * **Correspondance avec la liste Interactive Advertising Bureau (IAB)** - Les activités qui correspondent à tout ce qui figure sur la liste IAB UA/IP (Agent utilisateur/adresse IP) sont marquées comme des robots.
 
-* **Correspondance avec le modèle de proximité** - Lorsque plusieurs activités se produisent en même temps (dans la seconde), elles sont identifiées comme des robots. Cette méthode prend en compte les attributs suivants à des fins de comparaison :
+* **Correspondance avec le modèle de proximité** - Lorsque plusieurs activités se produisent en même temps (dans la seconde), elles sont identifiées comme des robots. Cette méthode prend en compte les attributs suivants à des fins de comparaison :
 
-   * ID de lead (doit être le même)
-   * Ressource e-mail (doit être la même)
-   * Clic sur un lien ou ouverture d’un e-mail
-   * Décalage horaire (doit être inférieur à une seconde)
+  * ID de lead (doit être le même)
+  * Ressource e-mail (doit être la même)
+  * Clic sur un lien ou ouverture d’un e-mail
+  * Décalage horaire (doit être inférieur à une seconde)
 
-Pour les activités de clic sur les liens d’e-mail et d’ouverture d’e-mail, les nouveaux attributs sont renseignés avec les valeurs suivantes :
+Pour les activités de clic sur un lien dans un e-mail et d’ouverture d’un e-mail, les nouveaux attributs sont renseignés avec les valeurs suivantes :
 
 * Les activités identifiées comme des robots ont _Activité de robot_ comme `True` et _Modèle d’activité de robot_ comme modèle/méthode identifié.
 * Les activités identifiées comme n’étant pas des robots ont _Activité de robot_ comme `False` et _Modèle d’activité de robot_ comme `N/A`.
@@ -210,7 +220,7 @@ Pour consulter les paramètres actuels, accédez à **[!UICONTROL Administration
 
 ![Accédez à la configuration de l’activité de robot pour la diffusion e-mail](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
-Les paramètres sont en lecture seule dans Journey Optimizer B2B edition. Cliquez sur **[!UICONTROL Modifier les paramètres]** en haut à droite pour accéder aux options de configuration de l’instance Marketo Engage connectée.
+Les paramètres sont en lecture seule dans Journey Optimizer B2B Edition. Cliquez sur **[!UICONTROL Modifier les paramètres]** en haut à droite pour accéder aux options de configuration de l’instance Marketo Engage connectée.
 
 >[!NOTE]
 >

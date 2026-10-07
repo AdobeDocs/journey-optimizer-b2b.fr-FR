@@ -4,31 +4,42 @@ description: Configurez les options Marketo Engage pour la diffusion e-mail B2B 
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: '1321'
 ht-degree: 70%
-
 ---
-
 # Configuration des e-mails
 
 Pour prendre en charge l’infrastructure de diffusion par e-mail fournie par l’instance Marketo Engage jointe, définissez les options d’e-mail suivantes. Un administrateur de produit Marketo Engage peut configurer ces paramètres en accédant à la zone **[!UICONTROL Admin]** dans l’instance Marketo Engage et en sélectionnant **[!UICONTROL E-mail]**.
@@ -43,7 +54,7 @@ Modifiez les valeurs de l’e-mail et du libellé De afin que les nouveaux e-mai
 
 >[!NOTE]
 >
->La modification s’applique uniquement aux e-mails que vous créez et non aux autres utilisateurs de Marketo Engage ou de Journey Optimizer B2B edition.
+>La modification s’applique uniquement aux e-mails que vous créez et non aux autres utilisateurs de Marketo Engage ou de Journey Optimizer B2B Edition.
 
 1. Accédez à la zone **[!UICONTROL Admin]** de l’instance Marketo Engage jointe et sélectionnez **[!UICONTROL E-mail]**.
 
@@ -114,7 +125,7 @@ Le contenu des e-mails présente des fonctionnalités d’affichage limitées (C
 
 Si vous devez revenir au contenu système par défaut, copiez et collez les éléments suivants :
 
-+++ Page web par défaut du système HTML
++++ Code HTML de la page web par défaut du système
 
 ```
 <div style="text-align: center"><font face="Verdana" size="1">To view this email as a web page, <a href="%mkt_webview_url%?mkt_tok=##MKT_TOK##">click here</a></font></div>
@@ -133,11 +144,11 @@ To view this email as a web page, go to the following address:
 
 ## Limites de récupération des objets personnalisés
 
-Si vous utilisez [!DNL Velocity Script] pour afficher des données d’objet personnalisées dans des e-mails, ajustez la limite de récupération de l’objet personnalisé parent. Par défaut, la limite autorise l’accès à 10 objets personnalisés parents à partir du script Velocity. Vous pouvez augmenter cette limite si nécessaire.
+Si vous utilisez [!DNL Velocity Script] pour afficher des données d’objet personnalisées dans des e-mails, ajustez la limite de récupération de l’objet personnalisé parent. Par défaut, cette limite permet d’accéder à 10 objets personnalisés parents depuis Velocity Script. Vous pouvez augmenter cette limite si nécessaire.
 
 [[!DNL Apache Velocity]](https://velocity.apache.org/) est un langage basé sur [!DNL Java] qui est conçu pour créer des modèles et des scripts de contenu HTML. L’infrastructure de messagerie de Marketo Engage prend en charge son utilisation dans le cadre des e-mails par le biais de jetons de script, qui permettent d’accéder aux données stockées dans des objets personnalisés.
 
-Vous pouvez référencer des objets personnalisés parents et enfants directement connectés au prospect ou au contact, mais pas des objets personnalisés de troisième niveau. Pour chaque objet personnalisé, les 10 enregistrements mis à jour le plus récemment par personne/contact sont disponibles au moment de l’exécution et sont triés de la plus récente mise à jour (à `0`) à la plus ancienne mise à jour (à `9`).
+Vous pouvez référencer des objets personnalisés parents et enfants directement liés au lead ou au contact, mais pas des objets personnalisés de troisième niveau. Pour chaque objet personnalisé, les 10 enregistrements mis à jour le plus récemment par personne/contact sont disponibles au moment de l’exécution et sont triés de la plus récente mise à jour (à `0`) à la plus ancienne mise à jour (à `9`).
 
 _Pour modifier la limite :_
 
@@ -174,15 +185,15 @@ Modifiez les _[!UICONTROL Options d’en-tête personnalisé]_ pour l’e-mail a
 
 ## Filtrer l’activité des robots d’e-mail {#filter-email-bots}
 
-L’activité des robots d’e-mail, également appelée interactions non humaines (NHI), peut gonfler les données d’e-mail _ouvertures_ et _clics_, ce qui fausse les mesures d’engagement et déclenche la progression du parcours basée sur un événement. Utilisez le filtrage des robots d’e-mail pour conserver l’intégrité des mesures et des informations d’engagement des clics. Deux méthodes permettent d’identifier une activité de robot suspectée :
+L’activité des robots d’e-mail, également appelée interactions non humaines (NHI), peut gonfler les données d’e-mail _ouvertures_ et _clics_, ce qui fausse les mesures d’engagement et déclenche la progression du parcours basée sur un événement. Utilisez le filtrage des robots d’e-mail pour conserver l’intégrité des mesures et des informations d’engagement des clics. Deux méthodes permettent d’identifier une activité de robots suspecte :
 
 * _&#x200B;**[!UICONTROL Correspondance avec la liste de robots IAB]**&#x200B;_ - Les activités qui correspondent à tout ce qui figure dans la [liste de robots interactive Advertising Bureau](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agent utilisateur/adresse IP) sont marquées comme des robots.
-* _&#x200B;**[!UICONTROL Correspondance avec le modèle de proximité]**&#x200B;_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
-   * ID de lead (doit être le même)
-   * Ressource e-mail (doit être la même)
-   * Clic sur un lien ou ouverture d’un e-mail
+* _&#x200B;**[!UICONTROL Correspondance avec le modèle de proximité]**&#x200B;_ - Deux activités ou plus qui se produisent en même temps (dans moins d’une seconde) sont identifiées comme des robots. Les attributs pris en compte lors de la comparaison sont les suivants :
+  * ID de lead (doit être le même)
+  * Ressource e-mail (doit être la même)
+  * Clic sur un lien ou ouverture d’un e-mail
 
-Pour les activités Clic sur les liens d’e-mail et Ouverture de l’e-mail , les attributs sont renseignés avec les valeurs suivantes :
+Pour les activités de clic sur un lien dans un e-mail et d’ouverture d’un e-mail, les attributs sont renseignés avec les valeurs suivantes :
 
 * Activités identifiées comme des robots : _Activité de robot_ = `true` et _Modèle d’activité de robot_ = modèle/méthode identifié.
 * Activités identifiées comme n’étant pas des robots - _Activité de robot_ = `false` et _Modèle d’activité de robot_ = `n/a`

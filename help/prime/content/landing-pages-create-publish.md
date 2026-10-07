@@ -8,21 +8,27 @@ autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 16%
-
+source-wordcount: '1562'
+ht-degree: 19%
 ---
-
 # Créer et publier des pages de destination
 
 En tant que marketeur, vous pouvez définir et publier les pages que vous souhaitez incorporer dans vos parcours. Lorsque vous ajoutez une nouvelle page de destination, vous configurez la page principale et les sous-pages, vous concevez le contenu, vous le testez et vous le publiez.
@@ -199,15 +205,15 @@ Il existe deux types d’alertes :
 
 * **_avertissements_** qui se rapportent aux recommandations et aux bonnes pratiques telles que :
 
-   * `Placeholder links are present in the landing page body` : n’oubliez pas de remplacer les espaces réservés par des liens valides.
+  * `Placeholder links are present in the landing page body` : n’oubliez pas de remplacer les espaces réservés par des liens valides.
 
-   * `Text version of HTML is empty` : n’oubliez pas de définir une version texte du corps de votre page, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
+  * `Text version of HTML is empty` : n’oubliez pas de définir une version texte du corps de votre page, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
-   * `Empty link is present in page body` : vérifiez que tous les liens de votre page sont corrects.
+  * `Empty link is present in page body` : vérifiez que tous les liens de votre page sont corrects.
 
 * **_Erreurs_** qui vous empêchent de tester ou d’activer le parcours tant qu’elles ne sont pas corrigées, telles que :
 
-   * `The landing page content is empty` : le contenu de la page est obligatoire.
+  * `The landing page content is empty` : le contenu de la page est obligatoire.
 
 ## Tester la page de destination {#test-landing-page}
 

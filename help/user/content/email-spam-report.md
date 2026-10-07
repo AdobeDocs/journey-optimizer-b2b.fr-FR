@@ -1,34 +1,41 @@
 ---
 title: Consulter le rapport sur les spams
-description: Générez des rapports de spam avec le score SpamAssassin afin de vérifier si les emails déclenchent des filtres de spam et améliorent la délivrabilité dans Journey Optimizer B2B edition.
+description: Générez des rapports de spam avec le score SpamAssassin afin de vérifier si les emails déclenchent des filtres de spam et améliorent la délivrabilité dans Journey Optimizer B2B Edition.
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+autotag-review: 2026-03-30T22:30:57.478Z
+TQID: 'https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-autotag-review: 2026-03-30T22:30:57.478Z
-TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+    internal-label: Email marketing
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '378'
 ht-degree: 2%
-
 ---
-
 # Consulter le rapport de spam
 
-De nombreux fournisseurs de boîte de réception et la plupart des systèmes d’entreprise utilisent un processus de filtrage du spam. L’envoi d’e-mails déclenchant ces filtres peut nuire gravement à la délivrabilité. Dans Journey Optimizer B2B edition, vous pouvez vérifier le score de spam du contenu des emails en générant un rapport sur les spams. Ce rapport utilise des [[!DNL SpamAssassin]](https://spamassassin.apache.org/) pour tester l&#39;e-mail et vous aide à déterminer si un message peut être considéré comme indésirable par les outils anti-spam. Vous pouvez utiliser les informations du rapport pour prendre des mesures qui améliorent le score et la délivrabilité du contenu des e-mails. Après avoir réglé le contenu, suivez le taux de rebond et la diffusion dans le [rapport sur les performances des e-mails](../dashboards/email-performance-dashboard.md).
+De nombreux fournisseurs de boîte de réception et la plupart des systèmes d’entreprise utilisent un processus de filtrage du spam. L’envoi d’e-mails déclenchant ces filtres peut nuire gravement à la délivrabilité. Dans Journey Optimizer B2B Edition, vous pouvez vérifier le score de spam du contenu des emails en générant un rapport sur les spams. Ce rapport utilise des [[!DNL SpamAssassin]](https://spamassassin.apache.org/) pour tester l&#39;e-mail et vous aide à déterminer si un message peut être considéré comme indésirable par les outils anti-spam. Vous pouvez utiliser les informations du rapport pour prendre des mesures qui améliorent le score et la délivrabilité du contenu des e-mails. Après avoir réglé le contenu, suivez le taux de rebond et la diffusion dans le [rapport sur les performances des e-mails](../dashboards/email-performance-dashboard.md).
 
 Lorsque vous passez en revue les paramètres de votre e-mail ou modifiez le contenu, ouvrez la page _[!UICONTROL Simuler]_ et générez un _Rapport sur les spams_ afin de passer en revue le score et les éléments marqués d&#39;un indicateur qui peuvent déclencher un filtrage anti-spam.
 

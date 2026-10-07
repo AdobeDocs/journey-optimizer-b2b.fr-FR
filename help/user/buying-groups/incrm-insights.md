@@ -1,29 +1,37 @@
 ---
 title: Insights In-CRM
-description: Accédez aux groupes d’achat Journey Optimizer B2B edition directement dans les CRM. Les membres de l’équipe des ventes peuvent afficher les données d’engagement et identifier les opportunités de vente avec des informations In-CRM.
+description: Accédez aux groupes d'achats Journey Optimizer B2B Edition directement dans les CRM. Les membres de l’équipe des ventes peuvent afficher les données d’engagement et identifier les opportunités de vente avec des informations In-CRM.
 feature: Sales Insights, Buying Groups
 role: User
 exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
+autotag-review: 2026-03-30T21:40:22.011Z
+TQID: 'https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T21:40:22.011Z
-TQID: https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '483'
 ht-degree: 2%
-
 ---
-
 # Insights In-CRM
 
 [!DNL In-CRM Insights] est une application web qui s’intègre à Salesforce et Microsoft Dynamics 365, ce qui vous permet d’accéder à des groupes d’achat [!DNL Journey Optimizer B2B Edition] directement dans votre CRM. Il rassemble des sources de données de vente, ce qui facilite l’identification des opportunités d’engagement et de potentiel de vente accrus.
@@ -63,7 +71,7 @@ Pour installer le package Insights dans le CRM, suivez les étapes pour Salesfor
 1. Approuvez l’accès tiers dans la boîte de dialogue, puis cliquez sur **[!UICONTROL Continuer]**.
 1. Une fois l’installation terminée, cliquez sur **[!UICONTROL Terminé]**.
 
-   Il est désormais répertorié sur la page **Packages installés** et **Journey Optimizer B2B edition** est répertorié dans le lanceur d’application.
+   Il est désormais répertorié sur la page **Packages installés** et **Journey Optimizer B2B Edition** est répertorié dans le lanceur d’application.
 
    ![Informations dans le CRM configurées dans Salesforce](assets/in-crm-install-sf-done.png){width=800 zoomable="yes"}
 
@@ -76,7 +84,7 @@ Pour installer le package Insights dans le CRM, suivez les étapes pour Salesfor
 1. Recherchez et chargez le package du programme d’installation, puis cliquez sur **[!UICONTROL Suivant]**.
 1. Vérifiez les détails du package et cliquez sur **[!UICONTROL Suivant]**.
 1. Sous _Variables d’environnement_, vérifiez que la valeur est définie sur `prod` (ne modifiez pas la valeur), puis cliquez sur **[!UICONTROL Importer]**.
-1. Une fois l’installation terminée, **[!UICONTROL Journey Optimizer B2B edition]** > **[!UICONTROL Groupes d’achats]** s’affiche sur la barre de navigation de gauche.
+1. Une fois l’installation terminée, **&#x200B;**&#x200B;> **[!UICONTROL Groupes d’achats]** s’affiche sur la barre de navigation de gauche.
 
    ![Insights in-CRM disponibles dans Microsoft Dynamics](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
 
@@ -84,4 +92,4 @@ Pour installer le package Insights dans le CRM, suivez les étapes pour Salesfor
 
 Suivez les invites pour vous connecter à votre compte Adobe. Vos groupes d&#39;achats sont chargés et peuvent être consultés.
 
-Après avoir sélectionné un groupe d&#39;achats, vous pouvez parcourir les [détails du groupe](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Il s’agit du même que les données et les informations affichées dans Journey Optimizer B2B edition, mais les données sont en lecture seule via [!DNL In-CRM Insights].
+Après avoir sélectionné un groupe d&#39;achats, vous pouvez parcourir les [détails du groupe](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Il s’agit du même que les données et les informations affichées dans Journey Optimizer B2B Edition, mais les données sont en lecture seule via [!DNL In-CRM Insights].

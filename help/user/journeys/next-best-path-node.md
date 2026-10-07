@@ -1,29 +1,37 @@
 ---
 title: Nœud du meilleur chemin suivant
-description: Utilisez la prise de décision pilotée par l’IA pour acheminer les personnes le long du chemin de parcours le plus pertinent en fonction des invites de langage naturel, des données comportementales et du contexte de profil en temps réel dans Journey Optimizer B2B edition.
+description: Utilisez la prise de décision pilotée par l’IA pour acheminer les personnes le long du chemin de parcours le plus pertinent en fonction des invites de langage naturel, des données comportementales et du contexte de profil en temps réel dans Journey Optimizer B2B Edition.
 feature: Account Journeys, AI Assistant
 role: User
 autotag-review: '2026-05-20T18:52:08.227Z'
 TQID: 'https://experienceleague.adobe.com/idPaG-ZNnNwJjN8yVC3Ay1FZ2XPgtQgrSMNIus4fReI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Behavioral data
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1913
+source-wordcount: '1913'
 ht-degree: 0%
-
 ---
-
 # Nœud du meilleur chemin suivant
 
 Le nœud _Meilleur chemin suivant_ apporte la prise de décision de chemin partagé pilotée par l’IA directement dans la zone de travail du parcours. Au lieu de configurer des conditions de filtrage sur un nœud [chemins partagés](./split-merge-paths-nodes.md), vous décrivez votre intention en langage naturel et laissez le système déterminer le chemin le plus pertinent pour chaque personne.

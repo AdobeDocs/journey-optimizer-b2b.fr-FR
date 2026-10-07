@@ -1,6 +1,6 @@
 ---
 title: Création WhatsApp
-description: Créez des messages WhatsApp pour les parcours de compte à l’aide de modèles Meta approuvés, de jetons de personnalisation et de paramètres de diffusion dans Journey Optimizer B2B edition.
+description: Créez des messages WhatsApp pour les parcours de compte à l’aide de modèles Meta approuvés, de jetons de personnalisation et de paramètres de diffusion dans Journey Optimizer B2B Edition.
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
@@ -8,33 +8,47 @@ autotag-review: '2026-05-27T16:19:44.490Z'
 TQID: 'https://experienceleague.adobe.com/B368ny2Y9BSzsE7CClVIbVr-5Kha5d2pTiNiDGCwML4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 828
-ht-degree: 20%
-
+source-wordcount: '828'
+ht-degree: 22%
 ---
-
 # Création WhatsApp
 
-Utilisez Adobe Journey Optimizer B2B edition pour envoyer des messages WhatsApp aux membres du compte sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages en utilisant des modèles de messages Meta approuvés à partir de l&#39;éditeur WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
+Utilisez Adobe Journey Optimizer B2B Edition pour envoyer des messages WhatsApp aux membres du compte sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages en utilisant des modèles de messages Meta approuvés à partir de l&#39;éditeur WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 Avant de créer des messages WhatsApp pour les parcours de compte, assurez-vous que le canal [WhatsApp](../admin/configure-channels-whatsapp.md) nécessaire est configuré dans les paramètres _[!UICONTROL Administrateur]_.
 
 
 >[!NOTE]
 >
->Seuls les éléments de message _sortant_ WhatsApp sont pris en charge dans Journey Optimizer B2B edition.
+>Seuls les éléments de message _sortant_ WhatsApp sont pris en charge dans Journey Optimizer B2B Edition.
 
 +++ Éléments de message pris en charge et options d’appels à l’action
 
@@ -46,12 +60,12 @@ Les types de messages pris en charge dans WhatsApp sont les suivants :
 | Texte | Prend en charge le contenu dynamique par le biais de paramètres. |
 | Images (JPEG, PNG) | Doivent être au format RGB ou RGBA 8 bits et d’une taille inférieure à 5 Mo. |
 | Vidéos | Doit être 3GPP ou MP4, de moins de 16 Mo, et hébergé par URL. |
-| Audio | Disponible uniquement pour les messages de réponse. Doit être au format AAC, AMR, MP3, MP4 audio ou OGG, hébergé via une URL et d’une taille inférieure à 16 Mo. |
+| Audio | Disponible uniquement pour les messages de réponse. Le fichier doit être au format AAC, AMR, MP3, MP4 audio ou OGG, être hébergé sur une URL et avoir une taille inférieure à 16 Mo. |
 | Documents | Doit être inférieur à 100 Mo, hébergé sur une URL et dans l’un des formats suivants : `.txt`, `.xls`/`.xlsx`, `.doc`/`.docx`, `.ppt`/`.pptx` ou `.pdf`. |
 | Corps de texte | Prend en charge le contenu dynamique par le biais de paramètres. |
 | Texte du pied de page | Prend en charge le contenu dynamique par le biais de paramètres. |
 
-Les options call-to-action suivantes sont disponibles pour vos messages WhatsApp :
+Les options d’appel à l’action suivantes sont disponibles pour vos messages WhatsApp :
 
 | Call to action | Description |
 | - | - |
@@ -99,7 +113,7 @@ Vous pouvez configurer des diffusions de messages WhatsApp dans un parcours de c
 
 ### Sélectionner un modèle de message
 
-Les messages WhatsApp sont envoyés à l&#39;aide de modèles de messages préapprouvés depuis votre compte professionnel Meta WhatsApp. **Les modèles doivent être examinés et approuvés par Meta** avant de pouvoir les utiliser dans Journey Optimizer B2B edition. Pour gérer et envoyer des modèles à approuver, contactez l’administrateur de votre compte [!DNL Meta Business Manager].
+Les messages WhatsApp sont envoyés à l&#39;aide de modèles de messages préapprouvés depuis votre compte professionnel Meta WhatsApp. **Les modèles doivent être examinés et approuvés par Meta** avant de pouvoir les utiliser dans Journey Optimizer B2B Edition. Pour gérer et envoyer des modèles à approuver, contactez l’administrateur de votre compte [!DNL Meta Business Manager].
 
 1. Pour **[!UICONTROL Sélectionner une catégorie de modèles]**, choisissez l’une des options suivantes :
 
@@ -117,7 +131,7 @@ Les messages WhatsApp sont envoyés à l&#39;aide de modèles de messages préap
 
 ### URL des images
 
-Si votre modèle comprend des images, utilisez le champ **[!UICONTROL URL de l’image]** pour ajouter des URL de média afin de remplacer tous les espaces réservés dans votre modèle. Les médias de modèles Meta ne sont que des espaces réservés. Pour afficher correctement des images, des données audio ou vidéo, vous devez utiliser des URL externes provenant d’Adobe Experience Manager ou d’autres sources.
+Si votre modèle comprend des images, utilisez le champ **[!UICONTROL URL de l’image]** pour ajouter des URL de média afin de remplacer tous les espaces réservés dans votre modèle. Les médias des modèles Meta sont uniquement des espaces réservés. Pour afficher correctement les images, l’audio ou la vidéo, vous devez utiliser des URL externes provenant d’Adobe Experience Manager ou d’autres sources.
 
 ### Personnaliser le contenu du message
 

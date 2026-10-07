@@ -1,33 +1,39 @@
 ---
 title: Utiliser l’Assets d’image interne
-description: 'Parcourez, gérez et utilisez des ressources Journey Optimizer B2B edition : organisez des dossiers, modifiez des images et créez du contenu pour les parcours de compte.'
+description: 'Parcourez, gérez et utilisez des ressources Journey Optimizer B2B Edition : organisez des dossiers, modifiez des images et créez du contenu pour les parcours de compte.'
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # Utilisation des ressources d’image internes
 
 Le référentiel de ressources d’images interne est la source de ressources d’image par défaut. Vous pouvez facilement gérer et utiliser les ressources disponibles pour concevoir du contenu qui prend en charge les parcours de votre compte.
 
-Vous disposez de l’ensemble des fonctions de gestion des ressources dans Journey Optimizer B2B edition. Ces fonctions incluent :
+Vous disposez de l’ensemble des fonctions de gestion des ressources dans Journey Optimizer B2B Edition. Ces fonctions incluent :
 
 * [Remplacer](#replace-assets)
 * [Supprimer](#delete-assets)
@@ -36,7 +42,7 @@ Vous disposez de l’ensemble des fonctions de gestion des ressources dans Journ
 
 ## Parcourir et accéder aux ressources
 
-Pour accéder aux ressources internes dans Journey Optimizer B2B edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Assets]**. Cette action ouvre une page de liste contenant toutes les ressources répertoriées.
+Pour accéder aux ressources internes dans Journey Optimizer B2B Edition, accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Assets]**. Cette action ouvre une page de liste contenant toutes les ressources répertoriées.
 
 ![Parcourir les ressources d’image](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -58,13 +64,13 @@ Cliquez sur le nom d’une ressource pour ouvrir la page des détails de la ress
 
 ## Afficher les références de ressources utilisées par
 
-Dans la page des détails de la ressource, cliquez sur l’onglet **[!UICONTROL Utilisé par]** pour afficher des détails sur l’emplacement où la ressource est actuellement utilisée dans Journey Optimizer B2B edition, dans les e-mails, les modèles d’e-mail et les fragments.
+Dans la page des détails de la ressource, cliquez sur l’onglet **[!UICONTROL Utilisé par]** pour afficher des détails sur l’emplacement où la ressource est actuellement utilisée dans Journey Optimizer B2B Edition, dans les e-mails, les modèles d’e-mail et les fragments.
 
 >[!IMPORTANT]
 >
 >Toute ressource actuellement _EN COURS D’UTILISATION_ dans l’un des e-mails, modèles d’e-mail ou fragments **ne peut pas** être supprimée.
 
-Le panneau affiche les références par catégorie : _e-mail_, _modèle d’e-mail_ ou _fragment_. Les e-mails dans Journey Optimizer B2B edition sont incorporés et créés dans des parcours, de sorte que le parcours parent de l’e-mail qui utilise la ressource s’affiche dans les références.
+Le panneau affiche les références par catégorie : _e-mail_, _modèle d’e-mail_ ou _fragment_. Les e-mails dans Journey Optimizer B2B Edition sont incorporés et créés dans des parcours. De ce fait, le parcours parent de l’e-mail qui utilise la ressource est affiché dans les références.
 
 Cliquer sur le lien vous redirige vers l’e-mail, le modèle d’e-mail ou le fragment correspondant où la ressource est utilisée.
 
@@ -72,7 +78,7 @@ Cliquer sur le lien vous redirige vers l’e-mail, le modèle d’e-mail ou le f
 
 ## Ajout de ressources
 
-Dans la page de liste __, vous pouvez ajouter des ressources d’image au référentiel de ressources de Journey Optimizer B2B edition.
+Dans la page de liste __, vous pouvez ajouter des ressources d’image au référentiel de ressources de Journey Optimizer B2B Edition.
 
 1. Cliquez sur **[!UICONTROL Ajouter Assets]** en haut à droite.
 
@@ -112,7 +118,7 @@ Si la ressource est en cours d’utilisation, l’action ouvre une boîte de dia
 
 ## Remplacement de ressources
 
-Utilisez l’une des méthodes suivantes pour remplacer une ressource résidant dans le référentiel de ressources _[!UICONTROL Journey Optimizer B2B edition]_ :
+Utilisez l’une des méthodes suivantes pour remplacer une ressource résidant dans le référentiel de ressources __ :
 
 * Accédez aux détails de la ressource, cliquez sur **[!UICONTROL ... Plus]** en haut à droite, puis choisissez **[!UICONTROL Remplacer]** dans les options.
 
@@ -142,7 +148,7 @@ Dans la page de liste (_[!UICONTROL Gestion de contenu]_ > _[!UICONTROL Assets]_
 
 ![&#x200B; Ressources sélectionnées &#x200B;](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélectionnées résidant dans le référentiel de ressources _[!UICONTROL Journey Optimizer B2B edition]_ :
+Vous pouvez effectuer les actions en bloc suivantes pour les ressources sélectionnées résidant dans le référentiel de ressources __ :
 
 +++Déplacer des ressources
 
@@ -280,8 +286,8 @@ Cette action modifie le panneau Outils qui affiche une liste des ressources disp
 
   Plusieurs outils sont disponibles pour vous aider à localiser la ressource dont vous avez besoin :
 
-   * Cliquez sur l’icône _Filtrer_ en haut à gauche pour filtrer les éléments affichés en fonction de vos critères.
+  * Cliquez sur l’icône _Filtrer_ en haut à gauche pour filtrer les éléments affichés en fonction de vos critères.
 
-   * Saisissez du texte dans le champ _Rechercher_ pour filtrer les éléments affichés afin qu’ils correspondent au nom de la ressource.
+  * Saisissez du texte dans le champ _Rechercher_ pour filtrer les éléments affichés afin qu’ils correspondent au nom de la ressource.
 
   ![Utilisez les filtres et le champ de recherche pour trouver la ressource dont vous avez besoin](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
