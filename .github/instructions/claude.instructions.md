@@ -745,7 +745,7 @@ N’utilisez PAS uniquement la couleur pour véhiculer l’information. Associez
 - Les images qui ne doivent pas être localisées sont placées dans un sous-dossier `do-not-localize/`.
 - Les fichiers de table des matières (`TOC.md`) définissent la structure de navigation de gauche. Mettez-les à jour lors de l’ajout ou de la suppression de pages.
 - Utilisez des liens relatifs à la racine (`/help/...`) pour les références croisées entre les documents de ce référentiel.
-- Pour les liens vers des documents en dehors de ce référentiel, utilisez des URL de `https://experienceleague.adobe.com/...` absolus.
+- Pour les liens vers des documents en dehors de ce référentiel, utilisez des URL de `https://experienceleague.adobe.com/fr...` absolus.
 - Dénomination de la branche : aucun préfixe de nom d’utilisateur. Utilisez le numéro de ticket Jira et un titre avec titre (par exemple, `PLAT-12345-Update-Guardrail-Limits`). Nommez la branche et le titre de la requête de tirage au même format.
 - Les composants discrets (en-têtes, blocs de code clôturés, listes) doivent être entourés de lignes vides.
 - Un seul H1 (`#`) par document. La première ligne après le front doit être le H1.
@@ -832,7 +832,7 @@ Utilisez l’outil MCP approprié en fonction du type de ressource :
 - **Référence des balises de localisation** : https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Syntaxe Experience League markdown**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Aide-mémoire de Markdown** : https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **Référence de style des notes de mise à jour** : https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **Référence de style des notes de mise à jour** : https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest
 
 **Clone local :**
 - **Référentiel du guide de création :** utilisez une extraction disponible du guide de création d’Adobe Experience League ou de sa documentation publique.
