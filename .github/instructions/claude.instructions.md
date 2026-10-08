@@ -10,7 +10,7 @@ ht-degree: 1%
 
 Vous assistez un rédacteur technique dans le référentiel de documentation publique Adobe Experience League (`journey-optimizer-b2b.en`). Chaque élément de contenu que vous rédigez, modifiez ou révisez DOIT respecter toutes les règles ci-dessous. En cas de doute sur la terminologie, consultez les wikis référencés en utilisant l&#39;outil Confluence MCP (`mcp__adobe-wiki-confluence`).
 
----
+&#x200B;---
 
 ## &#x200B;1. Voix, ton et style
 
@@ -71,7 +71,7 @@ Les assistants d’IA et les outils de recherche font de plus en plus apparaîtr
 - Incluez des synonymes ou d’autres termes lors de la première utilisation (par exemple, « ECID (Experience Cloud ID) ») pour améliorer la récupération des expressions de requête variées.
 - Assurez-vous que les champs de métadonnées (titre, description, balises de fonctionnalité) sont complets et précis.
 
----
+&#x200B;---
 
 ## &#x200B;2. Syntaxe d’Adobe Markdown (Experience League)
 
@@ -106,7 +106,7 @@ Champs facultatifs supplémentaires utilisés dans ce référentiel : `solution`
 - Commencez la description des tâches par « Découvrez comment... » ou un verbe impératif.
 - Ne commencez PAS par le nom du produit. Commencez par le verbe SEO.
 - Ne copiez PAS le premier paragraphe mot pour mot (objectif différent).
-- Si un champ de métadonnées commence par une balise `[!DNL]` ou ``, placez la valeur entière du champ entre guillemets ou la validation échoue.
+- Si un champ de métadonnées commence par une balise `[!DNL]` ou &grave;&grave;, placez la valeur entière du champ entre guillemets ou la validation échoue.
 
 ### Titres
 
@@ -364,7 +364,7 @@ Mettez en gras chaque touche individuelle dans un raccourci clavier : **cmd** + 
 - Évitez les noms de fichier en conflit avec JavaScript/CSS : `metadata.md`, `search.md`.
 - Noms de fichiers de ressources : minuscules préférées ; majuscules et traits de soulignement autorisés, mais non recommandés.
 
----
+&#x200B;---
 
 ## &#x200B;3. Balises de localisation (CRITIQUE)
 
@@ -400,7 +400,7 @@ Utilisez pour les noms de produits de marque qui doivent rester en anglais.
 **Formatage:**
 - Gras dans les étapes et la navigation : `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Italique acceptable dans le texte conceptuel (sans étape) pour plus de clarté.
-- Dans les tableaux HTML : utilisez `<span class="uicontrol">term</span>` au lieu de ``.
+- Dans les tableaux HTML : utilisez `<span class="uicontrol">term</span>` au lieu de &grave;&grave;.
 - Dans le texte du lien : supprimez les crochets de balise.
 
 **Majuscules :** faites correspondre exactement l’interface.
@@ -429,9 +429,9 @@ Non nécessaire dans les blocs de code. Ils ne sont pas localisés par défaut.
 
 **Ne peut pas être utilisé dans :** blocs de code, acronymes.
 
-**Règle de métadonnées :** si un champ de métadonnées (titre ou description) commence par une balise `[!DNL]` ou ``, placez toute la valeur du champ entre guillemets ou la validation échoue.
+**Règle de métadonnées :** si un champ de métadonnées (titre ou description) commence par une balise `[!DNL]` ou &grave;&grave;, placez toute la valeur du champ entre guillemets ou la validation échoue.
 
----
+&#x200B;---
 
 ## &#x200B;4. Structure des informations et types de contenu
 
@@ -505,7 +505,7 @@ hide: yes
 
 Cela exclut la page de la recherche externe et interne. La définition de `hide: yes` définit automatiquement les `index: no`. Utilisez cette fonction en plus de la `{hide-from-toc}` lorsque vous souhaitez masquer une page de la navigation et de la recherche.
 
----
+&#x200B;---
 
 ## &#x200B;5. Terminologie et valorisation de marque
 
@@ -603,7 +603,7 @@ Ces termes apparaissent dans Jira, les wikis et les discussions internes, mais n
 | Fréquence | terme publicitaire non visible par l&#39;utilisateur |
 | Pipeline | terme interne de l’infrastructure Adobe |
 
----
+&#x200B;---
 
 ## &#x200B;6. Langue inclusive et accessibilité
 
@@ -694,7 +694,7 @@ N’utilisez PAS uniquement la couleur pour véhiculer l’information. Associez
 - Incluez des légendes significatives sur toutes les vidéos.
 - Si possible, lien vers des instructions écrites : « Pour obtenir des instructions écrites, voir [lien]. »
 
----
+&#x200B;---
 
 ## &#x200B;7. Orthographe et ponctuation
 
@@ -724,7 +724,7 @@ N’utilisez PAS uniquement la couleur pour véhiculer l’information. Associez
 - Deux-points : permet d’introduire une liste. Mettez une majuscule au premier mot après deux points lorsqu’une phrase complète suit (ou le mot est un nom propre).
 - Pas de point-virgule. Utilisez plutôt un point et une nouvelle phrase.
 
----
+&#x200B;---
 
 ## &#x200B;8. Optimisation du moteur de recherche et facilité de recherche
 
@@ -736,7 +736,7 @@ N’utilisez PAS uniquement la couleur pour véhiculer l’information. Associez
 - Métadonnées de description : utilisez le langage naturel avec des mots-clés. N’entassez PAS de mots-clés aléatoires. Google peut rétrograder le contenu pour le remplissage de mots-clés.
 - Veillez à ce que les champs de métadonnées (titre, description, balises de fonctionnalité) soient complets et précis. Les surfaces de découverte utilisent des métadonnées pour filtrer et classer les résultats avant de lire le contenu de la page.
 
----
+&#x200B;---
 
 ## &#x200B;9. Conventions de fichier et de référentiel
 
@@ -750,7 +750,7 @@ N’utilisez PAS uniquement la couleur pour véhiculer l’information. Associez
 - Les composants discrets (en-têtes, blocs de code clôturés, listes) doivent être entourés de lignes vides.
 - Un seul H1 (`#`) par document. La première ligne après le front doit être le H1.
 
----
+&#x200B;---
 
 ## &#x200B;10. Vérifier la liste de contrôle
 
@@ -781,7 +781,7 @@ Lors de la révision ou de la modification de la documentation, vérifiez chaque
 - [ ] Non « le » avant les noms de produit (par exemple, pas « le Adobe Experience Platform »).
 
 **Balises de localisation**
-- [ ] `` sur tous les noms d’éléments de l’interface utilisateur ; en gras dans les étapes
+- [ ] &grave;&grave; sur tous les noms d’éléments de l’interface utilisateur ; en gras dans les étapes
 - [ ] `[!DNL]` sur tous les noms de produits et de tiers
 - [ ] opérateurs booléens identifiés : `[!DNL AND]`, `[!DNL OR]`
 - [ ] Aucune balise dans les blocs de code
@@ -811,7 +811,7 @@ Lors de la révision ou de la modification de la documentation, vérifiez chaque
 - [ ] Les noms de fichier sont en minuscules, avec des tirets et des lignes de rappel descriptives (non `overview.md`)
 - [ ] des images dans `assets/` ; images non localisées dans `do-not-localize/`
 
----
+&#x200B;---
 
 ## &#x200B;11. Références externes
 
