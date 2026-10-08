@@ -1,35 +1,42 @@
 ---
 title: Espaces de noms et schémas B2B
-description: Configurez les espaces de noms et les schémas B2B d’Experience Platform pour Journey Optimizer B2B edition à l’aide de l’utilitaire de génération automatique de Postman.
+description: Configurez les espaces de noms et les schémas B2B d’Adobe Experience Platform pour Journey Optimizer B2B Edition à l’aide de l’utilitaire de génération automatique Postman.
 feature: Setup, Data Management
 role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+    internal-label: Real-Time Customer Data Platform B2B Edition
 feature_v2:
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
 workflow-type: tm+mt
-source-wordcount: 1003
-ht-degree: 87%
-
+source-wordcount: '1029'
+ht-degree: 84%
 ---
-
 # Espaces de noms et schémas B2B
 
-La configuration de Journey Optimizer B2B edition comprend la configuration des espaces de noms et des schémas Experience Platform utilisés avec les sources B2B. L’utilitaire d’automatisation Postman est nécessaire pour générer des espaces de noms et des schémas B2B.
+La configuration de Journey Optimizer B2B Edition comprend la configuration des espaces de noms et des schémas Experience Platform utilisés avec les sources B2B. L’utilitaire d’automatisation Postman est nécessaire pour générer des espaces de noms et des schémas B2B.
 
 >[!AVAILABILITY]
 >
@@ -38,6 +45,8 @@ La configuration de Journey Optimizer B2B edition comprend la configuration des 
 >- Vos entités B2B Experience Platform doivent utiliser les relations standard décrites dans le guide [&#x200B; Espaces de noms et schémas B2B &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
 Consultez les informations suivantes sur la configuration sous-jacente des espaces de noms et des schémas à utiliser avec les sources B2B. Elle fournit également des détails sur la configuration de votre utilitaire d’automatisation Postman, qui est nécessaire pour générer des espaces de noms et des schémas B2B.
+
+Pour un résumé de tous les jeux de données exportés et des détails au niveau du champ pour les jeux de données clés, consultez [Jeux de données d’exportation Adobe Journey Optimizer B2B Edition Adobe Experience Platform](./aep-exported-datasets.md).
 
 ## Configuration de l’utilitaire de génération automatique
 
@@ -56,15 +65,15 @@ Avec une Developer Console et une configuration [!DNL Postman] d’Experience Pl
 | --- | --- | --- |
 | `CLIENT_SECRET` | Identifiant unique utilisé pour générer votre `{ACCESS_TOKEN}`. | `{CLIENT_SECRET}` |
 | `API_KEY` | Identifiant unique utilisé pour authentifier les appels aux API Experience Platform. | `c8d9a2f5c1e03789bd22e8efdd1bdc1b` |
-| `ACCESS_TOKEN` | Jeton d’autorisation requis pour effectuer des appels vers les API Experience Platform. | `Bearer {ACCESS_TOKEN}` |
+| `ACCESS_TOKEN` | Jeton d’autorisation requis pour effectuer des appels vers les API d’Experience Platform. | `Bearer {ACCESS_TOKEN}` |
 | `META_SCOPE` | En ce qui concerne [!DNL Journey Optimizer B2B] et [!DNL Marketo Engage], cette valeur est fixe et est toujours définie sur : `ent_dataservices_sdk`. | `ent_dataservices_sdk` |
 | `CONTAINER_ID` | Le conteneur `global` contient toutes les classes, groupes de champs de schéma, types de données et schémas fournis par les partenaires standard d’Adobe et d’Experience Platform. En ce qui concerne [!DNL Marketo], cette valeur est fixe et est toujours définie sur `global`. | `global` |
 | `TECHNICAL_ACCOUNT_ID` | Informations d’identification utilisées pour intégrer à Adobe I/O. | `D42AEVJZTTJC6LZADUBVPA15@techacct.adobe.com` |
-| `IMS` | Le système Identity Management (IMS) fournit la structure pour l’authentification aux services Adobe. En ce qui concerne [!DNL Journey Optimizer B2B] et [!DNL Marketo Engage], cette valeur est fixe et est toujours définie sur : `ims-na1.adobelogin.com`. | `ims-na1.adobelogin.com` |
+| `IMS` | Le système de gestion des identités (IMS) fournit le cadre pour l’authentification auprès des services Adobe. En ce qui concerne [!DNL Journey Optimizer B2B] et [!DNL Marketo Engage], cette valeur est fixe et est toujours définie sur : `ims-na1.adobelogin.com`. | `ims-na1.adobelogin.com` |
 | `IMS_ORG` | Entité d’entreprise pouvant posséder des produits et services ou en obtenir la licence et permettre l’accès à ses membres. | `ABCEH0D9KX6A7WA7ATQE0TE@adobeOrg` |
 | `SANDBOX_NAME` | Nom de la partition de sandbox virtuelle que vous utilisez. | `prod` |
 | `TENANT_ID` | Identifiant utilisé pour s’assurer que les ressources que vous créez ont un espace de noms correct et sont contenues dans votre organisation. | `b2bcdpproductiontest` |
-| `PLATFORM_URL` | Point d’entrée de l’URL vers lequel vous effectuez des appels API. Cette valeur est fixe et est toujours définie sur : `http://platform.adobe.io/`. | `http://platform.adobe.io/` |
+| `PLATFORM_URL` | Point d’entrée de l’URL vers laquelle vous effectuez des appels API. Cette valeur est fixe et est toujours définie sur : `http://platform.adobe.io/`. | `http://platform.adobe.io/` |
 
 {style="table-layout:auto"}
 
@@ -91,18 +100,18 @@ Les espaces de noms B2B sont utilisés dans l’identité principale de l’enti
 | Personne B2B | `b2b_person` | `CROSS_DEVICE` |
 | Compte B2B | `b2b_account` | `B2B_ACCOUNT` |
 | Opportunité B2B | `b2b_opportunity` | `B2B_OPPORTUNITY` |
-| Relation de la personne avec l’opportunité B2B | `b2b_opportunity_person_relation` | `B2B_OPPORTUNITY_PERSON` |
+| Relation opportunité/personne B2B | `b2b_opportunity_person_relation` | `B2B_OPPORTUNITY_PERSON` |
 | Campagne B2B | `b2b_campaign` | `B2B_CAMPAIGN` |
 | Membre de la campagne B2B | `b2b_campaign_member` | `B2B_CAMPAIGN_MEMBER` |
 | Liste marketing B2B | `b2b_marketing_list` | `B2B_MARKETING_LIST` |
 | Membre de la liste marketing B2B | `b2b_marketing_list_member` | `B2B_MARKETING_LIST_MEMBER` |
-| Relation avec la personne du compte B2B | `b2b_account_person_relation` | `B2B_ACCOUNT_PERSON` |
+| Relation compte/personne B2B | `b2b_account_person_relation` | `B2B_ACCOUNT_PERSON` |
 
 {style="table-layout:auto"}
 
 ## Schémas B2B
 
-Experience Platform utilise des schémas pour décrire la structure des données de manière cohérente et réutilisable. En définissant les données de manière cohérente sur l’ensemble des systèmes, il est plus simple de leur donner du sens et donc d’en tirer profit.
+Experience Platform utilise des schémas pour décrire la structure des données de manière cohérente et réutilisable. En définissant les données de manière cohérente sur l’ensemble des systèmes, il est plus simple de leur donner du sens et donc d’en tirer profit.
 
 Avant qu’Experience Platform puisse ingérer des données, un schéma doit décrire la structure des données et fournir des contraintes sur le type de données pouvant être contenu dans chaque champ. Les schémas se composent d’une classe de base et de zéro ou plusieurs groupes de champs.
 
@@ -141,7 +150,7 @@ Pour plus d’informations sur le modèle de composition de schémas, y compris 
     </tr>
     <tr>
         <td>Relations</td>
-        <td><ul><li><code>accountParentKey.sourceKey</code> dans le groupe de champs Détails du compte professionnel XDM .</li><li>Propriété de destination : <code>/accountKey/sourceKey</code></li><li>Type : un à un</li><li>Schéma de référence : compte B2B</li><li>Espace De Noms : Compte B2B</li></ul> </td>
+        <td><ul><li><code>accountParentKey.sourceKey</code> dans le groupe de champs Détails du compte professionnel XDM</li><li>Propriété de destination : <code>/accountKey/sourceKey</code></li><li>Type : un à un</li><li>Schéma de référence : compte B2B</li><li>Espace De Noms : Compte B2B</li></ul> </td>
     </tr>
 </table>
 
@@ -156,7 +165,7 @@ Pour plus d’informations sur le modèle de composition de schémas, y compris 
     </tr>
     <tr>
         <td>Groupes de champs</td>
-        <td><ul><li>Détails de professionnel XDM</li><li>Composants de professionnel XDM</li><li>IdentityMap</li><li>Détails relatifs au consentement et aux préférences</li></ul> </td>
+        <td><ul><li>Détails de l’entrepreneur XDM</li><li>Composants de l’entrepreneur XDM</li><li>IdentityMap</li><li>Détails relatifs au consentement et aux préférences</li></ul> </td>
     </tr>
     <tr>
         <td>[!DNL Profile] dans le schéma</td>
@@ -164,7 +173,7 @@ Pour plus d’informations sur le modèle de composition de schémas, y compris 
     </tr>
     <tr>
         <td>Identité principale</td>
-        <td><code>b2b.personKey.sourceKey</code> dans le groupe de champs Détails professionnels XDM .</td>
+        <td><code>b2b.personKey.sourceKey</code> dans le groupe de champs Détails de l’entrepreneur XDM</td>
     </tr>
     <tr>
         <td>Espace de noms d’identité principal</td>
@@ -180,7 +189,7 @@ Pour plus d’informations sur le modèle de composition de schémas, y compris 
     </tr>
     <tr>
         <td>Relations</td>
-        <td><ul><li><code>personComponents.sourceAccountKey.sourceKey</code> du groupe de champs Composants professionnels XDM .</li><li>Type : plusieurs à un</li><li>Schéma De Référence : Compte B2B</li><li>Espace De Noms : Compte B2B</li><li>Propriété de destination : accountKey.sourceKey</li><li>Nom de la relation à partir du schéma actuel : Compte</li><li>Nom de la relation du schéma de référence : Personnes</li></ul> </td>
+        <td><ul><li><code>personComponents.sourceAccountKey.sourceKey</code> du groupe de champs Composants professionnels XDM .</li><li>Type : plusieurs à un</li><li>Schéma de référence : compte B2B</li><li>Espace De Noms : Compte B2B</li><li>Propriété de destination : accountKey.sourceKey</li><li>Nom de la relation à partir du schéma actuel : Compte</li><li>Nom de la relation du schéma de référence : Personnes</li></ul> </td>
     </tr>
 </table>
 
