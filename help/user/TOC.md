@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: e8e17689063cb0c279fca63afbd9c6e865d23772
+source-git-commit: f48abc33799fdcd310b3479d32301795c82a32d0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 83%
+source-wordcount: '451'
+ht-degree: 82%
 ---
 
 # Guide d’utilisation de Journey Optimizer B2B Edition {#user}
@@ -25,6 +25,9 @@ ht-degree: 83%
     + [Gestion des utilisateurs et utilisatrices](./admin/user-management.md)
   + [Intégration des utilisateurs](./start/get-started.md)
   + [Connexion et page d’accueil](home-page.md)
++ Données {#data}
+  + [Disponibilité des données et synchronisation temporelle](./data/data-availability-timing.md)
+  + [Jeux de données exportés](./data/aep-exported-datasets.md)
 + Fonctionnalités d’IA {#ai-assistant}
   + [Présentation](./ai-coworker/ai-assistant-overview.md)
   + [Activer l’accès à l’assistant IA](./ai-coworker/enable-ai-assistant-access.md)
@@ -45,7 +48,7 @@ ht-degree: 83%
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)
@@ -82,8 +85,6 @@ ht-degree: 83%
   + [Audiences correspondantes du compte LinkedIn](./data/linkedin-account-matched-audiences.md)
   + [Champs XDM par défaut](./admin/field-mapping.md)
   + [Profils de test](./audiences/test-profiles.md)
-+ Données {#data}
-  + [Jeux de données exportés](./data/aep-exported-datasets.md)
 + Comptes {#accounts}
   + Groupes d’achat {#buying-groups}
     + [Vue d’ensemble](./buying-groups/buying-groups-overview.md)
