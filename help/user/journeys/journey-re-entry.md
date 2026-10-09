@@ -48,7 +48,7 @@ Vous pouvez activer la rentrée et modifier les paramètres de rentrée lorsque 
 
 >[!BEGINTABS]
 
->parcours de compte][!TAB 
+>[!TAB parcours de compte] 
 
 1. Ouvrez le brouillon de parcours de compte.
 
@@ -80,7 +80,7 @@ Vous pouvez activer la rentrée et modifier les paramètres de rentrée lorsque 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
->parcours Personne][!TAB 
+>[!TAB parcours Personne] 
 
 1. Ouvrez le brouillon de parcours de personne.
 
