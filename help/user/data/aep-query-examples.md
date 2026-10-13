@@ -63,14 +63,14 @@ Utilisez le tableau suivant pour choisir une requête pour votre tâche de créa
 | Suivre les modifications apportées au statut du groupe d&#39;achat | [Vérifier les modifications du statut du groupe d&#39;achats](#buying-group-status-changes) |
 | Rechercher les personnes ayant cliqué sur un e-mail | [Rechercher les personnes ayant cliqué sur un e-mail](#email-clicks) |
 | Comparer les activités récentes par type | [Comparer l’activité récente d’une personne](#person-activity) |
-| Comparer les parcours de compte par taille | [Comparer les comptes par parcours ](#account-journey-counts) |
-| Liste des comptes dans un parcours | [Liste des comptes dans un parcours ](#journey-accounts) |
+| Comparer les parcours de compte par taille | [Comparer les comptes par parcours &#x200B;](#account-journey-counts) |
+| Liste des comptes dans un parcours | [Liste des comptes dans un parcours &#x200B;](#journey-accounts) |
 | Suivi de l’activité quotidienne du parcours de compte | [Suivi de l’activité quotidienne du compte](#account-daily-activity) |
 | Recherche de l’historique d’un compte dans un parcours | [Vérifier la chronologie d’un parcours de compte](#account-timeline) |
-| Comparer les parcours de personnes par taille et statut | [Comparer le nombre de personnes par parcours ](#person-journey-counts) |
-| Liste des personnes d&#39;un parcours | [Liste des personnes dans un parcours ](#journey-people) |
+| Comparer les parcours de personnes par taille et statut | [Comparer le nombre de personnes par parcours &#x200B;](#person-journey-counts) |
+| Liste des personnes d&#39;un parcours | [Liste des personnes dans un parcours &#x200B;](#journey-people) |
 | Voir où se trouvent les personnes dans un parcours | [Comparer le nombre de personnes par étape](#person-step-counts) |
-| Suivi de l’activité récente d’un parcours de personne | [Suivre les activités récentes du parcours ](#person-journey-activity) |
+| Suivi de l’activité récente d’un parcours de personne | [Suivre les activités récentes du parcours &#x200B;](#person-journey-activity) |
 | Recherche de l’historique d’une personne dans un parcours | [Vérifier la chronologie du parcours d’une personne](#person-timeline) |
 
 ## Requêtes de compte et de groupe d&#39;achat
