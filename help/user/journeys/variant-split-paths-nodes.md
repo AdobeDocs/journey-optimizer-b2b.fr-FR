@@ -1,6 +1,6 @@
 ---
 title: Chemins de division de variante
-description: Découvrez comment utiliser les nœuds de chemin de partage des variantes pour distribuer des comptes ou des personnes sur plusieurs chemins de parcours à l’aide d’une allocation basée sur un pourcentage dans Journey Optimizer B2B edition.
+description: Découvrez comment utiliser les nœuds de chemin de partage des variantes pour distribuer des comptes ou des personnes sur plusieurs chemins de parcours à l’aide d’une allocation basée sur le pourcentage dans Journey Optimizer B2B Edition.
 feature: Account Journeys, Person Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -8,29 +8,29 @@ autotag-review: '2026-08-17T19:14:54.674Z'
 TQID: 'https://experienceleague.adobe.com/42lSbF7J-yEzFYbFFhs2sSQ4j4NfRtENlIz-R-HcPx8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: d130cb9de068b22be540a1fe9a6dc9fcaaad127e
+    internal-label: Experienced
+source-git-commit: c0d976241c5074deaca28d82e71b30718f6cd0c7
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: '1981'
 ht-degree: 1%
-
 ---
-
-# Variantes de chemins divisés
+# Variantes de chemins partagés
 
 Utilisez un nœud _Chemins de division de variante_ pour répartir les comptes ou les personnes sur plusieurs chemins de parcours en fonction des allocations en pourcentage que vous définissez. Ce nœud est utile lorsque vous souhaitez tester différentes tactiques de messagerie, de minutage ou d’engagement sur des segments de votre audience sans appliquer de règles conditionnelles.
-
->[!AVAILABILITY]
->
->Le nœud _Chemins de partage des variantes_ pour les parcours de compte et de personne est disponible pour sélectionner les clients et clientes en tant que fonctionnalité à disponibilité limitée. Pour obtenir l’accès, contactez votre représentant Adobe.
 
 ## Comparaison par type de parcours {#journey-type-comparison}
 
@@ -48,7 +48,7 @@ Le nœud de chemins de division des variantes utilise différents algorithmes d�
 
 Les deux _[chemins fractionnés](./split-merge-paths-nodes.md)_ et _chemins fractionnés par les variantes_ divisent un parcours en plusieurs branches (chemins), mais ils utilisent différents mécanismes :
 
-| Aspect | Chemins partagés | Variantes de chemins divisés |
+| Aspect | Chemins partagés | Variantes de chemins partagés |
 | -------- | ----------- | ------------------- |
 | **Logique d’affectation** | _Conditionnel basé sur des règles_ — Chaque entité est évaluée par rapport à des conditions définies et continue sur le premier chemin correspondant. | _Affectation basée sur un pourcentage_ — Les entités sont réparties sur les chemins d’accès en fonction des pourcentages configurés, sans condition de filtrage. |
 | **Déterminisme** | _Déterministe_ — La même entité suit toujours le même chemin tant qu&#39;elle correspond aux mêmes conditions. | _Dépend du type de parcours_ - Les parcours de personne sont déterministes (la même personne suit toujours le même chemin pour un parcours publié). Les parcours de compte ne sont pas déterministes (basés sur des quotas). |
@@ -102,7 +102,7 @@ Lorsqu’une personne atteint un nœud de chemins partagés de variante, le runt
 >
 >**La division des variantes de parcours de personne est appropriée pour les tests A/B et les expériences.**
 >
->L’affectation étant déterministe et cohérente entre les nouvelles entrées, les chemins de division de variantes dans les parcours de personne prennent en charge les expériences contrôlées où la même personne doit systématiquement recevoir la même expérience. Utilisez la vue [Détails du parcours &#x200B;](./journey-details.md) pour surveiller la distribution entre les chemins d’accès une fois le parcours actif.
+>L’affectation étant déterministe et cohérente entre les nouvelles entrées, les chemins de division de variantes dans les parcours de personne prennent en charge les expériences contrôlées où la même personne doit systématiquement recevoir la même expérience. Utilisez la vue [Détails du parcours ](./journey-details.md) pour surveiller la distribution entre les chemins d’accès une fois le parcours actif.
 
 ## Algorithme de répartition
 
@@ -168,7 +168,7 @@ Les étapes d’ajout et de configuration d’un nœud de chemin de partage de v
 
    Sur la carte par parcours, le nœud comporte deux chemins par défaut.
 
-1. (parcours de compte uniquement _) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Comptes]**&#x200B;ou **[!UICONTROL Personnes]**&#x200B;pour la division._
+1. (parcours de compte uniquement _) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Comptes]**ou **[!UICONTROL Personnes]**pour la division._
 
    Si vous utilisez le type _[!UICONTROL Personnes]_, un nœud _Fermer les chemins de division des variantes_ est automatiquement inséré pour fermer la division regroupée.
 
