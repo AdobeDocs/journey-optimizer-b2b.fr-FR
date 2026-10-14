@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # Accès utilisateur et autorisations
 
@@ -192,8 +192,12 @@ Les autorisations suivantes régissent l’accès aux fonctionnalités de Journe
 | Groupes d&#39;achats B2B | Configurez, gérez et affichez les autorisations pour les groupes d’achats B2B. Ces autorisations incluent les centres d’intérêt pour les solutions, les modèles de rôles et le statut du groupe d’achat. | <li>Gérer les groupes d&#39;achats B2B <li>Gestion des centres d’intérêt des solutions B2B <li>Gérer les modèles de rôle B2B <li>Gérer les étapes B2B <li>Afficher les groupes d&#39;achats B2B |
 | Configurations du canal B2B | Configurez, gérez et affichez les autorisations pour les configurations de canal B2B. Ces autorisations incluent des paramètres pour les limites de communication, les informations d’identification d’API et les paramètres de sécurité. | <li>Gérer les configurations des canaux B2B <li>Afficher les paramètres d’e-mail B2B <li>Gérer les paramètres d’e-mail B2B <li>Gestion des paramètres prédéfinis WhatsApp B2B <li>Gérer Les Paramètres De La Page De Destination B2B <li>Afficher le paramètre prédéfini Forms B2B <li>Gérer les paramètres prédéfinis de Forms B2B <li>Publication D’Un Préréglage Forms B2B <li>Créer Des Expériences Web B2B <li>Gérer les paramètres WhatsApp B2B |
 | Tableaux de bord B2B | Configurez et affichez les autorisations pour les tableaux de bord B2B. Ces autorisations incluent l’engagement du compte, les étapes du groupe d’achat, les comptes de forte demande et la couverture de contact. | <li>Afficher le tableau de bord de l’engagement B2B |
-| Parcours B2B | Configurez, gérez, affichez et publiez des autorisations pour les parcours B2B. Ces autorisations incluent les actions de compte et de personne, les écouteurs d’événement et les chemins de partage. | <li>Gérer les Parcours de compte B2B <li>Gérer Les Parcours De Personnes B2B |
+| Parcours B2B | Configurez, gérez, affichez et publiez des autorisations pour les parcours B2B. Ces autorisations incluent les actions de compte et de personne, les écouteurs d’événement et les chemins de partage. | <li>Gérer les Parcours de compte B2B <li>Gérer Les Parcours De Personnes B2B <li>Afficher les Parcours de personne B2B <li>Publier des Parcours de personne B2B |
 | Règles Journey Optimizer | Accéder aux règles de fréquence et les configurer (limites de communication). Ces autorisations doivent être limitées aux administrateurs de produit. | <li>Afficher les règles de fréquence <li>Gestion des règles de fréquence |
+
+>[!NOTE]
+>
+>Toutes les autorisations des Parcours de personne B2B accordent actuellement l’accès en lecture, écriture et publication aux parcours de personne. Cette lacune connue sera résolue dans une version ultérieure.
 
 ### Rôles intégrés B2B {#b2b-built-in-roles}
 
