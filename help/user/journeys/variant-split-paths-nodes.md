@@ -102,7 +102,7 @@ Lorsqu’une personne atteint un nœud de chemins partagés de variante, le runt
 >
 >**La division des variantes de parcours de personne est appropriée pour les tests A/B et les expériences.**
 >
->L’affectation étant déterministe et cohérente entre les nouvelles entrées, les chemins de division de variantes dans les parcours de personne prennent en charge les expériences contrôlées où la même personne doit systématiquement recevoir la même expérience. Utilisez la vue [Détails du parcours ](./journey-details.md) pour surveiller la distribution entre les chemins d’accès une fois le parcours actif.
+>L’affectation étant déterministe et cohérente entre les nouvelles entrées, les chemins de division de variantes dans les parcours de personne prennent en charge les expériences contrôlées où la même personne doit systématiquement recevoir la même expérience. Utilisez la vue [Détails du parcours &#x200B;](./journey-details.md) pour surveiller la distribution entre les chemins d’accès une fois le parcours actif.
 
 ## Algorithme de répartition
 
@@ -168,7 +168,7 @@ Les étapes d’ajout et de configuration d’un nœud de chemin de partage de v
 
    Sur la carte par parcours, le nœud comporte deux chemins par défaut.
 
-1. (parcours de compte uniquement _) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Comptes]**ou **[!UICONTROL Personnes]**pour la division._
+1. (parcours de compte uniquement _) Dans les propriétés de nœud sur la droite, choisissez **[!UICONTROL Comptes]**&#x200B;ou **[!UICONTROL Personnes]**&#x200B;pour la division._
 
    Si vous utilisez le type _[!UICONTROL Personnes]_, un nœud _Fermer les chemins de division des variantes_ est automatiquement inséré pour fermer la division regroupée.
 
