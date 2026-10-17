@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
+source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
 workflow-type: tm+mt
-source-wordcount: '5717'
+source-wordcount: '5781'
 ht-degree: 60%
 ---
 # Notes de mise à jour de Journey Optimizer B2B Edition
@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## notes de mise à jour 2026.9 {#rel-2026-9}
 
@@ -44,8 +44,9 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
 | Fonctionnalité | Tableaux de bord d’intégrité des services | Effectuez le suivi de l’intégrité opérationnelle des actions externes en collectant des mesures de succès et d’erreur et en fournissant des tableaux de bord aux administrateurs pour surveiller les performances des services. |
-| Amélioration | Parcours de rentrée - parcours de personnes | La prise en charge de la rentrée des parcours est désormais disponible pour les parcours de personnes. [En savoir plus](../journeys/journey-re-entry.md) |
-| Amélioration | Membre du filtre Audience de profil | Ce filtre est désormais disponible pour les conditions de chemin de partage du parcours de personnes, les conditions de chemin de partage de la personne du parcours de comptes et les listes de personnes à inclure ou à exclure des profils en fonction de l’appartenance à l’audience. |
+| Amélioration | Membre du filtre Audience de profil | Ce filtre est désormais disponible pour les conditions de chemin de partage du parcours Personne, les conditions de chemin de partage de la personne du parcours Compte et les filtres de nœud _Écouter un événement_ pour inclure ou exclure des profils en fonction de l’appartenance à l’audience. [En savoir plus](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Amélioration | Membre du filtre Groupe d&#39;achats - Est supprimé par défaut | Dans les filtres de nœud _Scinder le chemin par personnes_ conditions et _Écouter un événement_, la contrainte de nœud _[!UICONTROL Est supprimé]_ est désormais sélectionnée par défaut et définie sur `false` lorsque vous ajoutez le filtre _[!UICONTROL Membre du groupe d’achat]_. Le filtre renvoie uniquement les membres actuels du groupe d&#39;achats, sauf si vous modifiez ou supprimez la contrainte. [En savoir plus](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Amélioration | Parcours de rentrée - parcours de personnes | La prise en charge de la rentrée des parcours est désormais disponible pour les parcours de personnes. |
 
 >[!NOTE]
 >
