@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 5%
+source-wordcount: '2144'
+ht-degree: 4%
 ---
 # Écouter un évènement
 
-Pour déplacer l’audience vers l’étape suivante de votre parcours [&#128279;](./journeys-overview.md) lorsqu’un événement se produit, ajoutez le nœud _Écouter pour un événement_. Selon le type de parcours, vous pouvez utiliser ce nœud pour déclencher le nœud suivant dans le parcours en fonction des personnes ou des événements de compte.
+Pour faire passer l’audience à l’étape suivante de votre parcours [&#128279;](./journeys-overview.md) lorsqu’un événement se produit, ajoutez le nœud _Écouter pour un événement_. Selon le type de parcours, vous pouvez utiliser ce nœud pour déclencher le nœud suivant dans le parcours en fonction des personnes ou des événements de compte.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -65,7 +65,7 @@ Pour déplacer l’audience vers l’étape suivante de votre parcours [&#128279
 
      Dans la boîte de dialogue _Modifier l’événement_, effectuez un glisser-déposer d’un ou de plusieurs [événements de personnes](#people-events) dans l’espace du créateur et définissez la définition de chacun d’eux. Cliquez sur **[!UICONTROL Ajouter une contrainte]** pour chaque contrainte que vous souhaitez utiliser pour affiner la correspondance d’événement.
 
-     Vous pouvez ajouter plusieurs événements de personnes à faire correspondre. Le premier événement éligible avance le compte à terme dans le parcours.
+     Vous pouvez ajouter plusieurs événements de personnes à faire correspondre. Le premier événement éligible avance le compte sur le parcours.
 
      ![Nœud de parcours de compte - Écouter les événements - Type d’événement personne - Modifier l’événement](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
 
@@ -79,7 +79,7 @@ Pour déplacer l’audience vers l’étape suivante de votre parcours [&#128279
 
 ### Événements Personnes pour les parcours de compte {#people-events}
 
-Dans un parcours de compte, vous pouvez écouter un événement en fonction des personnes lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par des activités de personne (prospect). Vous pouvez également filtrer les événements en fonction de l’historique des événements et des attributs de personne.
+Dans un parcours de compte, vous pouvez écouter un événement en fonction des personnes lorsque vous souhaitez avancer le compte dans le parcours en fonction des événements déclenchés par l’activité de la personne (prospect). Vous pouvez également filtrer les événements en fonction de l’historique des événements et des attributs de personne.
 
 >[!TIP]
 >
@@ -97,7 +97,7 @@ Pour plus d’informations sur l’utilisation des événements d’expérience,
 
 ### Événements de compte {#account-events}
 
-Dans un parcours de compte, vous pouvez écouter un événement en fonction du compte lorsque vous souhaitez déplacer le compte vers l’avant dans le parcours en fonction des événements déclenchés par l’activité du compte.
+Dans un parcours de compte, vous pouvez écouter un événement en fonction du compte lorsque vous souhaitez avancer le compte dans le parcours en fonction des événements déclenchés par l’activité du compte.
 
 | Événement | Contraintes |
 | ----- | ----------- |
@@ -185,7 +185,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    Faites glisser et déposez le déclencheur d’événement dans l’espace du créateur et définissez la définition. Cliquez sur **[!UICONTROL Ajouter une contrainte]** pour chaque contrainte que vous souhaitez utiliser pour affiner la correspondance d’événement.
 
-   Vous pouvez ajouter plusieurs événements à faire correspondre. Le premier événement éligible avance le profil de la personne vers l’avant dans le parcours.
+   Vous pouvez ajouter plusieurs événements à faire correspondre. Le premier événement éligible avance le profil de la personne dans le parcours.
 
 1. (Facultatif) Sélectionnez l’onglet **[!UICONTROL Filtres]** pour [ajouter des filtres pour l’événement](#filters-people-event).
 
@@ -260,7 +260,8 @@ Lorsque vous définissez un [événement personnes dans un parcours de compte](#
 | [!UICONTROL &#x200B; Historique des événements &#x200B;] | Événements d’expérience configurés par un administrateur. Voir _[Sélection des événements d’expérience et des champs](../admin/configure-aep-events.md)_. |
 | [!UICONTROL Attributs de personne] | Attributs du profil de personne B2B, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
 | [!UICONTROL Attributs de personne] | (parcours de personne uniquement) Valeur d’attribut |
-| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est Supprimé</li><li>Rôle</li> |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre du groupe d&#39;achat] | La personne est ou n&#39;est pas un membre du groupe d&#39;achats évalué par rapport à un ou plusieurs des critères suivants : <li>Intérêt de la solution</li><li>Statut du groupe d&#39;achat</li><li>Score d&#39;exhaustivité</li><li>Score d’engagement</li><li>Est supprimé (valeur par défaut : `false`)</li><li>Rôle</li> (Voir [Filtrage des appartenances](#membership-filtering)) |
+| [!UICONTROL Filtres spéciaux] > [!UICONTROL Membre de l’audience du profil] | La personne est membre ou non d’une ou de plusieurs audiences de profil [!DNL Adobe Experience Platform]. (Voir [Filtrage des appartenances](#membership-filtering)) |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -285,13 +286,58 @@ Lorsque vous définissez un [événement personnes dans un parcours de compte](#
 
 1. Une fois les définitions d’événement et de filtre terminées, cliquez sur **[!UICONTROL Terminé]**.
 
+### Filtrage des appartenances {#membership-filtering}
+
+Dans la section _[!UICONTROL Filtres spéciaux]_, utilisez les filtres suivants pour faire correspondre un événement en fonction de l’appartenance d’une personne :
+
+* _[!UICONTROL Membre du groupe d&#39;achat]_ - Détermine si la personne est membre d&#39;un groupe d&#39;achat.
+* _[!UICONTROL Membre de l’audience de profil]_ - Évalue si la personne est membre d’une audience de profil [!DNL Adobe Experience Platform].
+
+Pour ajouter un filtre d’appartenance, faites-le glisser du dossier _[!UICONTROL Filtres spéciaux]_ vers l’espace de travail Filtres et définissez l’appartenance sur _true_ pour inclure des membres ou _false_ pour les exclure. Vous pouvez combiner les deux filtres dans la même définition d’événement et utiliser la **[!UICONTROL logique de filtre]** pour les faire correspondre à l’un ou à l’ensemble d’entre eux.
+
+Ces filtres sont également disponibles dans les conditions [Partage du chemin par les personnes](./split-merge-paths-nodes.md#membership-filtering).
+
+![Écouter pour le nœud d’événement - filtres d’appartenance](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**Membre du groupe d&#39;achat**
+
+Pour faire correspondre un événement pour les membres d&#39;un groupe d&#39;achat ayant un rôle spécifique, définissez l&#39;appartenance sur _true_ et sélectionnez un _[!UICONTROL centre d&#39;intérêt de la solution]_ associé à un ou plusieurs groupes d&#39;achat.
+
+Lorsque vous ajoutez le filtre, le système inclut par défaut la contrainte _[!UICONTROL Est supprimé]_ et la définit sur `false`, de sorte que le filtre ne corresponde qu&#39;aux membres du groupe d&#39;achats actuel.
+
+Cliquez sur **[!UICONTROL Ajouter une contrainte]** pour inclure d&#39;autres contraintes d&#39;appartenance à un groupe d&#39;achat :
+
+* _[!UICONTROL Étape du groupe d&#39;achat]_
+* _[!UICONTROL Statut du groupe d&#39;achat]_
+* _[!UICONTROL Score d&#39;exhaustivité]_
+* _[!UICONTROL Score d’engagement]_
+* _[!UICONTROL Rôle]_
+
+>[!IMPORTANT]
+>
+>La contrainte _[!UICONTROL Est supprimé]_ détermine si les membres supprimés du groupe d&#39;achats sont évalués :
+>
+>* `false` (par défaut) - Renvoie uniquement les membres actuels du groupe d’achats. Les membres supprimés ne sont pas inclus.
+>* `true` - Renvoie uniquement les membres du groupe d&#39;achat supprimés. Les membres actuels ne sont pas inclus.
+>* Contrainte supprimée - Renvoie les membres actuels et supprimés du groupe d&#39;achats.
+>
+>Si vous supprimez la contrainte, le filtre peut correspondre aux personnes qui ne font plus partie du groupe d&#39;achat.
+
+**Membre de l’audience du profil**
+
+Utilisez la contrainte _[!UICONTROL Audience du profil]_ pour sélectionner une ou plusieurs audiences. Par exemple, si vous sélectionnez l’audience `integroPerson`, l’événement ne correspond qu’aux personnes qui étaient membres de cette audience au moment de la dernière ingestion par lots.
+
+>[!NOTE]
+>
+>Le filtre ne calcule pas l’appartenance à une audience en temps réel. Il qualifie les personnes en fonction de leur appartenance à l’audience sélectionnée à partir de la dernière ingestion d’audience par lots. Seules les audiences qui ont été ingérées dans [!DNL Journey Optimizer B2B Edition] peuvent être évaluées.
+
 ## Ajouter une temporisation à un nœud d’événement {#timeouts}
 
 Si nécessaire, définissez le temps d’attente du parcours pour l’événement. Le parcours se termine après une temporisation, sauf si vous définissez un chemin de temporisation dans lequel vous pouvez ajouter d’autres nœuds.
 
 Activez l’option **[!UICONTROL Temporisation]** dans les propriétés de nœud pour spécifier une temporisation pour le nœud _Écouter un événement_.
 
-1. Lorsque les options sont activées, choisissez le _Type_ et spécifiez les paramètres de la temporisation :
+1. Lorsque l’option est activée, choisissez le _Type_ et spécifiez les paramètres de la temporisation :
 
    * **[!UICONTROL Durée]** - Utilisez ce type pour spécifier une période pour le déclencheur d’événement. Si l’événement ne se déclenche pas au cours de cette période, la personne ou le compte ne procède pas au parcours.
 
