@@ -48,9 +48,9 @@ ht-degree: 82%
 + Gestion des parcours {#journeys}
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
-  + {hide-from-toc}[Contrôle de trafic de Parcours ](./journeys/journey-traffic-control.md)
+  + {hide-from-toc}[Contrôle de trafic de Parcours &#x200B;](./journeys/journey-traffic-control.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)

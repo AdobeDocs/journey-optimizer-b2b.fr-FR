@@ -122,7 +122,7 @@ Par défaut, les quatre dimensions ont un poids de __ et contribuent de manière
 
    * **[!UICONTROL Désactivé]**
    * **[!UICONTROL Faible]**
-   * ****
+   * **&#x200B;**
    * **[!UICONTROL Élevé]**
 
    Le pourcentage sur chaque carte indique la part de cette dimension une fois vos paramètres combinés. Pour supprimer une dimension des décisions, définissez-la sur **[!UICONTROL Désactivé]**.
@@ -193,7 +193,7 @@ Pour chaque parcours, la vue affiche également les valeurs suivantes :
 
 ![Vue de création de rapports par Parcours avec des mesures récapitulatives et un tableau de parcours indiquant les valeurs de taux d’inscription, d’absence de contestation, de confirmation et de confirmation](./assets/journey-traffic-control-reporting-by-journey.png){width="700" zoomable="yes"}
 
-Filtrer la liste par statut de parcours [](./journeys-overview.md#journey-status) : [!UICONTROL En ligne], [!UICONTROL Terminé], [!UICONTROL Abandonné] ou [!UICONTROL Tout].
+Filtrer la liste par statut de parcours [&#128279;](./journeys-overview.md#journey-status) : [!UICONTROL En ligne], [!UICONTROL Terminé], [!UICONTROL Abandonné] ou [!UICONTROL Tout].
 
 Pour savoir où en sont les contestataires d&#39;un parcours, ouvrez le parcours. La vue détaillée affiche les parcours auxquels les personnes ont été inscrites à la place. Pour afficher le score de correspondance, les parcours concurrents, le score de chacun et les dimensions utilisées, développez l’enregistrement de décision de toute personne inscrite. Effectuez une recherche par nom, ID de prospect ou ID de profil.
 
@@ -217,7 +217,7 @@ Filtrez la liste par période (24 heures, 7 jours, 30 jours ou à toute heure) e
 
 Pour afficher un diagramme de flux reliant les personnes évaluées aux parcours auxquels elles étaient inscrites, lancez une exécution. Une répartition pour chaque parcours indique le nombre de personnes **[!UICONTROL non inscrites]**, **[!UICONTROL inscrites]**, **[!UICONTROL arbitrées]** (choisies parmi les parcours concurrents) et **[!UICONTROL non contestées]**. Pour n’importe quel parcours d’une exécution, vous pouvez également afficher les personnes évaluées, leurs résultats, les parcours avec lesquels elles ont été en concurrence et leurs scores de correspondance.
 
-![Diagramme de flux présentant les personnes évaluées et leurs résultats d’inscription dans les parcours ](./assets/journey-traffic-control-reporting-by-run-flow-chart.png){width="500" zoomable="yes"}
+![Diagramme de flux présentant les personnes évaluées et leurs résultats d’inscription dans les parcours &#x200B;](./assets/journey-traffic-control-reporting-by-run-flow-chart.png){width="500" zoomable="yes"}
 
 <!-- CONFIRM with Product: what the scheduled and on-publish triggers mean for customers, and the content of the Not enrolled tooltip. -->
 
@@ -227,7 +227,7 @@ Chaque exécution suit la même séquence. Le contrôle du trafic de parcours li
 
 1. Le contrôle de trafic de parcours attend que l’actualisation de profil [personne et compte](../data/data-availability-timing.md#daily-refresh) de votre environnement se termine correctement. Si l’actualisation échoue, aucune exécution ne démarre sur les données obsolètes.
 
-1. L’appartenance à une audience est calculée en [!DNL Adobe Experience Platform] et [ synchronisée ](../data/data-availability-timing.md#platform-sync) en [!DNL Journey Optimizer B2B Edition]. Une fois la segmentation terminée, le système attend la fin de la synchronisation, pendant 30 minutes au maximum. Si la synchronisation se termine plus tôt, le traitement commence immédiatement. Si 30 minutes se sont écoulées en premier, le traitement commence quand même. Si la synchronisation se termine plus tard, une nouvelle exécution commence sur les données mises à jour.
+1. L’appartenance à une audience est calculée en [!DNL Adobe Experience Platform] et [&#x200B; synchronisée &#x200B;](../data/data-availability-timing.md#platform-sync) en [!DNL Journey Optimizer B2B Edition]. Une fois la segmentation terminée, le système attend la fin de la synchronisation, pendant 30 minutes au maximum. Si la synchronisation se termine plus tôt, le traitement commence immédiatement. Si 30 minutes se sont écoulées en premier, le traitement commence quand même. Si la synchronisation se termine plus tard, une nouvelle exécution commence sur les données mises à jour.
 
 1. Le système assemble les parcours candidats. Seuls les parcours actifs et activés pour le contrôle du trafic y participent. Le système lit le statut, le nom et la description de chaque parcours.
 
@@ -312,7 +312,7 @@ Le contrôle du trafic parcours présente les limitations suivantes :
 
 * **Un parcours pour chaque personne** : une personne est inscrite à au plus un parcours pour chaque exécution.
 * **La sélection ne garantit pas l’inscription** : jusqu’à la fin de la synchronisation depuis [!DNL Experience Platform], certains profils peuvent être évalués sans ID de personne Marketo correspondant. Le parcours est sélectionné, mais l’inscription risque de ne pas réussir. Ces personnes apparaissent comme *Non inscrites* dans les rapports d’exécution.
-* **Pas d’inscription répétée** : le contrôle du trafic du Parcours n’inscrit pas une personne dans un parcours auquel elle était précédemment inscrite. Pour permettre aux personnes de se requalifier pour un parcours, utilisez les paramètres de rentrée de [parcours ](./journey-re-entry.md).
+* **Pas d’inscription répétée** : le contrôle du trafic du Parcours n’inscrit pas une personne dans un parcours auquel elle était précédemment inscrite. Pour permettre aux personnes de se requalifier pour un parcours, utilisez les paramètres de rentrée de [parcours &#x200B;](./journey-re-entry.md).
 * **Pas en temps réel** : les décisions sont prises lorsqu’une exécution se produit, et non lorsqu’un profil change.
 * **Quatre dimensions fixes** : vous pouvez ajuster l’importance du secteur, l’adéquation fonctionnelle, la taille de l’entreprise et l’intention, mais vous ne pouvez pas ajouter de dimensions.
 * **Correspondance textuelle** : les noms et descriptions de Parcours sont comparés au texte du profil. Les parcours dont la description est vague, vide ou similaire sont plus difficiles à distinguer. Des parcours faiblement différenciés peuvent produire des résultats de confiance faibles.
