@@ -27,7 +27,7 @@ Consultez cet exemple des derniers ajouts et améliorations apportés à l’app
 
 >[!BEGINTABS]
 
->parcours de personne][!TAB 
+>[!TAB parcours de personne] 
 
 Orchestrez le marketing basé sur les leads avec des parcours de personne, qui utilisent des audiences et des données [!DNL Adobe Experience Platform] pour interagir avec les personnes individuelles. Les parcours de personne prennent désormais en charge les nœuds _Écouter un événement_, d’action externe, de chemins de partage externes, ainsi que la rentrée du parcours. Utilisez-les avec des parcours de compte et des groupes d&#39;achat pour orchestrer le parcours d&#39;achat complet.
 
