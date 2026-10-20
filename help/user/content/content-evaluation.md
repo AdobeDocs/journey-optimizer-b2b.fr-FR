@@ -34,7 +34,7 @@ L’évaluation et la notation du contenu vous permettent de créer, de réviser
 
 >[!AVAILABILITY]
 >
->Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités basées sur l’IA dans Adobe Journey Optimizer B2B Edition. Pour en savoir plus, contactez votre représentant Adobe.
+>Un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités basées sur l’IA dans Adobe Journey Optimizer B2B Edition. Pour en savoir plus, contactez votre représentant Adobe.
 >
 >Consultez [Autorisations liées aux marques](./brands-overview.md#brand-related-permissions) pour plus d’informations sur la manière dont les administrateurs et administratrices de produit peuvent activer ces fonctionnalités.
 

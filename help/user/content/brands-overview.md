@@ -68,7 +68,7 @@ Votre entreprise peut tirer parti d’une marque pour créer et évaluer du cont
 >
 >Cette fonctionnalité est actuellement disponible en version bêta publique.
 >
->Un [contrat d’utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités basées sur l’IA dans Adobe Journey Optimizer B2B Edition. Pour en savoir plus, contactez votre représentant Adobe.
+>Un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} est requis avant de pouvoir utiliser les fonctionnalités basées sur l’IA dans Adobe Journey Optimizer B2B Edition. Pour en savoir plus, contactez votre représentant Adobe.
 
 Une marque définie constitue la _source de vérité_ que votre équipe créative peut utiliser lorsqu’elle crée du contenu visuel ou écrit. Lorsque ces directives sont compilées et que les ressources de la marque sont partagées, n’importe quel membre de l’équipe ou collaborateur peut créer du contenu de marque pour votre produit. Pour activer la création de contenu de marque dans Journey Optimizer B2B Edition, procédez comme suit :
 
