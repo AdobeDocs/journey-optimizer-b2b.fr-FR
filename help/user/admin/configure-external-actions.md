@@ -1,6 +1,6 @@
 ---
 title: Configuration des actions externes
-description: Découvrez comment les développeurs, les administrateurs et les spécialistes du marketing travaillent ensemble pour implémenter, configurer et utiliser des actions externes qui connectent Journey Optimizer B2B Edition à des services externes dans parcours.
+description: Découvrez comment les développeurs, les administrateurs et les spécialistes du marketing travaillent ensemble pour implémenter, configurer et utiliser des actions externes qui connectent Journey Optimizer B2B Edition à des services externes dans parcours. Apprenez également comment les administrateurs surveillent l’intégrité des actions.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 2%
 ---
 # Configuration des actions externes
@@ -45,7 +45,7 @@ La configuration des actions externes nécessite une coordination entre trois r�
 | | Rôle | Tâche |
 | ---- | ---- | ---- |
 | 1 | Développeur | [Implémenter et publier le service externe](#implement-service) |
-| 2 | Administrateur | [Configurer l’action dans Journey Optimizer B2B Edition](#configure-action) |
+| 2 | Administrateur | [Configurer l’action dans Journey Optimizer B2B Edition](#configure-action) et [surveiller l’intégrité des actions externes](#monitor-external-action-health) |
 | 3 | Spécialiste marketing | [Ajouter un nœud externe à un parcours &#x200B;](#add-journey-node) |
 
 ## Implémenter le service externe {#implement-service}
@@ -71,6 +71,8 @@ Une action doit être configurée et activée avant que les marketeurs puissent 
 1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
 
 1. Cliquez sur **[!UICONTROL Actions externes]** dans le panneau intermédiaire.
+
+1. Sélectionnez l’onglet **[!UICONTROL Parcourir]**.
 
    ![Accéder à l&#39;espace de configuration des Actions externes](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## Surveillance de l’intégrité des actions externes {#monitor-health}
+
+Une fois que les marketeurs ont commencé à utiliser des actions externes dans les parcours, vous pouvez suivre les performances de chaque action dans l’onglet _Aperçu_ de la page des actions externes. Utilisez-la pour voir le nombre de requêtes reçues par chaque action, le nombre de ces requêtes ayant échoué et les actions ayant les taux d’erreur les plus élevés.
+
+Pour afficher le tableau de bord :
+
+1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**.
+
+1. Cliquez sur **[!UICONTROL Actions externes]** dans le panneau intermédiaire.
+
+   Le système affiche par défaut l’onglet **[!UICONTROL Aperçu]** avec les données d’action externe des sept derniers jours.
+
+1. Sélectionnez la période à vérifier dans le menu de période ou saisissez une date de début et une date de fin dans le champ de date. La plage par défaut est celle des 30 derniers jours.
+
+   ![Le tableau de bord d’intégrité des actions externes affiche les filtres de période, le nombre total de requêtes, les erreurs, le taux d’erreur et les performances des actions.](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   Les mesures et le tableau sont mis à jour pour n’afficher que l’activité de la période sélectionnée.
+
+### Mesures {#metrics}
+
+La section _Aperçu_ résume les performances de toutes les actions externes pour la période sélectionnée.
+
+| Mesure | Description |
+| ---- | ---- |
+| [!UICONTROL Nombre total d’actions] | Nombre d’actions externes incluses dans le rapport. |
+| [!UICONTROL Nombre total de requêtes] | Nombre total de demandes adressées à des services externes pour toutes les actions. |
+| [!UICONTROL Total des erreurs] | Nombre total de requêtes ayant entraîné une erreur. |
+| [!UICONTROL Taux d’erreur] | Pourcentage de requêtes ayant entraîné une erreur. |
+
+### Performances des actions {#actions}
+
+Le tableau _Performances des actions_ répertorie chaque action externe et son activité pour la période sélectionnée.
+
+| Colonne | Description |
+| ---- | ---- |
+| [!UICONTROL Nom] | Nom de l’action externe. |
+| [!UICONTROL Nombre de requêtes] | Nombre de requêtes effectuées sur le service externe de l’action. |
+| [!UICONTROL &#x200B; Nombre d’erreurs &#x200B;] | Nombre de requêtes ayant entraîné une erreur. |
+| [!UICONTROL Taux d’erreur] | Pourcentage de requêtes ayant entraîné une erreur. |
+
+Utilisez le tableau pour comparer les actions et trouver celles qui nécessitent une attention particulière. Par exemple, une action avec un taux d’erreur élevé indique un problème avec le service externe, ses informations d’authentification ou sa configuration. Contactez le développeur ou la développeuse qui a mis en œuvre le service pour enquêter sur la cause.
+
 ## Ajouter un nœud externe à un parcours {#add-journey-node}
 
 Une fois qu’une action est activée, les spécialistes marketing peuvent ajouter un nœud _[!UICONTROL Action externe]_ ou _[!UICONTROL Chemin de partage externe]_ à n’importe quel parcours de compte ou de personne. Pour plus d’informations sur l’ajout et l’utilisation de ces nœuds dans la zone de travail de parcours, voir [Nœuds externes](../journeys/external-nodes.md).
+
+![Nœud d’action externe - Sélectionnez le service externe](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}
