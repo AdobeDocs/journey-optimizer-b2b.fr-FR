@@ -84,4 +84,4 @@ La liste suivante inclut des exemples de questions que [!DNL Coworker] conversat
 
 ## Étapes suivantes
 
-Pour obtenir des instructions sur l’utilisation des fonctionnalités de conversation dans l’application [!DNL CX Coworker], consultez le guide de l’interface de CX Coworker [](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Pour obtenir des instructions sur l’utilisation des fonctionnalités de conversation dans l’application [!DNL CX Coworker], consultez le guide de l’interface de CX Coworker [&#128279;](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.

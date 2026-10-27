@@ -27,7 +27,7 @@ Consultez cet exemple des derniers ajouts et améliorations apportés à l’app
 
 >[!BEGINTABS]
 
->parcours de personne][!TAB 
+>[!TAB parcours de personne] 
 
 Orchestrez le marketing basé sur les leads avec des parcours de personne, qui utilisent des audiences et des données [!DNL Adobe Experience Platform] pour interagir avec les personnes individuelles. Les parcours de personne prennent désormais en charge les nœuds _Écouter un événement_, d’action externe, de chemins de partage externes, ainsi que la rentrée du parcours. Utilisez-les avec des parcours de compte et des groupes d&#39;achat pour orchestrer le parcours d&#39;achat complet.
 
@@ -194,7 +194,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 
 [!DNL Adobe Marketo Qualifier] est une application gérée par l’IA que vous pouvez utiliser avec [!DNL Journey Optimizer B2B Edition]. Il met en œuvre la compétence Qualification du compte et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). [!DNL Marketo Qualifier] automatise les workflows de qualification, de sensibilisation et d’engagement des acheteurs des prospects sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
 
-Pour plus d&#39;informations, consultez la documentation de [](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}.
+Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

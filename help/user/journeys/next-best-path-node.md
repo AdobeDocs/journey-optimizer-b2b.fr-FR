@@ -331,4 +331,4 @@ Pour un parcours publié, ouvrez la carte des parcours et sélectionnez le nœud
 * Score de confiance pour chaque affectation de chemin
 * Raisonnement au niveau du chemin et du profil, avec des détails extensibles pour les profils individuels
 
-Des résultats en direct sont également disponibles pour la console de Parcours et par le biais des [compétences d’observabilité du Parcours ](../agents/journey-agent.md#journey-observability-skills) dans [!DNL Coworker] chat.
+Des résultats en direct sont également disponibles pour la console de Parcours et par le biais des [compétences d’observabilité du Parcours &#x200B;](../agents/journey-agent.md#journey-observability-skills) dans [!DNL Coworker] chat.
