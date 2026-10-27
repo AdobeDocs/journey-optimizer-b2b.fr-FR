@@ -1,6 +1,6 @@
 ---
 title: Métadonnées C2PA
-description: Découvrez comment Adobe Journey Optimizer B2B edition applique automatiquement les métadonnées C2PA aux images générées ou modifiées à l’aide d’outils d’IA génératifs et ce que cela signifie pour votre contenu.
+description: Découvrez comment Adobe Journey Optimizer B2B Edition applique automatiquement les métadonnées C2PA aux images générées ou modifiées à l’aide d’outils d’IA génératifs et ce que cela signifie pour votre contenu.
 feature: Assets, Content
 hide: true
 role: User
@@ -8,24 +8,28 @@ autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
+    internal-label: User
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 952
-ht-degree: 0%
-
+source-wordcount: '952'
+ht-degree: 4%
 ---
-
 # Métadonnées C2PA
 
-Les organisations marketing sont plus que jamais préoccupées par la transparence du contenu, la divulgation de l’IA et la prévention de l’altération des ressources. Le Content Authenticity Initiative (CAI) d’Adobe crée des outils conformes à la norme technique C2PA ([&#x200B; Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model). Les _métadonnées C2PA_ sont des informations chiffrées et infalsifiables qui aident les utilisateurs à comprendre la traçabilité du contenu et à garantir l’intégrité des ressources de la marque. Ces informations incluent :
+Les organisations marketing sont plus que jamais préoccupées par la transparence du contenu, la divulgation de l’IA et la prévention de l’altération des ressources. Le Content Authenticity Initiative (CAI) d’Adobe crée des outils conformes à la norme technique C2PA ([ Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model). Les _métadonnées C2PA_ sont des informations chiffrées et infalsifiables qui aident les utilisateurs à comprendre la traçabilité du contenu et à garantir l’intégrité des ressources de la marque. Ces informations incluent :
 
 * Émetteur ou signataire - Informations sur l’entité ou la société qui a émis la signature numérique pour certifier ou signer la ressource.
 * Date d’émission - Date à laquelle les métadonnées C2PA ont été appliquées à la ressource.
@@ -39,7 +43,7 @@ Pour obtenir des informations complètes sur l’historique des ressources, vous
 
 Les métadonnées C2PA sont conservées avec le fichier image. Lorsqu’une image qui a été générée ou modifiée avec l’IA générative est chargée vers ou exportée à partir de [!DNL Adobe Journey Optimizer B2B Edition], ses métadonnées C2PA sont conservées.
 
-Pour plus d’informations sur la pièce jointe automatique des métadonnées C2PA dans les applications Adobe CX Enterprise, consultez [_Transparence de contenu Generative AI_](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} dans le guide AI in CX Enterprise .
+Pour plus d’informations sur la pièce jointe automatique des métadonnées C2PA dans les applications Adobe CX Enterprise, consultez la section [_Transparence de contenu Generative AI_](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} dans le guide AI in CX Enterprise .
 
 >[!NOTE]
 >
@@ -60,7 +64,7 @@ Lorsque vous incluez des images dans vos e-mails ou messages WhatsApp, les méta
 
 >[!INFO]
 >
->De nouvelles lois émergent autour de la transparence générative de l’IA, et Adobe s’efforce de répondre aux exigences applicables dans toutes les juridictions. Les métadonnées C2PA sont l’outil de provenance utilisé par Adobe pour répondre aux exigences de ces lois.
+>De nouvelles lois sur la transparence de l’IA générative voient le jour, et Adobe s’efforce de respecter les exigences applicables dans les différentes juridictions. Les métadonnées C2PA sont l’outil de provenance utilisé par Adobe pour répondre aux exigences de ces lois.
 
 Lorsque vous générez ou modifiez une image à l’aide d’outils d’IA génératifs dans [!DNL Journey Optimizer B2B Edition], des métadonnées C2PA sont automatiquement associées à cette image et aucune action n’est requise de votre part.
 
@@ -77,13 +81,13 @@ Lorsque vous créez une image à partir d’une invite de texte, d’une image d
 * Recadrez une image de bannière générée pour l’adapter à une page web. Les métadonnées C2PA sont conservées tout au long du recadrage.
 * Utilisez une photo de catalogue chargée comme arrière-plan d’e-mail et recadrez-la pour l’adapter à l’écran. Si la photo de catalogue ne contient aucune information d’IA générative, les métadonnées C2PA ne sont pas créées.
 
-Lorsque vous apportez un ajustement à un fichier image, comme le recadrage aux dimensions demandées, il ne conserve ses métadonnées C2PA que si l’image source les avait déjà. Le recadrage recrée les pixels de l’image, ce qui supprime normalement ces métadonnées C2PA, de sorte que l’assistant AI les lit à partir de l’image source avant de les recadrer, puis les recrée et les relie au résultat recadré. Le recadrage lui-même n&#39;ajoute pas une nouvelle action générative de l&#39;IA : il préserve celle qui existe.
+Lorsque vous apportez un ajustement à un fichier image, comme le recadrage aux dimensions demandées, il ne conserve ses métadonnées C2PA que si l’image source les avait déjà. Le recadrage recrée les pixels de l’image, ce qui supprime normalement ces métadonnées C2PA. Par conséquent, les outils d’IA génératifs les lisent à partir de l’image source avant de les recadrer, puis les recréent et les joignent à nouveau au résultat recadré. Le recadrage lui-même n&#39;ajoute pas une nouvelle action générative de l&#39;IA : il préserve celle qui existe.
 
 ### Ajouter une superposition de texte
 
 **_Exemple:_** générez un titre promotionnel comme superposition de texte sur une image d’arrière-plan générée pour une page de destination. Les métadonnées C2PA de l’image d’arrière-plan sont conservées.
 
-Lorsque vous effectuez le rendu du texte généré sur une image d’arrière-plan, des métadonnées C2PA sont jointes à l’image obtenue uniquement si l’image d’arrière-plan contenait déjà des métadonnées C2PA. Le rendu du recouvrement génère une nouvelle image. Par conséquent, l’outil d’édition d’images lit les métadonnées C2PA à partir de l’arrière-plan et les joint à nouveau au résultat. L’étape de recouvrement n’ajoute pas de nouvelle action d’IA générative.
+Lorsque vous effectuez le rendu du texte généré sur une image d’arrière-plan, des métadonnées C2PA sont jointes à l’image obtenue uniquement si l’image d’arrière-plan contenait déjà des métadonnées C2PA. Le rendu du recouvrement génère une nouvelle image. Par conséquent, l’outil d’édition d’images lit les métadonnées C2PA à partir de l’arrière-plan et les joint à nouveau au résultat. L’étape de superposition n’ajoute pas de nouvelle action d’IA générative.
 
 ### Recouvrir une image
 

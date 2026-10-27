@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: 4bf162645af8589b8e36bb36be1ac6594b7bdeab
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 82%
+source-wordcount: '457'
+ht-degree: 79%
 ---
 
 # Guide d’utilisation de Journey Optimizer B2B Edition {#user}
@@ -29,15 +29,14 @@ ht-degree: 82%
   + [Disponibilité des données et synchronisation temporelle](./data/data-availability-timing.md)
   + [Jeux de données exportés](./data/aep-exported-datasets.md)
   + [Requêtes de jeu de données](./data/aep-query-examples.md)
-+ Fonctionnalités d’IA {#ai-assistant}
-  + [Présentation](./ai-coworker/ai-assistant-overview.md)
-  + [Activer l’accès à l’assistant IA](./ai-coworker/enable-ai-assistant-access.md)
++ Fonctionnalités d’IA {#ai-capabilities}
+  + [Présentation](./ai-coworker/ai-overview.md)
+  + [Activer l’accès](./ai-coworker/enable-ai-access.md)
   + [Conseils sur les questions](./ai-coworker/question-guidance.md)
-  + [Interface de conversation](./ai-coworker/use-ai-assistant.md)
   + [Scores d’intention](./ai-coworker/intent-scores.md)
-  + Agents {#ai-agents}
-    + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-    + [Journey Agent B2B](./agents/journey-agent.md)
+  + Compétences des collègues {#coworker-skills}
+    + [Compétences en audience pour les comptes et les personnes B2B](./agents/audience-agent-b2b.md)
+    + [Compétences en parcours pour B2B](./agents/journey-agent.md)
 + Tableaux de bord intelligents {#dashboards}
   + [Tableau de bord des informations](./dashboards/intelligent-dashboard.md)
   + [Tableau de bord de l’engagement](./dashboards/engagement-dashboard.md)
@@ -48,9 +47,9 @@ ht-degree: 82%
 + Gestion des parcours {#journeys}
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
-  + {hide-from-toc}[Contrôle de trafic de Parcours &#x200B;](./journeys/journey-traffic-control.md)
+  + {hide-from-toc}[Contrôle de trafic de Parcours ](./journeys/journey-traffic-control.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours ](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)

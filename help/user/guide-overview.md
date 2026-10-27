@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 27%
+source-wordcount: '1123'
+ht-degree: 26%
 ---
 # Documentation d’Adobe Journey Optimizer B2B Edition
 
@@ -27,7 +27,7 @@ Consultez cet exemple des derniers ajouts et améliorations apportés à l’app
 
 >[!BEGINTABS]
 
->[!TAB parcours de personne] 
+>parcours de personne][!TAB 
 
 Orchestrez le marketing basé sur les leads avec des parcours de personne, qui utilisent des audiences et des données [!DNL Adobe Experience Platform] pour interagir avec les personnes individuelles. Les parcours de personne prennent désormais en charge les nœuds _Écouter un événement_, d’action externe, de chemins de partage externes, ainsi que la rentrée du parcours. Utilisez-les avec des parcours de compte et des groupes d&#39;achat pour orchestrer le parcours d&#39;achat complet.
 
@@ -69,7 +69,7 @@ Vous pouvez désormais envoyer plusieurs fois des comptes ou des personnes par l
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Dernières notes de mise à jour
 
@@ -79,7 +79,7 @@ Restez à jour avec les dernières notes de mise à jour, les nouvelles fonction
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer
 
@@ -90,7 +90,7 @@ Consultez les conseils d’intégration des [!DNL Journey Optimizer B2B Edition]
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestion Des Données
 
@@ -103,7 +103,7 @@ Activez les schémas et champs XDM que vous souhaitez utiliser dans [!DNL Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canaux de communication
 
@@ -115,7 +115,7 @@ Configurez et gérez les e-mails, SMS, WhatsApp et d’autres canaux pour les in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Créer un parcours
 
@@ -138,7 +138,7 @@ Conseils détaillés sur la création, la gestion et l&#39;optimisation des grou
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -160,7 +160,7 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Commencer"><br/>
-      <strong>Prise en main</strong><br/><a href="home-page.md">Page d’accueil et de connexion</a><br/><a href="./start/get-started.md">Conseils d’intégration</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">Fonctionnalités d’IA</a>
+      <strong>Prise en main</strong><br/><a href="home-page.md">Page d’accueil et de connexion</a><br/><a href="./start/get-started.md">Conseils d’intégration</a> <br/><a href="./ai-coworker/ai-overview.md">Fonctionnalités d’IA</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Groupes d’achat"><br/>
@@ -188,11 +188,21 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier] est une application gérée par l’IA que vous pouvez utiliser avec [!DNL Journey Optimizer B2B Edition]. Il met en œuvre la compétence Qualification du compte et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). [!DNL Marketo Qualifier] automatise les workflows de qualification, de sensibilisation et d’engagement des acheteurs des prospects sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
+
+Pour plus d&#39;informations, consultez la documentation de [](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## Ressources supplémentaires
 
 <table style="table-layout:fixed">
 <tr><td><strong></strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vidéos et tutoriels</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Description du produit</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/fr/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources pour les développeurs</a>
@@ -203,4 +213,3 @@ Découvrez les composants d’un groupe d’achat et les principes de base de la
 <a href="https://experienceleague.adobe.com/fr/docs/marketo/using/home" target="_blank">Documentation utilisateur</a> - <a href="https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/home" target="_blank">Documentation développeur</a>
 </td>
 </tr></table>
-

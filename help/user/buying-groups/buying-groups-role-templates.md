@@ -1,26 +1,28 @@
 ---
 title: Modèles de rôle de groupe d'achat
-description: Créez des modèles de rôle avec affectation automatique conditionnelle pour identifier les décideurs et les parties prenantes pour les groupes d’achat dans Journey Optimizer B2B edition.
+description: Créez des modèles de rôle avec affectation automatique conditionnelle pour identifier les décideurs et les parties prenantes pour les groupes d’achat dans Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1435'
 ht-degree: 5%
-
 ---
-
 # Modèles de rôles du groupe d’achat
 
 Sur un marché B2B, plusieurs personnes prennent généralement des décisions d’achat. Ces personnes participent au processus décisionnel en fonction de leur rôle au sein de l&#39;organisation. Créez des modèles de rôle de groupe d’achats qui contiennent un groupe de définitions de rôle en fonction de chaque type d’offre de produit ou de chaque cas d’utilisation de compte.
@@ -29,9 +31,9 @@ Sur un marché B2B, plusieurs personnes prennent généralement des décisions d
 
 >[!BEGINSHADEBOX]
 
-## Audience Agent B2B
+## Compétences d’audience
 
-[Audience Agent B2B](../agents/audience-agent-b2b.md) peut générer un modèle de rôles de groupe d’achat à partir de la détection d’intention propriétaire et du mappage des rôles. Dans le flux guidé, vous pouvez identifier les personnes liées à un produit, passer en revue les mappages rôle-à-rôle recommandés par l’IA et affiner le modèle avec du langage naturel avant de le publier.
+Utilisez les [compétences d’audience pour les comptes et les personnes B2B](../agents/audience-agent-b2b.md) pour générer un modèle de rôle de groupe d’achats à partir de la détection d’intention propriétaire et du mappage de persona. Dans le flux guidé, vous pouvez identifier les personnes liées à un produit, passer en revue les mappages rôle-à-rôle recommandés par l’IA et affiner le modèle avec du langage naturel avant de le publier.
 
 **Invites à essayer :**
 
@@ -39,7 +41,7 @@ Sur un marché B2B, plusieurs personnes prennent généralement des décisions d
 * Ajouter un `<role>` mappé à `<persona>`
 * Supprimer `<role>`/`<persona>`
 
-![Audience Agent B2B créant un modèle de rôles de groupe d’achats](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![Modèle de rôle de groupe d’achat généré avec les compétences d’audience.](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -99,7 +101,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 | Type | Conditions |
 | ---- | --------- |
 | [!UICONTROL Attributs de personne] | Attributs du [profil de la personne](../admin/field-mapping.md#xdm-business-person-attributes), notamment : <li>Ville <li>Pays <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État |
-| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ou la personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans les [Schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas). |
+| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta ]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ou la personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans les [Schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtres spéciaux | <li>Membre de la liste (obsolète) <li>Membre du programme (obsolète) |
 | Données d’intention | <li>Intention de la catégorie <li>Intention du produit <li><br/> d’intention du mot-clé (voir [_Données d’intention_](../admin/intent-data.md)) |
 
@@ -171,7 +173,7 @@ Voir la section [Scores d’exhaustivité](./completeness-scores.md) pour obteni
 
 1. Dans la boîte de dialogue, modifiez la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini, le cas échéant.
 
-   Vous pouvez saisir la valeur ou cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
+   Vous pouvez saisir la valeur ou cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Boîte de dialogue Paramètres de score d’exhaustivité du modèle de rôles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -215,7 +217,7 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 1. Cliquez sur **[!UICONTROL Supprimer]** en haut à droite.
 
-   ![&#x200B; Boîte de dialogue de confirmation Supprimer le modèle de rôle &#x200B;](./assets/roles-template-delete.png){width="700"}
+   ![ Boîte de dialogue de confirmation Supprimer le modèle de rôle ](./assets/roles-template-delete.png){width="700"}
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Supprimer]** pour confirmer.
 
@@ -223,4 +225,4 @@ Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
 
 ## Vidéo de présentation {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -1,6 +1,6 @@
 ---
 title: Connexion et page d’accueil
-description: 'Accédez à Journey Optimizer B2B Edition et parcourez des pages d’accueil personnalisées : différentes vues pour les responsables marketing et les équipes d’administration, avec un accès rapide et un Assistant IA.'
+description: Accédez à Journey Optimizer B2B Edition et parcourez des pages d’accueil personnalisées. Différentes vues permettent aux spécialistes marketing et aux administrateurs de bénéficier d’un accès rapide et d’une conversation [!DNL Coworker].
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # Connexion et page d’accueil
 
@@ -44,7 +44,7 @@ Lorsque vous vous connectez à Adobe Experience Platform et sélectionnez l’
 
 ![Pages d’accueil de Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition comporte deux personas d’utilisateur ou d’utilisatrice principaux : _&#x200B;**spécialiste du marketing**&#x200B;_ et _&#x200B;**administrateur ou administratrice**&#x200B;_. Chaque persona dispose d’une page d’accueil spécifique selon son niveau de maturité (nouveau ou avancé). Le contenu de la page est basé sur les besoins de chaque persona en termes d’informations et des prochaines actions à entreprendre.
+Journey Optimizer B2B Edition comporte deux personas d’utilisateur ou d’utilisatrice principaux : _**spécialiste du marketing**_ et _**administrateur ou administratrice**_. Chaque persona dispose d’une page d’accueil spécifique selon son niveau de maturité (nouveau ou avancé). Le contenu de la page est basé sur les besoins de chaque persona en termes d’informations et des prochaines actions à entreprendre.
 
 * **Spécialiste marketing - nouvel utilisateur ou nouvelle utilisatrice** : la page d’accueil _Spécialiste marketing_ d’un nouvel utilisateur ou d’une nouvelle utilisatrice l’aide à se familiariser avec Journey Optimizer B2B et ses fonctionnalités. Il comprend une présentation guidée pour le nouveau professionnel du marketing afin qu’il puisse comprendre les nuances du système et devenir efficace dans le développement de stratégies et d’initiatives marketing B2B.
 * **Spécialiste marketing - utilisateur expérimenté ou utilisatrice expérimentée** : la page d’accueil _Spécialiste marketing_ d’une personne spécialiste marketing expérimentée affiche la progression de l’initiative actuelle, les actions recommandées à entreprendre et permet d’accéder rapidement aux sections pertinentes.
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition comporte deux personas d’utilisateur ou d’ut
 
 La section _[!UICONTROL Récemment consultées]_ fournit une liste des dernières ressources consultées par les spécialistes du marketing ou l’équipe d’administration. Utilisez cette liste pour accéder directement à la ressource sur laquelle vous avez récemment travaillé sans parcourir une série de pages de ressources ni effectuer de recherche.
 
-La page inclut également l’accès à l’[assistant IA](./ai-coworker/ai-assistant-overview.md), qui permet aux personnes d’obtenir des informations rapides sur des questions ou sujets spécifiques dont elles ont besoin.<!-- and to obtain specific recommendations for their challenges or objectives-->
+La page inclut également l’accès au [Chat des collègues](./ai-coworker/ai-overview.md), qui permet aux utilisateurs et aux utilisatrices d’obtenir des informations rapides sur les questions ou sujets spécifiques dont ils ou elles ont besoin.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

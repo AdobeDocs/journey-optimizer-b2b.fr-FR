@@ -1,6 +1,6 @@
 ---
-title: Journey Agent B2B
-description: Découvrez comment utiliser le Journey Agent optimisé par l’IA et ses compétences pour créer, gérer et observer des parcours B2B robustes.
+title: Compétences en parcours pour B2B
+description: Découvrez comment utiliser les compétences de Parcours optimisées par l’IA que vous pouvez utiliser pour créer, gérer et observer des parcours B2B robustes.
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
@@ -36,31 +36,31 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1115'
 ht-degree: 0%
 ---
-# Journey Agent B2B
+# Compétences en parcours pour B2B
 
-Journey Agent B2B est un assistant optimisé par l’IA dans Adobe Journey Optimizer B2B Edition qui vous aide à concevoir, exécuter, optimiser et surveiller les parcours B2B via le langage naturel. Il réduit le temps et la complexité nécessaires à la création et à la gestion des parcours clients en combinant l’automatisation, les recommandations basées sur les données et l’observabilité en temps réel.
+Dans [!DNL CX Enterprise Coworker] chat, les compétences en parcours vous aident à concevoir, exécuter, optimiser et surveiller [!DNL Adobe Journey Optimizer B2B Edition] parcours en langage naturel. L’utilisation de ces compétences réduit le temps et la complexité nécessaires à la création et à la gestion des parcours de compte et de personne en combinant l’automatisation, les recommandations basées sur les données et l’observabilité en temps réel.
 
-![Invite B2B &#x200B;](./assets/journey-agent-prompt.png)
+[!DNL CX Coworker] fournit un ensemble de compétences en IA qui comprend un sous-ensemble pour le cycle de vie du parcours B2B. Les compétences actuellement disponibles sont les suivantes :
 
-Le B2B de Journey Agent fournit un ensemble de compétences en IA, chacune axée sur un aspect différent du cycle de vie du parcours B2B. Les compétences actuellement disponibles sont les suivantes :
+* **[Compétences en création de Parcours](#journey-creation-skills)** - Créez, mettez à jour et optimisez des parcours à partir d’invites de langage naturel
+* **[Parcours des compétences d’observabilité](#journey-observability-skills)** - Posez des questions sur la manière dont les comptes et les personnes se déplacent dans les parcours actifs
 
-* **[Compétences de création de Parcours](#journey-build-skill)** - Créez, mettez à jour et optimisez des parcours à partir d’invites de langage naturel.
-* **[Compétence Observabilité du Parcours](#journey-observability-skill)** - Posez des questions sur la manière dont les comptes et les personnes se déplacent dans les parcours actifs
+Cliquez sur l’icône _Demander l’[!DNL Coworker]_ ( ![Demander l’[!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) en haut de l’application pour ouvrir l’interface [!DNL Coworker].
 
-## Parcours Développer les compétences
+## Compétences en création de parcours {#journey-creation-skills}
 
-Les compétences Parcours Build traduisent vos objectifs marketing, votre stratégie d’engagement et vos KPI en parcours client B2B complets. Il relève trois défis majeurs auxquels sont confrontés les marketeurs B2B aujourd’hui :
+Les compétences en création de parcours traduisent vos objectifs marketing, votre stratégie d’engagement et vos KPI en parcours clients B2B complets. Ils relèvent trois défis majeurs auxquels sont confrontés les marketeurs B2B aujourd’hui :
 
 * Gérer des parcours clients de plus en plus complexes (complexité en termes d’audience, de contenu et de messagerie, et omnicanal)
 * Accroître l&#39;efficacité dans un contexte de resserrement budgétaire
 * Déterminer la structure du parcours client optimal
 
-En tant que spécialiste marketing, vous pouvez utiliser cette compétence pour :
+En tant que spécialiste marketing, vous pouvez utiliser ces compétences pour :
 
 * **Créer** - Transformez vos objectifs marketing, produits, stratégie d’engagement et KPI en un parcours client personnalisé avec automatisation et conditions
 * **Recommander** - Tirez parti des engagements marketing passés et d’autres données historiques pour optimiser la création de parcours
@@ -69,13 +69,13 @@ En tant que spécialiste marketing, vous pouvez utiliser cette compétence pour 
 
 ### Utilisation de base
 
-Pour utiliser la compétence Journey Agent Build, saisissez dans la fenêtre d’invite ce que vous souhaitez créer, en utilisant le langage naturel :
+Pour utiliser les compétences de création de parcours, saisissez dans la fenêtre d’invite de [!DNL Coworker] ce que vous souhaitez créer, en utilisant le langage naturel :
 
 « Créez un parcours B2B pour inviter les décideurs à une présentation dans les comptes engagés les plus susceptibles d’ouvrir un nouveau pipeline. »
 
-![Invite B2B de l’agent de Parcours pour la compétence Créer](./assets/journey-agent-tasks.png)
+![Compétence de création de Parcours pour l’invite B2B dans [!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}
 
-Plus vous fournissez de détails, meilleure est la réponse. Si des documents marketing existants décrivent l’événement, votre produit, etc., collez-les dans l’invite afin que l’agent ait une meilleure compréhension de l’objectif.
+Plus vous fournissez de détails, meilleure est la réponse. Si vous disposez de documents marketing décrivant l’événement, votre produit, etc., collez-les dans l’invite afin que [!DNL Coworker] compreniez mieux l’objectif.
 
 « Agissez en tant que stratégiste du parcours B2B pour créer un parcours de compte client à plusieurs étapes qui nourrit et implique les décideurs et les personnages marketing dans la phase d’exploration initiale de `<Solution Name>`. L’objectif est de convertir des visiteurs anonymes en contacts connus, d’approfondir l’engagement avec du contenu pertinent sur `<domain>`.com et de créer des prospects qualifiés pour la sensibilisation aux ventes `<Product Name>`. Utilisez des canaux tels que les e-mails et les médias achetés, en exploitant les segments d’audience et le contenu existants. Structurez le parcours entre les étapes de sensibilisation, de considération et d’évaluation sur 4 à 6 semaines, avec des déclencheurs, des actions et des objectifs clairs pour chaque étape. Incluez des KPI tels que les taux de conversion, les scores d’engagement et les demandes de démonstration, et renvoyez la sortie sous la forme d’un flux de parcours structuré. »
 
@@ -86,11 +86,11 @@ Cette invite détaillée fournit les éléments suivants :
 * **Format structuré** : utilisez des puces, des étapes numérotées ou des modèles.
 * **Affectation de rôle** : spécifiez le rôle de l’IA - « Agir en tant qu’analyste de données... »
 
-Utilisez l’agent pour itérer l’affinement : commencez simplement, puis affinez votre invite en fonction des résultats. Les boucles de rétroaction améliorent les résultats au fil du temps.
+Commencez avec une simple invite, puis affinez-la en fonction des résultats. Utilisez les invites de relance pour effectuer une itération.
 
 ### Création de parcours B2B de bout en bout
 
-La compétence Création de Parcours peut générer un flux de parcours de bout en bout (parcours de compte ou de personne) à partir d’invites textuelles et de métadonnées en langage naturel, par le biais d’une expérience de conversation plutôt que d’une interface utilisateur traditionnelle.
+Les compétences de création de parcours peuvent générer un flux de parcours de bout en bout (parcours de compte ou de personne) à partir d’invites textuelles et de métadonnées en langage naturel, par le biais d’une expérience de conversation plutôt que d’une interface utilisateur traditionnelle.
 
 Exemples complets d’invites de Parcours :
 
@@ -107,25 +107,21 @@ Vous pouvez agir en tant que concepteur de parcours B2B pour créer un parcours 
 * Structurez le parcours entre les étapes `awareness`, `consideration` et `evaluation` sur 4 à 6 semaines, avec des déclencheurs, des actions et des objectifs clairs pour chaque étape.
 * Incluez des KPI, tels que `conversion rates`, `engagement scores` et `demo requests`, et renvoyez la sortie sous la forme d’un flux de parcours structuré.
 
-## Compétence d’observabilité de parcours
+## Parcours des compétences d’observabilité {#journey-observability-skills}
 
-Les compétences en observabilité des Parcours vous permettent de poser des questions en langage naturel sur la manière dont les comptes et les personnes se déplacent dans vos parcours B2B, sans devoir parcourir les cartes de parcours, les journaux ou les tableaux de bord. Il couvre deux domaines principaux : la progression des parcours et l’observabilité de la synchronisation des données.
+Les compétences d’observabilité du parcours vous permettent de poser des questions en langage naturel sur la manière dont les comptes et les personnes se déplacent dans vos parcours B2B, sans devoir parcourir les cartes de parcours, les journaux ou les tableaux de bord. Ils couvrent deux domaines principaux : la progression du parcours et l’observabilité de la synchronisation des données.
 
-Vous pouvez y accéder à deux endroits dans Journey Optimizer B2B Edition :
-
-* **Assistant Rail droit dans la carte des parcours** - Posez des questions spécifiques aux parcours directement à partir de la carte des parcours. Le nom du parcours est automatiquement injecté dans le contexte.
-
-* **Page de l’assistant plein écran** - Une vue conversationnelle plus large adaptée aux questions complexes ou entre comptes et à l’exploration de plusieurs parcours.
+![Parcours d&#39;invite d&#39;observabilité et de réponse dans [!DNL CX Coworker]](./assets/journey-observability-prompt-response.png){width="800" zoomable="yes"}
 
 ### Insight de parcours au niveau du compte
 
 Suivez le cheminement d’un compte spécifique dans un parcours en posant des questions telles que :
 
-* « Donnez-moi des informations de base sur le compte ACME Industries. »
+* « Donnez-moi des informations de base sur les comptes Bodea Cloud. »
 * « Dites-moi comment le compte Northstar Services a suivi la stratégie parcours de soutien des GAB. »
 * « Quand le compte Contoso LLC a-t-il lancé ce parcours ? »
 
-### Raisonnement et comptage du chemin du nœud partagé
+### Raisonnement et décomptes en chemin partagé
 
 Comprenez pourquoi une branche a été utilisée et combien de personnes ou de comptes ont suivi chaque chemin :
 
@@ -133,13 +129,13 @@ Comprenez pourquoi une branche a été utilisée et combien de personnes ou de c
 * « Indiquez-moi le nombre de personnes pour chaque chemin d’accès dans le nœud partagé 459c7c. »
 * « Montrez-moi des personnes sur le chemin San Jose pour le compte8. »
 
-L’agent examine la logique de partage, les attributs de compte et les activités pour expliquer les décisions de routage et le nombre de retours par chemin ou les listes de personnes.
+Les compétences d’observabilité du parcours analysent la logique de division, les attributs de compte et les activités afin d’expliquer les décisions de routage et le retour des nombres par chemin ou des listes de personnes.
 
 ### Résultats du parcours au niveau des personnes
 
 Analysez les résultats individuels au sein d’un compte ou sur l’ensemble d’un parcours, ce qui est particulièrement utile pour l’analyse de groupe d’achat et le suivi du comportement des décideurs par rapport à celui des influenceurs :
 
-* « Donnez-moi le nombre de personnes dans chaque chemin pour ce nœud partagé pour le compte 123. »
+* « Donnez-moi le nombre de personnes dans chaque chemin de partage pour le parcours d’engagement web Bodea Next. »
 * « Répertorier les personnes dans le chemin de saut masqué. »
 * « Montrez-moi les personnes dont le chemin d’accès à l’emplacement est San Diego pour ce compte. »
 
@@ -160,7 +156,7 @@ Pour les parcours qui diffusent vers des canaux externes tels que LinkedIn, vous
 
 ### Synchronisation des données et observabilité du pipeline
 
-La compétence Observability peut également faire apparaître les informations d’intégrité de la synchronisation des données pour aider à résoudre les problèmes qui expliquent pourquoi un compte ou un prospect n’a pas été inclus dans un parcours :
+Les compétences d’observabilité du parcours peuvent également faire apparaître les informations d’intégrité de la synchronisation des données pour aider à résoudre les problèmes pourquoi un compte ou un prospect n’a pas été inclus dans un parcours :
 
 * Mesures et statut de la tâche d’exportation d’audience externe
 * Plannings de segmentation par lots et heures d’achèvement
