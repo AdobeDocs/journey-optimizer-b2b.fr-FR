@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1911'
 ht-degree: 0%
 ---
 # Nœud du meilleur chemin suivant
@@ -295,7 +295,7 @@ Utilisez la simulation pour tester la manière dont l’IA évalue vos invites p
 
 1. Cliquez sur **[!UICONTROL Simuler]**.
 
-### Consulter les résultats de la simulation {#review-simulation-results}
+### Examen des résultats de la simulation {#review-simulation-results}
 
 Une fois la simulation exécutée, le panneau de droite affiche la manière dont les profils ont été distribués sur chaque chemin d’accès et le raisonnement de l’IA derrière ces affectations :
 
@@ -331,4 +331,4 @@ Pour un parcours publié, ouvrez la carte des parcours et sélectionnez le nœud
 * Score de confiance pour chaque affectation de chemin
 * Raisonnement au niveau du chemin et du profil, avec des détails extensibles pour les profils individuels
 
-Les résultats en direct sont également disponibles dans la console de Parcours et via la compétence [Observabilité du Parcours &#x200B;](../agents/journey-agent.md#journey-observability-skill) dans le hub d’IA.
+Des résultats en direct sont également disponibles pour la console de Parcours et par le biais des [compétences d’observabilité du Parcours &#x200B;](../agents/journey-agent.md#journey-observability-skills) dans [!DNL Coworker] chat.

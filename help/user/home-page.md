@@ -1,6 +1,6 @@
 ---
 title: Connexion et page d’accueil
-description: 'Accédez à Journey Optimizer B2B Edition et parcourez des pages d’accueil personnalisées : différentes vues pour les responsables marketing et les équipes d’administration, avec un accès rapide et un Assistant IA.'
+description: Accédez à Journey Optimizer B2B Edition et parcourez des pages d’accueil personnalisées. Différentes vues permettent aux spécialistes marketing et aux administrateurs de bénéficier d’un accès rapide et d’une conversation [!DNL Coworker].
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # Connexion et page d’accueil
 
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition comporte deux personas d’utilisateur ou d’ut
 
 La section _[!UICONTROL Récemment consultées]_ fournit une liste des dernières ressources consultées par les spécialistes du marketing ou l’équipe d’administration. Utilisez cette liste pour accéder directement à la ressource sur laquelle vous avez récemment travaillé sans parcourir une série de pages de ressources ni effectuer de recherche.
 
-La page inclut également l’accès à l’[assistant IA](./ai-coworker/ai-assistant-overview.md), qui permet aux personnes d’obtenir des informations rapides sur des questions ou sujets spécifiques dont elles ont besoin.<!-- and to obtain specific recommendations for their challenges or objectives-->
+La page inclut également l’accès au [Chat des collègues](./ai-coworker/ai-overview.md), qui permet aux utilisateurs et aux utilisatrices d’obtenir des informations rapides sur les questions ou sujets spécifiques dont ils ou elles ont besoin.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

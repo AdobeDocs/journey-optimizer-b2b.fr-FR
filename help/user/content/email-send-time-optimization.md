@@ -28,9 +28,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 ---
 # Optimisation de l’heure d’envoi des e-mails
@@ -46,16 +46,16 @@ L’optimisation de l’heure d’envoi est actuellement prise en charge pour :
 * **Type de Parcours** : Parcours de personne
 * **Canal** : e-mail
 * **Configuration** : nœud d’action _Envoyer un e-mail_
-* **Reporting** : assistant AI grâce à la compétence Observability du Parcours
+* **Reporting** : conversation [!DNL Coworker] à travers les compétences d’observabilité du parcours
 
-  Des informations sur les performances, telles que l’utilisation, l’effet élévateur d’engagement et les comparaisons STO/non-STO, sont disponibles par le biais de requêtes en langage naturel dans l’assistant d’IA.
+  Des informations sur les performances, telles que l’utilisation, l’effet élévateur d’engagement et les comparaisons STO/non-STO, sont disponibles par le biais de requêtes en langage naturel dans le chat [!DNL Coworker].
 
 >[!BEGINSHADEBOX]
 
 De nombreuses **_améliorations futures_** sont prévues pour la STO :
 
 * Prise en charge de Parcours de compte __
-* Configuration globale de la STO dans la zone _[!UICONTROL Admin]_
+* Configuration globale de l’outil STO dans la zone _[!UICONTROL Administration]_
 * Activation de la STO de parcours niveau
 * Partage de test/contrôle configurable
 * Un tableau de bord de reporting STO dédié
@@ -90,4 +90,4 @@ Vous pouvez configurer l’optimisation de l’heure d’envoi lorsque vous [ajo
 
 ## Informations sur l’arrêt
 
-Les informations STO sont fournies par l’intermédiaire de l’_assistant AI_ à l’aide de la compétence Journey Agent [_observabilité_](../agents/journey-agent.md#journey-observability-skill). Vous pouvez interroger l’utilisation, les mesures d’engagement, les résultats des tests/contrôles, les performances des nœuds et l’impact global du parcours.
+Les informations STO sont fournies par _[!DNL Coworker]chat_ en utilisant les [_compétences d&#39;observabilité de parcours_](../agents/journey-agent.md#journey-observability-skills). Vous pouvez interroger l’utilisation, les mesures d’engagement, les résultats des tests/contrôles, les performances des nœuds et l’impact global du parcours.

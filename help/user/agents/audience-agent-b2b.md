@@ -1,6 +1,6 @@
 ---
-title: Audience Agent B2B
-description: Audience Agent B2B dans Journey Optimizer B2B edition utilise l’analyse d’intention et le mappage de persona pour créer des groupes d’achats et accélérer les workflows marketing B2B.
+title: Compétences en audience pour les comptes B2B et les personnes
+description: Découvrez les compétences en matière d’audience pour les comptes et les personnes B2B. Explorez l'intention du produit, identifiez les personnes, évaluez la couverture des rôles et créez des modèles de groupe d'achats.
 feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
@@ -8,89 +8,121 @@ autotag-review: '2026-06-05T16:43:42.459Z'
 TQID: 'https://experienceleague.adobe.com/d7KMYbH0NpoYGnBdTCmCpzLgpGIYfNP-YIFCQUjZpIg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+    internal-label: Taxonomy
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 2500
-ht-degree: 2%
-
+source-wordcount: '1692'
+ht-degree: 1%
 ---
+# Compétences en audience pour les comptes et les personnes B2B
 
-# Audience Agent B2B
+Utilisation des compétences d’audience pour B2B dans l’interface [!DNL CX Coworker]. Explorez l’intention du produit sur plusieurs comptes et personnes. Identifiez les personnes pertinentes, évaluez la couverture du groupe d&#39;achat et créez des modèles de rôles pour le groupe d&#39;achat.
 
-Optimisé par [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), Audience Agent B2B est disponible dans Journey Optimizer B2B edition. L’utilisation de cet agent améliore l’efficacité et la rentabilité de l’exploration et de la mise à l’échelle des audiences, accélérant la création de groupes d’achats et les workflows transparents pour l’activation du parcours :
-
-* **_Hiérarchiser les audiences cibles par intention_** : déduisez des rôles en fonction de l’intention du produit pour diverses audiences et rationalisez la planification des campagnes, en réduisant le temps consacré à la validation des audiences.
-
-* **_Utiliser l’IA pour détecter et créer des groupes d’achats_** : utilisez l’IA, les données structurées, non structurées et les données propriétaires unifiées pour rationaliser la découverte et la création de groupes d’achats.
-
-![Audience Agent B2B en mode Pleine page](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+* Évaluez l’intérêt du compte pour des produits spécifiques et comparez les tendances d’intention.
+* Identifier les personnes et les rôles associés à l’intérêt du produit.
+* Examinez les rôles des groupes d&#39;achat et cernez les lacunes en matière de couverture.
+* Générer et affiner des modèles de rôle de groupe d&#39;achat.
 
 >[!PREREQUISITES]
 >
->Pour utiliser Audience Agent B2B, il existe des définitions et des mappages de données obligatoires <br/>
+>Avant d’utiliser les compétences d’audience pour les comptes et les personnes B2B, configurez les définitions et mappages de données suivants :
 >
->* [Taxonomie/mappage des données intentionnelles](../admin/intent-data.md)
->* [taxonomie/mappage des champs XDM](#xdm-data-prerequisites)
+>* [Taxonomie et mappage des données intentionnelles](../admin/intent-data.md)
+>* [Mappage de champs XDM](#xdm-data-prerequisites)
 
-## Fonctionnalités B2B d’Audience Agent
+Cliquez sur l’icône _Demander le[!DNL Coworker]_ ( ![Demander le [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) en haut de l’application pour ouvrir l’application [!DNL Coworker]. Entrez votre invite en langage naturel dans l&#39;interface de chat.
 
-| Zone | Ce qu&#39;il fait | Valeur commerciale |
-| ---- | ------------ | -------------- |
-| Analyse de l’intention | <li> Mesurez l’intensité de l’intention du compte (faible, moyenne et élevée, par exemple) pour des produits spécifiques. <li>Comparez les tendances d’intérêt des produits au fil du temps (par exemple, les meilleurs produits au cours des _n_ derniers jours). <li>Identifier les comptes présentant un intérêt actif pour des produits spécifiques. <li>Affichez les modèles d’engagement qui combinent l’activité du compte à la couverture personnelle. | <li>Permet aux équipes de se concentrer sur les bons comptes au bon moment. <li>Améliore la qualité du pipeline en donnant la priorité aux comptes avec des signaux d’achat authentiques. <li>Permet un engagement proactif avant que les concurrents n’agissent. |
-| Mappage de persona | <li>Détecter et classer les principales personnes par intention de produit. <li>Identifiez les personnes impliquées dans l’achat d’un ou de plusieurs produits. <li>Mappez les rôles aux rôles fonctionnels (tels que _Champion_, _Décideur_ et _Influenceur_) avec une justification. <li>Validez pourquoi une personne donnée est considérée comme un champion. | <li>Veille à ce que l&#39;équipe des ventes engage les véritables décideurs et influenceurs. <li>Réduit les efforts perdus sur les contacts à faible impact. <li>Augmente les taux de gain en alignant la sensibilisation avec la dynamique du pouvoir d&#39;achat. |
-| Évaluation d&#39;un groupe d&#39;achat | <li>Évaluez la taille du groupe d&#39;achat (par exemple, les groupes comportant plus de _n_ membres). <li>Mesurez la couverture personnelle sur tous les comptes (par exemple, sous _x_ %). <li>Suivez la répartition des rôles et les écarts de couverture au sein des groupes d&#39;achats. <li>Mettez en évidence les comptes avec les champions identifiés dans les accords récents. | <li>Révèle des lacunes de couverture qui pourraient bloquer les transactions. <li>Renforce les stratégies multi-threads en assurant une représentation complète des rôles. <li>Améliore le suivi de l’intégrité des contrats grâce à des informations d’engagement au niveau du groupe. |
-| Création et exploitabilité d&#39;un groupe d&#39;achat | <li>Recommandez des mappages rôle à rôle en fonction des rôles et des modèles de rôle observés. <li>Générer un modèle de rôle de groupe d&#39;achats pour un produit spécifié. <li>Prise en charge de la personnalisation des modèles en incluant ou en excluant des rôles et des rôles spécifiques. <li>Vérifiez que les rôles requis sont définis avant la création des groupes d&#39;achats. | <li>Réduit l&#39;effort manuel et le risque de modèles de groupe d&#39;achat incomplets. <li>Garantit que la couverture des rôles est validée avant la création, ce qui réduit le risque de lacunes de couverture. <li>Transforme les informations d’analyse en prochaines étapes immédiates et opérationnelles. |
+![Invite d’audience dans [!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}
+
+## Compétences des audiences dans les domaines prioritaires
+
+Utilisez les domaines de compétence d’audience pour explorer l’intention du compte, comprendre les personnes et les rôles et préparer des modèles de groupes d’achats.
+
+| Focus | Tâches |
+| ----- | ----- |
+| Intention du compte | Évaluez l’intention de compte pour des produits spécifiques à l’aide des niveaux d’intention faible, moyen et élevé. Comparez les tendances des intérêts des produits au fil du temps et identifiez les comptes présentant un intérêt pour des produits spécifiques. Examinez les modèles d’engagement ainsi que la couverture personnelle. |
+| Personnes et personnages | Identifier et classer les utilisateurs par intention de produit pour un ou plusieurs produits. Examinez les mesures de l’opportunité, y compris le taux de succès, le taux d’abonnement et le nombre. Mappez les personnages à des rôles tels que _Champion_, _Décideur_ et _Influenceur_, et examinez les explications pour l’attribution des rôles. |
+| Couverture du groupe d&#39;achat | Évaluez la taille du groupe d&#39;achat et la couverture personnelle sur tous les comptes. Examinez la répartition des rôles et identifiez les rôles ou les personnes manquants. Trouvez des comptes avec des champions identifiés dans les offres récentes. |
+| Modèles de groupe d&#39;achat | Générer des modèles de rôle de groupe d&#39;achat pour des produits spécifiques et passer en revue les mappages de personnages recommandés. Affinez les modèles en incluant ou en excluant les rôles et les rôles. Validez les rôles requis avant de créer des groupes d&#39;achats. |
 
 ## Limites
 
-Le B2B d’Audience Agent dépend de la taxonomie d’intention configurée, des mappages de champs XDM et des données d’événement d’expérience. Les informations sont moins fiables lorsque les données de l’opportunité sont incomplètes, que la taxonomie de l’intention est manquante ou obsolète, ou que les identifiants de profil et de compte requis ne sont pas mappés. Pour le calcul de l’intention, l’agent traite uniquement ces événements d’expérience : `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed` et `web.webpagedetails.pageViews`.
+Les informations sur les audiences dépendent de la taxonomie d’intention configurée, des mappages de champs XDM et des données d’événement d’expérience. Des données d’opportunité incomplètes, une taxonomie manquante ou obsolète, ou des identifiants de profil et de compte manquants peuvent réduire la fiabilité d’insight.
+
+Le calcul de l’intention utilise uniquement ces événements d’expérience : `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed` et `web.webpagedetails.pageViews`.
 
 ## Exemples de prompts
 
-Ces exemples d’invite montrent quelques-unes des façons dont vous pouvez utiliser l’agent :
+Saisissez les invites suivantes dans l&#39;interface [!DNL CX Coworker] pour explorer l&#39;intention du compte, comprendre les personnes et les rôles et préparer les modèles de groupe d&#39;achats.
+
+### Intention du compte
+
+Explorez l’intérêt du compte pour les produits et passez en revue les modifications d’intention.
 
 * Afficher la fenêtre de tendance : premières et dernières mises à jour de l’intention du produit du compte par produit.
-* Par `<product>`, répertoriez les groupes d’achats avec l’intention du produit et les scores.
-* Par `<product>`, répertoriez les rôles et les rôles avec leurs mesures d’opportunité (taux de succès, taux d’abonnement, nombres).
-* Pour les comptes en `<industry>`, quelle est la couverture moyenne du profil de compte pour `<product>` ?
 * Quels comptes ont une faible intention pour un produit, mais ont toujours des opportunités ouvertes (qui valent la peine d’être encouragées) ?
-* Quels comptes ont ajouté de nouveaux signaux d’intention pour `<account_name>` cette semaine ?
+* Quels nouveaux signaux d&#39;intention ont été enregistrés pour `<account_name>` cette semaine ?
+
+### Personnes et personnages
+
+Identifiez les personnes associées à l&#39;intérêt du produit et passez en revue les rôles de groupe d&#39;achat recommandés.
+
 * Montrez-moi les personnes associées à `<product>`.
 * Me montrer la recommandation de mappage de rôle à persona pour `<product>`.
+* Par `<product>`, répertoriez les rôles et les rôles avec leurs mesures d’opportunité (taux de succès, taux d’abonnement, nombres).
+
+### Groupes d&#39;achat et modèles
+
+Vérifiez l&#39;intention et la couverture du groupe d&#39;achat, puis générez ou affinez des modèles.
+
+* Par `<product>`, répertoriez les groupes d’achats avec l’intention du produit et les scores.
+* Pour les comptes en `<industry>`, quelle est la couverture moyenne du profil de compte pour `<product>` ?
 * Créez un modèle de groupe d&#39;achats pour `<product>`.
 * Créez un modèle de groupe d&#39;achats pour les `<product>` sans le rôle `<persona>` et supprimez le rôle `<role>`.
 
 ## Concepts
 
+Utilisez ces concepts pour interpréter l’intention du compte, les classements des personas et les recommandations des groupes d’achat.
+
 | Concept | Explication |
 | ------- | ----------- |
-| Détection d’audience | En coulisse, l’agent examine les signaux d’intention de la première partie en fonction de deux éléments : l’engagement des utilisateurs vis-à-vis de votre marque et le type de personnes qu’ils représentent. L’analyse revient sur les 18 derniers mois d’activité pour détecter l’intention des produits chez tous les utilisateurs du compte, en particulier pendant la période précédant la fermeture d’une opportunité. Cette analyse permet à l’agent de mettre en évidence les personnes les plus susceptibles d’influencer la transaction.<br/><br/>Parfois, les comptes n’ont pas toutes leurs données d’opportunité en parfait état, ce qui est correct et l’agent peut toujours détecter l’intention du produit à partir de modèles d’engagement uniquement. |
-| Persona | Les personas représentent les types de personnes qui interagissent au sein d’un compte. L’agent les crée en examinant le titre de poste, la fonction et le niveau d’ancienneté, puis en normalisant ces informations afin qu’elles soient cohérentes entre les différents comptes. Ainsi, au lieu de vous perdre dans des titres désordonnés, vous pouvez rapidement voir si vous atteignez des décideurs, des influenceurs ou des rôles de soutien. Les personas vous aident à comprendre qui montre de l’intérêt, et pas seulement le degré d’intérêt. |
-| Mapping des rôles de groupes d&#39;achat | Une fois les rôles mappés, vous les rassemblez dans un groupe d’achat, c’est-à-dire l’équipe complète au sein du compte qui est la plus susceptible d’influencer ou de décider de l’achat. Chaque rôle (tel que _décideur_, _influenceur_ ou _champion_) ajoute un élément du tableau afin que vous ayez une vue claire du comité qui dirige l’affaire.<br/><br/> L’agent mappe chaque personnage identifié au rôle qu’il est le plus susceptible de jouer pour un produit spécifique, en fonction du titre de la fonction, de l’ancienneté et des autres attributs que vous configurez. Il indique également la couverture de chaque rôle afin que vous puissiez voir quels rôles sont bien représentés et quelles sont les lacunes restantes dans votre stratégie d’engagement. |
-| Utilisation des données d’opportunité pour détecter les personas | Pour vous donner la vue la plus précise de qui s’engage et de leurs intérêts, l’agent approche le classement personnel et l’intention du produit en fonction des éléments suivants : <ul><li>Scénario idéal : si vous pouvez fournir des données telles que _Étape de l’opportunité_, _Date de fermeture de l’opportunité_ et un _Mappage opportunité-produit_ clair, l’agent peut classer les personnes en toute confiance par produit.<li>Ce classement permet de comprendre précisément l’engagement et l’intérêt au sein du compte. </ul>Mais l’agent sait que les données ne sont pas toujours complètes, ce qui est correct. Il comprend des solutions de secours intelligentes pour faire avancer les choses :<ul><li>L&#39;agent analyse le volume des activités, en donnant plus de poids aux activités récentes en utilisant la décroissance temporelle.<li>Cette pondération permet à l’agent de différencier et de classer les rôles, même sans données d’opportunité complètes. </ul>Lorsqu’il s’agit de lier les opportunités aux produits, voici comment l’agent le gère :<ul><li>_Idéal_ : vous fournissez ou aidez l’agent à créer la table de mappage.<li>_Si non disponible_ : l’agent utilise la correspondance approximative pour connecter les points.<li>_Aucun lien du tout_ : l’agent déduit l’intention du produit en fonction des activités récentes antérieures à la date de clôture.</ul>Cette approche à plusieurs niveaux garantit que l’agent peut toujours fournir des informations significatives, même lorsque les données ne sont pas parfaites. |
-| Analyse des opportunités | L’agent examine les données historiques sur les opportunités pour comprendre quels facteurs prédisent le plus fortement une victoire et il utilise trois dimensions principales pour ce faire :<ol><li>Taux de réussite : indique la fréquence à laquelle les affaires sont conclues avec succès lorsque certaines personnes sont impliquées. Si les comptes dotés d’un modèle de persona spécifique (comme un évaluateur technique ou un décideur au niveau du vice-président) ont tendance à convertir plus souvent, le modèle accorde plus de poids à ce modèle. Ces informations représentent un pourcentage du total des opportunités, par exemple les opportunités clôturées ou confirmées.<li>Taux d’adhésion : mesure la fréquence à laquelle un type de persona s’affiche parmi les opportunités pour un produit donné. Si certaines personnes apparaissent systématiquement dans les offres réussies, cela indique qu&#39;elles jouent un rôle essentiel dans le processus d&#39;achat.<li>Influence personnelle : quantifie la contribution d’une personne donnée au résultat, pas seulement sa présence, mais la corrélation entre son engagement ou son niveau d’activité et ses gains.</ol>Ensemble, ces signaux permettent de déduire quelles personnes ont le plus d’impact sur les résultats d’achat, même lorsque les données d’opportunité sont incomplètes. Au fil du temps, il permet au système de faire apparaître les rôles et les modèles à fort impact qui sont les plus prédictifs de la réussite de l’affaire, ce qui permet ensuite d’informer l’intention du compte, le mappage des rôles et les recommandations des groupes d’achat. |
-| Intention | Lorsqu’une personne visite une page web ou clique sur un lien d’e-mail lié à un produit, cela indique qu’elle est intéressée, ce qui est appelé _intention_.<br/><br/>L’agent commence par une taxonomie, qui est essentiellement une liste des produits du client et des mots-clés qui les décrivent. Ces informations aident l’agent à comprendre en quoi consiste chaque élément de contenu ou interaction.<br/><br/>Ensuite, l’agent utilise cette taxonomie pour étiqueter l’activité des visiteurs, comme les mots-clés ou les produits auxquels leurs actions se rapportent.<br/><br/>Ensuite, l’agent examine à quel point une personne interagit, comme le nombre de pages qu’elle visite ou la fréquence de ses interactions. Il utilise ces informations pour calculer le score d’intention individuel de chaque produit pour des mots-clés, des catégories de produits ou des produits spécifiques. Il regroupe chaque score d’intention en _Élevé_, _Medium_ ou _Faible_ intention pour indiquer l’intérêt. (Intention faible : `<=0.2`, Intention de Medium : `0.2 < score <= 0.6`, Intention élevée : `0.6 < score <= 1`)<br/><br/>Enfin, l’agent combine les scores d’intention de toutes les personnes de la même société (compte) pour afficher l’intention globale au niveau du compte, en indiquant les produits ou les sujets qui semblent les plus intéressants pour cette société. |
-| Rôles qui influencent un groupe d&#39;achat | Chaque groupe d’achat est composé de rôles qui contribuent différemment à la décision d’achat, tels que _Décideur_, _Influenceur_, _Champion_ et _Utilisateur final_. Chaque rôle a un degré d’impact variable.<br/><br/>Les décideurs ont le plus d’influence et contrôlent généralement les approbations budgétaires. Les influenceurs façonnent l&#39;évaluation et les recommandations. Les champions aident à établir un consensus interne, tandis que les utilisateurs finaux valident l’adéquation du produit.<br/><br/>En vous présentant ces rôles, l’agent vous aide à comprendre qui pilote la décision d’achat, où votre engagement est le plus fort et où des lacunes de couverture peuvent exister. Ces informations vous permettent de vous concentrer sur les rôles qui comptent le plus pour ce produit. |
-| Couverture des rôles ou des rôles | Pour un produit donné, il existe généralement un ensemble de rôles et de rôles clés connus pour influencer l’achat (_N_ rôles ou rôles). <br/><br/>Pour chaque compte, l’agent calcule la couverture en vérifiant le nombre de ces _N_ rôles représentés par au moins une personne au sein de ce compte.<br/><br/>Si tous les rôles _N_ sont présents, le compte bénéficie d’une couverture complète. Si seuls certains rôles sont représentés, la couverture est partielle.<br/><br/>En termes simples, la couverture du rôle et de la personne mesure l’exhaustivité de votre groupe d’achat pour un produit, selon que tous les décideurs, influenceurs et champions importants sont inclus. |
+| Détection d’audience | Analysez les signaux d’engagement propriétaires sur les personnes d’un compte afin d’identifier l’intérêt du produit et les personnes pertinentes. L’analyse prend en compte les 18 mois d’activité précédents, y compris l’activité avant la fermeture de l’opportunité. Les modèles d’engagement peuvent indiquer l’intention du produit lorsque les données d’opportunité sont incomplètes, mais les données manquantes peuvent réduire la fiabilité d’insight. |
+| Persona | Les personas regroupent les gens selon leur fonction, fonction et ancienneté normalisées. Utilisez les personnes pour comprendre qui s’engage dans un compte, y compris les décideurs, les influenceurs et les rôles de support. |
+| Mapping des rôles de groupes d&#39;achat | Mappez les rôles aux rôles des groupes d’achats spécifiques aux produits en fonction du titre de la fonction, de l’ancienneté et des attributs configurés. Ces rôles représentent les personnes au sein d’un compte qui influencent ou décident d’un achat. Examinez la couverture pour identifier les rôles manquants. |
+| Données d’opportunité pour le classement des personas | L’étape de l’opportunité, la date de fermeture et les mappages opportunité-produit prennent en charge le classement personnel pour chaque produit. Lorsque les données d’opportunité sont incomplètes, le classement utilise le volume d’activité et la décroissance temporelle pour donner plus de poids à l’activité récente.<br/><br/>La liaison de produits utilise un tableau de correspondance opportunité-produit fourni ou généré, le cas échéant. Dans le cas contraire, les correspondances approximatives relient les opportunités aux produits. Si aucun lien n’est disponible, l’intention du produit est déduite de l’activité récente avant la date de fermeture de l’opportunité. Ces méthodes de secours n’éliminent pas les limites de fiabilité des données incomplètes. |
+| Analyse des opportunités | L’analyse historique des opportunités utilise trois dimensions pour identifier les modèles de persona associés aux résultats d’achat :<ul><li>Taux de réussite : mesure la fréquence à laquelle des opportunités sont gagnées lorsque des personnes spécifiques sont impliquées. Les profils personnels associés à des taux de gain plus élevés reçoivent plus de poids.</li><li>Taux d’adhésion : mesure la fréquence à laquelle une personne apparaît dans les opportunités d’un produit donné.</li><li>Influence personnelle : mesure la façon dont l’engagement ou l’activité personnel est corrélé aux gains, au-delà de la présence du persona.</li></ul>Ces signaux renseignent sur l’intention du compte, le mappage des rôles et les recommandations des groupes d’achat. |
+| Intention | L’intention indique l’intérêt du produit par l’engagement, comme les visites de page web ou les clics sur les liens des e-mails. La taxonomie du produit connecte l’activité d’engagement aux mots-clés, aux produits et aux catégories de produits. La profondeur et la fréquence de l’engagement déterminent les scores d’intention individuels pour chaque mot-clé, produit ou catégorie de produits.<br/><br/>Les scores indiquent la force d’intérêt : intention faible : `<=0.2`, intention de Medium : `0.2 < score <= 0.6`, intention élevée : `0.6 < score <= 1`.<br/><br/>Les scores d’intention individuels sont agrégés entre les personnes d’un même compte afin de déterminer l’intention du compte. |
+| Rôles qui influencent un groupe d&#39;achat | Les rôles de groupe d’achat représentent différentes contributions à une décision d’achat. _Décideurs_ contrôlez généralement les approbations de budget. _Influenceurs_ façonnez l’évaluation et les recommandations. _Champions_ construisez un consensus interne. _Utilisateurs finaux_ valider l’adéquation du produit.<br/><br/>Examinez les affectations et la couverture des rôles pour comprendre qui influence la décision et où subsistent des lacunes en matière d’engagement. |
+| Couverture des rôles ou des rôles | La couverture mesure le nombre de personnes ou de rôles attendus ayant au moins un représentant au sein d’un compte. Pour un produit avec _N_ rôles ou rôles attendus, une couverture complète signifie que tous les _N_ sont représentés. Une couverture partielle signifie que certains sont absents. Utilisez la couverture pour évaluer l&#39;exhaustivité du groupe d&#39;achat et identifier les lacunes. |
 
 ## Conditions préalables relatives aux données XDM
 
-Audience Agent fournit des informations sur les comptes présentant l’intention propriétaire pour les produits et calcule les rôles et les rôles en fonction des données définies. Assurez-vous que les données préalables suivantes sont configurées pour utiliser les fonctionnalités d’Audience Agent :
+Configurez les mappages de champs XDM suivants pour prendre en charge l’analyse des intentions de compte, l’identification des personnes et le mappage des rôles des groupes d’achats.
 
 ### Mappage des champs XDM
 
@@ -174,7 +206,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span >Profils</span>
         </p>
       </td>
-      <td>Prénom de la personne, utilisé par Audience Agent pour afficher les noms dans l’interface utilisateur lorsqu’il répond à un critère.</td>
+      <td>Affiche le prénom de la personne dans les résultats correspondant à votre requête.</td>
     </tr>
     <tr class="">
       <td>
@@ -187,7 +219,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span> des profils</span>
         </p>
       </td>
-      <td>Nom complet de la personne, utilisé par Audience Agent pour afficher les noms dans l’interface utilisateur lorsqu’ils répondent à un critère.</td>
+      <td>Affiche le nom complet de la personne dans les résultats correspondant à votre requête.</td>
     </tr>
     <tr class="">
       <td>
@@ -200,7 +232,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span> des profils</span>
         </p>
       </td>
-      <td>Nom de la personne, utilisé par Audience Agent pour afficher les noms dans l’interface utilisateur lorsqu’il répond à un critère</td>
+      <td>Affiche le nom de la personne dans les résultats correspondant à votre requête.</td>
     </tr>
     <tr>
       <td>
@@ -227,7 +259,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span>Comptes</span>
         </p>
       </td>
-      <td>Nom du compte utilisé par Audience Agent pour s’afficher dans l’interface utilisateur lorsqu’il est satisfait avec tout critère posé dans la requête utilisateur</td>
+      <td>Affiche le nom du compte dans les résultats correspondant à votre requête.</td>
       <td rowspan="4">
         <p>
           <br/>
@@ -252,7 +284,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span>Comptes</span>
         </p>
       </td>
-      <td>Description du compte/de la société utilisé(e) par Audience Agent pour appliquer un filtre sur les comptes en fonction de la requête utilisateur dans l’interface utilisateur </td>
+      <td>Prend en charge le filtrage de compte par description de compte en fonction de votre requête.</td>
     </tr>
     <tr>
       <td>
@@ -265,7 +297,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span> comptes</span>
         </p>
       </td>
-      <td>Secteur de compte/société utilisé par Audience Agent pour appliquer un filtre sur les comptes en fonction des requêtes des utilisateurs dans l’interface utilisateur </td>
+      <td>Prend en charge le filtrage de compte par secteur d’activité en fonction de votre requête.</td>
     </tr>
     <tr>
       <td>
@@ -278,7 +310,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span> comptes</span>
         </p>
       </td>
-      <td>Adresse de facturation du compte/de la société utilisé(e) par Audience Agent pour appliquer un filtre sur les comptes en fonction de la requête utilisateur dans l’interface utilisateur </td>
+      <td>Prend en charge le filtrage de compte par région d’adresse de facturation en fonction de votre requête.</td>
     </tr>
     <tr>
       <td>
@@ -320,7 +352,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span> Opportunité</span>
         </p>
       </td>
-      <td>Nom de l’opportunité utilisée par Audience Agent </td>
+      <td>Nom de l’opportunité utilisé dans l’analyse d’opportunité.</td>
       <td rowspan="5">
         <p>
           <br/>
@@ -364,7 +396,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
           <span>Opportunité</span>
         </p>
       </td>
-      <td>Description de l’opportunité utilisée par Audience Agent </td>
+      <td>Description de l’opportunité utilisée dans l’analyse des opportunités.</td>
     </tr>
     <tr>
       <td>
@@ -452,7 +484,7 @@ Audience Agent fournit des informations sur les comptes présentant l’intentio
 
 ### Données de taxonomie
 
-Audience Agent exploite l’intention propriétaire détectée dans Journey Optimizer B2B edition :
+Les compétences d’audience utilisent des données d’intention propriétaires provenant de [!DNL Adobe Journey Optimizer B2B Edition]. Le calcul de l’intention connecte la taxonomie du produit à l’activité d’engagement et agrège les scores individuels au niveau du compte.
 
 1. Le calcul de l’intention nécessite des données de taxonomie (produits client et mots-clés correspondants) de Clients > Taxonomie
 1. Les données de taxonomie sont utilisées pour étiqueter les données d’événement (étiquetage des ressources). Ces données fournissent des informations sur les mots-clés et les produits qui intéressent les visiteurs en fonction de leurs données d’événement > Étiquetage des ressources 
@@ -547,7 +579,7 @@ Les champs suivants sont requis en plus de la [configuration de la taxonomie d�
           <span> Événement d’expérience </span>
         </p>
       </td>
-      <td>Obtenez le type d’événement, car l’agent ne traite que quatre événements (<span>directMarketing.emailClicked, directMarketing.emailOpened, directMarketing.emailUnsubscribed, web.webpagedetails.pageViews)</span>
+      <td>Identifie le type d’événement. Le calcul de l’intention utilise uniquement <code>directMarketing.emailClicked</code>, <code>directMarketing.emailOpened</code>, <code>directMarketing.emailUnsubscribed</code> et <code>web.webpagedetails.pageViews</code>.
       </td>
     </tr>
     <tr>
@@ -602,7 +634,7 @@ Les champs suivants sont requis en plus de la [configuration de la taxonomie d�
           <span> Événement d’expérience </span>
         </p>
       </td>
-      <td>Utilisé pour récupérer le contenu de l’e-mail à partir du centre de données Marketo Engage ; il se compose de (SourceID@SourceInstanceID.SourceType)</td>
+      <td>Utilisé pour récupérer le contenu d’e-mail du centre de données [!DNL Adobe Marketo Engage]. Il comprend (SourceID@SourceInstanceID.SourceType).</td>
     </tr>
     <tr>
       <td>
