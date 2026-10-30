@@ -494,4 +494,4 @@ Type d’événement : `leadOperation.interestingMoment`
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448685/?captions=fre_fr&learn=on)
