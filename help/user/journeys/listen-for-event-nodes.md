@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # Écouter un évènement
 
 Pour faire passer l’audience à l’étape suivante de votre parcours [&#128279;](./journeys-overview.md) lorsqu’un événement se produit, ajoutez le nœud _Écouter pour un événement_. Selon le type de parcours, vous pouvez utiliser ce nœud pour déclencher le nœud suivant dans le parcours en fonction des personnes ou des événements de compte.
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width=« 30 », vertical-align=« middle »} [Regardez la vidéo de présentation](#overview-video)
 
 ## Parcours de compte {#account-journeys}
 
@@ -363,8 +361,6 @@ Activez l’option **[!UICONTROL Temporisation]** dans les propriétés de nœud
 
    Si vous ne souhaitez pas définir le chemin d’accès, vous pouvez décocher la case _[!UICONTROL Définir le chemin d’accès à l’expiration du délai]_.
 
-<!--
- ## Overview video
+## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443236/?captions=fre_fr&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443236/?captions=fre_fr&learn=on)

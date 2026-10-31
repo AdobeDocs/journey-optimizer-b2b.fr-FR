@@ -26,17 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 12%
+source-wordcount: '1639'
+ht-degree: 13%
 ---
 # Sélectionner des événements d’expérience et des champs
 
 Les administrateurs peuvent sélectionner des Adobe Experience Platform (AEP) spécifiques [Événements d’expérience](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} et leurs champs associés dans le schéma d’union des événements d’expérience. Une fois la sélection effectuée, les utilisateurs peuvent configurer des règles de prise de décision pour écouter ces événements d’expérience afin d’activer les actions de campagne dynamiques et ciblées basées sur les données d’événement en temps quasi réel.
 
-<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-
+![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 >[!PREREQUISITES]
 >
 >L’utilisation des événements d’expérience et des champs dans Journey Optimizer B2B Edition nécessite des schémas d’événement d’expérience activés pour le profil. Pour plus d’informations, consultez [Activer les profils clients en temps réel](https://experienceleague.adobe.com/fr/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} dans les tutoriels d’Experience Platform.
@@ -185,7 +184,7 @@ Type d’événement : `directMarketing.emailSent`
 | Identifiant de l’instance source de l’e-mail | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
 | Clé source de l’e-mail | `directMarketing.emailSent.mailingKey.sourceKey` |
 | Nom du publipostage | `directMarketing.emailSent.mailingName` |
-| ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID du parcours | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nœud | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -213,7 +212,7 @@ Type d’événement : `directMarketing.emailDelivered`
 | Identifiant de l’instance source du mailing | `directMarketing.mailingKey.sourceInstanceID` |
 | Clé source du mailing | `directMarketing.mailingKey.sourceKey` |
 | Nom du publipostage | `directMarketing.mailingName` |
-| ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID du parcours | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nœud | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -245,7 +244,7 @@ Type d’événement : `directMarketing.emailOpened`
 | Modèle d’appareil | `device.model` |
 | Agent utilisateur | `environment.browserDetails.userAgent` |
 | Operating system (Système d’exploitation) | `environment.operatingSystem` |
-| ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID du parcours | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nœud | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -278,7 +277,7 @@ Type d’événement : `directMarketing.emailClicked`
 | Modèle | `device.model` |
 | Agent utilisateur | `environment.browserDetails.userAgent` |
 | Operating system (Système d’exploitation) | `environment.operatingSystem` |
-| ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID du parcours | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nœud | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -309,7 +308,7 @@ Type d’événement : `directMarketing.emailBounced`
 | E-mail | `directMarketing.email` |
 | Code de rebond de l’e-mail | `directMarketing.emailBouncedCode` |
 | Détails de l’e-mail rebond | `directMarketing.emailBouncedDetails` |
-| ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID du parcours | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nœud | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -340,7 +339,7 @@ Type d’événement : `directMarketing.emailBouncedSoft`
 | E-mail | `directMarketing.email` |
 | Code de rebond de l’e-mail | `directMarketing.emailBouncedCode` |
 | Détails de l’e-mail rebond | `directMarketing.emailBouncedDetails` |
-| ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID du parcours | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nœud | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -368,7 +367,7 @@ Type d’événement : `directMarketing.emailUnsubscribed`
 | Identifiant de l’instance source du mailing | `directMarketing.mailingKey.sourceInstanceID` |
 | Clé source du mailing | `directMarketing.mailingKey.sourceKey` |
 | Nom du publipostage | `directMarketing.mailingName` |
-| ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID du parcours | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nœud | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
@@ -488,13 +487,11 @@ Type d’événement : `leadOperation.interestingMoment`
 | Description du moment | `leadOperation.interestingMoment.description` |
 | Source du moment | `leadOperation.interestingMoment.source` |
 | Type de moment | `leadOperation.interestingMoment.type` |
-| ID PARCOURS | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID du parcours | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nœud | `_experience.journeyOrchestration.stepEvents.nodeID` |
 
 +++
 
-<!--
- ## Overview video
+## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3448685/?captions=fre_fr&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3448685/?captions=fre_fr&learn=on)
