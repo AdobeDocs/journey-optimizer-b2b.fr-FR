@@ -363,4 +363,4 @@ Activez l’option **[!UICONTROL Temporisation]** dans les propriétés de nœud
 
 ## Vidéo de présentation
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443236/?captions=fre_fr&learn=on)
