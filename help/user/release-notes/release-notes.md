@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
 workflow-type: tm+mt
-source-wordcount: '5774'
-ht-degree: 60%
+source-wordcount: '5888'
+ht-degree: 58%
 ---
 # Notes de mise à jour de Journey Optimizer B2B Edition
 
@@ -35,7 +35,21 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+
+## Notes de mise à jour 2026.10 {#rel-2026-10}
+
+**Date de déploiement** : 6 novembre 2026
+
+| Type | Élément | Description |
+| ---- | ---- | ----------- |
+| Fonctionnalité | Listes de personnes | Utilisez des listes d’utilisateurs statiques et dynamiques pour cibler les profils en fonction des critères que vous avez définis, tels que les attributs démographiques et l’historique des événements d’expérience. |
+| Fonctionnalité | Libellés de nœud de parcours | Ajoutez des libellés aux nœuds de parcours pour les identifier sur la zone de travail de parcours. |
+| Amélioration | Filtre Membre de la liste des personnes | Utilisez le filtre _[!UICONTROL Membre de la liste des personnes]_ pour inclure ou exclure des profils en fonction de leur appartenance à la liste des personnes. |
+| Amélioration | Actions de parcours de la liste des personnes | Ajouter des personnes aux listes statiques ou en supprimer par le biais de parcours de compte et de personne. |
+
+>[!NOTE]
+>Ces modifications de version débutent le 6 novembre 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
 
 ## notes de mise à jour 2026.9 {#rel-2026-9}
 
@@ -50,12 +64,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 
 >[!NOTE]
 >
->Le déploiement de ces modifications de version commence le 25 septembre 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
-
-<!--
-Delayed to Oct
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
--->
+>Ces modifications de version débutent le 25 septembre 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
 
 ## notes de mise à jour 2026.8 {#rel-2026-8}
 
@@ -74,7 +83,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Ces modifications de version commencent le déploiement le 14 août 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
+>Le déploiement de ces modifications de version commence le 14 août 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
 
 ## Notes de mise à jour 2026.6 {#rel-2026-6}
 
@@ -89,13 +98,11 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Ces modifications de version commencent le déploiement le 10 juillet 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
+>Ces modifications de version débutent le 10 juillet 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
 
 ## Notes de mise à jour 2026.5 {#rel-2026-5}
 
 **Date de déploiement** : 22 mai 2026
-
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
@@ -111,12 +118,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Ces modifications de version commencent le déploiement le 22 mai 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
+>Ces modifications de version débutent le 22 mai 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ## Notes de mise à jour 2026.3 {#rel-2026-3}
 
@@ -135,7 +137,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Le déploiement de ces modifications de version commence le 27 mars 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+>Ces modifications de version débutent le 27 mars 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 
 ## notes de mise à jour 2026.2 {#rel-2026-2}
@@ -151,7 +153,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Ces modifications de version commencent le déploiement le 20 février 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+>Ces modifications de version débutent le 20 février 2026, avec un déploiement échelonné de chaque fonctionnalité et amélioration. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ## Notes de mise à jour 2026.1 {#rel-2026-1}
 
@@ -167,7 +169,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Ces modifications de version commencent le déploiement le 3 février 2026, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+>Ces modifications de version débutent le 3 février 2026, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ## Fonctionnalités d’IA agentique {#rel-agents}
 
@@ -177,7 +179,7 @@ Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais dispon
 | ----- | ------ | ----------- |
 | Agent de création de parcours | Nouveau et mis à jour | L’agent de création de parcours analyse, identifie et co-crée des parcours en temps réel, ce qui permet aux responsables marketing de se lancer plus rapidement, d’améliorer l’engagement et de générer des taux de conversion plus élevés. [En savoir plus](../agents/journey-agent.md) |
 | Agent Audience | Nouveau | L’agent Audience identifie et crée automatiquement des groupes d’achats à l’aide de données structurées et non structurées. Ainsi, les responsables marketing ciblent les bonnes personnes plus rapidement et plus précisément. [En savoir plus](../agents/audience-agent-b2b.md) |
-| [!DNL Marketo Qualifier] | Nouveau | [!DNL Adobe Marketo Qualifier] est une application gérée par l’IA qui s’intègre à [!DNL Journey Optimizer B2B Edition]. Il met en œuvre Account Qualification Agent et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/fr/docs/marketo-qualifier/using/home){target="_blank"} |
+| [!DNL Marketo Qualifier] | Nouveau | [!DNL Adobe Marketo Qualifier] est une application gérée par l’IA qui s’intègre à [!DNL Journey Optimizer B2B Edition]. Il met en œuvre Account Qualification Agent et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). Il automatise les workflows de qualification des prospects, de sensibilisation et d’engagement des acheteurs sur l’ensemble des canaux. [En savoir plus](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## Notes de mise à jour 2025.10 {#rel-2025-10}
 
@@ -199,7 +201,7 @@ Les fonctionnalités d’IA dédiée aux agents suivantes sont désormais dispon
 
 >[!NOTE]
 >
->Le déploiement des modifications de la version commence le 31 octobre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
+>Ces modifications de version débutent le 31 octobre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de publication des fonctionnalités et des améliorations peuvent changer.
 
 ### Architecture mise à jour
 
@@ -213,7 +215,7 @@ Cette implémentation offre plusieurs avantages :
 
 * **Unifier et mettre à l’échelle facilement vos données** : la plateforme mise à jour prend en charge des modèles de données complexes, y compris les objets personnalisés, les groupes d’achats et les événements de compte.
 * **Connecter plusieurs instances Adobe Marketo Engage** : gérez et unifiez les données de plusieurs environnements Adobe Marketo Engage en un seul endroit.
-* **Protéger vos données** : les fonctionnalités avancées de confidentialité et de sécurité vous aident à protéger les informations de votre clientèle.
+* **Protéger vos données** : les fonctionnalités avancées de confidentialité et de sécurité vous aident à protéger les informations de vos clients.
 * **Conçue pour une évolutivité à long terme** : cette mise à jour prépare votre entreprise aux améliorations et innovations continues.
 
 >[!NOTE]
@@ -245,7 +247,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 >[!NOTE]
 >
->Le déploiement des modifications de la version commence le 30 septembre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
+>Ces modifications de version commencent le 30 septembre 2025, avec un déploiement échelonné de chaque fonctionnalité. Les dates de sortie des fonctionnalités et des améliorations sont susceptibles d’être modifiées.
 
 ## Notes de mise à jour 2025.8 {#rel-2025-8}
 
