@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 6%
 ---
 # Expériences web
@@ -61,7 +61,7 @@ Avant de pouvoir créer des expériences web, assurez-vous que les exigences sui
 
 * Un administrateur de produit a configuré un ou plusieurs canaux web pour définir les URL (pages) à inclure pour une expérience web. Pour plus d’informations, voir [Configurations du canal web](../admin/configure-channels-web.md).
 
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) est implémenté pour l&#39;identification des visiteurs et la diffusion de contenu sur votre site Web. Assurez-vous que la version de Adobe Experience Platform Web SDK est la version 2.16 ou ultérieure.
 
 * Vous disposez des [autorisations](../admin/user-management.md#b2b-product-permissions) nécessaires pour créer et gérer des expériences web dans un parcours :
   * _[!UICONTROL Créer Des Expériences Web B2B]_
@@ -84,7 +84,7 @@ Avant de pouvoir créer des expériences web, assurez-vous que les exigences sui
 
    Si vous utilisez [!DNL Microsoft Edge], sélectionnez _Autoriser les extensions_ dans d’autres magasins sur la bannière supérieure. L’activation de cette option vous permet d’ajouter des extensions du [!DNL Chrome Web Store] à [!DNL Microsoft Edge].
 
-1. Recherchez l’extension de navigateur _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;et accédez-y.
+1. Recherchez l’extension de navigateur _[!DNL Adobe Experience Cloud Visual Editing Helper]_et accédez-y.
 
    ![Extension Visual Editing Helper d’Adobe Experience Cloud pour Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -128,7 +128,7 @@ Vous pouvez configurer des expériences web dans un parcours lorsque vous [ajout
    >
    >Les champs Nom et Description prennent en charge les caractères alpha, numériques et spéciaux. Les caractères réservés (`\ / : * ? " < > |`) ne sont **_autorisés_**.
 
-   ![&#x200B; Boîte de dialogue Créer une expérience web &#x200B;](./assets/web-experience-create-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer une expérience web ](./assets/web-experience-create-dialog.png){width="400"}
 
 1. Dans l’onglet **[!UICONTROL Propriétés]** , saisissez la description de l’expérience web.
 
@@ -192,21 +192,23 @@ Dans le traitement B, sélectionnez l’option _[!UICONTROL Rediriger vers l’U
 
 Lorsque votre campagne web est active, vous pouvez suivre les performances de l’expérience web que vous avez définie dans Journey Optimizer B2B Edition par rapport aux expériences web qui utilisent une redirection vers la page alternative.
 
-## Test de l’expérience web
+<!--
+## Test the web experience
 
-Une fois la conception du contenu terminée pour l’expérience web, vous pouvez utiliser la fonctionnalité _Simuler du contenu_ pour prévisualiser les modifications de votre page web. Si vous avez inséré du contenu personnalisé, vous pouvez utiliser les données du profil de test pour vérifier le rendu du contenu. Les outils de simulation sont disponibles à partir de l’onglet _[!UICONTROL Contenu]_ pour l’expérience web ou dans l’éditeur de conception visuelle du contenu.
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. Cliquez sur **[!UICONTROL Simuler du contenu]** en haut à droite.
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. Sélectionner un profil de test.
+1. Select a test profile.
 
-1. Pour vérifier votre page web à l’aide des données de profil de test, ajoutez un profil de test.
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## Activer votre expérience web
 
-Votre expérience web est activée et rendue visible par l’audience lorsque vous [publiez le parcours &#x200B;](../journeys/create-publish-journey.md#publish-a-journey). Avant d’activer une expérience web par le biais d’un parcours, tenez compte des points suivants :
+Votre expérience web est activée et rendue visible par l’audience lorsque vous [publiez le parcours ](../journeys/create-publish-journey.md#publish-a-journey). Avant d’activer une expérience web par le biais d’un parcours, tenez compte des points suivants :
 
 * Si vous publiez un parcours avec une expérience web ayant un impact sur les mêmes pages qu’un autre parcours déjà actif, toutes les modifications sont appliquées aux pages web.
 
@@ -222,9 +224,9 @@ Pour activer la diffusion de l’expérience web, les paramètres suivants doive
 
 * Dans Adobe Experience Platform, assurez-vous d’avoir une politique de fusion avec l’option _[!UICONTROL Politique de fusion Active-On-Edge]_ activée.
 
-  Sélectionnez une politique sous le menu Client > Profils > Politiques de fusion dans Experience Platform. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Sélectionnez une politique sous le menu Client > Profils > Politiques de fusion dans Experience Platform. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Les canaux entrants Journey Optimizer B2B Edition utilisent cette politique de fusion pour activer et publier correctement les expériences web entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/ui-guide)
+  Les canaux entrants Journey Optimizer B2B Edition utilisent cette politique de fusion pour activer et publier correctement les expériences web entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Dépannage
 
