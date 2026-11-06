@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 6%
 ---
 # Expériences web
@@ -192,17 +192,19 @@ Dans le traitement B, sélectionnez l’option _[!UICONTROL Rediriger vers l’U
 
 Lorsque votre campagne web est active, vous pouvez suivre les performances de l’expérience web que vous avez définie dans Journey Optimizer B2B Edition par rapport aux expériences web qui utilisent une redirection vers la page alternative.
 
-## Test de l’expérience web
+<!--
+## Test the web experience
 
-Une fois la conception du contenu terminée pour l’expérience web, vous pouvez utiliser la fonctionnalité _Simuler du contenu_ pour prévisualiser les modifications de votre page web. Si vous avez inséré du contenu personnalisé, vous pouvez utiliser les données du profil de test pour vérifier le rendu du contenu. Les outils de simulation sont disponibles à partir de l’onglet _[!UICONTROL Contenu]_ pour l’expérience web ou dans l’éditeur de conception visuelle du contenu.
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. Cliquez sur **[!UICONTROL Simuler du contenu]** en haut à droite.
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. Sélectionner un profil de test.
+1. Select a test profile.
 
-1. Pour vérifier votre page web à l’aide des données de profil de test, ajoutez un profil de test.
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## Activer votre expérience web
 
