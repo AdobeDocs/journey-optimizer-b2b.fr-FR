@@ -1,7 +1,7 @@
 ---
-title: Détails des parcours
-description: Surveillez les performances du parcours de compte avec les taux d’achèvement, les mesures d’engagement, les analyses d’e-mails/SMS et les informations d’IA dans Journey Optimizer B2B Edition.
-feature: Dashboards, Account Journeys
+title: Détails du parcours
+description: Surveillez les performances des parcours de compte et de personne dans Adobe Journey Optimizer B2B Edition. Examinez les mesures d’achèvement, d’engagement et de canal pour chaque parcours.
+feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
 autotag-review: 2026-03-30T23:21:08.953Z
@@ -19,79 +19,91 @@ feature_v2:
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
     internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c053f91ea231cd8517e2329b7170aa08c33dc24
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '843'
 ht-degree: 1%
 ---
 # Détails du parcours
 
-Lorsque vous cliquez sur le nom d’un parcours de compte actif, les détails du parcours s’affichent. L’onglet _[!UICONTROL Aperçu]_ fournit des informations utiles sur le parcours, y compris des résumés génératifs de l’IA.
+Dans [!DNL Adobe Journey Optimizer B2B Edition], ouvrez un parcours de compte ou de personne publié et sélectionnez l’onglet **[!UICONTROL Aperçu]**. Examinez la progression, l’engagement et les performances des canaux pour le parcours sélectionné.
 
-Ce tableau de bord présente un aperçu complet du parcours de compte sélectionné, en détaillant la progression du compte à l’aide de graphiques en cercle et en courbes qui catégorisent et quantifient les tâches terminées, les activités en cours et les abandons au fil du temps. Il permet aux équipes marketing d’évaluer l’efficacité des canaux e-mail et SMS au moyen des principales mesures de diffusion et d’engagement. Pour les mesures d’e-mail agrégées sur tous les parcours, consultez le [&#x200B; Rapport sur les performances des e-mails &#x200B;](../dashboards/email-performance-dashboard.md).
+Les parcours de compte signalent la progression des comptes. Les parcours de personne signalent la progression pour les personnes. Les widgets et les libellés de mesure disponibles varient selon le type de parcours. Sélectionnez l’onglet correspondant pour afficher les détails du tableau de bord.
 
-Cet aperçu est disponible pour les parcours de compte publiés et il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
+Pour les mesures d’e-mail agrégées entre les parcours, utilisez le [rapport sur les performances des e-mails](../dashboards/email-performance-dashboard.md).
 
-![Accéder aux détails du parcours actif](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB parcours de compte]
+
+Le tableau de bord du parcours de compte affiche la progression du compte, l’engagement, les performances du canal et des résumés IA génératifs. Il faut environ quatre heures pour que les données commencent à remplir les graphiques et les tableaux.
+
+![Onglet Aperçu du parcours de compte affichant la progression, l’engagement et les performances du canal.](./assets/journey-detail-overview-account.png){width="700" zoomable="yes"}
 
 ## achèvement du parcours
 
 Cette section présente deux mesures d’achèvement :
 
-* **[!UICONTROL Statut du Parcours]** - Ce graphique en cercle offre une répartition des statuts de parcours en classant les comptes en _Terminé_, _En cours_ et _Abandonné_. Chaque segment est étiqueté avec les pourcentages et les numéros de compte correspondants sur le bord externe du graphique.
-* **[!UICONTROL Achèvement du Parcours au fil du temps]** - Ce graphique en courbes permet de suivre le nombre de comptes qui ont effectué leur parcours au fil du temps. L’axe horizontal mappe la chronologie tandis que l’axe vertical quantifie les comptes, offrant ainsi une vue directe des tendances d’achèvement.
+* **[!UICONTROL Statut des comptes dans le parcours]** : affiche le nombre total de comptes et une répartition par statut de parcours, y compris _Terminé_, _En cours_ et _Abandonné_. Chaque segment affiche un statut, un pourcentage et un nombre de comptes.
+* **[!UICONTROL Comptes terminés au fil du temps]** : affiche le nombre de comptes ayant terminé le parcours au fil du temps. L’axe horizontal affiche les dates, et l’axe vertical les nombres de comptes.
+
+>[!NOTE]
+>
+>Dans les parcours de comptes, le **[!UICONTROL Statut des comptes dans le graphique de parcours]** inclut les comptes qui ont passé le parcours, même s’ils ont été supprimés par la suite. **[!UICONTROL L&#39;exploration en amont]** exclut les comptes supprimés, de sorte qu&#39;elle peut afficher moins d&#39;enregistrements que le graphique. Cette différence est attendue. La suppression de comptes ne modifie pas les historiques de statut du parcours.
 
 ## Engagement du parcours
 
 Cette section présente deux mesures d’engagement :
 
-* **[!UICONTROL Engagement par comptes]** - Ce graphique en cercle segmente les comptes d’un parcours en _Engagés_ et _Non engagés_ catégories. La figure centrale affiche le nombre total. Cette visualisation permet de comprendre rapidement l’engagement global du compte.
-* **Engagement par les personnes** - Cette visualisation affiche le nombre total de personnes qualifiées _engagées_ dans un parcours.
+* **[!UICONTROL Engagement par comptes]** - Ce graphique en cercle segmente les comptes d’un parcours en _engagements_ et _non engagés_. La figure centrale affiche le nombre total. Cette visualisation permet de comprendre rapidement l’engagement global du compte.
+* **[!UICONTROL Engagement par les personnes]** : affiche le nombre de personnes ayant des activités d’engagement dans le parcours. Cette valeur compte pour les personnes, pas pour les activités d’engagement.
 
 ## performance du parcours
 
 Cette section présente deux mesures essentielles :
 
 * **[!UICONTROL Taux d&#39;achèvement du Parcours]** - Pourcentage de comptes ayant terminé leur parcours avec succès.
-* **[!UICONTROL Durée du Parcours]** - Temps moyen nécessaire aux comptes pour effectuer leur parcours.
+* **[!UICONTROL Délai moyen d’achèvement du parcours]** : temps moyen nécessaire aux comptes pour terminer le parcours, exprimé en jours.
 
-## Performances des e-mails et des SMS
+## Performances du canal {#email-and-sms-performance}
 
-Les tableaux de performances fournissent des informations détaillées sur l’efficacité des canaux e-mail et SMS. Chaque tableau présente des mesures, telles que les taux de diffusion et les taux de clics, qui vous aident à évaluer l’impact de chaque point de contact de communication. Les tableaux ci-dessous montrent les mesures relatives aux e-mails et SMS pour ce parcours uniquement. Pour obtenir les mêmes mesures d’e-mail sur tous les parcours, utilisez le [rapport sur les performances des e-mails](../dashboards/email-performance-dashboard.md).
+Le tableau de bord comprend **[!UICONTROL Performances des e-mails]**, **[!UICONTROL Performances des SMS]** et **[!UICONTROL Performances de WhatsApp]** pour le parcours de compte sélectionné. Utilisez les mesures de diffusion et d’engagement disponibles pour évaluer chaque point de contact de communication.
 
-**[!UICONTROL Performances des emails]** colonnes du tableau :
+**[!UICONTROL Performances des e-mails]** colonnes du tableau :
 
 * _[!UICONTROL Nom de la ressource]_ - Nom de la ressource
-* _[!UICONTROL Envoyés]_ - Nombre d’e-mails envoyés
-* _[!UICONTROL Taux de diffusion]_ - Nombre d’e-mails diffusés divisé par le nombre envoyé
-* _[!UICONTROL Taux d’ouvertures]_ - Nombre de messages ouverts divisé par le nombre de messages diffusés
-* _[!UICONTROL Taux de clic publicitaire]_ - Nombre d’e-mails cliqués divisé par le nombre diffusés
+* _[!UICONTROL Envoyé]_ - Nombre d’e-mails envoyés
+* _[!UICONTROL Taux de diffusion]_ - Nombre d&#39;e-mails diffusés divisé par le nombre envoyé
+* _[!UICONTROL Taux d&#39;ouvertures]_ - Nombre de messages ouverts divisé par le nombre de messages diffusés
+* _[!UICONTROL Taux de clics publicitaires]_ - Nombre d’e-mails cliqués divisé par le nombre de messages diffusés
 
 **[!UICONTROL Performances des SMS]** colonnes du tableau :
 
 * _[!UICONTROL Nom de la ressource]_ - Nom de la ressource
 * _[!UICONTROL Envoyés]_ - Nombre de SMS envoyés
 * _[!UICONTROL Taux de diffusion]_ - Nombre de SMS diffusés divisé par le nombre envoyé
-* _[!UICONTROL Taux de clic publicitaire]_ - Nombre de SMS ayant fait l’objet d’un clic divisé par le nombre diffusé
+* _[!UICONTROL Taux de clic publicitaire]_ - Nombre de SMS ayant fait l’objet d’un clic divisé par le nombre de messages diffusés
 <!--
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
-## Amélioration de l’interaction
+## Actions supplémentaires
 
-Interagissez avec les données à l’aide de l’icône d’action (**...**) en haut à droite de chaque graphique ou tableau.
+Utilisez le menu **...** pour qu’un graphique ou un tableau accède à ses actions disponibles.
 
-### Exploration amont
+### Analyser en amont
 
-Pour le graphique de statut du Parcours __, choisissez **[!UICONTROL Analyser en amont]** pour une analyse approfondie des statuts des comptes individuels.
+Pour le **[!UICONTROL Statut des comptes dans le graphique parcours]**, choisissez **[!UICONTROL Analyser en amont]** pour une analyse approfondie des statuts des comptes individuels.
 
-![Analyse en amont des données du graphique](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+![L&#39;exploration en amont des données du graphique](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
 The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
 -->
@@ -102,4 +114,46 @@ Choisissez **[!UICONTROL Afficher plus]** pour accéder aux données étendues. 
 
 ![Afficher les données étendues](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
-Pour télécharger les données, cliquez sur **[!UICONTROL Télécharger CSV]** en haut à droite du tableau de données. Pour revenir au tableau de bord _Présentation_, cliquez sur **[!UICONTROL Fermer]**.
+Pour télécharger les données, sélectionnez **[!UICONTROL Télécharger CSV]**. Pour revenir au tableau de bord de _[!UICONTROL Présentation]_, sélectionnez **[!UICONTROL Fermer]**.
+
+>[!TAB parcours de personne]
+
+Le tableau de bord du parcours de personnes affiche les performances d’achèvement, d’engagement et d’e-mail pour les personnes du parcours sélectionné.
+
+![Onglet Aperçu du parcours de la personne affichant la progression, l’engagement et les performances des e-mails.](./assets/journey-detail-overview-person.png){width="700" zoomable="yes"}
+
+## achèvement du parcours {#person-journey-completion}
+
+Utilisez les graphiques suivants pour consulter le statut des personnes dans les tendances de parcours et d’achèvement :
+
+* **[!UICONTROL Statut des personnes dans le parcours]** : affiche le nombre total de personnes et une répartition par statut de parcours. Chaque segment affiche un statut, un pourcentage et un nombre de personnes.
+* **[!UICONTROL Nombre de personnes ayant terminé le parcours au fil du temps]** : affiche le nombre de personnes ayant terminé le test au fil du temps. La série **[!UICONTROL incrémentielle terminée]** affiche les terminaisons pour chaque intervalle de temps. La série **[!UICONTROL Cumulé terminé]** affiche le total cumulé des terminaisons.
+
+>[!NOTE]
+>
+>Dans les parcours en personne, le **[!UICONTROL Statut des personnes dans le graphique de parcours]** inclut les personnes qui ont passé le parcours, même si elles ont été supprimées par la suite. **[!UICONTROL L&#39;exploration en amont]** exclut les personnes supprimées, de sorte qu&#39;elle peut afficher moins d&#39;enregistrements que le graphique. Cette différence est attendue. La suppression de personnes ne modifie pas l’historique des statuts de parcours.
+
+Pour le statut _[!UICONTROL des personnes dans le graphique de parcours], cliquez sur l’icône_ Plus_ ( **...** ) et sélectionnez **[!UICONTROL Analyser]** pour consulter les statuts de chaque personne.
+
+## Engagement du parcours {#person-journey-engagement}
+
+Le widget **[!UICONTROL Engagement par les personnes]** affiche le nombre de personnes ayant des activités d’engagement dans le parcours. Cette valeur compte pour les personnes, pas pour les activités d’engagement.
+
+## performance du parcours {#person-journey-performance}
+
+Utilisez les mesures suivantes pour évaluer les performances d’achèvement :
+
+* **[!UICONTROL Taux d&#39;achèvement du Parcours]** : pourcentage de personnes ayant terminé le parcours.
+* **[!UICONTROL Délai moyen d’exécution du parcours]** : temps moyen nécessaire aux personnes pour effectuer le parcours, exprimé en jours.
+
+## Performances des e-mails {#person-journey-email-performance}
+
+Le tableau **[!UICONTROL Performances des e-mails]** affiche le nombre de chaque ressource d’e-mail dans le parcours de personne sélectionné, plutôt que les taux :
+
+* **[!UICONTROL Nom de la ressource]** : nom de la ressource e-mail
+* **[!UICONTROL Envoyé]** : nombre d&#39;e-mails envoyés
+* **[!UICONTROL Diffusés]** : nombre d&#39;e-mails diffusés
+* **[!UICONTROL Ouvert]** : nombre d&#39;e-mails ouverts
+* **[!UICONTROL Clic]** : nombre d’e-mails sur lesquels l’utilisateur a cliqué
+
+>[!ENDTABS]
