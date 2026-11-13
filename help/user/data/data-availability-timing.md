@@ -42,14 +42,14 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # Disponibilité des données et synchronisation temporelle {#data-availability}
 
-Utilisez cette rubrique pour connaître la vitesse à laquelle les modifications de données apparaissent dans vos parcours de [!DNL Adobe Journey Optimizer B2B Edition] et les chronologies normales. Connaître le timing prévu vous permet de concevoir des parcours en conséquence et de déterminer à quel moment un retard correspond à un comportement attendu.
+Utilisez cette rubrique pour connaître la vitesse à laquelle les modifications de données apparaissent dans vos parcours [!DNL Adobe Journey Optimizer B2B Edition] et les chronologies normales. Connaître le timing prévu vous permet de concevoir des parcours en conséquence et de déterminer à quel moment un retard correspond à un comportement attendu.
 
 ## Temps d’attente attendus
 
@@ -59,10 +59,10 @@ Utilisez cette rubrique pour connaître la vitesse à laquelle les modifications
 | [Modifications de la relation compte/personne](#daily-refresh) | Jusqu’à 24 heures (cycle quotidien) |
 | [Données de [!DNL Experience Platform] à [!DNL Journey Optimizer B2B Edition]](#platform-sync) | Jusqu’à 30 minutes (temps quasi réel) |
 | [Données de [!DNL Journey Optimizer B2B Edition] à [!DNL Experience Platform]](#platform-sync) | Jusqu&#39;à quatre heures (micro-lots) |
-| [Événements d’activité, tels que les clics et les ouvertures](#activity-and-actions) | Jusqu’à quatre heures |
-| [[!DNL Marketo Engage] ajouter ou supprimer une liste](#activity-and-actions) | Dans les 30 minutes (temps quasi réel) |
+| [Événements d’activité, tels que des clics et des ouvertures](#activity-and-actions) | Jusqu’à quatre heures |
+| [[!DNL Marketo Engage] ajouter ou supprimer la liste](#activity-and-actions) | Dans les 30 minutes (temps quasi réel) |
 | [Événements générés par Journey Optimizer B2B Edition](#activity-and-actions) | Utilisable dans les audiences par lots uniquement |
-| [Population d’audiences LinkedIn](#linkedin-timing) | Même jour à 36-40 heures (au pire des cas) |
+| [Population d’audience LinkedIn](#linkedin-timing) | Même jour à 36-40 heures (au pire des cas) |
 
 ## Données d’audience et de relation {#daily-refresh}
 
@@ -75,27 +75,35 @@ Utilisez cette rubrique pour connaître la vitesse à laquelle les modifications
 
 >[!TIP]
 >
->Concevez des parcours en sachant que l’adhésion à l’audience est actualisée tous les jours, et non en temps réel. Si vous avez besoin de réponses en temps quasi réel, utilisez des [déclencheurs basés sur un événement](../journeys/listen-for-event-nodes.md) plutôt qu’une entrée basée sur une audience.
+>Concevez des parcours en sachant que l’adhésion à l’audience est actualisée tous les jours, et non en temps réel. Si vous avez besoin de réponses en temps quasi réel, utilisez [des déclencheurs basés sur un événement](../journeys/listen-for-event-nodes.md) au lieu d’une entrée basée sur une audience.
 
 ## Synchronisation des données avec [!DNL Experience Platform] {#platform-sync}
 
-[!DNL Experience Platform] est le magasin de données principal pour les comptes, les personnes et les opportunités. [!DNL Journey Optimizer B2B Edition] possède des parcours, des groupes d’achat et des rôles de groupe d’achat. [En savoir plus sur l’architecture](../about-journey-optimizer-b2b-edition.md#high-level-architecture).
+[!DNL Experience Platform] est le magasin de données principal pour les comptes, les personnes et les opportunités, et [!DNL Journey Optimizer B2B Edition] possède des parcours, des groupes d’achat et des rôles de groupe d’achat. [En savoir plus sur l&#39;architecture](../about-journey-optimizer-b2b-edition.md#high-level-architecture).
 
 Les données se déplacent entre les deux systèmes dans chaque direction à un rythme différent :
 
 * **[!DNL Experience Platform]à[!DNL Journey Optimizer B2B Edition]** - Les données se synchronisent en temps quasi réel et peuvent prendre jusqu’à 30 minutes.
 * **[!DNL Journey Optimizer B2B Edition]à[!DNL Experience Platform]** - Les données se synchronisent par micro-lots et peuvent prendre jusqu’à 4 heures.
 
+## Modifications d’identité de profil {#profile-identity-changes}
+
+Les modifications apportées à `identityMap` d’un profil dans [!DNL Adobe Experience Platform] peuvent rompre son association avec un enregistrement de personne existant dans [!DNL Journey Optimizer B2B Edition]. L&#39;enregistrement de personne précédent est marqué comme supprimé et ne progresse plus dans les parcours ou le traitement du groupe d&#39;achats.
+
+Le profil doit de nouveau se qualifier pour une audience activée sur [!DNL Journey Optimizer B2B Edition] et être ingéré à nouveau. Si l&#39;enregistrement ingéré a un ID de personne différent, il est traité comme une nouvelle personne. Si cette personne accède à un parcours, il commence au début plutôt que de reprendre la progression de l’enregistrement précédent.
+
+Le nombre de statuts de parcours historiques inclut toujours l’enregistrement de personne supprimé. Cependant, l&#39;exploration en amont **** exclut les enregistrements supprimés, de sorte que son nombre d&#39;enregistrements peut être inférieur au nombre de graphiques. Pour plus d’informations, consultez [rapport d’achèvement du parcours par personne](../journeys/journey-details.md#person-journey-completion).
+
 ## Événements d’activité et actions de parcours {#activity-and-actions}
 
 Le minutage des données d’activité et des actions de parcours dépend de la manière dont les données se déplacent entre les systèmes :
 
-* **Données d’activité** - Les enregistrements d’activité d’une personne, tels que les ouvertures d’e-mail, les clics sur des liens et les remplissages de formulaire, peuvent prendre environ quatre heures pour apparaître dans les [!DNL Journey Optimizer B2B Edition]. Cette durée s’applique aux données d’activité par lots ; les déclencheurs d’événements d’expérience [!DNL Experience Platform] utilisent les données de diffusion en continu et peuvent réagir en temps quasi réel.
-* **[!DNL Marketo Engage]des actions** - actions de Parcours qui appellent des [!DNL Marketo Engage] en temps quasi réel, car il s’agit d’appels API. Par exemple, lorsqu’une étape de parcours ajoute ou supprime une personne d’une liste [!DNL Marketo], l’action se termine généralement dans les 30 minutes. [En savoir plus sur les actions de parcours &#x200B;](../journeys/action-nodes.md).
-* **Actions qui passent par[!DNL Experience Platform]** - Toute action qui revient en premier à [!DNL Experience Platform] est traitée par lots, de sorte qu’elle est soumise à une synchronisation par lots plutôt qu’à une synchronisation en temps quasi réel.
+* **Données d’activité** - Les enregistrements d’activité de personne, tels que les ouvertures d’e-mail, les clics sur des liens et les remplissages de formulaire, peuvent prendre environ quatre heures pour apparaître dans [!DNL Journey Optimizer B2B Edition]. Cette durée s’applique aux données d’activité par lots. Les déclencheurs d’événements d’expérience [!DNL Experience Platform] utilisent les données de diffusion en continu et peuvent réagir en temps quasi réel.
+* **[!DNL Marketo Engage]actions** - Les actions de Parcours qui appellent [!DNL Marketo Engage] sont en temps quasi réel, car il s’agit d’appels d’API. Par exemple, lorsqu’une étape de parcours ajoute ou supprime une personne d’une liste [!DNL Marketo], l’action se termine généralement dans les 30 minutes. [En savoir plus sur les actions de parcours](../journeys/action-nodes.md).
+* **Actions qui passent par[!DNL Experience Platform]** - Toute action qui revient à [!DNL Experience Platform] en premier est traitée par lots, de sorte qu’elle est soumise à une synchronisation par lots plutôt qu’à une synchronisation en temps quasi réel.
 * **Événements générés par[!DNL Journey Optimizer B2B Edition]** - Les événements générés par [!DNL Journey Optimizer B2B Edition] dans [!DNL Experience Platform] ne peuvent être utilisés que dans les audiences par lots.
 
-## [!DNL LinkedIn] des destinations d’audience {#linkedin-timing}
+## [!DNL LinkedIn] destinations d’audience {#linkedin-timing}
 
 Si votre parcours comprend une action de destination [!DNL LinkedIn], attendez-vous à la chronologie suivante après la publication du parcours.
 
@@ -105,4 +113,4 @@ Si votre parcours comprend une action de destination [!DNL LinkedIn], attendez-v
 | Comptes arrivés après la publication du parcours | Jusqu’à 24 heures |
 | Les comptes sont arrivés après la première fenêtre de synchronisation quotidienne | Jusqu’à 36-40 heures |
 
-Les nombres de profils des audiences [!DNL LinkedIn] peuvent ne pas être mis à jour immédiatement. Ce délai est un délai attendu pendant que [!DNL Experience Platform] traite et diffuse le fichier d’audience à [!DNL LinkedIn]. Si le nombre de profils des audiences est toujours à 0 au bout de 48 heures, vérifiez. [En savoir plus sur les audiences appariées de comptes LinkedIn](./linkedin-account-matched-audiences.md).
+[!DNL LinkedIn] nombres de profils des audiences peuvent ne pas être mis à jour immédiatement. Ce retard est attendu pendant que [!DNL Experience Platform] traite et diffuse le fichier d’audience vers [!DNL LinkedIn]. Si le nombre de profils des audiences est toujours à 0 au bout de 48 heures, vérifiez. [En savoir plus sur les audiences correspondantes du compte LinkedIn](./linkedin-account-matched-audiences.md).
