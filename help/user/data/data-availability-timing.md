@@ -92,7 +92,7 @@ Les modifications apportées à `identityMap` d’un profil dans [!DNL Adobe Exp
 
 Le profil doit de nouveau se qualifier pour une audience activée sur [!DNL Journey Optimizer B2B Edition] et être ingéré à nouveau. Si l&#39;enregistrement ingéré a un ID de personne différent, il est traité comme une nouvelle personne. Si cette personne accède à un parcours, il commence au début plutôt que de reprendre la progression de l’enregistrement précédent.
 
-Le nombre de statuts de parcours historiques inclut toujours l’enregistrement de personne supprimé. Cependant, l&#39;exploration en amont **** exclut les enregistrements supprimés, de sorte que son nombre d&#39;enregistrements peut être inférieur au nombre de graphiques. Pour plus d’informations, consultez [rapport d’achèvement du parcours par personne](../journeys/journey-details.md#person-journey-completion).
+Le nombre de statuts de parcours historiques inclut toujours l’enregistrement de personne supprimé. Cependant, l&#39;exploration en amont **&#x200B;**&#x200B;exclut les enregistrements supprimés, de sorte que son nombre d&#39;enregistrements peut être inférieur au nombre de graphiques. Pour plus d’informations, consultez [rapport d’achèvement du parcours par personne](../journeys/journey-details.md#person-journey-completion).
 
 ## Événements d’activité et actions de parcours {#activity-and-actions}
 
