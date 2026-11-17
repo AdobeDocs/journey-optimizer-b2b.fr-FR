@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 8%
@@ -38,17 +38,17 @@ ht-degree: 8%
 >title="Vérifier le rendu de votre contenu"
 >abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct en fonction du canal que vous utilisez."
 
-Utilisez la fonctionnalité _Simuler du contenu_ pour prévisualiser le contenu de l’e-mail et envoyer des diffusions test à des destinataires spécifiques. Les champs d’e-mail obligatoires doivent être définis, notamment _[!UICONTROL Nom de l’expéditeur]_, _[!UICONTROL Adresse de l’expéditeur]_, _[!UICONTROL Adresse de réponse]_ et _[!UICONTROL Objet]_, pour accéder aux fonctionnalités d’aperçu et de test.
+Utilisez la fonctionnalité _Simuler du contenu_ pour prévisualiser le contenu de l’e-mail et envoyer des diffusions test à des destinataires spécifiques. Les champs d’e-mail obligatoires doivent être définis, y compris _[!UICONTROL Nom de l’expéditeur]_, _[!UICONTROL Adresse de l’expéditeur]_, _[!UICONTROL Adresse de réponse]_ et _[!UICONTROL Objet]_, pour accéder aux fonctionnalités d’aperçu et de test.
 
 >[!IMPORTANT]
 >
->Vous ne pouvez pas prévisualiser l’e-mail en cas d’erreur. Pour vous assurer qu’aucune erreur ne bloque les fonctions d’aperçu, cochez la case _Alertes_. Les avertissements ne bloquent pas la prévisualisation, mais y répondent avant de publier le parcours qui déclenche la diffusion par e-mail.
+>Vous ne pouvez pas prévisualiser l’e-mail en cas d’erreur. Pour vous assurer qu’aucune erreur ne bloque les fonctions d’aperçu, vérifiez les _Alertes_. Les avertissements ne bloquent pas la prévisualisation, mais y répondent avant de publier le parcours qui déclenche la diffusion par e-mail.
 
 ## Affichage de l’aperçu de l’e-mail {#display-preview}
 
-Vous pouvez accéder à l’aperçu du rendu depuis l’[espace de conception des e-mails](./email-authoring.md) ou depuis le _[!UICONTROL Résumé]_ lorsque vous [ouvrez un e-mail à partir de la liste E-mails](./emails-list.md#open-and-edit-emails).
+Vous pouvez accéder à l’aperçu du rendu à partir de l’[espace de conception des e-mails](./email-authoring.md) ou du _[!UICONTROL Résumé]_ lorsque vous [ouvrez un e-mail à partir de la liste E-mails](./emails-list.md#open-and-edit-emails).
 
-1. Cliquez sur **[!UICONTROL Simuler du contenu]** dans la partie supérieure.
+1. Cliquez sur **[!UICONTROL Simuler du contenu]** en haut.
 
    ![Cliquez sur Simuler du contenu](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
@@ -62,21 +62,21 @@ Vous pouvez accéder à l’aperçu du rendu depuis l’[espace de conception de
 
    ![Sélectionnez un profil de personne pour effectuer le rendu de la simulation](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   Si la liste _[!UICONTROL Personnes]_ sur la gauche est vide, [ajoutez des personnes](#add-people) en utilisant des contacts.
+   Si la liste _[!UICONTROL Personnes]_ sur la gauche est vide, [ajoutez des personnes](#add-people) à l’aide de contacts.
 
    >[!TIP]
    >
-   >Vous pouvez également utiliser l’intégration de rendu de test [Litmus](./email-test-rendering.md) pour vérifier le rendu des e-mails sur les clients de bureau, mobiles et web les plus courants.
+   >Vous pouvez également utiliser l&#39;intégration de rendu de test [Litmus](./email-test-rendering.md) pour vérifier le rendu des e-mails sur les principaux clients de bureau, mobiles et web.
 
 ## Réglage des options d’affichage {#display-options}
 
 Utilisez les outils d’affichage pour modifier l’aperçu en fonction du type d’appareil ou du niveau de zoom :
 
-* Sélectionnez l’icône _Bureau_ ( ![icône d’affichage du bureau](../../assets/do-not-localize/icon-device-desktop.svg) ) pour afficher l’aperçu à l’aide du style et des proportions du bureau.
+* Sélectionnez l’icône _Bureau_ ( ![Icône d’affichage du bureau](../../assets/do-not-localize/icon-device-desktop.svg) ) pour afficher l’aperçu à l’aide du style et des proportions du bureau.
 * Sélectionnez l’icône _Mobile_ ( ![Icône d’affichage mobile](../../assets/do-not-localize/icon-device-mobile.svg) ) pour afficher l’aperçu à l’aide du style et des proportions de l’appareil mobile.
 * Cliquez sur la flèche _Niveau de zoom_ et sélectionnez un pourcentage de zoom pour examiner la manière dont le contenu change en fonction du niveau de zoom.
 
-![Ajuster l’affichage de l’aperçu](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
+![Ajuster l&#39;affichage de l&#39;aperçu](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
 ## Envoyer des BAT {#send-proofs}
 
@@ -84,7 +84,7 @@ Un BAT est un message de test diffusé qui vous permet, ainsi qu’aux membres d
 
 1. Cliquez sur **[!UICONTROL Envoyer un BAT]** en haut à droite.
 
-   ![Cliquez sur Envoyer un BAT](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![Cliquez sur Envoyer un BAT](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. Sur la page _Envoyer le BAT_, saisissez l’adresse e-mail du premier destinataire.
 
@@ -102,14 +102,14 @@ Un BAT est un message de test diffusé qui vous permet, ainsi qu’aux membres d
 
 1. En haut de la liste _[!UICONTROL Personnes]_, cliquez sur **[!UICONTROL Ajouter des personnes]**.
 
-   ![Ajuster l’affichage de l’aperçu](assets/email-simulate-content-add-people.png){width="500"}
+   ![Ajuster l&#39;affichage de l&#39;aperçu](assets/email-simulate-content-add-people.png){width="500"}
 
-1. Dans la boîte de dialogue _[!UICONTROL Ajouter des personnes à tester]_, saisissez l’adresse e-mail complète du contact.
+1. Dans la boîte de dialogue _[!UICONTROL Ajouter des personnes à tester]_, saisissez l&#39;adresse e-mail complète du contact.
 
    Pour ajouter plusieurs contacts, saisissez les adresses séparées par des virgules.
 
 1. Cochez la case de chaque contact correspondant que vous souhaitez ajouter à la liste des profils de test.
 
-   ![Ajuster l’affichage de l’aperçu](assets/email-simulate-content-add-people-addresses.png){width="700" zoomable="yes"}
+   ![Ajuster l&#39;affichage de l&#39;aperçu](assets/email-simulate-content-add-people-addresses.png){width="700" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Ajouter]** en haut à droite.
