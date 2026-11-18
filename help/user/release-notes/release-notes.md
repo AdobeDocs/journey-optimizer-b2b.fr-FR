@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Notes de mise à jour de Journey Optimizer B2B Edition
@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B Edition offre en permanence des nouveautés, des 
 
 Journey Optimizer B2B Edition est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
+Consultez la [description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} pour plus d’informations sur les droits, les mécanismes de sécurisation des performances et les limitations.
 
 ## Notes de mise à jour 2026.10 {#rel-2026-10}
 
@@ -44,7 +44,7 @@ Consultez la [description du produit](https://helpx.adobe.com/fr/legal/product-d
 | Type | Élément | Description |
 | ---- | ---- | ----------- |
 | Fonctionnalité | Listes de personnes | Utilisez des listes d’utilisateurs statiques et dynamiques pour cibler les profils en fonction des critères que vous avez définis, tels que les attributs démographiques et l’historique des événements d’expérience. [En savoir plus](../audiences/people-lists.md) |
-| Fonctionnalité | Libellés de nœud de parcours | Ajoutez des libellés aux nœuds de parcours pour les identifier sur la zone de travail de parcours. |
+| Fonctionnalité | Libellés de nœud de parcours | Ajoutez des libellés aux nœuds de parcours pour les identifier sur la zone de travail de parcours. [En savoir plus](../journeys/create-publish-journey.md#label-a-node). |
 | Amélioration | Filtres de liste des membres de la personne | Utilisez les filtres _[!UICONTROL Membre de la liste des personnes]_ pour inclure ou exclure des profils en fonction de leur appartenance à la liste des personnes statique ou dynamique. [En savoir plus](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Amélioration | Actions de parcours de la liste des personnes | Ajouter des personnes aux listes statiques ou en supprimer par le biais de parcours de compte et de personne. [En savoir plus](../journeys/action-nodes.md#people-actions) |
 
