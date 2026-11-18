@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 9d5641659907d61be992ed218088a023a5211c56
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 6%
+source-wordcount: '1101'
+ht-degree: 5%
 ---
 # Créer et publier un parcours
 
-Pour commencer à utiliser un parcours, créez le parcours, puis construisez les nœuds et le flux du parcours dans la carte du parcours.
+Pour commencer un nouveau parcours, créez le parcours, puis construisez les nœuds et le flux du parcours dans la carte du parcours.
 
 ![Vidéo](../../assets/do-not-localize/icon-video.svg){width="30"} [Regarder la vidéo de présentation](#overview-video)
 
@@ -39,8 +39,8 @@ Pour commencer à utiliser un parcours, créez le parcours, puis construisez les
 
 Sous **[!UICONTROL Gestion des Parcours]** dans le volet de navigation de gauche, sélectionnez le type de parcours à créer :
 
-* parcours de compte **&#x200B;**
-* parcours de personne **&#x200B;**
+* **[!UICONTROL parcours de compte]**
+* **[!UICONTROL parcours de personne]**
 
 _Pour ajouter un nouveau parcours :_
 
@@ -48,9 +48,9 @@ _Pour ajouter un nouveau parcours :_
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours de compte]** en haut à droite de la page.
 
-1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
+1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et une **[!UICONTROL Description]** (facultatif).
 
-   ![&#x200B; Boîte de dialogue Créer un Parcours de compte &#x200B;](./assets/account-journey-create-dialog.png){width="400"}
+   ![Boîte de dialogue Créer un Parcours de compte](./assets/account-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -60,17 +60,17 @@ _Pour ajouter un nouveau parcours :_
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours]** en haut à droite de la page.
 
-1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et un **[!UICONTROL Description]** (facultatif).
+1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et une **[!UICONTROL Description]** (facultatif).
 
-   ![&#x200B; Boîte de dialogue Créer un Parcours &#x200B;](./assets/person-journey-create-dialog.png){width="400"}
+   ![Boîte de dialogue Créer un Parcours](./assets/person-journey-create-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
 +++
 
-## Blocs de création pour la conception de parcours
+## Composants pour la conception de parcours
 
-La carte de parcours __ est la zone centrale de l&#39;espace de travail de parcours. C’est dans cette zone que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir son volet Propriétés à droite de la zone de travail et définissez-le en fonction de votre conception. Un parcours commence toujours par un nœud d’audience, où vous pouvez définir l’entrée de votre parcours :
+La _carte de parcours_ est la zone centrale de l&#39;espace de travail de parcours. C’est dans cette zone que vous pouvez ajouter des nœuds de parcours et les configurer. Cliquez sur un nœud pour ouvrir son volet Propriétés à droite de la zone de travail et définissez-le en fonction de votre conception. Un parcours commence toujours par un nœud d’audience, où vous pouvez définir l’entrée de votre parcours :
 
 * [Nœud d’audience de compte](./account-audience-nodes.md)
 * [Nœud d’audience de personne](./person-audience-nodes.md)
@@ -85,53 +85,85 @@ Après avoir créé un parcours de compte et ajouté l’audience, concevez le p
 * [Attendre](./wait-nodes.md)
 * [Fusionner les chemins](./split-merge-paths-nodes.md)
 
-## Mécanismes de sécurisation
+## Garde-fous
 
-Pour vous aider à créer un parcours sans rencontrer d’erreur, les barrières de sécurité suivantes sont en place :
+Pour vous aider à créer un parcours sans rencontrer d’erreur, les mécanismes de sécurisation suivants sont en place :
 
-* _Suppression d’un nœud de chemin de division_ : la suppression d’un nœud nécessite la suppression de tous les nœuds suivants dans chaque chemin.
-* _Suppression d’un nœud de fusion_ : un nœud de fusion ne peut être supprimé que lorsqu’un chemin d’accès lui est connecté. Pour supprimer un nœud de fusion, ne laissez qu’un seul chemin sélectionné.
-* _Basculer entre le compte et les personnes_ : si vous choisissez comptes dans personnes, tous les nœuds suivants sont supprimés dans chaque chemin.
+* _Supprimer un nœud de chemin de partage_ : la suppression d’un nœud nécessite la suppression de tous les nœuds suivants dans chaque chemin.
+* _Suppression d’un nœud de fusion_ : un nœud de fusion ne peut être supprimé que s’il existe un chemin d’accès qui lui est connecté. Pour supprimer un nœud de fusion, ne laissez qu’un seul chemin sélectionné.
+* _Basculer entre les comptes et les personnes_ : si vous sélectionnez comptes en personnes, tous les nœuds suivants de chaque chemin sont supprimés.
 
 ## Ajouter un nœud
 
 1. Accédez à la carte du parcours.
 
-1. Cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et sélectionnez le type de nœud.
+1. Cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et choisissez le type de nœud.
+
+   ![Cliquez sur + et choisissez le type pour ajouter le nœud de parcours au chemin d’accès](./assets/node-add-menu.png){width="400" zoomable="no"}
+
+   Les types de nœud disponibles dépendent du type de parcours et du contexte du chemin d’accès. Voir [_nœuds de Parcours_](./journey-nodes.md) pour plus d’informations.
 
 1. Définissez les propriétés du nœud sur la droite.
+
+   Les propriétés dépendent du type de nœud.
+
+## Étiqueter un nœud {#label-a-node}
+
+Dans [!DNL Adobe Journey Optimizer B2B Edition], chaque nœud de la carte de parcours affiche son nom par défaut, tel que _Attente_ ou _Envoyer un e-mail_. Ajoutez des libellés d’affichage pour distinguer les nœuds du même type et identifier l’objectif de chaque étape. Par exemple, utilisez le _message de recharge de 48 heures_ ou l’_e-mail de bienvenue_.
+
+Vous pouvez ajouter un libellé d’affichage à n’importe quel nœud d’un parcours de compte ou d’un parcours de personne.
+
+1. Dans la carte de parcours, sélectionnez le nœud à étiqueter.
+
+1. Dans les propriétés du nœud, saisissez le texte dans le champ **[!UICONTROL Libellé d&#39;affichage]**.
+
+   Le libellé peut contenir 255 caractères maximum.
+
+1. Cliquez en dehors du champ pour appliquer le libellé.
+
+   ![Ajoutez un libellé d&#39;affichage pour distinguer le nœud dans le parcours](./assets/node-display-label.png){width="500" zoomable="no"}
+
+   Le libellé remplace le nom par défaut du nœud dans la carte de parcours.
+
+Pour restaurer le nom par défaut, effacez le champ **[!UICONTROL Afficher le libellé]** et cliquez en dehors du champ.
+
+Lorsque vous publiez le parcours, le libellé affiché pour chaque nœud est enregistré avec le parcours publié.
+
+>[!NOTE]
+>
+>Les libellés d’affichage ne sont pas disponibles pour les nœuds dans les parcours créés avant cette fonctionnalité.
+
+Les libellés de nœud sont disponibles dans le schéma `AJOB2B - 1.5.4 - journey node` et le jeu de données `AJOB2B-1_5_4-journey_node`. Vous pouvez interroger les libellés dans [!DNL Adobe Experience Platform] et les utiliser pour les rapports dans [!DNL Adobe Customer Journey Analytics]. Pour plus d’informations sur l’interrogation des données exportées, consultez les [conditions préalables à l’interrogation d’un jeu de données](../data/aep-query-examples.md#prerequisites).
 
 ## Suppression d’un nœud
 
 1. Accédez à la carte du parcours.
 
-1. Dans les propriétés du nœud sur la droite, cliquez sur l’icône _Supprimer_ ( ![icône Supprimer](../assets/do-not-localize/icon-delete.svg) ).
+1. Dans les propriétés du nœud sur la droite, cliquez sur l’icône _Supprimer_ ( ![Icône Supprimer](../assets/do-not-localize/icon-delete.svg) ).
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
 
 ## Ajouter et supprimer un chemin d’accès
 
-1. Accédez à la carte du parcours.
-
-1. Cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et ajoutez le [nœud de chemin de fractionnement](./split-merge-paths-nodes.md#split-paths).
+1. Dans la carte de parcours, cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et ajoutez le nœud de chemin de division [&#128279;](./split-merge-paths-nodes.md#split-paths).
 
 1. Dans les propriétés du nœud sur la droite, sélectionnez **[!UICONTROL Compte]**.
 
-1. Pour ajouter d’autres chemins d’accès, cliquez sur **[!UICONTROL Ajouter un chemin]**.
+1. Pour ajouter d’autres chemins, cliquez sur **[!UICONTROL Ajouter un chemin]**.
 
    Pour chaque chemin d’accès créé dans le parcours, une nouvelle carte de chemin d’accès s’affiche dans les propriétés.
 
-1. Accédez à l’un des chemins d’accès du parcours et ajoutez des nœuds [action](./action-nodes.md) ou [event](./listen-for-event-nodes.md) à ce chemin d’accès à l’aide de l’icône plus.
+1. Accédez à l’un des chemins d’accès du parcours et ajoutez les nœuds [action](./action-nodes.md) ou [event](./listen-for-event-nodes.md) à ce chemin d’accès à l’aide de l’icône plus.
 
 1. Sélectionnez le nœud [chemin de partage](./split-merge-paths-nodes.md) pour ouvrir les propriétés sur la droite.
 
    Les chemins comportant des nœuds ne peuvent pas être supprimés.
 
-1. Pour supprimer ces chemins d’accès, vous devez d’abord supprimer tous les nœuds qu’ils contiennent.
+1. Pour supprimer un chemin d’accès, vous devez d’abord supprimer tous les nœuds qu’il contient.
 
 ## Planifier un parcours
 
-Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une date ultérieure planifiée. La date de fin peut être fixée à un maximum de trois ans à compter de la date de début. Une fois le parcours publié (statut _En ligne_), vous pouvez mettre à jour la date de fin du parcours, mais pas sa date de début.
+Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une date ultérieure planifiée. La date de fin peut être fixée à un maximum de trois ans à compter de la date de début. Une fois un parcours publié (statut _Actif_), vous pouvez mettre à jour la date de fin du parcours, mais pas sa date de début.
 
 1. Accédez à la carte du parcours.
 
@@ -143,9 +175,9 @@ Lorsque vous publiez un parcours, il peut commencer immédiatement ou à une dat
 
      Pour activer le parcours au moment de la publication, choisissez **[!UICONTROL Immédiatement]**.
 
-     Pour activer le parcours à une date ultérieure, choisissez **[!UICONTROL À une date spécifique]** et cliquez sur l’icône _Calendrier_ pour sélectionner la date.
+     Pour activer le parcours à une date ultérieure, choisissez **[!UICONTROL À une date spécifique]** et cliquez sur l&#39;icône _Calendrier_ pour sélectionner la date.
 
-     Boîte de dialogue des paramètres du Parcours ![](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
+     ![Boîte de dialogue des paramètres de Parcours](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
 
    * Spécifiez la **[!UICONTROL Date de fin]** pour le parcours. Il peut s’agir d’un maximum de trois ans à compter de la date de début (ce champ est obligatoire pour la publication).
 
@@ -161,9 +193,9 @@ Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois l
 >
 >Après la publication d’un parcours de compte, les comptes admissibles mettent jusqu’à 24 heures pour entrer dans le parcours.
 
-1. Dans la partie supérieure droite de la carte des parcours, cliquez sur **[!UICONTROL Publier]**.
+1. En haut à droite de la carte des parcours, cliquez sur **[!UICONTROL Publier]**.
 
-1. Dans la boîte de dialogue _[!UICONTROL Vérifier les paramètres du parcours]_, définissez les options de début du parcours.
+1. Dans la boîte de dialogue _[!UICONTROL Vérifier les paramètres de parcours]_, définissez les options de début de parcours.
 
    Si vous avez déjà défini les paramètres de parcours pour définir une planification, passez en revue les paramètres.
 
@@ -171,11 +203,11 @@ Vous pouvez publier un parcours en l’absence d’erreur de blocage. Une fois l
 
    * Pour activer le parcours au moment de la publication, choisissez **[!UICONTROL Immédiatement]**.
 
-   * Pour activer le parcours à une date ultérieure, choisissez **[!UICONTROL À une date spécifique]** et cliquez sur l’icône _Calendrier_ pour sélectionner la date.
+   * Pour activer le parcours à une date ultérieure, choisissez **[!UICONTROL À une date spécifique]** et cliquez sur l&#39;icône _Calendrier_ pour sélectionner la date.
 
 1. Si nécessaire, spécifiez la **[!UICONTROL date de fin]** pour le parcours.
 
-   Boîte de dialogue des paramètres du Parcours ![](./assets/journey-publish-dialog.png){width="400" zoomable="no"}
+   ![Boîte de dialogue des paramètres de Parcours](./assets/journey-publish-dialog.png){width="400" zoomable="no"}
 
    Il peut s’agir d’un maximum de trois ans à compter de la date de début (ce champ est obligatoire pour la publication).
 

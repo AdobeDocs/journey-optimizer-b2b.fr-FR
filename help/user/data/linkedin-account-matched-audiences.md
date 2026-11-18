@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # Audiences correspondantes du compte LinkedIn
 
-[!DNL Journey Optimizer B2B Edition] offre la possibilité de générer des audiences d’annonces LinkedIn par le biais d’audiences avec correspondance de compte. Il est conçu pour vous aider à remplir des rôles vides dans vos groupes d’achat. En définissant un ensemble de filtres de groupe d’achat, vous pouvez gérer une Matched Audience LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d’achat. Vous pouvez également activer une audience à partir d’un parcours de compte à partir d’un nœud _Prendre une action_.
+[!DNL Journey Optimizer B2B Edition] offre la possibilité de générer des audiences d&#39;annonces LinkedIn par le biais d&#39;audiences avec correspondance de compte. Il est conçu pour vous aider à remplir des rôles vides dans vos groupes d&#39;achats. En définissant un ensemble de filtres de groupe d’achat, vous pouvez gérer une Matched Audience LinkedIn pour cibler les prospects qui correspondent aux paramètres de votre groupe d’achat. Vous pouvez également activer une audience à partir d’un parcours de compte à partir d’un nœud [_Prendre une action_](../journeys/action-nodes.md).
 
 Cette fonctionnalité tire parti des destinations d’Experience Platform pour gérer certains aspects de l’intégration. Il existe une limite de dix flux de données.
 
@@ -49,7 +49,7 @@ Avant de lancer un flux de données à partir de Journey Optimizer B2B Edition, 
 >title="Une configuration de la destination LinkedIn est requise."
 >abstract="Envoyez des comptes filtrés par groupes d’achat vers une destination LinkedIn pour interagir avec les membres potentiels du groupe d’achat. Vous pouvez créer jusqu’à 10 flux de données pour 10 groupes différents de comptes filtrés. Pour commencer à utiliser cette fonctionnalité, ajoutez d’abord une destination LinkedIn."
 
-1. Dans Experience Platform, accédez à **[!UICONTROL Connexions]** > **[!UICONTROL Destinations]** dans le volet de navigation de gauche, puis sélectionnez l’onglet **[!UICONTROL Catalogue]**.
+1. Dans Experience Platform, accédez à **[!UICONTROL Connexions]** > **[!UICONTROL Destinations]** dans le volet de navigation de gauche et sélectionnez l’onglet **[!UICONTROL Catalogue]**.
 
 1. Dans le catalogue, recherchez le connecteur **[!UICONTROL (Entreprises) LinkedIn Matched Audience]**.
 
@@ -57,11 +57,11 @@ Avant de lancer un flux de données à partir de Journey Optimizer B2B Edition, 
    >
    >Vous pouvez rapidement trouver le connecteur en saisissant `LinkedIn` dans la zone de recherche.
 
-1. Dans la carte de connecteur, cliquez sur le bouton _Plus_ (**...**) et choisissez **[!UICONTROL Configurer une nouvelle destination]**.
+1. Dans la carte de connecteur, cliquez sur _Plus_ (**...**) et choisissez **[!UICONTROL Configurer une nouvelle destination]**.
 
-   ![Accéder au connecteur d’audience correspondante LinkedIn (entreprises)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![Accéder au connecteur d’audience appariée LinkedIn (Entreprises)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. Sélectionnez **[!UICONTROL Nouveau compte]** puis cliquez sur **[!UICONTROL Se connecter à la destination]**.
+1. Sélectionnez **[!UICONTROL Nouveau compte]** et cliquez sur **[!UICONTROL Se connecter à la destination]**.
 
    ![Connecter un nouveau compte LinkedIn](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
@@ -69,19 +69,19 @@ Avant de lancer un flux de données à partir de Journey Optimizer B2B Edition, 
 
    Après l’authentification, le compte LinkedIn est connecté en tant que destination dans Experience Platform.
 
-   ![La confirmation de connexion au compte s’affiche](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+   ![La confirmation de connexion au compte s&#39;affiche](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
 
    >[!IMPORTANT]
    >
-   >À ce stade, **ne saisissez pas** les _[!UICONTROL détails de la destination]_. Seule la connexion est nécessaire.
+   >À ce stade, **ne saisissez pas** les _[!UICONTROL détails de destination]_. Seule la connexion est nécessaire.
 
 ## Mettre à jour les détails du compte
 
 Le nom et la description du compte LinkedIn sont visibles pour les groupes d’achats dans Journey Optimizer B2B Edition. Il est recommandé de mettre à jour ces informations afin qu’elles soient facilement identifiables pour vos spécialistes marketing travaillant avec des groupes d’achats. Vous pouvez modifier les détails du compte dans l’interface utilisateur Experience Platform ou Journey Optimizer B2B Edition.
 
-1. Accédez à **[!UICONTROL Connexions]** > **[!UICONTROL Destinations]** dans le volet de navigation de gauche, puis sélectionnez l’onglet **[!UICONTROL Comptes]**.
+1. Accédez à **[!UICONTROL Connexions]** > **[!UICONTROL Destinations]** dans le volet de navigation de gauche et sélectionnez l’onglet **[!UICONTROL Comptes]**.
 
-1. Pour le nouveau compte que vous avez créé, cliquez sur le bouton _Plus_ (**...**) et choisissez **[!UICONTROL Modifier les détails]**.
+1. Pour le nouveau compte que vous avez créé, cliquez sur _Plus_ (**...**) et choisissez **[!UICONTROL Modifier les détails]**.
 
    ![Modifier les détails du compte](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
-## Activer le compte pour les groupes d&#39;achats
+## Activer le compte pour les groupes d&#39;achats (#activate-buying-group)
 
 >[!NOTE]
 >
@@ -107,25 +107,25 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 1. Attribuez un nom et une description descriptifs au flux de données (facultatif).
 
-   Après l’avoir enregistré, le nom que vous spécifiez pour le flux de données est précédé de __ pour faciliter l’identification du flux de données dans Experience Platform.
+   Après l’avoir enregistré, le nom que vous spécifiez pour le flux de données est précédé de _AJOB2B_ pour faciliter l’identification du flux de données dans Experience Platform.
 
-1. Saisissez l’[Identifiant de compte de votre compte LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/a424270).
+1. Saisissez [l&#39;identifiant de compte de votre compte LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/a424270).
 
    Votre identifiant de compte est disponible en fonction de votre nom de compte dans l’interface utilisateur de Campaign Manager.
 
    ![Ajouter les détails du flux de données](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
 
-1. Cliquez sur **[!UICONTROL Sélectionner des filtres de groupe d’achats]** et définissez les paramètres de l’audience de votre compte.
+1. Cliquez sur **[!UICONTROL Sélectionner des filtres de groupe d&#39;achat]** et définissez les paramètres de l&#39;audience de votre compte.
 
    >[!IMPORTANT]
    >
    >Actuellement, les filtres ne peuvent pas être modifiés une fois le flux de données activé. Vérifiez à nouveau votre travail avant d’activer le flux de données.
 
-   ![Spécifiez le filtrage des audiences de compte en fonction des groupes d’achats](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
+   ![Spécifier le filtrage de l&#39;audience du compte en fonction des groupes d&#39;achats](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
    Pour le **[!UICONTROL score d’engagement]**, l’opérateur `Between` est inclusif, tout comme les plages de pourcentage. Par exemple, les paragraphes 5.1 et 5 sont tous deux compris _entre_ 5 et 6.
 
-   Les conditions vides sont traitées comme des `Is Any`.
+   Les conditions vides sont traitées comme `Is Any`.
 
    Cliquez sur **[!UICONTROL Enregistrer]** pour ajouter les filtres spécifiés.
 
@@ -143,15 +143,15 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
 À compter de la version 2025.10, utilisez l’action _Activer vers la destination_ pour que les comptes activent des comptes vers une destination LinkedIn directement depuis votre parcours. Utilisez l’action pour une destination LinkedIn afin de rationaliser l’exécution des campagnes en éliminant les transferts multisystèmes et en réduisant la latence. Par exemple, en tant que spécialiste marketing, vous pouvez activer automatiquement les comptes à forte intention sur LinkedIn à des fins de reciblage lorsque des rôles d’achat clés sont manquants ou réengager des comptes inactifs en fonction de filtres d’inactivité.
 
-1. Avec le nœud _Prendre une action_ sélectionné dans la zone de travail du parcours, définissez **[!UICONTROL Action sur les comptes]** sur **[!UICONTROL Activer vers la destination]**.
+1. Avec le nœud _Prendre une action_ sélectionné dans la zone de travail de parcours, définissez l’action **[!UICONTROL Action sur les comptes]** sur **[!UICONTROL Activer vers la destination]**.
 
    ![nœud de Parcours - agir sur les comptes - activer vers la destination](./assets/node-activate-destination.png){width="550" zoomable="yes"}
 
 1. Dans les propriétés de nœud sur la droite, choisissez la destination.
 
-   * Si une ou plusieurs destinations sont créées, vous pouvez cliquer sur **[!UICONTROL Sélectionner la destination]** pour choisir une destination existante.
+   * Si une ou plusieurs destinations sont créées, cliquez sur **[!UICONTROL Sélectionner la destination]** pour choisir une destination existante.
 
-   * S’il n’existe aucune destination existante ou que vous souhaitez créer une nouvelle destination, cliquez sur **[!UICONTROL Configurer une destination]**.
+   * S&#39;il n&#39;existe aucune destination existante ou si vous souhaitez créer une nouvelle destination, cliquez sur **[!UICONTROL Configurer la destination]**.
 
      ![nœud de Parcours - agir sur les comptes - activer vers la destination - configurer la destination](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
 
@@ -163,12 +163,12 @@ Le nom et la description du compte LinkedIn sont visibles pour les groupes d’a
 
    ![nœud de Parcours - agir sur les comptes - activer vers la destination - sélectionner la boîte de dialogue de destination](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
-1. Saisissez le **[!UICONTROL Nom de l’audience]** utilisé pour identifier l’audience activée dans la destination.
+1. Saisissez le **[!UICONTROL nom de l’audience]** utilisé pour identifier l’audience activée dans la destination.
 
    ![nœud de Parcours - agir sur les comptes - activer vers la destination - paramètres terminés](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
 ## Orchestrer l’engagement des médias achetés
 
-Vous pouvez interagir avec les membres du compte par le biais d’un canal de média payant, tel que les audiences d’annonces LinkedIn, afin de les acquérir, de les entretenir et de les qualifier pour les ventes. Utilisez un nœud _Agir_ dans un parcours de compte pour automatiser l’engagement avec les membres importants d’un compte par le biais d’un canal externe adapté aux différents membres du compte.
+Vous pouvez interagir avec les membres du compte par le biais d’un canal de média payant, tel que les audiences d’annonces LinkedIn, afin de les acquérir, de les entretenir et de les qualifier pour les ventes. Utilisez un nœud _Prendre une action_ dans un parcours de compte pour automatiser l’engagement avec les membres importants d’un compte par le biais d’un canal externe adapté aux différents membres du compte.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448674/?captions=fre_fr&learn=on)

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
+source-git-commit: 734966636b6d2addf014905431fa755f6fe92ee6
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 76%
+source-wordcount: '2420'
+ht-degree: 75%
 ---
 # Accès utilisateur et autorisations
 
@@ -43,7 +43,7 @@ Une fois la mise en service terminée et les sandbox liés, procédez comme suit
 1. [Modifiez les rôles intégrés](#edit-roles-for-product-permissions) ou [créez un rôle personnalisé](#create-a-custom-role) avec les autorisations Journey Optimizer B2B edition.
 1. [Ajoutez des utilisateurs](#add-users) des utilisatrices ou des [groupes](#add-user-groups-to-a-role) aux rôles.
 
-En tant qu’administrateur, vous pouvez effectuer ces tâches dans le Adobe Admin Console, qui constitue un emplacement central pour administrer et gérer vos licences de produit et utilisateurs Adobe. Dans Admin Console, vous pouvez créer et gérer des utilisateurs dans un emplacement unique, plutôt qu’au sein de vos différentes solutions. Pour en savoir plus sur ses fonctions et ses fonctionnalités, consultez la page de présentation d’Admin Console [&#128279;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
+En tant qu’administrateur, vous pouvez effectuer ces tâches dans le Adobe Admin Console, qui constitue un emplacement central pour administrer et gérer vos licences de produit et utilisateurs Adobe. Dans Admin Console, vous pouvez créer et gérer des utilisateurs dans un emplacement unique, plutôt qu’au sein de vos différentes solutions. Pour en savoir plus sur ses fonctions et capacités, consultez la page [Présentation d’Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
 
 ## Accès à Admin Console
 
@@ -127,7 +127,7 @@ Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour
 
 ## Ajouter des utilisateurs au nouveau groupe {#add-users}
 
-Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de_](https://helpx.adobe.com/fr/enterprise/using/users.html){target="_blank"} dans la documentation d’Admin Console.
+Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de Adobe Admin Console_](https://helpx.adobe.com/fr/enterprise/using/users.html){target="_blank"} dans la documentation d’Admin Console.
 
 ![Exigences relatives au rôle d’administrateur](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système ou un administrateur de produit peut effectuer les étapes suivantes. Un administrateur ou une administratrice de produit ne peut ajouter que des utilisateurs et utilisatrices qui existent déjà dans son organisation.
 
@@ -155,7 +155,7 @@ Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs 
 >
 >Lors de la configuration de groupes d’utilisateurs, ajoutez toujours des utilisateurs au groupe avant d’affecter le profil de produit au groupe. L’affectation d’un profil de produit à un groupe d’utilisateurs vide et l’ajout ultérieur d’utilisateurs ne propagent pas correctement l’accès. Pour vous assurer que les autorisations sont appliquées, commencez par renseigner le groupe d’utilisateurs avec des membres, puis attribuez les profils de produit.
 
-![Exigences relatives au rôle d’administrateur](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur de produit peut effectuer les étapes suivantes.
+![Exigences de rôle d’administrateur](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur de produit peut effectuer les étapes suivantes.
 
 1. Cliquez sur le groupe d’utilisateurs auquel vous avez ajouté des utilisateurs.
 
@@ -193,6 +193,7 @@ Les autorisations suivantes régissent l’accès aux fonctionnalités de Journe
 | Configurations du canal B2B | Configurez, gérez et affichez les autorisations pour les configurations de canal B2B. Ces autorisations incluent des paramètres pour les limites de communication, les informations d’identification d’API et les paramètres de sécurité. | <li>Gérer les configurations des canaux B2B <li>Afficher les paramètres d’e-mail B2B <li>Gérer les paramètres d’e-mail B2B <li>Gestion des paramètres prédéfinis WhatsApp B2B <li>Gérer Les Paramètres De La Page De Destination B2B <li>Afficher le paramètre prédéfini Forms B2B <li>Gérer les paramètres prédéfinis de Forms B2B <li>Publication D’Un Préréglage Forms B2B <li>Créer Des Expériences Web B2B <li>Gérer les paramètres WhatsApp B2B |
 | Tableaux de bord B2B | Configurez et affichez les autorisations pour les tableaux de bord B2B. Ces autorisations incluent l’engagement du compte, les étapes du groupe d’achat, les comptes de forte demande et la couverture de contact. | <li>Afficher le tableau de bord de l’engagement B2B |
 | Parcours B2B | Configurez, gérez, affichez et publiez des autorisations pour les parcours B2B. Ces autorisations incluent les actions de compte et de personne, les écouteurs d’événement et les chemins de partage. | <li>Gérer les Parcours de compte B2B <li>Gérer Les Parcours De Personnes B2B <li>Afficher les Parcours de personne B2B <li>Publier des Parcours de personne B2B |
+| Listes de personnes B2B | Gérer et afficher les autorisations pour les listes de personnes B2B. Ces autorisations incluent la création, la modification et la suppression de listes de personnes statiques et dynamiques, ainsi que l’ajout et la suppression de personnes des listes statiques. | <li>Gérer Les Listes De Personnes B2B <li>Afficher Les Listes De Personnes B2B |
 | Règles Journey Optimizer | Accéder aux règles de fréquence et les configurer (limites de communication). Ces autorisations doivent être limitées aux administrateurs de produit. | <li>Afficher les règles de fréquence <li>Gestion des règles de fréquence |
 
 >[!NOTE]
@@ -252,7 +253,7 @@ _Pour modifier les autorisations d&#39;un rôle :_
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
-   ![Experience Platform - Autorisations des Parcours B2B enregistrées pour le rôle Gestionnaire de canaux](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+   ![Experience Platform - Autorisations des Parcours B2B enregistrées pour le rôle Responsable de canal](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour revenir à la page de détails.
 
@@ -280,7 +281,7 @@ _Pour modifier les autorisations d&#39;un rôle :_
 
 ### Ajouter des groupes d’utilisateurs à un rôle {#add-user-groups-to-a-role}
 
-Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de_](https://helpx.adobe.com/fr/enterprise/using/users.html){target="_blank"} dans la documentation d’Admin Console.
+Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de Adobe Admin Console_](https://helpx.adobe.com/fr/enterprise/using/users.html){target="_blank"} dans la documentation d’Admin Console.
 
 ![Exigences relatives au rôle d’administrateur](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système ou un administrateur de produit AEP peut effectuer les étapes suivantes.
 
@@ -332,7 +333,7 @@ Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs 
 
 1. Ajoutez les autorisations de produit B2B :
 
-   Pour déterminer les fonctionnalités de produit souhaitées pour le rôle, reportez-vous à la liste des autorisations de produit [B2B](#b2b-product-permissions).
+   Pour déterminer les fonctionnalités de produit souhaitées pour le rôle, reportez-vous à la liste des [autorisations de produit B2B](#b2b-product-permissions).
 
    Dans la liste _[!UICONTROL Ressources]_ sur la gauche, localisez les éléments **[!UICONTROL B2B]** et cliquez sur l’icône _Ajouter_ (**+**) pour ajouter chaque attribut que vous souhaitez activer pour le rôle.
 
@@ -344,7 +345,7 @@ Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs 
 
 1. Cliquez sur **[!UICONTROL Ajouter des groupes]**.
 
-   ![Experience Platform - sélectionnez un groupe d’utilisateurs pour le rôle personnalisé](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - sélectionner un groupe d’utilisateurs pour le rôle personnalisé](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
 1. Cochez la case en regard du groupe d’utilisateurs que vous avez créé précédemment dans Admin Console.
 
