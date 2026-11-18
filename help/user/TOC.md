@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentation de Journey Optimizer B2B Edition
 user-guide-description: Découvrez Adobe Journey Optimizer B2B Edition et comment l’utiliser pour orchestrer les parcours des comptes et des groupes d’achat grâce à une IA générative intégrée et une automatisation de pointe.
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 79%
+source-wordcount: '469'
+ht-degree: 78%
 ---
 
 # Guide d’utilisation de Journey Optimizer B2B Edition {#user}
@@ -47,9 +47,9 @@ ht-degree: 79%
 + Gestion des parcours {#journeys}
   + [Parcours compte et personne](./journeys/journeys-overview.md)
   + [Créer et publier un parcours](./journeys/create-publish-journey.md)
-  + {hide-from-toc}[Contrôle de trafic de Parcours &#x200B;](./journeys/journey-traffic-control.md)
+  + {hide-from-toc}[Contrôle de trafic de Parcours](./journeys/journey-traffic-control.md)
   + [rentrée de parcours](./journeys/journey-re-entry.md)
-  + {hide-from-toc}[nœuds de Parcours &#x200B;](./journeys/journey-nodes.md)
+  + {hide-from-toc}[nœuds de Parcours](./journeys/journey-nodes.md)
   + Nœuds de parcours {#journey-nodes}
     + [Audience de compte](./journeys/account-audience-nodes.md)
     + [Audience de la personne](./journeys/person-audience-nodes.md)
@@ -103,6 +103,11 @@ ht-degree: 79%
   + Listes de comptes {#account-lists}
     + [Présentation](./accounts/account-lists.md)
     + [Utilisation dans les parcours](./accounts/account-lists-journeys.md)
+  + Listes de personnes {#people-lists}
+    + [Présentation](./audiences/people-lists.md)
+    + [Listes de personnes statiques](./audiences/people-lists-static.md)
+    + [Listes de personnes dynamiques](./audiences/people-lists-dynamic.md)
+    + [Utilisation dans les parcours](./audiences/people-lists-journeys.md)
   + Expérience commerciale {#sales-experience}
     + [Détails du compte](./accounts/account-details.md)
     + [Détails du groupe d’achat](./buying-groups/buying-group-details.md)
@@ -171,7 +176,7 @@ ht-degree: 79%
     + [Données d’intention](./admin/intent-data.md)
     + [Pondération du score d’engagement](./admin/engagement-score-weighting.md)
     + [Actions externes](./admin/configure-external-actions.md)
-    + {hide-from-toc}[Configurer des flux de données pour la collecte d’événements](./data/aep-event-collection.md)
+    + {hide-from-toc}[Configurer les flux de données pour la collecte d’événements](./data/aep-event-collection.md)
   + Canaux {#channels}
     + [Configurations des e-mails](./admin/configure-channels-emails.md)
     + [Configuration des SMS](./admin/configure-channels-sms.md)

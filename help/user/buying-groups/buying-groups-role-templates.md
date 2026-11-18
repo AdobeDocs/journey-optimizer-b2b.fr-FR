@@ -18,9 +18,9 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1454'
 ht-degree: 5%
 ---
 # Modèles de rôles du groupe d’achat
@@ -33,15 +33,15 @@ Sur un marché B2B, plusieurs personnes prennent généralement des décisions d
 
 ## Compétences d’audience
 
-Utilisez les [compétences d’audience pour les comptes et les personnes B2B](../agents/audience-agent-b2b.md) pour générer un modèle de rôle de groupe d’achats à partir de la détection d’intention propriétaire et du mappage de persona. Dans le flux guidé, vous pouvez identifier les personnes liées à un produit, passer en revue les mappages rôle-à-rôle recommandés par l’IA et affiner le modèle avec du langage naturel avant de le publier.
+Utilisez les [compétences d’audience pour les comptes B2B et les personnes](../agents/audience-agent-b2b.md) pour générer un modèle de rôle de groupe d’achats à partir de la détection d’intention propriétaire et du mappage de persona. Dans le flux guidé, vous pouvez identifier les personnes liées à un produit, passer en revue les mappages rôle-à-rôle recommandés par l’IA et affiner le modèle avec du langage naturel avant de le publier.
 
 **Invites à essayer :**
 
 * Créer un modèle de groupe d&#39;achats pour `<product>`
-* Ajouter un `<role>` mappé à `<persona>`
-* Supprimer `<role>`/`<persona>`
+* Ajouter `<role>` mappé à `<persona>`
+* Supprimer `<role>` / `<persona>`
 
-![Modèle de rôle de groupe d’achat généré avec les compétences d’audience.](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![Modèle de rôle de groupe d&#39;achat généré avec des compétences d&#39;audience.](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Utilisez les [compétences d’audience pour les comptes et les personnes B2B](.
 >
 >Avant de créer un modèle de rôles, configurez les données que les conditions de rôle peuvent utiliser :
 >
->* [Mappage des champs de profil de personne](../admin/field-mapping.md#xdm-business-person-attributes) pour les filtres d’attributs de personne
+>* [Mappage des champs de profil de personne](../admin/field-mapping.md#xdm-business-person-attributes) pour les filtres d’attribut de personne
 >* [Données d’intention](../admin/intent-data.md) si vous utilisez des filtres d’intention dans des conditions de rôle
 >* [Rôles de groupes d&#39;achats personnalisés](./default-custom-roles.md#create-a-custom-role) (facultatif) si vous avez besoin de rôles au-delà des six valeurs par défaut
 
@@ -57,7 +57,7 @@ Utilisez les [compétences d’audience pour les comptes et les personnes B2B](.
 
 1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Achats de groupes]**.
 
-1. Sur la page _[!UICONTROL Groupes d’achat]_, sélectionnez l’onglet **[!UICONTROL Modèles de rôles]**.
+1. Sur la page _[!UICONTROL Groupes d&#39;achat]_, sélectionnez l&#39;onglet **[!UICONTROL Modèles de rôles]**.
 
    ![Onglet d’inventaire des modèles de rôles](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
@@ -72,19 +72,19 @@ Utilisez les [compétences d’audience pour les comptes et les personnes B2B](.
    * [!UICONTROL Publié sur]
    * [!UICONTROL Publié par]
 
-   Le système trie la liste par _[!UICONTROL Dernière mise à jour]_ par défaut. Tous les modèles de rôle ont le statut `Draft` ou `Live`.
+   Le système trie la liste par _[!UICONTROL Dernière mise à jour]_ par défaut. Tous les modèles de rôle ont un statut de `Draft` ou `Live`.
 
 1. Pour filtrer la liste par nom, utilisez le champ de recherche situé en haut de la liste.
 
    Saisissez les premiers caractères du nom pour réduire la liste affichée aux éléments correspondants.
 
-   ![Rôles Filtrage des modèles par chaîne de recherche](assets/roles-templates-search.png){width="700" zoomable="yes"}
+   ![Filtrage des modèles de rôles par chaîne de recherche](assets/roles-templates-search.png){width="700" zoomable="yes"}
 
 ## Création d’un modèle de rôles
 
 1. Dans l’onglet _[!UICONTROL Modèles de rôles]_, cliquez sur **[!UICONTROL Créer un modèle]** dans le coin supérieur droit.
 
-1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** (obligatoire) et un **[!UICONTROL Description]** (facultatif) uniques pour le modèle.
+1. Dans la boîte de dialogue, saisissez un **[!UICONTROL Nom]** unique (obligatoire) et une **[!UICONTROL Description]** (facultatif) pour le modèle.
 
    ![Boîte de dialogue Créer un modèle de rôles](assets/roles-template-create-dialog.png){width="400"}
 
@@ -100,10 +100,10 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
 | Type | Conditions |
 | ---- | --------- |
-| [!UICONTROL Attributs de personne] | Attributs du [profil de la personne](../admin/field-mapping.md#xdm-business-person-attributes), notamment : <li>Ville <li>Pays <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État |
-| [!UICONTROL Objets personnalisés] > A `<custom object>` | [!BADGE Beta &#x200B;]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ou la personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans les [Schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas). |
-| Filtres spéciaux | <li>Membre de la liste (obsolète) <li>Membre du programme (obsolète) |
-| Données d’intention | <li>Intention de la catégorie <li>Intention du produit <li><br/> d’intention du mot-clé (voir [_Données d’intention_](../admin/intent-data.md)) |
+| [!UICONTROL Attributs de personne] | Attributs du profil de [personne](../admin/field-mapping.md#xdm-business-person-attributes), notamment : <li>Ville <li>Pays <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite <li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État |
+| [!UICONTROL Objets Personnalisés] > Contient `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Fonctionnalité Beta"} Le compte ou la personne possède ou non des enregistrements de schéma relationnel. Il peut également être évalué par rapport à l’un des critères d’objet personnalisés sélectionnés, tels que configurés dans les [schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas). |
+| Données d’intention | <li>Intention de la catégorie <li>Intention du produit <li>Intention du mot-clé <br/> (voir [_Données d’intention_](../admin/intent-data.md)) |
+| Filtres spéciaux | <li>[!UICONTROL A Une Relation De Compte] <li>[!UICONTROL Membre du groupe d&#39;achat] <li>[!UICONTROL Membre de la liste] (obsolète) <li>[!UICONTROL Membre de l’audience du profil] <li>[!UICONTROL Membre de la liste dynamique des personnes] <li>[!UICONTROL Membre de la liste statique des personnes] |
 
 #### Définir les propriétés du rôle
 
@@ -121,9 +121,9 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
      Par exemple, un modèle de rôle avec des rôles essentiels, importants et normaux est converti en 100, 80 et 60 sur 240.
 
-   * **[!UICONTROL Ajouter des conditions pour l&#39;affectation automatique]** - Cochez cette case pour ajouter des conditions pour l&#39;affectation automatique de membres au groupe d&#39;achats qui correspondent à la condition. Si la case n’est pas cochée, il n’est PAS nécessaire d’ajouter des conditions.
+   * **[!UICONTROL Ajouter des conditions pour l&#39;affectation automatique]** - Cochez cette case pour ajouter des conditions pour l&#39;affectation automatique de membres au groupe d&#39;achat qui correspondent à la condition. Si la case n’est pas cochée, il n’est PAS nécessaire d’ajouter des conditions.
 
-   * **[!UICONTROL Obligatoire pour le score d&#39;exhaustivité]** - Cochez cette case pour le rôle si vous souhaitez qu&#39;il soit obligatoire pour le calcul d&#39;un score d&#39;exhaustivité.
+   * **[!UICONTROL Obligatoire pour le score d&#39;exhaustivité]** - Cochez cette case pour le rôle si vous souhaitez qu&#39;il soit obligatoire pour calculer un score d&#39;exhaustivité.
 
 #### Ajout de conditions pour l’affectation automatique
 
@@ -131,7 +131,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
    * Dans la boîte de dialogue _[!UICONTROL Condition]_, développez la liste des **[!UICONTROL attributs de personne]** et recherchez un attribut que vous souhaitez utiliser pour correspondre au rôle. Faites-la glisser vers la droite et déposez-la dans l’espace de filtrage.
 
-     ![Attribut glisser-déposer de condition d’ajout de modèle de rôles](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![Attribut de glisser-déposer de condition d’ajout de modèle de rôles](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
      >[!NOTE]
      >
@@ -141,11 +141,11 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
      Dans l’exemple suivant, l’attribut Titre de la fonction est utilisé pour identifier une correspondance pour le décideur. Toute valeur pour le titre commençant par `Director` ou `Sr Director` est évaluée comme vraie pour la condition.
 
-     ![Exemple de condition de modèle de rôles utilisant le titre de la fonction](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+     Exemple de condition de modèle de rôles ![utilisant le titre de la fonction](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * S’il existe des objets personnalisés configurés liés aux personnes [définis dans les schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas), développez la liste des **[!UICONTROL objets personnalisés]** pour les utiliser dans la condition de rôle.
+   * S’il existe des objets personnalisés configurés liés aux personnes [ définies dans les schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas), développez la liste des **[!UICONTROL objets personnalisés]** pour les utiliser dans la condition de rôle.
 
-     ![Le modèle Rôles ajoute une condition d’objet personnalisée](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
+     ![Le modèle de rôles ajoute une condition d&#39;objet personnalisée](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
    * Si nécessaire, ajoutez un autre attribut/objet et une condition qui affine davantage les critères d’une correspondance avec le rôle.
 
@@ -153,7 +153,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
 #### Ajouter d’autres rôles
 
-1. Pour chaque rôle supplémentaire que vous souhaitez inclure pour le modèle, cliquez sur **[!UICONTROL Ajouter un autre rôle]** et répétez les étapes sous **Définir les propriétés du rôle** et **Ajouter des conditions pour l’affectation automatique** pour définir le rôle.
+1. Pour chaque rôle supplémentaire que vous souhaitez inclure pour le modèle, cliquez sur **[!UICONTROL Ajouter un autre rôle]** et répétez les étapes décrites sous **Définir des propriétés de rôle** et **Ajouter des conditions pour l’affectation automatique** pour définir le rôle.
 
    ![Modèle de rôles avec plusieurs rôles définis](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -163,7 +163,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
 Par défaut, l&#39;exhaustivité d&#39;un rôle est définie comme un membre affecté au rôle. Lorsque vous utilisez l&#39;exhaustivité du groupe d&#39;achats pour indiquer le niveau de préparation des ventes, utilisez ces paramètres pour aligner le score sur le nombre de membres requis pour fermer une opportunité.
 
-Par exemple, la conclusion d’une affaire pour votre solution _X_ nécessite l’identification et l’engagement de plusieurs décideurs marketing, car plusieurs équipes marketing au sein d’une organisation utilisent la solution. Dans ce cas, vous souhaitez augmenter le seuil de calcul d&#39;un groupe d&#39;achats _complet_ en exigeant au moins deux décideurs marketing.
+Par exemple, la conclusion d’une affaire pour votre solution _X_ nécessite l’identification et l’engagement de plusieurs décideurs marketing, car plusieurs équipes marketing d’une organisation utilisent la solution. Dans ce cas, vous souhaitez augmenter le seuil de calcul d&#39;un groupe d&#39;achats _complet_ en exigeant au moins deux décideurs marketing.
 
 Voir la section [Scores d’exhaustivité](./completeness-scores.md) pour obtenir des informations détaillées sur les notations et les calculs d’exhaustivité.
 
@@ -171,25 +171,25 @@ Voir la section [Scores d’exhaustivité](./completeness-scores.md) pour obteni
 
    ![Modèle de rôles - bouton Paramètres de score d&#39;exhaustivité](./assets/buying-group-details-edit-roles-completeness-settings.png){width="700" zoomable="yes"}
 
-1. Dans la boîte de dialogue, modifiez la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini, le cas échéant.
+1. Dans la boîte de dialogue, modifiez, si nécessaire, la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini.
 
-   Vous pouvez saisir la valeur ou cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
+   Vous pouvez saisir la valeur ou cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
 
-   ![Boîte de dialogue Paramètres de score d’exhaustivité du modèle de rôles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+   ![Boîte de dialogue des paramètres de score d&#39;exhaustivité du modèle de rôles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 ### Publication du modèle de rôles
 
-Si le modèle est prêt à l’emploi, cliquez sur **[!UICONTROL Publier]** en haut à droite.
+Si le modèle est prêt à être utilisé, cliquez sur **[!UICONTROL Publier]** en haut à droite.
 
-Pour rendre le modèle disponible à des fins d’association avec un intérêt de solution, publiez-le afin de définir le statut sur _Actif_. Au moins un rôle défini doit être défini pour publier le modèle de rôles.
+Pour rendre le modèle disponible pour association avec un intérêt de solution, publiez-le afin de définir le statut sur _Actif_. Au moins un rôle défini doit être défini pour publier le modèle de rôles.
 
-Après la publication, le statut du modèle est _En ligne_ dans l’onglet **[!UICONTROL Modèles de rôles]** et vous pouvez le sélectionner lorsque vous [créez une solution](./solution-interests.md).
+Après la publication, le statut du modèle est _Actif_ dans l’onglet **[!UICONTROL Modèles de rôles]** et vous pouvez le sélectionner lorsque vous [créez une solution intéressante](./solution-interests.md).
 
 ## Modifier un modèle de rôles de brouillon
 
-Lorsqu’un modèle de rôles est à l’état _Brouillon_, vous pouvez continuer à modifier les rôles définis. Toutes les modifications que vous apportez sont automatiquement enregistrées.
+Lorsqu&#39;un modèle de rôles est à l&#39;état _Brouillon_, vous pouvez continuer à modifier les rôles définis. Toutes les modifications que vous apportez sont automatiquement enregistrées.
 
 Modifiez les paramètres d’en-tête de la carte de rôle, tels que les exigences en matière de rôle, de pondération, d’affectation automatique ou d’exhaustivité.
 
@@ -197,7 +197,7 @@ Modifiez les paramètres d’en-tête de la carte de rôle, tels que les exigenc
 
 ### Modifier les conditions d’un rôle
 
-Pour modifier la logique de condition/filtrage de l’un des rôles, cliquez sur l’icône _Modifier_ ( ![icône Modifier](../assets/do-not-localize/icon-edit.svg) ) en haut à droite de la carte de rôle. Cette action ouvre l’espace de travail _[!UICONTROL Conditions]_ dans lequel vous pouvez modifier un filtre existant, ajouter ou supprimer un filtre ou modifier la logique du filtre.
+Pour modifier la logique de condition/filtrage de l’un des rôles, cliquez sur l’icône _Modifier_ ( ![icône Modifier](../assets/do-not-localize/icon-edit.svg) ) en haut à droite de la carte des rôles. Cette action ouvre l’espace de travail _[!UICONTROL Conditions]_ dans lequel vous pouvez modifier un filtre existant, ajouter ou supprimer un filtre ou modifier la logique du filtre.
 
 ### Supprimer une carte de rôle
 
@@ -211,18 +211,18 @@ Vous pouvez réorganiser les rôles au sein du modèle, ce qui détermine la pri
 
 ## Suppression d’un modèle de rôles
 
-Vous pouvez supprimer un modèle de rôles s’il a le statut _Brouillon_.
+Vous pouvez supprimer un modèle de rôles s&#39;il a le statut _Brouillon_.
 
 1. Sélectionnez le modèle de rôles dans la liste pour l’ouvrir.
 
 1. Cliquez sur **[!UICONTROL Supprimer]** en haut à droite.
 
-   ![&#x200B; Boîte de dialogue de confirmation Supprimer le modèle de rôle &#x200B;](./assets/roles-template-delete.png){width="700"}
+   ![Boîte de dialogue de confirmation Supprimer le modèle de rôle](./assets/roles-template-delete.png){width="700"}
 
 1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Supprimer]** pour confirmer.
 
-   Une fois que vous avez confirmé, le modèle de rôles est supprimé de la liste d’inventaire **[!UICONTROL Modèles de rôles]**.
+   Une fois que vous avez confirmé, le modèle de rôles est supprimé de la liste d&#39;inventaire **[!UICONTROL Modèles de rôles]**.
 
 ## Vidéo de présentation {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453301/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
