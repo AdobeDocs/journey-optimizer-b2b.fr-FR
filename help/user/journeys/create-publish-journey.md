@@ -145,7 +145,7 @@ Les libellés de nœud sont disponibles dans le schéma `AJOB2B - 1.5.4 - journe
 
 ## Ajouter et supprimer un chemin d’accès
 
-1. Dans la carte de parcours, cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et ajoutez le nœud de chemin de division [](./split-merge-paths-nodes.md#split-paths).
+1. Dans la carte de parcours, cliquez sur l’icône plus ( **+** ) sur le chemin d’accès et ajoutez le nœud de chemin de division [&#128279;](./split-merge-paths-nodes.md#split-paths).
 
 1. Dans les propriétés du nœud sur la droite, sélectionnez **[!UICONTROL Compte]**.
 
