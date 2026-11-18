@@ -143,7 +143,7 @@ Chaque rôle que vous définissez pour le modèle utilise un ensemble de filtres
 
      Exemple de condition de modèle de rôles ![utilisant le titre de la fonction](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * S’il existe des objets personnalisés configurés liés aux personnes [ définies dans les schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas), développez la liste des **[!UICONTROL objets personnalisés]** pour les utiliser dans la condition de rôle.
+   * S’il existe des objets personnalisés configurés liés aux personnes [&#x200B; définies dans les schémas relationnels XDM](../admin/xdm-field-management.md#relational-schemas), développez la liste des **[!UICONTROL objets personnalisés]** pour les utiliser dans la condition de rôle.
 
      ![Le modèle de rôles ajoute une condition d&#39;objet personnalisée](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
 
@@ -173,7 +173,7 @@ Voir la section [Scores d’exhaustivité](./completeness-scores.md) pour obteni
 
 1. Dans la boîte de dialogue, modifiez, si nécessaire, la valeur **[!UICONTROL Membres requis]** pour chaque rôle défini.
 
-   Vous pouvez saisir la valeur ou cliquer sur **&amp;plus;** ou **−** pour augmenter ou diminuer la valeur.
+   Vous pouvez saisir la valeur ou cliquer sur **&plus;** ou **−** pour augmenter ou diminuer la valeur.
 
    ![Boîte de dialogue des paramètres de score d&#39;exhaustivité du modèle de rôles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 

@@ -50,7 +50,7 @@ Un nœud _Chemins partagés_ définit un ou plusieurs chemins segmentés en fonc
 
 Les chemins de division par comptes peuvent inclure des actions et des événements de compte et de personnes. Ces chemins peuvent être divisés davantage.
 
-_**Fonctionnement d’un chemin de partage par nœud de comptes**_
+_&#x200B;**Fonctionnement d’un chemin de partage par nœud de comptes**&#x200B;_
 
 * Chaque chemin d’accès que vous ajoutez comprend un nœud d’extrémité avec la possibilité d’ajouter des nœuds à chaque arête.
 * Les nœuds Fractionnés par compte peuvent être imbriqués (vous pouvez fractionner le chemin d’accès par comptes à plusieurs reprises).
@@ -149,7 +149,7 @@ _(parcours de compte et de personne)_
 
 Les chemins fractionnés par personnes ne peuvent inclure que des actions de personnes. Ces chemins ne peuvent pas être fractionnés à nouveau et rejoints automatiquement.
 
-_**Fonctionnement d’un chemin de partage par nœud de personnes**_
+_&#x200B;**Fonctionnement d’un chemin de partage par nœud de personnes**&#x200B;_
 
 * Les nœuds fractionnés par personnes fonctionnent dans une combinaison de division/fusion _nœud groupé_. Les chemins de division fusionnent automatiquement afin que toutes les personnes puissent passer à l’étape suivante sans perdre le contexte de leur compte.
 * Les nœuds Fractionné par personnes ne peuvent pas être imbriqués (vous ne pouvez pas ajouter de chemin de fractionnement pour les personnes sur un chemin qui se trouve dans ce nœud groupé).
@@ -250,7 +250,7 @@ Vous pouvez affiner davantage le filtre à l&#39;aide de contraintes spécifique
 
 >[!BEGINSHADEBOX « Filtrage d’inactivité »]
 
-Pour chacun des filtres _[!UICONTROL Historique des événements]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Pour créer un chemin d’accès pour les personnes qui _**n’ont pas ouvert d’e-mail**_, ajoutez le filtre _[!UICONTROL E-mail de marketing direct ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail.
+Pour chacun des filtres _[!UICONTROL Historique des événements]_, vous pouvez activer l’option **[!UICONTROL Passer au filtre d’inactivité]**. Cette option transforme le filtre en évaluation d’une absence de ce type d’activité. Pour créer un chemin d’accès pour les personnes qui _&#x200B;**n’ont pas ouvert d’e-mail**&#x200B;_, ajoutez le filtre _[!UICONTROL E-mail de marketing direct ouvert]_. Activez l’option d’inactivité et indiquez l’adresse e-mail.
 
 ![Partage du chemin par condition d&#39;inactivité des personnes](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
