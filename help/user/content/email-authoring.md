@@ -39,7 +39,7 @@ Après avoir [ajouté une ressource e-mail à un nœud d’action de parcours](.
 
 Cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]** dans l’onglet _[!UICONTROL Détails]_ du panneau de droite.
 
-![Cliquez sur Modifier le contenu de l’e-mail ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Cliquez sur Modifier le contenu de l’e-mail &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Cette action lance les outils de conception d’e-mail, dans lesquels vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
