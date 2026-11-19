@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 3%
 ---
 # Création de modèle d’e-mail
 
-Après avoir [créé un modèle d’e-mail](./email-templates.md#create-an-email-template), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre modèle d’e-mail.
+Après avoir [créé un modèle d’e-mail](./email-templates.md#create-an-email-template), utilisez l’espace de conception visuelle pour définir la disposition et le contenu de votre modèle d’e-mail.
+
+## Ajout de modules
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Ajouter la structure et le contenu {#structure-content}
 
@@ -45,9 +49,9 @@ Après avoir [créé un modèle d’e-mail](./email-templates.md#create-an-email
 
 Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception de modèle d’e-mail. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de niveau supérieur avant d’inclure des composants, tels que des images, des boutons et du texte.
 
-Avec au moins un composant de contenu dans la zone de travail, sélectionnez le composant **[!UICONTROL Corps]** dans l’arborescence de navigation de gauche pour accéder à l’éditeur CSS personnalisé.
+Avec au moins un composant de contenu dans la zone de travail, sélectionnez le composant **[!UICONTROL Body]** dans l’arborescence de navigation de gauche pour accéder à l’éditeur CSS personnalisé.
 
-![Accès aux styles de corps](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+![Accéder aux styles de corps](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -55,7 +59,7 @@ Avec au moins un composant de contenu dans la zone de travail, sélectionnez le 
 
 >[!NOTE]
 >
->Les fragments ne sont pas compatibles entre le _mode Thème_ et le _mode Manuel_ dans le contenu de l’e-mail. Pour utiliser un fragment dans le contenu d’e-mail auquel un thème est appliqué, le fragment doit également être créé en _mode Thème_.
+>Les fragments ne sont pas compatibles entre le _mode Thème_ et le _mode manuel_ dans le contenu de l’e-mail. Pour utiliser un fragment dans le contenu d’e-mail auquel un thème est appliqué, le fragment doit également être créé en _mode Thème_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -79,11 +83,11 @@ Une fois le modèle enregistré, il s’affiche dans la page des détails du fra
 
 ### Appliquer le style du mode sombre
 
-Utilisez le _mode sombre_ pour vérifier l’affichage de votre e-mail en fonction d’un thème sombre dans un client de messagerie. Un mode ou un thème sombre permet à un client de messagerie ou à une application de support d’afficher les e-mails avec des arrière-plans plus sombres et des couleurs plus claires pour le texte, les boutons et d’autres éléments visuels. Dans la partie supérieure droite de la zone de travail de conception, définissez le sélecteur sur _Mode sombre_ (![icône Mode sombre](../assets/do-not-localize/icon-content-dark-mode.svg) ). Ensuite, prévisualisez et définissez les paramètres personnalisés spécifiques utilisés pour l’affichage par les clients de messagerie de support lorsque leur thème sombre est activé.
+Utilisez le _mode sombre_ pour vérifier l’affichage de votre e-mail en fonction d’un thème sombre dans un client de messagerie. Un mode ou un thème sombre permet à un client de messagerie ou à une application de support d’afficher les e-mails avec des arrière-plans plus sombres et des couleurs plus claires pour le texte, les boutons et d’autres éléments visuels. Dans la partie supérieure droite de la zone de travail de conception, définissez le sélecteur sur _Mode sombre_ ( ![Icône Mode sombre](../assets/do-not-localize/icon-content-dark-mode.svg) ). Ensuite, prévisualisez et définissez les paramètres personnalisés spécifiques utilisés pour l’affichage par les clients de messagerie de support lorsque leur thème sombre est activé.
 
 ![Zone de travail de conception des e-mails affichant le sélecteur en mode sombre et le contenu des e-mails affiché en mode sombre](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
 
-Pour plus d’informations sur le style du mode sombre et les bonnes pratiques, voir [Mode sombre pour le contenu des e-mails](./email-dark-mode.md).
+Pour plus d’informations sur le style du mode sombre et les bonnes pratiques, consultez [Mode sombre pour le contenu des e-mails](./email-dark-mode.md).
 
 ## Afficher les options
 
@@ -92,7 +96,7 @@ Tirez parti des options d’affichage et de validation du contenu disponibles da
 * Effectuez un zoom avant/arrière sur le contenu dans les options de zoom prédéfinies.
 
 * Basculez vers l’affichage du contenu sur les ordinateurs de bureau, les appareils mobiles ou en texte seul/texte brut.
-  * Cliquez sur l’icône _Œil_ pour afficher un aperçu du contenu sur tous les appareils.
+  * Cliquez sur l’icône _Oeil_ pour obtenir un aperçu du contenu sur tous les appareils.
   * Sélectionnez l’un des appareils prêts à l’emploi ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
 
 ### Plus d’options
@@ -102,6 +106,6 @@ Dans le menu _[!UICONTROL Plus...]_ situé en haut de l’espace de conception d
 ![Cliquez sur Plus pour accéder aux actions du modèle](./assets/visual-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Réinitialiser le modèle]** - Cliquez sur cette option pour vider la zone de travail de conception et redémarrer la création de contenu.
-* **[!UICONTROL Enregistrer en tant que fragment]** - Enregistrez la totalité ou une partie du modèle en tant que fragment à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le fragment et enregistrez-le dans la liste des fragments disponibles.
+* **[!UICONTROL Enregistrer en tant que fragment]** - Enregistrez tout ou partie du modèle en tant que fragment à réutiliser dans plusieurs e-mails ou modèles d’e-mail. Indiquez un nom et une description pour le fragment et enregistrez-le dans la liste des fragments disponibles.
 * **[!UICONTROL Modifier votre conception]** - Revenez à la page _Concevoir votre e-mail_. De là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception. Vous pouvez également choisir de concevoir le contenu à partir de zéro avec une zone de travail vierge (_mode classique_) ou à l’aide d’un [thème de marque](./brand-themes.md) (_mode thème_).
-* **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML présenté sous la forme d’un fichier zip.
+* **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML compressé sous la forme d’un fichier zip.

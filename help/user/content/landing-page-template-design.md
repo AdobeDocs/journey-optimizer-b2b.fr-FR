@@ -31,14 +31,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 7%
 ---
 # Conception de modèle de page de destination
 
-Après avoir [créé un modèle de page de destination](./landing-page-templates.md#create-a-landing-page-template), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre modèle de page.
+Après avoir [créé un modèle de page de destination](./landing-page-templates.md#create-a-landing-page-template), utilisez l’espace de conception visuelle pour définir la disposition et le contenu de votre modèle de page.
+
+## Ajout de modules
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Ajouter la structure et le contenu {#structure-content-landing-page}
 
@@ -48,9 +52,9 @@ Après avoir [créé un modèle de page de destination](./landing-page-templates
 
 Vous pouvez ajouter votre propre CSS personnalisé directement dans l’espace de conception de la page de destination. Utilisez le CSS personnalisé pour appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu. Il est recommandé d’ajouter ce style de niveau supérieur avant d’inclure des composants, tels que des images, des boutons et du texte.
 
-Avec au moins un composant de contenu dans la zone de travail, sélectionnez le composant **[!UICONTROL Corps]** dans l’arborescence de navigation de gauche pour accéder à l’éditeur CSS personnalisé.
+Avec au moins un composant de contenu dans la zone de travail, sélectionnez le composant **[!UICONTROL Body]** dans l’arborescence de navigation de gauche pour accéder à l’éditeur CSS personnalisé.
 
-![Accès aux styles de corps](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+![Accéder aux styles de corps](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -88,7 +92,7 @@ Tirez parti des options d’affichage et de validation du contenu disponibles da
 * Effectuez un zoom avant/arrière sur le contenu dans les options de zoom prédéfinies.
 
 * Basculez vers l’affichage du contenu sur les ordinateurs de bureau, les appareils mobiles ou en texte seul/texte brut.
-  * Cliquez sur l’icône _Affichage_ pour afficher un aperçu du contenu sur tous les appareils.
+  * Cliquez sur l’icône _Afficher_ pour obtenir un aperçu du contenu sur tous les appareils.
   * Sélectionnez l’un des appareils prêts à l’emploi ou saisissez des dimensions personnalisées pour prévisualiser le contenu.
 
 ### Plus d’options
@@ -97,7 +101,7 @@ Dans le menu _[!UICONTROL Plus...]_ situé en haut de l’espace de conception v
 
 ![Cliquez sur Plus pour accéder aux actions du modèle](./assets/landing-page-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Réinitialiser la page de destination]** - Cliquez sur cette option pour vider la zone de travail de conception visuelle de son contenu et redémarrer la création de votre contenu de page.
+* **[!UICONTROL Réinitialiser la page de destination]** - Cliquez sur cette option pour vider la zone de travail de conception visuelle de sa substance et recommencer à créer le contenu de votre page.
 * **[!UICONTROL Modifier votre conception]** - Revenez à la page d’accueil _[!UICONTROL Créer votre page de destination principale]_. À partir de là, vous pouvez choisir un autre modèle pour redémarrer le processus de conception ou choisir de concevoir la page à partir de zéro dans une zone de travail vierge.
 <!-- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
-* **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML présenté sous la forme d’un fichier zip.
+* **[!UICONTROL Exporter HTML]** - Téléchargez le contenu de la zone de travail visuelle sur votre système local au format HTML compressé sous la forme d’un fichier zip.

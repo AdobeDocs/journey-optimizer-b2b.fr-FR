@@ -30,14 +30,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 6%
 ---
 # Création de fragments
 
-Après avoir [créé un fragment](./fragments.md#create-fragments), utilisez l’espace de conception visuelle pour créer les composants de structure et de contenu dans votre fragment.
+Après avoir [créé un fragment](./fragments.md#create-fragments), utilisez l’espace de conception visuelle pour définir la disposition et le contenu de votre fragment.
+
+## Ajout de modules
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Ajouter la structure et le contenu {#design-fragment}
 
@@ -57,13 +61,13 @@ Après avoir [créé un fragment](./fragments.md#create-fragments), utilisez l�
 
 ## Contenu conditionnel
 
-Pour ajouter du contenu conditionnel qui adapte le contenu aux profils ciblés en fonction de règles, sélectionnez un composant de contenu et cliquez sur le bouton **[!UICONTROL Activer le contenu conditionnel]** dans la barre d’outils du composant. Lorsque le fragment publié est inclus dans un e-mail, les règles conditionnelles déterminent la variante d’un composant conditionnel rendu dans l’e-mail.
+Pour ajouter du contenu conditionnel qui adapte le contenu aux profils ciblés en fonction de règles, sélectionnez un composant de contenu et cliquez sur le bouton **[!UICONTROL Activer le contenu conditionnel]** dans la barre d’outils de composants. Lorsque le fragment publié est inclus dans un e-mail, les règles conditionnelles déterminent la variante d’un composant conditionnel rendu dans l’e-mail.
 
-Pour plus d’informations, voir [_Contenu conditionnel_](./conditional-content.md).
+Pour plus d&#39;informations, voir [_Contenu conditionnel_](./conditional-content.md).
 
 ## Activer la personnalisation des fragments
 
-Lorsqu’un auteur ajoute un fragment à un [e-mail](./email-authoring.md#add-fragments) ou [modèle d’e-mail](./email-template-authoring.md#add-fragments), le système verrouille le contenu du fragment par défaut. Toutes les modifications apportées au fragment publié sont automatiquement propagées à toutes les ressources de contenu dans lesquelles le fragment est utilisé. Lorsque vous désignez un paramètre pour un composant du fragment comme modifiable, l’auteur de l’e-mail ou du modèle peut spécifier une valeur de champ personnalisé spécifique à ses besoins. Cet indicateur de personnalisation est limité aux composants visuels d’image, de texte et de bouton.
+Lorsqu’un auteur ajoute un fragment à un [modèle d’e-mail](./email-authoring.md#add-fragments) ou [modèle d’e-mail](./email-template-authoring.md#add-fragments), le système verrouille le contenu du fragment par défaut. Toutes les modifications apportées au fragment publié sont automatiquement propagées à toutes les ressources de contenu dans lesquelles le fragment est utilisé. Lorsque vous désignez un paramètre pour un composant du fragment comme modifiable, l’auteur de l’e-mail ou du modèle peut spécifier une valeur de champ personnalisé spécifique à ses besoins. Cet indicateur de personnalisation est limité aux composants visuels d’image, de texte et de bouton.
 
 Par exemple, si vous concevez une bannière réutilisable qui comprend un bouton cliquable, vous pouvez désigner le paramètre d’URL du bouton comme étant modifiable. Les auteurs d’e-mails peuvent ensuite utiliser une URL plus spécifique à leur campagne par e-mail. Grâce à ces champs personnalisables, les équipes marketing peuvent gérer et personnaliser du contenu réutilisable sans avoir à créer des blocs de contenu entièrement nouveaux ou à interrompre les mises à jour héritées du fragment d’origine.
 
